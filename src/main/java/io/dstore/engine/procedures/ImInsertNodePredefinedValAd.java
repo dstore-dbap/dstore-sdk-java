@@ -19,17 +19,17 @@ public final class ImInsertNodePredefinedValAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId();
+    io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImInsertNodePredefinedValAd {
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
     boolean hasNewValue();
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
-    io.dstore.Values.stringValue getNewValue();
+    io.dstore.values.StringValue getNewValue();
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getNewValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getNewValueOrBuilder();
 
     /**
      * <code>optional bool new_value_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImInsertNodePredefinedValAd {
     boolean getNewValueNull();
 
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
      */
     boolean hasNewValueId();
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
      */
-    io.dstore.Values.integerValue getNewValueId();
+    io.dstore.values.IntegerValue getNewValueId();
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNewValueIdOrBuilder();
 
     /**
      * <code>optional bool new_value_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImInsertNodePredefinedValAd {
     boolean getNewValueIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 4;</code>
+     * <code>optional .dstore.values.StringValue country = 4;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 4;</code>
+     * <code>optional .dstore.values.StringValue country = 4;</code>
      */
-    io.dstore.Values.stringValue getCountry();
+    io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 4;</code>
+     * <code>optional .dstore.values.StringValue country = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
      * <code>optional bool country_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class ImInsertNodePredefinedValAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class ImInsertNodePredefinedValAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (newValue_ != null) {
                 subBuilder = newValue_.toBuilder();
               }
-              newValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              newValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newValue_);
                 newValue_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class ImInsertNodePredefinedValAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (newValueId_ != null) {
                 subBuilder = newValueId_.toBuilder();
               }
-              newValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              newValueId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newValueId_);
                 newValueId_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class ImInsertNodePredefinedValAd {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              country_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class ImInsertNodePredefinedValAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -259,23 +259,23 @@ public final class ImInsertNodePredefinedValAd {
     }
 
     public static final int NEW_VALUE_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue newValue_;
+    private io.dstore.values.StringValue newValue_;
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
     public boolean hasNewValue() {
       return newValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
-    public io.dstore.Values.stringValue getNewValue() {
-      return newValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newValue_;
+    public io.dstore.values.StringValue getNewValue() {
+      return newValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getNewValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getNewValueOrBuilder() {
       return getNewValue();
     }
 
@@ -289,23 +289,23 @@ public final class ImInsertNodePredefinedValAd {
     }
 
     public static final int NEW_VALUE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue newValueId_;
+    private io.dstore.values.IntegerValue newValueId_;
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
      */
     public boolean hasNewValueId() {
       return newValueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getNewValueId() {
-      return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+    public io.dstore.values.IntegerValue getNewValueId() {
+      return newValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newValueId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNewValueIdOrBuilder() {
       return getNewValueId();
     }
 
@@ -319,23 +319,23 @@ public final class ImInsertNodePredefinedValAd {
     }
 
     public static final int COUNTRY_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue country_;
+    private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 4;</code>
+     * <code>optional .dstore.values.StringValue country = 4;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 4;</code>
+     * <code>optional .dstore.values.StringValue country = 4;</code>
      */
-    public io.dstore.Values.stringValue getCountry() {
-      return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+    public io.dstore.values.StringValue getCountry() {
+      return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 4;</code>
+     * <code>optional .dstore.values.StringValue country = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
@@ -792,29 +792,29 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -860,7 +860,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue newValue_ = null;
+      private io.dstore.values.StringValue newValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> newValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> newValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
       public boolean hasNewValue() {
         return newValueBuilder_ != null || newValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public io.dstore.Values.stringValue getNewValue() {
+      public io.dstore.values.StringValue getNewValue() {
         if (newValueBuilder_ == null) {
-          return newValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newValue_;
+          return newValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newValue_;
         } else {
           return newValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public Builder setNewValue(io.dstore.Values.stringValue value) {
+      public Builder setNewValue(io.dstore.values.StringValue value) {
         if (newValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
       public Builder setNewValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (newValueBuilder_ == null) {
           newValue_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public Builder mergeNewValue(io.dstore.Values.stringValue value) {
+      public Builder mergeNewValue(io.dstore.values.StringValue value) {
         if (newValueBuilder_ == null) {
           if (newValue_ != null) {
             newValue_ =
-              io.dstore.Values.stringValue.newBuilder(newValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(newValue_).mergeFrom(value).buildPartial();
           } else {
             newValue_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
       public Builder clearNewValue() {
         if (newValueBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getNewValueBuilder() {
+      public io.dstore.values.StringValue.Builder getNewValueBuilder() {
         
         onChanged();
         return getNewValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNewValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNewValueOrBuilder() {
         if (newValueBuilder_ != null) {
           return newValueBuilder_.getMessageOrBuilder();
         } else {
           return newValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : newValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : newValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getNewValueFieldBuilder() {
         if (newValueBuilder_ == null) {
           newValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getNewValue(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue newValueId_ = null;
+      private io.dstore.values.IntegerValue newValueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newValueIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> newValueIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
        */
       public boolean hasNewValueId() {
         return newValueIdBuilder_ != null || newValueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getNewValueId() {
+      public io.dstore.values.IntegerValue getNewValueId() {
         if (newValueIdBuilder_ == null) {
-          return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+          return newValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newValueId_;
         } else {
           return newValueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
        */
-      public Builder setNewValueId(io.dstore.Values.integerValue value) {
+      public Builder setNewValueId(io.dstore.values.IntegerValue value) {
         if (newValueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
        */
       public Builder setNewValueId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (newValueIdBuilder_ == null) {
           newValueId_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
        */
-      public Builder mergeNewValueId(io.dstore.Values.integerValue value) {
+      public Builder mergeNewValueId(io.dstore.values.IntegerValue value) {
         if (newValueIdBuilder_ == null) {
           if (newValueId_ != null) {
             newValueId_ =
-              io.dstore.Values.integerValue.newBuilder(newValueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(newValueId_).mergeFrom(value).buildPartial();
           } else {
             newValueId_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
        */
       public Builder clearNewValueId() {
         if (newValueIdBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNewValueIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNewValueIdBuilder() {
         
         onChanged();
         return getNewValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNewValueIdOrBuilder() {
         if (newValueIdBuilder_ != null) {
           return newValueIdBuilder_.getMessageOrBuilder();
         } else {
           return newValueId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : newValueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNewValueIdFieldBuilder() {
         if (newValueIdBuilder_ == null) {
           newValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNewValueId(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue country_ = null;
+      private io.dstore.values.StringValue country_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 4;</code>
+       * <code>optional .dstore.values.StringValue country = 4;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 4;</code>
+       * <code>optional .dstore.values.StringValue country = 4;</code>
        */
-      public io.dstore.Values.stringValue getCountry() {
+      public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
-          return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+          return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
         } else {
           return countryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 4;</code>
+       * <code>optional .dstore.values.StringValue country = 4;</code>
        */
-      public Builder setCountry(io.dstore.Values.stringValue value) {
+      public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 4;</code>
+       * <code>optional .dstore.values.StringValue country = 4;</code>
        */
       public Builder setCountry(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (countryBuilder_ == null) {
           country_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 4;</code>
+       * <code>optional .dstore.values.StringValue country = 4;</code>
        */
-      public Builder mergeCountry(io.dstore.Values.stringValue value) {
+      public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (country_ != null) {
             country_ =
-              io.dstore.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(country_).mergeFrom(value).buildPartial();
           } else {
             country_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 4;</code>
+       * <code>optional .dstore.values.StringValue country = 4;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 4;</code>
+       * <code>optional .dstore.values.StringValue country = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCountryBuilder() {
+      public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
         onChanged();
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 4;</code>
+       * <code>optional .dstore.values.StringValue country = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
           return countryBuilder_.getMessageOrBuilder();
         } else {
           return country_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : country_;
+              io.dstore.values.StringValue.getDefaultInstance() : country_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 4;</code>
+       * <code>optional .dstore.values.StringValue country = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
           countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
                   isClean());
@@ -1489,17 +1489,17 @@ public final class ImInsertNodePredefinedValAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
      */
     boolean hasNewValueId();
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
      */
-    io.dstore.Values.integerValue getNewValueId();
+    io.dstore.values.IntegerValue getNewValueId();
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNewValueIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.im_InsertNodePredefinedVal_Ad.Response}
@@ -1571,11 +1571,11 @@ public final class ImInsertNodePredefinedValAd {
               break;
             }
             case 810: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (newValueId_ != null) {
                 subBuilder = newValueId_.toBuilder();
               }
-              newValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              newValueId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newValueId_);
                 newValueId_ = subBuilder.buildPartial();
@@ -2151,23 +2151,23 @@ public final class ImInsertNodePredefinedValAd {
     }
 
     public static final int NEW_VALUE_ID_FIELD_NUMBER = 101;
-    private io.dstore.Values.integerValue newValueId_;
+    private io.dstore.values.IntegerValue newValueId_;
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
      */
     public boolean hasNewValueId() {
       return newValueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
      */
-    public io.dstore.Values.integerValue getNewValueId() {
-      return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+    public io.dstore.values.IntegerValue getNewValueId() {
+      return newValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newValueId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNewValueIdOrBuilder() {
       return getNewValueId();
     }
 
@@ -3342,29 +3342,29 @@ public final class ImInsertNodePredefinedValAd {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.integerValue newValueId_ = null;
+      private io.dstore.values.IntegerValue newValueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> newValueIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> newValueIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
        */
       public boolean hasNewValueId() {
         return newValueIdBuilder_ != null || newValueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
        */
-      public io.dstore.Values.integerValue getNewValueId() {
+      public io.dstore.values.IntegerValue getNewValueId() {
         if (newValueIdBuilder_ == null) {
-          return newValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+          return newValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : newValueId_;
         } else {
           return newValueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
        */
-      public Builder setNewValueId(io.dstore.Values.integerValue value) {
+      public Builder setNewValueId(io.dstore.values.IntegerValue value) {
         if (newValueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3378,10 +3378,10 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
        */
       public Builder setNewValueId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (newValueIdBuilder_ == null) {
           newValueId_ = builderForValue.build();
           onChanged();
@@ -3392,13 +3392,13 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
        */
-      public Builder mergeNewValueId(io.dstore.Values.integerValue value) {
+      public Builder mergeNewValueId(io.dstore.values.IntegerValue value) {
         if (newValueIdBuilder_ == null) {
           if (newValueId_ != null) {
             newValueId_ =
-              io.dstore.Values.integerValue.newBuilder(newValueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(newValueId_).mergeFrom(value).buildPartial();
           } else {
             newValueId_ = value;
           }
@@ -3410,7 +3410,7 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
        */
       public Builder clearNewValueId() {
         if (newValueIdBuilder_ == null) {
@@ -3424,33 +3424,33 @@ public final class ImInsertNodePredefinedValAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNewValueIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNewValueIdBuilder() {
         
         onChanged();
         return getNewValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNewValueIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNewValueIdOrBuilder() {
         if (newValueIdBuilder_ != null) {
           return newValueIdBuilder_.getMessageOrBuilder();
         } else {
           return newValueId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : newValueId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : newValueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue new_value_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue new_value_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNewValueIdFieldBuilder() {
         if (newValueIdBuilder_ == null) {
           newValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNewValueId(),
                   getParentForChildren(),
                   isClean());
@@ -3536,19 +3536,19 @@ public final class ImInsertNodePredefinedValAd {
       "_InsertNodePredefinedVal_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\312\002\n" +
       "\nParameters\022;\n\026node_characteristic_id\030\001 " +
-      "\001(\0132\033.dstore.values.integerValue\022$\n\033node" +
+      "\001(\0132\033.dstore.values.IntegerValue\022$\n\033node" +
       "_characteristic_id_null\030\351\007 \001(\010\022-\n\tnew_va" +
-      "lue\030\002 \001(\0132\032.dstore.values.stringValue\022\027\n" +
+      "lue\030\002 \001(\0132\032.dstore.values.StringValue\022\027\n" +
       "\016new_value_null\030\352\007 \001(\010\0221\n\014new_value_id\030\003" +
-      " \001(\0132\033.dstore.values.integerValue\022\032\n\021new",
+      " \001(\0132\033.dstore.values.IntegerValue\022\032\n\021new",
       "_value_id_null\030\353\007 \001(\010\022+\n\007country\030\004 \001(\0132\032" +
-      ".dstore.values.stringValue\022\025\n\014country_nu" +
+      ".dstore.values.StringValue\022\025\n\014country_nu" +
       "ll\030\354\007 \001(\010\"\200\002\n\010Response\0228\n\020meta_informati" +
       "on\030\002 \003(\0132\036.dstore.engine.MetaInformation" +
       "\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Messag" +
       "e\022F\n\003row\030\004 \003(\01329.dstore.engine.im_Insert" +
       "NodePredefinedVal_Ad.Response.Row\0221\n\014new" +
-      "_value_id\030e \001(\0132\033.dstore.values.integerV" +
+      "_value_id\030e \001(\0132\033.dstore.values.IntegerV" +
       "alue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B^\n\033io.dstor" +
       "e.engine.proceduresZ?gosdk.dstore.de/eng",
       "ine/procedures/im_InsertNodePredefinedVa" +
@@ -3565,7 +3565,7 @@ public final class ImInsertNodePredefinedValAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_InsertNodePredefinedVal_Ad_Parameters_descriptor =
@@ -3586,7 +3586,7 @@ public final class ImInsertNodePredefinedValAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_InsertNodePredefinedVal_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

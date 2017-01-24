@@ -19,17 +19,17 @@ public final class ImGetRandomProductPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTreeNodeId();
+    io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImGetRandomProductPu {
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
      */
     boolean hasNumberOfRandomProducts();
     /**
-     * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
      */
-    io.dstore.Values.integerValue getNumberOfRandomProducts();
+    io.dstore.values.IntegerValue getNumberOfRandomProducts();
     /**
-     * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNumberOfRandomProductsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNumberOfRandomProductsOrBuilder();
 
     /**
      * <code>optional bool number_of_random_products_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImGetRandomProductPu {
     boolean getNumberOfRandomProductsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
      */
     boolean hasBinaryCharacteristicValueId();
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
      */
-    io.dstore.Values.integerValue getBinaryCharacteristicValueId();
+    io.dstore.values.IntegerValue getBinaryCharacteristicValueId();
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder();
 
     /**
      * <code>optional bool binary_characteristic_value_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImGetRandomProductPu {
     boolean getBinaryCharacteristicValueIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
      */
     boolean hasFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
      */
-    io.dstore.Values.integerValue getFilterByCharacteristicId();
+    io.dstore.values.IntegerValue getFilterByCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFilterByCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool filter_by_characteristic_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class ImGetRandomProductPu {
     boolean getFilterByCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+     * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
      */
     boolean hasFilterByCharacValue();
     /**
-     * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+     * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
      */
-    io.dstore.Values.stringValue getFilterByCharacValue();
+    io.dstore.values.StringValue getFilterByCharacValue();
     /**
-     * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+     * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getFilterByCharacValueOrBuilder();
 
     /**
      * <code>optional bool filter_by_charac_value_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class ImGetRandomProductPu {
     boolean getFilterByCharacValueNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
      */
     boolean hasNegateFilterByParams();
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
      */
-    io.dstore.Values.booleanValue getNegateFilterByParams();
+    io.dstore.values.BooleanValue getNegateFilterByParams();
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getNegateFilterByParamsOrBuilder();
 
     /**
      * <code>optional bool negate_filter_by_params_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class ImGetRandomProductPu {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class ImGetRandomProductPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (numberOfRandomProducts_ != null) {
                 subBuilder = numberOfRandomProducts_.toBuilder();
               }
-              numberOfRandomProducts_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              numberOfRandomProducts_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfRandomProducts_);
                 numberOfRandomProducts_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class ImGetRandomProductPu {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binaryCharacteristicValueId_ != null) {
                 subBuilder = binaryCharacteristicValueId_.toBuilder();
               }
-              binaryCharacteristicValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binaryCharacteristicValueId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCharacteristicValueId_);
                 binaryCharacteristicValueId_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class ImGetRandomProductPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (filterByCharacteristicId_ != null) {
                 subBuilder = filterByCharacteristicId_.toBuilder();
               }
-              filterByCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              filterByCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacteristicId_);
                 filterByCharacteristicId_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class ImGetRandomProductPu {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (filterByCharacValue_ != null) {
                 subBuilder = filterByCharacValue_.toBuilder();
               }
-              filterByCharacValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              filterByCharacValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacValue_);
                 filterByCharacValue_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class ImGetRandomProductPu {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (negateFilterByParams_ != null) {
                 subBuilder = negateFilterByParams_.toBuilder();
               }
-              negateFilterByParams_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              negateFilterByParams_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(negateFilterByParams_);
                 negateFilterByParams_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class ImGetRandomProductPu {
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue treeNodeId_;
+    private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTreeNodeId() {
-      return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+    public io.dstore.values.IntegerValue getTreeNodeId() {
+      return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
     }
 
@@ -333,23 +333,23 @@ public final class ImGetRandomProductPu {
     }
 
     public static final int NUMBER_OF_RANDOM_PRODUCTS_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue numberOfRandomProducts_;
+    private io.dstore.values.IntegerValue numberOfRandomProducts_;
     /**
-     * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
      */
     public boolean hasNumberOfRandomProducts() {
       return numberOfRandomProducts_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
      */
-    public io.dstore.Values.integerValue getNumberOfRandomProducts() {
-      return numberOfRandomProducts_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfRandomProducts_;
+    public io.dstore.values.IntegerValue getNumberOfRandomProducts() {
+      return numberOfRandomProducts_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfRandomProducts_;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNumberOfRandomProductsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNumberOfRandomProductsOrBuilder() {
       return getNumberOfRandomProducts();
     }
 
@@ -363,23 +363,23 @@ public final class ImGetRandomProductPu {
     }
 
     public static final int BINARY_CHARACTERISTIC_VALUE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue binaryCharacteristicValueId_;
+    private io.dstore.values.IntegerValue binaryCharacteristicValueId_;
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
      */
     public boolean hasBinaryCharacteristicValueId() {
       return binaryCharacteristicValueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getBinaryCharacteristicValueId() {
-      return binaryCharacteristicValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicValueId_;
+    public io.dstore.values.IntegerValue getBinaryCharacteristicValueId() {
+      return binaryCharacteristicValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicValueId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
       return getBinaryCharacteristicValueId();
     }
 
@@ -393,23 +393,23 @@ public final class ImGetRandomProductPu {
     }
 
     public static final int FILTER_BY_CHARACTERISTIC_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue filterByCharacteristicId_;
+    private io.dstore.values.IntegerValue filterByCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
      */
     public boolean hasFilterByCharacteristicId() {
       return filterByCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getFilterByCharacteristicId() {
-      return filterByCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+    public io.dstore.values.IntegerValue getFilterByCharacteristicId() {
+      return filterByCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : filterByCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
       return getFilterByCharacteristicId();
     }
 
@@ -423,23 +423,23 @@ public final class ImGetRandomProductPu {
     }
 
     public static final int FILTER_BY_CHARAC_VALUE_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue filterByCharacValue_;
+    private io.dstore.values.StringValue filterByCharacValue_;
     /**
-     * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+     * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
      */
     public boolean hasFilterByCharacValue() {
       return filterByCharacValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+     * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
      */
-    public io.dstore.Values.stringValue getFilterByCharacValue() {
-      return filterByCharacValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+    public io.dstore.values.StringValue getFilterByCharacValue() {
+      return filterByCharacValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : filterByCharacValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+     * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getFilterByCharacValueOrBuilder() {
       return getFilterByCharacValue();
     }
 
@@ -453,23 +453,23 @@ public final class ImGetRandomProductPu {
     }
 
     public static final int NEGATE_FILTER_BY_PARAMS_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue negateFilterByParams_;
+    private io.dstore.values.BooleanValue negateFilterByParams_;
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
      */
     public boolean hasNegateFilterByParams() {
       return negateFilterByParams_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
      */
-    public io.dstore.Values.booleanValue getNegateFilterByParams() {
-      return negateFilterByParams_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+    public io.dstore.values.BooleanValue getNegateFilterByParams() {
+      return negateFilterByParams_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : negateFilterByParams_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
       return getNegateFilterByParams();
     }
 
@@ -1022,29 +1022,29 @@ public final class ImGetRandomProductPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue treeNodeId_ = null;
+      private io.dstore.values.IntegerValue treeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
+      public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
-          return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+          return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         } else {
           return treeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (treeNodeIdBuilder_ == null) {
           treeNodeId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (treeNodeId_ != null) {
             treeNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
           return treeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTreeNodeIdFieldBuilder() {
         if (treeNodeIdBuilder_ == null) {
           treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class ImGetRandomProductPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue numberOfRandomProducts_ = null;
+      private io.dstore.values.IntegerValue numberOfRandomProducts_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfRandomProductsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfRandomProductsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
        */
       public boolean hasNumberOfRandomProducts() {
         return numberOfRandomProductsBuilder_ != null || numberOfRandomProducts_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
        */
-      public io.dstore.Values.integerValue getNumberOfRandomProducts() {
+      public io.dstore.values.IntegerValue getNumberOfRandomProducts() {
         if (numberOfRandomProductsBuilder_ == null) {
-          return numberOfRandomProducts_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfRandomProducts_;
+          return numberOfRandomProducts_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfRandomProducts_;
         } else {
           return numberOfRandomProductsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
        */
-      public Builder setNumberOfRandomProducts(io.dstore.Values.integerValue value) {
+      public Builder setNumberOfRandomProducts(io.dstore.values.IntegerValue value) {
         if (numberOfRandomProductsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
        */
       public Builder setNumberOfRandomProducts(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (numberOfRandomProductsBuilder_ == null) {
           numberOfRandomProducts_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
        */
-      public Builder mergeNumberOfRandomProducts(io.dstore.Values.integerValue value) {
+      public Builder mergeNumberOfRandomProducts(io.dstore.values.IntegerValue value) {
         if (numberOfRandomProductsBuilder_ == null) {
           if (numberOfRandomProducts_ != null) {
             numberOfRandomProducts_ =
-              io.dstore.Values.integerValue.newBuilder(numberOfRandomProducts_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(numberOfRandomProducts_).mergeFrom(value).buildPartial();
           } else {
             numberOfRandomProducts_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
        */
       public Builder clearNumberOfRandomProducts() {
         if (numberOfRandomProductsBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNumberOfRandomProductsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNumberOfRandomProductsBuilder() {
         
         onChanged();
         return getNumberOfRandomProductsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNumberOfRandomProductsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNumberOfRandomProductsOrBuilder() {
         if (numberOfRandomProductsBuilder_ != null) {
           return numberOfRandomProductsBuilder_.getMessageOrBuilder();
         } else {
           return numberOfRandomProducts_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : numberOfRandomProducts_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : numberOfRandomProducts_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_random_products = 2;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_random_products = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNumberOfRandomProductsFieldBuilder() {
         if (numberOfRandomProductsBuilder_ == null) {
           numberOfRandomProductsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNumberOfRandomProducts(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class ImGetRandomProductPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue binaryCharacteristicValueId_ = null;
+      private io.dstore.values.IntegerValue binaryCharacteristicValueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCharacteristicValueIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCharacteristicValueIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
        */
       public boolean hasBinaryCharacteristicValueId() {
         return binaryCharacteristicValueIdBuilder_ != null || binaryCharacteristicValueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCharacteristicValueId() {
+      public io.dstore.values.IntegerValue getBinaryCharacteristicValueId() {
         if (binaryCharacteristicValueIdBuilder_ == null) {
-          return binaryCharacteristicValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicValueId_;
+          return binaryCharacteristicValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicValueId_;
         } else {
           return binaryCharacteristicValueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
        */
-      public Builder setBinaryCharacteristicValueId(io.dstore.Values.integerValue value) {
+      public Builder setBinaryCharacteristicValueId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicValueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
        */
       public Builder setBinaryCharacteristicValueId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binaryCharacteristicValueIdBuilder_ == null) {
           binaryCharacteristicValueId_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
        */
-      public Builder mergeBinaryCharacteristicValueId(io.dstore.Values.integerValue value) {
+      public Builder mergeBinaryCharacteristicValueId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicValueIdBuilder_ == null) {
           if (binaryCharacteristicValueId_ != null) {
             binaryCharacteristicValueId_ =
-              io.dstore.Values.integerValue.newBuilder(binaryCharacteristicValueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binaryCharacteristicValueId_).mergeFrom(value).buildPartial();
           } else {
             binaryCharacteristicValueId_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
        */
       public Builder clearBinaryCharacteristicValueId() {
         if (binaryCharacteristicValueIdBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinaryCharacteristicValueIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinaryCharacteristicValueIdBuilder() {
         
         onChanged();
         return getBinaryCharacteristicValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicValueIdOrBuilder() {
         if (binaryCharacteristicValueIdBuilder_ != null) {
           return binaryCharacteristicValueIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryCharacteristicValueId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicValueId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicValueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_value_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_value_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinaryCharacteristicValueIdFieldBuilder() {
         if (binaryCharacteristicValueIdBuilder_ == null) {
           binaryCharacteristicValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinaryCharacteristicValueId(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class ImGetRandomProductPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue filterByCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue filterByCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filterByCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> filterByCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
        */
       public boolean hasFilterByCharacteristicId() {
         return filterByCharacteristicIdBuilder_ != null || filterByCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getFilterByCharacteristicId() {
+      public io.dstore.values.IntegerValue getFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
-          return filterByCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+          return filterByCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : filterByCharacteristicId_;
         } else {
           return filterByCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
        */
-      public Builder setFilterByCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setFilterByCharacteristicId(io.dstore.values.IntegerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
        */
       public Builder setFilterByCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (filterByCharacteristicIdBuilder_ == null) {
           filterByCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
        */
-      public Builder mergeFilterByCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeFilterByCharacteristicId(io.dstore.values.IntegerValue value) {
         if (filterByCharacteristicIdBuilder_ == null) {
           if (filterByCharacteristicId_ != null) {
             filterByCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(filterByCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(filterByCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             filterByCharacteristicId_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
        */
       public Builder clearFilterByCharacteristicId() {
         if (filterByCharacteristicIdBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFilterByCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFilterByCharacteristicIdBuilder() {
         
         onChanged();
         return getFilterByCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFilterByCharacteristicIdOrBuilder() {
         if (filterByCharacteristicIdBuilder_ != null) {
           return filterByCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return filterByCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : filterByCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : filterByCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_characteristic_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFilterByCharacteristicIdFieldBuilder() {
         if (filterByCharacteristicIdBuilder_ == null) {
           filterByCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFilterByCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class ImGetRandomProductPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue filterByCharacValue_ = null;
+      private io.dstore.values.StringValue filterByCharacValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filterByCharacValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> filterByCharacValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+       * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
        */
       public boolean hasFilterByCharacValue() {
         return filterByCharacValueBuilder_ != null || filterByCharacValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+       * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
        */
-      public io.dstore.Values.stringValue getFilterByCharacValue() {
+      public io.dstore.values.StringValue getFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
-          return filterByCharacValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+          return filterByCharacValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : filterByCharacValue_;
         } else {
           return filterByCharacValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+       * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
        */
-      public Builder setFilterByCharacValue(io.dstore.Values.stringValue value) {
+      public Builder setFilterByCharacValue(io.dstore.values.StringValue value) {
         if (filterByCharacValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+       * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
        */
       public Builder setFilterByCharacValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (filterByCharacValueBuilder_ == null) {
           filterByCharacValue_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+       * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
        */
-      public Builder mergeFilterByCharacValue(io.dstore.Values.stringValue value) {
+      public Builder mergeFilterByCharacValue(io.dstore.values.StringValue value) {
         if (filterByCharacValueBuilder_ == null) {
           if (filterByCharacValue_ != null) {
             filterByCharacValue_ =
-              io.dstore.Values.stringValue.newBuilder(filterByCharacValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(filterByCharacValue_).mergeFrom(value).buildPartial();
           } else {
             filterByCharacValue_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+       * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
        */
       public Builder clearFilterByCharacValue() {
         if (filterByCharacValueBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+       * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getFilterByCharacValueBuilder() {
+      public io.dstore.values.StringValue.Builder getFilterByCharacValueBuilder() {
         
         onChanged();
         return getFilterByCharacValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+       * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getFilterByCharacValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getFilterByCharacValueOrBuilder() {
         if (filterByCharacValueBuilder_ != null) {
           return filterByCharacValueBuilder_.getMessageOrBuilder();
         } else {
           return filterByCharacValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : filterByCharacValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : filterByCharacValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_charac_value = 5;</code>
+       * <code>optional .dstore.values.StringValue filter_by_charac_value = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getFilterByCharacValueFieldBuilder() {
         if (filterByCharacValueBuilder_ == null) {
           filterByCharacValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getFilterByCharacValue(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class ImGetRandomProductPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue negateFilterByParams_ = null;
+      private io.dstore.values.BooleanValue negateFilterByParams_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateFilterByParamsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> negateFilterByParamsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
        */
       public boolean hasNegateFilterByParams() {
         return negateFilterByParamsBuilder_ != null || negateFilterByParams_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
        */
-      public io.dstore.Values.booleanValue getNegateFilterByParams() {
+      public io.dstore.values.BooleanValue getNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
-          return negateFilterByParams_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+          return negateFilterByParams_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : negateFilterByParams_;
         } else {
           return negateFilterByParamsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
        */
-      public Builder setNegateFilterByParams(io.dstore.Values.booleanValue value) {
+      public Builder setNegateFilterByParams(io.dstore.values.BooleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
        */
       public Builder setNegateFilterByParams(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (negateFilterByParamsBuilder_ == null) {
           negateFilterByParams_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
        */
-      public Builder mergeNegateFilterByParams(io.dstore.Values.booleanValue value) {
+      public Builder mergeNegateFilterByParams(io.dstore.values.BooleanValue value) {
         if (negateFilterByParamsBuilder_ == null) {
           if (negateFilterByParams_ != null) {
             negateFilterByParams_ =
-              io.dstore.Values.booleanValue.newBuilder(negateFilterByParams_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(negateFilterByParams_).mergeFrom(value).buildPartial();
           } else {
             negateFilterByParams_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
        */
       public Builder clearNegateFilterByParams() {
         if (negateFilterByParamsBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class ImGetRandomProductPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getNegateFilterByParamsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getNegateFilterByParamsBuilder() {
         
         onChanged();
         return getNegateFilterByParamsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getNegateFilterByParamsOrBuilder() {
         if (negateFilterByParamsBuilder_ != null) {
           return negateFilterByParamsBuilder_.getMessageOrBuilder();
         } else {
           return negateFilterByParams_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : negateFilterByParams_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : negateFilterByParams_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter_by_params = 6;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter_by_params = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getNegateFilterByParamsFieldBuilder() {
         if (negateFilterByParamsBuilder_ == null) {
           negateFilterByParamsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getNegateFilterByParams(),
                   getParentForChildren(),
                   isClean());
@@ -2139,7 +2139,7 @@ public final class ImGetRandomProductPu {
        * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       boolean hasBinaryCodeId();
       /**
@@ -2147,24 +2147,24 @@ public final class ImGetRandomProductPu {
        * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getBinaryCodeId();
+      io.dstore.values.IntegerValue getBinaryCodeId();
       /**
        * <pre>
        * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
       /**
        * <pre>
        * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -2172,17 +2172,17 @@ public final class ImGetRandomProductPu {
        * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getTreeNodeId();
+      io.dstore.values.IntegerValue getTreeNodeId();
       /**
        * <pre>
        * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetRandomProduct_Pu.Response.Row}
@@ -2230,11 +2230,11 @@ public final class ImGetRandomProductPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (binaryCodeId_ != null) {
                   subBuilder = binaryCodeId_.toBuilder();
                 }
-                binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                binaryCodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCodeId_);
                   binaryCodeId_ = subBuilder.buildPartial();
@@ -2243,11 +2243,11 @@ public final class ImGetRandomProductPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -2288,13 +2288,13 @@ public final class ImGetRandomProductPu {
       }
 
       public static final int BINARY_CODE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue binaryCodeId_;
+      private io.dstore.values.IntegerValue binaryCodeId_;
       /**
        * <pre>
        * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeId_ != null;
@@ -2304,30 +2304,30 @@ public final class ImGetRandomProductPu {
        * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCodeId() {
-        return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+      public io.dstore.values.IntegerValue getBinaryCodeId() {
+        return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
       }
       /**
        * <pre>
        * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue treeNodeId_;
+      private io.dstore.values.IntegerValue treeNodeId_;
       /**
        * <pre>
        * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -2337,19 +2337,19 @@ public final class ImGetRandomProductPu {
        * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.values.IntegerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
        * <pre>
        * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
@@ -2708,15 +2708,15 @@ public final class ImGetRandomProductPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue binaryCodeId_ = null;
+        private io.dstore.values.IntegerValue binaryCodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
         /**
          * <pre>
          * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public boolean hasBinaryCodeId() {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
@@ -2726,11 +2726,11 @@ public final class ImGetRandomProductPu {
          * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getBinaryCodeId() {
+        public io.dstore.values.IntegerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
-            return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+            return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           } else {
             return binaryCodeIdBuilder_.getMessage();
           }
@@ -2740,9 +2740,9 @@ public final class ImGetRandomProductPu {
          * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2760,10 +2760,10 @@ public final class ImGetRandomProductPu {
          * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder setBinaryCodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeId_ = builderForValue.build();
             onChanged();
@@ -2778,13 +2778,13 @@ public final class ImGetRandomProductPu {
          * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (binaryCodeId_ != null) {
               binaryCodeId_ =
-                io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
             } else {
               binaryCodeId_ = value;
             }
@@ -2800,7 +2800,7 @@ public final class ImGetRandomProductPu {
          * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder clearBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -2818,9 +2818,9 @@ public final class ImGetRandomProductPu {
          * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
           
           onChanged();
           return getBinaryCodeIdFieldBuilder().getBuilder();
@@ -2830,14 +2830,14 @@ public final class ImGetRandomProductPu {
          * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
             return binaryCodeIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryCodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           }
         }
         /**
@@ -2845,14 +2845,14 @@ public final class ImGetRandomProductPu {
          * ID eines "Binaries" zu dem Zufalls-Produkt mit der Eigenschaft "&#64;BinaryCharacteristicValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
                     isClean());
@@ -2861,15 +2861,15 @@ public final class ImGetRandomProductPu {
           return binaryCodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue treeNodeId_ = null;
+        private io.dstore.values.IntegerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -2879,11 +2879,11 @@ public final class ImGetRandomProductPu {
          * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getTreeNodeId() {
+        public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
@@ -2893,9 +2893,9 @@ public final class ImGetRandomProductPu {
          * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
-        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2913,10 +2913,10 @@ public final class ImGetRandomProductPu {
          * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public Builder setTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -2931,13 +2931,13 @@ public final class ImGetRandomProductPu {
          * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
-        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -2953,7 +2953,7 @@ public final class ImGetRandomProductPu {
          * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -2971,9 +2971,9 @@ public final class ImGetRandomProductPu {
          * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
@@ -2983,14 +2983,14 @@ public final class ImGetRandomProductPu {
          * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
@@ -2998,14 +2998,14 @@ public final class ImGetRandomProductPu {
          * ID eines zufällig ausgewählten Produkt-Elementes im Artikelbaum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -4474,20 +4474,20 @@ public final class ImGetRandomProductPu {
       "roduct_Pu.proto\022$dstore.engine.im_GetRan" +
       "domProduct_Pu\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\353\004\n\nParameters\0221\n" +
-      "\014tree_node_id\030\001 \001(\0132\033.dstore.values.inte" +
+      "\014tree_node_id\030\001 \001(\0132\033.dstore.values.Inte" +
       "gerValue\022\032\n\021tree_node_id_null\030\351\007 \001(\010\022>\n\031" +
       "number_of_random_products\030\002 \001(\0132\033.dstore" +
-      ".values.integerValue\022\'\n\036number_of_random" +
+      ".values.IntegerValue\022\'\n\036number_of_random" +
       "_products_null\030\352\007 \001(\010\022C\n\036binary_characte" +
-      "ristic_value_id\030\003 \001(\0132\033.dstore.values.in",
+      "ristic_value_id\030\003 \001(\0132\033.dstore.values.In",
       "tegerValue\022,\n#binary_characteristic_valu" +
       "e_id_null\030\353\007 \001(\010\022@\n\033filter_by_characteri" +
-      "stic_id\030\004 \001(\0132\033.dstore.values.integerVal" +
+      "stic_id\030\004 \001(\0132\033.dstore.values.IntegerVal" +
       "ue\022)\n filter_by_characteristic_id_null\030\354" +
       "\007 \001(\010\022:\n\026filter_by_charac_value\030\005 \001(\0132\032." +
-      "dstore.values.stringValue\022$\n\033filter_by_c" +
+      "dstore.values.StringValue\022$\n\033filter_by_c" +
       "harac_value_null\030\355\007 \001(\010\022<\n\027negate_filter" +
-      "_by_params\030\006 \001(\0132\033.dstore.values.boolean" +
+      "_by_params\030\006 \001(\0132\033.dstore.values.Boolean" +
       "Value\022%\n\034negate_filter_by_params_null\030\356\007" +
       " \001(\010\"\261\002\n\010Response\0228\n\020meta_information\030\002 ",
       "\003(\0132\036.dstore.engine.MetaInformation\022\'\n\007m" +
@@ -4495,8 +4495,8 @@ public final class ImGetRandomProductPu {
       "row\030\004 \003(\01322.dstore.engine.im_GetRandomPr" +
       "oduct_Pu.Response.Row\032\200\001\n\003Row\022\017\n\006row_id\030" +
       "\220N \001(\005\0224\n\016binary_code_id\030\221N \001(\0132\033.dstore" +
-      ".values.integerValue\0222\n\014tree_node_id\030\222N " +
-      "\001(\0132\033.dstore.values.integerValueBW\n\033io.d" +
+      ".values.IntegerValue\0222\n\014tree_node_id\030\222N " +
+      "\001(\0132\033.dstore.values.IntegerValueBW\n\033io.d" +
       "store.engine.proceduresZ8gosdk.dstore.de" +
       "/engine/procedures/im_GetRandomProduct_P" +
       "ub\006proto3"
@@ -4512,7 +4512,7 @@ public final class ImGetRandomProductPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetRandomProduct_Pu_Parameters_descriptor =
@@ -4533,7 +4533,7 @@ public final class ImGetRandomProductPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetRandomProduct_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BinaryCodeId", "TreeNodeId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

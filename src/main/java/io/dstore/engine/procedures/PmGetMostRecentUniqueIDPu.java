@@ -19,17 +19,17 @@ public final class PmGetMostRecentUniqueIDPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetMostRecentUniqueIDPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmGetMostRecentUniqueIDPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
     boolean hasCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
-    io.dstore.Values.booleanValue getCaseSensitive();
+    io.dstore.values.BooleanValue getCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder();
 
     /**
      * <code>optional bool case_sensitive_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class PmGetMostRecentUniqueIDPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class PmGetMostRecentUniqueIDPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class PmGetMostRecentUniqueIDPu {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (caseSensitive_ != null) {
                 subBuilder = caseSensitive_.toBuilder();
               }
-              caseSensitive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              caseSensitive_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(caseSensitive_);
                 caseSensitive_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class PmGetMostRecentUniqueIDPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -222,23 +222,23 @@ public final class PmGetMostRecentUniqueIDPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -252,23 +252,23 @@ public final class PmGetMostRecentUniqueIDPu {
     }
 
     public static final int CASE_SENSITIVE_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue caseSensitive_;
+    private io.dstore.values.BooleanValue caseSensitive_;
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
     public boolean hasCaseSensitive() {
       return caseSensitive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
-    public io.dstore.Values.booleanValue getCaseSensitive() {
-      return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+    public io.dstore.values.BooleanValue getCaseSensitive() {
+      return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
       return getCaseSensitive();
     }
 
@@ -677,29 +677,29 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -745,7 +745,7 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -888,7 +888,7 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue caseSensitive_ = null;
+      private io.dstore.values.BooleanValue caseSensitive_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> caseSensitiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
       public boolean hasCaseSensitive() {
         return caseSensitiveBuilder_ != null || caseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public io.dstore.Values.booleanValue getCaseSensitive() {
+      public io.dstore.values.BooleanValue getCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
-          return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+          return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         } else {
           return caseSensitiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public Builder setCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder setCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
       public Builder setCaseSensitive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (caseSensitiveBuilder_ == null) {
           caseSensitive_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public Builder mergeCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder mergeCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (caseSensitive_ != null) {
             caseSensitive_ =
-              io.dstore.Values.booleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
           } else {
             caseSensitive_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
       public Builder clearCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class PmGetMostRecentUniqueIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCaseSensitiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCaseSensitiveBuilder() {
         
         onChanged();
         return getCaseSensitiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
         if (caseSensitiveBuilder_ != null) {
           return caseSensitiveBuilder_.getMessageOrBuilder();
         } else {
           return caseSensitive_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
           caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class PmGetMostRecentUniqueIDPu {
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
       boolean hasVisitorId();
       /**
@@ -1373,24 +1373,24 @@ public final class PmGetMostRecentUniqueIDPu {
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getVisitorId();
+      io.dstore.values.IntegerValue getVisitorId();
       /**
        * <pre>
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getVisitorIdOrBuilder();
 
       /**
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
        */
       boolean hasUniqueId();
       /**
@@ -1398,24 +1398,24 @@ public final class PmGetMostRecentUniqueIDPu {
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
        */
-      io.dstore.Values.stringValue getUniqueId();
+      io.dstore.values.StringValue getUniqueId();
       /**
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
       /**
        * <pre>
        * ID der identifizierten Person
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
       boolean hasPersonId();
       /**
@@ -1423,24 +1423,24 @@ public final class PmGetMostRecentUniqueIDPu {
        * ID der identifizierten Person
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getPersonId();
+      io.dstore.values.IntegerValue getPersonId();
       /**
        * <pre>
        * ID der identifizierten Person
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
       /**
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
        */
       boolean hasValidFrom();
       /**
@@ -1448,17 +1448,17 @@ public final class PmGetMostRecentUniqueIDPu {
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
        */
-      io.dstore.Values.timestampValue getValidFrom();
+      io.dstore.values.TimestampValue getValidFrom();
       /**
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetMostRecentUniqueID_Pu.Response.Row}
@@ -1506,11 +1506,11 @@ public final class PmGetMostRecentUniqueIDPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (visitorId_ != null) {
                   subBuilder = visitorId_.toBuilder();
                 }
-                visitorId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                visitorId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visitorId_);
                   visitorId_ = subBuilder.buildPartial();
@@ -1519,11 +1519,11 @@ public final class PmGetMostRecentUniqueIDPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (uniqueId_ != null) {
                   subBuilder = uniqueId_.toBuilder();
                 }
-                uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(uniqueId_);
                   uniqueId_ = subBuilder.buildPartial();
@@ -1532,11 +1532,11 @@ public final class PmGetMostRecentUniqueIDPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -1545,11 +1545,11 @@ public final class PmGetMostRecentUniqueIDPu {
                 break;
               }
               case 80034: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (validFrom_ != null) {
                   subBuilder = validFrom_.toBuilder();
                 }
-                validFrom_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                validFrom_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validFrom_);
                   validFrom_ = subBuilder.buildPartial();
@@ -1590,13 +1590,13 @@ public final class PmGetMostRecentUniqueIDPu {
       }
 
       public static final int VISITOR_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue visitorId_;
+      private io.dstore.values.IntegerValue visitorId_;
       /**
        * <pre>
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
       public boolean hasVisitorId() {
         return visitorId_ != null;
@@ -1606,30 +1606,30 @@ public final class PmGetMostRecentUniqueIDPu {
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getVisitorId() {
-        return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
+      public io.dstore.values.IntegerValue getVisitorId() {
+        return visitorId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorId_;
       }
       /**
        * <pre>
        * ID des "aktuellsten Besuchers" (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVisitorIdOrBuilder() {
         return getVisitorId();
       }
 
       public static final int UNIQUE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue uniqueId_;
+      private io.dstore.values.StringValue uniqueId_;
       /**
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
        */
       public boolean hasUniqueId() {
         return uniqueId_ != null;
@@ -1639,30 +1639,30 @@ public final class PmGetMostRecentUniqueIDPu {
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
-        return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+      public io.dstore.values.StringValue getUniqueId() {
+        return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
       }
       /**
        * <pre>
        * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         return getUniqueId();
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue personId_;
+      private io.dstore.values.IntegerValue personId_;
       /**
        * <pre>
        * ID der identifizierten Person
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -1672,30 +1672,30 @@ public final class PmGetMostRecentUniqueIDPu {
        * ID der identifizierten Person
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.values.IntegerValue getPersonId() {
+        return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
       }
       /**
        * <pre>
        * ID der identifizierten Person
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
       public static final int VALID_FROM_FIELD_NUMBER = 10004;
-      private io.dstore.Values.timestampValue validFrom_;
+      private io.dstore.values.TimestampValue validFrom_;
       /**
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
        */
       public boolean hasValidFrom() {
         return validFrom_ != null;
@@ -1705,19 +1705,19 @@ public final class PmGetMostRecentUniqueIDPu {
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
        */
-      public io.dstore.Values.timestampValue getValidFrom() {
-        return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+      public io.dstore.values.TimestampValue getValidFrom() {
+        return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
       }
       /**
        * <pre>
        * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
         return getValidFrom();
       }
 
@@ -2136,15 +2136,15 @@ public final class PmGetMostRecentUniqueIDPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue visitorId_ = null;
+        private io.dstore.values.IntegerValue visitorId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> visitorIdBuilder_;
         /**
          * <pre>
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
         public boolean hasVisitorId() {
           return visitorIdBuilder_ != null || visitorId_ != null;
@@ -2154,11 +2154,11 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getVisitorId() {
+        public io.dstore.values.IntegerValue getVisitorId() {
           if (visitorIdBuilder_ == null) {
-            return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
+            return visitorId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorId_;
           } else {
             return visitorIdBuilder_.getMessage();
           }
@@ -2168,9 +2168,9 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public Builder setVisitorId(io.dstore.Values.integerValue value) {
+        public Builder setVisitorId(io.dstore.values.IntegerValue value) {
           if (visitorIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2188,10 +2188,10 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
         public Builder setVisitorId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (visitorIdBuilder_ == null) {
             visitorId_ = builderForValue.build();
             onChanged();
@@ -2206,13 +2206,13 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public Builder mergeVisitorId(io.dstore.Values.integerValue value) {
+        public Builder mergeVisitorId(io.dstore.values.IntegerValue value) {
           if (visitorIdBuilder_ == null) {
             if (visitorId_ != null) {
               visitorId_ =
-                io.dstore.Values.integerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
             } else {
               visitorId_ = value;
             }
@@ -2228,7 +2228,7 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
         public Builder clearVisitorId() {
           if (visitorIdBuilder_ == null) {
@@ -2246,9 +2246,9 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getVisitorIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getVisitorIdBuilder() {
           
           onChanged();
           return getVisitorIdFieldBuilder().getBuilder();
@@ -2258,14 +2258,14 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getVisitorIdOrBuilder() {
           if (visitorIdBuilder_ != null) {
             return visitorIdBuilder_.getMessageOrBuilder();
           } else {
             return visitorId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : visitorId_;
           }
         }
         /**
@@ -2273,14 +2273,14 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID des "aktuellsten Besuchers" (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getVisitorIdFieldBuilder() {
           if (visitorIdBuilder_ == null) {
             visitorIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getVisitorId(),
                     getParentForChildren(),
                     isClean());
@@ -2289,15 +2289,15 @@ public final class PmGetMostRecentUniqueIDPu {
           return visitorIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue uniqueId_ = null;
+        private io.dstore.values.StringValue uniqueId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
         /**
          * <pre>
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+         * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
          */
         public boolean hasUniqueId() {
           return uniqueIdBuilder_ != null || uniqueId_ != null;
@@ -2307,11 +2307,11 @@ public final class PmGetMostRecentUniqueIDPu {
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+         * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
          */
-        public io.dstore.Values.stringValue getUniqueId() {
+        public io.dstore.values.StringValue getUniqueId() {
           if (uniqueIdBuilder_ == null) {
-            return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+            return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
           } else {
             return uniqueIdBuilder_.getMessage();
           }
@@ -2321,9 +2321,9 @@ public final class PmGetMostRecentUniqueIDPu {
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+         * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
          */
-        public Builder setUniqueId(io.dstore.Values.stringValue value) {
+        public Builder setUniqueId(io.dstore.values.StringValue value) {
           if (uniqueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2341,10 +2341,10 @@ public final class PmGetMostRecentUniqueIDPu {
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+         * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
          */
         public Builder setUniqueId(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (uniqueIdBuilder_ == null) {
             uniqueId_ = builderForValue.build();
             onChanged();
@@ -2359,13 +2359,13 @@ public final class PmGetMostRecentUniqueIDPu {
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+         * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
          */
-        public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+        public Builder mergeUniqueId(io.dstore.values.StringValue value) {
           if (uniqueIdBuilder_ == null) {
             if (uniqueId_ != null) {
               uniqueId_ =
-                io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
             } else {
               uniqueId_ = value;
             }
@@ -2381,7 +2381,7 @@ public final class PmGetMostRecentUniqueIDPu {
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+         * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
          */
         public Builder clearUniqueId() {
           if (uniqueIdBuilder_ == null) {
@@ -2399,9 +2399,9 @@ public final class PmGetMostRecentUniqueIDPu {
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+         * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+        public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
           
           onChanged();
           return getUniqueIdFieldBuilder().getBuilder();
@@ -2411,14 +2411,14 @@ public final class PmGetMostRecentUniqueIDPu {
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+         * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
           if (uniqueIdBuilder_ != null) {
             return uniqueIdBuilder_.getMessageOrBuilder();
           } else {
             return uniqueId_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+                io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
           }
         }
         /**
@@ -2426,14 +2426,14 @@ public final class PmGetMostRecentUniqueIDPu {
          * Eindeutige ID des Besuchers "VisitorID". Diese wird meistens bei der Identifizierung oder für "Session"-Informationen benötigt, da sie erheblich mehr Sicherheit als die "VisitorID" bietet.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unique_id = 10002;</code>
+         * <code>optional .dstore.values.StringValue unique_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUniqueIdFieldBuilder() {
           if (uniqueIdBuilder_ == null) {
             uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUniqueId(),
                     getParentForChildren(),
                     isClean());
@@ -2442,15 +2442,15 @@ public final class PmGetMostRecentUniqueIDPu {
           return uniqueIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue personId_ = null;
+        private io.dstore.values.IntegerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
          * ID der identifizierten Person
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -2460,11 +2460,11 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID der identifizierten Person
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getPersonId() {
+        public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
@@ -2474,9 +2474,9 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID der identifizierten Person
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public Builder setPersonId(io.dstore.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2494,10 +2494,10 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID der identifizierten Person
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
         public Builder setPersonId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -2512,13 +2512,13 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID der identifizierten Person
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public Builder mergePersonId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -2534,7 +2534,7 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID der identifizierten Person
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -2552,9 +2552,9 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID der identifizierten Person
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
@@ -2564,14 +2564,14 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID der identifizierten Person
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           }
         }
         /**
@@ -2579,14 +2579,14 @@ public final class PmGetMostRecentUniqueIDPu {
          * ID der identifizierten Person
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -2595,15 +2595,15 @@ public final class PmGetMostRecentUniqueIDPu {
           return personIdBuilder_;
         }
 
-        private io.dstore.Values.timestampValue validFrom_ = null;
+        private io.dstore.values.TimestampValue validFrom_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> validFromBuilder_;
         /**
          * <pre>
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
          */
         public boolean hasValidFrom() {
           return validFromBuilder_ != null || validFrom_ != null;
@@ -2613,11 +2613,11 @@ public final class PmGetMostRecentUniqueIDPu {
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
          */
-        public io.dstore.Values.timestampValue getValidFrom() {
+        public io.dstore.values.TimestampValue getValidFrom() {
           if (validFromBuilder_ == null) {
-            return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+            return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
           } else {
             return validFromBuilder_.getMessage();
           }
@@ -2627,9 +2627,9 @@ public final class PmGetMostRecentUniqueIDPu {
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
          */
-        public Builder setValidFrom(io.dstore.Values.timestampValue value) {
+        public Builder setValidFrom(io.dstore.values.TimestampValue value) {
           if (validFromBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2647,10 +2647,10 @@ public final class PmGetMostRecentUniqueIDPu {
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
          */
         public Builder setValidFrom(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (validFromBuilder_ == null) {
             validFrom_ = builderForValue.build();
             onChanged();
@@ -2665,13 +2665,13 @@ public final class PmGetMostRecentUniqueIDPu {
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
          */
-        public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
+        public Builder mergeValidFrom(io.dstore.values.TimestampValue value) {
           if (validFromBuilder_ == null) {
             if (validFrom_ != null) {
               validFrom_ =
-                io.dstore.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
             } else {
               validFrom_ = value;
             }
@@ -2687,7 +2687,7 @@ public final class PmGetMostRecentUniqueIDPu {
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
          */
         public Builder clearValidFrom() {
           if (validFromBuilder_ == null) {
@@ -2705,9 +2705,9 @@ public final class PmGetMostRecentUniqueIDPu {
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
+        public io.dstore.values.TimestampValue.Builder getValidFromBuilder() {
           
           onChanged();
           return getValidFromFieldBuilder().getBuilder();
@@ -2717,14 +2717,14 @@ public final class PmGetMostRecentUniqueIDPu {
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
           if (validFromBuilder_ != null) {
             return validFromBuilder_.getMessageOrBuilder();
           } else {
             return validFrom_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
           }
         }
         /**
@@ -2732,14 +2732,14 @@ public final class PmGetMostRecentUniqueIDPu {
          * Seit wann ist der Besucher "VisitorID" der Person "PersonID" zugeordnet
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getValidFromFieldBuilder() {
           if (validFromBuilder_ == null) {
             validFromBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getValidFrom(),
                     getParentForChildren(),
                     isClean());
@@ -4209,22 +4209,22 @@ public final class PmGetMostRecentUniqueIDPu {
       "etMostRecentUniqueID_Pu\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\240\002\n\nPar" +
       "ameters\022@\n\034person_identification_values\030" +
-      "\001 \001(\0132\032.dstore.values.stringValue\022*\n!per" +
+      "\001 \001(\0132\032.dstore.values.StringValue\022*\n!per" +
       "son_identification_values_null\030\351\007 \001(\010\0223\n" +
-      "\016person_type_id\030\002 \001(\0132\033.dstore.values.in" +
+      "\016person_type_id\030\002 \001(\0132\033.dstore.values.In" +
       "tegerValue\022\034\n\023person_type_id_null\030\352\007 \001(\010" +
       "\0223\n\016case_sensitive\030\003 \001(\0132\033.dstore.values",
-      ".booleanValue\022\034\n\023case_sensitive_null\030\353\007 " +
+      ".BooleanValue\022\034\n\023case_sensitive_null\030\353\007 " +
       "\001(\010\"\223\003\n\010Response\0228\n\020meta_information\030\002 \003" +
       "(\0132\036.dstore.engine.MetaInformation\022\'\n\007me" +
       "ssage\030\003 \003(\0132\026.dstore.engine.Message\022D\n\003r" +
       "ow\030\004 \003(\01327.dstore.engine.pm_GetMostRecen" +
       "tUniqueID_Pu.Response.Row\032\335\001\n\003Row\022\017\n\006row" +
       "_id\030\220N \001(\005\0220\n\nvisitor_id\030\221N \001(\0132\033.dstore" +
-      ".values.integerValue\022.\n\tunique_id\030\222N \001(\013" +
-      "2\032.dstore.values.stringValue\022/\n\tperson_i" +
-      "d\030\223N \001(\0132\033.dstore.values.integerValue\0222\n",
-      "\nvalid_from\030\224N \001(\0132\035.dstore.values.times" +
+      ".values.IntegerValue\022.\n\tunique_id\030\222N \001(\013" +
+      "2\032.dstore.values.StringValue\022/\n\tperson_i" +
+      "d\030\223N \001(\0132\033.dstore.values.IntegerValue\0222\n",
+      "\nvalid_from\030\224N \001(\0132\035.dstore.values.Times" +
       "tampValueB\\\n\033io.dstore.engine.procedures" +
       "Z=gosdk.dstore.de/engine/procedures/pm_G" +
       "etMostRecentUniqueID_Pub\006proto3"
@@ -4240,7 +4240,7 @@ public final class PmGetMostRecentUniqueIDPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetMostRecentUniqueID_Pu_Parameters_descriptor =
@@ -4261,7 +4261,7 @@ public final class PmGetMostRecentUniqueIDPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetMostRecentUniqueID_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "VisitorId", "UniqueId", "PersonId", "ValidFrom", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

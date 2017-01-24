@@ -19,17 +19,17 @@ public final class MiModifySearchItemsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
     boolean hasTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTableId();
+    io.dstore.values.IntegerValue getTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder();
 
     /**
      * <code>optional bool table_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifySearchItemsAd {
     boolean getTableIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
     boolean hasCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValue getCharacteristicId();
+    io.dstore.values.IntegerValue getCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool characteristic_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifySearchItemsAd {
     boolean getCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
     boolean hasSearchValue();
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
-    io.dstore.Values.stringValue getSearchValue();
+    io.dstore.values.StringValue getSearchValue();
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder();
 
     /**
      * <code>optional bool search_value_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiModifySearchItemsAd {
     boolean getSearchValueNull();
 
     /**
-     * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+     * <code>optional .dstore.values.StringValue matching_value = 4;</code>
      */
     boolean hasMatchingValue();
     /**
-     * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+     * <code>optional .dstore.values.StringValue matching_value = 4;</code>
      */
-    io.dstore.Values.stringValue getMatchingValue();
+    io.dstore.values.StringValue getMatchingValue();
     /**
-     * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+     * <code>optional .dstore.values.StringValue matching_value = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getMatchingValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getMatchingValueOrBuilder();
 
     /**
      * <code>optional bool matching_value_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiModifySearchItemsAd {
     boolean getMatchingValueNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+     * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
      */
     boolean hasUseLike();
     /**
-     * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+     * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
      */
-    io.dstore.Values.booleanValue getUseLike();
+    io.dstore.values.BooleanValue getUseLike();
     /**
-     * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+     * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getUseLikeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getUseLikeOrBuilder();
 
     /**
      * <code>optional bool use_like_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiModifySearchItemsAd {
     boolean getUseLikeNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    io.dstore.Values.booleanValue getDelete();
+    io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class MiModifySearchItemsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (tableId_ != null) {
                 subBuilder = tableId_.toBuilder();
               }
-              tableId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              tableId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableId_);
                 tableId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class MiModifySearchItemsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (characteristicId_ != null) {
                 subBuilder = characteristicId_.toBuilder();
               }
-              characteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              characteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicId_);
                 characteristicId_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class MiModifySearchItemsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (searchValue_ != null) {
                 subBuilder = searchValue_.toBuilder();
               }
-              searchValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              searchValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchValue_);
                 searchValue_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class MiModifySearchItemsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (matchingValue_ != null) {
                 subBuilder = matchingValue_.toBuilder();
               }
-              matchingValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              matchingValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(matchingValue_);
                 matchingValue_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class MiModifySearchItemsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (useLike_ != null) {
                 subBuilder = useLike_.toBuilder();
               }
-              useLike_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              useLike_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(useLike_);
                 useLike_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class MiModifySearchItemsAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class MiModifySearchItemsAd {
     }
 
     public static final int TABLE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue tableId_;
+    private io.dstore.values.IntegerValue tableId_;
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
     public boolean hasTableId() {
       return tableId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTableId() {
-      return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+    public io.dstore.values.IntegerValue getTableId() {
+      return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
       return getTableId();
     }
 
@@ -333,23 +333,23 @@ public final class MiModifySearchItemsAd {
     }
 
     public static final int CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue characteristicId_;
+    private io.dstore.values.IntegerValue characteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
     public boolean hasCharacteristicId() {
       return characteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getCharacteristicId() {
-      return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
+    public io.dstore.values.IntegerValue getCharacteristicId() {
+      return characteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCharacteristicIdOrBuilder() {
       return getCharacteristicId();
     }
 
@@ -363,23 +363,23 @@ public final class MiModifySearchItemsAd {
     }
 
     public static final int SEARCH_VALUE_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue searchValue_;
+    private io.dstore.values.StringValue searchValue_;
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
     public boolean hasSearchValue() {
       return searchValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
-    public io.dstore.Values.stringValue getSearchValue() {
-      return searchValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+    public io.dstore.values.StringValue getSearchValue() {
+      return searchValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder() {
       return getSearchValue();
     }
 
@@ -393,23 +393,23 @@ public final class MiModifySearchItemsAd {
     }
 
     public static final int MATCHING_VALUE_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue matchingValue_;
+    private io.dstore.values.StringValue matchingValue_;
     /**
-     * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+     * <code>optional .dstore.values.StringValue matching_value = 4;</code>
      */
     public boolean hasMatchingValue() {
       return matchingValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+     * <code>optional .dstore.values.StringValue matching_value = 4;</code>
      */
-    public io.dstore.Values.stringValue getMatchingValue() {
-      return matchingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : matchingValue_;
+    public io.dstore.values.StringValue getMatchingValue() {
+      return matchingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : matchingValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+     * <code>optional .dstore.values.StringValue matching_value = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getMatchingValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getMatchingValueOrBuilder() {
       return getMatchingValue();
     }
 
@@ -423,23 +423,23 @@ public final class MiModifySearchItemsAd {
     }
 
     public static final int USE_LIKE_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue useLike_;
+    private io.dstore.values.BooleanValue useLike_;
     /**
-     * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+     * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
      */
     public boolean hasUseLike() {
       return useLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+     * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
      */
-    public io.dstore.Values.booleanValue getUseLike() {
-      return useLike_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : useLike_;
+    public io.dstore.values.BooleanValue getUseLike() {
+      return useLike_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : useLike_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+     * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getUseLikeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getUseLikeOrBuilder() {
       return getUseLike();
     }
 
@@ -453,23 +453,23 @@ public final class MiModifySearchItemsAd {
     }
 
     public static final int DELETE_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue delete_;
+    private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    public io.dstore.Values.booleanValue getDelete() {
-      return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+    public io.dstore.values.BooleanValue getDelete() {
+      return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -1022,29 +1022,29 @@ public final class MiModifySearchItemsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue tableId_ = null;
+      private io.dstore.values.IntegerValue tableId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public boolean hasTableId() {
         return tableIdBuilder_ != null || tableId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTableId() {
+      public io.dstore.values.IntegerValue getTableId() {
         if (tableIdBuilder_ == null) {
-          return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+          return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         } else {
           return tableIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public Builder setTableId(io.dstore.Values.integerValue value) {
+      public Builder setTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public Builder setTableId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (tableIdBuilder_ == null) {
           tableId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public Builder mergeTableId(io.dstore.Values.integerValue value) {
+      public Builder mergeTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (tableId_ != null) {
             tableId_ =
-              io.dstore.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
           } else {
             tableId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public Builder clearTableId() {
         if (tableIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTableIdBuilder() {
         
         onChanged();
         return getTableIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
         if (tableIdBuilder_ != null) {
           return tableIdBuilder_.getMessageOrBuilder();
         } else {
           return tableId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTableIdFieldBuilder() {
         if (tableIdBuilder_ == null) {
           tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTableId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class MiModifySearchItemsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue characteristicId_ = null;
+      private io.dstore.values.IntegerValue characteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> characteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
       public boolean hasCharacteristicId() {
         return characteristicIdBuilder_ != null || characteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getCharacteristicId() {
+      public io.dstore.values.IntegerValue getCharacteristicId() {
         if (characteristicIdBuilder_ == null) {
-          return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
+          return characteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characteristicId_;
         } else {
           return characteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public Builder setCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setCharacteristicId(io.dstore.values.IntegerValue value) {
         if (characteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
       public Builder setCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (characteristicIdBuilder_ == null) {
           characteristicId_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public Builder mergeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (characteristicIdBuilder_ == null) {
           if (characteristicId_ != null) {
             characteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(characteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(characteristicId_).mergeFrom(value).buildPartial();
           } else {
             characteristicId_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
       public Builder clearCharacteristicId() {
         if (characteristicIdBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCharacteristicIdBuilder() {
         
         onChanged();
         return getCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCharacteristicIdOrBuilder() {
         if (characteristicIdBuilder_ != null) {
           return characteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return characteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : characteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCharacteristicIdFieldBuilder() {
         if (characteristicIdBuilder_ == null) {
           characteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class MiModifySearchItemsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue searchValue_ = null;
+      private io.dstore.values.StringValue searchValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> searchValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
       public boolean hasSearchValue() {
         return searchValueBuilder_ != null || searchValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public io.dstore.Values.stringValue getSearchValue() {
+      public io.dstore.values.StringValue getSearchValue() {
         if (searchValueBuilder_ == null) {
-          return searchValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+          return searchValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
         } else {
           return searchValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public Builder setSearchValue(io.dstore.Values.stringValue value) {
+      public Builder setSearchValue(io.dstore.values.StringValue value) {
         if (searchValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
       public Builder setSearchValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (searchValueBuilder_ == null) {
           searchValue_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public Builder mergeSearchValue(io.dstore.Values.stringValue value) {
+      public Builder mergeSearchValue(io.dstore.values.StringValue value) {
         if (searchValueBuilder_ == null) {
           if (searchValue_ != null) {
             searchValue_ =
-              io.dstore.Values.stringValue.newBuilder(searchValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(searchValue_).mergeFrom(value).buildPartial();
           } else {
             searchValue_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
       public Builder clearSearchValue() {
         if (searchValueBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSearchValueBuilder() {
+      public io.dstore.values.StringValue.Builder getSearchValueBuilder() {
         
         onChanged();
         return getSearchValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder() {
         if (searchValueBuilder_ != null) {
           return searchValueBuilder_.getMessageOrBuilder();
         } else {
           return searchValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSearchValueFieldBuilder() {
         if (searchValueBuilder_ == null) {
           searchValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSearchValue(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class MiModifySearchItemsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue matchingValue_ = null;
+      private io.dstore.values.StringValue matchingValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> matchingValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> matchingValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+       * <code>optional .dstore.values.StringValue matching_value = 4;</code>
        */
       public boolean hasMatchingValue() {
         return matchingValueBuilder_ != null || matchingValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+       * <code>optional .dstore.values.StringValue matching_value = 4;</code>
        */
-      public io.dstore.Values.stringValue getMatchingValue() {
+      public io.dstore.values.StringValue getMatchingValue() {
         if (matchingValueBuilder_ == null) {
-          return matchingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : matchingValue_;
+          return matchingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : matchingValue_;
         } else {
           return matchingValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+       * <code>optional .dstore.values.StringValue matching_value = 4;</code>
        */
-      public Builder setMatchingValue(io.dstore.Values.stringValue value) {
+      public Builder setMatchingValue(io.dstore.values.StringValue value) {
         if (matchingValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+       * <code>optional .dstore.values.StringValue matching_value = 4;</code>
        */
       public Builder setMatchingValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (matchingValueBuilder_ == null) {
           matchingValue_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+       * <code>optional .dstore.values.StringValue matching_value = 4;</code>
        */
-      public Builder mergeMatchingValue(io.dstore.Values.stringValue value) {
+      public Builder mergeMatchingValue(io.dstore.values.StringValue value) {
         if (matchingValueBuilder_ == null) {
           if (matchingValue_ != null) {
             matchingValue_ =
-              io.dstore.Values.stringValue.newBuilder(matchingValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(matchingValue_).mergeFrom(value).buildPartial();
           } else {
             matchingValue_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+       * <code>optional .dstore.values.StringValue matching_value = 4;</code>
        */
       public Builder clearMatchingValue() {
         if (matchingValueBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+       * <code>optional .dstore.values.StringValue matching_value = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getMatchingValueBuilder() {
+      public io.dstore.values.StringValue.Builder getMatchingValueBuilder() {
         
         onChanged();
         return getMatchingValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+       * <code>optional .dstore.values.StringValue matching_value = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getMatchingValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getMatchingValueOrBuilder() {
         if (matchingValueBuilder_ != null) {
           return matchingValueBuilder_.getMessageOrBuilder();
         } else {
           return matchingValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : matchingValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : matchingValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue matching_value = 4;</code>
+       * <code>optional .dstore.values.StringValue matching_value = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getMatchingValueFieldBuilder() {
         if (matchingValueBuilder_ == null) {
           matchingValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getMatchingValue(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class MiModifySearchItemsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue useLike_ = null;
+      private io.dstore.values.BooleanValue useLike_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> useLikeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> useLikeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+       * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
        */
       public boolean hasUseLike() {
         return useLikeBuilder_ != null || useLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+       * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
        */
-      public io.dstore.Values.booleanValue getUseLike() {
+      public io.dstore.values.BooleanValue getUseLike() {
         if (useLikeBuilder_ == null) {
-          return useLike_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : useLike_;
+          return useLike_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : useLike_;
         } else {
           return useLikeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+       * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
        */
-      public Builder setUseLike(io.dstore.Values.booleanValue value) {
+      public Builder setUseLike(io.dstore.values.BooleanValue value) {
         if (useLikeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+       * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
        */
       public Builder setUseLike(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (useLikeBuilder_ == null) {
           useLike_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+       * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
        */
-      public Builder mergeUseLike(io.dstore.Values.booleanValue value) {
+      public Builder mergeUseLike(io.dstore.values.BooleanValue value) {
         if (useLikeBuilder_ == null) {
           if (useLike_ != null) {
             useLike_ =
-              io.dstore.Values.booleanValue.newBuilder(useLike_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(useLike_).mergeFrom(value).buildPartial();
           } else {
             useLike_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+       * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
        */
       public Builder clearUseLike() {
         if (useLikeBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+       * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getUseLikeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getUseLikeBuilder() {
         
         onChanged();
         return getUseLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+       * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUseLikeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUseLikeOrBuilder() {
         if (useLikeBuilder_ != null) {
           return useLikeBuilder_.getMessageOrBuilder();
         } else {
           return useLike_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : useLike_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : useLike_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_like = 5;</code>
+       * <code>optional .dstore.values.BooleanValue use_like = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getUseLikeFieldBuilder() {
         if (useLikeBuilder_ == null) {
           useLikeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getUseLike(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class MiModifySearchItemsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue delete_ = null;
+      private io.dstore.values.BooleanValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValue getDelete() {
+      public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public Builder setDelete(io.dstore.Values.booleanValue value) {
+      public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder setDelete(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public Builder mergeDelete(io.dstore.Values.booleanValue value) {
+      public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class MiModifySearchItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -3966,17 +3966,17 @@ public final class MiModifySearchItemsAd {
       "chItems_Ad.proto\022%dstore.engine.mi_Modif" +
       "ySearchItems_Ad\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\326\003\n\nParameters\022" +
-      "-\n\010table_id\030\001 \001(\0132\033.dstore.values.intege" +
+      "-\n\010table_id\030\001 \001(\0132\033.dstore.values.Intege" +
       "rValue\022\026\n\rtable_id_null\030\351\007 \001(\010\0226\n\021charac" +
-      "teristic_id\030\002 \001(\0132\033.dstore.values.intege" +
+      "teristic_id\030\002 \001(\0132\033.dstore.values.Intege" +
       "rValue\022\037\n\026characteristic_id_null\030\352\007 \001(\010\022" +
-      "0\n\014search_value\030\003 \001(\0132\032.dstore.values.st" +
+      "0\n\014search_value\030\003 \001(\0132\032.dstore.values.St" +
       "ringValue\022\032\n\021search_value_null\030\353\007 \001(\010\0222\n",
-      "\016matching_value\030\004 \001(\0132\032.dstore.values.st" +
+      "\016matching_value\030\004 \001(\0132\032.dstore.values.St" +
       "ringValue\022\034\n\023matching_value_null\030\354\007 \001(\010\022" +
-      "-\n\010use_like\030\005 \001(\0132\033.dstore.values.boolea" +
+      "-\n\010use_like\030\005 \001(\0132\033.dstore.values.Boolea" +
       "nValue\022\026\n\ruse_like_null\030\355\007 \001(\010\022+\n\006delete" +
-      "\030\006 \001(\0132\033.dstore.values.booleanValue\022\024\n\013d" +
+      "\030\006 \001(\0132\033.dstore.values.BooleanValue\022\024\n\013d" +
       "elete_null\030\356\007 \001(\010\"\307\001\n\010Response\0228\n\020meta_i" +
       "nformation\030\002 \003(\0132\036.dstore.engine.MetaInf" +
       "ormation\022\'\n\007message\030\003 \003(\0132\026.dstore.engin" +
@@ -3997,7 +3997,7 @@ public final class MiModifySearchItemsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifySearchItems_Ad_Parameters_descriptor =
@@ -4018,7 +4018,7 @@ public final class MiModifySearchItemsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifySearchItems_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

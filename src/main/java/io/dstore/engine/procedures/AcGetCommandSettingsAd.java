@@ -19,17 +19,17 @@ public final class AcGetCommandSettingsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
     boolean hasCommandId();
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommandId();
+    io.dstore.values.IntegerValue getCommandId();
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder();
 
     /**
      * <code>optional bool command_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class AcGetCommandSettingsAd {
     boolean getCommandIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    io.dstore.Values.stringValue getKeyVariable();
+    io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+    io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
      * <code>optional bool key_variable_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class AcGetCommandSettingsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (commandId_ != null) {
                 subBuilder = commandId_.toBuilder();
               }
-              commandId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              commandId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(commandId_);
                 commandId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class AcGetCommandSettingsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class AcGetCommandSettingsAd {
     }
 
     public static final int COMMAND_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue commandId_;
+    private io.dstore.values.IntegerValue commandId_;
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
     public boolean hasCommandId() {
       return commandId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommandId() {
-      return commandId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+    public io.dstore.values.IntegerValue getCommandId() {
+      return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
       return getCommandId();
     }
 
@@ -185,23 +185,23 @@ public final class AcGetCommandSettingsAd {
     }
 
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue keyVariable_;
+    private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    public io.dstore.Values.stringValue getKeyVariable() {
-      return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+    public io.dstore.values.StringValue getKeyVariable() {
+      return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
     }
 
@@ -562,29 +562,29 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue commandId_ = null;
+      private io.dstore.values.IntegerValue commandId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> commandIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> commandIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       public boolean hasCommandId() {
         return commandIdBuilder_ != null || commandId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommandId() {
+      public io.dstore.values.IntegerValue getCommandId() {
         if (commandIdBuilder_ == null) {
-          return commandId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+          return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
         } else {
           return commandIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public Builder setCommandId(io.dstore.Values.integerValue value) {
+      public Builder setCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder setCommandId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (commandIdBuilder_ == null) {
           commandId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public Builder mergeCommandId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
           if (commandId_ != null) {
             commandId_ =
-              io.dstore.Values.integerValue.newBuilder(commandId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(commandId_).mergeFrom(value).buildPartial();
           } else {
             commandId_ = value;
           }
@@ -630,7 +630,7 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder clearCommandId() {
         if (commandIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommandIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommandIdBuilder() {
         
         onChanged();
         return getCommandIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
         if (commandIdBuilder_ != null) {
           return commandIdBuilder_.getMessageOrBuilder();
         } else {
           return commandId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommandIdFieldBuilder() {
         if (commandIdBuilder_ == null) {
           commandIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommandId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue keyVariable_ = null;
+      private io.dstore.values.StringValue keyVariable_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValue getKeyVariable() {
+      public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
-          return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+          return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
         } else {
           return keyVariableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public Builder setKeyVariable(io.dstore.Values.stringValue value) {
+      public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (keyVariableBuilder_ == null) {
           keyVariable_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
+      public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
           if (keyVariable_ != null) {
             keyVariable_ =
-              io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
           } else {
             keyVariable_ = value;
           }
@@ -773,7 +773,7 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class AcGetCommandSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
+      public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
         onChanged();
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
           return keyVariableBuilder_.getMessageOrBuilder();
         } else {
           return keyVariable_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+              io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getKeyVariableFieldBuilder() {
         if (keyVariableBuilder_ == null) {
           keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getKeyVariable(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class AcGetCommandSettingsAd {
        * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
       boolean hasValue();
       /**
@@ -1115,24 +1115,24 @@ public final class AcGetCommandSettingsAd {
        * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
        */
       boolean hasKeyVariable();
       /**
@@ -1140,24 +1140,24 @@ public final class AcGetCommandSettingsAd {
        * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
        */
-      io.dstore.Values.stringValue getKeyVariable();
+      io.dstore.values.StringValue getKeyVariable();
       /**
        * <pre>
        * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+      io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
       /**
        * <pre>
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
        */
       boolean hasCommandId();
       /**
@@ -1165,17 +1165,17 @@ public final class AcGetCommandSettingsAd {
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getCommandId();
+      io.dstore.values.IntegerValue getCommandId();
       /**
        * <pre>
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.ac_GetCommandSettings_Ad.Response.Row}
@@ -1223,11 +1223,11 @@ public final class AcGetCommandSettingsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1236,11 +1236,11 @@ public final class AcGetCommandSettingsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (keyVariable_ != null) {
                   subBuilder = keyVariable_.toBuilder();
                 }
-                keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                keyVariable_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(keyVariable_);
                   keyVariable_ = subBuilder.buildPartial();
@@ -1249,11 +1249,11 @@ public final class AcGetCommandSettingsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (commandId_ != null) {
                   subBuilder = commandId_.toBuilder();
                 }
-                commandId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                commandId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(commandId_);
                   commandId_ = subBuilder.buildPartial();
@@ -1294,13 +1294,13 @@ public final class AcGetCommandSettingsAd {
       }
 
       public static final int VALUE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1310,30 +1310,30 @@ public final class AcGetCommandSettingsAd {
        * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int KEY_VARIABLE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue keyVariable_;
+      private io.dstore.values.StringValue keyVariable_;
       /**
        * <pre>
        * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariable_ != null;
@@ -1343,30 +1343,30 @@ public final class AcGetCommandSettingsAd {
        * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
        */
-      public io.dstore.Values.stringValue getKeyVariable() {
-        return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+      public io.dstore.values.StringValue getKeyVariable() {
+        return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
       }
       /**
        * <pre>
        * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
       }
 
       public static final int COMMAND_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue commandId_;
+      private io.dstore.values.IntegerValue commandId_;
       /**
        * <pre>
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
        */
       public boolean hasCommandId() {
         return commandId_ != null;
@@ -1376,19 +1376,19 @@ public final class AcGetCommandSettingsAd {
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getCommandId() {
-        return commandId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+      public io.dstore.values.IntegerValue getCommandId() {
+        return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
       }
       /**
        * <pre>
        * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
         return getCommandId();
       }
 
@@ -1777,15 +1777,15 @@ public final class AcGetCommandSettingsAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -1795,11 +1795,11 @@ public final class AcGetCommandSettingsAd {
          * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -1809,9 +1809,9 @@ public final class AcGetCommandSettingsAd {
          * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1829,10 +1829,10 @@ public final class AcGetCommandSettingsAd {
          * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -1847,13 +1847,13 @@ public final class AcGetCommandSettingsAd {
          * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -1869,7 +1869,7 @@ public final class AcGetCommandSettingsAd {
          * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -1887,9 +1887,9 @@ public final class AcGetCommandSettingsAd {
          * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -1899,14 +1899,14 @@ public final class AcGetCommandSettingsAd {
          * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -1914,14 +1914,14 @@ public final class AcGetCommandSettingsAd {
          * Der für "CommandID" zum Schlüssel "KeyVariable" konfigurierte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -1930,15 +1930,15 @@ public final class AcGetCommandSettingsAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.stringValue keyVariable_ = null;
+        private io.dstore.values.StringValue keyVariable_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
         /**
          * <pre>
          * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
          */
         public boolean hasKeyVariable() {
           return keyVariableBuilder_ != null || keyVariable_ != null;
@@ -1948,11 +1948,11 @@ public final class AcGetCommandSettingsAd {
          * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
          */
-        public io.dstore.Values.stringValue getKeyVariable() {
+        public io.dstore.values.StringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
-            return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+            return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
           } else {
             return keyVariableBuilder_.getMessage();
           }
@@ -1962,9 +1962,9 @@ public final class AcGetCommandSettingsAd {
          * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
          */
-        public Builder setKeyVariable(io.dstore.Values.stringValue value) {
+        public Builder setKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1982,10 +1982,10 @@ public final class AcGetCommandSettingsAd {
          * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
          */
         public Builder setKeyVariable(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (keyVariableBuilder_ == null) {
             keyVariable_ = builderForValue.build();
             onChanged();
@@ -2000,13 +2000,13 @@ public final class AcGetCommandSettingsAd {
          * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
          */
-        public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
+        public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
             if (keyVariable_ != null) {
               keyVariable_ =
-                io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
             } else {
               keyVariable_ = value;
             }
@@ -2022,7 +2022,7 @@ public final class AcGetCommandSettingsAd {
          * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
          */
         public Builder clearKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2040,9 +2040,9 @@ public final class AcGetCommandSettingsAd {
          * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
+        public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
           
           onChanged();
           return getKeyVariableFieldBuilder().getBuilder();
@@ -2052,14 +2052,14 @@ public final class AcGetCommandSettingsAd {
          * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
             return keyVariableBuilder_.getMessageOrBuilder();
           } else {
             return keyVariable_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+                io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
           }
         }
         /**
@@ -2067,14 +2067,14 @@ public final class AcGetCommandSettingsAd {
          * Ein Schlüssel (z.B. "ForumIDForActionLog"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'CommandSettings' ".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10002;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getKeyVariableFieldBuilder() {
           if (keyVariableBuilder_ == null) {
             keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getKeyVariable(),
                     getParentForChildren(),
                     isClean());
@@ -2083,15 +2083,15 @@ public final class AcGetCommandSettingsAd {
           return keyVariableBuilder_;
         }
 
-        private io.dstore.Values.integerValue commandId_ = null;
+        private io.dstore.values.IntegerValue commandId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> commandIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> commandIdBuilder_;
         /**
          * <pre>
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
          */
         public boolean hasCommandId() {
           return commandIdBuilder_ != null || commandId_ != null;
@@ -2101,11 +2101,11 @@ public final class AcGetCommandSettingsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getCommandId() {
+        public io.dstore.values.IntegerValue getCommandId() {
           if (commandIdBuilder_ == null) {
-            return commandId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+            return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
           } else {
             return commandIdBuilder_.getMessage();
           }
@@ -2115,9 +2115,9 @@ public final class AcGetCommandSettingsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
          */
-        public Builder setCommandId(io.dstore.Values.integerValue value) {
+        public Builder setCommandId(io.dstore.values.IntegerValue value) {
           if (commandIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2135,10 +2135,10 @@ public final class AcGetCommandSettingsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
          */
         public Builder setCommandId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (commandIdBuilder_ == null) {
             commandId_ = builderForValue.build();
             onChanged();
@@ -2153,13 +2153,13 @@ public final class AcGetCommandSettingsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
          */
-        public Builder mergeCommandId(io.dstore.Values.integerValue value) {
+        public Builder mergeCommandId(io.dstore.values.IntegerValue value) {
           if (commandIdBuilder_ == null) {
             if (commandId_ != null) {
               commandId_ =
-                io.dstore.Values.integerValue.newBuilder(commandId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(commandId_).mergeFrom(value).buildPartial();
             } else {
               commandId_ = value;
             }
@@ -2175,7 +2175,7 @@ public final class AcGetCommandSettingsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
          */
         public Builder clearCommandId() {
           if (commandIdBuilder_ == null) {
@@ -2193,9 +2193,9 @@ public final class AcGetCommandSettingsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCommandIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCommandIdBuilder() {
           
           onChanged();
           return getCommandIdFieldBuilder().getBuilder();
@@ -2205,14 +2205,14 @@ public final class AcGetCommandSettingsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
           if (commandIdBuilder_ != null) {
             return commandIdBuilder_.getMessageOrBuilder();
           } else {
             return commandId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
           }
         }
         /**
@@ -2220,14 +2220,14 @@ public final class AcGetCommandSettingsAd {
          * ID eines Kommandos (bzw. Programms), mit dem "Actions" abgearbeitet werden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue command_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue command_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCommandIdFieldBuilder() {
           if (commandIdBuilder_ == null) {
             commandIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCommandId(),
                     getParentForChildren(),
                     isClean());
@@ -3696,19 +3696,19 @@ public final class AcGetCommandSettingsAd {
       "Settings_Ad.proto\022&dstore.engine.ac_GetC" +
       "ommandSettings_Ad\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\245\001\n\nParameter" +
-      "s\022/\n\ncommand_id\030\001 \001(\0132\033.dstore.values.in" +
+      "s\022/\n\ncommand_id\030\001 \001(\0132\033.dstore.values.In" +
       "tegerValue\022\030\n\017command_id_null\030\351\007 \001(\010\0220\n\014" +
-      "key_variable\030\002 \001(\0132\032.dstore.values.strin" +
+      "key_variable\030\002 \001(\0132\032.dstore.values.Strin" +
       "gValue\022\032\n\021key_variable_null\030\352\007 \001(\010\"\332\002\n\010R" +
       "esponse\0228\n\020meta_information\030\002 \003(\0132\036.dsto" +
       "re.engine.MetaInformation\022\'\n\007message\030\003 \003",
       "(\0132\026.dstore.engine.Message\022A\n\003row\030\004 \003(\0132" +
       "4.dstore.engine.ac_GetCommandSettings_Ad" +
       ".Response.Row\032\247\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022*" +
-      "\n\005value\030\221N \001(\0132\032.dstore.values.stringVal" +
+      "\n\005value\030\221N \001(\0132\032.dstore.values.StringVal" +
       "ue\0221\n\014key_variable\030\222N \001(\0132\032.dstore.value" +
-      "s.stringValue\0220\n\ncommand_id\030\223N \001(\0132\033.dst" +
-      "ore.values.integerValueBY\n\033io.dstore.eng" +
+      "s.StringValue\0220\n\ncommand_id\030\223N \001(\0132\033.dst" +
+      "ore.values.IntegerValueBY\n\033io.dstore.eng" +
       "ine.proceduresZ:gosdk.dstore.de/engine/p" +
       "rocedures/ac_GetCommandSettings_Adb\006prot" +
       "o3"
@@ -3724,7 +3724,7 @@ public final class AcGetCommandSettingsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_ac_GetCommandSettings_Ad_Parameters_descriptor =
@@ -3745,7 +3745,7 @@ public final class AcGetCommandSettingsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_ac_GetCommandSettings_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value", "KeyVariable", "CommandId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

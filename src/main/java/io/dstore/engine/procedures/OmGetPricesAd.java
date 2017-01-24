@@ -19,17 +19,17 @@ public final class OmGetPricesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTreeNodeId();
+    io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetPricesAd {
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetPricesAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
-    io.dstore.Values.integerValue getCurrencyId();
+    io.dstore.values.IntegerValue getCurrencyId();
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
      * <code>optional bool currency_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmGetPricesAd {
     boolean getCurrencyIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
      */
     boolean hasPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
      */
-    io.dstore.Values.integerValue getPriceNodeCharacteristicId();
+    io.dstore.values.IntegerValue getPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool price_node_characteristic_id_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class OmGetPricesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class OmGetPricesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class OmGetPricesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (currencyId_ != null) {
                 subBuilder = currencyId_.toBuilder();
               }
-              currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              currencyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(currencyId_);
                 currencyId_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class OmGetPricesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (priceNodeCharacteristicId_ != null) {
                 subBuilder = priceNodeCharacteristicId_.toBuilder();
               }
-              priceNodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              priceNodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(priceNodeCharacteristicId_);
                 priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class OmGetPricesAd {
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue treeNodeId_;
+    private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTreeNodeId() {
-      return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+    public io.dstore.values.IntegerValue getTreeNodeId() {
+      return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
     }
 
@@ -259,23 +259,23 @@ public final class OmGetPricesAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -289,23 +289,23 @@ public final class OmGetPricesAd {
     }
 
     public static final int CURRENCY_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue currencyId_;
+    private io.dstore.values.IntegerValue currencyId_;
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getCurrencyId() {
-      return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+    public io.dstore.values.IntegerValue getCurrencyId() {
+      return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
     }
 
@@ -319,23 +319,23 @@ public final class OmGetPricesAd {
     }
 
     public static final int PRICE_NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue priceNodeCharacteristicId_;
+    private io.dstore.values.IntegerValue priceNodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
      */
     public boolean hasPriceNodeCharacteristicId() {
       return priceNodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
-      return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
+      return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
       return getPriceNodeCharacteristicId();
     }
 
@@ -792,29 +792,29 @@ public final class OmGetPricesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue treeNodeId_ = null;
+      private io.dstore.values.IntegerValue treeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
+      public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
-          return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+          return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         } else {
           return treeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (treeNodeIdBuilder_ == null) {
           treeNodeId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (treeNodeId_ != null) {
             treeNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeId_ = value;
           }
@@ -860,7 +860,7 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
           return treeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTreeNodeIdFieldBuilder() {
         if (treeNodeIdBuilder_ == null) {
           treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class OmGetPricesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class OmGetPricesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue currencyId_ = null;
+      private io.dstore.values.IntegerValue currencyId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getCurrencyId() {
+      public io.dstore.values.IntegerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
-          return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+          return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
         } else {
           return currencyIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public Builder setCurrencyId(io.dstore.Values.integerValue value) {
+      public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
       public Builder setCurrencyId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (currencyIdBuilder_ == null) {
           currencyId_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
+      public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
           if (currencyId_ != null) {
             currencyId_ =
-              io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
           } else {
             currencyId_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
         
         onChanged();
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
           return currencyIdBuilder_.getMessageOrBuilder();
         } else {
           return currencyId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCurrencyIdFieldBuilder() {
         if (currencyIdBuilder_ == null) {
           currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCurrencyId(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class OmGetPricesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue priceNodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue priceNodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
        */
       public boolean hasPriceNodeCharacteristicId() {
         return priceNodeCharacteristicIdBuilder_ != null || priceNodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
-          return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+          return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
         } else {
           return priceNodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
        */
-      public Builder setPriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setPriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
        */
       public Builder setPriceNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           priceNodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
        */
-      public Builder mergePriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergePriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           if (priceNodeCharacteristicId_ != null) {
             priceNodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             priceNodeCharacteristicId_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
        */
       public Builder clearPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class OmGetPricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPriceNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPriceNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getPriceNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
         if (priceNodeCharacteristicIdBuilder_ != null) {
           return priceNodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return priceNodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPriceNodeCharacteristicIdFieldBuilder() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           priceNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPriceNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1623,7 +1623,7 @@ public final class OmGetPricesAd {
        * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
        */
       boolean hasUnitNetPrice();
       /**
@@ -1631,24 +1631,24 @@ public final class OmGetPricesAd {
        * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
        */
-      io.dstore.Values.decimalValue getUnitNetPrice();
+      io.dstore.values.DecimalValue getUnitNetPrice();
       /**
        * <pre>
        * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getUnitNetPriceOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getUnitNetPriceOrBuilder();
 
       /**
        * <pre>
        * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
        */
       boolean hasAbsoluteUnitNetSurcharge();
       /**
@@ -1656,24 +1656,24 @@ public final class OmGetPricesAd {
        * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
        */
-      io.dstore.Values.decimalValue getAbsoluteUnitNetSurcharge();
+      io.dstore.values.DecimalValue getAbsoluteUnitNetSurcharge();
       /**
        * <pre>
        * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitNetSurchargeOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNetSurchargeOrBuilder();
 
       /**
        * <pre>
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
        */
       boolean hasSurchargeGeneratedByCampIds();
       /**
@@ -1681,24 +1681,24 @@ public final class OmGetPricesAd {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
        */
-      io.dstore.Values.stringValue getSurchargeGeneratedByCampIds();
+      io.dstore.values.StringValue getSurchargeGeneratedByCampIds();
       /**
        * <pre>
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder();
 
       /**
        * <pre>
        * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
        */
       boolean hasUnitGrossPrice();
       /**
@@ -1706,24 +1706,24 @@ public final class OmGetPricesAd {
        * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
        */
-      io.dstore.Values.decimalValue getUnitGrossPrice();
+      io.dstore.values.DecimalValue getUnitGrossPrice();
       /**
        * <pre>
        * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getUnitGrossPriceOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getUnitGrossPriceOrBuilder();
 
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -1731,24 +1731,24 @@ public final class OmGetPricesAd {
        * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
-      io.dstore.Values.integerValue getTreeNodeId();
+      io.dstore.values.IntegerValue getTreeNodeId();
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
       boolean hasNodeId();
       /**
@@ -1756,24 +1756,24 @@ public final class OmGetPricesAd {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
        */
       boolean hasAbsoluteUnitGrossSurcharge();
       /**
@@ -1781,24 +1781,24 @@ public final class OmGetPricesAd {
        * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
        */
-      io.dstore.Values.decimalValue getAbsoluteUnitGrossSurcharge();
+      io.dstore.values.DecimalValue getAbsoluteUnitGrossSurcharge();
       /**
        * <pre>
        * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitGrossSurchargeOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitGrossSurchargeOrBuilder();
 
       /**
        * <pre>
        * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
        */
       boolean hasRelativeSurcharge();
       /**
@@ -1806,17 +1806,17 @@ public final class OmGetPricesAd {
        * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
        */
-      io.dstore.Values.decimalValue getRelativeSurcharge();
+      io.dstore.values.DecimalValue getRelativeSurcharge();
       /**
        * <pre>
        * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getRelativeSurchargeOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getRelativeSurchargeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPrices_Ad.Response.Row}
@@ -1864,11 +1864,11 @@ public final class OmGetPricesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (unitNetPrice_ != null) {
                   subBuilder = unitNetPrice_.toBuilder();
                 }
-                unitNetPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                unitNetPrice_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitNetPrice_);
                   unitNetPrice_ = subBuilder.buildPartial();
@@ -1877,11 +1877,11 @@ public final class OmGetPricesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (absoluteUnitNetSurcharge_ != null) {
                   subBuilder = absoluteUnitNetSurcharge_.toBuilder();
                 }
-                absoluteUnitNetSurcharge_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                absoluteUnitNetSurcharge_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteUnitNetSurcharge_);
                   absoluteUnitNetSurcharge_ = subBuilder.buildPartial();
@@ -1890,11 +1890,11 @@ public final class OmGetPricesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (surchargeGeneratedByCampIds_ != null) {
                   subBuilder = surchargeGeneratedByCampIds_.toBuilder();
                 }
-                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeGeneratedByCampIds_);
                   surchargeGeneratedByCampIds_ = subBuilder.buildPartial();
@@ -1903,11 +1903,11 @@ public final class OmGetPricesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (unitGrossPrice_ != null) {
                   subBuilder = unitGrossPrice_.toBuilder();
                 }
-                unitGrossPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                unitGrossPrice_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitGrossPrice_);
                   unitGrossPrice_ = subBuilder.buildPartial();
@@ -1916,11 +1916,11 @@ public final class OmGetPricesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -1929,11 +1929,11 @@ public final class OmGetPricesAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -1942,11 +1942,11 @@ public final class OmGetPricesAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (absoluteUnitGrossSurcharge_ != null) {
                   subBuilder = absoluteUnitGrossSurcharge_.toBuilder();
                 }
-                absoluteUnitGrossSurcharge_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                absoluteUnitGrossSurcharge_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteUnitGrossSurcharge_);
                   absoluteUnitGrossSurcharge_ = subBuilder.buildPartial();
@@ -1955,11 +1955,11 @@ public final class OmGetPricesAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (relativeSurcharge_ != null) {
                   subBuilder = relativeSurcharge_.toBuilder();
                 }
-                relativeSurcharge_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                relativeSurcharge_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relativeSurcharge_);
                   relativeSurcharge_ = subBuilder.buildPartial();
@@ -2000,13 +2000,13 @@ public final class OmGetPricesAd {
       }
 
       public static final int UNIT_NET_PRICE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.decimalValue unitNetPrice_;
+      private io.dstore.values.DecimalValue unitNetPrice_;
       /**
        * <pre>
        * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
        */
       public boolean hasUnitNetPrice() {
         return unitNetPrice_ != null;
@@ -2016,30 +2016,30 @@ public final class OmGetPricesAd {
        * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
        */
-      public io.dstore.Values.decimalValue getUnitNetPrice() {
-        return unitNetPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitNetPrice_;
+      public io.dstore.values.DecimalValue getUnitNetPrice() {
+        return unitNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitNetPrice_;
       }
       /**
        * <pre>
        * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getUnitNetPriceOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getUnitNetPriceOrBuilder() {
         return getUnitNetPrice();
       }
 
       public static final int ABSOLUTE_UNIT_NET_SURCHARGE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.decimalValue absoluteUnitNetSurcharge_;
+      private io.dstore.values.DecimalValue absoluteUnitNetSurcharge_;
       /**
        * <pre>
        * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
        */
       public boolean hasAbsoluteUnitNetSurcharge() {
         return absoluteUnitNetSurcharge_ != null;
@@ -2049,30 +2049,30 @@ public final class OmGetPricesAd {
        * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
        */
-      public io.dstore.Values.decimalValue getAbsoluteUnitNetSurcharge() {
-        return absoluteUnitNetSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitNetSurcharge_;
+      public io.dstore.values.DecimalValue getAbsoluteUnitNetSurcharge() {
+        return absoluteUnitNetSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitNetSurcharge_;
       }
       /**
        * <pre>
        * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitNetSurchargeOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNetSurchargeOrBuilder() {
         return getAbsoluteUnitNetSurcharge();
       }
 
       public static final int SURCHARGE_GENERATED_BY_CAMP_IDS_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue surchargeGeneratedByCampIds_;
+      private io.dstore.values.StringValue surchargeGeneratedByCampIds_;
       /**
        * <pre>
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
        */
       public boolean hasSurchargeGeneratedByCampIds() {
         return surchargeGeneratedByCampIds_ != null;
@@ -2082,30 +2082,30 @@ public final class OmGetPricesAd {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
        */
-      public io.dstore.Values.stringValue getSurchargeGeneratedByCampIds() {
-        return surchargeGeneratedByCampIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
+      public io.dstore.values.StringValue getSurchargeGeneratedByCampIds() {
+        return surchargeGeneratedByCampIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
       }
       /**
        * <pre>
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
         return getSurchargeGeneratedByCampIds();
       }
 
       public static final int UNIT_GROSS_PRICE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.decimalValue unitGrossPrice_;
+      private io.dstore.values.DecimalValue unitGrossPrice_;
       /**
        * <pre>
        * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
        */
       public boolean hasUnitGrossPrice() {
         return unitGrossPrice_ != null;
@@ -2115,30 +2115,30 @@ public final class OmGetPricesAd {
        * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
        */
-      public io.dstore.Values.decimalValue getUnitGrossPrice() {
-        return unitGrossPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitGrossPrice_;
+      public io.dstore.values.DecimalValue getUnitGrossPrice() {
+        return unitGrossPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitGrossPrice_;
       }
       /**
        * <pre>
        * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getUnitGrossPriceOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getUnitGrossPriceOrBuilder() {
         return getUnitGrossPrice();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue treeNodeId_;
+      private io.dstore.values.IntegerValue treeNodeId_;
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -2148,30 +2148,30 @@ public final class OmGetPricesAd {
        * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.values.IntegerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -2181,30 +2181,30 @@ public final class OmGetPricesAd {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int ABSOLUTE_UNIT_GROSS_SURCHARGE_FIELD_NUMBER = 10007;
-      private io.dstore.Values.decimalValue absoluteUnitGrossSurcharge_;
+      private io.dstore.values.DecimalValue absoluteUnitGrossSurcharge_;
       /**
        * <pre>
        * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
        */
       public boolean hasAbsoluteUnitGrossSurcharge() {
         return absoluteUnitGrossSurcharge_ != null;
@@ -2214,30 +2214,30 @@ public final class OmGetPricesAd {
        * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
        */
-      public io.dstore.Values.decimalValue getAbsoluteUnitGrossSurcharge() {
-        return absoluteUnitGrossSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitGrossSurcharge_;
+      public io.dstore.values.DecimalValue getAbsoluteUnitGrossSurcharge() {
+        return absoluteUnitGrossSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitGrossSurcharge_;
       }
       /**
        * <pre>
        * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitGrossSurchargeOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitGrossSurchargeOrBuilder() {
         return getAbsoluteUnitGrossSurcharge();
       }
 
       public static final int RELATIVE_SURCHARGE_FIELD_NUMBER = 10008;
-      private io.dstore.Values.decimalValue relativeSurcharge_;
+      private io.dstore.values.DecimalValue relativeSurcharge_;
       /**
        * <pre>
        * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
        */
       public boolean hasRelativeSurcharge() {
         return relativeSurcharge_ != null;
@@ -2247,19 +2247,19 @@ public final class OmGetPricesAd {
        * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
        */
-      public io.dstore.Values.decimalValue getRelativeSurcharge() {
-        return relativeSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : relativeSurcharge_;
+      public io.dstore.values.DecimalValue getRelativeSurcharge() {
+        return relativeSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : relativeSurcharge_;
       }
       /**
        * <pre>
        * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getRelativeSurchargeOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getRelativeSurchargeOrBuilder() {
         return getRelativeSurcharge();
       }
 
@@ -2798,15 +2798,15 @@ public final class OmGetPricesAd {
           return this;
         }
 
-        private io.dstore.Values.decimalValue unitNetPrice_ = null;
+        private io.dstore.values.DecimalValue unitNetPrice_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> unitNetPriceBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> unitNetPriceBuilder_;
         /**
          * <pre>
          * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
          */
         public boolean hasUnitNetPrice() {
           return unitNetPriceBuilder_ != null || unitNetPrice_ != null;
@@ -2816,11 +2816,11 @@ public final class OmGetPricesAd {
          * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
          */
-        public io.dstore.Values.decimalValue getUnitNetPrice() {
+        public io.dstore.values.DecimalValue getUnitNetPrice() {
           if (unitNetPriceBuilder_ == null) {
-            return unitNetPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitNetPrice_;
+            return unitNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitNetPrice_;
           } else {
             return unitNetPriceBuilder_.getMessage();
           }
@@ -2830,9 +2830,9 @@ public final class OmGetPricesAd {
          * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
          */
-        public Builder setUnitNetPrice(io.dstore.Values.decimalValue value) {
+        public Builder setUnitNetPrice(io.dstore.values.DecimalValue value) {
           if (unitNetPriceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2850,10 +2850,10 @@ public final class OmGetPricesAd {
          * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
          */
         public Builder setUnitNetPrice(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (unitNetPriceBuilder_ == null) {
             unitNetPrice_ = builderForValue.build();
             onChanged();
@@ -2868,13 +2868,13 @@ public final class OmGetPricesAd {
          * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
          */
-        public Builder mergeUnitNetPrice(io.dstore.Values.decimalValue value) {
+        public Builder mergeUnitNetPrice(io.dstore.values.DecimalValue value) {
           if (unitNetPriceBuilder_ == null) {
             if (unitNetPrice_ != null) {
               unitNetPrice_ =
-                io.dstore.Values.decimalValue.newBuilder(unitNetPrice_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(unitNetPrice_).mergeFrom(value).buildPartial();
             } else {
               unitNetPrice_ = value;
             }
@@ -2890,7 +2890,7 @@ public final class OmGetPricesAd {
          * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
          */
         public Builder clearUnitNetPrice() {
           if (unitNetPriceBuilder_ == null) {
@@ -2908,9 +2908,9 @@ public final class OmGetPricesAd {
          * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getUnitNetPriceBuilder() {
+        public io.dstore.values.DecimalValue.Builder getUnitNetPriceBuilder() {
           
           onChanged();
           return getUnitNetPriceFieldBuilder().getBuilder();
@@ -2920,14 +2920,14 @@ public final class OmGetPricesAd {
          * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getUnitNetPriceOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getUnitNetPriceOrBuilder() {
           if (unitNetPriceBuilder_ != null) {
             return unitNetPriceBuilder_.getMessageOrBuilder();
           } else {
             return unitNetPrice_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : unitNetPrice_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : unitNetPrice_;
           }
         }
         /**
@@ -2935,14 +2935,14 @@ public final class OmGetPricesAd {
          * Netto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getUnitNetPriceFieldBuilder() {
           if (unitNetPriceBuilder_ == null) {
             unitNetPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getUnitNetPrice(),
                     getParentForChildren(),
                     isClean());
@@ -2951,15 +2951,15 @@ public final class OmGetPricesAd {
           return unitNetPriceBuilder_;
         }
 
-        private io.dstore.Values.decimalValue absoluteUnitNetSurcharge_ = null;
+        private io.dstore.values.DecimalValue absoluteUnitNetSurcharge_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> absoluteUnitNetSurchargeBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> absoluteUnitNetSurchargeBuilder_;
         /**
          * <pre>
          * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
          */
         public boolean hasAbsoluteUnitNetSurcharge() {
           return absoluteUnitNetSurchargeBuilder_ != null || absoluteUnitNetSurcharge_ != null;
@@ -2969,11 +2969,11 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
          */
-        public io.dstore.Values.decimalValue getAbsoluteUnitNetSurcharge() {
+        public io.dstore.values.DecimalValue getAbsoluteUnitNetSurcharge() {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
-            return absoluteUnitNetSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitNetSurcharge_;
+            return absoluteUnitNetSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitNetSurcharge_;
           } else {
             return absoluteUnitNetSurchargeBuilder_.getMessage();
           }
@@ -2983,9 +2983,9 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
          */
-        public Builder setAbsoluteUnitNetSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder setAbsoluteUnitNetSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3003,10 +3003,10 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
          */
         public Builder setAbsoluteUnitNetSurcharge(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
             absoluteUnitNetSurcharge_ = builderForValue.build();
             onChanged();
@@ -3021,13 +3021,13 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
          */
-        public Builder mergeAbsoluteUnitNetSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder mergeAbsoluteUnitNetSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
             if (absoluteUnitNetSurcharge_ != null) {
               absoluteUnitNetSurcharge_ =
-                io.dstore.Values.decimalValue.newBuilder(absoluteUnitNetSurcharge_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(absoluteUnitNetSurcharge_).mergeFrom(value).buildPartial();
             } else {
               absoluteUnitNetSurcharge_ = value;
             }
@@ -3043,7 +3043,7 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
          */
         public Builder clearAbsoluteUnitNetSurcharge() {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
@@ -3061,9 +3061,9 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getAbsoluteUnitNetSurchargeBuilder() {
+        public io.dstore.values.DecimalValue.Builder getAbsoluteUnitNetSurchargeBuilder() {
           
           onChanged();
           return getAbsoluteUnitNetSurchargeFieldBuilder().getBuilder();
@@ -3073,14 +3073,14 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitNetSurchargeOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNetSurchargeOrBuilder() {
           if (absoluteUnitNetSurchargeBuilder_ != null) {
             return absoluteUnitNetSurchargeBuilder_.getMessageOrBuilder();
           } else {
             return absoluteUnitNetSurcharge_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitNetSurcharge_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitNetSurcharge_;
           }
         }
         /**
@@ -3088,14 +3088,14 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitNetPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_net_surcharge = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_net_surcharge = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getAbsoluteUnitNetSurchargeFieldBuilder() {
           if (absoluteUnitNetSurchargeBuilder_ == null) {
             absoluteUnitNetSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getAbsoluteUnitNetSurcharge(),
                     getParentForChildren(),
                     isClean());
@@ -3104,15 +3104,15 @@ public final class OmGetPricesAd {
           return absoluteUnitNetSurchargeBuilder_;
         }
 
-        private io.dstore.Values.stringValue surchargeGeneratedByCampIds_ = null;
+        private io.dstore.values.StringValue surchargeGeneratedByCampIds_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeGeneratedByCampIdsBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> surchargeGeneratedByCampIdsBuilder_;
         /**
          * <pre>
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
          */
         public boolean hasSurchargeGeneratedByCampIds() {
           return surchargeGeneratedByCampIdsBuilder_ != null || surchargeGeneratedByCampIds_ != null;
@@ -3122,11 +3122,11 @@ public final class OmGetPricesAd {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
          */
-        public io.dstore.Values.stringValue getSurchargeGeneratedByCampIds() {
+        public io.dstore.values.StringValue getSurchargeGeneratedByCampIds() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
-            return surchargeGeneratedByCampIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
+            return surchargeGeneratedByCampIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
           } else {
             return surchargeGeneratedByCampIdsBuilder_.getMessage();
           }
@@ -3136,9 +3136,9 @@ public final class OmGetPricesAd {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
          */
-        public Builder setSurchargeGeneratedByCampIds(io.dstore.Values.stringValue value) {
+        public Builder setSurchargeGeneratedByCampIds(io.dstore.values.StringValue value) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3156,10 +3156,10 @@ public final class OmGetPricesAd {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
          */
         public Builder setSurchargeGeneratedByCampIds(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
             surchargeGeneratedByCampIds_ = builderForValue.build();
             onChanged();
@@ -3174,13 +3174,13 @@ public final class OmGetPricesAd {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
          */
-        public Builder mergeSurchargeGeneratedByCampIds(io.dstore.Values.stringValue value) {
+        public Builder mergeSurchargeGeneratedByCampIds(io.dstore.values.StringValue value) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
             if (surchargeGeneratedByCampIds_ != null) {
               surchargeGeneratedByCampIds_ =
-                io.dstore.Values.stringValue.newBuilder(surchargeGeneratedByCampIds_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(surchargeGeneratedByCampIds_).mergeFrom(value).buildPartial();
             } else {
               surchargeGeneratedByCampIds_ = value;
             }
@@ -3196,7 +3196,7 @@ public final class OmGetPricesAd {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
          */
         public Builder clearSurchargeGeneratedByCampIds() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -3214,9 +3214,9 @@ public final class OmGetPricesAd {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSurchargeGeneratedByCampIdsBuilder() {
+        public io.dstore.values.StringValue.Builder getSurchargeGeneratedByCampIdsBuilder() {
           
           onChanged();
           return getSurchargeGeneratedByCampIdsFieldBuilder().getBuilder();
@@ -3226,14 +3226,14 @@ public final class OmGetPricesAd {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
           if (surchargeGeneratedByCampIdsBuilder_ != null) {
             return surchargeGeneratedByCampIdsBuilder_.getMessageOrBuilder();
           } else {
             return surchargeGeneratedByCampIds_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
+                io.dstore.values.StringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
           }
         }
         /**
@@ -3241,14 +3241,14 @@ public final class OmGetPricesAd {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung des Artikels geführt haben
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10003;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSurchargeGeneratedByCampIdsFieldBuilder() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
             surchargeGeneratedByCampIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSurchargeGeneratedByCampIds(),
                     getParentForChildren(),
                     isClean());
@@ -3257,15 +3257,15 @@ public final class OmGetPricesAd {
           return surchargeGeneratedByCampIdsBuilder_;
         }
 
-        private io.dstore.Values.decimalValue unitGrossPrice_ = null;
+        private io.dstore.values.DecimalValue unitGrossPrice_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> unitGrossPriceBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> unitGrossPriceBuilder_;
         /**
          * <pre>
          * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
          */
         public boolean hasUnitGrossPrice() {
           return unitGrossPriceBuilder_ != null || unitGrossPrice_ != null;
@@ -3275,11 +3275,11 @@ public final class OmGetPricesAd {
          * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
          */
-        public io.dstore.Values.decimalValue getUnitGrossPrice() {
+        public io.dstore.values.DecimalValue getUnitGrossPrice() {
           if (unitGrossPriceBuilder_ == null) {
-            return unitGrossPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitGrossPrice_;
+            return unitGrossPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitGrossPrice_;
           } else {
             return unitGrossPriceBuilder_.getMessage();
           }
@@ -3289,9 +3289,9 @@ public final class OmGetPricesAd {
          * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
          */
-        public Builder setUnitGrossPrice(io.dstore.Values.decimalValue value) {
+        public Builder setUnitGrossPrice(io.dstore.values.DecimalValue value) {
           if (unitGrossPriceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3309,10 +3309,10 @@ public final class OmGetPricesAd {
          * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
          */
         public Builder setUnitGrossPrice(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (unitGrossPriceBuilder_ == null) {
             unitGrossPrice_ = builderForValue.build();
             onChanged();
@@ -3327,13 +3327,13 @@ public final class OmGetPricesAd {
          * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
          */
-        public Builder mergeUnitGrossPrice(io.dstore.Values.decimalValue value) {
+        public Builder mergeUnitGrossPrice(io.dstore.values.DecimalValue value) {
           if (unitGrossPriceBuilder_ == null) {
             if (unitGrossPrice_ != null) {
               unitGrossPrice_ =
-                io.dstore.Values.decimalValue.newBuilder(unitGrossPrice_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(unitGrossPrice_).mergeFrom(value).buildPartial();
             } else {
               unitGrossPrice_ = value;
             }
@@ -3349,7 +3349,7 @@ public final class OmGetPricesAd {
          * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
          */
         public Builder clearUnitGrossPrice() {
           if (unitGrossPriceBuilder_ == null) {
@@ -3367,9 +3367,9 @@ public final class OmGetPricesAd {
          * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getUnitGrossPriceBuilder() {
+        public io.dstore.values.DecimalValue.Builder getUnitGrossPriceBuilder() {
           
           onChanged();
           return getUnitGrossPriceFieldBuilder().getBuilder();
@@ -3379,14 +3379,14 @@ public final class OmGetPricesAd {
          * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getUnitGrossPriceOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getUnitGrossPriceOrBuilder() {
           if (unitGrossPriceBuilder_ != null) {
             return unitGrossPriceBuilder_.getMessageOrBuilder();
           } else {
             return unitGrossPrice_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : unitGrossPrice_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : unitGrossPrice_;
           }
         }
         /**
@@ -3394,14 +3394,14 @@ public final class OmGetPricesAd {
          * Brutto-Preis von "NodeID", wenn man (bzw. "&#64;PersonID") den Artikel EINMAL bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_gross_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue unit_gross_price = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getUnitGrossPriceFieldBuilder() {
           if (unitGrossPriceBuilder_ == null) {
             unitGrossPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getUnitGrossPrice(),
                     getParentForChildren(),
                     isClean());
@@ -3410,15 +3410,15 @@ public final class OmGetPricesAd {
           return unitGrossPriceBuilder_;
         }
 
-        private io.dstore.Values.integerValue treeNodeId_ = null;
+        private io.dstore.values.IntegerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -3428,11 +3428,11 @@ public final class OmGetPricesAd {
          * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue getTreeNodeId() {
+        public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
@@ -3442,9 +3442,9 @@ public final class OmGetPricesAd {
          * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3462,10 +3462,10 @@ public final class OmGetPricesAd {
          * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public Builder setTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -3480,13 +3480,13 @@ public final class OmGetPricesAd {
          * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -3502,7 +3502,7 @@ public final class OmGetPricesAd {
          * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -3520,9 +3520,9 @@ public final class OmGetPricesAd {
          * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
@@ -3532,14 +3532,14 @@ public final class OmGetPricesAd {
          * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
@@ -3547,14 +3547,14 @@ public final class OmGetPricesAd {
          * ID eines Elementes im Artikelbaum, zu dem der Einzelpreis ermittelt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3563,15 +3563,15 @@ public final class OmGetPricesAd {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -3581,11 +3581,11 @@ public final class OmGetPricesAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -3595,9 +3595,9 @@ public final class OmGetPricesAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3615,10 +3615,10 @@ public final class OmGetPricesAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -3633,13 +3633,13 @@ public final class OmGetPricesAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -3655,7 +3655,7 @@ public final class OmGetPricesAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -3673,9 +3673,9 @@ public final class OmGetPricesAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -3685,14 +3685,14 @@ public final class OmGetPricesAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -3700,14 +3700,14 @@ public final class OmGetPricesAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3716,15 +3716,15 @@ public final class OmGetPricesAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue absoluteUnitGrossSurcharge_ = null;
+        private io.dstore.values.DecimalValue absoluteUnitGrossSurcharge_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> absoluteUnitGrossSurchargeBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> absoluteUnitGrossSurchargeBuilder_;
         /**
          * <pre>
          * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
          */
         public boolean hasAbsoluteUnitGrossSurcharge() {
           return absoluteUnitGrossSurchargeBuilder_ != null || absoluteUnitGrossSurcharge_ != null;
@@ -3734,11 +3734,11 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
          */
-        public io.dstore.Values.decimalValue getAbsoluteUnitGrossSurcharge() {
+        public io.dstore.values.DecimalValue getAbsoluteUnitGrossSurcharge() {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
-            return absoluteUnitGrossSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitGrossSurcharge_;
+            return absoluteUnitGrossSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitGrossSurcharge_;
           } else {
             return absoluteUnitGrossSurchargeBuilder_.getMessage();
           }
@@ -3748,9 +3748,9 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
          */
-        public Builder setAbsoluteUnitGrossSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder setAbsoluteUnitGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3768,10 +3768,10 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
          */
         public Builder setAbsoluteUnitGrossSurcharge(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
             absoluteUnitGrossSurcharge_ = builderForValue.build();
             onChanged();
@@ -3786,13 +3786,13 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
          */
-        public Builder mergeAbsoluteUnitGrossSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder mergeAbsoluteUnitGrossSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
             if (absoluteUnitGrossSurcharge_ != null) {
               absoluteUnitGrossSurcharge_ =
-                io.dstore.Values.decimalValue.newBuilder(absoluteUnitGrossSurcharge_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(absoluteUnitGrossSurcharge_).mergeFrom(value).buildPartial();
             } else {
               absoluteUnitGrossSurcharge_ = value;
             }
@@ -3808,7 +3808,7 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
          */
         public Builder clearAbsoluteUnitGrossSurcharge() {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
@@ -3826,9 +3826,9 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getAbsoluteUnitGrossSurchargeBuilder() {
+        public io.dstore.values.DecimalValue.Builder getAbsoluteUnitGrossSurchargeBuilder() {
           
           onChanged();
           return getAbsoluteUnitGrossSurchargeFieldBuilder().getBuilder();
@@ -3838,14 +3838,14 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitGrossSurchargeOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitGrossSurchargeOrBuilder() {
           if (absoluteUnitGrossSurchargeBuilder_ != null) {
             return absoluteUnitGrossSurchargeBuilder_.getMessageOrBuilder();
           } else {
             return absoluteUnitGrossSurcharge_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitGrossSurcharge_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitGrossSurcharge_;
           }
         }
         /**
@@ -3853,14 +3853,14 @@ public final class OmGetPricesAd {
          * Absoluter Rabatt/Aufschlag, der im "UnitGrossPrice" ENTHALTEN ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_gross_surcharge = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_gross_surcharge = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getAbsoluteUnitGrossSurchargeFieldBuilder() {
           if (absoluteUnitGrossSurchargeBuilder_ == null) {
             absoluteUnitGrossSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getAbsoluteUnitGrossSurcharge(),
                     getParentForChildren(),
                     isClean());
@@ -3869,15 +3869,15 @@ public final class OmGetPricesAd {
           return absoluteUnitGrossSurchargeBuilder_;
         }
 
-        private io.dstore.Values.decimalValue relativeSurcharge_ = null;
+        private io.dstore.values.DecimalValue relativeSurcharge_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> relativeSurchargeBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> relativeSurchargeBuilder_;
         /**
          * <pre>
          * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
          */
         public boolean hasRelativeSurcharge() {
           return relativeSurchargeBuilder_ != null || relativeSurcharge_ != null;
@@ -3887,11 +3887,11 @@ public final class OmGetPricesAd {
          * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
          */
-        public io.dstore.Values.decimalValue getRelativeSurcharge() {
+        public io.dstore.values.DecimalValue getRelativeSurcharge() {
           if (relativeSurchargeBuilder_ == null) {
-            return relativeSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : relativeSurcharge_;
+            return relativeSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : relativeSurcharge_;
           } else {
             return relativeSurchargeBuilder_.getMessage();
           }
@@ -3901,9 +3901,9 @@ public final class OmGetPricesAd {
          * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
          */
-        public Builder setRelativeSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder setRelativeSurcharge(io.dstore.values.DecimalValue value) {
           if (relativeSurchargeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3921,10 +3921,10 @@ public final class OmGetPricesAd {
          * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
          */
         public Builder setRelativeSurcharge(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (relativeSurchargeBuilder_ == null) {
             relativeSurcharge_ = builderForValue.build();
             onChanged();
@@ -3939,13 +3939,13 @@ public final class OmGetPricesAd {
          * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
          */
-        public Builder mergeRelativeSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder mergeRelativeSurcharge(io.dstore.values.DecimalValue value) {
           if (relativeSurchargeBuilder_ == null) {
             if (relativeSurcharge_ != null) {
               relativeSurcharge_ =
-                io.dstore.Values.decimalValue.newBuilder(relativeSurcharge_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(relativeSurcharge_).mergeFrom(value).buildPartial();
             } else {
               relativeSurcharge_ = value;
             }
@@ -3961,7 +3961,7 @@ public final class OmGetPricesAd {
          * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
          */
         public Builder clearRelativeSurcharge() {
           if (relativeSurchargeBuilder_ == null) {
@@ -3979,9 +3979,9 @@ public final class OmGetPricesAd {
          * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getRelativeSurchargeBuilder() {
+        public io.dstore.values.DecimalValue.Builder getRelativeSurchargeBuilder() {
           
           onChanged();
           return getRelativeSurchargeFieldBuilder().getBuilder();
@@ -3991,14 +3991,14 @@ public final class OmGetPricesAd {
          * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getRelativeSurchargeOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getRelativeSurchargeOrBuilder() {
           if (relativeSurchargeBuilder_ != null) {
             return relativeSurchargeBuilder_.getMessageOrBuilder();
           } else {
             return relativeSurcharge_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : relativeSurcharge_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : relativeSurcharge_;
           }
         }
         /**
@@ -4006,14 +4006,14 @@ public final class OmGetPricesAd {
          * Prozentualer Rabatt/Aufschlag, der in den Preisen (Spalten "...Price") bereits enthalten (!) ist
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getRelativeSurchargeFieldBuilder() {
           if (relativeSurchargeBuilder_ == null) {
             relativeSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getRelativeSurcharge(),
                     getParentForChildren(),
                     isClean());
@@ -5482,13 +5482,13 @@ public final class OmGetPricesAd {
       "Ad.proto\022\035dstore.engine.om_GetPrices_Ad\032" +
       "\023dstore/values.proto\032\032dstore/engine/engi" +
       "ne.proto\"\340\002\n\nParameters\0221\n\014tree_node_id\030" +
-      "\001 \001(\0132\033.dstore.values.integerValue\022\032\n\021tr" +
+      "\001 \001(\0132\033.dstore.values.IntegerValue\022\032\n\021tr" +
       "ee_node_id_null\030\351\007 \001(\010\022.\n\tperson_id\030\002 \001(" +
-      "\0132\033.dstore.values.integerValue\022\027\n\016person" +
+      "\0132\033.dstore.values.IntegerValue\022\027\n\016person" +
       "_id_null\030\352\007 \001(\010\0220\n\013currency_id\030\003 \001(\0132\033.d" +
-      "store.values.integerValue\022\031\n\020currency_id" +
+      "store.values.IntegerValue\022\031\n\020currency_id" +
       "_null\030\353\007 \001(\010\022A\n\034price_node_characteristi",
-      "c_id\030\004 \001(\0132\033.dstore.values.integerValue\022" +
+      "c_id\030\004 \001(\0132\033.dstore.values.IntegerValue\022" +
       "*\n!price_node_characteristic_id_null\030\354\007 " +
       "\001(\010\"\231\005\n\010Response\0228\n\020meta_information\030\002 \003" +
       "(\0132\036.dstore.engine.MetaInformation\022\'\n\007me" +
@@ -5496,17 +5496,17 @@ public final class OmGetPricesAd {
       "ow\030\004 \003(\0132+.dstore.engine.om_GetPrices_Ad" +
       ".Response.Row\032\357\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224" +
       "\n\016unit_net_price\030\221N \001(\0132\033.dstore.values." +
-      "decimalValue\022A\n\033absolute_unit_net_surcha" +
-      "rge\030\222N \001(\0132\033.dstore.values.decimalValue\022",
+      "DecimalValue\022A\n\033absolute_unit_net_surcha" +
+      "rge\030\222N \001(\0132\033.dstore.values.DecimalValue\022",
       "D\n\037surcharge_generated_by_camp_ids\030\223N \001(" +
-      "\0132\032.dstore.values.stringValue\0226\n\020unit_gr" +
-      "oss_price\030\224N \001(\0132\033.dstore.values.decimal" +
+      "\0132\032.dstore.values.StringValue\0226\n\020unit_gr" +
+      "oss_price\030\224N \001(\0132\033.dstore.values.Decimal" +
       "Value\0222\n\014tree_node_id\030\225N \001(\0132\033.dstore.va" +
-      "lues.integerValue\022-\n\007node_id\030\226N \001(\0132\033.ds" +
-      "tore.values.integerValue\022C\n\035absolute_uni" +
+      "lues.IntegerValue\022-\n\007node_id\030\226N \001(\0132\033.ds" +
+      "tore.values.IntegerValue\022C\n\035absolute_uni" +
       "t_gross_surcharge\030\227N \001(\0132\033.dstore.values" +
-      ".decimalValue\0228\n\022relative_surcharge\030\230N \001" +
-      "(\0132\033.dstore.values.decimalValueBP\n\033io.ds" +
+      ".DecimalValue\0228\n\022relative_surcharge\030\230N \001" +
+      "(\0132\033.dstore.values.DecimalValueBP\n\033io.ds" +
       "tore.engine.proceduresZ1gosdk.dstore.de/",
       "engine/procedures/om_GetPrices_Adb\006proto" +
       "3"
@@ -5522,7 +5522,7 @@ public final class OmGetPricesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetPrices_Ad_Parameters_descriptor =
@@ -5543,7 +5543,7 @@ public final class OmGetPricesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPrices_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "UnitNetPrice", "AbsoluteUnitNetSurcharge", "SurchargeGeneratedByCampIds", "UnitGrossPrice", "TreeNodeId", "NodeId", "AbsoluteUnitGrossSurcharge", "RelativeSurcharge", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

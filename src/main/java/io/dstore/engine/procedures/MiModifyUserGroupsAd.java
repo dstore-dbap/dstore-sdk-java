@@ -19,17 +19,17 @@ public final class MiModifyUserGroupsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
     boolean hasUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUserGroupId();
+    io.dstore.values.IntegerValue getUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder();
 
     /**
      * <code>optional bool user_group_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyUserGroupsAd {
     boolean getUserGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue group_name = 2;</code>
+     * <code>optional .dstore.values.StringValue group_name = 2;</code>
      */
     boolean hasGroupName();
     /**
-     * <code>optional .dstore.values.stringValue group_name = 2;</code>
+     * <code>optional .dstore.values.StringValue group_name = 2;</code>
      */
-    io.dstore.Values.stringValue getGroupName();
+    io.dstore.values.StringValue getGroupName();
     /**
-     * <code>optional .dstore.values.stringValue group_name = 2;</code>
+     * <code>optional .dstore.values.StringValue group_name = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getGroupNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getGroupNameOrBuilder();
 
     /**
      * <code>optional bool group_name_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyUserGroupsAd {
     boolean getGroupNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue group_description = 3;</code>
+     * <code>optional .dstore.values.StringValue group_description = 3;</code>
      */
     boolean hasGroupDescription();
     /**
-     * <code>optional .dstore.values.stringValue group_description = 3;</code>
+     * <code>optional .dstore.values.StringValue group_description = 3;</code>
      */
-    io.dstore.Values.stringValue getGroupDescription();
+    io.dstore.values.StringValue getGroupDescription();
     /**
-     * <code>optional .dstore.values.stringValue group_description = 3;</code>
+     * <code>optional .dstore.values.StringValue group_description = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getGroupDescriptionOrBuilder();
 
     /**
      * <code>optional bool group_description_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiModifyUserGroupsAd {
     boolean getGroupDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
      */
     boolean hasDeleteGroup();
     /**
-     * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
      */
-    io.dstore.Values.booleanValue getDeleteGroup();
+    io.dstore.values.BooleanValue getDeleteGroup();
     /**
-     * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteGroupOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteGroupOrBuilder();
 
     /**
      * <code>optional bool delete_group_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class MiModifyUserGroupsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userGroupId_ != null) {
                 subBuilder = userGroupId_.toBuilder();
               }
-              userGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userGroupId_);
                 userGroupId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class MiModifyUserGroupsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (groupName_ != null) {
                 subBuilder = groupName_.toBuilder();
               }
-              groupName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              groupName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupName_);
                 groupName_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class MiModifyUserGroupsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (groupDescription_ != null) {
                 subBuilder = groupDescription_.toBuilder();
               }
-              groupDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              groupDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupDescription_);
                 groupDescription_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class MiModifyUserGroupsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteGroup_ != null) {
                 subBuilder = deleteGroup_.toBuilder();
               }
-              deleteGroup_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteGroup_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteGroup_);
                 deleteGroup_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class MiModifyUserGroupsAd {
     }
 
     public static final int USER_GROUP_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue userGroupId_;
+    private io.dstore.values.IntegerValue userGroupId_;
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
     public boolean hasUserGroupId() {
       return userGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUserGroupId() {
-      return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+    public io.dstore.values.IntegerValue getUserGroupId() {
+      return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
       return getUserGroupId();
     }
 
@@ -259,23 +259,23 @@ public final class MiModifyUserGroupsAd {
     }
 
     public static final int GROUP_NAME_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue groupName_;
+    private io.dstore.values.StringValue groupName_;
     /**
-     * <code>optional .dstore.values.stringValue group_name = 2;</code>
+     * <code>optional .dstore.values.StringValue group_name = 2;</code>
      */
     public boolean hasGroupName() {
       return groupName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue group_name = 2;</code>
+     * <code>optional .dstore.values.StringValue group_name = 2;</code>
      */
-    public io.dstore.Values.stringValue getGroupName() {
-      return groupName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : groupName_;
+    public io.dstore.values.StringValue getGroupName() {
+      return groupName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : groupName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue group_name = 2;</code>
+     * <code>optional .dstore.values.StringValue group_name = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getGroupNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getGroupNameOrBuilder() {
       return getGroupName();
     }
 
@@ -289,23 +289,23 @@ public final class MiModifyUserGroupsAd {
     }
 
     public static final int GROUP_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue groupDescription_;
+    private io.dstore.values.StringValue groupDescription_;
     /**
-     * <code>optional .dstore.values.stringValue group_description = 3;</code>
+     * <code>optional .dstore.values.StringValue group_description = 3;</code>
      */
     public boolean hasGroupDescription() {
       return groupDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue group_description = 3;</code>
+     * <code>optional .dstore.values.StringValue group_description = 3;</code>
      */
-    public io.dstore.Values.stringValue getGroupDescription() {
-      return groupDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : groupDescription_;
+    public io.dstore.values.StringValue getGroupDescription() {
+      return groupDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : groupDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue group_description = 3;</code>
+     * <code>optional .dstore.values.StringValue group_description = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getGroupDescriptionOrBuilder() {
       return getGroupDescription();
     }
 
@@ -319,23 +319,23 @@ public final class MiModifyUserGroupsAd {
     }
 
     public static final int DELETE_GROUP_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue deleteGroup_;
+    private io.dstore.values.BooleanValue deleteGroup_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
      */
     public boolean hasDeleteGroup() {
       return deleteGroup_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteGroup() {
-      return deleteGroup_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteGroup_;
+    public io.dstore.values.BooleanValue getDeleteGroup() {
+      return deleteGroup_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteGroup_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteGroupOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteGroupOrBuilder() {
       return getDeleteGroup();
     }
 
@@ -792,29 +792,29 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userGroupId_ = null;
+      private io.dstore.values.IntegerValue userGroupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userGroupIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public boolean hasUserGroupId() {
         return userGroupIdBuilder_ != null || userGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUserGroupId() {
+      public io.dstore.values.IntegerValue getUserGroupId() {
         if (userGroupIdBuilder_ == null) {
-          return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+          return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         } else {
           return userGroupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public Builder setUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder setUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public Builder setUserGroupId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userGroupIdBuilder_ == null) {
           userGroupId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public Builder mergeUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (userGroupId_ != null) {
             userGroupId_ =
-              io.dstore.Values.integerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
           } else {
             userGroupId_ = value;
           }
@@ -860,7 +860,7 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public Builder clearUserGroupId() {
         if (userGroupIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserGroupIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserGroupIdBuilder() {
         
         onChanged();
         return getUserGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
         if (userGroupIdBuilder_ != null) {
           return userGroupIdBuilder_.getMessageOrBuilder();
         } else {
           return userGroupId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserGroupIdFieldBuilder() {
         if (userGroupIdBuilder_ == null) {
           userGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue groupName_ = null;
+      private io.dstore.values.StringValue groupName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> groupNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> groupNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue group_name = 2;</code>
+       * <code>optional .dstore.values.StringValue group_name = 2;</code>
        */
       public boolean hasGroupName() {
         return groupNameBuilder_ != null || groupName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 2;</code>
+       * <code>optional .dstore.values.StringValue group_name = 2;</code>
        */
-      public io.dstore.Values.stringValue getGroupName() {
+      public io.dstore.values.StringValue getGroupName() {
         if (groupNameBuilder_ == null) {
-          return groupName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : groupName_;
+          return groupName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : groupName_;
         } else {
           return groupNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 2;</code>
+       * <code>optional .dstore.values.StringValue group_name = 2;</code>
        */
-      public Builder setGroupName(io.dstore.Values.stringValue value) {
+      public Builder setGroupName(io.dstore.values.StringValue value) {
         if (groupNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 2;</code>
+       * <code>optional .dstore.values.StringValue group_name = 2;</code>
        */
       public Builder setGroupName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (groupNameBuilder_ == null) {
           groupName_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 2;</code>
+       * <code>optional .dstore.values.StringValue group_name = 2;</code>
        */
-      public Builder mergeGroupName(io.dstore.Values.stringValue value) {
+      public Builder mergeGroupName(io.dstore.values.StringValue value) {
         if (groupNameBuilder_ == null) {
           if (groupName_ != null) {
             groupName_ =
-              io.dstore.Values.stringValue.newBuilder(groupName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(groupName_).mergeFrom(value).buildPartial();
           } else {
             groupName_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 2;</code>
+       * <code>optional .dstore.values.StringValue group_name = 2;</code>
        */
       public Builder clearGroupName() {
         if (groupNameBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 2;</code>
+       * <code>optional .dstore.values.StringValue group_name = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getGroupNameBuilder() {
+      public io.dstore.values.StringValue.Builder getGroupNameBuilder() {
         
         onChanged();
         return getGroupNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 2;</code>
+       * <code>optional .dstore.values.StringValue group_name = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getGroupNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getGroupNameOrBuilder() {
         if (groupNameBuilder_ != null) {
           return groupNameBuilder_.getMessageOrBuilder();
         } else {
           return groupName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : groupName_;
+              io.dstore.values.StringValue.getDefaultInstance() : groupName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue group_name = 2;</code>
+       * <code>optional .dstore.values.StringValue group_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getGroupNameFieldBuilder() {
         if (groupNameBuilder_ == null) {
           groupNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getGroupName(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue groupDescription_ = null;
+      private io.dstore.values.StringValue groupDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> groupDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> groupDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue group_description = 3;</code>
+       * <code>optional .dstore.values.StringValue group_description = 3;</code>
        */
       public boolean hasGroupDescription() {
         return groupDescriptionBuilder_ != null || groupDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 3;</code>
+       * <code>optional .dstore.values.StringValue group_description = 3;</code>
        */
-      public io.dstore.Values.stringValue getGroupDescription() {
+      public io.dstore.values.StringValue getGroupDescription() {
         if (groupDescriptionBuilder_ == null) {
-          return groupDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : groupDescription_;
+          return groupDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : groupDescription_;
         } else {
           return groupDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 3;</code>
+       * <code>optional .dstore.values.StringValue group_description = 3;</code>
        */
-      public Builder setGroupDescription(io.dstore.Values.stringValue value) {
+      public Builder setGroupDescription(io.dstore.values.StringValue value) {
         if (groupDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 3;</code>
+       * <code>optional .dstore.values.StringValue group_description = 3;</code>
        */
       public Builder setGroupDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (groupDescriptionBuilder_ == null) {
           groupDescription_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 3;</code>
+       * <code>optional .dstore.values.StringValue group_description = 3;</code>
        */
-      public Builder mergeGroupDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeGroupDescription(io.dstore.values.StringValue value) {
         if (groupDescriptionBuilder_ == null) {
           if (groupDescription_ != null) {
             groupDescription_ =
-              io.dstore.Values.stringValue.newBuilder(groupDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(groupDescription_).mergeFrom(value).buildPartial();
           } else {
             groupDescription_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 3;</code>
+       * <code>optional .dstore.values.StringValue group_description = 3;</code>
        */
       public Builder clearGroupDescription() {
         if (groupDescriptionBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 3;</code>
+       * <code>optional .dstore.values.StringValue group_description = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getGroupDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getGroupDescriptionBuilder() {
         
         onChanged();
         return getGroupDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 3;</code>
+       * <code>optional .dstore.values.StringValue group_description = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getGroupDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getGroupDescriptionOrBuilder() {
         if (groupDescriptionBuilder_ != null) {
           return groupDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return groupDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : groupDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : groupDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue group_description = 3;</code>
+       * <code>optional .dstore.values.StringValue group_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getGroupDescriptionFieldBuilder() {
         if (groupDescriptionBuilder_ == null) {
           groupDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getGroupDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteGroup_ = null;
+      private io.dstore.values.BooleanValue deleteGroup_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteGroupBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteGroupBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
        */
       public boolean hasDeleteGroup() {
         return deleteGroupBuilder_ != null || deleteGroup_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteGroup() {
+      public io.dstore.values.BooleanValue getDeleteGroup() {
         if (deleteGroupBuilder_ == null) {
-          return deleteGroup_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteGroup_;
+          return deleteGroup_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteGroup_;
         } else {
           return deleteGroupBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
        */
-      public Builder setDeleteGroup(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteGroup(io.dstore.values.BooleanValue value) {
         if (deleteGroupBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
        */
       public Builder setDeleteGroup(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteGroupBuilder_ == null) {
           deleteGroup_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
        */
-      public Builder mergeDeleteGroup(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteGroup(io.dstore.values.BooleanValue value) {
         if (deleteGroupBuilder_ == null) {
           if (deleteGroup_ != null) {
             deleteGroup_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteGroup_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteGroup_).mergeFrom(value).buildPartial();
           } else {
             deleteGroup_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
        */
       public Builder clearDeleteGroup() {
         if (deleteGroupBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class MiModifyUserGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteGroupBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteGroupBuilder() {
         
         onChanged();
         return getDeleteGroupFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteGroupOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteGroupOrBuilder() {
         if (deleteGroupBuilder_ != null) {
           return deleteGroupBuilder_.getMessageOrBuilder();
         } else {
           return deleteGroup_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteGroup_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteGroup_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_group = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_group = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteGroupFieldBuilder() {
         if (deleteGroupBuilder_ == null) {
           deleteGroupBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteGroup(),
                   getParentForChildren(),
                   isClean());
@@ -3450,13 +3450,13 @@ public final class MiModifyUserGroupsAd {
       "Groups_Ad.proto\022$dstore.engine.mi_Modify" +
       "UserGroups_Ad\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\316\002\n\nParameters\0222\n" +
-      "\ruser_group_id\030\001 \001(\0132\033.dstore.values.int" +
+      "\ruser_group_id\030\001 \001(\0132\033.dstore.values.Int" +
       "egerValue\022\033\n\022user_group_id_null\030\351\007 \001(\010\022." +
-      "\n\ngroup_name\030\002 \001(\0132\032.dstore.values.strin" +
+      "\n\ngroup_name\030\002 \001(\0132\032.dstore.values.Strin" +
       "gValue\022\030\n\017group_name_null\030\352\007 \001(\010\0225\n\021grou" +
-      "p_description\030\003 \001(\0132\032.dstore.values.stri" +
+      "p_description\030\003 \001(\0132\032.dstore.values.Stri" +
       "ngValue\022\037\n\026group_description_null\030\353\007 \001(\010",
-      "\0221\n\014delete_group\030\004 \001(\0132\033.dstore.values.b" +
+      "\0221\n\014delete_group\030\004 \001(\0132\033.dstore.values.B" +
       "ooleanValue\022\032\n\021delete_group_null\030\354\007 \001(\010\"" +
       "\306\001\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036" +
       ".dstore.engine.MetaInformation\022\'\n\007messag" +
@@ -3478,7 +3478,7 @@ public final class MiModifyUserGroupsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyUserGroups_Ad_Parameters_descriptor =
@@ -3499,7 +3499,7 @@ public final class MiModifyUserGroupsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyUserGroups_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

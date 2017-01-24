@@ -19,17 +19,17 @@ public final class ImModifyLockedNodeCharacsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUserId();
+    io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImModifyLockedNodeCharacsAd {
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId();
+    io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImModifyLockedNodeCharacsAd {
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
      */
     boolean hasLockStatus();
     /**
-     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
      */
-    io.dstore.Values.integerValue getLockStatus();
+    io.dstore.values.IntegerValue getLockStatus();
     /**
-     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLockStatusOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLockStatusOrBuilder();
 
     /**
      * <code>optional bool lock_status_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class ImModifyLockedNodeCharacsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class ImModifyLockedNodeCharacsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class ImModifyLockedNodeCharacsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (lockStatus_ != null) {
                 subBuilder = lockStatus_.toBuilder();
               }
-              lockStatus_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              lockStatus_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lockStatus_);
                 lockStatus_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class ImModifyLockedNodeCharacsAd {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue userId_;
+    private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.values.IntegerValue getUserId() {
+      return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -222,23 +222,23 @@ public final class ImModifyLockedNodeCharacsAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -252,23 +252,23 @@ public final class ImModifyLockedNodeCharacsAd {
     }
 
     public static final int LOCK_STATUS_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue lockStatus_;
+    private io.dstore.values.IntegerValue lockStatus_;
     /**
-     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
      */
     public boolean hasLockStatus() {
       return lockStatus_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
      */
-    public io.dstore.Values.integerValue getLockStatus() {
-      return lockStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockStatus_;
+    public io.dstore.values.IntegerValue getLockStatus() {
+      return lockStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lockStatus_;
     }
     /**
-     * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+     * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLockStatusOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLockStatusOrBuilder() {
       return getLockStatus();
     }
 
@@ -677,29 +677,29 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userId_ = null;
+      private io.dstore.values.IntegerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
+      public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder setUserId(io.dstore.Values.integerValue value) {
+      public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder mergeUserId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -745,7 +745,7 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -888,7 +888,7 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue lockStatus_ = null;
+      private io.dstore.values.IntegerValue lockStatus_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lockStatusBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> lockStatusBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
        */
       public boolean hasLockStatus() {
         return lockStatusBuilder_ != null || lockStatus_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
        */
-      public io.dstore.Values.integerValue getLockStatus() {
+      public io.dstore.values.IntegerValue getLockStatus() {
         if (lockStatusBuilder_ == null) {
-          return lockStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockStatus_;
+          return lockStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lockStatus_;
         } else {
           return lockStatusBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
        */
-      public Builder setLockStatus(io.dstore.Values.integerValue value) {
+      public Builder setLockStatus(io.dstore.values.IntegerValue value) {
         if (lockStatusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
        */
       public Builder setLockStatus(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (lockStatusBuilder_ == null) {
           lockStatus_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
        */
-      public Builder mergeLockStatus(io.dstore.Values.integerValue value) {
+      public Builder mergeLockStatus(io.dstore.values.IntegerValue value) {
         if (lockStatusBuilder_ == null) {
           if (lockStatus_ != null) {
             lockStatus_ =
-              io.dstore.Values.integerValue.newBuilder(lockStatus_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(lockStatus_).mergeFrom(value).buildPartial();
           } else {
             lockStatus_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
        */
       public Builder clearLockStatus() {
         if (lockStatusBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class ImModifyLockedNodeCharacsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLockStatusBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLockStatusBuilder() {
         
         onChanged();
         return getLockStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLockStatusOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLockStatusOrBuilder() {
         if (lockStatusBuilder_ != null) {
           return lockStatusBuilder_.getMessageOrBuilder();
         } else {
           return lockStatus_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : lockStatus_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : lockStatus_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_status = 3;</code>
+       * <code>optional .dstore.values.IntegerValue lock_status = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLockStatusFieldBuilder() {
         if (lockStatusBuilder_ == null) {
           lockStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLockStatus(),
                   getParentForChildren(),
                   isClean());
@@ -3193,11 +3193,11 @@ public final class ImModifyLockedNodeCharacsAd {
       "_ModifyLockedNodeCharacs_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\201\002\n" +
       "\nParameters\022,\n\007user_id\030\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\025\n\014user_id_null\030\351\007 \001(\010" +
+      "lues.IntegerValue\022\025\n\014user_id_null\030\351\007 \001(\010" +
       "\022;\n\026node_characteristic_id\030\002 \001(\0132\033.dstor" +
-      "e.values.integerValue\022$\n\033node_characteri" +
+      "e.values.IntegerValue\022$\n\033node_characteri" +
       "stic_id_null\030\352\007 \001(\010\0220\n\013lock_status\030\003 \001(\013" +
-      "2\033.dstore.values.integerValue\022\031\n\020lock_st",
+      "2\033.dstore.values.IntegerValue\022\031\n\020lock_st",
       "atus_null\030\353\007 \001(\010\"\315\001\n\010Response\0228\n\020meta_in" +
       "formation\030\002 \003(\0132\036.dstore.engine.MetaInfo" +
       "rmation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine" +
@@ -3219,7 +3219,7 @@ public final class ImModifyLockedNodeCharacsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_ModifyLockedNodeCharacs_Ad_Parameters_descriptor =
@@ -3240,7 +3240,7 @@ public final class ImModifyLockedNodeCharacsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyLockedNodeCharacs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmGetVoucherTypeSurchargesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     boolean hasVoucherTypeId();
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getVoucherTypeId();
+    io.dstore.values.IntegerValue getVoucherTypeId();
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder();
 
     /**
      * <code>optional bool voucher_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetVoucherTypeSurchargesAd {
     boolean getVoucherTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     boolean hasSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getSurchargeTypeId();
+    io.dstore.values.IntegerValue getSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
     /**
      * <code>optional bool surcharge_type_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class OmGetVoucherTypeSurchargesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (voucherTypeId_ != null) {
                 subBuilder = voucherTypeId_.toBuilder();
               }
-              voucherTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              voucherTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(voucherTypeId_);
                 voucherTypeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class OmGetVoucherTypeSurchargesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (surchargeTypeId_ != null) {
                 subBuilder = surchargeTypeId_.toBuilder();
               }
-              surchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              surchargeTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(surchargeTypeId_);
                 surchargeTypeId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class OmGetVoucherTypeSurchargesAd {
     }
 
     public static final int VOUCHER_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue voucherTypeId_;
+    private io.dstore.values.IntegerValue voucherTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     public boolean hasVoucherTypeId() {
       return voucherTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getVoucherTypeId() {
-      return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+    public io.dstore.values.IntegerValue getVoucherTypeId() {
+      return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
       return getVoucherTypeId();
     }
 
@@ -185,23 +185,23 @@ public final class OmGetVoucherTypeSurchargesAd {
     }
 
     public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue surchargeTypeId_;
+    private io.dstore.values.IntegerValue surchargeTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     public boolean hasSurchargeTypeId() {
       return surchargeTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getSurchargeTypeId() {
-      return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+    public io.dstore.values.IntegerValue getSurchargeTypeId() {
+      return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
       return getSurchargeTypeId();
     }
 
@@ -562,29 +562,29 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue voucherTypeId_ = null;
+      private io.dstore.values.IntegerValue voucherTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> voucherTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> voucherTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public boolean hasVoucherTypeId() {
         return voucherTypeIdBuilder_ != null || voucherTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getVoucherTypeId() {
+      public io.dstore.values.IntegerValue getVoucherTypeId() {
         if (voucherTypeIdBuilder_ == null) {
-          return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+          return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
         } else {
           return voucherTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public Builder setVoucherTypeId(io.dstore.Values.integerValue value) {
+      public Builder setVoucherTypeId(io.dstore.values.IntegerValue value) {
         if (voucherTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public Builder setVoucherTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (voucherTypeIdBuilder_ == null) {
           voucherTypeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public Builder mergeVoucherTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeVoucherTypeId(io.dstore.values.IntegerValue value) {
         if (voucherTypeIdBuilder_ == null) {
           if (voucherTypeId_ != null) {
             voucherTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
           } else {
             voucherTypeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public Builder clearVoucherTypeId() {
         if (voucherTypeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getVoucherTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getVoucherTypeIdBuilder() {
         
         onChanged();
         return getVoucherTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
         if (voucherTypeIdBuilder_ != null) {
           return voucherTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return voucherTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getVoucherTypeIdFieldBuilder() {
         if (voucherTypeIdBuilder_ == null) {
           voucherTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getVoucherTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue surchargeTypeId_ = null;
+      private io.dstore.values.IntegerValue surchargeTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getSurchargeTypeId() {
+      public io.dstore.values.IntegerValue getSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
-          return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+          return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
         } else {
           return surchargeTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
+      public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder setSurchargeTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (surchargeTypeId_ != null) {
             surchargeTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
           } else {
             surchargeTypeId_ = value;
           }
@@ -773,7 +773,7 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder clearSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class OmGetVoucherTypeSurchargesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
         
         onChanged();
         return getSurchargeTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         if (surchargeTypeIdBuilder_ != null) {
           return surchargeTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return surchargeTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSurchargeTypeIdFieldBuilder() {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSurchargeTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class OmGetVoucherTypeSurchargesAd {
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
        */
       boolean hasVoucherTypeId();
       /**
@@ -1115,24 +1115,24 @@ public final class OmGetVoucherTypeSurchargesAd {
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getVoucherTypeId();
+      io.dstore.values.IntegerValue getVoucherTypeId();
       /**
        * <pre>
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder();
 
       /**
        * <pre>
        * Die Bezeichnung der Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
        */
       boolean hasVoucherTypeDescription();
       /**
@@ -1140,24 +1140,24 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Die Bezeichnung der Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
        */
-      io.dstore.Values.stringValue getVoucherTypeDescription();
+      io.dstore.values.StringValue getVoucherTypeDescription();
       /**
        * <pre>
        * Die Bezeichnung der Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getVoucherTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
        */
       boolean hasSurchargeIsAbsoluteValue();
       /**
@@ -1165,24 +1165,24 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
        */
-      io.dstore.Values.integerValue getSurchargeIsAbsoluteValue();
+      io.dstore.values.IntegerValue getSurchargeIsAbsoluteValue();
       /**
        * <pre>
        * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder();
 
       /**
        * <pre>
        * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
        */
       boolean hasCategoryDescription();
       /**
@@ -1190,24 +1190,24 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
        */
-      io.dstore.Values.stringValue getCategoryDescription();
+      io.dstore.values.StringValue getCategoryDescription();
       /**
        * <pre>
        * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder();
 
       /**
        * <pre>
        * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
        */
       boolean hasSurchargeTypeDescription();
       /**
@@ -1215,24 +1215,24 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
        */
-      io.dstore.Values.stringValue getSurchargeTypeDescription();
+      io.dstore.values.StringValue getSurchargeTypeDescription();
       /**
        * <pre>
        * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
        */
       boolean hasSurchargeValue();
       /**
@@ -1240,24 +1240,24 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
        */
-      io.dstore.Values.decimalValue getSurchargeValue();
+      io.dstore.values.DecimalValue getSurchargeValue();
       /**
        * <pre>
        * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder();
 
       /**
        * <pre>
        * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
        */
       boolean hasSurchargeTypeId();
       /**
@@ -1265,24 +1265,24 @@ public final class OmGetVoucherTypeSurchargesAd {
        * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
        */
-      io.dstore.Values.integerValue getSurchargeTypeId();
+      io.dstore.values.IntegerValue getSurchargeTypeId();
       /**
        * <pre>
        * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
       /**
        * <pre>
        * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
        */
       boolean hasSurchargeTypeCategoryId();
       /**
@@ -1290,17 +1290,17 @@ public final class OmGetVoucherTypeSurchargesAd {
        * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
        */
-      io.dstore.Values.integerValue getSurchargeTypeCategoryId();
+      io.dstore.values.IntegerValue getSurchargeTypeCategoryId();
       /**
        * <pre>
        * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetVoucherTypeSurcharges_Ad.Response.Row}
@@ -1348,11 +1348,11 @@ public final class OmGetVoucherTypeSurchargesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (voucherTypeId_ != null) {
                   subBuilder = voucherTypeId_.toBuilder();
                 }
-                voucherTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                voucherTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(voucherTypeId_);
                   voucherTypeId_ = subBuilder.buildPartial();
@@ -1361,11 +1361,11 @@ public final class OmGetVoucherTypeSurchargesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (voucherTypeDescription_ != null) {
                   subBuilder = voucherTypeDescription_.toBuilder();
                 }
-                voucherTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                voucherTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(voucherTypeDescription_);
                   voucherTypeDescription_ = subBuilder.buildPartial();
@@ -1374,11 +1374,11 @@ public final class OmGetVoucherTypeSurchargesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (surchargeIsAbsoluteValue_ != null) {
                   subBuilder = surchargeIsAbsoluteValue_.toBuilder();
                 }
-                surchargeIsAbsoluteValue_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                surchargeIsAbsoluteValue_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeIsAbsoluteValue_);
                   surchargeIsAbsoluteValue_ = subBuilder.buildPartial();
@@ -1387,11 +1387,11 @@ public final class OmGetVoucherTypeSurchargesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (categoryDescription_ != null) {
                   subBuilder = categoryDescription_.toBuilder();
                 }
-                categoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                categoryDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(categoryDescription_);
                   categoryDescription_ = subBuilder.buildPartial();
@@ -1400,11 +1400,11 @@ public final class OmGetVoucherTypeSurchargesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (surchargeTypeDescription_ != null) {
                   subBuilder = surchargeTypeDescription_.toBuilder();
                 }
-                surchargeTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                surchargeTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeDescription_);
                   surchargeTypeDescription_ = subBuilder.buildPartial();
@@ -1413,11 +1413,11 @@ public final class OmGetVoucherTypeSurchargesAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (surchargeValue_ != null) {
                   subBuilder = surchargeValue_.toBuilder();
                 }
-                surchargeValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                surchargeValue_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeValue_);
                   surchargeValue_ = subBuilder.buildPartial();
@@ -1426,11 +1426,11 @@ public final class OmGetVoucherTypeSurchargesAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -1439,11 +1439,11 @@ public final class OmGetVoucherTypeSurchargesAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (surchargeTypeCategoryId_ != null) {
                   subBuilder = surchargeTypeCategoryId_.toBuilder();
                 }
-                surchargeTypeCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                surchargeTypeCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeCategoryId_);
                   surchargeTypeCategoryId_ = subBuilder.buildPartial();
@@ -1484,13 +1484,13 @@ public final class OmGetVoucherTypeSurchargesAd {
       }
 
       public static final int VOUCHER_TYPE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue voucherTypeId_;
+      private io.dstore.values.IntegerValue voucherTypeId_;
       /**
        * <pre>
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
        */
       public boolean hasVoucherTypeId() {
         return voucherTypeId_ != null;
@@ -1500,30 +1500,30 @@ public final class OmGetVoucherTypeSurchargesAd {
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getVoucherTypeId() {
-        return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+      public io.dstore.values.IntegerValue getVoucherTypeId() {
+        return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
       }
       /**
        * <pre>
        * ID einer Gutschein-Aktion
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
         return getVoucherTypeId();
       }
 
       public static final int VOUCHER_TYPE_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue voucherTypeDescription_;
+      private io.dstore.values.StringValue voucherTypeDescription_;
       /**
        * <pre>
        * Die Bezeichnung der Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
        */
       public boolean hasVoucherTypeDescription() {
         return voucherTypeDescription_ != null;
@@ -1533,30 +1533,30 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Die Bezeichnung der Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getVoucherTypeDescription() {
-        return voucherTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherTypeDescription_;
+      public io.dstore.values.StringValue getVoucherTypeDescription() {
+        return voucherTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherTypeDescription_;
       }
       /**
        * <pre>
        * Die Bezeichnung der Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
         return getVoucherTypeDescription();
       }
 
       public static final int SURCHARGE_IS_ABSOLUTE_VALUE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue surchargeIsAbsoluteValue_;
+      private io.dstore.values.IntegerValue surchargeIsAbsoluteValue_;
       /**
        * <pre>
        * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
        */
       public boolean hasSurchargeIsAbsoluteValue() {
         return surchargeIsAbsoluteValue_ != null;
@@ -1566,30 +1566,30 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
        */
-      public io.dstore.Values.integerValue getSurchargeIsAbsoluteValue() {
-        return surchargeIsAbsoluteValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
+      public io.dstore.values.IntegerValue getSurchargeIsAbsoluteValue() {
+        return surchargeIsAbsoluteValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
       }
       /**
        * <pre>
        * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
         return getSurchargeIsAbsoluteValue();
       }
 
       public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue categoryDescription_;
+      private io.dstore.values.StringValue categoryDescription_;
       /**
        * <pre>
        * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescription_ != null;
@@ -1599,30 +1599,30 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
        */
-      public io.dstore.Values.stringValue getCategoryDescription() {
-        return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+      public io.dstore.values.StringValue getCategoryDescription() {
+        return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
       }
       /**
        * <pre>
        * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
       }
 
       public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue surchargeTypeDescription_;
+      private io.dstore.values.StringValue surchargeTypeDescription_;
       /**
        * <pre>
        * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
        */
       public boolean hasSurchargeTypeDescription() {
         return surchargeTypeDescription_ != null;
@@ -1632,30 +1632,30 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
        */
-      public io.dstore.Values.stringValue getSurchargeTypeDescription() {
-        return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+      public io.dstore.values.StringValue getSurchargeTypeDescription() {
+        return surchargeTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
       }
       /**
        * <pre>
        * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
         return getSurchargeTypeDescription();
       }
 
       public static final int SURCHARGE_VALUE_FIELD_NUMBER = 10006;
-      private io.dstore.Values.decimalValue surchargeValue_;
+      private io.dstore.values.DecimalValue surchargeValue_;
       /**
        * <pre>
        * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
        */
       public boolean hasSurchargeValue() {
         return surchargeValue_ != null;
@@ -1665,30 +1665,30 @@ public final class OmGetVoucherTypeSurchargesAd {
        * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
        */
-      public io.dstore.Values.decimalValue getSurchargeValue() {
-        return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+      public io.dstore.values.DecimalValue getSurchargeValue() {
+        return surchargeValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : surchargeValue_;
       }
       /**
        * <pre>
        * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
         return getSurchargeValue();
       }
 
       public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue surchargeTypeId_;
+      private io.dstore.values.IntegerValue surchargeTypeId_;
       /**
        * <pre>
        * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeId_ != null;
@@ -1698,30 +1698,30 @@ public final class OmGetVoucherTypeSurchargesAd {
        * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
        */
-      public io.dstore.Values.integerValue getSurchargeTypeId() {
-        return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+      public io.dstore.values.IntegerValue getSurchargeTypeId() {
+        return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
       }
       /**
        * <pre>
        * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         return getSurchargeTypeId();
       }
 
       public static final int SURCHARGE_TYPE_CATEGORY_ID_FIELD_NUMBER = 10008;
-      private io.dstore.Values.integerValue surchargeTypeCategoryId_;
+      private io.dstore.values.IntegerValue surchargeTypeCategoryId_;
       /**
        * <pre>
        * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
        */
       public boolean hasSurchargeTypeCategoryId() {
         return surchargeTypeCategoryId_ != null;
@@ -1731,19 +1731,19 @@ public final class OmGetVoucherTypeSurchargesAd {
        * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
        */
-      public io.dstore.Values.integerValue getSurchargeTypeCategoryId() {
-        return surchargeTypeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeCategoryId_;
+      public io.dstore.values.IntegerValue getSurchargeTypeCategoryId() {
+        return surchargeTypeCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeCategoryId_;
       }
       /**
        * <pre>
        * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
         return getSurchargeTypeCategoryId();
       }
 
@@ -2282,15 +2282,15 @@ public final class OmGetVoucherTypeSurchargesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue voucherTypeId_ = null;
+        private io.dstore.values.IntegerValue voucherTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> voucherTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> voucherTypeIdBuilder_;
         /**
          * <pre>
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
          */
         public boolean hasVoucherTypeId() {
           return voucherTypeIdBuilder_ != null || voucherTypeId_ != null;
@@ -2300,11 +2300,11 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getVoucherTypeId() {
+        public io.dstore.values.IntegerValue getVoucherTypeId() {
           if (voucherTypeIdBuilder_ == null) {
-            return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+            return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
           } else {
             return voucherTypeIdBuilder_.getMessage();
           }
@@ -2314,9 +2314,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
          */
-        public Builder setVoucherTypeId(io.dstore.Values.integerValue value) {
+        public Builder setVoucherTypeId(io.dstore.values.IntegerValue value) {
           if (voucherTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2334,10 +2334,10 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
          */
         public Builder setVoucherTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (voucherTypeIdBuilder_ == null) {
             voucherTypeId_ = builderForValue.build();
             onChanged();
@@ -2352,13 +2352,13 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
          */
-        public Builder mergeVoucherTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeVoucherTypeId(io.dstore.values.IntegerValue value) {
           if (voucherTypeIdBuilder_ == null) {
             if (voucherTypeId_ != null) {
               voucherTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
             } else {
               voucherTypeId_ = value;
             }
@@ -2374,7 +2374,7 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
          */
         public Builder clearVoucherTypeId() {
           if (voucherTypeIdBuilder_ == null) {
@@ -2392,9 +2392,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getVoucherTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getVoucherTypeIdBuilder() {
           
           onChanged();
           return getVoucherTypeIdFieldBuilder().getBuilder();
@@ -2404,14 +2404,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
           if (voucherTypeIdBuilder_ != null) {
             return voucherTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return voucherTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
           }
         }
         /**
@@ -2419,14 +2419,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Gutschein-Aktion
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getVoucherTypeIdFieldBuilder() {
           if (voucherTypeIdBuilder_ == null) {
             voucherTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getVoucherTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2435,15 +2435,15 @@ public final class OmGetVoucherTypeSurchargesAd {
           return voucherTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue voucherTypeDescription_ = null;
+        private io.dstore.values.StringValue voucherTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> voucherTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> voucherTypeDescriptionBuilder_;
         /**
          * <pre>
          * Die Bezeichnung der Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
          */
         public boolean hasVoucherTypeDescription() {
           return voucherTypeDescriptionBuilder_ != null || voucherTypeDescription_ != null;
@@ -2453,11 +2453,11 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getVoucherTypeDescription() {
+        public io.dstore.values.StringValue getVoucherTypeDescription() {
           if (voucherTypeDescriptionBuilder_ == null) {
-            return voucherTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherTypeDescription_;
+            return voucherTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherTypeDescription_;
           } else {
             return voucherTypeDescriptionBuilder_.getMessage();
           }
@@ -2467,9 +2467,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
          */
-        public Builder setVoucherTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setVoucherTypeDescription(io.dstore.values.StringValue value) {
           if (voucherTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2487,10 +2487,10 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
          */
         public Builder setVoucherTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (voucherTypeDescriptionBuilder_ == null) {
             voucherTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2505,13 +2505,13 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
          */
-        public Builder mergeVoucherTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeVoucherTypeDescription(io.dstore.values.StringValue value) {
           if (voucherTypeDescriptionBuilder_ == null) {
             if (voucherTypeDescription_ != null) {
               voucherTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(voucherTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(voucherTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               voucherTypeDescription_ = value;
             }
@@ -2527,7 +2527,7 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
          */
         public Builder clearVoucherTypeDescription() {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -2545,9 +2545,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getVoucherTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getVoucherTypeDescriptionBuilder() {
           
           onChanged();
           return getVoucherTypeDescriptionFieldBuilder().getBuilder();
@@ -2557,14 +2557,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
           if (voucherTypeDescriptionBuilder_ != null) {
             return voucherTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return voucherTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : voucherTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : voucherTypeDescription_;
           }
         }
         /**
@@ -2572,14 +2572,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getVoucherTypeDescriptionFieldBuilder() {
           if (voucherTypeDescriptionBuilder_ == null) {
             voucherTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getVoucherTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2588,15 +2588,15 @@ public final class OmGetVoucherTypeSurchargesAd {
           return voucherTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue surchargeIsAbsoluteValue_ = null;
+        private io.dstore.values.IntegerValue surchargeIsAbsoluteValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeIsAbsoluteValueBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeIsAbsoluteValueBuilder_;
         /**
          * <pre>
          * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
          */
         public boolean hasSurchargeIsAbsoluteValue() {
           return surchargeIsAbsoluteValueBuilder_ != null || surchargeIsAbsoluteValue_ != null;
@@ -2606,11 +2606,11 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
          */
-        public io.dstore.Values.integerValue getSurchargeIsAbsoluteValue() {
+        public io.dstore.values.IntegerValue getSurchargeIsAbsoluteValue() {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
-            return surchargeIsAbsoluteValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
+            return surchargeIsAbsoluteValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
           } else {
             return surchargeIsAbsoluteValueBuilder_.getMessage();
           }
@@ -2620,9 +2620,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
          */
-        public Builder setSurchargeIsAbsoluteValue(io.dstore.Values.integerValue value) {
+        public Builder setSurchargeIsAbsoluteValue(io.dstore.values.IntegerValue value) {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2640,10 +2640,10 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
          */
         public Builder setSurchargeIsAbsoluteValue(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
             surchargeIsAbsoluteValue_ = builderForValue.build();
             onChanged();
@@ -2658,13 +2658,13 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
          */
-        public Builder mergeSurchargeIsAbsoluteValue(io.dstore.Values.integerValue value) {
+        public Builder mergeSurchargeIsAbsoluteValue(io.dstore.values.IntegerValue value) {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
             if (surchargeIsAbsoluteValue_ != null) {
               surchargeIsAbsoluteValue_ =
-                io.dstore.Values.integerValue.newBuilder(surchargeIsAbsoluteValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(surchargeIsAbsoluteValue_).mergeFrom(value).buildPartial();
             } else {
               surchargeIsAbsoluteValue_ = value;
             }
@@ -2680,7 +2680,7 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
          */
         public Builder clearSurchargeIsAbsoluteValue() {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
@@ -2698,9 +2698,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSurchargeIsAbsoluteValueBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSurchargeIsAbsoluteValueBuilder() {
           
           onChanged();
           return getSurchargeIsAbsoluteValueFieldBuilder().getBuilder();
@@ -2710,14 +2710,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSurchargeIsAbsoluteValueOrBuilder() {
           if (surchargeIsAbsoluteValueBuilder_ != null) {
             return surchargeIsAbsoluteValueBuilder_.getMessageOrBuilder();
           } else {
             return surchargeIsAbsoluteValue_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : surchargeIsAbsoluteValue_;
           }
         }
         /**
@@ -2725,14 +2725,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Gibt an, was für eine Angabe "SurchargeValue" ist :"0" : Relativer (d.h. prozentualer) Wert"1" : Absolute Währungs-Angabe (in der zur "SurchargeTypeID" konfigurierten Einheit), und zwar ein NETTO-Wert"2" : Wie "1" nur als BRUTTO-Wert zu verstehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_is_absolute_value = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_is_absolute_value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSurchargeIsAbsoluteValueFieldBuilder() {
           if (surchargeIsAbsoluteValueBuilder_ == null) {
             surchargeIsAbsoluteValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSurchargeIsAbsoluteValue(),
                     getParentForChildren(),
                     isClean());
@@ -2741,15 +2741,15 @@ public final class OmGetVoucherTypeSurchargesAd {
           return surchargeIsAbsoluteValueBuilder_;
         }
 
-        private io.dstore.Values.stringValue categoryDescription_ = null;
+        private io.dstore.values.StringValue categoryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> categoryDescriptionBuilder_;
         /**
          * <pre>
          * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
          */
         public boolean hasCategoryDescription() {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
@@ -2759,11 +2759,11 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue getCategoryDescription() {
+        public io.dstore.values.StringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
-            return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+            return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
           } else {
             return categoryDescriptionBuilder_.getMessage();
           }
@@ -2773,9 +2773,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
          */
-        public Builder setCategoryDescription(io.dstore.Values.stringValue value) {
+        public Builder setCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2793,10 +2793,10 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
          */
         public Builder setCategoryDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescription_ = builderForValue.build();
             onChanged();
@@ -2811,13 +2811,13 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
          */
-        public Builder mergeCategoryDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (categoryDescription_ != null) {
               categoryDescription_ =
-                io.dstore.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
             } else {
               categoryDescription_ = value;
             }
@@ -2833,7 +2833,7 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
          */
         public Builder clearCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -2851,9 +2851,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCategoryDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getCategoryDescriptionBuilder() {
           
           onChanged();
           return getCategoryDescriptionFieldBuilder().getBuilder();
@@ -2863,14 +2863,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
             return categoryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return categoryDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
           }
         }
         /**
@@ -2878,14 +2878,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Kategorie "SurchargeTypeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCategoryDescriptionFieldBuilder() {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCategoryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2894,15 +2894,15 @@ public final class OmGetVoucherTypeSurchargesAd {
           return categoryDescriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue surchargeTypeDescription_ = null;
+        private io.dstore.values.StringValue surchargeTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> surchargeTypeDescriptionBuilder_;
         /**
          * <pre>
          * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
          */
         public boolean hasSurchargeTypeDescription() {
           return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
@@ -2912,11 +2912,11 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
          */
-        public io.dstore.Values.stringValue getSurchargeTypeDescription() {
+        public io.dstore.values.StringValue getSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
-            return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+            return surchargeTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
           } else {
             return surchargeTypeDescriptionBuilder_.getMessage();
           }
@@ -2926,9 +2926,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
          */
-        public Builder setSurchargeTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setSurchargeTypeDescription(io.dstore.values.StringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2946,10 +2946,10 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
          */
         public Builder setSurchargeTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (surchargeTypeDescriptionBuilder_ == null) {
             surchargeTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2964,13 +2964,13 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
          */
-        public Builder mergeSurchargeTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeSurchargeTypeDescription(io.dstore.values.StringValue value) {
           if (surchargeTypeDescriptionBuilder_ == null) {
             if (surchargeTypeDescription_ != null) {
               surchargeTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               surchargeTypeDescription_ = value;
             }
@@ -2986,7 +2986,7 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
          */
         public Builder clearSurchargeTypeDescription() {
           if (surchargeTypeDescriptionBuilder_ == null) {
@@ -3004,9 +3004,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSurchargeTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getSurchargeTypeDescriptionBuilder() {
           
           onChanged();
           return getSurchargeTypeDescriptionFieldBuilder().getBuilder();
@@ -3016,14 +3016,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
           if (surchargeTypeDescriptionBuilder_ != null) {
             return surchargeTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return surchargeTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
           }
         }
         /**
@@ -3031,14 +3031,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Die Bezeichnung der Aufschlags- bzw. Rabattart "SurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_type_description = 10005;</code>
+         * <code>optional .dstore.values.StringValue surcharge_type_description = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSurchargeTypeDescriptionFieldBuilder() {
           if (surchargeTypeDescriptionBuilder_ == null) {
             surchargeTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSurchargeTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3047,15 +3047,15 @@ public final class OmGetVoucherTypeSurchargesAd {
           return surchargeTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.decimalValue surchargeValue_ = null;
+        private io.dstore.values.DecimalValue surchargeValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> surchargeValueBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> surchargeValueBuilder_;
         /**
          * <pre>
          * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
          */
         public boolean hasSurchargeValue() {
           return surchargeValueBuilder_ != null || surchargeValue_ != null;
@@ -3065,11 +3065,11 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
          */
-        public io.dstore.Values.decimalValue getSurchargeValue() {
+        public io.dstore.values.DecimalValue getSurchargeValue() {
           if (surchargeValueBuilder_ == null) {
-            return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+            return surchargeValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : surchargeValue_;
           } else {
             return surchargeValueBuilder_.getMessage();
           }
@@ -3079,9 +3079,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
          */
-        public Builder setSurchargeValue(io.dstore.Values.decimalValue value) {
+        public Builder setSurchargeValue(io.dstore.values.DecimalValue value) {
           if (surchargeValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3099,10 +3099,10 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
          */
         public Builder setSurchargeValue(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (surchargeValueBuilder_ == null) {
             surchargeValue_ = builderForValue.build();
             onChanged();
@@ -3117,13 +3117,13 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
          */
-        public Builder mergeSurchargeValue(io.dstore.Values.decimalValue value) {
+        public Builder mergeSurchargeValue(io.dstore.values.DecimalValue value) {
           if (surchargeValueBuilder_ == null) {
             if (surchargeValue_ != null) {
               surchargeValue_ =
-                io.dstore.Values.decimalValue.newBuilder(surchargeValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(surchargeValue_).mergeFrom(value).buildPartial();
             } else {
               surchargeValue_ = value;
             }
@@ -3139,7 +3139,7 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
          */
         public Builder clearSurchargeValue() {
           if (surchargeValueBuilder_ == null) {
@@ -3157,9 +3157,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getSurchargeValueBuilder() {
+        public io.dstore.values.DecimalValue.Builder getSurchargeValueBuilder() {
           
           onChanged();
           return getSurchargeValueFieldBuilder().getBuilder();
@@ -3169,14 +3169,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
           if (surchargeValueBuilder_ != null) {
             return surchargeValueBuilder_.getMessageOrBuilder();
           } else {
             return surchargeValue_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : surchargeValue_;
           }
         }
         /**
@@ -3184,14 +3184,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * Der zur Gutschein-Aktion hinterlegte Rabatt (z.Zt. sind keine Aufschläge erlaubt, s. "om_ModifyVoucherTypeSurch_Ad"), d.h. hier steht immer ein negativer Wert (Rabatte sind "Surcharges" mit negativem Wert)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue surcharge_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue surcharge_value = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getSurchargeValueFieldBuilder() {
           if (surchargeValueBuilder_ == null) {
             surchargeValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getSurchargeValue(),
                     getParentForChildren(),
                     isClean());
@@ -3200,15 +3200,15 @@ public final class OmGetVoucherTypeSurchargesAd {
           return surchargeValueBuilder_;
         }
 
-        private io.dstore.Values.integerValue surchargeTypeId_ = null;
+        private io.dstore.values.IntegerValue surchargeTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
          * <pre>
          * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
          */
         public boolean hasSurchargeTypeId() {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
@@ -3218,11 +3218,11 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue getSurchargeTypeId() {
+        public io.dstore.values.IntegerValue getSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
-            return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+            return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
           } else {
             return surchargeTypeIdBuilder_.getMessage();
           }
@@ -3232,9 +3232,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
          */
-        public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
+        public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3252,10 +3252,10 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
          */
         public Builder setSurchargeTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (surchargeTypeIdBuilder_ == null) {
             surchargeTypeId_ = builderForValue.build();
             onChanged();
@@ -3270,13 +3270,13 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
          */
-        public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
             if (surchargeTypeId_ != null) {
               surchargeTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
             } else {
               surchargeTypeId_ = value;
             }
@@ -3292,7 +3292,7 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
          */
         public Builder clearSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -3310,9 +3310,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
           
           onChanged();
           return getSurchargeTypeIdFieldBuilder().getBuilder();
@@ -3322,14 +3322,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
           if (surchargeTypeIdBuilder_ != null) {
             return surchargeTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return surchargeTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
           }
         }
         /**
@@ -3337,14 +3337,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID einer Aufschlags- bzw. Rabattart, die für "VoucherTypeID" hinterlegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSurchargeTypeIdFieldBuilder() {
           if (surchargeTypeIdBuilder_ == null) {
             surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSurchargeTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3353,15 +3353,15 @@ public final class OmGetVoucherTypeSurchargesAd {
           return surchargeTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue surchargeTypeCategoryId_ = null;
+        private io.dstore.values.IntegerValue surchargeTypeCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeCategoryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeCategoryIdBuilder_;
         /**
          * <pre>
          * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
          */
         public boolean hasSurchargeTypeCategoryId() {
           return surchargeTypeCategoryIdBuilder_ != null || surchargeTypeCategoryId_ != null;
@@ -3371,11 +3371,11 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
          */
-        public io.dstore.Values.integerValue getSurchargeTypeCategoryId() {
+        public io.dstore.values.IntegerValue getSurchargeTypeCategoryId() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
-            return surchargeTypeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeCategoryId_;
+            return surchargeTypeCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeCategoryId_;
           } else {
             return surchargeTypeCategoryIdBuilder_.getMessage();
           }
@@ -3385,9 +3385,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
          */
-        public Builder setSurchargeTypeCategoryId(io.dstore.Values.integerValue value) {
+        public Builder setSurchargeTypeCategoryId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3405,10 +3405,10 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
          */
         public Builder setSurchargeTypeCategoryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
             surchargeTypeCategoryId_ = builderForValue.build();
             onChanged();
@@ -3423,13 +3423,13 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
          */
-        public Builder mergeSurchargeTypeCategoryId(io.dstore.Values.integerValue value) {
+        public Builder mergeSurchargeTypeCategoryId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
             if (surchargeTypeCategoryId_ != null) {
               surchargeTypeCategoryId_ =
-                io.dstore.Values.integerValue.newBuilder(surchargeTypeCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(surchargeTypeCategoryId_).mergeFrom(value).buildPartial();
             } else {
               surchargeTypeCategoryId_ = value;
             }
@@ -3445,7 +3445,7 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
          */
         public Builder clearSurchargeTypeCategoryId() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -3463,9 +3463,9 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSurchargeTypeCategoryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSurchargeTypeCategoryIdBuilder() {
           
           onChanged();
           return getSurchargeTypeCategoryIdFieldBuilder().getBuilder();
@@ -3475,14 +3475,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
           if (surchargeTypeCategoryIdBuilder_ != null) {
             return surchargeTypeCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return surchargeTypeCategoryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeCategoryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeCategoryId_;
           }
         }
         /**
@@ -3490,14 +3490,14 @@ public final class OmGetVoucherTypeSurchargesAd {
          * ID der Kategorie, der "SurchargeTypeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSurchargeTypeCategoryIdFieldBuilder() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
             surchargeTypeCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSurchargeTypeCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -4967,9 +4967,9 @@ public final class OmGetVoucherTypeSurchargesAd {
       "m_GetVoucherTypeSurcharges_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\272" +
       "\001\n\nParameters\0224\n\017voucher_type_id\030\001 \001(\0132\033" +
-      ".dstore.values.integerValue\022\035\n\024voucher_t" +
+      ".dstore.values.IntegerValue\022\035\n\024voucher_t" +
       "ype_id_null\030\351\007 \001(\010\0226\n\021surcharge_type_id\030" +
-      "\002 \001(\0132\033.dstore.values.integerValue\022\037\n\026su" +
+      "\002 \001(\0132\033.dstore.values.IntegerValue\022\037\n\026su" +
       "rcharge_type_id_null\030\352\007 \001(\010\"\266\005\n\010Response" +
       "\0228\n\020meta_information\030\002 \003(\0132\036.dstore.engi",
       "ne.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.ds" +
@@ -4977,17 +4977,17 @@ public final class OmGetVoucherTypeSurchargesAd {
       "e.engine.om_GetVoucherTypeSurcharges_Ad." +
       "Response.Row\032\375\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0225\n" +
       "\017voucher_type_id\030\221N \001(\0132\033.dstore.values." +
-      "integerValue\022=\n\030voucher_type_description" +
-      "\030\222N \001(\0132\032.dstore.values.stringValue\022A\n\033s" +
+      "IntegerValue\022=\n\030voucher_type_description" +
+      "\030\222N \001(\0132\032.dstore.values.StringValue\022A\n\033s" +
       "urcharge_is_absolute_value\030\223N \001(\0132\033.dsto" +
-      "re.values.integerValue\0229\n\024category_descr" +
-      "iption\030\224N \001(\0132\032.dstore.values.stringValu",
+      "re.values.IntegerValue\0229\n\024category_descr" +
+      "iption\030\224N \001(\0132\032.dstore.values.StringValu",
       "e\022?\n\032surcharge_type_description\030\225N \001(\0132\032" +
-      ".dstore.values.stringValue\0225\n\017surcharge_" +
-      "value\030\226N \001(\0132\033.dstore.values.decimalValu" +
+      ".dstore.values.StringValue\0225\n\017surcharge_" +
+      "value\030\226N \001(\0132\033.dstore.values.DecimalValu" +
       "e\0227\n\021surcharge_type_id\030\227N \001(\0132\033.dstore.v" +
-      "alues.integerValue\022@\n\032surcharge_type_cat" +
-      "egory_id\030\230N \001(\0132\033.dstore.values.integerV" +
+      "alues.IntegerValue\022@\n\032surcharge_type_cat" +
+      "egory_id\030\230N \001(\0132\033.dstore.values.IntegerV" +
       "alueB_\n\033io.dstore.engine.proceduresZ@gos" +
       "dk.dstore.de/engine/procedures/om_GetVou" +
       "cherTypeSurcharges_Adb\006proto3"
@@ -5003,7 +5003,7 @@ public final class OmGetVoucherTypeSurchargesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetVoucherTypeSurcharges_Ad_Parameters_descriptor =
@@ -5024,7 +5024,7 @@ public final class OmGetVoucherTypeSurchargesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetVoucherTypeSurcharges_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "VoucherTypeId", "VoucherTypeDescription", "SurchargeIsAbsoluteValue", "CategoryDescription", "SurchargeTypeDescription", "SurchargeValue", "SurchargeTypeId", "SurchargeTypeCategoryId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

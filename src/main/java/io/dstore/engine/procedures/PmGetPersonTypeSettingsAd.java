@@ -19,17 +19,17 @@ public final class PmGetPersonTypeSettingsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetPersonTypeSettingsAd {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    io.dstore.Values.stringValue getKeyVariable();
+    io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+    io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
      * <code>optional bool key_variable_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class PmGetPersonTypeSettingsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class PmGetPersonTypeSettingsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class PmGetPersonTypeSettingsAd {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -185,23 +185,23 @@ public final class PmGetPersonTypeSettingsAd {
     }
 
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue keyVariable_;
+    private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    public io.dstore.Values.stringValue getKeyVariable() {
-      return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+    public io.dstore.values.StringValue getKeyVariable() {
+      return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
     }
 
@@ -562,29 +562,29 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue keyVariable_ = null;
+      private io.dstore.values.StringValue keyVariable_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValue getKeyVariable() {
+      public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
-          return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+          return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
         } else {
           return keyVariableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public Builder setKeyVariable(io.dstore.Values.stringValue value) {
+      public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (keyVariableBuilder_ == null) {
           keyVariable_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
+      public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
           if (keyVariable_ != null) {
             keyVariable_ =
-              io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
           } else {
             keyVariable_ = value;
           }
@@ -773,7 +773,7 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class PmGetPersonTypeSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
+      public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
         onChanged();
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
           return keyVariableBuilder_.getMessageOrBuilder();
         } else {
           return keyVariable_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+              io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getKeyVariableFieldBuilder() {
         if (keyVariableBuilder_ == null) {
           keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getKeyVariable(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class PmGetPersonTypeSettingsAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
        */
       boolean hasPersonTypeDescription();
       /**
@@ -1115,24 +1115,24 @@ public final class PmGetPersonTypeSettingsAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
        */
-      io.dstore.Values.stringValue getPersonTypeDescription();
+      io.dstore.values.StringValue getPersonTypeDescription();
       /**
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPersonTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPersonTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -1140,24 +1140,24 @@ public final class PmGetPersonTypeSettingsAd {
        * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
       boolean hasKeyVariable();
       /**
@@ -1165,24 +1165,24 @@ public final class PmGetPersonTypeSettingsAd {
        * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
-      io.dstore.Values.stringValue getKeyVariable();
+      io.dstore.values.StringValue getKeyVariable();
       /**
        * <pre>
        * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+      io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
       /**
        * <pre>
        * ID eines Personen-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       boolean hasPersonTypeId();
       /**
@@ -1190,17 +1190,17 @@ public final class PmGetPersonTypeSettingsAd {
        * ID eines Personen-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
-      io.dstore.Values.integerValue getPersonTypeId();
+      io.dstore.values.IntegerValue getPersonTypeId();
       /**
        * <pre>
        * ID eines Personen-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetPersonTypeSettings_Ad.Response.Row}
@@ -1248,11 +1248,11 @@ public final class PmGetPersonTypeSettingsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (personTypeDescription_ != null) {
                   subBuilder = personTypeDescription_.toBuilder();
                 }
-                personTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                personTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personTypeDescription_);
                   personTypeDescription_ = subBuilder.buildPartial();
@@ -1261,11 +1261,11 @@ public final class PmGetPersonTypeSettingsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1274,11 +1274,11 @@ public final class PmGetPersonTypeSettingsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (keyVariable_ != null) {
                   subBuilder = keyVariable_.toBuilder();
                 }
-                keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                keyVariable_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(keyVariable_);
                   keyVariable_ = subBuilder.buildPartial();
@@ -1287,11 +1287,11 @@ public final class PmGetPersonTypeSettingsAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personTypeId_ != null) {
                   subBuilder = personTypeId_.toBuilder();
                 }
-                personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personTypeId_);
                   personTypeId_ = subBuilder.buildPartial();
@@ -1332,13 +1332,13 @@ public final class PmGetPersonTypeSettingsAd {
       }
 
       public static final int PERSON_TYPE_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue personTypeDescription_;
+      private io.dstore.values.StringValue personTypeDescription_;
       /**
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
        */
       public boolean hasPersonTypeDescription() {
         return personTypeDescription_ != null;
@@ -1348,30 +1348,30 @@ public final class PmGetPersonTypeSettingsAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getPersonTypeDescription() {
-        return personTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personTypeDescription_;
+      public io.dstore.values.StringValue getPersonTypeDescription() {
+        return personTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
         return getPersonTypeDescription();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1381,30 +1381,30 @@ public final class PmGetPersonTypeSettingsAd {
        * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int KEY_VARIABLE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue keyVariable_;
+      private io.dstore.values.StringValue keyVariable_;
       /**
        * <pre>
        * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariable_ != null;
@@ -1414,30 +1414,30 @@ public final class PmGetPersonTypeSettingsAd {
        * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
-      public io.dstore.Values.stringValue getKeyVariable() {
-        return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+      public io.dstore.values.StringValue getKeyVariable() {
+        return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
       }
       /**
        * <pre>
        * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
       }
 
       public static final int PERSON_TYPE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue personTypeId_;
+      private io.dstore.values.IntegerValue personTypeId_;
       /**
        * <pre>
        * ID eines Personen-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeId_ != null;
@@ -1447,19 +1447,19 @@ public final class PmGetPersonTypeSettingsAd {
        * ID eines Personen-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
-        return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+      public io.dstore.values.IntegerValue getPersonTypeId() {
+        return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
       }
       /**
        * <pre>
        * ID eines Personen-Typs
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         return getPersonTypeId();
       }
 
@@ -1878,15 +1878,15 @@ public final class PmGetPersonTypeSettingsAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue personTypeDescription_ = null;
+        private io.dstore.values.StringValue personTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
          */
         public boolean hasPersonTypeDescription() {
           return personTypeDescriptionBuilder_ != null || personTypeDescription_ != null;
@@ -1896,11 +1896,11 @@ public final class PmGetPersonTypeSettingsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getPersonTypeDescription() {
+        public io.dstore.values.StringValue getPersonTypeDescription() {
           if (personTypeDescriptionBuilder_ == null) {
-            return personTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personTypeDescription_;
+            return personTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personTypeDescription_;
           } else {
             return personTypeDescriptionBuilder_.getMessage();
           }
@@ -1910,9 +1910,9 @@ public final class PmGetPersonTypeSettingsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
          */
-        public Builder setPersonTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setPersonTypeDescription(io.dstore.values.StringValue value) {
           if (personTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1930,10 +1930,10 @@ public final class PmGetPersonTypeSettingsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
          */
         public Builder setPersonTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (personTypeDescriptionBuilder_ == null) {
             personTypeDescription_ = builderForValue.build();
             onChanged();
@@ -1948,13 +1948,13 @@ public final class PmGetPersonTypeSettingsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
          */
-        public Builder mergePersonTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergePersonTypeDescription(io.dstore.values.StringValue value) {
           if (personTypeDescriptionBuilder_ == null) {
             if (personTypeDescription_ != null) {
               personTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(personTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(personTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               personTypeDescription_ = value;
             }
@@ -1970,7 +1970,7 @@ public final class PmGetPersonTypeSettingsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
          */
         public Builder clearPersonTypeDescription() {
           if (personTypeDescriptionBuilder_ == null) {
@@ -1988,9 +1988,9 @@ public final class PmGetPersonTypeSettingsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPersonTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getPersonTypeDescriptionBuilder() {
           
           onChanged();
           return getPersonTypeDescriptionFieldBuilder().getBuilder();
@@ -2000,14 +2000,14 @@ public final class PmGetPersonTypeSettingsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
           if (personTypeDescriptionBuilder_ != null) {
             return personTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return personTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : personTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : personTypeDescription_;
           }
         }
         /**
@@ -2015,14 +2015,14 @@ public final class PmGetPersonTypeSettingsAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPersonTypeDescriptionFieldBuilder() {
           if (personTypeDescriptionBuilder_ == null) {
             personTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPersonTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2031,15 +2031,15 @@ public final class PmGetPersonTypeSettingsAd {
           return personTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2049,11 +2049,11 @@ public final class PmGetPersonTypeSettingsAd {
          * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -2063,9 +2063,9 @@ public final class PmGetPersonTypeSettingsAd {
          * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2083,10 +2083,10 @@ public final class PmGetPersonTypeSettingsAd {
          * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2101,13 +2101,13 @@ public final class PmGetPersonTypeSettingsAd {
          * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2123,7 +2123,7 @@ public final class PmGetPersonTypeSettingsAd {
          * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2141,9 +2141,9 @@ public final class PmGetPersonTypeSettingsAd {
          * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -2153,14 +2153,14 @@ public final class PmGetPersonTypeSettingsAd {
          * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -2168,14 +2168,14 @@ public final class PmGetPersonTypeSettingsAd {
          * Der für den Personen-Typ "PersonTypeID" zum Schlüssel "KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2184,15 +2184,15 @@ public final class PmGetPersonTypeSettingsAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.stringValue keyVariable_ = null;
+        private io.dstore.values.StringValue keyVariable_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
         /**
          * <pre>
          * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
         public boolean hasKeyVariable() {
           return keyVariableBuilder_ != null || keyVariable_ != null;
@@ -2202,11 +2202,11 @@ public final class PmGetPersonTypeSettingsAd {
          * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public io.dstore.Values.stringValue getKeyVariable() {
+        public io.dstore.values.StringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
-            return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+            return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
           } else {
             return keyVariableBuilder_.getMessage();
           }
@@ -2216,9 +2216,9 @@ public final class PmGetPersonTypeSettingsAd {
          * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public Builder setKeyVariable(io.dstore.Values.stringValue value) {
+        public Builder setKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2236,10 +2236,10 @@ public final class PmGetPersonTypeSettingsAd {
          * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
         public Builder setKeyVariable(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (keyVariableBuilder_ == null) {
             keyVariable_ = builderForValue.build();
             onChanged();
@@ -2254,13 +2254,13 @@ public final class PmGetPersonTypeSettingsAd {
          * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
+        public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
             if (keyVariable_ != null) {
               keyVariable_ =
-                io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
             } else {
               keyVariable_ = value;
             }
@@ -2276,7 +2276,7 @@ public final class PmGetPersonTypeSettingsAd {
          * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
         public Builder clearKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2294,9 +2294,9 @@ public final class PmGetPersonTypeSettingsAd {
          * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
+        public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
           
           onChanged();
           return getKeyVariableFieldBuilder().getBuilder();
@@ -2306,14 +2306,14 @@ public final class PmGetPersonTypeSettingsAd {
          * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
             return keyVariableBuilder_.getMessageOrBuilder();
           } else {
             return keyVariable_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+                io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
           }
         }
         /**
@@ -2321,14 +2321,14 @@ public final class PmGetPersonTypeSettingsAd {
          * Ein Schlüssel (z.B. "PersonIdentificationIDs"). Mögliche Werte : siehe Rückgabemenge von " do_GetSettingsDescriptions_Ad 'PersonTypeSettings' "
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getKeyVariableFieldBuilder() {
           if (keyVariableBuilder_ == null) {
             keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getKeyVariable(),
                     getParentForChildren(),
                     isClean());
@@ -2337,15 +2337,15 @@ public final class PmGetPersonTypeSettingsAd {
           return keyVariableBuilder_;
         }
 
-        private io.dstore.Values.integerValue personTypeId_ = null;
+        private io.dstore.values.IntegerValue personTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
         /**
          * <pre>
          * ID eines Personen-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public boolean hasPersonTypeId() {
           return personTypeIdBuilder_ != null || personTypeId_ != null;
@@ -2355,11 +2355,11 @@ public final class PmGetPersonTypeSettingsAd {
          * ID eines Personen-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue getPersonTypeId() {
+        public io.dstore.values.IntegerValue getPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
-            return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+            return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
           } else {
             return personTypeIdBuilder_.getMessage();
           }
@@ -2369,9 +2369,9 @@ public final class PmGetPersonTypeSettingsAd {
          * ID eines Personen-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+        public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2389,10 +2389,10 @@ public final class PmGetPersonTypeSettingsAd {
          * ID eines Personen-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder setPersonTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personTypeIdBuilder_ == null) {
             personTypeId_ = builderForValue.build();
             onChanged();
@@ -2407,13 +2407,13 @@ public final class PmGetPersonTypeSettingsAd {
          * ID eines Personen-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
             if (personTypeId_ != null) {
               personTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
             } else {
               personTypeId_ = value;
             }
@@ -2429,7 +2429,7 @@ public final class PmGetPersonTypeSettingsAd {
          * ID eines Personen-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder clearPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -2447,9 +2447,9 @@ public final class PmGetPersonTypeSettingsAd {
          * ID eines Personen-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
           
           onChanged();
           return getPersonTypeIdFieldBuilder().getBuilder();
@@ -2459,14 +2459,14 @@ public final class PmGetPersonTypeSettingsAd {
          * ID eines Personen-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
           if (personTypeIdBuilder_ != null) {
             return personTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return personTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
           }
         }
         /**
@@ -2474,14 +2474,14 @@ public final class PmGetPersonTypeSettingsAd {
          * ID eines Personen-Typs
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonTypeIdFieldBuilder() {
           if (personTypeIdBuilder_ == null) {
             personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3951,20 +3951,20 @@ public final class PmGetPersonTypeSettingsAd {
       "etPersonTypeSettings_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\255\001\n\nPar" +
       "ameters\0223\n\016person_type_id\030\001 \001(\0132\033.dstore" +
-      ".values.integerValue\022\034\n\023person_type_id_n" +
+      ".values.IntegerValue\022\034\n\023person_type_id_n" +
       "ull\030\351\007 \001(\010\0220\n\014key_variable\030\002 \001(\0132\032.dstor" +
-      "e.values.stringValue\022\032\n\021key_variable_nul" +
+      "e.values.StringValue\022\032\n\021key_variable_nul" +
       "l\030\352\007 \001(\010\"\237\003\n\010Response\0228\n\020meta_informatio" +
       "n\030\002 \003(\0132\036.dstore.engine.MetaInformation\022",
       "\'\n\007message\030\003 \003(\0132\026.dstore.engine.Message" +
       "\022D\n\003row\030\004 \003(\01327.dstore.engine.pm_GetPers" +
       "onTypeSettings_Ad.Response.Row\032\351\001\n\003Row\022\017" +
       "\n\006row_id\030\220N \001(\005\022<\n\027person_type_descripti" +
-      "on\030\221N \001(\0132\032.dstore.values.stringValue\022*\n" +
-      "\005value\030\222N \001(\0132\032.dstore.values.stringValu" +
+      "on\030\221N \001(\0132\032.dstore.values.StringValue\022*\n" +
+      "\005value\030\222N \001(\0132\032.dstore.values.StringValu" +
       "e\0221\n\014key_variable\030\223N \001(\0132\032.dstore.values" +
-      ".stringValue\0224\n\016person_type_id\030\224N \001(\0132\033." +
-      "dstore.values.integerValueB\\\n\033io.dstore." +
+      ".StringValue\0224\n\016person_type_id\030\224N \001(\0132\033." +
+      "dstore.values.IntegerValueB\\\n\033io.dstore." +
       "engine.proceduresZ=gosdk.dstore.de/engin",
       "e/procedures/pm_GetPersonTypeSettings_Ad" +
       "b\006proto3"
@@ -3980,7 +3980,7 @@ public final class PmGetPersonTypeSettingsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetPersonTypeSettings_Ad_Parameters_descriptor =
@@ -4001,7 +4001,7 @@ public final class PmGetPersonTypeSettingsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonTypeSettings_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PersonTypeDescription", "Value", "KeyVariable", "PersonTypeId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

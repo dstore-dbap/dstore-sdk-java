@@ -19,17 +19,17 @@ public final class CoGetBinQuotaInformationPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoGetBinQuotaInformationPu {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
-    io.dstore.Values.integerValue getCommunityMemberId();
+    io.dstore.values.IntegerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
      * <code>optional bool community_member_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class CoGetBinQuotaInformationPu {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class CoGetBinQuotaInformationPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityMemberId_ != null) {
                 subBuilder = communityMemberId_.toBuilder();
               }
-              communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityMemberId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMemberId_);
                 communityMemberId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class CoGetBinQuotaInformationPu {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -185,23 +185,23 @@ public final class CoGetBinQuotaInformationPu {
     }
 
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue communityMemberId_;
+    private io.dstore.values.IntegerValue communityMemberId_;
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getCommunityMemberId() {
-      return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+    public io.dstore.values.IntegerValue getCommunityMemberId() {
+      return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
     }
 
@@ -562,29 +562,29 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -630,7 +630,7 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityMemberId_ = null;
+      private io.dstore.values.IntegerValue communityMemberId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getCommunityMemberId() {
+      public io.dstore.values.IntegerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
-          return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+          return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
         } else {
           return communityMemberIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public Builder setCommunityMemberId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityMemberIdBuilder_ == null) {
           communityMemberId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (communityMemberId_ != null) {
             communityMemberId_ =
-              io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
           } else {
             communityMemberId_ = value;
           }
@@ -773,7 +773,7 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class CoGetBinQuotaInformationPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
         
         onChanged();
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
           return communityMemberIdBuilder_.getMessageOrBuilder();
         } else {
           return communityMemberId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityMemberIdFieldBuilder() {
         if (communityMemberIdBuilder_ == null) {
           communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityMemberId(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class CoGetBinQuotaInformationPu {
        * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
       boolean hasValue();
       /**
@@ -1115,24 +1115,24 @@ public final class CoGetBinQuotaInformationPu {
        * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+       * <code>optional .dstore.values.StringValue source_table = 10002;</code>
        */
       boolean hasSourceTable();
       /**
@@ -1140,24 +1140,24 @@ public final class CoGetBinQuotaInformationPu {
        * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+       * <code>optional .dstore.values.StringValue source_table = 10002;</code>
        */
-      io.dstore.Values.stringValue getSourceTable();
+      io.dstore.values.StringValue getSourceTable();
       /**
        * <pre>
        * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+       * <code>optional .dstore.values.StringValue source_table = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSourceTableOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSourceTableOrBuilder();
 
       /**
        * <pre>
        * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
       boolean hasKeyVariable();
       /**
@@ -1165,17 +1165,17 @@ public final class CoGetBinQuotaInformationPu {
        * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
-      io.dstore.Values.stringValue getKeyVariable();
+      io.dstore.values.StringValue getKeyVariable();
       /**
        * <pre>
        * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+      io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetBinQuotaInformation_Pu.Response.Row}
@@ -1223,11 +1223,11 @@ public final class CoGetBinQuotaInformationPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1236,11 +1236,11 @@ public final class CoGetBinQuotaInformationPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (sourceTable_ != null) {
                   subBuilder = sourceTable_.toBuilder();
                 }
-                sourceTable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                sourceTable_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sourceTable_);
                   sourceTable_ = subBuilder.buildPartial();
@@ -1249,11 +1249,11 @@ public final class CoGetBinQuotaInformationPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (keyVariable_ != null) {
                   subBuilder = keyVariable_.toBuilder();
                 }
-                keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                keyVariable_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(keyVariable_);
                   keyVariable_ = subBuilder.buildPartial();
@@ -1294,13 +1294,13 @@ public final class CoGetBinQuotaInformationPu {
       }
 
       public static final int VALUE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1310,30 +1310,30 @@ public final class CoGetBinQuotaInformationPu {
        * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int SOURCE_TABLE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue sourceTable_;
+      private io.dstore.values.StringValue sourceTable_;
       /**
        * <pre>
        * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+       * <code>optional .dstore.values.StringValue source_table = 10002;</code>
        */
       public boolean hasSourceTable() {
         return sourceTable_ != null;
@@ -1343,30 +1343,30 @@ public final class CoGetBinQuotaInformationPu {
        * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+       * <code>optional .dstore.values.StringValue source_table = 10002;</code>
        */
-      public io.dstore.Values.stringValue getSourceTable() {
-        return sourceTable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sourceTable_;
+      public io.dstore.values.StringValue getSourceTable() {
+        return sourceTable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sourceTable_;
       }
       /**
        * <pre>
        * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+       * <code>optional .dstore.values.StringValue source_table = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSourceTableOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSourceTableOrBuilder() {
         return getSourceTable();
       }
 
       public static final int KEY_VARIABLE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue keyVariable_;
+      private io.dstore.values.StringValue keyVariable_;
       /**
        * <pre>
        * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariable_ != null;
@@ -1376,19 +1376,19 @@ public final class CoGetBinQuotaInformationPu {
        * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
-      public io.dstore.Values.stringValue getKeyVariable() {
-        return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+      public io.dstore.values.StringValue getKeyVariable() {
+        return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
       }
       /**
        * <pre>
        * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         return getKeyVariable();
       }
 
@@ -1777,15 +1777,15 @@ public final class CoGetBinQuotaInformationPu {
           return this;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -1795,11 +1795,11 @@ public final class CoGetBinQuotaInformationPu {
          * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -1809,9 +1809,9 @@ public final class CoGetBinQuotaInformationPu {
          * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1829,10 +1829,10 @@ public final class CoGetBinQuotaInformationPu {
          * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -1847,13 +1847,13 @@ public final class CoGetBinQuotaInformationPu {
          * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -1869,7 +1869,7 @@ public final class CoGetBinQuotaInformationPu {
          * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -1887,9 +1887,9 @@ public final class CoGetBinQuotaInformationPu {
          * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -1899,14 +1899,14 @@ public final class CoGetBinQuotaInformationPu {
          * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -1914,14 +1914,14 @@ public final class CoGetBinQuotaInformationPu {
          * Der Wert zum Schlüssel. Enthält z.B. wieviele Binärobjekte das Mitglied "&#64;CommunityMemberID" (in einer Kategorie) ablegen darf und wieviel Speicher die "Binaries" insgesamt belegen dürfen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -1930,15 +1930,15 @@ public final class CoGetBinQuotaInformationPu {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.stringValue sourceTable_ = null;
+        private io.dstore.values.StringValue sourceTable_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sourceTableBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sourceTableBuilder_;
         /**
          * <pre>
          * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+         * <code>optional .dstore.values.StringValue source_table = 10002;</code>
          */
         public boolean hasSourceTable() {
           return sourceTableBuilder_ != null || sourceTable_ != null;
@@ -1948,11 +1948,11 @@ public final class CoGetBinQuotaInformationPu {
          * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+         * <code>optional .dstore.values.StringValue source_table = 10002;</code>
          */
-        public io.dstore.Values.stringValue getSourceTable() {
+        public io.dstore.values.StringValue getSourceTable() {
           if (sourceTableBuilder_ == null) {
-            return sourceTable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sourceTable_;
+            return sourceTable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sourceTable_;
           } else {
             return sourceTableBuilder_.getMessage();
           }
@@ -1962,9 +1962,9 @@ public final class CoGetBinQuotaInformationPu {
          * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+         * <code>optional .dstore.values.StringValue source_table = 10002;</code>
          */
-        public Builder setSourceTable(io.dstore.Values.stringValue value) {
+        public Builder setSourceTable(io.dstore.values.StringValue value) {
           if (sourceTableBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1982,10 +1982,10 @@ public final class CoGetBinQuotaInformationPu {
          * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+         * <code>optional .dstore.values.StringValue source_table = 10002;</code>
          */
         public Builder setSourceTable(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (sourceTableBuilder_ == null) {
             sourceTable_ = builderForValue.build();
             onChanged();
@@ -2000,13 +2000,13 @@ public final class CoGetBinQuotaInformationPu {
          * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+         * <code>optional .dstore.values.StringValue source_table = 10002;</code>
          */
-        public Builder mergeSourceTable(io.dstore.Values.stringValue value) {
+        public Builder mergeSourceTable(io.dstore.values.StringValue value) {
           if (sourceTableBuilder_ == null) {
             if (sourceTable_ != null) {
               sourceTable_ =
-                io.dstore.Values.stringValue.newBuilder(sourceTable_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(sourceTable_).mergeFrom(value).buildPartial();
             } else {
               sourceTable_ = value;
             }
@@ -2022,7 +2022,7 @@ public final class CoGetBinQuotaInformationPu {
          * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+         * <code>optional .dstore.values.StringValue source_table = 10002;</code>
          */
         public Builder clearSourceTable() {
           if (sourceTableBuilder_ == null) {
@@ -2040,9 +2040,9 @@ public final class CoGetBinQuotaInformationPu {
          * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+         * <code>optional .dstore.values.StringValue source_table = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSourceTableBuilder() {
+        public io.dstore.values.StringValue.Builder getSourceTableBuilder() {
           
           onChanged();
           return getSourceTableFieldBuilder().getBuilder();
@@ -2052,14 +2052,14 @@ public final class CoGetBinQuotaInformationPu {
          * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+         * <code>optional .dstore.values.StringValue source_table = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSourceTableOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSourceTableOrBuilder() {
           if (sourceTableBuilder_ != null) {
             return sourceTableBuilder_.getMessageOrBuilder();
           } else {
             return sourceTable_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : sourceTable_;
+                io.dstore.values.StringValue.getDefaultInstance() : sourceTable_;
           }
         }
         /**
@@ -2067,14 +2067,14 @@ public final class CoGetBinQuotaInformationPu {
          * Name der Tabelle, in der der Eintrag "KeyVariable" - "Value" gefunden wurde. Derzeit kommen zwei Tabellen in Frage:* "CommunitySettings"* "CommunityMemberSettings"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue source_table = 10002;</code>
+         * <code>optional .dstore.values.StringValue source_table = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSourceTableFieldBuilder() {
           if (sourceTableBuilder_ == null) {
             sourceTableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSourceTable(),
                     getParentForChildren(),
                     isClean());
@@ -2083,15 +2083,15 @@ public final class CoGetBinQuotaInformationPu {
           return sourceTableBuilder_;
         }
 
-        private io.dstore.Values.stringValue keyVariable_ = null;
+        private io.dstore.values.StringValue keyVariable_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
         /**
          * <pre>
          * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
         public boolean hasKeyVariable() {
           return keyVariableBuilder_ != null || keyVariable_ != null;
@@ -2101,11 +2101,11 @@ public final class CoGetBinQuotaInformationPu {
          * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public io.dstore.Values.stringValue getKeyVariable() {
+        public io.dstore.values.StringValue getKeyVariable() {
           if (keyVariableBuilder_ == null) {
-            return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+            return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
           } else {
             return keyVariableBuilder_.getMessage();
           }
@@ -2115,9 +2115,9 @@ public final class CoGetBinQuotaInformationPu {
          * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public Builder setKeyVariable(io.dstore.Values.stringValue value) {
+        public Builder setKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2135,10 +2135,10 @@ public final class CoGetBinQuotaInformationPu {
          * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
         public Builder setKeyVariable(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (keyVariableBuilder_ == null) {
             keyVariable_ = builderForValue.build();
             onChanged();
@@ -2153,13 +2153,13 @@ public final class CoGetBinQuotaInformationPu {
          * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
+        public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
           if (keyVariableBuilder_ == null) {
             if (keyVariable_ != null) {
               keyVariable_ =
-                io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
             } else {
               keyVariable_ = value;
             }
@@ -2175,7 +2175,7 @@ public final class CoGetBinQuotaInformationPu {
          * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
         public Builder clearKeyVariable() {
           if (keyVariableBuilder_ == null) {
@@ -2193,9 +2193,9 @@ public final class CoGetBinQuotaInformationPu {
          * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
+        public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
           
           onChanged();
           return getKeyVariableFieldBuilder().getBuilder();
@@ -2205,14 +2205,14 @@ public final class CoGetBinQuotaInformationPu {
          * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
           if (keyVariableBuilder_ != null) {
             return keyVariableBuilder_.getMessageOrBuilder();
           } else {
             return keyVariable_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+                io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
           }
         }
         /**
@@ -2220,14 +2220,14 @@ public final class CoGetBinQuotaInformationPu {
          * Ein Schlüssel wie z.B. "sys_BinaryQuotaInKB_1" ("1" steht dann für die Kategorie von "Binaries" mit der ID "1")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue key_variable = 10003;</code>
+         * <code>optional .dstore.values.StringValue key_variable = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getKeyVariableFieldBuilder() {
           if (keyVariableBuilder_ == null) {
             keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getKeyVariable(),
                     getParentForChildren(),
                     isClean());
@@ -3697,19 +3697,19 @@ public final class CoGetBinQuotaInformationPu {
       "GetBinQuotaInformation_Pu\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\270\001\n\nP" +
       "arameters\0221\n\014community_id\030\001 \001(\0132\033.dstore" +
-      ".values.integerValue\022\032\n\021community_id_nul" +
+      ".values.IntegerValue\022\032\n\021community_id_nul" +
       "l\030\351\007 \001(\010\0228\n\023community_member_id\030\002 \001(\0132\033." +
-      "dstore.values.integerValue\022!\n\030community_" +
+      "dstore.values.IntegerValue\022!\n\030community_" +
       "member_id_null\030\352\007 \001(\010\"\337\002\n\010Response\0228\n\020me" +
       "ta_information\030\002 \003(\0132\036.dstore.engine.Met",
       "aInformation\022\'\n\007message\030\003 \003(\0132\026.dstore.e" +
       "ngine.Message\022E\n\003row\030\004 \003(\01328.dstore.engi" +
       "ne.co_GetBinQuotaInformation_Pu.Response" +
       ".Row\032\250\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022*\n\005value\030\221" +
-      "N \001(\0132\032.dstore.values.stringValue\0221\n\014sou" +
-      "rce_table\030\222N \001(\0132\032.dstore.values.stringV" +
+      "N \001(\0132\032.dstore.values.StringValue\0221\n\014sou" +
+      "rce_table\030\222N \001(\0132\032.dstore.values.StringV" +
       "alue\0221\n\014key_variable\030\223N \001(\0132\032.dstore.val" +
-      "ues.stringValueB]\n\033io.dstore.engine.proc" +
+      "ues.StringValueB]\n\033io.dstore.engine.proc" +
       "eduresZ>gosdk.dstore.de/engine/procedure" +
       "s/co_GetBinQuotaInformation_Pub\006proto3"
     };
@@ -3724,7 +3724,7 @@ public final class CoGetBinQuotaInformationPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_GetBinQuotaInformation_Pu_Parameters_descriptor =
@@ -3745,7 +3745,7 @@ public final class CoGetBinQuotaInformationPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetBinQuotaInformation_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value", "SourceTable", "KeyVariable", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmSearchOrderNoAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue order_no = 1;</code>
+     * <code>optional .dstore.values.StringValue order_no = 1;</code>
      */
     boolean hasOrderNo();
     /**
-     * <code>optional .dstore.values.stringValue order_no = 1;</code>
+     * <code>optional .dstore.values.StringValue order_no = 1;</code>
      */
-    io.dstore.Values.stringValue getOrderNo();
+    io.dstore.values.StringValue getOrderNo();
     /**
-     * <code>optional .dstore.values.stringValue order_no = 1;</code>
+     * <code>optional .dstore.values.StringValue order_no = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder();
+    io.dstore.values.StringValueOrBuilder getOrderNoOrBuilder();
 
     /**
      * <code>optional bool order_no_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmSearchOrderNoAd {
     boolean getOrderNoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
      */
     boolean hasMaxPossibleOrdersPerOrderNo();
     /**
-     * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
      */
-    io.dstore.Values.integerValue getMaxPossibleOrdersPerOrderNo();
+    io.dstore.values.IntegerValue getMaxPossibleOrdersPerOrderNo();
     /**
-     * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMaxPossibleOrdersPerOrderNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMaxPossibleOrdersPerOrderNoOrBuilder();
 
     /**
      * <code>optional bool max_possible_orders_per_order_no_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmSearchOrderNoAd {
     boolean getMaxPossibleOrdersPerOrderNoNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    io.dstore.Values.timestampValue getFromDate();
+    io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmSearchOrderNoAd {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+     * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
      */
     boolean hasShowPersonCharacteristics();
     /**
-     * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+     * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
      */
-    io.dstore.Values.booleanValue getShowPersonCharacteristics();
+    io.dstore.values.BooleanValue getShowPersonCharacteristics();
     /**
-     * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+     * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getShowPersonCharacteristicsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getShowPersonCharacteristicsOrBuilder();
 
     /**
      * <code>optional bool show_person_characteristics_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmSearchOrderNoAd {
     boolean getShowPersonCharacteristicsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
     boolean hasDateAndTimeFormat();
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
-    io.dstore.Values.integerValue getDateAndTimeFormat();
+    io.dstore.values.IntegerValue getDateAndTimeFormat();
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getDateAndTimeFormatOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getDateAndTimeFormatOrBuilder();
 
     /**
      * <code>optional bool date_and_time_format_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmSearchOrderNoAd {
     boolean getDateAndTimeFormatNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+     * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
      */
     boolean hasIncludeTime();
     /**
-     * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+     * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
      */
-    io.dstore.Values.booleanValue getIncludeTime();
+    io.dstore.values.BooleanValue getIncludeTime();
     /**
-     * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+     * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIncludeTimeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIncludeTimeOrBuilder();
 
     /**
      * <code>optional bool include_time_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class OmSearchOrderNoAd {
     boolean getIncludeTimeNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+     * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
      */
     boolean hasIncludeItemNo();
     /**
-     * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+     * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
      */
-    io.dstore.Values.booleanValue getIncludeItemNo();
+    io.dstore.values.BooleanValue getIncludeItemNo();
     /**
-     * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+     * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIncludeItemNoOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIncludeItemNoOrBuilder();
 
     /**
      * <code>optional bool include_item_no_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class OmSearchOrderNoAd {
     boolean getIncludeItemNoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId();
+    io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class OmSearchOrderNoAd {
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
      */
     boolean hasPurchaseOrder();
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
      */
-    io.dstore.Values.booleanValue getPurchaseOrder();
+    io.dstore.values.BooleanValue getPurchaseOrder();
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getPurchaseOrderOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getPurchaseOrderOrBuilder();
 
     /**
      * <code>optional bool purchase_order_null = 1009;</code>
@@ -229,11 +229,11 @@ public final class OmSearchOrderNoAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (orderNo_ != null) {
                 subBuilder = orderNo_.toBuilder();
               }
-              orderNo_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              orderNo_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderNo_);
                 orderNo_ = subBuilder.buildPartial();
@@ -242,11 +242,11 @@ public final class OmSearchOrderNoAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (maxPossibleOrdersPerOrderNo_ != null) {
                 subBuilder = maxPossibleOrdersPerOrderNo_.toBuilder();
               }
-              maxPossibleOrdersPerOrderNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              maxPossibleOrdersPerOrderNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxPossibleOrdersPerOrderNo_);
                 maxPossibleOrdersPerOrderNo_ = subBuilder.buildPartial();
@@ -255,11 +255,11 @@ public final class OmSearchOrderNoAd {
               break;
             }
             case 26: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -268,11 +268,11 @@ public final class OmSearchOrderNoAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (showPersonCharacteristics_ != null) {
                 subBuilder = showPersonCharacteristics_.toBuilder();
               }
-              showPersonCharacteristics_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              showPersonCharacteristics_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(showPersonCharacteristics_);
                 showPersonCharacteristics_ = subBuilder.buildPartial();
@@ -281,11 +281,11 @@ public final class OmSearchOrderNoAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (dateAndTimeFormat_ != null) {
                 subBuilder = dateAndTimeFormat_.toBuilder();
               }
-              dateAndTimeFormat_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              dateAndTimeFormat_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateAndTimeFormat_);
                 dateAndTimeFormat_ = subBuilder.buildPartial();
@@ -294,11 +294,11 @@ public final class OmSearchOrderNoAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (includeTime_ != null) {
                 subBuilder = includeTime_.toBuilder();
               }
-              includeTime_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              includeTime_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeTime_);
                 includeTime_ = subBuilder.buildPartial();
@@ -307,11 +307,11 @@ public final class OmSearchOrderNoAd {
               break;
             }
             case 58: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (includeItemNo_ != null) {
                 subBuilder = includeItemNo_.toBuilder();
               }
-              includeItemNo_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              includeItemNo_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeItemNo_);
                 includeItemNo_ = subBuilder.buildPartial();
@@ -320,11 +320,11 @@ public final class OmSearchOrderNoAd {
               break;
             }
             case 66: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -333,11 +333,11 @@ public final class OmSearchOrderNoAd {
               break;
             }
             case 74: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (purchaseOrder_ != null) {
                 subBuilder = purchaseOrder_.toBuilder();
               }
-              purchaseOrder_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              purchaseOrder_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(purchaseOrder_);
                 purchaseOrder_ = subBuilder.buildPartial();
@@ -414,23 +414,23 @@ public final class OmSearchOrderNoAd {
     }
 
     public static final int ORDER_NO_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue orderNo_;
+    private io.dstore.values.StringValue orderNo_;
     /**
-     * <code>optional .dstore.values.stringValue order_no = 1;</code>
+     * <code>optional .dstore.values.StringValue order_no = 1;</code>
      */
     public boolean hasOrderNo() {
       return orderNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue order_no = 1;</code>
+     * <code>optional .dstore.values.StringValue order_no = 1;</code>
      */
-    public io.dstore.Values.stringValue getOrderNo() {
-      return orderNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
+    public io.dstore.values.StringValue getOrderNo() {
+      return orderNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderNo_;
     }
     /**
-     * <code>optional .dstore.values.stringValue order_no = 1;</code>
+     * <code>optional .dstore.values.StringValue order_no = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getOrderNoOrBuilder() {
       return getOrderNo();
     }
 
@@ -444,23 +444,23 @@ public final class OmSearchOrderNoAd {
     }
 
     public static final int MAX_POSSIBLE_ORDERS_PER_ORDER_NO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue maxPossibleOrdersPerOrderNo_;
+    private io.dstore.values.IntegerValue maxPossibleOrdersPerOrderNo_;
     /**
-     * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
      */
     public boolean hasMaxPossibleOrdersPerOrderNo() {
       return maxPossibleOrdersPerOrderNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
      */
-    public io.dstore.Values.integerValue getMaxPossibleOrdersPerOrderNo() {
-      return maxPossibleOrdersPerOrderNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxPossibleOrdersPerOrderNo_;
+    public io.dstore.values.IntegerValue getMaxPossibleOrdersPerOrderNo() {
+      return maxPossibleOrdersPerOrderNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxPossibleOrdersPerOrderNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMaxPossibleOrdersPerOrderNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMaxPossibleOrdersPerOrderNoOrBuilder() {
       return getMaxPossibleOrdersPerOrderNo();
     }
 
@@ -474,23 +474,23 @@ public final class OmSearchOrderNoAd {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 3;
-    private io.dstore.Values.timestampValue fromDate_;
+    private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    public io.dstore.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.values.TimestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -504,23 +504,23 @@ public final class OmSearchOrderNoAd {
     }
 
     public static final int SHOW_PERSON_CHARACTERISTICS_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue showPersonCharacteristics_;
+    private io.dstore.values.BooleanValue showPersonCharacteristics_;
     /**
-     * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+     * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
      */
     public boolean hasShowPersonCharacteristics() {
       return showPersonCharacteristics_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+     * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
      */
-    public io.dstore.Values.booleanValue getShowPersonCharacteristics() {
-      return showPersonCharacteristics_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : showPersonCharacteristics_;
+    public io.dstore.values.BooleanValue getShowPersonCharacteristics() {
+      return showPersonCharacteristics_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : showPersonCharacteristics_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+     * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getShowPersonCharacteristicsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getShowPersonCharacteristicsOrBuilder() {
       return getShowPersonCharacteristics();
     }
 
@@ -534,23 +534,23 @@ public final class OmSearchOrderNoAd {
     }
 
     public static final int DATE_AND_TIME_FORMAT_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue dateAndTimeFormat_;
+    private io.dstore.values.IntegerValue dateAndTimeFormat_;
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
     public boolean hasDateAndTimeFormat() {
       return dateAndTimeFormat_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
-    public io.dstore.Values.integerValue getDateAndTimeFormat() {
-      return dateAndTimeFormat_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : dateAndTimeFormat_;
+    public io.dstore.values.IntegerValue getDateAndTimeFormat() {
+      return dateAndTimeFormat_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : dateAndTimeFormat_;
     }
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getDateAndTimeFormatOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getDateAndTimeFormatOrBuilder() {
       return getDateAndTimeFormat();
     }
 
@@ -564,23 +564,23 @@ public final class OmSearchOrderNoAd {
     }
 
     public static final int INCLUDE_TIME_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue includeTime_;
+    private io.dstore.values.BooleanValue includeTime_;
     /**
-     * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+     * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
      */
     public boolean hasIncludeTime() {
       return includeTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+     * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
      */
-    public io.dstore.Values.booleanValue getIncludeTime() {
-      return includeTime_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeTime_;
+    public io.dstore.values.BooleanValue getIncludeTime() {
+      return includeTime_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeTime_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+     * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIncludeTimeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIncludeTimeOrBuilder() {
       return getIncludeTime();
     }
 
@@ -594,23 +594,23 @@ public final class OmSearchOrderNoAd {
     }
 
     public static final int INCLUDE_ITEM_NO_FIELD_NUMBER = 7;
-    private io.dstore.Values.booleanValue includeItemNo_;
+    private io.dstore.values.BooleanValue includeItemNo_;
     /**
-     * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+     * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
      */
     public boolean hasIncludeItemNo() {
       return includeItemNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+     * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
      */
-    public io.dstore.Values.booleanValue getIncludeItemNo() {
-      return includeItemNo_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeItemNo_;
+    public io.dstore.values.BooleanValue getIncludeItemNo() {
+      return includeItemNo_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeItemNo_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+     * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIncludeItemNoOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIncludeItemNoOrBuilder() {
       return getIncludeItemNo();
     }
 
@@ -624,23 +624,23 @@ public final class OmSearchOrderNoAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 8;
-    private io.dstore.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -654,23 +654,23 @@ public final class OmSearchOrderNoAd {
     }
 
     public static final int PURCHASE_ORDER_FIELD_NUMBER = 9;
-    private io.dstore.Values.booleanValue purchaseOrder_;
+    private io.dstore.values.BooleanValue purchaseOrder_;
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
      */
     public boolean hasPurchaseOrder() {
       return purchaseOrder_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
      */
-    public io.dstore.Values.booleanValue getPurchaseOrder() {
-      return purchaseOrder_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : purchaseOrder_;
+    public io.dstore.values.BooleanValue getPurchaseOrder() {
+      return purchaseOrder_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : purchaseOrder_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getPurchaseOrderOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getPurchaseOrderOrBuilder() {
       return getPurchaseOrder();
     }
 
@@ -1367,29 +1367,29 @@ public final class OmSearchOrderNoAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue orderNo_ = null;
+      private io.dstore.values.StringValue orderNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderNoBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> orderNoBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue order_no = 1;</code>
+       * <code>optional .dstore.values.StringValue order_no = 1;</code>
        */
       public boolean hasOrderNo() {
         return orderNoBuilder_ != null || orderNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_no = 1;</code>
+       * <code>optional .dstore.values.StringValue order_no = 1;</code>
        */
-      public io.dstore.Values.stringValue getOrderNo() {
+      public io.dstore.values.StringValue getOrderNo() {
         if (orderNoBuilder_ == null) {
-          return orderNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
+          return orderNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderNo_;
         } else {
           return orderNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue order_no = 1;</code>
+       * <code>optional .dstore.values.StringValue order_no = 1;</code>
        */
-      public Builder setOrderNo(io.dstore.Values.stringValue value) {
+      public Builder setOrderNo(io.dstore.values.StringValue value) {
         if (orderNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1403,10 +1403,10 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_no = 1;</code>
+       * <code>optional .dstore.values.StringValue order_no = 1;</code>
        */
       public Builder setOrderNo(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (orderNoBuilder_ == null) {
           orderNo_ = builderForValue.build();
           onChanged();
@@ -1417,13 +1417,13 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_no = 1;</code>
+       * <code>optional .dstore.values.StringValue order_no = 1;</code>
        */
-      public Builder mergeOrderNo(io.dstore.Values.stringValue value) {
+      public Builder mergeOrderNo(io.dstore.values.StringValue value) {
         if (orderNoBuilder_ == null) {
           if (orderNo_ != null) {
             orderNo_ =
-              io.dstore.Values.stringValue.newBuilder(orderNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(orderNo_).mergeFrom(value).buildPartial();
           } else {
             orderNo_ = value;
           }
@@ -1435,7 +1435,7 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_no = 1;</code>
+       * <code>optional .dstore.values.StringValue order_no = 1;</code>
        */
       public Builder clearOrderNo() {
         if (orderNoBuilder_ == null) {
@@ -1449,33 +1449,33 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_no = 1;</code>
+       * <code>optional .dstore.values.StringValue order_no = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getOrderNoBuilder() {
+      public io.dstore.values.StringValue.Builder getOrderNoBuilder() {
         
         onChanged();
         return getOrderNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue order_no = 1;</code>
+       * <code>optional .dstore.values.StringValue order_no = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOrderNoOrBuilder() {
         if (orderNoBuilder_ != null) {
           return orderNoBuilder_.getMessageOrBuilder();
         } else {
           return orderNo_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
+              io.dstore.values.StringValue.getDefaultInstance() : orderNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue order_no = 1;</code>
+       * <code>optional .dstore.values.StringValue order_no = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getOrderNoFieldBuilder() {
         if (orderNoBuilder_ == null) {
           orderNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getOrderNo(),
                   getParentForChildren(),
                   isClean());
@@ -1510,29 +1510,29 @@ public final class OmSearchOrderNoAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue maxPossibleOrdersPerOrderNo_ = null;
+      private io.dstore.values.IntegerValue maxPossibleOrdersPerOrderNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxPossibleOrdersPerOrderNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxPossibleOrdersPerOrderNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
        */
       public boolean hasMaxPossibleOrdersPerOrderNo() {
         return maxPossibleOrdersPerOrderNoBuilder_ != null || maxPossibleOrdersPerOrderNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
        */
-      public io.dstore.Values.integerValue getMaxPossibleOrdersPerOrderNo() {
+      public io.dstore.values.IntegerValue getMaxPossibleOrdersPerOrderNo() {
         if (maxPossibleOrdersPerOrderNoBuilder_ == null) {
-          return maxPossibleOrdersPerOrderNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxPossibleOrdersPerOrderNo_;
+          return maxPossibleOrdersPerOrderNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxPossibleOrdersPerOrderNo_;
         } else {
           return maxPossibleOrdersPerOrderNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
        */
-      public Builder setMaxPossibleOrdersPerOrderNo(io.dstore.Values.integerValue value) {
+      public Builder setMaxPossibleOrdersPerOrderNo(io.dstore.values.IntegerValue value) {
         if (maxPossibleOrdersPerOrderNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1546,10 +1546,10 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
        */
       public Builder setMaxPossibleOrdersPerOrderNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (maxPossibleOrdersPerOrderNoBuilder_ == null) {
           maxPossibleOrdersPerOrderNo_ = builderForValue.build();
           onChanged();
@@ -1560,13 +1560,13 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
        */
-      public Builder mergeMaxPossibleOrdersPerOrderNo(io.dstore.Values.integerValue value) {
+      public Builder mergeMaxPossibleOrdersPerOrderNo(io.dstore.values.IntegerValue value) {
         if (maxPossibleOrdersPerOrderNoBuilder_ == null) {
           if (maxPossibleOrdersPerOrderNo_ != null) {
             maxPossibleOrdersPerOrderNo_ =
-              io.dstore.Values.integerValue.newBuilder(maxPossibleOrdersPerOrderNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(maxPossibleOrdersPerOrderNo_).mergeFrom(value).buildPartial();
           } else {
             maxPossibleOrdersPerOrderNo_ = value;
           }
@@ -1578,7 +1578,7 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
        */
       public Builder clearMaxPossibleOrdersPerOrderNo() {
         if (maxPossibleOrdersPerOrderNoBuilder_ == null) {
@@ -1592,33 +1592,33 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMaxPossibleOrdersPerOrderNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMaxPossibleOrdersPerOrderNoBuilder() {
         
         onChanged();
         return getMaxPossibleOrdersPerOrderNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxPossibleOrdersPerOrderNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxPossibleOrdersPerOrderNoOrBuilder() {
         if (maxPossibleOrdersPerOrderNoBuilder_ != null) {
           return maxPossibleOrdersPerOrderNoBuilder_.getMessageOrBuilder();
         } else {
           return maxPossibleOrdersPerOrderNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : maxPossibleOrdersPerOrderNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : maxPossibleOrdersPerOrderNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_possible_orders_per_order_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_possible_orders_per_order_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMaxPossibleOrdersPerOrderNoFieldBuilder() {
         if (maxPossibleOrdersPerOrderNoBuilder_ == null) {
           maxPossibleOrdersPerOrderNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMaxPossibleOrdersPerOrderNo(),
                   getParentForChildren(),
                   isClean());
@@ -1653,29 +1653,29 @@ public final class OmSearchOrderNoAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDate_ = null;
+      private io.dstore.values.TimestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue getFromDate() {
+      public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public Builder setFromDate(io.dstore.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1689,10 +1689,10 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder setFromDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -1703,13 +1703,13 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -1721,7 +1721,7 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1735,33 +1735,33 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -1796,29 +1796,29 @@ public final class OmSearchOrderNoAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue showPersonCharacteristics_ = null;
+      private io.dstore.values.BooleanValue showPersonCharacteristics_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> showPersonCharacteristicsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> showPersonCharacteristicsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+       * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
        */
       public boolean hasShowPersonCharacteristics() {
         return showPersonCharacteristicsBuilder_ != null || showPersonCharacteristics_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+       * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
        */
-      public io.dstore.Values.booleanValue getShowPersonCharacteristics() {
+      public io.dstore.values.BooleanValue getShowPersonCharacteristics() {
         if (showPersonCharacteristicsBuilder_ == null) {
-          return showPersonCharacteristics_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : showPersonCharacteristics_;
+          return showPersonCharacteristics_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : showPersonCharacteristics_;
         } else {
           return showPersonCharacteristicsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+       * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
        */
-      public Builder setShowPersonCharacteristics(io.dstore.Values.booleanValue value) {
+      public Builder setShowPersonCharacteristics(io.dstore.values.BooleanValue value) {
         if (showPersonCharacteristicsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1832,10 +1832,10 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+       * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
        */
       public Builder setShowPersonCharacteristics(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (showPersonCharacteristicsBuilder_ == null) {
           showPersonCharacteristics_ = builderForValue.build();
           onChanged();
@@ -1846,13 +1846,13 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+       * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
        */
-      public Builder mergeShowPersonCharacteristics(io.dstore.Values.booleanValue value) {
+      public Builder mergeShowPersonCharacteristics(io.dstore.values.BooleanValue value) {
         if (showPersonCharacteristicsBuilder_ == null) {
           if (showPersonCharacteristics_ != null) {
             showPersonCharacteristics_ =
-              io.dstore.Values.booleanValue.newBuilder(showPersonCharacteristics_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(showPersonCharacteristics_).mergeFrom(value).buildPartial();
           } else {
             showPersonCharacteristics_ = value;
           }
@@ -1864,7 +1864,7 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+       * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
        */
       public Builder clearShowPersonCharacteristics() {
         if (showPersonCharacteristicsBuilder_ == null) {
@@ -1878,33 +1878,33 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+       * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getShowPersonCharacteristicsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getShowPersonCharacteristicsBuilder() {
         
         onChanged();
         return getShowPersonCharacteristicsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+       * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getShowPersonCharacteristicsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getShowPersonCharacteristicsOrBuilder() {
         if (showPersonCharacteristicsBuilder_ != null) {
           return showPersonCharacteristicsBuilder_.getMessageOrBuilder();
         } else {
           return showPersonCharacteristics_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : showPersonCharacteristics_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : showPersonCharacteristics_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue show_person_characteristics = 4;</code>
+       * <code>optional .dstore.values.BooleanValue show_person_characteristics = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getShowPersonCharacteristicsFieldBuilder() {
         if (showPersonCharacteristicsBuilder_ == null) {
           showPersonCharacteristicsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getShowPersonCharacteristics(),
                   getParentForChildren(),
                   isClean());
@@ -1939,29 +1939,29 @@ public final class OmSearchOrderNoAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue dateAndTimeFormat_ = null;
+      private io.dstore.values.IntegerValue dateAndTimeFormat_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> dateAndTimeFormatBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> dateAndTimeFormatBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
       public boolean hasDateAndTimeFormat() {
         return dateAndTimeFormatBuilder_ != null || dateAndTimeFormat_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public io.dstore.Values.integerValue getDateAndTimeFormat() {
+      public io.dstore.values.IntegerValue getDateAndTimeFormat() {
         if (dateAndTimeFormatBuilder_ == null) {
-          return dateAndTimeFormat_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : dateAndTimeFormat_;
+          return dateAndTimeFormat_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : dateAndTimeFormat_;
         } else {
           return dateAndTimeFormatBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public Builder setDateAndTimeFormat(io.dstore.Values.integerValue value) {
+      public Builder setDateAndTimeFormat(io.dstore.values.IntegerValue value) {
         if (dateAndTimeFormatBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1975,10 +1975,10 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
       public Builder setDateAndTimeFormat(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (dateAndTimeFormatBuilder_ == null) {
           dateAndTimeFormat_ = builderForValue.build();
           onChanged();
@@ -1989,13 +1989,13 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public Builder mergeDateAndTimeFormat(io.dstore.Values.integerValue value) {
+      public Builder mergeDateAndTimeFormat(io.dstore.values.IntegerValue value) {
         if (dateAndTimeFormatBuilder_ == null) {
           if (dateAndTimeFormat_ != null) {
             dateAndTimeFormat_ =
-              io.dstore.Values.integerValue.newBuilder(dateAndTimeFormat_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(dateAndTimeFormat_).mergeFrom(value).buildPartial();
           } else {
             dateAndTimeFormat_ = value;
           }
@@ -2007,7 +2007,7 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
       public Builder clearDateAndTimeFormat() {
         if (dateAndTimeFormatBuilder_ == null) {
@@ -2021,33 +2021,33 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getDateAndTimeFormatBuilder() {
+      public io.dstore.values.IntegerValue.Builder getDateAndTimeFormatBuilder() {
         
         onChanged();
         return getDateAndTimeFormatFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDateAndTimeFormatOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDateAndTimeFormatOrBuilder() {
         if (dateAndTimeFormatBuilder_ != null) {
           return dateAndTimeFormatBuilder_.getMessageOrBuilder();
         } else {
           return dateAndTimeFormat_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : dateAndTimeFormat_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : dateAndTimeFormat_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getDateAndTimeFormatFieldBuilder() {
         if (dateAndTimeFormatBuilder_ == null) {
           dateAndTimeFormatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getDateAndTimeFormat(),
                   getParentForChildren(),
                   isClean());
@@ -2082,29 +2082,29 @@ public final class OmSearchOrderNoAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue includeTime_ = null;
+      private io.dstore.values.BooleanValue includeTime_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeTimeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeTimeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+       * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
        */
       public boolean hasIncludeTime() {
         return includeTimeBuilder_ != null || includeTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+       * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
        */
-      public io.dstore.Values.booleanValue getIncludeTime() {
+      public io.dstore.values.BooleanValue getIncludeTime() {
         if (includeTimeBuilder_ == null) {
-          return includeTime_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeTime_;
+          return includeTime_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeTime_;
         } else {
           return includeTimeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+       * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
        */
-      public Builder setIncludeTime(io.dstore.Values.booleanValue value) {
+      public Builder setIncludeTime(io.dstore.values.BooleanValue value) {
         if (includeTimeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2118,10 +2118,10 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+       * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
        */
       public Builder setIncludeTime(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (includeTimeBuilder_ == null) {
           includeTime_ = builderForValue.build();
           onChanged();
@@ -2132,13 +2132,13 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+       * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
        */
-      public Builder mergeIncludeTime(io.dstore.Values.booleanValue value) {
+      public Builder mergeIncludeTime(io.dstore.values.BooleanValue value) {
         if (includeTimeBuilder_ == null) {
           if (includeTime_ != null) {
             includeTime_ =
-              io.dstore.Values.booleanValue.newBuilder(includeTime_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(includeTime_).mergeFrom(value).buildPartial();
           } else {
             includeTime_ = value;
           }
@@ -2150,7 +2150,7 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+       * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
        */
       public Builder clearIncludeTime() {
         if (includeTimeBuilder_ == null) {
@@ -2164,33 +2164,33 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+       * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIncludeTimeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIncludeTimeBuilder() {
         
         onChanged();
         return getIncludeTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+       * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIncludeTimeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIncludeTimeOrBuilder() {
         if (includeTimeBuilder_ != null) {
           return includeTimeBuilder_.getMessageOrBuilder();
         } else {
           return includeTime_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : includeTime_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : includeTime_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_time = 6;</code>
+       * <code>optional .dstore.values.BooleanValue include_time = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIncludeTimeFieldBuilder() {
         if (includeTimeBuilder_ == null) {
           includeTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIncludeTime(),
                   getParentForChildren(),
                   isClean());
@@ -2225,29 +2225,29 @@ public final class OmSearchOrderNoAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue includeItemNo_ = null;
+      private io.dstore.values.BooleanValue includeItemNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeItemNoBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeItemNoBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+       * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
        */
       public boolean hasIncludeItemNo() {
         return includeItemNoBuilder_ != null || includeItemNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+       * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
        */
-      public io.dstore.Values.booleanValue getIncludeItemNo() {
+      public io.dstore.values.BooleanValue getIncludeItemNo() {
         if (includeItemNoBuilder_ == null) {
-          return includeItemNo_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeItemNo_;
+          return includeItemNo_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeItemNo_;
         } else {
           return includeItemNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+       * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
        */
-      public Builder setIncludeItemNo(io.dstore.Values.booleanValue value) {
+      public Builder setIncludeItemNo(io.dstore.values.BooleanValue value) {
         if (includeItemNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2261,10 +2261,10 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+       * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
        */
       public Builder setIncludeItemNo(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (includeItemNoBuilder_ == null) {
           includeItemNo_ = builderForValue.build();
           onChanged();
@@ -2275,13 +2275,13 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+       * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
        */
-      public Builder mergeIncludeItemNo(io.dstore.Values.booleanValue value) {
+      public Builder mergeIncludeItemNo(io.dstore.values.BooleanValue value) {
         if (includeItemNoBuilder_ == null) {
           if (includeItemNo_ != null) {
             includeItemNo_ =
-              io.dstore.Values.booleanValue.newBuilder(includeItemNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(includeItemNo_).mergeFrom(value).buildPartial();
           } else {
             includeItemNo_ = value;
           }
@@ -2293,7 +2293,7 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+       * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
        */
       public Builder clearIncludeItemNo() {
         if (includeItemNoBuilder_ == null) {
@@ -2307,33 +2307,33 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+       * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIncludeItemNoBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIncludeItemNoBuilder() {
         
         onChanged();
         return getIncludeItemNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+       * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIncludeItemNoOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIncludeItemNoOrBuilder() {
         if (includeItemNoBuilder_ != null) {
           return includeItemNoBuilder_.getMessageOrBuilder();
         } else {
           return includeItemNo_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : includeItemNo_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : includeItemNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_item_no = 7;</code>
+       * <code>optional .dstore.values.BooleanValue include_item_no = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIncludeItemNoFieldBuilder() {
         if (includeItemNoBuilder_ == null) {
           includeItemNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIncludeItemNo(),
                   getParentForChildren(),
                   isClean());
@@ -2368,29 +2368,29 @@ public final class OmSearchOrderNoAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2404,10 +2404,10 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2418,13 +2418,13 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -2436,7 +2436,7 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -2450,33 +2450,33 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2511,29 +2511,29 @@ public final class OmSearchOrderNoAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue purchaseOrder_ = null;
+      private io.dstore.values.BooleanValue purchaseOrder_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> purchaseOrderBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> purchaseOrderBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
        */
       public boolean hasPurchaseOrder() {
         return purchaseOrderBuilder_ != null || purchaseOrder_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
        */
-      public io.dstore.Values.booleanValue getPurchaseOrder() {
+      public io.dstore.values.BooleanValue getPurchaseOrder() {
         if (purchaseOrderBuilder_ == null) {
-          return purchaseOrder_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : purchaseOrder_;
+          return purchaseOrder_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : purchaseOrder_;
         } else {
           return purchaseOrderBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
        */
-      public Builder setPurchaseOrder(io.dstore.Values.booleanValue value) {
+      public Builder setPurchaseOrder(io.dstore.values.BooleanValue value) {
         if (purchaseOrderBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2547,10 +2547,10 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
        */
       public Builder setPurchaseOrder(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (purchaseOrderBuilder_ == null) {
           purchaseOrder_ = builderForValue.build();
           onChanged();
@@ -2561,13 +2561,13 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
        */
-      public Builder mergePurchaseOrder(io.dstore.Values.booleanValue value) {
+      public Builder mergePurchaseOrder(io.dstore.values.BooleanValue value) {
         if (purchaseOrderBuilder_ == null) {
           if (purchaseOrder_ != null) {
             purchaseOrder_ =
-              io.dstore.Values.booleanValue.newBuilder(purchaseOrder_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(purchaseOrder_).mergeFrom(value).buildPartial();
           } else {
             purchaseOrder_ = value;
           }
@@ -2579,7 +2579,7 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
        */
       public Builder clearPurchaseOrder() {
         if (purchaseOrderBuilder_ == null) {
@@ -2593,33 +2593,33 @@ public final class OmSearchOrderNoAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getPurchaseOrderBuilder() {
+      public io.dstore.values.BooleanValue.Builder getPurchaseOrderBuilder() {
         
         onChanged();
         return getPurchaseOrderFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getPurchaseOrderOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getPurchaseOrderOrBuilder() {
         if (purchaseOrderBuilder_ != null) {
           return purchaseOrderBuilder_.getMessageOrBuilder();
         } else {
           return purchaseOrder_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : purchaseOrder_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : purchaseOrder_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 9;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getPurchaseOrderFieldBuilder() {
         if (purchaseOrderBuilder_ == null) {
           purchaseOrderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getPurchaseOrder(),
                   getParentForChildren(),
                   isClean());
@@ -2913,7 +2913,7 @@ public final class OmSearchOrderNoAd {
        * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
        */
       boolean hasOrderDateAndTime();
       /**
@@ -2921,24 +2921,24 @@ public final class OmSearchOrderNoAd {
        * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
        */
-      io.dstore.Values.stringValue getOrderDateAndTime();
+      io.dstore.values.StringValue getOrderDateAndTime();
       /**
        * <pre>
        * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getOrderDateAndTimeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getOrderDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
        */
       boolean hasPaymentCost();
       /**
@@ -2946,24 +2946,24 @@ public final class OmSearchOrderNoAd {
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
        */
-      io.dstore.Values.decimalValue getPaymentCost();
+      io.dstore.values.DecimalValue getPaymentCost();
       /**
        * <pre>
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPaymentCostOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPaymentCostOrBuilder();
 
       /**
        * <pre>
        * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
        */
       boolean hasDeliveryDateAndTime();
       /**
@@ -2971,24 +2971,24 @@ public final class OmSearchOrderNoAd {
        * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
        */
-      io.dstore.Values.stringValue getDeliveryDateAndTime();
+      io.dstore.values.StringValue getDeliveryDateAndTime();
       /**
        * <pre>
        * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDeliveryDateAndTimeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDeliveryDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Netto-Versandkosten (entspricht "ShippingCost")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
        */
       boolean hasNetShippingCost();
       /**
@@ -2996,24 +2996,24 @@ public final class OmSearchOrderNoAd {
        * Netto-Versandkosten (entspricht "ShippingCost")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
        */
-      io.dstore.Values.decimalValue getNetShippingCost();
+      io.dstore.values.DecimalValue getNetShippingCost();
       /**
        * <pre>
        * Netto-Versandkosten (entspricht "ShippingCost")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNetShippingCostOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNetShippingCostOrBuilder();
 
       /**
        * <pre>
        * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+       * <code>optional .dstore.values.StringValue order_no = 10005;</code>
        */
       boolean hasOrderNo();
       /**
@@ -3021,24 +3021,24 @@ public final class OmSearchOrderNoAd {
        * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+       * <code>optional .dstore.values.StringValue order_no = 10005;</code>
        */
-      io.dstore.Values.stringValue getOrderNo();
+      io.dstore.values.StringValue getOrderNo();
       /**
        * <pre>
        * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+       * <code>optional .dstore.values.StringValue order_no = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder();
+      io.dstore.values.StringValueOrBuilder getOrderNoOrBuilder();
 
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
        */
       boolean hasNettoSum();
       /**
@@ -3046,24 +3046,24 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
        */
-      io.dstore.Values.decimalValue getNettoSum();
+      io.dstore.values.DecimalValue getNettoSum();
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNettoSumOrBuilder();
 
       /**
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
        */
       boolean hasLastEditedByUserId();
       /**
@@ -3071,24 +3071,24 @@ public final class OmSearchOrderNoAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
        */
-      io.dstore.Values.integerValue getLastEditedByUserId();
+      io.dstore.values.IntegerValue getLastEditedByUserId();
       /**
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getLastEditedByUserIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getLastEditedByUserIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
        */
       boolean hasOrderId();
       /**
@@ -3096,24 +3096,24 @@ public final class OmSearchOrderNoAd {
        * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
        */
-      io.dstore.Values.integerValue getOrderId();
+      io.dstore.values.IntegerValue getOrderId();
       /**
        * <pre>
        * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder();
 
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
        */
       boolean hasBruttoSum();
       /**
@@ -3121,24 +3121,24 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
        */
-      io.dstore.Values.decimalValue getBruttoSum();
+      io.dstore.values.DecimalValue getBruttoSum();
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getBruttoSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getBruttoSumOrBuilder();
 
       /**
        * <pre>
        * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
        */
       boolean hasPreciseNetShippingCost();
       /**
@@ -3146,24 +3146,24 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
        */
-      io.dstore.Values.decimalValue getPreciseNetShippingCost();
+      io.dstore.values.DecimalValue getPreciseNetShippingCost();
       /**
        * <pre>
        * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPreciseNetShippingCostOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPreciseNetShippingCostOrBuilder();
 
       /**
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+       * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
        */
       boolean hasCharacVal2RestrByPattern();
       /**
@@ -3171,24 +3171,24 @@ public final class OmSearchOrderNoAd {
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+       * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
        */
-      io.dstore.Values.stringValue getCharacVal2RestrByPattern();
+      io.dstore.values.StringValue getCharacVal2RestrByPattern();
       /**
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+       * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCharacVal2RestrByPatternOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCharacVal2RestrByPatternOrBuilder();
 
       /**
        * <pre>
        * Netto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
        */
       boolean hasNetSum();
       /**
@@ -3196,24 +3196,24 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
        */
-      io.dstore.Values.decimalValue getNetSum();
+      io.dstore.values.DecimalValue getNetSum();
       /**
        * <pre>
        * Netto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNetSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNetSumOrBuilder();
 
       /**
        * <pre>
        * ID der Person, die den Auftrag "OrderID" aufgegeben hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
        */
       boolean hasPersonId();
       /**
@@ -3221,24 +3221,24 @@ public final class OmSearchOrderNoAd {
        * ID der Person, die den Auftrag "OrderID" aufgegeben hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
        */
-      io.dstore.Values.integerValue getPersonId();
+      io.dstore.values.IntegerValue getPersonId();
       /**
        * <pre>
        * ID der Person, die den Auftrag "OrderID" aufgegeben hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Abrechnungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
        */
       boolean hasPaymentTypeDescription();
       /**
@@ -3246,24 +3246,24 @@ public final class OmSearchOrderNoAd {
        * Bezeichnung der Abrechnungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
        */
-      io.dstore.Values.stringValue getPaymentTypeDescription();
+      io.dstore.values.StringValue getPaymentTypeDescription();
       /**
        * <pre>
        * Bezeichnung der Abrechnungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPaymentTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
        */
       boolean hasPreciseNetSum();
       /**
@@ -3271,24 +3271,24 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "NetSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
        */
-      io.dstore.Values.decimalValue getPreciseNetSum();
+      io.dstore.values.DecimalValue getPreciseNetSum();
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPreciseNetSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPreciseNetSumOrBuilder();
 
       /**
        * <pre>
        * Wieviele Positionen enthält der Auftrag "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
        */
       boolean hasPositionCount();
       /**
@@ -3296,24 +3296,24 @@ public final class OmSearchOrderNoAd {
        * Wieviele Positionen enthält der Auftrag "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
        */
-      io.dstore.Values.integerValue getPositionCount();
+      io.dstore.values.IntegerValue getPositionCount();
       /**
        * <pre>
        * Wieviele Positionen enthält der Auftrag "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPositionCountOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPositionCountOrBuilder();
 
       /**
        * <pre>
        * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
        */
       boolean hasOrderStateId();
       /**
@@ -3321,24 +3321,24 @@ public final class OmSearchOrderNoAd {
        * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
        */
-      io.dstore.Values.integerValue getOrderStateId();
+      io.dstore.values.IntegerValue getOrderStateId();
       /**
        * <pre>
        * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getOrderStateIdOrBuilder();
 
       /**
        * <pre>
        * ID einer Versandart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
        */
       boolean hasShippingTypeId();
       /**
@@ -3346,24 +3346,24 @@ public final class OmSearchOrderNoAd {
        * ID einer Versandart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
        */
-      io.dstore.Values.integerValue getShippingTypeId();
+      io.dstore.values.IntegerValue getShippingTypeId();
       /**
        * <pre>
        * ID einer Versandart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder();
 
       /**
        * <pre>
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
        */
       boolean hasPersonTypeId();
       /**
@@ -3371,24 +3371,24 @@ public final class OmSearchOrderNoAd {
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
        */
-      io.dstore.Values.integerValue getPersonTypeId();
+      io.dstore.values.IntegerValue getPersonTypeId();
       /**
        * <pre>
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
       /**
        * <pre>
        * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+       * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
        */
       boolean hasNetPaymentCost();
       /**
@@ -3396,24 +3396,24 @@ public final class OmSearchOrderNoAd {
        * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+       * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
        */
-      io.dstore.Values.decimalValue getNetPaymentCost();
+      io.dstore.values.DecimalValue getNetPaymentCost();
       /**
        * <pre>
        * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+       * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNetPaymentCostOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNetPaymentCostOrBuilder();
 
       /**
        * <pre>
        * ID der Person, an die die Ware geliefert werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
        */
       boolean hasDeliveryPersonId();
       /**
@@ -3421,24 +3421,24 @@ public final class OmSearchOrderNoAd {
        * ID der Person, an die die Ware geliefert werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
        */
-      io.dstore.Values.integerValue getDeliveryPersonId();
+      io.dstore.values.IntegerValue getDeliveryPersonId();
       /**
        * <pre>
        * ID der Person, an die die Ware geliefert werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
        */
       boolean hasShippingTypeDescription();
       /**
@@ -3446,24 +3446,24 @@ public final class OmSearchOrderNoAd {
        * Bezeichnung der Versandart "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
        */
-      io.dstore.Values.stringValue getShippingTypeDescription();
+      io.dstore.values.StringValue getShippingTypeDescription();
       /**
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Brutto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+       * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
        */
       boolean hasGrossSum();
       /**
@@ -3471,24 +3471,24 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+       * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
        */
-      io.dstore.Values.decimalValue getGrossSum();
+      io.dstore.values.DecimalValue getGrossSum();
       /**
        * <pre>
        * Brutto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+       * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getGrossSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getGrossSumOrBuilder();
 
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
        */
       boolean hasUnitSymbol();
       /**
@@ -3496,24 +3496,24 @@ public final class OmSearchOrderNoAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
        */
-      io.dstore.Values.stringValue getUnitSymbol();
+      io.dstore.values.StringValue getUnitSymbol();
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder();
 
       /**
        * <pre>
        * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
        */
       boolean hasPreciseNetPaymentCost();
       /**
@@ -3521,24 +3521,24 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
        */
-      io.dstore.Values.decimalValue getPreciseNetPaymentCost();
+      io.dstore.values.DecimalValue getPreciseNetPaymentCost();
       /**
        * <pre>
        * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPreciseNetPaymentCostOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPreciseNetPaymentCostOrBuilder();
 
       /**
        * <pre>
        * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
        */
       boolean hasCustomerCharacteristicValue2();
       /**
@@ -3546,24 +3546,24 @@ public final class OmSearchOrderNoAd {
        * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
        */
-      io.dstore.Values.stringValue getCustomerCharacteristicValue2();
+      io.dstore.values.StringValue getCustomerCharacteristicValue2();
       /**
        * <pre>
        * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCustomerCharacteristicValue2OrBuilder();
+      io.dstore.values.StringValueOrBuilder getCustomerCharacteristicValue2OrBuilder();
 
       /**
        * <pre>
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+       * <code>optional .dstore.values.StringValue public_description = 10027;</code>
        */
       boolean hasPublicDescription();
       /**
@@ -3571,24 +3571,24 @@ public final class OmSearchOrderNoAd {
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+       * <code>optional .dstore.values.StringValue public_description = 10027;</code>
        */
-      io.dstore.Values.stringValue getPublicDescription();
+      io.dstore.values.StringValue getPublicDescription();
       /**
        * <pre>
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+       * <code>optional .dstore.values.StringValue public_description = 10027;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPublicDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPublicDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
        */
       boolean hasCurrencyId();
       /**
@@ -3596,24 +3596,24 @@ public final class OmSearchOrderNoAd {
        * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
        */
-      io.dstore.Values.integerValue getCurrencyId();
+      io.dstore.values.IntegerValue getCurrencyId();
       /**
        * <pre>
        * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
       /**
        * <pre>
        * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
        */
       boolean hasCustomerCharacteristicValue1();
       /**
@@ -3621,24 +3621,24 @@ public final class OmSearchOrderNoAd {
        * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
        */
-      io.dstore.Values.stringValue getCustomerCharacteristicValue1();
+      io.dstore.values.StringValue getCustomerCharacteristicValue1();
       /**
        * <pre>
        * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCustomerCharacteristicValue1OrBuilder();
+      io.dstore.values.StringValueOrBuilder getCustomerCharacteristicValue1OrBuilder();
 
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
        */
       boolean hasPreciseGrossSum();
       /**
@@ -3646,24 +3646,24 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "GrossSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
        */
-      io.dstore.Values.decimalValue getPreciseGrossSum();
+      io.dstore.values.DecimalValue getPreciseGrossSum();
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPreciseGrossSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPreciseGrossSumOrBuilder();
 
       /**
        * <pre>
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
        */
       boolean hasShippingCost();
       /**
@@ -3671,24 +3671,24 @@ public final class OmSearchOrderNoAd {
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
        */
-      io.dstore.Values.decimalValue getShippingCost();
+      io.dstore.values.DecimalValue getShippingCost();
       /**
        * <pre>
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getShippingCostOrBuilder();
 
       /**
        * <pre>
        * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+       * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
        */
       boolean hasCharacVal1RestrByPattern();
       /**
@@ -3696,24 +3696,24 @@ public final class OmSearchOrderNoAd {
        * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+       * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
        */
-      io.dstore.Values.stringValue getCharacVal1RestrByPattern();
+      io.dstore.values.StringValue getCharacVal1RestrByPattern();
       /**
        * <pre>
        * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+       * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCharacVal1RestrByPatternOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCharacVal1RestrByPatternOrBuilder();
 
       /**
        * <pre>
        * ID einer Zahlungsart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
        */
       boolean hasPaymentTypeId();
       /**
@@ -3721,24 +3721,24 @@ public final class OmSearchOrderNoAd {
        * ID einer Zahlungsart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
        */
-      io.dstore.Values.integerValue getPaymentTypeId();
+      io.dstore.values.IntegerValue getPaymentTypeId();
       /**
        * <pre>
        * ID einer Zahlungsart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+       * <code>optional .dstore.values.StringValue order_state = 10034;</code>
        */
       boolean hasOrderState();
       /**
@@ -3746,24 +3746,24 @@ public final class OmSearchOrderNoAd {
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+       * <code>optional .dstore.values.StringValue order_state = 10034;</code>
        */
-      io.dstore.Values.stringValue getOrderState();
+      io.dstore.values.StringValue getOrderState();
       /**
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+       * <code>optional .dstore.values.StringValue order_state = 10034;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getOrderStateOrBuilder();
+      io.dstore.values.StringValueOrBuilder getOrderStateOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 20004;</code>
+       * <code>optional .dstore.values.StringValue description = 20004;</code>
        */
       boolean hasDescription();
       /**
@@ -3771,24 +3771,24 @@ public final class OmSearchOrderNoAd {
        * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 20004;</code>
+       * <code>optional .dstore.values.StringValue description = 20004;</code>
        */
-      io.dstore.Values.stringValue getDescription();
+      io.dstore.values.StringValue getDescription();
       /**
        * <pre>
        * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 20004;</code>
+       * <code>optional .dstore.values.StringValue description = 20004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
        */
       boolean hasPreciseNetContentSum();
       /**
@@ -3796,24 +3796,24 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "NetContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
        */
-      io.dstore.Values.decimalValue getPreciseNetContentSum();
+      io.dstore.values.DecimalValue getPreciseNetContentSum();
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPreciseNetContentSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPreciseNetContentSumOrBuilder();
 
       /**
        * <pre>
        * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+       * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
        */
       boolean hasOrderContentNo();
       /**
@@ -3821,24 +3821,24 @@ public final class OmSearchOrderNoAd {
        * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+       * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
        */
-      io.dstore.Values.stringValue getOrderContentNo();
+      io.dstore.values.StringValue getOrderContentNo();
       /**
        * <pre>
        * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+       * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getOrderContentNoOrBuilder();
+      io.dstore.values.StringValueOrBuilder getOrderContentNoOrBuilder();
 
       /**
        * <pre>
        * ID der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
        */
       boolean hasOrderContentId();
       /**
@@ -3846,24 +3846,24 @@ public final class OmSearchOrderNoAd {
        * ID der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
        */
-      io.dstore.Values.integerValue getOrderContentId();
+      io.dstore.values.IntegerValue getOrderContentId();
       /**
        * <pre>
        * ID der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getOrderContentIdOrBuilder();
 
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
        */
       boolean hasCurrencySymbol();
       /**
@@ -3871,24 +3871,24 @@ public final class OmSearchOrderNoAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
        */
-      io.dstore.Values.stringValue getCurrencySymbol();
+      io.dstore.values.StringValue getCurrencySymbol();
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCurrencySymbolOrBuilder();
 
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+       * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
        */
       boolean hasNettoContentSum();
       /**
@@ -3896,24 +3896,24 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+       * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
        */
-      io.dstore.Values.decimalValue getNettoContentSum();
+      io.dstore.values.DecimalValue getNettoContentSum();
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+       * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNettoContentSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNettoContentSumOrBuilder();
 
       /**
        * <pre>
        * Nummer der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
        */
       boolean hasOrderContentPosition();
       /**
@@ -3921,24 +3921,24 @@ public final class OmSearchOrderNoAd {
        * Nummer der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
        */
-      io.dstore.Values.integerValue getOrderContentPosition();
+      io.dstore.values.IntegerValue getOrderContentPosition();
       /**
        * <pre>
        * Nummer der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getOrderContentPositionOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getOrderContentPositionOrBuilder();
 
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+       * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
        */
       boolean hasNetContentSum();
       /**
@@ -3946,24 +3946,24 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+       * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
        */
-      io.dstore.Values.decimalValue getNetContentSum();
+      io.dstore.values.DecimalValue getNetContentSum();
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+       * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNetContentSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNetContentSumOrBuilder();
 
       /**
        * <pre>
        * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
        */
       boolean hasNodeId();
       /**
@@ -3971,24 +3971,24 @@ public final class OmSearchOrderNoAd {
        * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+       * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
        */
       boolean hasGrossContentSum();
       /**
@@ -3996,24 +3996,24 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+       * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
        */
-      io.dstore.Values.decimalValue getGrossContentSum();
+      io.dstore.values.DecimalValue getGrossContentSum();
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+       * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getGrossContentSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getGrossContentSumOrBuilder();
 
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
        */
       boolean hasPreciseGrossOrderSum();
       /**
@@ -4021,24 +4021,24 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
        */
-      io.dstore.Values.decimalValue getPreciseGrossOrderSum();
+      io.dstore.values.DecimalValue getPreciseGrossOrderSum();
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPreciseGrossOrderSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPreciseGrossOrderSumOrBuilder();
 
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
        */
       boolean hasPreciseGrossContentSum();
       /**
@@ -4046,24 +4046,24 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "GrossContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
        */
-      io.dstore.Values.decimalValue getPreciseGrossContentSum();
+      io.dstore.values.DecimalValue getPreciseGrossContentSum();
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPreciseGrossContentSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPreciseGrossContentSumOrBuilder();
 
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+       * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
        */
       boolean hasGrossOrderSum();
       /**
@@ -4071,24 +4071,24 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+       * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
        */
-      io.dstore.Values.decimalValue getGrossOrderSum();
+      io.dstore.values.DecimalValue getGrossOrderSum();
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+       * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getGrossOrderSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getGrossOrderSumOrBuilder();
 
       /**
        * <pre>
        * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+       * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
        */
       boolean hasOrderContentWasModified();
       /**
@@ -4096,24 +4096,24 @@ public final class OmSearchOrderNoAd {
        * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+       * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
        */
-      io.dstore.Values.booleanValue getOrderContentWasModified();
+      io.dstore.values.BooleanValue getOrderContentWasModified();
       /**
        * <pre>
        * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+       * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getOrderContentWasModifiedOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getOrderContentWasModifiedOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+       * <code>optional .dstore.values.StringValue item_property = 20028;</code>
        */
       boolean hasItemProperty();
       /**
@@ -4121,24 +4121,24 @@ public final class OmSearchOrderNoAd {
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+       * <code>optional .dstore.values.StringValue item_property = 20028;</code>
        */
-      io.dstore.Values.stringValue getItemProperty();
+      io.dstore.values.StringValue getItemProperty();
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+       * <code>optional .dstore.values.StringValue item_property = 20028;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getItemPropertyOrBuilder();
+      io.dstore.values.StringValueOrBuilder getItemPropertyOrBuilder();
 
       /**
        * <pre>
        * Wieviel wurde vom Artikel "NodeID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
        */
       boolean hasQuantity();
       /**
@@ -4146,24 +4146,24 @@ public final class OmSearchOrderNoAd {
        * Wieviel wurde vom Artikel "NodeID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
        */
-      io.dstore.Values.integerValue getQuantity();
+      io.dstore.values.IntegerValue getQuantity();
       /**
        * <pre>
        * Wieviel wurde vom Artikel "NodeID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder();
 
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+       * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
        */
       boolean hasNetOrderSum();
       /**
@@ -4171,24 +4171,24 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+       * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
        */
-      io.dstore.Values.decimalValue getNetOrderSum();
+      io.dstore.values.DecimalValue getNetOrderSum();
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+       * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNetOrderSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNetOrderSumOrBuilder();
 
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
        */
       boolean hasBruttoContentSum();
       /**
@@ -4196,24 +4196,24 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
        */
-      io.dstore.Values.decimalValue getBruttoContentSum();
+      io.dstore.values.DecimalValue getBruttoContentSum();
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getBruttoContentSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getBruttoContentSumOrBuilder();
 
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
        */
       boolean hasNettoOrderSum();
       /**
@@ -4221,24 +4221,24 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
        */
-      io.dstore.Values.decimalValue getNettoOrderSum();
+      io.dstore.values.DecimalValue getNettoOrderSum();
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNettoOrderSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNettoOrderSumOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+       * <code>optional .dstore.values.StringValue item_no = 20040;</code>
        */
       boolean hasItemNo();
       /**
@@ -4246,24 +4246,24 @@ public final class OmSearchOrderNoAd {
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+       * <code>optional .dstore.values.StringValue item_no = 20040;</code>
        */
-      io.dstore.Values.stringValue getItemNo();
+      io.dstore.values.StringValue getItemNo();
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+       * <code>optional .dstore.values.StringValue item_no = 20040;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder();
+      io.dstore.values.StringValueOrBuilder getItemNoOrBuilder();
 
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
        */
       boolean hasPreciseNetOrderSum();
       /**
@@ -4271,24 +4271,24 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "NetOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
        */
-      io.dstore.Values.decimalValue getPreciseNetOrderSum();
+      io.dstore.values.DecimalValue getPreciseNetOrderSum();
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPreciseNetOrderSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPreciseNetOrderSumOrBuilder();
 
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
        */
       boolean hasBruttoOrderSum();
       /**
@@ -4296,17 +4296,17 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
        */
-      io.dstore.Values.decimalValue getBruttoOrderSum();
+      io.dstore.values.DecimalValue getBruttoOrderSum();
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getBruttoOrderSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getBruttoOrderSumOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_SearchOrderNo_Ad.Response.Row}
@@ -4355,11 +4355,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (orderDateAndTime_ != null) {
                   subBuilder = orderDateAndTime_.toBuilder();
                 }
-                orderDateAndTime_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                orderDateAndTime_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderDateAndTime_);
                   orderDateAndTime_ = subBuilder.buildPartial();
@@ -4368,11 +4368,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (paymentCost_ != null) {
                   subBuilder = paymentCost_.toBuilder();
                 }
-                paymentCost_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                paymentCost_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentCost_);
                   paymentCost_ = subBuilder.buildPartial();
@@ -4381,11 +4381,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (deliveryDateAndTime_ != null) {
                   subBuilder = deliveryDateAndTime_.toBuilder();
                 }
-                deliveryDateAndTime_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                deliveryDateAndTime_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(deliveryDateAndTime_);
                   deliveryDateAndTime_ = subBuilder.buildPartial();
@@ -4394,11 +4394,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (netShippingCost_ != null) {
                   subBuilder = netShippingCost_.toBuilder();
                 }
-                netShippingCost_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                netShippingCost_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netShippingCost_);
                   netShippingCost_ = subBuilder.buildPartial();
@@ -4407,11 +4407,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (orderNo_ != null) {
                   subBuilder = orderNo_.toBuilder();
                 }
-                orderNo_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                orderNo_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderNo_);
                   orderNo_ = subBuilder.buildPartial();
@@ -4420,11 +4420,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (nettoSum_ != null) {
                   subBuilder = nettoSum_.toBuilder();
                 }
-                nettoSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                nettoSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nettoSum_);
                   nettoSum_ = subBuilder.buildPartial();
@@ -4433,11 +4433,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (lastEditedByUserId_ != null) {
                   subBuilder = lastEditedByUserId_.toBuilder();
                 }
-                lastEditedByUserId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                lastEditedByUserId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastEditedByUserId_);
                   lastEditedByUserId_ = subBuilder.buildPartial();
@@ -4446,11 +4446,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (orderId_ != null) {
                   subBuilder = orderId_.toBuilder();
                 }
-                orderId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                orderId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderId_);
                   orderId_ = subBuilder.buildPartial();
@@ -4459,11 +4459,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80074: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (bruttoSum_ != null) {
                   subBuilder = bruttoSum_.toBuilder();
                 }
-                bruttoSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                bruttoSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(bruttoSum_);
                   bruttoSum_ = subBuilder.buildPartial();
@@ -4472,11 +4472,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80082: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (preciseNetShippingCost_ != null) {
                   subBuilder = preciseNetShippingCost_.toBuilder();
                 }
-                preciseNetShippingCost_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                preciseNetShippingCost_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseNetShippingCost_);
                   preciseNetShippingCost_ = subBuilder.buildPartial();
@@ -4485,11 +4485,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80090: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (characVal2RestrByPattern_ != null) {
                   subBuilder = characVal2RestrByPattern_.toBuilder();
                 }
-                characVal2RestrByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                characVal2RestrByPattern_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characVal2RestrByPattern_);
                   characVal2RestrByPattern_ = subBuilder.buildPartial();
@@ -4498,11 +4498,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80098: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (netSum_ != null) {
                   subBuilder = netSum_.toBuilder();
                 }
-                netSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                netSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netSum_);
                   netSum_ = subBuilder.buildPartial();
@@ -4511,11 +4511,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80106: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -4524,11 +4524,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80114: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (paymentTypeDescription_ != null) {
                   subBuilder = paymentTypeDescription_.toBuilder();
                 }
-                paymentTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                paymentTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentTypeDescription_);
                   paymentTypeDescription_ = subBuilder.buildPartial();
@@ -4537,11 +4537,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80122: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (preciseNetSum_ != null) {
                   subBuilder = preciseNetSum_.toBuilder();
                 }
-                preciseNetSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                preciseNetSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseNetSum_);
                   preciseNetSum_ = subBuilder.buildPartial();
@@ -4550,11 +4550,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80130: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (positionCount_ != null) {
                   subBuilder = positionCount_.toBuilder();
                 }
-                positionCount_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                positionCount_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(positionCount_);
                   positionCount_ = subBuilder.buildPartial();
@@ -4563,11 +4563,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80138: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (orderStateId_ != null) {
                   subBuilder = orderStateId_.toBuilder();
                 }
-                orderStateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                orderStateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderStateId_);
                   orderStateId_ = subBuilder.buildPartial();
@@ -4576,11 +4576,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80146: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (shippingTypeId_ != null) {
                   subBuilder = shippingTypeId_.toBuilder();
                 }
-                shippingTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                shippingTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingTypeId_);
                   shippingTypeId_ = subBuilder.buildPartial();
@@ -4589,11 +4589,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80154: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personTypeId_ != null) {
                   subBuilder = personTypeId_.toBuilder();
                 }
-                personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personTypeId_);
                   personTypeId_ = subBuilder.buildPartial();
@@ -4602,11 +4602,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80162: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (netPaymentCost_ != null) {
                   subBuilder = netPaymentCost_.toBuilder();
                 }
-                netPaymentCost_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                netPaymentCost_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netPaymentCost_);
                   netPaymentCost_ = subBuilder.buildPartial();
@@ -4615,11 +4615,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80170: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (deliveryPersonId_ != null) {
                   subBuilder = deliveryPersonId_.toBuilder();
                 }
-                deliveryPersonId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                deliveryPersonId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(deliveryPersonId_);
                   deliveryPersonId_ = subBuilder.buildPartial();
@@ -4628,11 +4628,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80178: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (shippingTypeDescription_ != null) {
                   subBuilder = shippingTypeDescription_.toBuilder();
                 }
-                shippingTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                shippingTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingTypeDescription_);
                   shippingTypeDescription_ = subBuilder.buildPartial();
@@ -4641,11 +4641,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80186: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (grossSum_ != null) {
                   subBuilder = grossSum_.toBuilder();
                 }
-                grossSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                grossSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(grossSum_);
                   grossSum_ = subBuilder.buildPartial();
@@ -4654,11 +4654,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80194: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
                 }
-                unitSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                unitSymbol_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitSymbol_);
                   unitSymbol_ = subBuilder.buildPartial();
@@ -4667,11 +4667,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80202: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (preciseNetPaymentCost_ != null) {
                   subBuilder = preciseNetPaymentCost_.toBuilder();
                 }
-                preciseNetPaymentCost_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                preciseNetPaymentCost_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseNetPaymentCost_);
                   preciseNetPaymentCost_ = subBuilder.buildPartial();
@@ -4680,11 +4680,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80210: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (customerCharacteristicValue2_ != null) {
                   subBuilder = customerCharacteristicValue2_.toBuilder();
                 }
-                customerCharacteristicValue2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                customerCharacteristicValue2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(customerCharacteristicValue2_);
                   customerCharacteristicValue2_ = subBuilder.buildPartial();
@@ -4693,11 +4693,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80218: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (publicDescription_ != null) {
                   subBuilder = publicDescription_.toBuilder();
                 }
-                publicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                publicDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(publicDescription_);
                   publicDescription_ = subBuilder.buildPartial();
@@ -4706,11 +4706,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80226: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -4719,11 +4719,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80234: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (customerCharacteristicValue1_ != null) {
                   subBuilder = customerCharacteristicValue1_.toBuilder();
                 }
-                customerCharacteristicValue1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                customerCharacteristicValue1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(customerCharacteristicValue1_);
                   customerCharacteristicValue1_ = subBuilder.buildPartial();
@@ -4732,11 +4732,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80242: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (preciseGrossSum_ != null) {
                   subBuilder = preciseGrossSum_.toBuilder();
                 }
-                preciseGrossSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                preciseGrossSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseGrossSum_);
                   preciseGrossSum_ = subBuilder.buildPartial();
@@ -4745,11 +4745,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80250: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (shippingCost_ != null) {
                   subBuilder = shippingCost_.toBuilder();
                 }
-                shippingCost_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                shippingCost_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingCost_);
                   shippingCost_ = subBuilder.buildPartial();
@@ -4758,11 +4758,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80258: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (characVal1RestrByPattern_ != null) {
                   subBuilder = characVal1RestrByPattern_.toBuilder();
                 }
-                characVal1RestrByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                characVal1RestrByPattern_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characVal1RestrByPattern_);
                   characVal1RestrByPattern_ = subBuilder.buildPartial();
@@ -4771,11 +4771,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80266: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (paymentTypeId_ != null) {
                   subBuilder = paymentTypeId_.toBuilder();
                 }
-                paymentTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                paymentTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentTypeId_);
                   paymentTypeId_ = subBuilder.buildPartial();
@@ -4784,11 +4784,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 80274: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (orderState_ != null) {
                   subBuilder = orderState_.toBuilder();
                 }
-                orderState_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                orderState_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderState_);
                   orderState_ = subBuilder.buildPartial();
@@ -4797,11 +4797,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -4810,11 +4810,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160042: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (preciseNetContentSum_ != null) {
                   subBuilder = preciseNetContentSum_.toBuilder();
                 }
-                preciseNetContentSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                preciseNetContentSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseNetContentSum_);
                   preciseNetContentSum_ = subBuilder.buildPartial();
@@ -4823,11 +4823,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160058: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (orderContentNo_ != null) {
                   subBuilder = orderContentNo_.toBuilder();
                 }
-                orderContentNo_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                orderContentNo_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderContentNo_);
                   orderContentNo_ = subBuilder.buildPartial();
@@ -4836,11 +4836,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160082: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (orderContentId_ != null) {
                   subBuilder = orderContentId_.toBuilder();
                 }
-                orderContentId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                orderContentId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderContentId_);
                   orderContentId_ = subBuilder.buildPartial();
@@ -4849,11 +4849,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160098: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (currencySymbol_ != null) {
                   subBuilder = currencySymbol_.toBuilder();
                 }
-                currencySymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                currencySymbol_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencySymbol_);
                   currencySymbol_ = subBuilder.buildPartial();
@@ -4862,11 +4862,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160114: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (nettoContentSum_ != null) {
                   subBuilder = nettoContentSum_.toBuilder();
                 }
-                nettoContentSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                nettoContentSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nettoContentSum_);
                   nettoContentSum_ = subBuilder.buildPartial();
@@ -4875,11 +4875,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160138: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (orderContentPosition_ != null) {
                   subBuilder = orderContentPosition_.toBuilder();
                 }
-                orderContentPosition_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                orderContentPosition_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderContentPosition_);
                   orderContentPosition_ = subBuilder.buildPartial();
@@ -4888,11 +4888,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160146: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (netContentSum_ != null) {
                   subBuilder = netContentSum_.toBuilder();
                 }
-                netContentSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                netContentSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netContentSum_);
                   netContentSum_ = subBuilder.buildPartial();
@@ -4901,11 +4901,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160154: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -4914,11 +4914,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160162: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (grossContentSum_ != null) {
                   subBuilder = grossContentSum_.toBuilder();
                 }
-                grossContentSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                grossContentSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(grossContentSum_);
                   grossContentSum_ = subBuilder.buildPartial();
@@ -4927,11 +4927,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160186: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (preciseGrossOrderSum_ != null) {
                   subBuilder = preciseGrossOrderSum_.toBuilder();
                 }
-                preciseGrossOrderSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                preciseGrossOrderSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseGrossOrderSum_);
                   preciseGrossOrderSum_ = subBuilder.buildPartial();
@@ -4940,11 +4940,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160194: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (preciseGrossContentSum_ != null) {
                   subBuilder = preciseGrossContentSum_.toBuilder();
                 }
-                preciseGrossContentSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                preciseGrossContentSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseGrossContentSum_);
                   preciseGrossContentSum_ = subBuilder.buildPartial();
@@ -4953,11 +4953,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160202: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (grossOrderSum_ != null) {
                   subBuilder = grossOrderSum_.toBuilder();
                 }
-                grossOrderSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                grossOrderSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(grossOrderSum_);
                   grossOrderSum_ = subBuilder.buildPartial();
@@ -4966,11 +4966,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160218: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (orderContentWasModified_ != null) {
                   subBuilder = orderContentWasModified_.toBuilder();
                 }
-                orderContentWasModified_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                orderContentWasModified_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderContentWasModified_);
                   orderContentWasModified_ = subBuilder.buildPartial();
@@ -4979,11 +4979,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160226: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (itemProperty_ != null) {
                   subBuilder = itemProperty_.toBuilder();
                 }
-                itemProperty_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                itemProperty_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemProperty_);
                   itemProperty_ = subBuilder.buildPartial();
@@ -4992,11 +4992,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160250: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -5005,11 +5005,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160274: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (netOrderSum_ != null) {
                   subBuilder = netOrderSum_.toBuilder();
                 }
-                netOrderSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                netOrderSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netOrderSum_);
                   netOrderSum_ = subBuilder.buildPartial();
@@ -5018,11 +5018,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160306: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (bruttoContentSum_ != null) {
                   subBuilder = bruttoContentSum_.toBuilder();
                 }
-                bruttoContentSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                bruttoContentSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(bruttoContentSum_);
                   bruttoContentSum_ = subBuilder.buildPartial();
@@ -5031,11 +5031,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160314: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (nettoOrderSum_ != null) {
                   subBuilder = nettoOrderSum_.toBuilder();
                 }
-                nettoOrderSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                nettoOrderSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nettoOrderSum_);
                   nettoOrderSum_ = subBuilder.buildPartial();
@@ -5044,11 +5044,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160322: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (itemNo_ != null) {
                   subBuilder = itemNo_.toBuilder();
                 }
-                itemNo_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                itemNo_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemNo_);
                   itemNo_ = subBuilder.buildPartial();
@@ -5057,11 +5057,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160354: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (preciseNetOrderSum_ != null) {
                   subBuilder = preciseNetOrderSum_.toBuilder();
                 }
-                preciseNetOrderSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                preciseNetOrderSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseNetOrderSum_);
                   preciseNetOrderSum_ = subBuilder.buildPartial();
@@ -5070,11 +5070,11 @@ public final class OmSearchOrderNoAd {
                 break;
               }
               case 160370: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (bruttoOrderSum_ != null) {
                   subBuilder = bruttoOrderSum_.toBuilder();
                 }
-                bruttoOrderSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                bruttoOrderSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(bruttoOrderSum_);
                   bruttoOrderSum_ = subBuilder.buildPartial();
@@ -5115,13 +5115,13 @@ public final class OmSearchOrderNoAd {
       }
 
       public static final int ORDER_DATE_AND_TIME_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue orderDateAndTime_;
+      private io.dstore.values.StringValue orderDateAndTime_;
       /**
        * <pre>
        * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
        */
       public boolean hasOrderDateAndTime() {
         return orderDateAndTime_ != null;
@@ -5131,30 +5131,30 @@ public final class OmSearchOrderNoAd {
        * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
        */
-      public io.dstore.Values.stringValue getOrderDateAndTime() {
-        return orderDateAndTime_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderDateAndTime_;
+      public io.dstore.values.StringValue getOrderDateAndTime() {
+        return orderDateAndTime_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderDateAndTime_;
       }
       /**
        * <pre>
        * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOrderDateAndTimeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOrderDateAndTimeOrBuilder() {
         return getOrderDateAndTime();
       }
 
       public static final int PAYMENT_COST_FIELD_NUMBER = 10002;
-      private io.dstore.Values.decimalValue paymentCost_;
+      private io.dstore.values.DecimalValue paymentCost_;
       /**
        * <pre>
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
        */
       public boolean hasPaymentCost() {
         return paymentCost_ != null;
@@ -5164,30 +5164,30 @@ public final class OmSearchOrderNoAd {
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
        */
-      public io.dstore.Values.decimalValue getPaymentCost() {
-        return paymentCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : paymentCost_;
+      public io.dstore.values.DecimalValue getPaymentCost() {
+        return paymentCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : paymentCost_;
       }
       /**
        * <pre>
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPaymentCostOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPaymentCostOrBuilder() {
         return getPaymentCost();
       }
 
       public static final int DELIVERY_DATE_AND_TIME_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue deliveryDateAndTime_;
+      private io.dstore.values.StringValue deliveryDateAndTime_;
       /**
        * <pre>
        * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
        */
       public boolean hasDeliveryDateAndTime() {
         return deliveryDateAndTime_ != null;
@@ -5197,30 +5197,30 @@ public final class OmSearchOrderNoAd {
        * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
        */
-      public io.dstore.Values.stringValue getDeliveryDateAndTime() {
-        return deliveryDateAndTime_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : deliveryDateAndTime_;
+      public io.dstore.values.StringValue getDeliveryDateAndTime() {
+        return deliveryDateAndTime_ == null ? io.dstore.values.StringValue.getDefaultInstance() : deliveryDateAndTime_;
       }
       /**
        * <pre>
        * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDeliveryDateAndTimeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDeliveryDateAndTimeOrBuilder() {
         return getDeliveryDateAndTime();
       }
 
       public static final int NET_SHIPPING_COST_FIELD_NUMBER = 10004;
-      private io.dstore.Values.decimalValue netShippingCost_;
+      private io.dstore.values.DecimalValue netShippingCost_;
       /**
        * <pre>
        * Netto-Versandkosten (entspricht "ShippingCost")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
        */
       public boolean hasNetShippingCost() {
         return netShippingCost_ != null;
@@ -5230,30 +5230,30 @@ public final class OmSearchOrderNoAd {
        * Netto-Versandkosten (entspricht "ShippingCost")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
        */
-      public io.dstore.Values.decimalValue getNetShippingCost() {
-        return netShippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netShippingCost_;
+      public io.dstore.values.DecimalValue getNetShippingCost() {
+        return netShippingCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netShippingCost_;
       }
       /**
        * <pre>
        * Netto-Versandkosten (entspricht "ShippingCost")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNetShippingCostOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNetShippingCostOrBuilder() {
         return getNetShippingCost();
       }
 
       public static final int ORDER_NO_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue orderNo_;
+      private io.dstore.values.StringValue orderNo_;
       /**
        * <pre>
        * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+       * <code>optional .dstore.values.StringValue order_no = 10005;</code>
        */
       public boolean hasOrderNo() {
         return orderNo_ != null;
@@ -5263,30 +5263,30 @@ public final class OmSearchOrderNoAd {
        * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+       * <code>optional .dstore.values.StringValue order_no = 10005;</code>
        */
-      public io.dstore.Values.stringValue getOrderNo() {
-        return orderNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
+      public io.dstore.values.StringValue getOrderNo() {
+        return orderNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderNo_;
       }
       /**
        * <pre>
        * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+       * <code>optional .dstore.values.StringValue order_no = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOrderNoOrBuilder() {
         return getOrderNo();
       }
 
       public static final int NETTO_SUM_FIELD_NUMBER = 10006;
-      private io.dstore.Values.decimalValue nettoSum_;
+      private io.dstore.values.DecimalValue nettoSum_;
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
        */
       public boolean hasNettoSum() {
         return nettoSum_ != null;
@@ -5296,30 +5296,30 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
        */
-      public io.dstore.Values.decimalValue getNettoSum() {
-        return nettoSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
+      public io.dstore.values.DecimalValue getNettoSum() {
+        return nettoSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoSum_;
       }
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNettoSumOrBuilder() {
         return getNettoSum();
       }
 
       public static final int LAST_EDITED_BY_USER_ID_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue lastEditedByUserId_;
+      private io.dstore.values.IntegerValue lastEditedByUserId_;
       /**
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
        */
       public boolean hasLastEditedByUserId() {
         return lastEditedByUserId_ != null;
@@ -5329,30 +5329,30 @@ public final class OmSearchOrderNoAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
        */
-      public io.dstore.Values.integerValue getLastEditedByUserId() {
-        return lastEditedByUserId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lastEditedByUserId_;
+      public io.dstore.values.IntegerValue getLastEditedByUserId() {
+        return lastEditedByUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lastEditedByUserId_;
       }
       /**
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLastEditedByUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLastEditedByUserIdOrBuilder() {
         return getLastEditedByUserId();
       }
 
       public static final int ORDER_ID_FIELD_NUMBER = 10008;
-      private io.dstore.Values.integerValue orderId_;
+      private io.dstore.values.IntegerValue orderId_;
       /**
        * <pre>
        * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
        */
       public boolean hasOrderId() {
         return orderId_ != null;
@@ -5362,30 +5362,30 @@ public final class OmSearchOrderNoAd {
        * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
        */
-      public io.dstore.Values.integerValue getOrderId() {
-        return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
+      public io.dstore.values.IntegerValue getOrderId() {
+        return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
       }
       /**
        * <pre>
        * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
         return getOrderId();
       }
 
       public static final int BRUTTO_SUM_FIELD_NUMBER = 10009;
-      private io.dstore.Values.decimalValue bruttoSum_;
+      private io.dstore.values.DecimalValue bruttoSum_;
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
        */
       public boolean hasBruttoSum() {
         return bruttoSum_ != null;
@@ -5395,30 +5395,30 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
        */
-      public io.dstore.Values.decimalValue getBruttoSum() {
-        return bruttoSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoSum_;
+      public io.dstore.values.DecimalValue getBruttoSum() {
+        return bruttoSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bruttoSum_;
       }
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getBruttoSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getBruttoSumOrBuilder() {
         return getBruttoSum();
       }
 
       public static final int PRECISE_NET_SHIPPING_COST_FIELD_NUMBER = 10010;
-      private io.dstore.Values.decimalValue preciseNetShippingCost_;
+      private io.dstore.values.DecimalValue preciseNetShippingCost_;
       /**
        * <pre>
        * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
        */
       public boolean hasPreciseNetShippingCost() {
         return preciseNetShippingCost_ != null;
@@ -5428,30 +5428,30 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
        */
-      public io.dstore.Values.decimalValue getPreciseNetShippingCost() {
-        return preciseNetShippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetShippingCost_;
+      public io.dstore.values.DecimalValue getPreciseNetShippingCost() {
+        return preciseNetShippingCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetShippingCost_;
       }
       /**
        * <pre>
        * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPreciseNetShippingCostOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPreciseNetShippingCostOrBuilder() {
         return getPreciseNetShippingCost();
       }
 
       public static final int CHARAC_VAL2_RESTR_BY_PATTERN_FIELD_NUMBER = 10011;
-      private io.dstore.Values.stringValue characVal2RestrByPattern_;
+      private io.dstore.values.StringValue characVal2RestrByPattern_;
       /**
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+       * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
        */
       public boolean hasCharacVal2RestrByPattern() {
         return characVal2RestrByPattern_ != null;
@@ -5461,30 +5461,30 @@ public final class OmSearchOrderNoAd {
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+       * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
        */
-      public io.dstore.Values.stringValue getCharacVal2RestrByPattern() {
-        return characVal2RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characVal2RestrByPattern_;
+      public io.dstore.values.StringValue getCharacVal2RestrByPattern() {
+        return characVal2RestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characVal2RestrByPattern_;
       }
       /**
        * <pre>
        * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+       * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCharacVal2RestrByPatternOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCharacVal2RestrByPatternOrBuilder() {
         return getCharacVal2RestrByPattern();
       }
 
       public static final int NET_SUM_FIELD_NUMBER = 10012;
-      private io.dstore.Values.decimalValue netSum_;
+      private io.dstore.values.DecimalValue netSum_;
       /**
        * <pre>
        * Netto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
        */
       public boolean hasNetSum() {
         return netSum_ != null;
@@ -5494,30 +5494,30 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
        */
-      public io.dstore.Values.decimalValue getNetSum() {
-        return netSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netSum_;
+      public io.dstore.values.DecimalValue getNetSum() {
+        return netSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netSum_;
       }
       /**
        * <pre>
        * Netto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNetSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNetSumOrBuilder() {
         return getNetSum();
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 10013;
-      private io.dstore.Values.integerValue personId_;
+      private io.dstore.values.IntegerValue personId_;
       /**
        * <pre>
        * ID der Person, die den Auftrag "OrderID" aufgegeben hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -5527,30 +5527,30 @@ public final class OmSearchOrderNoAd {
        * ID der Person, die den Auftrag "OrderID" aufgegeben hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.values.IntegerValue getPersonId() {
+        return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
       }
       /**
        * <pre>
        * ID der Person, die den Auftrag "OrderID" aufgegeben hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
       public static final int PAYMENT_TYPE_DESCRIPTION_FIELD_NUMBER = 10014;
-      private io.dstore.Values.stringValue paymentTypeDescription_;
+      private io.dstore.values.StringValue paymentTypeDescription_;
       /**
        * <pre>
        * Bezeichnung der Abrechnungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
        */
       public boolean hasPaymentTypeDescription() {
         return paymentTypeDescription_ != null;
@@ -5560,30 +5560,30 @@ public final class OmSearchOrderNoAd {
        * Bezeichnung der Abrechnungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
        */
-      public io.dstore.Values.stringValue getPaymentTypeDescription() {
-        return paymentTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+      public io.dstore.values.StringValue getPaymentTypeDescription() {
+        return paymentTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Abrechnungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
         return getPaymentTypeDescription();
       }
 
       public static final int PRECISE_NET_SUM_FIELD_NUMBER = 10015;
-      private io.dstore.Values.decimalValue preciseNetSum_;
+      private io.dstore.values.DecimalValue preciseNetSum_;
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
        */
       public boolean hasPreciseNetSum() {
         return preciseNetSum_ != null;
@@ -5593,30 +5593,30 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "NetSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
        */
-      public io.dstore.Values.decimalValue getPreciseNetSum() {
-        return preciseNetSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetSum_;
+      public io.dstore.values.DecimalValue getPreciseNetSum() {
+        return preciseNetSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetSum_;
       }
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPreciseNetSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPreciseNetSumOrBuilder() {
         return getPreciseNetSum();
       }
 
       public static final int POSITION_COUNT_FIELD_NUMBER = 10016;
-      private io.dstore.Values.integerValue positionCount_;
+      private io.dstore.values.IntegerValue positionCount_;
       /**
        * <pre>
        * Wieviele Positionen enthält der Auftrag "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
        */
       public boolean hasPositionCount() {
         return positionCount_ != null;
@@ -5626,30 +5626,30 @@ public final class OmSearchOrderNoAd {
        * Wieviele Positionen enthält der Auftrag "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
        */
-      public io.dstore.Values.integerValue getPositionCount() {
-        return positionCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : positionCount_;
+      public io.dstore.values.IntegerValue getPositionCount() {
+        return positionCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : positionCount_;
       }
       /**
        * <pre>
        * Wieviele Positionen enthält der Auftrag "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPositionCountOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPositionCountOrBuilder() {
         return getPositionCount();
       }
 
       public static final int ORDER_STATE_ID_FIELD_NUMBER = 10017;
-      private io.dstore.Values.integerValue orderStateId_;
+      private io.dstore.values.IntegerValue orderStateId_;
       /**
        * <pre>
        * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
        */
       public boolean hasOrderStateId() {
         return orderStateId_ != null;
@@ -5659,30 +5659,30 @@ public final class OmSearchOrderNoAd {
        * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
        */
-      public io.dstore.Values.integerValue getOrderStateId() {
-        return orderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
+      public io.dstore.values.IntegerValue getOrderStateId() {
+        return orderStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderStateId_;
       }
       /**
        * <pre>
        * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderStateIdOrBuilder() {
         return getOrderStateId();
       }
 
       public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 10018;
-      private io.dstore.Values.integerValue shippingTypeId_;
+      private io.dstore.values.IntegerValue shippingTypeId_;
       /**
        * <pre>
        * ID einer Versandart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
        */
       public boolean hasShippingTypeId() {
         return shippingTypeId_ != null;
@@ -5692,30 +5692,30 @@ public final class OmSearchOrderNoAd {
        * ID einer Versandart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
        */
-      public io.dstore.Values.integerValue getShippingTypeId() {
-        return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+      public io.dstore.values.IntegerValue getShippingTypeId() {
+        return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
       }
       /**
        * <pre>
        * ID einer Versandart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
         return getShippingTypeId();
       }
 
       public static final int PERSON_TYPE_ID_FIELD_NUMBER = 10019;
-      private io.dstore.Values.integerValue personTypeId_;
+      private io.dstore.values.IntegerValue personTypeId_;
       /**
        * <pre>
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeId_ != null;
@@ -5725,30 +5725,30 @@ public final class OmSearchOrderNoAd {
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
-        return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+      public io.dstore.values.IntegerValue getPersonTypeId() {
+        return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
       }
       /**
        * <pre>
        * ID des Personen-Typs von "PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         return getPersonTypeId();
       }
 
       public static final int NET_PAYMENT_COST_FIELD_NUMBER = 10020;
-      private io.dstore.Values.decimalValue netPaymentCost_;
+      private io.dstore.values.DecimalValue netPaymentCost_;
       /**
        * <pre>
        * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+       * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
        */
       public boolean hasNetPaymentCost() {
         return netPaymentCost_ != null;
@@ -5758,30 +5758,30 @@ public final class OmSearchOrderNoAd {
        * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+       * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
        */
-      public io.dstore.Values.decimalValue getNetPaymentCost() {
-        return netPaymentCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netPaymentCost_;
+      public io.dstore.values.DecimalValue getNetPaymentCost() {
+        return netPaymentCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netPaymentCost_;
       }
       /**
        * <pre>
        * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+       * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNetPaymentCostOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNetPaymentCostOrBuilder() {
         return getNetPaymentCost();
       }
 
       public static final int DELIVERY_PERSON_ID_FIELD_NUMBER = 10021;
-      private io.dstore.Values.integerValue deliveryPersonId_;
+      private io.dstore.values.IntegerValue deliveryPersonId_;
       /**
        * <pre>
        * ID der Person, an die die Ware geliefert werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
        */
       public boolean hasDeliveryPersonId() {
         return deliveryPersonId_ != null;
@@ -5791,30 +5791,30 @@ public final class OmSearchOrderNoAd {
        * ID der Person, an die die Ware geliefert werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
        */
-      public io.dstore.Values.integerValue getDeliveryPersonId() {
-        return deliveryPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
+      public io.dstore.values.IntegerValue getDeliveryPersonId() {
+        return deliveryPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deliveryPersonId_;
       }
       /**
        * <pre>
        * ID der Person, an die die Ware geliefert werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
         return getDeliveryPersonId();
       }
 
       public static final int SHIPPING_TYPE_DESCRIPTION_FIELD_NUMBER = 10022;
-      private io.dstore.Values.stringValue shippingTypeDescription_;
+      private io.dstore.values.StringValue shippingTypeDescription_;
       /**
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
        */
       public boolean hasShippingTypeDescription() {
         return shippingTypeDescription_ != null;
@@ -5824,30 +5824,30 @@ public final class OmSearchOrderNoAd {
        * Bezeichnung der Versandart "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
        */
-      public io.dstore.Values.stringValue getShippingTypeDescription() {
-        return shippingTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
+      public io.dstore.values.StringValue getShippingTypeDescription() {
+        return shippingTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Versandart "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
         return getShippingTypeDescription();
       }
 
       public static final int GROSS_SUM_FIELD_NUMBER = 10023;
-      private io.dstore.Values.decimalValue grossSum_;
+      private io.dstore.values.DecimalValue grossSum_;
       /**
        * <pre>
        * Brutto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+       * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
        */
       public boolean hasGrossSum() {
         return grossSum_ != null;
@@ -5857,30 +5857,30 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+       * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
        */
-      public io.dstore.Values.decimalValue getGrossSum() {
-        return grossSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossSum_;
+      public io.dstore.values.DecimalValue getGrossSum() {
+        return grossSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : grossSum_;
       }
       /**
        * <pre>
        * Brutto-Betrag der Bestellung "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+       * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getGrossSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getGrossSumOrBuilder() {
         return getGrossSum();
       }
 
       public static final int UNIT_SYMBOL_FIELD_NUMBER = 10024;
-      private io.dstore.Values.stringValue unitSymbol_;
+      private io.dstore.values.StringValue unitSymbol_;
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
        */
       public boolean hasUnitSymbol() {
         return unitSymbol_ != null;
@@ -5890,30 +5890,30 @@ public final class OmSearchOrderNoAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
        */
-      public io.dstore.Values.stringValue getUnitSymbol() {
-        return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
+      public io.dstore.values.StringValue getUnitSymbol() {
+        return unitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
       }
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder() {
         return getUnitSymbol();
       }
 
       public static final int PRECISE_NET_PAYMENT_COST_FIELD_NUMBER = 10025;
-      private io.dstore.Values.decimalValue preciseNetPaymentCost_;
+      private io.dstore.values.DecimalValue preciseNetPaymentCost_;
       /**
        * <pre>
        * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
        */
       public boolean hasPreciseNetPaymentCost() {
         return preciseNetPaymentCost_ != null;
@@ -5923,30 +5923,30 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
        */
-      public io.dstore.Values.decimalValue getPreciseNetPaymentCost() {
-        return preciseNetPaymentCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetPaymentCost_;
+      public io.dstore.values.DecimalValue getPreciseNetPaymentCost() {
+        return preciseNetPaymentCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetPaymentCost_;
       }
       /**
        * <pre>
        * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPreciseNetPaymentCostOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPreciseNetPaymentCostOrBuilder() {
         return getPreciseNetPaymentCost();
       }
 
       public static final int CUSTOMER_CHARACTERISTIC_VALUE2_FIELD_NUMBER = 10026;
-      private io.dstore.Values.stringValue customerCharacteristicValue2_;
+      private io.dstore.values.StringValue customerCharacteristicValue2_;
       /**
        * <pre>
        * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
        */
       public boolean hasCustomerCharacteristicValue2() {
         return customerCharacteristicValue2_ != null;
@@ -5956,30 +5956,30 @@ public final class OmSearchOrderNoAd {
        * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
        */
-      public io.dstore.Values.stringValue getCustomerCharacteristicValue2() {
-        return customerCharacteristicValue2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : customerCharacteristicValue2_;
+      public io.dstore.values.StringValue getCustomerCharacteristicValue2() {
+        return customerCharacteristicValue2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : customerCharacteristicValue2_;
       }
       /**
        * <pre>
        * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCustomerCharacteristicValue2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCustomerCharacteristicValue2OrBuilder() {
         return getCustomerCharacteristicValue2();
       }
 
       public static final int PUBLIC_DESCRIPTION_FIELD_NUMBER = 10027;
-      private io.dstore.Values.stringValue publicDescription_;
+      private io.dstore.values.StringValue publicDescription_;
       /**
        * <pre>
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+       * <code>optional .dstore.values.StringValue public_description = 10027;</code>
        */
       public boolean hasPublicDescription() {
         return publicDescription_ != null;
@@ -5989,30 +5989,30 @@ public final class OmSearchOrderNoAd {
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+       * <code>optional .dstore.values.StringValue public_description = 10027;</code>
        */
-      public io.dstore.Values.stringValue getPublicDescription() {
-        return publicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : publicDescription_;
+      public io.dstore.values.StringValue getPublicDescription() {
+        return publicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : publicDescription_;
       }
       /**
        * <pre>
        * Beschreibung des Status "OrderStateID" für den Kunden
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+       * <code>optional .dstore.values.StringValue public_description = 10027;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPublicDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPublicDescriptionOrBuilder() {
         return getPublicDescription();
       }
 
       public static final int CURRENCY_ID_FIELD_NUMBER = 10028;
-      private io.dstore.Values.integerValue currencyId_;
+      private io.dstore.values.IntegerValue currencyId_;
       /**
        * <pre>
        * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
        */
       public boolean hasCurrencyId() {
         return currencyId_ != null;
@@ -6022,30 +6022,30 @@ public final class OmSearchOrderNoAd {
        * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
        */
-      public io.dstore.Values.integerValue getCurrencyId() {
-        return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+      public io.dstore.values.IntegerValue getCurrencyId() {
+        return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
       }
       /**
        * <pre>
        * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         return getCurrencyId();
       }
 
       public static final int CUSTOMER_CHARACTERISTIC_VALUE1_FIELD_NUMBER = 10029;
-      private io.dstore.Values.stringValue customerCharacteristicValue1_;
+      private io.dstore.values.StringValue customerCharacteristicValue1_;
       /**
        * <pre>
        * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
        */
       public boolean hasCustomerCharacteristicValue1() {
         return customerCharacteristicValue1_ != null;
@@ -6055,30 +6055,30 @@ public final class OmSearchOrderNoAd {
        * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
        */
-      public io.dstore.Values.stringValue getCustomerCharacteristicValue1() {
-        return customerCharacteristicValue1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : customerCharacteristicValue1_;
+      public io.dstore.values.StringValue getCustomerCharacteristicValue1() {
+        return customerCharacteristicValue1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : customerCharacteristicValue1_;
       }
       /**
        * <pre>
        * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+       * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCustomerCharacteristicValue1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCustomerCharacteristicValue1OrBuilder() {
         return getCustomerCharacteristicValue1();
       }
 
       public static final int PRECISE_GROSS_SUM_FIELD_NUMBER = 10030;
-      private io.dstore.Values.decimalValue preciseGrossSum_;
+      private io.dstore.values.DecimalValue preciseGrossSum_;
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
        */
       public boolean hasPreciseGrossSum() {
         return preciseGrossSum_ != null;
@@ -6088,30 +6088,30 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "GrossSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
        */
-      public io.dstore.Values.decimalValue getPreciseGrossSum() {
-        return preciseGrossSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseGrossSum_;
+      public io.dstore.values.DecimalValue getPreciseGrossSum() {
+        return preciseGrossSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseGrossSum_;
       }
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPreciseGrossSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPreciseGrossSumOrBuilder() {
         return getPreciseGrossSum();
       }
 
       public static final int SHIPPING_COST_FIELD_NUMBER = 10031;
-      private io.dstore.Values.decimalValue shippingCost_;
+      private io.dstore.values.DecimalValue shippingCost_;
       /**
        * <pre>
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
        */
       public boolean hasShippingCost() {
         return shippingCost_ != null;
@@ -6121,30 +6121,30 @@ public final class OmSearchOrderNoAd {
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
        */
-      public io.dstore.Values.decimalValue getShippingCost() {
-        return shippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCost_;
+      public io.dstore.values.DecimalValue getShippingCost() {
+        return shippingCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : shippingCost_;
       }
       /**
        * <pre>
        * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getShippingCostOrBuilder() {
         return getShippingCost();
       }
 
       public static final int CHARAC_VAL1_RESTR_BY_PATTERN_FIELD_NUMBER = 10032;
-      private io.dstore.Values.stringValue characVal1RestrByPattern_;
+      private io.dstore.values.StringValue characVal1RestrByPattern_;
       /**
        * <pre>
        * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+       * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
        */
       public boolean hasCharacVal1RestrByPattern() {
         return characVal1RestrByPattern_ != null;
@@ -6154,30 +6154,30 @@ public final class OmSearchOrderNoAd {
        * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+       * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
        */
-      public io.dstore.Values.stringValue getCharacVal1RestrByPattern() {
-        return characVal1RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characVal1RestrByPattern_;
+      public io.dstore.values.StringValue getCharacVal1RestrByPattern() {
+        return characVal1RestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characVal1RestrByPattern_;
       }
       /**
        * <pre>
        * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+       * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCharacVal1RestrByPatternOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCharacVal1RestrByPatternOrBuilder() {
         return getCharacVal1RestrByPattern();
       }
 
       public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 10033;
-      private io.dstore.Values.integerValue paymentTypeId_;
+      private io.dstore.values.IntegerValue paymentTypeId_;
       /**
        * <pre>
        * ID einer Zahlungsart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeId_ != null;
@@ -6187,30 +6187,30 @@ public final class OmSearchOrderNoAd {
        * ID einer Zahlungsart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
        */
-      public io.dstore.Values.integerValue getPaymentTypeId() {
-        return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+      public io.dstore.values.IntegerValue getPaymentTypeId() {
+        return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
       }
       /**
        * <pre>
        * ID einer Zahlungsart für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
         return getPaymentTypeId();
       }
 
       public static final int ORDER_STATE_FIELD_NUMBER = 10034;
-      private io.dstore.Values.stringValue orderState_;
+      private io.dstore.values.StringValue orderState_;
       /**
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+       * <code>optional .dstore.values.StringValue order_state = 10034;</code>
        */
       public boolean hasOrderState() {
         return orderState_ != null;
@@ -6220,30 +6220,30 @@ public final class OmSearchOrderNoAd {
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+       * <code>optional .dstore.values.StringValue order_state = 10034;</code>
        */
-      public io.dstore.Values.stringValue getOrderState() {
-        return orderState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderState_;
+      public io.dstore.values.StringValue getOrderState() {
+        return orderState_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderState_;
       }
       /**
        * <pre>
        * Bezeichnung des Status "OrderStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+       * <code>optional .dstore.values.StringValue order_state = 10034;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOrderStateOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOrderStateOrBuilder() {
         return getOrderState();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 20004;
-      private io.dstore.Values.stringValue description_;
+      private io.dstore.values.StringValue description_;
       /**
        * <pre>
        * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 20004;</code>
+       * <code>optional .dstore.values.StringValue description = 20004;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -6253,30 +6253,30 @@ public final class OmSearchOrderNoAd {
        * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 20004;</code>
+       * <code>optional .dstore.values.StringValue description = 20004;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.values.StringValue getDescription() {
+        return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
       }
       /**
        * <pre>
        * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 20004;</code>
+       * <code>optional .dstore.values.StringValue description = 20004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int PRECISE_NET_CONTENT_SUM_FIELD_NUMBER = 20005;
-      private io.dstore.Values.decimalValue preciseNetContentSum_;
+      private io.dstore.values.DecimalValue preciseNetContentSum_;
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
        */
       public boolean hasPreciseNetContentSum() {
         return preciseNetContentSum_ != null;
@@ -6286,30 +6286,30 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "NetContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
        */
-      public io.dstore.Values.decimalValue getPreciseNetContentSum() {
-        return preciseNetContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetContentSum_;
+      public io.dstore.values.DecimalValue getPreciseNetContentSum() {
+        return preciseNetContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetContentSum_;
       }
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPreciseNetContentSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPreciseNetContentSumOrBuilder() {
         return getPreciseNetContentSum();
       }
 
       public static final int ORDER_CONTENT_NO_FIELD_NUMBER = 20007;
-      private io.dstore.Values.stringValue orderContentNo_;
+      private io.dstore.values.StringValue orderContentNo_;
       /**
        * <pre>
        * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+       * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
        */
       public boolean hasOrderContentNo() {
         return orderContentNo_ != null;
@@ -6319,30 +6319,30 @@ public final class OmSearchOrderNoAd {
        * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+       * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
        */
-      public io.dstore.Values.stringValue getOrderContentNo() {
-        return orderContentNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderContentNo_;
+      public io.dstore.values.StringValue getOrderContentNo() {
+        return orderContentNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderContentNo_;
       }
       /**
        * <pre>
        * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+       * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOrderContentNoOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOrderContentNoOrBuilder() {
         return getOrderContentNo();
       }
 
       public static final int ORDER_CONTENT_ID_FIELD_NUMBER = 20010;
-      private io.dstore.Values.integerValue orderContentId_;
+      private io.dstore.values.IntegerValue orderContentId_;
       /**
        * <pre>
        * ID der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
        */
       public boolean hasOrderContentId() {
         return orderContentId_ != null;
@@ -6352,30 +6352,30 @@ public final class OmSearchOrderNoAd {
        * ID der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
        */
-      public io.dstore.Values.integerValue getOrderContentId() {
-        return orderContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderContentId_;
+      public io.dstore.values.IntegerValue getOrderContentId() {
+        return orderContentId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderContentId_;
       }
       /**
        * <pre>
        * ID der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderContentIdOrBuilder() {
         return getOrderContentId();
       }
 
       public static final int CURRENCY_SYMBOL_FIELD_NUMBER = 20012;
-      private io.dstore.Values.stringValue currencySymbol_;
+      private io.dstore.values.StringValue currencySymbol_;
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
        */
       public boolean hasCurrencySymbol() {
         return currencySymbol_ != null;
@@ -6385,30 +6385,30 @@ public final class OmSearchOrderNoAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
        */
-      public io.dstore.Values.stringValue getCurrencySymbol() {
-        return currencySymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : currencySymbol_;
+      public io.dstore.values.StringValue getCurrencySymbol() {
+        return currencySymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : currencySymbol_;
       }
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCurrencySymbolOrBuilder() {
         return getCurrencySymbol();
       }
 
       public static final int NETTO_CONTENT_SUM_FIELD_NUMBER = 20014;
-      private io.dstore.Values.decimalValue nettoContentSum_;
+      private io.dstore.values.DecimalValue nettoContentSum_;
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+       * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
        */
       public boolean hasNettoContentSum() {
         return nettoContentSum_ != null;
@@ -6418,30 +6418,30 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+       * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
        */
-      public io.dstore.Values.decimalValue getNettoContentSum() {
-        return nettoContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoContentSum_;
+      public io.dstore.values.DecimalValue getNettoContentSum() {
+        return nettoContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoContentSum_;
       }
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+       * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNettoContentSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNettoContentSumOrBuilder() {
         return getNettoContentSum();
       }
 
       public static final int ORDER_CONTENT_POSITION_FIELD_NUMBER = 20017;
-      private io.dstore.Values.integerValue orderContentPosition_;
+      private io.dstore.values.IntegerValue orderContentPosition_;
       /**
        * <pre>
        * Nummer der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
        */
       public boolean hasOrderContentPosition() {
         return orderContentPosition_ != null;
@@ -6451,30 +6451,30 @@ public final class OmSearchOrderNoAd {
        * Nummer der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
        */
-      public io.dstore.Values.integerValue getOrderContentPosition() {
-        return orderContentPosition_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderContentPosition_;
+      public io.dstore.values.IntegerValue getOrderContentPosition() {
+        return orderContentPosition_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderContentPosition_;
       }
       /**
        * <pre>
        * Nummer der Auftragsposition
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+       * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderContentPositionOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderContentPositionOrBuilder() {
         return getOrderContentPosition();
       }
 
       public static final int NET_CONTENT_SUM_FIELD_NUMBER = 20018;
-      private io.dstore.Values.decimalValue netContentSum_;
+      private io.dstore.values.DecimalValue netContentSum_;
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+       * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
        */
       public boolean hasNetContentSum() {
         return netContentSum_ != null;
@@ -6484,30 +6484,30 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+       * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
        */
-      public io.dstore.Values.decimalValue getNetContentSum() {
-        return netContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netContentSum_;
+      public io.dstore.values.DecimalValue getNetContentSum() {
+        return netContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netContentSum_;
       }
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+       * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNetContentSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNetContentSumOrBuilder() {
         return getNetContentSum();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 20019;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -6517,30 +6517,30 @@ public final class OmSearchOrderNoAd {
        * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int GROSS_CONTENT_SUM_FIELD_NUMBER = 20020;
-      private io.dstore.Values.decimalValue grossContentSum_;
+      private io.dstore.values.DecimalValue grossContentSum_;
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+       * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
        */
       public boolean hasGrossContentSum() {
         return grossContentSum_ != null;
@@ -6550,30 +6550,30 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+       * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
        */
-      public io.dstore.Values.decimalValue getGrossContentSum() {
-        return grossContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossContentSum_;
+      public io.dstore.values.DecimalValue getGrossContentSum() {
+        return grossContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : grossContentSum_;
       }
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+       * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getGrossContentSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getGrossContentSumOrBuilder() {
         return getGrossContentSum();
       }
 
       public static final int PRECISE_GROSS_ORDER_SUM_FIELD_NUMBER = 20023;
-      private io.dstore.Values.decimalValue preciseGrossOrderSum_;
+      private io.dstore.values.DecimalValue preciseGrossOrderSum_;
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
        */
       public boolean hasPreciseGrossOrderSum() {
         return preciseGrossOrderSum_ != null;
@@ -6583,30 +6583,30 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
        */
-      public io.dstore.Values.decimalValue getPreciseGrossOrderSum() {
-        return preciseGrossOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseGrossOrderSum_;
+      public io.dstore.values.DecimalValue getPreciseGrossOrderSum() {
+        return preciseGrossOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseGrossOrderSum_;
       }
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPreciseGrossOrderSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPreciseGrossOrderSumOrBuilder() {
         return getPreciseGrossOrderSum();
       }
 
       public static final int PRECISE_GROSS_CONTENT_SUM_FIELD_NUMBER = 20024;
-      private io.dstore.Values.decimalValue preciseGrossContentSum_;
+      private io.dstore.values.DecimalValue preciseGrossContentSum_;
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
        */
       public boolean hasPreciseGrossContentSum() {
         return preciseGrossContentSum_ != null;
@@ -6616,30 +6616,30 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "GrossContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
        */
-      public io.dstore.Values.decimalValue getPreciseGrossContentSum() {
-        return preciseGrossContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseGrossContentSum_;
+      public io.dstore.values.DecimalValue getPreciseGrossContentSum() {
+        return preciseGrossContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseGrossContentSum_;
       }
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "GrossContentSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+       * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPreciseGrossContentSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPreciseGrossContentSumOrBuilder() {
         return getPreciseGrossContentSum();
       }
 
       public static final int GROSS_ORDER_SUM_FIELD_NUMBER = 20025;
-      private io.dstore.Values.decimalValue grossOrderSum_;
+      private io.dstore.values.DecimalValue grossOrderSum_;
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+       * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
        */
       public boolean hasGrossOrderSum() {
         return grossOrderSum_ != null;
@@ -6649,30 +6649,30 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+       * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
        */
-      public io.dstore.Values.decimalValue getGrossOrderSum() {
-        return grossOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossOrderSum_;
+      public io.dstore.values.DecimalValue getGrossOrderSum() {
+        return grossOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : grossOrderSum_;
       }
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+       * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getGrossOrderSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getGrossOrderSumOrBuilder() {
         return getGrossOrderSum();
       }
 
       public static final int ORDER_CONTENT_WAS_MODIFIED_FIELD_NUMBER = 20027;
-      private io.dstore.Values.booleanValue orderContentWasModified_;
+      private io.dstore.values.BooleanValue orderContentWasModified_;
       /**
        * <pre>
        * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+       * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
        */
       public boolean hasOrderContentWasModified() {
         return orderContentWasModified_ != null;
@@ -6682,30 +6682,30 @@ public final class OmSearchOrderNoAd {
        * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+       * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
        */
-      public io.dstore.Values.booleanValue getOrderContentWasModified() {
-        return orderContentWasModified_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderContentWasModified_;
+      public io.dstore.values.BooleanValue getOrderContentWasModified() {
+        return orderContentWasModified_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderContentWasModified_;
       }
       /**
        * <pre>
        * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+       * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOrderContentWasModifiedOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOrderContentWasModifiedOrBuilder() {
         return getOrderContentWasModified();
       }
 
       public static final int ITEM_PROPERTY_FIELD_NUMBER = 20028;
-      private io.dstore.Values.stringValue itemProperty_;
+      private io.dstore.values.StringValue itemProperty_;
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+       * <code>optional .dstore.values.StringValue item_property = 20028;</code>
        */
       public boolean hasItemProperty() {
         return itemProperty_ != null;
@@ -6715,30 +6715,30 @@ public final class OmSearchOrderNoAd {
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+       * <code>optional .dstore.values.StringValue item_property = 20028;</code>
        */
-      public io.dstore.Values.stringValue getItemProperty() {
-        return itemProperty_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemProperty_;
+      public io.dstore.values.StringValue getItemProperty() {
+        return itemProperty_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemProperty_;
       }
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+       * <code>optional .dstore.values.StringValue item_property = 20028;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getItemPropertyOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getItemPropertyOrBuilder() {
         return getItemProperty();
       }
 
       public static final int QUANTITY_FIELD_NUMBER = 20031;
-      private io.dstore.Values.integerValue quantity_;
+      private io.dstore.values.IntegerValue quantity_;
       /**
        * <pre>
        * Wieviel wurde vom Artikel "NodeID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
        */
       public boolean hasQuantity() {
         return quantity_ != null;
@@ -6748,30 +6748,30 @@ public final class OmSearchOrderNoAd {
        * Wieviel wurde vom Artikel "NodeID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
        */
-      public io.dstore.Values.integerValue getQuantity() {
-        return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+      public io.dstore.values.IntegerValue getQuantity() {
+        return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
       }
       /**
        * <pre>
        * Wieviel wurde vom Artikel "NodeID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
         return getQuantity();
       }
 
       public static final int NET_ORDER_SUM_FIELD_NUMBER = 20034;
-      private io.dstore.Values.decimalValue netOrderSum_;
+      private io.dstore.values.DecimalValue netOrderSum_;
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+       * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
        */
       public boolean hasNetOrderSum() {
         return netOrderSum_ != null;
@@ -6781,30 +6781,30 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+       * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
        */
-      public io.dstore.Values.decimalValue getNetOrderSum() {
-        return netOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netOrderSum_;
+      public io.dstore.values.DecimalValue getNetOrderSum() {
+        return netOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netOrderSum_;
       }
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+       * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNetOrderSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNetOrderSumOrBuilder() {
         return getNetOrderSum();
       }
 
       public static final int BRUTTO_CONTENT_SUM_FIELD_NUMBER = 20038;
-      private io.dstore.Values.decimalValue bruttoContentSum_;
+      private io.dstore.values.DecimalValue bruttoContentSum_;
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
        */
       public boolean hasBruttoContentSum() {
         return bruttoContentSum_ != null;
@@ -6814,30 +6814,30 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
        */
-      public io.dstore.Values.decimalValue getBruttoContentSum() {
-        return bruttoContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoContentSum_;
+      public io.dstore.values.DecimalValue getBruttoContentSum() {
+        return bruttoContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bruttoContentSum_;
       }
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getBruttoContentSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getBruttoContentSumOrBuilder() {
         return getBruttoContentSum();
       }
 
       public static final int NETTO_ORDER_SUM_FIELD_NUMBER = 20039;
-      private io.dstore.Values.decimalValue nettoOrderSum_;
+      private io.dstore.values.DecimalValue nettoOrderSum_;
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
        */
       public boolean hasNettoOrderSum() {
         return nettoOrderSum_ != null;
@@ -6847,30 +6847,30 @@ public final class OmSearchOrderNoAd {
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
        */
-      public io.dstore.Values.decimalValue getNettoOrderSum() {
-        return nettoOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSum_;
+      public io.dstore.values.DecimalValue getNettoOrderSum() {
+        return nettoOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoOrderSum_;
       }
       /**
        * <pre>
        * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNettoOrderSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNettoOrderSumOrBuilder() {
         return getNettoOrderSum();
       }
 
       public static final int ITEM_NO_FIELD_NUMBER = 20040;
-      private io.dstore.Values.stringValue itemNo_;
+      private io.dstore.values.StringValue itemNo_;
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+       * <code>optional .dstore.values.StringValue item_no = 20040;</code>
        */
       public boolean hasItemNo() {
         return itemNo_ != null;
@@ -6880,30 +6880,30 @@ public final class OmSearchOrderNoAd {
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+       * <code>optional .dstore.values.StringValue item_no = 20040;</code>
        */
-      public io.dstore.Values.stringValue getItemNo() {
-        return itemNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
+      public io.dstore.values.StringValue getItemNo() {
+        return itemNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemNo_;
       }
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+       * <code>optional .dstore.values.StringValue item_no = 20040;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getItemNoOrBuilder() {
         return getItemNo();
       }
 
       public static final int PRECISE_NET_ORDER_SUM_FIELD_NUMBER = 20044;
-      private io.dstore.Values.decimalValue preciseNetOrderSum_;
+      private io.dstore.values.DecimalValue preciseNetOrderSum_;
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
        */
       public boolean hasPreciseNetOrderSum() {
         return preciseNetOrderSum_ != null;
@@ -6913,30 +6913,30 @@ public final class OmSearchOrderNoAd {
        * Exakter (intern gespeicherter) Wert für "NetOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
        */
-      public io.dstore.Values.decimalValue getPreciseNetOrderSum() {
-        return preciseNetOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetOrderSum_;
+      public io.dstore.values.DecimalValue getPreciseNetOrderSum() {
+        return preciseNetOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetOrderSum_;
       }
       /**
        * <pre>
        * Exakter (intern gespeicherter) Wert für "NetOrderSum"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+       * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPreciseNetOrderSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPreciseNetOrderSumOrBuilder() {
         return getPreciseNetOrderSum();
       }
 
       public static final int BRUTTO_ORDER_SUM_FIELD_NUMBER = 20046;
-      private io.dstore.Values.decimalValue bruttoOrderSum_;
+      private io.dstore.values.DecimalValue bruttoOrderSum_;
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
        */
       public boolean hasBruttoOrderSum() {
         return bruttoOrderSum_ != null;
@@ -6946,19 +6946,19 @@ public final class OmSearchOrderNoAd {
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
        */
-      public io.dstore.Values.decimalValue getBruttoOrderSum() {
-        return bruttoOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoOrderSum_;
+      public io.dstore.values.DecimalValue getBruttoOrderSum() {
+        return bruttoOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bruttoOrderSum_;
       }
       /**
        * <pre>
        * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+       * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getBruttoOrderSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getBruttoOrderSumOrBuilder() {
         return getBruttoOrderSum();
       }
 
@@ -8937,15 +8937,15 @@ public final class OmSearchOrderNoAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue orderDateAndTime_ = null;
+        private io.dstore.values.StringValue orderDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderDateAndTimeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> orderDateAndTimeBuilder_;
         /**
          * <pre>
          * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
          */
         public boolean hasOrderDateAndTime() {
           return orderDateAndTimeBuilder_ != null || orderDateAndTime_ != null;
@@ -8955,11 +8955,11 @@ public final class OmSearchOrderNoAd {
          * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
          */
-        public io.dstore.Values.stringValue getOrderDateAndTime() {
+        public io.dstore.values.StringValue getOrderDateAndTime() {
           if (orderDateAndTimeBuilder_ == null) {
-            return orderDateAndTime_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderDateAndTime_;
+            return orderDateAndTime_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderDateAndTime_;
           } else {
             return orderDateAndTimeBuilder_.getMessage();
           }
@@ -8969,9 +8969,9 @@ public final class OmSearchOrderNoAd {
          * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
          */
-        public Builder setOrderDateAndTime(io.dstore.Values.stringValue value) {
+        public Builder setOrderDateAndTime(io.dstore.values.StringValue value) {
           if (orderDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8989,10 +8989,10 @@ public final class OmSearchOrderNoAd {
          * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
          */
         public Builder setOrderDateAndTime(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (orderDateAndTimeBuilder_ == null) {
             orderDateAndTime_ = builderForValue.build();
             onChanged();
@@ -9007,13 +9007,13 @@ public final class OmSearchOrderNoAd {
          * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
          */
-        public Builder mergeOrderDateAndTime(io.dstore.Values.stringValue value) {
+        public Builder mergeOrderDateAndTime(io.dstore.values.StringValue value) {
           if (orderDateAndTimeBuilder_ == null) {
             if (orderDateAndTime_ != null) {
               orderDateAndTime_ =
-                io.dstore.Values.stringValue.newBuilder(orderDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(orderDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               orderDateAndTime_ = value;
             }
@@ -9029,7 +9029,7 @@ public final class OmSearchOrderNoAd {
          * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
          */
         public Builder clearOrderDateAndTime() {
           if (orderDateAndTimeBuilder_ == null) {
@@ -9047,9 +9047,9 @@ public final class OmSearchOrderNoAd {
          * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getOrderDateAndTimeBuilder() {
+        public io.dstore.values.StringValue.Builder getOrderDateAndTimeBuilder() {
           
           onChanged();
           return getOrderDateAndTimeFieldBuilder().getBuilder();
@@ -9059,14 +9059,14 @@ public final class OmSearchOrderNoAd {
          * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getOrderDateAndTimeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getOrderDateAndTimeOrBuilder() {
           if (orderDateAndTimeBuilder_ != null) {
             return orderDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return orderDateAndTime_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : orderDateAndTime_;
+                io.dstore.values.StringValue.getDefaultInstance() : orderDateAndTime_;
           }
         }
         /**
@@ -9074,14 +9074,14 @@ public final class OmSearchOrderNoAd {
          * Eingangsdatum der Bestellung als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_date_and_time = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_date_and_time = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getOrderDateAndTimeFieldBuilder() {
           if (orderDateAndTimeBuilder_ == null) {
             orderDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getOrderDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -9090,15 +9090,15 @@ public final class OmSearchOrderNoAd {
           return orderDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.decimalValue paymentCost_ = null;
+        private io.dstore.values.DecimalValue paymentCost_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> paymentCostBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> paymentCostBuilder_;
         /**
          * <pre>
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
          */
         public boolean hasPaymentCost() {
           return paymentCostBuilder_ != null || paymentCost_ != null;
@@ -9108,11 +9108,11 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
          */
-        public io.dstore.Values.decimalValue getPaymentCost() {
+        public io.dstore.values.DecimalValue getPaymentCost() {
           if (paymentCostBuilder_ == null) {
-            return paymentCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : paymentCost_;
+            return paymentCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : paymentCost_;
           } else {
             return paymentCostBuilder_.getMessage();
           }
@@ -9122,9 +9122,9 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
          */
-        public Builder setPaymentCost(io.dstore.Values.decimalValue value) {
+        public Builder setPaymentCost(io.dstore.values.DecimalValue value) {
           if (paymentCostBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9142,10 +9142,10 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
          */
         public Builder setPaymentCost(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (paymentCostBuilder_ == null) {
             paymentCost_ = builderForValue.build();
             onChanged();
@@ -9160,13 +9160,13 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
          */
-        public Builder mergePaymentCost(io.dstore.Values.decimalValue value) {
+        public Builder mergePaymentCost(io.dstore.values.DecimalValue value) {
           if (paymentCostBuilder_ == null) {
             if (paymentCost_ != null) {
               paymentCost_ =
-                io.dstore.Values.decimalValue.newBuilder(paymentCost_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(paymentCost_).mergeFrom(value).buildPartial();
             } else {
               paymentCost_ = value;
             }
@@ -9182,7 +9182,7 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
          */
         public Builder clearPaymentCost() {
           if (paymentCostBuilder_ == null) {
@@ -9200,9 +9200,9 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPaymentCostBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPaymentCostBuilder() {
           
           onChanged();
           return getPaymentCostFieldBuilder().getBuilder();
@@ -9212,14 +9212,14 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPaymentCostOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPaymentCostOrBuilder() {
           if (paymentCostBuilder_ != null) {
             return paymentCostBuilder_.getMessageOrBuilder();
           } else {
             return paymentCost_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : paymentCost_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : paymentCost_;
           }
         }
         /**
@@ -9227,14 +9227,14 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Zahlungsart "PaymentTypeID". NICHT VERWENDEN, wird zukünftig durch "NetPaymentCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue payment_cost = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue payment_cost = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPaymentCostFieldBuilder() {
           if (paymentCostBuilder_ == null) {
             paymentCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPaymentCost(),
                     getParentForChildren(),
                     isClean());
@@ -9243,15 +9243,15 @@ public final class OmSearchOrderNoAd {
           return paymentCostBuilder_;
         }
 
-        private io.dstore.Values.stringValue deliveryDateAndTime_ = null;
+        private io.dstore.values.StringValue deliveryDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> deliveryDateAndTimeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> deliveryDateAndTimeBuilder_;
         /**
          * <pre>
          * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
          */
         public boolean hasDeliveryDateAndTime() {
           return deliveryDateAndTimeBuilder_ != null || deliveryDateAndTime_ != null;
@@ -9261,11 +9261,11 @@ public final class OmSearchOrderNoAd {
          * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
          */
-        public io.dstore.Values.stringValue getDeliveryDateAndTime() {
+        public io.dstore.values.StringValue getDeliveryDateAndTime() {
           if (deliveryDateAndTimeBuilder_ == null) {
-            return deliveryDateAndTime_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : deliveryDateAndTime_;
+            return deliveryDateAndTime_ == null ? io.dstore.values.StringValue.getDefaultInstance() : deliveryDateAndTime_;
           } else {
             return deliveryDateAndTimeBuilder_.getMessage();
           }
@@ -9275,9 +9275,9 @@ public final class OmSearchOrderNoAd {
          * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
          */
-        public Builder setDeliveryDateAndTime(io.dstore.Values.stringValue value) {
+        public Builder setDeliveryDateAndTime(io.dstore.values.StringValue value) {
           if (deliveryDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9295,10 +9295,10 @@ public final class OmSearchOrderNoAd {
          * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
          */
         public Builder setDeliveryDateAndTime(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (deliveryDateAndTimeBuilder_ == null) {
             deliveryDateAndTime_ = builderForValue.build();
             onChanged();
@@ -9313,13 +9313,13 @@ public final class OmSearchOrderNoAd {
          * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
          */
-        public Builder mergeDeliveryDateAndTime(io.dstore.Values.stringValue value) {
+        public Builder mergeDeliveryDateAndTime(io.dstore.values.StringValue value) {
           if (deliveryDateAndTimeBuilder_ == null) {
             if (deliveryDateAndTime_ != null) {
               deliveryDateAndTime_ =
-                io.dstore.Values.stringValue.newBuilder(deliveryDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(deliveryDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               deliveryDateAndTime_ = value;
             }
@@ -9335,7 +9335,7 @@ public final class OmSearchOrderNoAd {
          * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
          */
         public Builder clearDeliveryDateAndTime() {
           if (deliveryDateAndTimeBuilder_ == null) {
@@ -9353,9 +9353,9 @@ public final class OmSearchOrderNoAd {
          * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDeliveryDateAndTimeBuilder() {
+        public io.dstore.values.StringValue.Builder getDeliveryDateAndTimeBuilder() {
           
           onChanged();
           return getDeliveryDateAndTimeFieldBuilder().getBuilder();
@@ -9365,14 +9365,14 @@ public final class OmSearchOrderNoAd {
          * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDeliveryDateAndTimeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDeliveryDateAndTimeOrBuilder() {
           if (deliveryDateAndTimeBuilder_ != null) {
             return deliveryDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return deliveryDateAndTime_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : deliveryDateAndTime_;
+                io.dstore.values.StringValue.getDefaultInstance() : deliveryDateAndTime_;
           }
         }
         /**
@@ -9380,14 +9380,14 @@ public final class OmSearchOrderNoAd {
          * Vom Auftraggeber gewünschter Liefertermin als String im Format "&#64;DateAndTimeFormat" (siehe Beschreibung). Falls "&#64;IncludeTime = 1", dann ist zusätzlich die Uhrzeit (Format '17:42:22') angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue delivery_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.StringValue delivery_date_and_time = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDeliveryDateAndTimeFieldBuilder() {
           if (deliveryDateAndTimeBuilder_ == null) {
             deliveryDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDeliveryDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -9396,15 +9396,15 @@ public final class OmSearchOrderNoAd {
           return deliveryDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.decimalValue netShippingCost_ = null;
+        private io.dstore.values.DecimalValue netShippingCost_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netShippingCostBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> netShippingCostBuilder_;
         /**
          * <pre>
          * Netto-Versandkosten (entspricht "ShippingCost")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
          */
         public boolean hasNetShippingCost() {
           return netShippingCostBuilder_ != null || netShippingCost_ != null;
@@ -9414,11 +9414,11 @@ public final class OmSearchOrderNoAd {
          * Netto-Versandkosten (entspricht "ShippingCost")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
          */
-        public io.dstore.Values.decimalValue getNetShippingCost() {
+        public io.dstore.values.DecimalValue getNetShippingCost() {
           if (netShippingCostBuilder_ == null) {
-            return netShippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netShippingCost_;
+            return netShippingCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netShippingCost_;
           } else {
             return netShippingCostBuilder_.getMessage();
           }
@@ -9428,9 +9428,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Versandkosten (entspricht "ShippingCost")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
          */
-        public Builder setNetShippingCost(io.dstore.Values.decimalValue value) {
+        public Builder setNetShippingCost(io.dstore.values.DecimalValue value) {
           if (netShippingCostBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9448,10 +9448,10 @@ public final class OmSearchOrderNoAd {
          * Netto-Versandkosten (entspricht "ShippingCost")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
          */
         public Builder setNetShippingCost(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (netShippingCostBuilder_ == null) {
             netShippingCost_ = builderForValue.build();
             onChanged();
@@ -9466,13 +9466,13 @@ public final class OmSearchOrderNoAd {
          * Netto-Versandkosten (entspricht "ShippingCost")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
          */
-        public Builder mergeNetShippingCost(io.dstore.Values.decimalValue value) {
+        public Builder mergeNetShippingCost(io.dstore.values.DecimalValue value) {
           if (netShippingCostBuilder_ == null) {
             if (netShippingCost_ != null) {
               netShippingCost_ =
-                io.dstore.Values.decimalValue.newBuilder(netShippingCost_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(netShippingCost_).mergeFrom(value).buildPartial();
             } else {
               netShippingCost_ = value;
             }
@@ -9488,7 +9488,7 @@ public final class OmSearchOrderNoAd {
          * Netto-Versandkosten (entspricht "ShippingCost")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
          */
         public Builder clearNetShippingCost() {
           if (netShippingCostBuilder_ == null) {
@@ -9506,9 +9506,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Versandkosten (entspricht "ShippingCost")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNetShippingCostBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNetShippingCostBuilder() {
           
           onChanged();
           return getNetShippingCostFieldBuilder().getBuilder();
@@ -9518,14 +9518,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Versandkosten (entspricht "ShippingCost")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNetShippingCostOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNetShippingCostOrBuilder() {
           if (netShippingCostBuilder_ != null) {
             return netShippingCostBuilder_.getMessageOrBuilder();
           } else {
             return netShippingCost_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : netShippingCost_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : netShippingCost_;
           }
         }
         /**
@@ -9533,14 +9533,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Versandkosten (entspricht "ShippingCost")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_shipping_cost = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue net_shipping_cost = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNetShippingCostFieldBuilder() {
           if (netShippingCostBuilder_ == null) {
             netShippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNetShippingCost(),
                     getParentForChildren(),
                     isClean());
@@ -9549,15 +9549,15 @@ public final class OmSearchOrderNoAd {
           return netShippingCostBuilder_;
         }
 
-        private io.dstore.Values.stringValue orderNo_ = null;
+        private io.dstore.values.StringValue orderNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderNoBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> orderNoBuilder_;
         /**
          * <pre>
          * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+         * <code>optional .dstore.values.StringValue order_no = 10005;</code>
          */
         public boolean hasOrderNo() {
           return orderNoBuilder_ != null || orderNo_ != null;
@@ -9567,11 +9567,11 @@ public final class OmSearchOrderNoAd {
          * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+         * <code>optional .dstore.values.StringValue order_no = 10005;</code>
          */
-        public io.dstore.Values.stringValue getOrderNo() {
+        public io.dstore.values.StringValue getOrderNo() {
           if (orderNoBuilder_ == null) {
-            return orderNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
+            return orderNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderNo_;
           } else {
             return orderNoBuilder_.getMessage();
           }
@@ -9581,9 +9581,9 @@ public final class OmSearchOrderNoAd {
          * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+         * <code>optional .dstore.values.StringValue order_no = 10005;</code>
          */
-        public Builder setOrderNo(io.dstore.Values.stringValue value) {
+        public Builder setOrderNo(io.dstore.values.StringValue value) {
           if (orderNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9601,10 +9601,10 @@ public final class OmSearchOrderNoAd {
          * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+         * <code>optional .dstore.values.StringValue order_no = 10005;</code>
          */
         public Builder setOrderNo(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (orderNoBuilder_ == null) {
             orderNo_ = builderForValue.build();
             onChanged();
@@ -9619,13 +9619,13 @@ public final class OmSearchOrderNoAd {
          * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+         * <code>optional .dstore.values.StringValue order_no = 10005;</code>
          */
-        public Builder mergeOrderNo(io.dstore.Values.stringValue value) {
+        public Builder mergeOrderNo(io.dstore.values.StringValue value) {
           if (orderNoBuilder_ == null) {
             if (orderNo_ != null) {
               orderNo_ =
-                io.dstore.Values.stringValue.newBuilder(orderNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(orderNo_).mergeFrom(value).buildPartial();
             } else {
               orderNo_ = value;
             }
@@ -9641,7 +9641,7 @@ public final class OmSearchOrderNoAd {
          * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+         * <code>optional .dstore.values.StringValue order_no = 10005;</code>
          */
         public Builder clearOrderNo() {
           if (orderNoBuilder_ == null) {
@@ -9659,9 +9659,9 @@ public final class OmSearchOrderNoAd {
          * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+         * <code>optional .dstore.values.StringValue order_no = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getOrderNoBuilder() {
+        public io.dstore.values.StringValue.Builder getOrderNoBuilder() {
           
           onChanged();
           return getOrderNoFieldBuilder().getBuilder();
@@ -9671,14 +9671,14 @@ public final class OmSearchOrderNoAd {
          * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+         * <code>optional .dstore.values.StringValue order_no = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getOrderNoOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getOrderNoOrBuilder() {
           if (orderNoBuilder_ != null) {
             return orderNoBuilder_.getMessageOrBuilder();
           } else {
             return orderNo_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : orderNo_;
+                io.dstore.values.StringValue.getDefaultInstance() : orderNo_;
           }
         }
         /**
@@ -9686,14 +9686,14 @@ public final class OmSearchOrderNoAd {
          * Hier steht natürlich immer "&#64;OrderNo". Hintergrund für diese Rückgabespalte ist, daß intern die gleiche Prozedur wie z.B. für "om_GetOrders_Ad" verwendet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_no = 10005;</code>
+         * <code>optional .dstore.values.StringValue order_no = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getOrderNoFieldBuilder() {
           if (orderNoBuilder_ == null) {
             orderNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getOrderNo(),
                     getParentForChildren(),
                     isClean());
@@ -9702,15 +9702,15 @@ public final class OmSearchOrderNoAd {
           return orderNoBuilder_;
         }
 
-        private io.dstore.Values.decimalValue nettoSum_ = null;
+        private io.dstore.values.DecimalValue nettoSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> nettoSumBuilder_;
         /**
          * <pre>
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
          */
         public boolean hasNettoSum() {
           return nettoSumBuilder_ != null || nettoSum_ != null;
@@ -9720,11 +9720,11 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
          */
-        public io.dstore.Values.decimalValue getNettoSum() {
+        public io.dstore.values.DecimalValue getNettoSum() {
           if (nettoSumBuilder_ == null) {
-            return nettoSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
+            return nettoSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoSum_;
           } else {
             return nettoSumBuilder_.getMessage();
           }
@@ -9734,9 +9734,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
          */
-        public Builder setNettoSum(io.dstore.Values.decimalValue value) {
+        public Builder setNettoSum(io.dstore.values.DecimalValue value) {
           if (nettoSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9754,10 +9754,10 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
          */
         public Builder setNettoSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (nettoSumBuilder_ == null) {
             nettoSum_ = builderForValue.build();
             onChanged();
@@ -9772,13 +9772,13 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
          */
-        public Builder mergeNettoSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeNettoSum(io.dstore.values.DecimalValue value) {
           if (nettoSumBuilder_ == null) {
             if (nettoSum_ != null) {
               nettoSum_ =
-                io.dstore.Values.decimalValue.newBuilder(nettoSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(nettoSum_).mergeFrom(value).buildPartial();
             } else {
               nettoSum_ = value;
             }
@@ -9794,7 +9794,7 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
          */
         public Builder clearNettoSum() {
           if (nettoSumBuilder_ == null) {
@@ -9812,9 +9812,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNettoSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNettoSumBuilder() {
           
           onChanged();
           return getNettoSumFieldBuilder().getBuilder();
@@ -9824,14 +9824,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNettoSumOrBuilder() {
           if (nettoSumBuilder_ != null) {
             return nettoSumBuilder_.getMessageOrBuilder();
           } else {
             return nettoSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : nettoSum_;
           }
         }
         /**
@@ -9839,14 +9839,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNettoSumFieldBuilder() {
           if (nettoSumBuilder_ == null) {
             nettoSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNettoSum(),
                     getParentForChildren(),
                     isClean());
@@ -9855,15 +9855,15 @@ public final class OmSearchOrderNoAd {
           return nettoSumBuilder_;
         }
 
-        private io.dstore.Values.integerValue lastEditedByUserId_ = null;
+        private io.dstore.values.IntegerValue lastEditedByUserId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lastEditedByUserIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> lastEditedByUserIdBuilder_;
         /**
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
          */
         public boolean hasLastEditedByUserId() {
           return lastEditedByUserIdBuilder_ != null || lastEditedByUserId_ != null;
@@ -9873,11 +9873,11 @@ public final class OmSearchOrderNoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue getLastEditedByUserId() {
+        public io.dstore.values.IntegerValue getLastEditedByUserId() {
           if (lastEditedByUserIdBuilder_ == null) {
-            return lastEditedByUserId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lastEditedByUserId_;
+            return lastEditedByUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lastEditedByUserId_;
           } else {
             return lastEditedByUserIdBuilder_.getMessage();
           }
@@ -9887,9 +9887,9 @@ public final class OmSearchOrderNoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
          */
-        public Builder setLastEditedByUserId(io.dstore.Values.integerValue value) {
+        public Builder setLastEditedByUserId(io.dstore.values.IntegerValue value) {
           if (lastEditedByUserIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9907,10 +9907,10 @@ public final class OmSearchOrderNoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
          */
         public Builder setLastEditedByUserId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (lastEditedByUserIdBuilder_ == null) {
             lastEditedByUserId_ = builderForValue.build();
             onChanged();
@@ -9925,13 +9925,13 @@ public final class OmSearchOrderNoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
          */
-        public Builder mergeLastEditedByUserId(io.dstore.Values.integerValue value) {
+        public Builder mergeLastEditedByUserId(io.dstore.values.IntegerValue value) {
           if (lastEditedByUserIdBuilder_ == null) {
             if (lastEditedByUserId_ != null) {
               lastEditedByUserId_ =
-                io.dstore.Values.integerValue.newBuilder(lastEditedByUserId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(lastEditedByUserId_).mergeFrom(value).buildPartial();
             } else {
               lastEditedByUserId_ = value;
             }
@@ -9947,7 +9947,7 @@ public final class OmSearchOrderNoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
          */
         public Builder clearLastEditedByUserId() {
           if (lastEditedByUserIdBuilder_ == null) {
@@ -9965,9 +9965,9 @@ public final class OmSearchOrderNoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getLastEditedByUserIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getLastEditedByUserIdBuilder() {
           
           onChanged();
           return getLastEditedByUserIdFieldBuilder().getBuilder();
@@ -9977,14 +9977,14 @@ public final class OmSearchOrderNoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getLastEditedByUserIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getLastEditedByUserIdOrBuilder() {
           if (lastEditedByUserIdBuilder_ != null) {
             return lastEditedByUserIdBuilder_.getMessageOrBuilder();
           } else {
             return lastEditedByUserId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : lastEditedByUserId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : lastEditedByUserId_;
           }
         }
         /**
@@ -9992,14 +9992,14 @@ public final class OmSearchOrderNoAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der den Auftrag zuletzt bearbeitet hat. Wird z.Zt. nur gepflegt beim Anlegen eines Auftrags und beim Ändern d. Auftraggebers durch "om_AcknowledgeOrders_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue last_edited_by_user_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue last_edited_by_user_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getLastEditedByUserIdFieldBuilder() {
           if (lastEditedByUserIdBuilder_ == null) {
             lastEditedByUserIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getLastEditedByUserId(),
                     getParentForChildren(),
                     isClean());
@@ -10008,15 +10008,15 @@ public final class OmSearchOrderNoAd {
           return lastEditedByUserIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue orderId_ = null;
+        private io.dstore.values.IntegerValue orderId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderIdBuilder_;
         /**
          * <pre>
          * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
          */
         public boolean hasOrderId() {
           return orderIdBuilder_ != null || orderId_ != null;
@@ -10026,11 +10026,11 @@ public final class OmSearchOrderNoAd {
          * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
          */
-        public io.dstore.Values.integerValue getOrderId() {
+        public io.dstore.values.IntegerValue getOrderId() {
           if (orderIdBuilder_ == null) {
-            return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
+            return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
           } else {
             return orderIdBuilder_.getMessage();
           }
@@ -10040,9 +10040,9 @@ public final class OmSearchOrderNoAd {
          * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
          */
-        public Builder setOrderId(io.dstore.Values.integerValue value) {
+        public Builder setOrderId(io.dstore.values.IntegerValue value) {
           if (orderIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -10060,10 +10060,10 @@ public final class OmSearchOrderNoAd {
          * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
          */
         public Builder setOrderId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (orderIdBuilder_ == null) {
             orderId_ = builderForValue.build();
             onChanged();
@@ -10078,13 +10078,13 @@ public final class OmSearchOrderNoAd {
          * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
          */
-        public Builder mergeOrderId(io.dstore.Values.integerValue value) {
+        public Builder mergeOrderId(io.dstore.values.IntegerValue value) {
           if (orderIdBuilder_ == null) {
             if (orderId_ != null) {
               orderId_ =
-                io.dstore.Values.integerValue.newBuilder(orderId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(orderId_).mergeFrom(value).buildPartial();
             } else {
               orderId_ = value;
             }
@@ -10100,7 +10100,7 @@ public final class OmSearchOrderNoAd {
          * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
          */
         public Builder clearOrderId() {
           if (orderIdBuilder_ == null) {
@@ -10118,9 +10118,9 @@ public final class OmSearchOrderNoAd {
          * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
          */
-        public io.dstore.Values.integerValue.Builder getOrderIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getOrderIdBuilder() {
           
           onChanged();
           return getOrderIdFieldBuilder().getBuilder();
@@ -10130,14 +10130,14 @@ public final class OmSearchOrderNoAd {
          * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
           if (orderIdBuilder_ != null) {
             return orderIdBuilder_.getMessageOrBuilder();
           } else {
             return orderId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
           }
         }
         /**
@@ -10145,14 +10145,14 @@ public final class OmSearchOrderNoAd {
          * ID eines Auftrags mit "OrderNo = &#64;OrderNo"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getOrderIdFieldBuilder() {
           if (orderIdBuilder_ == null) {
             orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getOrderId(),
                     getParentForChildren(),
                     isClean());
@@ -10161,15 +10161,15 @@ public final class OmSearchOrderNoAd {
           return orderIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue bruttoSum_ = null;
+        private io.dstore.values.DecimalValue bruttoSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> bruttoSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> bruttoSumBuilder_;
         /**
          * <pre>
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
          */
         public boolean hasBruttoSum() {
           return bruttoSumBuilder_ != null || bruttoSum_ != null;
@@ -10179,11 +10179,11 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
          */
-        public io.dstore.Values.decimalValue getBruttoSum() {
+        public io.dstore.values.DecimalValue getBruttoSum() {
           if (bruttoSumBuilder_ == null) {
-            return bruttoSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoSum_;
+            return bruttoSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bruttoSum_;
           } else {
             return bruttoSumBuilder_.getMessage();
           }
@@ -10193,9 +10193,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
          */
-        public Builder setBruttoSum(io.dstore.Values.decimalValue value) {
+        public Builder setBruttoSum(io.dstore.values.DecimalValue value) {
           if (bruttoSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -10213,10 +10213,10 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
          */
         public Builder setBruttoSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (bruttoSumBuilder_ == null) {
             bruttoSum_ = builderForValue.build();
             onChanged();
@@ -10231,13 +10231,13 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
          */
-        public Builder mergeBruttoSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeBruttoSum(io.dstore.values.DecimalValue value) {
           if (bruttoSumBuilder_ == null) {
             if (bruttoSum_ != null) {
               bruttoSum_ =
-                io.dstore.Values.decimalValue.newBuilder(bruttoSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(bruttoSum_).mergeFrom(value).buildPartial();
             } else {
               bruttoSum_ = value;
             }
@@ -10253,7 +10253,7 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
          */
         public Builder clearBruttoSum() {
           if (bruttoSumBuilder_ == null) {
@@ -10271,9 +10271,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getBruttoSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getBruttoSumBuilder() {
           
           onChanged();
           return getBruttoSumFieldBuilder().getBuilder();
@@ -10283,14 +10283,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getBruttoSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getBruttoSumOrBuilder() {
           if (bruttoSumBuilder_ != null) {
             return bruttoSumBuilder_.getMessageOrBuilder();
           } else {
             return bruttoSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : bruttoSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : bruttoSum_;
           }
         }
         /**
@@ -10298,14 +10298,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag "OrderID" (Englischer Spaltenname ist NICHT korrekt, NICHT verwenden !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_sum = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_sum = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getBruttoSumFieldBuilder() {
           if (bruttoSumBuilder_ == null) {
             bruttoSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getBruttoSum(),
                     getParentForChildren(),
                     isClean());
@@ -10314,15 +10314,15 @@ public final class OmSearchOrderNoAd {
           return bruttoSumBuilder_;
         }
 
-        private io.dstore.Values.decimalValue preciseNetShippingCost_ = null;
+        private io.dstore.values.DecimalValue preciseNetShippingCost_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseNetShippingCostBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> preciseNetShippingCostBuilder_;
         /**
          * <pre>
          * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
          */
         public boolean hasPreciseNetShippingCost() {
           return preciseNetShippingCostBuilder_ != null || preciseNetShippingCost_ != null;
@@ -10332,11 +10332,11 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
          */
-        public io.dstore.Values.decimalValue getPreciseNetShippingCost() {
+        public io.dstore.values.DecimalValue getPreciseNetShippingCost() {
           if (preciseNetShippingCostBuilder_ == null) {
-            return preciseNetShippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetShippingCost_;
+            return preciseNetShippingCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetShippingCost_;
           } else {
             return preciseNetShippingCostBuilder_.getMessage();
           }
@@ -10346,9 +10346,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
          */
-        public Builder setPreciseNetShippingCost(io.dstore.Values.decimalValue value) {
+        public Builder setPreciseNetShippingCost(io.dstore.values.DecimalValue value) {
           if (preciseNetShippingCostBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -10366,10 +10366,10 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
          */
         public Builder setPreciseNetShippingCost(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (preciseNetShippingCostBuilder_ == null) {
             preciseNetShippingCost_ = builderForValue.build();
             onChanged();
@@ -10384,13 +10384,13 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
          */
-        public Builder mergePreciseNetShippingCost(io.dstore.Values.decimalValue value) {
+        public Builder mergePreciseNetShippingCost(io.dstore.values.DecimalValue value) {
           if (preciseNetShippingCostBuilder_ == null) {
             if (preciseNetShippingCost_ != null) {
               preciseNetShippingCost_ =
-                io.dstore.Values.decimalValue.newBuilder(preciseNetShippingCost_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(preciseNetShippingCost_).mergeFrom(value).buildPartial();
             } else {
               preciseNetShippingCost_ = value;
             }
@@ -10406,7 +10406,7 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
          */
         public Builder clearPreciseNetShippingCost() {
           if (preciseNetShippingCostBuilder_ == null) {
@@ -10424,9 +10424,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPreciseNetShippingCostBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPreciseNetShippingCostBuilder() {
           
           onChanged();
           return getPreciseNetShippingCostFieldBuilder().getBuilder();
@@ -10436,14 +10436,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPreciseNetShippingCostOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPreciseNetShippingCostOrBuilder() {
           if (preciseNetShippingCostBuilder_ != null) {
             return preciseNetShippingCostBuilder_.getMessageOrBuilder();
           } else {
             return preciseNetShippingCost_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetShippingCost_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetShippingCost_;
           }
         }
         /**
@@ -10451,14 +10451,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Versandkosten "NetShippingCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_shipping_cost = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_shipping_cost = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPreciseNetShippingCostFieldBuilder() {
           if (preciseNetShippingCostBuilder_ == null) {
             preciseNetShippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPreciseNetShippingCost(),
                     getParentForChildren(),
                     isClean());
@@ -10467,15 +10467,15 @@ public final class OmSearchOrderNoAd {
           return preciseNetShippingCostBuilder_;
         }
 
-        private io.dstore.Values.stringValue characVal2RestrByPattern_ = null;
+        private io.dstore.values.StringValue characVal2RestrByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characVal2RestrByPatternBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characVal2RestrByPatternBuilder_;
         /**
          * <pre>
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+         * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
          */
         public boolean hasCharacVal2RestrByPattern() {
           return characVal2RestrByPatternBuilder_ != null || characVal2RestrByPattern_ != null;
@@ -10485,11 +10485,11 @@ public final class OmSearchOrderNoAd {
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+         * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
          */
-        public io.dstore.Values.stringValue getCharacVal2RestrByPattern() {
+        public io.dstore.values.StringValue getCharacVal2RestrByPattern() {
           if (characVal2RestrByPatternBuilder_ == null) {
-            return characVal2RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characVal2RestrByPattern_;
+            return characVal2RestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characVal2RestrByPattern_;
           } else {
             return characVal2RestrByPatternBuilder_.getMessage();
           }
@@ -10499,9 +10499,9 @@ public final class OmSearchOrderNoAd {
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+         * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
          */
-        public Builder setCharacVal2RestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder setCharacVal2RestrByPattern(io.dstore.values.StringValue value) {
           if (characVal2RestrByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -10519,10 +10519,10 @@ public final class OmSearchOrderNoAd {
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+         * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
          */
         public Builder setCharacVal2RestrByPattern(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (characVal2RestrByPatternBuilder_ == null) {
             characVal2RestrByPattern_ = builderForValue.build();
             onChanged();
@@ -10537,13 +10537,13 @@ public final class OmSearchOrderNoAd {
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+         * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
          */
-        public Builder mergeCharacVal2RestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder mergeCharacVal2RestrByPattern(io.dstore.values.StringValue value) {
           if (characVal2RestrByPatternBuilder_ == null) {
             if (characVal2RestrByPattern_ != null) {
               characVal2RestrByPattern_ =
-                io.dstore.Values.stringValue.newBuilder(characVal2RestrByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(characVal2RestrByPattern_).mergeFrom(value).buildPartial();
             } else {
               characVal2RestrByPattern_ = value;
             }
@@ -10559,7 +10559,7 @@ public final class OmSearchOrderNoAd {
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+         * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
          */
         public Builder clearCharacVal2RestrByPattern() {
           if (characVal2RestrByPatternBuilder_ == null) {
@@ -10577,9 +10577,9 @@ public final class OmSearchOrderNoAd {
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+         * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCharacVal2RestrByPatternBuilder() {
+        public io.dstore.values.StringValue.Builder getCharacVal2RestrByPatternBuilder() {
           
           onChanged();
           return getCharacVal2RestrByPatternFieldBuilder().getBuilder();
@@ -10589,14 +10589,14 @@ public final class OmSearchOrderNoAd {
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+         * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCharacVal2RestrByPatternOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCharacVal2RestrByPatternOrBuilder() {
           if (characVal2RestrByPatternBuilder_ != null) {
             return characVal2RestrByPatternBuilder_.getMessageOrBuilder();
           } else {
             return characVal2RestrByPattern_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : characVal2RestrByPattern_;
+                io.dstore.values.StringValue.getDefaultInstance() : characVal2RestrByPattern_;
           }
         }
         /**
@@ -10604,14 +10604,14 @@ public final class OmSearchOrderNoAd {
          * Wie "CharacVal1RestrByPattern" - nur eben auf "CustomerCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val2_restr_by_pattern = 10011;</code>
+         * <code>optional .dstore.values.StringValue charac_val2_restr_by_pattern = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCharacVal2RestrByPatternFieldBuilder() {
           if (characVal2RestrByPatternBuilder_ == null) {
             characVal2RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCharacVal2RestrByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -10620,15 +10620,15 @@ public final class OmSearchOrderNoAd {
           return characVal2RestrByPatternBuilder_;
         }
 
-        private io.dstore.Values.decimalValue netSum_ = null;
+        private io.dstore.values.DecimalValue netSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> netSumBuilder_;
         /**
          * <pre>
          * Netto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
          */
         public boolean hasNetSum() {
           return netSumBuilder_ != null || netSum_ != null;
@@ -10638,11 +10638,11 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
          */
-        public io.dstore.Values.decimalValue getNetSum() {
+        public io.dstore.values.DecimalValue getNetSum() {
           if (netSumBuilder_ == null) {
-            return netSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netSum_;
+            return netSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netSum_;
           } else {
             return netSumBuilder_.getMessage();
           }
@@ -10652,9 +10652,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
          */
-        public Builder setNetSum(io.dstore.Values.decimalValue value) {
+        public Builder setNetSum(io.dstore.values.DecimalValue value) {
           if (netSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -10672,10 +10672,10 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
          */
         public Builder setNetSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (netSumBuilder_ == null) {
             netSum_ = builderForValue.build();
             onChanged();
@@ -10690,13 +10690,13 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
          */
-        public Builder mergeNetSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeNetSum(io.dstore.values.DecimalValue value) {
           if (netSumBuilder_ == null) {
             if (netSum_ != null) {
               netSum_ =
-                io.dstore.Values.decimalValue.newBuilder(netSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(netSum_).mergeFrom(value).buildPartial();
             } else {
               netSum_ = value;
             }
@@ -10712,7 +10712,7 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
          */
         public Builder clearNetSum() {
           if (netSumBuilder_ == null) {
@@ -10730,9 +10730,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNetSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNetSumBuilder() {
           
           onChanged();
           return getNetSumFieldBuilder().getBuilder();
@@ -10742,14 +10742,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNetSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNetSumOrBuilder() {
           if (netSumBuilder_ != null) {
             return netSumBuilder_.getMessageOrBuilder();
           } else {
             return netSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : netSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : netSum_;
           }
         }
         /**
@@ -10757,14 +10757,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_sum = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue net_sum = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNetSumFieldBuilder() {
           if (netSumBuilder_ == null) {
             netSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNetSum(),
                     getParentForChildren(),
                     isClean());
@@ -10773,15 +10773,15 @@ public final class OmSearchOrderNoAd {
           return netSumBuilder_;
         }
 
-        private io.dstore.Values.integerValue personId_ = null;
+        private io.dstore.values.IntegerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
          * ID der Person, die den Auftrag "OrderID" aufgegeben hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -10791,11 +10791,11 @@ public final class OmSearchOrderNoAd {
          * ID der Person, die den Auftrag "OrderID" aufgegeben hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
          */
-        public io.dstore.Values.integerValue getPersonId() {
+        public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
@@ -10805,9 +10805,9 @@ public final class OmSearchOrderNoAd {
          * ID der Person, die den Auftrag "OrderID" aufgegeben hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
          */
-        public Builder setPersonId(io.dstore.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -10825,10 +10825,10 @@ public final class OmSearchOrderNoAd {
          * ID der Person, die den Auftrag "OrderID" aufgegeben hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
          */
         public Builder setPersonId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -10843,13 +10843,13 @@ public final class OmSearchOrderNoAd {
          * ID der Person, die den Auftrag "OrderID" aufgegeben hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
          */
-        public Builder mergePersonId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -10865,7 +10865,7 @@ public final class OmSearchOrderNoAd {
          * ID der Person, die den Auftrag "OrderID" aufgegeben hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -10883,9 +10883,9 @@ public final class OmSearchOrderNoAd {
          * ID der Person, die den Auftrag "OrderID" aufgegeben hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
@@ -10895,14 +10895,14 @@ public final class OmSearchOrderNoAd {
          * ID der Person, die den Auftrag "OrderID" aufgegeben hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           }
         }
         /**
@@ -10910,14 +10910,14 @@ public final class OmSearchOrderNoAd {
          * ID der Person, die den Auftrag "OrderID" aufgegeben hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10013;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -10926,15 +10926,15 @@ public final class OmSearchOrderNoAd {
           return personIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue paymentTypeDescription_ = null;
+        private io.dstore.values.StringValue paymentTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> paymentTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Abrechnungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
          */
         public boolean hasPaymentTypeDescription() {
           return paymentTypeDescriptionBuilder_ != null || paymentTypeDescription_ != null;
@@ -10944,11 +10944,11 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Abrechnungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
          */
-        public io.dstore.Values.stringValue getPaymentTypeDescription() {
+        public io.dstore.values.StringValue getPaymentTypeDescription() {
           if (paymentTypeDescriptionBuilder_ == null) {
-            return paymentTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+            return paymentTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentTypeDescription_;
           } else {
             return paymentTypeDescriptionBuilder_.getMessage();
           }
@@ -10958,9 +10958,9 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Abrechnungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
          */
-        public Builder setPaymentTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setPaymentTypeDescription(io.dstore.values.StringValue value) {
           if (paymentTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -10978,10 +10978,10 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Abrechnungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
          */
         public Builder setPaymentTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (paymentTypeDescriptionBuilder_ == null) {
             paymentTypeDescription_ = builderForValue.build();
             onChanged();
@@ -10996,13 +10996,13 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Abrechnungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
          */
-        public Builder mergePaymentTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergePaymentTypeDescription(io.dstore.values.StringValue value) {
           if (paymentTypeDescriptionBuilder_ == null) {
             if (paymentTypeDescription_ != null) {
               paymentTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(paymentTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(paymentTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               paymentTypeDescription_ = value;
             }
@@ -11018,7 +11018,7 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Abrechnungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
          */
         public Builder clearPaymentTypeDescription() {
           if (paymentTypeDescriptionBuilder_ == null) {
@@ -11036,9 +11036,9 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Abrechnungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPaymentTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getPaymentTypeDescriptionBuilder() {
           
           onChanged();
           return getPaymentTypeDescriptionFieldBuilder().getBuilder();
@@ -11048,14 +11048,14 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Abrechnungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
           if (paymentTypeDescriptionBuilder_ != null) {
             return paymentTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return paymentTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : paymentTypeDescription_;
           }
         }
         /**
@@ -11063,14 +11063,14 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Abrechnungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10014;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPaymentTypeDescriptionFieldBuilder() {
           if (paymentTypeDescriptionBuilder_ == null) {
             paymentTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPaymentTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -11079,15 +11079,15 @@ public final class OmSearchOrderNoAd {
           return paymentTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.decimalValue preciseNetSum_ = null;
+        private io.dstore.values.DecimalValue preciseNetSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseNetSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> preciseNetSumBuilder_;
         /**
          * <pre>
          * Exakter (intern gespeicherter) Wert für "NetSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
          */
         public boolean hasPreciseNetSum() {
           return preciseNetSumBuilder_ != null || preciseNetSum_ != null;
@@ -11097,11 +11097,11 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
          */
-        public io.dstore.Values.decimalValue getPreciseNetSum() {
+        public io.dstore.values.DecimalValue getPreciseNetSum() {
           if (preciseNetSumBuilder_ == null) {
-            return preciseNetSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetSum_;
+            return preciseNetSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetSum_;
           } else {
             return preciseNetSumBuilder_.getMessage();
           }
@@ -11111,9 +11111,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
          */
-        public Builder setPreciseNetSum(io.dstore.Values.decimalValue value) {
+        public Builder setPreciseNetSum(io.dstore.values.DecimalValue value) {
           if (preciseNetSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -11131,10 +11131,10 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
          */
         public Builder setPreciseNetSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (preciseNetSumBuilder_ == null) {
             preciseNetSum_ = builderForValue.build();
             onChanged();
@@ -11149,13 +11149,13 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
          */
-        public Builder mergePreciseNetSum(io.dstore.Values.decimalValue value) {
+        public Builder mergePreciseNetSum(io.dstore.values.DecimalValue value) {
           if (preciseNetSumBuilder_ == null) {
             if (preciseNetSum_ != null) {
               preciseNetSum_ =
-                io.dstore.Values.decimalValue.newBuilder(preciseNetSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(preciseNetSum_).mergeFrom(value).buildPartial();
             } else {
               preciseNetSum_ = value;
             }
@@ -11171,7 +11171,7 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
          */
         public Builder clearPreciseNetSum() {
           if (preciseNetSumBuilder_ == null) {
@@ -11189,9 +11189,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPreciseNetSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPreciseNetSumBuilder() {
           
           onChanged();
           return getPreciseNetSumFieldBuilder().getBuilder();
@@ -11201,14 +11201,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPreciseNetSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPreciseNetSumOrBuilder() {
           if (preciseNetSumBuilder_ != null) {
             return preciseNetSumBuilder_.getMessageOrBuilder();
           } else {
             return preciseNetSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetSum_;
           }
         }
         /**
@@ -11216,14 +11216,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_sum = 10015;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_sum = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPreciseNetSumFieldBuilder() {
           if (preciseNetSumBuilder_ == null) {
             preciseNetSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPreciseNetSum(),
                     getParentForChildren(),
                     isClean());
@@ -11232,15 +11232,15 @@ public final class OmSearchOrderNoAd {
           return preciseNetSumBuilder_;
         }
 
-        private io.dstore.Values.integerValue positionCount_ = null;
+        private io.dstore.values.IntegerValue positionCount_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> positionCountBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> positionCountBuilder_;
         /**
          * <pre>
          * Wieviele Positionen enthält der Auftrag "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
          */
         public boolean hasPositionCount() {
           return positionCountBuilder_ != null || positionCount_ != null;
@@ -11250,11 +11250,11 @@ public final class OmSearchOrderNoAd {
          * Wieviele Positionen enthält der Auftrag "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
          */
-        public io.dstore.Values.integerValue getPositionCount() {
+        public io.dstore.values.IntegerValue getPositionCount() {
           if (positionCountBuilder_ == null) {
-            return positionCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : positionCount_;
+            return positionCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : positionCount_;
           } else {
             return positionCountBuilder_.getMessage();
           }
@@ -11264,9 +11264,9 @@ public final class OmSearchOrderNoAd {
          * Wieviele Positionen enthält der Auftrag "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
          */
-        public Builder setPositionCount(io.dstore.Values.integerValue value) {
+        public Builder setPositionCount(io.dstore.values.IntegerValue value) {
           if (positionCountBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -11284,10 +11284,10 @@ public final class OmSearchOrderNoAd {
          * Wieviele Positionen enthält der Auftrag "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
          */
         public Builder setPositionCount(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (positionCountBuilder_ == null) {
             positionCount_ = builderForValue.build();
             onChanged();
@@ -11302,13 +11302,13 @@ public final class OmSearchOrderNoAd {
          * Wieviele Positionen enthält der Auftrag "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
          */
-        public Builder mergePositionCount(io.dstore.Values.integerValue value) {
+        public Builder mergePositionCount(io.dstore.values.IntegerValue value) {
           if (positionCountBuilder_ == null) {
             if (positionCount_ != null) {
               positionCount_ =
-                io.dstore.Values.integerValue.newBuilder(positionCount_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(positionCount_).mergeFrom(value).buildPartial();
             } else {
               positionCount_ = value;
             }
@@ -11324,7 +11324,7 @@ public final class OmSearchOrderNoAd {
          * Wieviele Positionen enthält der Auftrag "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
          */
         public Builder clearPositionCount() {
           if (positionCountBuilder_ == null) {
@@ -11342,9 +11342,9 @@ public final class OmSearchOrderNoAd {
          * Wieviele Positionen enthält der Auftrag "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPositionCountBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPositionCountBuilder() {
           
           onChanged();
           return getPositionCountFieldBuilder().getBuilder();
@@ -11354,14 +11354,14 @@ public final class OmSearchOrderNoAd {
          * Wieviele Positionen enthält der Auftrag "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPositionCountOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPositionCountOrBuilder() {
           if (positionCountBuilder_ != null) {
             return positionCountBuilder_.getMessageOrBuilder();
           } else {
             return positionCount_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : positionCount_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : positionCount_;
           }
         }
         /**
@@ -11369,14 +11369,14 @@ public final class OmSearchOrderNoAd {
          * Wieviele Positionen enthält der Auftrag "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_count = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue position_count = 10016;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPositionCountFieldBuilder() {
           if (positionCountBuilder_ == null) {
             positionCountBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPositionCount(),
                     getParentForChildren(),
                     isClean());
@@ -11385,15 +11385,15 @@ public final class OmSearchOrderNoAd {
           return positionCountBuilder_;
         }
 
-        private io.dstore.Values.integerValue orderStateId_ = null;
+        private io.dstore.values.IntegerValue orderStateId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderStateIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderStateIdBuilder_;
         /**
          * <pre>
          * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+         * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
          */
         public boolean hasOrderStateId() {
           return orderStateIdBuilder_ != null || orderStateId_ != null;
@@ -11403,11 +11403,11 @@ public final class OmSearchOrderNoAd {
          * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+         * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
          */
-        public io.dstore.Values.integerValue getOrderStateId() {
+        public io.dstore.values.IntegerValue getOrderStateId() {
           if (orderStateIdBuilder_ == null) {
-            return orderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
+            return orderStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderStateId_;
           } else {
             return orderStateIdBuilder_.getMessage();
           }
@@ -11417,9 +11417,9 @@ public final class OmSearchOrderNoAd {
          * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+         * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
          */
-        public Builder setOrderStateId(io.dstore.Values.integerValue value) {
+        public Builder setOrderStateId(io.dstore.values.IntegerValue value) {
           if (orderStateIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -11437,10 +11437,10 @@ public final class OmSearchOrderNoAd {
          * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+         * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
          */
         public Builder setOrderStateId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (orderStateIdBuilder_ == null) {
             orderStateId_ = builderForValue.build();
             onChanged();
@@ -11455,13 +11455,13 @@ public final class OmSearchOrderNoAd {
          * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+         * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
          */
-        public Builder mergeOrderStateId(io.dstore.Values.integerValue value) {
+        public Builder mergeOrderStateId(io.dstore.values.IntegerValue value) {
           if (orderStateIdBuilder_ == null) {
             if (orderStateId_ != null) {
               orderStateId_ =
-                io.dstore.Values.integerValue.newBuilder(orderStateId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(orderStateId_).mergeFrom(value).buildPartial();
             } else {
               orderStateId_ = value;
             }
@@ -11477,7 +11477,7 @@ public final class OmSearchOrderNoAd {
          * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+         * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
          */
         public Builder clearOrderStateId() {
           if (orderStateIdBuilder_ == null) {
@@ -11495,9 +11495,9 @@ public final class OmSearchOrderNoAd {
          * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+         * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
          */
-        public io.dstore.Values.integerValue.Builder getOrderStateIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getOrderStateIdBuilder() {
           
           onChanged();
           return getOrderStateIdFieldBuilder().getBuilder();
@@ -11507,14 +11507,14 @@ public final class OmSearchOrderNoAd {
          * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+         * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getOrderStateIdOrBuilder() {
           if (orderStateIdBuilder_ != null) {
             return orderStateIdBuilder_.getMessageOrBuilder();
           } else {
             return orderStateId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : orderStateId_;
           }
         }
         /**
@@ -11522,14 +11522,14 @@ public final class OmSearchOrderNoAd {
          * ID des Status, den alle Auftragsspositionen aktuell haben, oder "NULL", falls die Positionen unterschiedliche Status besitzen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_state_id = 10017;</code>
+         * <code>optional .dstore.values.IntegerValue order_state_id = 10017;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getOrderStateIdFieldBuilder() {
           if (orderStateIdBuilder_ == null) {
             orderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getOrderStateId(),
                     getParentForChildren(),
                     isClean());
@@ -11538,15 +11538,15 @@ public final class OmSearchOrderNoAd {
           return orderStateIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue shippingTypeId_ = null;
+        private io.dstore.values.IntegerValue shippingTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> shippingTypeIdBuilder_;
         /**
          * <pre>
          * ID einer Versandart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
          */
         public boolean hasShippingTypeId() {
           return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
@@ -11556,11 +11556,11 @@ public final class OmSearchOrderNoAd {
          * ID einer Versandart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
          */
-        public io.dstore.Values.integerValue getShippingTypeId() {
+        public io.dstore.values.IntegerValue getShippingTypeId() {
           if (shippingTypeIdBuilder_ == null) {
-            return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+            return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
           } else {
             return shippingTypeIdBuilder_.getMessage();
           }
@@ -11570,9 +11570,9 @@ public final class OmSearchOrderNoAd {
          * ID einer Versandart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
          */
-        public Builder setShippingTypeId(io.dstore.Values.integerValue value) {
+        public Builder setShippingTypeId(io.dstore.values.IntegerValue value) {
           if (shippingTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -11590,10 +11590,10 @@ public final class OmSearchOrderNoAd {
          * ID einer Versandart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
          */
         public Builder setShippingTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (shippingTypeIdBuilder_ == null) {
             shippingTypeId_ = builderForValue.build();
             onChanged();
@@ -11608,13 +11608,13 @@ public final class OmSearchOrderNoAd {
          * ID einer Versandart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
          */
-        public Builder mergeShippingTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeShippingTypeId(io.dstore.values.IntegerValue value) {
           if (shippingTypeIdBuilder_ == null) {
             if (shippingTypeId_ != null) {
               shippingTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
             } else {
               shippingTypeId_ = value;
             }
@@ -11630,7 +11630,7 @@ public final class OmSearchOrderNoAd {
          * ID einer Versandart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
          */
         public Builder clearShippingTypeId() {
           if (shippingTypeIdBuilder_ == null) {
@@ -11648,9 +11648,9 @@ public final class OmSearchOrderNoAd {
          * ID einer Versandart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
          */
-        public io.dstore.Values.integerValue.Builder getShippingTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getShippingTypeIdBuilder() {
           
           onChanged();
           return getShippingTypeIdFieldBuilder().getBuilder();
@@ -11660,14 +11660,14 @@ public final class OmSearchOrderNoAd {
          * ID einer Versandart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
           if (shippingTypeIdBuilder_ != null) {
             return shippingTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return shippingTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
           }
         }
         /**
@@ -11675,14 +11675,14 @@ public final class OmSearchOrderNoAd {
          * ID einer Versandart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10018;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getShippingTypeIdFieldBuilder() {
           if (shippingTypeIdBuilder_ == null) {
             shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getShippingTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -11691,15 +11691,15 @@ public final class OmSearchOrderNoAd {
           return shippingTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue personTypeId_ = null;
+        private io.dstore.values.IntegerValue personTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
         /**
          * <pre>
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
          */
         public boolean hasPersonTypeId() {
           return personTypeIdBuilder_ != null || personTypeId_ != null;
@@ -11709,11 +11709,11 @@ public final class OmSearchOrderNoAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
          */
-        public io.dstore.Values.integerValue getPersonTypeId() {
+        public io.dstore.values.IntegerValue getPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
-            return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+            return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
           } else {
             return personTypeIdBuilder_.getMessage();
           }
@@ -11723,9 +11723,9 @@ public final class OmSearchOrderNoAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
          */
-        public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+        public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -11743,10 +11743,10 @@ public final class OmSearchOrderNoAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
          */
         public Builder setPersonTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personTypeIdBuilder_ == null) {
             personTypeId_ = builderForValue.build();
             onChanged();
@@ -11761,13 +11761,13 @@ public final class OmSearchOrderNoAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
          */
-        public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
             if (personTypeId_ != null) {
               personTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
             } else {
               personTypeId_ = value;
             }
@@ -11783,7 +11783,7 @@ public final class OmSearchOrderNoAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
          */
         public Builder clearPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -11801,9 +11801,9 @@ public final class OmSearchOrderNoAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
           
           onChanged();
           return getPersonTypeIdFieldBuilder().getBuilder();
@@ -11813,14 +11813,14 @@ public final class OmSearchOrderNoAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
           if (personTypeIdBuilder_ != null) {
             return personTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return personTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
           }
         }
         /**
@@ -11828,14 +11828,14 @@ public final class OmSearchOrderNoAd {
          * ID des Personen-Typs von "PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10019;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10019;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonTypeIdFieldBuilder() {
           if (personTypeIdBuilder_ == null) {
             personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -11844,15 +11844,15 @@ public final class OmSearchOrderNoAd {
           return personTypeIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue netPaymentCost_ = null;
+        private io.dstore.values.DecimalValue netPaymentCost_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netPaymentCostBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> netPaymentCostBuilder_;
         /**
          * <pre>
          * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+         * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
          */
         public boolean hasNetPaymentCost() {
           return netPaymentCostBuilder_ != null || netPaymentCost_ != null;
@@ -11862,11 +11862,11 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+         * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
          */
-        public io.dstore.Values.decimalValue getNetPaymentCost() {
+        public io.dstore.values.DecimalValue getNetPaymentCost() {
           if (netPaymentCostBuilder_ == null) {
-            return netPaymentCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netPaymentCost_;
+            return netPaymentCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netPaymentCost_;
           } else {
             return netPaymentCostBuilder_.getMessage();
           }
@@ -11876,9 +11876,9 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+         * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
          */
-        public Builder setNetPaymentCost(io.dstore.Values.decimalValue value) {
+        public Builder setNetPaymentCost(io.dstore.values.DecimalValue value) {
           if (netPaymentCostBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -11896,10 +11896,10 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+         * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
          */
         public Builder setNetPaymentCost(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (netPaymentCostBuilder_ == null) {
             netPaymentCost_ = builderForValue.build();
             onChanged();
@@ -11914,13 +11914,13 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+         * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
          */
-        public Builder mergeNetPaymentCost(io.dstore.Values.decimalValue value) {
+        public Builder mergeNetPaymentCost(io.dstore.values.DecimalValue value) {
           if (netPaymentCostBuilder_ == null) {
             if (netPaymentCost_ != null) {
               netPaymentCost_ =
-                io.dstore.Values.decimalValue.newBuilder(netPaymentCost_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(netPaymentCost_).mergeFrom(value).buildPartial();
             } else {
               netPaymentCost_ = value;
             }
@@ -11936,7 +11936,7 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+         * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
          */
         public Builder clearNetPaymentCost() {
           if (netPaymentCostBuilder_ == null) {
@@ -11954,9 +11954,9 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+         * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNetPaymentCostBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNetPaymentCostBuilder() {
           
           onChanged();
           return getNetPaymentCostFieldBuilder().getBuilder();
@@ -11966,14 +11966,14 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+         * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNetPaymentCostOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNetPaymentCostOrBuilder() {
           if (netPaymentCostBuilder_ != null) {
             return netPaymentCostBuilder_.getMessageOrBuilder();
           } else {
             return netPaymentCost_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : netPaymentCost_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : netPaymentCost_;
           }
         }
         /**
@@ -11981,14 +11981,14 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende (Netto-)Kosten (in der durch "CurrencyID" angegebenen Währung) für die Zahlungsart "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_payment_cost = 10020;</code>
+         * <code>optional .dstore.values.DecimalValue net_payment_cost = 10020;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNetPaymentCostFieldBuilder() {
           if (netPaymentCostBuilder_ == null) {
             netPaymentCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNetPaymentCost(),
                     getParentForChildren(),
                     isClean());
@@ -11997,15 +11997,15 @@ public final class OmSearchOrderNoAd {
           return netPaymentCostBuilder_;
         }
 
-        private io.dstore.Values.integerValue deliveryPersonId_ = null;
+        private io.dstore.values.IntegerValue deliveryPersonId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deliveryPersonIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> deliveryPersonIdBuilder_;
         /**
          * <pre>
          * ID der Person, an die die Ware geliefert werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+         * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
          */
         public boolean hasDeliveryPersonId() {
           return deliveryPersonIdBuilder_ != null || deliveryPersonId_ != null;
@@ -12015,11 +12015,11 @@ public final class OmSearchOrderNoAd {
          * ID der Person, an die die Ware geliefert werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+         * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
          */
-        public io.dstore.Values.integerValue getDeliveryPersonId() {
+        public io.dstore.values.IntegerValue getDeliveryPersonId() {
           if (deliveryPersonIdBuilder_ == null) {
-            return deliveryPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
+            return deliveryPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deliveryPersonId_;
           } else {
             return deliveryPersonIdBuilder_.getMessage();
           }
@@ -12029,9 +12029,9 @@ public final class OmSearchOrderNoAd {
          * ID der Person, an die die Ware geliefert werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+         * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
          */
-        public Builder setDeliveryPersonId(io.dstore.Values.integerValue value) {
+        public Builder setDeliveryPersonId(io.dstore.values.IntegerValue value) {
           if (deliveryPersonIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -12049,10 +12049,10 @@ public final class OmSearchOrderNoAd {
          * ID der Person, an die die Ware geliefert werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+         * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
          */
         public Builder setDeliveryPersonId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (deliveryPersonIdBuilder_ == null) {
             deliveryPersonId_ = builderForValue.build();
             onChanged();
@@ -12067,13 +12067,13 @@ public final class OmSearchOrderNoAd {
          * ID der Person, an die die Ware geliefert werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+         * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
          */
-        public Builder mergeDeliveryPersonId(io.dstore.Values.integerValue value) {
+        public Builder mergeDeliveryPersonId(io.dstore.values.IntegerValue value) {
           if (deliveryPersonIdBuilder_ == null) {
             if (deliveryPersonId_ != null) {
               deliveryPersonId_ =
-                io.dstore.Values.integerValue.newBuilder(deliveryPersonId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(deliveryPersonId_).mergeFrom(value).buildPartial();
             } else {
               deliveryPersonId_ = value;
             }
@@ -12089,7 +12089,7 @@ public final class OmSearchOrderNoAd {
          * ID der Person, an die die Ware geliefert werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+         * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
          */
         public Builder clearDeliveryPersonId() {
           if (deliveryPersonIdBuilder_ == null) {
@@ -12107,9 +12107,9 @@ public final class OmSearchOrderNoAd {
          * ID der Person, an die die Ware geliefert werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+         * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
          */
-        public io.dstore.Values.integerValue.Builder getDeliveryPersonIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getDeliveryPersonIdBuilder() {
           
           onChanged();
           return getDeliveryPersonIdFieldBuilder().getBuilder();
@@ -12119,14 +12119,14 @@ public final class OmSearchOrderNoAd {
          * ID der Person, an die die Ware geliefert werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+         * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
           if (deliveryPersonIdBuilder_ != null) {
             return deliveryPersonIdBuilder_.getMessageOrBuilder();
           } else {
             return deliveryPersonId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : deliveryPersonId_;
           }
         }
         /**
@@ -12134,14 +12134,14 @@ public final class OmSearchOrderNoAd {
          * ID der Person, an die die Ware geliefert werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue delivery_person_id = 10021;</code>
+         * <code>optional .dstore.values.IntegerValue delivery_person_id = 10021;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getDeliveryPersonIdFieldBuilder() {
           if (deliveryPersonIdBuilder_ == null) {
             deliveryPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getDeliveryPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -12150,15 +12150,15 @@ public final class OmSearchOrderNoAd {
           return deliveryPersonIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue shippingTypeDescription_ = null;
+        private io.dstore.values.StringValue shippingTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> shippingTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> shippingTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Versandart "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
          */
         public boolean hasShippingTypeDescription() {
           return shippingTypeDescriptionBuilder_ != null || shippingTypeDescription_ != null;
@@ -12168,11 +12168,11 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Versandart "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
          */
-        public io.dstore.Values.stringValue getShippingTypeDescription() {
+        public io.dstore.values.StringValue getShippingTypeDescription() {
           if (shippingTypeDescriptionBuilder_ == null) {
-            return shippingTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
+            return shippingTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
           } else {
             return shippingTypeDescriptionBuilder_.getMessage();
           }
@@ -12182,9 +12182,9 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Versandart "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
          */
-        public Builder setShippingTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setShippingTypeDescription(io.dstore.values.StringValue value) {
           if (shippingTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -12202,10 +12202,10 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Versandart "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
          */
         public Builder setShippingTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (shippingTypeDescriptionBuilder_ == null) {
             shippingTypeDescription_ = builderForValue.build();
             onChanged();
@@ -12220,13 +12220,13 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Versandart "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
          */
-        public Builder mergeShippingTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeShippingTypeDescription(io.dstore.values.StringValue value) {
           if (shippingTypeDescriptionBuilder_ == null) {
             if (shippingTypeDescription_ != null) {
               shippingTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(shippingTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(shippingTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               shippingTypeDescription_ = value;
             }
@@ -12242,7 +12242,7 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Versandart "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
          */
         public Builder clearShippingTypeDescription() {
           if (shippingTypeDescriptionBuilder_ == null) {
@@ -12260,9 +12260,9 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Versandart "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
          */
-        public io.dstore.Values.stringValue.Builder getShippingTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getShippingTypeDescriptionBuilder() {
           
           onChanged();
           return getShippingTypeDescriptionFieldBuilder().getBuilder();
@@ -12272,14 +12272,14 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Versandart "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
           if (shippingTypeDescriptionBuilder_ != null) {
             return shippingTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return shippingTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
           }
         }
         /**
@@ -12287,14 +12287,14 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der Versandart "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10022;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10022;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getShippingTypeDescriptionFieldBuilder() {
           if (shippingTypeDescriptionBuilder_ == null) {
             shippingTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getShippingTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -12303,15 +12303,15 @@ public final class OmSearchOrderNoAd {
           return shippingTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.decimalValue grossSum_ = null;
+        private io.dstore.values.DecimalValue grossSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> grossSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> grossSumBuilder_;
         /**
          * <pre>
          * Brutto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+         * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
          */
         public boolean hasGrossSum() {
           return grossSumBuilder_ != null || grossSum_ != null;
@@ -12321,11 +12321,11 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+         * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
          */
-        public io.dstore.Values.decimalValue getGrossSum() {
+        public io.dstore.values.DecimalValue getGrossSum() {
           if (grossSumBuilder_ == null) {
-            return grossSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossSum_;
+            return grossSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : grossSum_;
           } else {
             return grossSumBuilder_.getMessage();
           }
@@ -12335,9 +12335,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+         * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
          */
-        public Builder setGrossSum(io.dstore.Values.decimalValue value) {
+        public Builder setGrossSum(io.dstore.values.DecimalValue value) {
           if (grossSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -12355,10 +12355,10 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+         * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
          */
         public Builder setGrossSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (grossSumBuilder_ == null) {
             grossSum_ = builderForValue.build();
             onChanged();
@@ -12373,13 +12373,13 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+         * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
          */
-        public Builder mergeGrossSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeGrossSum(io.dstore.values.DecimalValue value) {
           if (grossSumBuilder_ == null) {
             if (grossSum_ != null) {
               grossSum_ =
-                io.dstore.Values.decimalValue.newBuilder(grossSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(grossSum_).mergeFrom(value).buildPartial();
             } else {
               grossSum_ = value;
             }
@@ -12395,7 +12395,7 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+         * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
          */
         public Builder clearGrossSum() {
           if (grossSumBuilder_ == null) {
@@ -12413,9 +12413,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+         * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getGrossSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getGrossSumBuilder() {
           
           onChanged();
           return getGrossSumFieldBuilder().getBuilder();
@@ -12425,14 +12425,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+         * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getGrossSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getGrossSumOrBuilder() {
           if (grossSumBuilder_ != null) {
             return grossSumBuilder_.getMessageOrBuilder();
           } else {
             return grossSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : grossSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : grossSum_;
           }
         }
         /**
@@ -12440,14 +12440,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag der Bestellung "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_sum = 10023;</code>
+         * <code>optional .dstore.values.DecimalValue gross_sum = 10023;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getGrossSumFieldBuilder() {
           if (grossSumBuilder_ == null) {
             grossSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getGrossSum(),
                     getParentForChildren(),
                     isClean());
@@ -12456,15 +12456,15 @@ public final class OmSearchOrderNoAd {
           return grossSumBuilder_;
         }
 
-        private io.dstore.Values.stringValue unitSymbol_ = null;
+        private io.dstore.values.StringValue unitSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> unitSymbolBuilder_;
         /**
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
          */
         public boolean hasUnitSymbol() {
           return unitSymbolBuilder_ != null || unitSymbol_ != null;
@@ -12474,11 +12474,11 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
          */
-        public io.dstore.Values.stringValue getUnitSymbol() {
+        public io.dstore.values.StringValue getUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
-            return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
+            return unitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
           } else {
             return unitSymbolBuilder_.getMessage();
           }
@@ -12488,9 +12488,9 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
          */
-        public Builder setUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder setUnitSymbol(io.dstore.values.StringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -12508,10 +12508,10 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
          */
         public Builder setUnitSymbol(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (unitSymbolBuilder_ == null) {
             unitSymbol_ = builderForValue.build();
             onChanged();
@@ -12526,13 +12526,13 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
          */
-        public Builder mergeUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder mergeUnitSymbol(io.dstore.values.StringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (unitSymbol_ != null) {
               unitSymbol_ =
-                io.dstore.Values.stringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
             } else {
               unitSymbol_ = value;
             }
@@ -12548,7 +12548,7 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
          */
         public Builder clearUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
@@ -12566,9 +12566,9 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUnitSymbolBuilder() {
+        public io.dstore.values.StringValue.Builder getUnitSymbolBuilder() {
           
           onChanged();
           return getUnitSymbolFieldBuilder().getBuilder();
@@ -12578,14 +12578,14 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder() {
           if (unitSymbolBuilder_ != null) {
             return unitSymbolBuilder_.getMessageOrBuilder();
           } else {
             return unitSymbol_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
+                io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
           }
         }
         /**
@@ -12593,14 +12593,14 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10024;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10024;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUnitSymbolFieldBuilder() {
           if (unitSymbolBuilder_ == null) {
             unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUnitSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -12609,15 +12609,15 @@ public final class OmSearchOrderNoAd {
           return unitSymbolBuilder_;
         }
 
-        private io.dstore.Values.decimalValue preciseNetPaymentCost_ = null;
+        private io.dstore.values.DecimalValue preciseNetPaymentCost_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseNetPaymentCostBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> preciseNetPaymentCostBuilder_;
         /**
          * <pre>
          * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
          */
         public boolean hasPreciseNetPaymentCost() {
           return preciseNetPaymentCostBuilder_ != null || preciseNetPaymentCost_ != null;
@@ -12627,11 +12627,11 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
          */
-        public io.dstore.Values.decimalValue getPreciseNetPaymentCost() {
+        public io.dstore.values.DecimalValue getPreciseNetPaymentCost() {
           if (preciseNetPaymentCostBuilder_ == null) {
-            return preciseNetPaymentCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetPaymentCost_;
+            return preciseNetPaymentCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetPaymentCost_;
           } else {
             return preciseNetPaymentCostBuilder_.getMessage();
           }
@@ -12641,9 +12641,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
          */
-        public Builder setPreciseNetPaymentCost(io.dstore.Values.decimalValue value) {
+        public Builder setPreciseNetPaymentCost(io.dstore.values.DecimalValue value) {
           if (preciseNetPaymentCostBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -12661,10 +12661,10 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
          */
         public Builder setPreciseNetPaymentCost(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (preciseNetPaymentCostBuilder_ == null) {
             preciseNetPaymentCost_ = builderForValue.build();
             onChanged();
@@ -12679,13 +12679,13 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
          */
-        public Builder mergePreciseNetPaymentCost(io.dstore.Values.decimalValue value) {
+        public Builder mergePreciseNetPaymentCost(io.dstore.values.DecimalValue value) {
           if (preciseNetPaymentCostBuilder_ == null) {
             if (preciseNetPaymentCost_ != null) {
               preciseNetPaymentCost_ =
-                io.dstore.Values.decimalValue.newBuilder(preciseNetPaymentCost_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(preciseNetPaymentCost_).mergeFrom(value).buildPartial();
             } else {
               preciseNetPaymentCost_ = value;
             }
@@ -12701,7 +12701,7 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
          */
         public Builder clearPreciseNetPaymentCost() {
           if (preciseNetPaymentCostBuilder_ == null) {
@@ -12719,9 +12719,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPreciseNetPaymentCostBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPreciseNetPaymentCostBuilder() {
           
           onChanged();
           return getPreciseNetPaymentCostFieldBuilder().getBuilder();
@@ -12731,14 +12731,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPreciseNetPaymentCostOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPreciseNetPaymentCostOrBuilder() {
           if (preciseNetPaymentCostBuilder_ != null) {
             return preciseNetPaymentCostBuilder_.getMessageOrBuilder();
           } else {
             return preciseNetPaymentCost_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetPaymentCost_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetPaymentCost_;
           }
         }
         /**
@@ -12746,14 +12746,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Netto-Betrag für die Abrechnungsart-Kosten "NetPaymentCost"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_payment_cost = 10025;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_payment_cost = 10025;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPreciseNetPaymentCostFieldBuilder() {
           if (preciseNetPaymentCostBuilder_ == null) {
             preciseNetPaymentCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPreciseNetPaymentCost(),
                     getParentForChildren(),
                     isClean());
@@ -12762,15 +12762,15 @@ public final class OmSearchOrderNoAd {
           return preciseNetPaymentCostBuilder_;
         }
 
-        private io.dstore.Values.stringValue customerCharacteristicValue2_ = null;
+        private io.dstore.values.StringValue customerCharacteristicValue2_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> customerCharacteristicValue2Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> customerCharacteristicValue2Builder_;
         /**
          * <pre>
          * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
          */
         public boolean hasCustomerCharacteristicValue2() {
           return customerCharacteristicValue2Builder_ != null || customerCharacteristicValue2_ != null;
@@ -12780,11 +12780,11 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
          */
-        public io.dstore.Values.stringValue getCustomerCharacteristicValue2() {
+        public io.dstore.values.StringValue getCustomerCharacteristicValue2() {
           if (customerCharacteristicValue2Builder_ == null) {
-            return customerCharacteristicValue2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : customerCharacteristicValue2_;
+            return customerCharacteristicValue2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : customerCharacteristicValue2_;
           } else {
             return customerCharacteristicValue2Builder_.getMessage();
           }
@@ -12794,9 +12794,9 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
          */
-        public Builder setCustomerCharacteristicValue2(io.dstore.Values.stringValue value) {
+        public Builder setCustomerCharacteristicValue2(io.dstore.values.StringValue value) {
           if (customerCharacteristicValue2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -12814,10 +12814,10 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
          */
         public Builder setCustomerCharacteristicValue2(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (customerCharacteristicValue2Builder_ == null) {
             customerCharacteristicValue2_ = builderForValue.build();
             onChanged();
@@ -12832,13 +12832,13 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
          */
-        public Builder mergeCustomerCharacteristicValue2(io.dstore.Values.stringValue value) {
+        public Builder mergeCustomerCharacteristicValue2(io.dstore.values.StringValue value) {
           if (customerCharacteristicValue2Builder_ == null) {
             if (customerCharacteristicValue2_ != null) {
               customerCharacteristicValue2_ =
-                io.dstore.Values.stringValue.newBuilder(customerCharacteristicValue2_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(customerCharacteristicValue2_).mergeFrom(value).buildPartial();
             } else {
               customerCharacteristicValue2_ = value;
             }
@@ -12854,7 +12854,7 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
          */
         public Builder clearCustomerCharacteristicValue2() {
           if (customerCharacteristicValue2Builder_ == null) {
@@ -12872,9 +12872,9 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCustomerCharacteristicValue2Builder() {
+        public io.dstore.values.StringValue.Builder getCustomerCharacteristicValue2Builder() {
           
           onChanged();
           return getCustomerCharacteristicValue2FieldBuilder().getBuilder();
@@ -12884,14 +12884,14 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCustomerCharacteristicValue2OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCustomerCharacteristicValue2OrBuilder() {
           if (customerCharacteristicValue2Builder_ != null) {
             return customerCharacteristicValue2Builder_.getMessageOrBuilder();
           } else {
             return customerCharacteristicValue2_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : customerCharacteristicValue2_;
+                io.dstore.values.StringValue.getDefaultInstance() : customerCharacteristicValue2_;
           }
         }
         /**
@@ -12899,14 +12899,14 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value2 = 10026;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value2 = 10026;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCustomerCharacteristicValue2FieldBuilder() {
           if (customerCharacteristicValue2Builder_ == null) {
             customerCharacteristicValue2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCustomerCharacteristicValue2(),
                     getParentForChildren(),
                     isClean());
@@ -12915,15 +12915,15 @@ public final class OmSearchOrderNoAd {
           return customerCharacteristicValue2Builder_;
         }
 
-        private io.dstore.Values.stringValue publicDescription_ = null;
+        private io.dstore.values.StringValue publicDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> publicDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> publicDescriptionBuilder_;
         /**
          * <pre>
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+         * <code>optional .dstore.values.StringValue public_description = 10027;</code>
          */
         public boolean hasPublicDescription() {
           return publicDescriptionBuilder_ != null || publicDescription_ != null;
@@ -12933,11 +12933,11 @@ public final class OmSearchOrderNoAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+         * <code>optional .dstore.values.StringValue public_description = 10027;</code>
          */
-        public io.dstore.Values.stringValue getPublicDescription() {
+        public io.dstore.values.StringValue getPublicDescription() {
           if (publicDescriptionBuilder_ == null) {
-            return publicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : publicDescription_;
+            return publicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : publicDescription_;
           } else {
             return publicDescriptionBuilder_.getMessage();
           }
@@ -12947,9 +12947,9 @@ public final class OmSearchOrderNoAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+         * <code>optional .dstore.values.StringValue public_description = 10027;</code>
          */
-        public Builder setPublicDescription(io.dstore.Values.stringValue value) {
+        public Builder setPublicDescription(io.dstore.values.StringValue value) {
           if (publicDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -12967,10 +12967,10 @@ public final class OmSearchOrderNoAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+         * <code>optional .dstore.values.StringValue public_description = 10027;</code>
          */
         public Builder setPublicDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (publicDescriptionBuilder_ == null) {
             publicDescription_ = builderForValue.build();
             onChanged();
@@ -12985,13 +12985,13 @@ public final class OmSearchOrderNoAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+         * <code>optional .dstore.values.StringValue public_description = 10027;</code>
          */
-        public Builder mergePublicDescription(io.dstore.Values.stringValue value) {
+        public Builder mergePublicDescription(io.dstore.values.StringValue value) {
           if (publicDescriptionBuilder_ == null) {
             if (publicDescription_ != null) {
               publicDescription_ =
-                io.dstore.Values.stringValue.newBuilder(publicDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(publicDescription_).mergeFrom(value).buildPartial();
             } else {
               publicDescription_ = value;
             }
@@ -13007,7 +13007,7 @@ public final class OmSearchOrderNoAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+         * <code>optional .dstore.values.StringValue public_description = 10027;</code>
          */
         public Builder clearPublicDescription() {
           if (publicDescriptionBuilder_ == null) {
@@ -13025,9 +13025,9 @@ public final class OmSearchOrderNoAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+         * <code>optional .dstore.values.StringValue public_description = 10027;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPublicDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getPublicDescriptionBuilder() {
           
           onChanged();
           return getPublicDescriptionFieldBuilder().getBuilder();
@@ -13037,14 +13037,14 @@ public final class OmSearchOrderNoAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+         * <code>optional .dstore.values.StringValue public_description = 10027;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPublicDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPublicDescriptionOrBuilder() {
           if (publicDescriptionBuilder_ != null) {
             return publicDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return publicDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : publicDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : publicDescription_;
           }
         }
         /**
@@ -13052,14 +13052,14 @@ public final class OmSearchOrderNoAd {
          * Beschreibung des Status "OrderStateID" für den Kunden
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue public_description = 10027;</code>
+         * <code>optional .dstore.values.StringValue public_description = 10027;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPublicDescriptionFieldBuilder() {
           if (publicDescriptionBuilder_ == null) {
             publicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPublicDescription(),
                     getParentForChildren(),
                     isClean());
@@ -13068,15 +13068,15 @@ public final class OmSearchOrderNoAd {
           return publicDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue currencyId_ = null;
+        private io.dstore.values.IntegerValue currencyId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
         /**
          * <pre>
          * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
          */
         public boolean hasCurrencyId() {
           return currencyIdBuilder_ != null || currencyId_ != null;
@@ -13086,11 +13086,11 @@ public final class OmSearchOrderNoAd {
          * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
          */
-        public io.dstore.Values.integerValue getCurrencyId() {
+        public io.dstore.values.IntegerValue getCurrencyId() {
           if (currencyIdBuilder_ == null) {
-            return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+            return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
           } else {
             return currencyIdBuilder_.getMessage();
           }
@@ -13100,9 +13100,9 @@ public final class OmSearchOrderNoAd {
          * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
          */
-        public Builder setCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
           if (currencyIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -13120,10 +13120,10 @@ public final class OmSearchOrderNoAd {
          * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
          */
         public Builder setCurrencyId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (currencyIdBuilder_ == null) {
             currencyId_ = builderForValue.build();
             onChanged();
@@ -13138,13 +13138,13 @@ public final class OmSearchOrderNoAd {
          * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
          */
-        public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
           if (currencyIdBuilder_ == null) {
             if (currencyId_ != null) {
               currencyId_ =
-                io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
             } else {
               currencyId_ = value;
             }
@@ -13160,7 +13160,7 @@ public final class OmSearchOrderNoAd {
          * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
          */
         public Builder clearCurrencyId() {
           if (currencyIdBuilder_ == null) {
@@ -13178,9 +13178,9 @@ public final class OmSearchOrderNoAd {
          * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
           
           onChanged();
           return getCurrencyIdFieldBuilder().getBuilder();
@@ -13190,14 +13190,14 @@ public final class OmSearchOrderNoAd {
          * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
           if (currencyIdBuilder_ != null) {
             return currencyIdBuilder_.getMessageOrBuilder();
           } else {
             return currencyId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
           }
         }
         /**
@@ -13205,14 +13205,14 @@ public final class OmSearchOrderNoAd {
          * ID einer Währung, in der die Kosten "ShippingCost", "PaymentCost", "NettoSum" und "BruttoSum" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10028;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10028;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCurrencyIdFieldBuilder() {
           if (currencyIdBuilder_ == null) {
             currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCurrencyId(),
                     getParentForChildren(),
                     isClean());
@@ -13221,15 +13221,15 @@ public final class OmSearchOrderNoAd {
           return currencyIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue customerCharacteristicValue1_ = null;
+        private io.dstore.values.StringValue customerCharacteristicValue1_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> customerCharacteristicValue1Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> customerCharacteristicValue1Builder_;
         /**
          * <pre>
          * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
          */
         public boolean hasCustomerCharacteristicValue1() {
           return customerCharacteristicValue1Builder_ != null || customerCharacteristicValue1_ != null;
@@ -13239,11 +13239,11 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
          */
-        public io.dstore.Values.stringValue getCustomerCharacteristicValue1() {
+        public io.dstore.values.StringValue getCustomerCharacteristicValue1() {
           if (customerCharacteristicValue1Builder_ == null) {
-            return customerCharacteristicValue1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : customerCharacteristicValue1_;
+            return customerCharacteristicValue1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : customerCharacteristicValue1_;
           } else {
             return customerCharacteristicValue1Builder_.getMessage();
           }
@@ -13253,9 +13253,9 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
          */
-        public Builder setCustomerCharacteristicValue1(io.dstore.Values.stringValue value) {
+        public Builder setCustomerCharacteristicValue1(io.dstore.values.StringValue value) {
           if (customerCharacteristicValue1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -13273,10 +13273,10 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
          */
         public Builder setCustomerCharacteristicValue1(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (customerCharacteristicValue1Builder_ == null) {
             customerCharacteristicValue1_ = builderForValue.build();
             onChanged();
@@ -13291,13 +13291,13 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
          */
-        public Builder mergeCustomerCharacteristicValue1(io.dstore.Values.stringValue value) {
+        public Builder mergeCustomerCharacteristicValue1(io.dstore.values.StringValue value) {
           if (customerCharacteristicValue1Builder_ == null) {
             if (customerCharacteristicValue1_ != null) {
               customerCharacteristicValue1_ =
-                io.dstore.Values.stringValue.newBuilder(customerCharacteristicValue1_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(customerCharacteristicValue1_).mergeFrom(value).buildPartial();
             } else {
               customerCharacteristicValue1_ = value;
             }
@@ -13313,7 +13313,7 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
          */
         public Builder clearCustomerCharacteristicValue1() {
           if (customerCharacteristicValue1Builder_ == null) {
@@ -13331,9 +13331,9 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCustomerCharacteristicValue1Builder() {
+        public io.dstore.values.StringValue.Builder getCustomerCharacteristicValue1Builder() {
           
           onChanged();
           return getCustomerCharacteristicValue1FieldBuilder().getBuilder();
@@ -13343,14 +13343,14 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCustomerCharacteristicValue1OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCustomerCharacteristicValue1OrBuilder() {
           if (customerCharacteristicValue1Builder_ != null) {
             return customerCharacteristicValue1Builder_.getMessageOrBuilder();
           } else {
             return customerCharacteristicValue1_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : customerCharacteristicValue1_;
+                io.dstore.values.StringValue.getDefaultInstance() : customerCharacteristicValue1_;
           }
         }
         /**
@@ -13358,14 +13358,14 @@ public final class OmSearchOrderNoAd {
          * Eigensch. von "PersonID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristicIDsForOrderLists" (zum entspr. Typ) konf. ist und nicht für den Aufrufer kompl. lesend gesperrt ist. "NULL" wenn "&#64;ShowPersonCharacteristics = 0".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue customer_characteristic_value1 = 10029;</code>
+         * <code>optional .dstore.values.StringValue customer_characteristic_value1 = 10029;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCustomerCharacteristicValue1FieldBuilder() {
           if (customerCharacteristicValue1Builder_ == null) {
             customerCharacteristicValue1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCustomerCharacteristicValue1(),
                     getParentForChildren(),
                     isClean());
@@ -13374,15 +13374,15 @@ public final class OmSearchOrderNoAd {
           return customerCharacteristicValue1Builder_;
         }
 
-        private io.dstore.Values.decimalValue preciseGrossSum_ = null;
+        private io.dstore.values.DecimalValue preciseGrossSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseGrossSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> preciseGrossSumBuilder_;
         /**
          * <pre>
          * Exakter (intern gespeicherter) Wert für "GrossSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
          */
         public boolean hasPreciseGrossSum() {
           return preciseGrossSumBuilder_ != null || preciseGrossSum_ != null;
@@ -13392,11 +13392,11 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
          */
-        public io.dstore.Values.decimalValue getPreciseGrossSum() {
+        public io.dstore.values.DecimalValue getPreciseGrossSum() {
           if (preciseGrossSumBuilder_ == null) {
-            return preciseGrossSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseGrossSum_;
+            return preciseGrossSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseGrossSum_;
           } else {
             return preciseGrossSumBuilder_.getMessage();
           }
@@ -13406,9 +13406,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
          */
-        public Builder setPreciseGrossSum(io.dstore.Values.decimalValue value) {
+        public Builder setPreciseGrossSum(io.dstore.values.DecimalValue value) {
           if (preciseGrossSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -13426,10 +13426,10 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
          */
         public Builder setPreciseGrossSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (preciseGrossSumBuilder_ == null) {
             preciseGrossSum_ = builderForValue.build();
             onChanged();
@@ -13444,13 +13444,13 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
          */
-        public Builder mergePreciseGrossSum(io.dstore.Values.decimalValue value) {
+        public Builder mergePreciseGrossSum(io.dstore.values.DecimalValue value) {
           if (preciseGrossSumBuilder_ == null) {
             if (preciseGrossSum_ != null) {
               preciseGrossSum_ =
-                io.dstore.Values.decimalValue.newBuilder(preciseGrossSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(preciseGrossSum_).mergeFrom(value).buildPartial();
             } else {
               preciseGrossSum_ = value;
             }
@@ -13466,7 +13466,7 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
          */
         public Builder clearPreciseGrossSum() {
           if (preciseGrossSumBuilder_ == null) {
@@ -13484,9 +13484,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPreciseGrossSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPreciseGrossSumBuilder() {
           
           onChanged();
           return getPreciseGrossSumFieldBuilder().getBuilder();
@@ -13496,14 +13496,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPreciseGrossSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPreciseGrossSumOrBuilder() {
           if (preciseGrossSumBuilder_ != null) {
             return preciseGrossSumBuilder_.getMessageOrBuilder();
           } else {
             return preciseGrossSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : preciseGrossSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : preciseGrossSum_;
           }
         }
         /**
@@ -13511,14 +13511,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_sum = 10030;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_sum = 10030;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPreciseGrossSumFieldBuilder() {
           if (preciseGrossSumBuilder_ == null) {
             preciseGrossSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPreciseGrossSum(),
                     getParentForChildren(),
                     isClean());
@@ -13527,15 +13527,15 @@ public final class OmSearchOrderNoAd {
           return preciseGrossSumBuilder_;
         }
 
-        private io.dstore.Values.decimalValue shippingCost_ = null;
+        private io.dstore.values.DecimalValue shippingCost_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> shippingCostBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> shippingCostBuilder_;
         /**
          * <pre>
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
          */
         public boolean hasShippingCost() {
           return shippingCostBuilder_ != null || shippingCost_ != null;
@@ -13545,11 +13545,11 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
          */
-        public io.dstore.Values.decimalValue getShippingCost() {
+        public io.dstore.values.DecimalValue getShippingCost() {
           if (shippingCostBuilder_ == null) {
-            return shippingCost_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : shippingCost_;
+            return shippingCost_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : shippingCost_;
           } else {
             return shippingCostBuilder_.getMessage();
           }
@@ -13559,9 +13559,9 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
          */
-        public Builder setShippingCost(io.dstore.Values.decimalValue value) {
+        public Builder setShippingCost(io.dstore.values.DecimalValue value) {
           if (shippingCostBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -13579,10 +13579,10 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
          */
         public Builder setShippingCost(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (shippingCostBuilder_ == null) {
             shippingCost_ = builderForValue.build();
             onChanged();
@@ -13597,13 +13597,13 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
          */
-        public Builder mergeShippingCost(io.dstore.Values.decimalValue value) {
+        public Builder mergeShippingCost(io.dstore.values.DecimalValue value) {
           if (shippingCostBuilder_ == null) {
             if (shippingCost_ != null) {
               shippingCost_ =
-                io.dstore.Values.decimalValue.newBuilder(shippingCost_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(shippingCost_).mergeFrom(value).buildPartial();
             } else {
               shippingCost_ = value;
             }
@@ -13619,7 +13619,7 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
          */
         public Builder clearShippingCost() {
           if (shippingCostBuilder_ == null) {
@@ -13637,9 +13637,9 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getShippingCostBuilder() {
+        public io.dstore.values.DecimalValue.Builder getShippingCostBuilder() {
           
           onChanged();
           return getShippingCostFieldBuilder().getBuilder();
@@ -13649,14 +13649,14 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getShippingCostOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getShippingCostOrBuilder() {
           if (shippingCostBuilder_ != null) {
             return shippingCostBuilder_.getMessageOrBuilder();
           } else {
             return shippingCost_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : shippingCost_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : shippingCost_;
           }
         }
         /**
@@ -13664,14 +13664,14 @@ public final class OmSearchOrderNoAd {
          * Evtl. anfallende Kosten (immer netto !) in der durch "CurrencyID" angegebenen Währung für die Versandart "ShippingTypeID". NICHT VERWENDEN, wird zukünftig durch "NetShippingCost" ersetzt !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue shipping_cost = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue shipping_cost = 10031;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getShippingCostFieldBuilder() {
           if (shippingCostBuilder_ == null) {
             shippingCostBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getShippingCost(),
                     getParentForChildren(),
                     isClean());
@@ -13680,15 +13680,15 @@ public final class OmSearchOrderNoAd {
           return shippingCostBuilder_;
         }
 
-        private io.dstore.Values.stringValue characVal1RestrByPattern_ = null;
+        private io.dstore.values.StringValue characVal1RestrByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characVal1RestrByPatternBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characVal1RestrByPatternBuilder_;
         /**
          * <pre>
          * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+         * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
          */
         public boolean hasCharacVal1RestrByPattern() {
           return characVal1RestrByPatternBuilder_ != null || characVal1RestrByPattern_ != null;
@@ -13698,11 +13698,11 @@ public final class OmSearchOrderNoAd {
          * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+         * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
          */
-        public io.dstore.Values.stringValue getCharacVal1RestrByPattern() {
+        public io.dstore.values.StringValue getCharacVal1RestrByPattern() {
           if (characVal1RestrByPatternBuilder_ == null) {
-            return characVal1RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characVal1RestrByPattern_;
+            return characVal1RestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characVal1RestrByPattern_;
           } else {
             return characVal1RestrByPatternBuilder_.getMessage();
           }
@@ -13712,9 +13712,9 @@ public final class OmSearchOrderNoAd {
          * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+         * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
          */
-        public Builder setCharacVal1RestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder setCharacVal1RestrByPattern(io.dstore.values.StringValue value) {
           if (characVal1RestrByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -13732,10 +13732,10 @@ public final class OmSearchOrderNoAd {
          * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+         * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
          */
         public Builder setCharacVal1RestrByPattern(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (characVal1RestrByPatternBuilder_ == null) {
             characVal1RestrByPattern_ = builderForValue.build();
             onChanged();
@@ -13750,13 +13750,13 @@ public final class OmSearchOrderNoAd {
          * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+         * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
          */
-        public Builder mergeCharacVal1RestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder mergeCharacVal1RestrByPattern(io.dstore.values.StringValue value) {
           if (characVal1RestrByPatternBuilder_ == null) {
             if (characVal1RestrByPattern_ != null) {
               characVal1RestrByPattern_ =
-                io.dstore.Values.stringValue.newBuilder(characVal1RestrByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(characVal1RestrByPattern_).mergeFrom(value).buildPartial();
             } else {
               characVal1RestrByPattern_ = value;
             }
@@ -13772,7 +13772,7 @@ public final class OmSearchOrderNoAd {
          * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+         * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
          */
         public Builder clearCharacVal1RestrByPattern() {
           if (characVal1RestrByPatternBuilder_ == null) {
@@ -13790,9 +13790,9 @@ public final class OmSearchOrderNoAd {
          * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+         * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCharacVal1RestrByPatternBuilder() {
+        public io.dstore.values.StringValue.Builder getCharacVal1RestrByPatternBuilder() {
           
           onChanged();
           return getCharacVal1RestrByPatternFieldBuilder().getBuilder();
@@ -13802,14 +13802,14 @@ public final class OmSearchOrderNoAd {
          * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+         * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCharacVal1RestrByPatternOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCharacVal1RestrByPatternOrBuilder() {
           if (characVal1RestrByPatternBuilder_ != null) {
             return characVal1RestrByPatternBuilder_.getMessageOrBuilder();
           } else {
             return characVal1RestrByPattern_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : characVal1RestrByPattern_;
+                io.dstore.values.StringValue.getDefaultInstance() : characVal1RestrByPattern_;
           }
         }
         /**
@@ -13817,14 +13817,14 @@ public final class OmSearchOrderNoAd {
          * Was enthält "CustomerCharacteristicValue1" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "CustomerCharacteristicValue1" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue charac_val1_restr_by_pattern = 10032;</code>
+         * <code>optional .dstore.values.StringValue charac_val1_restr_by_pattern = 10032;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCharacVal1RestrByPatternFieldBuilder() {
           if (characVal1RestrByPatternBuilder_ == null) {
             characVal1RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCharacVal1RestrByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -13833,15 +13833,15 @@ public final class OmSearchOrderNoAd {
           return characVal1RestrByPatternBuilder_;
         }
 
-        private io.dstore.Values.integerValue paymentTypeId_ = null;
+        private io.dstore.values.IntegerValue paymentTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentTypeIdBuilder_;
         /**
          * <pre>
          * ID einer Zahlungsart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
          */
         public boolean hasPaymentTypeId() {
           return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
@@ -13851,11 +13851,11 @@ public final class OmSearchOrderNoAd {
          * ID einer Zahlungsart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
          */
-        public io.dstore.Values.integerValue getPaymentTypeId() {
+        public io.dstore.values.IntegerValue getPaymentTypeId() {
           if (paymentTypeIdBuilder_ == null) {
-            return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+            return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
           } else {
             return paymentTypeIdBuilder_.getMessage();
           }
@@ -13865,9 +13865,9 @@ public final class OmSearchOrderNoAd {
          * ID einer Zahlungsart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
          */
-        public Builder setPaymentTypeId(io.dstore.Values.integerValue value) {
+        public Builder setPaymentTypeId(io.dstore.values.IntegerValue value) {
           if (paymentTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -13885,10 +13885,10 @@ public final class OmSearchOrderNoAd {
          * ID einer Zahlungsart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
          */
         public Builder setPaymentTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (paymentTypeIdBuilder_ == null) {
             paymentTypeId_ = builderForValue.build();
             onChanged();
@@ -13903,13 +13903,13 @@ public final class OmSearchOrderNoAd {
          * ID einer Zahlungsart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
          */
-        public Builder mergePaymentTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergePaymentTypeId(io.dstore.values.IntegerValue value) {
           if (paymentTypeIdBuilder_ == null) {
             if (paymentTypeId_ != null) {
               paymentTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
             } else {
               paymentTypeId_ = value;
             }
@@ -13925,7 +13925,7 @@ public final class OmSearchOrderNoAd {
          * ID einer Zahlungsart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
          */
         public Builder clearPaymentTypeId() {
           if (paymentTypeIdBuilder_ == null) {
@@ -13943,9 +13943,9 @@ public final class OmSearchOrderNoAd {
          * ID einer Zahlungsart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPaymentTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPaymentTypeIdBuilder() {
           
           onChanged();
           return getPaymentTypeIdFieldBuilder().getBuilder();
@@ -13955,14 +13955,14 @@ public final class OmSearchOrderNoAd {
          * ID einer Zahlungsart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
           if (paymentTypeIdBuilder_ != null) {
             return paymentTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return paymentTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
           }
         }
         /**
@@ -13970,14 +13970,14 @@ public final class OmSearchOrderNoAd {
          * ID einer Zahlungsart für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10033;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPaymentTypeIdFieldBuilder() {
           if (paymentTypeIdBuilder_ == null) {
             paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPaymentTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -13986,15 +13986,15 @@ public final class OmSearchOrderNoAd {
           return paymentTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue orderState_ = null;
+        private io.dstore.values.StringValue orderState_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderStateBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> orderStateBuilder_;
         /**
          * <pre>
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+         * <code>optional .dstore.values.StringValue order_state = 10034;</code>
          */
         public boolean hasOrderState() {
           return orderStateBuilder_ != null || orderState_ != null;
@@ -14004,11 +14004,11 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+         * <code>optional .dstore.values.StringValue order_state = 10034;</code>
          */
-        public io.dstore.Values.stringValue getOrderState() {
+        public io.dstore.values.StringValue getOrderState() {
           if (orderStateBuilder_ == null) {
-            return orderState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderState_;
+            return orderState_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderState_;
           } else {
             return orderStateBuilder_.getMessage();
           }
@@ -14018,9 +14018,9 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+         * <code>optional .dstore.values.StringValue order_state = 10034;</code>
          */
-        public Builder setOrderState(io.dstore.Values.stringValue value) {
+        public Builder setOrderState(io.dstore.values.StringValue value) {
           if (orderStateBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -14038,10 +14038,10 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+         * <code>optional .dstore.values.StringValue order_state = 10034;</code>
          */
         public Builder setOrderState(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (orderStateBuilder_ == null) {
             orderState_ = builderForValue.build();
             onChanged();
@@ -14056,13 +14056,13 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+         * <code>optional .dstore.values.StringValue order_state = 10034;</code>
          */
-        public Builder mergeOrderState(io.dstore.Values.stringValue value) {
+        public Builder mergeOrderState(io.dstore.values.StringValue value) {
           if (orderStateBuilder_ == null) {
             if (orderState_ != null) {
               orderState_ =
-                io.dstore.Values.stringValue.newBuilder(orderState_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(orderState_).mergeFrom(value).buildPartial();
             } else {
               orderState_ = value;
             }
@@ -14078,7 +14078,7 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+         * <code>optional .dstore.values.StringValue order_state = 10034;</code>
          */
         public Builder clearOrderState() {
           if (orderStateBuilder_ == null) {
@@ -14096,9 +14096,9 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+         * <code>optional .dstore.values.StringValue order_state = 10034;</code>
          */
-        public io.dstore.Values.stringValue.Builder getOrderStateBuilder() {
+        public io.dstore.values.StringValue.Builder getOrderStateBuilder() {
           
           onChanged();
           return getOrderStateFieldBuilder().getBuilder();
@@ -14108,14 +14108,14 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+         * <code>optional .dstore.values.StringValue order_state = 10034;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getOrderStateOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getOrderStateOrBuilder() {
           if (orderStateBuilder_ != null) {
             return orderStateBuilder_.getMessageOrBuilder();
           } else {
             return orderState_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : orderState_;
+                io.dstore.values.StringValue.getDefaultInstance() : orderState_;
           }
         }
         /**
@@ -14123,14 +14123,14 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung des Status "OrderStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_state = 10034;</code>
+         * <code>optional .dstore.values.StringValue order_state = 10034;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getOrderStateFieldBuilder() {
           if (orderStateBuilder_ == null) {
             orderStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getOrderState(),
                     getParentForChildren(),
                     isClean());
@@ -14139,15 +14139,15 @@ public final class OmSearchOrderNoAd {
           return orderStateBuilder_;
         }
 
-        private io.dstore.Values.stringValue description_ = null;
+        private io.dstore.values.StringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 20004;</code>
+         * <code>optional .dstore.values.StringValue description = 20004;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -14157,11 +14157,11 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 20004;</code>
+         * <code>optional .dstore.values.StringValue description = 20004;</code>
          */
-        public io.dstore.Values.stringValue getDescription() {
+        public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
@@ -14171,9 +14171,9 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 20004;</code>
+         * <code>optional .dstore.values.StringValue description = 20004;</code>
          */
-        public Builder setDescription(io.dstore.Values.stringValue value) {
+        public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -14191,10 +14191,10 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 20004;</code>
+         * <code>optional .dstore.values.StringValue description = 20004;</code>
          */
         public Builder setDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -14209,13 +14209,13 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 20004;</code>
+         * <code>optional .dstore.values.StringValue description = 20004;</code>
          */
-        public Builder mergeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -14231,7 +14231,7 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 20004;</code>
+         * <code>optional .dstore.values.StringValue description = 20004;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -14249,9 +14249,9 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 20004;</code>
+         * <code>optional .dstore.values.StringValue description = 20004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
@@ -14261,14 +14261,14 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 20004;</code>
+         * <code>optional .dstore.values.StringValue description = 20004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.values.StringValue.getDefaultInstance() : description_;
           }
         }
         /**
@@ -14276,14 +14276,14 @@ public final class OmSearchOrderNoAd {
          * Bezeichnung der "NodeID". Falls vorhanden, wird an dieser Stelle die Eigenschaft (des Elementes "NodeID") zum Merkmal "Produktbezeichnung" (in der Sprache "&#64;LanguageID") ausgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 20004;</code>
+         * <code>optional .dstore.values.StringValue description = 20004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -14292,15 +14292,15 @@ public final class OmSearchOrderNoAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.Values.decimalValue preciseNetContentSum_ = null;
+        private io.dstore.values.DecimalValue preciseNetContentSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseNetContentSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> preciseNetContentSumBuilder_;
         /**
          * <pre>
          * Exakter (intern gespeicherter) Wert für "NetContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
          */
         public boolean hasPreciseNetContentSum() {
           return preciseNetContentSumBuilder_ != null || preciseNetContentSum_ != null;
@@ -14310,11 +14310,11 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
          */
-        public io.dstore.Values.decimalValue getPreciseNetContentSum() {
+        public io.dstore.values.DecimalValue getPreciseNetContentSum() {
           if (preciseNetContentSumBuilder_ == null) {
-            return preciseNetContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetContentSum_;
+            return preciseNetContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetContentSum_;
           } else {
             return preciseNetContentSumBuilder_.getMessage();
           }
@@ -14324,9 +14324,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
          */
-        public Builder setPreciseNetContentSum(io.dstore.Values.decimalValue value) {
+        public Builder setPreciseNetContentSum(io.dstore.values.DecimalValue value) {
           if (preciseNetContentSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -14344,10 +14344,10 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
          */
         public Builder setPreciseNetContentSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (preciseNetContentSumBuilder_ == null) {
             preciseNetContentSum_ = builderForValue.build();
             onChanged();
@@ -14362,13 +14362,13 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
          */
-        public Builder mergePreciseNetContentSum(io.dstore.Values.decimalValue value) {
+        public Builder mergePreciseNetContentSum(io.dstore.values.DecimalValue value) {
           if (preciseNetContentSumBuilder_ == null) {
             if (preciseNetContentSum_ != null) {
               preciseNetContentSum_ =
-                io.dstore.Values.decimalValue.newBuilder(preciseNetContentSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(preciseNetContentSum_).mergeFrom(value).buildPartial();
             } else {
               preciseNetContentSum_ = value;
             }
@@ -14384,7 +14384,7 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
          */
         public Builder clearPreciseNetContentSum() {
           if (preciseNetContentSumBuilder_ == null) {
@@ -14402,9 +14402,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPreciseNetContentSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPreciseNetContentSumBuilder() {
           
           onChanged();
           return getPreciseNetContentSumFieldBuilder().getBuilder();
@@ -14414,14 +14414,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPreciseNetContentSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPreciseNetContentSumOrBuilder() {
           if (preciseNetContentSumBuilder_ != null) {
             return preciseNetContentSumBuilder_.getMessageOrBuilder();
           } else {
             return preciseNetContentSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetContentSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetContentSum_;
           }
         }
         /**
@@ -14429,14 +14429,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_content_sum = 20005;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_content_sum = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPreciseNetContentSumFieldBuilder() {
           if (preciseNetContentSumBuilder_ == null) {
             preciseNetContentSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPreciseNetContentSum(),
                     getParentForChildren(),
                     isClean());
@@ -14445,15 +14445,15 @@ public final class OmSearchOrderNoAd {
           return preciseNetContentSumBuilder_;
         }
 
-        private io.dstore.Values.stringValue orderContentNo_ = null;
+        private io.dstore.values.StringValue orderContentNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderContentNoBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> orderContentNoBuilder_;
         /**
          * <pre>
          * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+         * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
          */
         public boolean hasOrderContentNo() {
           return orderContentNoBuilder_ != null || orderContentNo_ != null;
@@ -14463,11 +14463,11 @@ public final class OmSearchOrderNoAd {
          * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+         * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
          */
-        public io.dstore.Values.stringValue getOrderContentNo() {
+        public io.dstore.values.StringValue getOrderContentNo() {
           if (orderContentNoBuilder_ == null) {
-            return orderContentNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderContentNo_;
+            return orderContentNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderContentNo_;
           } else {
             return orderContentNoBuilder_.getMessage();
           }
@@ -14477,9 +14477,9 @@ public final class OmSearchOrderNoAd {
          * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+         * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
          */
-        public Builder setOrderContentNo(io.dstore.Values.stringValue value) {
+        public Builder setOrderContentNo(io.dstore.values.StringValue value) {
           if (orderContentNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -14497,10 +14497,10 @@ public final class OmSearchOrderNoAd {
          * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+         * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
          */
         public Builder setOrderContentNo(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (orderContentNoBuilder_ == null) {
             orderContentNo_ = builderForValue.build();
             onChanged();
@@ -14515,13 +14515,13 @@ public final class OmSearchOrderNoAd {
          * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+         * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
          */
-        public Builder mergeOrderContentNo(io.dstore.Values.stringValue value) {
+        public Builder mergeOrderContentNo(io.dstore.values.StringValue value) {
           if (orderContentNoBuilder_ == null) {
             if (orderContentNo_ != null) {
               orderContentNo_ =
-                io.dstore.Values.stringValue.newBuilder(orderContentNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(orderContentNo_).mergeFrom(value).buildPartial();
             } else {
               orderContentNo_ = value;
             }
@@ -14537,7 +14537,7 @@ public final class OmSearchOrderNoAd {
          * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+         * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
          */
         public Builder clearOrderContentNo() {
           if (orderContentNoBuilder_ == null) {
@@ -14555,9 +14555,9 @@ public final class OmSearchOrderNoAd {
          * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+         * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
          */
-        public io.dstore.Values.stringValue.Builder getOrderContentNoBuilder() {
+        public io.dstore.values.StringValue.Builder getOrderContentNoBuilder() {
           
           onChanged();
           return getOrderContentNoFieldBuilder().getBuilder();
@@ -14567,14 +14567,14 @@ public final class OmSearchOrderNoAd {
          * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+         * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getOrderContentNoOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getOrderContentNoOrBuilder() {
           if (orderContentNoBuilder_ != null) {
             return orderContentNoBuilder_.getMessageOrBuilder();
           } else {
             return orderContentNo_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : orderContentNo_;
+                io.dstore.values.StringValue.getDefaultInstance() : orderContentNo_;
           }
         }
         /**
@@ -14582,14 +14582,14 @@ public final class OmSearchOrderNoAd {
          * Nummer der Bestellung eines Fremdsystems, in das die Position exportiert wurde. Immer "NULL" falls "OrderNo" NICHT "NULL" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_content_no = 20007;</code>
+         * <code>optional .dstore.values.StringValue order_content_no = 20007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getOrderContentNoFieldBuilder() {
           if (orderContentNoBuilder_ == null) {
             orderContentNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getOrderContentNo(),
                     getParentForChildren(),
                     isClean());
@@ -14598,15 +14598,15 @@ public final class OmSearchOrderNoAd {
           return orderContentNoBuilder_;
         }
 
-        private io.dstore.Values.integerValue orderContentId_ = null;
+        private io.dstore.values.IntegerValue orderContentId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderContentIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderContentIdBuilder_;
         /**
          * <pre>
          * ID der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
          */
         public boolean hasOrderContentId() {
           return orderContentIdBuilder_ != null || orderContentId_ != null;
@@ -14616,11 +14616,11 @@ public final class OmSearchOrderNoAd {
          * ID der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
          */
-        public io.dstore.Values.integerValue getOrderContentId() {
+        public io.dstore.values.IntegerValue getOrderContentId() {
           if (orderContentIdBuilder_ == null) {
-            return orderContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderContentId_;
+            return orderContentId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderContentId_;
           } else {
             return orderContentIdBuilder_.getMessage();
           }
@@ -14630,9 +14630,9 @@ public final class OmSearchOrderNoAd {
          * ID der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
          */
-        public Builder setOrderContentId(io.dstore.Values.integerValue value) {
+        public Builder setOrderContentId(io.dstore.values.IntegerValue value) {
           if (orderContentIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -14650,10 +14650,10 @@ public final class OmSearchOrderNoAd {
          * ID der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
          */
         public Builder setOrderContentId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (orderContentIdBuilder_ == null) {
             orderContentId_ = builderForValue.build();
             onChanged();
@@ -14668,13 +14668,13 @@ public final class OmSearchOrderNoAd {
          * ID der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
          */
-        public Builder mergeOrderContentId(io.dstore.Values.integerValue value) {
+        public Builder mergeOrderContentId(io.dstore.values.IntegerValue value) {
           if (orderContentIdBuilder_ == null) {
             if (orderContentId_ != null) {
               orderContentId_ =
-                io.dstore.Values.integerValue.newBuilder(orderContentId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(orderContentId_).mergeFrom(value).buildPartial();
             } else {
               orderContentId_ = value;
             }
@@ -14690,7 +14690,7 @@ public final class OmSearchOrderNoAd {
          * ID der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
          */
         public Builder clearOrderContentId() {
           if (orderContentIdBuilder_ == null) {
@@ -14708,9 +14708,9 @@ public final class OmSearchOrderNoAd {
          * ID der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
          */
-        public io.dstore.Values.integerValue.Builder getOrderContentIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getOrderContentIdBuilder() {
           
           onChanged();
           return getOrderContentIdFieldBuilder().getBuilder();
@@ -14720,14 +14720,14 @@ public final class OmSearchOrderNoAd {
          * ID der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getOrderContentIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getOrderContentIdOrBuilder() {
           if (orderContentIdBuilder_ != null) {
             return orderContentIdBuilder_.getMessageOrBuilder();
           } else {
             return orderContentId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : orderContentId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : orderContentId_;
           }
         }
         /**
@@ -14735,14 +14735,14 @@ public final class OmSearchOrderNoAd {
          * ID der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_id = 20010;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_id = 20010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getOrderContentIdFieldBuilder() {
           if (orderContentIdBuilder_ == null) {
             orderContentIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getOrderContentId(),
                     getParentForChildren(),
                     isClean());
@@ -14751,15 +14751,15 @@ public final class OmSearchOrderNoAd {
           return orderContentIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue currencySymbol_ = null;
+        private io.dstore.values.StringValue currencySymbol_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> currencySymbolBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> currencySymbolBuilder_;
         /**
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
          */
         public boolean hasCurrencySymbol() {
           return currencySymbolBuilder_ != null || currencySymbol_ != null;
@@ -14769,11 +14769,11 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
          */
-        public io.dstore.Values.stringValue getCurrencySymbol() {
+        public io.dstore.values.StringValue getCurrencySymbol() {
           if (currencySymbolBuilder_ == null) {
-            return currencySymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : currencySymbol_;
+            return currencySymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : currencySymbol_;
           } else {
             return currencySymbolBuilder_.getMessage();
           }
@@ -14783,9 +14783,9 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
          */
-        public Builder setCurrencySymbol(io.dstore.Values.stringValue value) {
+        public Builder setCurrencySymbol(io.dstore.values.StringValue value) {
           if (currencySymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -14803,10 +14803,10 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
          */
         public Builder setCurrencySymbol(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (currencySymbolBuilder_ == null) {
             currencySymbol_ = builderForValue.build();
             onChanged();
@@ -14821,13 +14821,13 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
          */
-        public Builder mergeCurrencySymbol(io.dstore.Values.stringValue value) {
+        public Builder mergeCurrencySymbol(io.dstore.values.StringValue value) {
           if (currencySymbolBuilder_ == null) {
             if (currencySymbol_ != null) {
               currencySymbol_ =
-                io.dstore.Values.stringValue.newBuilder(currencySymbol_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(currencySymbol_).mergeFrom(value).buildPartial();
             } else {
               currencySymbol_ = value;
             }
@@ -14843,7 +14843,7 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
          */
         public Builder clearCurrencySymbol() {
           if (currencySymbolBuilder_ == null) {
@@ -14861,9 +14861,9 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCurrencySymbolBuilder() {
+        public io.dstore.values.StringValue.Builder getCurrencySymbolBuilder() {
           
           onChanged();
           return getCurrencySymbolFieldBuilder().getBuilder();
@@ -14873,14 +14873,14 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCurrencySymbolOrBuilder() {
           if (currencySymbolBuilder_ != null) {
             return currencySymbolBuilder_.getMessageOrBuilder();
           } else {
             return currencySymbol_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : currencySymbol_;
+                io.dstore.values.StringValue.getDefaultInstance() : currencySymbol_;
           }
         }
         /**
@@ -14888,14 +14888,14 @@ public final class OmSearchOrderNoAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 20012;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 20012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCurrencySymbolFieldBuilder() {
           if (currencySymbolBuilder_ == null) {
             currencySymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCurrencySymbol(),
                     getParentForChildren(),
                     isClean());
@@ -14904,15 +14904,15 @@ public final class OmSearchOrderNoAd {
           return currencySymbolBuilder_;
         }
 
-        private io.dstore.Values.decimalValue nettoContentSum_ = null;
+        private io.dstore.values.DecimalValue nettoContentSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoContentSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> nettoContentSumBuilder_;
         /**
          * <pre>
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+         * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
          */
         public boolean hasNettoContentSum() {
           return nettoContentSumBuilder_ != null || nettoContentSum_ != null;
@@ -14922,11 +14922,11 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+         * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
          */
-        public io.dstore.Values.decimalValue getNettoContentSum() {
+        public io.dstore.values.DecimalValue getNettoContentSum() {
           if (nettoContentSumBuilder_ == null) {
-            return nettoContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoContentSum_;
+            return nettoContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoContentSum_;
           } else {
             return nettoContentSumBuilder_.getMessage();
           }
@@ -14936,9 +14936,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+         * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
          */
-        public Builder setNettoContentSum(io.dstore.Values.decimalValue value) {
+        public Builder setNettoContentSum(io.dstore.values.DecimalValue value) {
           if (nettoContentSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -14956,10 +14956,10 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+         * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
          */
         public Builder setNettoContentSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (nettoContentSumBuilder_ == null) {
             nettoContentSum_ = builderForValue.build();
             onChanged();
@@ -14974,13 +14974,13 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+         * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
          */
-        public Builder mergeNettoContentSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeNettoContentSum(io.dstore.values.DecimalValue value) {
           if (nettoContentSumBuilder_ == null) {
             if (nettoContentSum_ != null) {
               nettoContentSum_ =
-                io.dstore.Values.decimalValue.newBuilder(nettoContentSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(nettoContentSum_).mergeFrom(value).buildPartial();
             } else {
               nettoContentSum_ = value;
             }
@@ -14996,7 +14996,7 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+         * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
          */
         public Builder clearNettoContentSum() {
           if (nettoContentSumBuilder_ == null) {
@@ -15014,9 +15014,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+         * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNettoContentSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNettoContentSumBuilder() {
           
           onChanged();
           return getNettoContentSumFieldBuilder().getBuilder();
@@ -15026,14 +15026,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+         * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNettoContentSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNettoContentSumOrBuilder() {
           if (nettoContentSumBuilder_ != null) {
             return nettoContentSumBuilder_.getMessageOrBuilder();
           } else {
             return nettoContentSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : nettoContentSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : nettoContentSum_;
           }
         }
         /**
@@ -15041,14 +15041,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_content_sum = 20014;</code>
+         * <code>optional .dstore.values.DecimalValue netto_content_sum = 20014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNettoContentSumFieldBuilder() {
           if (nettoContentSumBuilder_ == null) {
             nettoContentSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNettoContentSum(),
                     getParentForChildren(),
                     isClean());
@@ -15057,15 +15057,15 @@ public final class OmSearchOrderNoAd {
           return nettoContentSumBuilder_;
         }
 
-        private io.dstore.Values.integerValue orderContentPosition_ = null;
+        private io.dstore.values.IntegerValue orderContentPosition_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderContentPositionBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderContentPositionBuilder_;
         /**
          * <pre>
          * Nummer der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
          */
         public boolean hasOrderContentPosition() {
           return orderContentPositionBuilder_ != null || orderContentPosition_ != null;
@@ -15075,11 +15075,11 @@ public final class OmSearchOrderNoAd {
          * Nummer der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
          */
-        public io.dstore.Values.integerValue getOrderContentPosition() {
+        public io.dstore.values.IntegerValue getOrderContentPosition() {
           if (orderContentPositionBuilder_ == null) {
-            return orderContentPosition_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderContentPosition_;
+            return orderContentPosition_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderContentPosition_;
           } else {
             return orderContentPositionBuilder_.getMessage();
           }
@@ -15089,9 +15089,9 @@ public final class OmSearchOrderNoAd {
          * Nummer der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
          */
-        public Builder setOrderContentPosition(io.dstore.Values.integerValue value) {
+        public Builder setOrderContentPosition(io.dstore.values.IntegerValue value) {
           if (orderContentPositionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -15109,10 +15109,10 @@ public final class OmSearchOrderNoAd {
          * Nummer der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
          */
         public Builder setOrderContentPosition(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (orderContentPositionBuilder_ == null) {
             orderContentPosition_ = builderForValue.build();
             onChanged();
@@ -15127,13 +15127,13 @@ public final class OmSearchOrderNoAd {
          * Nummer der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
          */
-        public Builder mergeOrderContentPosition(io.dstore.Values.integerValue value) {
+        public Builder mergeOrderContentPosition(io.dstore.values.IntegerValue value) {
           if (orderContentPositionBuilder_ == null) {
             if (orderContentPosition_ != null) {
               orderContentPosition_ =
-                io.dstore.Values.integerValue.newBuilder(orderContentPosition_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(orderContentPosition_).mergeFrom(value).buildPartial();
             } else {
               orderContentPosition_ = value;
             }
@@ -15149,7 +15149,7 @@ public final class OmSearchOrderNoAd {
          * Nummer der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
          */
         public Builder clearOrderContentPosition() {
           if (orderContentPositionBuilder_ == null) {
@@ -15167,9 +15167,9 @@ public final class OmSearchOrderNoAd {
          * Nummer der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
          */
-        public io.dstore.Values.integerValue.Builder getOrderContentPositionBuilder() {
+        public io.dstore.values.IntegerValue.Builder getOrderContentPositionBuilder() {
           
           onChanged();
           return getOrderContentPositionFieldBuilder().getBuilder();
@@ -15179,14 +15179,14 @@ public final class OmSearchOrderNoAd {
          * Nummer der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getOrderContentPositionOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getOrderContentPositionOrBuilder() {
           if (orderContentPositionBuilder_ != null) {
             return orderContentPositionBuilder_.getMessageOrBuilder();
           } else {
             return orderContentPosition_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : orderContentPosition_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : orderContentPosition_;
           }
         }
         /**
@@ -15194,14 +15194,14 @@ public final class OmSearchOrderNoAd {
          * Nummer der Auftragsposition
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_content_position = 20017;</code>
+         * <code>optional .dstore.values.IntegerValue order_content_position = 20017;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getOrderContentPositionFieldBuilder() {
           if (orderContentPositionBuilder_ == null) {
             orderContentPositionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getOrderContentPosition(),
                     getParentForChildren(),
                     isClean());
@@ -15210,15 +15210,15 @@ public final class OmSearchOrderNoAd {
           return orderContentPositionBuilder_;
         }
 
-        private io.dstore.Values.decimalValue netContentSum_ = null;
+        private io.dstore.values.DecimalValue netContentSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netContentSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> netContentSumBuilder_;
         /**
          * <pre>
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+         * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
          */
         public boolean hasNetContentSum() {
           return netContentSumBuilder_ != null || netContentSum_ != null;
@@ -15228,11 +15228,11 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+         * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
          */
-        public io.dstore.Values.decimalValue getNetContentSum() {
+        public io.dstore.values.DecimalValue getNetContentSum() {
           if (netContentSumBuilder_ == null) {
-            return netContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netContentSum_;
+            return netContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netContentSum_;
           } else {
             return netContentSumBuilder_.getMessage();
           }
@@ -15242,9 +15242,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+         * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
          */
-        public Builder setNetContentSum(io.dstore.Values.decimalValue value) {
+        public Builder setNetContentSum(io.dstore.values.DecimalValue value) {
           if (netContentSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -15262,10 +15262,10 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+         * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
          */
         public Builder setNetContentSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (netContentSumBuilder_ == null) {
             netContentSum_ = builderForValue.build();
             onChanged();
@@ -15280,13 +15280,13 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+         * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
          */
-        public Builder mergeNetContentSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeNetContentSum(io.dstore.values.DecimalValue value) {
           if (netContentSumBuilder_ == null) {
             if (netContentSum_ != null) {
               netContentSum_ =
-                io.dstore.Values.decimalValue.newBuilder(netContentSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(netContentSum_).mergeFrom(value).buildPartial();
             } else {
               netContentSum_ = value;
             }
@@ -15302,7 +15302,7 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+         * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
          */
         public Builder clearNetContentSum() {
           if (netContentSumBuilder_ == null) {
@@ -15320,9 +15320,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+         * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNetContentSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNetContentSumBuilder() {
           
           onChanged();
           return getNetContentSumFieldBuilder().getBuilder();
@@ -15332,14 +15332,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+         * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNetContentSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNetContentSumOrBuilder() {
           if (netContentSumBuilder_ != null) {
             return netContentSumBuilder_.getMessageOrBuilder();
           } else {
             return netContentSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : netContentSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : netContentSum_;
           }
         }
         /**
@@ -15347,14 +15347,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_content_sum = 20018;</code>
+         * <code>optional .dstore.values.DecimalValue net_content_sum = 20018;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNetContentSumFieldBuilder() {
           if (netContentSumBuilder_ == null) {
             netContentSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNetContentSum(),
                     getParentForChildren(),
                     isClean());
@@ -15363,15 +15363,15 @@ public final class OmSearchOrderNoAd {
           return netContentSumBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -15381,11 +15381,11 @@ public final class OmSearchOrderNoAd {
          * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -15395,9 +15395,9 @@ public final class OmSearchOrderNoAd {
          * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -15415,10 +15415,10 @@ public final class OmSearchOrderNoAd {
          * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -15433,13 +15433,13 @@ public final class OmSearchOrderNoAd {
          * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -15455,7 +15455,7 @@ public final class OmSearchOrderNoAd {
          * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -15473,9 +15473,9 @@ public final class OmSearchOrderNoAd {
          * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -15485,14 +15485,14 @@ public final class OmSearchOrderNoAd {
          * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -15500,14 +15500,14 @@ public final class OmSearchOrderNoAd {
          * ID des Artikel-Elementes der Auftragsposition, das der Auftraggeber "PersonID" bestellt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 20019;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 20019;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -15516,15 +15516,15 @@ public final class OmSearchOrderNoAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue grossContentSum_ = null;
+        private io.dstore.values.DecimalValue grossContentSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> grossContentSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> grossContentSumBuilder_;
         /**
          * <pre>
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+         * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
          */
         public boolean hasGrossContentSum() {
           return grossContentSumBuilder_ != null || grossContentSum_ != null;
@@ -15534,11 +15534,11 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+         * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
          */
-        public io.dstore.Values.decimalValue getGrossContentSum() {
+        public io.dstore.values.DecimalValue getGrossContentSum() {
           if (grossContentSumBuilder_ == null) {
-            return grossContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossContentSum_;
+            return grossContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : grossContentSum_;
           } else {
             return grossContentSumBuilder_.getMessage();
           }
@@ -15548,9 +15548,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+         * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
          */
-        public Builder setGrossContentSum(io.dstore.Values.decimalValue value) {
+        public Builder setGrossContentSum(io.dstore.values.DecimalValue value) {
           if (grossContentSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -15568,10 +15568,10 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+         * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
          */
         public Builder setGrossContentSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (grossContentSumBuilder_ == null) {
             grossContentSum_ = builderForValue.build();
             onChanged();
@@ -15586,13 +15586,13 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+         * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
          */
-        public Builder mergeGrossContentSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeGrossContentSum(io.dstore.values.DecimalValue value) {
           if (grossContentSumBuilder_ == null) {
             if (grossContentSum_ != null) {
               grossContentSum_ =
-                io.dstore.Values.decimalValue.newBuilder(grossContentSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(grossContentSum_).mergeFrom(value).buildPartial();
             } else {
               grossContentSum_ = value;
             }
@@ -15608,7 +15608,7 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+         * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
          */
         public Builder clearGrossContentSum() {
           if (grossContentSumBuilder_ == null) {
@@ -15626,9 +15626,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+         * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getGrossContentSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getGrossContentSumBuilder() {
           
           onChanged();
           return getGrossContentSumFieldBuilder().getBuilder();
@@ -15638,14 +15638,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+         * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getGrossContentSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getGrossContentSumOrBuilder() {
           if (grossContentSumBuilder_ != null) {
             return grossContentSumBuilder_.getMessageOrBuilder();
           } else {
             return grossContentSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : grossContentSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : grossContentSum_;
           }
         }
         /**
@@ -15653,14 +15653,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_content_sum = 20020;</code>
+         * <code>optional .dstore.values.DecimalValue gross_content_sum = 20020;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getGrossContentSumFieldBuilder() {
           if (grossContentSumBuilder_ == null) {
             grossContentSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getGrossContentSum(),
                     getParentForChildren(),
                     isClean());
@@ -15669,15 +15669,15 @@ public final class OmSearchOrderNoAd {
           return grossContentSumBuilder_;
         }
 
-        private io.dstore.Values.decimalValue preciseGrossOrderSum_ = null;
+        private io.dstore.values.DecimalValue preciseGrossOrderSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseGrossOrderSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> preciseGrossOrderSumBuilder_;
         /**
          * <pre>
          * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
          */
         public boolean hasPreciseGrossOrderSum() {
           return preciseGrossOrderSumBuilder_ != null || preciseGrossOrderSum_ != null;
@@ -15687,11 +15687,11 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
          */
-        public io.dstore.Values.decimalValue getPreciseGrossOrderSum() {
+        public io.dstore.values.DecimalValue getPreciseGrossOrderSum() {
           if (preciseGrossOrderSumBuilder_ == null) {
-            return preciseGrossOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseGrossOrderSum_;
+            return preciseGrossOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseGrossOrderSum_;
           } else {
             return preciseGrossOrderSumBuilder_.getMessage();
           }
@@ -15701,9 +15701,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
          */
-        public Builder setPreciseGrossOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder setPreciseGrossOrderSum(io.dstore.values.DecimalValue value) {
           if (preciseGrossOrderSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -15721,10 +15721,10 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
          */
         public Builder setPreciseGrossOrderSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (preciseGrossOrderSumBuilder_ == null) {
             preciseGrossOrderSum_ = builderForValue.build();
             onChanged();
@@ -15739,13 +15739,13 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
          */
-        public Builder mergePreciseGrossOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder mergePreciseGrossOrderSum(io.dstore.values.DecimalValue value) {
           if (preciseGrossOrderSumBuilder_ == null) {
             if (preciseGrossOrderSum_ != null) {
               preciseGrossOrderSum_ =
-                io.dstore.Values.decimalValue.newBuilder(preciseGrossOrderSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(preciseGrossOrderSum_).mergeFrom(value).buildPartial();
             } else {
               preciseGrossOrderSum_ = value;
             }
@@ -15761,7 +15761,7 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
          */
         public Builder clearPreciseGrossOrderSum() {
           if (preciseGrossOrderSumBuilder_ == null) {
@@ -15779,9 +15779,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPreciseGrossOrderSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPreciseGrossOrderSumBuilder() {
           
           onChanged();
           return getPreciseGrossOrderSumFieldBuilder().getBuilder();
@@ -15791,14 +15791,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPreciseGrossOrderSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPreciseGrossOrderSumOrBuilder() {
           if (preciseGrossOrderSumBuilder_ != null) {
             return preciseGrossOrderSumBuilder_.getMessageOrBuilder();
           } else {
             return preciseGrossOrderSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : preciseGrossOrderSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : preciseGrossOrderSum_;
           }
         }
         /**
@@ -15806,14 +15806,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_order_sum = 20023;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_order_sum = 20023;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPreciseGrossOrderSumFieldBuilder() {
           if (preciseGrossOrderSumBuilder_ == null) {
             preciseGrossOrderSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPreciseGrossOrderSum(),
                     getParentForChildren(),
                     isClean());
@@ -15822,15 +15822,15 @@ public final class OmSearchOrderNoAd {
           return preciseGrossOrderSumBuilder_;
         }
 
-        private io.dstore.Values.decimalValue preciseGrossContentSum_ = null;
+        private io.dstore.values.DecimalValue preciseGrossContentSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseGrossContentSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> preciseGrossContentSumBuilder_;
         /**
          * <pre>
          * Exakter (intern gespeicherter) Wert für "GrossContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
          */
         public boolean hasPreciseGrossContentSum() {
           return preciseGrossContentSumBuilder_ != null || preciseGrossContentSum_ != null;
@@ -15840,11 +15840,11 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
          */
-        public io.dstore.Values.decimalValue getPreciseGrossContentSum() {
+        public io.dstore.values.DecimalValue getPreciseGrossContentSum() {
           if (preciseGrossContentSumBuilder_ == null) {
-            return preciseGrossContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseGrossContentSum_;
+            return preciseGrossContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseGrossContentSum_;
           } else {
             return preciseGrossContentSumBuilder_.getMessage();
           }
@@ -15854,9 +15854,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
          */
-        public Builder setPreciseGrossContentSum(io.dstore.Values.decimalValue value) {
+        public Builder setPreciseGrossContentSum(io.dstore.values.DecimalValue value) {
           if (preciseGrossContentSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -15874,10 +15874,10 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
          */
         public Builder setPreciseGrossContentSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (preciseGrossContentSumBuilder_ == null) {
             preciseGrossContentSum_ = builderForValue.build();
             onChanged();
@@ -15892,13 +15892,13 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
          */
-        public Builder mergePreciseGrossContentSum(io.dstore.Values.decimalValue value) {
+        public Builder mergePreciseGrossContentSum(io.dstore.values.DecimalValue value) {
           if (preciseGrossContentSumBuilder_ == null) {
             if (preciseGrossContentSum_ != null) {
               preciseGrossContentSum_ =
-                io.dstore.Values.decimalValue.newBuilder(preciseGrossContentSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(preciseGrossContentSum_).mergeFrom(value).buildPartial();
             } else {
               preciseGrossContentSum_ = value;
             }
@@ -15914,7 +15914,7 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
          */
         public Builder clearPreciseGrossContentSum() {
           if (preciseGrossContentSumBuilder_ == null) {
@@ -15932,9 +15932,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPreciseGrossContentSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPreciseGrossContentSumBuilder() {
           
           onChanged();
           return getPreciseGrossContentSumFieldBuilder().getBuilder();
@@ -15944,14 +15944,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPreciseGrossContentSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPreciseGrossContentSumOrBuilder() {
           if (preciseGrossContentSumBuilder_ != null) {
             return preciseGrossContentSumBuilder_.getMessageOrBuilder();
           } else {
             return preciseGrossContentSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : preciseGrossContentSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : preciseGrossContentSum_;
           }
         }
         /**
@@ -15959,14 +15959,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "GrossContentSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_gross_content_sum = 20024;</code>
+         * <code>optional .dstore.values.DecimalValue precise_gross_content_sum = 20024;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPreciseGrossContentSumFieldBuilder() {
           if (preciseGrossContentSumBuilder_ == null) {
             preciseGrossContentSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPreciseGrossContentSum(),
                     getParentForChildren(),
                     isClean());
@@ -15975,15 +15975,15 @@ public final class OmSearchOrderNoAd {
           return preciseGrossContentSumBuilder_;
         }
 
-        private io.dstore.Values.decimalValue grossOrderSum_ = null;
+        private io.dstore.values.DecimalValue grossOrderSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> grossOrderSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> grossOrderSumBuilder_;
         /**
          * <pre>
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+         * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
          */
         public boolean hasGrossOrderSum() {
           return grossOrderSumBuilder_ != null || grossOrderSum_ != null;
@@ -15993,11 +15993,11 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+         * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
          */
-        public io.dstore.Values.decimalValue getGrossOrderSum() {
+        public io.dstore.values.DecimalValue getGrossOrderSum() {
           if (grossOrderSumBuilder_ == null) {
-            return grossOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : grossOrderSum_;
+            return grossOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : grossOrderSum_;
           } else {
             return grossOrderSumBuilder_.getMessage();
           }
@@ -16007,9 +16007,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+         * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
          */
-        public Builder setGrossOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder setGrossOrderSum(io.dstore.values.DecimalValue value) {
           if (grossOrderSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -16027,10 +16027,10 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+         * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
          */
         public Builder setGrossOrderSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (grossOrderSumBuilder_ == null) {
             grossOrderSum_ = builderForValue.build();
             onChanged();
@@ -16045,13 +16045,13 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+         * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
          */
-        public Builder mergeGrossOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeGrossOrderSum(io.dstore.values.DecimalValue value) {
           if (grossOrderSumBuilder_ == null) {
             if (grossOrderSum_ != null) {
               grossOrderSum_ =
-                io.dstore.Values.decimalValue.newBuilder(grossOrderSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(grossOrderSum_).mergeFrom(value).buildPartial();
             } else {
               grossOrderSum_ = value;
             }
@@ -16067,7 +16067,7 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+         * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
          */
         public Builder clearGrossOrderSum() {
           if (grossOrderSumBuilder_ == null) {
@@ -16085,9 +16085,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+         * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getGrossOrderSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getGrossOrderSumBuilder() {
           
           onChanged();
           return getGrossOrderSumFieldBuilder().getBuilder();
@@ -16097,14 +16097,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+         * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getGrossOrderSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getGrossOrderSumOrBuilder() {
           if (grossOrderSumBuilder_ != null) {
             return grossOrderSumBuilder_.getMessageOrBuilder();
           } else {
             return grossOrderSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : grossOrderSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : grossOrderSum_;
           }
         }
         /**
@@ -16112,14 +16112,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue gross_order_sum = 20025;</code>
+         * <code>optional .dstore.values.DecimalValue gross_order_sum = 20025;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getGrossOrderSumFieldBuilder() {
           if (grossOrderSumBuilder_ == null) {
             grossOrderSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getGrossOrderSum(),
                     getParentForChildren(),
                     isClean());
@@ -16128,15 +16128,15 @@ public final class OmSearchOrderNoAd {
           return grossOrderSumBuilder_;
         }
 
-        private io.dstore.Values.booleanValue orderContentWasModified_ = null;
+        private io.dstore.values.BooleanValue orderContentWasModified_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> orderContentWasModifiedBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> orderContentWasModifiedBuilder_;
         /**
          * <pre>
          * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+         * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
          */
         public boolean hasOrderContentWasModified() {
           return orderContentWasModifiedBuilder_ != null || orderContentWasModified_ != null;
@@ -16146,11 +16146,11 @@ public final class OmSearchOrderNoAd {
          * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+         * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
          */
-        public io.dstore.Values.booleanValue getOrderContentWasModified() {
+        public io.dstore.values.BooleanValue getOrderContentWasModified() {
           if (orderContentWasModifiedBuilder_ == null) {
-            return orderContentWasModified_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderContentWasModified_;
+            return orderContentWasModified_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderContentWasModified_;
           } else {
             return orderContentWasModifiedBuilder_.getMessage();
           }
@@ -16160,9 +16160,9 @@ public final class OmSearchOrderNoAd {
          * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+         * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
          */
-        public Builder setOrderContentWasModified(io.dstore.Values.booleanValue value) {
+        public Builder setOrderContentWasModified(io.dstore.values.BooleanValue value) {
           if (orderContentWasModifiedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -16180,10 +16180,10 @@ public final class OmSearchOrderNoAd {
          * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+         * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
          */
         public Builder setOrderContentWasModified(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (orderContentWasModifiedBuilder_ == null) {
             orderContentWasModified_ = builderForValue.build();
             onChanged();
@@ -16198,13 +16198,13 @@ public final class OmSearchOrderNoAd {
          * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+         * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
          */
-        public Builder mergeOrderContentWasModified(io.dstore.Values.booleanValue value) {
+        public Builder mergeOrderContentWasModified(io.dstore.values.BooleanValue value) {
           if (orderContentWasModifiedBuilder_ == null) {
             if (orderContentWasModified_ != null) {
               orderContentWasModified_ =
-                io.dstore.Values.booleanValue.newBuilder(orderContentWasModified_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(orderContentWasModified_).mergeFrom(value).buildPartial();
             } else {
               orderContentWasModified_ = value;
             }
@@ -16220,7 +16220,7 @@ public final class OmSearchOrderNoAd {
          * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+         * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
          */
         public Builder clearOrderContentWasModified() {
           if (orderContentWasModifiedBuilder_ == null) {
@@ -16238,9 +16238,9 @@ public final class OmSearchOrderNoAd {
          * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+         * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getOrderContentWasModifiedBuilder() {
+        public io.dstore.values.BooleanValue.Builder getOrderContentWasModifiedBuilder() {
           
           onChanged();
           return getOrderContentWasModifiedFieldBuilder().getBuilder();
@@ -16250,14 +16250,14 @@ public final class OmSearchOrderNoAd {
          * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+         * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getOrderContentWasModifiedOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getOrderContentWasModifiedOrBuilder() {
           if (orderContentWasModifiedBuilder_ != null) {
             return orderContentWasModifiedBuilder_.getMessageOrBuilder();
           } else {
             return orderContentWasModified_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : orderContentWasModified_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : orderContentWasModified_;
           }
         }
         /**
@@ -16265,14 +16265,14 @@ public final class OmSearchOrderNoAd {
          * Wurde die Position "OrderContentID" nachträglich geändert ? ("0" : Nein, "1" : Ja)Anmerkung : Eine Änderung der "OrderNo" wird übrigens NICHT berücksichtigt !
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue order_content_was_modified = 20027;</code>
+         * <code>optional .dstore.values.BooleanValue order_content_was_modified = 20027;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getOrderContentWasModifiedFieldBuilder() {
           if (orderContentWasModifiedBuilder_ == null) {
             orderContentWasModifiedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getOrderContentWasModified(),
                     getParentForChildren(),
                     isClean());
@@ -16281,15 +16281,15 @@ public final class OmSearchOrderNoAd {
           return orderContentWasModifiedBuilder_;
         }
 
-        private io.dstore.Values.stringValue itemProperty_ = null;
+        private io.dstore.values.StringValue itemProperty_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemPropertyBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> itemPropertyBuilder_;
         /**
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+         * <code>optional .dstore.values.StringValue item_property = 20028;</code>
          */
         public boolean hasItemProperty() {
           return itemPropertyBuilder_ != null || itemProperty_ != null;
@@ -16299,11 +16299,11 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+         * <code>optional .dstore.values.StringValue item_property = 20028;</code>
          */
-        public io.dstore.Values.stringValue getItemProperty() {
+        public io.dstore.values.StringValue getItemProperty() {
           if (itemPropertyBuilder_ == null) {
-            return itemProperty_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemProperty_;
+            return itemProperty_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemProperty_;
           } else {
             return itemPropertyBuilder_.getMessage();
           }
@@ -16313,9 +16313,9 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+         * <code>optional .dstore.values.StringValue item_property = 20028;</code>
          */
-        public Builder setItemProperty(io.dstore.Values.stringValue value) {
+        public Builder setItemProperty(io.dstore.values.StringValue value) {
           if (itemPropertyBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -16333,10 +16333,10 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+         * <code>optional .dstore.values.StringValue item_property = 20028;</code>
          */
         public Builder setItemProperty(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (itemPropertyBuilder_ == null) {
             itemProperty_ = builderForValue.build();
             onChanged();
@@ -16351,13 +16351,13 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+         * <code>optional .dstore.values.StringValue item_property = 20028;</code>
          */
-        public Builder mergeItemProperty(io.dstore.Values.stringValue value) {
+        public Builder mergeItemProperty(io.dstore.values.StringValue value) {
           if (itemPropertyBuilder_ == null) {
             if (itemProperty_ != null) {
               itemProperty_ =
-                io.dstore.Values.stringValue.newBuilder(itemProperty_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(itemProperty_).mergeFrom(value).buildPartial();
             } else {
               itemProperty_ = value;
             }
@@ -16373,7 +16373,7 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+         * <code>optional .dstore.values.StringValue item_property = 20028;</code>
          */
         public Builder clearItemProperty() {
           if (itemPropertyBuilder_ == null) {
@@ -16391,9 +16391,9 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+         * <code>optional .dstore.values.StringValue item_property = 20028;</code>
          */
-        public io.dstore.Values.stringValue.Builder getItemPropertyBuilder() {
+        public io.dstore.values.StringValue.Builder getItemPropertyBuilder() {
           
           onChanged();
           return getItemPropertyFieldBuilder().getBuilder();
@@ -16403,14 +16403,14 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+         * <code>optional .dstore.values.StringValue item_property = 20028;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getItemPropertyOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getItemPropertyOrBuilder() {
           if (itemPropertyBuilder_ != null) {
             return itemPropertyBuilder_.getMessageOrBuilder();
           } else {
             return itemProperty_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : itemProperty_;
+                io.dstore.values.StringValue.getDefaultInstance() : itemProperty_;
           }
         }
         /**
@@ -16418,14 +16418,14 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 20028;</code>
+         * <code>optional .dstore.values.StringValue item_property = 20028;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getItemPropertyFieldBuilder() {
           if (itemPropertyBuilder_ == null) {
             itemPropertyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getItemProperty(),
                     getParentForChildren(),
                     isClean());
@@ -16434,15 +16434,15 @@ public final class OmSearchOrderNoAd {
           return itemPropertyBuilder_;
         }
 
-        private io.dstore.Values.integerValue quantity_ = null;
+        private io.dstore.values.IntegerValue quantity_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> quantityBuilder_;
         /**
          * <pre>
          * Wieviel wurde vom Artikel "NodeID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
          */
         public boolean hasQuantity() {
           return quantityBuilder_ != null || quantity_ != null;
@@ -16452,11 +16452,11 @@ public final class OmSearchOrderNoAd {
          * Wieviel wurde vom Artikel "NodeID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
          */
-        public io.dstore.Values.integerValue getQuantity() {
+        public io.dstore.values.IntegerValue getQuantity() {
           if (quantityBuilder_ == null) {
-            return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+            return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
           } else {
             return quantityBuilder_.getMessage();
           }
@@ -16466,9 +16466,9 @@ public final class OmSearchOrderNoAd {
          * Wieviel wurde vom Artikel "NodeID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
          */
-        public Builder setQuantity(io.dstore.Values.integerValue value) {
+        public Builder setQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -16486,10 +16486,10 @@ public final class OmSearchOrderNoAd {
          * Wieviel wurde vom Artikel "NodeID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
          */
         public Builder setQuantity(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (quantityBuilder_ == null) {
             quantity_ = builderForValue.build();
             onChanged();
@@ -16504,13 +16504,13 @@ public final class OmSearchOrderNoAd {
          * Wieviel wurde vom Artikel "NodeID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
          */
-        public Builder mergeQuantity(io.dstore.Values.integerValue value) {
+        public Builder mergeQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
             if (quantity_ != null) {
               quantity_ =
-                io.dstore.Values.integerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
             } else {
               quantity_ = value;
             }
@@ -16526,7 +16526,7 @@ public final class OmSearchOrderNoAd {
          * Wieviel wurde vom Artikel "NodeID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
          */
         public Builder clearQuantity() {
           if (quantityBuilder_ == null) {
@@ -16544,9 +16544,9 @@ public final class OmSearchOrderNoAd {
          * Wieviel wurde vom Artikel "NodeID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
          */
-        public io.dstore.Values.integerValue.Builder getQuantityBuilder() {
+        public io.dstore.values.IntegerValue.Builder getQuantityBuilder() {
           
           onChanged();
           return getQuantityFieldBuilder().getBuilder();
@@ -16556,14 +16556,14 @@ public final class OmSearchOrderNoAd {
          * Wieviel wurde vom Artikel "NodeID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
           if (quantityBuilder_ != null) {
             return quantityBuilder_.getMessageOrBuilder();
           } else {
             return quantity_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
           }
         }
         /**
@@ -16571,14 +16571,14 @@ public final class OmSearchOrderNoAd {
          * Wieviel wurde vom Artikel "NodeID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 20031;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 20031;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getQuantityFieldBuilder() {
           if (quantityBuilder_ == null) {
             quantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getQuantity(),
                     getParentForChildren(),
                     isClean());
@@ -16587,15 +16587,15 @@ public final class OmSearchOrderNoAd {
           return quantityBuilder_;
         }
 
-        private io.dstore.Values.decimalValue netOrderSum_ = null;
+        private io.dstore.values.DecimalValue netOrderSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> netOrderSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> netOrderSumBuilder_;
         /**
          * <pre>
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+         * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
          */
         public boolean hasNetOrderSum() {
           return netOrderSumBuilder_ != null || netOrderSum_ != null;
@@ -16605,11 +16605,11 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+         * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
          */
-        public io.dstore.Values.decimalValue getNetOrderSum() {
+        public io.dstore.values.DecimalValue getNetOrderSum() {
           if (netOrderSumBuilder_ == null) {
-            return netOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : netOrderSum_;
+            return netOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : netOrderSum_;
           } else {
             return netOrderSumBuilder_.getMessage();
           }
@@ -16619,9 +16619,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+         * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
          */
-        public Builder setNetOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder setNetOrderSum(io.dstore.values.DecimalValue value) {
           if (netOrderSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -16639,10 +16639,10 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+         * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
          */
         public Builder setNetOrderSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (netOrderSumBuilder_ == null) {
             netOrderSum_ = builderForValue.build();
             onChanged();
@@ -16657,13 +16657,13 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+         * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
          */
-        public Builder mergeNetOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeNetOrderSum(io.dstore.values.DecimalValue value) {
           if (netOrderSumBuilder_ == null) {
             if (netOrderSum_ != null) {
               netOrderSum_ =
-                io.dstore.Values.decimalValue.newBuilder(netOrderSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(netOrderSum_).mergeFrom(value).buildPartial();
             } else {
               netOrderSum_ = value;
             }
@@ -16679,7 +16679,7 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+         * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
          */
         public Builder clearNetOrderSum() {
           if (netOrderSumBuilder_ == null) {
@@ -16697,9 +16697,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+         * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNetOrderSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNetOrderSumBuilder() {
           
           onChanged();
           return getNetOrderSumFieldBuilder().getBuilder();
@@ -16709,14 +16709,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+         * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNetOrderSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNetOrderSumOrBuilder() {
           if (netOrderSumBuilder_ != null) {
             return netOrderSumBuilder_.getMessageOrBuilder();
           } else {
             return netOrderSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : netOrderSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : netOrderSum_;
           }
         }
         /**
@@ -16724,14 +16724,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue net_order_sum = 20034;</code>
+         * <code>optional .dstore.values.DecimalValue net_order_sum = 20034;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNetOrderSumFieldBuilder() {
           if (netOrderSumBuilder_ == null) {
             netOrderSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNetOrderSum(),
                     getParentForChildren(),
                     isClean());
@@ -16740,15 +16740,15 @@ public final class OmSearchOrderNoAd {
           return netOrderSumBuilder_;
         }
 
-        private io.dstore.Values.decimalValue bruttoContentSum_ = null;
+        private io.dstore.values.DecimalValue bruttoContentSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> bruttoContentSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> bruttoContentSumBuilder_;
         /**
          * <pre>
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
          */
         public boolean hasBruttoContentSum() {
           return bruttoContentSumBuilder_ != null || bruttoContentSum_ != null;
@@ -16758,11 +16758,11 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
          */
-        public io.dstore.Values.decimalValue getBruttoContentSum() {
+        public io.dstore.values.DecimalValue getBruttoContentSum() {
           if (bruttoContentSumBuilder_ == null) {
-            return bruttoContentSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoContentSum_;
+            return bruttoContentSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bruttoContentSum_;
           } else {
             return bruttoContentSumBuilder_.getMessage();
           }
@@ -16772,9 +16772,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
          */
-        public Builder setBruttoContentSum(io.dstore.Values.decimalValue value) {
+        public Builder setBruttoContentSum(io.dstore.values.DecimalValue value) {
           if (bruttoContentSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -16792,10 +16792,10 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
          */
         public Builder setBruttoContentSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (bruttoContentSumBuilder_ == null) {
             bruttoContentSum_ = builderForValue.build();
             onChanged();
@@ -16810,13 +16810,13 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
          */
-        public Builder mergeBruttoContentSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeBruttoContentSum(io.dstore.values.DecimalValue value) {
           if (bruttoContentSumBuilder_ == null) {
             if (bruttoContentSum_ != null) {
               bruttoContentSum_ =
-                io.dstore.Values.decimalValue.newBuilder(bruttoContentSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(bruttoContentSum_).mergeFrom(value).buildPartial();
             } else {
               bruttoContentSum_ = value;
             }
@@ -16832,7 +16832,7 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
          */
         public Builder clearBruttoContentSum() {
           if (bruttoContentSumBuilder_ == null) {
@@ -16850,9 +16850,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getBruttoContentSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getBruttoContentSumBuilder() {
           
           onChanged();
           return getBruttoContentSumFieldBuilder().getBuilder();
@@ -16862,14 +16862,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getBruttoContentSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getBruttoContentSumOrBuilder() {
           if (bruttoContentSumBuilder_ != null) {
             return bruttoContentSumBuilder_.getMessageOrBuilder();
           } else {
             return bruttoContentSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : bruttoContentSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : bruttoContentSum_;
           }
         }
         /**
@@ -16877,14 +16877,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für die Auftragsposition (also nicht der Stückpreis des Artikels "NodeID", sondern "Stückpreis * Quantity" !) - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_content_sum = 20038;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_content_sum = 20038;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getBruttoContentSumFieldBuilder() {
           if (bruttoContentSumBuilder_ == null) {
             bruttoContentSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getBruttoContentSum(),
                     getParentForChildren(),
                     isClean());
@@ -16893,15 +16893,15 @@ public final class OmSearchOrderNoAd {
           return bruttoContentSumBuilder_;
         }
 
-        private io.dstore.Values.decimalValue nettoOrderSum_ = null;
+        private io.dstore.values.DecimalValue nettoOrderSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoOrderSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> nettoOrderSumBuilder_;
         /**
          * <pre>
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
          */
         public boolean hasNettoOrderSum() {
           return nettoOrderSumBuilder_ != null || nettoOrderSum_ != null;
@@ -16911,11 +16911,11 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
          */
-        public io.dstore.Values.decimalValue getNettoOrderSum() {
+        public io.dstore.values.DecimalValue getNettoOrderSum() {
           if (nettoOrderSumBuilder_ == null) {
-            return nettoOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSum_;
+            return nettoOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoOrderSum_;
           } else {
             return nettoOrderSumBuilder_.getMessage();
           }
@@ -16925,9 +16925,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
          */
-        public Builder setNettoOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder setNettoOrderSum(io.dstore.values.DecimalValue value) {
           if (nettoOrderSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -16945,10 +16945,10 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
          */
         public Builder setNettoOrderSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (nettoOrderSumBuilder_ == null) {
             nettoOrderSum_ = builderForValue.build();
             onChanged();
@@ -16963,13 +16963,13 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
          */
-        public Builder mergeNettoOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeNettoOrderSum(io.dstore.values.DecimalValue value) {
           if (nettoOrderSumBuilder_ == null) {
             if (nettoOrderSum_ != null) {
               nettoOrderSum_ =
-                io.dstore.Values.decimalValue.newBuilder(nettoOrderSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(nettoOrderSum_).mergeFrom(value).buildPartial();
             } else {
               nettoOrderSum_ = value;
             }
@@ -16985,7 +16985,7 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
          */
         public Builder clearNettoOrderSum() {
           if (nettoOrderSumBuilder_ == null) {
@@ -17003,9 +17003,9 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNettoOrderSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNettoOrderSumBuilder() {
           
           onChanged();
           return getNettoOrderSumFieldBuilder().getBuilder();
@@ -17015,14 +17015,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNettoOrderSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNettoOrderSumOrBuilder() {
           if (nettoOrderSumBuilder_ != null) {
             return nettoOrderSumBuilder_.getMessageOrBuilder();
           } else {
             return nettoOrderSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : nettoOrderSum_;
           }
         }
         /**
@@ -17030,14 +17030,14 @@ public final class OmSearchOrderNoAd {
          * Netto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sum = 20039;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sum = 20039;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNettoOrderSumFieldBuilder() {
           if (nettoOrderSumBuilder_ == null) {
             nettoOrderSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNettoOrderSum(),
                     getParentForChildren(),
                     isClean());
@@ -17046,15 +17046,15 @@ public final class OmSearchOrderNoAd {
           return nettoOrderSumBuilder_;
         }
 
-        private io.dstore.Values.stringValue itemNo_ = null;
+        private io.dstore.values.StringValue itemNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemNoBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> itemNoBuilder_;
         /**
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+         * <code>optional .dstore.values.StringValue item_no = 20040;</code>
          */
         public boolean hasItemNo() {
           return itemNoBuilder_ != null || itemNo_ != null;
@@ -17064,11 +17064,11 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+         * <code>optional .dstore.values.StringValue item_no = 20040;</code>
          */
-        public io.dstore.Values.stringValue getItemNo() {
+        public io.dstore.values.StringValue getItemNo() {
           if (itemNoBuilder_ == null) {
-            return itemNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
+            return itemNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemNo_;
           } else {
             return itemNoBuilder_.getMessage();
           }
@@ -17078,9 +17078,9 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+         * <code>optional .dstore.values.StringValue item_no = 20040;</code>
          */
-        public Builder setItemNo(io.dstore.Values.stringValue value) {
+        public Builder setItemNo(io.dstore.values.StringValue value) {
           if (itemNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -17098,10 +17098,10 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+         * <code>optional .dstore.values.StringValue item_no = 20040;</code>
          */
         public Builder setItemNo(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (itemNoBuilder_ == null) {
             itemNo_ = builderForValue.build();
             onChanged();
@@ -17116,13 +17116,13 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+         * <code>optional .dstore.values.StringValue item_no = 20040;</code>
          */
-        public Builder mergeItemNo(io.dstore.Values.stringValue value) {
+        public Builder mergeItemNo(io.dstore.values.StringValue value) {
           if (itemNoBuilder_ == null) {
             if (itemNo_ != null) {
               itemNo_ =
-                io.dstore.Values.stringValue.newBuilder(itemNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(itemNo_).mergeFrom(value).buildPartial();
             } else {
               itemNo_ = value;
             }
@@ -17138,7 +17138,7 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+         * <code>optional .dstore.values.StringValue item_no = 20040;</code>
          */
         public Builder clearItemNo() {
           if (itemNoBuilder_ == null) {
@@ -17156,9 +17156,9 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+         * <code>optional .dstore.values.StringValue item_no = 20040;</code>
          */
-        public io.dstore.Values.stringValue.Builder getItemNoBuilder() {
+        public io.dstore.values.StringValue.Builder getItemNoBuilder() {
           
           onChanged();
           return getItemNoFieldBuilder().getBuilder();
@@ -17168,14 +17168,14 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+         * <code>optional .dstore.values.StringValue item_no = 20040;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getItemNoOrBuilder() {
           if (itemNoBuilder_ != null) {
             return itemNoBuilder_.getMessageOrBuilder();
           } else {
             return itemNo_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
+                io.dstore.values.StringValue.getDefaultInstance() : itemNo_;
           }
         }
         /**
@@ -17183,14 +17183,14 @@ public final class OmSearchOrderNoAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer). Immer "NULL", wenn "&#64;IncludeItemNo = 0" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 20040;</code>
+         * <code>optional .dstore.values.StringValue item_no = 20040;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getItemNoFieldBuilder() {
           if (itemNoBuilder_ == null) {
             itemNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getItemNo(),
                     getParentForChildren(),
                     isClean());
@@ -17199,15 +17199,15 @@ public final class OmSearchOrderNoAd {
           return itemNoBuilder_;
         }
 
-        private io.dstore.Values.decimalValue preciseNetOrderSum_ = null;
+        private io.dstore.values.DecimalValue preciseNetOrderSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> preciseNetOrderSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> preciseNetOrderSumBuilder_;
         /**
          * <pre>
          * Exakter (intern gespeicherter) Wert für "NetOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
          */
         public boolean hasPreciseNetOrderSum() {
           return preciseNetOrderSumBuilder_ != null || preciseNetOrderSum_ != null;
@@ -17217,11 +17217,11 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
          */
-        public io.dstore.Values.decimalValue getPreciseNetOrderSum() {
+        public io.dstore.values.DecimalValue getPreciseNetOrderSum() {
           if (preciseNetOrderSumBuilder_ == null) {
-            return preciseNetOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetOrderSum_;
+            return preciseNetOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetOrderSum_;
           } else {
             return preciseNetOrderSumBuilder_.getMessage();
           }
@@ -17231,9 +17231,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
          */
-        public Builder setPreciseNetOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder setPreciseNetOrderSum(io.dstore.values.DecimalValue value) {
           if (preciseNetOrderSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -17251,10 +17251,10 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
          */
         public Builder setPreciseNetOrderSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (preciseNetOrderSumBuilder_ == null) {
             preciseNetOrderSum_ = builderForValue.build();
             onChanged();
@@ -17269,13 +17269,13 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
          */
-        public Builder mergePreciseNetOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder mergePreciseNetOrderSum(io.dstore.values.DecimalValue value) {
           if (preciseNetOrderSumBuilder_ == null) {
             if (preciseNetOrderSum_ != null) {
               preciseNetOrderSum_ =
-                io.dstore.Values.decimalValue.newBuilder(preciseNetOrderSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(preciseNetOrderSum_).mergeFrom(value).buildPartial();
             } else {
               preciseNetOrderSum_ = value;
             }
@@ -17291,7 +17291,7 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
          */
         public Builder clearPreciseNetOrderSum() {
           if (preciseNetOrderSumBuilder_ == null) {
@@ -17309,9 +17309,9 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPreciseNetOrderSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPreciseNetOrderSumBuilder() {
           
           onChanged();
           return getPreciseNetOrderSumFieldBuilder().getBuilder();
@@ -17321,14 +17321,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPreciseNetOrderSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPreciseNetOrderSumOrBuilder() {
           if (preciseNetOrderSumBuilder_ != null) {
             return preciseNetOrderSumBuilder_.getMessageOrBuilder();
           } else {
             return preciseNetOrderSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : preciseNetOrderSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : preciseNetOrderSum_;
           }
         }
         /**
@@ -17336,14 +17336,14 @@ public final class OmSearchOrderNoAd {
          * Exakter (intern gespeicherter) Wert für "NetOrderSum"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue precise_net_order_sum = 20044;</code>
+         * <code>optional .dstore.values.DecimalValue precise_net_order_sum = 20044;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPreciseNetOrderSumFieldBuilder() {
           if (preciseNetOrderSumBuilder_ == null) {
             preciseNetOrderSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPreciseNetOrderSum(),
                     getParentForChildren(),
                     isClean());
@@ -17352,15 +17352,15 @@ public final class OmSearchOrderNoAd {
           return preciseNetOrderSumBuilder_;
         }
 
-        private io.dstore.Values.decimalValue bruttoOrderSum_ = null;
+        private io.dstore.values.DecimalValue bruttoOrderSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> bruttoOrderSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> bruttoOrderSumBuilder_;
         /**
          * <pre>
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
          */
         public boolean hasBruttoOrderSum() {
           return bruttoOrderSumBuilder_ != null || bruttoOrderSum_ != null;
@@ -17370,11 +17370,11 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
          */
-        public io.dstore.Values.decimalValue getBruttoOrderSum() {
+        public io.dstore.values.DecimalValue getBruttoOrderSum() {
           if (bruttoOrderSumBuilder_ == null) {
-            return bruttoOrderSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : bruttoOrderSum_;
+            return bruttoOrderSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : bruttoOrderSum_;
           } else {
             return bruttoOrderSumBuilder_.getMessage();
           }
@@ -17384,9 +17384,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
          */
-        public Builder setBruttoOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder setBruttoOrderSum(io.dstore.values.DecimalValue value) {
           if (bruttoOrderSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -17404,10 +17404,10 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
          */
         public Builder setBruttoOrderSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (bruttoOrderSumBuilder_ == null) {
             bruttoOrderSum_ = builderForValue.build();
             onChanged();
@@ -17422,13 +17422,13 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
          */
-        public Builder mergeBruttoOrderSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeBruttoOrderSum(io.dstore.values.DecimalValue value) {
           if (bruttoOrderSumBuilder_ == null) {
             if (bruttoOrderSum_ != null) {
               bruttoOrderSum_ =
-                io.dstore.Values.decimalValue.newBuilder(bruttoOrderSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(bruttoOrderSum_).mergeFrom(value).buildPartial();
             } else {
               bruttoOrderSum_ = value;
             }
@@ -17444,7 +17444,7 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
          */
         public Builder clearBruttoOrderSum() {
           if (bruttoOrderSumBuilder_ == null) {
@@ -17462,9 +17462,9 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getBruttoOrderSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getBruttoOrderSumBuilder() {
           
           onChanged();
           return getBruttoOrderSumFieldBuilder().getBuilder();
@@ -17474,14 +17474,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getBruttoOrderSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getBruttoOrderSumOrBuilder() {
           if (bruttoOrderSumBuilder_ != null) {
             return bruttoOrderSumBuilder_.getMessageOrBuilder();
           } else {
             return bruttoOrderSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : bruttoOrderSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : bruttoOrderSum_;
           }
         }
         /**
@@ -17489,14 +17489,14 @@ public final class OmSearchOrderNoAd {
          * Brutto-Betrag (in der durch "CurrencyID" angegebenen Währung) für den Auftrag - Englischer Spaltenname ist NICHT korrekt, NICHT mehr verwenden !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue brutto_order_sum = 20046;</code>
+         * <code>optional .dstore.values.DecimalValue brutto_order_sum = 20046;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getBruttoOrderSumFieldBuilder() {
           if (bruttoOrderSumBuilder_ == null) {
             bruttoOrderSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getBruttoOrderSum(),
                     getParentForChildren(),
                     isClean());
@@ -18965,111 +18965,111 @@ public final class OmSearchOrderNoAd {
       "rNo_Ad.proto\022!dstore.engine.om_SearchOrd" +
       "erNo_Ad\032\023dstore/values.proto\032\032dstore/eng" +
       "ine/engine.proto\"\272\006\n\nParameters\022,\n\010order" +
-      "_no\030\001 \001(\0132\032.dstore.values.stringValue\022\026\n" +
+      "_no\030\001 \001(\0132\032.dstore.values.StringValue\022\026\n" +
       "\rorder_no_null\030\351\007 \001(\010\022E\n max_possible_or" +
       "ders_per_order_no\030\002 \001(\0132\033.dstore.values." +
-      "integerValue\022.\n%max_possible_orders_per_" +
+      "IntegerValue\022.\n%max_possible_orders_per_" +
       "order_no_null\030\352\007 \001(\010\0220\n\tfrom_date\030\003 \001(\0132" +
-      "\035.dstore.values.timestampValue\022\027\n\016from_d",
+      "\035.dstore.values.TimestampValue\022\027\n\016from_d",
       "ate_null\030\353\007 \001(\010\022@\n\033show_person_character" +
-      "istics\030\004 \001(\0132\033.dstore.values.booleanValu" +
+      "istics\030\004 \001(\0132\033.dstore.values.BooleanValu" +
       "e\022)\n show_person_characteristics_null\030\354\007" +
       " \001(\010\0229\n\024date_and_time_format\030\005 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\"\n\031date_and_time" +
+      "ore.values.IntegerValue\022\"\n\031date_and_time" +
       "_format_null\030\355\007 \001(\010\0221\n\014include_time\030\006 \001(" +
-      "\0132\033.dstore.values.booleanValue\022\032\n\021includ" +
+      "\0132\033.dstore.values.BooleanValue\022\032\n\021includ" +
       "e_time_null\030\356\007 \001(\010\0224\n\017include_item_no\030\007 " +
-      "\001(\0132\033.dstore.values.booleanValue\022\035\n\024incl" +
+      "\001(\0132\033.dstore.values.BooleanValue\022\035\n\024incl" +
       "ude_item_no_null\030\357\007 \001(\010\022;\n\026node_characte",
-      "ristic_id\030\010 \001(\0132\033.dstore.values.integerV" +
+      "ristic_id\030\010 \001(\0132\033.dstore.values.IntegerV" +
       "alue\022$\n\033node_characteristic_id_null\030\360\007 \001" +
       "(\010\0223\n\016purchase_order\030\t \001(\0132\033.dstore.valu" +
-      "es.booleanValue\022\034\n\023purchase_order_null\030\361" +
+      "es.BooleanValue\022\034\n\023purchase_order_null\030\361" +
       "\007 \001(\010\"\251\032\n\010Response\0228\n\020meta_information\030\002" +
       " \003(\0132\036.dstore.engine.MetaInformation\022\'\n\007" +
       "message\030\003 \003(\0132\026.dstore.engine.Message\022<\n" +
       "\003row\030\004 \003(\0132/.dstore.engine.om_SearchOrde" +
       "rNo_Ad.Response.Row\032\373\030\n\003Row\022\017\n\006row_id\030\220N" +
       " \001(\005\0228\n\023order_date_and_time\030\221N \001(\0132\032.dst",
-      "ore.values.stringValue\0222\n\014payment_cost\030\222" +
-      "N \001(\0132\033.dstore.values.decimalValue\022;\n\026de" +
+      "ore.values.StringValue\0222\n\014payment_cost\030\222" +
+      "N \001(\0132\033.dstore.values.DecimalValue\022;\n\026de" +
       "livery_date_and_time\030\223N \001(\0132\032.dstore.val" +
-      "ues.stringValue\0227\n\021net_shipping_cost\030\224N " +
-      "\001(\0132\033.dstore.values.decimalValue\022-\n\010orde" +
-      "r_no\030\225N \001(\0132\032.dstore.values.stringValue\022" +
-      "/\n\tnetto_sum\030\226N \001(\0132\033.dstore.values.deci" +
+      "ues.StringValue\0227\n\021net_shipping_cost\030\224N " +
+      "\001(\0132\033.dstore.values.DecimalValue\022-\n\010orde" +
+      "r_no\030\225N \001(\0132\032.dstore.values.StringValue\022" +
+      "/\n\tnetto_sum\030\226N \001(\0132\033.dstore.values.Deci" +
       "malValue\022<\n\026last_edited_by_user_id\030\227N \001(" +
-      "\0132\033.dstore.values.integerValue\022.\n\010order_" +
-      "id\030\230N \001(\0132\033.dstore.values.integerValue\0220",
-      "\n\nbrutto_sum\030\231N \001(\0132\033.dstore.values.deci" +
+      "\0132\033.dstore.values.IntegerValue\022.\n\010order_" +
+      "id\030\230N \001(\0132\033.dstore.values.IntegerValue\0220",
+      "\n\nbrutto_sum\030\231N \001(\0132\033.dstore.values.Deci" +
       "malValue\022?\n\031precise_net_shipping_cost\030\232N" +
-      " \001(\0132\033.dstore.values.decimalValue\022A\n\034cha" +
+      " \001(\0132\033.dstore.values.DecimalValue\022A\n\034cha" +
       "rac_val2_restr_by_pattern\030\233N \001(\0132\032.dstor" +
-      "e.values.stringValue\022-\n\007net_sum\030\234N \001(\0132\033" +
-      ".dstore.values.decimalValue\022/\n\tperson_id" +
-      "\030\235N \001(\0132\033.dstore.values.integerValue\022=\n\030" +
+      "e.values.StringValue\022-\n\007net_sum\030\234N \001(\0132\033" +
+      ".dstore.values.DecimalValue\022/\n\tperson_id" +
+      "\030\235N \001(\0132\033.dstore.values.IntegerValue\022=\n\030" +
       "payment_type_description\030\236N \001(\0132\032.dstore" +
-      ".values.stringValue\0225\n\017precise_net_sum\030\237" +
-      "N \001(\0132\033.dstore.values.decimalValue\0224\n\016po",
-      "sition_count\030\240N \001(\0132\033.dstore.values.inte" +
+      ".values.StringValue\0225\n\017precise_net_sum\030\237" +
+      "N \001(\0132\033.dstore.values.DecimalValue\0224\n\016po",
+      "sition_count\030\240N \001(\0132\033.dstore.values.Inte" +
       "gerValue\0224\n\016order_state_id\030\241N \001(\0132\033.dsto" +
-      "re.values.integerValue\0226\n\020shipping_type_" +
-      "id\030\242N \001(\0132\033.dstore.values.integerValue\0224" +
+      "re.values.IntegerValue\0226\n\020shipping_type_" +
+      "id\030\242N \001(\0132\033.dstore.values.IntegerValue\0224" +
       "\n\016person_type_id\030\243N \001(\0132\033.dstore.values." +
-      "integerValue\0226\n\020net_payment_cost\030\244N \001(\0132" +
-      "\033.dstore.values.decimalValue\0228\n\022delivery" +
-      "_person_id\030\245N \001(\0132\033.dstore.values.intege" +
+      "IntegerValue\0226\n\020net_payment_cost\030\244N \001(\0132" +
+      "\033.dstore.values.DecimalValue\0228\n\022delivery" +
+      "_person_id\030\245N \001(\0132\033.dstore.values.Intege" +
       "rValue\022>\n\031shipping_type_description\030\246N \001" +
-      "(\0132\032.dstore.values.stringValue\022/\n\tgross_",
-      "sum\030\247N \001(\0132\033.dstore.values.decimalValue\022" +
-      "0\n\013unit_symbol\030\250N \001(\0132\032.dstore.values.st" +
+      "(\0132\032.dstore.values.StringValue\022/\n\tgross_",
+      "sum\030\247N \001(\0132\033.dstore.values.DecimalValue\022" +
+      "0\n\013unit_symbol\030\250N \001(\0132\032.dstore.values.St" +
       "ringValue\022>\n\030precise_net_payment_cost\030\251N" +
-      " \001(\0132\033.dstore.values.decimalValue\022C\n\036cus" +
+      " \001(\0132\033.dstore.values.DecimalValue\022C\n\036cus" +
       "tomer_characteristic_value2\030\252N \001(\0132\032.dst" +
-      "ore.values.stringValue\0227\n\022public_descrip" +
-      "tion\030\253N \001(\0132\032.dstore.values.stringValue\022" +
-      "1\n\013currency_id\030\254N \001(\0132\033.dstore.values.in" +
+      "ore.values.StringValue\0227\n\022public_descrip" +
+      "tion\030\253N \001(\0132\032.dstore.values.StringValue\022" +
+      "1\n\013currency_id\030\254N \001(\0132\033.dstore.values.In" +
       "tegerValue\022C\n\036customer_characteristic_va" +
-      "lue1\030\255N \001(\0132\032.dstore.values.stringValue\022",
+      "lue1\030\255N \001(\0132\032.dstore.values.StringValue\022",
       "7\n\021precise_gross_sum\030\256N \001(\0132\033.dstore.val" +
-      "ues.decimalValue\0223\n\rshipping_cost\030\257N \001(\013" +
-      "2\033.dstore.values.decimalValue\022A\n\034charac_" +
+      "ues.DecimalValue\0223\n\rshipping_cost\030\257N \001(\013" +
+      "2\033.dstore.values.DecimalValue\022A\n\034charac_" +
       "val1_restr_by_pattern\030\260N \001(\0132\032.dstore.va" +
-      "lues.stringValue\0225\n\017payment_type_id\030\261N \001" +
-      "(\0132\033.dstore.values.integerValue\0220\n\013order" +
-      "_state\030\262N \001(\0132\032.dstore.values.stringValu" +
+      "lues.StringValue\0225\n\017payment_type_id\030\261N \001" +
+      "(\0132\033.dstore.values.IntegerValue\0220\n\013order" +
+      "_state\030\262N \001(\0132\032.dstore.values.StringValu" +
       "e\0221\n\013description\030\244\234\001 \001(\0132\032.dstore.values" +
-      ".stringValue\022>\n\027precise_net_content_sum\030" +
-      "\245\234\001 \001(\0132\033.dstore.values.decimalValue\0226\n\020",
+      ".StringValue\022>\n\027precise_net_content_sum\030" +
+      "\245\234\001 \001(\0132\033.dstore.values.DecimalValue\0226\n\020",
       "order_content_no\030\247\234\001 \001(\0132\032.dstore.values" +
-      ".stringValue\0227\n\020order_content_id\030\252\234\001 \001(\013" +
-      "2\033.dstore.values.integerValue\0225\n\017currenc" +
-      "y_symbol\030\254\234\001 \001(\0132\032.dstore.values.stringV" +
+      ".StringValue\0227\n\020order_content_id\030\252\234\001 \001(\013" +
+      "2\033.dstore.values.IntegerValue\0225\n\017currenc" +
+      "y_symbol\030\254\234\001 \001(\0132\032.dstore.values.StringV" +
       "alue\0228\n\021netto_content_sum\030\256\234\001 \001(\0132\033.dsto" +
-      "re.values.decimalValue\022=\n\026order_content_" +
-      "position\030\261\234\001 \001(\0132\033.dstore.values.integer" +
+      "re.values.DecimalValue\022=\n\026order_content_" +
+      "position\030\261\234\001 \001(\0132\033.dstore.values.Integer" +
       "Value\0226\n\017net_content_sum\030\262\234\001 \001(\0132\033.dstor" +
-      "e.values.decimalValue\022.\n\007node_id\030\263\234\001 \001(\013" +
-      "2\033.dstore.values.integerValue\0228\n\021gross_c",
-      "ontent_sum\030\264\234\001 \001(\0132\033.dstore.values.decim" +
+      "e.values.DecimalValue\022.\n\007node_id\030\263\234\001 \001(\013" +
+      "2\033.dstore.values.IntegerValue\0228\n\021gross_c",
+      "ontent_sum\030\264\234\001 \001(\0132\033.dstore.values.Decim" +
       "alValue\022>\n\027precise_gross_order_sum\030\267\234\001 \001" +
-      "(\0132\033.dstore.values.decimalValue\022@\n\031preci" +
+      "(\0132\033.dstore.values.DecimalValue\022@\n\031preci" +
       "se_gross_content_sum\030\270\234\001 \001(\0132\033.dstore.va" +
-      "lues.decimalValue\0226\n\017gross_order_sum\030\271\234\001" +
-      " \001(\0132\033.dstore.values.decimalValue\022A\n\032ord" +
+      "lues.DecimalValue\0226\n\017gross_order_sum\030\271\234\001" +
+      " \001(\0132\033.dstore.values.DecimalValue\022A\n\032ord" +
       "er_content_was_modified\030\273\234\001 \001(\0132\033.dstore" +
-      ".values.booleanValue\0223\n\ritem_property\030\274\234" +
-      "\001 \001(\0132\032.dstore.values.stringValue\022/\n\010qua" +
-      "ntity\030\277\234\001 \001(\0132\033.dstore.values.integerVal",
+      ".values.BooleanValue\0223\n\ritem_property\030\274\234" +
+      "\001 \001(\0132\032.dstore.values.StringValue\022/\n\010qua" +
+      "ntity\030\277\234\001 \001(\0132\033.dstore.values.IntegerVal",
       "ue\0224\n\rnet_order_sum\030\302\234\001 \001(\0132\033.dstore.val" +
-      "ues.decimalValue\0229\n\022brutto_content_sum\030\306" +
-      "\234\001 \001(\0132\033.dstore.values.decimalValue\0226\n\017n" +
-      "etto_order_sum\030\307\234\001 \001(\0132\033.dstore.values.d" +
+      "ues.DecimalValue\0229\n\022brutto_content_sum\030\306" +
+      "\234\001 \001(\0132\033.dstore.values.DecimalValue\0226\n\017n" +
+      "etto_order_sum\030\307\234\001 \001(\0132\033.dstore.values.D" +
       "ecimalValue\022-\n\007item_no\030\310\234\001 \001(\0132\032.dstore." +
-      "values.stringValue\022<\n\025precise_net_order_" +
-      "sum\030\314\234\001 \001(\0132\033.dstore.values.decimalValue" +
+      "values.StringValue\022<\n\025precise_net_order_" +
+      "sum\030\314\234\001 \001(\0132\033.dstore.values.DecimalValue" +
       "\0227\n\020brutto_order_sum\030\316\234\001 \001(\0132\033.dstore.va" +
-      "lues.decimalValueBT\n\033io.dstore.engine.pr" +
+      "lues.DecimalValueBT\n\033io.dstore.engine.pr" +
       "oceduresZ5gosdk.dstore.de/engine/procedu",
       "res/om_SearchOrderNo_Adb\006proto3"
     };
@@ -19084,7 +19084,7 @@ public final class OmSearchOrderNoAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_SearchOrderNo_Ad_Parameters_descriptor =
@@ -19105,7 +19105,7 @@ public final class OmSearchOrderNoAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_SearchOrderNo_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "OrderDateAndTime", "PaymentCost", "DeliveryDateAndTime", "NetShippingCost", "OrderNo", "NettoSum", "LastEditedByUserId", "OrderId", "BruttoSum", "PreciseNetShippingCost", "CharacVal2RestrByPattern", "NetSum", "PersonId", "PaymentTypeDescription", "PreciseNetSum", "PositionCount", "OrderStateId", "ShippingTypeId", "PersonTypeId", "NetPaymentCost", "DeliveryPersonId", "ShippingTypeDescription", "GrossSum", "UnitSymbol", "PreciseNetPaymentCost", "CustomerCharacteristicValue2", "PublicDescription", "CurrencyId", "CustomerCharacteristicValue1", "PreciseGrossSum", "ShippingCost", "CharacVal1RestrByPattern", "PaymentTypeId", "OrderState", "Description", "PreciseNetContentSum", "OrderContentNo", "OrderContentId", "CurrencySymbol", "NettoContentSum", "OrderContentPosition", "NetContentSum", "NodeId", "GrossContentSum", "PreciseGrossOrderSum", "PreciseGrossContentSum", "GrossOrderSum", "OrderContentWasModified", "ItemProperty", "Quantity", "NetOrderSum", "BruttoContentSum", "NettoOrderSum", "ItemNo", "PreciseNetOrderSum", "BruttoOrderSum", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

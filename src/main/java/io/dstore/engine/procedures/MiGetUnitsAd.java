@@ -19,17 +19,17 @@ public final class MiGetUnitsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
     boolean hasUnitId();
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUnitId();
+    io.dstore.values.IntegerValue getUnitId();
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder();
 
     /**
      * <code>optional bool unit_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetUnitsAd {
     boolean getUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     boolean hasUnitCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
-    io.dstore.Values.integerValue getUnitCategoryId();
+    io.dstore.values.IntegerValue getUnitCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder();
 
     /**
      * <code>optional bool unit_category_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetUnitsAd {
     boolean getUnitCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.IntegerValue active = 3;</code>
      */
     boolean hasActive();
     /**
-     * <code>optional .dstore.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.IntegerValue active = 3;</code>
      */
-    io.dstore.Values.integerValue getActive();
+    io.dstore.values.IntegerValue getActive();
     /**
-     * <code>optional .dstore.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.IntegerValue active = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getActiveOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder();
 
     /**
      * <code>optional bool active_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiGetUnitsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (unitId_ != null) {
                 subBuilder = unitId_.toBuilder();
               }
-              unitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              unitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(unitId_);
                 unitId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiGetUnitsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (unitCategoryId_ != null) {
                 subBuilder = unitCategoryId_.toBuilder();
               }
-              unitCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              unitCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(unitCategoryId_);
                 unitCategoryId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiGetUnitsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (active_ != null) {
                 subBuilder = active_.toBuilder();
               }
-              active_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              active_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(active_);
                 active_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiGetUnitsAd {
     }
 
     public static final int UNIT_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue unitId_;
+    private io.dstore.values.IntegerValue unitId_;
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
     public boolean hasUnitId() {
       return unitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUnitId() {
-      return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+    public io.dstore.values.IntegerValue getUnitId() {
+      return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
       return getUnitId();
     }
 
@@ -222,23 +222,23 @@ public final class MiGetUnitsAd {
     }
 
     public static final int UNIT_CATEGORY_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue unitCategoryId_;
+    private io.dstore.values.IntegerValue unitCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     public boolean hasUnitCategoryId() {
       return unitCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getUnitCategoryId() {
-      return unitCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
+    public io.dstore.values.IntegerValue getUnitCategoryId() {
+      return unitCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
       return getUnitCategoryId();
     }
 
@@ -252,23 +252,23 @@ public final class MiGetUnitsAd {
     }
 
     public static final int ACTIVE_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue active_;
+    private io.dstore.values.IntegerValue active_;
     /**
-     * <code>optional .dstore.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.IntegerValue active = 3;</code>
      */
     public boolean hasActive() {
       return active_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.IntegerValue active = 3;</code>
      */
-    public io.dstore.Values.integerValue getActive() {
-      return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
+    public io.dstore.values.IntegerValue getActive() {
+      return active_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : active_;
     }
     /**
-     * <code>optional .dstore.values.integerValue active = 3;</code>
+     * <code>optional .dstore.values.IntegerValue active = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
       return getActive();
     }
 
@@ -677,29 +677,29 @@ public final class MiGetUnitsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue unitId_ = null;
+      private io.dstore.values.IntegerValue unitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
       public boolean hasUnitId() {
         return unitIdBuilder_ != null || unitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUnitId() {
+      public io.dstore.values.IntegerValue getUnitId() {
         if (unitIdBuilder_ == null) {
-          return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+          return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
         } else {
           return unitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public Builder setUnitId(io.dstore.Values.integerValue value) {
+      public Builder setUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder setUnitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (unitIdBuilder_ == null) {
           unitId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public Builder mergeUnitId(io.dstore.Values.integerValue value) {
+      public Builder mergeUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
           if (unitId_ != null) {
             unitId_ =
-              io.dstore.Values.integerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
           } else {
             unitId_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder clearUnitId() {
         if (unitIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUnitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUnitIdBuilder() {
         
         onChanged();
         return getUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
         if (unitIdBuilder_ != null) {
           return unitIdBuilder_.getMessageOrBuilder();
         } else {
           return unitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUnitIdFieldBuilder() {
         if (unitIdBuilder_ == null) {
           unitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUnitId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiGetUnitsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue unitCategoryId_ = null;
+      private io.dstore.values.IntegerValue unitCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public boolean hasUnitCategoryId() {
         return unitCategoryIdBuilder_ != null || unitCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getUnitCategoryId() {
+      public io.dstore.values.IntegerValue getUnitCategoryId() {
         if (unitCategoryIdBuilder_ == null) {
-          return unitCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
+          return unitCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
         } else {
           return unitCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public Builder setUnitCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setUnitCategoryId(io.dstore.values.IntegerValue value) {
         if (unitCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public Builder setUnitCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (unitCategoryIdBuilder_ == null) {
           unitCategoryId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public Builder mergeUnitCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergeUnitCategoryId(io.dstore.values.IntegerValue value) {
         if (unitCategoryIdBuilder_ == null) {
           if (unitCategoryId_ != null) {
             unitCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(unitCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(unitCategoryId_).mergeFrom(value).buildPartial();
           } else {
             unitCategoryId_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public Builder clearUnitCategoryId() {
         if (unitCategoryIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUnitCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUnitCategoryIdBuilder() {
         
         onChanged();
         return getUnitCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
         if (unitCategoryIdBuilder_ != null) {
           return unitCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return unitCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUnitCategoryIdFieldBuilder() {
         if (unitCategoryIdBuilder_ == null) {
           unitCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUnitCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiGetUnitsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue active_ = null;
+      private io.dstore.values.IntegerValue active_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> activeBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> activeBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.IntegerValue active = 3;</code>
        */
       public boolean hasActive() {
         return activeBuilder_ != null || active_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.IntegerValue active = 3;</code>
        */
-      public io.dstore.Values.integerValue getActive() {
+      public io.dstore.values.IntegerValue getActive() {
         if (activeBuilder_ == null) {
-          return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
+          return active_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : active_;
         } else {
           return activeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.IntegerValue active = 3;</code>
        */
-      public Builder setActive(io.dstore.Values.integerValue value) {
+      public Builder setActive(io.dstore.values.IntegerValue value) {
         if (activeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.IntegerValue active = 3;</code>
        */
       public Builder setActive(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (activeBuilder_ == null) {
           active_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.IntegerValue active = 3;</code>
        */
-      public Builder mergeActive(io.dstore.Values.integerValue value) {
+      public Builder mergeActive(io.dstore.values.IntegerValue value) {
         if (activeBuilder_ == null) {
           if (active_ != null) {
             active_ =
-              io.dstore.Values.integerValue.newBuilder(active_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(active_).mergeFrom(value).buildPartial();
           } else {
             active_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.IntegerValue active = 3;</code>
        */
       public Builder clearActive() {
         if (activeBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiGetUnitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.IntegerValue active = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getActiveBuilder() {
+      public io.dstore.values.IntegerValue.Builder getActiveBuilder() {
         
         onChanged();
         return getActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.IntegerValue active = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
         if (activeBuilder_ != null) {
           return activeBuilder_.getMessageOrBuilder();
         } else {
           return active_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : active_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : active_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue active = 3;</code>
+       * <code>optional .dstore.values.IntegerValue active = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getActiveFieldBuilder() {
         if (activeBuilder_ == null) {
           activeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getActive(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class MiGetUnitsAd {
        * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue active = 10001;</code>
        */
       boolean hasActive();
       /**
@@ -1373,24 +1373,24 @@ public final class MiGetUnitsAd {
        * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue active = 10001;</code>
        */
-      io.dstore.Values.integerValue getActive();
+      io.dstore.values.IntegerValue getActive();
       /**
        * <pre>
        * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue active = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getActiveOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder();
 
       /**
        * <pre>
        * ID einer Einheit, die im "dStore" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
        */
       boolean hasUnitId();
       /**
@@ -1398,24 +1398,24 @@ public final class MiGetUnitsAd {
        * ID einer Einheit, die im "dStore" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getUnitId();
+      io.dstore.values.IntegerValue getUnitId();
       /**
        * <pre>
        * ID einer Einheit, die im "dStore" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder();
 
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
        */
       boolean hasUnitSymbol();
       /**
@@ -1423,24 +1423,24 @@ public final class MiGetUnitsAd {
        * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
        */
-      io.dstore.Values.stringValue getUnitSymbol();
+      io.dstore.values.StringValue getUnitSymbol();
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
        */
       boolean hasUnitDescription();
       /**
@@ -1448,24 +1448,24 @@ public final class MiGetUnitsAd {
        * Bezeichnung der Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
        */
-      io.dstore.Values.stringValue getUnitDescription();
+      io.dstore.values.StringValue getUnitDescription();
       /**
        * <pre>
        * Bezeichnung der Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUnitDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUnitDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
        */
       boolean hasUnitCategoryId();
       /**
@@ -1473,24 +1473,24 @@ public final class MiGetUnitsAd {
        * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
        */
-      io.dstore.Values.integerValue getUnitCategoryId();
+      io.dstore.values.IntegerValue getUnitCategoryId();
       /**
        * <pre>
        * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder();
 
       /**
        * <pre>
        * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
        */
       boolean hasTriangleConvert();
       /**
@@ -1498,24 +1498,24 @@ public final class MiGetUnitsAd {
        * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
        */
-      io.dstore.Values.booleanValue getTriangleConvert();
+      io.dstore.values.BooleanValue getTriangleConvert();
       /**
        * <pre>
        * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getTriangleConvertOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getTriangleConvertOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+       * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
        */
       boolean hasUnitCategoryDescription();
       /**
@@ -1523,17 +1523,17 @@ public final class MiGetUnitsAd {
        * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+       * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
        */
-      io.dstore.Values.stringValue getUnitCategoryDescription();
+      io.dstore.values.StringValue getUnitCategoryDescription();
       /**
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+       * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUnitCategoryDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUnitCategoryDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetUnits_Ad.Response.Row}
@@ -1581,11 +1581,11 @@ public final class MiGetUnitsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                active_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -1594,11 +1594,11 @@ public final class MiGetUnitsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (unitId_ != null) {
                   subBuilder = unitId_.toBuilder();
                 }
-                unitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                unitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitId_);
                   unitId_ = subBuilder.buildPartial();
@@ -1607,11 +1607,11 @@ public final class MiGetUnitsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
                 }
-                unitSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                unitSymbol_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitSymbol_);
                   unitSymbol_ = subBuilder.buildPartial();
@@ -1620,11 +1620,11 @@ public final class MiGetUnitsAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (unitDescription_ != null) {
                   subBuilder = unitDescription_.toBuilder();
                 }
-                unitDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                unitDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitDescription_);
                   unitDescription_ = subBuilder.buildPartial();
@@ -1633,11 +1633,11 @@ public final class MiGetUnitsAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (unitCategoryId_ != null) {
                   subBuilder = unitCategoryId_.toBuilder();
                 }
-                unitCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                unitCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitCategoryId_);
                   unitCategoryId_ = subBuilder.buildPartial();
@@ -1646,11 +1646,11 @@ public final class MiGetUnitsAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (triangleConvert_ != null) {
                   subBuilder = triangleConvert_.toBuilder();
                 }
-                triangleConvert_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                triangleConvert_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(triangleConvert_);
                   triangleConvert_ = subBuilder.buildPartial();
@@ -1659,11 +1659,11 @@ public final class MiGetUnitsAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (unitCategoryDescription_ != null) {
                   subBuilder = unitCategoryDescription_.toBuilder();
                 }
-                unitCategoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                unitCategoryDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitCategoryDescription_);
                   unitCategoryDescription_ = subBuilder.buildPartial();
@@ -1704,13 +1704,13 @@ public final class MiGetUnitsAd {
       }
 
       public static final int ACTIVE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue active_;
+      private io.dstore.values.IntegerValue active_;
       /**
        * <pre>
        * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue active = 10001;</code>
        */
       public boolean hasActive() {
         return active_ != null;
@@ -1720,30 +1720,30 @@ public final class MiGetUnitsAd {
        * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue active = 10001;</code>
        */
-      public io.dstore.Values.integerValue getActive() {
-        return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
+      public io.dstore.values.IntegerValue getActive() {
+        return active_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : active_;
       }
       /**
        * <pre>
        * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue active = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue active = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
         return getActive();
       }
 
       public static final int UNIT_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue unitId_;
+      private io.dstore.values.IntegerValue unitId_;
       /**
        * <pre>
        * ID einer Einheit, die im "dStore" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
        */
       public boolean hasUnitId() {
         return unitId_ != null;
@@ -1753,30 +1753,30 @@ public final class MiGetUnitsAd {
        * ID einer Einheit, die im "dStore" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getUnitId() {
-        return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+      public io.dstore.values.IntegerValue getUnitId() {
+        return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
       }
       /**
        * <pre>
        * ID einer Einheit, die im "dStore" definiert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
         return getUnitId();
       }
 
       public static final int UNIT_SYMBOL_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue unitSymbol_;
+      private io.dstore.values.StringValue unitSymbol_;
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
        */
       public boolean hasUnitSymbol() {
         return unitSymbol_ != null;
@@ -1786,30 +1786,30 @@ public final class MiGetUnitsAd {
        * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
        */
-      public io.dstore.Values.stringValue getUnitSymbol() {
-        return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
+      public io.dstore.values.StringValue getUnitSymbol() {
+        return unitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
       }
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder() {
         return getUnitSymbol();
       }
 
       public static final int UNIT_DESCRIPTION_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue unitDescription_;
+      private io.dstore.values.StringValue unitDescription_;
       /**
        * <pre>
        * Bezeichnung der Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
        */
       public boolean hasUnitDescription() {
         return unitDescription_ != null;
@@ -1819,30 +1819,30 @@ public final class MiGetUnitsAd {
        * Bezeichnung der Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
        */
-      public io.dstore.Values.stringValue getUnitDescription() {
-        return unitDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitDescription_;
+      public io.dstore.values.StringValue getUnitDescription() {
+        return unitDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Einheit "UnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUnitDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUnitDescriptionOrBuilder() {
         return getUnitDescription();
       }
 
       public static final int UNIT_CATEGORY_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue unitCategoryId_;
+      private io.dstore.values.IntegerValue unitCategoryId_;
       /**
        * <pre>
        * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
        */
       public boolean hasUnitCategoryId() {
         return unitCategoryId_ != null;
@@ -1852,30 +1852,30 @@ public final class MiGetUnitsAd {
        * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
        */
-      public io.dstore.Values.integerValue getUnitCategoryId() {
-        return unitCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
+      public io.dstore.values.IntegerValue getUnitCategoryId() {
+        return unitCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
       }
       /**
        * <pre>
        * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
         return getUnitCategoryId();
       }
 
       public static final int TRIANGLE_CONVERT_FIELD_NUMBER = 10006;
-      private io.dstore.Values.booleanValue triangleConvert_;
+      private io.dstore.values.BooleanValue triangleConvert_;
       /**
        * <pre>
        * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
        */
       public boolean hasTriangleConvert() {
         return triangleConvert_ != null;
@@ -1885,30 +1885,30 @@ public final class MiGetUnitsAd {
        * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
        */
-      public io.dstore.Values.booleanValue getTriangleConvert() {
-        return triangleConvert_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : triangleConvert_;
+      public io.dstore.values.BooleanValue getTriangleConvert() {
+        return triangleConvert_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : triangleConvert_;
       }
       /**
        * <pre>
        * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getTriangleConvertOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getTriangleConvertOrBuilder() {
         return getTriangleConvert();
       }
 
       public static final int UNIT_CATEGORY_DESCRIPTION_FIELD_NUMBER = 10007;
-      private io.dstore.Values.stringValue unitCategoryDescription_;
+      private io.dstore.values.StringValue unitCategoryDescription_;
       /**
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+       * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
        */
       public boolean hasUnitCategoryDescription() {
         return unitCategoryDescription_ != null;
@@ -1918,19 +1918,19 @@ public final class MiGetUnitsAd {
        * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+       * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
        */
-      public io.dstore.Values.stringValue getUnitCategoryDescription() {
-        return unitCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitCategoryDescription_;
+      public io.dstore.values.StringValue getUnitCategoryDescription() {
+        return unitCategoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitCategoryDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+       * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUnitCategoryDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUnitCategoryDescriptionOrBuilder() {
         return getUnitCategoryDescription();
       }
 
@@ -2439,15 +2439,15 @@ public final class MiGetUnitsAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue active_ = null;
+        private io.dstore.values.IntegerValue active_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> activeBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> activeBuilder_;
         /**
          * <pre>
          * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue active = 10001;</code>
          */
         public boolean hasActive() {
           return activeBuilder_ != null || active_ != null;
@@ -2457,11 +2457,11 @@ public final class MiGetUnitsAd {
          * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue active = 10001;</code>
          */
-        public io.dstore.Values.integerValue getActive() {
+        public io.dstore.values.IntegerValue getActive() {
           if (activeBuilder_ == null) {
-            return active_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : active_;
+            return active_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : active_;
           } else {
             return activeBuilder_.getMessage();
           }
@@ -2471,9 +2471,9 @@ public final class MiGetUnitsAd {
          * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue active = 10001;</code>
          */
-        public Builder setActive(io.dstore.Values.integerValue value) {
+        public Builder setActive(io.dstore.values.IntegerValue value) {
           if (activeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2491,10 +2491,10 @@ public final class MiGetUnitsAd {
          * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue active = 10001;</code>
          */
         public Builder setActive(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (activeBuilder_ == null) {
             active_ = builderForValue.build();
             onChanged();
@@ -2509,13 +2509,13 @@ public final class MiGetUnitsAd {
          * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue active = 10001;</code>
          */
-        public Builder mergeActive(io.dstore.Values.integerValue value) {
+        public Builder mergeActive(io.dstore.values.IntegerValue value) {
           if (activeBuilder_ == null) {
             if (active_ != null) {
               active_ =
-                io.dstore.Values.integerValue.newBuilder(active_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(active_).mergeFrom(value).buildPartial();
             } else {
               active_ = value;
             }
@@ -2531,7 +2531,7 @@ public final class MiGetUnitsAd {
          * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue active = 10001;</code>
          */
         public Builder clearActive() {
           if (activeBuilder_ == null) {
@@ -2549,9 +2549,9 @@ public final class MiGetUnitsAd {
          * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue active = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getActiveBuilder() {
+        public io.dstore.values.IntegerValue.Builder getActiveBuilder() {
           
           onChanged();
           return getActiveFieldBuilder().getBuilder();
@@ -2561,14 +2561,14 @@ public final class MiGetUnitsAd {
          * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue active = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getActiveOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getActiveOrBuilder() {
           if (activeBuilder_ != null) {
             return activeBuilder_.getMessageOrBuilder();
           } else {
             return active_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : active_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : active_;
           }
         }
         /**
@@ -2576,14 +2576,14 @@ public final class MiGetUnitsAd {
          * "0" : "UnitID" wird nicht mehr verwendet, muß aber noch gespeichert werden, da abhängige Datensätze (wie Aufträge) existieren (z.B. die Währung "DEM")"1" : "UnitID" ist aktiv, wird also verwendet"2" : "UnitID" ist nur für Administratoren sichtbar
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue active = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue active = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getActiveFieldBuilder() {
           if (activeBuilder_ == null) {
             activeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getActive(),
                     getParentForChildren(),
                     isClean());
@@ -2592,15 +2592,15 @@ public final class MiGetUnitsAd {
           return activeBuilder_;
         }
 
-        private io.dstore.Values.integerValue unitId_ = null;
+        private io.dstore.values.IntegerValue unitId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitIdBuilder_;
         /**
          * <pre>
          * ID einer Einheit, die im "dStore" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
          */
         public boolean hasUnitId() {
           return unitIdBuilder_ != null || unitId_ != null;
@@ -2610,11 +2610,11 @@ public final class MiGetUnitsAd {
          * ID einer Einheit, die im "dStore" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getUnitId() {
+        public io.dstore.values.IntegerValue getUnitId() {
           if (unitIdBuilder_ == null) {
-            return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+            return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
           } else {
             return unitIdBuilder_.getMessage();
           }
@@ -2624,9 +2624,9 @@ public final class MiGetUnitsAd {
          * ID einer Einheit, die im "dStore" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
          */
-        public Builder setUnitId(io.dstore.Values.integerValue value) {
+        public Builder setUnitId(io.dstore.values.IntegerValue value) {
           if (unitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2644,10 +2644,10 @@ public final class MiGetUnitsAd {
          * ID einer Einheit, die im "dStore" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
          */
         public Builder setUnitId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (unitIdBuilder_ == null) {
             unitId_ = builderForValue.build();
             onChanged();
@@ -2662,13 +2662,13 @@ public final class MiGetUnitsAd {
          * ID einer Einheit, die im "dStore" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
          */
-        public Builder mergeUnitId(io.dstore.Values.integerValue value) {
+        public Builder mergeUnitId(io.dstore.values.IntegerValue value) {
           if (unitIdBuilder_ == null) {
             if (unitId_ != null) {
               unitId_ =
-                io.dstore.Values.integerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
             } else {
               unitId_ = value;
             }
@@ -2684,7 +2684,7 @@ public final class MiGetUnitsAd {
          * ID einer Einheit, die im "dStore" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
          */
         public Builder clearUnitId() {
           if (unitIdBuilder_ == null) {
@@ -2702,9 +2702,9 @@ public final class MiGetUnitsAd {
          * ID einer Einheit, die im "dStore" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUnitIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUnitIdBuilder() {
           
           onChanged();
           return getUnitIdFieldBuilder().getBuilder();
@@ -2714,14 +2714,14 @@ public final class MiGetUnitsAd {
          * ID einer Einheit, die im "dStore" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
           if (unitIdBuilder_ != null) {
             return unitIdBuilder_.getMessageOrBuilder();
           } else {
             return unitId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
           }
         }
         /**
@@ -2729,14 +2729,14 @@ public final class MiGetUnitsAd {
          * ID einer Einheit, die im "dStore" definiert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue unit_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUnitIdFieldBuilder() {
           if (unitIdBuilder_ == null) {
             unitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUnitId(),
                     getParentForChildren(),
                     isClean());
@@ -2745,15 +2745,15 @@ public final class MiGetUnitsAd {
           return unitIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue unitSymbol_ = null;
+        private io.dstore.values.StringValue unitSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> unitSymbolBuilder_;
         /**
          * <pre>
          * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
          */
         public boolean hasUnitSymbol() {
           return unitSymbolBuilder_ != null || unitSymbol_ != null;
@@ -2763,11 +2763,11 @@ public final class MiGetUnitsAd {
          * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
          */
-        public io.dstore.Values.stringValue getUnitSymbol() {
+        public io.dstore.values.StringValue getUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
-            return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
+            return unitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
           } else {
             return unitSymbolBuilder_.getMessage();
           }
@@ -2777,9 +2777,9 @@ public final class MiGetUnitsAd {
          * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
          */
-        public Builder setUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder setUnitSymbol(io.dstore.values.StringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2797,10 +2797,10 @@ public final class MiGetUnitsAd {
          * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
          */
         public Builder setUnitSymbol(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (unitSymbolBuilder_ == null) {
             unitSymbol_ = builderForValue.build();
             onChanged();
@@ -2815,13 +2815,13 @@ public final class MiGetUnitsAd {
          * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
          */
-        public Builder mergeUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder mergeUnitSymbol(io.dstore.values.StringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (unitSymbol_ != null) {
               unitSymbol_ =
-                io.dstore.Values.stringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
             } else {
               unitSymbol_ = value;
             }
@@ -2837,7 +2837,7 @@ public final class MiGetUnitsAd {
          * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
          */
         public Builder clearUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
@@ -2855,9 +2855,9 @@ public final class MiGetUnitsAd {
          * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUnitSymbolBuilder() {
+        public io.dstore.values.StringValue.Builder getUnitSymbolBuilder() {
           
           onChanged();
           return getUnitSymbolFieldBuilder().getBuilder();
@@ -2867,14 +2867,14 @@ public final class MiGetUnitsAd {
          * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder() {
           if (unitSymbolBuilder_ != null) {
             return unitSymbolBuilder_.getMessageOrBuilder();
           } else {
             return unitSymbol_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
+                io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
           }
         }
         /**
@@ -2882,14 +2882,14 @@ public final class MiGetUnitsAd {
          * Symbol (im Regelfall der ISO-Code) für die Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10003;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUnitSymbolFieldBuilder() {
           if (unitSymbolBuilder_ == null) {
             unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUnitSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -2898,15 +2898,15 @@ public final class MiGetUnitsAd {
           return unitSymbolBuilder_;
         }
 
-        private io.dstore.Values.stringValue unitDescription_ = null;
+        private io.dstore.values.StringValue unitDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> unitDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
          */
         public boolean hasUnitDescription() {
           return unitDescriptionBuilder_ != null || unitDescription_ != null;
@@ -2916,11 +2916,11 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue getUnitDescription() {
+        public io.dstore.values.StringValue getUnitDescription() {
           if (unitDescriptionBuilder_ == null) {
-            return unitDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitDescription_;
+            return unitDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitDescription_;
           } else {
             return unitDescriptionBuilder_.getMessage();
           }
@@ -2930,9 +2930,9 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
          */
-        public Builder setUnitDescription(io.dstore.Values.stringValue value) {
+        public Builder setUnitDescription(io.dstore.values.StringValue value) {
           if (unitDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2950,10 +2950,10 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
          */
         public Builder setUnitDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (unitDescriptionBuilder_ == null) {
             unitDescription_ = builderForValue.build();
             onChanged();
@@ -2968,13 +2968,13 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
          */
-        public Builder mergeUnitDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeUnitDescription(io.dstore.values.StringValue value) {
           if (unitDescriptionBuilder_ == null) {
             if (unitDescription_ != null) {
               unitDescription_ =
-                io.dstore.Values.stringValue.newBuilder(unitDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(unitDescription_).mergeFrom(value).buildPartial();
             } else {
               unitDescription_ = value;
             }
@@ -2990,7 +2990,7 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
          */
         public Builder clearUnitDescription() {
           if (unitDescriptionBuilder_ == null) {
@@ -3008,9 +3008,9 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUnitDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getUnitDescriptionBuilder() {
           
           onChanged();
           return getUnitDescriptionFieldBuilder().getBuilder();
@@ -3020,14 +3020,14 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUnitDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUnitDescriptionOrBuilder() {
           if (unitDescriptionBuilder_ != null) {
             return unitDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return unitDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : unitDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : unitDescription_;
           }
         }
         /**
@@ -3035,14 +3035,14 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Einheit "UnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue unit_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUnitDescriptionFieldBuilder() {
           if (unitDescriptionBuilder_ == null) {
             unitDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUnitDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3051,15 +3051,15 @@ public final class MiGetUnitsAd {
           return unitDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue unitCategoryId_ = null;
+        private io.dstore.values.IntegerValue unitCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitCategoryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitCategoryIdBuilder_;
         /**
          * <pre>
          * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
          */
         public boolean hasUnitCategoryId() {
           return unitCategoryIdBuilder_ != null || unitCategoryId_ != null;
@@ -3069,11 +3069,11 @@ public final class MiGetUnitsAd {
          * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue getUnitCategoryId() {
+        public io.dstore.values.IntegerValue getUnitCategoryId() {
           if (unitCategoryIdBuilder_ == null) {
-            return unitCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
+            return unitCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
           } else {
             return unitCategoryIdBuilder_.getMessage();
           }
@@ -3083,9 +3083,9 @@ public final class MiGetUnitsAd {
          * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
          */
-        public Builder setUnitCategoryId(io.dstore.Values.integerValue value) {
+        public Builder setUnitCategoryId(io.dstore.values.IntegerValue value) {
           if (unitCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3103,10 +3103,10 @@ public final class MiGetUnitsAd {
          * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
          */
         public Builder setUnitCategoryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (unitCategoryIdBuilder_ == null) {
             unitCategoryId_ = builderForValue.build();
             onChanged();
@@ -3121,13 +3121,13 @@ public final class MiGetUnitsAd {
          * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
          */
-        public Builder mergeUnitCategoryId(io.dstore.Values.integerValue value) {
+        public Builder mergeUnitCategoryId(io.dstore.values.IntegerValue value) {
           if (unitCategoryIdBuilder_ == null) {
             if (unitCategoryId_ != null) {
               unitCategoryId_ =
-                io.dstore.Values.integerValue.newBuilder(unitCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(unitCategoryId_).mergeFrom(value).buildPartial();
             } else {
               unitCategoryId_ = value;
             }
@@ -3143,7 +3143,7 @@ public final class MiGetUnitsAd {
          * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
          */
         public Builder clearUnitCategoryId() {
           if (unitCategoryIdBuilder_ == null) {
@@ -3161,9 +3161,9 @@ public final class MiGetUnitsAd {
          * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUnitCategoryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUnitCategoryIdBuilder() {
           
           onChanged();
           return getUnitCategoryIdFieldBuilder().getBuilder();
@@ -3173,14 +3173,14 @@ public final class MiGetUnitsAd {
          * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
           if (unitCategoryIdBuilder_ != null) {
             return unitCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return unitCategoryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
           }
         }
         /**
@@ -3188,14 +3188,14 @@ public final class MiGetUnitsAd {
          * ID einer Kategorie (z.B. "1" für "Währung"), zu der die Einheit "UnitID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue unit_category_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue unit_category_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUnitCategoryIdFieldBuilder() {
           if (unitCategoryIdBuilder_ == null) {
             unitCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUnitCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -3204,15 +3204,15 @@ public final class MiGetUnitsAd {
           return unitCategoryIdBuilder_;
         }
 
-        private io.dstore.Values.booleanValue triangleConvert_ = null;
+        private io.dstore.values.BooleanValue triangleConvert_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> triangleConvertBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> triangleConvertBuilder_;
         /**
          * <pre>
          * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
          */
         public boolean hasTriangleConvert() {
           return triangleConvertBuilder_ != null || triangleConvert_ != null;
@@ -3222,11 +3222,11 @@ public final class MiGetUnitsAd {
          * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
          */
-        public io.dstore.Values.booleanValue getTriangleConvert() {
+        public io.dstore.values.BooleanValue getTriangleConvert() {
           if (triangleConvertBuilder_ == null) {
-            return triangleConvert_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : triangleConvert_;
+            return triangleConvert_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : triangleConvert_;
           } else {
             return triangleConvertBuilder_.getMessage();
           }
@@ -3236,9 +3236,9 @@ public final class MiGetUnitsAd {
          * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
          */
-        public Builder setTriangleConvert(io.dstore.Values.booleanValue value) {
+        public Builder setTriangleConvert(io.dstore.values.BooleanValue value) {
           if (triangleConvertBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3256,10 +3256,10 @@ public final class MiGetUnitsAd {
          * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
          */
         public Builder setTriangleConvert(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (triangleConvertBuilder_ == null) {
             triangleConvert_ = builderForValue.build();
             onChanged();
@@ -3274,13 +3274,13 @@ public final class MiGetUnitsAd {
          * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
          */
-        public Builder mergeTriangleConvert(io.dstore.Values.booleanValue value) {
+        public Builder mergeTriangleConvert(io.dstore.values.BooleanValue value) {
           if (triangleConvertBuilder_ == null) {
             if (triangleConvert_ != null) {
               triangleConvert_ =
-                io.dstore.Values.booleanValue.newBuilder(triangleConvert_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(triangleConvert_).mergeFrom(value).buildPartial();
             } else {
               triangleConvert_ = value;
             }
@@ -3296,7 +3296,7 @@ public final class MiGetUnitsAd {
          * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
          */
         public Builder clearTriangleConvert() {
           if (triangleConvertBuilder_ == null) {
@@ -3314,9 +3314,9 @@ public final class MiGetUnitsAd {
          * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getTriangleConvertBuilder() {
+        public io.dstore.values.BooleanValue.Builder getTriangleConvertBuilder() {
           
           onChanged();
           return getTriangleConvertFieldBuilder().getBuilder();
@@ -3326,14 +3326,14 @@ public final class MiGetUnitsAd {
          * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getTriangleConvertOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getTriangleConvertOrBuilder() {
           if (triangleConvertBuilder_ != null) {
             return triangleConvertBuilder_.getMessageOrBuilder();
           } else {
             return triangleConvert_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : triangleConvert_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : triangleConvert_;
           }
         }
         /**
@@ -3341,14 +3341,14 @@ public final class MiGetUnitsAd {
          * "1" : Umrechnungen in andere Einheiten (der gleichen Kategorie) müssen u.U. über eine dritte Einheit stattfinden. Beispiel für eine "Dreiecks"-Umrechnung war die Übergangszeit vor dem Euro (z.B. DEM ==&gt; EUR ==&gt; ÖS)"0" : Keine "Dreiecks-Umrechnung" nötig
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue triangle_convert = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue triangle_convert = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getTriangleConvertFieldBuilder() {
           if (triangleConvertBuilder_ == null) {
             triangleConvertBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getTriangleConvert(),
                     getParentForChildren(),
                     isClean());
@@ -3357,15 +3357,15 @@ public final class MiGetUnitsAd {
           return triangleConvertBuilder_;
         }
 
-        private io.dstore.Values.stringValue unitCategoryDescription_ = null;
+        private io.dstore.values.StringValue unitCategoryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitCategoryDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> unitCategoryDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+         * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
          */
         public boolean hasUnitCategoryDescription() {
           return unitCategoryDescriptionBuilder_ != null || unitCategoryDescription_ != null;
@@ -3375,11 +3375,11 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+         * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
          */
-        public io.dstore.Values.stringValue getUnitCategoryDescription() {
+        public io.dstore.values.StringValue getUnitCategoryDescription() {
           if (unitCategoryDescriptionBuilder_ == null) {
-            return unitCategoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitCategoryDescription_;
+            return unitCategoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitCategoryDescription_;
           } else {
             return unitCategoryDescriptionBuilder_.getMessage();
           }
@@ -3389,9 +3389,9 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+         * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
          */
-        public Builder setUnitCategoryDescription(io.dstore.Values.stringValue value) {
+        public Builder setUnitCategoryDescription(io.dstore.values.StringValue value) {
           if (unitCategoryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3409,10 +3409,10 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+         * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
          */
         public Builder setUnitCategoryDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (unitCategoryDescriptionBuilder_ == null) {
             unitCategoryDescription_ = builderForValue.build();
             onChanged();
@@ -3427,13 +3427,13 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+         * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
          */
-        public Builder mergeUnitCategoryDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeUnitCategoryDescription(io.dstore.values.StringValue value) {
           if (unitCategoryDescriptionBuilder_ == null) {
             if (unitCategoryDescription_ != null) {
               unitCategoryDescription_ =
-                io.dstore.Values.stringValue.newBuilder(unitCategoryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(unitCategoryDescription_).mergeFrom(value).buildPartial();
             } else {
               unitCategoryDescription_ = value;
             }
@@ -3449,7 +3449,7 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+         * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
          */
         public Builder clearUnitCategoryDescription() {
           if (unitCategoryDescriptionBuilder_ == null) {
@@ -3467,9 +3467,9 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+         * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUnitCategoryDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getUnitCategoryDescriptionBuilder() {
           
           onChanged();
           return getUnitCategoryDescriptionFieldBuilder().getBuilder();
@@ -3479,14 +3479,14 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+         * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUnitCategoryDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUnitCategoryDescriptionOrBuilder() {
           if (unitCategoryDescriptionBuilder_ != null) {
             return unitCategoryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return unitCategoryDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : unitCategoryDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : unitCategoryDescription_;
           }
         }
         /**
@@ -3494,14 +3494,14 @@ public final class MiGetUnitsAd {
          * Bezeichnung der Kategorie "UnitCategoryID" (z.B. "Währung").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_category_description = 10007;</code>
+         * <code>optional .dstore.values.StringValue unit_category_description = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUnitCategoryDescriptionFieldBuilder() {
           if (unitCategoryDescriptionBuilder_ == null) {
             unitCategoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUnitCategoryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4970,26 +4970,26 @@ public final class MiGetUnitsAd {
       "d.proto\022\034dstore.engine.mi_GetUnits_Ad\032\023d" +
       "store/values.proto\032\032dstore/engine/engine" +
       ".proto\"\353\001\n\nParameters\022,\n\007unit_id\030\001 \001(\0132\033" +
-      ".dstore.values.integerValue\022\025\n\014unit_id_n" +
+      ".dstore.values.IntegerValue\022\025\n\014unit_id_n" +
       "ull\030\351\007 \001(\010\0225\n\020unit_category_id\030\002 \001(\0132\033.d" +
-      "store.values.integerValue\022\036\n\025unit_catego" +
+      "store.values.IntegerValue\022\036\n\025unit_catego" +
       "ry_id_null\030\352\007 \001(\010\022+\n\006active\030\003 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\024\n\013active_null\030\353\007" +
+      "re.values.IntegerValue\022\024\n\013active_null\030\353\007" +
       " \001(\010\"\265\004\n\010Response\0228\n\020meta_information\030\002 ",
       "\003(\0132\036.dstore.engine.MetaInformation\022\'\n\007m" +
       "essage\030\003 \003(\0132\026.dstore.engine.Message\0227\n\003" +
       "row\030\004 \003(\0132*.dstore.engine.mi_GetUnits_Ad" +
       ".Response.Row\032\214\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022," +
-      "\n\006active\030\221N \001(\0132\033.dstore.values.integerV" +
-      "alue\022-\n\007unit_id\030\222N \001(\0132\033.dstore.values.i" +
+      "\n\006active\030\221N \001(\0132\033.dstore.values.IntegerV" +
+      "alue\022-\n\007unit_id\030\222N \001(\0132\033.dstore.values.I" +
       "ntegerValue\0220\n\013unit_symbol\030\223N \001(\0132\032.dsto" +
-      "re.values.stringValue\0225\n\020unit_descriptio" +
-      "n\030\224N \001(\0132\032.dstore.values.stringValue\0226\n\020" +
+      "re.values.StringValue\0225\n\020unit_descriptio" +
+      "n\030\224N \001(\0132\032.dstore.values.StringValue\0226\n\020" +
       "unit_category_id\030\225N \001(\0132\033.dstore.values.",
-      "integerValue\0226\n\020triangle_convert\030\226N \001(\0132" +
-      "\033.dstore.values.booleanValue\022>\n\031unit_cat" +
+      "IntegerValue\0226\n\020triangle_convert\030\226N \001(\0132" +
+      "\033.dstore.values.BooleanValue\022>\n\031unit_cat" +
       "egory_description\030\227N \001(\0132\032.dstore.values" +
-      ".stringValueBO\n\033io.dstore.engine.procedu" +
+      ".StringValueBO\n\033io.dstore.engine.procedu" +
       "resZ0gosdk.dstore.de/engine/procedures/m" +
       "i_GetUnits_Adb\006proto3"
     };
@@ -5004,7 +5004,7 @@ public final class MiGetUnitsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetUnits_Ad_Parameters_descriptor =
@@ -5025,7 +5025,7 @@ public final class MiGetUnitsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetUnits_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Active", "UnitId", "UnitSymbol", "UnitDescription", "UnitCategoryId", "TriangleConvert", "UnitCategoryDescription", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

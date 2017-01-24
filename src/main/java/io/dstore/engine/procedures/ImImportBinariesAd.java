@@ -19,17 +19,17 @@ public final class ImImportBinariesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
     boolean hasValueOrItemBinaries();
     /**
-     * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
-    io.dstore.Values.integerValue getValueOrItemBinaries();
+    io.dstore.values.IntegerValue getValueOrItemBinaries();
     /**
-     * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getValueOrItemBinariesOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getValueOrItemBinariesOrBuilder();
 
     /**
      * <code>optional bool value_or_item_binaries_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class ImImportBinariesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (valueOrItemBinaries_ != null) {
                 subBuilder = valueOrItemBinaries_.toBuilder();
               }
-              valueOrItemBinaries_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              valueOrItemBinaries_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueOrItemBinaries_);
                 valueOrItemBinaries_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class ImImportBinariesAd {
     }
 
     public static final int VALUE_OR_ITEM_BINARIES_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue valueOrItemBinaries_;
+    private io.dstore.values.IntegerValue valueOrItemBinaries_;
     /**
-     * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
     public boolean hasValueOrItemBinaries() {
       return valueOrItemBinaries_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
-    public io.dstore.Values.integerValue getValueOrItemBinaries() {
-      return valueOrItemBinaries_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueOrItemBinaries_;
+    public io.dstore.values.IntegerValue getValueOrItemBinaries() {
+      return valueOrItemBinaries_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueOrItemBinaries_;
     }
     /**
-     * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getValueOrItemBinariesOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getValueOrItemBinariesOrBuilder() {
       return getValueOrItemBinaries();
     }
 
@@ -447,29 +447,29 @@ public final class ImImportBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue valueOrItemBinaries_ = null;
+      private io.dstore.values.IntegerValue valueOrItemBinaries_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueOrItemBinariesBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> valueOrItemBinariesBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public boolean hasValueOrItemBinaries() {
         return valueOrItemBinariesBuilder_ != null || valueOrItemBinaries_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
-      public io.dstore.Values.integerValue getValueOrItemBinaries() {
+      public io.dstore.values.IntegerValue getValueOrItemBinaries() {
         if (valueOrItemBinariesBuilder_ == null) {
-          return valueOrItemBinaries_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueOrItemBinaries_;
+          return valueOrItemBinaries_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueOrItemBinaries_;
         } else {
           return valueOrItemBinariesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
-      public Builder setValueOrItemBinaries(io.dstore.Values.integerValue value) {
+      public Builder setValueOrItemBinaries(io.dstore.values.IntegerValue value) {
         if (valueOrItemBinariesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class ImImportBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public Builder setValueOrItemBinaries(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (valueOrItemBinariesBuilder_ == null) {
           valueOrItemBinaries_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class ImImportBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
-      public Builder mergeValueOrItemBinaries(io.dstore.Values.integerValue value) {
+      public Builder mergeValueOrItemBinaries(io.dstore.values.IntegerValue value) {
         if (valueOrItemBinariesBuilder_ == null) {
           if (valueOrItemBinaries_ != null) {
             valueOrItemBinaries_ =
-              io.dstore.Values.integerValue.newBuilder(valueOrItemBinaries_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(valueOrItemBinaries_).mergeFrom(value).buildPartial();
           } else {
             valueOrItemBinaries_ = value;
           }
@@ -515,7 +515,7 @@ public final class ImImportBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       public Builder clearValueOrItemBinaries() {
         if (valueOrItemBinariesBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class ImImportBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getValueOrItemBinariesBuilder() {
+      public io.dstore.values.IntegerValue.Builder getValueOrItemBinariesBuilder() {
         
         onChanged();
         return getValueOrItemBinariesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getValueOrItemBinariesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getValueOrItemBinariesOrBuilder() {
         if (valueOrItemBinariesBuilder_ != null) {
           return valueOrItemBinariesBuilder_.getMessageOrBuilder();
         } else {
           return valueOrItemBinaries_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : valueOrItemBinaries_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : valueOrItemBinaries_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue value_or_item_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_or_item_binaries = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getValueOrItemBinariesFieldBuilder() {
         if (valueOrItemBinariesBuilder_ == null) {
           valueOrItemBinariesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getValueOrItemBinaries(),
                   getParentForChildren(),
                   isClean());
@@ -2677,7 +2677,7 @@ public final class ImImportBinariesAd {
       "naries_Ad\032\023dstore/values.proto\032\032dstore/e" +
       "ngine/engine.proto\"o\n\nParameters\022;\n\026valu" +
       "e_or_item_binaries\030\001 \001(\0132\033.dstore.values" +
-      ".integerValue\022$\n\033value_or_item_binaries_" +
+      ".IntegerValue\022$\n\033value_or_item_binaries_" +
       "null\030\351\007 \001(\010\"\304\001\n\010Response\0228\n\020meta_informa" +
       "tion\030\002 \003(\0132\036.dstore.engine.MetaInformati" +
       "on\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Mess" +
@@ -2698,7 +2698,7 @@ public final class ImImportBinariesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_ImportBinaries_Ad_Parameters_descriptor =
@@ -2719,7 +2719,7 @@ public final class ImImportBinariesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ImportBinaries_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

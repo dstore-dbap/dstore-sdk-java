@@ -19,17 +19,17 @@ public final class ImGetNodeCharacDescrAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId();
+    io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImGetNodeCharacDescrAd {
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImGetNodeCharacDescrAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImGetNodeCharacDescrAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImGetNodeCharacDescrAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -185,23 +185,23 @@ public final class ImGetNodeCharacDescrAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -562,29 +562,29 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImGetNodeCharacDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class ImGetNodeCharacDescrAd {
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
        */
       boolean hasLanguageSymbol();
       /**
@@ -1115,24 +1115,24 @@ public final class ImGetNodeCharacDescrAd {
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
        */
-      io.dstore.Values.stringValue getLanguageSymbol();
+      io.dstore.values.StringValue getLanguageSymbol();
       /**
        * <pre>
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getLanguageSymbolOrBuilder();
+      io.dstore.values.StringValueOrBuilder getLanguageSymbolOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.StringValue language = 10002;</code>
        */
       boolean hasLanguage();
       /**
@@ -1140,24 +1140,24 @@ public final class ImGetNodeCharacDescrAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.StringValue language = 10002;</code>
        */
-      io.dstore.Values.stringValue getLanguage();
+      io.dstore.values.StringValue getLanguage();
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.StringValue language = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder();
+      io.dstore.values.StringValueOrBuilder getLanguageOrBuilder();
 
       /**
        * <pre>
        * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
        */
       boolean hasCharacteristicDescription();
       /**
@@ -1165,24 +1165,24 @@ public final class ImGetNodeCharacDescrAd {
        * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
        */
-      io.dstore.Values.stringValue getCharacteristicDescription();
+      io.dstore.values.StringValue getCharacteristicDescription();
       /**
        * <pre>
        * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
        * <pre>
        * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
        */
       boolean hasTranslatedDescription();
       /**
@@ -1190,24 +1190,24 @@ public final class ImGetNodeCharacDescrAd {
        * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
        */
-      io.dstore.Values.stringValue getTranslatedDescription();
+      io.dstore.values.StringValue getTranslatedDescription();
       /**
        * <pre>
        * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getTranslatedDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID eines Merkmals
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
        */
       boolean hasNodeCharacteristicId();
       /**
@@ -1215,24 +1215,24 @@ public final class ImGetNodeCharacDescrAd {
        * ID eines Merkmals
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
        */
-      io.dstore.Values.integerValue getNodeCharacteristicId();
+      io.dstore.values.IntegerValue getNodeCharacteristicId();
       /**
        * <pre>
        * ID eines Merkmals
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
        */
       boolean hasLanguageId();
       /**
@@ -1240,17 +1240,17 @@ public final class ImGetNodeCharacDescrAd {
        * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
        */
-      io.dstore.Values.integerValue getLanguageId();
+      io.dstore.values.IntegerValue getLanguageId();
       /**
        * <pre>
        * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetNodeCharacDescr_Ad.Response.Row}
@@ -1298,11 +1298,11 @@ public final class ImGetNodeCharacDescrAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (languageSymbol_ != null) {
                   subBuilder = languageSymbol_.toBuilder();
                 }
-                languageSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                languageSymbol_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageSymbol_);
                   languageSymbol_ = subBuilder.buildPartial();
@@ -1311,11 +1311,11 @@ public final class ImGetNodeCharacDescrAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (language_ != null) {
                   subBuilder = language_.toBuilder();
                 }
-                language_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                language_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(language_);
                   language_ = subBuilder.buildPartial();
@@ -1324,11 +1324,11 @@ public final class ImGetNodeCharacDescrAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (characteristicDescription_ != null) {
                   subBuilder = characteristicDescription_.toBuilder();
                 }
-                characteristicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                characteristicDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicDescription_);
                   characteristicDescription_ = subBuilder.buildPartial();
@@ -1337,11 +1337,11 @@ public final class ImGetNodeCharacDescrAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (translatedDescription_ != null) {
                   subBuilder = translatedDescription_.toBuilder();
                 }
-                translatedDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                translatedDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(translatedDescription_);
                   translatedDescription_ = subBuilder.buildPartial();
@@ -1350,11 +1350,11 @@ public final class ImGetNodeCharacDescrAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -1363,11 +1363,11 @@ public final class ImGetNodeCharacDescrAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (languageId_ != null) {
                   subBuilder = languageId_.toBuilder();
                 }
-                languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageId_);
                   languageId_ = subBuilder.buildPartial();
@@ -1408,13 +1408,13 @@ public final class ImGetNodeCharacDescrAd {
       }
 
       public static final int LANGUAGE_SYMBOL_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue languageSymbol_;
+      private io.dstore.values.StringValue languageSymbol_;
       /**
        * <pre>
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
        */
       public boolean hasLanguageSymbol() {
         return languageSymbol_ != null;
@@ -1424,30 +1424,30 @@ public final class ImGetNodeCharacDescrAd {
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
        */
-      public io.dstore.Values.stringValue getLanguageSymbol() {
-        return languageSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageSymbol_;
+      public io.dstore.values.StringValue getLanguageSymbol() {
+        return languageSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : languageSymbol_;
       }
       /**
        * <pre>
        * Internationales Symbol der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+       * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getLanguageSymbolOrBuilder() {
         return getLanguageSymbol();
       }
 
       public static final int LANGUAGE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue language_;
+      private io.dstore.values.StringValue language_;
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.StringValue language = 10002;</code>
        */
       public boolean hasLanguage() {
         return language_ != null;
@@ -1457,30 +1457,30 @@ public final class ImGetNodeCharacDescrAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.StringValue language = 10002;</code>
        */
-      public io.dstore.Values.stringValue getLanguage() {
-        return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
+      public io.dstore.values.StringValue getLanguage() {
+        return language_ == null ? io.dstore.values.StringValue.getDefaultInstance() : language_;
       }
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10002;</code>
+       * <code>optional .dstore.values.StringValue language = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getLanguageOrBuilder() {
         return getLanguage();
       }
 
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue characteristicDescription_;
+      private io.dstore.values.StringValue characteristicDescription_;
       /**
        * <pre>
        * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescription_ != null;
@@ -1490,30 +1490,30 @@ public final class ImGetNodeCharacDescrAd {
        * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
        */
-      public io.dstore.Values.stringValue getCharacteristicDescription() {
-        return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+      public io.dstore.values.StringValue getCharacteristicDescription() {
+        return characteristicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
        * <pre>
        * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
       }
 
       public static final int TRANSLATED_DESCRIPTION_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue translatedDescription_;
+      private io.dstore.values.StringValue translatedDescription_;
       /**
        * <pre>
        * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
        */
       public boolean hasTranslatedDescription() {
         return translatedDescription_ != null;
@@ -1523,30 +1523,30 @@ public final class ImGetNodeCharacDescrAd {
        * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
        */
-      public io.dstore.Values.stringValue getTranslatedDescription() {
-        return translatedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : translatedDescription_;
+      public io.dstore.values.StringValue getTranslatedDescription() {
+        return translatedDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : translatedDescription_;
       }
       /**
        * <pre>
        * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTranslatedDescriptionOrBuilder() {
         return getTranslatedDescription();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_;
       /**
        * <pre>
        * ID eines Merkmals
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicId_ != null;
@@ -1556,30 +1556,30 @@ public final class ImGetNodeCharacDescrAd {
        * ID eines Merkmals
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
        * <pre>
        * ID eines Merkmals
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
       public static final int LANGUAGE_ID_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue languageId_;
+      private io.dstore.values.IntegerValue languageId_;
       /**
        * <pre>
        * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
        */
       public boolean hasLanguageId() {
         return languageId_ != null;
@@ -1589,19 +1589,19 @@ public final class ImGetNodeCharacDescrAd {
        * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
-        return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+      public io.dstore.values.IntegerValue getLanguageId() {
+        return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
       }
       /**
        * <pre>
        * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
       }
 
@@ -2080,15 +2080,15 @@ public final class ImGetNodeCharacDescrAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue languageSymbol_ = null;
+        private io.dstore.values.StringValue languageSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageSymbolBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> languageSymbolBuilder_;
         /**
          * <pre>
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
          */
         public boolean hasLanguageSymbol() {
           return languageSymbolBuilder_ != null || languageSymbol_ != null;
@@ -2098,11 +2098,11 @@ public final class ImGetNodeCharacDescrAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
          */
-        public io.dstore.Values.stringValue getLanguageSymbol() {
+        public io.dstore.values.StringValue getLanguageSymbol() {
           if (languageSymbolBuilder_ == null) {
-            return languageSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageSymbol_;
+            return languageSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : languageSymbol_;
           } else {
             return languageSymbolBuilder_.getMessage();
           }
@@ -2112,9 +2112,9 @@ public final class ImGetNodeCharacDescrAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
          */
-        public Builder setLanguageSymbol(io.dstore.Values.stringValue value) {
+        public Builder setLanguageSymbol(io.dstore.values.StringValue value) {
           if (languageSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2132,10 +2132,10 @@ public final class ImGetNodeCharacDescrAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
          */
         public Builder setLanguageSymbol(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (languageSymbolBuilder_ == null) {
             languageSymbol_ = builderForValue.build();
             onChanged();
@@ -2150,13 +2150,13 @@ public final class ImGetNodeCharacDescrAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
          */
-        public Builder mergeLanguageSymbol(io.dstore.Values.stringValue value) {
+        public Builder mergeLanguageSymbol(io.dstore.values.StringValue value) {
           if (languageSymbolBuilder_ == null) {
             if (languageSymbol_ != null) {
               languageSymbol_ =
-                io.dstore.Values.stringValue.newBuilder(languageSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(languageSymbol_).mergeFrom(value).buildPartial();
             } else {
               languageSymbol_ = value;
             }
@@ -2172,7 +2172,7 @@ public final class ImGetNodeCharacDescrAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
          */
         public Builder clearLanguageSymbol() {
           if (languageSymbolBuilder_ == null) {
@@ -2190,9 +2190,9 @@ public final class ImGetNodeCharacDescrAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getLanguageSymbolBuilder() {
+        public io.dstore.values.StringValue.Builder getLanguageSymbolBuilder() {
           
           onChanged();
           return getLanguageSymbolFieldBuilder().getBuilder();
@@ -2202,14 +2202,14 @@ public final class ImGetNodeCharacDescrAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getLanguageSymbolOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getLanguageSymbolOrBuilder() {
           if (languageSymbolBuilder_ != null) {
             return languageSymbolBuilder_.getMessageOrBuilder();
           } else {
             return languageSymbol_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : languageSymbol_;
+                io.dstore.values.StringValue.getDefaultInstance() : languageSymbol_;
           }
         }
         /**
@@ -2217,14 +2217,14 @@ public final class ImGetNodeCharacDescrAd {
          * Internationales Symbol der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language_symbol = 10001;</code>
+         * <code>optional .dstore.values.StringValue language_symbol = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getLanguageSymbolFieldBuilder() {
           if (languageSymbolBuilder_ == null) {
             languageSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getLanguageSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -2233,15 +2233,15 @@ public final class ImGetNodeCharacDescrAd {
           return languageSymbolBuilder_;
         }
 
-        private io.dstore.Values.stringValue language_ = null;
+        private io.dstore.values.StringValue language_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> languageBuilder_;
         /**
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.StringValue language = 10002;</code>
          */
         public boolean hasLanguage() {
           return languageBuilder_ != null || language_ != null;
@@ -2251,11 +2251,11 @@ public final class ImGetNodeCharacDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.StringValue language = 10002;</code>
          */
-        public io.dstore.Values.stringValue getLanguage() {
+        public io.dstore.values.StringValue getLanguage() {
           if (languageBuilder_ == null) {
-            return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
+            return language_ == null ? io.dstore.values.StringValue.getDefaultInstance() : language_;
           } else {
             return languageBuilder_.getMessage();
           }
@@ -2265,9 +2265,9 @@ public final class ImGetNodeCharacDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.StringValue language = 10002;</code>
          */
-        public Builder setLanguage(io.dstore.Values.stringValue value) {
+        public Builder setLanguage(io.dstore.values.StringValue value) {
           if (languageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2285,10 +2285,10 @@ public final class ImGetNodeCharacDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.StringValue language = 10002;</code>
          */
         public Builder setLanguage(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (languageBuilder_ == null) {
             language_ = builderForValue.build();
             onChanged();
@@ -2303,13 +2303,13 @@ public final class ImGetNodeCharacDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.StringValue language = 10002;</code>
          */
-        public Builder mergeLanguage(io.dstore.Values.stringValue value) {
+        public Builder mergeLanguage(io.dstore.values.StringValue value) {
           if (languageBuilder_ == null) {
             if (language_ != null) {
               language_ =
-                io.dstore.Values.stringValue.newBuilder(language_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(language_).mergeFrom(value).buildPartial();
             } else {
               language_ = value;
             }
@@ -2325,7 +2325,7 @@ public final class ImGetNodeCharacDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.StringValue language = 10002;</code>
          */
         public Builder clearLanguage() {
           if (languageBuilder_ == null) {
@@ -2343,9 +2343,9 @@ public final class ImGetNodeCharacDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.StringValue language = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getLanguageBuilder() {
+        public io.dstore.values.StringValue.Builder getLanguageBuilder() {
           
           onChanged();
           return getLanguageFieldBuilder().getBuilder();
@@ -2355,14 +2355,14 @@ public final class ImGetNodeCharacDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.StringValue language = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getLanguageOrBuilder() {
           if (languageBuilder_ != null) {
             return languageBuilder_.getMessageOrBuilder();
           } else {
             return language_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : language_;
+                io.dstore.values.StringValue.getDefaultInstance() : language_;
           }
         }
         /**
@@ -2370,14 +2370,14 @@ public final class ImGetNodeCharacDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10002;</code>
+         * <code>optional .dstore.values.StringValue language = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getLanguageFieldBuilder() {
           if (languageBuilder_ == null) {
             languageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getLanguage(),
                     getParentForChildren(),
                     isClean());
@@ -2386,15 +2386,15 @@ public final class ImGetNodeCharacDescrAd {
           return languageBuilder_;
         }
 
-        private io.dstore.Values.stringValue characteristicDescription_ = null;
+        private io.dstore.values.StringValue characteristicDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
          * <pre>
          * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
          */
         public boolean hasCharacteristicDescription() {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
@@ -2404,11 +2404,11 @@ public final class ImGetNodeCharacDescrAd {
          * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
          */
-        public io.dstore.Values.stringValue getCharacteristicDescription() {
+        public io.dstore.values.StringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
-            return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+            return characteristicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
           } else {
             return characteristicDescriptionBuilder_.getMessage();
           }
@@ -2418,9 +2418,9 @@ public final class ImGetNodeCharacDescrAd {
          * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
          */
-        public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
+        public Builder setCharacteristicDescription(io.dstore.values.StringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2438,10 +2438,10 @@ public final class ImGetNodeCharacDescrAd {
          * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
          */
         public Builder setCharacteristicDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescription_ = builderForValue.build();
             onChanged();
@@ -2456,13 +2456,13 @@ public final class ImGetNodeCharacDescrAd {
          * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
          */
-        public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeCharacteristicDescription(io.dstore.values.StringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (characteristicDescription_ != null) {
               characteristicDescription_ =
-                io.dstore.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
             } else {
               characteristicDescription_ = value;
             }
@@ -2478,7 +2478,7 @@ public final class ImGetNodeCharacDescrAd {
          * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
          */
         public Builder clearCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -2496,9 +2496,9 @@ public final class ImGetNodeCharacDescrAd {
          * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getCharacteristicDescriptionBuilder() {
           
           onChanged();
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
@@ -2508,14 +2508,14 @@ public final class ImGetNodeCharacDescrAd {
          * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
             return characteristicDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return characteristicDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
           }
         }
         /**
@@ -2523,14 +2523,14 @@ public final class ImGetNodeCharacDescrAd {
          * Seit 3.5.12 : Bezeichnung des Merkmals (in der Standardsprache). Vorher stand hier die übersetzte Bezeichnung. Die Übersetzung steht seit Version 3.5.12 in "TranslatedDesccription".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2539,15 +2539,15 @@ public final class ImGetNodeCharacDescrAd {
           return characteristicDescriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue translatedDescription_ = null;
+        private io.dstore.values.StringValue translatedDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> translatedDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> translatedDescriptionBuilder_;
         /**
          * <pre>
          * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
          */
         public boolean hasTranslatedDescription() {
           return translatedDescriptionBuilder_ != null || translatedDescription_ != null;
@@ -2557,11 +2557,11 @@ public final class ImGetNodeCharacDescrAd {
          * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue getTranslatedDescription() {
+        public io.dstore.values.StringValue getTranslatedDescription() {
           if (translatedDescriptionBuilder_ == null) {
-            return translatedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : translatedDescription_;
+            return translatedDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : translatedDescription_;
           } else {
             return translatedDescriptionBuilder_.getMessage();
           }
@@ -2571,9 +2571,9 @@ public final class ImGetNodeCharacDescrAd {
          * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
          */
-        public Builder setTranslatedDescription(io.dstore.Values.stringValue value) {
+        public Builder setTranslatedDescription(io.dstore.values.StringValue value) {
           if (translatedDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2591,10 +2591,10 @@ public final class ImGetNodeCharacDescrAd {
          * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
          */
         public Builder setTranslatedDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (translatedDescriptionBuilder_ == null) {
             translatedDescription_ = builderForValue.build();
             onChanged();
@@ -2609,13 +2609,13 @@ public final class ImGetNodeCharacDescrAd {
          * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
          */
-        public Builder mergeTranslatedDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeTranslatedDescription(io.dstore.values.StringValue value) {
           if (translatedDescriptionBuilder_ == null) {
             if (translatedDescription_ != null) {
               translatedDescription_ =
-                io.dstore.Values.stringValue.newBuilder(translatedDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(translatedDescription_).mergeFrom(value).buildPartial();
             } else {
               translatedDescription_ = value;
             }
@@ -2631,7 +2631,7 @@ public final class ImGetNodeCharacDescrAd {
          * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
          */
         public Builder clearTranslatedDescription() {
           if (translatedDescriptionBuilder_ == null) {
@@ -2649,9 +2649,9 @@ public final class ImGetNodeCharacDescrAd {
          * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getTranslatedDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getTranslatedDescriptionBuilder() {
           
           onChanged();
           return getTranslatedDescriptionFieldBuilder().getBuilder();
@@ -2661,14 +2661,14 @@ public final class ImGetNodeCharacDescrAd {
          * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getTranslatedDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getTranslatedDescriptionOrBuilder() {
           if (translatedDescriptionBuilder_ != null) {
             return translatedDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return translatedDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : translatedDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : translatedDescription_;
           }
         }
         /**
@@ -2676,14 +2676,14 @@ public final class ImGetNodeCharacDescrAd {
          * Übersetzung der Merkmal-Bezeichnung in der Sprache "Language"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue translated_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getTranslatedDescriptionFieldBuilder() {
           if (translatedDescriptionBuilder_ == null) {
             translatedDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getTranslatedDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2692,15 +2692,15 @@ public final class ImGetNodeCharacDescrAd {
           return translatedDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID eines Merkmals
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
          */
         public boolean hasNodeCharacteristicId() {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
@@ -2710,11 +2710,11 @@ public final class ImGetNodeCharacDescrAd {
          * ID eines Merkmals
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.values.IntegerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
@@ -2724,9 +2724,9 @@ public final class ImGetNodeCharacDescrAd {
          * ID eines Merkmals
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
          */
-        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2744,10 +2744,10 @@ public final class ImGetNodeCharacDescrAd {
          * ID eines Merkmals
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -2762,13 +2762,13 @@ public final class ImGetNodeCharacDescrAd {
          * ID eines Merkmals
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -2784,7 +2784,7 @@ public final class ImGetNodeCharacDescrAd {
          * ID eines Merkmals
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
          */
         public Builder clearNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -2802,9 +2802,9 @@ public final class ImGetNodeCharacDescrAd {
          * ID eines Merkmals
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
@@ -2814,14 +2814,14 @@ public final class ImGetNodeCharacDescrAd {
          * ID eines Merkmals
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
@@ -2829,14 +2829,14 @@ public final class ImGetNodeCharacDescrAd {
          * ID eines Merkmals
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -2845,15 +2845,15 @@ public final class ImGetNodeCharacDescrAd {
           return nodeCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue languageId_ = null;
+        private io.dstore.values.IntegerValue languageId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
         /**
          * <pre>
          * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
          */
         public boolean hasLanguageId() {
           return languageIdBuilder_ != null || languageId_ != null;
@@ -2863,11 +2863,11 @@ public final class ImGetNodeCharacDescrAd {
          * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue getLanguageId() {
+        public io.dstore.values.IntegerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
-            return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+            return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
           } else {
             return languageIdBuilder_.getMessage();
           }
@@ -2877,9 +2877,9 @@ public final class ImGetNodeCharacDescrAd {
          * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
          */
-        public Builder setLanguageId(io.dstore.Values.integerValue value) {
+        public Builder setLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2897,10 +2897,10 @@ public final class ImGetNodeCharacDescrAd {
          * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
          */
         public Builder setLanguageId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (languageIdBuilder_ == null) {
             languageId_ = builderForValue.build();
             onChanged();
@@ -2915,13 +2915,13 @@ public final class ImGetNodeCharacDescrAd {
          * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
          */
-        public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+        public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
             if (languageId_ != null) {
               languageId_ =
-                io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
             } else {
               languageId_ = value;
             }
@@ -2937,7 +2937,7 @@ public final class ImGetNodeCharacDescrAd {
          * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
          */
         public Builder clearLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -2955,9 +2955,9 @@ public final class ImGetNodeCharacDescrAd {
          * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
           
           onChanged();
           return getLanguageIdFieldBuilder().getBuilder();
@@ -2967,14 +2967,14 @@ public final class ImGetNodeCharacDescrAd {
          * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
             return languageIdBuilder_.getMessageOrBuilder();
           } else {
             return languageId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
           }
         }
         /**
@@ -2982,14 +2982,14 @@ public final class ImGetNodeCharacDescrAd {
          * ID einer Sprache, in der die übersetzte Merkmal-Bezeichnung "TranslatedDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getLanguageIdFieldBuilder() {
           if (languageIdBuilder_ == null) {
             languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getLanguageId(),
                     getParentForChildren(),
                     isClean());
@@ -4459,23 +4459,23 @@ public final class ImGetNodeCharacDescrAd {
       "odeCharacDescr_Ad\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\274\001\n\nParameter" +
       "s\022;\n\026node_characteristic_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022$\n\033node_character" +
+      "re.values.IntegerValue\022$\n\033node_character" +
       "istic_id_null\030\351\007 \001(\010\0220\n\013language_id\030\002 \001(" +
-      "\0132\033.dstore.values.integerValue\022\031\n\020langua" +
+      "\0132\033.dstore.values.IntegerValue\022\031\n\020langua" +
       "ge_id_null\030\352\007 \001(\010\"\235\004\n\010Response\0228\n\020meta_i" +
       "nformation\030\002 \003(\0132\036.dstore.engine.MetaInf",
       "ormation\022\'\n\007message\030\003 \003(\0132\026.dstore.engin" +
       "e.Message\022A\n\003row\030\004 \003(\01324.dstore.engine.i" +
       "m_GetNodeCharacDescr_Ad.Response.Row\032\352\002\n" +
       "\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\017language_symbol" +
-      "\030\221N \001(\0132\032.dstore.values.stringValue\022-\n\010l" +
-      "anguage\030\222N \001(\0132\032.dstore.values.stringVal" +
+      "\030\221N \001(\0132\032.dstore.values.StringValue\022-\n\010l" +
+      "anguage\030\222N \001(\0132\032.dstore.values.StringVal" +
       "ue\022?\n\032characteristic_description\030\223N \001(\0132" +
-      "\032.dstore.values.stringValue\022;\n\026translate" +
-      "d_description\030\224N \001(\0132\032.dstore.values.str" +
+      "\032.dstore.values.StringValue\022;\n\026translate" +
+      "d_description\030\224N \001(\0132\032.dstore.values.Str" +
       "ingValue\022<\n\026node_characteristic_id\030\225N \001(",
-      "\0132\033.dstore.values.integerValue\0221\n\013langua" +
-      "ge_id\030\226N \001(\0132\033.dstore.values.integerValu" +
+      "\0132\033.dstore.values.IntegerValue\0221\n\013langua" +
+      "ge_id\030\226N \001(\0132\033.dstore.values.IntegerValu" +
       "eBY\n\033io.dstore.engine.proceduresZ:gosdk." +
       "dstore.de/engine/procedures/im_GetNodeCh" +
       "aracDescr_Adb\006proto3"
@@ -4491,7 +4491,7 @@ public final class ImGetNodeCharacDescrAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetNodeCharacDescr_Ad_Parameters_descriptor =
@@ -4512,7 +4512,7 @@ public final class ImGetNodeCharacDescrAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNodeCharacDescr_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "LanguageSymbol", "Language", "CharacteristicDescription", "TranslatedDescription", "NodeCharacteristicId", "LanguageId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

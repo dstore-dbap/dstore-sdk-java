@@ -19,17 +19,17 @@ public final class MiModifyProcExRightGroupAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
     boolean hasProcedureId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    io.dstore.Values.integerValue getProcedureId();
+    io.dstore.values.IntegerValue getProcedureId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder();
 
     /**
      * <code>optional bool procedure_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyProcExRightGroupAd {
     boolean getProcedureIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
     boolean hasUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
-    io.dstore.Values.integerValue getUserGroupId();
+    io.dstore.values.IntegerValue getUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder();
 
     /**
      * <code>optional bool user_group_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyProcExRightGroupAd {
     boolean getUserGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+     * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
      */
     boolean hasExecutionRight();
     /**
-     * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+     * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
      */
-    io.dstore.Values.integerValue getExecutionRight();
+    io.dstore.values.IntegerValue getExecutionRight();
     /**
-     * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+     * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getExecutionRightOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getExecutionRightOrBuilder();
 
     /**
      * <code>optional bool execution_right_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiModifyProcExRightGroupAd {
     boolean getExecutionRightNull();
 
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
      */
-    io.dstore.Values.stringValue getProcedureName();
+    io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
      * <code>optional bool procedure_name_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiModifyProcExRightGroupAd {
     boolean getProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+     * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
      */
     boolean hasUserGroupName();
     /**
-     * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+     * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
      */
-    io.dstore.Values.stringValue getUserGroupName();
+    io.dstore.values.StringValue getUserGroupName();
     /**
-     * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+     * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUserGroupNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUserGroupNameOrBuilder();
 
     /**
      * <code>optional bool user_group_name_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class MiModifyProcExRightGroupAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (procedureId_ != null) {
                 subBuilder = procedureId_.toBuilder();
               }
-              procedureId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              procedureId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureId_);
                 procedureId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class MiModifyProcExRightGroupAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userGroupId_ != null) {
                 subBuilder = userGroupId_.toBuilder();
               }
-              userGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userGroupId_);
                 userGroupId_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class MiModifyProcExRightGroupAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (executionRight_ != null) {
                 subBuilder = executionRight_.toBuilder();
               }
-              executionRight_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              executionRight_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(executionRight_);
                 executionRight_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class MiModifyProcExRightGroupAd {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (procedureName_ != null) {
                 subBuilder = procedureName_.toBuilder();
               }
-              procedureName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              procedureName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureName_);
                 procedureName_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class MiModifyProcExRightGroupAd {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (userGroupName_ != null) {
                 subBuilder = userGroupName_.toBuilder();
               }
-              userGroupName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              userGroupName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userGroupName_);
                 userGroupName_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class MiModifyProcExRightGroupAd {
     }
 
     public static final int PROCEDURE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue procedureId_;
+    private io.dstore.values.IntegerValue procedureId_;
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
     public boolean hasProcedureId() {
       return procedureId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getProcedureId() {
-      return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+    public io.dstore.values.IntegerValue getProcedureId() {
+      return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
       return getProcedureId();
     }
 
@@ -296,23 +296,23 @@ public final class MiModifyProcExRightGroupAd {
     }
 
     public static final int USER_GROUP_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue userGroupId_;
+    private io.dstore.values.IntegerValue userGroupId_;
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
     public boolean hasUserGroupId() {
       return userGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getUserGroupId() {
-      return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+    public io.dstore.values.IntegerValue getUserGroupId() {
+      return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
       return getUserGroupId();
     }
 
@@ -326,23 +326,23 @@ public final class MiModifyProcExRightGroupAd {
     }
 
     public static final int EXECUTION_RIGHT_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue executionRight_;
+    private io.dstore.values.IntegerValue executionRight_;
     /**
-     * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+     * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
      */
     public boolean hasExecutionRight() {
       return executionRight_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+     * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
      */
-    public io.dstore.Values.integerValue getExecutionRight() {
-      return executionRight_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : executionRight_;
+    public io.dstore.values.IntegerValue getExecutionRight() {
+      return executionRight_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : executionRight_;
     }
     /**
-     * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+     * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getExecutionRightOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getExecutionRightOrBuilder() {
       return getExecutionRight();
     }
 
@@ -356,23 +356,23 @@ public final class MiModifyProcExRightGroupAd {
     }
 
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue procedureName_;
+    private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
      */
-    public io.dstore.Values.stringValue getProcedureName() {
-      return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+    public io.dstore.values.StringValue getProcedureName() {
+      return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
     }
 
@@ -386,23 +386,23 @@ public final class MiModifyProcExRightGroupAd {
     }
 
     public static final int USER_GROUP_NAME_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue userGroupName_;
+    private io.dstore.values.StringValue userGroupName_;
     /**
-     * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+     * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
      */
     public boolean hasUserGroupName() {
       return userGroupName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+     * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
      */
-    public io.dstore.Values.stringValue getUserGroupName() {
-      return userGroupName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userGroupName_;
+    public io.dstore.values.StringValue getUserGroupName() {
+      return userGroupName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userGroupName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+     * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUserGroupNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUserGroupNameOrBuilder() {
       return getUserGroupName();
     }
 
@@ -907,29 +907,29 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue procedureId_ = null;
+      private io.dstore.values.IntegerValue procedureId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public boolean hasProcedureId() {
         return procedureIdBuilder_ != null || procedureId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getProcedureId() {
+      public io.dstore.values.IntegerValue getProcedureId() {
         if (procedureIdBuilder_ == null) {
-          return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+          return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
         } else {
           return procedureIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public Builder setProcedureId(io.dstore.Values.integerValue value) {
+      public Builder setProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder setProcedureId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (procedureIdBuilder_ == null) {
           procedureId_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public Builder mergeProcedureId(io.dstore.Values.integerValue value) {
+      public Builder mergeProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
           if (procedureId_ != null) {
             procedureId_ =
-              io.dstore.Values.integerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
           } else {
             procedureId_ = value;
           }
@@ -975,7 +975,7 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder clearProcedureId() {
         if (procedureIdBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getProcedureIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getProcedureIdBuilder() {
         
         onChanged();
         return getProcedureIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
         if (procedureIdBuilder_ != null) {
           return procedureIdBuilder_.getMessageOrBuilder();
         } else {
           return procedureId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getProcedureIdFieldBuilder() {
         if (procedureIdBuilder_ == null) {
           procedureIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getProcedureId(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userGroupId_ = null;
+      private io.dstore.values.IntegerValue userGroupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userGroupIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
       public boolean hasUserGroupId() {
         return userGroupIdBuilder_ != null || userGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getUserGroupId() {
+      public io.dstore.values.IntegerValue getUserGroupId() {
         if (userGroupIdBuilder_ == null) {
-          return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+          return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         } else {
           return userGroupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public Builder setUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder setUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
       public Builder setUserGroupId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userGroupIdBuilder_ == null) {
           userGroupId_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public Builder mergeUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (userGroupId_ != null) {
             userGroupId_ =
-              io.dstore.Values.integerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
           } else {
             userGroupId_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
       public Builder clearUserGroupId() {
         if (userGroupIdBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserGroupIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserGroupIdBuilder() {
         
         onChanged();
         return getUserGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
         if (userGroupIdBuilder_ != null) {
           return userGroupIdBuilder_.getMessageOrBuilder();
         } else {
           return userGroupId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserGroupIdFieldBuilder() {
         if (userGroupIdBuilder_ == null) {
           userGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue executionRight_ = null;
+      private io.dstore.values.IntegerValue executionRight_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> executionRightBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> executionRightBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
        */
       public boolean hasExecutionRight() {
         return executionRightBuilder_ != null || executionRight_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
        */
-      public io.dstore.Values.integerValue getExecutionRight() {
+      public io.dstore.values.IntegerValue getExecutionRight() {
         if (executionRightBuilder_ == null) {
-          return executionRight_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : executionRight_;
+          return executionRight_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : executionRight_;
         } else {
           return executionRightBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
        */
-      public Builder setExecutionRight(io.dstore.Values.integerValue value) {
+      public Builder setExecutionRight(io.dstore.values.IntegerValue value) {
         if (executionRightBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
        */
       public Builder setExecutionRight(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (executionRightBuilder_ == null) {
           executionRight_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
        */
-      public Builder mergeExecutionRight(io.dstore.Values.integerValue value) {
+      public Builder mergeExecutionRight(io.dstore.values.IntegerValue value) {
         if (executionRightBuilder_ == null) {
           if (executionRight_ != null) {
             executionRight_ =
-              io.dstore.Values.integerValue.newBuilder(executionRight_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(executionRight_).mergeFrom(value).buildPartial();
           } else {
             executionRight_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
        */
       public Builder clearExecutionRight() {
         if (executionRightBuilder_ == null) {
@@ -1275,33 +1275,33 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getExecutionRightBuilder() {
+      public io.dstore.values.IntegerValue.Builder getExecutionRightBuilder() {
         
         onChanged();
         return getExecutionRightFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getExecutionRightOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getExecutionRightOrBuilder() {
         if (executionRightBuilder_ != null) {
           return executionRightBuilder_.getMessageOrBuilder();
         } else {
           return executionRight_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : executionRight_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : executionRight_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue execution_right = 3;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getExecutionRightFieldBuilder() {
         if (executionRightBuilder_ == null) {
           executionRightBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getExecutionRight(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue procedureName_ = null;
+      private io.dstore.values.StringValue procedureName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
        */
-      public io.dstore.Values.stringValue getProcedureName() {
+      public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
-          return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+          return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
         } else {
           return procedureNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
        */
-      public Builder setProcedureName(io.dstore.Values.stringValue value) {
+      public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
        */
       public Builder setProcedureName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (procedureNameBuilder_ == null) {
           procedureName_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
        */
-      public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
+      public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
           if (procedureName_ != null) {
             procedureName_ =
-              io.dstore.Values.stringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
           } else {
             procedureName_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -1418,33 +1418,33 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
+      public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
         onChanged();
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
           return procedureNameBuilder_.getMessageOrBuilder();
         } else {
           return procedureName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+              io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 4;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getProcedureNameFieldBuilder() {
         if (procedureNameBuilder_ == null) {
           procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getProcedureName(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue userGroupName_ = null;
+      private io.dstore.values.StringValue userGroupName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userGroupNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> userGroupNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+       * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
        */
       public boolean hasUserGroupName() {
         return userGroupNameBuilder_ != null || userGroupName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+       * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
        */
-      public io.dstore.Values.stringValue getUserGroupName() {
+      public io.dstore.values.StringValue getUserGroupName() {
         if (userGroupNameBuilder_ == null) {
-          return userGroupName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userGroupName_;
+          return userGroupName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userGroupName_;
         } else {
           return userGroupNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+       * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
        */
-      public Builder setUserGroupName(io.dstore.Values.stringValue value) {
+      public Builder setUserGroupName(io.dstore.values.StringValue value) {
         if (userGroupNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+       * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
        */
       public Builder setUserGroupName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (userGroupNameBuilder_ == null) {
           userGroupName_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+       * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
        */
-      public Builder mergeUserGroupName(io.dstore.Values.stringValue value) {
+      public Builder mergeUserGroupName(io.dstore.values.StringValue value) {
         if (userGroupNameBuilder_ == null) {
           if (userGroupName_ != null) {
             userGroupName_ =
-              io.dstore.Values.stringValue.newBuilder(userGroupName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(userGroupName_).mergeFrom(value).buildPartial();
           } else {
             userGroupName_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+       * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
        */
       public Builder clearUserGroupName() {
         if (userGroupNameBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class MiModifyProcExRightGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+       * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUserGroupNameBuilder() {
+      public io.dstore.values.StringValue.Builder getUserGroupNameBuilder() {
         
         onChanged();
         return getUserGroupNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+       * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUserGroupNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUserGroupNameOrBuilder() {
         if (userGroupNameBuilder_ != null) {
           return userGroupNameBuilder_.getMessageOrBuilder();
         } else {
           return userGroupName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : userGroupName_;
+              io.dstore.values.StringValue.getDefaultInstance() : userGroupName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue user_group_name = 5;</code>
+       * <code>optional .dstore.values.StringValue user_group_name = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUserGroupNameFieldBuilder() {
         if (userGroupNameBuilder_ == null) {
           userGroupNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUserGroupName(),
                   getParentForChildren(),
                   isClean());
@@ -3709,15 +3709,15 @@ public final class MiModifyProcExRightGroupAd {
       "_ModifyProcExRight_Group_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\247\003\n" +
       "\nParameters\0221\n\014procedure_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\032\n\021procedure_id_n" +
+      "re.values.IntegerValue\022\032\n\021procedure_id_n" +
       "ull\030\351\007 \001(\010\0222\n\ruser_group_id\030\002 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\033\n\022user_group_id_" +
+      "re.values.IntegerValue\022\033\n\022user_group_id_" +
       "null\030\352\007 \001(\010\0224\n\017execution_right\030\003 \001(\0132\033.d" +
-      "store.values.integerValue\022\035\n\024execution_r",
+      "store.values.IntegerValue\022\035\n\024execution_r",
       "ight_null\030\353\007 \001(\010\0222\n\016procedure_name\030\004 \001(\013" +
-      "2\032.dstore.values.stringValue\022\034\n\023procedur" +
+      "2\032.dstore.values.StringValue\022\034\n\023procedur" +
       "e_name_null\030\354\007 \001(\010\0223\n\017user_group_name\030\005 " +
-      "\001(\0132\032.dstore.values.stringValue\022\035\n\024user_" +
+      "\001(\0132\032.dstore.values.StringValue\022\035\n\024user_" +
       "group_name_null\030\355\007 \001(\010\"\315\001\n\010Response\0228\n\020m" +
       "eta_information\030\002 \003(\0132\036.dstore.engine.Me" +
       "taInformation\022\'\n\007message\030\003 \003(\0132\026.dstore." +
@@ -3739,7 +3739,7 @@ public final class MiModifyProcExRightGroupAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyProcExRight_Group_Ad_Parameters_descriptor =
@@ -3760,7 +3760,7 @@ public final class MiModifyProcExRightGroupAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyProcExRight_Group_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

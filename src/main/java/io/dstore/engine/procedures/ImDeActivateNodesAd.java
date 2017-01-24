@@ -19,17 +19,17 @@ public final class ImDeActivateNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.booleanValue activate = 1;</code>
+     * <code>optional .dstore.values.BooleanValue activate = 1;</code>
      */
     boolean hasActivate();
     /**
-     * <code>optional .dstore.values.booleanValue activate = 1;</code>
+     * <code>optional .dstore.values.BooleanValue activate = 1;</code>
      */
-    io.dstore.Values.booleanValue getActivate();
+    io.dstore.values.BooleanValue getActivate();
     /**
-     * <code>optional .dstore.values.booleanValue activate = 1;</code>
+     * <code>optional .dstore.values.BooleanValue activate = 1;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getActivateOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getActivateOrBuilder();
 
     /**
      * <code>optional bool activate_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImDeActivateNodesAd {
     boolean getActivateNull();
 
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
      */
     boolean hasTreeNodeIdList();
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
      */
-    io.dstore.Values.stringValue getTreeNodeIdList();
+    io.dstore.values.StringValue getTreeNodeIdList();
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTreeNodeIdListOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_list_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImDeActivateNodesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (activate_ != null) {
                 subBuilder = activate_.toBuilder();
               }
-              activate_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              activate_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(activate_);
                 activate_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImDeActivateNodesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (treeNodeIdList_ != null) {
                 subBuilder = treeNodeIdList_.toBuilder();
               }
-              treeNodeIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              treeNodeIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeIdList_);
                 treeNodeIdList_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImDeActivateNodesAd {
     }
 
     public static final int ACTIVATE_FIELD_NUMBER = 1;
-    private io.dstore.Values.booleanValue activate_;
+    private io.dstore.values.BooleanValue activate_;
     /**
-     * <code>optional .dstore.values.booleanValue activate = 1;</code>
+     * <code>optional .dstore.values.BooleanValue activate = 1;</code>
      */
     public boolean hasActivate() {
       return activate_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue activate = 1;</code>
+     * <code>optional .dstore.values.BooleanValue activate = 1;</code>
      */
-    public io.dstore.Values.booleanValue getActivate() {
-      return activate_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : activate_;
+    public io.dstore.values.BooleanValue getActivate() {
+      return activate_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : activate_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue activate = 1;</code>
+     * <code>optional .dstore.values.BooleanValue activate = 1;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getActivateOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getActivateOrBuilder() {
       return getActivate();
     }
 
@@ -185,23 +185,23 @@ public final class ImDeActivateNodesAd {
     }
 
     public static final int TREE_NODE_ID_LIST_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue treeNodeIdList_;
+    private io.dstore.values.StringValue treeNodeIdList_;
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
      */
     public boolean hasTreeNodeIdList() {
       return treeNodeIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
      */
-    public io.dstore.Values.stringValue getTreeNodeIdList() {
-      return treeNodeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+    public io.dstore.values.StringValue getTreeNodeIdList() {
+      return treeNodeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : treeNodeIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTreeNodeIdListOrBuilder() {
       return getTreeNodeIdList();
     }
 
@@ -562,29 +562,29 @@ public final class ImDeActivateNodesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue activate_ = null;
+      private io.dstore.values.BooleanValue activate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activateBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> activateBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue activate = 1;</code>
+       * <code>optional .dstore.values.BooleanValue activate = 1;</code>
        */
       public boolean hasActivate() {
         return activateBuilder_ != null || activate_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate = 1;</code>
+       * <code>optional .dstore.values.BooleanValue activate = 1;</code>
        */
-      public io.dstore.Values.booleanValue getActivate() {
+      public io.dstore.values.BooleanValue getActivate() {
         if (activateBuilder_ == null) {
-          return activate_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : activate_;
+          return activate_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : activate_;
         } else {
           return activateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate = 1;</code>
+       * <code>optional .dstore.values.BooleanValue activate = 1;</code>
        */
-      public Builder setActivate(io.dstore.Values.booleanValue value) {
+      public Builder setActivate(io.dstore.values.BooleanValue value) {
         if (activateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImDeActivateNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate = 1;</code>
+       * <code>optional .dstore.values.BooleanValue activate = 1;</code>
        */
       public Builder setActivate(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (activateBuilder_ == null) {
           activate_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImDeActivateNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate = 1;</code>
+       * <code>optional .dstore.values.BooleanValue activate = 1;</code>
        */
-      public Builder mergeActivate(io.dstore.Values.booleanValue value) {
+      public Builder mergeActivate(io.dstore.values.BooleanValue value) {
         if (activateBuilder_ == null) {
           if (activate_ != null) {
             activate_ =
-              io.dstore.Values.booleanValue.newBuilder(activate_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(activate_).mergeFrom(value).buildPartial();
           } else {
             activate_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImDeActivateNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate = 1;</code>
+       * <code>optional .dstore.values.BooleanValue activate = 1;</code>
        */
       public Builder clearActivate() {
         if (activateBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImDeActivateNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate = 1;</code>
+       * <code>optional .dstore.values.BooleanValue activate = 1;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getActivateBuilder() {
+      public io.dstore.values.BooleanValue.Builder getActivateBuilder() {
         
         onChanged();
         return getActivateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate = 1;</code>
+       * <code>optional .dstore.values.BooleanValue activate = 1;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getActivateOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getActivateOrBuilder() {
         if (activateBuilder_ != null) {
           return activateBuilder_.getMessageOrBuilder();
         } else {
           return activate_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : activate_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : activate_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate = 1;</code>
+       * <code>optional .dstore.values.BooleanValue activate = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getActivateFieldBuilder() {
         if (activateBuilder_ == null) {
           activateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getActivate(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImDeActivateNodesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue treeNodeIdList_ = null;
+      private io.dstore.values.StringValue treeNodeIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> treeNodeIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> treeNodeIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
        */
       public boolean hasTreeNodeIdList() {
         return treeNodeIdListBuilder_ != null || treeNodeIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValue getTreeNodeIdList() {
+      public io.dstore.values.StringValue getTreeNodeIdList() {
         if (treeNodeIdListBuilder_ == null) {
-          return treeNodeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+          return treeNodeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : treeNodeIdList_;
         } else {
           return treeNodeIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
        */
-      public Builder setTreeNodeIdList(io.dstore.Values.stringValue value) {
+      public Builder setTreeNodeIdList(io.dstore.values.StringValue value) {
         if (treeNodeIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImDeActivateNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
        */
       public Builder setTreeNodeIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (treeNodeIdListBuilder_ == null) {
           treeNodeIdList_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImDeActivateNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
        */
-      public Builder mergeTreeNodeIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeTreeNodeIdList(io.dstore.values.StringValue value) {
         if (treeNodeIdListBuilder_ == null) {
           if (treeNodeIdList_ != null) {
             treeNodeIdList_ =
-              io.dstore.Values.stringValue.newBuilder(treeNodeIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(treeNodeIdList_).mergeFrom(value).buildPartial();
           } else {
             treeNodeIdList_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImDeActivateNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
        */
       public Builder clearTreeNodeIdList() {
         if (treeNodeIdListBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImDeActivateNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTreeNodeIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getTreeNodeIdListBuilder() {
         
         onChanged();
         return getTreeNodeIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTreeNodeIdListOrBuilder() {
         if (treeNodeIdListBuilder_ != null) {
           return treeNodeIdListBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : treeNodeIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTreeNodeIdListFieldBuilder() {
         if (treeNodeIdListBuilder_ == null) {
           treeNodeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTreeNodeIdList(),
                   getParentForChildren(),
                   isClean());
@@ -2934,9 +2934,9 @@ public final class ImDeActivateNodesAd {
       "Nodes_Ad.proto\022#dstore.engine.im_DeActiv" +
       "ateNodes_Ad\032\023dstore/values.proto\032\032dstore" +
       "/engine/engine.proto\"\253\001\n\nParameters\022-\n\010a" +
-      "ctivate\030\001 \001(\0132\033.dstore.values.booleanVal" +
+      "ctivate\030\001 \001(\0132\033.dstore.values.BooleanVal" +
       "ue\022\026\n\ractivate_null\030\351\007 \001(\010\0225\n\021tree_node_" +
-      "id_list\030\002 \001(\0132\032.dstore.values.stringValu" +
+      "id_list\030\002 \001(\0132\032.dstore.values.StringValu" +
       "e\022\037\n\026tree_node_id_list_null\030\352\007 \001(\010\"\305\001\n\010R" +
       "esponse\0228\n\020meta_information\030\002 \003(\0132\036.dsto" +
       "re.engine.MetaInformation\022\'\n\007message\030\003 \003",
@@ -2958,7 +2958,7 @@ public final class ImDeActivateNodesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_DeActivateNodes_Ad_Parameters_descriptor =
@@ -2979,7 +2979,7 @@ public final class ImDeActivateNodesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_DeActivateNodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

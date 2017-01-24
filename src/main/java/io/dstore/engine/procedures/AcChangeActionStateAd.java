@@ -19,17 +19,17 @@ public final class AcChangeActionStateAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue action_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
      */
     boolean hasActionId();
     /**
-     * <code>optional .dstore.values.integerValue action_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
      */
-    io.dstore.Values.integerValue getActionId();
+    io.dstore.values.IntegerValue getActionId();
     /**
-     * <code>optional .dstore.values.integerValue action_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getActionIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getActionIdOrBuilder();
 
     /**
      * <code>optional bool action_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class AcChangeActionStateAd {
     boolean getActionIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
     boolean hasStatus();
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
-    io.dstore.Values.integerValue getStatus();
+    io.dstore.values.IntegerValue getStatus();
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getStatusOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder();
 
     /**
      * <code>optional bool status_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class AcChangeActionStateAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (actionId_ != null) {
                 subBuilder = actionId_.toBuilder();
               }
-              actionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              actionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(actionId_);
                 actionId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class AcChangeActionStateAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (status_ != null) {
                 subBuilder = status_.toBuilder();
               }
-              status_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              status_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(status_);
                 status_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class AcChangeActionStateAd {
     }
 
     public static final int ACTION_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue actionId_;
+    private io.dstore.values.IntegerValue actionId_;
     /**
-     * <code>optional .dstore.values.integerValue action_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
      */
     public boolean hasActionId() {
       return actionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue action_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getActionId() {
-      return actionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : actionId_;
+    public io.dstore.values.IntegerValue getActionId() {
+      return actionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : actionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue action_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getActionIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getActionIdOrBuilder() {
       return getActionId();
     }
 
@@ -185,23 +185,23 @@ public final class AcChangeActionStateAd {
     }
 
     public static final int STATUS_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue status_;
+    private io.dstore.values.IntegerValue status_;
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
     public boolean hasStatus() {
       return status_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
-    public io.dstore.Values.integerValue getStatus() {
-      return status_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : status_;
+    public io.dstore.values.IntegerValue getStatus() {
+      return status_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : status_;
     }
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getStatusOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
       return getStatus();
     }
 
@@ -562,29 +562,29 @@ public final class AcChangeActionStateAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue actionId_ = null;
+      private io.dstore.values.IntegerValue actionId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> actionIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> actionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue action_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
        */
       public boolean hasActionId() {
         return actionIdBuilder_ != null || actionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue action_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getActionId() {
+      public io.dstore.values.IntegerValue getActionId() {
         if (actionIdBuilder_ == null) {
-          return actionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : actionId_;
+          return actionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : actionId_;
         } else {
           return actionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue action_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
        */
-      public Builder setActionId(io.dstore.Values.integerValue value) {
+      public Builder setActionId(io.dstore.values.IntegerValue value) {
         if (actionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue action_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder setActionId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (actionIdBuilder_ == null) {
           actionId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue action_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
        */
-      public Builder mergeActionId(io.dstore.Values.integerValue value) {
+      public Builder mergeActionId(io.dstore.values.IntegerValue value) {
         if (actionIdBuilder_ == null) {
           if (actionId_ != null) {
             actionId_ =
-              io.dstore.Values.integerValue.newBuilder(actionId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(actionId_).mergeFrom(value).buildPartial();
           } else {
             actionId_ = value;
           }
@@ -630,7 +630,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue action_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
        */
       public Builder clearActionId() {
         if (actionIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue action_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getActionIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getActionIdBuilder() {
         
         onChanged();
         return getActionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue action_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getActionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getActionIdOrBuilder() {
         if (actionIdBuilder_ != null) {
           return actionIdBuilder_.getMessageOrBuilder();
         } else {
           return actionId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : actionId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : actionId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue action_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue action_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getActionIdFieldBuilder() {
         if (actionIdBuilder_ == null) {
           actionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getActionId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class AcChangeActionStateAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue status_ = null;
+      private io.dstore.values.IntegerValue status_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> statusBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> statusBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
       public boolean hasStatus() {
         return statusBuilder_ != null || status_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public io.dstore.Values.integerValue getStatus() {
+      public io.dstore.values.IntegerValue getStatus() {
         if (statusBuilder_ == null) {
-          return status_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : status_;
+          return status_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : status_;
         } else {
           return statusBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public Builder setStatus(io.dstore.Values.integerValue value) {
+      public Builder setStatus(io.dstore.values.IntegerValue value) {
         if (statusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
       public Builder setStatus(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (statusBuilder_ == null) {
           status_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public Builder mergeStatus(io.dstore.Values.integerValue value) {
+      public Builder mergeStatus(io.dstore.values.IntegerValue value) {
         if (statusBuilder_ == null) {
           if (status_ != null) {
             status_ =
-              io.dstore.Values.integerValue.newBuilder(status_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(status_).mergeFrom(value).buildPartial();
           } else {
             status_ = value;
           }
@@ -773,7 +773,7 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
       public Builder clearStatus() {
         if (statusBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class AcChangeActionStateAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getStatusBuilder() {
+      public io.dstore.values.IntegerValue.Builder getStatusBuilder() {
         
         onChanged();
         return getStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getStatusOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
         if (statusBuilder_ != null) {
           return statusBuilder_.getMessageOrBuilder();
         } else {
           return status_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : status_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : status_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getStatusFieldBuilder() {
         if (statusBuilder_ == null) {
           statusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getStatus(),
                   getParentForChildren(),
                   isClean());
@@ -2934,9 +2934,9 @@ public final class AcChangeActionStateAd {
       "onState_Ad.proto\022%dstore.engine.ac_Chang" +
       "eActionState_Ad\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\230\001\n\nParameters\022" +
-      ".\n\taction_id\030\001 \001(\0132\033.dstore.values.integ" +
+      ".\n\taction_id\030\001 \001(\0132\033.dstore.values.Integ" +
       "erValue\022\027\n\016action_id_null\030\351\007 \001(\010\022+\n\006stat" +
-      "us\030\002 \001(\0132\033.dstore.values.integerValue\022\024\n" +
+      "us\030\002 \001(\0132\033.dstore.values.IntegerValue\022\024\n" +
       "\013status_null\030\352\007 \001(\010\"\307\001\n\010Response\0228\n\020meta" +
       "_information\030\002 \003(\0132\036.dstore.engine.MetaI" +
       "nformation\022\'\n\007message\030\003 \003(\0132\026.dstore.eng",
@@ -2957,7 +2957,7 @@ public final class AcChangeActionStateAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_ac_ChangeActionState_Ad_Parameters_descriptor =
@@ -2978,7 +2978,7 @@ public final class AcChangeActionStateAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_ac_ChangeActionState_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmGetChangeOStateTriggerAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
      */
     boolean hasOrderStateId();
     /**
-     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
      */
-    io.dstore.Values.integerValue getOrderStateId();
+    io.dstore.values.IntegerValue getOrderStateId();
     /**
-     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOrderStateIdOrBuilder();
 
     /**
      * <code>optional bool order_state_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class OmGetChangeOStateTriggerAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (orderStateId_ != null) {
                 subBuilder = orderStateId_.toBuilder();
               }
-              orderStateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              orderStateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderStateId_);
                 orderStateId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class OmGetChangeOStateTriggerAd {
     }
 
     public static final int ORDER_STATE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue orderStateId_;
+    private io.dstore.values.IntegerValue orderStateId_;
     /**
-     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
      */
     public boolean hasOrderStateId() {
       return orderStateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getOrderStateId() {
-      return orderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
+    public io.dstore.values.IntegerValue getOrderStateId() {
+      return orderStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderStateId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOrderStateIdOrBuilder() {
       return getOrderStateId();
     }
 
@@ -447,29 +447,29 @@ public final class OmGetChangeOStateTriggerAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue orderStateId_ = null;
+      private io.dstore.values.IntegerValue orderStateId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderStateIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderStateIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
        */
       public boolean hasOrderStateId() {
         return orderStateIdBuilder_ != null || orderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getOrderStateId() {
+      public io.dstore.values.IntegerValue getOrderStateId() {
         if (orderStateIdBuilder_ == null) {
-          return orderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
+          return orderStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderStateId_;
         } else {
           return orderStateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
        */
-      public Builder setOrderStateId(io.dstore.Values.integerValue value) {
+      public Builder setOrderStateId(io.dstore.values.IntegerValue value) {
         if (orderStateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class OmGetChangeOStateTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
        */
       public Builder setOrderStateId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (orderStateIdBuilder_ == null) {
           orderStateId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class OmGetChangeOStateTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
        */
-      public Builder mergeOrderStateId(io.dstore.Values.integerValue value) {
+      public Builder mergeOrderStateId(io.dstore.values.IntegerValue value) {
         if (orderStateIdBuilder_ == null) {
           if (orderStateId_ != null) {
             orderStateId_ =
-              io.dstore.Values.integerValue.newBuilder(orderStateId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(orderStateId_).mergeFrom(value).buildPartial();
           } else {
             orderStateId_ = value;
           }
@@ -515,7 +515,7 @@ public final class OmGetChangeOStateTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
        */
       public Builder clearOrderStateId() {
         if (orderStateIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class OmGetChangeOStateTriggerAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOrderStateIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getOrderStateIdBuilder() {
         
         onChanged();
         return getOrderStateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderStateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderStateIdOrBuilder() {
         if (orderStateIdBuilder_ != null) {
           return orderStateIdBuilder_.getMessageOrBuilder();
         } else {
           return orderStateId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : orderStateId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : orderStateId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_state_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_state_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOrderStateIdFieldBuilder() {
         if (orderStateIdBuilder_ == null) {
           orderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOrderStateId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class OmGetChangeOStateTriggerAd {
        * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
        */
       boolean hasIgnorePosAlreadyInOrderState();
       /**
@@ -857,24 +857,24 @@ public final class OmGetChangeOStateTriggerAd {
        * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
        */
-      io.dstore.Values.booleanValue getIgnorePosAlreadyInOrderState();
+      io.dstore.values.BooleanValue getIgnorePosAlreadyInOrderState();
       /**
        * <pre>
        * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getIgnorePosAlreadyInOrderStateOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getIgnorePosAlreadyInOrderStateOrBuilder();
 
       /**
        * <pre>
        * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
        */
       boolean hasSuitableForOrderStateIdList();
       /**
@@ -882,24 +882,24 @@ public final class OmGetChangeOStateTriggerAd {
        * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
        */
-      io.dstore.Values.stringValue getSuitableForOrderStateIdList();
+      io.dstore.values.StringValue getSuitableForOrderStateIdList();
       /**
        * <pre>
        * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSuitableForOrderStateIdListOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSuitableForOrderStateIdListOrBuilder();
 
       /**
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
        */
       boolean hasChangeOrderStateTriggerId();
       /**
@@ -907,17 +907,17 @@ public final class OmGetChangeOStateTriggerAd {
        * ID eines "TRI-Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getChangeOrderStateTriggerId();
+      io.dstore.values.IntegerValue getChangeOrderStateTriggerId();
       /**
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getChangeOrderStateTriggerIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getChangeOrderStateTriggerIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetChangeOStateTrigger_Ad.Response.Row}
@@ -965,11 +965,11 @@ public final class OmGetChangeOStateTriggerAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (ignorePosAlreadyInOrderState_ != null) {
                   subBuilder = ignorePosAlreadyInOrderState_.toBuilder();
                 }
-                ignorePosAlreadyInOrderState_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                ignorePosAlreadyInOrderState_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(ignorePosAlreadyInOrderState_);
                   ignorePosAlreadyInOrderState_ = subBuilder.buildPartial();
@@ -978,11 +978,11 @@ public final class OmGetChangeOStateTriggerAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (suitableForOrderStateIdList_ != null) {
                   subBuilder = suitableForOrderStateIdList_.toBuilder();
                 }
-                suitableForOrderStateIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                suitableForOrderStateIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(suitableForOrderStateIdList_);
                   suitableForOrderStateIdList_ = subBuilder.buildPartial();
@@ -991,11 +991,11 @@ public final class OmGetChangeOStateTriggerAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (changeOrderStateTriggerId_ != null) {
                   subBuilder = changeOrderStateTriggerId_.toBuilder();
                 }
-                changeOrderStateTriggerId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                changeOrderStateTriggerId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(changeOrderStateTriggerId_);
                   changeOrderStateTriggerId_ = subBuilder.buildPartial();
@@ -1036,13 +1036,13 @@ public final class OmGetChangeOStateTriggerAd {
       }
 
       public static final int IGNORE_POS_ALREADY_IN_ORDER_STATE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.booleanValue ignorePosAlreadyInOrderState_;
+      private io.dstore.values.BooleanValue ignorePosAlreadyInOrderState_;
       /**
        * <pre>
        * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
        */
       public boolean hasIgnorePosAlreadyInOrderState() {
         return ignorePosAlreadyInOrderState_ != null;
@@ -1052,30 +1052,30 @@ public final class OmGetChangeOStateTriggerAd {
        * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
        */
-      public io.dstore.Values.booleanValue getIgnorePosAlreadyInOrderState() {
-        return ignorePosAlreadyInOrderState_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : ignorePosAlreadyInOrderState_;
+      public io.dstore.values.BooleanValue getIgnorePosAlreadyInOrderState() {
+        return ignorePosAlreadyInOrderState_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : ignorePosAlreadyInOrderState_;
       }
       /**
        * <pre>
        * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIgnorePosAlreadyInOrderStateOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIgnorePosAlreadyInOrderStateOrBuilder() {
         return getIgnorePosAlreadyInOrderState();
       }
 
       public static final int SUITABLE_FOR_ORDER_STATE_ID_LIST_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue suitableForOrderStateIdList_;
+      private io.dstore.values.StringValue suitableForOrderStateIdList_;
       /**
        * <pre>
        * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
        */
       public boolean hasSuitableForOrderStateIdList() {
         return suitableForOrderStateIdList_ != null;
@@ -1085,30 +1085,30 @@ public final class OmGetChangeOStateTriggerAd {
        * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
        */
-      public io.dstore.Values.stringValue getSuitableForOrderStateIdList() {
-        return suitableForOrderStateIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : suitableForOrderStateIdList_;
+      public io.dstore.values.StringValue getSuitableForOrderStateIdList() {
+        return suitableForOrderStateIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : suitableForOrderStateIdList_;
       }
       /**
        * <pre>
        * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+       * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSuitableForOrderStateIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSuitableForOrderStateIdListOrBuilder() {
         return getSuitableForOrderStateIdList();
       }
 
       public static final int CHANGE_ORDER_STATE_TRIGGER_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue changeOrderStateTriggerId_;
+      private io.dstore.values.IntegerValue changeOrderStateTriggerId_;
       /**
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
        */
       public boolean hasChangeOrderStateTriggerId() {
         return changeOrderStateTriggerId_ != null;
@@ -1118,19 +1118,19 @@ public final class OmGetChangeOStateTriggerAd {
        * ID eines "TRI-Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getChangeOrderStateTriggerId() {
-        return changeOrderStateTriggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : changeOrderStateTriggerId_;
+      public io.dstore.values.IntegerValue getChangeOrderStateTriggerId() {
+        return changeOrderStateTriggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : changeOrderStateTriggerId_;
       }
       /**
        * <pre>
        * ID eines "TRI-Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getChangeOrderStateTriggerIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getChangeOrderStateTriggerIdOrBuilder() {
         return getChangeOrderStateTriggerId();
       }
 
@@ -1519,15 +1519,15 @@ public final class OmGetChangeOStateTriggerAd {
           return this;
         }
 
-        private io.dstore.Values.booleanValue ignorePosAlreadyInOrderState_ = null;
+        private io.dstore.values.BooleanValue ignorePosAlreadyInOrderState_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> ignorePosAlreadyInOrderStateBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> ignorePosAlreadyInOrderStateBuilder_;
         /**
          * <pre>
          * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
          */
         public boolean hasIgnorePosAlreadyInOrderState() {
           return ignorePosAlreadyInOrderStateBuilder_ != null || ignorePosAlreadyInOrderState_ != null;
@@ -1537,11 +1537,11 @@ public final class OmGetChangeOStateTriggerAd {
          * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
          */
-        public io.dstore.Values.booleanValue getIgnorePosAlreadyInOrderState() {
+        public io.dstore.values.BooleanValue getIgnorePosAlreadyInOrderState() {
           if (ignorePosAlreadyInOrderStateBuilder_ == null) {
-            return ignorePosAlreadyInOrderState_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : ignorePosAlreadyInOrderState_;
+            return ignorePosAlreadyInOrderState_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : ignorePosAlreadyInOrderState_;
           } else {
             return ignorePosAlreadyInOrderStateBuilder_.getMessage();
           }
@@ -1551,9 +1551,9 @@ public final class OmGetChangeOStateTriggerAd {
          * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
          */
-        public Builder setIgnorePosAlreadyInOrderState(io.dstore.Values.booleanValue value) {
+        public Builder setIgnorePosAlreadyInOrderState(io.dstore.values.BooleanValue value) {
           if (ignorePosAlreadyInOrderStateBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1571,10 +1571,10 @@ public final class OmGetChangeOStateTriggerAd {
          * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
          */
         public Builder setIgnorePosAlreadyInOrderState(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (ignorePosAlreadyInOrderStateBuilder_ == null) {
             ignorePosAlreadyInOrderState_ = builderForValue.build();
             onChanged();
@@ -1589,13 +1589,13 @@ public final class OmGetChangeOStateTriggerAd {
          * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
          */
-        public Builder mergeIgnorePosAlreadyInOrderState(io.dstore.Values.booleanValue value) {
+        public Builder mergeIgnorePosAlreadyInOrderState(io.dstore.values.BooleanValue value) {
           if (ignorePosAlreadyInOrderStateBuilder_ == null) {
             if (ignorePosAlreadyInOrderState_ != null) {
               ignorePosAlreadyInOrderState_ =
-                io.dstore.Values.booleanValue.newBuilder(ignorePosAlreadyInOrderState_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(ignorePosAlreadyInOrderState_).mergeFrom(value).buildPartial();
             } else {
               ignorePosAlreadyInOrderState_ = value;
             }
@@ -1611,7 +1611,7 @@ public final class OmGetChangeOStateTriggerAd {
          * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
          */
         public Builder clearIgnorePosAlreadyInOrderState() {
           if (ignorePosAlreadyInOrderStateBuilder_ == null) {
@@ -1629,9 +1629,9 @@ public final class OmGetChangeOStateTriggerAd {
          * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getIgnorePosAlreadyInOrderStateBuilder() {
+        public io.dstore.values.BooleanValue.Builder getIgnorePosAlreadyInOrderStateBuilder() {
           
           onChanged();
           return getIgnorePosAlreadyInOrderStateFieldBuilder().getBuilder();
@@ -1641,14 +1641,14 @@ public final class OmGetChangeOStateTriggerAd {
          * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getIgnorePosAlreadyInOrderStateOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getIgnorePosAlreadyInOrderStateOrBuilder() {
           if (ignorePosAlreadyInOrderStateBuilder_ != null) {
             return ignorePosAlreadyInOrderStateBuilder_.getMessageOrBuilder();
           } else {
             return ignorePosAlreadyInOrderState_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : ignorePosAlreadyInOrderState_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : ignorePosAlreadyInOrderState_;
           }
         }
         /**
@@ -1656,14 +1656,14 @@ public final class OmGetChangeOStateTriggerAd {
          * Gibt an, ob der Trigger "ChangeOrderStateTriggerID" mit ALLEN vom Status- Wechsel betroffenen Auftrags-Positionen aufgerufen werden soll ("0") oder nur mit denen, deren Ausgangs-Status noch NICHT dem Ziel-Status entsprach ("1")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue ignore_pos_already_in_order_state = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue ignore_pos_already_in_order_state = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getIgnorePosAlreadyInOrderStateFieldBuilder() {
           if (ignorePosAlreadyInOrderStateBuilder_ == null) {
             ignorePosAlreadyInOrderStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getIgnorePosAlreadyInOrderState(),
                     getParentForChildren(),
                     isClean());
@@ -1672,15 +1672,15 @@ public final class OmGetChangeOStateTriggerAd {
           return ignorePosAlreadyInOrderStateBuilder_;
         }
 
-        private io.dstore.Values.stringValue suitableForOrderStateIdList_ = null;
+        private io.dstore.values.StringValue suitableForOrderStateIdList_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> suitableForOrderStateIdListBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> suitableForOrderStateIdListBuilder_;
         /**
          * <pre>
          * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+         * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
          */
         public boolean hasSuitableForOrderStateIdList() {
           return suitableForOrderStateIdListBuilder_ != null || suitableForOrderStateIdList_ != null;
@@ -1690,11 +1690,11 @@ public final class OmGetChangeOStateTriggerAd {
          * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+         * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
          */
-        public io.dstore.Values.stringValue getSuitableForOrderStateIdList() {
+        public io.dstore.values.StringValue getSuitableForOrderStateIdList() {
           if (suitableForOrderStateIdListBuilder_ == null) {
-            return suitableForOrderStateIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : suitableForOrderStateIdList_;
+            return suitableForOrderStateIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : suitableForOrderStateIdList_;
           } else {
             return suitableForOrderStateIdListBuilder_.getMessage();
           }
@@ -1704,9 +1704,9 @@ public final class OmGetChangeOStateTriggerAd {
          * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+         * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
          */
-        public Builder setSuitableForOrderStateIdList(io.dstore.Values.stringValue value) {
+        public Builder setSuitableForOrderStateIdList(io.dstore.values.StringValue value) {
           if (suitableForOrderStateIdListBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1724,10 +1724,10 @@ public final class OmGetChangeOStateTriggerAd {
          * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+         * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
          */
         public Builder setSuitableForOrderStateIdList(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (suitableForOrderStateIdListBuilder_ == null) {
             suitableForOrderStateIdList_ = builderForValue.build();
             onChanged();
@@ -1742,13 +1742,13 @@ public final class OmGetChangeOStateTriggerAd {
          * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+         * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
          */
-        public Builder mergeSuitableForOrderStateIdList(io.dstore.Values.stringValue value) {
+        public Builder mergeSuitableForOrderStateIdList(io.dstore.values.StringValue value) {
           if (suitableForOrderStateIdListBuilder_ == null) {
             if (suitableForOrderStateIdList_ != null) {
               suitableForOrderStateIdList_ =
-                io.dstore.Values.stringValue.newBuilder(suitableForOrderStateIdList_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(suitableForOrderStateIdList_).mergeFrom(value).buildPartial();
             } else {
               suitableForOrderStateIdList_ = value;
             }
@@ -1764,7 +1764,7 @@ public final class OmGetChangeOStateTriggerAd {
          * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+         * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
          */
         public Builder clearSuitableForOrderStateIdList() {
           if (suitableForOrderStateIdListBuilder_ == null) {
@@ -1782,9 +1782,9 @@ public final class OmGetChangeOStateTriggerAd {
          * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+         * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSuitableForOrderStateIdListBuilder() {
+        public io.dstore.values.StringValue.Builder getSuitableForOrderStateIdListBuilder() {
           
           onChanged();
           return getSuitableForOrderStateIdListFieldBuilder().getBuilder();
@@ -1794,14 +1794,14 @@ public final class OmGetChangeOStateTriggerAd {
          * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+         * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSuitableForOrderStateIdListOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSuitableForOrderStateIdListOrBuilder() {
           if (suitableForOrderStateIdListBuilder_ != null) {
             return suitableForOrderStateIdListBuilder_.getMessageOrBuilder();
           } else {
             return suitableForOrderStateIdList_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : suitableForOrderStateIdList_;
+                io.dstore.values.StringValue.getDefaultInstance() : suitableForOrderStateIdList_;
           }
         }
         /**
@@ -1809,14 +1809,14 @@ public final class OmGetChangeOStateTriggerAd {
          * Durch "," getrennte "OrderStateID"s (Auftrags-Positions-Status), denen "ChangeOrderStateTriggerID" zugewiesen werden kann (via "om_ModifyOrderStates_Ad", s. Parameter "&#64;ChangeOrderStateTriggerID") - falls "NULL", ist der Trigger für ALLE Status geeignet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suitable_for_order_state_id_list = 10002;</code>
+         * <code>optional .dstore.values.StringValue suitable_for_order_state_id_list = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSuitableForOrderStateIdListFieldBuilder() {
           if (suitableForOrderStateIdListBuilder_ == null) {
             suitableForOrderStateIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSuitableForOrderStateIdList(),
                     getParentForChildren(),
                     isClean());
@@ -1825,15 +1825,15 @@ public final class OmGetChangeOStateTriggerAd {
           return suitableForOrderStateIdListBuilder_;
         }
 
-        private io.dstore.Values.integerValue changeOrderStateTriggerId_ = null;
+        private io.dstore.values.IntegerValue changeOrderStateTriggerId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> changeOrderStateTriggerIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> changeOrderStateTriggerIdBuilder_;
         /**
          * <pre>
          * ID eines "TRI-Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
          */
         public boolean hasChangeOrderStateTriggerId() {
           return changeOrderStateTriggerIdBuilder_ != null || changeOrderStateTriggerId_ != null;
@@ -1843,11 +1843,11 @@ public final class OmGetChangeOStateTriggerAd {
          * ID eines "TRI-Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getChangeOrderStateTriggerId() {
+        public io.dstore.values.IntegerValue getChangeOrderStateTriggerId() {
           if (changeOrderStateTriggerIdBuilder_ == null) {
-            return changeOrderStateTriggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : changeOrderStateTriggerId_;
+            return changeOrderStateTriggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : changeOrderStateTriggerId_;
           } else {
             return changeOrderStateTriggerIdBuilder_.getMessage();
           }
@@ -1857,9 +1857,9 @@ public final class OmGetChangeOStateTriggerAd {
          * ID eines "TRI-Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
          */
-        public Builder setChangeOrderStateTriggerId(io.dstore.Values.integerValue value) {
+        public Builder setChangeOrderStateTriggerId(io.dstore.values.IntegerValue value) {
           if (changeOrderStateTriggerIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1877,10 +1877,10 @@ public final class OmGetChangeOStateTriggerAd {
          * ID eines "TRI-Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
          */
         public Builder setChangeOrderStateTriggerId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (changeOrderStateTriggerIdBuilder_ == null) {
             changeOrderStateTriggerId_ = builderForValue.build();
             onChanged();
@@ -1895,13 +1895,13 @@ public final class OmGetChangeOStateTriggerAd {
          * ID eines "TRI-Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
          */
-        public Builder mergeChangeOrderStateTriggerId(io.dstore.Values.integerValue value) {
+        public Builder mergeChangeOrderStateTriggerId(io.dstore.values.IntegerValue value) {
           if (changeOrderStateTriggerIdBuilder_ == null) {
             if (changeOrderStateTriggerId_ != null) {
               changeOrderStateTriggerId_ =
-                io.dstore.Values.integerValue.newBuilder(changeOrderStateTriggerId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(changeOrderStateTriggerId_).mergeFrom(value).buildPartial();
             } else {
               changeOrderStateTriggerId_ = value;
             }
@@ -1917,7 +1917,7 @@ public final class OmGetChangeOStateTriggerAd {
          * ID eines "TRI-Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
          */
         public Builder clearChangeOrderStateTriggerId() {
           if (changeOrderStateTriggerIdBuilder_ == null) {
@@ -1935,9 +1935,9 @@ public final class OmGetChangeOStateTriggerAd {
          * ID eines "TRI-Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getChangeOrderStateTriggerIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getChangeOrderStateTriggerIdBuilder() {
           
           onChanged();
           return getChangeOrderStateTriggerIdFieldBuilder().getBuilder();
@@ -1947,14 +1947,14 @@ public final class OmGetChangeOStateTriggerAd {
          * ID eines "TRI-Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getChangeOrderStateTriggerIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getChangeOrderStateTriggerIdOrBuilder() {
           if (changeOrderStateTriggerIdBuilder_ != null) {
             return changeOrderStateTriggerIdBuilder_.getMessageOrBuilder();
           } else {
             return changeOrderStateTriggerId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : changeOrderStateTriggerId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : changeOrderStateTriggerId_;
           }
         }
         /**
@@ -1962,14 +1962,14 @@ public final class OmGetChangeOStateTriggerAd {
          * ID eines "TRI-Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue change_order_state_trigger_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue change_order_state_trigger_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getChangeOrderStateTriggerIdFieldBuilder() {
           if (changeOrderStateTriggerIdBuilder_ == null) {
             changeOrderStateTriggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getChangeOrderStateTriggerId(),
                     getParentForChildren(),
                     isClean());
@@ -3439,7 +3439,7 @@ public final class OmGetChangeOStateTriggerAd {
       "GetChangeOStateTrigger_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"_\n\nPa" +
       "rameters\0223\n\016order_state_id\030\001 \001(\0132\033.dstor" +
-      "e.values.integerValue\022\034\n\023order_state_id_" +
+      "e.values.IntegerValue\022\034\n\023order_state_id_" +
       "null\030\351\007 \001(\010\"\242\003\n\010Response\0228\n\020meta_informa" +
       "tion\030\002 \003(\0132\036.dstore.engine.MetaInformati" +
       "on\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Mess" +
@@ -3447,10 +3447,10 @@ public final class OmGetChangeOStateTriggerAd {
       "hangeOStateTrigger_Ad.Response.Row\032\353\001\n\003R" +
       "ow\022\017\n\006row_id\030\220N \001(\005\022G\n!ignore_pos_alread" +
       "y_in_order_state\030\221N \001(\0132\033.dstore.values." +
-      "booleanValue\022E\n suitable_for_order_state" +
-      "_id_list\030\222N \001(\0132\032.dstore.values.stringVa" +
+      "BooleanValue\022E\n suitable_for_order_state" +
+      "_id_list\030\222N \001(\0132\032.dstore.values.StringVa" +
       "lue\022C\n\035change_order_state_trigger_id\030\223N " +
-      "\001(\0132\033.dstore.values.integerValueB]\n\033io.d" +
+      "\001(\0132\033.dstore.values.IntegerValueB]\n\033io.d" +
       "store.engine.proceduresZ>gosdk.dstore.de" +
       "/engine/procedures/om_GetChangeOStateTri" +
       "gger_Adb\006proto3"
@@ -3466,7 +3466,7 @@ public final class OmGetChangeOStateTriggerAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetChangeOStateTrigger_Ad_Parameters_descriptor =
@@ -3487,7 +3487,7 @@ public final class OmGetChangeOStateTriggerAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetChangeOStateTrigger_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "IgnorePosAlreadyInOrderState", "SuitableForOrderStateIdList", "ChangeOrderStateTriggerId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

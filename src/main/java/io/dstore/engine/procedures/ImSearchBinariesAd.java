@@ -19,17 +19,17 @@ public final class ImSearchBinariesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+     * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
      */
     boolean hasAssignedToTable();
     /**
-     * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+     * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
      */
-    io.dstore.Values.integerValue getAssignedToTable();
+    io.dstore.values.IntegerValue getAssignedToTable();
     /**
-     * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+     * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getAssignedToTableOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getAssignedToTableOrBuilder();
 
     /**
      * <code>optional bool assigned_to_table_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImSearchBinariesAd {
     boolean getAssignedToTableNull();
 
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
      */
     boolean hasInputNestLevelConds();
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
      */
-    io.dstore.Values.integerValue getInputNestLevelConds();
+    io.dstore.values.IntegerValue getInputNestLevelConds();
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getInputNestLevelCondsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getInputNestLevelCondsOrBuilder();
 
     /**
      * <code>optional bool input_nest_level_conds_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImSearchBinariesAd {
     boolean getInputNestLevelCondsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+     * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
      */
     boolean hasValueSeparatorINOperator();
     /**
-     * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+     * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
      */
-    io.dstore.Values.stringValue getValueSeparatorINOperator();
+    io.dstore.values.StringValue getValueSeparatorINOperator();
     /**
-     * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+     * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueSeparatorINOperatorOrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueSeparatorINOperatorOrBuilder();
 
     /**
      * <code>optional bool value_separator_i_n_operator_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImSearchBinariesAd {
     boolean getValueSeparatorINOperatorNull();
 
     /**
-     * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
      */
     boolean hasStartAtRowNo();
     /**
-     * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
      */
-    io.dstore.Values.integerValue getStartAtRowNo();
+    io.dstore.values.IntegerValue getStartAtRowNo();
     /**
-     * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getStartAtRowNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getStartAtRowNoOrBuilder();
 
     /**
      * <code>optional bool start_at_row_no_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class ImSearchBinariesAd {
     boolean getStartAtRowNoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue row_count = 5;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
      */
     boolean hasRowCount();
     /**
-     * <code>optional .dstore.values.integerValue row_count = 5;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
      */
-    io.dstore.Values.integerValue getRowCount();
+    io.dstore.values.IntegerValue getRowCount();
     /**
-     * <code>optional .dstore.values.integerValue row_count = 5;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder();
 
     /**
      * <code>optional bool row_count_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class ImSearchBinariesAd {
     boolean getRowCountNull();
 
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
      */
     boolean hasNumberOfElementsInResult();
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
      */
-    io.dstore.Values.integerValue getNumberOfElementsInResult();
+    io.dstore.values.IntegerValue getNumberOfElementsInResult();
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder();
 
     /**
      * <code>optional bool number_of_elements_in_result_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class ImSearchBinariesAd {
     boolean getNumberOfElementsInResultNull();
 
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
      */
     boolean hasOutputBinaryCharacId1();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
      */
-    io.dstore.Values.integerValue getOutputBinaryCharacId1();
+    io.dstore.values.IntegerValue getOutputBinaryCharacId1();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId1OrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOutputBinaryCharacId1OrBuilder();
 
     /**
      * <code>optional bool output_binary_charac_id1_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class ImSearchBinariesAd {
     boolean getOutputBinaryCharacId1Null();
 
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
      */
     boolean hasOutputBinaryCharacId2();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
      */
-    io.dstore.Values.integerValue getOutputBinaryCharacId2();
+    io.dstore.values.IntegerValue getOutputBinaryCharacId2();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId2OrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOutputBinaryCharacId2OrBuilder();
 
     /**
      * <code>optional bool output_binary_charac_id2_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class ImSearchBinariesAd {
     boolean getOutputBinaryCharacId2Null();
 
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
      */
     boolean hasOutputBinaryCharacId3();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
      */
-    io.dstore.Values.integerValue getOutputBinaryCharacId3();
+    io.dstore.values.IntegerValue getOutputBinaryCharacId3();
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId3OrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOutputBinaryCharacId3OrBuilder();
 
     /**
      * <code>optional bool output_binary_charac_id3_null = 1009;</code>
@@ -181,17 +181,17 @@ public final class ImSearchBinariesAd {
     boolean getOutputBinaryCharacId3Null();
 
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+     * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
      */
     boolean hasIncludeBinaryCode();
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+     * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
      */
-    io.dstore.Values.booleanValue getIncludeBinaryCode();
+    io.dstore.values.BooleanValue getIncludeBinaryCode();
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+     * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIncludeBinaryCodeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIncludeBinaryCodeOrBuilder();
 
     /**
      * <code>optional bool include_binary_code_null = 1010;</code>
@@ -199,17 +199,17 @@ public final class ImSearchBinariesAd {
     boolean getIncludeBinaryCodeNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
      */
     boolean hasNodeCharacteristicId1();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId1();
+    io.dstore.values.IntegerValue getNodeCharacteristicId1();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId1OrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicId1OrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id1_null = 1011;</code>
@@ -217,17 +217,17 @@ public final class ImSearchBinariesAd {
     boolean getNodeCharacteristicId1Null();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
      */
     boolean hasNodeCharacteristicId2();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId2();
+    io.dstore.values.IntegerValue getNodeCharacteristicId2();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId2OrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicId2OrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id2_null = 1012;</code>
@@ -235,17 +235,17 @@ public final class ImSearchBinariesAd {
     boolean getNodeCharacteristicId2Null();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
      */
     boolean hasNodeCharacteristicId3();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId3();
+    io.dstore.values.IntegerValue getNodeCharacteristicId3();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId3OrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicId3OrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id3_null = 1013;</code>
@@ -305,11 +305,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (assignedToTable_ != null) {
                 subBuilder = assignedToTable_.toBuilder();
               }
-              assignedToTable_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              assignedToTable_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(assignedToTable_);
                 assignedToTable_ = subBuilder.buildPartial();
@@ -318,11 +318,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (inputNestLevelConds_ != null) {
                 subBuilder = inputNestLevelConds_.toBuilder();
               }
-              inputNestLevelConds_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              inputNestLevelConds_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inputNestLevelConds_);
                 inputNestLevelConds_ = subBuilder.buildPartial();
@@ -331,11 +331,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (valueSeparatorINOperator_ != null) {
                 subBuilder = valueSeparatorINOperator_.toBuilder();
               }
-              valueSeparatorINOperator_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              valueSeparatorINOperator_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueSeparatorINOperator_);
                 valueSeparatorINOperator_ = subBuilder.buildPartial();
@@ -344,11 +344,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (startAtRowNo_ != null) {
                 subBuilder = startAtRowNo_.toBuilder();
               }
-              startAtRowNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              startAtRowNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(startAtRowNo_);
                 startAtRowNo_ = subBuilder.buildPartial();
@@ -357,11 +357,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (rowCount_ != null) {
                 subBuilder = rowCount_.toBuilder();
               }
-              rowCount_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              rowCount_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowCount_);
                 rowCount_ = subBuilder.buildPartial();
@@ -370,11 +370,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (numberOfElementsInResult_ != null) {
                 subBuilder = numberOfElementsInResult_.toBuilder();
               }
-              numberOfElementsInResult_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              numberOfElementsInResult_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfElementsInResult_);
                 numberOfElementsInResult_ = subBuilder.buildPartial();
@@ -383,11 +383,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (outputBinaryCharacId1_ != null) {
                 subBuilder = outputBinaryCharacId1_.toBuilder();
               }
-              outputBinaryCharacId1_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              outputBinaryCharacId1_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputBinaryCharacId1_);
                 outputBinaryCharacId1_ = subBuilder.buildPartial();
@@ -396,11 +396,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 66: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (outputBinaryCharacId2_ != null) {
                 subBuilder = outputBinaryCharacId2_.toBuilder();
               }
-              outputBinaryCharacId2_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              outputBinaryCharacId2_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputBinaryCharacId2_);
                 outputBinaryCharacId2_ = subBuilder.buildPartial();
@@ -409,11 +409,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 74: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (outputBinaryCharacId3_ != null) {
                 subBuilder = outputBinaryCharacId3_.toBuilder();
               }
-              outputBinaryCharacId3_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              outputBinaryCharacId3_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputBinaryCharacId3_);
                 outputBinaryCharacId3_ = subBuilder.buildPartial();
@@ -422,11 +422,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 82: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (includeBinaryCode_ != null) {
                 subBuilder = includeBinaryCode_.toBuilder();
               }
-              includeBinaryCode_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              includeBinaryCode_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeBinaryCode_);
                 includeBinaryCode_ = subBuilder.buildPartial();
@@ -435,11 +435,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 90: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId1_ != null) {
                 subBuilder = nodeCharacteristicId1_.toBuilder();
               }
-              nodeCharacteristicId1_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId1_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId1_);
                 nodeCharacteristicId1_ = subBuilder.buildPartial();
@@ -448,11 +448,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 98: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId2_ != null) {
                 subBuilder = nodeCharacteristicId2_.toBuilder();
               }
-              nodeCharacteristicId2_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId2_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId2_);
                 nodeCharacteristicId2_ = subBuilder.buildPartial();
@@ -461,11 +461,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 106: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId3_ != null) {
                 subBuilder = nodeCharacteristicId3_.toBuilder();
               }
-              nodeCharacteristicId3_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId3_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId3_);
                 nodeCharacteristicId3_ = subBuilder.buildPartial();
@@ -562,23 +562,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int ASSIGNED_TO_TABLE_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue assignedToTable_;
+    private io.dstore.values.IntegerValue assignedToTable_;
     /**
-     * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+     * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
      */
     public boolean hasAssignedToTable() {
       return assignedToTable_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+     * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
      */
-    public io.dstore.Values.integerValue getAssignedToTable() {
-      return assignedToTable_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : assignedToTable_;
+    public io.dstore.values.IntegerValue getAssignedToTable() {
+      return assignedToTable_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : assignedToTable_;
     }
     /**
-     * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+     * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getAssignedToTableOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getAssignedToTableOrBuilder() {
       return getAssignedToTable();
     }
 
@@ -592,23 +592,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int INPUT_NEST_LEVEL_CONDS_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue inputNestLevelConds_;
+    private io.dstore.values.IntegerValue inputNestLevelConds_;
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
      */
     public boolean hasInputNestLevelConds() {
       return inputNestLevelConds_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
      */
-    public io.dstore.Values.integerValue getInputNestLevelConds() {
-      return inputNestLevelConds_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inputNestLevelConds_;
+    public io.dstore.values.IntegerValue getInputNestLevelConds() {
+      return inputNestLevelConds_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inputNestLevelConds_;
     }
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getInputNestLevelCondsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getInputNestLevelCondsOrBuilder() {
       return getInputNestLevelConds();
     }
 
@@ -622,23 +622,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int VALUE_SEPARATOR_I_N_OPERATOR_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue valueSeparatorINOperator_;
+    private io.dstore.values.StringValue valueSeparatorINOperator_;
     /**
-     * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+     * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
      */
     public boolean hasValueSeparatorINOperator() {
       return valueSeparatorINOperator_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+     * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
      */
-    public io.dstore.Values.stringValue getValueSeparatorINOperator() {
-      return valueSeparatorINOperator_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueSeparatorINOperator_;
+    public io.dstore.values.StringValue getValueSeparatorINOperator() {
+      return valueSeparatorINOperator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueSeparatorINOperator_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+     * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueSeparatorINOperatorOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueSeparatorINOperatorOrBuilder() {
       return getValueSeparatorINOperator();
     }
 
@@ -652,23 +652,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int START_AT_ROW_NO_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue startAtRowNo_;
+    private io.dstore.values.IntegerValue startAtRowNo_;
     /**
-     * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
      */
     public boolean hasStartAtRowNo() {
       return startAtRowNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
      */
-    public io.dstore.Values.integerValue getStartAtRowNo() {
-      return startAtRowNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : startAtRowNo_;
+    public io.dstore.values.IntegerValue getStartAtRowNo() {
+      return startAtRowNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : startAtRowNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getStartAtRowNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getStartAtRowNoOrBuilder() {
       return getStartAtRowNo();
     }
 
@@ -682,23 +682,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int ROW_COUNT_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue rowCount_;
+    private io.dstore.values.IntegerValue rowCount_;
     /**
-     * <code>optional .dstore.values.integerValue row_count = 5;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
      */
     public boolean hasRowCount() {
       return rowCount_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue row_count = 5;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
      */
-    public io.dstore.Values.integerValue getRowCount() {
-      return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
+    public io.dstore.values.IntegerValue getRowCount() {
+      return rowCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowCount_;
     }
     /**
-     * <code>optional .dstore.values.integerValue row_count = 5;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
       return getRowCount();
     }
 
@@ -712,23 +712,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int NUMBER_OF_ELEMENTS_IN_RESULT_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue numberOfElementsInResult_;
+    private io.dstore.values.IntegerValue numberOfElementsInResult_;
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
      */
     public boolean hasNumberOfElementsInResult() {
       return numberOfElementsInResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
      */
-    public io.dstore.Values.integerValue getNumberOfElementsInResult() {
-      return numberOfElementsInResult_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+    public io.dstore.values.IntegerValue getNumberOfElementsInResult() {
+      return numberOfElementsInResult_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfElementsInResult_;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
       return getNumberOfElementsInResult();
     }
 
@@ -742,23 +742,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int OUTPUT_BINARY_CHARAC_ID1_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue outputBinaryCharacId1_;
+    private io.dstore.values.IntegerValue outputBinaryCharacId1_;
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
      */
     public boolean hasOutputBinaryCharacId1() {
       return outputBinaryCharacId1_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
      */
-    public io.dstore.Values.integerValue getOutputBinaryCharacId1() {
-      return outputBinaryCharacId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId1_;
+    public io.dstore.values.IntegerValue getOutputBinaryCharacId1() {
+      return outputBinaryCharacId1_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputBinaryCharacId1_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId1OrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOutputBinaryCharacId1OrBuilder() {
       return getOutputBinaryCharacId1();
     }
 
@@ -772,23 +772,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int OUTPUT_BINARY_CHARAC_ID2_FIELD_NUMBER = 8;
-    private io.dstore.Values.integerValue outputBinaryCharacId2_;
+    private io.dstore.values.IntegerValue outputBinaryCharacId2_;
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
      */
     public boolean hasOutputBinaryCharacId2() {
       return outputBinaryCharacId2_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
      */
-    public io.dstore.Values.integerValue getOutputBinaryCharacId2() {
-      return outputBinaryCharacId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId2_;
+    public io.dstore.values.IntegerValue getOutputBinaryCharacId2() {
+      return outputBinaryCharacId2_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputBinaryCharacId2_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId2OrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOutputBinaryCharacId2OrBuilder() {
       return getOutputBinaryCharacId2();
     }
 
@@ -802,23 +802,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int OUTPUT_BINARY_CHARAC_ID3_FIELD_NUMBER = 9;
-    private io.dstore.Values.integerValue outputBinaryCharacId3_;
+    private io.dstore.values.IntegerValue outputBinaryCharacId3_;
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
      */
     public boolean hasOutputBinaryCharacId3() {
       return outputBinaryCharacId3_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
      */
-    public io.dstore.Values.integerValue getOutputBinaryCharacId3() {
-      return outputBinaryCharacId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId3_;
+    public io.dstore.values.IntegerValue getOutputBinaryCharacId3() {
+      return outputBinaryCharacId3_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputBinaryCharacId3_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+     * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId3OrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOutputBinaryCharacId3OrBuilder() {
       return getOutputBinaryCharacId3();
     }
 
@@ -832,23 +832,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int INCLUDE_BINARY_CODE_FIELD_NUMBER = 10;
-    private io.dstore.Values.booleanValue includeBinaryCode_;
+    private io.dstore.values.BooleanValue includeBinaryCode_;
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+     * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
      */
     public boolean hasIncludeBinaryCode() {
       return includeBinaryCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+     * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
      */
-    public io.dstore.Values.booleanValue getIncludeBinaryCode() {
-      return includeBinaryCode_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeBinaryCode_;
+    public io.dstore.values.BooleanValue getIncludeBinaryCode() {
+      return includeBinaryCode_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeBinaryCode_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+     * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIncludeBinaryCodeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIncludeBinaryCodeOrBuilder() {
       return getIncludeBinaryCode();
     }
 
@@ -862,23 +862,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID1_FIELD_NUMBER = 11;
-    private io.dstore.Values.integerValue nodeCharacteristicId1_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId1_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
      */
     public boolean hasNodeCharacteristicId1() {
       return nodeCharacteristicId1_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId1() {
-      return nodeCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId1_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId1() {
+      return nodeCharacteristicId1_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId1_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId1OrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicId1OrBuilder() {
       return getNodeCharacteristicId1();
     }
 
@@ -892,23 +892,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID2_FIELD_NUMBER = 12;
-    private io.dstore.Values.integerValue nodeCharacteristicId2_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId2_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
      */
     public boolean hasNodeCharacteristicId2() {
       return nodeCharacteristicId2_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId2() {
-      return nodeCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId2_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId2() {
+      return nodeCharacteristicId2_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId2_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId2OrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicId2OrBuilder() {
       return getNodeCharacteristicId2();
     }
 
@@ -922,23 +922,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID3_FIELD_NUMBER = 13;
-    private io.dstore.Values.integerValue nodeCharacteristicId3_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId3_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
      */
     public boolean hasNodeCharacteristicId3() {
       return nodeCharacteristicId3_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId3() {
-      return nodeCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId3_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId3() {
+      return nodeCharacteristicId3_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId3_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId3OrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicId3OrBuilder() {
       return getNodeCharacteristicId3();
     }
 
@@ -1827,29 +1827,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue assignedToTable_ = null;
+      private io.dstore.values.IntegerValue assignedToTable_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> assignedToTableBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> assignedToTableBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+       * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
        */
       public boolean hasAssignedToTable() {
         return assignedToTableBuilder_ != null || assignedToTable_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+       * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
        */
-      public io.dstore.Values.integerValue getAssignedToTable() {
+      public io.dstore.values.IntegerValue getAssignedToTable() {
         if (assignedToTableBuilder_ == null) {
-          return assignedToTable_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : assignedToTable_;
+          return assignedToTable_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : assignedToTable_;
         } else {
           return assignedToTableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+       * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
        */
-      public Builder setAssignedToTable(io.dstore.Values.integerValue value) {
+      public Builder setAssignedToTable(io.dstore.values.IntegerValue value) {
         if (assignedToTableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1863,10 +1863,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+       * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
        */
       public Builder setAssignedToTable(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (assignedToTableBuilder_ == null) {
           assignedToTable_ = builderForValue.build();
           onChanged();
@@ -1877,13 +1877,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+       * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
        */
-      public Builder mergeAssignedToTable(io.dstore.Values.integerValue value) {
+      public Builder mergeAssignedToTable(io.dstore.values.IntegerValue value) {
         if (assignedToTableBuilder_ == null) {
           if (assignedToTable_ != null) {
             assignedToTable_ =
-              io.dstore.Values.integerValue.newBuilder(assignedToTable_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(assignedToTable_).mergeFrom(value).buildPartial();
           } else {
             assignedToTable_ = value;
           }
@@ -1895,7 +1895,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+       * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
        */
       public Builder clearAssignedToTable() {
         if (assignedToTableBuilder_ == null) {
@@ -1909,33 +1909,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+       * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getAssignedToTableBuilder() {
+      public io.dstore.values.IntegerValue.Builder getAssignedToTableBuilder() {
         
         onChanged();
         return getAssignedToTableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+       * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getAssignedToTableOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getAssignedToTableOrBuilder() {
         if (assignedToTableBuilder_ != null) {
           return assignedToTableBuilder_.getMessageOrBuilder();
         } else {
           return assignedToTable_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : assignedToTable_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : assignedToTable_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue assigned_to_table = 1;</code>
+       * <code>optional .dstore.values.IntegerValue assigned_to_table = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getAssignedToTableFieldBuilder() {
         if (assignedToTableBuilder_ == null) {
           assignedToTableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getAssignedToTable(),
                   getParentForChildren(),
                   isClean());
@@ -1970,29 +1970,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue inputNestLevelConds_ = null;
+      private io.dstore.values.IntegerValue inputNestLevelConds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inputNestLevelCondsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> inputNestLevelCondsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
        */
       public boolean hasInputNestLevelConds() {
         return inputNestLevelCondsBuilder_ != null || inputNestLevelConds_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
        */
-      public io.dstore.Values.integerValue getInputNestLevelConds() {
+      public io.dstore.values.IntegerValue getInputNestLevelConds() {
         if (inputNestLevelCondsBuilder_ == null) {
-          return inputNestLevelConds_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inputNestLevelConds_;
+          return inputNestLevelConds_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inputNestLevelConds_;
         } else {
           return inputNestLevelCondsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
        */
-      public Builder setInputNestLevelConds(io.dstore.Values.integerValue value) {
+      public Builder setInputNestLevelConds(io.dstore.values.IntegerValue value) {
         if (inputNestLevelCondsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2006,10 +2006,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
        */
       public Builder setInputNestLevelConds(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (inputNestLevelCondsBuilder_ == null) {
           inputNestLevelConds_ = builderForValue.build();
           onChanged();
@@ -2020,13 +2020,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
        */
-      public Builder mergeInputNestLevelConds(io.dstore.Values.integerValue value) {
+      public Builder mergeInputNestLevelConds(io.dstore.values.IntegerValue value) {
         if (inputNestLevelCondsBuilder_ == null) {
           if (inputNestLevelConds_ != null) {
             inputNestLevelConds_ =
-              io.dstore.Values.integerValue.newBuilder(inputNestLevelConds_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(inputNestLevelConds_).mergeFrom(value).buildPartial();
           } else {
             inputNestLevelConds_ = value;
           }
@@ -2038,7 +2038,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
        */
       public Builder clearInputNestLevelConds() {
         if (inputNestLevelCondsBuilder_ == null) {
@@ -2052,33 +2052,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getInputNestLevelCondsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getInputNestLevelCondsBuilder() {
         
         onChanged();
         return getInputNestLevelCondsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInputNestLevelCondsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInputNestLevelCondsOrBuilder() {
         if (inputNestLevelCondsBuilder_ != null) {
           return inputNestLevelCondsBuilder_.getMessageOrBuilder();
         } else {
           return inputNestLevelConds_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : inputNestLevelConds_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : inputNestLevelConds_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_conds = 2;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_conds = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getInputNestLevelCondsFieldBuilder() {
         if (inputNestLevelCondsBuilder_ == null) {
           inputNestLevelCondsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getInputNestLevelConds(),
                   getParentForChildren(),
                   isClean());
@@ -2113,29 +2113,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue valueSeparatorINOperator_ = null;
+      private io.dstore.values.StringValue valueSeparatorINOperator_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueSeparatorINOperatorBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueSeparatorINOperatorBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+       * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
        */
       public boolean hasValueSeparatorINOperator() {
         return valueSeparatorINOperatorBuilder_ != null || valueSeparatorINOperator_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+       * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
        */
-      public io.dstore.Values.stringValue getValueSeparatorINOperator() {
+      public io.dstore.values.StringValue getValueSeparatorINOperator() {
         if (valueSeparatorINOperatorBuilder_ == null) {
-          return valueSeparatorINOperator_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueSeparatorINOperator_;
+          return valueSeparatorINOperator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueSeparatorINOperator_;
         } else {
           return valueSeparatorINOperatorBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+       * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
        */
-      public Builder setValueSeparatorINOperator(io.dstore.Values.stringValue value) {
+      public Builder setValueSeparatorINOperator(io.dstore.values.StringValue value) {
         if (valueSeparatorINOperatorBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2149,10 +2149,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+       * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
        */
       public Builder setValueSeparatorINOperator(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueSeparatorINOperatorBuilder_ == null) {
           valueSeparatorINOperator_ = builderForValue.build();
           onChanged();
@@ -2163,13 +2163,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+       * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
        */
-      public Builder mergeValueSeparatorINOperator(io.dstore.Values.stringValue value) {
+      public Builder mergeValueSeparatorINOperator(io.dstore.values.StringValue value) {
         if (valueSeparatorINOperatorBuilder_ == null) {
           if (valueSeparatorINOperator_ != null) {
             valueSeparatorINOperator_ =
-              io.dstore.Values.stringValue.newBuilder(valueSeparatorINOperator_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(valueSeparatorINOperator_).mergeFrom(value).buildPartial();
           } else {
             valueSeparatorINOperator_ = value;
           }
@@ -2181,7 +2181,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+       * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
        */
       public Builder clearValueSeparatorINOperator() {
         if (valueSeparatorINOperatorBuilder_ == null) {
@@ -2195,33 +2195,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+       * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueSeparatorINOperatorBuilder() {
+      public io.dstore.values.StringValue.Builder getValueSeparatorINOperatorBuilder() {
         
         onChanged();
         return getValueSeparatorINOperatorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+       * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueSeparatorINOperatorOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueSeparatorINOperatorOrBuilder() {
         if (valueSeparatorINOperatorBuilder_ != null) {
           return valueSeparatorINOperatorBuilder_.getMessageOrBuilder();
         } else {
           return valueSeparatorINOperator_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : valueSeparatorINOperator_;
+              io.dstore.values.StringValue.getDefaultInstance() : valueSeparatorINOperator_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value_separator_i_n_operator = 3;</code>
+       * <code>optional .dstore.values.StringValue value_separator_i_n_operator = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueSeparatorINOperatorFieldBuilder() {
         if (valueSeparatorINOperatorBuilder_ == null) {
           valueSeparatorINOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValueSeparatorINOperator(),
                   getParentForChildren(),
                   isClean());
@@ -2256,29 +2256,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue startAtRowNo_ = null;
+      private io.dstore.values.IntegerValue startAtRowNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> startAtRowNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> startAtRowNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
        */
       public boolean hasStartAtRowNo() {
         return startAtRowNoBuilder_ != null || startAtRowNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
        */
-      public io.dstore.Values.integerValue getStartAtRowNo() {
+      public io.dstore.values.IntegerValue getStartAtRowNo() {
         if (startAtRowNoBuilder_ == null) {
-          return startAtRowNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : startAtRowNo_;
+          return startAtRowNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : startAtRowNo_;
         } else {
           return startAtRowNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
        */
-      public Builder setStartAtRowNo(io.dstore.Values.integerValue value) {
+      public Builder setStartAtRowNo(io.dstore.values.IntegerValue value) {
         if (startAtRowNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2292,10 +2292,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
        */
       public Builder setStartAtRowNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (startAtRowNoBuilder_ == null) {
           startAtRowNo_ = builderForValue.build();
           onChanged();
@@ -2306,13 +2306,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
        */
-      public Builder mergeStartAtRowNo(io.dstore.Values.integerValue value) {
+      public Builder mergeStartAtRowNo(io.dstore.values.IntegerValue value) {
         if (startAtRowNoBuilder_ == null) {
           if (startAtRowNo_ != null) {
             startAtRowNo_ =
-              io.dstore.Values.integerValue.newBuilder(startAtRowNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(startAtRowNo_).mergeFrom(value).buildPartial();
           } else {
             startAtRowNo_ = value;
           }
@@ -2324,7 +2324,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
        */
       public Builder clearStartAtRowNo() {
         if (startAtRowNoBuilder_ == null) {
@@ -2338,33 +2338,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getStartAtRowNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getStartAtRowNoBuilder() {
         
         onChanged();
         return getStartAtRowNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getStartAtRowNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getStartAtRowNoOrBuilder() {
         if (startAtRowNoBuilder_ != null) {
           return startAtRowNoBuilder_.getMessageOrBuilder();
         } else {
           return startAtRowNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : startAtRowNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : startAtRowNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue start_at_row_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue start_at_row_no = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getStartAtRowNoFieldBuilder() {
         if (startAtRowNoBuilder_ == null) {
           startAtRowNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getStartAtRowNo(),
                   getParentForChildren(),
                   isClean());
@@ -2399,29 +2399,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue rowCount_ = null;
+      private io.dstore.values.IntegerValue rowCount_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowCountBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> rowCountBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue row_count = 5;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
        */
       public boolean hasRowCount() {
         return rowCountBuilder_ != null || rowCount_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 5;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
        */
-      public io.dstore.Values.integerValue getRowCount() {
+      public io.dstore.values.IntegerValue getRowCount() {
         if (rowCountBuilder_ == null) {
-          return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
+          return rowCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowCount_;
         } else {
           return rowCountBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 5;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
        */
-      public Builder setRowCount(io.dstore.Values.integerValue value) {
+      public Builder setRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2435,10 +2435,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 5;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
        */
       public Builder setRowCount(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (rowCountBuilder_ == null) {
           rowCount_ = builderForValue.build();
           onChanged();
@@ -2449,13 +2449,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 5;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
        */
-      public Builder mergeRowCount(io.dstore.Values.integerValue value) {
+      public Builder mergeRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
           if (rowCount_ != null) {
             rowCount_ =
-              io.dstore.Values.integerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
           } else {
             rowCount_ = value;
           }
@@ -2467,7 +2467,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 5;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
        */
       public Builder clearRowCount() {
         if (rowCountBuilder_ == null) {
@@ -2481,33 +2481,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 5;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRowCountBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRowCountBuilder() {
         
         onChanged();
         return getRowCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 5;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
         if (rowCountBuilder_ != null) {
           return rowCountBuilder_.getMessageOrBuilder();
         } else {
           return rowCount_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : rowCount_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 5;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRowCountFieldBuilder() {
         if (rowCountBuilder_ == null) {
           rowCountBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRowCount(),
                   getParentForChildren(),
                   isClean());
@@ -2542,29 +2542,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue numberOfElementsInResult_ = null;
+      private io.dstore.values.IntegerValue numberOfElementsInResult_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfElementsInResultBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfElementsInResultBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
        */
       public boolean hasNumberOfElementsInResult() {
         return numberOfElementsInResultBuilder_ != null || numberOfElementsInResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
        */
-      public io.dstore.Values.integerValue getNumberOfElementsInResult() {
+      public io.dstore.values.IntegerValue getNumberOfElementsInResult() {
         if (numberOfElementsInResultBuilder_ == null) {
-          return numberOfElementsInResult_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+          return numberOfElementsInResult_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfElementsInResult_;
         } else {
           return numberOfElementsInResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
        */
-      public Builder setNumberOfElementsInResult(io.dstore.Values.integerValue value) {
+      public Builder setNumberOfElementsInResult(io.dstore.values.IntegerValue value) {
         if (numberOfElementsInResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2578,10 +2578,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
        */
       public Builder setNumberOfElementsInResult(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (numberOfElementsInResultBuilder_ == null) {
           numberOfElementsInResult_ = builderForValue.build();
           onChanged();
@@ -2592,13 +2592,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
        */
-      public Builder mergeNumberOfElementsInResult(io.dstore.Values.integerValue value) {
+      public Builder mergeNumberOfElementsInResult(io.dstore.values.IntegerValue value) {
         if (numberOfElementsInResultBuilder_ == null) {
           if (numberOfElementsInResult_ != null) {
             numberOfElementsInResult_ =
-              io.dstore.Values.integerValue.newBuilder(numberOfElementsInResult_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(numberOfElementsInResult_).mergeFrom(value).buildPartial();
           } else {
             numberOfElementsInResult_ = value;
           }
@@ -2610,7 +2610,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
        */
       public Builder clearNumberOfElementsInResult() {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -2624,33 +2624,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNumberOfElementsInResultBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNumberOfElementsInResultBuilder() {
         
         onChanged();
         return getNumberOfElementsInResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
         if (numberOfElementsInResultBuilder_ != null) {
           return numberOfElementsInResultBuilder_.getMessageOrBuilder();
         } else {
           return numberOfElementsInResult_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : numberOfElementsInResult_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 6;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNumberOfElementsInResultFieldBuilder() {
         if (numberOfElementsInResultBuilder_ == null) {
           numberOfElementsInResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNumberOfElementsInResult(),
                   getParentForChildren(),
                   isClean());
@@ -2685,29 +2685,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue outputBinaryCharacId1_ = null;
+      private io.dstore.values.IntegerValue outputBinaryCharacId1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputBinaryCharacId1Builder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> outputBinaryCharacId1Builder_;
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
        */
       public boolean hasOutputBinaryCharacId1() {
         return outputBinaryCharacId1Builder_ != null || outputBinaryCharacId1_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
        */
-      public io.dstore.Values.integerValue getOutputBinaryCharacId1() {
+      public io.dstore.values.IntegerValue getOutputBinaryCharacId1() {
         if (outputBinaryCharacId1Builder_ == null) {
-          return outputBinaryCharacId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId1_;
+          return outputBinaryCharacId1_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputBinaryCharacId1_;
         } else {
           return outputBinaryCharacId1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
        */
-      public Builder setOutputBinaryCharacId1(io.dstore.Values.integerValue value) {
+      public Builder setOutputBinaryCharacId1(io.dstore.values.IntegerValue value) {
         if (outputBinaryCharacId1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2721,10 +2721,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
        */
       public Builder setOutputBinaryCharacId1(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (outputBinaryCharacId1Builder_ == null) {
           outputBinaryCharacId1_ = builderForValue.build();
           onChanged();
@@ -2735,13 +2735,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
        */
-      public Builder mergeOutputBinaryCharacId1(io.dstore.Values.integerValue value) {
+      public Builder mergeOutputBinaryCharacId1(io.dstore.values.IntegerValue value) {
         if (outputBinaryCharacId1Builder_ == null) {
           if (outputBinaryCharacId1_ != null) {
             outputBinaryCharacId1_ =
-              io.dstore.Values.integerValue.newBuilder(outputBinaryCharacId1_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(outputBinaryCharacId1_).mergeFrom(value).buildPartial();
           } else {
             outputBinaryCharacId1_ = value;
           }
@@ -2753,7 +2753,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
        */
       public Builder clearOutputBinaryCharacId1() {
         if (outputBinaryCharacId1Builder_ == null) {
@@ -2767,33 +2767,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOutputBinaryCharacId1Builder() {
+      public io.dstore.values.IntegerValue.Builder getOutputBinaryCharacId1Builder() {
         
         onChanged();
         return getOutputBinaryCharacId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId1OrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOutputBinaryCharacId1OrBuilder() {
         if (outputBinaryCharacId1Builder_ != null) {
           return outputBinaryCharacId1Builder_.getMessageOrBuilder();
         } else {
           return outputBinaryCharacId1_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId1_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : outputBinaryCharacId1_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id1 = 7;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id1 = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOutputBinaryCharacId1FieldBuilder() {
         if (outputBinaryCharacId1Builder_ == null) {
           outputBinaryCharacId1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOutputBinaryCharacId1(),
                   getParentForChildren(),
                   isClean());
@@ -2828,29 +2828,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue outputBinaryCharacId2_ = null;
+      private io.dstore.values.IntegerValue outputBinaryCharacId2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputBinaryCharacId2Builder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> outputBinaryCharacId2Builder_;
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
        */
       public boolean hasOutputBinaryCharacId2() {
         return outputBinaryCharacId2Builder_ != null || outputBinaryCharacId2_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
        */
-      public io.dstore.Values.integerValue getOutputBinaryCharacId2() {
+      public io.dstore.values.IntegerValue getOutputBinaryCharacId2() {
         if (outputBinaryCharacId2Builder_ == null) {
-          return outputBinaryCharacId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId2_;
+          return outputBinaryCharacId2_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputBinaryCharacId2_;
         } else {
           return outputBinaryCharacId2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
        */
-      public Builder setOutputBinaryCharacId2(io.dstore.Values.integerValue value) {
+      public Builder setOutputBinaryCharacId2(io.dstore.values.IntegerValue value) {
         if (outputBinaryCharacId2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2864,10 +2864,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
        */
       public Builder setOutputBinaryCharacId2(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (outputBinaryCharacId2Builder_ == null) {
           outputBinaryCharacId2_ = builderForValue.build();
           onChanged();
@@ -2878,13 +2878,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
        */
-      public Builder mergeOutputBinaryCharacId2(io.dstore.Values.integerValue value) {
+      public Builder mergeOutputBinaryCharacId2(io.dstore.values.IntegerValue value) {
         if (outputBinaryCharacId2Builder_ == null) {
           if (outputBinaryCharacId2_ != null) {
             outputBinaryCharacId2_ =
-              io.dstore.Values.integerValue.newBuilder(outputBinaryCharacId2_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(outputBinaryCharacId2_).mergeFrom(value).buildPartial();
           } else {
             outputBinaryCharacId2_ = value;
           }
@@ -2896,7 +2896,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
        */
       public Builder clearOutputBinaryCharacId2() {
         if (outputBinaryCharacId2Builder_ == null) {
@@ -2910,33 +2910,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOutputBinaryCharacId2Builder() {
+      public io.dstore.values.IntegerValue.Builder getOutputBinaryCharacId2Builder() {
         
         onChanged();
         return getOutputBinaryCharacId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId2OrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOutputBinaryCharacId2OrBuilder() {
         if (outputBinaryCharacId2Builder_ != null) {
           return outputBinaryCharacId2Builder_.getMessageOrBuilder();
         } else {
           return outputBinaryCharacId2_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId2_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : outputBinaryCharacId2_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id2 = 8;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id2 = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOutputBinaryCharacId2FieldBuilder() {
         if (outputBinaryCharacId2Builder_ == null) {
           outputBinaryCharacId2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOutputBinaryCharacId2(),
                   getParentForChildren(),
                   isClean());
@@ -2971,29 +2971,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue outputBinaryCharacId3_ = null;
+      private io.dstore.values.IntegerValue outputBinaryCharacId3_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputBinaryCharacId3Builder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> outputBinaryCharacId3Builder_;
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
        */
       public boolean hasOutputBinaryCharacId3() {
         return outputBinaryCharacId3Builder_ != null || outputBinaryCharacId3_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
        */
-      public io.dstore.Values.integerValue getOutputBinaryCharacId3() {
+      public io.dstore.values.IntegerValue getOutputBinaryCharacId3() {
         if (outputBinaryCharacId3Builder_ == null) {
-          return outputBinaryCharacId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId3_;
+          return outputBinaryCharacId3_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputBinaryCharacId3_;
         } else {
           return outputBinaryCharacId3Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
        */
-      public Builder setOutputBinaryCharacId3(io.dstore.Values.integerValue value) {
+      public Builder setOutputBinaryCharacId3(io.dstore.values.IntegerValue value) {
         if (outputBinaryCharacId3Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3007,10 +3007,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
        */
       public Builder setOutputBinaryCharacId3(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (outputBinaryCharacId3Builder_ == null) {
           outputBinaryCharacId3_ = builderForValue.build();
           onChanged();
@@ -3021,13 +3021,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
        */
-      public Builder mergeOutputBinaryCharacId3(io.dstore.Values.integerValue value) {
+      public Builder mergeOutputBinaryCharacId3(io.dstore.values.IntegerValue value) {
         if (outputBinaryCharacId3Builder_ == null) {
           if (outputBinaryCharacId3_ != null) {
             outputBinaryCharacId3_ =
-              io.dstore.Values.integerValue.newBuilder(outputBinaryCharacId3_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(outputBinaryCharacId3_).mergeFrom(value).buildPartial();
           } else {
             outputBinaryCharacId3_ = value;
           }
@@ -3039,7 +3039,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
        */
       public Builder clearOutputBinaryCharacId3() {
         if (outputBinaryCharacId3Builder_ == null) {
@@ -3053,33 +3053,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOutputBinaryCharacId3Builder() {
+      public io.dstore.values.IntegerValue.Builder getOutputBinaryCharacId3Builder() {
         
         onChanged();
         return getOutputBinaryCharacId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOutputBinaryCharacId3OrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOutputBinaryCharacId3OrBuilder() {
         if (outputBinaryCharacId3Builder_ != null) {
           return outputBinaryCharacId3Builder_.getMessageOrBuilder();
         } else {
           return outputBinaryCharacId3_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : outputBinaryCharacId3_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : outputBinaryCharacId3_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_binary_charac_id3 = 9;</code>
+       * <code>optional .dstore.values.IntegerValue output_binary_charac_id3 = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOutputBinaryCharacId3FieldBuilder() {
         if (outputBinaryCharacId3Builder_ == null) {
           outputBinaryCharacId3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOutputBinaryCharacId3(),
                   getParentForChildren(),
                   isClean());
@@ -3114,29 +3114,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue includeBinaryCode_ = null;
+      private io.dstore.values.BooleanValue includeBinaryCode_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeBinaryCodeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeBinaryCodeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+       * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
        */
       public boolean hasIncludeBinaryCode() {
         return includeBinaryCodeBuilder_ != null || includeBinaryCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+       * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
        */
-      public io.dstore.Values.booleanValue getIncludeBinaryCode() {
+      public io.dstore.values.BooleanValue getIncludeBinaryCode() {
         if (includeBinaryCodeBuilder_ == null) {
-          return includeBinaryCode_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeBinaryCode_;
+          return includeBinaryCode_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeBinaryCode_;
         } else {
           return includeBinaryCodeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+       * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
        */
-      public Builder setIncludeBinaryCode(io.dstore.Values.booleanValue value) {
+      public Builder setIncludeBinaryCode(io.dstore.values.BooleanValue value) {
         if (includeBinaryCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3150,10 +3150,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+       * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
        */
       public Builder setIncludeBinaryCode(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (includeBinaryCodeBuilder_ == null) {
           includeBinaryCode_ = builderForValue.build();
           onChanged();
@@ -3164,13 +3164,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+       * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
        */
-      public Builder mergeIncludeBinaryCode(io.dstore.Values.booleanValue value) {
+      public Builder mergeIncludeBinaryCode(io.dstore.values.BooleanValue value) {
         if (includeBinaryCodeBuilder_ == null) {
           if (includeBinaryCode_ != null) {
             includeBinaryCode_ =
-              io.dstore.Values.booleanValue.newBuilder(includeBinaryCode_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(includeBinaryCode_).mergeFrom(value).buildPartial();
           } else {
             includeBinaryCode_ = value;
           }
@@ -3182,7 +3182,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+       * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
        */
       public Builder clearIncludeBinaryCode() {
         if (includeBinaryCodeBuilder_ == null) {
@@ -3196,33 +3196,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+       * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIncludeBinaryCodeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIncludeBinaryCodeBuilder() {
         
         onChanged();
         return getIncludeBinaryCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+       * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIncludeBinaryCodeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIncludeBinaryCodeOrBuilder() {
         if (includeBinaryCodeBuilder_ != null) {
           return includeBinaryCodeBuilder_.getMessageOrBuilder();
         } else {
           return includeBinaryCode_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : includeBinaryCode_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : includeBinaryCode_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_binary_code = 10;</code>
+       * <code>optional .dstore.values.BooleanValue include_binary_code = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIncludeBinaryCodeFieldBuilder() {
         if (includeBinaryCodeBuilder_ == null) {
           includeBinaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIncludeBinaryCode(),
                   getParentForChildren(),
                   isClean());
@@ -3257,29 +3257,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId1_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicId1Builder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicId1Builder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
        */
       public boolean hasNodeCharacteristicId1() {
         return nodeCharacteristicId1Builder_ != null || nodeCharacteristicId1_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId1() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId1() {
         if (nodeCharacteristicId1Builder_ == null) {
-          return nodeCharacteristicId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId1_;
+          return nodeCharacteristicId1_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId1_;
         } else {
           return nodeCharacteristicId1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
        */
-      public Builder setNodeCharacteristicId1(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId1(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicId1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3293,10 +3293,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
        */
       public Builder setNodeCharacteristicId1(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicId1Builder_ == null) {
           nodeCharacteristicId1_ = builderForValue.build();
           onChanged();
@@ -3307,13 +3307,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
        */
-      public Builder mergeNodeCharacteristicId1(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId1(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicId1Builder_ == null) {
           if (nodeCharacteristicId1_ != null) {
             nodeCharacteristicId1_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId1_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId1_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId1_ = value;
           }
@@ -3325,7 +3325,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
        */
       public Builder clearNodeCharacteristicId1() {
         if (nodeCharacteristicId1Builder_ == null) {
@@ -3339,33 +3339,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicId1Builder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicId1Builder() {
         
         onChanged();
         return getNodeCharacteristicId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId1OrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicId1OrBuilder() {
         if (nodeCharacteristicId1Builder_ != null) {
           return nodeCharacteristicId1Builder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId1_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId1_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId1_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id1 = 11;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id1 = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicId1FieldBuilder() {
         if (nodeCharacteristicId1Builder_ == null) {
           nodeCharacteristicId1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId1(),
                   getParentForChildren(),
                   isClean());
@@ -3400,29 +3400,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId2_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicId2Builder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicId2Builder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
        */
       public boolean hasNodeCharacteristicId2() {
         return nodeCharacteristicId2Builder_ != null || nodeCharacteristicId2_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId2() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId2() {
         if (nodeCharacteristicId2Builder_ == null) {
-          return nodeCharacteristicId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId2_;
+          return nodeCharacteristicId2_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId2_;
         } else {
           return nodeCharacteristicId2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
        */
-      public Builder setNodeCharacteristicId2(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId2(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicId2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3436,10 +3436,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
        */
       public Builder setNodeCharacteristicId2(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicId2Builder_ == null) {
           nodeCharacteristicId2_ = builderForValue.build();
           onChanged();
@@ -3450,13 +3450,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
        */
-      public Builder mergeNodeCharacteristicId2(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId2(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicId2Builder_ == null) {
           if (nodeCharacteristicId2_ != null) {
             nodeCharacteristicId2_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId2_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId2_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId2_ = value;
           }
@@ -3468,7 +3468,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
        */
       public Builder clearNodeCharacteristicId2() {
         if (nodeCharacteristicId2Builder_ == null) {
@@ -3482,33 +3482,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicId2Builder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicId2Builder() {
         
         onChanged();
         return getNodeCharacteristicId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId2OrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicId2OrBuilder() {
         if (nodeCharacteristicId2Builder_ != null) {
           return nodeCharacteristicId2Builder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId2_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId2_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId2_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id2 = 12;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id2 = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicId2FieldBuilder() {
         if (nodeCharacteristicId2Builder_ == null) {
           nodeCharacteristicId2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId2(),
                   getParentForChildren(),
                   isClean());
@@ -3543,29 +3543,29 @@ public final class ImSearchBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId3_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId3_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicId3Builder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicId3Builder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
        */
       public boolean hasNodeCharacteristicId3() {
         return nodeCharacteristicId3Builder_ != null || nodeCharacteristicId3_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId3() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId3() {
         if (nodeCharacteristicId3Builder_ == null) {
-          return nodeCharacteristicId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId3_;
+          return nodeCharacteristicId3_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId3_;
         } else {
           return nodeCharacteristicId3Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
        */
-      public Builder setNodeCharacteristicId3(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId3(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicId3Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3579,10 +3579,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
        */
       public Builder setNodeCharacteristicId3(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicId3Builder_ == null) {
           nodeCharacteristicId3_ = builderForValue.build();
           onChanged();
@@ -3593,13 +3593,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
        */
-      public Builder mergeNodeCharacteristicId3(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId3(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicId3Builder_ == null) {
           if (nodeCharacteristicId3_ != null) {
             nodeCharacteristicId3_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId3_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId3_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId3_ = value;
           }
@@ -3611,7 +3611,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
        */
       public Builder clearNodeCharacteristicId3() {
         if (nodeCharacteristicId3Builder_ == null) {
@@ -3625,33 +3625,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicId3Builder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicId3Builder() {
         
         onChanged();
         return getNodeCharacteristicId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicId3OrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicId3OrBuilder() {
         if (nodeCharacteristicId3Builder_ != null) {
           return nodeCharacteristicId3Builder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId3_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId3_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId3_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id3 = 13;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id3 = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicId3FieldBuilder() {
         if (nodeCharacteristicId3Builder_ == null) {
           nodeCharacteristicId3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId3(),
                   getParentForChildren(),
                   isClean());
@@ -3811,17 +3811,17 @@ public final class ImSearchBinariesAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
     boolean hasNumberOfElementsInResult();
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
-    io.dstore.Values.integerValue getNumberOfElementsInResult();
+    io.dstore.values.IntegerValue getNumberOfElementsInResult();
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.im_SearchBinaries_Ad.Response}
@@ -3893,11 +3893,11 @@ public final class ImSearchBinariesAd {
               break;
             }
             case 810: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (numberOfElementsInResult_ != null) {
                 subBuilder = numberOfElementsInResult_.toBuilder();
               }
-              numberOfElementsInResult_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              numberOfElementsInResult_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfElementsInResult_);
                 numberOfElementsInResult_ = subBuilder.buildPartial();
@@ -3951,7 +3951,7 @@ public final class ImSearchBinariesAd {
        * ID eines gefundenen Binaries
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       boolean hasBinaryCodeId();
       /**
@@ -3959,24 +3959,24 @@ public final class ImSearchBinariesAd {
        * ID eines gefundenen Binaries
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getBinaryCodeId();
+      io.dstore.values.IntegerValue getBinaryCodeId();
       /**
        * <pre>
        * ID eines gefundenen Binaries
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
       boolean hasNodeId();
       /**
@@ -3984,24 +3984,24 @@ public final class ImSearchBinariesAd {
        * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
        */
       boolean hasChosenTreeNodeId();
       /**
@@ -4009,24 +4009,24 @@ public final class ImSearchBinariesAd {
        * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getChosenTreeNodeId();
+      io.dstore.values.IntegerValue getChosenTreeNodeId();
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getChosenTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getChosenTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.StringValue value3 = 10004;</code>
        */
       boolean hasValue3();
       /**
@@ -4034,24 +4034,24 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.StringValue value3 = 10004;</code>
        */
-      io.dstore.Values.stringValue getValue3();
+      io.dstore.values.StringValue getValue3();
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.StringValue value3 = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValue3OrBuilder();
+      io.dstore.values.StringValueOrBuilder getValue3OrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+       * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
        */
       boolean hasBinaryValue1();
       /**
@@ -4059,24 +4059,24 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+       * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
        */
-      io.dstore.Values.stringValue getBinaryValue1();
+      io.dstore.values.StringValue getBinaryValue1();
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+       * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBinaryValue1OrBuilder();
+      io.dstore.values.StringValueOrBuilder getBinaryValue1OrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
        */
       boolean hasValue1();
       /**
@@ -4084,24 +4084,24 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
        */
-      io.dstore.Values.stringValue getValue1();
+      io.dstore.values.StringValue getValue1();
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValue1OrBuilder();
+      io.dstore.values.StringValueOrBuilder getValue1OrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+       * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
        */
       boolean hasBinaryValue3();
       /**
@@ -4109,24 +4109,24 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+       * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
        */
-      io.dstore.Values.stringValue getBinaryValue3();
+      io.dstore.values.StringValue getBinaryValue3();
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+       * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBinaryValue3OrBuilder();
+      io.dstore.values.StringValueOrBuilder getBinaryValue3OrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+       * <code>optional .dstore.values.StringValue value2 = 10008;</code>
        */
       boolean hasValue2();
       /**
@@ -4134,24 +4134,24 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+       * <code>optional .dstore.values.StringValue value2 = 10008;</code>
        */
-      io.dstore.Values.stringValue getValue2();
+      io.dstore.values.StringValue getValue2();
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+       * <code>optional .dstore.values.StringValue value2 = 10008;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValue2OrBuilder();
+      io.dstore.values.StringValueOrBuilder getValue2OrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+       * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
        */
       boolean hasBinaryValue2();
       /**
@@ -4159,24 +4159,24 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+       * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
        */
-      io.dstore.Values.stringValue getBinaryValue2();
+      io.dstore.values.StringValue getBinaryValue2();
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+       * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBinaryValue2OrBuilder();
+      io.dstore.values.StringValueOrBuilder getBinaryValue2OrBuilder();
 
       /**
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
        */
       boolean hasThumbnailCode();
       /**
@@ -4184,24 +4184,24 @@ public final class ImSearchBinariesAd {
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
        */
-      io.dstore.Values.bytesValue getThumbnailCode();
+      io.dstore.values.BytesValue getThumbnailCode();
       /**
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
        */
-      io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder();
+      io.dstore.values.BytesValueOrBuilder getThumbnailCodeOrBuilder();
 
       /**
        * <pre>
        * Die Binärdaten selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
        */
       boolean hasBinaryCode();
       /**
@@ -4209,24 +4209,24 @@ public final class ImSearchBinariesAd {
        * Die Binärdaten selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
        */
-      io.dstore.Values.bytesValue getBinaryCode();
+      io.dstore.values.BytesValue getBinaryCode();
       /**
        * <pre>
        * Die Binärdaten selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
        */
-      io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder();
+      io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder();
 
       /**
        * <pre>
        * ID des Merkmals, zu dem "ValueID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
        */
       boolean hasNodeCharacteristicId();
       /**
@@ -4234,24 +4234,24 @@ public final class ImSearchBinariesAd {
        * ID des Merkmals, zu dem "ValueID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
        */
-      io.dstore.Values.integerValue getNodeCharacteristicId();
+      io.dstore.values.IntegerValue getNodeCharacteristicId();
       /**
        * <pre>
        * ID des Merkmals, zu dem "ValueID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * Wert der Eigenschaft "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 30003;</code>
+       * <code>optional .dstore.values.StringValue value = 30003;</code>
        */
       boolean hasValue();
       /**
@@ -4259,24 +4259,24 @@ public final class ImSearchBinariesAd {
        * Wert der Eigenschaft "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 30003;</code>
+       * <code>optional .dstore.values.StringValue value = 30003;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Wert der Eigenschaft "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 30003;</code>
+       * <code>optional .dstore.values.StringValue value = 30003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
        */
       boolean hasValueId();
       /**
@@ -4284,17 +4284,17 @@ public final class ImSearchBinariesAd {
        * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
        */
-      io.dstore.Values.integerValue getValueId();
+      io.dstore.values.IntegerValue getValueId();
       /**
        * <pre>
        * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_SearchBinaries_Ad.Response.Row}
@@ -4342,11 +4342,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (binaryCodeId_ != null) {
                   subBuilder = binaryCodeId_.toBuilder();
                 }
-                binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                binaryCodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCodeId_);
                   binaryCodeId_ = subBuilder.buildPartial();
@@ -4355,11 +4355,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -4368,11 +4368,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (chosenTreeNodeId_ != null) {
                   subBuilder = chosenTreeNodeId_.toBuilder();
                 }
-                chosenTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                chosenTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(chosenTreeNodeId_);
                   chosenTreeNodeId_ = subBuilder.buildPartial();
@@ -4381,11 +4381,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value3_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -4394,11 +4394,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (binaryValue1_ != null) {
                   subBuilder = binaryValue1_.toBuilder();
                 }
-                binaryValue1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                binaryValue1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryValue1_);
                   binaryValue1_ = subBuilder.buildPartial();
@@ -4407,11 +4407,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -4420,11 +4420,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (binaryValue3_ != null) {
                   subBuilder = binaryValue3_.toBuilder();
                 }
-                binaryValue3_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                binaryValue3_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryValue3_);
                   binaryValue3_ = subBuilder.buildPartial();
@@ -4433,11 +4433,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -4446,11 +4446,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 80074: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (binaryValue2_ != null) {
                   subBuilder = binaryValue2_.toBuilder();
                 }
-                binaryValue2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                binaryValue2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryValue2_);
                   binaryValue2_ = subBuilder.buildPartial();
@@ -4459,11 +4459,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 160066: {
-                io.dstore.Values.bytesValue.Builder subBuilder = null;
+                io.dstore.values.BytesValue.Builder subBuilder = null;
                 if (thumbnailCode_ != null) {
                   subBuilder = thumbnailCode_.toBuilder();
                 }
-                thumbnailCode_ = input.readMessage(io.dstore.Values.bytesValue.parser(), extensionRegistry);
+                thumbnailCode_ = input.readMessage(io.dstore.values.BytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(thumbnailCode_);
                   thumbnailCode_ = subBuilder.buildPartial();
@@ -4472,11 +4472,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 160090: {
-                io.dstore.Values.bytesValue.Builder subBuilder = null;
+                io.dstore.values.BytesValue.Builder subBuilder = null;
                 if (binaryCode_ != null) {
                   subBuilder = binaryCode_.toBuilder();
                 }
-                binaryCode_ = input.readMessage(io.dstore.Values.bytesValue.parser(), extensionRegistry);
+                binaryCode_ = input.readMessage(io.dstore.values.BytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCode_);
                   binaryCode_ = subBuilder.buildPartial();
@@ -4485,11 +4485,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 240018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -4498,11 +4498,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 240026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -4511,11 +4511,11 @@ public final class ImSearchBinariesAd {
                 break;
               }
               case 240042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -4556,13 +4556,13 @@ public final class ImSearchBinariesAd {
       }
 
       public static final int BINARY_CODE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue binaryCodeId_;
+      private io.dstore.values.IntegerValue binaryCodeId_;
       /**
        * <pre>
        * ID eines gefundenen Binaries
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeId_ != null;
@@ -4572,30 +4572,30 @@ public final class ImSearchBinariesAd {
        * ID eines gefundenen Binaries
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCodeId() {
-        return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+      public io.dstore.values.IntegerValue getBinaryCodeId() {
+        return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
       }
       /**
        * <pre>
        * ID eines gefundenen Binaries
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -4605,30 +4605,30 @@ public final class ImSearchBinariesAd {
        * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int CHOSEN_TREE_NODE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue chosenTreeNodeId_;
+      private io.dstore.values.IntegerValue chosenTreeNodeId_;
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
        */
       public boolean hasChosenTreeNodeId() {
         return chosenTreeNodeId_ != null;
@@ -4638,30 +4638,30 @@ public final class ImSearchBinariesAd {
        * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getChosenTreeNodeId() {
-        return chosenTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : chosenTreeNodeId_;
+      public io.dstore.values.IntegerValue getChosenTreeNodeId() {
+        return chosenTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : chosenTreeNodeId_;
       }
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getChosenTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getChosenTreeNodeIdOrBuilder() {
         return getChosenTreeNodeId();
       }
 
       public static final int VALUE3_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue value3_;
+      private io.dstore.values.StringValue value3_;
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.StringValue value3 = 10004;</code>
        */
       public boolean hasValue3() {
         return value3_ != null;
@@ -4671,30 +4671,30 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.StringValue value3 = 10004;</code>
        */
-      public io.dstore.Values.stringValue getValue3() {
-        return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
+      public io.dstore.values.StringValue getValue3() {
+        return value3_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value3_;
       }
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+       * <code>optional .dstore.values.StringValue value3 = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
         return getValue3();
       }
 
       public static final int BINARY_VALUE1_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue binaryValue1_;
+      private io.dstore.values.StringValue binaryValue1_;
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+       * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
        */
       public boolean hasBinaryValue1() {
         return binaryValue1_ != null;
@@ -4704,30 +4704,30 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+       * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
        */
-      public io.dstore.Values.stringValue getBinaryValue1() {
-        return binaryValue1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryValue1_;
+      public io.dstore.values.StringValue getBinaryValue1() {
+        return binaryValue1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryValue1_;
       }
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+       * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBinaryValue1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBinaryValue1OrBuilder() {
         return getBinaryValue1();
       }
 
       public static final int VALUE1_FIELD_NUMBER = 10006;
-      private io.dstore.Values.stringValue value1_;
+      private io.dstore.values.StringValue value1_;
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
        */
       public boolean hasValue1() {
         return value1_ != null;
@@ -4737,30 +4737,30 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
        */
-      public io.dstore.Values.stringValue getValue1() {
-        return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
+      public io.dstore.values.StringValue getValue1() {
+        return value1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value1_;
       }
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue value1 = 10006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
         return getValue1();
       }
 
       public static final int BINARY_VALUE3_FIELD_NUMBER = 10007;
-      private io.dstore.Values.stringValue binaryValue3_;
+      private io.dstore.values.StringValue binaryValue3_;
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+       * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
        */
       public boolean hasBinaryValue3() {
         return binaryValue3_ != null;
@@ -4770,30 +4770,30 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+       * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
        */
-      public io.dstore.Values.stringValue getBinaryValue3() {
-        return binaryValue3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryValue3_;
+      public io.dstore.values.StringValue getBinaryValue3() {
+        return binaryValue3_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryValue3_;
       }
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+       * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBinaryValue3OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBinaryValue3OrBuilder() {
         return getBinaryValue3();
       }
 
       public static final int VALUE2_FIELD_NUMBER = 10008;
-      private io.dstore.Values.stringValue value2_;
+      private io.dstore.values.StringValue value2_;
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+       * <code>optional .dstore.values.StringValue value2 = 10008;</code>
        */
       public boolean hasValue2() {
         return value2_ != null;
@@ -4803,30 +4803,30 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+       * <code>optional .dstore.values.StringValue value2 = 10008;</code>
        */
-      public io.dstore.Values.stringValue getValue2() {
-        return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
+      public io.dstore.values.StringValue getValue2() {
+        return value2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value2_;
       }
       /**
        * <pre>
        * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+       * <code>optional .dstore.values.StringValue value2 = 10008;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
         return getValue2();
       }
 
       public static final int BINARY_VALUE2_FIELD_NUMBER = 10009;
-      private io.dstore.Values.stringValue binaryValue2_;
+      private io.dstore.values.StringValue binaryValue2_;
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+       * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
        */
       public boolean hasBinaryValue2() {
         return binaryValue2_ != null;
@@ -4836,30 +4836,30 @@ public final class ImSearchBinariesAd {
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+       * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
        */
-      public io.dstore.Values.stringValue getBinaryValue2() {
-        return binaryValue2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryValue2_;
+      public io.dstore.values.StringValue getBinaryValue2() {
+        return binaryValue2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryValue2_;
       }
       /**
        * <pre>
        * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+       * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBinaryValue2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBinaryValue2OrBuilder() {
         return getBinaryValue2();
       }
 
       public static final int THUMBNAIL_CODE_FIELD_NUMBER = 20008;
-      private io.dstore.Values.bytesValue thumbnailCode_;
+      private io.dstore.values.BytesValue thumbnailCode_;
       /**
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
        */
       public boolean hasThumbnailCode() {
         return thumbnailCode_ != null;
@@ -4869,30 +4869,30 @@ public final class ImSearchBinariesAd {
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
        */
-      public io.dstore.Values.bytesValue getThumbnailCode() {
-        return thumbnailCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
+      public io.dstore.values.BytesValue getThumbnailCode() {
+        return thumbnailCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : thumbnailCode_;
       }
       /**
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
        */
-      public io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
+      public io.dstore.values.BytesValueOrBuilder getThumbnailCodeOrBuilder() {
         return getThumbnailCode();
       }
 
       public static final int BINARY_CODE_FIELD_NUMBER = 20011;
-      private io.dstore.Values.bytesValue binaryCode_;
+      private io.dstore.values.BytesValue binaryCode_;
       /**
        * <pre>
        * Die Binärdaten selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
        */
       public boolean hasBinaryCode() {
         return binaryCode_ != null;
@@ -4902,30 +4902,30 @@ public final class ImSearchBinariesAd {
        * Die Binärdaten selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
        */
-      public io.dstore.Values.bytesValue getBinaryCode() {
-        return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+      public io.dstore.values.BytesValue getBinaryCode() {
+        return binaryCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
       }
       /**
        * <pre>
        * Die Binärdaten selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
        */
-      public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
+      public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 30002;
-      private io.dstore.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_;
       /**
        * <pre>
        * ID des Merkmals, zu dem "ValueID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicId_ != null;
@@ -4935,30 +4935,30 @@ public final class ImSearchBinariesAd {
        * ID des Merkmals, zu dem "ValueID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
        * <pre>
        * ID des Merkmals, zu dem "ValueID" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 30003;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Wert der Eigenschaft "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 30003;</code>
+       * <code>optional .dstore.values.StringValue value = 30003;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -4968,30 +4968,30 @@ public final class ImSearchBinariesAd {
        * Wert der Eigenschaft "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 30003;</code>
+       * <code>optional .dstore.values.StringValue value = 30003;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Wert der Eigenschaft "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 30003;</code>
+       * <code>optional .dstore.values.StringValue value = 30003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int VALUE_ID_FIELD_NUMBER = 30005;
-      private io.dstore.Values.integerValue valueId_;
+      private io.dstore.values.IntegerValue valueId_;
       /**
        * <pre>
        * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
@@ -5001,19 +5001,19 @@ public final class ImSearchBinariesAd {
        * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
        */
-      public io.dstore.Values.integerValue getValueId() {
-        return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+      public io.dstore.values.IntegerValue getValueId() {
+        return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
       }
       /**
        * <pre>
        * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
       }
 
@@ -5732,15 +5732,15 @@ public final class ImSearchBinariesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue binaryCodeId_ = null;
+        private io.dstore.values.IntegerValue binaryCodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
         /**
          * <pre>
          * ID eines gefundenen Binaries
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public boolean hasBinaryCodeId() {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
@@ -5750,11 +5750,11 @@ public final class ImSearchBinariesAd {
          * ID eines gefundenen Binaries
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getBinaryCodeId() {
+        public io.dstore.values.IntegerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
-            return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+            return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           } else {
             return binaryCodeIdBuilder_.getMessage();
           }
@@ -5764,9 +5764,9 @@ public final class ImSearchBinariesAd {
          * ID eines gefundenen Binaries
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5784,10 +5784,10 @@ public final class ImSearchBinariesAd {
          * ID eines gefundenen Binaries
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder setBinaryCodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeId_ = builderForValue.build();
             onChanged();
@@ -5802,13 +5802,13 @@ public final class ImSearchBinariesAd {
          * ID eines gefundenen Binaries
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (binaryCodeId_ != null) {
               binaryCodeId_ =
-                io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
             } else {
               binaryCodeId_ = value;
             }
@@ -5824,7 +5824,7 @@ public final class ImSearchBinariesAd {
          * ID eines gefundenen Binaries
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder clearBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -5842,9 +5842,9 @@ public final class ImSearchBinariesAd {
          * ID eines gefundenen Binaries
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
           
           onChanged();
           return getBinaryCodeIdFieldBuilder().getBuilder();
@@ -5854,14 +5854,14 @@ public final class ImSearchBinariesAd {
          * ID eines gefundenen Binaries
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
             return binaryCodeIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryCodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           }
         }
         /**
@@ -5869,14 +5869,14 @@ public final class ImSearchBinariesAd {
          * ID eines gefundenen Binaries
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5885,15 +5885,15 @@ public final class ImSearchBinariesAd {
           return binaryCodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -5903,11 +5903,11 @@ public final class ImSearchBinariesAd {
          * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -5917,9 +5917,9 @@ public final class ImSearchBinariesAd {
          * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5937,10 +5937,10 @@ public final class ImSearchBinariesAd {
          * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -5955,13 +5955,13 @@ public final class ImSearchBinariesAd {
          * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -5977,7 +5977,7 @@ public final class ImSearchBinariesAd {
          * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -5995,9 +5995,9 @@ public final class ImSearchBinariesAd {
          * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -6007,14 +6007,14 @@ public final class ImSearchBinariesAd {
          * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -6022,14 +6022,14 @@ public final class ImSearchBinariesAd {
          * ID eines Artikel-Elementes, dem "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6038,15 +6038,15 @@ public final class ImSearchBinariesAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue chosenTreeNodeId_ = null;
+        private io.dstore.values.IntegerValue chosenTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> chosenTreeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> chosenTreeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
          */
         public boolean hasChosenTreeNodeId() {
           return chosenTreeNodeIdBuilder_ != null || chosenTreeNodeId_ != null;
@@ -6056,11 +6056,11 @@ public final class ImSearchBinariesAd {
          * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getChosenTreeNodeId() {
+        public io.dstore.values.IntegerValue getChosenTreeNodeId() {
           if (chosenTreeNodeIdBuilder_ == null) {
-            return chosenTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : chosenTreeNodeId_;
+            return chosenTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : chosenTreeNodeId_;
           } else {
             return chosenTreeNodeIdBuilder_.getMessage();
           }
@@ -6070,9 +6070,9 @@ public final class ImSearchBinariesAd {
          * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
          */
-        public Builder setChosenTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setChosenTreeNodeId(io.dstore.values.IntegerValue value) {
           if (chosenTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6090,10 +6090,10 @@ public final class ImSearchBinariesAd {
          * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
          */
         public Builder setChosenTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (chosenTreeNodeIdBuilder_ == null) {
             chosenTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -6108,13 +6108,13 @@ public final class ImSearchBinariesAd {
          * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
          */
-        public Builder mergeChosenTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeChosenTreeNodeId(io.dstore.values.IntegerValue value) {
           if (chosenTreeNodeIdBuilder_ == null) {
             if (chosenTreeNodeId_ != null) {
               chosenTreeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(chosenTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(chosenTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               chosenTreeNodeId_ = value;
             }
@@ -6130,7 +6130,7 @@ public final class ImSearchBinariesAd {
          * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
          */
         public Builder clearChosenTreeNodeId() {
           if (chosenTreeNodeIdBuilder_ == null) {
@@ -6148,9 +6148,9 @@ public final class ImSearchBinariesAd {
          * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getChosenTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getChosenTreeNodeIdBuilder() {
           
           onChanged();
           return getChosenTreeNodeIdFieldBuilder().getBuilder();
@@ -6160,14 +6160,14 @@ public final class ImSearchBinariesAd {
          * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getChosenTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getChosenTreeNodeIdOrBuilder() {
           if (chosenTreeNodeIdBuilder_ != null) {
             return chosenTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return chosenTreeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : chosenTreeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : chosenTreeNodeId_;
           }
         }
         /**
@@ -6175,14 +6175,14 @@ public final class ImSearchBinariesAd {
          * ID eines Elementes im Artikelbaum, das auf "NodeID" verweist. Hintergrund : Die Zuordnung eines Binaries erfolgt zu einem Artikel-Element, das MEHRFACH im Artikelbaum eingeordnet sein KANN (derzeit aber nur theoretisch).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue chosen_tree_node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue chosen_tree_node_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getChosenTreeNodeIdFieldBuilder() {
           if (chosenTreeNodeIdBuilder_ == null) {
             chosenTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getChosenTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6191,15 +6191,15 @@ public final class ImSearchBinariesAd {
           return chosenTreeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue value3_ = null;
+        private io.dstore.values.StringValue value3_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value3Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> value3Builder_;
         /**
          * <pre>
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.StringValue value3 = 10004;</code>
          */
         public boolean hasValue3() {
           return value3Builder_ != null || value3_ != null;
@@ -6209,11 +6209,11 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.StringValue value3 = 10004;</code>
          */
-        public io.dstore.Values.stringValue getValue3() {
+        public io.dstore.values.StringValue getValue3() {
           if (value3Builder_ == null) {
-            return value3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value3_;
+            return value3_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value3_;
           } else {
             return value3Builder_.getMessage();
           }
@@ -6223,9 +6223,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.StringValue value3 = 10004;</code>
          */
-        public Builder setValue3(io.dstore.Values.stringValue value) {
+        public Builder setValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6243,10 +6243,10 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.StringValue value3 = 10004;</code>
          */
         public Builder setValue3(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (value3Builder_ == null) {
             value3_ = builderForValue.build();
             onChanged();
@@ -6261,13 +6261,13 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.StringValue value3 = 10004;</code>
          */
-        public Builder mergeValue3(io.dstore.Values.stringValue value) {
+        public Builder mergeValue3(io.dstore.values.StringValue value) {
           if (value3Builder_ == null) {
             if (value3_ != null) {
               value3_ =
-                io.dstore.Values.stringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value3_).mergeFrom(value).buildPartial();
             } else {
               value3_ = value;
             }
@@ -6283,7 +6283,7 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.StringValue value3 = 10004;</code>
          */
         public Builder clearValue3() {
           if (value3Builder_ == null) {
@@ -6301,9 +6301,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.StringValue value3 = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValue3Builder() {
+        public io.dstore.values.StringValue.Builder getValue3Builder() {
           
           onChanged();
           return getValue3FieldBuilder().getBuilder();
@@ -6313,14 +6313,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.StringValue value3 = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValue3OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValue3OrBuilder() {
           if (value3Builder_ != null) {
             return value3Builder_.getMessageOrBuilder();
           } else {
             return value3_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value3_;
+                io.dstore.values.StringValue.getDefaultInstance() : value3_;
           }
         }
         /**
@@ -6328,14 +6328,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID3" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value3 = 10004;</code>
+         * <code>optional .dstore.values.StringValue value3 = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValue3FieldBuilder() {
           if (value3Builder_ == null) {
             value3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue3(),
                     getParentForChildren(),
                     isClean());
@@ -6344,15 +6344,15 @@ public final class ImSearchBinariesAd {
           return value3Builder_;
         }
 
-        private io.dstore.Values.stringValue binaryValue1_ = null;
+        private io.dstore.values.StringValue binaryValue1_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryValue1Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> binaryValue1Builder_;
         /**
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+         * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
          */
         public boolean hasBinaryValue1() {
           return binaryValue1Builder_ != null || binaryValue1_ != null;
@@ -6362,11 +6362,11 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+         * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
          */
-        public io.dstore.Values.stringValue getBinaryValue1() {
+        public io.dstore.values.StringValue getBinaryValue1() {
           if (binaryValue1Builder_ == null) {
-            return binaryValue1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryValue1_;
+            return binaryValue1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryValue1_;
           } else {
             return binaryValue1Builder_.getMessage();
           }
@@ -6376,9 +6376,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+         * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
          */
-        public Builder setBinaryValue1(io.dstore.Values.stringValue value) {
+        public Builder setBinaryValue1(io.dstore.values.StringValue value) {
           if (binaryValue1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6396,10 +6396,10 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+         * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
          */
         public Builder setBinaryValue1(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (binaryValue1Builder_ == null) {
             binaryValue1_ = builderForValue.build();
             onChanged();
@@ -6414,13 +6414,13 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+         * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
          */
-        public Builder mergeBinaryValue1(io.dstore.Values.stringValue value) {
+        public Builder mergeBinaryValue1(io.dstore.values.StringValue value) {
           if (binaryValue1Builder_ == null) {
             if (binaryValue1_ != null) {
               binaryValue1_ =
-                io.dstore.Values.stringValue.newBuilder(binaryValue1_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(binaryValue1_).mergeFrom(value).buildPartial();
             } else {
               binaryValue1_ = value;
             }
@@ -6436,7 +6436,7 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+         * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
          */
         public Builder clearBinaryValue1() {
           if (binaryValue1Builder_ == null) {
@@ -6454,9 +6454,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+         * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBinaryValue1Builder() {
+        public io.dstore.values.StringValue.Builder getBinaryValue1Builder() {
           
           onChanged();
           return getBinaryValue1FieldBuilder().getBuilder();
@@ -6466,14 +6466,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+         * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBinaryValue1OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBinaryValue1OrBuilder() {
           if (binaryValue1Builder_ != null) {
             return binaryValue1Builder_.getMessageOrBuilder();
           } else {
             return binaryValue1_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : binaryValue1_;
+                io.dstore.values.StringValue.getDefaultInstance() : binaryValue1_;
           }
         }
         /**
@@ -6481,14 +6481,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID1"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value1 = 10005;</code>
+         * <code>optional .dstore.values.StringValue binary_value1 = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBinaryValue1FieldBuilder() {
           if (binaryValue1Builder_ == null) {
             binaryValue1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBinaryValue1(),
                     getParentForChildren(),
                     isClean());
@@ -6497,15 +6497,15 @@ public final class ImSearchBinariesAd {
           return binaryValue1Builder_;
         }
 
-        private io.dstore.Values.stringValue value1_ = null;
+        private io.dstore.values.StringValue value1_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value1Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> value1Builder_;
         /**
          * <pre>
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
          */
         public boolean hasValue1() {
           return value1Builder_ != null || value1_ != null;
@@ -6515,11 +6515,11 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
          */
-        public io.dstore.Values.stringValue getValue1() {
+        public io.dstore.values.StringValue getValue1() {
           if (value1Builder_ == null) {
-            return value1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value1_;
+            return value1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value1_;
           } else {
             return value1Builder_.getMessage();
           }
@@ -6529,9 +6529,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
          */
-        public Builder setValue1(io.dstore.Values.stringValue value) {
+        public Builder setValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6549,10 +6549,10 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
          */
         public Builder setValue1(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (value1Builder_ == null) {
             value1_ = builderForValue.build();
             onChanged();
@@ -6567,13 +6567,13 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
          */
-        public Builder mergeValue1(io.dstore.Values.stringValue value) {
+        public Builder mergeValue1(io.dstore.values.StringValue value) {
           if (value1Builder_ == null) {
             if (value1_ != null) {
               value1_ =
-                io.dstore.Values.stringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value1_).mergeFrom(value).buildPartial();
             } else {
               value1_ = value;
             }
@@ -6589,7 +6589,7 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
          */
         public Builder clearValue1() {
           if (value1Builder_ == null) {
@@ -6607,9 +6607,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValue1Builder() {
+        public io.dstore.values.StringValue.Builder getValue1Builder() {
           
           onChanged();
           return getValue1FieldBuilder().getBuilder();
@@ -6619,14 +6619,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValue1OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValue1OrBuilder() {
           if (value1Builder_ != null) {
             return value1Builder_.getMessageOrBuilder();
           } else {
             return value1_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value1_;
+                io.dstore.values.StringValue.getDefaultInstance() : value1_;
           }
         }
         /**
@@ -6634,14 +6634,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID1" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue value1 = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValue1FieldBuilder() {
           if (value1Builder_ == null) {
             value1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue1(),
                     getParentForChildren(),
                     isClean());
@@ -6650,15 +6650,15 @@ public final class ImSearchBinariesAd {
           return value1Builder_;
         }
 
-        private io.dstore.Values.stringValue binaryValue3_ = null;
+        private io.dstore.values.StringValue binaryValue3_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryValue3Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> binaryValue3Builder_;
         /**
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+         * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
          */
         public boolean hasBinaryValue3() {
           return binaryValue3Builder_ != null || binaryValue3_ != null;
@@ -6668,11 +6668,11 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+         * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
          */
-        public io.dstore.Values.stringValue getBinaryValue3() {
+        public io.dstore.values.StringValue getBinaryValue3() {
           if (binaryValue3Builder_ == null) {
-            return binaryValue3_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryValue3_;
+            return binaryValue3_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryValue3_;
           } else {
             return binaryValue3Builder_.getMessage();
           }
@@ -6682,9 +6682,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+         * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
          */
-        public Builder setBinaryValue3(io.dstore.Values.stringValue value) {
+        public Builder setBinaryValue3(io.dstore.values.StringValue value) {
           if (binaryValue3Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6702,10 +6702,10 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+         * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
          */
         public Builder setBinaryValue3(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (binaryValue3Builder_ == null) {
             binaryValue3_ = builderForValue.build();
             onChanged();
@@ -6720,13 +6720,13 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+         * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
          */
-        public Builder mergeBinaryValue3(io.dstore.Values.stringValue value) {
+        public Builder mergeBinaryValue3(io.dstore.values.StringValue value) {
           if (binaryValue3Builder_ == null) {
             if (binaryValue3_ != null) {
               binaryValue3_ =
-                io.dstore.Values.stringValue.newBuilder(binaryValue3_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(binaryValue3_).mergeFrom(value).buildPartial();
             } else {
               binaryValue3_ = value;
             }
@@ -6742,7 +6742,7 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+         * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
          */
         public Builder clearBinaryValue3() {
           if (binaryValue3Builder_ == null) {
@@ -6760,9 +6760,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+         * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBinaryValue3Builder() {
+        public io.dstore.values.StringValue.Builder getBinaryValue3Builder() {
           
           onChanged();
           return getBinaryValue3FieldBuilder().getBuilder();
@@ -6772,14 +6772,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+         * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBinaryValue3OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBinaryValue3OrBuilder() {
           if (binaryValue3Builder_ != null) {
             return binaryValue3Builder_.getMessageOrBuilder();
           } else {
             return binaryValue3_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : binaryValue3_;
+                io.dstore.values.StringValue.getDefaultInstance() : binaryValue3_;
           }
         }
         /**
@@ -6787,14 +6787,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID3"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value3 = 10007;</code>
+         * <code>optional .dstore.values.StringValue binary_value3 = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBinaryValue3FieldBuilder() {
           if (binaryValue3Builder_ == null) {
             binaryValue3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBinaryValue3(),
                     getParentForChildren(),
                     isClean());
@@ -6803,15 +6803,15 @@ public final class ImSearchBinariesAd {
           return binaryValue3Builder_;
         }
 
-        private io.dstore.Values.stringValue value2_ = null;
+        private io.dstore.values.StringValue value2_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> value2Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> value2Builder_;
         /**
          * <pre>
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+         * <code>optional .dstore.values.StringValue value2 = 10008;</code>
          */
         public boolean hasValue2() {
           return value2Builder_ != null || value2_ != null;
@@ -6821,11 +6821,11 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+         * <code>optional .dstore.values.StringValue value2 = 10008;</code>
          */
-        public io.dstore.Values.stringValue getValue2() {
+        public io.dstore.values.StringValue getValue2() {
           if (value2Builder_ == null) {
-            return value2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value2_;
+            return value2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value2_;
           } else {
             return value2Builder_.getMessage();
           }
@@ -6835,9 +6835,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+         * <code>optional .dstore.values.StringValue value2 = 10008;</code>
          */
-        public Builder setValue2(io.dstore.Values.stringValue value) {
+        public Builder setValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6855,10 +6855,10 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+         * <code>optional .dstore.values.StringValue value2 = 10008;</code>
          */
         public Builder setValue2(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (value2Builder_ == null) {
             value2_ = builderForValue.build();
             onChanged();
@@ -6873,13 +6873,13 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+         * <code>optional .dstore.values.StringValue value2 = 10008;</code>
          */
-        public Builder mergeValue2(io.dstore.Values.stringValue value) {
+        public Builder mergeValue2(io.dstore.values.StringValue value) {
           if (value2Builder_ == null) {
             if (value2_ != null) {
               value2_ =
-                io.dstore.Values.stringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value2_).mergeFrom(value).buildPartial();
             } else {
               value2_ = value;
             }
@@ -6895,7 +6895,7 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+         * <code>optional .dstore.values.StringValue value2 = 10008;</code>
          */
         public Builder clearValue2() {
           if (value2Builder_ == null) {
@@ -6913,9 +6913,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+         * <code>optional .dstore.values.StringValue value2 = 10008;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValue2Builder() {
+        public io.dstore.values.StringValue.Builder getValue2Builder() {
           
           onChanged();
           return getValue2FieldBuilder().getBuilder();
@@ -6925,14 +6925,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+         * <code>optional .dstore.values.StringValue value2 = 10008;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValue2OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValue2OrBuilder() {
           if (value2Builder_ != null) {
             return value2Builder_.getMessageOrBuilder();
           } else {
             return value2_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value2_;
+                io.dstore.values.StringValue.getDefaultInstance() : value2_;
           }
         }
         /**
@@ -6940,14 +6940,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "ChosenTreeNodeID" zum Merkmal "&#64;NodeCharacteristicID2" (Vererbung wird beachtet, aber ohne rekursive Auswertung)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value2 = 10008;</code>
+         * <code>optional .dstore.values.StringValue value2 = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValue2FieldBuilder() {
           if (value2Builder_ == null) {
             value2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue2(),
                     getParentForChildren(),
                     isClean());
@@ -6956,15 +6956,15 @@ public final class ImSearchBinariesAd {
           return value2Builder_;
         }
 
-        private io.dstore.Values.stringValue binaryValue2_ = null;
+        private io.dstore.values.StringValue binaryValue2_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryValue2Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> binaryValue2Builder_;
         /**
          * <pre>
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+         * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
          */
         public boolean hasBinaryValue2() {
           return binaryValue2Builder_ != null || binaryValue2_ != null;
@@ -6974,11 +6974,11 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+         * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
          */
-        public io.dstore.Values.stringValue getBinaryValue2() {
+        public io.dstore.values.StringValue getBinaryValue2() {
           if (binaryValue2Builder_ == null) {
-            return binaryValue2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryValue2_;
+            return binaryValue2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryValue2_;
           } else {
             return binaryValue2Builder_.getMessage();
           }
@@ -6988,9 +6988,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+         * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
          */
-        public Builder setBinaryValue2(io.dstore.Values.stringValue value) {
+        public Builder setBinaryValue2(io.dstore.values.StringValue value) {
           if (binaryValue2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7008,10 +7008,10 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+         * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
          */
         public Builder setBinaryValue2(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (binaryValue2Builder_ == null) {
             binaryValue2_ = builderForValue.build();
             onChanged();
@@ -7026,13 +7026,13 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+         * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
          */
-        public Builder mergeBinaryValue2(io.dstore.Values.stringValue value) {
+        public Builder mergeBinaryValue2(io.dstore.values.StringValue value) {
           if (binaryValue2Builder_ == null) {
             if (binaryValue2_ != null) {
               binaryValue2_ =
-                io.dstore.Values.stringValue.newBuilder(binaryValue2_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(binaryValue2_).mergeFrom(value).buildPartial();
             } else {
               binaryValue2_ = value;
             }
@@ -7048,7 +7048,7 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+         * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
          */
         public Builder clearBinaryValue2() {
           if (binaryValue2Builder_ == null) {
@@ -7066,9 +7066,9 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+         * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBinaryValue2Builder() {
+        public io.dstore.values.StringValue.Builder getBinaryValue2Builder() {
           
           onChanged();
           return getBinaryValue2FieldBuilder().getBuilder();
@@ -7078,14 +7078,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+         * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBinaryValue2OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBinaryValue2OrBuilder() {
           if (binaryValue2Builder_ != null) {
             return binaryValue2Builder_.getMessageOrBuilder();
           } else {
             return binaryValue2_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : binaryValue2_;
+                io.dstore.values.StringValue.getDefaultInstance() : binaryValue2_;
           }
         }
         /**
@@ -7093,14 +7093,14 @@ public final class ImSearchBinariesAd {
          * Eigenschaft von "BinaryCodeID" zum Merkmal "&#64;OutputBinaryCharacID2"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_value2 = 10009;</code>
+         * <code>optional .dstore.values.StringValue binary_value2 = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBinaryValue2FieldBuilder() {
           if (binaryValue2Builder_ == null) {
             binaryValue2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBinaryValue2(),
                     getParentForChildren(),
                     isClean());
@@ -7109,15 +7109,15 @@ public final class ImSearchBinariesAd {
           return binaryValue2Builder_;
         }
 
-        private io.dstore.Values.bytesValue thumbnailCode_ = null;
+        private io.dstore.values.BytesValue thumbnailCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> thumbnailCodeBuilder_;
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> thumbnailCodeBuilder_;
         /**
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
          */
         public boolean hasThumbnailCode() {
           return thumbnailCodeBuilder_ != null || thumbnailCode_ != null;
@@ -7127,11 +7127,11 @@ public final class ImSearchBinariesAd {
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
          */
-        public io.dstore.Values.bytesValue getThumbnailCode() {
+        public io.dstore.values.BytesValue getThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
-            return thumbnailCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
+            return thumbnailCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : thumbnailCode_;
           } else {
             return thumbnailCodeBuilder_.getMessage();
           }
@@ -7141,9 +7141,9 @@ public final class ImSearchBinariesAd {
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
          */
-        public Builder setThumbnailCode(io.dstore.Values.bytesValue value) {
+        public Builder setThumbnailCode(io.dstore.values.BytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7161,10 +7161,10 @@ public final class ImSearchBinariesAd {
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
          */
         public Builder setThumbnailCode(
-            io.dstore.Values.bytesValue.Builder builderForValue) {
+            io.dstore.values.BytesValue.Builder builderForValue) {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCode_ = builderForValue.build();
             onChanged();
@@ -7179,13 +7179,13 @@ public final class ImSearchBinariesAd {
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
          */
-        public Builder mergeThumbnailCode(io.dstore.Values.bytesValue value) {
+        public Builder mergeThumbnailCode(io.dstore.values.BytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (thumbnailCode_ != null) {
               thumbnailCode_ =
-                io.dstore.Values.bytesValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.BytesValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
             } else {
               thumbnailCode_ = value;
             }
@@ -7201,7 +7201,7 @@ public final class ImSearchBinariesAd {
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
          */
         public Builder clearThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
@@ -7219,9 +7219,9 @@ public final class ImSearchBinariesAd {
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
          */
-        public io.dstore.Values.bytesValue.Builder getThumbnailCodeBuilder() {
+        public io.dstore.values.BytesValue.Builder getThumbnailCodeBuilder() {
           
           onChanged();
           return getThumbnailCodeFieldBuilder().getBuilder();
@@ -7231,14 +7231,14 @@ public final class ImSearchBinariesAd {
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
          */
-        public io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
+        public io.dstore.values.BytesValueOrBuilder getThumbnailCodeOrBuilder() {
           if (thumbnailCodeBuilder_ != null) {
             return thumbnailCodeBuilder_.getMessageOrBuilder();
           } else {
             return thumbnailCode_ == null ?
-                io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
+                io.dstore.values.BytesValue.getDefaultInstance() : thumbnailCode_;
           }
         }
         /**
@@ -7246,14 +7246,14 @@ public final class ImSearchBinariesAd {
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 20008;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 20008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
             getThumbnailCodeFieldBuilder() {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
+                io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder>(
                     getThumbnailCode(),
                     getParentForChildren(),
                     isClean());
@@ -7262,15 +7262,15 @@ public final class ImSearchBinariesAd {
           return thumbnailCodeBuilder_;
         }
 
-        private io.dstore.Values.bytesValue binaryCode_ = null;
+        private io.dstore.values.BytesValue binaryCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> binaryCodeBuilder_;
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> binaryCodeBuilder_;
         /**
          * <pre>
          * Die Binärdaten selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
          */
         public boolean hasBinaryCode() {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
@@ -7280,11 +7280,11 @@ public final class ImSearchBinariesAd {
          * Die Binärdaten selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
          */
-        public io.dstore.Values.bytesValue getBinaryCode() {
+        public io.dstore.values.BytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
-            return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+            return binaryCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
           } else {
             return binaryCodeBuilder_.getMessage();
           }
@@ -7294,9 +7294,9 @@ public final class ImSearchBinariesAd {
          * Die Binärdaten selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
          */
-        public Builder setBinaryCode(io.dstore.Values.bytesValue value) {
+        public Builder setBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7314,10 +7314,10 @@ public final class ImSearchBinariesAd {
          * Die Binärdaten selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
          */
         public Builder setBinaryCode(
-            io.dstore.Values.bytesValue.Builder builderForValue) {
+            io.dstore.values.BytesValue.Builder builderForValue) {
           if (binaryCodeBuilder_ == null) {
             binaryCode_ = builderForValue.build();
             onChanged();
@@ -7332,13 +7332,13 @@ public final class ImSearchBinariesAd {
          * Die Binärdaten selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
          */
-        public Builder mergeBinaryCode(io.dstore.Values.bytesValue value) {
+        public Builder mergeBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (binaryCode_ != null) {
               binaryCode_ =
-                io.dstore.Values.bytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.BytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
             } else {
               binaryCode_ = value;
             }
@@ -7354,7 +7354,7 @@ public final class ImSearchBinariesAd {
          * Die Binärdaten selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
          */
         public Builder clearBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -7372,9 +7372,9 @@ public final class ImSearchBinariesAd {
          * Die Binärdaten selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
          */
-        public io.dstore.Values.bytesValue.Builder getBinaryCodeBuilder() {
+        public io.dstore.values.BytesValue.Builder getBinaryCodeBuilder() {
           
           onChanged();
           return getBinaryCodeFieldBuilder().getBuilder();
@@ -7384,14 +7384,14 @@ public final class ImSearchBinariesAd {
          * Die Binärdaten selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
          */
-        public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
+        public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
             return binaryCodeBuilder_.getMessageOrBuilder();
           } else {
             return binaryCode_ == null ?
-                io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+                io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
           }
         }
         /**
@@ -7399,14 +7399,14 @@ public final class ImSearchBinariesAd {
          * Die Binärdaten selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 20011;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 20011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
             getBinaryCodeFieldBuilder() {
           if (binaryCodeBuilder_ == null) {
             binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
+                io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder>(
                     getBinaryCode(),
                     getParentForChildren(),
                     isClean());
@@ -7415,15 +7415,15 @@ public final class ImSearchBinariesAd {
           return binaryCodeBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID des Merkmals, zu dem "ValueID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
          */
         public boolean hasNodeCharacteristicId() {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
@@ -7433,11 +7433,11 @@ public final class ImSearchBinariesAd {
          * ID des Merkmals, zu dem "ValueID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
          */
-        public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.values.IntegerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
@@ -7447,9 +7447,9 @@ public final class ImSearchBinariesAd {
          * ID des Merkmals, zu dem "ValueID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
          */
-        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7467,10 +7467,10 @@ public final class ImSearchBinariesAd {
          * ID des Merkmals, zu dem "ValueID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -7485,13 +7485,13 @@ public final class ImSearchBinariesAd {
          * ID des Merkmals, zu dem "ValueID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -7507,7 +7507,7 @@ public final class ImSearchBinariesAd {
          * ID des Merkmals, zu dem "ValueID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
          */
         public Builder clearNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -7525,9 +7525,9 @@ public final class ImSearchBinariesAd {
          * ID des Merkmals, zu dem "ValueID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
@@ -7537,14 +7537,14 @@ public final class ImSearchBinariesAd {
          * ID des Merkmals, zu dem "ValueID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
@@ -7552,14 +7552,14 @@ public final class ImSearchBinariesAd {
          * ID des Merkmals, zu dem "ValueID" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 30002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 30002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -7568,15 +7568,15 @@ public final class ImSearchBinariesAd {
           return nodeCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Wert der Eigenschaft "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 30003;</code>
+         * <code>optional .dstore.values.StringValue value = 30003;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -7586,11 +7586,11 @@ public final class ImSearchBinariesAd {
          * Wert der Eigenschaft "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 30003;</code>
+         * <code>optional .dstore.values.StringValue value = 30003;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -7600,9 +7600,9 @@ public final class ImSearchBinariesAd {
          * Wert der Eigenschaft "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 30003;</code>
+         * <code>optional .dstore.values.StringValue value = 30003;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7620,10 +7620,10 @@ public final class ImSearchBinariesAd {
          * Wert der Eigenschaft "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 30003;</code>
+         * <code>optional .dstore.values.StringValue value = 30003;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -7638,13 +7638,13 @@ public final class ImSearchBinariesAd {
          * Wert der Eigenschaft "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 30003;</code>
+         * <code>optional .dstore.values.StringValue value = 30003;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -7660,7 +7660,7 @@ public final class ImSearchBinariesAd {
          * Wert der Eigenschaft "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 30003;</code>
+         * <code>optional .dstore.values.StringValue value = 30003;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -7678,9 +7678,9 @@ public final class ImSearchBinariesAd {
          * Wert der Eigenschaft "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 30003;</code>
+         * <code>optional .dstore.values.StringValue value = 30003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -7690,14 +7690,14 @@ public final class ImSearchBinariesAd {
          * Wert der Eigenschaft "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 30003;</code>
+         * <code>optional .dstore.values.StringValue value = 30003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -7705,14 +7705,14 @@ public final class ImSearchBinariesAd {
          * Wert der Eigenschaft "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 30003;</code>
+         * <code>optional .dstore.values.StringValue value = 30003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -7721,15 +7721,15 @@ public final class ImSearchBinariesAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.integerValue valueId_ = null;
+        private io.dstore.values.IntegerValue valueId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> valueIdBuilder_;
         /**
          * <pre>
          * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
@@ -7739,11 +7739,11 @@ public final class ImSearchBinariesAd {
          * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
          */
-        public io.dstore.Values.integerValue getValueId() {
+        public io.dstore.values.IntegerValue getValueId() {
           if (valueIdBuilder_ == null) {
-            return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+            return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
           } else {
             return valueIdBuilder_.getMessage();
           }
@@ -7753,9 +7753,9 @@ public final class ImSearchBinariesAd {
          * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
          */
-        public Builder setValueId(io.dstore.Values.integerValue value) {
+        public Builder setValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7773,10 +7773,10 @@ public final class ImSearchBinariesAd {
          * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
          */
         public Builder setValueId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (valueIdBuilder_ == null) {
             valueId_ = builderForValue.build();
             onChanged();
@@ -7791,13 +7791,13 @@ public final class ImSearchBinariesAd {
          * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
          */
-        public Builder mergeValueId(io.dstore.Values.integerValue value) {
+        public Builder mergeValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
             if (valueId_ != null) {
               valueId_ =
-                io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
             } else {
               valueId_ = value;
             }
@@ -7813,7 +7813,7 @@ public final class ImSearchBinariesAd {
          * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -7831,9 +7831,9 @@ public final class ImSearchBinariesAd {
          * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
           
           onChanged();
           return getValueIdFieldBuilder().getBuilder();
@@ -7843,14 +7843,14 @@ public final class ImSearchBinariesAd {
          * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
             return valueIdBuilder_.getMessageOrBuilder();
           } else {
             return valueId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
           }
         }
         /**
@@ -7858,14 +7858,14 @@ public final class ImSearchBinariesAd {
          * ID einer Eigenschaft von Artikel-Elementen, der "BinaryCodeID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 30005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
             valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
                     isClean());
@@ -8029,23 +8029,23 @@ public final class ImSearchBinariesAd {
     }
 
     public static final int NUMBER_OF_ELEMENTS_IN_RESULT_FIELD_NUMBER = 101;
-    private io.dstore.Values.integerValue numberOfElementsInResult_;
+    private io.dstore.values.IntegerValue numberOfElementsInResult_;
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
     public boolean hasNumberOfElementsInResult() {
       return numberOfElementsInResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
-    public io.dstore.Values.integerValue getNumberOfElementsInResult() {
-      return numberOfElementsInResult_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+    public io.dstore.values.IntegerValue getNumberOfElementsInResult() {
+      return numberOfElementsInResult_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfElementsInResult_;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
       return getNumberOfElementsInResult();
     }
 
@@ -9220,29 +9220,29 @@ public final class ImSearchBinariesAd {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.integerValue numberOfElementsInResult_ = null;
+      private io.dstore.values.IntegerValue numberOfElementsInResult_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfElementsInResultBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfElementsInResultBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public boolean hasNumberOfElementsInResult() {
         return numberOfElementsInResultBuilder_ != null || numberOfElementsInResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
-      public io.dstore.Values.integerValue getNumberOfElementsInResult() {
+      public io.dstore.values.IntegerValue getNumberOfElementsInResult() {
         if (numberOfElementsInResultBuilder_ == null) {
-          return numberOfElementsInResult_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+          return numberOfElementsInResult_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfElementsInResult_;
         } else {
           return numberOfElementsInResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
-      public Builder setNumberOfElementsInResult(io.dstore.Values.integerValue value) {
+      public Builder setNumberOfElementsInResult(io.dstore.values.IntegerValue value) {
         if (numberOfElementsInResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -9256,10 +9256,10 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public Builder setNumberOfElementsInResult(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (numberOfElementsInResultBuilder_ == null) {
           numberOfElementsInResult_ = builderForValue.build();
           onChanged();
@@ -9270,13 +9270,13 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
-      public Builder mergeNumberOfElementsInResult(io.dstore.Values.integerValue value) {
+      public Builder mergeNumberOfElementsInResult(io.dstore.values.IntegerValue value) {
         if (numberOfElementsInResultBuilder_ == null) {
           if (numberOfElementsInResult_ != null) {
             numberOfElementsInResult_ =
-              io.dstore.Values.integerValue.newBuilder(numberOfElementsInResult_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(numberOfElementsInResult_).mergeFrom(value).buildPartial();
           } else {
             numberOfElementsInResult_ = value;
           }
@@ -9288,7 +9288,7 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       public Builder clearNumberOfElementsInResult() {
         if (numberOfElementsInResultBuilder_ == null) {
@@ -9302,33 +9302,33 @@ public final class ImSearchBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNumberOfElementsInResultBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNumberOfElementsInResultBuilder() {
         
         onChanged();
         return getNumberOfElementsInResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNumberOfElementsInResultOrBuilder() {
         if (numberOfElementsInResultBuilder_ != null) {
           return numberOfElementsInResultBuilder_.getMessageOrBuilder();
         } else {
           return numberOfElementsInResult_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : numberOfElementsInResult_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : numberOfElementsInResult_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_elements_in_result = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_elements_in_result = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNumberOfElementsInResultFieldBuilder() {
         if (numberOfElementsInResultBuilder_ == null) {
           numberOfElementsInResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNumberOfElementsInResult(),
                   getParentForChildren(),
                   isClean());
@@ -9413,62 +9413,62 @@ public final class ImSearchBinariesAd {
       "ries_Ad.proto\022\"dstore.engine.im_SearchBi" +
       "naries_Ad\032\023dstore/values.proto\032\032dstore/e" +
       "ngine/engine.proto\"\204\n\n\nParameters\0226\n\021ass" +
-      "igned_to_table\030\001 \001(\0132\033.dstore.values.int" +
+      "igned_to_table\030\001 \001(\0132\033.dstore.values.Int" +
       "egerValue\022\037\n\026assigned_to_table_null\030\351\007 \001" +
       "(\010\022;\n\026input_nest_level_conds\030\002 \001(\0132\033.dst" +
-      "ore.values.integerValue\022$\n\033input_nest_le" +
+      "ore.values.IntegerValue\022$\n\033input_nest_le" +
       "vel_conds_null\030\352\007 \001(\010\022@\n\034value_separator" +
-      "_i_n_operator\030\003 \001(\0132\032.dstore.values.stri",
+      "_i_n_operator\030\003 \001(\0132\032.dstore.values.Stri",
       "ngValue\022*\n!value_separator_i_n_operator_" +
       "null\030\353\007 \001(\010\0224\n\017start_at_row_no\030\004 \001(\0132\033.d" +
-      "store.values.integerValue\022\035\n\024start_at_ro" +
+      "store.values.IntegerValue\022\035\n\024start_at_ro" +
       "w_no_null\030\354\007 \001(\010\022.\n\trow_count\030\005 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\027\n\016row_count_nu" +
+      "tore.values.IntegerValue\022\027\n\016row_count_nu" +
       "ll\030\355\007 \001(\010\022A\n\034number_of_elements_in_resul" +
-      "t\030\006 \001(\0132\033.dstore.values.integerValue\022*\n!" +
+      "t\030\006 \001(\0132\033.dstore.values.IntegerValue\022*\n!" +
       "number_of_elements_in_result_null\030\356\007 \001(\010" +
       "\022=\n\030output_binary_charac_id1\030\007 \001(\0132\033.dst" +
-      "ore.values.integerValue\022&\n\035output_binary",
+      "ore.values.IntegerValue\022&\n\035output_binary",
       "_charac_id1_null\030\357\007 \001(\010\022=\n\030output_binary" +
-      "_charac_id2\030\010 \001(\0132\033.dstore.values.intege" +
+      "_charac_id2\030\010 \001(\0132\033.dstore.values.Intege" +
       "rValue\022&\n\035output_binary_charac_id2_null\030" +
       "\360\007 \001(\010\022=\n\030output_binary_charac_id3\030\t \001(\013" +
-      "2\033.dstore.values.integerValue\022&\n\035output_" +
+      "2\033.dstore.values.IntegerValue\022&\n\035output_" +
       "binary_charac_id3_null\030\361\007 \001(\010\0228\n\023include" +
-      "_binary_code\030\n \001(\0132\033.dstore.values.boole" +
+      "_binary_code\030\n \001(\0132\033.dstore.values.Boole" +
       "anValue\022!\n\030include_binary_code_null\030\362\007 \001" +
       "(\010\022<\n\027node_characteristic_id1\030\013 \001(\0132\033.ds" +
-      "tore.values.integerValue\022%\n\034node_charact",
+      "tore.values.IntegerValue\022%\n\034node_charact",
       "eristic_id1_null\030\363\007 \001(\010\022<\n\027node_characte" +
-      "ristic_id2\030\014 \001(\0132\033.dstore.values.integer" +
+      "ristic_id2\030\014 \001(\0132\033.dstore.values.Integer" +
       "Value\022%\n\034node_characteristic_id2_null\030\364\007" +
       " \001(\010\022<\n\027node_characteristic_id3\030\r \001(\0132\033." +
-      "dstore.values.integerValue\022%\n\034node_chara" +
+      "dstore.values.IntegerValue\022%\n\034node_chara" +
       "cteristic_id3_null\030\365\007 \001(\010\"\317\007\n\010Response\0228" +
       "\n\020meta_information\030\002 \003(\0132\036.dstore.engine" +
       ".MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dsto" +
       "re.engine.Message\022=\n\003row\030\004 \003(\01320.dstore." +
       "engine.im_SearchBinaries_Ad.Response.Row",
       "\022A\n\034number_of_elements_in_result\030e \001(\0132\033" +
-      ".dstore.values.integerValue\032\335\005\n\003Row\022\017\n\006r" +
+      ".dstore.values.IntegerValue\032\335\005\n\003Row\022\017\n\006r" +
       "ow_id\030\220N \001(\005\0224\n\016binary_code_id\030\221N \001(\0132\033." +
-      "dstore.values.integerValue\022-\n\007node_id\030\222N" +
-      " \001(\0132\033.dstore.values.integerValue\0229\n\023cho" +
+      "dstore.values.IntegerValue\022-\n\007node_id\030\222N" +
+      " \001(\0132\033.dstore.values.IntegerValue\0229\n\023cho" +
       "sen_tree_node_id\030\223N \001(\0132\033.dstore.values." +
-      "integerValue\022+\n\006value3\030\224N \001(\0132\032.dstore.v" +
-      "alues.stringValue\0222\n\rbinary_value1\030\225N \001(" +
-      "\0132\032.dstore.values.stringValue\022+\n\006value1\030" +
-      "\226N \001(\0132\032.dstore.values.stringValue\0222\n\rbi",
-      "nary_value3\030\227N \001(\0132\032.dstore.values.strin" +
+      "IntegerValue\022+\n\006value3\030\224N \001(\0132\032.dstore.v" +
+      "alues.StringValue\0222\n\rbinary_value1\030\225N \001(" +
+      "\0132\032.dstore.values.StringValue\022+\n\006value1\030" +
+      "\226N \001(\0132\032.dstore.values.StringValue\0222\n\rbi",
+      "nary_value3\030\227N \001(\0132\032.dstore.values.Strin" +
       "gValue\022+\n\006value2\030\230N \001(\0132\032.dstore.values." +
-      "stringValue\0222\n\rbinary_value2\030\231N \001(\0132\032.ds" +
-      "tore.values.stringValue\0223\n\016thumbnail_cod" +
-      "e\030\250\234\001 \001(\0132\031.dstore.values.bytesValue\0220\n\013" +
-      "binary_code\030\253\234\001 \001(\0132\031.dstore.values.byte" +
+      "StringValue\0222\n\rbinary_value2\030\231N \001(\0132\032.ds" +
+      "tore.values.StringValue\0223\n\016thumbnail_cod" +
+      "e\030\250\234\001 \001(\0132\031.dstore.values.BytesValue\0220\n\013" +
+      "binary_code\030\253\234\001 \001(\0132\031.dstore.values.Byte" +
       "sValue\022=\n\026node_characteristic_id\030\262\352\001 \001(\013" +
-      "2\033.dstore.values.integerValue\022+\n\005value\030\263" +
-      "\352\001 \001(\0132\032.dstore.values.stringValue\022/\n\010va" +
-      "lue_id\030\265\352\001 \001(\0132\033.dstore.values.integerVa",
+      "2\033.dstore.values.IntegerValue\022+\n\005value\030\263" +
+      "\352\001 \001(\0132\032.dstore.values.StringValue\022/\n\010va" +
+      "lue_id\030\265\352\001 \001(\0132\033.dstore.values.IntegerVa",
       "lueBU\n\033io.dstore.engine.proceduresZ6gosd" +
       "k.dstore.de/engine/procedures/im_SearchB" +
       "inaries_Adb\006proto3"
@@ -9484,7 +9484,7 @@ public final class ImSearchBinariesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_SearchBinaries_Ad_Parameters_descriptor =
@@ -9505,7 +9505,7 @@ public final class ImSearchBinariesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_SearchBinaries_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BinaryCodeId", "NodeId", "ChosenTreeNodeId", "Value3", "BinaryValue1", "Value1", "BinaryValue3", "Value2", "BinaryValue2", "ThumbnailCode", "BinaryCode", "NodeCharacteristicId", "Value", "ValueId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

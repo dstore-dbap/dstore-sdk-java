@@ -19,17 +19,17 @@ public final class OmGetCampTrolleyValueCondAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    io.dstore.Values.integerValue getConditionId();
+    io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
      * <code>optional bool condition_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class OmGetCampTrolleyValueCondAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class OmGetCampTrolleyValueCondAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue conditionId_;
+    private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.values.IntegerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -447,29 +447,29 @@ public final class OmGetCampTrolleyValueCondAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue conditionId_ = null;
+      private io.dstore.values.IntegerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
+      public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public Builder setConditionId(io.dstore.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class OmGetCampTrolleyValueCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class OmGetCampTrolleyValueCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -515,7 +515,7 @@ public final class OmGetCampTrolleyValueCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class OmGetCampTrolleyValueCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class OmGetCampTrolleyValueCondAd {
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
        */
       boolean hasToTrolleyValue();
       /**
@@ -857,24 +857,24 @@ public final class OmGetCampTrolleyValueCondAd {
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
        */
-      io.dstore.Values.decimalValue getToTrolleyValue();
+      io.dstore.values.DecimalValue getToTrolleyValue();
       /**
        * <pre>
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getToTrolleyValueOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getToTrolleyValueOrBuilder();
 
       /**
        * <pre>
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
       boolean hasConditionId();
       /**
@@ -882,24 +882,24 @@ public final class OmGetCampTrolleyValueCondAd {
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getConditionId();
+      io.dstore.values.IntegerValue getConditionId();
       /**
        * <pre>
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
       /**
        * <pre>
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
        */
       boolean hasFromTrolleyValue();
       /**
@@ -907,17 +907,17 @@ public final class OmGetCampTrolleyValueCondAd {
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
        */
-      io.dstore.Values.decimalValue getFromTrolleyValue();
+      io.dstore.values.DecimalValue getFromTrolleyValue();
       /**
        * <pre>
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getFromTrolleyValueOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getFromTrolleyValueOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampTrolleyValueCond_Ad.Response.Row}
@@ -965,11 +965,11 @@ public final class OmGetCampTrolleyValueCondAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (toTrolleyValue_ != null) {
                   subBuilder = toTrolleyValue_.toBuilder();
                 }
-                toTrolleyValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                toTrolleyValue_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toTrolleyValue_);
                   toTrolleyValue_ = subBuilder.buildPartial();
@@ -978,11 +978,11 @@ public final class OmGetCampTrolleyValueCondAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (conditionId_ != null) {
                   subBuilder = conditionId_.toBuilder();
                 }
-                conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionId_);
                   conditionId_ = subBuilder.buildPartial();
@@ -991,11 +991,11 @@ public final class OmGetCampTrolleyValueCondAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (fromTrolleyValue_ != null) {
                   subBuilder = fromTrolleyValue_.toBuilder();
                 }
-                fromTrolleyValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                fromTrolleyValue_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromTrolleyValue_);
                   fromTrolleyValue_ = subBuilder.buildPartial();
@@ -1036,13 +1036,13 @@ public final class OmGetCampTrolleyValueCondAd {
       }
 
       public static final int TO_TROLLEY_VALUE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.decimalValue toTrolleyValue_;
+      private io.dstore.values.DecimalValue toTrolleyValue_;
       /**
        * <pre>
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
        */
       public boolean hasToTrolleyValue() {
         return toTrolleyValue_ != null;
@@ -1052,30 +1052,30 @@ public final class OmGetCampTrolleyValueCondAd {
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
        */
-      public io.dstore.Values.decimalValue getToTrolleyValue() {
-        return toTrolleyValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toTrolleyValue_;
+      public io.dstore.values.DecimalValue getToTrolleyValue() {
+        return toTrolleyValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toTrolleyValue_;
       }
       /**
        * <pre>
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getToTrolleyValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getToTrolleyValueOrBuilder() {
         return getToTrolleyValue();
       }
 
       public static final int CONDITION_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue conditionId_;
+      private io.dstore.values.IntegerValue conditionId_;
       /**
        * <pre>
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
       public boolean hasConditionId() {
         return conditionId_ != null;
@@ -1085,30 +1085,30 @@ public final class OmGetCampTrolleyValueCondAd {
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
-        return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+      public io.dstore.values.IntegerValue getConditionId() {
+        return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
       }
       /**
        * <pre>
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
       }
 
       public static final int FROM_TROLLEY_VALUE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.decimalValue fromTrolleyValue_;
+      private io.dstore.values.DecimalValue fromTrolleyValue_;
       /**
        * <pre>
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
        */
       public boolean hasFromTrolleyValue() {
         return fromTrolleyValue_ != null;
@@ -1118,19 +1118,19 @@ public final class OmGetCampTrolleyValueCondAd {
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
        */
-      public io.dstore.Values.decimalValue getFromTrolleyValue() {
-        return fromTrolleyValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromTrolleyValue_;
+      public io.dstore.values.DecimalValue getFromTrolleyValue() {
+        return fromTrolleyValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromTrolleyValue_;
       }
       /**
        * <pre>
        * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getFromTrolleyValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getFromTrolleyValueOrBuilder() {
         return getFromTrolleyValue();
       }
 
@@ -1519,15 +1519,15 @@ public final class OmGetCampTrolleyValueCondAd {
           return this;
         }
 
-        private io.dstore.Values.decimalValue toTrolleyValue_ = null;
+        private io.dstore.values.DecimalValue toTrolleyValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toTrolleyValueBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> toTrolleyValueBuilder_;
         /**
          * <pre>
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
          */
         public boolean hasToTrolleyValue() {
           return toTrolleyValueBuilder_ != null || toTrolleyValue_ != null;
@@ -1537,11 +1537,11 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
          */
-        public io.dstore.Values.decimalValue getToTrolleyValue() {
+        public io.dstore.values.DecimalValue getToTrolleyValue() {
           if (toTrolleyValueBuilder_ == null) {
-            return toTrolleyValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toTrolleyValue_;
+            return toTrolleyValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toTrolleyValue_;
           } else {
             return toTrolleyValueBuilder_.getMessage();
           }
@@ -1551,9 +1551,9 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
          */
-        public Builder setToTrolleyValue(io.dstore.Values.decimalValue value) {
+        public Builder setToTrolleyValue(io.dstore.values.DecimalValue value) {
           if (toTrolleyValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1571,10 +1571,10 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
          */
         public Builder setToTrolleyValue(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (toTrolleyValueBuilder_ == null) {
             toTrolleyValue_ = builderForValue.build();
             onChanged();
@@ -1589,13 +1589,13 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
          */
-        public Builder mergeToTrolleyValue(io.dstore.Values.decimalValue value) {
+        public Builder mergeToTrolleyValue(io.dstore.values.DecimalValue value) {
           if (toTrolleyValueBuilder_ == null) {
             if (toTrolleyValue_ != null) {
               toTrolleyValue_ =
-                io.dstore.Values.decimalValue.newBuilder(toTrolleyValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(toTrolleyValue_).mergeFrom(value).buildPartial();
             } else {
               toTrolleyValue_ = value;
             }
@@ -1611,7 +1611,7 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
          */
         public Builder clearToTrolleyValue() {
           if (toTrolleyValueBuilder_ == null) {
@@ -1629,9 +1629,9 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getToTrolleyValueBuilder() {
+        public io.dstore.values.DecimalValue.Builder getToTrolleyValueBuilder() {
           
           onChanged();
           return getToTrolleyValueFieldBuilder().getBuilder();
@@ -1641,14 +1641,14 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getToTrolleyValueOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getToTrolleyValueOrBuilder() {
           if (toTrolleyValueBuilder_ != null) {
             return toTrolleyValueBuilder_.getMessageOrBuilder();
           } else {
             return toTrolleyValue_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : toTrolleyValue_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : toTrolleyValue_;
           }
         }
         /**
@@ -1656,14 +1656,14 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb höchstens haben darf, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_trolley_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue to_trolley_value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getToTrolleyValueFieldBuilder() {
           if (toTrolleyValueBuilder_ == null) {
             toTrolleyValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getToTrolleyValue(),
                     getParentForChildren(),
                     isClean());
@@ -1672,15 +1672,15 @@ public final class OmGetCampTrolleyValueCondAd {
           return toTrolleyValueBuilder_;
         }
 
-        private io.dstore.Values.integerValue conditionId_ = null;
+        private io.dstore.values.IntegerValue conditionId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
         /**
          * <pre>
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public boolean hasConditionId() {
           return conditionIdBuilder_ != null || conditionId_ != null;
@@ -1690,11 +1690,11 @@ public final class OmGetCampTrolleyValueCondAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getConditionId() {
+        public io.dstore.values.IntegerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
-            return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+            return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
           } else {
             return conditionIdBuilder_.getMessage();
           }
@@ -1704,9 +1704,9 @@ public final class OmGetCampTrolleyValueCondAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public Builder setConditionId(io.dstore.Values.integerValue value) {
+        public Builder setConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1724,10 +1724,10 @@ public final class OmGetCampTrolleyValueCondAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder setConditionId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (conditionIdBuilder_ == null) {
             conditionId_ = builderForValue.build();
             onChanged();
@@ -1742,13 +1742,13 @@ public final class OmGetCampTrolleyValueCondAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+        public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
             if (conditionId_ != null) {
               conditionId_ =
-                io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
             } else {
               conditionId_ = value;
             }
@@ -1764,7 +1764,7 @@ public final class OmGetCampTrolleyValueCondAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder clearConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -1782,9 +1782,9 @@ public final class OmGetCampTrolleyValueCondAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
           
           onChanged();
           return getConditionIdFieldBuilder().getBuilder();
@@ -1794,14 +1794,14 @@ public final class OmGetCampTrolleyValueCondAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
             return conditionIdBuilder_.getMessageOrBuilder();
           } else {
             return conditionId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
           }
         }
         /**
@@ -1809,14 +1809,14 @@ public final class OmGetCampTrolleyValueCondAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - z.Zt. natürlich immer identisch mit "&#64;ConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getConditionIdFieldBuilder() {
           if (conditionIdBuilder_ == null) {
             conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getConditionId(),
                     getParentForChildren(),
                     isClean());
@@ -1825,15 +1825,15 @@ public final class OmGetCampTrolleyValueCondAd {
           return conditionIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue fromTrolleyValue_ = null;
+        private io.dstore.values.DecimalValue fromTrolleyValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromTrolleyValueBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> fromTrolleyValueBuilder_;
         /**
          * <pre>
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
          */
         public boolean hasFromTrolleyValue() {
           return fromTrolleyValueBuilder_ != null || fromTrolleyValue_ != null;
@@ -1843,11 +1843,11 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
          */
-        public io.dstore.Values.decimalValue getFromTrolleyValue() {
+        public io.dstore.values.DecimalValue getFromTrolleyValue() {
           if (fromTrolleyValueBuilder_ == null) {
-            return fromTrolleyValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromTrolleyValue_;
+            return fromTrolleyValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromTrolleyValue_;
           } else {
             return fromTrolleyValueBuilder_.getMessage();
           }
@@ -1857,9 +1857,9 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
          */
-        public Builder setFromTrolleyValue(io.dstore.Values.decimalValue value) {
+        public Builder setFromTrolleyValue(io.dstore.values.DecimalValue value) {
           if (fromTrolleyValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1877,10 +1877,10 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
          */
         public Builder setFromTrolleyValue(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (fromTrolleyValueBuilder_ == null) {
             fromTrolleyValue_ = builderForValue.build();
             onChanged();
@@ -1895,13 +1895,13 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
          */
-        public Builder mergeFromTrolleyValue(io.dstore.Values.decimalValue value) {
+        public Builder mergeFromTrolleyValue(io.dstore.values.DecimalValue value) {
           if (fromTrolleyValueBuilder_ == null) {
             if (fromTrolleyValue_ != null) {
               fromTrolleyValue_ =
-                io.dstore.Values.decimalValue.newBuilder(fromTrolleyValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(fromTrolleyValue_).mergeFrom(value).buildPartial();
             } else {
               fromTrolleyValue_ = value;
             }
@@ -1917,7 +1917,7 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
          */
         public Builder clearFromTrolleyValue() {
           if (fromTrolleyValueBuilder_ == null) {
@@ -1935,9 +1935,9 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getFromTrolleyValueBuilder() {
+        public io.dstore.values.DecimalValue.Builder getFromTrolleyValueBuilder() {
           
           onChanged();
           return getFromTrolleyValueFieldBuilder().getBuilder();
@@ -1947,14 +1947,14 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getFromTrolleyValueOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getFromTrolleyValueOrBuilder() {
           if (fromTrolleyValueBuilder_ != null) {
             return fromTrolleyValueBuilder_.getMessageOrBuilder();
           } else {
             return fromTrolleyValue_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : fromTrolleyValue_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : fromTrolleyValue_;
           }
         }
         /**
@@ -1962,14 +1962,14 @@ public final class OmGetCampTrolleyValueCondAd {
          * Der Wert (ob BRUTTO oder NETTO s. Beschreibung), den ein Warenkorb mindestens haben muss, um die Bedingung zu erfüllen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_trolley_value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue from_trolley_value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getFromTrolleyValueFieldBuilder() {
           if (fromTrolleyValueBuilder_ == null) {
             fromTrolleyValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getFromTrolleyValue(),
                     getParentForChildren(),
                     isClean());
@@ -3439,17 +3439,17 @@ public final class OmGetCampTrolleyValueCondAd {
       "_GetCampTrolleyValueCond_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"[\n\n" +
       "Parameters\0221\n\014condition_id\030\001 \001(\0132\033.dstor" +
-      "e.values.integerValue\022\032\n\021condition_id_nu" +
+      "e.values.IntegerValue\022\032\n\021condition_id_nu" +
       "ll\030\351\007 \001(\010\"\364\002\n\010Response\0228\n\020meta_informati" +
       "on\030\002 \003(\0132\036.dstore.engine.MetaInformation" +
       "\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Messag" +
       "e\022F\n\003row\030\004 \003(\01329.dstore.engine.om_GetCam",
       "pTrolleyValueCond_Ad.Response.Row\032\274\001\n\003Ro" +
       "w\022\017\n\006row_id\030\220N \001(\005\0226\n\020to_trolley_value\030\221" +
-      "N \001(\0132\033.dstore.values.decimalValue\0222\n\014co" +
-      "ndition_id\030\222N \001(\0132\033.dstore.values.intege" +
+      "N \001(\0132\033.dstore.values.DecimalValue\0222\n\014co" +
+      "ndition_id\030\222N \001(\0132\033.dstore.values.Intege" +
       "rValue\0228\n\022from_trolley_value\030\223N \001(\0132\033.ds" +
-      "tore.values.decimalValueB^\n\033io.dstore.en" +
+      "tore.values.DecimalValueB^\n\033io.dstore.en" +
       "gine.proceduresZ?gosdk.dstore.de/engine/" +
       "procedures/om_GetCampTrolleyValueCond_Ad" +
       "b\006proto3"
@@ -3465,7 +3465,7 @@ public final class OmGetCampTrolleyValueCondAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetCampTrolleyValueCond_Ad_Parameters_descriptor =
@@ -3486,7 +3486,7 @@ public final class OmGetCampTrolleyValueCondAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampTrolleyValueCond_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ToTrolleyValue", "ConditionId", "FromTrolleyValue", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

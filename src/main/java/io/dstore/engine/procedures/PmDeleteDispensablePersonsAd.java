@@ -19,17 +19,17 @@ public final class PmDeleteDispensablePersonsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmDeleteDispensablePersonsAd {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
      */
     boolean hasMaxNumberOfPersonsToDelete();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
      */
-    io.dstore.Values.integerValue getMaxNumberOfPersonsToDelete();
+    io.dstore.values.IntegerValue getMaxNumberOfPersonsToDelete();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMaxNumberOfPersonsToDeleteOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMaxNumberOfPersonsToDeleteOrBuilder();
 
     /**
      * <code>optional bool max_number_of_persons_to_delete_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmDeleteDispensablePersonsAd {
     boolean getMaxNumberOfPersonsToDeleteNull();
 
     /**
-     * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
      */
     boolean hasPersonsCreatedDuringLastXDays();
     /**
-     * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
      */
-    io.dstore.Values.integerValue getPersonsCreatedDuringLastXDays();
+    io.dstore.values.IntegerValue getPersonsCreatedDuringLastXDays();
     /**
-     * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonsCreatedDuringLastXDaysOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonsCreatedDuringLastXDaysOrBuilder();
 
     /**
      * <code>optional bool persons_created_during_last_x_days_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class PmDeleteDispensablePersonsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class PmDeleteDispensablePersonsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (maxNumberOfPersonsToDelete_ != null) {
                 subBuilder = maxNumberOfPersonsToDelete_.toBuilder();
               }
-              maxNumberOfPersonsToDelete_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              maxNumberOfPersonsToDelete_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfPersonsToDelete_);
                 maxNumberOfPersonsToDelete_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class PmDeleteDispensablePersonsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personsCreatedDuringLastXDays_ != null) {
                 subBuilder = personsCreatedDuringLastXDays_.toBuilder();
               }
-              personsCreatedDuringLastXDays_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personsCreatedDuringLastXDays_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personsCreatedDuringLastXDays_);
                 personsCreatedDuringLastXDays_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class PmDeleteDispensablePersonsAd {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -222,23 +222,23 @@ public final class PmDeleteDispensablePersonsAd {
     }
 
     public static final int MAX_NUMBER_OF_PERSONS_TO_DELETE_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue maxNumberOfPersonsToDelete_;
+    private io.dstore.values.IntegerValue maxNumberOfPersonsToDelete_;
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
      */
     public boolean hasMaxNumberOfPersonsToDelete() {
       return maxNumberOfPersonsToDelete_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
      */
-    public io.dstore.Values.integerValue getMaxNumberOfPersonsToDelete() {
-      return maxNumberOfPersonsToDelete_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfPersonsToDelete_;
+    public io.dstore.values.IntegerValue getMaxNumberOfPersonsToDelete() {
+      return maxNumberOfPersonsToDelete_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfPersonsToDelete_;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMaxNumberOfPersonsToDeleteOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfPersonsToDeleteOrBuilder() {
       return getMaxNumberOfPersonsToDelete();
     }
 
@@ -252,23 +252,23 @@ public final class PmDeleteDispensablePersonsAd {
     }
 
     public static final int PERSONS_CREATED_DURING_LAST_X_DAYS_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue personsCreatedDuringLastXDays_;
+    private io.dstore.values.IntegerValue personsCreatedDuringLastXDays_;
     /**
-     * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
      */
     public boolean hasPersonsCreatedDuringLastXDays() {
       return personsCreatedDuringLastXDays_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
      */
-    public io.dstore.Values.integerValue getPersonsCreatedDuringLastXDays() {
-      return personsCreatedDuringLastXDays_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personsCreatedDuringLastXDays_;
+    public io.dstore.values.IntegerValue getPersonsCreatedDuringLastXDays() {
+      return personsCreatedDuringLastXDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personsCreatedDuringLastXDays_;
     }
     /**
-     * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonsCreatedDuringLastXDaysOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonsCreatedDuringLastXDaysOrBuilder() {
       return getPersonsCreatedDuringLastXDays();
     }
 
@@ -677,29 +677,29 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -745,7 +745,7 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue maxNumberOfPersonsToDelete_ = null;
+      private io.dstore.values.IntegerValue maxNumberOfPersonsToDelete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfPersonsToDeleteBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfPersonsToDeleteBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
        */
       public boolean hasMaxNumberOfPersonsToDelete() {
         return maxNumberOfPersonsToDeleteBuilder_ != null || maxNumberOfPersonsToDelete_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
        */
-      public io.dstore.Values.integerValue getMaxNumberOfPersonsToDelete() {
+      public io.dstore.values.IntegerValue getMaxNumberOfPersonsToDelete() {
         if (maxNumberOfPersonsToDeleteBuilder_ == null) {
-          return maxNumberOfPersonsToDelete_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfPersonsToDelete_;
+          return maxNumberOfPersonsToDelete_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfPersonsToDelete_;
         } else {
           return maxNumberOfPersonsToDeleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
        */
-      public Builder setMaxNumberOfPersonsToDelete(io.dstore.Values.integerValue value) {
+      public Builder setMaxNumberOfPersonsToDelete(io.dstore.values.IntegerValue value) {
         if (maxNumberOfPersonsToDeleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
        */
       public Builder setMaxNumberOfPersonsToDelete(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (maxNumberOfPersonsToDeleteBuilder_ == null) {
           maxNumberOfPersonsToDelete_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
        */
-      public Builder mergeMaxNumberOfPersonsToDelete(io.dstore.Values.integerValue value) {
+      public Builder mergeMaxNumberOfPersonsToDelete(io.dstore.values.IntegerValue value) {
         if (maxNumberOfPersonsToDeleteBuilder_ == null) {
           if (maxNumberOfPersonsToDelete_ != null) {
             maxNumberOfPersonsToDelete_ =
-              io.dstore.Values.integerValue.newBuilder(maxNumberOfPersonsToDelete_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(maxNumberOfPersonsToDelete_).mergeFrom(value).buildPartial();
           } else {
             maxNumberOfPersonsToDelete_ = value;
           }
@@ -888,7 +888,7 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
        */
       public Builder clearMaxNumberOfPersonsToDelete() {
         if (maxNumberOfPersonsToDeleteBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMaxNumberOfPersonsToDeleteBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMaxNumberOfPersonsToDeleteBuilder() {
         
         onChanged();
         return getMaxNumberOfPersonsToDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfPersonsToDeleteOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfPersonsToDeleteOrBuilder() {
         if (maxNumberOfPersonsToDeleteBuilder_ != null) {
           return maxNumberOfPersonsToDeleteBuilder_.getMessageOrBuilder();
         } else {
           return maxNumberOfPersonsToDelete_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfPersonsToDelete_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfPersonsToDelete_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_persons_to_delete = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_persons_to_delete = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMaxNumberOfPersonsToDeleteFieldBuilder() {
         if (maxNumberOfPersonsToDeleteBuilder_ == null) {
           maxNumberOfPersonsToDeleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMaxNumberOfPersonsToDelete(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personsCreatedDuringLastXDays_ = null;
+      private io.dstore.values.IntegerValue personsCreatedDuringLastXDays_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personsCreatedDuringLastXDaysBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personsCreatedDuringLastXDaysBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
        */
       public boolean hasPersonsCreatedDuringLastXDays() {
         return personsCreatedDuringLastXDaysBuilder_ != null || personsCreatedDuringLastXDays_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
        */
-      public io.dstore.Values.integerValue getPersonsCreatedDuringLastXDays() {
+      public io.dstore.values.IntegerValue getPersonsCreatedDuringLastXDays() {
         if (personsCreatedDuringLastXDaysBuilder_ == null) {
-          return personsCreatedDuringLastXDays_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personsCreatedDuringLastXDays_;
+          return personsCreatedDuringLastXDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personsCreatedDuringLastXDays_;
         } else {
           return personsCreatedDuringLastXDaysBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
        */
-      public Builder setPersonsCreatedDuringLastXDays(io.dstore.Values.integerValue value) {
+      public Builder setPersonsCreatedDuringLastXDays(io.dstore.values.IntegerValue value) {
         if (personsCreatedDuringLastXDaysBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
        */
       public Builder setPersonsCreatedDuringLastXDays(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personsCreatedDuringLastXDaysBuilder_ == null) {
           personsCreatedDuringLastXDays_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
        */
-      public Builder mergePersonsCreatedDuringLastXDays(io.dstore.Values.integerValue value) {
+      public Builder mergePersonsCreatedDuringLastXDays(io.dstore.values.IntegerValue value) {
         if (personsCreatedDuringLastXDaysBuilder_ == null) {
           if (personsCreatedDuringLastXDays_ != null) {
             personsCreatedDuringLastXDays_ =
-              io.dstore.Values.integerValue.newBuilder(personsCreatedDuringLastXDays_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personsCreatedDuringLastXDays_).mergeFrom(value).buildPartial();
           } else {
             personsCreatedDuringLastXDays_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
        */
       public Builder clearPersonsCreatedDuringLastXDays() {
         if (personsCreatedDuringLastXDaysBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class PmDeleteDispensablePersonsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonsCreatedDuringLastXDaysBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonsCreatedDuringLastXDaysBuilder() {
         
         onChanged();
         return getPersonsCreatedDuringLastXDaysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonsCreatedDuringLastXDaysOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonsCreatedDuringLastXDaysOrBuilder() {
         if (personsCreatedDuringLastXDaysBuilder_ != null) {
           return personsCreatedDuringLastXDaysBuilder_.getMessageOrBuilder();
         } else {
           return personsCreatedDuringLastXDays_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personsCreatedDuringLastXDays_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personsCreatedDuringLastXDays_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue persons_created_during_last_x_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue persons_created_during_last_x_days = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonsCreatedDuringLastXDaysFieldBuilder() {
         if (personsCreatedDuringLastXDaysBuilder_ == null) {
           personsCreatedDuringLastXDaysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonsCreatedDuringLastXDays(),
                   getParentForChildren(),
                   isClean());
@@ -3193,12 +3193,12 @@ public final class PmDeleteDispensablePersonsAd {
       "m_DeleteDispensablePersons_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\317" +
       "\002\n\nParameters\0223\n\016person_type_id\030\001 \001(\0132\033." +
-      "dstore.values.integerValue\022\034\n\023person_typ" +
+      "dstore.values.IntegerValue\022\034\n\023person_typ" +
       "e_id_null\030\351\007 \001(\010\022D\n\037max_number_of_person" +
-      "s_to_delete\030\002 \001(\0132\033.dstore.values.intege" +
+      "s_to_delete\030\002 \001(\0132\033.dstore.values.Intege" +
       "rValue\022-\n$max_number_of_persons_to_delet" +
       "e_null\030\352\007 \001(\010\022G\n\"persons_created_during_",
-      "last_x_days\030\003 \001(\0132\033.dstore.values.intege" +
+      "last_x_days\030\003 \001(\0132\033.dstore.values.Intege" +
       "rValue\0220\n\'persons_created_during_last_x_" +
       "days_null\030\353\007 \001(\010\"\316\001\n\010Response\0228\n\020meta_in" +
       "formation\030\002 \003(\0132\036.dstore.engine.MetaInfo" +
@@ -3221,7 +3221,7 @@ public final class PmDeleteDispensablePersonsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_DeleteDispensablePersons_Ad_Parameters_descriptor =
@@ -3242,7 +3242,7 @@ public final class PmDeleteDispensablePersonsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_DeleteDispensablePersons_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

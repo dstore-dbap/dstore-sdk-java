@@ -19,17 +19,17 @@ public final class CoDeleteUsersOnlineTimeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoDeleteUsersOnlineTimeAd {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
-    io.dstore.Values.integerValue getCommunityMemberId();
+    io.dstore.values.IntegerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
      * <code>optional bool community_member_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoDeleteUsersOnlineTimeAd {
     boolean getCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
      */
     boolean hasMaxOutDate();
     /**
-     * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
      */
-    io.dstore.Values.timestampValue getMaxOutDate();
+    io.dstore.values.TimestampValue getMaxOutDate();
     /**
-     * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getMaxOutDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getMaxOutDateOrBuilder();
 
     /**
      * <code>optional bool max_out_date_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class CoDeleteUsersOnlineTimeAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class CoDeleteUsersOnlineTimeAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityMemberId_ != null) {
                 subBuilder = communityMemberId_.toBuilder();
               }
-              communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityMemberId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMemberId_);
                 communityMemberId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class CoDeleteUsersOnlineTimeAd {
               break;
             }
             case 26: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (maxOutDate_ != null) {
                 subBuilder = maxOutDate_.toBuilder();
               }
-              maxOutDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              maxOutDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxOutDate_);
                 maxOutDate_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class CoDeleteUsersOnlineTimeAd {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -222,23 +222,23 @@ public final class CoDeleteUsersOnlineTimeAd {
     }
 
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue communityMemberId_;
+    private io.dstore.values.IntegerValue communityMemberId_;
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getCommunityMemberId() {
-      return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+    public io.dstore.values.IntegerValue getCommunityMemberId() {
+      return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
     }
 
@@ -252,23 +252,23 @@ public final class CoDeleteUsersOnlineTimeAd {
     }
 
     public static final int MAX_OUT_DATE_FIELD_NUMBER = 3;
-    private io.dstore.Values.timestampValue maxOutDate_;
+    private io.dstore.values.TimestampValue maxOutDate_;
     /**
-     * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
      */
     public boolean hasMaxOutDate() {
       return maxOutDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
      */
-    public io.dstore.Values.timestampValue getMaxOutDate() {
-      return maxOutDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : maxOutDate_;
+    public io.dstore.values.TimestampValue getMaxOutDate() {
+      return maxOutDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : maxOutDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getMaxOutDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getMaxOutDateOrBuilder() {
       return getMaxOutDate();
     }
 
@@ -677,29 +677,29 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -745,7 +745,7 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityMemberId_ = null;
+      private io.dstore.values.IntegerValue communityMemberId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getCommunityMemberId() {
+      public io.dstore.values.IntegerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
-          return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+          return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
         } else {
           return communityMemberIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public Builder setCommunityMemberId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityMemberIdBuilder_ == null) {
           communityMemberId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (communityMemberId_ != null) {
             communityMemberId_ =
-              io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
           } else {
             communityMemberId_ = value;
           }
@@ -888,7 +888,7 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
         
         onChanged();
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
           return communityMemberIdBuilder_.getMessageOrBuilder();
         } else {
           return communityMemberId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityMemberIdFieldBuilder() {
         if (communityMemberIdBuilder_ == null) {
           communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityMemberId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue maxOutDate_ = null;
+      private io.dstore.values.TimestampValue maxOutDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> maxOutDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> maxOutDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
        */
       public boolean hasMaxOutDate() {
         return maxOutDateBuilder_ != null || maxOutDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue getMaxOutDate() {
+      public io.dstore.values.TimestampValue getMaxOutDate() {
         if (maxOutDateBuilder_ == null) {
-          return maxOutDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : maxOutDate_;
+          return maxOutDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : maxOutDate_;
         } else {
           return maxOutDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
        */
-      public Builder setMaxOutDate(io.dstore.Values.timestampValue value) {
+      public Builder setMaxOutDate(io.dstore.values.TimestampValue value) {
         if (maxOutDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
        */
       public Builder setMaxOutDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (maxOutDateBuilder_ == null) {
           maxOutDate_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
        */
-      public Builder mergeMaxOutDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeMaxOutDate(io.dstore.values.TimestampValue value) {
         if (maxOutDateBuilder_ == null) {
           if (maxOutDate_ != null) {
             maxOutDate_ =
-              io.dstore.Values.timestampValue.newBuilder(maxOutDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(maxOutDate_).mergeFrom(value).buildPartial();
           } else {
             maxOutDate_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
        */
       public Builder clearMaxOutDate() {
         if (maxOutDateBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class CoDeleteUsersOnlineTimeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getMaxOutDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getMaxOutDateBuilder() {
         
         onChanged();
         return getMaxOutDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getMaxOutDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getMaxOutDateOrBuilder() {
         if (maxOutDateBuilder_ != null) {
           return maxOutDateBuilder_.getMessageOrBuilder();
         } else {
           return maxOutDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : maxOutDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : maxOutDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue max_out_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue max_out_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getMaxOutDateFieldBuilder() {
         if (maxOutDateBuilder_ == null) {
           maxOutDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getMaxOutDate(),
                   getParentForChildren(),
                   isClean());
@@ -3193,11 +3193,11 @@ public final class CoDeleteUsersOnlineTimeAd {
       "eleteUsersOnlineTime_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\211\002\n\nPar" +
       "ameters\0221\n\014community_id\030\001 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\032\n\021community_id_null\030" +
+      "alues.IntegerValue\022\032\n\021community_id_null\030" +
       "\351\007 \001(\010\0228\n\023community_member_id\030\002 \001(\0132\033.ds" +
-      "tore.values.integerValue\022!\n\030community_me" +
+      "tore.values.IntegerValue\022!\n\030community_me" +
       "mber_id_null\030\352\007 \001(\010\0223\n\014max_out_date\030\003 \001(" +
-      "\0132\035.dstore.values.timestampValue\022\032\n\021max_",
+      "\0132\035.dstore.values.TimestampValue\022\032\n\021max_",
       "out_date_null\030\353\007 \001(\010\"\313\001\n\010Response\0228\n\020met" +
       "a_information\030\002 \003(\0132\036.dstore.engine.Meta" +
       "Information\022\'\n\007message\030\003 \003(\0132\026.dstore.en" +
@@ -3219,7 +3219,7 @@ public final class CoDeleteUsersOnlineTimeAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_DeleteUsersOnlineTime_Ad_Parameters_descriptor =
@@ -3240,7 +3240,7 @@ public final class CoDeleteUsersOnlineTimeAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_DeleteUsersOnlineTime_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

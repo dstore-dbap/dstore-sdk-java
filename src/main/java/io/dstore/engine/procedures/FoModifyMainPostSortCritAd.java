@@ -19,17 +19,17 @@ public final class FoModifyMainPostSortCritAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    io.dstore.Values.integerValue getForumId();
+    io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class FoModifyMainPostSortCritAd {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
     boolean hasSortingCriteriaNo();
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
-    io.dstore.Values.integerValue getSortingCriteriaNo();
+    io.dstore.values.IntegerValue getSortingCriteriaNo();
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortingCriteriaNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortingCriteriaNoOrBuilder();
 
     /**
      * <code>optional bool sorting_criteria_no_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class FoModifyMainPostSortCritAd {
     boolean getSortingCriteriaNoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
     boolean hasSortingCriteriafirst();
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
-    io.dstore.Values.integerValue getSortingCriteriafirst();
+    io.dstore.values.IntegerValue getSortingCriteriafirst();
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortingCriteriafirstOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortingCriteriafirstOrBuilder();
 
     /**
      * <code>optional bool sorting_criteriafirst_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class FoModifyMainPostSortCritAd {
     boolean getSortingCriteriafirstNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
     boolean hasSortingOptionsfirst();
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
-    io.dstore.Values.integerValue getSortingOptionsfirst();
+    io.dstore.values.IntegerValue getSortingOptionsfirst();
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortingOptionsfirstOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortingOptionsfirstOrBuilder();
 
     /**
      * <code>optional bool sorting_optionsfirst_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class FoModifyMainPostSortCritAd {
     boolean getSortingOptionsfirstNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
     boolean hasSortingCriteriasecond();
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
-    io.dstore.Values.integerValue getSortingCriteriasecond();
+    io.dstore.values.IntegerValue getSortingCriteriasecond();
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortingCriteriasecondOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortingCriteriasecondOrBuilder();
 
     /**
      * <code>optional bool sorting_criteriasecond_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class FoModifyMainPostSortCritAd {
     boolean getSortingCriteriasecondNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
     boolean hasSortingOptionssecond();
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
-    io.dstore.Values.integerValue getSortingOptionssecond();
+    io.dstore.values.IntegerValue getSortingOptionssecond();
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortingOptionssecondOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortingOptionssecondOrBuilder();
 
     /**
      * <code>optional bool sorting_optionssecond_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class FoModifyMainPostSortCritAd {
     boolean getSortingOptionssecondNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
     boolean hasSortingCriteriathird();
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
-    io.dstore.Values.integerValue getSortingCriteriathird();
+    io.dstore.values.IntegerValue getSortingCriteriathird();
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortingCriteriathirdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortingCriteriathirdOrBuilder();
 
     /**
      * <code>optional bool sorting_criteriathird_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class FoModifyMainPostSortCritAd {
     boolean getSortingCriteriathirdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
     boolean hasSortingOptionsthird();
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
-    io.dstore.Values.integerValue getSortingOptionsthird();
+    io.dstore.values.IntegerValue getSortingOptionsthird();
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortingOptionsthirdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortingOptionsthirdOrBuilder();
 
     /**
      * <code>optional bool sorting_optionsthird_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class FoModifyMainPostSortCritAd {
     boolean getSortingOptionsthirdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
      */
     boolean hasActivateCriteria();
     /**
-     * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
      */
-    io.dstore.Values.booleanValue getActivateCriteria();
+    io.dstore.values.BooleanValue getActivateCriteria();
     /**
-     * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getActivateCriteriaOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getActivateCriteriaOrBuilder();
 
     /**
      * <code>optional bool activate_criteria_null = 1009;</code>
@@ -181,17 +181,17 @@ public final class FoModifyMainPostSortCritAd {
     boolean getActivateCriteriaNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
      */
     boolean hasDeleteCriteria();
     /**
-     * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
      */
-    io.dstore.Values.booleanValue getDeleteCriteria();
+    io.dstore.values.BooleanValue getDeleteCriteria();
     /**
-     * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteCriteriaOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteCriteriaOrBuilder();
 
     /**
      * <code>optional bool delete_criteria_null = 1010;</code>
@@ -248,11 +248,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -261,11 +261,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortingCriteriaNo_ != null) {
                 subBuilder = sortingCriteriaNo_.toBuilder();
               }
-              sortingCriteriaNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortingCriteriaNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingCriteriaNo_);
                 sortingCriteriaNo_ = subBuilder.buildPartial();
@@ -274,11 +274,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortingCriteriafirst_ != null) {
                 subBuilder = sortingCriteriafirst_.toBuilder();
               }
-              sortingCriteriafirst_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortingCriteriafirst_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingCriteriafirst_);
                 sortingCriteriafirst_ = subBuilder.buildPartial();
@@ -287,11 +287,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortingOptionsfirst_ != null) {
                 subBuilder = sortingOptionsfirst_.toBuilder();
               }
-              sortingOptionsfirst_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortingOptionsfirst_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingOptionsfirst_);
                 sortingOptionsfirst_ = subBuilder.buildPartial();
@@ -300,11 +300,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortingCriteriasecond_ != null) {
                 subBuilder = sortingCriteriasecond_.toBuilder();
               }
-              sortingCriteriasecond_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortingCriteriasecond_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingCriteriasecond_);
                 sortingCriteriasecond_ = subBuilder.buildPartial();
@@ -313,11 +313,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortingOptionssecond_ != null) {
                 subBuilder = sortingOptionssecond_.toBuilder();
               }
-              sortingOptionssecond_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortingOptionssecond_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingOptionssecond_);
                 sortingOptionssecond_ = subBuilder.buildPartial();
@@ -326,11 +326,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortingCriteriathird_ != null) {
                 subBuilder = sortingCriteriathird_.toBuilder();
               }
-              sortingCriteriathird_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortingCriteriathird_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingCriteriathird_);
                 sortingCriteriathird_ = subBuilder.buildPartial();
@@ -339,11 +339,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 66: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortingOptionsthird_ != null) {
                 subBuilder = sortingOptionsthird_.toBuilder();
               }
-              sortingOptionsthird_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortingOptionsthird_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingOptionsthird_);
                 sortingOptionsthird_ = subBuilder.buildPartial();
@@ -352,11 +352,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 74: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (activateCriteria_ != null) {
                 subBuilder = activateCriteria_.toBuilder();
               }
-              activateCriteria_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              activateCriteria_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(activateCriteria_);
                 activateCriteria_ = subBuilder.buildPartial();
@@ -365,11 +365,11 @@ public final class FoModifyMainPostSortCritAd {
               break;
             }
             case 82: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteCriteria_ != null) {
                 subBuilder = deleteCriteria_.toBuilder();
               }
-              deleteCriteria_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteCriteria_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteCriteria_);
                 deleteCriteria_ = subBuilder.buildPartial();
@@ -451,23 +451,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue forumId_;
+    private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.values.IntegerValue getForumId() {
+      return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -481,23 +481,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int SORTING_CRITERIA_NO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue sortingCriteriaNo_;
+    private io.dstore.values.IntegerValue sortingCriteriaNo_;
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
     public boolean hasSortingCriteriaNo() {
       return sortingCriteriaNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
-    public io.dstore.Values.integerValue getSortingCriteriaNo() {
-      return sortingCriteriaNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriaNo_;
+    public io.dstore.values.IntegerValue getSortingCriteriaNo() {
+      return sortingCriteriaNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriaNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortingCriteriaNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortingCriteriaNoOrBuilder() {
       return getSortingCriteriaNo();
     }
 
@@ -511,23 +511,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int SORTING_CRITERIAFIRST_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue sortingCriteriafirst_;
+    private io.dstore.values.IntegerValue sortingCriteriafirst_;
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
     public boolean hasSortingCriteriafirst() {
       return sortingCriteriafirst_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
-    public io.dstore.Values.integerValue getSortingCriteriafirst() {
-      return sortingCriteriafirst_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriafirst_;
+    public io.dstore.values.IntegerValue getSortingCriteriafirst() {
+      return sortingCriteriafirst_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriafirst_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortingCriteriafirstOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortingCriteriafirstOrBuilder() {
       return getSortingCriteriafirst();
     }
 
@@ -541,23 +541,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int SORTING_OPTIONSFIRST_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue sortingOptionsfirst_;
+    private io.dstore.values.IntegerValue sortingOptionsfirst_;
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
     public boolean hasSortingOptionsfirst() {
       return sortingOptionsfirst_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
-    public io.dstore.Values.integerValue getSortingOptionsfirst() {
-      return sortingOptionsfirst_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingOptionsfirst_;
+    public io.dstore.values.IntegerValue getSortingOptionsfirst() {
+      return sortingOptionsfirst_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionsfirst_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortingOptionsfirstOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortingOptionsfirstOrBuilder() {
       return getSortingOptionsfirst();
     }
 
@@ -571,23 +571,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int SORTING_CRITERIASECOND_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue sortingCriteriasecond_;
+    private io.dstore.values.IntegerValue sortingCriteriasecond_;
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
     public boolean hasSortingCriteriasecond() {
       return sortingCriteriasecond_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
-    public io.dstore.Values.integerValue getSortingCriteriasecond() {
-      return sortingCriteriasecond_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriasecond_;
+    public io.dstore.values.IntegerValue getSortingCriteriasecond() {
+      return sortingCriteriasecond_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriasecond_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortingCriteriasecondOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortingCriteriasecondOrBuilder() {
       return getSortingCriteriasecond();
     }
 
@@ -601,23 +601,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int SORTING_OPTIONSSECOND_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue sortingOptionssecond_;
+    private io.dstore.values.IntegerValue sortingOptionssecond_;
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
     public boolean hasSortingOptionssecond() {
       return sortingOptionssecond_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
-    public io.dstore.Values.integerValue getSortingOptionssecond() {
-      return sortingOptionssecond_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingOptionssecond_;
+    public io.dstore.values.IntegerValue getSortingOptionssecond() {
+      return sortingOptionssecond_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionssecond_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortingOptionssecondOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortingOptionssecondOrBuilder() {
       return getSortingOptionssecond();
     }
 
@@ -631,23 +631,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int SORTING_CRITERIATHIRD_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue sortingCriteriathird_;
+    private io.dstore.values.IntegerValue sortingCriteriathird_;
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
     public boolean hasSortingCriteriathird() {
       return sortingCriteriathird_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
-    public io.dstore.Values.integerValue getSortingCriteriathird() {
-      return sortingCriteriathird_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriathird_;
+    public io.dstore.values.IntegerValue getSortingCriteriathird() {
+      return sortingCriteriathird_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriathird_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortingCriteriathirdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortingCriteriathirdOrBuilder() {
       return getSortingCriteriathird();
     }
 
@@ -661,23 +661,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int SORTING_OPTIONSTHIRD_FIELD_NUMBER = 8;
-    private io.dstore.Values.integerValue sortingOptionsthird_;
+    private io.dstore.values.IntegerValue sortingOptionsthird_;
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
     public boolean hasSortingOptionsthird() {
       return sortingOptionsthird_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
-    public io.dstore.Values.integerValue getSortingOptionsthird() {
-      return sortingOptionsthird_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingOptionsthird_;
+    public io.dstore.values.IntegerValue getSortingOptionsthird() {
+      return sortingOptionsthird_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionsthird_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+     * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortingOptionsthirdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortingOptionsthirdOrBuilder() {
       return getSortingOptionsthird();
     }
 
@@ -691,23 +691,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int ACTIVATE_CRITERIA_FIELD_NUMBER = 9;
-    private io.dstore.Values.booleanValue activateCriteria_;
+    private io.dstore.values.BooleanValue activateCriteria_;
     /**
-     * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
      */
     public boolean hasActivateCriteria() {
       return activateCriteria_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
      */
-    public io.dstore.Values.booleanValue getActivateCriteria() {
-      return activateCriteria_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : activateCriteria_;
+    public io.dstore.values.BooleanValue getActivateCriteria() {
+      return activateCriteria_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : activateCriteria_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+     * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getActivateCriteriaOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getActivateCriteriaOrBuilder() {
       return getActivateCriteria();
     }
 
@@ -721,23 +721,23 @@ public final class FoModifyMainPostSortCritAd {
     }
 
     public static final int DELETE_CRITERIA_FIELD_NUMBER = 10;
-    private io.dstore.Values.booleanValue deleteCriteria_;
+    private io.dstore.values.BooleanValue deleteCriteria_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
      */
     public boolean hasDeleteCriteria() {
       return deleteCriteria_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteCriteria() {
-      return deleteCriteria_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCriteria_;
+    public io.dstore.values.BooleanValue getDeleteCriteria() {
+      return deleteCriteria_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCriteria_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+     * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteCriteriaOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteCriteriaOrBuilder() {
       return getDeleteCriteria();
     }
 
@@ -1482,29 +1482,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue forumId_ = null;
+      private io.dstore.values.IntegerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getForumId() {
+      public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public Builder setForumId(io.dstore.Values.integerValue value) {
+      public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1518,10 +1518,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder setForumId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -1532,13 +1532,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public Builder mergeForumId(io.dstore.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -1550,7 +1550,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -1564,33 +1564,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -1625,29 +1625,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortingCriteriaNo_ = null;
+      private io.dstore.values.IntegerValue sortingCriteriaNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortingCriteriaNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingCriteriaNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public boolean hasSortingCriteriaNo() {
         return sortingCriteriaNoBuilder_ != null || sortingCriteriaNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
-      public io.dstore.Values.integerValue getSortingCriteriaNo() {
+      public io.dstore.values.IntegerValue getSortingCriteriaNo() {
         if (sortingCriteriaNoBuilder_ == null) {
-          return sortingCriteriaNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriaNo_;
+          return sortingCriteriaNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriaNo_;
         } else {
           return sortingCriteriaNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
-      public Builder setSortingCriteriaNo(io.dstore.Values.integerValue value) {
+      public Builder setSortingCriteriaNo(io.dstore.values.IntegerValue value) {
         if (sortingCriteriaNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1661,10 +1661,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public Builder setSortingCriteriaNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortingCriteriaNoBuilder_ == null) {
           sortingCriteriaNo_ = builderForValue.build();
           onChanged();
@@ -1675,13 +1675,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
-      public Builder mergeSortingCriteriaNo(io.dstore.Values.integerValue value) {
+      public Builder mergeSortingCriteriaNo(io.dstore.values.IntegerValue value) {
         if (sortingCriteriaNoBuilder_ == null) {
           if (sortingCriteriaNo_ != null) {
             sortingCriteriaNo_ =
-              io.dstore.Values.integerValue.newBuilder(sortingCriteriaNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortingCriteriaNo_).mergeFrom(value).buildPartial();
           } else {
             sortingCriteriaNo_ = value;
           }
@@ -1693,7 +1693,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       public Builder clearSortingCriteriaNo() {
         if (sortingCriteriaNoBuilder_ == null) {
@@ -1707,33 +1707,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortingCriteriaNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortingCriteriaNoBuilder() {
         
         onChanged();
         return getSortingCriteriaNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortingCriteriaNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortingCriteriaNoOrBuilder() {
         if (sortingCriteriaNoBuilder_ != null) {
           return sortingCriteriaNoBuilder_.getMessageOrBuilder();
         } else {
           return sortingCriteriaNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriaNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriaNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteria_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteria_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortingCriteriaNoFieldBuilder() {
         if (sortingCriteriaNoBuilder_ == null) {
           sortingCriteriaNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortingCriteriaNo(),
                   getParentForChildren(),
                   isClean());
@@ -1768,29 +1768,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortingCriteriafirst_ = null;
+      private io.dstore.values.IntegerValue sortingCriteriafirst_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortingCriteriafirstBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingCriteriafirstBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public boolean hasSortingCriteriafirst() {
         return sortingCriteriafirstBuilder_ != null || sortingCriteriafirst_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
-      public io.dstore.Values.integerValue getSortingCriteriafirst() {
+      public io.dstore.values.IntegerValue getSortingCriteriafirst() {
         if (sortingCriteriafirstBuilder_ == null) {
-          return sortingCriteriafirst_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriafirst_;
+          return sortingCriteriafirst_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriafirst_;
         } else {
           return sortingCriteriafirstBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
-      public Builder setSortingCriteriafirst(io.dstore.Values.integerValue value) {
+      public Builder setSortingCriteriafirst(io.dstore.values.IntegerValue value) {
         if (sortingCriteriafirstBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1804,10 +1804,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public Builder setSortingCriteriafirst(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortingCriteriafirstBuilder_ == null) {
           sortingCriteriafirst_ = builderForValue.build();
           onChanged();
@@ -1818,13 +1818,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
-      public Builder mergeSortingCriteriafirst(io.dstore.Values.integerValue value) {
+      public Builder mergeSortingCriteriafirst(io.dstore.values.IntegerValue value) {
         if (sortingCriteriafirstBuilder_ == null) {
           if (sortingCriteriafirst_ != null) {
             sortingCriteriafirst_ =
-              io.dstore.Values.integerValue.newBuilder(sortingCriteriafirst_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortingCriteriafirst_).mergeFrom(value).buildPartial();
           } else {
             sortingCriteriafirst_ = value;
           }
@@ -1836,7 +1836,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       public Builder clearSortingCriteriafirst() {
         if (sortingCriteriafirstBuilder_ == null) {
@@ -1850,33 +1850,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortingCriteriafirstBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortingCriteriafirstBuilder() {
         
         onChanged();
         return getSortingCriteriafirstFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortingCriteriafirstOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortingCriteriafirstOrBuilder() {
         if (sortingCriteriafirstBuilder_ != null) {
           return sortingCriteriafirstBuilder_.getMessageOrBuilder();
         } else {
           return sortingCriteriafirst_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriafirst_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriafirst_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriafirst = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriafirst = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortingCriteriafirstFieldBuilder() {
         if (sortingCriteriafirstBuilder_ == null) {
           sortingCriteriafirstBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortingCriteriafirst(),
                   getParentForChildren(),
                   isClean());
@@ -1911,29 +1911,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortingOptionsfirst_ = null;
+      private io.dstore.values.IntegerValue sortingOptionsfirst_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortingOptionsfirstBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingOptionsfirstBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public boolean hasSortingOptionsfirst() {
         return sortingOptionsfirstBuilder_ != null || sortingOptionsfirst_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
-      public io.dstore.Values.integerValue getSortingOptionsfirst() {
+      public io.dstore.values.IntegerValue getSortingOptionsfirst() {
         if (sortingOptionsfirstBuilder_ == null) {
-          return sortingOptionsfirst_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingOptionsfirst_;
+          return sortingOptionsfirst_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionsfirst_;
         } else {
           return sortingOptionsfirstBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
-      public Builder setSortingOptionsfirst(io.dstore.Values.integerValue value) {
+      public Builder setSortingOptionsfirst(io.dstore.values.IntegerValue value) {
         if (sortingOptionsfirstBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1947,10 +1947,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public Builder setSortingOptionsfirst(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortingOptionsfirstBuilder_ == null) {
           sortingOptionsfirst_ = builderForValue.build();
           onChanged();
@@ -1961,13 +1961,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
-      public Builder mergeSortingOptionsfirst(io.dstore.Values.integerValue value) {
+      public Builder mergeSortingOptionsfirst(io.dstore.values.IntegerValue value) {
         if (sortingOptionsfirstBuilder_ == null) {
           if (sortingOptionsfirst_ != null) {
             sortingOptionsfirst_ =
-              io.dstore.Values.integerValue.newBuilder(sortingOptionsfirst_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortingOptionsfirst_).mergeFrom(value).buildPartial();
           } else {
             sortingOptionsfirst_ = value;
           }
@@ -1979,7 +1979,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       public Builder clearSortingOptionsfirst() {
         if (sortingOptionsfirstBuilder_ == null) {
@@ -1993,33 +1993,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortingOptionsfirstBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortingOptionsfirstBuilder() {
         
         onChanged();
         return getSortingOptionsfirstFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortingOptionsfirstOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortingOptionsfirstOrBuilder() {
         if (sortingOptionsfirstBuilder_ != null) {
           return sortingOptionsfirstBuilder_.getMessageOrBuilder();
         } else {
           return sortingOptionsfirst_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortingOptionsfirst_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionsfirst_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsfirst = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsfirst = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortingOptionsfirstFieldBuilder() {
         if (sortingOptionsfirstBuilder_ == null) {
           sortingOptionsfirstBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortingOptionsfirst(),
                   getParentForChildren(),
                   isClean());
@@ -2054,29 +2054,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortingCriteriasecond_ = null;
+      private io.dstore.values.IntegerValue sortingCriteriasecond_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortingCriteriasecondBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingCriteriasecondBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public boolean hasSortingCriteriasecond() {
         return sortingCriteriasecondBuilder_ != null || sortingCriteriasecond_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
-      public io.dstore.Values.integerValue getSortingCriteriasecond() {
+      public io.dstore.values.IntegerValue getSortingCriteriasecond() {
         if (sortingCriteriasecondBuilder_ == null) {
-          return sortingCriteriasecond_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriasecond_;
+          return sortingCriteriasecond_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriasecond_;
         } else {
           return sortingCriteriasecondBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
-      public Builder setSortingCriteriasecond(io.dstore.Values.integerValue value) {
+      public Builder setSortingCriteriasecond(io.dstore.values.IntegerValue value) {
         if (sortingCriteriasecondBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2090,10 +2090,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public Builder setSortingCriteriasecond(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortingCriteriasecondBuilder_ == null) {
           sortingCriteriasecond_ = builderForValue.build();
           onChanged();
@@ -2104,13 +2104,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
-      public Builder mergeSortingCriteriasecond(io.dstore.Values.integerValue value) {
+      public Builder mergeSortingCriteriasecond(io.dstore.values.IntegerValue value) {
         if (sortingCriteriasecondBuilder_ == null) {
           if (sortingCriteriasecond_ != null) {
             sortingCriteriasecond_ =
-              io.dstore.Values.integerValue.newBuilder(sortingCriteriasecond_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortingCriteriasecond_).mergeFrom(value).buildPartial();
           } else {
             sortingCriteriasecond_ = value;
           }
@@ -2122,7 +2122,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       public Builder clearSortingCriteriasecond() {
         if (sortingCriteriasecondBuilder_ == null) {
@@ -2136,33 +2136,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortingCriteriasecondBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortingCriteriasecondBuilder() {
         
         onChanged();
         return getSortingCriteriasecondFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortingCriteriasecondOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortingCriteriasecondOrBuilder() {
         if (sortingCriteriasecondBuilder_ != null) {
           return sortingCriteriasecondBuilder_.getMessageOrBuilder();
         } else {
           return sortingCriteriasecond_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriasecond_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriasecond_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriasecond = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriasecond = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortingCriteriasecondFieldBuilder() {
         if (sortingCriteriasecondBuilder_ == null) {
           sortingCriteriasecondBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortingCriteriasecond(),
                   getParentForChildren(),
                   isClean());
@@ -2197,29 +2197,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortingOptionssecond_ = null;
+      private io.dstore.values.IntegerValue sortingOptionssecond_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortingOptionssecondBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingOptionssecondBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public boolean hasSortingOptionssecond() {
         return sortingOptionssecondBuilder_ != null || sortingOptionssecond_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
-      public io.dstore.Values.integerValue getSortingOptionssecond() {
+      public io.dstore.values.IntegerValue getSortingOptionssecond() {
         if (sortingOptionssecondBuilder_ == null) {
-          return sortingOptionssecond_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingOptionssecond_;
+          return sortingOptionssecond_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionssecond_;
         } else {
           return sortingOptionssecondBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
-      public Builder setSortingOptionssecond(io.dstore.Values.integerValue value) {
+      public Builder setSortingOptionssecond(io.dstore.values.IntegerValue value) {
         if (sortingOptionssecondBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2233,10 +2233,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public Builder setSortingOptionssecond(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortingOptionssecondBuilder_ == null) {
           sortingOptionssecond_ = builderForValue.build();
           onChanged();
@@ -2247,13 +2247,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
-      public Builder mergeSortingOptionssecond(io.dstore.Values.integerValue value) {
+      public Builder mergeSortingOptionssecond(io.dstore.values.IntegerValue value) {
         if (sortingOptionssecondBuilder_ == null) {
           if (sortingOptionssecond_ != null) {
             sortingOptionssecond_ =
-              io.dstore.Values.integerValue.newBuilder(sortingOptionssecond_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortingOptionssecond_).mergeFrom(value).buildPartial();
           } else {
             sortingOptionssecond_ = value;
           }
@@ -2265,7 +2265,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       public Builder clearSortingOptionssecond() {
         if (sortingOptionssecondBuilder_ == null) {
@@ -2279,33 +2279,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortingOptionssecondBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortingOptionssecondBuilder() {
         
         onChanged();
         return getSortingOptionssecondFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortingOptionssecondOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortingOptionssecondOrBuilder() {
         if (sortingOptionssecondBuilder_ != null) {
           return sortingOptionssecondBuilder_.getMessageOrBuilder();
         } else {
           return sortingOptionssecond_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortingOptionssecond_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionssecond_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionssecond = 6;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionssecond = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortingOptionssecondFieldBuilder() {
         if (sortingOptionssecondBuilder_ == null) {
           sortingOptionssecondBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortingOptionssecond(),
                   getParentForChildren(),
                   isClean());
@@ -2340,29 +2340,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortingCriteriathird_ = null;
+      private io.dstore.values.IntegerValue sortingCriteriathird_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortingCriteriathirdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingCriteriathirdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public boolean hasSortingCriteriathird() {
         return sortingCriteriathirdBuilder_ != null || sortingCriteriathird_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
-      public io.dstore.Values.integerValue getSortingCriteriathird() {
+      public io.dstore.values.IntegerValue getSortingCriteriathird() {
         if (sortingCriteriathirdBuilder_ == null) {
-          return sortingCriteriathird_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriathird_;
+          return sortingCriteriathird_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriathird_;
         } else {
           return sortingCriteriathirdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
-      public Builder setSortingCriteriathird(io.dstore.Values.integerValue value) {
+      public Builder setSortingCriteriathird(io.dstore.values.IntegerValue value) {
         if (sortingCriteriathirdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2376,10 +2376,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public Builder setSortingCriteriathird(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortingCriteriathirdBuilder_ == null) {
           sortingCriteriathird_ = builderForValue.build();
           onChanged();
@@ -2390,13 +2390,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
-      public Builder mergeSortingCriteriathird(io.dstore.Values.integerValue value) {
+      public Builder mergeSortingCriteriathird(io.dstore.values.IntegerValue value) {
         if (sortingCriteriathirdBuilder_ == null) {
           if (sortingCriteriathird_ != null) {
             sortingCriteriathird_ =
-              io.dstore.Values.integerValue.newBuilder(sortingCriteriathird_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortingCriteriathird_).mergeFrom(value).buildPartial();
           } else {
             sortingCriteriathird_ = value;
           }
@@ -2408,7 +2408,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       public Builder clearSortingCriteriathird() {
         if (sortingCriteriathirdBuilder_ == null) {
@@ -2422,33 +2422,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortingCriteriathirdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortingCriteriathirdBuilder() {
         
         onChanged();
         return getSortingCriteriathirdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortingCriteriathirdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortingCriteriathirdOrBuilder() {
         if (sortingCriteriathirdBuilder_ != null) {
           return sortingCriteriathirdBuilder_.getMessageOrBuilder();
         } else {
           return sortingCriteriathird_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortingCriteriathird_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortingCriteriathird_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_criteriathird = 7;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_criteriathird = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortingCriteriathirdFieldBuilder() {
         if (sortingCriteriathirdBuilder_ == null) {
           sortingCriteriathirdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortingCriteriathird(),
                   getParentForChildren(),
                   isClean());
@@ -2483,29 +2483,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortingOptionsthird_ = null;
+      private io.dstore.values.IntegerValue sortingOptionsthird_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortingOptionsthirdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortingOptionsthirdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public boolean hasSortingOptionsthird() {
         return sortingOptionsthirdBuilder_ != null || sortingOptionsthird_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
-      public io.dstore.Values.integerValue getSortingOptionsthird() {
+      public io.dstore.values.IntegerValue getSortingOptionsthird() {
         if (sortingOptionsthirdBuilder_ == null) {
-          return sortingOptionsthird_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortingOptionsthird_;
+          return sortingOptionsthird_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionsthird_;
         } else {
           return sortingOptionsthirdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
-      public Builder setSortingOptionsthird(io.dstore.Values.integerValue value) {
+      public Builder setSortingOptionsthird(io.dstore.values.IntegerValue value) {
         if (sortingOptionsthirdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2519,10 +2519,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public Builder setSortingOptionsthird(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortingOptionsthirdBuilder_ == null) {
           sortingOptionsthird_ = builderForValue.build();
           onChanged();
@@ -2533,13 +2533,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
-      public Builder mergeSortingOptionsthird(io.dstore.Values.integerValue value) {
+      public Builder mergeSortingOptionsthird(io.dstore.values.IntegerValue value) {
         if (sortingOptionsthirdBuilder_ == null) {
           if (sortingOptionsthird_ != null) {
             sortingOptionsthird_ =
-              io.dstore.Values.integerValue.newBuilder(sortingOptionsthird_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortingOptionsthird_).mergeFrom(value).buildPartial();
           } else {
             sortingOptionsthird_ = value;
           }
@@ -2551,7 +2551,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       public Builder clearSortingOptionsthird() {
         if (sortingOptionsthirdBuilder_ == null) {
@@ -2565,33 +2565,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortingOptionsthirdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortingOptionsthirdBuilder() {
         
         onChanged();
         return getSortingOptionsthirdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortingOptionsthirdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortingOptionsthirdOrBuilder() {
         if (sortingOptionsthirdBuilder_ != null) {
           return sortingOptionsthirdBuilder_.getMessageOrBuilder();
         } else {
           return sortingOptionsthird_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortingOptionsthird_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortingOptionsthird_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sorting_optionsthird = 8;</code>
+       * <code>optional .dstore.values.IntegerValue sorting_optionsthird = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortingOptionsthirdFieldBuilder() {
         if (sortingOptionsthirdBuilder_ == null) {
           sortingOptionsthirdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortingOptionsthird(),
                   getParentForChildren(),
                   isClean());
@@ -2626,29 +2626,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue activateCriteria_ = null;
+      private io.dstore.values.BooleanValue activateCriteria_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activateCriteriaBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> activateCriteriaBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public boolean hasActivateCriteria() {
         return activateCriteriaBuilder_ != null || activateCriteria_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
        */
-      public io.dstore.Values.booleanValue getActivateCriteria() {
+      public io.dstore.values.BooleanValue getActivateCriteria() {
         if (activateCriteriaBuilder_ == null) {
-          return activateCriteria_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : activateCriteria_;
+          return activateCriteria_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : activateCriteria_;
         } else {
           return activateCriteriaBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
        */
-      public Builder setActivateCriteria(io.dstore.Values.booleanValue value) {
+      public Builder setActivateCriteria(io.dstore.values.BooleanValue value) {
         if (activateCriteriaBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2662,10 +2662,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public Builder setActivateCriteria(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (activateCriteriaBuilder_ == null) {
           activateCriteria_ = builderForValue.build();
           onChanged();
@@ -2676,13 +2676,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
        */
-      public Builder mergeActivateCriteria(io.dstore.Values.booleanValue value) {
+      public Builder mergeActivateCriteria(io.dstore.values.BooleanValue value) {
         if (activateCriteriaBuilder_ == null) {
           if (activateCriteria_ != null) {
             activateCriteria_ =
-              io.dstore.Values.booleanValue.newBuilder(activateCriteria_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(activateCriteria_).mergeFrom(value).buildPartial();
           } else {
             activateCriteria_ = value;
           }
@@ -2694,7 +2694,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       public Builder clearActivateCriteria() {
         if (activateCriteriaBuilder_ == null) {
@@ -2708,33 +2708,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getActivateCriteriaBuilder() {
+      public io.dstore.values.BooleanValue.Builder getActivateCriteriaBuilder() {
         
         onChanged();
         return getActivateCriteriaFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getActivateCriteriaOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getActivateCriteriaOrBuilder() {
         if (activateCriteriaBuilder_ != null) {
           return activateCriteriaBuilder_.getMessageOrBuilder();
         } else {
           return activateCriteria_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : activateCriteria_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : activateCriteria_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue activate_criteria = 9;</code>
+       * <code>optional .dstore.values.BooleanValue activate_criteria = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getActivateCriteriaFieldBuilder() {
         if (activateCriteriaBuilder_ == null) {
           activateCriteriaBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getActivateCriteria(),
                   getParentForChildren(),
                   isClean());
@@ -2769,29 +2769,29 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteCriteria_ = null;
+      private io.dstore.values.BooleanValue deleteCriteria_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteCriteriaBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteCriteriaBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public boolean hasDeleteCriteria() {
         return deleteCriteriaBuilder_ != null || deleteCriteria_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteCriteria() {
+      public io.dstore.values.BooleanValue getDeleteCriteria() {
         if (deleteCriteriaBuilder_ == null) {
-          return deleteCriteria_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCriteria_;
+          return deleteCriteria_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCriteria_;
         } else {
           return deleteCriteriaBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
        */
-      public Builder setDeleteCriteria(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteCriteria(io.dstore.values.BooleanValue value) {
         if (deleteCriteriaBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2805,10 +2805,10 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public Builder setDeleteCriteria(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteCriteriaBuilder_ == null) {
           deleteCriteria_ = builderForValue.build();
           onChanged();
@@ -2819,13 +2819,13 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
        */
-      public Builder mergeDeleteCriteria(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteCriteria(io.dstore.values.BooleanValue value) {
         if (deleteCriteriaBuilder_ == null) {
           if (deleteCriteria_ != null) {
             deleteCriteria_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteCriteria_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteCriteria_).mergeFrom(value).buildPartial();
           } else {
             deleteCriteria_ = value;
           }
@@ -2837,7 +2837,7 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       public Builder clearDeleteCriteria() {
         if (deleteCriteriaBuilder_ == null) {
@@ -2851,33 +2851,33 @@ public final class FoModifyMainPostSortCritAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteCriteriaBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteCriteriaBuilder() {
         
         onChanged();
         return getDeleteCriteriaFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteCriteriaOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteCriteriaOrBuilder() {
         if (deleteCriteriaBuilder_ != null) {
           return deleteCriteriaBuilder_.getMessageOrBuilder();
         } else {
           return deleteCriteria_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteCriteria_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteCriteria_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_criteria = 10;</code>
+       * <code>optional .dstore.values.BooleanValue delete_criteria = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteCriteriaFieldBuilder() {
         if (deleteCriteriaBuilder_ == null) {
           deleteCriteriaBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteCriteria(),
                   getParentForChildren(),
                   isClean());
@@ -4999,28 +4999,28 @@ public final class FoModifyMainPostSortCritAd {
       "ModifyMainPostSortCrit_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\242\007\n\nP" +
       "arameters\022-\n\010forum_id\030\001 \001(\0132\033.dstore.val" +
-      "ues.integerValue\022\026\n\rforum_id_null\030\351\007 \001(\010" +
+      "ues.IntegerValue\022\026\n\rforum_id_null\030\351\007 \001(\010" +
       "\0228\n\023sorting_criteria_no\030\002 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022!\n\030sorting_criteria_n" +
+      "alues.IntegerValue\022!\n\030sorting_criteria_n" +
       "o_null\030\352\007 \001(\010\022:\n\025sorting_criteriafirst\030\003" +
-      " \001(\0132\033.dstore.values.integerValue\022#\n\032sor",
+      " \001(\0132\033.dstore.values.IntegerValue\022#\n\032sor",
       "ting_criteriafirst_null\030\353\007 \001(\010\0229\n\024sortin" +
-      "g_optionsfirst\030\004 \001(\0132\033.dstore.values.int" +
+      "g_optionsfirst\030\004 \001(\0132\033.dstore.values.Int" +
       "egerValue\022\"\n\031sorting_optionsfirst_null\030\354" +
       "\007 \001(\010\022;\n\026sorting_criteriasecond\030\005 \001(\0132\033." +
-      "dstore.values.integerValue\022$\n\033sorting_cr" +
+      "dstore.values.IntegerValue\022$\n\033sorting_cr" +
       "iteriasecond_null\030\355\007 \001(\010\022:\n\025sorting_opti" +
-      "onssecond\030\006 \001(\0132\033.dstore.values.integerV" +
+      "onssecond\030\006 \001(\0132\033.dstore.values.IntegerV" +
       "alue\022#\n\032sorting_optionssecond_null\030\356\007 \001(" +
       "\010\022:\n\025sorting_criteriathird\030\007 \001(\0132\033.dstor" +
-      "e.values.integerValue\022#\n\032sorting_criteri",
+      "e.values.IntegerValue\022#\n\032sorting_criteri",
       "athird_null\030\357\007 \001(\010\0229\n\024sorting_optionsthi" +
-      "rd\030\010 \001(\0132\033.dstore.values.integerValue\022\"\n" +
+      "rd\030\010 \001(\0132\033.dstore.values.IntegerValue\022\"\n" +
       "\031sorting_optionsthird_null\030\360\007 \001(\010\0226\n\021act" +
-      "ivate_criteria\030\t \001(\0132\033.dstore.values.boo" +
+      "ivate_criteria\030\t \001(\0132\033.dstore.values.Boo" +
       "leanValue\022\037\n\026activate_criteria_null\030\361\007 \001" +
       "(\010\0224\n\017delete_criteria\030\n \001(\0132\033.dstore.val" +
-      "ues.booleanValue\022\035\n\024delete_criteria_null" +
+      "ues.BooleanValue\022\035\n\024delete_criteria_null" +
       "\030\362\007 \001(\010\"\314\001\n\010Response\0228\n\020meta_information" +
       "\030\002 \003(\0132\036.dstore.engine.MetaInformation\022\'" +
       "\n\007message\030\003 \003(\0132\026.dstore.engine.Message\022",
@@ -5041,7 +5041,7 @@ public final class FoModifyMainPostSortCritAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_fo_ModifyMainPostSortCrit_Ad_Parameters_descriptor =
@@ -5062,7 +5062,7 @@ public final class FoModifyMainPostSortCritAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_ModifyMainPostSortCrit_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

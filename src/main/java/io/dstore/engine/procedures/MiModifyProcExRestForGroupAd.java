@@ -19,17 +19,17 @@ public final class MiModifyProcExRestForGroupAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
     boolean hasProcedureId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    io.dstore.Values.integerValue getProcedureId();
+    io.dstore.values.IntegerValue getProcedureId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder();
 
     /**
      * <code>optional bool procedure_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getProcedureIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
      */
     boolean hasRestrictionForUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
      */
-    io.dstore.Values.integerValue getRestrictionForUserGroupId();
+    io.dstore.values.IntegerValue getRestrictionForUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRestrictionForUserGroupIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRestrictionForUserGroupIdOrBuilder();
 
     /**
      * <code>optional bool restriction_for_user_group_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getRestrictionForUserGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+     * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
      */
     boolean hasFromNestingLevel();
     /**
-     * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+     * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
      */
-    io.dstore.Values.integerValue getFromNestingLevel();
+    io.dstore.values.IntegerValue getFromNestingLevel();
     /**
-     * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+     * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFromNestingLevelOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFromNestingLevelOrBuilder();
 
     /**
      * <code>optional bool from_nesting_level_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getFromNestingLevelNull();
 
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
      */
-    io.dstore.Values.integerValue getConditionId();
+    io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
      * <code>optional bool condition_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
      */
     boolean hasParameterName();
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
      */
-    io.dstore.Values.stringValue getParameterName();
+    io.dstore.values.StringValue getParameterName();
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder();
 
     /**
      * <code>optional bool parameter_name_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getParameterNameNull();
 
     /**
-     * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+     * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
      */
     boolean hasConditionNumber();
     /**
-     * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+     * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
      */
-    io.dstore.Values.integerValue getConditionNumber();
+    io.dstore.values.IntegerValue getConditionNumber();
     /**
-     * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+     * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionNumberOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionNumberOrBuilder();
 
     /**
      * <code>optional bool condition_number_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getConditionNumberNull();
 
     /**
-     * <code>optional .dstore.values.stringValue operator = 7;</code>
+     * <code>optional .dstore.values.StringValue operator = 7;</code>
      */
     boolean hasOperator();
     /**
-     * <code>optional .dstore.values.stringValue operator = 7;</code>
+     * <code>optional .dstore.values.StringValue operator = 7;</code>
      */
-    io.dstore.Values.stringValue getOperator();
+    io.dstore.values.StringValue getOperator();
     /**
-     * <code>optional .dstore.values.stringValue operator = 7;</code>
+     * <code>optional .dstore.values.StringValue operator = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getOperatorOrBuilder();
+    io.dstore.values.StringValueOrBuilder getOperatorOrBuilder();
 
     /**
      * <code>optional bool operator_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getOperatorNull();
 
     /**
-     * <code>optional .dstore.values.stringValue condition = 8;</code>
+     * <code>optional .dstore.values.StringValue condition = 8;</code>
      */
     boolean hasCondition();
     /**
-     * <code>optional .dstore.values.stringValue condition = 8;</code>
+     * <code>optional .dstore.values.StringValue condition = 8;</code>
      */
-    io.dstore.Values.stringValue getCondition();
+    io.dstore.values.StringValue getCondition();
     /**
-     * <code>optional .dstore.values.stringValue condition = 8;</code>
+     * <code>optional .dstore.values.StringValue condition = 8;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getConditionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getConditionOrBuilder();
 
     /**
      * <code>optional bool condition_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getConditionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+     * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
      */
     boolean hasRestrictionIsActive();
     /**
-     * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+     * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
      */
-    io.dstore.Values.booleanValue getRestrictionIsActive();
+    io.dstore.values.BooleanValue getRestrictionIsActive();
     /**
-     * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+     * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getRestrictionIsActiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getRestrictionIsActiveOrBuilder();
 
     /**
      * <code>optional bool restriction_is_active_null = 1009;</code>
@@ -181,17 +181,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getRestrictionIsActiveNull();
 
     /**
-     * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+     * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
      */
     boolean hasSetRestrictionIsActiveOnly();
     /**
-     * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+     * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
      */
-    io.dstore.Values.integerValue getSetRestrictionIsActiveOnly();
+    io.dstore.values.IntegerValue getSetRestrictionIsActiveOnly();
     /**
-     * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+     * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSetRestrictionIsActiveOnlyOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSetRestrictionIsActiveOnlyOrBuilder();
 
     /**
      * <code>optional bool set_restriction_is_active_only_null = 1010;</code>
@@ -199,17 +199,17 @@ public final class MiModifyProcExRestForGroupAd {
     boolean getSetRestrictionIsActiveOnlyNull();
 
     /**
-     * <code>optional .dstore.values.integerValue delete = 11;</code>
+     * <code>optional .dstore.values.IntegerValue delete = 11;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.integerValue delete = 11;</code>
+     * <code>optional .dstore.values.IntegerValue delete = 11;</code>
      */
-    io.dstore.Values.integerValue getDelete();
+    io.dstore.values.IntegerValue getDelete();
     /**
-     * <code>optional .dstore.values.integerValue delete = 11;</code>
+     * <code>optional .dstore.values.IntegerValue delete = 11;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getDeleteOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1011;</code>
@@ -267,11 +267,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (procedureId_ != null) {
                 subBuilder = procedureId_.toBuilder();
               }
-              procedureId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              procedureId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureId_);
                 procedureId_ = subBuilder.buildPartial();
@@ -280,11 +280,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (restrictionForUserGroupId_ != null) {
                 subBuilder = restrictionForUserGroupId_.toBuilder();
               }
-              restrictionForUserGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              restrictionForUserGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(restrictionForUserGroupId_);
                 restrictionForUserGroupId_ = subBuilder.buildPartial();
@@ -293,11 +293,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (fromNestingLevel_ != null) {
                 subBuilder = fromNestingLevel_.toBuilder();
               }
-              fromNestingLevel_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              fromNestingLevel_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromNestingLevel_);
                 fromNestingLevel_ = subBuilder.buildPartial();
@@ -306,11 +306,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -319,11 +319,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (parameterName_ != null) {
                 subBuilder = parameterName_.toBuilder();
               }
-              parameterName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              parameterName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(parameterName_);
                 parameterName_ = subBuilder.buildPartial();
@@ -332,11 +332,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionNumber_ != null) {
                 subBuilder = conditionNumber_.toBuilder();
               }
-              conditionNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionNumber_);
                 conditionNumber_ = subBuilder.buildPartial();
@@ -345,11 +345,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (operator_ != null) {
                 subBuilder = operator_.toBuilder();
               }
-              operator_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              operator_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(operator_);
                 operator_ = subBuilder.buildPartial();
@@ -358,11 +358,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 66: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (condition_ != null) {
                 subBuilder = condition_.toBuilder();
               }
-              condition_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              condition_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(condition_);
                 condition_ = subBuilder.buildPartial();
@@ -371,11 +371,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 74: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (restrictionIsActive_ != null) {
                 subBuilder = restrictionIsActive_.toBuilder();
               }
-              restrictionIsActive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              restrictionIsActive_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(restrictionIsActive_);
                 restrictionIsActive_ = subBuilder.buildPartial();
@@ -384,11 +384,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 82: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (setRestrictionIsActiveOnly_ != null) {
                 subBuilder = setRestrictionIsActiveOnly_.toBuilder();
               }
-              setRestrictionIsActiveOnly_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              setRestrictionIsActiveOnly_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(setRestrictionIsActiveOnly_);
                 setRestrictionIsActiveOnly_ = subBuilder.buildPartial();
@@ -397,11 +397,11 @@ public final class MiModifyProcExRestForGroupAd {
               break;
             }
             case 90: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -488,23 +488,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int PROCEDURE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue procedureId_;
+    private io.dstore.values.IntegerValue procedureId_;
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
     public boolean hasProcedureId() {
       return procedureId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getProcedureId() {
-      return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+    public io.dstore.values.IntegerValue getProcedureId() {
+      return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
       return getProcedureId();
     }
 
@@ -518,23 +518,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int RESTRICTION_FOR_USER_GROUP_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue restrictionForUserGroupId_;
+    private io.dstore.values.IntegerValue restrictionForUserGroupId_;
     /**
-     * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
      */
     public boolean hasRestrictionForUserGroupId() {
       return restrictionForUserGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getRestrictionForUserGroupId() {
-      return restrictionForUserGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : restrictionForUserGroupId_;
+    public io.dstore.values.IntegerValue getRestrictionForUserGroupId() {
+      return restrictionForUserGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : restrictionForUserGroupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRestrictionForUserGroupIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRestrictionForUserGroupIdOrBuilder() {
       return getRestrictionForUserGroupId();
     }
 
@@ -548,23 +548,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int FROM_NESTING_LEVEL_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue fromNestingLevel_;
+    private io.dstore.values.IntegerValue fromNestingLevel_;
     /**
-     * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+     * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
      */
     public boolean hasFromNestingLevel() {
       return fromNestingLevel_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+     * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
      */
-    public io.dstore.Values.integerValue getFromNestingLevel() {
-      return fromNestingLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromNestingLevel_;
+    public io.dstore.values.IntegerValue getFromNestingLevel() {
+      return fromNestingLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromNestingLevel_;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+     * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFromNestingLevelOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFromNestingLevelOrBuilder() {
       return getFromNestingLevel();
     }
 
@@ -578,23 +578,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue conditionId_;
+    private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.values.IntegerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -608,23 +608,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int PARAMETER_NAME_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue parameterName_;
+    private io.dstore.values.StringValue parameterName_;
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
      */
     public boolean hasParameterName() {
       return parameterName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
      */
-    public io.dstore.Values.stringValue getParameterName() {
-      return parameterName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+    public io.dstore.values.StringValue getParameterName() {
+      return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
       return getParameterName();
     }
 
@@ -638,23 +638,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int CONDITION_NUMBER_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue conditionNumber_;
+    private io.dstore.values.IntegerValue conditionNumber_;
     /**
-     * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+     * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
      */
     public boolean hasConditionNumber() {
       return conditionNumber_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+     * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
      */
-    public io.dstore.Values.integerValue getConditionNumber() {
-      return conditionNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionNumber_;
+    public io.dstore.values.IntegerValue getConditionNumber() {
+      return conditionNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionNumber_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+     * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionNumberOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionNumberOrBuilder() {
       return getConditionNumber();
     }
 
@@ -668,23 +668,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int OPERATOR_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue operator_;
+    private io.dstore.values.StringValue operator_;
     /**
-     * <code>optional .dstore.values.stringValue operator = 7;</code>
+     * <code>optional .dstore.values.StringValue operator = 7;</code>
      */
     public boolean hasOperator() {
       return operator_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue operator = 7;</code>
+     * <code>optional .dstore.values.StringValue operator = 7;</code>
      */
-    public io.dstore.Values.stringValue getOperator() {
-      return operator_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator_;
+    public io.dstore.values.StringValue getOperator() {
+      return operator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator_;
     }
     /**
-     * <code>optional .dstore.values.stringValue operator = 7;</code>
+     * <code>optional .dstore.values.StringValue operator = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getOperatorOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getOperatorOrBuilder() {
       return getOperator();
     }
 
@@ -698,23 +698,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int CONDITION_FIELD_NUMBER = 8;
-    private io.dstore.Values.stringValue condition_;
+    private io.dstore.values.StringValue condition_;
     /**
-     * <code>optional .dstore.values.stringValue condition = 8;</code>
+     * <code>optional .dstore.values.StringValue condition = 8;</code>
      */
     public boolean hasCondition() {
       return condition_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition = 8;</code>
+     * <code>optional .dstore.values.StringValue condition = 8;</code>
      */
-    public io.dstore.Values.stringValue getCondition() {
-      return condition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition_;
+    public io.dstore.values.StringValue getCondition() {
+      return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition = 8;</code>
+     * <code>optional .dstore.values.StringValue condition = 8;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getConditionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
       return getCondition();
     }
 
@@ -728,23 +728,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int RESTRICTION_IS_ACTIVE_FIELD_NUMBER = 9;
-    private io.dstore.Values.booleanValue restrictionIsActive_;
+    private io.dstore.values.BooleanValue restrictionIsActive_;
     /**
-     * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+     * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
      */
     public boolean hasRestrictionIsActive() {
       return restrictionIsActive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+     * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
      */
-    public io.dstore.Values.booleanValue getRestrictionIsActive() {
-      return restrictionIsActive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : restrictionIsActive_;
+    public io.dstore.values.BooleanValue getRestrictionIsActive() {
+      return restrictionIsActive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : restrictionIsActive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+     * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getRestrictionIsActiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getRestrictionIsActiveOrBuilder() {
       return getRestrictionIsActive();
     }
 
@@ -758,23 +758,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int SET_RESTRICTION_IS_ACTIVE_ONLY_FIELD_NUMBER = 10;
-    private io.dstore.Values.integerValue setRestrictionIsActiveOnly_;
+    private io.dstore.values.IntegerValue setRestrictionIsActiveOnly_;
     /**
-     * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+     * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
      */
     public boolean hasSetRestrictionIsActiveOnly() {
       return setRestrictionIsActiveOnly_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+     * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
      */
-    public io.dstore.Values.integerValue getSetRestrictionIsActiveOnly() {
-      return setRestrictionIsActiveOnly_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : setRestrictionIsActiveOnly_;
+    public io.dstore.values.IntegerValue getSetRestrictionIsActiveOnly() {
+      return setRestrictionIsActiveOnly_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : setRestrictionIsActiveOnly_;
     }
     /**
-     * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+     * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSetRestrictionIsActiveOnlyOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSetRestrictionIsActiveOnlyOrBuilder() {
       return getSetRestrictionIsActiveOnly();
     }
 
@@ -788,23 +788,23 @@ public final class MiModifyProcExRestForGroupAd {
     }
 
     public static final int DELETE_FIELD_NUMBER = 11;
-    private io.dstore.Values.integerValue delete_;
+    private io.dstore.values.IntegerValue delete_;
     /**
-     * <code>optional .dstore.values.integerValue delete = 11;</code>
+     * <code>optional .dstore.values.IntegerValue delete = 11;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete = 11;</code>
+     * <code>optional .dstore.values.IntegerValue delete = 11;</code>
      */
-    public io.dstore.Values.integerValue getDelete() {
-      return delete_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : delete_;
+    public io.dstore.values.IntegerValue getDelete() {
+      return delete_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete = 11;</code>
+     * <code>optional .dstore.values.IntegerValue delete = 11;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -1597,29 +1597,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue procedureId_ = null;
+      private io.dstore.values.IntegerValue procedureId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public boolean hasProcedureId() {
         return procedureIdBuilder_ != null || procedureId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getProcedureId() {
+      public io.dstore.values.IntegerValue getProcedureId() {
         if (procedureIdBuilder_ == null) {
-          return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+          return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
         } else {
           return procedureIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public Builder setProcedureId(io.dstore.Values.integerValue value) {
+      public Builder setProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1633,10 +1633,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder setProcedureId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (procedureIdBuilder_ == null) {
           procedureId_ = builderForValue.build();
           onChanged();
@@ -1647,13 +1647,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public Builder mergeProcedureId(io.dstore.Values.integerValue value) {
+      public Builder mergeProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
           if (procedureId_ != null) {
             procedureId_ =
-              io.dstore.Values.integerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
           } else {
             procedureId_ = value;
           }
@@ -1665,7 +1665,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder clearProcedureId() {
         if (procedureIdBuilder_ == null) {
@@ -1679,33 +1679,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getProcedureIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getProcedureIdBuilder() {
         
         onChanged();
         return getProcedureIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
         if (procedureIdBuilder_ != null) {
           return procedureIdBuilder_.getMessageOrBuilder();
         } else {
           return procedureId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getProcedureIdFieldBuilder() {
         if (procedureIdBuilder_ == null) {
           procedureIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getProcedureId(),
                   getParentForChildren(),
                   isClean());
@@ -1740,29 +1740,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue restrictionForUserGroupId_ = null;
+      private io.dstore.values.IntegerValue restrictionForUserGroupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> restrictionForUserGroupIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> restrictionForUserGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
        */
       public boolean hasRestrictionForUserGroupId() {
         return restrictionForUserGroupIdBuilder_ != null || restrictionForUserGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getRestrictionForUserGroupId() {
+      public io.dstore.values.IntegerValue getRestrictionForUserGroupId() {
         if (restrictionForUserGroupIdBuilder_ == null) {
-          return restrictionForUserGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : restrictionForUserGroupId_;
+          return restrictionForUserGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : restrictionForUserGroupId_;
         } else {
           return restrictionForUserGroupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
        */
-      public Builder setRestrictionForUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder setRestrictionForUserGroupId(io.dstore.values.IntegerValue value) {
         if (restrictionForUserGroupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1776,10 +1776,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
        */
       public Builder setRestrictionForUserGroupId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (restrictionForUserGroupIdBuilder_ == null) {
           restrictionForUserGroupId_ = builderForValue.build();
           onChanged();
@@ -1790,13 +1790,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
        */
-      public Builder mergeRestrictionForUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder mergeRestrictionForUserGroupId(io.dstore.values.IntegerValue value) {
         if (restrictionForUserGroupIdBuilder_ == null) {
           if (restrictionForUserGroupId_ != null) {
             restrictionForUserGroupId_ =
-              io.dstore.Values.integerValue.newBuilder(restrictionForUserGroupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(restrictionForUserGroupId_).mergeFrom(value).buildPartial();
           } else {
             restrictionForUserGroupId_ = value;
           }
@@ -1808,7 +1808,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
        */
       public Builder clearRestrictionForUserGroupId() {
         if (restrictionForUserGroupIdBuilder_ == null) {
@@ -1822,33 +1822,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRestrictionForUserGroupIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRestrictionForUserGroupIdBuilder() {
         
         onChanged();
         return getRestrictionForUserGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRestrictionForUserGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRestrictionForUserGroupIdOrBuilder() {
         if (restrictionForUserGroupIdBuilder_ != null) {
           return restrictionForUserGroupIdBuilder_.getMessageOrBuilder();
         } else {
           return restrictionForUserGroupId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : restrictionForUserGroupId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : restrictionForUserGroupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRestrictionForUserGroupIdFieldBuilder() {
         if (restrictionForUserGroupIdBuilder_ == null) {
           restrictionForUserGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRestrictionForUserGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -1883,29 +1883,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue fromNestingLevel_ = null;
+      private io.dstore.values.IntegerValue fromNestingLevel_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromNestingLevelBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromNestingLevelBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+       * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
        */
       public boolean hasFromNestingLevel() {
         return fromNestingLevelBuilder_ != null || fromNestingLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+       * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
        */
-      public io.dstore.Values.integerValue getFromNestingLevel() {
+      public io.dstore.values.IntegerValue getFromNestingLevel() {
         if (fromNestingLevelBuilder_ == null) {
-          return fromNestingLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromNestingLevel_;
+          return fromNestingLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromNestingLevel_;
         } else {
           return fromNestingLevelBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+       * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
        */
-      public Builder setFromNestingLevel(io.dstore.Values.integerValue value) {
+      public Builder setFromNestingLevel(io.dstore.values.IntegerValue value) {
         if (fromNestingLevelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1919,10 +1919,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+       * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
        */
       public Builder setFromNestingLevel(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (fromNestingLevelBuilder_ == null) {
           fromNestingLevel_ = builderForValue.build();
           onChanged();
@@ -1933,13 +1933,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+       * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
        */
-      public Builder mergeFromNestingLevel(io.dstore.Values.integerValue value) {
+      public Builder mergeFromNestingLevel(io.dstore.values.IntegerValue value) {
         if (fromNestingLevelBuilder_ == null) {
           if (fromNestingLevel_ != null) {
             fromNestingLevel_ =
-              io.dstore.Values.integerValue.newBuilder(fromNestingLevel_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(fromNestingLevel_).mergeFrom(value).buildPartial();
           } else {
             fromNestingLevel_ = value;
           }
@@ -1951,7 +1951,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+       * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
        */
       public Builder clearFromNestingLevel() {
         if (fromNestingLevelBuilder_ == null) {
@@ -1965,33 +1965,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+       * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFromNestingLevelBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFromNestingLevelBuilder() {
         
         onChanged();
         return getFromNestingLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+       * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromNestingLevelOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromNestingLevelOrBuilder() {
         if (fromNestingLevelBuilder_ != null) {
           return fromNestingLevelBuilder_.getMessageOrBuilder();
         } else {
           return fromNestingLevel_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : fromNestingLevel_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : fromNestingLevel_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_nesting_level = 3;</code>
+       * <code>optional .dstore.values.IntegerValue from_nesting_level = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFromNestingLevelFieldBuilder() {
         if (fromNestingLevelBuilder_ == null) {
           fromNestingLevelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFromNestingLevel(),
                   getParentForChildren(),
                   isClean());
@@ -2026,29 +2026,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue conditionId_ = null;
+      private io.dstore.values.IntegerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
+      public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
        */
-      public Builder setConditionId(io.dstore.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2062,10 +2062,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
        */
       public Builder setConditionId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -2076,13 +2076,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
        */
-      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -2094,7 +2094,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -2108,33 +2108,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -2169,29 +2169,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue parameterName_ = null;
+      private io.dstore.values.StringValue parameterName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> parameterNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> parameterNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
        */
       public boolean hasParameterName() {
         return parameterNameBuilder_ != null || parameterName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
        */
-      public io.dstore.Values.stringValue getParameterName() {
+      public io.dstore.values.StringValue getParameterName() {
         if (parameterNameBuilder_ == null) {
-          return parameterName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+          return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
         } else {
           return parameterNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
        */
-      public Builder setParameterName(io.dstore.Values.stringValue value) {
+      public Builder setParameterName(io.dstore.values.StringValue value) {
         if (parameterNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2205,10 +2205,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
        */
       public Builder setParameterName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (parameterNameBuilder_ == null) {
           parameterName_ = builderForValue.build();
           onChanged();
@@ -2219,13 +2219,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
        */
-      public Builder mergeParameterName(io.dstore.Values.stringValue value) {
+      public Builder mergeParameterName(io.dstore.values.StringValue value) {
         if (parameterNameBuilder_ == null) {
           if (parameterName_ != null) {
             parameterName_ =
-              io.dstore.Values.stringValue.newBuilder(parameterName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(parameterName_).mergeFrom(value).buildPartial();
           } else {
             parameterName_ = value;
           }
@@ -2237,7 +2237,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
        */
       public Builder clearParameterName() {
         if (parameterNameBuilder_ == null) {
@@ -2251,33 +2251,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getParameterNameBuilder() {
+      public io.dstore.values.StringValue.Builder getParameterNameBuilder() {
         
         onChanged();
         return getParameterNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
         if (parameterNameBuilder_ != null) {
           return parameterNameBuilder_.getMessageOrBuilder();
         } else {
           return parameterName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+              io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 5;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getParameterNameFieldBuilder() {
         if (parameterNameBuilder_ == null) {
           parameterNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getParameterName(),
                   getParentForChildren(),
                   isClean());
@@ -2312,29 +2312,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue conditionNumber_ = null;
+      private io.dstore.values.IntegerValue conditionNumber_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionNumberBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionNumberBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
        */
       public boolean hasConditionNumber() {
         return conditionNumberBuilder_ != null || conditionNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
        */
-      public io.dstore.Values.integerValue getConditionNumber() {
+      public io.dstore.values.IntegerValue getConditionNumber() {
         if (conditionNumberBuilder_ == null) {
-          return conditionNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionNumber_;
+          return conditionNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionNumber_;
         } else {
           return conditionNumberBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
        */
-      public Builder setConditionNumber(io.dstore.Values.integerValue value) {
+      public Builder setConditionNumber(io.dstore.values.IntegerValue value) {
         if (conditionNumberBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2348,10 +2348,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
        */
       public Builder setConditionNumber(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionNumberBuilder_ == null) {
           conditionNumber_ = builderForValue.build();
           onChanged();
@@ -2362,13 +2362,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
        */
-      public Builder mergeConditionNumber(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionNumber(io.dstore.values.IntegerValue value) {
         if (conditionNumberBuilder_ == null) {
           if (conditionNumber_ != null) {
             conditionNumber_ =
-              io.dstore.Values.integerValue.newBuilder(conditionNumber_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionNumber_).mergeFrom(value).buildPartial();
           } else {
             conditionNumber_ = value;
           }
@@ -2380,7 +2380,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
        */
       public Builder clearConditionNumber() {
         if (conditionNumberBuilder_ == null) {
@@ -2394,33 +2394,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionNumberBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionNumberBuilder() {
         
         onChanged();
         return getConditionNumberFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionNumberOrBuilder() {
         if (conditionNumberBuilder_ != null) {
           return conditionNumberBuilder_.getMessageOrBuilder();
         } else {
           return conditionNumber_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionNumber_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionNumber_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_number = 6;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionNumberFieldBuilder() {
         if (conditionNumberBuilder_ == null) {
           conditionNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionNumber(),
                   getParentForChildren(),
                   isClean());
@@ -2455,29 +2455,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue operator_ = null;
+      private io.dstore.values.StringValue operator_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operatorBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> operatorBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue operator = 7;</code>
+       * <code>optional .dstore.values.StringValue operator = 7;</code>
        */
       public boolean hasOperator() {
         return operatorBuilder_ != null || operator_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 7;</code>
+       * <code>optional .dstore.values.StringValue operator = 7;</code>
        */
-      public io.dstore.Values.stringValue getOperator() {
+      public io.dstore.values.StringValue getOperator() {
         if (operatorBuilder_ == null) {
-          return operator_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator_;
+          return operator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator_;
         } else {
           return operatorBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 7;</code>
+       * <code>optional .dstore.values.StringValue operator = 7;</code>
        */
-      public Builder setOperator(io.dstore.Values.stringValue value) {
+      public Builder setOperator(io.dstore.values.StringValue value) {
         if (operatorBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2491,10 +2491,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 7;</code>
+       * <code>optional .dstore.values.StringValue operator = 7;</code>
        */
       public Builder setOperator(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (operatorBuilder_ == null) {
           operator_ = builderForValue.build();
           onChanged();
@@ -2505,13 +2505,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 7;</code>
+       * <code>optional .dstore.values.StringValue operator = 7;</code>
        */
-      public Builder mergeOperator(io.dstore.Values.stringValue value) {
+      public Builder mergeOperator(io.dstore.values.StringValue value) {
         if (operatorBuilder_ == null) {
           if (operator_ != null) {
             operator_ =
-              io.dstore.Values.stringValue.newBuilder(operator_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(operator_).mergeFrom(value).buildPartial();
           } else {
             operator_ = value;
           }
@@ -2523,7 +2523,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 7;</code>
+       * <code>optional .dstore.values.StringValue operator = 7;</code>
        */
       public Builder clearOperator() {
         if (operatorBuilder_ == null) {
@@ -2537,33 +2537,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 7;</code>
+       * <code>optional .dstore.values.StringValue operator = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getOperatorBuilder() {
+      public io.dstore.values.StringValue.Builder getOperatorBuilder() {
         
         onChanged();
         return getOperatorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 7;</code>
+       * <code>optional .dstore.values.StringValue operator = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOperatorOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOperatorOrBuilder() {
         if (operatorBuilder_ != null) {
           return operatorBuilder_.getMessageOrBuilder();
         } else {
           return operator_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : operator_;
+              io.dstore.values.StringValue.getDefaultInstance() : operator_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue operator = 7;</code>
+       * <code>optional .dstore.values.StringValue operator = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getOperatorFieldBuilder() {
         if (operatorBuilder_ == null) {
           operatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getOperator(),
                   getParentForChildren(),
                   isClean());
@@ -2598,29 +2598,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue condition_ = null;
+      private io.dstore.values.StringValue condition_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> conditionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue condition = 8;</code>
+       * <code>optional .dstore.values.StringValue condition = 8;</code>
        */
       public boolean hasCondition() {
         return conditionBuilder_ != null || condition_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 8;</code>
+       * <code>optional .dstore.values.StringValue condition = 8;</code>
        */
-      public io.dstore.Values.stringValue getCondition() {
+      public io.dstore.values.StringValue getCondition() {
         if (conditionBuilder_ == null) {
-          return condition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition_;
+          return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
         } else {
           return conditionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 8;</code>
+       * <code>optional .dstore.values.StringValue condition = 8;</code>
        */
-      public Builder setCondition(io.dstore.Values.stringValue value) {
+      public Builder setCondition(io.dstore.values.StringValue value) {
         if (conditionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2634,10 +2634,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 8;</code>
+       * <code>optional .dstore.values.StringValue condition = 8;</code>
        */
       public Builder setCondition(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (conditionBuilder_ == null) {
           condition_ = builderForValue.build();
           onChanged();
@@ -2648,13 +2648,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 8;</code>
+       * <code>optional .dstore.values.StringValue condition = 8;</code>
        */
-      public Builder mergeCondition(io.dstore.Values.stringValue value) {
+      public Builder mergeCondition(io.dstore.values.StringValue value) {
         if (conditionBuilder_ == null) {
           if (condition_ != null) {
             condition_ =
-              io.dstore.Values.stringValue.newBuilder(condition_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(condition_).mergeFrom(value).buildPartial();
           } else {
             condition_ = value;
           }
@@ -2666,7 +2666,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 8;</code>
+       * <code>optional .dstore.values.StringValue condition = 8;</code>
        */
       public Builder clearCondition() {
         if (conditionBuilder_ == null) {
@@ -2680,33 +2680,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 8;</code>
+       * <code>optional .dstore.values.StringValue condition = 8;</code>
        */
-      public io.dstore.Values.stringValue.Builder getConditionBuilder() {
+      public io.dstore.values.StringValue.Builder getConditionBuilder() {
         
         onChanged();
         return getConditionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 8;</code>
+       * <code>optional .dstore.values.StringValue condition = 8;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getConditionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
         if (conditionBuilder_ != null) {
           return conditionBuilder_.getMessageOrBuilder();
         } else {
           return condition_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : condition_;
+              io.dstore.values.StringValue.getDefaultInstance() : condition_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition = 8;</code>
+       * <code>optional .dstore.values.StringValue condition = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getConditionFieldBuilder() {
         if (conditionBuilder_ == null) {
           conditionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCondition(),
                   getParentForChildren(),
                   isClean());
@@ -2741,29 +2741,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue restrictionIsActive_ = null;
+      private io.dstore.values.BooleanValue restrictionIsActive_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> restrictionIsActiveBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> restrictionIsActiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+       * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
        */
       public boolean hasRestrictionIsActive() {
         return restrictionIsActiveBuilder_ != null || restrictionIsActive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+       * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
        */
-      public io.dstore.Values.booleanValue getRestrictionIsActive() {
+      public io.dstore.values.BooleanValue getRestrictionIsActive() {
         if (restrictionIsActiveBuilder_ == null) {
-          return restrictionIsActive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : restrictionIsActive_;
+          return restrictionIsActive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : restrictionIsActive_;
         } else {
           return restrictionIsActiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+       * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
        */
-      public Builder setRestrictionIsActive(io.dstore.Values.booleanValue value) {
+      public Builder setRestrictionIsActive(io.dstore.values.BooleanValue value) {
         if (restrictionIsActiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2777,10 +2777,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+       * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
        */
       public Builder setRestrictionIsActive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (restrictionIsActiveBuilder_ == null) {
           restrictionIsActive_ = builderForValue.build();
           onChanged();
@@ -2791,13 +2791,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+       * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
        */
-      public Builder mergeRestrictionIsActive(io.dstore.Values.booleanValue value) {
+      public Builder mergeRestrictionIsActive(io.dstore.values.BooleanValue value) {
         if (restrictionIsActiveBuilder_ == null) {
           if (restrictionIsActive_ != null) {
             restrictionIsActive_ =
-              io.dstore.Values.booleanValue.newBuilder(restrictionIsActive_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(restrictionIsActive_).mergeFrom(value).buildPartial();
           } else {
             restrictionIsActive_ = value;
           }
@@ -2809,7 +2809,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+       * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
        */
       public Builder clearRestrictionIsActive() {
         if (restrictionIsActiveBuilder_ == null) {
@@ -2823,33 +2823,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+       * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getRestrictionIsActiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getRestrictionIsActiveBuilder() {
         
         onChanged();
         return getRestrictionIsActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+       * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getRestrictionIsActiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getRestrictionIsActiveOrBuilder() {
         if (restrictionIsActiveBuilder_ != null) {
           return restrictionIsActiveBuilder_.getMessageOrBuilder();
         } else {
           return restrictionIsActive_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : restrictionIsActive_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : restrictionIsActive_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue restriction_is_active = 9;</code>
+       * <code>optional .dstore.values.BooleanValue restriction_is_active = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getRestrictionIsActiveFieldBuilder() {
         if (restrictionIsActiveBuilder_ == null) {
           restrictionIsActiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getRestrictionIsActive(),
                   getParentForChildren(),
                   isClean());
@@ -2884,29 +2884,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue setRestrictionIsActiveOnly_ = null;
+      private io.dstore.values.IntegerValue setRestrictionIsActiveOnly_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> setRestrictionIsActiveOnlyBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> setRestrictionIsActiveOnlyBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+       * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
        */
       public boolean hasSetRestrictionIsActiveOnly() {
         return setRestrictionIsActiveOnlyBuilder_ != null || setRestrictionIsActiveOnly_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+       * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
        */
-      public io.dstore.Values.integerValue getSetRestrictionIsActiveOnly() {
+      public io.dstore.values.IntegerValue getSetRestrictionIsActiveOnly() {
         if (setRestrictionIsActiveOnlyBuilder_ == null) {
-          return setRestrictionIsActiveOnly_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : setRestrictionIsActiveOnly_;
+          return setRestrictionIsActiveOnly_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : setRestrictionIsActiveOnly_;
         } else {
           return setRestrictionIsActiveOnlyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+       * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
        */
-      public Builder setSetRestrictionIsActiveOnly(io.dstore.Values.integerValue value) {
+      public Builder setSetRestrictionIsActiveOnly(io.dstore.values.IntegerValue value) {
         if (setRestrictionIsActiveOnlyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2920,10 +2920,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+       * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
        */
       public Builder setSetRestrictionIsActiveOnly(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (setRestrictionIsActiveOnlyBuilder_ == null) {
           setRestrictionIsActiveOnly_ = builderForValue.build();
           onChanged();
@@ -2934,13 +2934,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+       * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
        */
-      public Builder mergeSetRestrictionIsActiveOnly(io.dstore.Values.integerValue value) {
+      public Builder mergeSetRestrictionIsActiveOnly(io.dstore.values.IntegerValue value) {
         if (setRestrictionIsActiveOnlyBuilder_ == null) {
           if (setRestrictionIsActiveOnly_ != null) {
             setRestrictionIsActiveOnly_ =
-              io.dstore.Values.integerValue.newBuilder(setRestrictionIsActiveOnly_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(setRestrictionIsActiveOnly_).mergeFrom(value).buildPartial();
           } else {
             setRestrictionIsActiveOnly_ = value;
           }
@@ -2952,7 +2952,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+       * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
        */
       public Builder clearSetRestrictionIsActiveOnly() {
         if (setRestrictionIsActiveOnlyBuilder_ == null) {
@@ -2966,33 +2966,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+       * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSetRestrictionIsActiveOnlyBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSetRestrictionIsActiveOnlyBuilder() {
         
         onChanged();
         return getSetRestrictionIsActiveOnlyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+       * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSetRestrictionIsActiveOnlyOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSetRestrictionIsActiveOnlyOrBuilder() {
         if (setRestrictionIsActiveOnlyBuilder_ != null) {
           return setRestrictionIsActiveOnlyBuilder_.getMessageOrBuilder();
         } else {
           return setRestrictionIsActiveOnly_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : setRestrictionIsActiveOnly_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : setRestrictionIsActiveOnly_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue set_restriction_is_active_only = 10;</code>
+       * <code>optional .dstore.values.IntegerValue set_restriction_is_active_only = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSetRestrictionIsActiveOnlyFieldBuilder() {
         if (setRestrictionIsActiveOnlyBuilder_ == null) {
           setRestrictionIsActiveOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSetRestrictionIsActiveOnly(),
                   getParentForChildren(),
                   isClean());
@@ -3027,29 +3027,29 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue delete_ = null;
+      private io.dstore.values.IntegerValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue delete = 11;</code>
+       * <code>optional .dstore.values.IntegerValue delete = 11;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete = 11;</code>
+       * <code>optional .dstore.values.IntegerValue delete = 11;</code>
        */
-      public io.dstore.Values.integerValue getDelete() {
+      public io.dstore.values.IntegerValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete = 11;</code>
+       * <code>optional .dstore.values.IntegerValue delete = 11;</code>
        */
-      public Builder setDelete(io.dstore.Values.integerValue value) {
+      public Builder setDelete(io.dstore.values.IntegerValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3063,10 +3063,10 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete = 11;</code>
+       * <code>optional .dstore.values.IntegerValue delete = 11;</code>
        */
       public Builder setDelete(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -3077,13 +3077,13 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete = 11;</code>
+       * <code>optional .dstore.values.IntegerValue delete = 11;</code>
        */
-      public Builder mergeDelete(io.dstore.Values.integerValue value) {
+      public Builder mergeDelete(io.dstore.values.IntegerValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.Values.integerValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -3095,7 +3095,7 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete = 11;</code>
+       * <code>optional .dstore.values.IntegerValue delete = 11;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -3109,33 +3109,33 @@ public final class MiModifyProcExRestForGroupAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete = 11;</code>
+       * <code>optional .dstore.values.IntegerValue delete = 11;</code>
        */
-      public io.dstore.Values.integerValue.Builder getDeleteBuilder() {
+      public io.dstore.values.IntegerValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue delete = 11;</code>
+       * <code>optional .dstore.values.IntegerValue delete = 11;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : delete_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete = 11;</code>
+       * <code>optional .dstore.values.IntegerValue delete = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -5257,29 +5257,29 @@ public final class MiModifyProcExRestForGroupAd {
       "i_ModifyProcExRestForGroup_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\304" +
       "\007\n\nParameters\0221\n\014procedure_id\030\001 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\032\n\021procedure_id" +
+      "tore.values.IntegerValue\022\032\n\021procedure_id" +
       "_null\030\351\007 \001(\010\022B\n\035restriction_for_user_gro" +
-      "up_id\030\002 \001(\0132\033.dstore.values.integerValue" +
+      "up_id\030\002 \001(\0132\033.dstore.values.IntegerValue" +
       "\022+\n\"restriction_for_user_group_id_null\030\352" +
       "\007 \001(\010\0227\n\022from_nesting_level\030\003 \001(\0132\033.dsto",
-      "re.values.integerValue\022 \n\027from_nesting_l" +
+      "re.values.IntegerValue\022 \n\027from_nesting_l" +
       "evel_null\030\353\007 \001(\010\0221\n\014condition_id\030\004 \001(\0132\033" +
-      ".dstore.values.integerValue\022\032\n\021condition" +
+      ".dstore.values.IntegerValue\022\032\n\021condition" +
       "_id_null\030\354\007 \001(\010\0222\n\016parameter_name\030\005 \001(\0132" +
-      "\032.dstore.values.stringValue\022\034\n\023parameter" +
+      "\032.dstore.values.StringValue\022\034\n\023parameter" +
       "_name_null\030\355\007 \001(\010\0225\n\020condition_number\030\006 " +
-      "\001(\0132\033.dstore.values.integerValue\022\036\n\025cond" +
+      "\001(\0132\033.dstore.values.IntegerValue\022\036\n\025cond" +
       "ition_number_null\030\356\007 \001(\010\022,\n\010operator\030\007 \001" +
-      "(\0132\032.dstore.values.stringValue\022\026\n\roperat" +
+      "(\0132\032.dstore.values.StringValue\022\026\n\roperat" +
       "or_null\030\357\007 \001(\010\022-\n\tcondition\030\010 \001(\0132\032.dsto",
-      "re.values.stringValue\022\027\n\016condition_null\030" +
+      "re.values.StringValue\022\027\n\016condition_null\030" +
       "\360\007 \001(\010\022:\n\025restriction_is_active\030\t \001(\0132\033." +
-      "dstore.values.booleanValue\022#\n\032restrictio" +
+      "dstore.values.BooleanValue\022#\n\032restrictio" +
       "n_is_active_null\030\361\007 \001(\010\022C\n\036set_restricti" +
       "on_is_active_only\030\n \001(\0132\033.dstore.values." +
-      "integerValue\022,\n#set_restriction_is_activ" +
+      "IntegerValue\022,\n#set_restriction_is_activ" +
       "e_only_null\030\362\007 \001(\010\022+\n\006delete\030\013 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\024\n\013delete_null\030\363" +
+      "ore.values.IntegerValue\022\024\n\013delete_null\030\363" +
       "\007 \001(\010\"\316\001\n\010Response\0228\n\020meta_information\030\002" +
       " \003(\0132\036.dstore.engine.MetaInformation\022\'\n\007",
       "message\030\003 \003(\0132\026.dstore.engine.Message\022G\n" +
@@ -5300,7 +5300,7 @@ public final class MiModifyProcExRestForGroupAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyProcExRestForGroup_Ad_Parameters_descriptor =
@@ -5321,7 +5321,7 @@ public final class MiModifyProcExRestForGroupAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyProcExRestForGroup_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmGetPurchaseOrderTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
     boolean hasOrderTypeId();
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getOrderTypeId();
+    io.dstore.values.IntegerValue getOrderTypeId();
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOrderTypeIdOrBuilder();
 
     /**
      * <code>optional bool order_type_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class OmGetPurchaseOrderTypesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (orderTypeId_ != null) {
                 subBuilder = orderTypeId_.toBuilder();
               }
-              orderTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              orderTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderTypeId_);
                 orderTypeId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class OmGetPurchaseOrderTypesAd {
     }
 
     public static final int ORDER_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue orderTypeId_;
+    private io.dstore.values.IntegerValue orderTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
     public boolean hasOrderTypeId() {
       return orderTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getOrderTypeId() {
-      return orderTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
+    public io.dstore.values.IntegerValue getOrderTypeId() {
+      return orderTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOrderTypeIdOrBuilder() {
       return getOrderTypeId();
     }
 
@@ -447,29 +447,29 @@ public final class OmGetPurchaseOrderTypesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue orderTypeId_ = null;
+      private io.dstore.values.IntegerValue orderTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
       public boolean hasOrderTypeId() {
         return orderTypeIdBuilder_ != null || orderTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getOrderTypeId() {
+      public io.dstore.values.IntegerValue getOrderTypeId() {
         if (orderTypeIdBuilder_ == null) {
-          return orderTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
+          return orderTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderTypeId_;
         } else {
           return orderTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public Builder setOrderTypeId(io.dstore.Values.integerValue value) {
+      public Builder setOrderTypeId(io.dstore.values.IntegerValue value) {
         if (orderTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class OmGetPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
       public Builder setOrderTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (orderTypeIdBuilder_ == null) {
           orderTypeId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class OmGetPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public Builder mergeOrderTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeOrderTypeId(io.dstore.values.IntegerValue value) {
         if (orderTypeIdBuilder_ == null) {
           if (orderTypeId_ != null) {
             orderTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(orderTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(orderTypeId_).mergeFrom(value).buildPartial();
           } else {
             orderTypeId_ = value;
           }
@@ -515,7 +515,7 @@ public final class OmGetPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
       public Builder clearOrderTypeId() {
         if (orderTypeIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class OmGetPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOrderTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getOrderTypeIdBuilder() {
         
         onChanged();
         return getOrderTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderTypeIdOrBuilder() {
         if (orderTypeIdBuilder_ != null) {
           return orderTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return orderTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : orderTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOrderTypeIdFieldBuilder() {
         if (orderTypeIdBuilder_ == null) {
           orderTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOrderTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class OmGetPurchaseOrderTypesAd {
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
        */
       boolean hasOrderTypeDescription();
       /**
@@ -857,24 +857,24 @@ public final class OmGetPurchaseOrderTypesAd {
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
        */
-      io.dstore.Values.stringValue getOrderTypeDescription();
+      io.dstore.values.StringValue getOrderTypeDescription();
       /**
        * <pre>
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getOrderTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getOrderTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
        */
       boolean hasOrderTypeId();
       /**
@@ -882,17 +882,17 @@ public final class OmGetPurchaseOrderTypesAd {
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getOrderTypeId();
+      io.dstore.values.IntegerValue getOrderTypeId();
       /**
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getOrderTypeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPurchaseOrderTypes_Ad.Response.Row}
@@ -940,11 +940,11 @@ public final class OmGetPurchaseOrderTypesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (orderTypeDescription_ != null) {
                   subBuilder = orderTypeDescription_.toBuilder();
                 }
-                orderTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                orderTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderTypeDescription_);
                   orderTypeDescription_ = subBuilder.buildPartial();
@@ -953,11 +953,11 @@ public final class OmGetPurchaseOrderTypesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (orderTypeId_ != null) {
                   subBuilder = orderTypeId_.toBuilder();
                 }
-                orderTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                orderTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderTypeId_);
                   orderTypeId_ = subBuilder.buildPartial();
@@ -998,13 +998,13 @@ public final class OmGetPurchaseOrderTypesAd {
       }
 
       public static final int ORDER_TYPE_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue orderTypeDescription_;
+      private io.dstore.values.StringValue orderTypeDescription_;
       /**
        * <pre>
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
        */
       public boolean hasOrderTypeDescription() {
         return orderTypeDescription_ != null;
@@ -1014,30 +1014,30 @@ public final class OmGetPurchaseOrderTypesAd {
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getOrderTypeDescription() {
-        return orderTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderTypeDescription_;
+      public io.dstore.values.StringValue getOrderTypeDescription() {
+        return orderTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Auftrag-Typs "OrderTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
         return getOrderTypeDescription();
       }
 
       public static final int ORDER_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue orderTypeId_;
+      private io.dstore.values.IntegerValue orderTypeId_;
       /**
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
        */
       public boolean hasOrderTypeId() {
         return orderTypeId_ != null;
@@ -1047,19 +1047,19 @@ public final class OmGetPurchaseOrderTypesAd {
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getOrderTypeId() {
-        return orderTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
+      public io.dstore.values.IntegerValue getOrderTypeId() {
+        return orderTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderTypeId_;
       }
       /**
        * <pre>
        * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderTypeIdOrBuilder() {
         return getOrderTypeId();
       }
 
@@ -1418,15 +1418,15 @@ public final class OmGetPurchaseOrderTypesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue orderTypeDescription_ = null;
+        private io.dstore.values.StringValue orderTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> orderTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
          */
         public boolean hasOrderTypeDescription() {
           return orderTypeDescriptionBuilder_ != null || orderTypeDescription_ != null;
@@ -1436,11 +1436,11 @@ public final class OmGetPurchaseOrderTypesAd {
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getOrderTypeDescription() {
+        public io.dstore.values.StringValue getOrderTypeDescription() {
           if (orderTypeDescriptionBuilder_ == null) {
-            return orderTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderTypeDescription_;
+            return orderTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderTypeDescription_;
           } else {
             return orderTypeDescriptionBuilder_.getMessage();
           }
@@ -1450,9 +1450,9 @@ public final class OmGetPurchaseOrderTypesAd {
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
          */
-        public Builder setOrderTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setOrderTypeDescription(io.dstore.values.StringValue value) {
           if (orderTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1470,10 +1470,10 @@ public final class OmGetPurchaseOrderTypesAd {
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
          */
         public Builder setOrderTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (orderTypeDescriptionBuilder_ == null) {
             orderTypeDescription_ = builderForValue.build();
             onChanged();
@@ -1488,13 +1488,13 @@ public final class OmGetPurchaseOrderTypesAd {
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
          */
-        public Builder mergeOrderTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeOrderTypeDescription(io.dstore.values.StringValue value) {
           if (orderTypeDescriptionBuilder_ == null) {
             if (orderTypeDescription_ != null) {
               orderTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(orderTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(orderTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               orderTypeDescription_ = value;
             }
@@ -1510,7 +1510,7 @@ public final class OmGetPurchaseOrderTypesAd {
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
          */
         public Builder clearOrderTypeDescription() {
           if (orderTypeDescriptionBuilder_ == null) {
@@ -1528,9 +1528,9 @@ public final class OmGetPurchaseOrderTypesAd {
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getOrderTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getOrderTypeDescriptionBuilder() {
           
           onChanged();
           return getOrderTypeDescriptionFieldBuilder().getBuilder();
@@ -1540,14 +1540,14 @@ public final class OmGetPurchaseOrderTypesAd {
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
           if (orderTypeDescriptionBuilder_ != null) {
             return orderTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return orderTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : orderTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : orderTypeDescription_;
           }
         }
         /**
@@ -1555,14 +1555,14 @@ public final class OmGetPurchaseOrderTypesAd {
          * Bezeichnung des Auftrag-Typs "OrderTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue order_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue order_type_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getOrderTypeDescriptionFieldBuilder() {
           if (orderTypeDescriptionBuilder_ == null) {
             orderTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getOrderTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1571,15 +1571,15 @@ public final class OmGetPurchaseOrderTypesAd {
           return orderTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue orderTypeId_ = null;
+        private io.dstore.values.IntegerValue orderTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderTypeIdBuilder_;
         /**
          * <pre>
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
          */
         public boolean hasOrderTypeId() {
           return orderTypeIdBuilder_ != null || orderTypeId_ != null;
@@ -1589,11 +1589,11 @@ public final class OmGetPurchaseOrderTypesAd {
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getOrderTypeId() {
+        public io.dstore.values.IntegerValue getOrderTypeId() {
           if (orderTypeIdBuilder_ == null) {
-            return orderTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
+            return orderTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderTypeId_;
           } else {
             return orderTypeIdBuilder_.getMessage();
           }
@@ -1603,9 +1603,9 @@ public final class OmGetPurchaseOrderTypesAd {
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
          */
-        public Builder setOrderTypeId(io.dstore.Values.integerValue value) {
+        public Builder setOrderTypeId(io.dstore.values.IntegerValue value) {
           if (orderTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1623,10 +1623,10 @@ public final class OmGetPurchaseOrderTypesAd {
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
          */
         public Builder setOrderTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (orderTypeIdBuilder_ == null) {
             orderTypeId_ = builderForValue.build();
             onChanged();
@@ -1641,13 +1641,13 @@ public final class OmGetPurchaseOrderTypesAd {
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
          */
-        public Builder mergeOrderTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeOrderTypeId(io.dstore.values.IntegerValue value) {
           if (orderTypeIdBuilder_ == null) {
             if (orderTypeId_ != null) {
               orderTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(orderTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(orderTypeId_).mergeFrom(value).buildPartial();
             } else {
               orderTypeId_ = value;
             }
@@ -1663,7 +1663,7 @@ public final class OmGetPurchaseOrderTypesAd {
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
          */
         public Builder clearOrderTypeId() {
           if (orderTypeIdBuilder_ == null) {
@@ -1681,9 +1681,9 @@ public final class OmGetPurchaseOrderTypesAd {
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getOrderTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getOrderTypeIdBuilder() {
           
           onChanged();
           return getOrderTypeIdFieldBuilder().getBuilder();
@@ -1693,14 +1693,14 @@ public final class OmGetPurchaseOrderTypesAd {
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getOrderTypeIdOrBuilder() {
           if (orderTypeIdBuilder_ != null) {
             return orderTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return orderTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : orderTypeId_;
           }
         }
         /**
@@ -1708,14 +1708,14 @@ public final class OmGetPurchaseOrderTypesAd {
          * ID eines Auftrag-Typs (z.B. "Vor-Order" oder Ähnliches). Dient dazu, die "Queues" bzw. die daraus resultierenden Aufträge zu "charakterisieren".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue order_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getOrderTypeIdFieldBuilder() {
           if (orderTypeIdBuilder_ == null) {
             orderTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getOrderTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3185,15 +3185,15 @@ public final class OmGetPurchaseOrderTypesAd {
       "etPurchaseOrderTypes_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"]\n\nPara" +
       "meters\0222\n\rorder_type_id\030\001 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\033\n\022order_type_id_null" +
+      "alues.IntegerValue\022\033\n\022order_type_id_null" +
       "\030\351\007 \001(\010\"\276\002\n\010Response\0228\n\020meta_information" +
       "\030\002 \003(\0132\036.dstore.engine.MetaInformation\022\'" +
       "\n\007message\030\003 \003(\0132\026.dstore.engine.Message\022" +
       "D\n\003row\030\004 \003(\01327.dstore.engine.om_GetPurch",
       "aseOrderTypes_Ad.Response.Row\032\210\001\n\003Row\022\017\n" +
       "\006row_id\030\220N \001(\005\022;\n\026order_type_description" +
-      "\030\221N \001(\0132\032.dstore.values.stringValue\0223\n\ro" +
-      "rder_type_id\030\222N \001(\0132\033.dstore.values.inte" +
+      "\030\221N \001(\0132\032.dstore.values.StringValue\0223\n\ro" +
+      "rder_type_id\030\222N \001(\0132\033.dstore.values.Inte" +
       "gerValueB\\\n\033io.dstore.engine.proceduresZ" +
       "=gosdk.dstore.de/engine/procedures/om_Ge" +
       "tPurchaseOrderTypes_Adb\006proto3"
@@ -3209,7 +3209,7 @@ public final class OmGetPurchaseOrderTypesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetPurchaseOrderTypes_Ad_Parameters_descriptor =
@@ -3230,7 +3230,7 @@ public final class OmGetPurchaseOrderTypesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPurchaseOrderTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "OrderTypeDescription", "OrderTypeId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class MiModifyTRITriggerReplFuncAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTriggerId();
+    io.dstore.values.IntegerValue getTriggerId();
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder();
 
     /**
      * <code>optional bool trigger_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyTRITriggerReplFuncAd {
     boolean getTriggerIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+     * <code>optional .dstore.values.StringValue function_definition = 2;</code>
      */
     boolean hasFunctionDefinition();
     /**
-     * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+     * <code>optional .dstore.values.StringValue function_definition = 2;</code>
      */
-    io.dstore.Values.stringValue getFunctionDefinition();
+    io.dstore.values.StringValue getFunctionDefinition();
     /**
-     * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+     * <code>optional .dstore.values.StringValue function_definition = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getFunctionDefinitionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getFunctionDefinitionOrBuilder();
 
     /**
      * <code>optional bool function_definition_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyTRITriggerReplFuncAd {
     boolean getFunctionDefinitionNull();
 
     /**
-     * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+     * <code>optional .dstore.values.StringValue replace_string = 3;</code>
      */
     boolean hasReplaceString();
     /**
-     * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+     * <code>optional .dstore.values.StringValue replace_string = 3;</code>
      */
-    io.dstore.Values.stringValue getReplaceString();
+    io.dstore.values.StringValue getReplaceString();
     /**
-     * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+     * <code>optional .dstore.values.StringValue replace_string = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getReplaceStringOrBuilder();
+    io.dstore.values.StringValueOrBuilder getReplaceStringOrBuilder();
 
     /**
      * <code>optional bool replace_string_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiModifyTRITriggerReplFuncAd {
     boolean getReplaceStringNull();
 
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.StringValue description = 4;</code>
      */
     boolean hasDescription();
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.StringValue description = 4;</code>
      */
-    io.dstore.Values.stringValue getDescription();
+    io.dstore.values.StringValue getDescription();
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.StringValue description = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
     /**
      * <code>optional bool description_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiModifyTRITriggerReplFuncAd {
     boolean getDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
      */
     boolean hasDeleteFunction();
     /**
-     * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
      */
-    io.dstore.Values.booleanValue getDeleteFunction();
+    io.dstore.values.BooleanValue getDeleteFunction();
     /**
-     * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteFunctionOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteFunctionOrBuilder();
 
     /**
      * <code>optional bool delete_function_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class MiModifyTRITriggerReplFuncAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (triggerId_ != null) {
                 subBuilder = triggerId_.toBuilder();
               }
-              triggerId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              triggerId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(triggerId_);
                 triggerId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class MiModifyTRITriggerReplFuncAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (functionDefinition_ != null) {
                 subBuilder = functionDefinition_.toBuilder();
               }
-              functionDefinition_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              functionDefinition_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(functionDefinition_);
                 functionDefinition_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class MiModifyTRITriggerReplFuncAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (replaceString_ != null) {
                 subBuilder = replaceString_.toBuilder();
               }
-              replaceString_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              replaceString_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(replaceString_);
                 replaceString_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class MiModifyTRITriggerReplFuncAd {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (description_ != null) {
                 subBuilder = description_.toBuilder();
               }
-              description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(description_);
                 description_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class MiModifyTRITriggerReplFuncAd {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteFunction_ != null) {
                 subBuilder = deleteFunction_.toBuilder();
               }
-              deleteFunction_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteFunction_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteFunction_);
                 deleteFunction_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class MiModifyTRITriggerReplFuncAd {
     }
 
     public static final int TRIGGER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue triggerId_;
+    private io.dstore.values.IntegerValue triggerId_;
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTriggerId() {
-      return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+    public io.dstore.values.IntegerValue getTriggerId() {
+      return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
     }
 
@@ -296,23 +296,23 @@ public final class MiModifyTRITriggerReplFuncAd {
     }
 
     public static final int FUNCTION_DEFINITION_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue functionDefinition_;
+    private io.dstore.values.StringValue functionDefinition_;
     /**
-     * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+     * <code>optional .dstore.values.StringValue function_definition = 2;</code>
      */
     public boolean hasFunctionDefinition() {
       return functionDefinition_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+     * <code>optional .dstore.values.StringValue function_definition = 2;</code>
      */
-    public io.dstore.Values.stringValue getFunctionDefinition() {
-      return functionDefinition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : functionDefinition_;
+    public io.dstore.values.StringValue getFunctionDefinition() {
+      return functionDefinition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : functionDefinition_;
     }
     /**
-     * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+     * <code>optional .dstore.values.StringValue function_definition = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getFunctionDefinitionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getFunctionDefinitionOrBuilder() {
       return getFunctionDefinition();
     }
 
@@ -326,23 +326,23 @@ public final class MiModifyTRITriggerReplFuncAd {
     }
 
     public static final int REPLACE_STRING_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue replaceString_;
+    private io.dstore.values.StringValue replaceString_;
     /**
-     * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+     * <code>optional .dstore.values.StringValue replace_string = 3;</code>
      */
     public boolean hasReplaceString() {
       return replaceString_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+     * <code>optional .dstore.values.StringValue replace_string = 3;</code>
      */
-    public io.dstore.Values.stringValue getReplaceString() {
-      return replaceString_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : replaceString_;
+    public io.dstore.values.StringValue getReplaceString() {
+      return replaceString_ == null ? io.dstore.values.StringValue.getDefaultInstance() : replaceString_;
     }
     /**
-     * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+     * <code>optional .dstore.values.StringValue replace_string = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getReplaceStringOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getReplaceStringOrBuilder() {
       return getReplaceString();
     }
 
@@ -356,23 +356,23 @@ public final class MiModifyTRITriggerReplFuncAd {
     }
 
     public static final int DESCRIPTION_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue description_;
+    private io.dstore.values.StringValue description_;
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.StringValue description = 4;</code>
      */
     public boolean hasDescription() {
       return description_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.StringValue description = 4;</code>
      */
-    public io.dstore.Values.stringValue getDescription() {
-      return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+    public io.dstore.values.StringValue getDescription() {
+      return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
     }
     /**
-     * <code>optional .dstore.values.stringValue description = 4;</code>
+     * <code>optional .dstore.values.StringValue description = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
       return getDescription();
     }
 
@@ -386,23 +386,23 @@ public final class MiModifyTRITriggerReplFuncAd {
     }
 
     public static final int DELETE_FUNCTION_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue deleteFunction_;
+    private io.dstore.values.BooleanValue deleteFunction_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
      */
     public boolean hasDeleteFunction() {
       return deleteFunction_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteFunction() {
-      return deleteFunction_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteFunction_;
+    public io.dstore.values.BooleanValue getDeleteFunction() {
+      return deleteFunction_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteFunction_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteFunctionOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteFunctionOrBuilder() {
       return getDeleteFunction();
     }
 
@@ -907,29 +907,29 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue triggerId_ = null;
+      private io.dstore.values.IntegerValue triggerId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTriggerId() {
+      public io.dstore.values.IntegerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
-          return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+          return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
         } else {
           return triggerIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public Builder setTriggerId(io.dstore.Values.integerValue value) {
+      public Builder setTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (triggerIdBuilder_ == null) {
           triggerId_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public Builder mergeTriggerId(io.dstore.Values.integerValue value) {
+      public Builder mergeTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
           if (triggerId_ != null) {
             triggerId_ =
-              io.dstore.Values.integerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
           } else {
             triggerId_ = value;
           }
@@ -975,7 +975,7 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTriggerIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTriggerIdBuilder() {
         
         onChanged();
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
           return triggerIdBuilder_.getMessageOrBuilder();
         } else {
           return triggerId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTriggerIdFieldBuilder() {
         if (triggerIdBuilder_ == null) {
           triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTriggerId(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue functionDefinition_ = null;
+      private io.dstore.values.StringValue functionDefinition_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> functionDefinitionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> functionDefinitionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+       * <code>optional .dstore.values.StringValue function_definition = 2;</code>
        */
       public boolean hasFunctionDefinition() {
         return functionDefinitionBuilder_ != null || functionDefinition_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+       * <code>optional .dstore.values.StringValue function_definition = 2;</code>
        */
-      public io.dstore.Values.stringValue getFunctionDefinition() {
+      public io.dstore.values.StringValue getFunctionDefinition() {
         if (functionDefinitionBuilder_ == null) {
-          return functionDefinition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : functionDefinition_;
+          return functionDefinition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : functionDefinition_;
         } else {
           return functionDefinitionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+       * <code>optional .dstore.values.StringValue function_definition = 2;</code>
        */
-      public Builder setFunctionDefinition(io.dstore.Values.stringValue value) {
+      public Builder setFunctionDefinition(io.dstore.values.StringValue value) {
         if (functionDefinitionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+       * <code>optional .dstore.values.StringValue function_definition = 2;</code>
        */
       public Builder setFunctionDefinition(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (functionDefinitionBuilder_ == null) {
           functionDefinition_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+       * <code>optional .dstore.values.StringValue function_definition = 2;</code>
        */
-      public Builder mergeFunctionDefinition(io.dstore.Values.stringValue value) {
+      public Builder mergeFunctionDefinition(io.dstore.values.StringValue value) {
         if (functionDefinitionBuilder_ == null) {
           if (functionDefinition_ != null) {
             functionDefinition_ =
-              io.dstore.Values.stringValue.newBuilder(functionDefinition_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(functionDefinition_).mergeFrom(value).buildPartial();
           } else {
             functionDefinition_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+       * <code>optional .dstore.values.StringValue function_definition = 2;</code>
        */
       public Builder clearFunctionDefinition() {
         if (functionDefinitionBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+       * <code>optional .dstore.values.StringValue function_definition = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getFunctionDefinitionBuilder() {
+      public io.dstore.values.StringValue.Builder getFunctionDefinitionBuilder() {
         
         onChanged();
         return getFunctionDefinitionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+       * <code>optional .dstore.values.StringValue function_definition = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getFunctionDefinitionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getFunctionDefinitionOrBuilder() {
         if (functionDefinitionBuilder_ != null) {
           return functionDefinitionBuilder_.getMessageOrBuilder();
         } else {
           return functionDefinition_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : functionDefinition_;
+              io.dstore.values.StringValue.getDefaultInstance() : functionDefinition_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue function_definition = 2;</code>
+       * <code>optional .dstore.values.StringValue function_definition = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getFunctionDefinitionFieldBuilder() {
         if (functionDefinitionBuilder_ == null) {
           functionDefinitionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getFunctionDefinition(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue replaceString_ = null;
+      private io.dstore.values.StringValue replaceString_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> replaceStringBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> replaceStringBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+       * <code>optional .dstore.values.StringValue replace_string = 3;</code>
        */
       public boolean hasReplaceString() {
         return replaceStringBuilder_ != null || replaceString_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+       * <code>optional .dstore.values.StringValue replace_string = 3;</code>
        */
-      public io.dstore.Values.stringValue getReplaceString() {
+      public io.dstore.values.StringValue getReplaceString() {
         if (replaceStringBuilder_ == null) {
-          return replaceString_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : replaceString_;
+          return replaceString_ == null ? io.dstore.values.StringValue.getDefaultInstance() : replaceString_;
         } else {
           return replaceStringBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+       * <code>optional .dstore.values.StringValue replace_string = 3;</code>
        */
-      public Builder setReplaceString(io.dstore.Values.stringValue value) {
+      public Builder setReplaceString(io.dstore.values.StringValue value) {
         if (replaceStringBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+       * <code>optional .dstore.values.StringValue replace_string = 3;</code>
        */
       public Builder setReplaceString(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (replaceStringBuilder_ == null) {
           replaceString_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+       * <code>optional .dstore.values.StringValue replace_string = 3;</code>
        */
-      public Builder mergeReplaceString(io.dstore.Values.stringValue value) {
+      public Builder mergeReplaceString(io.dstore.values.StringValue value) {
         if (replaceStringBuilder_ == null) {
           if (replaceString_ != null) {
             replaceString_ =
-              io.dstore.Values.stringValue.newBuilder(replaceString_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(replaceString_).mergeFrom(value).buildPartial();
           } else {
             replaceString_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+       * <code>optional .dstore.values.StringValue replace_string = 3;</code>
        */
       public Builder clearReplaceString() {
         if (replaceStringBuilder_ == null) {
@@ -1275,33 +1275,33 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+       * <code>optional .dstore.values.StringValue replace_string = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getReplaceStringBuilder() {
+      public io.dstore.values.StringValue.Builder getReplaceStringBuilder() {
         
         onChanged();
         return getReplaceStringFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+       * <code>optional .dstore.values.StringValue replace_string = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getReplaceStringOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getReplaceStringOrBuilder() {
         if (replaceStringBuilder_ != null) {
           return replaceStringBuilder_.getMessageOrBuilder();
         } else {
           return replaceString_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : replaceString_;
+              io.dstore.values.StringValue.getDefaultInstance() : replaceString_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue replace_string = 3;</code>
+       * <code>optional .dstore.values.StringValue replace_string = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getReplaceStringFieldBuilder() {
         if (replaceStringBuilder_ == null) {
           replaceStringBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getReplaceString(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue description_ = null;
+      private io.dstore.values.StringValue description_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.StringValue description = 4;</code>
        */
       public boolean hasDescription() {
         return descriptionBuilder_ != null || description_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.StringValue description = 4;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
+      public io.dstore.values.StringValue getDescription() {
         if (descriptionBuilder_ == null) {
-          return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+          return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
         } else {
           return descriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.StringValue description = 4;</code>
        */
-      public Builder setDescription(io.dstore.Values.stringValue value) {
+      public Builder setDescription(io.dstore.values.StringValue value) {
         if (descriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.StringValue description = 4;</code>
        */
       public Builder setDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (descriptionBuilder_ == null) {
           description_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.StringValue description = 4;</code>
        */
-      public Builder mergeDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeDescription(io.dstore.values.StringValue value) {
         if (descriptionBuilder_ == null) {
           if (description_ != null) {
             description_ =
-              io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
           } else {
             description_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.StringValue description = 4;</code>
        */
       public Builder clearDescription() {
         if (descriptionBuilder_ == null) {
@@ -1418,33 +1418,33 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.StringValue description = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
         
         onChanged();
         return getDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.StringValue description = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         if (descriptionBuilder_ != null) {
           return descriptionBuilder_.getMessageOrBuilder();
         } else {
           return description_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : description_;
+              io.dstore.values.StringValue.getDefaultInstance() : description_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 4;</code>
+       * <code>optional .dstore.values.StringValue description = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDescriptionFieldBuilder() {
         if (descriptionBuilder_ == null) {
           descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteFunction_ = null;
+      private io.dstore.values.BooleanValue deleteFunction_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteFunctionBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteFunctionBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
        */
       public boolean hasDeleteFunction() {
         return deleteFunctionBuilder_ != null || deleteFunction_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteFunction() {
+      public io.dstore.values.BooleanValue getDeleteFunction() {
         if (deleteFunctionBuilder_ == null) {
-          return deleteFunction_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteFunction_;
+          return deleteFunction_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteFunction_;
         } else {
           return deleteFunctionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
        */
-      public Builder setDeleteFunction(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteFunction(io.dstore.values.BooleanValue value) {
         if (deleteFunctionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
        */
       public Builder setDeleteFunction(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteFunctionBuilder_ == null) {
           deleteFunction_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
        */
-      public Builder mergeDeleteFunction(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteFunction(io.dstore.values.BooleanValue value) {
         if (deleteFunctionBuilder_ == null) {
           if (deleteFunction_ != null) {
             deleteFunction_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteFunction_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteFunction_).mergeFrom(value).buildPartial();
           } else {
             deleteFunction_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
        */
       public Builder clearDeleteFunction() {
         if (deleteFunctionBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class MiModifyTRITriggerReplFuncAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteFunctionBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteFunctionBuilder() {
         
         onChanged();
         return getDeleteFunctionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteFunctionOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteFunctionOrBuilder() {
         if (deleteFunctionBuilder_ != null) {
           return deleteFunctionBuilder_.getMessageOrBuilder();
         } else {
           return deleteFunction_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteFunction_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteFunction_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_function = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete_function = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteFunctionFieldBuilder() {
         if (deleteFunctionBuilder_ == null) {
           deleteFunctionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteFunction(),
                   getParentForChildren(),
                   isClean());
@@ -3709,15 +3709,15 @@ public final class MiModifyTRITriggerReplFuncAd {
       "i_ModifyTRITriggerReplFunc_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\246" +
       "\003\n\nParameters\022/\n\ntrigger_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\030\n\017trigger_id_nul" +
+      "re.values.IntegerValue\022\030\n\017trigger_id_nul" +
       "l\030\351\007 \001(\010\0227\n\023function_definition\030\002 \001(\0132\032." +
-      "dstore.values.stringValue\022!\n\030function_de" +
+      "dstore.values.StringValue\022!\n\030function_de" +
       "finition_null\030\352\007 \001(\010\0222\n\016replace_string\030\003" +
-      " \001(\0132\032.dstore.values.stringValue\022\034\n\023repl",
+      " \001(\0132\032.dstore.values.StringValue\022\034\n\023repl",
       "ace_string_null\030\353\007 \001(\010\022/\n\013description\030\004 " +
-      "\001(\0132\032.dstore.values.stringValue\022\031\n\020descr" +
+      "\001(\0132\032.dstore.values.StringValue\022\031\n\020descr" +
       "iption_null\030\354\007 \001(\010\0224\n\017delete_function\030\005 " +
-      "\001(\0132\033.dstore.values.booleanValue\022\035\n\024dele" +
+      "\001(\0132\033.dstore.values.BooleanValue\022\035\n\024dele" +
       "te_function_null\030\355\007 \001(\010\"\316\001\n\010Response\0228\n\020" +
       "meta_information\030\002 \003(\0132\036.dstore.engine.M" +
       "etaInformation\022\'\n\007message\030\003 \003(\0132\026.dstore" +
@@ -3739,7 +3739,7 @@ public final class MiModifyTRITriggerReplFuncAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyTRITriggerReplFunc_Ad_Parameters_descriptor =
@@ -3760,7 +3760,7 @@ public final class MiModifyTRITriggerReplFuncAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyTRITriggerReplFunc_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

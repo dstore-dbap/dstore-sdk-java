@@ -19,17 +19,17 @@ public final class OmGetPurchasePricesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
      */
     boolean hasTreeNodeOrNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTreeNodeOrNodeId();
+    io.dstore.values.IntegerValue getTreeNodeOrNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTreeNodeOrNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTreeNodeOrNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_or_node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetPurchasePricesAd {
     boolean getTreeNodeOrNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
      */
     boolean hasIsTreeNodeId();
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
      */
-    io.dstore.Values.booleanValue getIsTreeNodeId();
+    io.dstore.values.BooleanValue getIsTreeNodeId();
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIsTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool is_tree_node_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetPurchasePricesAd {
     boolean getIsTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
      */
     boolean hasQuantity();
     /**
-     * <code>optional .dstore.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
      */
-    io.dstore.Values.integerValue getQuantity();
+    io.dstore.values.IntegerValue getQuantity();
     /**
-     * <code>optional .dstore.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder();
 
     /**
      * <code>optional bool quantity_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmGetPurchasePricesAd {
     boolean getQuantityNull();
 
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
      */
     boolean hasSupplierId();
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
      */
-    io.dstore.Values.integerValue getSupplierId();
+    io.dstore.values.IntegerValue getSupplierId();
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSupplierIdOrBuilder();
 
     /**
      * <code>optional bool supplier_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmGetPurchasePricesAd {
     boolean getSupplierIdNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
      */
     boolean hasDateForPropertyDetermination();
     /**
-     * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
      */
-    io.dstore.Values.timestampValue getDateForPropertyDetermination();
+    io.dstore.values.TimestampValue getDateForPropertyDetermination();
     /**
-     * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getDateForPropertyDeterminationOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getDateForPropertyDeterminationOrBuilder();
 
     /**
      * <code>optional bool date_for_property_determination_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmGetPurchasePricesAd {
     boolean getDateForPropertyDeterminationNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId();
+    io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class OmGetPurchasePricesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (treeNodeOrNodeId_ != null) {
                 subBuilder = treeNodeOrNodeId_.toBuilder();
               }
-              treeNodeOrNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              treeNodeOrNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeOrNodeId_);
                 treeNodeOrNodeId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class OmGetPurchasePricesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (isTreeNodeId_ != null) {
                 subBuilder = isTreeNodeId_.toBuilder();
               }
-              isTreeNodeId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              isTreeNodeId_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isTreeNodeId_);
                 isTreeNodeId_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class OmGetPurchasePricesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (quantity_ != null) {
                 subBuilder = quantity_.toBuilder();
               }
-              quantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              quantity_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(quantity_);
                 quantity_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class OmGetPurchasePricesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (supplierId_ != null) {
                 subBuilder = supplierId_.toBuilder();
               }
-              supplierId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              supplierId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(supplierId_);
                 supplierId_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class OmGetPurchasePricesAd {
               break;
             }
             case 42: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (dateForPropertyDetermination_ != null) {
                 subBuilder = dateForPropertyDetermination_.toBuilder();
               }
-              dateForPropertyDetermination_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              dateForPropertyDetermination_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateForPropertyDetermination_);
                 dateForPropertyDetermination_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class OmGetPurchasePricesAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class OmGetPurchasePricesAd {
     }
 
     public static final int TREE_NODE_OR_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue treeNodeOrNodeId_;
+    private io.dstore.values.IntegerValue treeNodeOrNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
      */
     public boolean hasTreeNodeOrNodeId() {
       return treeNodeOrNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTreeNodeOrNodeId() {
-      return treeNodeOrNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeOrNodeId_;
+    public io.dstore.values.IntegerValue getTreeNodeOrNodeId() {
+      return treeNodeOrNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeOrNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTreeNodeOrNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTreeNodeOrNodeIdOrBuilder() {
       return getTreeNodeOrNodeId();
     }
 
@@ -333,23 +333,23 @@ public final class OmGetPurchasePricesAd {
     }
 
     public static final int IS_TREE_NODE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue isTreeNodeId_;
+    private io.dstore.values.BooleanValue isTreeNodeId_;
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
      */
     public boolean hasIsTreeNodeId() {
       return isTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
      */
-    public io.dstore.Values.booleanValue getIsTreeNodeId() {
-      return isTreeNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
+    public io.dstore.values.BooleanValue getIsTreeNodeId() {
+      return isTreeNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
       return getIsTreeNodeId();
     }
 
@@ -363,23 +363,23 @@ public final class OmGetPurchasePricesAd {
     }
 
     public static final int QUANTITY_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue quantity_;
+    private io.dstore.values.IntegerValue quantity_;
     /**
-     * <code>optional .dstore.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
      */
     public boolean hasQuantity() {
       return quantity_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
      */
-    public io.dstore.Values.integerValue getQuantity() {
-      return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+    public io.dstore.values.IntegerValue getQuantity() {
+      return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
     }
     /**
-     * <code>optional .dstore.values.integerValue quantity = 3;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
       return getQuantity();
     }
 
@@ -393,23 +393,23 @@ public final class OmGetPurchasePricesAd {
     }
 
     public static final int SUPPLIER_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue supplierId_;
+    private io.dstore.values.IntegerValue supplierId_;
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
      */
     public boolean hasSupplierId() {
       return supplierId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getSupplierId() {
-      return supplierId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
+    public io.dstore.values.IntegerValue getSupplierId() {
+      return supplierId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : supplierId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSupplierIdOrBuilder() {
       return getSupplierId();
     }
 
@@ -423,23 +423,23 @@ public final class OmGetPurchasePricesAd {
     }
 
     public static final int DATE_FOR_PROPERTY_DETERMINATION_FIELD_NUMBER = 5;
-    private io.dstore.Values.timestampValue dateForPropertyDetermination_;
+    private io.dstore.values.TimestampValue dateForPropertyDetermination_;
     /**
-     * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
      */
     public boolean hasDateForPropertyDetermination() {
       return dateForPropertyDetermination_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
      */
-    public io.dstore.Values.timestampValue getDateForPropertyDetermination() {
-      return dateForPropertyDetermination_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateForPropertyDetermination_;
+    public io.dstore.values.TimestampValue getDateForPropertyDetermination() {
+      return dateForPropertyDetermination_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : dateForPropertyDetermination_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getDateForPropertyDeterminationOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getDateForPropertyDeterminationOrBuilder() {
       return getDateForPropertyDetermination();
     }
 
@@ -453,23 +453,23 @@ public final class OmGetPurchasePricesAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -1022,29 +1022,29 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue treeNodeOrNodeId_ = null;
+      private io.dstore.values.IntegerValue treeNodeOrNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeOrNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeOrNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
        */
       public boolean hasTreeNodeOrNodeId() {
         return treeNodeOrNodeIdBuilder_ != null || treeNodeOrNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeOrNodeId() {
+      public io.dstore.values.IntegerValue getTreeNodeOrNodeId() {
         if (treeNodeOrNodeIdBuilder_ == null) {
-          return treeNodeOrNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeOrNodeId_;
+          return treeNodeOrNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeOrNodeId_;
         } else {
           return treeNodeOrNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
        */
-      public Builder setTreeNodeOrNodeId(io.dstore.Values.integerValue value) {
+      public Builder setTreeNodeOrNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeOrNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
        */
       public Builder setTreeNodeOrNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (treeNodeOrNodeIdBuilder_ == null) {
           treeNodeOrNodeId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
        */
-      public Builder mergeTreeNodeOrNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeTreeNodeOrNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeOrNodeIdBuilder_ == null) {
           if (treeNodeOrNodeId_ != null) {
             treeNodeOrNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(treeNodeOrNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(treeNodeOrNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeOrNodeId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
        */
       public Builder clearTreeNodeOrNodeId() {
         if (treeNodeOrNodeIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTreeNodeOrNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTreeNodeOrNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeOrNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeOrNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeOrNodeIdOrBuilder() {
         if (treeNodeOrNodeIdBuilder_ != null) {
           return treeNodeOrNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeOrNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeOrNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeOrNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_or_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_or_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTreeNodeOrNodeIdFieldBuilder() {
         if (treeNodeOrNodeIdBuilder_ == null) {
           treeNodeOrNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTreeNodeOrNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue isTreeNodeId_ = null;
+      private io.dstore.values.BooleanValue isTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isTreeNodeIdBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
        */
       public boolean hasIsTreeNodeId() {
         return isTreeNodeIdBuilder_ != null || isTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
        */
-      public io.dstore.Values.booleanValue getIsTreeNodeId() {
+      public io.dstore.values.BooleanValue getIsTreeNodeId() {
         if (isTreeNodeIdBuilder_ == null) {
-          return isTreeNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
+          return isTreeNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isTreeNodeId_;
         } else {
           return isTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
        */
-      public Builder setIsTreeNodeId(io.dstore.Values.booleanValue value) {
+      public Builder setIsTreeNodeId(io.dstore.values.BooleanValue value) {
         if (isTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
        */
       public Builder setIsTreeNodeId(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (isTreeNodeIdBuilder_ == null) {
           isTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
        */
-      public Builder mergeIsTreeNodeId(io.dstore.Values.booleanValue value) {
+      public Builder mergeIsTreeNodeId(io.dstore.values.BooleanValue value) {
         if (isTreeNodeIdBuilder_ == null) {
           if (isTreeNodeId_ != null) {
             isTreeNodeId_ =
-              io.dstore.Values.booleanValue.newBuilder(isTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(isTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             isTreeNodeId_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
        */
       public Builder clearIsTreeNodeId() {
         if (isTreeNodeIdBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIsTreeNodeIdBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIsTreeNodeIdBuilder() {
         
         onChanged();
         return getIsTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
         if (isTreeNodeIdBuilder_ != null) {
           return isTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return isTreeNodeId_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : isTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 2;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIsTreeNodeIdFieldBuilder() {
         if (isTreeNodeIdBuilder_ == null) {
           isTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIsTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue quantity_ = null;
+      private io.dstore.values.IntegerValue quantity_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> quantityBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
        */
       public boolean hasQuantity() {
         return quantityBuilder_ != null || quantity_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
        */
-      public io.dstore.Values.integerValue getQuantity() {
+      public io.dstore.values.IntegerValue getQuantity() {
         if (quantityBuilder_ == null) {
-          return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+          return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
         } else {
           return quantityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
        */
-      public Builder setQuantity(io.dstore.Values.integerValue value) {
+      public Builder setQuantity(io.dstore.values.IntegerValue value) {
         if (quantityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
        */
       public Builder setQuantity(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (quantityBuilder_ == null) {
           quantity_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
        */
-      public Builder mergeQuantity(io.dstore.Values.integerValue value) {
+      public Builder mergeQuantity(io.dstore.values.IntegerValue value) {
         if (quantityBuilder_ == null) {
           if (quantity_ != null) {
             quantity_ =
-              io.dstore.Values.integerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
           } else {
             quantity_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
        */
       public Builder clearQuantity() {
         if (quantityBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getQuantityBuilder() {
+      public io.dstore.values.IntegerValue.Builder getQuantityBuilder() {
         
         onChanged();
         return getQuantityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
         if (quantityBuilder_ != null) {
           return quantityBuilder_.getMessageOrBuilder();
         } else {
           return quantity_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 3;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getQuantityFieldBuilder() {
         if (quantityBuilder_ == null) {
           quantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getQuantity(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue supplierId_ = null;
+      private io.dstore.values.IntegerValue supplierId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> supplierIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> supplierIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
        */
       public boolean hasSupplierId() {
         return supplierIdBuilder_ != null || supplierId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getSupplierId() {
+      public io.dstore.values.IntegerValue getSupplierId() {
         if (supplierIdBuilder_ == null) {
-          return supplierId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
+          return supplierId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : supplierId_;
         } else {
           return supplierIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
        */
-      public Builder setSupplierId(io.dstore.Values.integerValue value) {
+      public Builder setSupplierId(io.dstore.values.IntegerValue value) {
         if (supplierIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
        */
       public Builder setSupplierId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (supplierIdBuilder_ == null) {
           supplierId_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
        */
-      public Builder mergeSupplierId(io.dstore.Values.integerValue value) {
+      public Builder mergeSupplierId(io.dstore.values.IntegerValue value) {
         if (supplierIdBuilder_ == null) {
           if (supplierId_ != null) {
             supplierId_ =
-              io.dstore.Values.integerValue.newBuilder(supplierId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(supplierId_).mergeFrom(value).buildPartial();
           } else {
             supplierId_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
        */
       public Builder clearSupplierId() {
         if (supplierIdBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSupplierIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSupplierIdBuilder() {
         
         onChanged();
         return getSupplierIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSupplierIdOrBuilder() {
         if (supplierIdBuilder_ != null) {
           return supplierIdBuilder_.getMessageOrBuilder();
         } else {
           return supplierId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : supplierId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSupplierIdFieldBuilder() {
         if (supplierIdBuilder_ == null) {
           supplierIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSupplierId(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue dateForPropertyDetermination_ = null;
+      private io.dstore.values.TimestampValue dateForPropertyDetermination_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateForPropertyDeterminationBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dateForPropertyDeterminationBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
        */
       public boolean hasDateForPropertyDetermination() {
         return dateForPropertyDeterminationBuilder_ != null || dateForPropertyDetermination_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
        */
-      public io.dstore.Values.timestampValue getDateForPropertyDetermination() {
+      public io.dstore.values.TimestampValue getDateForPropertyDetermination() {
         if (dateForPropertyDeterminationBuilder_ == null) {
-          return dateForPropertyDetermination_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateForPropertyDetermination_;
+          return dateForPropertyDetermination_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : dateForPropertyDetermination_;
         } else {
           return dateForPropertyDeterminationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
        */
-      public Builder setDateForPropertyDetermination(io.dstore.Values.timestampValue value) {
+      public Builder setDateForPropertyDetermination(io.dstore.values.TimestampValue value) {
         if (dateForPropertyDeterminationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
        */
       public Builder setDateForPropertyDetermination(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (dateForPropertyDeterminationBuilder_ == null) {
           dateForPropertyDetermination_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
        */
-      public Builder mergeDateForPropertyDetermination(io.dstore.Values.timestampValue value) {
+      public Builder mergeDateForPropertyDetermination(io.dstore.values.TimestampValue value) {
         if (dateForPropertyDeterminationBuilder_ == null) {
           if (dateForPropertyDetermination_ != null) {
             dateForPropertyDetermination_ =
-              io.dstore.Values.timestampValue.newBuilder(dateForPropertyDetermination_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(dateForPropertyDetermination_).mergeFrom(value).buildPartial();
           } else {
             dateForPropertyDetermination_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
        */
       public Builder clearDateForPropertyDetermination() {
         if (dateForPropertyDeterminationBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getDateForPropertyDeterminationBuilder() {
+      public io.dstore.values.TimestampValue.Builder getDateForPropertyDeterminationBuilder() {
         
         onChanged();
         return getDateForPropertyDeterminationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getDateForPropertyDeterminationOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getDateForPropertyDeterminationOrBuilder() {
         if (dateForPropertyDeterminationBuilder_ != null) {
           return dateForPropertyDeterminationBuilder_.getMessageOrBuilder();
         } else {
           return dateForPropertyDetermination_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : dateForPropertyDetermination_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : dateForPropertyDetermination_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue date_for_property_determination = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date_for_property_determination = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getDateForPropertyDeterminationFieldBuilder() {
         if (dateForPropertyDeterminationBuilder_ == null) {
           dateForPropertyDeterminationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getDateForPropertyDetermination(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class OmGetPurchasePricesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2139,7 +2139,7 @@ public final class OmGetPurchasePricesAd {
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
       boolean hasSupplCharacVal2RestrByPattern();
       /**
@@ -2147,24 +2147,24 @@ public final class OmGetPurchasePricesAd {
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
-      io.dstore.Values.stringValue getSupplCharacVal2RestrByPattern();
+      io.dstore.values.StringValue getSupplCharacVal2RestrByPattern();
       /**
        * <pre>
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSupplCharacVal2RestrByPatternOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSupplCharacVal2RestrByPatternOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+       * <code>optional .dstore.values.StringValue item_property = 10002;</code>
        */
       boolean hasItemProperty();
       /**
@@ -2172,24 +2172,24 @@ public final class OmGetPurchasePricesAd {
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+       * <code>optional .dstore.values.StringValue item_property = 10002;</code>
        */
-      io.dstore.Values.stringValue getItemProperty();
+      io.dstore.values.StringValue getItemProperty();
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+       * <code>optional .dstore.values.StringValue item_property = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getItemPropertyOrBuilder();
+      io.dstore.values.StringValueOrBuilder getItemPropertyOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
        */
       boolean hasSupplierCharacteristicValue2();
       /**
@@ -2197,24 +2197,24 @@ public final class OmGetPurchasePricesAd {
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
        */
-      io.dstore.Values.stringValue getSupplierCharacteristicValue2();
+      io.dstore.values.StringValue getSupplierCharacteristicValue2();
       /**
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue2OrBuilder();
+      io.dstore.values.StringValueOrBuilder getSupplierCharacteristicValue2OrBuilder();
 
       /**
        * <pre>
        * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
        */
       boolean hasTotalNetPrice();
       /**
@@ -2222,24 +2222,24 @@ public final class OmGetPurchasePricesAd {
        * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
        */
-      io.dstore.Values.decimalValue getTotalNetPrice();
+      io.dstore.values.DecimalValue getTotalNetPrice();
       /**
        * <pre>
        * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getTotalNetPriceOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getTotalNetPriceOrBuilder();
 
       /**
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
        */
       boolean hasQuantity();
       /**
@@ -2247,24 +2247,24 @@ public final class OmGetPurchasePricesAd {
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
        */
-      io.dstore.Values.integerValue getQuantity();
+      io.dstore.values.IntegerValue getQuantity();
       /**
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
        */
       boolean hasSupplierCharacteristicValue1();
       /**
@@ -2272,24 +2272,24 @@ public final class OmGetPurchasePricesAd {
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
        */
-      io.dstore.Values.stringValue getSupplierCharacteristicValue1();
+      io.dstore.values.StringValue getSupplierCharacteristicValue1();
       /**
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue1OrBuilder();
+      io.dstore.values.StringValueOrBuilder getSupplierCharacteristicValue1OrBuilder();
 
       /**
        * <pre>
        * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
        */
       boolean hasCurrencyId();
       /**
@@ -2297,24 +2297,24 @@ public final class OmGetPurchasePricesAd {
        * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
        */
-      io.dstore.Values.integerValue getCurrencyId();
+      io.dstore.values.IntegerValue getCurrencyId();
       /**
        * <pre>
        * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
        */
       boolean hasCurrencySymbol();
       /**
@@ -2322,24 +2322,24 @@ public final class OmGetPurchasePricesAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
        */
-      io.dstore.Values.stringValue getCurrencySymbol();
+      io.dstore.values.StringValue getCurrencySymbol();
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCurrencySymbolOrBuilder();
 
       /**
        * <pre>
        * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
        */
       boolean hasSupplierId();
       /**
@@ -2347,24 +2347,24 @@ public final class OmGetPurchasePricesAd {
        * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
        */
-      io.dstore.Values.integerValue getSupplierId();
+      io.dstore.values.IntegerValue getSupplierId();
       /**
        * <pre>
        * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSupplierIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10010;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -2372,24 +2372,24 @@ public final class OmGetPurchasePricesAd {
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10010;</code>
        */
-      io.dstore.Values.stringValue getNodeDescription();
+      io.dstore.values.StringValue getNodeDescription();
       /**
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10010;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
        */
       boolean hasUnitNetPrice();
       /**
@@ -2397,24 +2397,24 @@ public final class OmGetPurchasePricesAd {
        * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
        */
-      io.dstore.Values.decimalValue getUnitNetPrice();
+      io.dstore.values.DecimalValue getUnitNetPrice();
       /**
        * <pre>
        * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getUnitNetPriceOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getUnitNetPriceOrBuilder();
 
       /**
        * <pre>
        * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
        */
       boolean hasHTreeNodeId();
       /**
@@ -2422,24 +2422,24 @@ public final class OmGetPurchasePricesAd {
        * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
        */
-      io.dstore.Values.integerValue getHTreeNodeId();
+      io.dstore.values.IntegerValue getHTreeNodeId();
       /**
        * <pre>
        * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10013;</code>
        */
       boolean hasItemNo();
       /**
@@ -2447,24 +2447,24 @@ public final class OmGetPurchasePricesAd {
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10013;</code>
        */
-      io.dstore.Values.stringValue getItemNo();
+      io.dstore.values.StringValue getItemNo();
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10013;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder();
+      io.dstore.values.StringValueOrBuilder getItemNoOrBuilder();
 
       /**
        * <pre>
        * ID eines Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
        */
       boolean hasNodeId();
       /**
@@ -2472,24 +2472,24 @@ public final class OmGetPurchasePricesAd {
        * ID eines Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID eines Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -2497,24 +2497,24 @@ public final class OmGetPurchasePricesAd {
        * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
-      io.dstore.Values.integerValue getTreeNodeId();
+      io.dstore.values.IntegerValue getTreeNodeId();
       /**
        * <pre>
        * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
        */
       boolean hasSupplCharacVal1RestrByPattern();
       /**
@@ -2522,17 +2522,17 @@ public final class OmGetPurchasePricesAd {
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
        */
-      io.dstore.Values.stringValue getSupplCharacVal1RestrByPattern();
+      io.dstore.values.StringValue getSupplCharacVal1RestrByPattern();
       /**
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSupplCharacVal1RestrByPatternOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSupplCharacVal1RestrByPatternOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPurchasePrices_Ad.Response.Row}
@@ -2580,11 +2580,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (supplCharacVal2RestrByPattern_ != null) {
                   subBuilder = supplCharacVal2RestrByPattern_.toBuilder();
                 }
-                supplCharacVal2RestrByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                supplCharacVal2RestrByPattern_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplCharacVal2RestrByPattern_);
                   supplCharacVal2RestrByPattern_ = subBuilder.buildPartial();
@@ -2593,11 +2593,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (itemProperty_ != null) {
                   subBuilder = itemProperty_.toBuilder();
                 }
-                itemProperty_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                itemProperty_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemProperty_);
                   itemProperty_ = subBuilder.buildPartial();
@@ -2606,11 +2606,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (supplierCharacteristicValue2_ != null) {
                   subBuilder = supplierCharacteristicValue2_.toBuilder();
                 }
-                supplierCharacteristicValue2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                supplierCharacteristicValue2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplierCharacteristicValue2_);
                   supplierCharacteristicValue2_ = subBuilder.buildPartial();
@@ -2619,11 +2619,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (totalNetPrice_ != null) {
                   subBuilder = totalNetPrice_.toBuilder();
                 }
-                totalNetPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                totalNetPrice_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalNetPrice_);
                   totalNetPrice_ = subBuilder.buildPartial();
@@ -2632,11 +2632,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -2645,11 +2645,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (supplierCharacteristicValue1_ != null) {
                   subBuilder = supplierCharacteristicValue1_.toBuilder();
                 }
-                supplierCharacteristicValue1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                supplierCharacteristicValue1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplierCharacteristicValue1_);
                   supplierCharacteristicValue1_ = subBuilder.buildPartial();
@@ -2658,11 +2658,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -2671,11 +2671,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (currencySymbol_ != null) {
                   subBuilder = currencySymbol_.toBuilder();
                 }
-                currencySymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                currencySymbol_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencySymbol_);
                   currencySymbol_ = subBuilder.buildPartial();
@@ -2684,11 +2684,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80074: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (supplierId_ != null) {
                   subBuilder = supplierId_.toBuilder();
                 }
-                supplierId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                supplierId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplierId_);
                   supplierId_ = subBuilder.buildPartial();
@@ -2697,11 +2697,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80082: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -2710,11 +2710,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80090: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (unitNetPrice_ != null) {
                   subBuilder = unitNetPrice_.toBuilder();
                 }
-                unitNetPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                unitNetPrice_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitNetPrice_);
                   unitNetPrice_ = subBuilder.buildPartial();
@@ -2723,11 +2723,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80098: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -2736,11 +2736,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80106: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (itemNo_ != null) {
                   subBuilder = itemNo_.toBuilder();
                 }
-                itemNo_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                itemNo_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemNo_);
                   itemNo_ = subBuilder.buildPartial();
@@ -2749,11 +2749,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80114: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2762,11 +2762,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80122: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -2775,11 +2775,11 @@ public final class OmGetPurchasePricesAd {
                 break;
               }
               case 80130: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (supplCharacVal1RestrByPattern_ != null) {
                   subBuilder = supplCharacVal1RestrByPattern_.toBuilder();
                 }
-                supplCharacVal1RestrByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                supplCharacVal1RestrByPattern_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplCharacVal1RestrByPattern_);
                   supplCharacVal1RestrByPattern_ = subBuilder.buildPartial();
@@ -2820,13 +2820,13 @@ public final class OmGetPurchasePricesAd {
       }
 
       public static final int SUPPL_CHARAC_VAL2_RESTR_BY_PATTERN_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue supplCharacVal2RestrByPattern_;
+      private io.dstore.values.StringValue supplCharacVal2RestrByPattern_;
       /**
        * <pre>
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
       public boolean hasSupplCharacVal2RestrByPattern() {
         return supplCharacVal2RestrByPattern_ != null;
@@ -2836,30 +2836,30 @@ public final class OmGetPurchasePricesAd {
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
-      public io.dstore.Values.stringValue getSupplCharacVal2RestrByPattern() {
-        return supplCharacVal2RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplCharacVal2RestrByPattern_;
+      public io.dstore.values.StringValue getSupplCharacVal2RestrByPattern() {
+        return supplCharacVal2RestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : supplCharacVal2RestrByPattern_;
       }
       /**
        * <pre>
        * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSupplCharacVal2RestrByPatternOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSupplCharacVal2RestrByPatternOrBuilder() {
         return getSupplCharacVal2RestrByPattern();
       }
 
       public static final int ITEM_PROPERTY_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue itemProperty_;
+      private io.dstore.values.StringValue itemProperty_;
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+       * <code>optional .dstore.values.StringValue item_property = 10002;</code>
        */
       public boolean hasItemProperty() {
         return itemProperty_ != null;
@@ -2869,30 +2869,30 @@ public final class OmGetPurchasePricesAd {
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+       * <code>optional .dstore.values.StringValue item_property = 10002;</code>
        */
-      public io.dstore.Values.stringValue getItemProperty() {
-        return itemProperty_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemProperty_;
+      public io.dstore.values.StringValue getItemProperty() {
+        return itemProperty_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemProperty_;
       }
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+       * <code>optional .dstore.values.StringValue item_property = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getItemPropertyOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getItemPropertyOrBuilder() {
         return getItemProperty();
       }
 
       public static final int SUPPLIER_CHARACTERISTIC_VALUE2_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue supplierCharacteristicValue2_;
+      private io.dstore.values.StringValue supplierCharacteristicValue2_;
       /**
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
        */
       public boolean hasSupplierCharacteristicValue2() {
         return supplierCharacteristicValue2_ != null;
@@ -2902,30 +2902,30 @@ public final class OmGetPurchasePricesAd {
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
        */
-      public io.dstore.Values.stringValue getSupplierCharacteristicValue2() {
-        return supplierCharacteristicValue2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplierCharacteristicValue2_;
+      public io.dstore.values.StringValue getSupplierCharacteristicValue2() {
+        return supplierCharacteristicValue2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : supplierCharacteristicValue2_;
       }
       /**
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSupplierCharacteristicValue2OrBuilder() {
         return getSupplierCharacteristicValue2();
       }
 
       public static final int TOTAL_NET_PRICE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.decimalValue totalNetPrice_;
+      private io.dstore.values.DecimalValue totalNetPrice_;
       /**
        * <pre>
        * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
        */
       public boolean hasTotalNetPrice() {
         return totalNetPrice_ != null;
@@ -2935,30 +2935,30 @@ public final class OmGetPurchasePricesAd {
        * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
        */
-      public io.dstore.Values.decimalValue getTotalNetPrice() {
-        return totalNetPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalNetPrice_;
+      public io.dstore.values.DecimalValue getTotalNetPrice() {
+        return totalNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalNetPrice_;
       }
       /**
        * <pre>
        * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getTotalNetPriceOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getTotalNetPriceOrBuilder() {
         return getTotalNetPrice();
       }
 
       public static final int QUANTITY_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue quantity_;
+      private io.dstore.values.IntegerValue quantity_;
       /**
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
        */
       public boolean hasQuantity() {
         return quantity_ != null;
@@ -2968,30 +2968,30 @@ public final class OmGetPurchasePricesAd {
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
        */
-      public io.dstore.Values.integerValue getQuantity() {
-        return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+      public io.dstore.values.IntegerValue getQuantity() {
+        return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
       }
       /**
        * <pre>
        * Wieviel vom Artikel "NodeID" bestellt werden soll
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
         return getQuantity();
       }
 
       public static final int SUPPLIER_CHARACTERISTIC_VALUE1_FIELD_NUMBER = 10006;
-      private io.dstore.Values.stringValue supplierCharacteristicValue1_;
+      private io.dstore.values.StringValue supplierCharacteristicValue1_;
       /**
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
        */
       public boolean hasSupplierCharacteristicValue1() {
         return supplierCharacteristicValue1_ != null;
@@ -3001,30 +3001,30 @@ public final class OmGetPurchasePricesAd {
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
        */
-      public io.dstore.Values.stringValue getSupplierCharacteristicValue1() {
-        return supplierCharacteristicValue1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplierCharacteristicValue1_;
+      public io.dstore.values.StringValue getSupplierCharacteristicValue1() {
+        return supplierCharacteristicValue1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : supplierCharacteristicValue1_;
       }
       /**
        * <pre>
        * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+       * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSupplierCharacteristicValue1OrBuilder() {
         return getSupplierCharacteristicValue1();
       }
 
       public static final int CURRENCY_ID_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue currencyId_;
+      private io.dstore.values.IntegerValue currencyId_;
       /**
        * <pre>
        * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
        */
       public boolean hasCurrencyId() {
         return currencyId_ != null;
@@ -3034,30 +3034,30 @@ public final class OmGetPurchasePricesAd {
        * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
        */
-      public io.dstore.Values.integerValue getCurrencyId() {
-        return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+      public io.dstore.values.IntegerValue getCurrencyId() {
+        return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
       }
       /**
        * <pre>
        * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         return getCurrencyId();
       }
 
       public static final int CURRENCY_SYMBOL_FIELD_NUMBER = 10008;
-      private io.dstore.Values.stringValue currencySymbol_;
+      private io.dstore.values.StringValue currencySymbol_;
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
        */
       public boolean hasCurrencySymbol() {
         return currencySymbol_ != null;
@@ -3067,30 +3067,30 @@ public final class OmGetPurchasePricesAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
        */
-      public io.dstore.Values.stringValue getCurrencySymbol() {
-        return currencySymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : currencySymbol_;
+      public io.dstore.values.StringValue getCurrencySymbol() {
+        return currencySymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : currencySymbol_;
       }
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+       * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCurrencySymbolOrBuilder() {
         return getCurrencySymbol();
       }
 
       public static final int SUPPLIER_ID_FIELD_NUMBER = 10009;
-      private io.dstore.Values.integerValue supplierId_;
+      private io.dstore.values.IntegerValue supplierId_;
       /**
        * <pre>
        * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
        */
       public boolean hasSupplierId() {
         return supplierId_ != null;
@@ -3100,30 +3100,30 @@ public final class OmGetPurchasePricesAd {
        * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
        */
-      public io.dstore.Values.integerValue getSupplierId() {
-        return supplierId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
+      public io.dstore.values.IntegerValue getSupplierId() {
+        return supplierId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : supplierId_;
       }
       /**
        * <pre>
        * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSupplierIdOrBuilder() {
         return getSupplierId();
       }
 
       public static final int NODE_DESCRIPTION_FIELD_NUMBER = 10010;
-      private io.dstore.Values.stringValue nodeDescription_;
+      private io.dstore.values.StringValue nodeDescription_;
       /**
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10010;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -3133,30 +3133,30 @@ public final class OmGetPurchasePricesAd {
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10010;</code>
        */
-      public io.dstore.Values.stringValue getNodeDescription() {
-        return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
+      public io.dstore.values.StringValue getNodeDescription() {
+        return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Artikel-Elementes "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10010;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
       }
 
       public static final int UNIT_NET_PRICE_FIELD_NUMBER = 10011;
-      private io.dstore.Values.decimalValue unitNetPrice_;
+      private io.dstore.values.DecimalValue unitNetPrice_;
       /**
        * <pre>
        * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
        */
       public boolean hasUnitNetPrice() {
         return unitNetPrice_ != null;
@@ -3166,30 +3166,30 @@ public final class OmGetPurchasePricesAd {
        * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
        */
-      public io.dstore.Values.decimalValue getUnitNetPrice() {
-        return unitNetPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitNetPrice_;
+      public io.dstore.values.DecimalValue getUnitNetPrice() {
+        return unitNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitNetPrice_;
       }
       /**
        * <pre>
        * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getUnitNetPriceOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getUnitNetPriceOrBuilder() {
         return getUnitNetPrice();
       }
 
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10012;
-      private io.dstore.Values.integerValue hTreeNodeId_;
+      private io.dstore.values.IntegerValue hTreeNodeId_;
       /**
        * <pre>
        * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
@@ -3199,30 +3199,30 @@ public final class OmGetPurchasePricesAd {
        * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
        */
-      public io.dstore.Values.integerValue getHTreeNodeId() {
-        return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+      public io.dstore.values.IntegerValue getHTreeNodeId() {
+        return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
        * <pre>
        * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
       }
 
       public static final int ITEM_NO_FIELD_NUMBER = 10013;
-      private io.dstore.Values.stringValue itemNo_;
+      private io.dstore.values.StringValue itemNo_;
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10013;</code>
        */
       public boolean hasItemNo() {
         return itemNo_ != null;
@@ -3232,30 +3232,30 @@ public final class OmGetPurchasePricesAd {
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10013;</code>
        */
-      public io.dstore.Values.stringValue getItemNo() {
-        return itemNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
+      public io.dstore.values.StringValue getItemNo() {
+        return itemNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemNo_;
       }
       /**
        * <pre>
        * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10013;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getItemNoOrBuilder() {
         return getItemNo();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10014;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID eines Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -3265,30 +3265,30 @@ public final class OmGetPurchasePricesAd {
        * ID eines Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID eines Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10015;
-      private io.dstore.Values.integerValue treeNodeId_;
+      private io.dstore.values.IntegerValue treeNodeId_;
       /**
        * <pre>
        * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -3298,30 +3298,30 @@ public final class OmGetPurchasePricesAd {
        * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.values.IntegerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
        * <pre>
        * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int SUPPL_CHARAC_VAL1_RESTR_BY_PATTERN_FIELD_NUMBER = 10016;
-      private io.dstore.Values.stringValue supplCharacVal1RestrByPattern_;
+      private io.dstore.values.StringValue supplCharacVal1RestrByPattern_;
       /**
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
        */
       public boolean hasSupplCharacVal1RestrByPattern() {
         return supplCharacVal1RestrByPattern_ != null;
@@ -3331,19 +3331,19 @@ public final class OmGetPurchasePricesAd {
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
        */
-      public io.dstore.Values.stringValue getSupplCharacVal1RestrByPattern() {
-        return supplCharacVal1RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplCharacVal1RestrByPattern_;
+      public io.dstore.values.StringValue getSupplCharacVal1RestrByPattern() {
+        return supplCharacVal1RestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : supplCharacVal1RestrByPattern_;
       }
       /**
        * <pre>
        * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+       * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSupplCharacVal1RestrByPatternOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSupplCharacVal1RestrByPatternOrBuilder() {
         return getSupplCharacVal1RestrByPattern();
       }
 
@@ -4122,15 +4122,15 @@ public final class OmGetPurchasePricesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue supplCharacVal2RestrByPattern_ = null;
+        private io.dstore.values.StringValue supplCharacVal2RestrByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplCharacVal2RestrByPatternBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> supplCharacVal2RestrByPatternBuilder_;
         /**
          * <pre>
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public boolean hasSupplCharacVal2RestrByPattern() {
           return supplCharacVal2RestrByPatternBuilder_ != null || supplCharacVal2RestrByPattern_ != null;
@@ -4140,11 +4140,11 @@ public final class OmGetPurchasePricesAd {
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
-        public io.dstore.Values.stringValue getSupplCharacVal2RestrByPattern() {
+        public io.dstore.values.StringValue getSupplCharacVal2RestrByPattern() {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
-            return supplCharacVal2RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplCharacVal2RestrByPattern_;
+            return supplCharacVal2RestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : supplCharacVal2RestrByPattern_;
           } else {
             return supplCharacVal2RestrByPatternBuilder_.getMessage();
           }
@@ -4154,9 +4154,9 @@ public final class OmGetPurchasePricesAd {
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
-        public Builder setSupplCharacVal2RestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder setSupplCharacVal2RestrByPattern(io.dstore.values.StringValue value) {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4174,10 +4174,10 @@ public final class OmGetPurchasePricesAd {
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder setSupplCharacVal2RestrByPattern(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
             supplCharacVal2RestrByPattern_ = builderForValue.build();
             onChanged();
@@ -4192,13 +4192,13 @@ public final class OmGetPurchasePricesAd {
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
-        public Builder mergeSupplCharacVal2RestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder mergeSupplCharacVal2RestrByPattern(io.dstore.values.StringValue value) {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
             if (supplCharacVal2RestrByPattern_ != null) {
               supplCharacVal2RestrByPattern_ =
-                io.dstore.Values.stringValue.newBuilder(supplCharacVal2RestrByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(supplCharacVal2RestrByPattern_).mergeFrom(value).buildPartial();
             } else {
               supplCharacVal2RestrByPattern_ = value;
             }
@@ -4214,7 +4214,7 @@ public final class OmGetPurchasePricesAd {
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         public Builder clearSupplCharacVal2RestrByPattern() {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
@@ -4232,9 +4232,9 @@ public final class OmGetPurchasePricesAd {
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSupplCharacVal2RestrByPatternBuilder() {
+        public io.dstore.values.StringValue.Builder getSupplCharacVal2RestrByPatternBuilder() {
           
           onChanged();
           return getSupplCharacVal2RestrByPatternFieldBuilder().getBuilder();
@@ -4244,14 +4244,14 @@ public final class OmGetPurchasePricesAd {
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSupplCharacVal2RestrByPatternOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSupplCharacVal2RestrByPatternOrBuilder() {
           if (supplCharacVal2RestrByPatternBuilder_ != null) {
             return supplCharacVal2RestrByPatternBuilder_.getMessageOrBuilder();
           } else {
             return supplCharacVal2RestrByPattern_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : supplCharacVal2RestrByPattern_;
+                io.dstore.values.StringValue.getDefaultInstance() : supplCharacVal2RestrByPattern_;
           }
         }
         /**
@@ -4259,14 +4259,14 @@ public final class OmGetPurchasePricesAd {
          * Wie "SupplCharacVal1RestrByPattern" - nur eben auf "SupplierCharacteristicValue2" bezogen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val2_restr_by_pattern = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSupplCharacVal2RestrByPatternFieldBuilder() {
           if (supplCharacVal2RestrByPatternBuilder_ == null) {
             supplCharacVal2RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSupplCharacVal2RestrByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -4275,15 +4275,15 @@ public final class OmGetPurchasePricesAd {
           return supplCharacVal2RestrByPatternBuilder_;
         }
 
-        private io.dstore.Values.stringValue itemProperty_ = null;
+        private io.dstore.values.StringValue itemProperty_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemPropertyBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> itemPropertyBuilder_;
         /**
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+         * <code>optional .dstore.values.StringValue item_property = 10002;</code>
          */
         public boolean hasItemProperty() {
           return itemPropertyBuilder_ != null || itemProperty_ != null;
@@ -4293,11 +4293,11 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+         * <code>optional .dstore.values.StringValue item_property = 10002;</code>
          */
-        public io.dstore.Values.stringValue getItemProperty() {
+        public io.dstore.values.StringValue getItemProperty() {
           if (itemPropertyBuilder_ == null) {
-            return itemProperty_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemProperty_;
+            return itemProperty_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemProperty_;
           } else {
             return itemPropertyBuilder_.getMessage();
           }
@@ -4307,9 +4307,9 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+         * <code>optional .dstore.values.StringValue item_property = 10002;</code>
          */
-        public Builder setItemProperty(io.dstore.Values.stringValue value) {
+        public Builder setItemProperty(io.dstore.values.StringValue value) {
           if (itemPropertyBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4327,10 +4327,10 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+         * <code>optional .dstore.values.StringValue item_property = 10002;</code>
          */
         public Builder setItemProperty(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (itemPropertyBuilder_ == null) {
             itemProperty_ = builderForValue.build();
             onChanged();
@@ -4345,13 +4345,13 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+         * <code>optional .dstore.values.StringValue item_property = 10002;</code>
          */
-        public Builder mergeItemProperty(io.dstore.Values.stringValue value) {
+        public Builder mergeItemProperty(io.dstore.values.StringValue value) {
           if (itemPropertyBuilder_ == null) {
             if (itemProperty_ != null) {
               itemProperty_ =
-                io.dstore.Values.stringValue.newBuilder(itemProperty_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(itemProperty_).mergeFrom(value).buildPartial();
             } else {
               itemProperty_ = value;
             }
@@ -4367,7 +4367,7 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+         * <code>optional .dstore.values.StringValue item_property = 10002;</code>
          */
         public Builder clearItemProperty() {
           if (itemPropertyBuilder_ == null) {
@@ -4385,9 +4385,9 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+         * <code>optional .dstore.values.StringValue item_property = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getItemPropertyBuilder() {
+        public io.dstore.values.StringValue.Builder getItemPropertyBuilder() {
           
           onChanged();
           return getItemPropertyFieldBuilder().getBuilder();
@@ -4397,14 +4397,14 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+         * <code>optional .dstore.values.StringValue item_property = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getItemPropertyOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getItemPropertyOrBuilder() {
           if (itemPropertyBuilder_ != null) {
             return itemPropertyBuilder_.getMessageOrBuilder();
           } else {
             return itemProperty_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : itemProperty_;
+                io.dstore.values.StringValue.getDefaultInstance() : itemProperty_;
           }
         }
         /**
@@ -4412,14 +4412,14 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal "&#64;NodeCharacteristicID" (wenn "NULL" für "&#64;NodeCharacteristicID" angegeben wurde, steht hier auch "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_property = 10002;</code>
+         * <code>optional .dstore.values.StringValue item_property = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getItemPropertyFieldBuilder() {
           if (itemPropertyBuilder_ == null) {
             itemPropertyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getItemProperty(),
                     getParentForChildren(),
                     isClean());
@@ -4428,15 +4428,15 @@ public final class OmGetPurchasePricesAd {
           return itemPropertyBuilder_;
         }
 
-        private io.dstore.Values.stringValue supplierCharacteristicValue2_ = null;
+        private io.dstore.values.StringValue supplierCharacteristicValue2_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplierCharacteristicValue2Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> supplierCharacteristicValue2Builder_;
         /**
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
          */
         public boolean hasSupplierCharacteristicValue2() {
           return supplierCharacteristicValue2Builder_ != null || supplierCharacteristicValue2_ != null;
@@ -4446,11 +4446,11 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
          */
-        public io.dstore.Values.stringValue getSupplierCharacteristicValue2() {
+        public io.dstore.values.StringValue getSupplierCharacteristicValue2() {
           if (supplierCharacteristicValue2Builder_ == null) {
-            return supplierCharacteristicValue2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplierCharacteristicValue2_;
+            return supplierCharacteristicValue2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : supplierCharacteristicValue2_;
           } else {
             return supplierCharacteristicValue2Builder_.getMessage();
           }
@@ -4460,9 +4460,9 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
          */
-        public Builder setSupplierCharacteristicValue2(io.dstore.Values.stringValue value) {
+        public Builder setSupplierCharacteristicValue2(io.dstore.values.StringValue value) {
           if (supplierCharacteristicValue2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4480,10 +4480,10 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
          */
         public Builder setSupplierCharacteristicValue2(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (supplierCharacteristicValue2Builder_ == null) {
             supplierCharacteristicValue2_ = builderForValue.build();
             onChanged();
@@ -4498,13 +4498,13 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
          */
-        public Builder mergeSupplierCharacteristicValue2(io.dstore.Values.stringValue value) {
+        public Builder mergeSupplierCharacteristicValue2(io.dstore.values.StringValue value) {
           if (supplierCharacteristicValue2Builder_ == null) {
             if (supplierCharacteristicValue2_ != null) {
               supplierCharacteristicValue2_ =
-                io.dstore.Values.stringValue.newBuilder(supplierCharacteristicValue2_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(supplierCharacteristicValue2_).mergeFrom(value).buildPartial();
             } else {
               supplierCharacteristicValue2_ = value;
             }
@@ -4520,7 +4520,7 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
          */
         public Builder clearSupplierCharacteristicValue2() {
           if (supplierCharacteristicValue2Builder_ == null) {
@@ -4538,9 +4538,9 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSupplierCharacteristicValue2Builder() {
+        public io.dstore.values.StringValue.Builder getSupplierCharacteristicValue2Builder() {
           
           onChanged();
           return getSupplierCharacteristicValue2FieldBuilder().getBuilder();
@@ -4550,14 +4550,14 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue2OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSupplierCharacteristicValue2OrBuilder() {
           if (supplierCharacteristicValue2Builder_ != null) {
             return supplierCharacteristicValue2Builder_.getMessageOrBuilder();
           } else {
             return supplierCharacteristicValue2_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : supplierCharacteristicValue2_;
+                io.dstore.values.StringValue.getDefaultInstance() : supplierCharacteristicValue2_;
           }
         }
         /**
@@ -4565,14 +4565,14 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 2. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value2 = 10003;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value2 = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSupplierCharacteristicValue2FieldBuilder() {
           if (supplierCharacteristicValue2Builder_ == null) {
             supplierCharacteristicValue2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSupplierCharacteristicValue2(),
                     getParentForChildren(),
                     isClean());
@@ -4581,15 +4581,15 @@ public final class OmGetPurchasePricesAd {
           return supplierCharacteristicValue2Builder_;
         }
 
-        private io.dstore.Values.decimalValue totalNetPrice_ = null;
+        private io.dstore.values.DecimalValue totalNetPrice_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalNetPriceBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> totalNetPriceBuilder_;
         /**
          * <pre>
          * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
          */
         public boolean hasTotalNetPrice() {
           return totalNetPriceBuilder_ != null || totalNetPrice_ != null;
@@ -4599,11 +4599,11 @@ public final class OmGetPurchasePricesAd {
          * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
          */
-        public io.dstore.Values.decimalValue getTotalNetPrice() {
+        public io.dstore.values.DecimalValue getTotalNetPrice() {
           if (totalNetPriceBuilder_ == null) {
-            return totalNetPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalNetPrice_;
+            return totalNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalNetPrice_;
           } else {
             return totalNetPriceBuilder_.getMessage();
           }
@@ -4613,9 +4613,9 @@ public final class OmGetPurchasePricesAd {
          * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
          */
-        public Builder setTotalNetPrice(io.dstore.Values.decimalValue value) {
+        public Builder setTotalNetPrice(io.dstore.values.DecimalValue value) {
           if (totalNetPriceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4633,10 +4633,10 @@ public final class OmGetPurchasePricesAd {
          * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
          */
         public Builder setTotalNetPrice(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (totalNetPriceBuilder_ == null) {
             totalNetPrice_ = builderForValue.build();
             onChanged();
@@ -4651,13 +4651,13 @@ public final class OmGetPurchasePricesAd {
          * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
          */
-        public Builder mergeTotalNetPrice(io.dstore.Values.decimalValue value) {
+        public Builder mergeTotalNetPrice(io.dstore.values.DecimalValue value) {
           if (totalNetPriceBuilder_ == null) {
             if (totalNetPrice_ != null) {
               totalNetPrice_ =
-                io.dstore.Values.decimalValue.newBuilder(totalNetPrice_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(totalNetPrice_).mergeFrom(value).buildPartial();
             } else {
               totalNetPrice_ = value;
             }
@@ -4673,7 +4673,7 @@ public final class OmGetPurchasePricesAd {
          * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
          */
         public Builder clearTotalNetPrice() {
           if (totalNetPriceBuilder_ == null) {
@@ -4691,9 +4691,9 @@ public final class OmGetPurchasePricesAd {
          * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getTotalNetPriceBuilder() {
+        public io.dstore.values.DecimalValue.Builder getTotalNetPriceBuilder() {
           
           onChanged();
           return getTotalNetPriceFieldBuilder().getBuilder();
@@ -4703,14 +4703,14 @@ public final class OmGetPurchasePricesAd {
          * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getTotalNetPriceOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getTotalNetPriceOrBuilder() {
           if (totalNetPriceBuilder_ != null) {
             return totalNetPriceBuilder_.getMessageOrBuilder();
           } else {
             return totalNetPrice_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : totalNetPrice_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : totalNetPrice_;
           }
         }
         /**
@@ -4718,14 +4718,14 @@ public final class OmGetPurchasePricesAd {
          * Gesamt-Netto-Preis  (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel in der Menge "Quantity" beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_net_price = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue total_net_price = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getTotalNetPriceFieldBuilder() {
           if (totalNetPriceBuilder_ == null) {
             totalNetPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getTotalNetPrice(),
                     getParentForChildren(),
                     isClean());
@@ -4734,15 +4734,15 @@ public final class OmGetPurchasePricesAd {
           return totalNetPriceBuilder_;
         }
 
-        private io.dstore.Values.integerValue quantity_ = null;
+        private io.dstore.values.IntegerValue quantity_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> quantityBuilder_;
         /**
          * <pre>
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
          */
         public boolean hasQuantity() {
           return quantityBuilder_ != null || quantity_ != null;
@@ -4752,11 +4752,11 @@ public final class OmGetPurchasePricesAd {
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
          */
-        public io.dstore.Values.integerValue getQuantity() {
+        public io.dstore.values.IntegerValue getQuantity() {
           if (quantityBuilder_ == null) {
-            return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+            return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
           } else {
             return quantityBuilder_.getMessage();
           }
@@ -4766,9 +4766,9 @@ public final class OmGetPurchasePricesAd {
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
          */
-        public Builder setQuantity(io.dstore.Values.integerValue value) {
+        public Builder setQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4786,10 +4786,10 @@ public final class OmGetPurchasePricesAd {
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
          */
         public Builder setQuantity(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (quantityBuilder_ == null) {
             quantity_ = builderForValue.build();
             onChanged();
@@ -4804,13 +4804,13 @@ public final class OmGetPurchasePricesAd {
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
          */
-        public Builder mergeQuantity(io.dstore.Values.integerValue value) {
+        public Builder mergeQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
             if (quantity_ != null) {
               quantity_ =
-                io.dstore.Values.integerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
             } else {
               quantity_ = value;
             }
@@ -4826,7 +4826,7 @@ public final class OmGetPurchasePricesAd {
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
          */
         public Builder clearQuantity() {
           if (quantityBuilder_ == null) {
@@ -4844,9 +4844,9 @@ public final class OmGetPurchasePricesAd {
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getQuantityBuilder() {
+        public io.dstore.values.IntegerValue.Builder getQuantityBuilder() {
           
           onChanged();
           return getQuantityFieldBuilder().getBuilder();
@@ -4856,14 +4856,14 @@ public final class OmGetPurchasePricesAd {
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
           if (quantityBuilder_ != null) {
             return quantityBuilder_.getMessageOrBuilder();
           } else {
             return quantity_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
           }
         }
         /**
@@ -4871,14 +4871,14 @@ public final class OmGetPurchasePricesAd {
          * Wieviel vom Artikel "NodeID" bestellt werden soll
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getQuantityFieldBuilder() {
           if (quantityBuilder_ == null) {
             quantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getQuantity(),
                     getParentForChildren(),
                     isClean());
@@ -4887,15 +4887,15 @@ public final class OmGetPurchasePricesAd {
           return quantityBuilder_;
         }
 
-        private io.dstore.Values.stringValue supplierCharacteristicValue1_ = null;
+        private io.dstore.values.StringValue supplierCharacteristicValue1_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplierCharacteristicValue1Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> supplierCharacteristicValue1Builder_;
         /**
          * <pre>
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
          */
         public boolean hasSupplierCharacteristicValue1() {
           return supplierCharacteristicValue1Builder_ != null || supplierCharacteristicValue1_ != null;
@@ -4905,11 +4905,11 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
          */
-        public io.dstore.Values.stringValue getSupplierCharacteristicValue1() {
+        public io.dstore.values.StringValue getSupplierCharacteristicValue1() {
           if (supplierCharacteristicValue1Builder_ == null) {
-            return supplierCharacteristicValue1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplierCharacteristicValue1_;
+            return supplierCharacteristicValue1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : supplierCharacteristicValue1_;
           } else {
             return supplierCharacteristicValue1Builder_.getMessage();
           }
@@ -4919,9 +4919,9 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
          */
-        public Builder setSupplierCharacteristicValue1(io.dstore.Values.stringValue value) {
+        public Builder setSupplierCharacteristicValue1(io.dstore.values.StringValue value) {
           if (supplierCharacteristicValue1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4939,10 +4939,10 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
          */
         public Builder setSupplierCharacteristicValue1(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (supplierCharacteristicValue1Builder_ == null) {
             supplierCharacteristicValue1_ = builderForValue.build();
             onChanged();
@@ -4957,13 +4957,13 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
          */
-        public Builder mergeSupplierCharacteristicValue1(io.dstore.Values.stringValue value) {
+        public Builder mergeSupplierCharacteristicValue1(io.dstore.values.StringValue value) {
           if (supplierCharacteristicValue1Builder_ == null) {
             if (supplierCharacteristicValue1_ != null) {
               supplierCharacteristicValue1_ =
-                io.dstore.Values.stringValue.newBuilder(supplierCharacteristicValue1_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(supplierCharacteristicValue1_).mergeFrom(value).buildPartial();
             } else {
               supplierCharacteristicValue1_ = value;
             }
@@ -4979,7 +4979,7 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
          */
         public Builder clearSupplierCharacteristicValue1() {
           if (supplierCharacteristicValue1Builder_ == null) {
@@ -4997,9 +4997,9 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSupplierCharacteristicValue1Builder() {
+        public io.dstore.values.StringValue.Builder getSupplierCharacteristicValue1Builder() {
           
           onChanged();
           return getSupplierCharacteristicValue1FieldBuilder().getBuilder();
@@ -5009,14 +5009,14 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSupplierCharacteristicValue1OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSupplierCharacteristicValue1OrBuilder() {
           if (supplierCharacteristicValue1Builder_ != null) {
             return supplierCharacteristicValue1Builder_.getMessageOrBuilder();
           } else {
             return supplierCharacteristicValue1_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : supplierCharacteristicValue1_;
+                io.dstore.values.StringValue.getDefaultInstance() : supplierCharacteristicValue1_;
           }
         }
         /**
@@ -5024,14 +5024,14 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft von "SupplierID" zum Merkmal mit der 1. ID, die in "PersonTypSettings" zu "PersonOutputCharacteristics" (zum entsprechenden Typ) konfiguriert und nicht für den Aufrufer komplett lesend gesperrt (s. "pm_GetPChAccRestrForUsers_Ad") ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue supplier_characteristic_value1 = 10006;</code>
+         * <code>optional .dstore.values.StringValue supplier_characteristic_value1 = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSupplierCharacteristicValue1FieldBuilder() {
           if (supplierCharacteristicValue1Builder_ == null) {
             supplierCharacteristicValue1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSupplierCharacteristicValue1(),
                     getParentForChildren(),
                     isClean());
@@ -5040,15 +5040,15 @@ public final class OmGetPurchasePricesAd {
           return supplierCharacteristicValue1Builder_;
         }
 
-        private io.dstore.Values.integerValue currencyId_ = null;
+        private io.dstore.values.IntegerValue currencyId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
         /**
          * <pre>
          * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
          */
         public boolean hasCurrencyId() {
           return currencyIdBuilder_ != null || currencyId_ != null;
@@ -5058,11 +5058,11 @@ public final class OmGetPurchasePricesAd {
          * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue getCurrencyId() {
+        public io.dstore.values.IntegerValue getCurrencyId() {
           if (currencyIdBuilder_ == null) {
-            return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+            return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
           } else {
             return currencyIdBuilder_.getMessage();
           }
@@ -5072,9 +5072,9 @@ public final class OmGetPurchasePricesAd {
          * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
          */
-        public Builder setCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
           if (currencyIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5092,10 +5092,10 @@ public final class OmGetPurchasePricesAd {
          * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
          */
         public Builder setCurrencyId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (currencyIdBuilder_ == null) {
             currencyId_ = builderForValue.build();
             onChanged();
@@ -5110,13 +5110,13 @@ public final class OmGetPurchasePricesAd {
          * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
          */
-        public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
           if (currencyIdBuilder_ == null) {
             if (currencyId_ != null) {
               currencyId_ =
-                io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
             } else {
               currencyId_ = value;
             }
@@ -5132,7 +5132,7 @@ public final class OmGetPurchasePricesAd {
          * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
          */
         public Builder clearCurrencyId() {
           if (currencyIdBuilder_ == null) {
@@ -5150,9 +5150,9 @@ public final class OmGetPurchasePricesAd {
          * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
           
           onChanged();
           return getCurrencyIdFieldBuilder().getBuilder();
@@ -5162,14 +5162,14 @@ public final class OmGetPurchasePricesAd {
          * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
           if (currencyIdBuilder_ != null) {
             return currencyIdBuilder_.getMessageOrBuilder();
           } else {
             return currencyId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
           }
         }
         /**
@@ -5177,14 +5177,14 @@ public final class OmGetPurchasePricesAd {
          * ID der Währung, in der "UnitNetPrice" und "TotalNetPrice" angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCurrencyIdFieldBuilder() {
           if (currencyIdBuilder_ == null) {
             currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCurrencyId(),
                     getParentForChildren(),
                     isClean());
@@ -5193,15 +5193,15 @@ public final class OmGetPurchasePricesAd {
           return currencyIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue currencySymbol_ = null;
+        private io.dstore.values.StringValue currencySymbol_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> currencySymbolBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> currencySymbolBuilder_;
         /**
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
          */
         public boolean hasCurrencySymbol() {
           return currencySymbolBuilder_ != null || currencySymbol_ != null;
@@ -5211,11 +5211,11 @@ public final class OmGetPurchasePricesAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
          */
-        public io.dstore.Values.stringValue getCurrencySymbol() {
+        public io.dstore.values.StringValue getCurrencySymbol() {
           if (currencySymbolBuilder_ == null) {
-            return currencySymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : currencySymbol_;
+            return currencySymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : currencySymbol_;
           } else {
             return currencySymbolBuilder_.getMessage();
           }
@@ -5225,9 +5225,9 @@ public final class OmGetPurchasePricesAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
          */
-        public Builder setCurrencySymbol(io.dstore.Values.stringValue value) {
+        public Builder setCurrencySymbol(io.dstore.values.StringValue value) {
           if (currencySymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5245,10 +5245,10 @@ public final class OmGetPurchasePricesAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
          */
         public Builder setCurrencySymbol(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (currencySymbolBuilder_ == null) {
             currencySymbol_ = builderForValue.build();
             onChanged();
@@ -5263,13 +5263,13 @@ public final class OmGetPurchasePricesAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
          */
-        public Builder mergeCurrencySymbol(io.dstore.Values.stringValue value) {
+        public Builder mergeCurrencySymbol(io.dstore.values.StringValue value) {
           if (currencySymbolBuilder_ == null) {
             if (currencySymbol_ != null) {
               currencySymbol_ =
-                io.dstore.Values.stringValue.newBuilder(currencySymbol_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(currencySymbol_).mergeFrom(value).buildPartial();
             } else {
               currencySymbol_ = value;
             }
@@ -5285,7 +5285,7 @@ public final class OmGetPurchasePricesAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
          */
         public Builder clearCurrencySymbol() {
           if (currencySymbolBuilder_ == null) {
@@ -5303,9 +5303,9 @@ public final class OmGetPurchasePricesAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCurrencySymbolBuilder() {
+        public io.dstore.values.StringValue.Builder getCurrencySymbolBuilder() {
           
           onChanged();
           return getCurrencySymbolFieldBuilder().getBuilder();
@@ -5315,14 +5315,14 @@ public final class OmGetPurchasePricesAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCurrencySymbolOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCurrencySymbolOrBuilder() {
           if (currencySymbolBuilder_ != null) {
             return currencySymbolBuilder_.getMessageOrBuilder();
           } else {
             return currencySymbol_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : currencySymbol_;
+                io.dstore.values.StringValue.getDefaultInstance() : currencySymbol_;
           }
         }
         /**
@@ -5330,14 +5330,14 @@ public final class OmGetPurchasePricesAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "CurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue currency_symbol = 10008;</code>
+         * <code>optional .dstore.values.StringValue currency_symbol = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCurrencySymbolFieldBuilder() {
           if (currencySymbolBuilder_ == null) {
             currencySymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCurrencySymbol(),
                     getParentForChildren(),
                     isClean());
@@ -5346,15 +5346,15 @@ public final class OmGetPurchasePricesAd {
           return currencySymbolBuilder_;
         }
 
-        private io.dstore.Values.integerValue supplierId_ = null;
+        private io.dstore.values.IntegerValue supplierId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> supplierIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> supplierIdBuilder_;
         /**
          * <pre>
          * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
          */
         public boolean hasSupplierId() {
           return supplierIdBuilder_ != null || supplierId_ != null;
@@ -5364,11 +5364,11 @@ public final class OmGetPurchasePricesAd {
          * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
          */
-        public io.dstore.Values.integerValue getSupplierId() {
+        public io.dstore.values.IntegerValue getSupplierId() {
           if (supplierIdBuilder_ == null) {
-            return supplierId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
+            return supplierId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : supplierId_;
           } else {
             return supplierIdBuilder_.getMessage();
           }
@@ -5378,9 +5378,9 @@ public final class OmGetPurchasePricesAd {
          * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
          */
-        public Builder setSupplierId(io.dstore.Values.integerValue value) {
+        public Builder setSupplierId(io.dstore.values.IntegerValue value) {
           if (supplierIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5398,10 +5398,10 @@ public final class OmGetPurchasePricesAd {
          * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
          */
         public Builder setSupplierId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (supplierIdBuilder_ == null) {
             supplierId_ = builderForValue.build();
             onChanged();
@@ -5416,13 +5416,13 @@ public final class OmGetPurchasePricesAd {
          * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
          */
-        public Builder mergeSupplierId(io.dstore.Values.integerValue value) {
+        public Builder mergeSupplierId(io.dstore.values.IntegerValue value) {
           if (supplierIdBuilder_ == null) {
             if (supplierId_ != null) {
               supplierId_ =
-                io.dstore.Values.integerValue.newBuilder(supplierId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(supplierId_).mergeFrom(value).buildPartial();
             } else {
               supplierId_ = value;
             }
@@ -5438,7 +5438,7 @@ public final class OmGetPurchasePricesAd {
          * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
          */
         public Builder clearSupplierId() {
           if (supplierIdBuilder_ == null) {
@@ -5456,9 +5456,9 @@ public final class OmGetPurchasePricesAd {
          * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSupplierIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSupplierIdBuilder() {
           
           onChanged();
           return getSupplierIdFieldBuilder().getBuilder();
@@ -5468,14 +5468,14 @@ public final class OmGetPurchasePricesAd {
          * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSupplierIdOrBuilder() {
           if (supplierIdBuilder_ != null) {
             return supplierIdBuilder_.getMessageOrBuilder();
           } else {
             return supplierId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : supplierId_;
           }
         }
         /**
@@ -5483,14 +5483,14 @@ public final class OmGetPurchasePricesAd {
          * ID eines Lieferanten (also eine "PersonID"), bei dem der Artikel bestellt werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue supplier_id = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue supplier_id = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSupplierIdFieldBuilder() {
           if (supplierIdBuilder_ == null) {
             supplierIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSupplierId(),
                     getParentForChildren(),
                     isClean());
@@ -5499,15 +5499,15 @@ public final class OmGetPurchasePricesAd {
           return supplierIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue nodeDescription_ = null;
+        private io.dstore.values.StringValue nodeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nodeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10010;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -5517,11 +5517,11 @@ public final class OmGetPurchasePricesAd {
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10010;</code>
          */
-        public io.dstore.Values.stringValue getNodeDescription() {
+        public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
-            return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
+            return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
           } else {
             return nodeDescriptionBuilder_.getMessage();
           }
@@ -5531,9 +5531,9 @@ public final class OmGetPurchasePricesAd {
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10010;</code>
          */
-        public Builder setNodeDescription(io.dstore.Values.stringValue value) {
+        public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5551,10 +5551,10 @@ public final class OmGetPurchasePricesAd {
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10010;</code>
          */
         public Builder setNodeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescription_ = builderForValue.build();
             onChanged();
@@ -5569,13 +5569,13 @@ public final class OmGetPurchasePricesAd {
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10010;</code>
          */
-        public Builder mergeNodeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (nodeDescription_ != null) {
               nodeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
             } else {
               nodeDescription_ = value;
             }
@@ -5591,7 +5591,7 @@ public final class OmGetPurchasePricesAd {
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10010;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -5609,9 +5609,9 @@ public final class OmGetPurchasePricesAd {
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10010;</code>
          */
-        public io.dstore.Values.stringValue.Builder getNodeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
           onChanged();
           return getNodeDescriptionFieldBuilder().getBuilder();
@@ -5621,14 +5621,14 @@ public final class OmGetPurchasePricesAd {
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10010;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
             return nodeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return nodeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
           }
         }
         /**
@@ -5636,14 +5636,14 @@ public final class OmGetPurchasePricesAd {
          * Bezeichnung des Artikel-Elementes "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10010;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -5652,15 +5652,15 @@ public final class OmGetPurchasePricesAd {
           return nodeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.decimalValue unitNetPrice_ = null;
+        private io.dstore.values.DecimalValue unitNetPrice_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> unitNetPriceBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> unitNetPriceBuilder_;
         /**
          * <pre>
          * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
          */
         public boolean hasUnitNetPrice() {
           return unitNetPriceBuilder_ != null || unitNetPrice_ != null;
@@ -5670,11 +5670,11 @@ public final class OmGetPurchasePricesAd {
          * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
          */
-        public io.dstore.Values.decimalValue getUnitNetPrice() {
+        public io.dstore.values.DecimalValue getUnitNetPrice() {
           if (unitNetPriceBuilder_ == null) {
-            return unitNetPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitNetPrice_;
+            return unitNetPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitNetPrice_;
           } else {
             return unitNetPriceBuilder_.getMessage();
           }
@@ -5684,9 +5684,9 @@ public final class OmGetPurchasePricesAd {
          * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
          */
-        public Builder setUnitNetPrice(io.dstore.Values.decimalValue value) {
+        public Builder setUnitNetPrice(io.dstore.values.DecimalValue value) {
           if (unitNetPriceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5704,10 +5704,10 @@ public final class OmGetPurchasePricesAd {
          * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
          */
         public Builder setUnitNetPrice(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (unitNetPriceBuilder_ == null) {
             unitNetPrice_ = builderForValue.build();
             onChanged();
@@ -5722,13 +5722,13 @@ public final class OmGetPurchasePricesAd {
          * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
          */
-        public Builder mergeUnitNetPrice(io.dstore.Values.decimalValue value) {
+        public Builder mergeUnitNetPrice(io.dstore.values.DecimalValue value) {
           if (unitNetPriceBuilder_ == null) {
             if (unitNetPrice_ != null) {
               unitNetPrice_ =
-                io.dstore.Values.decimalValue.newBuilder(unitNetPrice_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(unitNetPrice_).mergeFrom(value).buildPartial();
             } else {
               unitNetPrice_ = value;
             }
@@ -5744,7 +5744,7 @@ public final class OmGetPurchasePricesAd {
          * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
          */
         public Builder clearUnitNetPrice() {
           if (unitNetPriceBuilder_ == null) {
@@ -5762,9 +5762,9 @@ public final class OmGetPurchasePricesAd {
          * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getUnitNetPriceBuilder() {
+        public io.dstore.values.DecimalValue.Builder getUnitNetPriceBuilder() {
           
           onChanged();
           return getUnitNetPriceFieldBuilder().getBuilder();
@@ -5774,14 +5774,14 @@ public final class OmGetPurchasePricesAd {
          * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getUnitNetPriceOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getUnitNetPriceOrBuilder() {
           if (unitNetPriceBuilder_ != null) {
             return unitNetPriceBuilder_.getMessageOrBuilder();
           } else {
             return unitNetPrice_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : unitNetPrice_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : unitNetPrice_;
           }
         }
         /**
@@ -5789,14 +5789,14 @@ public final class OmGetPurchasePricesAd {
          * Netto-Preis (in der durch "CurrencyID" angegebenen Währung) für "NodeID", wenn man den Artikel EINMAL beim Lieferanten "SupplierID" bestellt
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_net_price = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue unit_net_price = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getUnitNetPriceFieldBuilder() {
           if (unitNetPriceBuilder_ == null) {
             unitNetPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getUnitNetPrice(),
                     getParentForChildren(),
                     isClean());
@@ -5805,15 +5805,15 @@ public final class OmGetPurchasePricesAd {
           return unitNetPriceBuilder_;
         }
 
-        private io.dstore.Values.integerValue hTreeNodeId_ = null;
+        private io.dstore.values.IntegerValue hTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
          * <pre>
          * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
@@ -5823,11 +5823,11 @@ public final class OmGetPurchasePricesAd {
          * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
          */
-        public io.dstore.Values.integerValue getHTreeNodeId() {
+        public io.dstore.values.IntegerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
-            return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+            return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
           } else {
             return hTreeNodeIdBuilder_.getMessage();
           }
@@ -5837,9 +5837,9 @@ public final class OmGetPurchasePricesAd {
          * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
          */
-        public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5857,10 +5857,10 @@ public final class OmGetPurchasePricesAd {
          * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
          */
         public Builder setHTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -5875,13 +5875,13 @@ public final class OmGetPurchasePricesAd {
          * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
          */
-        public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (hTreeNodeId_ != null) {
               hTreeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               hTreeNodeId_ = value;
             }
@@ -5897,7 +5897,7 @@ public final class OmGetPurchasePricesAd {
          * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -5915,9 +5915,9 @@ public final class OmGetPurchasePricesAd {
          * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
          */
-        public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getHTreeNodeIdBuilder() {
           
           onChanged();
           return getHTreeNodeIdFieldBuilder().getBuilder();
@@ -5927,14 +5927,14 @@ public final class OmGetPurchasePricesAd {
          * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
             return hTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return hTreeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
           }
         }
         /**
@@ -5942,14 +5942,14 @@ public final class OmGetPurchasePricesAd {
          * ID des aktuell zu "TreeNodeID" zugehörigen Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5958,15 +5958,15 @@ public final class OmGetPurchasePricesAd {
           return hTreeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue itemNo_ = null;
+        private io.dstore.values.StringValue itemNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemNoBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> itemNoBuilder_;
         /**
          * <pre>
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10013;</code>
          */
         public boolean hasItemNo() {
           return itemNoBuilder_ != null || itemNo_ != null;
@@ -5976,11 +5976,11 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10013;</code>
          */
-        public io.dstore.Values.stringValue getItemNo() {
+        public io.dstore.values.StringValue getItemNo() {
           if (itemNoBuilder_ == null) {
-            return itemNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
+            return itemNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemNo_;
           } else {
             return itemNoBuilder_.getMessage();
           }
@@ -5990,9 +5990,9 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10013;</code>
          */
-        public Builder setItemNo(io.dstore.Values.stringValue value) {
+        public Builder setItemNo(io.dstore.values.StringValue value) {
           if (itemNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6010,10 +6010,10 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10013;</code>
          */
         public Builder setItemNo(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (itemNoBuilder_ == null) {
             itemNo_ = builderForValue.build();
             onChanged();
@@ -6028,13 +6028,13 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10013;</code>
          */
-        public Builder mergeItemNo(io.dstore.Values.stringValue value) {
+        public Builder mergeItemNo(io.dstore.values.StringValue value) {
           if (itemNoBuilder_ == null) {
             if (itemNo_ != null) {
               itemNo_ =
-                io.dstore.Values.stringValue.newBuilder(itemNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(itemNo_).mergeFrom(value).buildPartial();
             } else {
               itemNo_ = value;
             }
@@ -6050,7 +6050,7 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10013;</code>
          */
         public Builder clearItemNo() {
           if (itemNoBuilder_ == null) {
@@ -6068,9 +6068,9 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10013;</code>
          */
-        public io.dstore.Values.stringValue.Builder getItemNoBuilder() {
+        public io.dstore.values.StringValue.Builder getItemNoBuilder() {
           
           onChanged();
           return getItemNoFieldBuilder().getBuilder();
@@ -6080,14 +6080,14 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10013;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getItemNoOrBuilder() {
           if (itemNoBuilder_ != null) {
             return itemNoBuilder_.getMessageOrBuilder();
           } else {
             return itemNo_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
+                io.dstore.values.StringValue.getDefaultInstance() : itemNo_;
           }
         }
         /**
@@ -6095,14 +6095,14 @@ public final class OmGetPurchasePricesAd {
          * Eigenschaft des Artikel-Elementes "NodeID" zum Merkmal mit der ID "6" (also die Artikelnummer)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10013;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getItemNoFieldBuilder() {
           if (itemNoBuilder_ == null) {
             itemNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getItemNo(),
                     getParentForChildren(),
                     isClean());
@@ -6111,15 +6111,15 @@ public final class OmGetPurchasePricesAd {
           return itemNoBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID eines Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -6129,11 +6129,11 @@ public final class OmGetPurchasePricesAd {
          * ID eines Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -6143,9 +6143,9 @@ public final class OmGetPurchasePricesAd {
          * ID eines Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6163,10 +6163,10 @@ public final class OmGetPurchasePricesAd {
          * ID eines Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -6181,13 +6181,13 @@ public final class OmGetPurchasePricesAd {
          * ID eines Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -6203,7 +6203,7 @@ public final class OmGetPurchasePricesAd {
          * ID eines Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -6221,9 +6221,9 @@ public final class OmGetPurchasePricesAd {
          * ID eines Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -6233,14 +6233,14 @@ public final class OmGetPurchasePricesAd {
          * ID eines Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -6248,14 +6248,14 @@ public final class OmGetPurchasePricesAd {
          * ID eines Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6264,15 +6264,15 @@ public final class OmGetPurchasePricesAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue treeNodeId_ = null;
+        private io.dstore.values.IntegerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -6282,11 +6282,11 @@ public final class OmGetPurchasePricesAd {
          * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
-        public io.dstore.Values.integerValue getTreeNodeId() {
+        public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
@@ -6296,9 +6296,9 @@ public final class OmGetPurchasePricesAd {
          * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
-        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6316,10 +6316,10 @@ public final class OmGetPurchasePricesAd {
          * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public Builder setTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -6334,13 +6334,13 @@ public final class OmGetPurchasePricesAd {
          * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
-        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -6356,7 +6356,7 @@ public final class OmGetPurchasePricesAd {
          * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -6374,9 +6374,9 @@ public final class OmGetPurchasePricesAd {
          * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
@@ -6386,14 +6386,14 @@ public final class OmGetPurchasePricesAd {
          * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
@@ -6401,14 +6401,14 @@ public final class OmGetPurchasePricesAd {
          * ID eines zur "NodeID" gehörenden Elementes im Artikel-Baum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10015;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6417,15 +6417,15 @@ public final class OmGetPurchasePricesAd {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue supplCharacVal1RestrByPattern_ = null;
+        private io.dstore.values.StringValue supplCharacVal1RestrByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> supplCharacVal1RestrByPatternBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> supplCharacVal1RestrByPatternBuilder_;
         /**
          * <pre>
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
         public boolean hasSupplCharacVal1RestrByPattern() {
           return supplCharacVal1RestrByPatternBuilder_ != null || supplCharacVal1RestrByPattern_ != null;
@@ -6435,11 +6435,11 @@ public final class OmGetPurchasePricesAd {
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
-        public io.dstore.Values.stringValue getSupplCharacVal1RestrByPattern() {
+        public io.dstore.values.StringValue getSupplCharacVal1RestrByPattern() {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
-            return supplCharacVal1RestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : supplCharacVal1RestrByPattern_;
+            return supplCharacVal1RestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : supplCharacVal1RestrByPattern_;
           } else {
             return supplCharacVal1RestrByPatternBuilder_.getMessage();
           }
@@ -6449,9 +6449,9 @@ public final class OmGetPurchasePricesAd {
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
-        public Builder setSupplCharacVal1RestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder setSupplCharacVal1RestrByPattern(io.dstore.values.StringValue value) {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6469,10 +6469,10 @@ public final class OmGetPurchasePricesAd {
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
         public Builder setSupplCharacVal1RestrByPattern(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
             supplCharacVal1RestrByPattern_ = builderForValue.build();
             onChanged();
@@ -6487,13 +6487,13 @@ public final class OmGetPurchasePricesAd {
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
-        public Builder mergeSupplCharacVal1RestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder mergeSupplCharacVal1RestrByPattern(io.dstore.values.StringValue value) {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
             if (supplCharacVal1RestrByPattern_ != null) {
               supplCharacVal1RestrByPattern_ =
-                io.dstore.Values.stringValue.newBuilder(supplCharacVal1RestrByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(supplCharacVal1RestrByPattern_).mergeFrom(value).buildPartial();
             } else {
               supplCharacVal1RestrByPattern_ = value;
             }
@@ -6509,7 +6509,7 @@ public final class OmGetPurchasePricesAd {
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
         public Builder clearSupplCharacVal1RestrByPattern() {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
@@ -6527,9 +6527,9 @@ public final class OmGetPurchasePricesAd {
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSupplCharacVal1RestrByPatternBuilder() {
+        public io.dstore.values.StringValue.Builder getSupplCharacVal1RestrByPatternBuilder() {
           
           onChanged();
           return getSupplCharacVal1RestrByPatternFieldBuilder().getBuilder();
@@ -6539,14 +6539,14 @@ public final class OmGetPurchasePricesAd {
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSupplCharacVal1RestrByPatternOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSupplCharacVal1RestrByPatternOrBuilder() {
           if (supplCharacVal1RestrByPatternBuilder_ != null) {
             return supplCharacVal1RestrByPatternBuilder_.getMessageOrBuilder();
           } else {
             return supplCharacVal1RestrByPattern_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : supplCharacVal1RestrByPattern_;
+                io.dstore.values.StringValue.getDefaultInstance() : supplCharacVal1RestrByPattern_;
           }
         }
         /**
@@ -6554,14 +6554,14 @@ public final class OmGetPurchasePricesAd {
          * Was enthält "SupplCharacVal1RestrByPattern" (womögl. wg. Zugriffsbeschr. nur einen Teil) ?- NULL : den vollst. Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeich.- "#right(&lt;n&gt;)#" : die LETZTEN n Zeich.("n = 0" =&gt; "SupplCharacVal1RestrByPattern" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
+         * <code>optional .dstore.values.StringValue suppl_charac_val1_restr_by_pattern = 10016;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSupplCharacVal1RestrByPatternFieldBuilder() {
           if (supplCharacVal1RestrByPatternBuilder_ == null) {
             supplCharacVal1RestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSupplCharacVal1RestrByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -8031,18 +8031,18 @@ public final class OmGetPurchasePricesAd {
       "rchasePrices_Ad\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\256\004\n\nParameters\022" +
       "9\n\024tree_node_or_node_id\030\001 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\"\n\031tree_node_or_node_" +
+      "alues.IntegerValue\022\"\n\031tree_node_or_node_" +
       "id_null\030\351\007 \001(\010\0224\n\017is_tree_node_id\030\002 \001(\0132" +
-      "\033.dstore.values.booleanValue\022\035\n\024is_tree_" +
+      "\033.dstore.values.BooleanValue\022\035\n\024is_tree_" +
       "node_id_null\030\352\007 \001(\010\022-\n\010quantity\030\003 \001(\0132\033." +
-      "dstore.values.integerValue\022\026\n\rquantity_n",
+      "dstore.values.IntegerValue\022\026\n\rquantity_n",
       "ull\030\353\007 \001(\010\0220\n\013supplier_id\030\004 \001(\0132\033.dstore" +
-      ".values.integerValue\022\031\n\020supplier_id_null" +
+      ".values.IntegerValue\022\031\n\020supplier_id_null" +
       "\030\354\007 \001(\010\022F\n\037date_for_property_determinati" +
-      "on\030\005 \001(\0132\035.dstore.values.timestampValue\022" +
+      "on\030\005 \001(\0132\035.dstore.values.TimestampValue\022" +
       "-\n$date_for_property_determination_null\030" +
       "\355\007 \001(\010\022;\n\026node_characteristic_id\030\006 \001(\0132\033" +
-      ".dstore.values.integerValue\022$\n\033node_char" +
+      ".dstore.values.IntegerValue\022$\n\033node_char" +
       "acteristic_id_null\030\356\007 \001(\010\"\317\010\n\010Response\0228" +
       "\n\020meta_information\030\002 \003(\0132\036.dstore.engine" +
       ".MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dsto",
@@ -8050,28 +8050,28 @@ public final class OmGetPurchasePricesAd {
       "engine.om_GetPurchasePrices_Ad.Response." +
       "Row\032\235\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022G\n\"suppl_ch" +
       "arac_val2_restr_by_pattern\030\221N \001(\0132\032.dsto" +
-      "re.values.stringValue\0222\n\ritem_property\030\222" +
-      "N \001(\0132\032.dstore.values.stringValue\022C\n\036sup" +
+      "re.values.StringValue\0222\n\ritem_property\030\222" +
+      "N \001(\0132\032.dstore.values.StringValue\022C\n\036sup" +
       "plier_characteristic_value2\030\223N \001(\0132\032.dst" +
-      "ore.values.stringValue\0225\n\017total_net_pric" +
-      "e\030\224N \001(\0132\033.dstore.values.decimalValue\022.\n" +
-      "\010quantity\030\225N \001(\0132\033.dstore.values.integer",
+      "ore.values.StringValue\0225\n\017total_net_pric" +
+      "e\030\224N \001(\0132\033.dstore.values.DecimalValue\022.\n" +
+      "\010quantity\030\225N \001(\0132\033.dstore.values.Integer",
       "Value\022C\n\036supplier_characteristic_value1\030" +
-      "\226N \001(\0132\032.dstore.values.stringValue\0221\n\013cu" +
-      "rrency_id\030\227N \001(\0132\033.dstore.values.integer" +
+      "\226N \001(\0132\032.dstore.values.StringValue\0221\n\013cu" +
+      "rrency_id\030\227N \001(\0132\033.dstore.values.Integer" +
       "Value\0224\n\017currency_symbol\030\230N \001(\0132\032.dstore" +
-      ".values.stringValue\0221\n\013supplier_id\030\231N \001(" +
-      "\0132\033.dstore.values.integerValue\0225\n\020node_d" +
-      "escription\030\232N \001(\0132\032.dstore.values.string" +
+      ".values.StringValue\0221\n\013supplier_id\030\231N \001(" +
+      "\0132\033.dstore.values.IntegerValue\0225\n\020node_d" +
+      "escription\030\232N \001(\0132\032.dstore.values.String" +
       "Value\0224\n\016unit_net_price\030\233N \001(\0132\033.dstore." +
-      "values.decimalValue\0224\n\016h_tree_node_id\030\234N" +
-      " \001(\0132\033.dstore.values.integerValue\022,\n\007ite",
-      "m_no\030\235N \001(\0132\032.dstore.values.stringValue\022" +
-      "-\n\007node_id\030\236N \001(\0132\033.dstore.values.intege" +
+      "values.DecimalValue\0224\n\016h_tree_node_id\030\234N" +
+      " \001(\0132\033.dstore.values.IntegerValue\022,\n\007ite",
+      "m_no\030\235N \001(\0132\032.dstore.values.StringValue\022" +
+      "-\n\007node_id\030\236N \001(\0132\033.dstore.values.Intege" +
       "rValue\0222\n\014tree_node_id\030\237N \001(\0132\033.dstore.v" +
-      "alues.integerValue\022G\n\"suppl_charac_val1_" +
+      "alues.IntegerValue\022G\n\"suppl_charac_val1_" +
       "restr_by_pattern\030\240N \001(\0132\032.dstore.values." +
-      "stringValueBX\n\033io.dstore.engine.procedur" +
+      "StringValueBX\n\033io.dstore.engine.procedur" +
       "esZ9gosdk.dstore.de/engine/procedures/om" +
       "_GetPurchasePrices_Adb\006proto3"
     };
@@ -8086,7 +8086,7 @@ public final class OmGetPurchasePricesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetPurchasePrices_Ad_Parameters_descriptor =
@@ -8107,7 +8107,7 @@ public final class OmGetPurchasePricesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPurchasePrices_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "SupplCharacVal2RestrByPattern", "ItemProperty", "SupplierCharacteristicValue2", "TotalNetPrice", "Quantity", "SupplierCharacteristicValue1", "CurrencyId", "CurrencySymbol", "SupplierId", "NodeDescription", "UnitNetPrice", "HTreeNodeId", "ItemNo", "NodeId", "TreeNodeId", "SupplCharacVal1RestrByPattern", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

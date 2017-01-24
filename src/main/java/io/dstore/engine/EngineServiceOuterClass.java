@@ -25,15 +25,15 @@ public final class EngineServiceOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"dstore/engine/engine_service.proto\022\rds" +
       "tore.engine\032\035dstore/engine/procedure.pro" +
-      "to\032\023dstore/values.proto2\316\002\n\006Engine\022U\n\rex" +
+      "to\032\023dstore/values.proto2\316\002\n\006Engine\022U\n\rEx" +
       "ecProcedure\022\035.dstore.engine.procedure.Ca" +
       "ll\032!.dstore.engine.procedure.Response\"\0000" +
-      "\001\022S\n\texecBatch\022\035.dstore.engine.procedure" +
+      "\001\022S\n\tExecBatch\022\035.dstore.engine.procedure" +
       ".Call\032!.dstore.engine.procedure.Response" +
-      "\"\000(\0010\001\022J\n\016createUniqueID\022\032.dstore.values" +
-      ".stringValue\032\032.dstore.values.stringValue" +
-      "\"\000\022L\n\017isValidUniqueID\022\032.dstore.values.st",
-      "ringValue\032\033.dstore.values.booleanValue\"\000" +
+      "\"\000(\0010\001\022J\n\016CreateUniqueID\022\032.dstore.values" +
+      ".StringValue\032\032.dstore.values.StringValue" +
+      "\"\000\022L\n\017IsValidUniqueID\022\032.dstore.values.St",
+      "ringValue\032\033.dstore.values.BooleanValue\"\000" +
       "BC\n\020io.dstore.engineB\027EngineServiceOuter" +
       "ClassZ\026gosdk.dstore.de/engineb\006proto3"
     };
@@ -49,10 +49,10 @@ public final class EngineServiceOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.engine.Procedure.getDescriptor(),
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
         }, assigner);
     io.dstore.engine.Procedure.getDescriptor();
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

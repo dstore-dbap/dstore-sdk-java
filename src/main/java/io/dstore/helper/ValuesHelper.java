@@ -2,7 +2,7 @@ package io.dstore.helper;
 
 import com.google.protobuf.ByteString;
 import com.google.protobuf.util.Timestamps;
-import io.dstore.Values;
+import io.dstore.values.*;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,51 +14,51 @@ import java.util.Date;
  */
 public class ValuesHelper {
 
-    public static Values.integerValue value(int value) {
-        return Values.integerValue.newBuilder().setValue(value).build();
+    public static IntegerValue value(int value) {
+        return IntegerValue.newBuilder().setValue(value).build();
     }
 
-    public static Values.stringValue value(String value) {
-        return Values.stringValue.newBuilder().setValue(value).build();
+    public static StringValue value(String value) {
+        return StringValue.newBuilder().setValue(value).build();
     }
 
-    public static Values.doubleValue value(double value) {
-        return Values.doubleValue.newBuilder().setValue(value).build();
+    public static DoubleValue value(double value) {
+        return DoubleValue.newBuilder().setValue(value).build();
     }
 
-    public static Values.booleanValue value(boolean value) {
-        return Values.booleanValue.newBuilder().setValue(value).build();
+    public static BooleanValue value(boolean value) {
+        return BooleanValue.newBuilder().setValue(value).build();
     }
 
-    public static Values.longValue value(long value) {
-        return Values.longValue.newBuilder().setValue(value).build();
+    public static LongValue value(long value) {
+        return LongValue.newBuilder().setValue(value).build();
     }
 
-    public static Values.decimalValue value(BigDecimal value) {
-        return Values.decimalValue.newBuilder().setValue(value.toString()).build();
+    public static DecimalValue value(BigDecimal value) {
+        return DecimalValue.newBuilder().setValue(value.toString()).build();
     }
 
-    public static Values.timestampValue value(Date value) {
-        return Values.timestampValue.newBuilder().setValue(Timestamps.fromMillis(value.getTime())).build();
+    public static TimestampValue value(Date value) {
+        return TimestampValue.newBuilder().setValue(Timestamps.fromMillis(value.getTime())).build();
     }
 
-    public static Values.bytesValue value(byte[] value) {
-        return Values.bytesValue.newBuilder().setValue(ByteString.copyFrom(value)).build();
+    public static BytesValue value(byte[] value) {
+        return BytesValue.newBuilder().setValue(ByteString.copyFrom(value)).build();
     }
 
-    public static Date toDate(Values.timestampValue value) {
+    public static Date toDate(TimestampValue value) {
         return new Date(Timestamps.toMillis(value.getValue()));
     }
 
-    public static BigDecimal toBigDecimal(Values.decimalValue value) {
+    public static BigDecimal toBigDecimal(DecimalValue value) {
         return new BigDecimal(value.getValue());
     }
 
-    public static byte[] toByteArray(Values.bytesValue value) {
+    public static byte[] toByteArray(BytesValue value) {
         return value.getValue().toByteArray();
     }
 
-    public static Object convertToObject(Values.ValueOrBuilder value) {
+    public static Object convertToObject(ValueOrBuilder value) {
 
         if (value == null)
             return null;
@@ -87,9 +87,9 @@ public class ValuesHelper {
         }
     }
 
-    public static Values.Value convertToValue(Object value) {
+    public static Value convertToValue(Object value) {
 
-        Values.Value.Builder valueBuilder = Values.Value.newBuilder();
+        Value.Builder valueBuilder = Value.newBuilder();
 
         if (value instanceof String)
             valueBuilder.setStringValue(ValuesHelper.value((String) value));
@@ -107,7 +107,7 @@ public class ValuesHelper {
             valueBuilder.setLongValue(ValuesHelper.value((Long) value));
         else if (value instanceof InputStream) {
             try {
-                valueBuilder.setByteValue(Values.bytesValue.newBuilder().setValue(ByteString.readFrom((InputStream) value)));
+                valueBuilder.setByteValue(BytesValue.newBuilder().setValue(ByteString.readFrom((InputStream) value)));
             } catch (IOException ex) {
                 throw new RuntimeException("Error reading from InputStream", ex);
             }

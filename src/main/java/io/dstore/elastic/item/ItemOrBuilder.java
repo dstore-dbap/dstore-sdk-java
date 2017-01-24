@@ -45,17 +45,17 @@ public interface ItemOrBuilder extends
       int index);
 
   /**
-   * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
    */
   boolean hasLastUpdated();
   /**
-   * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
    */
-  io.dstore.Values.timestampValue getLastUpdated();
+  io.dstore.values.TimestampValue getLastUpdated();
   /**
-   * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
    */
-  io.dstore.Values.timestampValueOrBuilder getLastUpdatedOrBuilder();
+  io.dstore.values.TimestampValueOrBuilder getLastUpdatedOrBuilder();
 
   /**
    * <code>optional double score = 10;</code>

@@ -19,17 +19,17 @@ public final class MiGetSQLFunctionCodeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     boolean hasSQLFunctionName();
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    io.dstore.Values.stringValue getSQLFunctionName();
+    io.dstore.values.StringValue getSQLFunctionName();
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSQLFunctionNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder();
 
     /**
      * <code>optional bool s_q_l_function_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetSQLFunctionCodeAd {
     boolean getSQLFunctionNameNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+     * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
      */
     boolean hasIgnoreComments();
     /**
-     * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+     * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
      */
-    io.dstore.Values.booleanValue getIgnoreComments();
+    io.dstore.values.BooleanValue getIgnoreComments();
     /**
-     * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+     * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIgnoreCommentsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIgnoreCommentsOrBuilder();
 
     /**
      * <code>optional bool ignore_comments_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetSQLFunctionCodeAd {
     boolean getIgnoreCommentsNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
      */
     boolean hasGetCodeLinesAsResultSet();
     /**
-     * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
      */
-    io.dstore.Values.booleanValue getGetCodeLinesAsResultSet();
+    io.dstore.values.BooleanValue getGetCodeLinesAsResultSet();
     /**
-     * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getGetCodeLinesAsResultSetOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getGetCodeLinesAsResultSetOrBuilder();
 
     /**
      * <code>optional bool get_code_lines_as_result_set_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiGetSQLFunctionCodeAd {
     boolean getGetCodeLinesAsResultSetNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
     boolean hasIncludeStatementsForCreation();
     /**
-     * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
-    io.dstore.Values.booleanValue getIncludeStatementsForCreation();
+    io.dstore.values.BooleanValue getIncludeStatementsForCreation();
     /**
-     * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIncludeStatementsForCreationOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIncludeStatementsForCreationOrBuilder();
 
     /**
      * <code>optional bool include_statements_for_creation_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiGetSQLFunctionCodeAd {
     boolean getIncludeStatementsForCreationNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+     * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
      */
     boolean hasOnlyFunctionHeader();
     /**
-     * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+     * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
      */
-    io.dstore.Values.booleanValue getOnlyFunctionHeader();
+    io.dstore.values.BooleanValue getOnlyFunctionHeader();
     /**
-     * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+     * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOnlyFunctionHeaderOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOnlyFunctionHeaderOrBuilder();
 
     /**
      * <code>optional bool only_function_header_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiGetSQLFunctionCodeAd {
     boolean getOnlyFunctionHeaderNull();
 
     /**
-     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     * <code>optional .dstore.values.StringValue database_name = 6;</code>
      */
     boolean hasDatabaseName();
     /**
-     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     * <code>optional .dstore.values.StringValue database_name = 6;</code>
      */
-    io.dstore.Values.stringValue getDatabaseName();
+    io.dstore.values.StringValue getDatabaseName();
     /**
-     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     * <code>optional .dstore.values.StringValue database_name = 6;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder();
 
     /**
      * <code>optional bool database_name_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class MiGetSQLFunctionCodeAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (sQLFunctionName_ != null) {
                 subBuilder = sQLFunctionName_.toBuilder();
               }
-              sQLFunctionName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              sQLFunctionName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sQLFunctionName_);
                 sQLFunctionName_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class MiGetSQLFunctionCodeAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (ignoreComments_ != null) {
                 subBuilder = ignoreComments_.toBuilder();
               }
-              ignoreComments_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              ignoreComments_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(ignoreComments_);
                 ignoreComments_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class MiGetSQLFunctionCodeAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (getCodeLinesAsResultSet_ != null) {
                 subBuilder = getCodeLinesAsResultSet_.toBuilder();
               }
-              getCodeLinesAsResultSet_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              getCodeLinesAsResultSet_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getCodeLinesAsResultSet_);
                 getCodeLinesAsResultSet_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class MiGetSQLFunctionCodeAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (includeStatementsForCreation_ != null) {
                 subBuilder = includeStatementsForCreation_.toBuilder();
               }
-              includeStatementsForCreation_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              includeStatementsForCreation_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeStatementsForCreation_);
                 includeStatementsForCreation_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class MiGetSQLFunctionCodeAd {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (onlyFunctionHeader_ != null) {
                 subBuilder = onlyFunctionHeader_.toBuilder();
               }
-              onlyFunctionHeader_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              onlyFunctionHeader_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyFunctionHeader_);
                 onlyFunctionHeader_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class MiGetSQLFunctionCodeAd {
               break;
             }
             case 50: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (databaseName_ != null) {
                 subBuilder = databaseName_.toBuilder();
               }
-              databaseName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              databaseName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(databaseName_);
                 databaseName_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class MiGetSQLFunctionCodeAd {
     }
 
     public static final int S_Q_L_FUNCTION_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue sQLFunctionName_;
+    private io.dstore.values.StringValue sQLFunctionName_;
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     public boolean hasSQLFunctionName() {
       return sQLFunctionName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getSQLFunctionName() {
-      return sQLFunctionName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sQLFunctionName_;
+    public io.dstore.values.StringValue getSQLFunctionName() {
+      return sQLFunctionName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSQLFunctionNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder() {
       return getSQLFunctionName();
     }
 
@@ -333,23 +333,23 @@ public final class MiGetSQLFunctionCodeAd {
     }
 
     public static final int IGNORE_COMMENTS_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue ignoreComments_;
+    private io.dstore.values.BooleanValue ignoreComments_;
     /**
-     * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+     * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
      */
     public boolean hasIgnoreComments() {
       return ignoreComments_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+     * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
      */
-    public io.dstore.Values.booleanValue getIgnoreComments() {
-      return ignoreComments_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : ignoreComments_;
+    public io.dstore.values.BooleanValue getIgnoreComments() {
+      return ignoreComments_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : ignoreComments_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+     * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIgnoreCommentsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIgnoreCommentsOrBuilder() {
       return getIgnoreComments();
     }
 
@@ -363,23 +363,23 @@ public final class MiGetSQLFunctionCodeAd {
     }
 
     public static final int GET_CODE_LINES_AS_RESULT_SET_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue getCodeLinesAsResultSet_;
+    private io.dstore.values.BooleanValue getCodeLinesAsResultSet_;
     /**
-     * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
      */
     public boolean hasGetCodeLinesAsResultSet() {
       return getCodeLinesAsResultSet_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
      */
-    public io.dstore.Values.booleanValue getGetCodeLinesAsResultSet() {
-      return getCodeLinesAsResultSet_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getCodeLinesAsResultSet_;
+    public io.dstore.values.BooleanValue getGetCodeLinesAsResultSet() {
+      return getCodeLinesAsResultSet_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getCodeLinesAsResultSet_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getGetCodeLinesAsResultSetOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getGetCodeLinesAsResultSetOrBuilder() {
       return getGetCodeLinesAsResultSet();
     }
 
@@ -393,23 +393,23 @@ public final class MiGetSQLFunctionCodeAd {
     }
 
     public static final int INCLUDE_STATEMENTS_FOR_CREATION_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue includeStatementsForCreation_;
+    private io.dstore.values.BooleanValue includeStatementsForCreation_;
     /**
-     * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
     public boolean hasIncludeStatementsForCreation() {
       return includeStatementsForCreation_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
-    public io.dstore.Values.booleanValue getIncludeStatementsForCreation() {
-      return includeStatementsForCreation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeStatementsForCreation_;
+    public io.dstore.values.BooleanValue getIncludeStatementsForCreation() {
+      return includeStatementsForCreation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeStatementsForCreation_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIncludeStatementsForCreationOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIncludeStatementsForCreationOrBuilder() {
       return getIncludeStatementsForCreation();
     }
 
@@ -423,23 +423,23 @@ public final class MiGetSQLFunctionCodeAd {
     }
 
     public static final int ONLY_FUNCTION_HEADER_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue onlyFunctionHeader_;
+    private io.dstore.values.BooleanValue onlyFunctionHeader_;
     /**
-     * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+     * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
      */
     public boolean hasOnlyFunctionHeader() {
       return onlyFunctionHeader_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+     * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
      */
-    public io.dstore.Values.booleanValue getOnlyFunctionHeader() {
-      return onlyFunctionHeader_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyFunctionHeader_;
+    public io.dstore.values.BooleanValue getOnlyFunctionHeader() {
+      return onlyFunctionHeader_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyFunctionHeader_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+     * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOnlyFunctionHeaderOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOnlyFunctionHeaderOrBuilder() {
       return getOnlyFunctionHeader();
     }
 
@@ -453,23 +453,23 @@ public final class MiGetSQLFunctionCodeAd {
     }
 
     public static final int DATABASE_NAME_FIELD_NUMBER = 6;
-    private io.dstore.Values.stringValue databaseName_;
+    private io.dstore.values.StringValue databaseName_;
     /**
-     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     * <code>optional .dstore.values.StringValue database_name = 6;</code>
      */
     public boolean hasDatabaseName() {
       return databaseName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     * <code>optional .dstore.values.StringValue database_name = 6;</code>
      */
-    public io.dstore.Values.stringValue getDatabaseName() {
-      return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+    public io.dstore.values.StringValue getDatabaseName() {
+      return databaseName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue database_name = 6;</code>
+     * <code>optional .dstore.values.StringValue database_name = 6;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
       return getDatabaseName();
     }
 
@@ -1022,29 +1022,29 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue sQLFunctionName_ = null;
+      private io.dstore.values.StringValue sQLFunctionName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sQLFunctionNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sQLFunctionNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public boolean hasSQLFunctionName() {
         return sQLFunctionNameBuilder_ != null || sQLFunctionName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getSQLFunctionName() {
+      public io.dstore.values.StringValue getSQLFunctionName() {
         if (sQLFunctionNameBuilder_ == null) {
-          return sQLFunctionName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sQLFunctionName_;
+          return sQLFunctionName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
         } else {
           return sQLFunctionNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public Builder setSQLFunctionName(io.dstore.Values.stringValue value) {
+      public Builder setSQLFunctionName(io.dstore.values.StringValue value) {
         if (sQLFunctionNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder setSQLFunctionName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (sQLFunctionNameBuilder_ == null) {
           sQLFunctionName_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public Builder mergeSQLFunctionName(io.dstore.Values.stringValue value) {
+      public Builder mergeSQLFunctionName(io.dstore.values.StringValue value) {
         if (sQLFunctionNameBuilder_ == null) {
           if (sQLFunctionName_ != null) {
             sQLFunctionName_ =
-              io.dstore.Values.stringValue.newBuilder(sQLFunctionName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(sQLFunctionName_).mergeFrom(value).buildPartial();
           } else {
             sQLFunctionName_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder clearSQLFunctionName() {
         if (sQLFunctionNameBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSQLFunctionNameBuilder() {
+      public io.dstore.values.StringValue.Builder getSQLFunctionNameBuilder() {
         
         onChanged();
         return getSQLFunctionNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSQLFunctionNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder() {
         if (sQLFunctionNameBuilder_ != null) {
           return sQLFunctionNameBuilder_.getMessageOrBuilder();
         } else {
           return sQLFunctionName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : sQLFunctionName_;
+              io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSQLFunctionNameFieldBuilder() {
         if (sQLFunctionNameBuilder_ == null) {
           sQLFunctionNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSQLFunctionName(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue ignoreComments_ = null;
+      private io.dstore.values.BooleanValue ignoreComments_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> ignoreCommentsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> ignoreCommentsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
        */
       public boolean hasIgnoreComments() {
         return ignoreCommentsBuilder_ != null || ignoreComments_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
        */
-      public io.dstore.Values.booleanValue getIgnoreComments() {
+      public io.dstore.values.BooleanValue getIgnoreComments() {
         if (ignoreCommentsBuilder_ == null) {
-          return ignoreComments_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : ignoreComments_;
+          return ignoreComments_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : ignoreComments_;
         } else {
           return ignoreCommentsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
        */
-      public Builder setIgnoreComments(io.dstore.Values.booleanValue value) {
+      public Builder setIgnoreComments(io.dstore.values.BooleanValue value) {
         if (ignoreCommentsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
        */
       public Builder setIgnoreComments(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (ignoreCommentsBuilder_ == null) {
           ignoreComments_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
        */
-      public Builder mergeIgnoreComments(io.dstore.Values.booleanValue value) {
+      public Builder mergeIgnoreComments(io.dstore.values.BooleanValue value) {
         if (ignoreCommentsBuilder_ == null) {
           if (ignoreComments_ != null) {
             ignoreComments_ =
-              io.dstore.Values.booleanValue.newBuilder(ignoreComments_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(ignoreComments_).mergeFrom(value).buildPartial();
           } else {
             ignoreComments_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
        */
       public Builder clearIgnoreComments() {
         if (ignoreCommentsBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIgnoreCommentsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIgnoreCommentsBuilder() {
         
         onChanged();
         return getIgnoreCommentsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIgnoreCommentsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIgnoreCommentsOrBuilder() {
         if (ignoreCommentsBuilder_ != null) {
           return ignoreCommentsBuilder_.getMessageOrBuilder();
         } else {
           return ignoreComments_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : ignoreComments_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : ignoreComments_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue ignore_comments = 2;</code>
+       * <code>optional .dstore.values.BooleanValue ignore_comments = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIgnoreCommentsFieldBuilder() {
         if (ignoreCommentsBuilder_ == null) {
           ignoreCommentsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIgnoreComments(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue getCodeLinesAsResultSet_ = null;
+      private io.dstore.values.BooleanValue getCodeLinesAsResultSet_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getCodeLinesAsResultSetBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getCodeLinesAsResultSetBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
        */
       public boolean hasGetCodeLinesAsResultSet() {
         return getCodeLinesAsResultSetBuilder_ != null || getCodeLinesAsResultSet_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
        */
-      public io.dstore.Values.booleanValue getGetCodeLinesAsResultSet() {
+      public io.dstore.values.BooleanValue getGetCodeLinesAsResultSet() {
         if (getCodeLinesAsResultSetBuilder_ == null) {
-          return getCodeLinesAsResultSet_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getCodeLinesAsResultSet_;
+          return getCodeLinesAsResultSet_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getCodeLinesAsResultSet_;
         } else {
           return getCodeLinesAsResultSetBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
        */
-      public Builder setGetCodeLinesAsResultSet(io.dstore.Values.booleanValue value) {
+      public Builder setGetCodeLinesAsResultSet(io.dstore.values.BooleanValue value) {
         if (getCodeLinesAsResultSetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
        */
       public Builder setGetCodeLinesAsResultSet(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (getCodeLinesAsResultSetBuilder_ == null) {
           getCodeLinesAsResultSet_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
        */
-      public Builder mergeGetCodeLinesAsResultSet(io.dstore.Values.booleanValue value) {
+      public Builder mergeGetCodeLinesAsResultSet(io.dstore.values.BooleanValue value) {
         if (getCodeLinesAsResultSetBuilder_ == null) {
           if (getCodeLinesAsResultSet_ != null) {
             getCodeLinesAsResultSet_ =
-              io.dstore.Values.booleanValue.newBuilder(getCodeLinesAsResultSet_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(getCodeLinesAsResultSet_).mergeFrom(value).buildPartial();
           } else {
             getCodeLinesAsResultSet_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
        */
       public Builder clearGetCodeLinesAsResultSet() {
         if (getCodeLinesAsResultSetBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getGetCodeLinesAsResultSetBuilder() {
+      public io.dstore.values.BooleanValue.Builder getGetCodeLinesAsResultSetBuilder() {
         
         onChanged();
         return getGetCodeLinesAsResultSetFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getGetCodeLinesAsResultSetOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getGetCodeLinesAsResultSetOrBuilder() {
         if (getCodeLinesAsResultSetBuilder_ != null) {
           return getCodeLinesAsResultSetBuilder_.getMessageOrBuilder();
         } else {
           return getCodeLinesAsResultSet_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : getCodeLinesAsResultSet_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : getCodeLinesAsResultSet_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_code_lines_as_result_set = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_code_lines_as_result_set = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getGetCodeLinesAsResultSetFieldBuilder() {
         if (getCodeLinesAsResultSetBuilder_ == null) {
           getCodeLinesAsResultSetBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getGetCodeLinesAsResultSet(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue includeStatementsForCreation_ = null;
+      private io.dstore.values.BooleanValue includeStatementsForCreation_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeStatementsForCreationBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeStatementsForCreationBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public boolean hasIncludeStatementsForCreation() {
         return includeStatementsForCreationBuilder_ != null || includeStatementsForCreation_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
-      public io.dstore.Values.booleanValue getIncludeStatementsForCreation() {
+      public io.dstore.values.BooleanValue getIncludeStatementsForCreation() {
         if (includeStatementsForCreationBuilder_ == null) {
-          return includeStatementsForCreation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeStatementsForCreation_;
+          return includeStatementsForCreation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeStatementsForCreation_;
         } else {
           return includeStatementsForCreationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
-      public Builder setIncludeStatementsForCreation(io.dstore.Values.booleanValue value) {
+      public Builder setIncludeStatementsForCreation(io.dstore.values.BooleanValue value) {
         if (includeStatementsForCreationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public Builder setIncludeStatementsForCreation(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (includeStatementsForCreationBuilder_ == null) {
           includeStatementsForCreation_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
-      public Builder mergeIncludeStatementsForCreation(io.dstore.Values.booleanValue value) {
+      public Builder mergeIncludeStatementsForCreation(io.dstore.values.BooleanValue value) {
         if (includeStatementsForCreationBuilder_ == null) {
           if (includeStatementsForCreation_ != null) {
             includeStatementsForCreation_ =
-              io.dstore.Values.booleanValue.newBuilder(includeStatementsForCreation_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(includeStatementsForCreation_).mergeFrom(value).buildPartial();
           } else {
             includeStatementsForCreation_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       public Builder clearIncludeStatementsForCreation() {
         if (includeStatementsForCreationBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIncludeStatementsForCreationBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIncludeStatementsForCreationBuilder() {
         
         onChanged();
         return getIncludeStatementsForCreationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIncludeStatementsForCreationOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIncludeStatementsForCreationOrBuilder() {
         if (includeStatementsForCreationBuilder_ != null) {
           return includeStatementsForCreationBuilder_.getMessageOrBuilder();
         } else {
           return includeStatementsForCreation_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : includeStatementsForCreation_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : includeStatementsForCreation_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_statements_for_creation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue include_statements_for_creation = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIncludeStatementsForCreationFieldBuilder() {
         if (includeStatementsForCreationBuilder_ == null) {
           includeStatementsForCreationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIncludeStatementsForCreation(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue onlyFunctionHeader_ = null;
+      private io.dstore.values.BooleanValue onlyFunctionHeader_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyFunctionHeaderBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyFunctionHeaderBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+       * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
        */
       public boolean hasOnlyFunctionHeader() {
         return onlyFunctionHeaderBuilder_ != null || onlyFunctionHeader_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+       * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
        */
-      public io.dstore.Values.booleanValue getOnlyFunctionHeader() {
+      public io.dstore.values.BooleanValue getOnlyFunctionHeader() {
         if (onlyFunctionHeaderBuilder_ == null) {
-          return onlyFunctionHeader_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyFunctionHeader_;
+          return onlyFunctionHeader_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyFunctionHeader_;
         } else {
           return onlyFunctionHeaderBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+       * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
        */
-      public Builder setOnlyFunctionHeader(io.dstore.Values.booleanValue value) {
+      public Builder setOnlyFunctionHeader(io.dstore.values.BooleanValue value) {
         if (onlyFunctionHeaderBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+       * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
        */
       public Builder setOnlyFunctionHeader(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (onlyFunctionHeaderBuilder_ == null) {
           onlyFunctionHeader_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+       * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
        */
-      public Builder mergeOnlyFunctionHeader(io.dstore.Values.booleanValue value) {
+      public Builder mergeOnlyFunctionHeader(io.dstore.values.BooleanValue value) {
         if (onlyFunctionHeaderBuilder_ == null) {
           if (onlyFunctionHeader_ != null) {
             onlyFunctionHeader_ =
-              io.dstore.Values.booleanValue.newBuilder(onlyFunctionHeader_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(onlyFunctionHeader_).mergeFrom(value).buildPartial();
           } else {
             onlyFunctionHeader_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+       * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
        */
       public Builder clearOnlyFunctionHeader() {
         if (onlyFunctionHeaderBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+       * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOnlyFunctionHeaderBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOnlyFunctionHeaderBuilder() {
         
         onChanged();
         return getOnlyFunctionHeaderFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+       * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOnlyFunctionHeaderOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOnlyFunctionHeaderOrBuilder() {
         if (onlyFunctionHeaderBuilder_ != null) {
           return onlyFunctionHeaderBuilder_.getMessageOrBuilder();
         } else {
           return onlyFunctionHeader_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : onlyFunctionHeader_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : onlyFunctionHeader_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_function_header = 5;</code>
+       * <code>optional .dstore.values.BooleanValue only_function_header = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOnlyFunctionHeaderFieldBuilder() {
         if (onlyFunctionHeaderBuilder_ == null) {
           onlyFunctionHeaderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOnlyFunctionHeader(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue databaseName_ = null;
+      private io.dstore.values.StringValue databaseName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> databaseNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       * <code>optional .dstore.values.StringValue database_name = 6;</code>
        */
       public boolean hasDatabaseName() {
         return databaseNameBuilder_ != null || databaseName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       * <code>optional .dstore.values.StringValue database_name = 6;</code>
        */
-      public io.dstore.Values.stringValue getDatabaseName() {
+      public io.dstore.values.StringValue getDatabaseName() {
         if (databaseNameBuilder_ == null) {
-          return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+          return databaseName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
         } else {
           return databaseNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       * <code>optional .dstore.values.StringValue database_name = 6;</code>
        */
-      public Builder setDatabaseName(io.dstore.Values.stringValue value) {
+      public Builder setDatabaseName(io.dstore.values.StringValue value) {
         if (databaseNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       * <code>optional .dstore.values.StringValue database_name = 6;</code>
        */
       public Builder setDatabaseName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (databaseNameBuilder_ == null) {
           databaseName_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       * <code>optional .dstore.values.StringValue database_name = 6;</code>
        */
-      public Builder mergeDatabaseName(io.dstore.Values.stringValue value) {
+      public Builder mergeDatabaseName(io.dstore.values.StringValue value) {
         if (databaseNameBuilder_ == null) {
           if (databaseName_ != null) {
             databaseName_ =
-              io.dstore.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
           } else {
             databaseName_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       * <code>optional .dstore.values.StringValue database_name = 6;</code>
        */
       public Builder clearDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class MiGetSQLFunctionCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       * <code>optional .dstore.values.StringValue database_name = 6;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDatabaseNameBuilder() {
+      public io.dstore.values.StringValue.Builder getDatabaseNameBuilder() {
         
         onChanged();
         return getDatabaseNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       * <code>optional .dstore.values.StringValue database_name = 6;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
         if (databaseNameBuilder_ != null) {
           return databaseNameBuilder_.getMessageOrBuilder();
         } else {
           return databaseName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+              io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 6;</code>
+       * <code>optional .dstore.values.StringValue database_name = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDatabaseNameFieldBuilder() {
         if (databaseNameBuilder_ == null) {
           databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDatabaseName(),
                   getParentForChildren(),
                   isClean());
@@ -2139,7 +2139,7 @@ public final class MiGetSQLFunctionCodeAd {
        * Eindeutige Zeilennummer des Codes "CodeLine"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
       boolean hasCodeLineNumber();
       /**
@@ -2147,24 +2147,24 @@ public final class MiGetSQLFunctionCodeAd {
        * Eindeutige Zeilennummer des Codes "CodeLine"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
-      io.dstore.Values.integerValue getCodeLineNumber();
+      io.dstore.values.IntegerValue getCodeLineNumber();
       /**
        * <pre>
        * Eindeutige Zeilennummer des Codes "CodeLine"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder();
 
       /**
        * <pre>
        * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
        */
       boolean hasCodePartLineNumber();
       /**
@@ -2172,24 +2172,24 @@ public final class MiGetSQLFunctionCodeAd {
        * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
        */
-      io.dstore.Values.integerValue getCodePartLineNumber();
+      io.dstore.values.IntegerValue getCodePartLineNumber();
       /**
        * <pre>
        * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCodePartLineNumberOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCodePartLineNumberOrBuilder();
 
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
       boolean hasCodeLine();
       /**
@@ -2197,24 +2197,24 @@ public final class MiGetSQLFunctionCodeAd {
        * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
-      io.dstore.Values.stringValue getCodeLine();
+      io.dstore.values.StringValue getCodeLine();
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCodeLineOrBuilder();
 
       /**
        * <pre>
        * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+       * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
        */
       boolean hasCommentPart();
       /**
@@ -2222,24 +2222,24 @@ public final class MiGetSQLFunctionCodeAd {
        * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+       * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
        */
-      io.dstore.Values.stringValue getCommentPart();
+      io.dstore.values.StringValue getCommentPart();
       /**
        * <pre>
        * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+       * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCommentPartOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCommentPartOrBuilder();
 
       /**
        * <pre>
        * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+       * <code>optional .dstore.values.StringValue code_part = 10005;</code>
        */
       boolean hasCodePart();
       /**
@@ -2247,17 +2247,17 @@ public final class MiGetSQLFunctionCodeAd {
        * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+       * <code>optional .dstore.values.StringValue code_part = 10005;</code>
        */
-      io.dstore.Values.stringValue getCodePart();
+      io.dstore.values.StringValue getCodePart();
       /**
        * <pre>
        * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+       * <code>optional .dstore.values.StringValue code_part = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCodePartOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCodePartOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetSQLFunctionCode_Ad.Response.Row}
@@ -2305,11 +2305,11 @@ public final class MiGetSQLFunctionCodeAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (codeLineNumber_ != null) {
                   subBuilder = codeLineNumber_.toBuilder();
                 }
-                codeLineNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                codeLineNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLineNumber_);
                   codeLineNumber_ = subBuilder.buildPartial();
@@ -2318,11 +2318,11 @@ public final class MiGetSQLFunctionCodeAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (codePartLineNumber_ != null) {
                   subBuilder = codePartLineNumber_.toBuilder();
                 }
-                codePartLineNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                codePartLineNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codePartLineNumber_);
                   codePartLineNumber_ = subBuilder.buildPartial();
@@ -2331,11 +2331,11 @@ public final class MiGetSQLFunctionCodeAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (codeLine_ != null) {
                   subBuilder = codeLine_.toBuilder();
                 }
-                codeLine_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                codeLine_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLine_);
                   codeLine_ = subBuilder.buildPartial();
@@ -2344,11 +2344,11 @@ public final class MiGetSQLFunctionCodeAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (commentPart_ != null) {
                   subBuilder = commentPart_.toBuilder();
                 }
-                commentPart_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                commentPart_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(commentPart_);
                   commentPart_ = subBuilder.buildPartial();
@@ -2357,11 +2357,11 @@ public final class MiGetSQLFunctionCodeAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (codePart_ != null) {
                   subBuilder = codePart_.toBuilder();
                 }
-                codePart_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                codePart_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codePart_);
                   codePart_ = subBuilder.buildPartial();
@@ -2402,13 +2402,13 @@ public final class MiGetSQLFunctionCodeAd {
       }
 
       public static final int CODE_LINE_NUMBER_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue codeLineNumber_;
+      private io.dstore.values.IntegerValue codeLineNumber_;
       /**
        * <pre>
        * Eindeutige Zeilennummer des Codes "CodeLine"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
       public boolean hasCodeLineNumber() {
         return codeLineNumber_ != null;
@@ -2418,30 +2418,30 @@ public final class MiGetSQLFunctionCodeAd {
        * Eindeutige Zeilennummer des Codes "CodeLine"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
-      public io.dstore.Values.integerValue getCodeLineNumber() {
-        return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+      public io.dstore.values.IntegerValue getCodeLineNumber() {
+        return codeLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
       }
       /**
        * <pre>
        * Eindeutige Zeilennummer des Codes "CodeLine"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder() {
         return getCodeLineNumber();
       }
 
       public static final int CODE_PART_LINE_NUMBER_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue codePartLineNumber_;
+      private io.dstore.values.IntegerValue codePartLineNumber_;
       /**
        * <pre>
        * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
        */
       public boolean hasCodePartLineNumber() {
         return codePartLineNumber_ != null;
@@ -2451,30 +2451,30 @@ public final class MiGetSQLFunctionCodeAd {
        * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
        */
-      public io.dstore.Values.integerValue getCodePartLineNumber() {
-        return codePartLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codePartLineNumber_;
+      public io.dstore.values.IntegerValue getCodePartLineNumber() {
+        return codePartLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codePartLineNumber_;
       }
       /**
        * <pre>
        * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCodePartLineNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCodePartLineNumberOrBuilder() {
         return getCodePartLineNumber();
       }
 
       public static final int CODE_LINE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue codeLine_;
+      private io.dstore.values.StringValue codeLine_;
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
       public boolean hasCodeLine() {
         return codeLine_ != null;
@@ -2484,30 +2484,30 @@ public final class MiGetSQLFunctionCodeAd {
        * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
-      public io.dstore.Values.stringValue getCodeLine() {
-        return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
+      public io.dstore.values.StringValue getCodeLine() {
+        return codeLine_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codeLine_;
       }
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCodeLineOrBuilder() {
         return getCodeLine();
       }
 
       public static final int COMMENT_PART_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue commentPart_;
+      private io.dstore.values.StringValue commentPart_;
       /**
        * <pre>
        * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+       * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
        */
       public boolean hasCommentPart() {
         return commentPart_ != null;
@@ -2517,30 +2517,30 @@ public final class MiGetSQLFunctionCodeAd {
        * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+       * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
        */
-      public io.dstore.Values.stringValue getCommentPart() {
-        return commentPart_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : commentPart_;
+      public io.dstore.values.StringValue getCommentPart() {
+        return commentPart_ == null ? io.dstore.values.StringValue.getDefaultInstance() : commentPart_;
       }
       /**
        * <pre>
        * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+       * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCommentPartOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCommentPartOrBuilder() {
         return getCommentPart();
       }
 
       public static final int CODE_PART_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue codePart_;
+      private io.dstore.values.StringValue codePart_;
       /**
        * <pre>
        * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+       * <code>optional .dstore.values.StringValue code_part = 10005;</code>
        */
       public boolean hasCodePart() {
         return codePart_ != null;
@@ -2550,19 +2550,19 @@ public final class MiGetSQLFunctionCodeAd {
        * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+       * <code>optional .dstore.values.StringValue code_part = 10005;</code>
        */
-      public io.dstore.Values.stringValue getCodePart() {
-        return codePart_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codePart_;
+      public io.dstore.values.StringValue getCodePart() {
+        return codePart_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codePart_;
       }
       /**
        * <pre>
        * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+       * <code>optional .dstore.values.StringValue code_part = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCodePartOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCodePartOrBuilder() {
         return getCodePart();
       }
 
@@ -3011,15 +3011,15 @@ public final class MiGetSQLFunctionCodeAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue codeLineNumber_ = null;
+        private io.dstore.values.IntegerValue codeLineNumber_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> codeLineNumberBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> codeLineNumberBuilder_;
         /**
          * <pre>
          * Eindeutige Zeilennummer des Codes "CodeLine"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
         public boolean hasCodeLineNumber() {
           return codeLineNumberBuilder_ != null || codeLineNumber_ != null;
@@ -3029,11 +3029,11 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des Codes "CodeLine"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public io.dstore.Values.integerValue getCodeLineNumber() {
+        public io.dstore.values.IntegerValue getCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
-            return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+            return codeLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
           } else {
             return codeLineNumberBuilder_.getMessage();
           }
@@ -3043,9 +3043,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des Codes "CodeLine"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public Builder setCodeLineNumber(io.dstore.Values.integerValue value) {
+        public Builder setCodeLineNumber(io.dstore.values.IntegerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3063,10 +3063,10 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des Codes "CodeLine"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
         public Builder setCodeLineNumber(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumber_ = builderForValue.build();
             onChanged();
@@ -3081,13 +3081,13 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des Codes "CodeLine"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public Builder mergeCodeLineNumber(io.dstore.Values.integerValue value) {
+        public Builder mergeCodeLineNumber(io.dstore.values.IntegerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (codeLineNumber_ != null) {
               codeLineNumber_ =
-                io.dstore.Values.integerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
             } else {
               codeLineNumber_ = value;
             }
@@ -3103,7 +3103,7 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des Codes "CodeLine"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
         public Builder clearCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
@@ -3121,9 +3121,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des Codes "CodeLine"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCodeLineNumberBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCodeLineNumberBuilder() {
           
           onChanged();
           return getCodeLineNumberFieldBuilder().getBuilder();
@@ -3133,14 +3133,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des Codes "CodeLine"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder() {
           if (codeLineNumberBuilder_ != null) {
             return codeLineNumberBuilder_.getMessageOrBuilder();
           } else {
             return codeLineNumber_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
           }
         }
         /**
@@ -3148,14 +3148,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des Codes "CodeLine"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCodeLineNumberFieldBuilder() {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCodeLineNumber(),
                     getParentForChildren(),
                     isClean());
@@ -3164,15 +3164,15 @@ public final class MiGetSQLFunctionCodeAd {
           return codeLineNumberBuilder_;
         }
 
-        private io.dstore.Values.integerValue codePartLineNumber_ = null;
+        private io.dstore.values.IntegerValue codePartLineNumber_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> codePartLineNumberBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> codePartLineNumberBuilder_;
         /**
          * <pre>
          * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
          */
         public boolean hasCodePartLineNumber() {
           return codePartLineNumberBuilder_ != null || codePartLineNumber_ != null;
@@ -3182,11 +3182,11 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
          */
-        public io.dstore.Values.integerValue getCodePartLineNumber() {
+        public io.dstore.values.IntegerValue getCodePartLineNumber() {
           if (codePartLineNumberBuilder_ == null) {
-            return codePartLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codePartLineNumber_;
+            return codePartLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codePartLineNumber_;
           } else {
             return codePartLineNumberBuilder_.getMessage();
           }
@@ -3196,9 +3196,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
          */
-        public Builder setCodePartLineNumber(io.dstore.Values.integerValue value) {
+        public Builder setCodePartLineNumber(io.dstore.values.IntegerValue value) {
           if (codePartLineNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3216,10 +3216,10 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
          */
         public Builder setCodePartLineNumber(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (codePartLineNumberBuilder_ == null) {
             codePartLineNumber_ = builderForValue.build();
             onChanged();
@@ -3234,13 +3234,13 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
          */
-        public Builder mergeCodePartLineNumber(io.dstore.Values.integerValue value) {
+        public Builder mergeCodePartLineNumber(io.dstore.values.IntegerValue value) {
           if (codePartLineNumberBuilder_ == null) {
             if (codePartLineNumber_ != null) {
               codePartLineNumber_ =
-                io.dstore.Values.integerValue.newBuilder(codePartLineNumber_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(codePartLineNumber_).mergeFrom(value).buildPartial();
             } else {
               codePartLineNumber_ = value;
             }
@@ -3256,7 +3256,7 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
          */
         public Builder clearCodePartLineNumber() {
           if (codePartLineNumberBuilder_ == null) {
@@ -3274,9 +3274,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCodePartLineNumberBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCodePartLineNumberBuilder() {
           
           onChanged();
           return getCodePartLineNumberFieldBuilder().getBuilder();
@@ -3286,14 +3286,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCodePartLineNumberOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCodePartLineNumberOrBuilder() {
           if (codePartLineNumberBuilder_ != null) {
             return codePartLineNumberBuilder_.getMessageOrBuilder();
           } else {
             return codePartLineNumber_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : codePartLineNumber_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : codePartLineNumber_;
           }
         }
         /**
@@ -3301,14 +3301,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Eindeutige Zeilennummer des REINEN Codes "CodePart" (also ohne Kommentare). Wenn hier "NULL" steht, ist "CodePart" auch "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_part_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_part_line_number = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCodePartLineNumberFieldBuilder() {
           if (codePartLineNumberBuilder_ == null) {
             codePartLineNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCodePartLineNumber(),
                     getParentForChildren(),
                     isClean());
@@ -3317,15 +3317,15 @@ public final class MiGetSQLFunctionCodeAd {
           return codePartLineNumberBuilder_;
         }
 
-        private io.dstore.Values.stringValue codeLine_ = null;
+        private io.dstore.values.StringValue codeLine_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> codeLineBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> codeLineBuilder_;
         /**
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
         public boolean hasCodeLine() {
           return codeLineBuilder_ != null || codeLine_ != null;
@@ -3335,11 +3335,11 @@ public final class MiGetSQLFunctionCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public io.dstore.Values.stringValue getCodeLine() {
+        public io.dstore.values.StringValue getCodeLine() {
           if (codeLineBuilder_ == null) {
-            return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
+            return codeLine_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codeLine_;
           } else {
             return codeLineBuilder_.getMessage();
           }
@@ -3349,9 +3349,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public Builder setCodeLine(io.dstore.Values.stringValue value) {
+        public Builder setCodeLine(io.dstore.values.StringValue value) {
           if (codeLineBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3369,10 +3369,10 @@ public final class MiGetSQLFunctionCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
         public Builder setCodeLine(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (codeLineBuilder_ == null) {
             codeLine_ = builderForValue.build();
             onChanged();
@@ -3387,13 +3387,13 @@ public final class MiGetSQLFunctionCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public Builder mergeCodeLine(io.dstore.Values.stringValue value) {
+        public Builder mergeCodeLine(io.dstore.values.StringValue value) {
           if (codeLineBuilder_ == null) {
             if (codeLine_ != null) {
               codeLine_ =
-                io.dstore.Values.stringValue.newBuilder(codeLine_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(codeLine_).mergeFrom(value).buildPartial();
             } else {
               codeLine_ = value;
             }
@@ -3409,7 +3409,7 @@ public final class MiGetSQLFunctionCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
         public Builder clearCodeLine() {
           if (codeLineBuilder_ == null) {
@@ -3427,9 +3427,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCodeLineBuilder() {
+        public io.dstore.values.StringValue.Builder getCodeLineBuilder() {
           
           onChanged();
           return getCodeLineFieldBuilder().getBuilder();
@@ -3439,14 +3439,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCodeLineOrBuilder() {
           if (codeLineBuilder_ != null) {
             return codeLineBuilder_.getMessageOrBuilder();
           } else {
             return codeLine_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
+                io.dstore.values.StringValue.getDefaultInstance() : codeLine_;
           }
         }
         /**
@@ -3454,14 +3454,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" steht. ACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCodeLineFieldBuilder() {
           if (codeLineBuilder_ == null) {
             codeLineBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCodeLine(),
                     getParentForChildren(),
                     isClean());
@@ -3470,15 +3470,15 @@ public final class MiGetSQLFunctionCodeAd {
           return codeLineBuilder_;
         }
 
-        private io.dstore.Values.stringValue commentPart_ = null;
+        private io.dstore.values.StringValue commentPart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> commentPartBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> commentPartBuilder_;
         /**
          * <pre>
          * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+         * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
          */
         public boolean hasCommentPart() {
           return commentPartBuilder_ != null || commentPart_ != null;
@@ -3488,11 +3488,11 @@ public final class MiGetSQLFunctionCodeAd {
          * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+         * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
          */
-        public io.dstore.Values.stringValue getCommentPart() {
+        public io.dstore.values.StringValue getCommentPart() {
           if (commentPartBuilder_ == null) {
-            return commentPart_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : commentPart_;
+            return commentPart_ == null ? io.dstore.values.StringValue.getDefaultInstance() : commentPart_;
           } else {
             return commentPartBuilder_.getMessage();
           }
@@ -3502,9 +3502,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+         * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
          */
-        public Builder setCommentPart(io.dstore.Values.stringValue value) {
+        public Builder setCommentPart(io.dstore.values.StringValue value) {
           if (commentPartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3522,10 +3522,10 @@ public final class MiGetSQLFunctionCodeAd {
          * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+         * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
          */
         public Builder setCommentPart(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (commentPartBuilder_ == null) {
             commentPart_ = builderForValue.build();
             onChanged();
@@ -3540,13 +3540,13 @@ public final class MiGetSQLFunctionCodeAd {
          * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+         * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
          */
-        public Builder mergeCommentPart(io.dstore.Values.stringValue value) {
+        public Builder mergeCommentPart(io.dstore.values.StringValue value) {
           if (commentPartBuilder_ == null) {
             if (commentPart_ != null) {
               commentPart_ =
-                io.dstore.Values.stringValue.newBuilder(commentPart_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(commentPart_).mergeFrom(value).buildPartial();
             } else {
               commentPart_ = value;
             }
@@ -3562,7 +3562,7 @@ public final class MiGetSQLFunctionCodeAd {
          * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+         * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
          */
         public Builder clearCommentPart() {
           if (commentPartBuilder_ == null) {
@@ -3580,9 +3580,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+         * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCommentPartBuilder() {
+        public io.dstore.values.StringValue.Builder getCommentPartBuilder() {
           
           onChanged();
           return getCommentPartFieldBuilder().getBuilder();
@@ -3592,14 +3592,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+         * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCommentPartOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCommentPartOrBuilder() {
           if (commentPartBuilder_ != null) {
             return commentPartBuilder_.getMessageOrBuilder();
           } else {
             return commentPart_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : commentPart_;
+                io.dstore.values.StringValue.getDefaultInstance() : commentPart_;
           }
         }
         /**
@@ -3607,14 +3607,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Jeglicher Kommentar in der Code-ZeileACHTUNG : Ist "&#64;IgnoreComments = 1", steht hier immer "NULL" !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment_part = 10004;</code>
+         * <code>optional .dstore.values.StringValue comment_part = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCommentPartFieldBuilder() {
           if (commentPartBuilder_ == null) {
             commentPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCommentPart(),
                     getParentForChildren(),
                     isClean());
@@ -3623,15 +3623,15 @@ public final class MiGetSQLFunctionCodeAd {
           return commentPartBuilder_;
         }
 
-        private io.dstore.Values.stringValue codePart_ = null;
+        private io.dstore.values.StringValue codePart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> codePartBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> codePartBuilder_;
         /**
          * <pre>
          * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+         * <code>optional .dstore.values.StringValue code_part = 10005;</code>
          */
         public boolean hasCodePart() {
           return codePartBuilder_ != null || codePart_ != null;
@@ -3641,11 +3641,11 @@ public final class MiGetSQLFunctionCodeAd {
          * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+         * <code>optional .dstore.values.StringValue code_part = 10005;</code>
          */
-        public io.dstore.Values.stringValue getCodePart() {
+        public io.dstore.values.StringValue getCodePart() {
           if (codePartBuilder_ == null) {
-            return codePart_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codePart_;
+            return codePart_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codePart_;
           } else {
             return codePartBuilder_.getMessage();
           }
@@ -3655,9 +3655,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+         * <code>optional .dstore.values.StringValue code_part = 10005;</code>
          */
-        public Builder setCodePart(io.dstore.Values.stringValue value) {
+        public Builder setCodePart(io.dstore.values.StringValue value) {
           if (codePartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3675,10 +3675,10 @@ public final class MiGetSQLFunctionCodeAd {
          * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+         * <code>optional .dstore.values.StringValue code_part = 10005;</code>
          */
         public Builder setCodePart(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (codePartBuilder_ == null) {
             codePart_ = builderForValue.build();
             onChanged();
@@ -3693,13 +3693,13 @@ public final class MiGetSQLFunctionCodeAd {
          * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+         * <code>optional .dstore.values.StringValue code_part = 10005;</code>
          */
-        public Builder mergeCodePart(io.dstore.Values.stringValue value) {
+        public Builder mergeCodePart(io.dstore.values.StringValue value) {
           if (codePartBuilder_ == null) {
             if (codePart_ != null) {
               codePart_ =
-                io.dstore.Values.stringValue.newBuilder(codePart_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(codePart_).mergeFrom(value).buildPartial();
             } else {
               codePart_ = value;
             }
@@ -3715,7 +3715,7 @@ public final class MiGetSQLFunctionCodeAd {
          * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+         * <code>optional .dstore.values.StringValue code_part = 10005;</code>
          */
         public Builder clearCodePart() {
           if (codePartBuilder_ == null) {
@@ -3733,9 +3733,9 @@ public final class MiGetSQLFunctionCodeAd {
          * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+         * <code>optional .dstore.values.StringValue code_part = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCodePartBuilder() {
+        public io.dstore.values.StringValue.Builder getCodePartBuilder() {
           
           onChanged();
           return getCodePartFieldBuilder().getBuilder();
@@ -3745,14 +3745,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+         * <code>optional .dstore.values.StringValue code_part = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCodePartOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCodePartOrBuilder() {
           if (codePartBuilder_ != null) {
             return codePartBuilder_.getMessageOrBuilder();
           } else {
             return codePart_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : codePart_;
+                io.dstore.values.StringValue.getDefaultInstance() : codePart_;
           }
         }
         /**
@@ -3760,14 +3760,14 @@ public final class MiGetSQLFunctionCodeAd {
          * Der "reine" Code der Code-Zeile (ohne Kommentare). Anmerkungen :* Wenn die verbleibenden Zeichen NUR aus "tabs" und/oder "spaces" und/oder "CRs" bestehen, steht hier "NULL"* Ist "&#64;IgnoreComments = 1", erhält man nur Zeilen, die hier NICHT "NULL" enth.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_part = 10005;</code>
+         * <code>optional .dstore.values.StringValue code_part = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCodePartFieldBuilder() {
           if (codePartBuilder_ == null) {
             codePartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCodePart(),
                     getParentForChildren(),
                     isClean());
@@ -5237,31 +5237,31 @@ public final class MiGetSQLFunctionCodeAd {
       "QLFunctionCode_Ad\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\320\004\n\nParameter" +
       "s\0227\n\023s_q_l_function_name\030\001 \001(\0132\032.dstore." +
-      "values.stringValue\022!\n\030s_q_l_function_nam" +
+      "values.StringValue\022!\n\030s_q_l_function_nam" +
       "e_null\030\351\007 \001(\010\0224\n\017ignore_comments\030\002 \001(\0132\033" +
-      ".dstore.values.booleanValue\022\035\n\024ignore_co" +
+      ".dstore.values.BooleanValue\022\035\n\024ignore_co" +
       "mments_null\030\352\007 \001(\010\022A\n\034get_code_lines_as_" +
-      "result_set\030\003 \001(\0132\033.dstore.values.boolean",
+      "result_set\030\003 \001(\0132\033.dstore.values.Boolean",
       "Value\022*\n!get_code_lines_as_result_set_nu" +
       "ll\030\353\007 \001(\010\022D\n\037include_statements_for_crea" +
-      "tion\030\004 \001(\0132\033.dstore.values.booleanValue\022" +
+      "tion\030\004 \001(\0132\033.dstore.values.BooleanValue\022" +
       "-\n$include_statements_for_creation_null\030" +
       "\354\007 \001(\010\0229\n\024only_function_header\030\005 \001(\0132\033.d" +
-      "store.values.booleanValue\022\"\n\031only_functi" +
+      "store.values.BooleanValue\022\"\n\031only_functi" +
       "on_header_null\030\355\007 \001(\010\0221\n\rdatabase_name\030\006" +
-      " \001(\0132\032.dstore.values.stringValue\022\033\n\022data" +
+      " \001(\0132\032.dstore.values.StringValue\022\033\n\022data" +
       "base_name_null\030\356\007 \001(\010\"\321\003\n\010Response\0228\n\020me" +
       "ta_information\030\002 \003(\0132\036.dstore.engine.Met",
       "aInformation\022\'\n\007message\030\003 \003(\0132\026.dstore.e" +
       "ngine.Message\022A\n\003row\030\004 \003(\01324.dstore.engi" +
       "ne.mi_GetSQLFunctionCode_Ad.Response.Row" +
       "\032\236\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0226\n\020code_line_n" +
-      "umber\030\221N \001(\0132\033.dstore.values.integerValu" +
+      "umber\030\221N \001(\0132\033.dstore.values.IntegerValu" +
       "e\022;\n\025code_part_line_number\030\222N \001(\0132\033.dsto" +
-      "re.values.integerValue\022.\n\tcode_line\030\223N \001" +
-      "(\0132\032.dstore.values.stringValue\0221\n\014commen" +
-      "t_part\030\224N \001(\0132\032.dstore.values.stringValu" +
-      "e\022.\n\tcode_part\030\225N \001(\0132\032.dstore.values.st",
+      "re.values.IntegerValue\022.\n\tcode_line\030\223N \001" +
+      "(\0132\032.dstore.values.StringValue\0221\n\014commen" +
+      "t_part\030\224N \001(\0132\032.dstore.values.StringValu" +
+      "e\022.\n\tcode_part\030\225N \001(\0132\032.dstore.values.St",
       "ringValueBY\n\033io.dstore.engine.procedures" +
       "Z:gosdk.dstore.de/engine/procedures/mi_G" +
       "etSQLFunctionCode_Adb\006proto3"
@@ -5277,7 +5277,7 @@ public final class MiGetSQLFunctionCodeAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetSQLFunctionCode_Ad_Parameters_descriptor =
@@ -5298,7 +5298,7 @@ public final class MiGetSQLFunctionCodeAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetSQLFunctionCode_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CodeLineNumber", "CodePartLineNumber", "CodeLine", "CommentPart", "CodePart", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

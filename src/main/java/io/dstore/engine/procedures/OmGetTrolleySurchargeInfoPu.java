@@ -19,17 +19,17 @@ public final class OmGetTrolleySurchargeInfoPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetTrolleySurchargeInfoPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue position_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
      */
     boolean hasPositionNo();
     /**
-     * <code>optional .dstore.values.integerValue position_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
      */
-    io.dstore.Values.integerValue getPositionNo();
+    io.dstore.values.IntegerValue getPositionNo();
     /**
-     * <code>optional .dstore.values.integerValue position_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPositionNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPositionNoOrBuilder();
 
     /**
      * <code>optional bool position_no_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetTrolleySurchargeInfoPu {
     boolean getPositionNoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
-    io.dstore.Values.integerValue getInformationTypeId();
+    io.dstore.values.IntegerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
      * <code>optional bool information_type_id_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class OmGetTrolleySurchargeInfoPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class OmGetTrolleySurchargeInfoPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (positionNo_ != null) {
                 subBuilder = positionNo_.toBuilder();
               }
-              positionNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              positionNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(positionNo_);
                 positionNo_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class OmGetTrolleySurchargeInfoPu {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class OmGetTrolleySurchargeInfoPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -222,23 +222,23 @@ public final class OmGetTrolleySurchargeInfoPu {
     }
 
     public static final int POSITION_NO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue positionNo_;
+    private io.dstore.values.IntegerValue positionNo_;
     /**
-     * <code>optional .dstore.values.integerValue position_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
      */
     public boolean hasPositionNo() {
       return positionNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue position_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
      */
-    public io.dstore.Values.integerValue getPositionNo() {
-      return positionNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : positionNo_;
+    public io.dstore.values.IntegerValue getPositionNo() {
+      return positionNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : positionNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue position_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPositionNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPositionNoOrBuilder() {
       return getPositionNo();
     }
 
@@ -252,23 +252,23 @@ public final class OmGetTrolleySurchargeInfoPu {
     }
 
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue informationTypeId_;
+    private io.dstore.values.IntegerValue informationTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getInformationTypeId() {
-      return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+    public io.dstore.values.IntegerValue getInformationTypeId() {
+      return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
     }
 
@@ -677,29 +677,29 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -745,7 +745,7 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue positionNo_ = null;
+      private io.dstore.values.IntegerValue positionNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> positionNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> positionNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue position_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
        */
       public boolean hasPositionNo() {
         return positionNoBuilder_ != null || positionNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue position_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
        */
-      public io.dstore.Values.integerValue getPositionNo() {
+      public io.dstore.values.IntegerValue getPositionNo() {
         if (positionNoBuilder_ == null) {
-          return positionNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : positionNo_;
+          return positionNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : positionNo_;
         } else {
           return positionNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue position_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
        */
-      public Builder setPositionNo(io.dstore.Values.integerValue value) {
+      public Builder setPositionNo(io.dstore.values.IntegerValue value) {
         if (positionNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue position_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
        */
       public Builder setPositionNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (positionNoBuilder_ == null) {
           positionNo_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue position_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
        */
-      public Builder mergePositionNo(io.dstore.Values.integerValue value) {
+      public Builder mergePositionNo(io.dstore.values.IntegerValue value) {
         if (positionNoBuilder_ == null) {
           if (positionNo_ != null) {
             positionNo_ =
-              io.dstore.Values.integerValue.newBuilder(positionNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(positionNo_).mergeFrom(value).buildPartial();
           } else {
             positionNo_ = value;
           }
@@ -888,7 +888,7 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue position_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
        */
       public Builder clearPositionNo() {
         if (positionNoBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue position_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPositionNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPositionNoBuilder() {
         
         onChanged();
         return getPositionNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue position_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPositionNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPositionNoOrBuilder() {
         if (positionNoBuilder_ != null) {
           return positionNoBuilder_.getMessageOrBuilder();
         } else {
           return positionNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : positionNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : positionNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue position_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPositionNoFieldBuilder() {
         if (positionNoBuilder_ == null) {
           positionNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPositionNo(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue informationTypeId_ = null;
+      private io.dstore.values.IntegerValue informationTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getInformationTypeId() {
+      public io.dstore.values.IntegerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
-          return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+          return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
         } else {
           return informationTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
+      public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
       public Builder setInformationTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (informationTypeIdBuilder_ == null) {
           informationTypeId_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (informationTypeId_ != null) {
             informationTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
           } else {
             informationTypeId_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class OmGetTrolleySurchargeInfoPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
         
         onChanged();
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
           return informationTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return informationTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
           informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class OmGetTrolleySurchargeInfoPu {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       boolean hasInformationTypeId();
       /**
@@ -1373,24 +1373,24 @@ public final class OmGetTrolleySurchargeInfoPu {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getInformationTypeId();
+      io.dstore.values.IntegerValue getInformationTypeId();
       /**
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
       /**
        * <pre>
        * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
        */
       boolean hasPositionNo();
       /**
@@ -1398,24 +1398,24 @@ public final class OmGetTrolleySurchargeInfoPu {
        * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
        */
-      io.dstore.Values.integerValue getPositionNo();
+      io.dstore.values.IntegerValue getPositionNo();
       /**
        * <pre>
        * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPositionNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPositionNoOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10003;</code>
        */
       boolean hasInformationType();
       /**
@@ -1423,24 +1423,24 @@ public final class OmGetTrolleySurchargeInfoPu {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10003;</code>
        */
-      io.dstore.Values.stringValue getInformationType();
+      io.dstore.values.StringValue getInformationType();
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder();
 
       /**
        * <pre>
        * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.StringValue information = 10004;</code>
        */
       boolean hasInformation();
       /**
@@ -1448,17 +1448,17 @@ public final class OmGetTrolleySurchargeInfoPu {
        * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.StringValue information = 10004;</code>
        */
-      io.dstore.Values.stringValue getInformation();
+      io.dstore.values.StringValue getInformation();
       /**
        * <pre>
        * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.StringValue information = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
+      io.dstore.values.StringValueOrBuilder getInformationOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetTrolleySurchargeInfo_Pu.Response.Row}
@@ -1506,11 +1506,11 @@ public final class OmGetTrolleySurchargeInfoPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -1519,11 +1519,11 @@ public final class OmGetTrolleySurchargeInfoPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (positionNo_ != null) {
                   subBuilder = positionNo_.toBuilder();
                 }
-                positionNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                positionNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(positionNo_);
                   positionNo_ = subBuilder.buildPartial();
@@ -1532,11 +1532,11 @@ public final class OmGetTrolleySurchargeInfoPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (informationType_ != null) {
                   subBuilder = informationType_.toBuilder();
                 }
-                informationType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                informationType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationType_);
                   informationType_ = subBuilder.buildPartial();
@@ -1545,11 +1545,11 @@ public final class OmGetTrolleySurchargeInfoPu {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (information_ != null) {
                   subBuilder = information_.toBuilder();
                 }
-                information_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                information_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(information_);
                   information_ = subBuilder.buildPartial();
@@ -1590,13 +1590,13 @@ public final class OmGetTrolleySurchargeInfoPu {
       }
 
       public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue informationTypeId_;
+      private io.dstore.values.IntegerValue informationTypeId_;
       /**
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
@@ -1606,30 +1606,30 @@ public final class OmGetTrolleySurchargeInfoPu {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getInformationTypeId() {
-        return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+      public io.dstore.values.IntegerValue getInformationTypeId() {
+        return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
       }
       /**
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
       }
 
       public static final int POSITION_NO_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue positionNo_;
+      private io.dstore.values.IntegerValue positionNo_;
       /**
        * <pre>
        * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
        */
       public boolean hasPositionNo() {
         return positionNo_ != null;
@@ -1639,30 +1639,30 @@ public final class OmGetTrolleySurchargeInfoPu {
        * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
        */
-      public io.dstore.Values.integerValue getPositionNo() {
-        return positionNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : positionNo_;
+      public io.dstore.values.IntegerValue getPositionNo() {
+        return positionNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : positionNo_;
       }
       /**
        * <pre>
        * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPositionNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPositionNoOrBuilder() {
         return getPositionNo();
       }
 
       public static final int INFORMATION_TYPE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue informationType_;
+      private io.dstore.values.StringValue informationType_;
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10003;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
@@ -1672,30 +1672,30 @@ public final class OmGetTrolleySurchargeInfoPu {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10003;</code>
        */
-      public io.dstore.Values.stringValue getInformationType() {
-        return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
+      public io.dstore.values.StringValue getInformationType() {
+        return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
       }
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
       }
 
       public static final int INFORMATION_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue information_;
+      private io.dstore.values.StringValue information_;
       /**
        * <pre>
        * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.StringValue information = 10004;</code>
        */
       public boolean hasInformation() {
         return information_ != null;
@@ -1705,19 +1705,19 @@ public final class OmGetTrolleySurchargeInfoPu {
        * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.StringValue information = 10004;</code>
        */
-      public io.dstore.Values.stringValue getInformation() {
-        return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+      public io.dstore.values.StringValue getInformation() {
+        return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
       }
       /**
        * <pre>
        * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10004;</code>
+       * <code>optional .dstore.values.StringValue information = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
       }
 
@@ -2136,15 +2136,15 @@ public final class OmGetTrolleySurchargeInfoPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue informationTypeId_ = null;
+        private io.dstore.values.IntegerValue informationTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
         /**
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
@@ -2154,11 +2154,11 @@ public final class OmGetTrolleySurchargeInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getInformationTypeId() {
+        public io.dstore.values.IntegerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
-            return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+            return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
           } else {
             return informationTypeIdBuilder_.getMessage();
           }
@@ -2168,9 +2168,9 @@ public final class OmGetTrolleySurchargeInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2188,10 +2188,10 @@ public final class OmGetTrolleySurchargeInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder setInformationTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (informationTypeIdBuilder_ == null) {
             informationTypeId_ = builderForValue.build();
             onChanged();
@@ -2206,13 +2206,13 @@ public final class OmGetTrolleySurchargeInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (informationTypeId_ != null) {
               informationTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
             } else {
               informationTypeId_ = value;
             }
@@ -2228,7 +2228,7 @@ public final class OmGetTrolleySurchargeInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2246,9 +2246,9 @@ public final class OmGetTrolleySurchargeInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
           
           onChanged();
           return getInformationTypeIdFieldBuilder().getBuilder();
@@ -2258,14 +2258,14 @@ public final class OmGetTrolleySurchargeInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
             return informationTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return informationTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
           }
         }
         /**
@@ -2273,14 +2273,14 @@ public final class OmGetTrolleySurchargeInfoPu {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt (mögliche Werte : s. "om_GetTrolleySurchInfoTypes_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getInformationTypeIdFieldBuilder() {
           if (informationTypeIdBuilder_ == null) {
             informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getInformationTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2289,15 +2289,15 @@ public final class OmGetTrolleySurchargeInfoPu {
           return informationTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue positionNo_ = null;
+        private io.dstore.values.IntegerValue positionNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> positionNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> positionNoBuilder_;
         /**
          * <pre>
          * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
          */
         public boolean hasPositionNo() {
           return positionNoBuilder_ != null || positionNo_ != null;
@@ -2307,11 +2307,11 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
          */
-        public io.dstore.Values.integerValue getPositionNo() {
+        public io.dstore.values.IntegerValue getPositionNo() {
           if (positionNoBuilder_ == null) {
-            return positionNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : positionNo_;
+            return positionNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : positionNo_;
           } else {
             return positionNoBuilder_.getMessage();
           }
@@ -2321,9 +2321,9 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
          */
-        public Builder setPositionNo(io.dstore.Values.integerValue value) {
+        public Builder setPositionNo(io.dstore.values.IntegerValue value) {
           if (positionNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2341,10 +2341,10 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
          */
         public Builder setPositionNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (positionNoBuilder_ == null) {
             positionNo_ = builderForValue.build();
             onChanged();
@@ -2359,13 +2359,13 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
          */
-        public Builder mergePositionNo(io.dstore.Values.integerValue value) {
+        public Builder mergePositionNo(io.dstore.values.IntegerValue value) {
           if (positionNoBuilder_ == null) {
             if (positionNo_ != null) {
               positionNo_ =
-                io.dstore.Values.integerValue.newBuilder(positionNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(positionNo_).mergeFrom(value).buildPartial();
             } else {
               positionNo_ = value;
             }
@@ -2381,7 +2381,7 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
          */
         public Builder clearPositionNo() {
           if (positionNoBuilder_ == null) {
@@ -2399,9 +2399,9 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPositionNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPositionNoBuilder() {
           
           onChanged();
           return getPositionNoFieldBuilder().getBuilder();
@@ -2411,14 +2411,14 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPositionNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPositionNoOrBuilder() {
           if (positionNoBuilder_ != null) {
             return positionNoBuilder_.getMessageOrBuilder();
           } else {
             return positionNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : positionNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : positionNo_;
           }
         }
         /**
@@ -2426,14 +2426,14 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Eindeutige Nummer eines "Surcharges" des durch "&#64;UniqueID" angegebenen Besucher-Warenkorbes (die die Reihenfolge, in der die "Surcharges" angewandt wurden, bestimmt)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue position_no = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue position_no = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPositionNoFieldBuilder() {
           if (positionNoBuilder_ == null) {
             positionNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPositionNo(),
                     getParentForChildren(),
                     isClean());
@@ -2442,15 +2442,15 @@ public final class OmGetTrolleySurchargeInfoPu {
           return positionNoBuilder_;
         }
 
-        private io.dstore.Values.stringValue informationType_ = null;
+        private io.dstore.values.StringValue informationType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationTypeBuilder_;
         /**
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10003;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
@@ -2460,11 +2460,11 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10003;</code>
          */
-        public io.dstore.Values.stringValue getInformationType() {
+        public io.dstore.values.StringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
-            return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
+            return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
           } else {
             return informationTypeBuilder_.getMessage();
           }
@@ -2474,9 +2474,9 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10003;</code>
          */
-        public Builder setInformationType(io.dstore.Values.stringValue value) {
+        public Builder setInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2494,10 +2494,10 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10003;</code>
          */
         public Builder setInformationType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (informationTypeBuilder_ == null) {
             informationType_ = builderForValue.build();
             onChanged();
@@ -2512,13 +2512,13 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10003;</code>
          */
-        public Builder mergeInformationType(io.dstore.Values.stringValue value) {
+        public Builder mergeInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
             if (informationType_ != null) {
               informationType_ =
-                io.dstore.Values.stringValue.newBuilder(informationType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(informationType_).mergeFrom(value).buildPartial();
             } else {
               informationType_ = value;
             }
@@ -2534,7 +2534,7 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10003;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2552,9 +2552,9 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getInformationTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getInformationTypeBuilder() {
           
           onChanged();
           return getInformationTypeFieldBuilder().getBuilder();
@@ -2564,14 +2564,14 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
             return informationTypeBuilder_.getMessageOrBuilder();
           } else {
             return informationType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
+                io.dstore.values.StringValue.getDefaultInstance() : informationType_;
           }
         }
         /**
@@ -2579,14 +2579,14 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getInformationTypeFieldBuilder() {
           if (informationTypeBuilder_ == null) {
             informationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getInformationType(),
                     getParentForChildren(),
                     isClean());
@@ -2595,15 +2595,15 @@ public final class OmGetTrolleySurchargeInfoPu {
           return informationTypeBuilder_;
         }
 
-        private io.dstore.Values.stringValue information_ = null;
+        private io.dstore.values.StringValue information_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationBuilder_;
         /**
          * <pre>
          * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.StringValue information = 10004;</code>
          */
         public boolean hasInformation() {
           return informationBuilder_ != null || information_ != null;
@@ -2613,11 +2613,11 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.StringValue information = 10004;</code>
          */
-        public io.dstore.Values.stringValue getInformation() {
+        public io.dstore.values.StringValue getInformation() {
           if (informationBuilder_ == null) {
-            return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+            return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
           } else {
             return informationBuilder_.getMessage();
           }
@@ -2627,9 +2627,9 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.StringValue information = 10004;</code>
          */
-        public Builder setInformation(io.dstore.Values.stringValue value) {
+        public Builder setInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2647,10 +2647,10 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.StringValue information = 10004;</code>
          */
         public Builder setInformation(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (informationBuilder_ == null) {
             information_ = builderForValue.build();
             onChanged();
@@ -2665,13 +2665,13 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.StringValue information = 10004;</code>
          */
-        public Builder mergeInformation(io.dstore.Values.stringValue value) {
+        public Builder mergeInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
             if (information_ != null) {
               information_ =
-                io.dstore.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(information_).mergeFrom(value).buildPartial();
             } else {
               information_ = value;
             }
@@ -2687,7 +2687,7 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.StringValue information = 10004;</code>
          */
         public Builder clearInformation() {
           if (informationBuilder_ == null) {
@@ -2705,9 +2705,9 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.StringValue information = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getInformationBuilder() {
+        public io.dstore.values.StringValue.Builder getInformationBuilder() {
           
           onChanged();
           return getInformationFieldBuilder().getBuilder();
@@ -2717,14 +2717,14 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.StringValue information = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
             return informationBuilder_.getMessageOrBuilder();
           } else {
             return information_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : information_;
+                io.dstore.values.StringValue.getDefaultInstance() : information_;
           }
         }
         /**
@@ -2732,14 +2732,14 @@ public final class OmGetTrolleySurchargeInfoPu {
          * Die zur ("Surcharge"-)"PositionNo" hinterlegte Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10004;</code>
+         * <code>optional .dstore.values.StringValue information = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getInformationFieldBuilder() {
           if (informationBuilder_ == null) {
             informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getInformation(),
                     getParentForChildren(),
                     isClean());
@@ -4209,22 +4209,22 @@ public final class OmGetTrolleySurchargeInfoPu {
       "_GetTrolleySurchargeInfo_Pu\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\376\001\n" +
       "\nParameters\022-\n\tunique_id\030\001 \001(\0132\032.dstore." +
-      "values.stringValue\022\027\n\016unique_id_null\030\351\007 " +
+      "values.StringValue\022\027\n\016unique_id_null\030\351\007 " +
       "\001(\010\0220\n\013position_no\030\002 \001(\0132\033.dstore.values" +
-      ".integerValue\022\031\n\020position_no_null\030\352\007 \001(\010" +
+      ".IntegerValue\022\031\n\020position_no_null\030\352\007 \001(\010" +
       "\0228\n\023information_type_id\030\003 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022!\n\030information_type_i",
+      "alues.IntegerValue\022!\n\030information_type_i",
       "d_null\030\353\007 \001(\010\"\245\003\n\010Response\0228\n\020meta_infor" +
       "mation\030\002 \003(\0132\036.dstore.engine.MetaInforma" +
       "tion\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Me" +
       "ssage\022F\n\003row\030\004 \003(\01329.dstore.engine.om_Ge" +
       "tTrolleySurchargeInfo_Pu.Response.Row\032\355\001" +
       "\n\003Row\022\017\n\006row_id\030\220N \001(\005\0229\n\023information_ty" +
-      "pe_id\030\221N \001(\0132\033.dstore.values.integerValu" +
+      "pe_id\030\221N \001(\0132\033.dstore.values.IntegerValu" +
       "e\0221\n\013position_no\030\222N \001(\0132\033.dstore.values." +
-      "integerValue\0225\n\020information_type\030\223N \001(\0132" +
-      "\032.dstore.values.stringValue\0220\n\013informati",
-      "on\030\224N \001(\0132\032.dstore.values.stringValueB^\n" +
+      "IntegerValue\0225\n\020information_type\030\223N \001(\0132" +
+      "\032.dstore.values.StringValue\0220\n\013informati",
+      "on\030\224N \001(\0132\032.dstore.values.StringValueB^\n" +
       "\033io.dstore.engine.proceduresZ?gosdk.dsto" +
       "re.de/engine/procedures/om_GetTrolleySur" +
       "chargeInfo_Pub\006proto3"
@@ -4240,7 +4240,7 @@ public final class OmGetTrolleySurchargeInfoPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetTrolleySurchargeInfo_Pu_Parameters_descriptor =
@@ -4261,7 +4261,7 @@ public final class OmGetTrolleySurchargeInfoPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolleySurchargeInfo_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "InformationTypeId", "PositionNo", "InformationType", "Information", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

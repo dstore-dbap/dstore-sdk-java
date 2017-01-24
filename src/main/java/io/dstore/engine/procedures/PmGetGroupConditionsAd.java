@@ -19,17 +19,17 @@ public final class PmGetGroupConditionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    io.dstore.Values.integerValue getConditionId();
+    io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
      * <code>optional bool condition_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetGroupConditionsAd {
     boolean getConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
      */
     boolean hasIncludeConditions();
     /**
-     * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
      */
-    io.dstore.Values.booleanValue getIncludeConditions();
+    io.dstore.values.BooleanValue getIncludeConditions();
     /**
-     * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIncludeConditionsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIncludeConditionsOrBuilder();
 
     /**
      * <code>optional bool include_conditions_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class PmGetGroupConditionsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class PmGetGroupConditionsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (includeConditions_ != null) {
                 subBuilder = includeConditions_.toBuilder();
               }
-              includeConditions_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              includeConditions_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeConditions_);
                 includeConditions_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class PmGetGroupConditionsAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue conditionId_;
+    private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.values.IntegerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -185,23 +185,23 @@ public final class PmGetGroupConditionsAd {
     }
 
     public static final int INCLUDE_CONDITIONS_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue includeConditions_;
+    private io.dstore.values.BooleanValue includeConditions_;
     /**
-     * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
      */
     public boolean hasIncludeConditions() {
       return includeConditions_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
      */
-    public io.dstore.Values.booleanValue getIncludeConditions() {
-      return includeConditions_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeConditions_;
+    public io.dstore.values.BooleanValue getIncludeConditions() {
+      return includeConditions_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeConditions_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIncludeConditionsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIncludeConditionsOrBuilder() {
       return getIncludeConditions();
     }
 
@@ -562,29 +562,29 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue conditionId_ = null;
+      private io.dstore.values.IntegerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
+      public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public Builder setConditionId(io.dstore.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -630,7 +630,7 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue includeConditions_ = null;
+      private io.dstore.values.BooleanValue includeConditions_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeConditionsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeConditionsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
        */
       public boolean hasIncludeConditions() {
         return includeConditionsBuilder_ != null || includeConditions_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
        */
-      public io.dstore.Values.booleanValue getIncludeConditions() {
+      public io.dstore.values.BooleanValue getIncludeConditions() {
         if (includeConditionsBuilder_ == null) {
-          return includeConditions_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeConditions_;
+          return includeConditions_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeConditions_;
         } else {
           return includeConditionsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
        */
-      public Builder setIncludeConditions(io.dstore.Values.booleanValue value) {
+      public Builder setIncludeConditions(io.dstore.values.BooleanValue value) {
         if (includeConditionsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
        */
       public Builder setIncludeConditions(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (includeConditionsBuilder_ == null) {
           includeConditions_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
        */
-      public Builder mergeIncludeConditions(io.dstore.Values.booleanValue value) {
+      public Builder mergeIncludeConditions(io.dstore.values.BooleanValue value) {
         if (includeConditionsBuilder_ == null) {
           if (includeConditions_ != null) {
             includeConditions_ =
-              io.dstore.Values.booleanValue.newBuilder(includeConditions_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(includeConditions_).mergeFrom(value).buildPartial();
           } else {
             includeConditions_ = value;
           }
@@ -773,7 +773,7 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
        */
       public Builder clearIncludeConditions() {
         if (includeConditionsBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class PmGetGroupConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIncludeConditionsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIncludeConditionsBuilder() {
         
         onChanged();
         return getIncludeConditionsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIncludeConditionsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIncludeConditionsOrBuilder() {
         if (includeConditionsBuilder_ != null) {
           return includeConditionsBuilder_.getMessageOrBuilder();
         } else {
           return includeConditions_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : includeConditions_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : includeConditions_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_conditions = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_conditions = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIncludeConditionsFieldBuilder() {
         if (includeConditionsBuilder_ == null) {
           includeConditionsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIncludeConditions(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class PmGetGroupConditionsAd {
        * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
        */
       boolean hasConditionDescription();
       /**
@@ -1115,24 +1115,24 @@ public final class PmGetGroupConditionsAd {
        * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
        */
-      io.dstore.Values.stringValue getConditionDescription();
+      io.dstore.values.StringValue getConditionDescription();
       /**
        * <pre>
        * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getConditionDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID einer (Gruppen-)Bedingung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
       boolean hasConditionId();
       /**
@@ -1140,24 +1140,24 @@ public final class PmGetGroupConditionsAd {
        * ID einer (Gruppen-)Bedingung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getConditionId();
+      io.dstore.values.IntegerValue getConditionId();
       /**
        * <pre>
        * ID einer (Gruppen-)Bedingung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
       /**
        * <pre>
        * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 20002;</code>
+       * <code>optional .dstore.values.StringValue condition = 20002;</code>
        */
       boolean hasCondition();
       /**
@@ -1165,24 +1165,24 @@ public final class PmGetGroupConditionsAd {
        * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 20002;</code>
+       * <code>optional .dstore.values.StringValue condition = 20002;</code>
        */
-      io.dstore.Values.stringValue getCondition();
+      io.dstore.values.StringValue getCondition();
       /**
        * <pre>
        * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 20002;</code>
+       * <code>optional .dstore.values.StringValue condition = 20002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getConditionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getConditionOrBuilder();
 
       /**
        * <pre>
        * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
        */
       boolean hasConditionPositionId();
       /**
@@ -1190,24 +1190,24 @@ public final class PmGetGroupConditionsAd {
        * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
        */
-      io.dstore.Values.integerValue getConditionPositionId();
+      io.dstore.values.IntegerValue getConditionPositionId();
       /**
        * <pre>
        * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getConditionPositionIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getConditionPositionIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
        */
       boolean hasCharacteristicDescription();
       /**
@@ -1215,24 +1215,24 @@ public final class PmGetGroupConditionsAd {
        * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
        */
-      io.dstore.Values.stringValue getCharacteristicDescription();
+      io.dstore.values.StringValue getCharacteristicDescription();
       /**
        * <pre>
        * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
@@ -1240,17 +1240,17 @@ public final class PmGetGroupConditionsAd {
        * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
        */
-      io.dstore.Values.integerValue getPersonCharacteristicId();
+      io.dstore.values.IntegerValue getPersonCharacteristicId();
       /**
        * <pre>
        * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetGroupConditions_Ad.Response.Row}
@@ -1298,11 +1298,11 @@ public final class PmGetGroupConditionsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (conditionDescription_ != null) {
                   subBuilder = conditionDescription_.toBuilder();
                 }
-                conditionDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                conditionDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionDescription_);
                   conditionDescription_ = subBuilder.buildPartial();
@@ -1311,11 +1311,11 @@ public final class PmGetGroupConditionsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (conditionId_ != null) {
                   subBuilder = conditionId_.toBuilder();
                 }
-                conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionId_);
                   conditionId_ = subBuilder.buildPartial();
@@ -1324,11 +1324,11 @@ public final class PmGetGroupConditionsAd {
                 break;
               }
               case 160018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (condition_ != null) {
                   subBuilder = condition_.toBuilder();
                 }
-                condition_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                condition_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition_);
                   condition_ = subBuilder.buildPartial();
@@ -1337,11 +1337,11 @@ public final class PmGetGroupConditionsAd {
                 break;
               }
               case 160026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (conditionPositionId_ != null) {
                   subBuilder = conditionPositionId_.toBuilder();
                 }
-                conditionPositionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                conditionPositionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionPositionId_);
                   conditionPositionId_ = subBuilder.buildPartial();
@@ -1350,11 +1350,11 @@ public final class PmGetGroupConditionsAd {
                 break;
               }
               case 160034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (characteristicDescription_ != null) {
                   subBuilder = characteristicDescription_.toBuilder();
                 }
-                characteristicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                characteristicDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicDescription_);
                   characteristicDescription_ = subBuilder.buildPartial();
@@ -1363,11 +1363,11 @@ public final class PmGetGroupConditionsAd {
                 break;
               }
               case 160042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personCharacteristicId_ != null) {
                   subBuilder = personCharacteristicId_.toBuilder();
                 }
-                personCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personCharacteristicId_);
                   personCharacteristicId_ = subBuilder.buildPartial();
@@ -1408,13 +1408,13 @@ public final class PmGetGroupConditionsAd {
       }
 
       public static final int CONDITION_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue conditionDescription_;
+      private io.dstore.values.StringValue conditionDescription_;
       /**
        * <pre>
        * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
        */
       public boolean hasConditionDescription() {
         return conditionDescription_ != null;
@@ -1424,30 +1424,30 @@ public final class PmGetGroupConditionsAd {
        * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getConditionDescription() {
-        return conditionDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : conditionDescription_;
+      public io.dstore.values.StringValue getConditionDescription() {
+        return conditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionDescription_;
       }
       /**
        * <pre>
        * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getConditionDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder() {
         return getConditionDescription();
       }
 
       public static final int CONDITION_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue conditionId_;
+      private io.dstore.values.IntegerValue conditionId_;
       /**
        * <pre>
        * ID einer (Gruppen-)Bedingung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
       public boolean hasConditionId() {
         return conditionId_ != null;
@@ -1457,30 +1457,30 @@ public final class PmGetGroupConditionsAd {
        * ID einer (Gruppen-)Bedingung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
-        return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+      public io.dstore.values.IntegerValue getConditionId() {
+        return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
       }
       /**
        * <pre>
        * ID einer (Gruppen-)Bedingung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
       }
 
       public static final int CONDITION_FIELD_NUMBER = 20002;
-      private io.dstore.Values.stringValue condition_;
+      private io.dstore.values.StringValue condition_;
       /**
        * <pre>
        * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 20002;</code>
+       * <code>optional .dstore.values.StringValue condition = 20002;</code>
        */
       public boolean hasCondition() {
         return condition_ != null;
@@ -1490,30 +1490,30 @@ public final class PmGetGroupConditionsAd {
        * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 20002;</code>
+       * <code>optional .dstore.values.StringValue condition = 20002;</code>
        */
-      public io.dstore.Values.stringValue getCondition() {
-        return condition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition_;
+      public io.dstore.values.StringValue getCondition() {
+        return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
       }
       /**
        * <pre>
        * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 20002;</code>
+       * <code>optional .dstore.values.StringValue condition = 20002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getConditionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
         return getCondition();
       }
 
       public static final int CONDITION_POSITION_ID_FIELD_NUMBER = 20003;
-      private io.dstore.Values.integerValue conditionPositionId_;
+      private io.dstore.values.IntegerValue conditionPositionId_;
       /**
        * <pre>
        * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
        */
       public boolean hasConditionPositionId() {
         return conditionPositionId_ != null;
@@ -1523,30 +1523,30 @@ public final class PmGetGroupConditionsAd {
        * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
        */
-      public io.dstore.Values.integerValue getConditionPositionId() {
-        return conditionPositionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPositionId_;
+      public io.dstore.values.IntegerValue getConditionPositionId() {
+        return conditionPositionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPositionId_;
       }
       /**
        * <pre>
        * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionPositionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionPositionIdOrBuilder() {
         return getConditionPositionId();
       }
 
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 20004;
-      private io.dstore.Values.stringValue characteristicDescription_;
+      private io.dstore.values.StringValue characteristicDescription_;
       /**
        * <pre>
        * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescription_ != null;
@@ -1556,30 +1556,30 @@ public final class PmGetGroupConditionsAd {
        * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
        */
-      public io.dstore.Values.stringValue getCharacteristicDescription() {
-        return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+      public io.dstore.values.StringValue getCharacteristicDescription() {
+        return characteristicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
       }
 
       public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 20005;
-      private io.dstore.Values.integerValue personCharacteristicId_;
+      private io.dstore.values.IntegerValue personCharacteristicId_;
       /**
        * <pre>
        * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
@@ -1589,19 +1589,19 @@ public final class PmGetGroupConditionsAd {
        * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
        */
-      public io.dstore.Values.integerValue getPersonCharacteristicId() {
-        return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+      public io.dstore.values.IntegerValue getPersonCharacteristicId() {
+        return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
       }
       /**
        * <pre>
        * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
       }
 
@@ -2080,15 +2080,15 @@ public final class PmGetGroupConditionsAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue conditionDescription_ = null;
+        private io.dstore.values.StringValue conditionDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> conditionDescriptionBuilder_;
         /**
          * <pre>
          * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
          */
         public boolean hasConditionDescription() {
           return conditionDescriptionBuilder_ != null || conditionDescription_ != null;
@@ -2098,11 +2098,11 @@ public final class PmGetGroupConditionsAd {
          * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getConditionDescription() {
+        public io.dstore.values.StringValue getConditionDescription() {
           if (conditionDescriptionBuilder_ == null) {
-            return conditionDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : conditionDescription_;
+            return conditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionDescription_;
           } else {
             return conditionDescriptionBuilder_.getMessage();
           }
@@ -2112,9 +2112,9 @@ public final class PmGetGroupConditionsAd {
          * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
          */
-        public Builder setConditionDescription(io.dstore.Values.stringValue value) {
+        public Builder setConditionDescription(io.dstore.values.StringValue value) {
           if (conditionDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2132,10 +2132,10 @@ public final class PmGetGroupConditionsAd {
          * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder setConditionDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (conditionDescriptionBuilder_ == null) {
             conditionDescription_ = builderForValue.build();
             onChanged();
@@ -2150,13 +2150,13 @@ public final class PmGetGroupConditionsAd {
          * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
          */
-        public Builder mergeConditionDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeConditionDescription(io.dstore.values.StringValue value) {
           if (conditionDescriptionBuilder_ == null) {
             if (conditionDescription_ != null) {
               conditionDescription_ =
-                io.dstore.Values.stringValue.newBuilder(conditionDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(conditionDescription_).mergeFrom(value).buildPartial();
             } else {
               conditionDescription_ = value;
             }
@@ -2172,7 +2172,7 @@ public final class PmGetGroupConditionsAd {
          * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
          */
         public Builder clearConditionDescription() {
           if (conditionDescriptionBuilder_ == null) {
@@ -2190,9 +2190,9 @@ public final class PmGetGroupConditionsAd {
          * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getConditionDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getConditionDescriptionBuilder() {
           
           onChanged();
           return getConditionDescriptionFieldBuilder().getBuilder();
@@ -2202,14 +2202,14 @@ public final class PmGetGroupConditionsAd {
          * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getConditionDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getConditionDescriptionOrBuilder() {
           if (conditionDescriptionBuilder_ != null) {
             return conditionDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return conditionDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : conditionDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : conditionDescription_;
           }
         }
         /**
@@ -2217,14 +2217,14 @@ public final class PmGetGroupConditionsAd {
          * Beschreibung der Bedingung. Diese dient letztendlich dazu, die Bedingungen - also die Kriterien, wann eine Person dieser Gruppe angehört - zu umschreiben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getConditionDescriptionFieldBuilder() {
           if (conditionDescriptionBuilder_ == null) {
             conditionDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getConditionDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2233,15 +2233,15 @@ public final class PmGetGroupConditionsAd {
           return conditionDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue conditionId_ = null;
+        private io.dstore.values.IntegerValue conditionId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
         /**
          * <pre>
          * ID einer (Gruppen-)Bedingung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public boolean hasConditionId() {
           return conditionIdBuilder_ != null || conditionId_ != null;
@@ -2251,11 +2251,11 @@ public final class PmGetGroupConditionsAd {
          * ID einer (Gruppen-)Bedingung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getConditionId() {
+        public io.dstore.values.IntegerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
-            return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+            return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
           } else {
             return conditionIdBuilder_.getMessage();
           }
@@ -2265,9 +2265,9 @@ public final class PmGetGroupConditionsAd {
          * ID einer (Gruppen-)Bedingung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public Builder setConditionId(io.dstore.Values.integerValue value) {
+        public Builder setConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2285,10 +2285,10 @@ public final class PmGetGroupConditionsAd {
          * ID einer (Gruppen-)Bedingung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder setConditionId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (conditionIdBuilder_ == null) {
             conditionId_ = builderForValue.build();
             onChanged();
@@ -2303,13 +2303,13 @@ public final class PmGetGroupConditionsAd {
          * ID einer (Gruppen-)Bedingung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+        public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
             if (conditionId_ != null) {
               conditionId_ =
-                io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
             } else {
               conditionId_ = value;
             }
@@ -2325,7 +2325,7 @@ public final class PmGetGroupConditionsAd {
          * ID einer (Gruppen-)Bedingung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
         public Builder clearConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -2343,9 +2343,9 @@ public final class PmGetGroupConditionsAd {
          * ID einer (Gruppen-)Bedingung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
           
           onChanged();
           return getConditionIdFieldBuilder().getBuilder();
@@ -2355,14 +2355,14 @@ public final class PmGetGroupConditionsAd {
          * ID einer (Gruppen-)Bedingung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
             return conditionIdBuilder_.getMessageOrBuilder();
           } else {
             return conditionId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
           }
         }
         /**
@@ -2370,14 +2370,14 @@ public final class PmGetGroupConditionsAd {
          * ID einer (Gruppen-)Bedingung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getConditionIdFieldBuilder() {
           if (conditionIdBuilder_ == null) {
             conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getConditionId(),
                     getParentForChildren(),
                     isClean());
@@ -2386,15 +2386,15 @@ public final class PmGetGroupConditionsAd {
           return conditionIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue condition_ = null;
+        private io.dstore.values.StringValue condition_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> conditionBuilder_;
         /**
          * <pre>
          * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 20002;</code>
+         * <code>optional .dstore.values.StringValue condition = 20002;</code>
          */
         public boolean hasCondition() {
           return conditionBuilder_ != null || condition_ != null;
@@ -2404,11 +2404,11 @@ public final class PmGetGroupConditionsAd {
          * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 20002;</code>
+         * <code>optional .dstore.values.StringValue condition = 20002;</code>
          */
-        public io.dstore.Values.stringValue getCondition() {
+        public io.dstore.values.StringValue getCondition() {
           if (conditionBuilder_ == null) {
-            return condition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition_;
+            return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
           } else {
             return conditionBuilder_.getMessage();
           }
@@ -2418,9 +2418,9 @@ public final class PmGetGroupConditionsAd {
          * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 20002;</code>
+         * <code>optional .dstore.values.StringValue condition = 20002;</code>
          */
-        public Builder setCondition(io.dstore.Values.stringValue value) {
+        public Builder setCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2438,10 +2438,10 @@ public final class PmGetGroupConditionsAd {
          * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 20002;</code>
+         * <code>optional .dstore.values.StringValue condition = 20002;</code>
          */
         public Builder setCondition(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (conditionBuilder_ == null) {
             condition_ = builderForValue.build();
             onChanged();
@@ -2456,13 +2456,13 @@ public final class PmGetGroupConditionsAd {
          * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 20002;</code>
+         * <code>optional .dstore.values.StringValue condition = 20002;</code>
          */
-        public Builder mergeCondition(io.dstore.Values.stringValue value) {
+        public Builder mergeCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
             if (condition_ != null) {
               condition_ =
-                io.dstore.Values.stringValue.newBuilder(condition_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(condition_).mergeFrom(value).buildPartial();
             } else {
               condition_ = value;
             }
@@ -2478,7 +2478,7 @@ public final class PmGetGroupConditionsAd {
          * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 20002;</code>
+         * <code>optional .dstore.values.StringValue condition = 20002;</code>
          */
         public Builder clearCondition() {
           if (conditionBuilder_ == null) {
@@ -2496,9 +2496,9 @@ public final class PmGetGroupConditionsAd {
          * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 20002;</code>
+         * <code>optional .dstore.values.StringValue condition = 20002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getConditionBuilder() {
+        public io.dstore.values.StringValue.Builder getConditionBuilder() {
           
           onChanged();
           return getConditionFieldBuilder().getBuilder();
@@ -2508,14 +2508,14 @@ public final class PmGetGroupConditionsAd {
          * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 20002;</code>
+         * <code>optional .dstore.values.StringValue condition = 20002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getConditionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
           if (conditionBuilder_ != null) {
             return conditionBuilder_.getMessageOrBuilder();
           } else {
             return condition_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : condition_;
+                io.dstore.values.StringValue.getDefaultInstance() : condition_;
           }
         }
         /**
@@ -2523,14 +2523,14 @@ public final class PmGetGroupConditionsAd {
          * Die konkrete Bedingung, die die Eigenschaft einer Person zum Merkmal "PersonCharacteristicID" erfüllen muß. Zum Format der Bedingungen siehe Beschreibung.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 20002;</code>
+         * <code>optional .dstore.values.StringValue condition = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getConditionFieldBuilder() {
           if (conditionBuilder_ == null) {
             conditionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCondition(),
                     getParentForChildren(),
                     isClean());
@@ -2539,15 +2539,15 @@ public final class PmGetGroupConditionsAd {
           return conditionBuilder_;
         }
 
-        private io.dstore.Values.integerValue conditionPositionId_ = null;
+        private io.dstore.values.IntegerValue conditionPositionId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionPositionIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionPositionIdBuilder_;
         /**
          * <pre>
          * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
          */
         public boolean hasConditionPositionId() {
           return conditionPositionIdBuilder_ != null || conditionPositionId_ != null;
@@ -2557,11 +2557,11 @@ public final class PmGetGroupConditionsAd {
          * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
          */
-        public io.dstore.Values.integerValue getConditionPositionId() {
+        public io.dstore.values.IntegerValue getConditionPositionId() {
           if (conditionPositionIdBuilder_ == null) {
-            return conditionPositionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPositionId_;
+            return conditionPositionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPositionId_;
           } else {
             return conditionPositionIdBuilder_.getMessage();
           }
@@ -2571,9 +2571,9 @@ public final class PmGetGroupConditionsAd {
          * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
          */
-        public Builder setConditionPositionId(io.dstore.Values.integerValue value) {
+        public Builder setConditionPositionId(io.dstore.values.IntegerValue value) {
           if (conditionPositionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2591,10 +2591,10 @@ public final class PmGetGroupConditionsAd {
          * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
          */
         public Builder setConditionPositionId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (conditionPositionIdBuilder_ == null) {
             conditionPositionId_ = builderForValue.build();
             onChanged();
@@ -2609,13 +2609,13 @@ public final class PmGetGroupConditionsAd {
          * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
          */
-        public Builder mergeConditionPositionId(io.dstore.Values.integerValue value) {
+        public Builder mergeConditionPositionId(io.dstore.values.IntegerValue value) {
           if (conditionPositionIdBuilder_ == null) {
             if (conditionPositionId_ != null) {
               conditionPositionId_ =
-                io.dstore.Values.integerValue.newBuilder(conditionPositionId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(conditionPositionId_).mergeFrom(value).buildPartial();
             } else {
               conditionPositionId_ = value;
             }
@@ -2631,7 +2631,7 @@ public final class PmGetGroupConditionsAd {
          * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
          */
         public Builder clearConditionPositionId() {
           if (conditionPositionIdBuilder_ == null) {
@@ -2649,9 +2649,9 @@ public final class PmGetGroupConditionsAd {
          * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getConditionPositionIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getConditionPositionIdBuilder() {
           
           onChanged();
           return getConditionPositionIdFieldBuilder().getBuilder();
@@ -2661,14 +2661,14 @@ public final class PmGetGroupConditionsAd {
          * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getConditionPositionIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getConditionPositionIdOrBuilder() {
           if (conditionPositionIdBuilder_ != null) {
             return conditionPositionIdBuilder_.getMessageOrBuilder();
           } else {
             return conditionPositionId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : conditionPositionId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : conditionPositionId_;
           }
         }
         /**
@@ -2676,14 +2676,14 @@ public final class PmGetGroupConditionsAd {
          * Nummer eines "Bedingungs-Blocks". Pro Bedingungs-Block kann ein Merkmal ("PersonCharacteristicID") nur einmal verwendet werden, da innerhalb des gleichen Blocks die Bedingungen mit UND verknüpft werden. Mehrere Bedingungs-Blöcke werden mit ODER verknüpft.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_position_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_position_id = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getConditionPositionIdFieldBuilder() {
           if (conditionPositionIdBuilder_ == null) {
             conditionPositionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getConditionPositionId(),
                     getParentForChildren(),
                     isClean());
@@ -2692,15 +2692,15 @@ public final class PmGetGroupConditionsAd {
           return conditionPositionIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue characteristicDescription_ = null;
+        private io.dstore.values.StringValue characteristicDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
          */
         public boolean hasCharacteristicDescription() {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
@@ -2710,11 +2710,11 @@ public final class PmGetGroupConditionsAd {
          * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
          */
-        public io.dstore.Values.stringValue getCharacteristicDescription() {
+        public io.dstore.values.StringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
-            return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+            return characteristicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
           } else {
             return characteristicDescriptionBuilder_.getMessage();
           }
@@ -2724,9 +2724,9 @@ public final class PmGetGroupConditionsAd {
          * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
          */
-        public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
+        public Builder setCharacteristicDescription(io.dstore.values.StringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2744,10 +2744,10 @@ public final class PmGetGroupConditionsAd {
          * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
          */
         public Builder setCharacteristicDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescription_ = builderForValue.build();
             onChanged();
@@ -2762,13 +2762,13 @@ public final class PmGetGroupConditionsAd {
          * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
          */
-        public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeCharacteristicDescription(io.dstore.values.StringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (characteristicDescription_ != null) {
               characteristicDescription_ =
-                io.dstore.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
             } else {
               characteristicDescription_ = value;
             }
@@ -2784,7 +2784,7 @@ public final class PmGetGroupConditionsAd {
          * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
          */
         public Builder clearCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -2802,9 +2802,9 @@ public final class PmGetGroupConditionsAd {
          * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getCharacteristicDescriptionBuilder() {
           
           onChanged();
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
@@ -2814,14 +2814,14 @@ public final class PmGetGroupConditionsAd {
          * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
             return characteristicDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return characteristicDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
           }
         }
         /**
@@ -2829,14 +2829,14 @@ public final class PmGetGroupConditionsAd {
          * Bezeichnung des Personen-Merkmals "PersonCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 20004;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 20004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2845,15 +2845,15 @@ public final class PmGetGroupConditionsAd {
           return characteristicDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue personCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue personCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
@@ -2863,11 +2863,11 @@ public final class PmGetGroupConditionsAd {
          * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
          */
-        public io.dstore.Values.integerValue getPersonCharacteristicId() {
+        public io.dstore.values.IntegerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
-            return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+            return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           } else {
             return personCharacteristicIdBuilder_.getMessage();
           }
@@ -2877,9 +2877,9 @@ public final class PmGetGroupConditionsAd {
          * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
          */
-        public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2897,10 +2897,10 @@ public final class PmGetGroupConditionsAd {
          * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
          */
         public Builder setPersonCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -2915,13 +2915,13 @@ public final class PmGetGroupConditionsAd {
          * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
          */
-        public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (personCharacteristicId_ != null) {
               personCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               personCharacteristicId_ = value;
             }
@@ -2937,7 +2937,7 @@ public final class PmGetGroupConditionsAd {
          * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2955,9 +2955,9 @@ public final class PmGetGroupConditionsAd {
          * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
           
           onChanged();
           return getPersonCharacteristicIdFieldBuilder().getBuilder();
@@ -2967,14 +2967,14 @@ public final class PmGetGroupConditionsAd {
          * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
             return personCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return personCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           }
         }
         /**
@@ -2982,14 +2982,14 @@ public final class PmGetGroupConditionsAd {
          * ID eines Personen-Merkmals. Eine Person gehört nur dann in die Gruppe (der die Bedingung "ConditionID" zugewiesen ist), wenn ihre Eigenschaft zu diesem Merkmal der "Condition" entspricht oder alle Bedingungen einer anderen "ConditionPositionID" zutreffen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonCharacteristicIdFieldBuilder() {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -4459,23 +4459,23 @@ public final class PmGetGroupConditionsAd {
       "roupConditions_Ad\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\266\001\n\nParameter" +
       "s\0221\n\014condition_id\030\001 \001(\0132\033.dstore.values." +
-      "integerValue\022\032\n\021condition_id_null\030\351\007 \001(\010" +
+      "IntegerValue\022\032\n\021condition_id_null\030\351\007 \001(\010" +
       "\0227\n\022include_conditions\030\002 \001(\0132\033.dstore.va" +
-      "lues.booleanValue\022 \n\027include_conditions_" +
+      "lues.BooleanValue\022 \n\027include_conditions_" +
       "null\030\352\007 \001(\010\"\253\004\n\010Response\0228\n\020meta_informa" +
       "tion\030\002 \003(\0132\036.dstore.engine.MetaInformati",
       "on\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Mess" +
       "age\022A\n\003row\030\004 \003(\01324.dstore.engine.pm_GetG" +
       "roupConditions_Ad.Response.Row\032\370\002\n\003Row\022\017" +
       "\n\006row_id\030\220N \001(\005\022:\n\025condition_description" +
-      "\030\221N \001(\0132\032.dstore.values.stringValue\0222\n\014c" +
-      "ondition_id\030\222N \001(\0132\033.dstore.values.integ" +
+      "\030\221N \001(\0132\032.dstore.values.StringValue\0222\n\014c" +
+      "ondition_id\030\222N \001(\0132\033.dstore.values.Integ" +
       "erValue\022/\n\tcondition\030\242\234\001 \001(\0132\032.dstore.va" +
-      "lues.stringValue\022<\n\025condition_position_i" +
-      "d\030\243\234\001 \001(\0132\033.dstore.values.integerValue\022@" +
+      "lues.StringValue\022<\n\025condition_position_i" +
+      "d\030\243\234\001 \001(\0132\033.dstore.values.IntegerValue\022@" +
       "\n\032characteristic_description\030\244\234\001 \001(\0132\032.d",
-      "store.values.stringValue\022?\n\030person_chara" +
-      "cteristic_id\030\245\234\001 \001(\0132\033.dstore.values.int" +
+      "store.values.StringValue\022?\n\030person_chara" +
+      "cteristic_id\030\245\234\001 \001(\0132\033.dstore.values.Int" +
       "egerValueBY\n\033io.dstore.engine.procedures" +
       "Z:gosdk.dstore.de/engine/procedures/pm_G" +
       "etGroupConditions_Adb\006proto3"
@@ -4491,7 +4491,7 @@ public final class PmGetGroupConditionsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetGroupConditions_Ad_Parameters_descriptor =
@@ -4512,7 +4512,7 @@ public final class PmGetGroupConditionsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetGroupConditions_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ConditionDescription", "ConditionId", "Condition", "ConditionPositionId", "CharacteristicDescription", "PersonCharacteristicId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

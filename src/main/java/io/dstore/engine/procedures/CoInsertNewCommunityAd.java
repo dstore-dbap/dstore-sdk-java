@@ -19,17 +19,17 @@ public final class CoInsertNewCommunityAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue community_name = 1;</code>
+     * <code>optional .dstore.values.StringValue community_name = 1;</code>
      */
     boolean hasCommunityName();
     /**
-     * <code>optional .dstore.values.stringValue community_name = 1;</code>
+     * <code>optional .dstore.values.StringValue community_name = 1;</code>
      */
-    io.dstore.Values.stringValue getCommunityName();
+    io.dstore.values.StringValue getCommunityName();
     /**
-     * <code>optional .dstore.values.stringValue community_name = 1;</code>
+     * <code>optional .dstore.values.StringValue community_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder();
 
     /**
      * <code>optional bool community_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoInsertNewCommunityAd {
     boolean getCommunityNameNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
      */
     boolean hasCommunityMembersPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getCommunityMembersPersonTypeId();
+    io.dstore.values.IntegerValue getCommunityMembersPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityMembersPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityMembersPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool community_members_person_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoInsertNewCommunityAd {
     boolean getCommunityMembersPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
      */
     boolean hasIdentifyingCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
      */
-    io.dstore.Values.integerValue getIdentifyingCharacteristicId();
+    io.dstore.values.IntegerValue getIdentifyingCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool identifying_characteristic_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class CoInsertNewCommunityAd {
     boolean getIdentifyingCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
      */
     boolean hasPasswordCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
      */
-    io.dstore.Values.integerValue getPasswordCharacteristicId();
+    io.dstore.values.IntegerValue getPasswordCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPasswordCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPasswordCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool password_characteristic_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class CoInsertNewCommunityAd {
     boolean getPasswordCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
      */
     boolean hasQuestionCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
      */
-    io.dstore.Values.integerValue getQuestionCharacteristicId();
+    io.dstore.values.IntegerValue getQuestionCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getQuestionCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getQuestionCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool question_characteristic_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class CoInsertNewCommunityAd {
     boolean getQuestionCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
      */
     boolean hasAnswerCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValue getAnswerCharacteristicId();
+    io.dstore.values.IntegerValue getAnswerCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getAnswerCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getAnswerCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool answer_characteristic_id_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class CoInsertNewCommunityAd {
     boolean getAnswerCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
      */
     boolean hasFriendRelationshipId();
     /**
-     * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
      */
-    io.dstore.Values.integerValue getFriendRelationshipId();
+    io.dstore.values.IntegerValue getFriendRelationshipId();
     /**
-     * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFriendRelationshipIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFriendRelationshipIdOrBuilder();
 
     /**
      * <code>optional bool friend_relationship_id_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class CoInsertNewCommunityAd {
     boolean getFriendRelationshipIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+     * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
      */
     boolean hasKeepMessagesInDays();
     /**
-     * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+     * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
      */
-    io.dstore.Values.integerValue getKeepMessagesInDays();
+    io.dstore.values.IntegerValue getKeepMessagesInDays();
     /**
-     * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+     * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getKeepMessagesInDaysOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getKeepMessagesInDaysOrBuilder();
 
     /**
      * <code>optional bool keep_messages_in_days_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class CoInsertNewCommunityAd {
     boolean getKeepMessagesInDaysNull();
 
     /**
-     * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+     * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
      */
     boolean hasKeepUsersOnlineTimeInDays();
     /**
-     * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+     * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
      */
-    io.dstore.Values.integerValue getKeepUsersOnlineTimeInDays();
+    io.dstore.values.IntegerValue getKeepUsersOnlineTimeInDays();
     /**
-     * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+     * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getKeepUsersOnlineTimeInDaysOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getKeepUsersOnlineTimeInDaysOrBuilder();
 
     /**
      * <code>optional bool keep_users_online_time_in_days_null = 1009;</code>
@@ -229,11 +229,11 @@ public final class CoInsertNewCommunityAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (communityName_ != null) {
                 subBuilder = communityName_.toBuilder();
               }
-              communityName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              communityName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityName_);
                 communityName_ = subBuilder.buildPartial();
@@ -242,11 +242,11 @@ public final class CoInsertNewCommunityAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityMembersPersonTypeId_ != null) {
                 subBuilder = communityMembersPersonTypeId_.toBuilder();
               }
-              communityMembersPersonTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityMembersPersonTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMembersPersonTypeId_);
                 communityMembersPersonTypeId_ = subBuilder.buildPartial();
@@ -255,11 +255,11 @@ public final class CoInsertNewCommunityAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (identifyingCharacteristicId_ != null) {
                 subBuilder = identifyingCharacteristicId_.toBuilder();
               }
-              identifyingCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              identifyingCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(identifyingCharacteristicId_);
                 identifyingCharacteristicId_ = subBuilder.buildPartial();
@@ -268,11 +268,11 @@ public final class CoInsertNewCommunityAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (passwordCharacteristicId_ != null) {
                 subBuilder = passwordCharacteristicId_.toBuilder();
               }
-              passwordCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              passwordCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(passwordCharacteristicId_);
                 passwordCharacteristicId_ = subBuilder.buildPartial();
@@ -281,11 +281,11 @@ public final class CoInsertNewCommunityAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (questionCharacteristicId_ != null) {
                 subBuilder = questionCharacteristicId_.toBuilder();
               }
-              questionCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              questionCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(questionCharacteristicId_);
                 questionCharacteristicId_ = subBuilder.buildPartial();
@@ -294,11 +294,11 @@ public final class CoInsertNewCommunityAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (answerCharacteristicId_ != null) {
                 subBuilder = answerCharacteristicId_.toBuilder();
               }
-              answerCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              answerCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(answerCharacteristicId_);
                 answerCharacteristicId_ = subBuilder.buildPartial();
@@ -307,11 +307,11 @@ public final class CoInsertNewCommunityAd {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (friendRelationshipId_ != null) {
                 subBuilder = friendRelationshipId_.toBuilder();
               }
-              friendRelationshipId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              friendRelationshipId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(friendRelationshipId_);
                 friendRelationshipId_ = subBuilder.buildPartial();
@@ -320,11 +320,11 @@ public final class CoInsertNewCommunityAd {
               break;
             }
             case 66: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (keepMessagesInDays_ != null) {
                 subBuilder = keepMessagesInDays_.toBuilder();
               }
-              keepMessagesInDays_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              keepMessagesInDays_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keepMessagesInDays_);
                 keepMessagesInDays_ = subBuilder.buildPartial();
@@ -333,11 +333,11 @@ public final class CoInsertNewCommunityAd {
               break;
             }
             case 74: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (keepUsersOnlineTimeInDays_ != null) {
                 subBuilder = keepUsersOnlineTimeInDays_.toBuilder();
               }
-              keepUsersOnlineTimeInDays_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              keepUsersOnlineTimeInDays_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keepUsersOnlineTimeInDays_);
                 keepUsersOnlineTimeInDays_ = subBuilder.buildPartial();
@@ -414,23 +414,23 @@ public final class CoInsertNewCommunityAd {
     }
 
     public static final int COMMUNITY_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue communityName_;
+    private io.dstore.values.StringValue communityName_;
     /**
-     * <code>optional .dstore.values.stringValue community_name = 1;</code>
+     * <code>optional .dstore.values.StringValue community_name = 1;</code>
      */
     public boolean hasCommunityName() {
       return communityName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue community_name = 1;</code>
+     * <code>optional .dstore.values.StringValue community_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getCommunityName() {
-      return communityName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityName_;
+    public io.dstore.values.StringValue getCommunityName() {
+      return communityName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue community_name = 1;</code>
+     * <code>optional .dstore.values.StringValue community_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
       return getCommunityName();
     }
 
@@ -444,23 +444,23 @@ public final class CoInsertNewCommunityAd {
     }
 
     public static final int COMMUNITY_MEMBERS_PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue communityMembersPersonTypeId_;
+    private io.dstore.values.IntegerValue communityMembersPersonTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
      */
     public boolean hasCommunityMembersPersonTypeId() {
       return communityMembersPersonTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getCommunityMembersPersonTypeId() {
-      return communityMembersPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMembersPersonTypeId_;
+    public io.dstore.values.IntegerValue getCommunityMembersPersonTypeId() {
+      return communityMembersPersonTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMembersPersonTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityMembersPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityMembersPersonTypeIdOrBuilder() {
       return getCommunityMembersPersonTypeId();
     }
 
@@ -474,23 +474,23 @@ public final class CoInsertNewCommunityAd {
     }
 
     public static final int IDENTIFYING_CHARACTERISTIC_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue identifyingCharacteristicId_;
+    private io.dstore.values.IntegerValue identifyingCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
      */
     public boolean hasIdentifyingCharacteristicId() {
       return identifyingCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getIdentifyingCharacteristicId() {
-      return identifyingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : identifyingCharacteristicId_;
+    public io.dstore.values.IntegerValue getIdentifyingCharacteristicId() {
+      return identifyingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : identifyingCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
       return getIdentifyingCharacteristicId();
     }
 
@@ -504,23 +504,23 @@ public final class CoInsertNewCommunityAd {
     }
 
     public static final int PASSWORD_CHARACTERISTIC_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue passwordCharacteristicId_;
+    private io.dstore.values.IntegerValue passwordCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
      */
     public boolean hasPasswordCharacteristicId() {
       return passwordCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getPasswordCharacteristicId() {
-      return passwordCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : passwordCharacteristicId_;
+    public io.dstore.values.IntegerValue getPasswordCharacteristicId() {
+      return passwordCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : passwordCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPasswordCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPasswordCharacteristicIdOrBuilder() {
       return getPasswordCharacteristicId();
     }
 
@@ -534,23 +534,23 @@ public final class CoInsertNewCommunityAd {
     }
 
     public static final int QUESTION_CHARACTERISTIC_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue questionCharacteristicId_;
+    private io.dstore.values.IntegerValue questionCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
      */
     public boolean hasQuestionCharacteristicId() {
       return questionCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getQuestionCharacteristicId() {
-      return questionCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : questionCharacteristicId_;
+    public io.dstore.values.IntegerValue getQuestionCharacteristicId() {
+      return questionCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : questionCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getQuestionCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getQuestionCharacteristicIdOrBuilder() {
       return getQuestionCharacteristicId();
     }
 
@@ -564,23 +564,23 @@ public final class CoInsertNewCommunityAd {
     }
 
     public static final int ANSWER_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue answerCharacteristicId_;
+    private io.dstore.values.IntegerValue answerCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
      */
     public boolean hasAnswerCharacteristicId() {
       return answerCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getAnswerCharacteristicId() {
-      return answerCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : answerCharacteristicId_;
+    public io.dstore.values.IntegerValue getAnswerCharacteristicId() {
+      return answerCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : answerCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getAnswerCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getAnswerCharacteristicIdOrBuilder() {
       return getAnswerCharacteristicId();
     }
 
@@ -594,23 +594,23 @@ public final class CoInsertNewCommunityAd {
     }
 
     public static final int FRIEND_RELATIONSHIP_ID_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue friendRelationshipId_;
+    private io.dstore.values.IntegerValue friendRelationshipId_;
     /**
-     * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
      */
     public boolean hasFriendRelationshipId() {
       return friendRelationshipId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
      */
-    public io.dstore.Values.integerValue getFriendRelationshipId() {
-      return friendRelationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : friendRelationshipId_;
+    public io.dstore.values.IntegerValue getFriendRelationshipId() {
+      return friendRelationshipId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : friendRelationshipId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFriendRelationshipIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFriendRelationshipIdOrBuilder() {
       return getFriendRelationshipId();
     }
 
@@ -624,23 +624,23 @@ public final class CoInsertNewCommunityAd {
     }
 
     public static final int KEEP_MESSAGES_IN_DAYS_FIELD_NUMBER = 8;
-    private io.dstore.Values.integerValue keepMessagesInDays_;
+    private io.dstore.values.IntegerValue keepMessagesInDays_;
     /**
-     * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+     * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
      */
     public boolean hasKeepMessagesInDays() {
       return keepMessagesInDays_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+     * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
      */
-    public io.dstore.Values.integerValue getKeepMessagesInDays() {
-      return keepMessagesInDays_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepMessagesInDays_;
+    public io.dstore.values.IntegerValue getKeepMessagesInDays() {
+      return keepMessagesInDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepMessagesInDays_;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+     * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getKeepMessagesInDaysOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getKeepMessagesInDaysOrBuilder() {
       return getKeepMessagesInDays();
     }
 
@@ -654,23 +654,23 @@ public final class CoInsertNewCommunityAd {
     }
 
     public static final int KEEP_USERS_ONLINE_TIME_IN_DAYS_FIELD_NUMBER = 9;
-    private io.dstore.Values.integerValue keepUsersOnlineTimeInDays_;
+    private io.dstore.values.IntegerValue keepUsersOnlineTimeInDays_;
     /**
-     * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+     * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
      */
     public boolean hasKeepUsersOnlineTimeInDays() {
       return keepUsersOnlineTimeInDays_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+     * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
      */
-    public io.dstore.Values.integerValue getKeepUsersOnlineTimeInDays() {
-      return keepUsersOnlineTimeInDays_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepUsersOnlineTimeInDays_;
+    public io.dstore.values.IntegerValue getKeepUsersOnlineTimeInDays() {
+      return keepUsersOnlineTimeInDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepUsersOnlineTimeInDays_;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+     * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getKeepUsersOnlineTimeInDaysOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getKeepUsersOnlineTimeInDaysOrBuilder() {
       return getKeepUsersOnlineTimeInDays();
     }
 
@@ -1367,29 +1367,29 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue communityName_ = null;
+      private io.dstore.values.StringValue communityName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> communityNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> communityNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue community_name = 1;</code>
+       * <code>optional .dstore.values.StringValue community_name = 1;</code>
        */
       public boolean hasCommunityName() {
         return communityNameBuilder_ != null || communityName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 1;</code>
+       * <code>optional .dstore.values.StringValue community_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getCommunityName() {
+      public io.dstore.values.StringValue getCommunityName() {
         if (communityNameBuilder_ == null) {
-          return communityName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityName_;
+          return communityName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityName_;
         } else {
           return communityNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 1;</code>
+       * <code>optional .dstore.values.StringValue community_name = 1;</code>
        */
-      public Builder setCommunityName(io.dstore.Values.stringValue value) {
+      public Builder setCommunityName(io.dstore.values.StringValue value) {
         if (communityNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1403,10 +1403,10 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 1;</code>
+       * <code>optional .dstore.values.StringValue community_name = 1;</code>
        */
       public Builder setCommunityName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (communityNameBuilder_ == null) {
           communityName_ = builderForValue.build();
           onChanged();
@@ -1417,13 +1417,13 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 1;</code>
+       * <code>optional .dstore.values.StringValue community_name = 1;</code>
        */
-      public Builder mergeCommunityName(io.dstore.Values.stringValue value) {
+      public Builder mergeCommunityName(io.dstore.values.StringValue value) {
         if (communityNameBuilder_ == null) {
           if (communityName_ != null) {
             communityName_ =
-              io.dstore.Values.stringValue.newBuilder(communityName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(communityName_).mergeFrom(value).buildPartial();
           } else {
             communityName_ = value;
           }
@@ -1435,7 +1435,7 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 1;</code>
+       * <code>optional .dstore.values.StringValue community_name = 1;</code>
        */
       public Builder clearCommunityName() {
         if (communityNameBuilder_ == null) {
@@ -1449,33 +1449,33 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 1;</code>
+       * <code>optional .dstore.values.StringValue community_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCommunityNameBuilder() {
+      public io.dstore.values.StringValue.Builder getCommunityNameBuilder() {
         
         onChanged();
         return getCommunityNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 1;</code>
+       * <code>optional .dstore.values.StringValue community_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
         if (communityNameBuilder_ != null) {
           return communityNameBuilder_.getMessageOrBuilder();
         } else {
           return communityName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : communityName_;
+              io.dstore.values.StringValue.getDefaultInstance() : communityName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 1;</code>
+       * <code>optional .dstore.values.StringValue community_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCommunityNameFieldBuilder() {
         if (communityNameBuilder_ == null) {
           communityNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCommunityName(),
                   getParentForChildren(),
                   isClean());
@@ -1510,29 +1510,29 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityMembersPersonTypeId_ = null;
+      private io.dstore.values.IntegerValue communityMembersPersonTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMembersPersonTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMembersPersonTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
        */
       public boolean hasCommunityMembersPersonTypeId() {
         return communityMembersPersonTypeIdBuilder_ != null || communityMembersPersonTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getCommunityMembersPersonTypeId() {
+      public io.dstore.values.IntegerValue getCommunityMembersPersonTypeId() {
         if (communityMembersPersonTypeIdBuilder_ == null) {
-          return communityMembersPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMembersPersonTypeId_;
+          return communityMembersPersonTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMembersPersonTypeId_;
         } else {
           return communityMembersPersonTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
        */
-      public Builder setCommunityMembersPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityMembersPersonTypeId(io.dstore.values.IntegerValue value) {
         if (communityMembersPersonTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1546,10 +1546,10 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
        */
       public Builder setCommunityMembersPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityMembersPersonTypeIdBuilder_ == null) {
           communityMembersPersonTypeId_ = builderForValue.build();
           onChanged();
@@ -1560,13 +1560,13 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
        */
-      public Builder mergeCommunityMembersPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityMembersPersonTypeId(io.dstore.values.IntegerValue value) {
         if (communityMembersPersonTypeIdBuilder_ == null) {
           if (communityMembersPersonTypeId_ != null) {
             communityMembersPersonTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(communityMembersPersonTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityMembersPersonTypeId_).mergeFrom(value).buildPartial();
           } else {
             communityMembersPersonTypeId_ = value;
           }
@@ -1578,7 +1578,7 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
        */
       public Builder clearCommunityMembersPersonTypeId() {
         if (communityMembersPersonTypeIdBuilder_ == null) {
@@ -1592,33 +1592,33 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityMembersPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityMembersPersonTypeIdBuilder() {
         
         onChanged();
         return getCommunityMembersPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityMembersPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityMembersPersonTypeIdOrBuilder() {
         if (communityMembersPersonTypeIdBuilder_ != null) {
           return communityMembersPersonTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return communityMembersPersonTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityMembersPersonTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityMembersPersonTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_members_person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_members_person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityMembersPersonTypeIdFieldBuilder() {
         if (communityMembersPersonTypeIdBuilder_ == null) {
           communityMembersPersonTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityMembersPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1653,29 +1653,29 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue identifyingCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue identifyingCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> identifyingCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> identifyingCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
        */
       public boolean hasIdentifyingCharacteristicId() {
         return identifyingCharacteristicIdBuilder_ != null || identifyingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getIdentifyingCharacteristicId() {
+      public io.dstore.values.IntegerValue getIdentifyingCharacteristicId() {
         if (identifyingCharacteristicIdBuilder_ == null) {
-          return identifyingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : identifyingCharacteristicId_;
+          return identifyingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : identifyingCharacteristicId_;
         } else {
           return identifyingCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
        */
-      public Builder setIdentifyingCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setIdentifyingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (identifyingCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1689,10 +1689,10 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
        */
       public Builder setIdentifyingCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (identifyingCharacteristicIdBuilder_ == null) {
           identifyingCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1703,13 +1703,13 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
        */
-      public Builder mergeIdentifyingCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeIdentifyingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (identifyingCharacteristicIdBuilder_ == null) {
           if (identifyingCharacteristicId_ != null) {
             identifyingCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(identifyingCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(identifyingCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             identifyingCharacteristicId_ = value;
           }
@@ -1721,7 +1721,7 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
        */
       public Builder clearIdentifyingCharacteristicId() {
         if (identifyingCharacteristicIdBuilder_ == null) {
@@ -1735,33 +1735,33 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getIdentifyingCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getIdentifyingCharacteristicIdBuilder() {
         
         onChanged();
         return getIdentifyingCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
         if (identifyingCharacteristicIdBuilder_ != null) {
           return identifyingCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return identifyingCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : identifyingCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : identifyingCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getIdentifyingCharacteristicIdFieldBuilder() {
         if (identifyingCharacteristicIdBuilder_ == null) {
           identifyingCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getIdentifyingCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1796,29 +1796,29 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue passwordCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue passwordCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> passwordCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> passwordCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
        */
       public boolean hasPasswordCharacteristicId() {
         return passwordCharacteristicIdBuilder_ != null || passwordCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getPasswordCharacteristicId() {
+      public io.dstore.values.IntegerValue getPasswordCharacteristicId() {
         if (passwordCharacteristicIdBuilder_ == null) {
-          return passwordCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : passwordCharacteristicId_;
+          return passwordCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : passwordCharacteristicId_;
         } else {
           return passwordCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
        */
-      public Builder setPasswordCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setPasswordCharacteristicId(io.dstore.values.IntegerValue value) {
         if (passwordCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1832,10 +1832,10 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
        */
       public Builder setPasswordCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (passwordCharacteristicIdBuilder_ == null) {
           passwordCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1846,13 +1846,13 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
        */
-      public Builder mergePasswordCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergePasswordCharacteristicId(io.dstore.values.IntegerValue value) {
         if (passwordCharacteristicIdBuilder_ == null) {
           if (passwordCharacteristicId_ != null) {
             passwordCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(passwordCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(passwordCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             passwordCharacteristicId_ = value;
           }
@@ -1864,7 +1864,7 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
        */
       public Builder clearPasswordCharacteristicId() {
         if (passwordCharacteristicIdBuilder_ == null) {
@@ -1878,33 +1878,33 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPasswordCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPasswordCharacteristicIdBuilder() {
         
         onChanged();
         return getPasswordCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPasswordCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPasswordCharacteristicIdOrBuilder() {
         if (passwordCharacteristicIdBuilder_ != null) {
           return passwordCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return passwordCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : passwordCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : passwordCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue password_characteristic_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue password_characteristic_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPasswordCharacteristicIdFieldBuilder() {
         if (passwordCharacteristicIdBuilder_ == null) {
           passwordCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPasswordCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1939,29 +1939,29 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue questionCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue questionCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> questionCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> questionCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
        */
       public boolean hasQuestionCharacteristicId() {
         return questionCharacteristicIdBuilder_ != null || questionCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getQuestionCharacteristicId() {
+      public io.dstore.values.IntegerValue getQuestionCharacteristicId() {
         if (questionCharacteristicIdBuilder_ == null) {
-          return questionCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : questionCharacteristicId_;
+          return questionCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : questionCharacteristicId_;
         } else {
           return questionCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
        */
-      public Builder setQuestionCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setQuestionCharacteristicId(io.dstore.values.IntegerValue value) {
         if (questionCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1975,10 +1975,10 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
        */
       public Builder setQuestionCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (questionCharacteristicIdBuilder_ == null) {
           questionCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1989,13 +1989,13 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
        */
-      public Builder mergeQuestionCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeQuestionCharacteristicId(io.dstore.values.IntegerValue value) {
         if (questionCharacteristicIdBuilder_ == null) {
           if (questionCharacteristicId_ != null) {
             questionCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(questionCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(questionCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             questionCharacteristicId_ = value;
           }
@@ -2007,7 +2007,7 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
        */
       public Builder clearQuestionCharacteristicId() {
         if (questionCharacteristicIdBuilder_ == null) {
@@ -2021,33 +2021,33 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getQuestionCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getQuestionCharacteristicIdBuilder() {
         
         onChanged();
         return getQuestionCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getQuestionCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getQuestionCharacteristicIdOrBuilder() {
         if (questionCharacteristicIdBuilder_ != null) {
           return questionCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return questionCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : questionCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : questionCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue question_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue question_characteristic_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getQuestionCharacteristicIdFieldBuilder() {
         if (questionCharacteristicIdBuilder_ == null) {
           questionCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getQuestionCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2082,29 +2082,29 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue answerCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue answerCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> answerCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> answerCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
        */
       public boolean hasAnswerCharacteristicId() {
         return answerCharacteristicIdBuilder_ != null || answerCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getAnswerCharacteristicId() {
+      public io.dstore.values.IntegerValue getAnswerCharacteristicId() {
         if (answerCharacteristicIdBuilder_ == null) {
-          return answerCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : answerCharacteristicId_;
+          return answerCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : answerCharacteristicId_;
         } else {
           return answerCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
        */
-      public Builder setAnswerCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setAnswerCharacteristicId(io.dstore.values.IntegerValue value) {
         if (answerCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2118,10 +2118,10 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
        */
       public Builder setAnswerCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (answerCharacteristicIdBuilder_ == null) {
           answerCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2132,13 +2132,13 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
        */
-      public Builder mergeAnswerCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeAnswerCharacteristicId(io.dstore.values.IntegerValue value) {
         if (answerCharacteristicIdBuilder_ == null) {
           if (answerCharacteristicId_ != null) {
             answerCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(answerCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(answerCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             answerCharacteristicId_ = value;
           }
@@ -2150,7 +2150,7 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
        */
       public Builder clearAnswerCharacteristicId() {
         if (answerCharacteristicIdBuilder_ == null) {
@@ -2164,33 +2164,33 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getAnswerCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getAnswerCharacteristicIdBuilder() {
         
         onChanged();
         return getAnswerCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getAnswerCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getAnswerCharacteristicIdOrBuilder() {
         if (answerCharacteristicIdBuilder_ != null) {
           return answerCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return answerCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : answerCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : answerCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue answer_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue answer_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getAnswerCharacteristicIdFieldBuilder() {
         if (answerCharacteristicIdBuilder_ == null) {
           answerCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getAnswerCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2225,29 +2225,29 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue friendRelationshipId_ = null;
+      private io.dstore.values.IntegerValue friendRelationshipId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> friendRelationshipIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> friendRelationshipIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
        */
       public boolean hasFriendRelationshipId() {
         return friendRelationshipIdBuilder_ != null || friendRelationshipId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
        */
-      public io.dstore.Values.integerValue getFriendRelationshipId() {
+      public io.dstore.values.IntegerValue getFriendRelationshipId() {
         if (friendRelationshipIdBuilder_ == null) {
-          return friendRelationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : friendRelationshipId_;
+          return friendRelationshipId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : friendRelationshipId_;
         } else {
           return friendRelationshipIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
        */
-      public Builder setFriendRelationshipId(io.dstore.Values.integerValue value) {
+      public Builder setFriendRelationshipId(io.dstore.values.IntegerValue value) {
         if (friendRelationshipIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2261,10 +2261,10 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
        */
       public Builder setFriendRelationshipId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (friendRelationshipIdBuilder_ == null) {
           friendRelationshipId_ = builderForValue.build();
           onChanged();
@@ -2275,13 +2275,13 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
        */
-      public Builder mergeFriendRelationshipId(io.dstore.Values.integerValue value) {
+      public Builder mergeFriendRelationshipId(io.dstore.values.IntegerValue value) {
         if (friendRelationshipIdBuilder_ == null) {
           if (friendRelationshipId_ != null) {
             friendRelationshipId_ =
-              io.dstore.Values.integerValue.newBuilder(friendRelationshipId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(friendRelationshipId_).mergeFrom(value).buildPartial();
           } else {
             friendRelationshipId_ = value;
           }
@@ -2293,7 +2293,7 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
        */
       public Builder clearFriendRelationshipId() {
         if (friendRelationshipIdBuilder_ == null) {
@@ -2307,33 +2307,33 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFriendRelationshipIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFriendRelationshipIdBuilder() {
         
         onChanged();
         return getFriendRelationshipIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFriendRelationshipIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFriendRelationshipIdOrBuilder() {
         if (friendRelationshipIdBuilder_ != null) {
           return friendRelationshipIdBuilder_.getMessageOrBuilder();
         } else {
           return friendRelationshipId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : friendRelationshipId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : friendRelationshipId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue friend_relationship_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue friend_relationship_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFriendRelationshipIdFieldBuilder() {
         if (friendRelationshipIdBuilder_ == null) {
           friendRelationshipIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFriendRelationshipId(),
                   getParentForChildren(),
                   isClean());
@@ -2368,29 +2368,29 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue keepMessagesInDays_ = null;
+      private io.dstore.values.IntegerValue keepMessagesInDays_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> keepMessagesInDaysBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> keepMessagesInDaysBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+       * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
        */
       public boolean hasKeepMessagesInDays() {
         return keepMessagesInDaysBuilder_ != null || keepMessagesInDays_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+       * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
        */
-      public io.dstore.Values.integerValue getKeepMessagesInDays() {
+      public io.dstore.values.IntegerValue getKeepMessagesInDays() {
         if (keepMessagesInDaysBuilder_ == null) {
-          return keepMessagesInDays_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepMessagesInDays_;
+          return keepMessagesInDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepMessagesInDays_;
         } else {
           return keepMessagesInDaysBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+       * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
        */
-      public Builder setKeepMessagesInDays(io.dstore.Values.integerValue value) {
+      public Builder setKeepMessagesInDays(io.dstore.values.IntegerValue value) {
         if (keepMessagesInDaysBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2404,10 +2404,10 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+       * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
        */
       public Builder setKeepMessagesInDays(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (keepMessagesInDaysBuilder_ == null) {
           keepMessagesInDays_ = builderForValue.build();
           onChanged();
@@ -2418,13 +2418,13 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+       * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
        */
-      public Builder mergeKeepMessagesInDays(io.dstore.Values.integerValue value) {
+      public Builder mergeKeepMessagesInDays(io.dstore.values.IntegerValue value) {
         if (keepMessagesInDaysBuilder_ == null) {
           if (keepMessagesInDays_ != null) {
             keepMessagesInDays_ =
-              io.dstore.Values.integerValue.newBuilder(keepMessagesInDays_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(keepMessagesInDays_).mergeFrom(value).buildPartial();
           } else {
             keepMessagesInDays_ = value;
           }
@@ -2436,7 +2436,7 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+       * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
        */
       public Builder clearKeepMessagesInDays() {
         if (keepMessagesInDaysBuilder_ == null) {
@@ -2450,33 +2450,33 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+       * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
        */
-      public io.dstore.Values.integerValue.Builder getKeepMessagesInDaysBuilder() {
+      public io.dstore.values.IntegerValue.Builder getKeepMessagesInDaysBuilder() {
         
         onChanged();
         return getKeepMessagesInDaysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+       * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getKeepMessagesInDaysOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getKeepMessagesInDaysOrBuilder() {
         if (keepMessagesInDaysBuilder_ != null) {
           return keepMessagesInDaysBuilder_.getMessageOrBuilder();
         } else {
           return keepMessagesInDays_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : keepMessagesInDays_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : keepMessagesInDays_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_messages_in_days = 8;</code>
+       * <code>optional .dstore.values.IntegerValue keep_messages_in_days = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getKeepMessagesInDaysFieldBuilder() {
         if (keepMessagesInDaysBuilder_ == null) {
           keepMessagesInDaysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getKeepMessagesInDays(),
                   getParentForChildren(),
                   isClean());
@@ -2511,29 +2511,29 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue keepUsersOnlineTimeInDays_ = null;
+      private io.dstore.values.IntegerValue keepUsersOnlineTimeInDays_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> keepUsersOnlineTimeInDaysBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> keepUsersOnlineTimeInDaysBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+       * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
        */
       public boolean hasKeepUsersOnlineTimeInDays() {
         return keepUsersOnlineTimeInDaysBuilder_ != null || keepUsersOnlineTimeInDays_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+       * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
        */
-      public io.dstore.Values.integerValue getKeepUsersOnlineTimeInDays() {
+      public io.dstore.values.IntegerValue getKeepUsersOnlineTimeInDays() {
         if (keepUsersOnlineTimeInDaysBuilder_ == null) {
-          return keepUsersOnlineTimeInDays_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepUsersOnlineTimeInDays_;
+          return keepUsersOnlineTimeInDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepUsersOnlineTimeInDays_;
         } else {
           return keepUsersOnlineTimeInDaysBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+       * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
        */
-      public Builder setKeepUsersOnlineTimeInDays(io.dstore.Values.integerValue value) {
+      public Builder setKeepUsersOnlineTimeInDays(io.dstore.values.IntegerValue value) {
         if (keepUsersOnlineTimeInDaysBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2547,10 +2547,10 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+       * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
        */
       public Builder setKeepUsersOnlineTimeInDays(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (keepUsersOnlineTimeInDaysBuilder_ == null) {
           keepUsersOnlineTimeInDays_ = builderForValue.build();
           onChanged();
@@ -2561,13 +2561,13 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+       * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
        */
-      public Builder mergeKeepUsersOnlineTimeInDays(io.dstore.Values.integerValue value) {
+      public Builder mergeKeepUsersOnlineTimeInDays(io.dstore.values.IntegerValue value) {
         if (keepUsersOnlineTimeInDaysBuilder_ == null) {
           if (keepUsersOnlineTimeInDays_ != null) {
             keepUsersOnlineTimeInDays_ =
-              io.dstore.Values.integerValue.newBuilder(keepUsersOnlineTimeInDays_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(keepUsersOnlineTimeInDays_).mergeFrom(value).buildPartial();
           } else {
             keepUsersOnlineTimeInDays_ = value;
           }
@@ -2579,7 +2579,7 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+       * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
        */
       public Builder clearKeepUsersOnlineTimeInDays() {
         if (keepUsersOnlineTimeInDaysBuilder_ == null) {
@@ -2593,33 +2593,33 @@ public final class CoInsertNewCommunityAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+       * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
        */
-      public io.dstore.Values.integerValue.Builder getKeepUsersOnlineTimeInDaysBuilder() {
+      public io.dstore.values.IntegerValue.Builder getKeepUsersOnlineTimeInDaysBuilder() {
         
         onChanged();
         return getKeepUsersOnlineTimeInDaysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+       * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getKeepUsersOnlineTimeInDaysOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getKeepUsersOnlineTimeInDaysOrBuilder() {
         if (keepUsersOnlineTimeInDaysBuilder_ != null) {
           return keepUsersOnlineTimeInDaysBuilder_.getMessageOrBuilder();
         } else {
           return keepUsersOnlineTimeInDays_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : keepUsersOnlineTimeInDays_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : keepUsersOnlineTimeInDays_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_users_online_time_in_days = 9;</code>
+       * <code>optional .dstore.values.IntegerValue keep_users_online_time_in_days = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getKeepUsersOnlineTimeInDaysFieldBuilder() {
         if (keepUsersOnlineTimeInDaysBuilder_ == null) {
           keepUsersOnlineTimeInDaysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getKeepUsersOnlineTimeInDays(),
                   getParentForChildren(),
                   isClean());
@@ -4741,28 +4741,28 @@ public final class CoInsertNewCommunityAd {
       "rtNewCommunity_Ad\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\272\007\n\nParameter" +
       "s\0222\n\016community_name\030\001 \001(\0132\032.dstore.value" +
-      "s.stringValue\022\034\n\023community_name_null\030\351\007 " +
+      "s.StringValue\022\034\n\023community_name_null\030\351\007 " +
       "\001(\010\022E\n community_members_person_type_id\030" +
-      "\002 \001(\0132\033.dstore.values.integerValue\022.\n%co" +
+      "\002 \001(\0132\033.dstore.values.IntegerValue\022.\n%co" +
       "mmunity_members_person_type_id_null\030\352\007 \001" +
       "(\010\022B\n\035identifying_characteristic_id\030\003 \001(",
-      "\0132\033.dstore.values.integerValue\022+\n\"identi" +
+      "\0132\033.dstore.values.IntegerValue\022+\n\"identi" +
       "fying_characteristic_id_null\030\353\007 \001(\010\022?\n\032p" +
       "assword_characteristic_id\030\004 \001(\0132\033.dstore" +
-      ".values.integerValue\022(\n\037password_charact" +
+      ".values.IntegerValue\022(\n\037password_charact" +
       "eristic_id_null\030\354\007 \001(\010\022?\n\032question_chara" +
-      "cteristic_id\030\005 \001(\0132\033.dstore.values.integ" +
+      "cteristic_id\030\005 \001(\0132\033.dstore.values.Integ" +
       "erValue\022(\n\037question_characteristic_id_nu" +
       "ll\030\355\007 \001(\010\022=\n\030answer_characteristic_id\030\006 " +
-      "\001(\0132\033.dstore.values.integerValue\022&\n\035answ" +
+      "\001(\0132\033.dstore.values.IntegerValue\022&\n\035answ" +
       "er_characteristic_id_null\030\356\007 \001(\010\022;\n\026frie",
       "nd_relationship_id\030\007 \001(\0132\033.dstore.values" +
-      ".integerValue\022$\n\033friend_relationship_id_" +
+      ".IntegerValue\022$\n\033friend_relationship_id_" +
       "null\030\357\007 \001(\010\022:\n\025keep_messages_in_days\030\010 \001" +
-      "(\0132\033.dstore.values.integerValue\022#\n\032keep_" +
+      "(\0132\033.dstore.values.IntegerValue\022#\n\032keep_" +
       "messages_in_days_null\030\360\007 \001(\010\022C\n\036keep_use" +
       "rs_online_time_in_days\030\t \001(\0132\033.dstore.va" +
-      "lues.integerValue\022,\n#keep_users_online_t" +
+      "lues.IntegerValue\022,\n#keep_users_online_t" +
       "ime_in_days_null\030\361\007 \001(\010\"\310\001\n\010Response\0228\n\020" +
       "meta_information\030\002 \003(\0132\036.dstore.engine.M" +
       "etaInformation\022\'\n\007message\030\003 \003(\0132\026.dstore",
@@ -4784,7 +4784,7 @@ public final class CoInsertNewCommunityAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_InsertNewCommunity_Ad_Parameters_descriptor =
@@ -4805,7 +4805,7 @@ public final class CoInsertNewCommunityAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_InsertNewCommunity_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

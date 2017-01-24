@@ -19,17 +19,17 @@ public final class ImGetBinaryPropertiesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     boolean hasBinaryCodeId();
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    io.dstore.Values.integerValue getBinaryCodeId();
+    io.dstore.values.IntegerValue getBinaryCodeId();
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
     /**
      * <code>optional bool binary_code_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImGetBinaryPropertiesAd {
     boolean getBinaryCodeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
      */
     boolean hasBinaryCharacteristicIds();
     /**
-     * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
      */
-    io.dstore.Values.stringValue getBinaryCharacteristicIds();
+    io.dstore.values.StringValue getBinaryCharacteristicIds();
     /**
-     * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getBinaryCharacteristicIdsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getBinaryCharacteristicIdsOrBuilder();
 
     /**
      * <code>optional bool binary_characteristic_ids_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImGetBinaryPropertiesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binaryCodeId_ != null) {
                 subBuilder = binaryCodeId_.toBuilder();
               }
-              binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binaryCodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCodeId_);
                 binaryCodeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImGetBinaryPropertiesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (binaryCharacteristicIds_ != null) {
                 subBuilder = binaryCharacteristicIds_.toBuilder();
               }
-              binaryCharacteristicIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              binaryCharacteristicIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCharacteristicIds_);
                 binaryCharacteristicIds_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImGetBinaryPropertiesAd {
     }
 
     public static final int BINARY_CODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue binaryCodeId_;
+    private io.dstore.values.IntegerValue binaryCodeId_;
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public boolean hasBinaryCodeId() {
       return binaryCodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getBinaryCodeId() {
-      return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+    public io.dstore.values.IntegerValue getBinaryCodeId() {
+      return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
       return getBinaryCodeId();
     }
 
@@ -185,23 +185,23 @@ public final class ImGetBinaryPropertiesAd {
     }
 
     public static final int BINARY_CHARACTERISTIC_IDS_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue binaryCharacteristicIds_;
+    private io.dstore.values.StringValue binaryCharacteristicIds_;
     /**
-     * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
      */
     public boolean hasBinaryCharacteristicIds() {
       return binaryCharacteristicIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
      */
-    public io.dstore.Values.stringValue getBinaryCharacteristicIds() {
-      return binaryCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryCharacteristicIds_;
+    public io.dstore.values.StringValue getBinaryCharacteristicIds() {
+      return binaryCharacteristicIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryCharacteristicIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getBinaryCharacteristicIdsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getBinaryCharacteristicIdsOrBuilder() {
       return getBinaryCharacteristicIds();
     }
 
@@ -562,29 +562,29 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue binaryCodeId_ = null;
+      private io.dstore.values.IntegerValue binaryCodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCodeId() {
+      public io.dstore.values.IntegerValue getBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
-          return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+          return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
         } else {
           return binaryCodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
+      public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder setBinaryCodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binaryCodeIdBuilder_ == null) {
           binaryCodeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
           if (binaryCodeId_ != null) {
             binaryCodeId_ =
-              io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
           } else {
             binaryCodeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder clearBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
         
         onChanged();
         return getBinaryCodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         if (binaryCodeIdBuilder_ != null) {
           return binaryCodeIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryCodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinaryCodeIdFieldBuilder() {
         if (binaryCodeIdBuilder_ == null) {
           binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinaryCodeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue binaryCharacteristicIds_ = null;
+      private io.dstore.values.StringValue binaryCharacteristicIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryCharacteristicIdsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> binaryCharacteristicIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
        */
       public boolean hasBinaryCharacteristicIds() {
         return binaryCharacteristicIdsBuilder_ != null || binaryCharacteristicIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
        */
-      public io.dstore.Values.stringValue getBinaryCharacteristicIds() {
+      public io.dstore.values.StringValue getBinaryCharacteristicIds() {
         if (binaryCharacteristicIdsBuilder_ == null) {
-          return binaryCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryCharacteristicIds_;
+          return binaryCharacteristicIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryCharacteristicIds_;
         } else {
           return binaryCharacteristicIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
        */
-      public Builder setBinaryCharacteristicIds(io.dstore.Values.stringValue value) {
+      public Builder setBinaryCharacteristicIds(io.dstore.values.StringValue value) {
         if (binaryCharacteristicIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
        */
       public Builder setBinaryCharacteristicIds(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (binaryCharacteristicIdsBuilder_ == null) {
           binaryCharacteristicIds_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
        */
-      public Builder mergeBinaryCharacteristicIds(io.dstore.Values.stringValue value) {
+      public Builder mergeBinaryCharacteristicIds(io.dstore.values.StringValue value) {
         if (binaryCharacteristicIdsBuilder_ == null) {
           if (binaryCharacteristicIds_ != null) {
             binaryCharacteristicIds_ =
-              io.dstore.Values.stringValue.newBuilder(binaryCharacteristicIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(binaryCharacteristicIds_).mergeFrom(value).buildPartial();
           } else {
             binaryCharacteristicIds_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
        */
       public Builder clearBinaryCharacteristicIds() {
         if (binaryCharacteristicIdsBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImGetBinaryPropertiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getBinaryCharacteristicIdsBuilder() {
+      public io.dstore.values.StringValue.Builder getBinaryCharacteristicIdsBuilder() {
         
         onChanged();
         return getBinaryCharacteristicIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBinaryCharacteristicIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBinaryCharacteristicIdsOrBuilder() {
         if (binaryCharacteristicIdsBuilder_ != null) {
           return binaryCharacteristicIdsBuilder_.getMessageOrBuilder();
         } else {
           return binaryCharacteristicIds_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : binaryCharacteristicIds_;
+              io.dstore.values.StringValue.getDefaultInstance() : binaryCharacteristicIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue binary_characteristic_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue binary_characteristic_ids = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getBinaryCharacteristicIdsFieldBuilder() {
         if (binaryCharacteristicIdsBuilder_ == null) {
           binaryCharacteristicIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getBinaryCharacteristicIds(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class ImGetBinaryPropertiesAd {
        * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
       boolean hasCharacteristicDescription();
       /**
@@ -1115,24 +1115,24 @@ public final class ImGetBinaryPropertiesAd {
        * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
-      io.dstore.Values.stringValue getCharacteristicDescription();
+      io.dstore.values.StringValue getCharacteristicDescription();
       /**
        * <pre>
        * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -1140,24 +1140,24 @@ public final class ImGetBinaryPropertiesAd {
        * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
       boolean hasValueId();
       /**
@@ -1165,17 +1165,17 @@ public final class ImGetBinaryPropertiesAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getValueId();
+      io.dstore.values.IntegerValue getValueId();
       /**
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetBinaryProperties_Ad.Response.Row}
@@ -1223,11 +1223,11 @@ public final class ImGetBinaryPropertiesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (characteristicDescription_ != null) {
                   subBuilder = characteristicDescription_.toBuilder();
                 }
-                characteristicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                characteristicDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicDescription_);
                   characteristicDescription_ = subBuilder.buildPartial();
@@ -1236,11 +1236,11 @@ public final class ImGetBinaryPropertiesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1249,11 +1249,11 @@ public final class ImGetBinaryPropertiesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -1294,13 +1294,13 @@ public final class ImGetBinaryPropertiesAd {
       }
 
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue characteristicDescription_;
+      private io.dstore.values.StringValue characteristicDescription_;
       /**
        * <pre>
        * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescription_ != null;
@@ -1310,30 +1310,30 @@ public final class ImGetBinaryPropertiesAd {
        * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getCharacteristicDescription() {
-        return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+      public io.dstore.values.StringValue getCharacteristicDescription() {
+        return characteristicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1343,30 +1343,30 @@ public final class ImGetBinaryPropertiesAd {
        * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int VALUE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue valueId_;
+      private io.dstore.values.IntegerValue valueId_;
       /**
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
@@ -1376,19 +1376,19 @@ public final class ImGetBinaryPropertiesAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getValueId() {
-        return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+      public io.dstore.values.IntegerValue getValueId() {
+        return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
       }
       /**
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
       }
 
@@ -1777,15 +1777,15 @@ public final class ImGetBinaryPropertiesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue characteristicDescription_ = null;
+        private io.dstore.values.StringValue characteristicDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
         public boolean hasCharacteristicDescription() {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
@@ -1795,11 +1795,11 @@ public final class ImGetBinaryPropertiesAd {
          * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getCharacteristicDescription() {
+        public io.dstore.values.StringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
-            return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+            return characteristicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
           } else {
             return characteristicDescriptionBuilder_.getMessage();
           }
@@ -1809,9 +1809,9 @@ public final class ImGetBinaryPropertiesAd {
          * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
+        public Builder setCharacteristicDescription(io.dstore.values.StringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1829,10 +1829,10 @@ public final class ImGetBinaryPropertiesAd {
          * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
         public Builder setCharacteristicDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescription_ = builderForValue.build();
             onChanged();
@@ -1847,13 +1847,13 @@ public final class ImGetBinaryPropertiesAd {
          * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeCharacteristicDescription(io.dstore.values.StringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (characteristicDescription_ != null) {
               characteristicDescription_ =
-                io.dstore.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
             } else {
               characteristicDescription_ = value;
             }
@@ -1869,7 +1869,7 @@ public final class ImGetBinaryPropertiesAd {
          * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
         public Builder clearCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1887,9 +1887,9 @@ public final class ImGetBinaryPropertiesAd {
          * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getCharacteristicDescriptionBuilder() {
           
           onChanged();
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
@@ -1899,14 +1899,14 @@ public final class ImGetBinaryPropertiesAd {
          * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
             return characteristicDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return characteristicDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
           }
         }
         /**
@@ -1914,14 +1914,14 @@ public final class ImGetBinaryPropertiesAd {
          * Bezeichnung des Merkmals (in der Standardsprache) für "Binaries", zu dem die Eigenschaft "Value" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1930,15 +1930,15 @@ public final class ImGetBinaryPropertiesAd {
           return characteristicDescriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -1948,11 +1948,11 @@ public final class ImGetBinaryPropertiesAd {
          * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -1962,9 +1962,9 @@ public final class ImGetBinaryPropertiesAd {
          * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1982,10 +1982,10 @@ public final class ImGetBinaryPropertiesAd {
          * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2000,13 +2000,13 @@ public final class ImGetBinaryPropertiesAd {
          * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2022,7 +2022,7 @@ public final class ImGetBinaryPropertiesAd {
          * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2040,9 +2040,9 @@ public final class ImGetBinaryPropertiesAd {
          * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -2052,14 +2052,14 @@ public final class ImGetBinaryPropertiesAd {
          * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -2067,14 +2067,14 @@ public final class ImGetBinaryPropertiesAd {
          * Eigenschaft des Binärobjektes "&#64;BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2083,15 +2083,15 @@ public final class ImGetBinaryPropertiesAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.integerValue valueId_ = null;
+        private io.dstore.values.IntegerValue valueId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> valueIdBuilder_;
         /**
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
@@ -2101,11 +2101,11 @@ public final class ImGetBinaryPropertiesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getValueId() {
+        public io.dstore.values.IntegerValue getValueId() {
           if (valueIdBuilder_ == null) {
-            return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+            return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
           } else {
             return valueIdBuilder_.getMessage();
           }
@@ -2115,9 +2115,9 @@ public final class ImGetBinaryPropertiesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public Builder setValueId(io.dstore.Values.integerValue value) {
+        public Builder setValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2135,10 +2135,10 @@ public final class ImGetBinaryPropertiesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
         public Builder setValueId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (valueIdBuilder_ == null) {
             valueId_ = builderForValue.build();
             onChanged();
@@ -2153,13 +2153,13 @@ public final class ImGetBinaryPropertiesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public Builder mergeValueId(io.dstore.Values.integerValue value) {
+        public Builder mergeValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
             if (valueId_ != null) {
               valueId_ =
-                io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
             } else {
               valueId_ = value;
             }
@@ -2175,7 +2175,7 @@ public final class ImGetBinaryPropertiesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -2193,9 +2193,9 @@ public final class ImGetBinaryPropertiesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
           
           onChanged();
           return getValueIdFieldBuilder().getBuilder();
@@ -2205,14 +2205,14 @@ public final class ImGetBinaryPropertiesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
             return valueIdBuilder_.getMessageOrBuilder();
           } else {
             return valueId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
           }
         }
         /**
@@ -2220,14 +2220,14 @@ public final class ImGetBinaryPropertiesAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
             valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
                     isClean());
@@ -3697,9 +3697,9 @@ public final class ImGetBinaryPropertiesAd {
       "BinaryProperties_Ad\032\023dstore/values.proto" +
       "\032\032dstore/engine/engine.proto\"\307\001\n\nParamet" +
       "ers\0223\n\016binary_code_id\030\001 \001(\0132\033.dstore.val" +
-      "ues.integerValue\022\034\n\023binary_code_id_null\030" +
+      "ues.IntegerValue\022\034\n\023binary_code_id_null\030" +
       "\351\007 \001(\010\022=\n\031binary_characteristic_ids\030\002 \001(" +
-      "\0132\032.dstore.values.stringValue\022\'\n\036binary_" +
+      "\0132\032.dstore.values.StringValue\022\'\n\036binary_" +
       "characteristic_ids_null\030\352\007 \001(\010\"\347\002\n\010Respo" +
       "nse\0228\n\020meta_information\030\002 \003(\0132\036.dstore.e",
       "ngine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026" +
@@ -3707,9 +3707,9 @@ public final class ImGetBinaryPropertiesAd {
       "tore.engine.im_GetBinaryProperties_Ad.Re" +
       "sponse.Row\032\263\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022?\n\032c" +
       "haracteristic_description\030\221N \001(\0132\032.dstor" +
-      "e.values.stringValue\022*\n\005value\030\222N \001(\0132\032.d" +
-      "store.values.stringValue\022.\n\010value_id\030\223N " +
-      "\001(\0132\033.dstore.values.integerValueBZ\n\033io.d" +
+      "e.values.StringValue\022*\n\005value\030\222N \001(\0132\032.d" +
+      "store.values.StringValue\022.\n\010value_id\030\223N " +
+      "\001(\0132\033.dstore.values.IntegerValueBZ\n\033io.d" +
       "store.engine.proceduresZ;gosdk.dstore.de" +
       "/engine/procedures/im_GetBinaryPropertie",
       "s_Adb\006proto3"
@@ -3725,7 +3725,7 @@ public final class ImGetBinaryPropertiesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetBinaryProperties_Ad_Parameters_descriptor =
@@ -3746,7 +3746,7 @@ public final class ImGetBinaryPropertiesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetBinaryProperties_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CharacteristicDescription", "Value", "ValueId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

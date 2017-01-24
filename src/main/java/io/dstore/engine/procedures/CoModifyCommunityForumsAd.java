@@ -19,17 +19,17 @@ public final class CoModifyCommunityForumsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoModifyCommunityForumsAd {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
      */
-    io.dstore.Values.integerValue getForumId();
+    io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoModifyCommunityForumsAd {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    io.dstore.Values.integerValue getSortNo();
+    io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
      * <code>optional bool sort_no_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class CoModifyCommunityForumsAd {
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
-    io.dstore.Values.booleanValue getDelete();
+    io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class CoModifyCommunityForumsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class CoModifyCommunityForumsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class CoModifyCommunityForumsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
               }
-              sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNo_);
                 sortNo_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class CoModifyCommunityForumsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class CoModifyCommunityForumsAd {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -259,23 +259,23 @@ public final class CoModifyCommunityForumsAd {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue forumId_;
+    private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.values.IntegerValue getForumId() {
+      return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -289,23 +289,23 @@ public final class CoModifyCommunityForumsAd {
     }
 
     public static final int SORT_NO_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue sortNo_;
+    private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    public io.dstore.Values.integerValue getSortNo() {
-      return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+    public io.dstore.values.IntegerValue getSortNo() {
+      return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
     }
 
@@ -319,23 +319,23 @@ public final class CoModifyCommunityForumsAd {
     }
 
     public static final int DELETE_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue delete_;
+    private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDelete() {
-      return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+    public io.dstore.values.BooleanValue getDelete() {
+      return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -792,29 +792,29 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -860,7 +860,7 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue forumId_ = null;
+      private io.dstore.values.IntegerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getForumId() {
+      public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
        */
-      public Builder setForumId(io.dstore.Values.integerValue value) {
+      public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
        */
       public Builder setForumId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
        */
-      public Builder mergeForumId(io.dstore.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortNo_ = null;
+      private io.dstore.values.IntegerValue sortNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
+      public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
-          return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+          return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         } else {
           return sortNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public Builder setSortNo(io.dstore.Values.integerValue value) {
+      public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder setSortNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortNoBuilder_ == null) {
           sortNo_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+      public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (sortNo_ != null) {
             sortNo_ =
-              io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
           } else {
             sortNo_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
         onChanged();
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
           return sortNoBuilder_.getMessageOrBuilder();
         } else {
           return sortNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortNoFieldBuilder() {
         if (sortNoBuilder_ == null) {
           sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortNo(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue delete_ = null;
+      private io.dstore.values.BooleanValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDelete() {
+      public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public Builder setDelete(io.dstore.Values.booleanValue value) {
+      public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public Builder mergeDelete(io.dstore.Values.booleanValue value) {
+      public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class CoModifyCommunityForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -3451,12 +3451,12 @@ public final class CoModifyCommunityForumsAd {
       "odifyCommunityForums_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\252\002\n\nPar" +
       "ameters\0221\n\014community_id\030\001 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\032\n\021community_id_null\030" +
+      "alues.IntegerValue\022\032\n\021community_id_null\030" +
       "\351\007 \001(\010\022-\n\010forum_id\030\002 \001(\0132\033.dstore.values" +
-      ".integerValue\022\026\n\rforum_id_null\030\352\007 \001(\010\022,\n" +
-      "\007sort_no\030\003 \001(\0132\033.dstore.values.integerVa" +
+      ".IntegerValue\022\026\n\rforum_id_null\030\352\007 \001(\010\022,\n" +
+      "\007sort_no\030\003 \001(\0132\033.dstore.values.IntegerVa" +
       "lue\022\025\n\014sort_no_null\030\353\007 \001(\010\022+\n\006delete\030\004 \001",
-      "(\0132\033.dstore.values.booleanValue\022\024\n\013delet" +
+      "(\0132\033.dstore.values.BooleanValue\022\024\n\013delet" +
       "e_null\030\354\007 \001(\010\"\313\001\n\010Response\0228\n\020meta_infor" +
       "mation\030\002 \003(\0132\036.dstore.engine.MetaInforma" +
       "tion\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Me" +
@@ -3478,7 +3478,7 @@ public final class CoModifyCommunityForumsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_ModifyCommunityForums_Ad_Parameters_descriptor =
@@ -3499,7 +3499,7 @@ public final class CoModifyCommunityForumsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_ModifyCommunityForums_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

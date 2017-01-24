@@ -19,17 +19,17 @@ public final class DoGetReturnCodeCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
      */
     boolean hasReturnCodeCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
      */
-    io.dstore.Values.integerValue getReturnCodeCategoryId();
+    io.dstore.values.IntegerValue getReturnCodeCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getReturnCodeCategoryIdOrBuilder();
 
     /**
      * <code>optional bool return_code_category_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class DoGetReturnCodeCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (returnCodeCategoryId_ != null) {
                 subBuilder = returnCodeCategoryId_.toBuilder();
               }
-              returnCodeCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              returnCodeCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnCodeCategoryId_);
                 returnCodeCategoryId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class DoGetReturnCodeCategoriesAd {
     }
 
     public static final int RETURN_CODE_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue returnCodeCategoryId_;
+    private io.dstore.values.IntegerValue returnCodeCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
      */
     public boolean hasReturnCodeCategoryId() {
       return returnCodeCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getReturnCodeCategoryId() {
-      return returnCodeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+    public io.dstore.values.IntegerValue getReturnCodeCategoryId() {
+      return returnCodeCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : returnCodeCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
       return getReturnCodeCategoryId();
     }
 
@@ -447,29 +447,29 @@ public final class DoGetReturnCodeCategoriesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue returnCodeCategoryId_ = null;
+      private io.dstore.values.IntegerValue returnCodeCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> returnCodeCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
        */
       public boolean hasReturnCodeCategoryId() {
         return returnCodeCategoryIdBuilder_ != null || returnCodeCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getReturnCodeCategoryId() {
+      public io.dstore.values.IntegerValue getReturnCodeCategoryId() {
         if (returnCodeCategoryIdBuilder_ == null) {
-          return returnCodeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+          return returnCodeCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : returnCodeCategoryId_;
         } else {
           return returnCodeCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
        */
-      public Builder setReturnCodeCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setReturnCodeCategoryId(io.dstore.values.IntegerValue value) {
         if (returnCodeCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class DoGetReturnCodeCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
        */
       public Builder setReturnCodeCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (returnCodeCategoryIdBuilder_ == null) {
           returnCodeCategoryId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class DoGetReturnCodeCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
        */
-      public Builder mergeReturnCodeCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergeReturnCodeCategoryId(io.dstore.values.IntegerValue value) {
         if (returnCodeCategoryIdBuilder_ == null) {
           if (returnCodeCategoryId_ != null) {
             returnCodeCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(returnCodeCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(returnCodeCategoryId_).mergeFrom(value).buildPartial();
           } else {
             returnCodeCategoryId_ = value;
           }
@@ -515,7 +515,7 @@ public final class DoGetReturnCodeCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
        */
       public Builder clearReturnCodeCategoryId() {
         if (returnCodeCategoryIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class DoGetReturnCodeCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getReturnCodeCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getReturnCodeCategoryIdBuilder() {
         
         onChanged();
         return getReturnCodeCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
         if (returnCodeCategoryIdBuilder_ != null) {
           return returnCodeCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return returnCodeCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : returnCodeCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue return_code_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getReturnCodeCategoryIdFieldBuilder() {
         if (returnCodeCategoryIdBuilder_ == null) {
           returnCodeCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getReturnCodeCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class DoGetReturnCodeCategoriesAd {
        * ID einer Kategorie von Return-Codes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
        */
       boolean hasReturnCodeCategoryId();
       /**
@@ -857,24 +857,24 @@ public final class DoGetReturnCodeCategoriesAd {
        * ID einer Kategorie von Return-Codes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getReturnCodeCategoryId();
+      io.dstore.values.IntegerValue getReturnCodeCategoryId();
       /**
        * <pre>
        * ID einer Kategorie von Return-Codes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getReturnCodeCategoryIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+       * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
        */
       boolean hasReturnCodeCategory();
       /**
@@ -882,17 +882,17 @@ public final class DoGetReturnCodeCategoriesAd {
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+       * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
        */
-      io.dstore.Values.stringValue getReturnCodeCategory();
+      io.dstore.values.StringValue getReturnCodeCategory();
       /**
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+       * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getReturnCodeCategoryOrBuilder();
+      io.dstore.values.StringValueOrBuilder getReturnCodeCategoryOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.do_GetReturnCodeCategories_Ad.Response.Row}
@@ -940,11 +940,11 @@ public final class DoGetReturnCodeCategoriesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (returnCodeCategoryId_ != null) {
                   subBuilder = returnCodeCategoryId_.toBuilder();
                 }
-                returnCodeCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                returnCodeCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCodeCategoryId_);
                   returnCodeCategoryId_ = subBuilder.buildPartial();
@@ -953,11 +953,11 @@ public final class DoGetReturnCodeCategoriesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (returnCodeCategory_ != null) {
                   subBuilder = returnCodeCategory_.toBuilder();
                 }
-                returnCodeCategory_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                returnCodeCategory_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCodeCategory_);
                   returnCodeCategory_ = subBuilder.buildPartial();
@@ -998,13 +998,13 @@ public final class DoGetReturnCodeCategoriesAd {
       }
 
       public static final int RETURN_CODE_CATEGORY_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue returnCodeCategoryId_;
+      private io.dstore.values.IntegerValue returnCodeCategoryId_;
       /**
        * <pre>
        * ID einer Kategorie von Return-Codes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
        */
       public boolean hasReturnCodeCategoryId() {
         return returnCodeCategoryId_ != null;
@@ -1014,30 +1014,30 @@ public final class DoGetReturnCodeCategoriesAd {
        * ID einer Kategorie von Return-Codes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getReturnCodeCategoryId() {
-        return returnCodeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+      public io.dstore.values.IntegerValue getReturnCodeCategoryId() {
+        return returnCodeCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : returnCodeCategoryId_;
       }
       /**
        * <pre>
        * ID einer Kategorie von Return-Codes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
         return getReturnCodeCategoryId();
       }
 
       public static final int RETURN_CODE_CATEGORY_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue returnCodeCategory_;
+      private io.dstore.values.StringValue returnCodeCategory_;
       /**
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+       * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
        */
       public boolean hasReturnCodeCategory() {
         return returnCodeCategory_ != null;
@@ -1047,19 +1047,19 @@ public final class DoGetReturnCodeCategoriesAd {
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+       * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
        */
-      public io.dstore.Values.stringValue getReturnCodeCategory() {
-        return returnCodeCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : returnCodeCategory_;
+      public io.dstore.values.StringValue getReturnCodeCategory() {
+        return returnCodeCategory_ == null ? io.dstore.values.StringValue.getDefaultInstance() : returnCodeCategory_;
       }
       /**
        * <pre>
        * Bezeichnung der Kategorie "ReturnCodeCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+       * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getReturnCodeCategoryOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getReturnCodeCategoryOrBuilder() {
         return getReturnCodeCategory();
       }
 
@@ -1418,15 +1418,15 @@ public final class DoGetReturnCodeCategoriesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue returnCodeCategoryId_ = null;
+        private io.dstore.values.IntegerValue returnCodeCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> returnCodeCategoryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> returnCodeCategoryIdBuilder_;
         /**
          * <pre>
          * ID einer Kategorie von Return-Codes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
          */
         public boolean hasReturnCodeCategoryId() {
           return returnCodeCategoryIdBuilder_ != null || returnCodeCategoryId_ != null;
@@ -1436,11 +1436,11 @@ public final class DoGetReturnCodeCategoriesAd {
          * ID einer Kategorie von Return-Codes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getReturnCodeCategoryId() {
+        public io.dstore.values.IntegerValue getReturnCodeCategoryId() {
           if (returnCodeCategoryIdBuilder_ == null) {
-            return returnCodeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+            return returnCodeCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : returnCodeCategoryId_;
           } else {
             return returnCodeCategoryIdBuilder_.getMessage();
           }
@@ -1450,9 +1450,9 @@ public final class DoGetReturnCodeCategoriesAd {
          * ID einer Kategorie von Return-Codes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
          */
-        public Builder setReturnCodeCategoryId(io.dstore.Values.integerValue value) {
+        public Builder setReturnCodeCategoryId(io.dstore.values.IntegerValue value) {
           if (returnCodeCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1470,10 +1470,10 @@ public final class DoGetReturnCodeCategoriesAd {
          * ID einer Kategorie von Return-Codes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
          */
         public Builder setReturnCodeCategoryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (returnCodeCategoryIdBuilder_ == null) {
             returnCodeCategoryId_ = builderForValue.build();
             onChanged();
@@ -1488,13 +1488,13 @@ public final class DoGetReturnCodeCategoriesAd {
          * ID einer Kategorie von Return-Codes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
          */
-        public Builder mergeReturnCodeCategoryId(io.dstore.Values.integerValue value) {
+        public Builder mergeReturnCodeCategoryId(io.dstore.values.IntegerValue value) {
           if (returnCodeCategoryIdBuilder_ == null) {
             if (returnCodeCategoryId_ != null) {
               returnCodeCategoryId_ =
-                io.dstore.Values.integerValue.newBuilder(returnCodeCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(returnCodeCategoryId_).mergeFrom(value).buildPartial();
             } else {
               returnCodeCategoryId_ = value;
             }
@@ -1510,7 +1510,7 @@ public final class DoGetReturnCodeCategoriesAd {
          * ID einer Kategorie von Return-Codes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
          */
         public Builder clearReturnCodeCategoryId() {
           if (returnCodeCategoryIdBuilder_ == null) {
@@ -1528,9 +1528,9 @@ public final class DoGetReturnCodeCategoriesAd {
          * ID einer Kategorie von Return-Codes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getReturnCodeCategoryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getReturnCodeCategoryIdBuilder() {
           
           onChanged();
           return getReturnCodeCategoryIdFieldBuilder().getBuilder();
@@ -1540,14 +1540,14 @@ public final class DoGetReturnCodeCategoriesAd {
          * ID einer Kategorie von Return-Codes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getReturnCodeCategoryIdOrBuilder() {
           if (returnCodeCategoryIdBuilder_ != null) {
             return returnCodeCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return returnCodeCategoryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : returnCodeCategoryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : returnCodeCategoryId_;
           }
         }
         /**
@@ -1555,14 +1555,14 @@ public final class DoGetReturnCodeCategoriesAd {
          * ID einer Kategorie von Return-Codes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue return_code_category_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue return_code_category_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getReturnCodeCategoryIdFieldBuilder() {
           if (returnCodeCategoryIdBuilder_ == null) {
             returnCodeCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getReturnCodeCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -1571,15 +1571,15 @@ public final class DoGetReturnCodeCategoriesAd {
           return returnCodeCategoryIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue returnCodeCategory_ = null;
+        private io.dstore.values.StringValue returnCodeCategory_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> returnCodeCategoryBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> returnCodeCategoryBuilder_;
         /**
          * <pre>
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+         * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
          */
         public boolean hasReturnCodeCategory() {
           return returnCodeCategoryBuilder_ != null || returnCodeCategory_ != null;
@@ -1589,11 +1589,11 @@ public final class DoGetReturnCodeCategoriesAd {
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+         * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
          */
-        public io.dstore.Values.stringValue getReturnCodeCategory() {
+        public io.dstore.values.StringValue getReturnCodeCategory() {
           if (returnCodeCategoryBuilder_ == null) {
-            return returnCodeCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : returnCodeCategory_;
+            return returnCodeCategory_ == null ? io.dstore.values.StringValue.getDefaultInstance() : returnCodeCategory_;
           } else {
             return returnCodeCategoryBuilder_.getMessage();
           }
@@ -1603,9 +1603,9 @@ public final class DoGetReturnCodeCategoriesAd {
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+         * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
          */
-        public Builder setReturnCodeCategory(io.dstore.Values.stringValue value) {
+        public Builder setReturnCodeCategory(io.dstore.values.StringValue value) {
           if (returnCodeCategoryBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1623,10 +1623,10 @@ public final class DoGetReturnCodeCategoriesAd {
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+         * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
          */
         public Builder setReturnCodeCategory(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (returnCodeCategoryBuilder_ == null) {
             returnCodeCategory_ = builderForValue.build();
             onChanged();
@@ -1641,13 +1641,13 @@ public final class DoGetReturnCodeCategoriesAd {
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+         * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
          */
-        public Builder mergeReturnCodeCategory(io.dstore.Values.stringValue value) {
+        public Builder mergeReturnCodeCategory(io.dstore.values.StringValue value) {
           if (returnCodeCategoryBuilder_ == null) {
             if (returnCodeCategory_ != null) {
               returnCodeCategory_ =
-                io.dstore.Values.stringValue.newBuilder(returnCodeCategory_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(returnCodeCategory_).mergeFrom(value).buildPartial();
             } else {
               returnCodeCategory_ = value;
             }
@@ -1663,7 +1663,7 @@ public final class DoGetReturnCodeCategoriesAd {
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+         * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
          */
         public Builder clearReturnCodeCategory() {
           if (returnCodeCategoryBuilder_ == null) {
@@ -1681,9 +1681,9 @@ public final class DoGetReturnCodeCategoriesAd {
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+         * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getReturnCodeCategoryBuilder() {
+        public io.dstore.values.StringValue.Builder getReturnCodeCategoryBuilder() {
           
           onChanged();
           return getReturnCodeCategoryFieldBuilder().getBuilder();
@@ -1693,14 +1693,14 @@ public final class DoGetReturnCodeCategoriesAd {
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+         * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getReturnCodeCategoryOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getReturnCodeCategoryOrBuilder() {
           if (returnCodeCategoryBuilder_ != null) {
             return returnCodeCategoryBuilder_.getMessageOrBuilder();
           } else {
             return returnCodeCategory_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : returnCodeCategory_;
+                io.dstore.values.StringValue.getDefaultInstance() : returnCodeCategory_;
           }
         }
         /**
@@ -1708,14 +1708,14 @@ public final class DoGetReturnCodeCategoriesAd {
          * Bezeichnung der Kategorie "ReturnCodeCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue return_code_category = 10002;</code>
+         * <code>optional .dstore.values.StringValue return_code_category = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getReturnCodeCategoryFieldBuilder() {
           if (returnCodeCategoryBuilder_ == null) {
             returnCodeCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getReturnCodeCategory(),
                     getParentForChildren(),
                     isClean());
@@ -3185,7 +3185,7 @@ public final class DoGetReturnCodeCategoriesAd {
       "_GetReturnCodeCategories_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"q\n\n" +
       "Parameters\022<\n\027return_code_category_id\030\001 " +
-      "\001(\0132\033.dstore.values.integerValue\022%\n\034retu" +
+      "\001(\0132\033.dstore.values.IntegerValue\022%\n\034retu" +
       "rn_code_category_id_null\030\351\007 \001(\010\"\310\002\n\010Resp" +
       "onse\0228\n\020meta_information\030\002 \003(\0132\036.dstore." +
       "engine.MetaInformation\022\'\n\007message\030\003 \003(\0132" +
@@ -3193,8 +3193,8 @@ public final class DoGetReturnCodeCategoriesAd {
       "store.engine.do_GetReturnCodeCategories_" +
       "Ad.Response.Row\032\220\001\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
       "\022=\n\027return_code_category_id\030\221N \001(\0132\033.dst" +
-      "ore.values.integerValue\0229\n\024return_code_c" +
-      "ategory\030\222N \001(\0132\032.dstore.values.stringVal" +
+      "ore.values.IntegerValue\0229\n\024return_code_c" +
+      "ategory\030\222N \001(\0132\032.dstore.values.StringVal" +
       "ueB^\n\033io.dstore.engine.proceduresZ?gosdk" +
       ".dstore.de/engine/procedures/do_GetRetur" +
       "nCodeCategories_Adb\006proto3"
@@ -3210,7 +3210,7 @@ public final class DoGetReturnCodeCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_do_GetReturnCodeCategories_Ad_Parameters_descriptor =
@@ -3231,7 +3231,7 @@ public final class DoGetReturnCodeCategoriesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_do_GetReturnCodeCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ReturnCodeCategoryId", "ReturnCodeCategory", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

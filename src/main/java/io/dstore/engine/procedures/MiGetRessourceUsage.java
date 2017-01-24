@@ -19,17 +19,17 @@ public final class MiGetRessourceUsage {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
      */
     boolean hasCpu();
     /**
-     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
      */
-    io.dstore.Values.integerValue getCpu();
+    io.dstore.values.IntegerValue getCpu();
     /**
-     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCpuOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder();
 
     /**
      * <code>optional bool cpu_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetRessourceUsage {
     boolean getCpuNull();
 
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
      */
     boolean hasPhysicalio();
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
      */
-    io.dstore.Values.integerValue getPhysicalio();
+    io.dstore.values.IntegerValue getPhysicalio();
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPhysicalioOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder();
 
     /**
      * <code>optional bool physicalio_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetRessourceUsage {
     boolean getPhysicalioNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
      */
-    io.dstore.Values.booleanValue getSelectResult();
+    io.dstore.values.BooleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
      * <code>optional bool select_result_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiGetRessourceUsage {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (cpu_ != null) {
                 subBuilder = cpu_.toBuilder();
               }
-              cpu_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              cpu_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cpu_);
                 cpu_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiGetRessourceUsage {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (physicalio_ != null) {
                 subBuilder = physicalio_.toBuilder();
               }
-              physicalio_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              physicalio_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(physicalio_);
                 physicalio_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiGetRessourceUsage {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
               }
-              selectResult_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              selectResult_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectResult_);
                 selectResult_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiGetRessourceUsage {
     }
 
     public static final int CPU_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue cpu_;
+    private io.dstore.values.IntegerValue cpu_;
     /**
-     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
      */
     public boolean hasCpu() {
       return cpu_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
      */
-    public io.dstore.Values.integerValue getCpu() {
-      return cpu_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cpu_;
+    public io.dstore.values.IntegerValue getCpu() {
+      return cpu_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cpu_;
     }
     /**
-     * <code>optional .dstore.values.integerValue cpu = 1;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCpuOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder() {
       return getCpu();
     }
 
@@ -222,23 +222,23 @@ public final class MiGetRessourceUsage {
     }
 
     public static final int PHYSICALIO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue physicalio_;
+    private io.dstore.values.IntegerValue physicalio_;
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
      */
     public boolean hasPhysicalio() {
       return physicalio_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
      */
-    public io.dstore.Values.integerValue getPhysicalio() {
-      return physicalio_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : physicalio_;
+    public io.dstore.values.IntegerValue getPhysicalio() {
+      return physicalio_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : physicalio_;
     }
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPhysicalioOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder() {
       return getPhysicalio();
     }
 
@@ -252,23 +252,23 @@ public final class MiGetRessourceUsage {
     }
 
     public static final int SELECT_RESULT_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue selectResult_;
+    private io.dstore.values.BooleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
      */
-    public io.dstore.Values.booleanValue getSelectResult() {
-      return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+    public io.dstore.values.BooleanValue getSelectResult() {
+      return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
@@ -677,29 +677,29 @@ public final class MiGetRessourceUsage {
         return this;
       }
 
-      private io.dstore.Values.integerValue cpu_ = null;
+      private io.dstore.values.IntegerValue cpu_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cpuBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> cpuBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
        */
       public boolean hasCpu() {
         return cpuBuilder_ != null || cpu_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
        */
-      public io.dstore.Values.integerValue getCpu() {
+      public io.dstore.values.IntegerValue getCpu() {
         if (cpuBuilder_ == null) {
-          return cpu_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cpu_;
+          return cpu_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cpu_;
         } else {
           return cpuBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
        */
-      public Builder setCpu(io.dstore.Values.integerValue value) {
+      public Builder setCpu(io.dstore.values.IntegerValue value) {
         if (cpuBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
        */
       public Builder setCpu(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (cpuBuilder_ == null) {
           cpu_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
        */
-      public Builder mergeCpu(io.dstore.Values.integerValue value) {
+      public Builder mergeCpu(io.dstore.values.IntegerValue value) {
         if (cpuBuilder_ == null) {
           if (cpu_ != null) {
             cpu_ =
-              io.dstore.Values.integerValue.newBuilder(cpu_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(cpu_).mergeFrom(value).buildPartial();
           } else {
             cpu_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
        */
       public Builder clearCpu() {
         if (cpuBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCpuBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCpuBuilder() {
         
         onChanged();
         return getCpuFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCpuOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder() {
         if (cpuBuilder_ != null) {
           return cpuBuilder_.getMessageOrBuilder();
         } else {
           return cpu_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : cpu_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : cpu_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 1;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCpuFieldBuilder() {
         if (cpuBuilder_ == null) {
           cpuBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCpu(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiGetRessourceUsage {
         return this;
       }
 
-      private io.dstore.Values.integerValue physicalio_ = null;
+      private io.dstore.values.IntegerValue physicalio_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> physicalioBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> physicalioBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
        */
       public boolean hasPhysicalio() {
         return physicalioBuilder_ != null || physicalio_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
        */
-      public io.dstore.Values.integerValue getPhysicalio() {
+      public io.dstore.values.IntegerValue getPhysicalio() {
         if (physicalioBuilder_ == null) {
-          return physicalio_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : physicalio_;
+          return physicalio_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : physicalio_;
         } else {
           return physicalioBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
        */
-      public Builder setPhysicalio(io.dstore.Values.integerValue value) {
+      public Builder setPhysicalio(io.dstore.values.IntegerValue value) {
         if (physicalioBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
        */
       public Builder setPhysicalio(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (physicalioBuilder_ == null) {
           physicalio_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
        */
-      public Builder mergePhysicalio(io.dstore.Values.integerValue value) {
+      public Builder mergePhysicalio(io.dstore.values.IntegerValue value) {
         if (physicalioBuilder_ == null) {
           if (physicalio_ != null) {
             physicalio_ =
-              io.dstore.Values.integerValue.newBuilder(physicalio_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(physicalio_).mergeFrom(value).buildPartial();
           } else {
             physicalio_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
        */
       public Builder clearPhysicalio() {
         if (physicalioBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPhysicalioBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPhysicalioBuilder() {
         
         onChanged();
         return getPhysicalioFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPhysicalioOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder() {
         if (physicalioBuilder_ != null) {
           return physicalioBuilder_.getMessageOrBuilder();
         } else {
           return physicalio_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : physicalio_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : physicalio_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 2;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPhysicalioFieldBuilder() {
         if (physicalioBuilder_ == null) {
           physicalioBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPhysicalio(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiGetRessourceUsage {
         return this;
       }
 
-      private io.dstore.Values.booleanValue selectResult_ = null;
+      private io.dstore.values.BooleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
        */
-      public io.dstore.Values.booleanValue getSelectResult() {
+      public io.dstore.values.BooleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
-          return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+          return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
         } else {
           return selectResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
        */
-      public Builder setSelectResult(io.dstore.Values.booleanValue value) {
+      public Builder setSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
        */
       public Builder setSelectResult(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (selectResultBuilder_ == null) {
           selectResult_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
        */
-      public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
+      public Builder mergeSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
           if (selectResult_ != null) {
             selectResult_ =
-              io.dstore.Values.booleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
           } else {
             selectResult_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
+      public io.dstore.values.BooleanValue.Builder getSelectResultBuilder() {
         
         onChanged();
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
           return selectResultBuilder_.getMessageOrBuilder();
         } else {
           return selectResult_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getSelectResultFieldBuilder() {
         if (selectResultBuilder_ == null) {
           selectResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getSelectResult(),
                   getParentForChildren(),
                   isClean());
@@ -1231,30 +1231,30 @@ public final class MiGetRessourceUsage {
         int index);
 
     /**
-     * <code>optional .dstore.values.integerValue cpu = 101;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
      */
     boolean hasCpu();
     /**
-     * <code>optional .dstore.values.integerValue cpu = 101;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
      */
-    io.dstore.Values.integerValue getCpu();
+    io.dstore.values.IntegerValue getCpu();
     /**
-     * <code>optional .dstore.values.integerValue cpu = 101;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCpuOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder();
 
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
      */
     boolean hasPhysicalio();
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
      */
-    io.dstore.Values.integerValue getPhysicalio();
+    io.dstore.values.IntegerValue getPhysicalio();
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPhysicalioOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_GetRessourceUsage.Response}
@@ -1326,11 +1326,11 @@ public final class MiGetRessourceUsage {
               break;
             }
             case 810: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (cpu_ != null) {
                 subBuilder = cpu_.toBuilder();
               }
-              cpu_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              cpu_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cpu_);
                 cpu_ = subBuilder.buildPartial();
@@ -1339,11 +1339,11 @@ public final class MiGetRessourceUsage {
               break;
             }
             case 818: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (physicalio_ != null) {
                 subBuilder = physicalio_.toBuilder();
               }
-              physicalio_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              physicalio_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(physicalio_);
                 physicalio_ = subBuilder.buildPartial();
@@ -1397,7 +1397,7 @@ public final class MiGetRessourceUsage {
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
        */
       boolean hasCPU();
       /**
@@ -1405,24 +1405,24 @@ public final class MiGetRessourceUsage {
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
        */
-      io.dstore.Values.integerValue getCPU();
+      io.dstore.values.IntegerValue getCPU();
       /**
        * <pre>
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCPUOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCPUOrBuilder();
 
       /**
        * <pre>
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
       boolean hasPhysicalIO();
       /**
@@ -1430,17 +1430,17 @@ public final class MiGetRessourceUsage {
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
-      io.dstore.Values.integerValue getPhysicalIO();
+      io.dstore.values.IntegerValue getPhysicalIO();
       /**
        * <pre>
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPhysicalIOOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPhysicalIOOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetRessourceUsage.Response.Row}
@@ -1488,11 +1488,11 @@ public final class MiGetRessourceUsage {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (cPU_ != null) {
                   subBuilder = cPU_.toBuilder();
                 }
-                cPU_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                cPU_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(cPU_);
                   cPU_ = subBuilder.buildPartial();
@@ -1501,11 +1501,11 @@ public final class MiGetRessourceUsage {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (physicalIO_ != null) {
                   subBuilder = physicalIO_.toBuilder();
                 }
-                physicalIO_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                physicalIO_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(physicalIO_);
                   physicalIO_ = subBuilder.buildPartial();
@@ -1546,13 +1546,13 @@ public final class MiGetRessourceUsage {
       }
 
       public static final int C_P_U_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue cPU_;
+      private io.dstore.values.IntegerValue cPU_;
       /**
        * <pre>
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
        */
       public boolean hasCPU() {
         return cPU_ != null;
@@ -1562,30 +1562,30 @@ public final class MiGetRessourceUsage {
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
        */
-      public io.dstore.Values.integerValue getCPU() {
-        return cPU_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cPU_;
+      public io.dstore.values.IntegerValue getCPU() {
+        return cPU_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cPU_;
       }
       /**
        * <pre>
        * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCPUOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCPUOrBuilder() {
         return getCPU();
       }
 
       public static final int PHYSICAL_I_O_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue physicalIO_;
+      private io.dstore.values.IntegerValue physicalIO_;
       /**
        * <pre>
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
       public boolean hasPhysicalIO() {
         return physicalIO_ != null;
@@ -1595,19 +1595,19 @@ public final class MiGetRessourceUsage {
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
-      public io.dstore.Values.integerValue getPhysicalIO() {
-        return physicalIO_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : physicalIO_;
+      public io.dstore.values.IntegerValue getPhysicalIO() {
+        return physicalIO_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : physicalIO_;
       }
       /**
        * <pre>
        * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPhysicalIOOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPhysicalIOOrBuilder() {
         return getPhysicalIO();
       }
 
@@ -1966,15 +1966,15 @@ public final class MiGetRessourceUsage {
           return this;
         }
 
-        private io.dstore.Values.integerValue cPU_ = null;
+        private io.dstore.values.IntegerValue cPU_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cPUBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> cPUBuilder_;
         /**
          * <pre>
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public boolean hasCPU() {
           return cPUBuilder_ != null || cPU_ != null;
@@ -1984,11 +1984,11 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
          */
-        public io.dstore.Values.integerValue getCPU() {
+        public io.dstore.values.IntegerValue getCPU() {
           if (cPUBuilder_ == null) {
-            return cPU_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cPU_;
+            return cPU_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cPU_;
           } else {
             return cPUBuilder_.getMessage();
           }
@@ -1998,9 +1998,9 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
          */
-        public Builder setCPU(io.dstore.Values.integerValue value) {
+        public Builder setCPU(io.dstore.values.IntegerValue value) {
           if (cPUBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2018,10 +2018,10 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public Builder setCPU(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (cPUBuilder_ == null) {
             cPU_ = builderForValue.build();
             onChanged();
@@ -2036,13 +2036,13 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
          */
-        public Builder mergeCPU(io.dstore.Values.integerValue value) {
+        public Builder mergeCPU(io.dstore.values.IntegerValue value) {
           if (cPUBuilder_ == null) {
             if (cPU_ != null) {
               cPU_ =
-                io.dstore.Values.integerValue.newBuilder(cPU_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(cPU_).mergeFrom(value).buildPartial();
             } else {
               cPU_ = value;
             }
@@ -2058,7 +2058,7 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         public Builder clearCPU() {
           if (cPUBuilder_ == null) {
@@ -2076,9 +2076,9 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCPUBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCPUBuilder() {
           
           onChanged();
           return getCPUFieldBuilder().getBuilder();
@@ -2088,14 +2088,14 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCPUOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCPUOrBuilder() {
           if (cPUBuilder_ != null) {
             return cPUBuilder_.getMessageOrBuilder();
           } else {
             return cPU_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : cPU_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : cPU_;
           }
         }
         /**
@@ -2103,14 +2103,14 @@ public final class MiGetRessourceUsage {
          * Kummulierte CPU-Zeit in "ticks", die die Sitzung "&#64;&#64;spid" verbraucht hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue c_p_u = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue c_p_u = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCPUFieldBuilder() {
           if (cPUBuilder_ == null) {
             cPUBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCPU(),
                     getParentForChildren(),
                     isClean());
@@ -2119,15 +2119,15 @@ public final class MiGetRessourceUsage {
           return cPUBuilder_;
         }
 
-        private io.dstore.Values.integerValue physicalIO_ = null;
+        private io.dstore.values.IntegerValue physicalIO_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> physicalIOBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> physicalIOBuilder_;
         /**
          * <pre>
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public boolean hasPhysicalIO() {
           return physicalIOBuilder_ != null || physicalIO_ != null;
@@ -2137,11 +2137,11 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
-        public io.dstore.Values.integerValue getPhysicalIO() {
+        public io.dstore.values.IntegerValue getPhysicalIO() {
           if (physicalIOBuilder_ == null) {
-            return physicalIO_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : physicalIO_;
+            return physicalIO_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : physicalIO_;
           } else {
             return physicalIOBuilder_.getMessage();
           }
@@ -2151,9 +2151,9 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
-        public Builder setPhysicalIO(io.dstore.Values.integerValue value) {
+        public Builder setPhysicalIO(io.dstore.values.IntegerValue value) {
           if (physicalIOBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2171,10 +2171,10 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public Builder setPhysicalIO(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (physicalIOBuilder_ == null) {
             physicalIO_ = builderForValue.build();
             onChanged();
@@ -2189,13 +2189,13 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
-        public Builder mergePhysicalIO(io.dstore.Values.integerValue value) {
+        public Builder mergePhysicalIO(io.dstore.values.IntegerValue value) {
           if (physicalIOBuilder_ == null) {
             if (physicalIO_ != null) {
               physicalIO_ =
-                io.dstore.Values.integerValue.newBuilder(physicalIO_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(physicalIO_).mergeFrom(value).buildPartial();
             } else {
               physicalIO_ = value;
             }
@@ -2211,7 +2211,7 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         public Builder clearPhysicalIO() {
           if (physicalIOBuilder_ == null) {
@@ -2229,9 +2229,9 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPhysicalIOBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPhysicalIOBuilder() {
           
           onChanged();
           return getPhysicalIOFieldBuilder().getBuilder();
@@ -2241,14 +2241,14 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPhysicalIOOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPhysicalIOOrBuilder() {
           if (physicalIOBuilder_ != null) {
             return physicalIOBuilder_.getMessageOrBuilder();
           } else {
             return physicalIO_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : physicalIO_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : physicalIO_;
           }
         }
         /**
@@ -2256,14 +2256,14 @@ public final class MiGetRessourceUsage {
          * Anzahl Festplatten-Zugriffe (lesend und schreibend !), die die Sitzung "&#64;&#64;spid" verbraucht hat (i/o in Anzahl 2K-Pages)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue physical_i_o = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue physical_i_o = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPhysicalIOFieldBuilder() {
           if (physicalIOBuilder_ == null) {
             physicalIOBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPhysicalIO(),
                     getParentForChildren(),
                     isClean());
@@ -2427,44 +2427,44 @@ public final class MiGetRessourceUsage {
     }
 
     public static final int CPU_FIELD_NUMBER = 101;
-    private io.dstore.Values.integerValue cpu_;
+    private io.dstore.values.IntegerValue cpu_;
     /**
-     * <code>optional .dstore.values.integerValue cpu = 101;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
      */
     public boolean hasCpu() {
       return cpu_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue cpu = 101;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
      */
-    public io.dstore.Values.integerValue getCpu() {
-      return cpu_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cpu_;
+    public io.dstore.values.IntegerValue getCpu() {
+      return cpu_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cpu_;
     }
     /**
-     * <code>optional .dstore.values.integerValue cpu = 101;</code>
+     * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCpuOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder() {
       return getCpu();
     }
 
     public static final int PHYSICALIO_FIELD_NUMBER = 102;
-    private io.dstore.Values.integerValue physicalio_;
+    private io.dstore.values.IntegerValue physicalio_;
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
      */
     public boolean hasPhysicalio() {
       return physicalio_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
      */
-    public io.dstore.Values.integerValue getPhysicalio() {
-      return physicalio_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : physicalio_;
+    public io.dstore.values.IntegerValue getPhysicalio() {
+      return physicalio_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : physicalio_;
     }
     /**
-     * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+     * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPhysicalioOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder() {
       return getPhysicalio();
     }
 
@@ -3669,29 +3669,29 @@ public final class MiGetRessourceUsage {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.integerValue cpu_ = null;
+      private io.dstore.values.IntegerValue cpu_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cpuBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> cpuBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue cpu = 101;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
        */
       public boolean hasCpu() {
         return cpuBuilder_ != null || cpu_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 101;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
        */
-      public io.dstore.Values.integerValue getCpu() {
+      public io.dstore.values.IntegerValue getCpu() {
         if (cpuBuilder_ == null) {
-          return cpu_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cpu_;
+          return cpu_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cpu_;
         } else {
           return cpuBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 101;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
        */
-      public Builder setCpu(io.dstore.Values.integerValue value) {
+      public Builder setCpu(io.dstore.values.IntegerValue value) {
         if (cpuBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3705,10 +3705,10 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 101;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
        */
       public Builder setCpu(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (cpuBuilder_ == null) {
           cpu_ = builderForValue.build();
           onChanged();
@@ -3719,13 +3719,13 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 101;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
        */
-      public Builder mergeCpu(io.dstore.Values.integerValue value) {
+      public Builder mergeCpu(io.dstore.values.IntegerValue value) {
         if (cpuBuilder_ == null) {
           if (cpu_ != null) {
             cpu_ =
-              io.dstore.Values.integerValue.newBuilder(cpu_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(cpu_).mergeFrom(value).buildPartial();
           } else {
             cpu_ = value;
           }
@@ -3737,7 +3737,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 101;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
        */
       public Builder clearCpu() {
         if (cpuBuilder_ == null) {
@@ -3751,33 +3751,33 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 101;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCpuBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCpuBuilder() {
         
         onChanged();
         return getCpuFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 101;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCpuOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCpuOrBuilder() {
         if (cpuBuilder_ != null) {
           return cpuBuilder_.getMessageOrBuilder();
         } else {
           return cpu_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : cpu_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : cpu_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue cpu = 101;</code>
+       * <code>optional .dstore.values.IntegerValue cpu = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCpuFieldBuilder() {
         if (cpuBuilder_ == null) {
           cpuBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCpu(),
                   getParentForChildren(),
                   isClean());
@@ -3786,29 +3786,29 @@ public final class MiGetRessourceUsage {
         return cpuBuilder_;
       }
 
-      private io.dstore.Values.integerValue physicalio_ = null;
+      private io.dstore.values.IntegerValue physicalio_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> physicalioBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> physicalioBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
        */
       public boolean hasPhysicalio() {
         return physicalioBuilder_ != null || physicalio_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
        */
-      public io.dstore.Values.integerValue getPhysicalio() {
+      public io.dstore.values.IntegerValue getPhysicalio() {
         if (physicalioBuilder_ == null) {
-          return physicalio_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : physicalio_;
+          return physicalio_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : physicalio_;
         } else {
           return physicalioBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
        */
-      public Builder setPhysicalio(io.dstore.Values.integerValue value) {
+      public Builder setPhysicalio(io.dstore.values.IntegerValue value) {
         if (physicalioBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3822,10 +3822,10 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
        */
       public Builder setPhysicalio(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (physicalioBuilder_ == null) {
           physicalio_ = builderForValue.build();
           onChanged();
@@ -3836,13 +3836,13 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
        */
-      public Builder mergePhysicalio(io.dstore.Values.integerValue value) {
+      public Builder mergePhysicalio(io.dstore.values.IntegerValue value) {
         if (physicalioBuilder_ == null) {
           if (physicalio_ != null) {
             physicalio_ =
-              io.dstore.Values.integerValue.newBuilder(physicalio_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(physicalio_).mergeFrom(value).buildPartial();
           } else {
             physicalio_ = value;
           }
@@ -3854,7 +3854,7 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
        */
       public Builder clearPhysicalio() {
         if (physicalioBuilder_ == null) {
@@ -3868,33 +3868,33 @@ public final class MiGetRessourceUsage {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPhysicalioBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPhysicalioBuilder() {
         
         onChanged();
         return getPhysicalioFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPhysicalioOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPhysicalioOrBuilder() {
         if (physicalioBuilder_ != null) {
           return physicalioBuilder_.getMessageOrBuilder();
         } else {
           return physicalio_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : physicalio_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : physicalio_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue physicalio = 102;</code>
+       * <code>optional .dstore.values.IntegerValue physicalio = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPhysicalioFieldBuilder() {
         if (physicalioBuilder_ == null) {
           physicalioBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPhysicalio(),
                   getParentForChildren(),
                   isClean());
@@ -3979,21 +3979,21 @@ public final class MiGetRessourceUsage {
       "ceUsage.proto\022\"dstore.engine.mi_GetResso" +
       "urceUsage\032\023dstore/values.proto\032\032dstore/e" +
       "ngine/engine.proto\"\345\001\n\nParameters\022(\n\003cpu" +
-      "\030\001 \001(\0132\033.dstore.values.integerValue\022\021\n\010c" +
+      "\030\001 \001(\0132\033.dstore.values.IntegerValue\022\021\n\010c" +
       "pu_null\030\351\007 \001(\010\022/\n\nphysicalio\030\002 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\030\n\017physicalio_nu" +
+      "ore.values.IntegerValue\022\030\n\017physicalio_nu" +
       "ll\030\352\007 \001(\010\0222\n\rselect_result\030\003 \001(\0132\033.dstor" +
-      "e.values.booleanValue\022\033\n\022select_result_n" +
+      "e.values.BooleanValue\022\033\n\022select_result_n" +
       "ull\030\353\007 \001(\010\"\200\003\n\010Response\0228\n\020meta_informat",
       "ion\030\002 \003(\0132\036.dstore.engine.MetaInformatio" +
       "n\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Messa" +
       "ge\022=\n\003row\030\004 \003(\01320.dstore.engine.mi_GetRe" +
       "ssourceUsage.Response.Row\022(\n\003cpu\030e \001(\0132\033" +
-      ".dstore.values.integerValue\022/\n\nphysicali" +
-      "o\030f \001(\0132\033.dstore.values.integerValue\032w\n\003" +
+      ".dstore.values.IntegerValue\022/\n\nphysicali" +
+      "o\030f \001(\0132\033.dstore.values.IntegerValue\032w\n\003" +
       "Row\022\017\n\006row_id\030\220N \001(\005\022+\n\005c_p_u\030\221N \001(\0132\033.d" +
-      "store.values.integerValue\0222\n\014physical_i_" +
-      "o\030\222N \001(\0132\033.dstore.values.integerValueBU\n" +
+      "store.values.IntegerValue\0222\n\014physical_i_" +
+      "o\030\222N \001(\0132\033.dstore.values.IntegerValueBU\n" +
       "\033io.dstore.engine.proceduresZ6gosdk.dsto",
       "re.de/engine/procedures/mi_GetRessourceU" +
       "sageb\006proto3"
@@ -4009,7 +4009,7 @@ public final class MiGetRessourceUsage {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetRessourceUsage_Parameters_descriptor =
@@ -4030,7 +4030,7 @@ public final class MiGetRessourceUsage {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetRessourceUsage_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CPU", "PhysicalIO", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmModifySurchargeTypeDescrAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     boolean hasSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getSurchargeTypeId();
+    io.dstore.values.IntegerValue getSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
     /**
      * <code>optional bool surcharge_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifySurchargeTypeDescrAd {
     boolean getSurchargeTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifySurchargeTypeDescrAd {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
      */
     boolean hasSurchargeTypeDescription();
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
      */
-    io.dstore.Values.stringValue getSurchargeTypeDescription();
+    io.dstore.values.StringValue getSurchargeTypeDescription();
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
     /**
      * <code>optional bool surcharge_type_description_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmModifySurchargeTypeDescrAd {
     boolean getSurchargeTypeDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
     boolean hasDeleteTranslation();
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
-    io.dstore.Values.booleanValue getDeleteTranslation();
+    io.dstore.values.BooleanValue getDeleteTranslation();
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteTranslationOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteTranslationOrBuilder();
 
     /**
      * <code>optional bool delete_translation_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class OmModifySurchargeTypeDescrAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (surchargeTypeId_ != null) {
                 subBuilder = surchargeTypeId_.toBuilder();
               }
-              surchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              surchargeTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(surchargeTypeId_);
                 surchargeTypeId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class OmModifySurchargeTypeDescrAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class OmModifySurchargeTypeDescrAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (surchargeTypeDescription_ != null) {
                 subBuilder = surchargeTypeDescription_.toBuilder();
               }
-              surchargeTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              surchargeTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(surchargeTypeDescription_);
                 surchargeTypeDescription_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class OmModifySurchargeTypeDescrAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteTranslation_ != null) {
                 subBuilder = deleteTranslation_.toBuilder();
               }
-              deleteTranslation_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteTranslation_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteTranslation_);
                 deleteTranslation_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class OmModifySurchargeTypeDescrAd {
     }
 
     public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue surchargeTypeId_;
+    private io.dstore.values.IntegerValue surchargeTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     public boolean hasSurchargeTypeId() {
       return surchargeTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getSurchargeTypeId() {
-      return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+    public io.dstore.values.IntegerValue getSurchargeTypeId() {
+      return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
       return getSurchargeTypeId();
     }
 
@@ -259,23 +259,23 @@ public final class OmModifySurchargeTypeDescrAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -289,23 +289,23 @@ public final class OmModifySurchargeTypeDescrAd {
     }
 
     public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue surchargeTypeDescription_;
+    private io.dstore.values.StringValue surchargeTypeDescription_;
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
      */
     public boolean hasSurchargeTypeDescription() {
       return surchargeTypeDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
      */
-    public io.dstore.Values.stringValue getSurchargeTypeDescription() {
-      return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+    public io.dstore.values.StringValue getSurchargeTypeDescription() {
+      return surchargeTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
       return getSurchargeTypeDescription();
     }
 
@@ -319,23 +319,23 @@ public final class OmModifySurchargeTypeDescrAd {
     }
 
     public static final int DELETE_TRANSLATION_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue deleteTranslation_;
+    private io.dstore.values.BooleanValue deleteTranslation_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
     public boolean hasDeleteTranslation() {
       return deleteTranslation_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteTranslation() {
-      return deleteTranslation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteTranslation_;
+    public io.dstore.values.BooleanValue getDeleteTranslation() {
+      return deleteTranslation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteTranslation_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteTranslationOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteTranslationOrBuilder() {
       return getDeleteTranslation();
     }
 
@@ -792,29 +792,29 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue surchargeTypeId_ = null;
+      private io.dstore.values.IntegerValue surchargeTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getSurchargeTypeId() {
+      public io.dstore.values.IntegerValue getSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
-          return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+          return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
         } else {
           return surchargeTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
+      public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public Builder setSurchargeTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (surchargeTypeId_ != null) {
             surchargeTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
           } else {
             surchargeTypeId_ = value;
           }
@@ -860,7 +860,7 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public Builder clearSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
         
         onChanged();
         return getSurchargeTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         if (surchargeTypeIdBuilder_ != null) {
           return surchargeTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return surchargeTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSurchargeTypeIdFieldBuilder() {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSurchargeTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue surchargeTypeDescription_ = null;
+      private io.dstore.values.StringValue surchargeTypeDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> surchargeTypeDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
        */
       public boolean hasSurchargeTypeDescription() {
         return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
        */
-      public io.dstore.Values.stringValue getSurchargeTypeDescription() {
+      public io.dstore.values.StringValue getSurchargeTypeDescription() {
         if (surchargeTypeDescriptionBuilder_ == null) {
-          return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+          return surchargeTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
         } else {
           return surchargeTypeDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
        */
-      public Builder setSurchargeTypeDescription(io.dstore.Values.stringValue value) {
+      public Builder setSurchargeTypeDescription(io.dstore.values.StringValue value) {
         if (surchargeTypeDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
        */
       public Builder setSurchargeTypeDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (surchargeTypeDescriptionBuilder_ == null) {
           surchargeTypeDescription_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
        */
-      public Builder mergeSurchargeTypeDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeSurchargeTypeDescription(io.dstore.values.StringValue value) {
         if (surchargeTypeDescriptionBuilder_ == null) {
           if (surchargeTypeDescription_ != null) {
             surchargeTypeDescription_ =
-              io.dstore.Values.stringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
           } else {
             surchargeTypeDescription_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
        */
       public Builder clearSurchargeTypeDescription() {
         if (surchargeTypeDescriptionBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSurchargeTypeDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getSurchargeTypeDescriptionBuilder() {
         
         onChanged();
         return getSurchargeTypeDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
         if (surchargeTypeDescriptionBuilder_ != null) {
           return surchargeTypeDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return surchargeTypeDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSurchargeTypeDescriptionFieldBuilder() {
         if (surchargeTypeDescriptionBuilder_ == null) {
           surchargeTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSurchargeTypeDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteTranslation_ = null;
+      private io.dstore.values.BooleanValue deleteTranslation_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteTranslationBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteTranslationBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
       public boolean hasDeleteTranslation() {
         return deleteTranslationBuilder_ != null || deleteTranslation_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteTranslation() {
+      public io.dstore.values.BooleanValue getDeleteTranslation() {
         if (deleteTranslationBuilder_ == null) {
-          return deleteTranslation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteTranslation_;
+          return deleteTranslation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteTranslation_;
         } else {
           return deleteTranslationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public Builder setDeleteTranslation(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteTranslation(io.dstore.values.BooleanValue value) {
         if (deleteTranslationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
       public Builder setDeleteTranslation(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteTranslationBuilder_ == null) {
           deleteTranslation_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public Builder mergeDeleteTranslation(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteTranslation(io.dstore.values.BooleanValue value) {
         if (deleteTranslationBuilder_ == null) {
           if (deleteTranslation_ != null) {
             deleteTranslation_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteTranslation_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteTranslation_).mergeFrom(value).buildPartial();
           } else {
             deleteTranslation_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
       public Builder clearDeleteTranslation() {
         if (deleteTranslationBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class OmModifySurchargeTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteTranslationBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteTranslationBuilder() {
         
         onChanged();
         return getDeleteTranslationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteTranslationOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteTranslationOrBuilder() {
         if (deleteTranslationBuilder_ != null) {
           return deleteTranslationBuilder_.getMessageOrBuilder();
         } else {
           return deleteTranslation_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteTranslation_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteTranslation_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteTranslationFieldBuilder() {
         if (deleteTranslationBuilder_ == null) {
           deleteTranslationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteTranslation(),
                   getParentForChildren(),
                   isClean());
@@ -3451,14 +3451,14 @@ public final class OmModifySurchargeTypeDescrAd {
       "m_ModifySurchargeTypeDescr_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\367" +
       "\002\n\nParameters\0226\n\021surcharge_type_id\030\001 \001(\013" +
-      "2\033.dstore.values.integerValue\022\037\n\026surchar" +
+      "2\033.dstore.values.IntegerValue\022\037\n\026surchar" +
       "ge_type_id_null\030\351\007 \001(\010\0220\n\013language_id\030\002 " +
-      "\001(\0132\033.dstore.values.integerValue\022\031\n\020lang" +
+      "\001(\0132\033.dstore.values.IntegerValue\022\031\n\020lang" +
       "uage_id_null\030\352\007 \001(\010\022>\n\032surcharge_type_de" +
-      "scription\030\003 \001(\0132\032.dstore.values.stringVa",
+      "scription\030\003 \001(\0132\032.dstore.values.StringVa",
       "lue\022(\n\037surcharge_type_description_null\030\353" +
       "\007 \001(\010\0227\n\022delete_translation\030\004 \001(\0132\033.dsto" +
-      "re.values.booleanValue\022 \n\027delete_transla" +
+      "re.values.BooleanValue\022 \n\027delete_transla" +
       "tion_null\030\354\007 \001(\010\"\316\001\n\010Response\0228\n\020meta_in" +
       "formation\030\002 \003(\0132\036.dstore.engine.MetaInfo" +
       "rmation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine" +
@@ -3480,7 +3480,7 @@ public final class OmModifySurchargeTypeDescrAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifySurchargeTypeDescr_Ad_Parameters_descriptor =
@@ -3501,7 +3501,7 @@ public final class OmModifySurchargeTypeDescrAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifySurchargeTypeDescr_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

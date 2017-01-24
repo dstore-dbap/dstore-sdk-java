@@ -19,17 +19,17 @@ public final class CoGetBinaryCatAccessLevels {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
     boolean hasCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommunityBinaryCategoryId();
+    io.dstore.values.IntegerValue getCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
 
     /**
      * <code>optional bool community_binary_category_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class CoGetBinaryCatAccessLevels {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityBinaryCategoryId_ != null) {
                 subBuilder = communityBinaryCategoryId_.toBuilder();
               }
-              communityBinaryCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityBinaryCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityBinaryCategoryId_);
                 communityBinaryCategoryId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class CoGetBinaryCatAccessLevels {
     }
 
     public static final int COMMUNITY_BINARY_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue communityBinaryCategoryId_;
+    private io.dstore.values.IntegerValue communityBinaryCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
     public boolean hasCommunityBinaryCategoryId() {
       return communityBinaryCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
-      return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+    public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
+      return communityBinaryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
       return getCommunityBinaryCategoryId();
     }
 
@@ -447,29 +447,29 @@ public final class CoGetBinaryCatAccessLevels {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityBinaryCategoryId_ = null;
+      private io.dstore.values.IntegerValue communityBinaryCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityBinaryCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityBinaryCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public boolean hasCommunityBinaryCategoryId() {
         return communityBinaryCategoryIdBuilder_ != null || communityBinaryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
+      public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
-          return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+          return communityBinaryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
         } else {
           return communityBinaryCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
-      public Builder setCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class CoGetBinaryCatAccessLevels {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public Builder setCommunityBinaryCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class CoGetBinaryCatAccessLevels {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
-      public Builder mergeCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (communityBinaryCategoryId_ != null) {
             communityBinaryCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
           } else {
             communityBinaryCategoryId_ = value;
           }
@@ -515,7 +515,7 @@ public final class CoGetBinaryCatAccessLevels {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       public Builder clearCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class CoGetBinaryCatAccessLevels {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityBinaryCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityBinaryCategoryIdBuilder() {
         
         onChanged();
         return getCommunityBinaryCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
         if (communityBinaryCategoryIdBuilder_ != null) {
           return communityBinaryCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return communityBinaryCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityBinaryCategoryIdFieldBuilder() {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityBinaryCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class CoGetBinaryCatAccessLevels {
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
       boolean hasAccessLevelId();
       /**
@@ -857,24 +857,24 @@ public final class CoGetBinaryCatAccessLevels {
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getAccessLevelId();
+      io.dstore.values.IntegerValue getAccessLevelId();
       /**
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getAccessLevelIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getAccessLevelIdOrBuilder();
 
       /**
        * <pre>
        * Klartext (Beschreibung) des Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
       boolean hasDescription();
       /**
@@ -882,17 +882,17 @@ public final class CoGetBinaryCatAccessLevels {
        * Klartext (Beschreibung) des Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      io.dstore.Values.stringValue getDescription();
+      io.dstore.values.StringValue getDescription();
       /**
        * <pre>
        * Klartext (Beschreibung) des Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetBinaryCatAccessLevels.Response.Row}
@@ -940,11 +940,11 @@ public final class CoGetBinaryCatAccessLevels {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (accessLevelId_ != null) {
                   subBuilder = accessLevelId_.toBuilder();
                 }
-                accessLevelId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                accessLevelId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accessLevelId_);
                   accessLevelId_ = subBuilder.buildPartial();
@@ -953,11 +953,11 @@ public final class CoGetBinaryCatAccessLevels {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -998,13 +998,13 @@ public final class CoGetBinaryCatAccessLevels {
       }
 
       public static final int ACCESS_LEVEL_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue accessLevelId_;
+      private io.dstore.values.IntegerValue accessLevelId_;
       /**
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
       public boolean hasAccessLevelId() {
         return accessLevelId_ != null;
@@ -1014,30 +1014,30 @@ public final class CoGetBinaryCatAccessLevels {
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getAccessLevelId() {
-        return accessLevelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevelId_;
+      public io.dstore.values.IntegerValue getAccessLevelId() {
+        return accessLevelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevelId_;
       }
       /**
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getAccessLevelIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getAccessLevelIdOrBuilder() {
         return getAccessLevelId();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue description_;
+      private io.dstore.values.StringValue description_;
       /**
        * <pre>
        * Klartext (Beschreibung) des Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -1047,19 +1047,19 @@ public final class CoGetBinaryCatAccessLevels {
        * Klartext (Beschreibung) des Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.values.StringValue getDescription() {
+        return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
       }
       /**
        * <pre>
        * Klartext (Beschreibung) des Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
@@ -1418,15 +1418,15 @@ public final class CoGetBinaryCatAccessLevels {
           return this;
         }
 
-        private io.dstore.Values.integerValue accessLevelId_ = null;
+        private io.dstore.values.IntegerValue accessLevelId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accessLevelIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> accessLevelIdBuilder_;
         /**
          * <pre>
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
         public boolean hasAccessLevelId() {
           return accessLevelIdBuilder_ != null || accessLevelId_ != null;
@@ -1436,11 +1436,11 @@ public final class CoGetBinaryCatAccessLevels {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getAccessLevelId() {
+        public io.dstore.values.IntegerValue getAccessLevelId() {
           if (accessLevelIdBuilder_ == null) {
-            return accessLevelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevelId_;
+            return accessLevelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevelId_;
           } else {
             return accessLevelIdBuilder_.getMessage();
           }
@@ -1450,9 +1450,9 @@ public final class CoGetBinaryCatAccessLevels {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public Builder setAccessLevelId(io.dstore.Values.integerValue value) {
+        public Builder setAccessLevelId(io.dstore.values.IntegerValue value) {
           if (accessLevelIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1470,10 +1470,10 @@ public final class CoGetBinaryCatAccessLevels {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
         public Builder setAccessLevelId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (accessLevelIdBuilder_ == null) {
             accessLevelId_ = builderForValue.build();
             onChanged();
@@ -1488,13 +1488,13 @@ public final class CoGetBinaryCatAccessLevels {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public Builder mergeAccessLevelId(io.dstore.Values.integerValue value) {
+        public Builder mergeAccessLevelId(io.dstore.values.IntegerValue value) {
           if (accessLevelIdBuilder_ == null) {
             if (accessLevelId_ != null) {
               accessLevelId_ =
-                io.dstore.Values.integerValue.newBuilder(accessLevelId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(accessLevelId_).mergeFrom(value).buildPartial();
             } else {
               accessLevelId_ = value;
             }
@@ -1510,7 +1510,7 @@ public final class CoGetBinaryCatAccessLevels {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
         public Builder clearAccessLevelId() {
           if (accessLevelIdBuilder_ == null) {
@@ -1528,9 +1528,9 @@ public final class CoGetBinaryCatAccessLevels {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getAccessLevelIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getAccessLevelIdBuilder() {
           
           onChanged();
           return getAccessLevelIdFieldBuilder().getBuilder();
@@ -1540,14 +1540,14 @@ public final class CoGetBinaryCatAccessLevels {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getAccessLevelIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getAccessLevelIdOrBuilder() {
           if (accessLevelIdBuilder_ != null) {
             return accessLevelIdBuilder_.getMessageOrBuilder();
           } else {
             return accessLevelId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : accessLevelId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : accessLevelId_;
           }
         }
         /**
@@ -1555,14 +1555,14 @@ public final class CoGetBinaryCatAccessLevels {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getAccessLevelIdFieldBuilder() {
           if (accessLevelIdBuilder_ == null) {
             accessLevelIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getAccessLevelId(),
                     getParentForChildren(),
                     isClean());
@@ -1571,15 +1571,15 @@ public final class CoGetBinaryCatAccessLevels {
           return accessLevelIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue description_ = null;
+        private io.dstore.values.StringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
          * Klartext (Beschreibung) des Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -1589,11 +1589,11 @@ public final class CoGetBinaryCatAccessLevels {
          * Klartext (Beschreibung) des Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getDescription() {
+        public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
@@ -1603,9 +1603,9 @@ public final class CoGetBinaryCatAccessLevels {
          * Klartext (Beschreibung) des Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public Builder setDescription(io.dstore.Values.stringValue value) {
+        public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1623,10 +1623,10 @@ public final class CoGetBinaryCatAccessLevels {
          * Klartext (Beschreibung) des Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         public Builder setDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -1641,13 +1641,13 @@ public final class CoGetBinaryCatAccessLevels {
          * Klartext (Beschreibung) des Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public Builder mergeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -1663,7 +1663,7 @@ public final class CoGetBinaryCatAccessLevels {
          * Klartext (Beschreibung) des Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -1681,9 +1681,9 @@ public final class CoGetBinaryCatAccessLevels {
          * Klartext (Beschreibung) des Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
@@ -1693,14 +1693,14 @@ public final class CoGetBinaryCatAccessLevels {
          * Klartext (Beschreibung) des Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.values.StringValue.getDefaultInstance() : description_;
           }
         }
         /**
@@ -1708,14 +1708,14 @@ public final class CoGetBinaryCatAccessLevels {
          * Klartext (Beschreibung) des Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3185,7 +3185,7 @@ public final class CoGetBinaryCatAccessLevels {
       "etBinaryCatAccessLevels\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"{\n\nPara" +
       "meters\022A\n\034community_binary_category_id\030\001" +
-      " \001(\0132\033.dstore.values.integerValue\022*\n!com" +
+      " \001(\0132\033.dstore.values.IntegerValue\022*\n!com" +
       "munity_binary_category_id_null\030\351\007 \001(\010\"\264\002" +
       "\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036.d" +
       "store.engine.MetaInformation\022\'\n\007message\030" +
@@ -3193,8 +3193,8 @@ public final class CoGetBinaryCatAccessLevels {
       "(\01327.dstore.engine.co_GetBinaryCatAccess" +
       "Levels.Response.Row\032\177\n\003Row\022\017\n\006row_id\030\220N " +
       "\001(\005\0225\n\017access_level_id\030\221N \001(\0132\033.dstore.v" +
-      "alues.integerValue\0220\n\013description\030\222N \001(\013" +
-      "2\032.dstore.values.stringValueB\\\n\033io.dstor" +
+      "alues.IntegerValue\0220\n\013description\030\222N \001(\013" +
+      "2\032.dstore.values.StringValueB\\\n\033io.dstor" +
       "e.engine.proceduresZ=gosdk.dstore.de/eng" +
       "ine/procedures/co_GetBinaryCatAccessLeve" +
       "lsb\006proto3"
@@ -3210,7 +3210,7 @@ public final class CoGetBinaryCatAccessLevels {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_GetBinaryCatAccessLevels_Parameters_descriptor =
@@ -3231,7 +3231,7 @@ public final class CoGetBinaryCatAccessLevels {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetBinaryCatAccessLevels_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "AccessLevelId", "Description", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class MiGetUnitConvertsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
     boolean hasFromUnitId();
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
-    io.dstore.Values.integerValue getFromUnitId();
+    io.dstore.values.IntegerValue getFromUnitId();
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder();
 
     /**
      * <code>optional bool from_unit_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetUnitConvertsAd {
     boolean getFromUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
     boolean hasToUnitId();
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
-    io.dstore.Values.integerValue getToUnitId();
+    io.dstore.values.IntegerValue getToUnitId();
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder();
 
     /**
      * <code>optional bool to_unit_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetUnitConvertsAd {
     boolean getToUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    io.dstore.Values.timestampValue getFromDate();
+    io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiGetUnitConvertsAd {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
-    io.dstore.Values.timestampValue getToDate();
+    io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class MiGetUnitConvertsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (fromUnitId_ != null) {
                 subBuilder = fromUnitId_.toBuilder();
               }
-              fromUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              fromUnitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromUnitId_);
                 fromUnitId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class MiGetUnitConvertsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (toUnitId_ != null) {
                 subBuilder = toUnitId_.toBuilder();
               }
-              toUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              toUnitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toUnitId_);
                 toUnitId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class MiGetUnitConvertsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class MiGetUnitConvertsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class MiGetUnitConvertsAd {
     }
 
     public static final int FROM_UNIT_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue fromUnitId_;
+    private io.dstore.values.IntegerValue fromUnitId_;
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
     public boolean hasFromUnitId() {
       return fromUnitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getFromUnitId() {
-      return fromUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+    public io.dstore.values.IntegerValue getFromUnitId() {
+      return fromUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder() {
       return getFromUnitId();
     }
 
@@ -259,23 +259,23 @@ public final class MiGetUnitConvertsAd {
     }
 
     public static final int TO_UNIT_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue toUnitId_;
+    private io.dstore.values.IntegerValue toUnitId_;
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
     public boolean hasToUnitId() {
       return toUnitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getToUnitId() {
-      return toUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+    public io.dstore.values.IntegerValue getToUnitId() {
+      return toUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder() {
       return getToUnitId();
     }
 
@@ -289,23 +289,23 @@ public final class MiGetUnitConvertsAd {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 3;
-    private io.dstore.Values.timestampValue fromDate_;
+    private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    public io.dstore.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.values.TimestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -319,23 +319,23 @@ public final class MiGetUnitConvertsAd {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 4;
-    private io.dstore.Values.timestampValue toDate_;
+    private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
-    public io.dstore.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.values.TimestampValue getToDate() {
+      return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -792,29 +792,29 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue fromUnitId_ = null;
+      private io.dstore.values.IntegerValue fromUnitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromUnitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromUnitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
       public boolean hasFromUnitId() {
         return fromUnitIdBuilder_ != null || fromUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getFromUnitId() {
+      public io.dstore.values.IntegerValue getFromUnitId() {
         if (fromUnitIdBuilder_ == null) {
-          return fromUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+          return fromUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
         } else {
           return fromUnitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public Builder setFromUnitId(io.dstore.Values.integerValue value) {
+      public Builder setFromUnitId(io.dstore.values.IntegerValue value) {
         if (fromUnitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
       public Builder setFromUnitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (fromUnitIdBuilder_ == null) {
           fromUnitId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public Builder mergeFromUnitId(io.dstore.Values.integerValue value) {
+      public Builder mergeFromUnitId(io.dstore.values.IntegerValue value) {
         if (fromUnitIdBuilder_ == null) {
           if (fromUnitId_ != null) {
             fromUnitId_ =
-              io.dstore.Values.integerValue.newBuilder(fromUnitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(fromUnitId_).mergeFrom(value).buildPartial();
           } else {
             fromUnitId_ = value;
           }
@@ -860,7 +860,7 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
       public Builder clearFromUnitId() {
         if (fromUnitIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFromUnitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFromUnitIdBuilder() {
         
         onChanged();
         return getFromUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder() {
         if (fromUnitIdBuilder_ != null) {
           return fromUnitIdBuilder_.getMessageOrBuilder();
         } else {
           return fromUnitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFromUnitIdFieldBuilder() {
         if (fromUnitIdBuilder_ == null) {
           fromUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFromUnitId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue toUnitId_ = null;
+      private io.dstore.values.IntegerValue toUnitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toUnitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toUnitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
       public boolean hasToUnitId() {
         return toUnitIdBuilder_ != null || toUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getToUnitId() {
+      public io.dstore.values.IntegerValue getToUnitId() {
         if (toUnitIdBuilder_ == null) {
-          return toUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+          return toUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
         } else {
           return toUnitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public Builder setToUnitId(io.dstore.Values.integerValue value) {
+      public Builder setToUnitId(io.dstore.values.IntegerValue value) {
         if (toUnitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
       public Builder setToUnitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (toUnitIdBuilder_ == null) {
           toUnitId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public Builder mergeToUnitId(io.dstore.Values.integerValue value) {
+      public Builder mergeToUnitId(io.dstore.values.IntegerValue value) {
         if (toUnitIdBuilder_ == null) {
           if (toUnitId_ != null) {
             toUnitId_ =
-              io.dstore.Values.integerValue.newBuilder(toUnitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(toUnitId_).mergeFrom(value).buildPartial();
           } else {
             toUnitId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
       public Builder clearToUnitId() {
         if (toUnitIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getToUnitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getToUnitIdBuilder() {
         
         onChanged();
         return getToUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder() {
         if (toUnitIdBuilder_ != null) {
           return toUnitIdBuilder_.getMessageOrBuilder();
         } else {
           return toUnitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getToUnitIdFieldBuilder() {
         if (toUnitIdBuilder_ == null) {
           toUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getToUnitId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDate_ = null;
+      private io.dstore.values.TimestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue getFromDate() {
+      public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public Builder setFromDate(io.dstore.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder setFromDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toDate_ = null;
+      private io.dstore.values.TimestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public io.dstore.Values.timestampValue getToDate() {
+      public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public Builder setToDate(io.dstore.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
       public Builder setToDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class MiGetUnitConvertsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -1623,7 +1623,7 @@ public final class MiGetUnitConvertsAd {
        * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
        */
       boolean hasConvertFactor();
       /**
@@ -1631,24 +1631,24 @@ public final class MiGetUnitConvertsAd {
        * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
        */
-      io.dstore.Values.decimalValue getConvertFactor();
+      io.dstore.values.DecimalValue getConvertFactor();
       /**
        * <pre>
        * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getConvertFactorOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getConvertFactorOrBuilder();
 
       /**
        * <pre>
        * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
        */
       boolean hasFromDateAndTime();
       /**
@@ -1656,24 +1656,24 @@ public final class MiGetUnitConvertsAd {
        * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
        */
-      io.dstore.Values.stringValue getFromDateAndTime();
+      io.dstore.values.StringValue getFromDateAndTime();
       /**
        * <pre>
        * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getFromDateAndTimeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getFromDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
        */
       boolean hasFromUnitId();
       /**
@@ -1681,24 +1681,24 @@ public final class MiGetUnitConvertsAd {
        * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getFromUnitId();
+      io.dstore.values.IntegerValue getFromUnitId();
       /**
        * <pre>
        * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder();
 
       /**
        * <pre>
        * ID einer Zieleinheit
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
        */
       boolean hasToUnitId();
       /**
@@ -1706,24 +1706,24 @@ public final class MiGetUnitConvertsAd {
        * ID einer Zieleinheit
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
        */
-      io.dstore.Values.integerValue getToUnitId();
+      io.dstore.values.IntegerValue getToUnitId();
       /**
        * <pre>
        * ID einer Zieleinheit
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder();
 
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+       * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
        */
       boolean hasFromUnitSymbol();
       /**
@@ -1731,24 +1731,24 @@ public final class MiGetUnitConvertsAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+       * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
        */
-      io.dstore.Values.stringValue getFromUnitSymbol();
+      io.dstore.values.StringValue getFromUnitSymbol();
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+       * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getFromUnitSymbolOrBuilder();
+      io.dstore.values.StringValueOrBuilder getFromUnitSymbolOrBuilder();
 
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
        */
       boolean hasToUnitSymbol();
       /**
@@ -1756,24 +1756,24 @@ public final class MiGetUnitConvertsAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
        */
-      io.dstore.Values.stringValue getToUnitSymbol();
+      io.dstore.values.StringValue getToUnitSymbol();
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getToUnitSymbolOrBuilder();
+      io.dstore.values.StringValueOrBuilder getToUnitSymbolOrBuilder();
 
       /**
        * <pre>
        * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+       * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
        */
       boolean hasToDateAndTime();
       /**
@@ -1781,17 +1781,17 @@ public final class MiGetUnitConvertsAd {
        * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+       * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
        */
-      io.dstore.Values.stringValue getToDateAndTime();
+      io.dstore.values.StringValue getToDateAndTime();
       /**
        * <pre>
        * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+       * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getToDateAndTimeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getToDateAndTimeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetUnitConverts_Ad.Response.Row}
@@ -1839,11 +1839,11 @@ public final class MiGetUnitConvertsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (convertFactor_ != null) {
                   subBuilder = convertFactor_.toBuilder();
                 }
-                convertFactor_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                convertFactor_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(convertFactor_);
                   convertFactor_ = subBuilder.buildPartial();
@@ -1852,11 +1852,11 @@ public final class MiGetUnitConvertsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (fromDateAndTime_ != null) {
                   subBuilder = fromDateAndTime_.toBuilder();
                 }
-                fromDateAndTime_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                fromDateAndTime_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromDateAndTime_);
                   fromDateAndTime_ = subBuilder.buildPartial();
@@ -1865,11 +1865,11 @@ public final class MiGetUnitConvertsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (fromUnitId_ != null) {
                   subBuilder = fromUnitId_.toBuilder();
                 }
-                fromUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                fromUnitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromUnitId_);
                   fromUnitId_ = subBuilder.buildPartial();
@@ -1878,11 +1878,11 @@ public final class MiGetUnitConvertsAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (toUnitId_ != null) {
                   subBuilder = toUnitId_.toBuilder();
                 }
-                toUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                toUnitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toUnitId_);
                   toUnitId_ = subBuilder.buildPartial();
@@ -1891,11 +1891,11 @@ public final class MiGetUnitConvertsAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (fromUnitSymbol_ != null) {
                   subBuilder = fromUnitSymbol_.toBuilder();
                 }
-                fromUnitSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                fromUnitSymbol_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromUnitSymbol_);
                   fromUnitSymbol_ = subBuilder.buildPartial();
@@ -1904,11 +1904,11 @@ public final class MiGetUnitConvertsAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (toUnitSymbol_ != null) {
                   subBuilder = toUnitSymbol_.toBuilder();
                 }
-                toUnitSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                toUnitSymbol_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toUnitSymbol_);
                   toUnitSymbol_ = subBuilder.buildPartial();
@@ -1917,11 +1917,11 @@ public final class MiGetUnitConvertsAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (toDateAndTime_ != null) {
                   subBuilder = toDateAndTime_.toBuilder();
                 }
-                toDateAndTime_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                toDateAndTime_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toDateAndTime_);
                   toDateAndTime_ = subBuilder.buildPartial();
@@ -1962,13 +1962,13 @@ public final class MiGetUnitConvertsAd {
       }
 
       public static final int CONVERT_FACTOR_FIELD_NUMBER = 10001;
-      private io.dstore.Values.decimalValue convertFactor_;
+      private io.dstore.values.DecimalValue convertFactor_;
       /**
        * <pre>
        * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
        */
       public boolean hasConvertFactor() {
         return convertFactor_ != null;
@@ -1978,30 +1978,30 @@ public final class MiGetUnitConvertsAd {
        * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
        */
-      public io.dstore.Values.decimalValue getConvertFactor() {
-        return convertFactor_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : convertFactor_;
+      public io.dstore.values.DecimalValue getConvertFactor() {
+        return convertFactor_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : convertFactor_;
       }
       /**
        * <pre>
        * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getConvertFactorOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getConvertFactorOrBuilder() {
         return getConvertFactor();
       }
 
       public static final int FROM_DATE_AND_TIME_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue fromDateAndTime_;
+      private io.dstore.values.StringValue fromDateAndTime_;
       /**
        * <pre>
        * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
        */
       public boolean hasFromDateAndTime() {
         return fromDateAndTime_ != null;
@@ -2011,30 +2011,30 @@ public final class MiGetUnitConvertsAd {
        * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
        */
-      public io.dstore.Values.stringValue getFromDateAndTime() {
-        return fromDateAndTime_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromDateAndTime_;
+      public io.dstore.values.StringValue getFromDateAndTime() {
+        return fromDateAndTime_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fromDateAndTime_;
       }
       /**
        * <pre>
        * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getFromDateAndTimeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getFromDateAndTimeOrBuilder() {
         return getFromDateAndTime();
       }
 
       public static final int FROM_UNIT_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue fromUnitId_;
+      private io.dstore.values.IntegerValue fromUnitId_;
       /**
        * <pre>
        * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
        */
       public boolean hasFromUnitId() {
         return fromUnitId_ != null;
@@ -2044,30 +2044,30 @@ public final class MiGetUnitConvertsAd {
        * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getFromUnitId() {
-        return fromUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+      public io.dstore.values.IntegerValue getFromUnitId() {
+        return fromUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
       }
       /**
        * <pre>
        * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder() {
         return getFromUnitId();
       }
 
       public static final int TO_UNIT_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue toUnitId_;
+      private io.dstore.values.IntegerValue toUnitId_;
       /**
        * <pre>
        * ID einer Zieleinheit
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
        */
       public boolean hasToUnitId() {
         return toUnitId_ != null;
@@ -2077,30 +2077,30 @@ public final class MiGetUnitConvertsAd {
        * ID einer Zieleinheit
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
        */
-      public io.dstore.Values.integerValue getToUnitId() {
-        return toUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+      public io.dstore.values.IntegerValue getToUnitId() {
+        return toUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
       }
       /**
        * <pre>
        * ID einer Zieleinheit
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder() {
         return getToUnitId();
       }
 
       public static final int FROM_UNIT_SYMBOL_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue fromUnitSymbol_;
+      private io.dstore.values.StringValue fromUnitSymbol_;
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+       * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
        */
       public boolean hasFromUnitSymbol() {
         return fromUnitSymbol_ != null;
@@ -2110,30 +2110,30 @@ public final class MiGetUnitConvertsAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+       * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
        */
-      public io.dstore.Values.stringValue getFromUnitSymbol() {
-        return fromUnitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromUnitSymbol_;
+      public io.dstore.values.StringValue getFromUnitSymbol() {
+        return fromUnitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fromUnitSymbol_;
       }
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+       * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getFromUnitSymbolOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getFromUnitSymbolOrBuilder() {
         return getFromUnitSymbol();
       }
 
       public static final int TO_UNIT_SYMBOL_FIELD_NUMBER = 10006;
-      private io.dstore.Values.stringValue toUnitSymbol_;
+      private io.dstore.values.StringValue toUnitSymbol_;
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
        */
       public boolean hasToUnitSymbol() {
         return toUnitSymbol_ != null;
@@ -2143,30 +2143,30 @@ public final class MiGetUnitConvertsAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
        */
-      public io.dstore.Values.stringValue getToUnitSymbol() {
-        return toUnitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : toUnitSymbol_;
+      public io.dstore.values.StringValue getToUnitSymbol() {
+        return toUnitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : toUnitSymbol_;
       }
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+       * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getToUnitSymbolOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getToUnitSymbolOrBuilder() {
         return getToUnitSymbol();
       }
 
       public static final int TO_DATE_AND_TIME_FIELD_NUMBER = 10007;
-      private io.dstore.Values.stringValue toDateAndTime_;
+      private io.dstore.values.StringValue toDateAndTime_;
       /**
        * <pre>
        * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+       * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
        */
       public boolean hasToDateAndTime() {
         return toDateAndTime_ != null;
@@ -2176,19 +2176,19 @@ public final class MiGetUnitConvertsAd {
        * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+       * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
        */
-      public io.dstore.Values.stringValue getToDateAndTime() {
-        return toDateAndTime_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : toDateAndTime_;
+      public io.dstore.values.StringValue getToDateAndTime() {
+        return toDateAndTime_ == null ? io.dstore.values.StringValue.getDefaultInstance() : toDateAndTime_;
       }
       /**
        * <pre>
        * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+       * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getToDateAndTimeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getToDateAndTimeOrBuilder() {
         return getToDateAndTime();
       }
 
@@ -2697,15 +2697,15 @@ public final class MiGetUnitConvertsAd {
           return this;
         }
 
-        private io.dstore.Values.decimalValue convertFactor_ = null;
+        private io.dstore.values.DecimalValue convertFactor_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> convertFactorBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> convertFactorBuilder_;
         /**
          * <pre>
          * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
          */
         public boolean hasConvertFactor() {
           return convertFactorBuilder_ != null || convertFactor_ != null;
@@ -2715,11 +2715,11 @@ public final class MiGetUnitConvertsAd {
          * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
          */
-        public io.dstore.Values.decimalValue getConvertFactor() {
+        public io.dstore.values.DecimalValue getConvertFactor() {
           if (convertFactorBuilder_ == null) {
-            return convertFactor_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : convertFactor_;
+            return convertFactor_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : convertFactor_;
           } else {
             return convertFactorBuilder_.getMessage();
           }
@@ -2729,9 +2729,9 @@ public final class MiGetUnitConvertsAd {
          * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
          */
-        public Builder setConvertFactor(io.dstore.Values.decimalValue value) {
+        public Builder setConvertFactor(io.dstore.values.DecimalValue value) {
           if (convertFactorBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2749,10 +2749,10 @@ public final class MiGetUnitConvertsAd {
          * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
          */
         public Builder setConvertFactor(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (convertFactorBuilder_ == null) {
             convertFactor_ = builderForValue.build();
             onChanged();
@@ -2767,13 +2767,13 @@ public final class MiGetUnitConvertsAd {
          * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
          */
-        public Builder mergeConvertFactor(io.dstore.Values.decimalValue value) {
+        public Builder mergeConvertFactor(io.dstore.values.DecimalValue value) {
           if (convertFactorBuilder_ == null) {
             if (convertFactor_ != null) {
               convertFactor_ =
-                io.dstore.Values.decimalValue.newBuilder(convertFactor_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(convertFactor_).mergeFrom(value).buildPartial();
             } else {
               convertFactor_ = value;
             }
@@ -2789,7 +2789,7 @@ public final class MiGetUnitConvertsAd {
          * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
          */
         public Builder clearConvertFactor() {
           if (convertFactorBuilder_ == null) {
@@ -2807,9 +2807,9 @@ public final class MiGetUnitConvertsAd {
          * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getConvertFactorBuilder() {
+        public io.dstore.values.DecimalValue.Builder getConvertFactorBuilder() {
           
           onChanged();
           return getConvertFactorFieldBuilder().getBuilder();
@@ -2819,14 +2819,14 @@ public final class MiGetUnitConvertsAd {
          * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getConvertFactorOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getConvertFactorOrBuilder() {
           if (convertFactorBuilder_ != null) {
             return convertFactorBuilder_.getMessageOrBuilder();
           } else {
             return convertFactor_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : convertFactor_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : convertFactor_;
           }
         }
         /**
@@ -2834,14 +2834,14 @@ public final class MiGetUnitConvertsAd {
          * Der Umrechnungs-"Kurs" von der Einheit "FromUnitID" in die Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue convert_factor = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue convert_factor = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getConvertFactorFieldBuilder() {
           if (convertFactorBuilder_ == null) {
             convertFactorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getConvertFactor(),
                     getParentForChildren(),
                     isClean());
@@ -2850,15 +2850,15 @@ public final class MiGetUnitConvertsAd {
           return convertFactorBuilder_;
         }
 
-        private io.dstore.Values.stringValue fromDateAndTime_ = null;
+        private io.dstore.values.StringValue fromDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromDateAndTimeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> fromDateAndTimeBuilder_;
         /**
          * <pre>
          * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
          */
         public boolean hasFromDateAndTime() {
           return fromDateAndTimeBuilder_ != null || fromDateAndTime_ != null;
@@ -2868,11 +2868,11 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
          */
-        public io.dstore.Values.stringValue getFromDateAndTime() {
+        public io.dstore.values.StringValue getFromDateAndTime() {
           if (fromDateAndTimeBuilder_ == null) {
-            return fromDateAndTime_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromDateAndTime_;
+            return fromDateAndTime_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fromDateAndTime_;
           } else {
             return fromDateAndTimeBuilder_.getMessage();
           }
@@ -2882,9 +2882,9 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
          */
-        public Builder setFromDateAndTime(io.dstore.Values.stringValue value) {
+        public Builder setFromDateAndTime(io.dstore.values.StringValue value) {
           if (fromDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2902,10 +2902,10 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
          */
         public Builder setFromDateAndTime(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (fromDateAndTimeBuilder_ == null) {
             fromDateAndTime_ = builderForValue.build();
             onChanged();
@@ -2920,13 +2920,13 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
          */
-        public Builder mergeFromDateAndTime(io.dstore.Values.stringValue value) {
+        public Builder mergeFromDateAndTime(io.dstore.values.StringValue value) {
           if (fromDateAndTimeBuilder_ == null) {
             if (fromDateAndTime_ != null) {
               fromDateAndTime_ =
-                io.dstore.Values.stringValue.newBuilder(fromDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(fromDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               fromDateAndTime_ = value;
             }
@@ -2942,7 +2942,7 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
          */
         public Builder clearFromDateAndTime() {
           if (fromDateAndTimeBuilder_ == null) {
@@ -2960,9 +2960,9 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getFromDateAndTimeBuilder() {
+        public io.dstore.values.StringValue.Builder getFromDateAndTimeBuilder() {
           
           onChanged();
           return getFromDateAndTimeFieldBuilder().getBuilder();
@@ -2972,14 +2972,14 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getFromDateAndTimeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getFromDateAndTimeOrBuilder() {
           if (fromDateAndTimeBuilder_ != null) {
             return fromDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return fromDateAndTime_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : fromDateAndTime_;
+                io.dstore.values.StringValue.getDefaultInstance() : fromDateAndTime_;
           }
         }
         /**
@@ -2987,14 +2987,14 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist AB diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.StringValue from_date_and_time = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getFromDateAndTimeFieldBuilder() {
           if (fromDateAndTimeBuilder_ == null) {
             fromDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getFromDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -3003,15 +3003,15 @@ public final class MiGetUnitConvertsAd {
           return fromDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue fromUnitId_ = null;
+        private io.dstore.values.IntegerValue fromUnitId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromUnitIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromUnitIdBuilder_;
         /**
          * <pre>
          * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
          */
         public boolean hasFromUnitId() {
           return fromUnitIdBuilder_ != null || fromUnitId_ != null;
@@ -3021,11 +3021,11 @@ public final class MiGetUnitConvertsAd {
          * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getFromUnitId() {
+        public io.dstore.values.IntegerValue getFromUnitId() {
           if (fromUnitIdBuilder_ == null) {
-            return fromUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+            return fromUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
           } else {
             return fromUnitIdBuilder_.getMessage();
           }
@@ -3035,9 +3035,9 @@ public final class MiGetUnitConvertsAd {
          * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
          */
-        public Builder setFromUnitId(io.dstore.Values.integerValue value) {
+        public Builder setFromUnitId(io.dstore.values.IntegerValue value) {
           if (fromUnitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3055,10 +3055,10 @@ public final class MiGetUnitConvertsAd {
          * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
          */
         public Builder setFromUnitId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (fromUnitIdBuilder_ == null) {
             fromUnitId_ = builderForValue.build();
             onChanged();
@@ -3073,13 +3073,13 @@ public final class MiGetUnitConvertsAd {
          * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
          */
-        public Builder mergeFromUnitId(io.dstore.Values.integerValue value) {
+        public Builder mergeFromUnitId(io.dstore.values.IntegerValue value) {
           if (fromUnitIdBuilder_ == null) {
             if (fromUnitId_ != null) {
               fromUnitId_ =
-                io.dstore.Values.integerValue.newBuilder(fromUnitId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(fromUnitId_).mergeFrom(value).buildPartial();
             } else {
               fromUnitId_ = value;
             }
@@ -3095,7 +3095,7 @@ public final class MiGetUnitConvertsAd {
          * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
          */
         public Builder clearFromUnitId() {
           if (fromUnitIdBuilder_ == null) {
@@ -3113,9 +3113,9 @@ public final class MiGetUnitConvertsAd {
          * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getFromUnitIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getFromUnitIdBuilder() {
           
           onChanged();
           return getFromUnitIdFieldBuilder().getBuilder();
@@ -3125,14 +3125,14 @@ public final class MiGetUnitConvertsAd {
          * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder() {
           if (fromUnitIdBuilder_ != null) {
             return fromUnitIdBuilder_.getMessageOrBuilder();
           } else {
             return fromUnitId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
           }
         }
         /**
@@ -3140,14 +3140,14 @@ public final class MiGetUnitConvertsAd {
          * ID einer Ausgangseinheit - z.Zt. immer "&#64;FromUnitID", da dieser Parameter immer angegeben werden muß (in einer späteren Version kann evtl. für diesen Parameter auch "NULL" übergeben werden, daher gibt es die Rückgabespalte)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_unit_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue from_unit_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getFromUnitIdFieldBuilder() {
           if (fromUnitIdBuilder_ == null) {
             fromUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getFromUnitId(),
                     getParentForChildren(),
                     isClean());
@@ -3156,15 +3156,15 @@ public final class MiGetUnitConvertsAd {
           return fromUnitIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue toUnitId_ = null;
+        private io.dstore.values.IntegerValue toUnitId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toUnitIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toUnitIdBuilder_;
         /**
          * <pre>
          * ID einer Zieleinheit
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
          */
         public boolean hasToUnitId() {
           return toUnitIdBuilder_ != null || toUnitId_ != null;
@@ -3174,11 +3174,11 @@ public final class MiGetUnitConvertsAd {
          * ID einer Zieleinheit
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue getToUnitId() {
+        public io.dstore.values.IntegerValue getToUnitId() {
           if (toUnitIdBuilder_ == null) {
-            return toUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+            return toUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
           } else {
             return toUnitIdBuilder_.getMessage();
           }
@@ -3188,9 +3188,9 @@ public final class MiGetUnitConvertsAd {
          * ID einer Zieleinheit
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
          */
-        public Builder setToUnitId(io.dstore.Values.integerValue value) {
+        public Builder setToUnitId(io.dstore.values.IntegerValue value) {
           if (toUnitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3208,10 +3208,10 @@ public final class MiGetUnitConvertsAd {
          * ID einer Zieleinheit
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
          */
         public Builder setToUnitId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (toUnitIdBuilder_ == null) {
             toUnitId_ = builderForValue.build();
             onChanged();
@@ -3226,13 +3226,13 @@ public final class MiGetUnitConvertsAd {
          * ID einer Zieleinheit
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
          */
-        public Builder mergeToUnitId(io.dstore.Values.integerValue value) {
+        public Builder mergeToUnitId(io.dstore.values.IntegerValue value) {
           if (toUnitIdBuilder_ == null) {
             if (toUnitId_ != null) {
               toUnitId_ =
-                io.dstore.Values.integerValue.newBuilder(toUnitId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(toUnitId_).mergeFrom(value).buildPartial();
             } else {
               toUnitId_ = value;
             }
@@ -3248,7 +3248,7 @@ public final class MiGetUnitConvertsAd {
          * ID einer Zieleinheit
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
          */
         public Builder clearToUnitId() {
           if (toUnitIdBuilder_ == null) {
@@ -3266,9 +3266,9 @@ public final class MiGetUnitConvertsAd {
          * ID einer Zieleinheit
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getToUnitIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getToUnitIdBuilder() {
           
           onChanged();
           return getToUnitIdFieldBuilder().getBuilder();
@@ -3278,14 +3278,14 @@ public final class MiGetUnitConvertsAd {
          * ID einer Zieleinheit
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder() {
           if (toUnitIdBuilder_ != null) {
             return toUnitIdBuilder_.getMessageOrBuilder();
           } else {
             return toUnitId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
           }
         }
         /**
@@ -3293,14 +3293,14 @@ public final class MiGetUnitConvertsAd {
          * ID einer Zieleinheit
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_unit_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue to_unit_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getToUnitIdFieldBuilder() {
           if (toUnitIdBuilder_ == null) {
             toUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getToUnitId(),
                     getParentForChildren(),
                     isClean());
@@ -3309,15 +3309,15 @@ public final class MiGetUnitConvertsAd {
           return toUnitIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue fromUnitSymbol_ = null;
+        private io.dstore.values.StringValue fromUnitSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromUnitSymbolBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> fromUnitSymbolBuilder_;
         /**
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+         * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
          */
         public boolean hasFromUnitSymbol() {
           return fromUnitSymbolBuilder_ != null || fromUnitSymbol_ != null;
@@ -3327,11 +3327,11 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+         * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
          */
-        public io.dstore.Values.stringValue getFromUnitSymbol() {
+        public io.dstore.values.StringValue getFromUnitSymbol() {
           if (fromUnitSymbolBuilder_ == null) {
-            return fromUnitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromUnitSymbol_;
+            return fromUnitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fromUnitSymbol_;
           } else {
             return fromUnitSymbolBuilder_.getMessage();
           }
@@ -3341,9 +3341,9 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+         * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
          */
-        public Builder setFromUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder setFromUnitSymbol(io.dstore.values.StringValue value) {
           if (fromUnitSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3361,10 +3361,10 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+         * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
          */
         public Builder setFromUnitSymbol(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (fromUnitSymbolBuilder_ == null) {
             fromUnitSymbol_ = builderForValue.build();
             onChanged();
@@ -3379,13 +3379,13 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+         * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
          */
-        public Builder mergeFromUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder mergeFromUnitSymbol(io.dstore.values.StringValue value) {
           if (fromUnitSymbolBuilder_ == null) {
             if (fromUnitSymbol_ != null) {
               fromUnitSymbol_ =
-                io.dstore.Values.stringValue.newBuilder(fromUnitSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(fromUnitSymbol_).mergeFrom(value).buildPartial();
             } else {
               fromUnitSymbol_ = value;
             }
@@ -3401,7 +3401,7 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+         * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
          */
         public Builder clearFromUnitSymbol() {
           if (fromUnitSymbolBuilder_ == null) {
@@ -3419,9 +3419,9 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+         * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getFromUnitSymbolBuilder() {
+        public io.dstore.values.StringValue.Builder getFromUnitSymbolBuilder() {
           
           onChanged();
           return getFromUnitSymbolFieldBuilder().getBuilder();
@@ -3431,14 +3431,14 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+         * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getFromUnitSymbolOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getFromUnitSymbolOrBuilder() {
           if (fromUnitSymbolBuilder_ != null) {
             return fromUnitSymbolBuilder_.getMessageOrBuilder();
           } else {
             return fromUnitSymbol_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : fromUnitSymbol_;
+                io.dstore.values.StringValue.getDefaultInstance() : fromUnitSymbol_;
           }
         }
         /**
@@ -3446,14 +3446,14 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "FromUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_unit_symbol = 10005;</code>
+         * <code>optional .dstore.values.StringValue from_unit_symbol = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getFromUnitSymbolFieldBuilder() {
           if (fromUnitSymbolBuilder_ == null) {
             fromUnitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getFromUnitSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -3462,15 +3462,15 @@ public final class MiGetUnitConvertsAd {
           return fromUnitSymbolBuilder_;
         }
 
-        private io.dstore.Values.stringValue toUnitSymbol_ = null;
+        private io.dstore.values.StringValue toUnitSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toUnitSymbolBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> toUnitSymbolBuilder_;
         /**
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
          */
         public boolean hasToUnitSymbol() {
           return toUnitSymbolBuilder_ != null || toUnitSymbol_ != null;
@@ -3480,11 +3480,11 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
          */
-        public io.dstore.Values.stringValue getToUnitSymbol() {
+        public io.dstore.values.StringValue getToUnitSymbol() {
           if (toUnitSymbolBuilder_ == null) {
-            return toUnitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : toUnitSymbol_;
+            return toUnitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : toUnitSymbol_;
           } else {
             return toUnitSymbolBuilder_.getMessage();
           }
@@ -3494,9 +3494,9 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
          */
-        public Builder setToUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder setToUnitSymbol(io.dstore.values.StringValue value) {
           if (toUnitSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3514,10 +3514,10 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
          */
         public Builder setToUnitSymbol(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (toUnitSymbolBuilder_ == null) {
             toUnitSymbol_ = builderForValue.build();
             onChanged();
@@ -3532,13 +3532,13 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
          */
-        public Builder mergeToUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder mergeToUnitSymbol(io.dstore.values.StringValue value) {
           if (toUnitSymbolBuilder_ == null) {
             if (toUnitSymbol_ != null) {
               toUnitSymbol_ =
-                io.dstore.Values.stringValue.newBuilder(toUnitSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(toUnitSymbol_).mergeFrom(value).buildPartial();
             } else {
               toUnitSymbol_ = value;
             }
@@ -3554,7 +3554,7 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
          */
         public Builder clearToUnitSymbol() {
           if (toUnitSymbolBuilder_ == null) {
@@ -3572,9 +3572,9 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getToUnitSymbolBuilder() {
+        public io.dstore.values.StringValue.Builder getToUnitSymbolBuilder() {
           
           onChanged();
           return getToUnitSymbolFieldBuilder().getBuilder();
@@ -3584,14 +3584,14 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getToUnitSymbolOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getToUnitSymbolOrBuilder() {
           if (toUnitSymbolBuilder_ != null) {
             return toUnitSymbolBuilder_.getMessageOrBuilder();
           } else {
             return toUnitSymbol_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : toUnitSymbol_;
+                io.dstore.values.StringValue.getDefaultInstance() : toUnitSymbol_;
           }
         }
         /**
@@ -3599,14 +3599,14 @@ public final class MiGetUnitConvertsAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_unit_symbol = 10006;</code>
+         * <code>optional .dstore.values.StringValue to_unit_symbol = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getToUnitSymbolFieldBuilder() {
           if (toUnitSymbolBuilder_ == null) {
             toUnitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getToUnitSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -3615,15 +3615,15 @@ public final class MiGetUnitConvertsAd {
           return toUnitSymbolBuilder_;
         }
 
-        private io.dstore.Values.stringValue toDateAndTime_ = null;
+        private io.dstore.values.StringValue toDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> toDateAndTimeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> toDateAndTimeBuilder_;
         /**
          * <pre>
          * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+         * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
          */
         public boolean hasToDateAndTime() {
           return toDateAndTimeBuilder_ != null || toDateAndTime_ != null;
@@ -3633,11 +3633,11 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+         * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
          */
-        public io.dstore.Values.stringValue getToDateAndTime() {
+        public io.dstore.values.StringValue getToDateAndTime() {
           if (toDateAndTimeBuilder_ == null) {
-            return toDateAndTime_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : toDateAndTime_;
+            return toDateAndTime_ == null ? io.dstore.values.StringValue.getDefaultInstance() : toDateAndTime_;
           } else {
             return toDateAndTimeBuilder_.getMessage();
           }
@@ -3647,9 +3647,9 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+         * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
          */
-        public Builder setToDateAndTime(io.dstore.Values.stringValue value) {
+        public Builder setToDateAndTime(io.dstore.values.StringValue value) {
           if (toDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3667,10 +3667,10 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+         * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
          */
         public Builder setToDateAndTime(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (toDateAndTimeBuilder_ == null) {
             toDateAndTime_ = builderForValue.build();
             onChanged();
@@ -3685,13 +3685,13 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+         * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
          */
-        public Builder mergeToDateAndTime(io.dstore.Values.stringValue value) {
+        public Builder mergeToDateAndTime(io.dstore.values.StringValue value) {
           if (toDateAndTimeBuilder_ == null) {
             if (toDateAndTime_ != null) {
               toDateAndTime_ =
-                io.dstore.Values.stringValue.newBuilder(toDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(toDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               toDateAndTime_ = value;
             }
@@ -3707,7 +3707,7 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+         * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
          */
         public Builder clearToDateAndTime() {
           if (toDateAndTimeBuilder_ == null) {
@@ -3725,9 +3725,9 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+         * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
          */
-        public io.dstore.Values.stringValue.Builder getToDateAndTimeBuilder() {
+        public io.dstore.values.StringValue.Builder getToDateAndTimeBuilder() {
           
           onChanged();
           return getToDateAndTimeFieldBuilder().getBuilder();
@@ -3737,14 +3737,14 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+         * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getToDateAndTimeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getToDateAndTimeOrBuilder() {
           if (toDateAndTimeBuilder_ != null) {
             return toDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return toDateAndTime_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : toDateAndTime_;
+                io.dstore.values.StringValue.getDefaultInstance() : toDateAndTime_;
           }
         }
         /**
@@ -3752,14 +3752,14 @@ public final class MiGetUnitConvertsAd {
          * Die Umrechnung ist BIS zu diesem Zeitpunkt gültig (Format: "15.04.2000 12:33:28") - "NULL" bedeutet, daß die Umrechnung bis auf unbestimmte Zeit gültig ist (bis der Zeitraum durch "mi_ModifyUnitConverts_Ad" geschlossen wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue to_date_and_time = 10007;</code>
+         * <code>optional .dstore.values.StringValue to_date_and_time = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getToDateAndTimeFieldBuilder() {
           if (toDateAndTimeBuilder_ == null) {
             toDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getToDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -5228,28 +5228,28 @@ public final class MiGetUnitConvertsAd {
       "verts_Ad.proto\022#dstore.engine.mi_GetUnit" +
       "Converts_Ad\032\023dstore/values.proto\032\032dstore" +
       "/engine/engine.proto\"\270\002\n\nParameters\0221\n\014f" +
-      "rom_unit_id\030\001 \001(\0132\033.dstore.values.intege" +
+      "rom_unit_id\030\001 \001(\0132\033.dstore.values.Intege" +
       "rValue\022\032\n\021from_unit_id_null\030\351\007 \001(\010\022/\n\nto" +
-      "_unit_id\030\002 \001(\0132\033.dstore.values.integerVa" +
+      "_unit_id\030\002 \001(\0132\033.dstore.values.IntegerVa" +
       "lue\022\030\n\017to_unit_id_null\030\352\007 \001(\010\0220\n\tfrom_da" +
-      "te\030\003 \001(\0132\035.dstore.values.timestampValue\022" +
+      "te\030\003 \001(\0132\035.dstore.values.TimestampValue\022" +
       "\027\n\016from_date_null\030\353\007 \001(\010\022.\n\007to_date\030\004 \001(",
-      "\0132\035.dstore.values.timestampValue\022\025\n\014to_d" +
+      "\0132\035.dstore.values.TimestampValue\022\025\n\014to_d" +
       "ate_null\030\354\007 \001(\010\"\276\004\n\010Response\0228\n\020meta_inf" +
       "ormation\030\002 \003(\0132\036.dstore.engine.MetaInfor" +
       "mation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine." +
       "Message\022>\n\003row\030\004 \003(\01321.dstore.engine.mi_" +
       "GetUnitConverts_Ad.Response.Row\032\216\003\n\003Row\022" +
       "\017\n\006row_id\030\220N \001(\005\0224\n\016convert_factor\030\221N \001(" +
-      "\0132\033.dstore.values.decimalValue\0227\n\022from_d" +
-      "ate_and_time\030\222N \001(\0132\032.dstore.values.stri" +
+      "\0132\033.dstore.values.DecimalValue\0227\n\022from_d" +
+      "ate_and_time\030\222N \001(\0132\032.dstore.values.Stri" +
       "ngValue\0222\n\014from_unit_id\030\223N \001(\0132\033.dstore.",
-      "values.integerValue\0220\n\nto_unit_id\030\224N \001(\013" +
-      "2\033.dstore.values.integerValue\0225\n\020from_un" +
-      "it_symbol\030\225N \001(\0132\032.dstore.values.stringV" +
+      "values.IntegerValue\0220\n\nto_unit_id\030\224N \001(\013" +
+      "2\033.dstore.values.IntegerValue\0225\n\020from_un" +
+      "it_symbol\030\225N \001(\0132\032.dstore.values.StringV" +
       "alue\0223\n\016to_unit_symbol\030\226N \001(\0132\032.dstore.v" +
-      "alues.stringValue\0225\n\020to_date_and_time\030\227N" +
-      " \001(\0132\032.dstore.values.stringValueBV\n\033io.d" +
+      "alues.StringValue\0225\n\020to_date_and_time\030\227N" +
+      " \001(\0132\032.dstore.values.StringValueBV\n\033io.d" +
       "store.engine.proceduresZ7gosdk.dstore.de" +
       "/engine/procedures/mi_GetUnitConverts_Ad" +
       "b\006proto3"
@@ -5265,7 +5265,7 @@ public final class MiGetUnitConvertsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetUnitConverts_Ad_Parameters_descriptor =
@@ -5286,7 +5286,7 @@ public final class MiGetUnitConvertsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetUnitConverts_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ConvertFactor", "FromDateAndTime", "FromUnitId", "ToUnitId", "FromUnitSymbol", "ToUnitSymbol", "ToDateAndTime", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

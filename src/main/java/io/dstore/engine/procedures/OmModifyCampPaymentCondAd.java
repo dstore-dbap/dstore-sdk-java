@@ -19,17 +19,17 @@ public final class OmModifyCampPaymentCondAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    io.dstore.Values.integerValue getConditionId();
+    io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
      * <code>optional bool condition_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifyCampPaymentCondAd {
     boolean getConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
      */
     boolean hasFilterByPaymentTypeIds();
     /**
-     * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
      */
-    io.dstore.Values.stringValue getFilterByPaymentTypeIds();
+    io.dstore.values.StringValue getFilterByPaymentTypeIds();
     /**
-     * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder();
 
     /**
      * <code>optional bool filter_by_payment_type_ids_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifyCampPaymentCondAd {
     boolean getFilterByPaymentTypeIdsNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
      */
     boolean hasNegateFilter();
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
      */
-    io.dstore.Values.booleanValue getNegateFilter();
+    io.dstore.values.BooleanValue getNegateFilter();
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getNegateFilterOrBuilder();
 
     /**
      * <code>optional bool negate_filter_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmModifyCampPaymentCondAd {
     boolean getNegateFilterNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
      */
     boolean hasDeletePaymentTypeCondition();
     /**
-     * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
      */
-    io.dstore.Values.booleanValue getDeletePaymentTypeCondition();
+    io.dstore.values.BooleanValue getDeletePaymentTypeCondition();
     /**
-     * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeletePaymentTypeConditionOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeletePaymentTypeConditionOrBuilder();
 
     /**
      * <code>optional bool delete_payment_type_condition_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class OmModifyCampPaymentCondAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class OmModifyCampPaymentCondAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (filterByPaymentTypeIds_ != null) {
                 subBuilder = filterByPaymentTypeIds_.toBuilder();
               }
-              filterByPaymentTypeIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              filterByPaymentTypeIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByPaymentTypeIds_);
                 filterByPaymentTypeIds_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class OmModifyCampPaymentCondAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (negateFilter_ != null) {
                 subBuilder = negateFilter_.toBuilder();
               }
-              negateFilter_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              negateFilter_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(negateFilter_);
                 negateFilter_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class OmModifyCampPaymentCondAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deletePaymentTypeCondition_ != null) {
                 subBuilder = deletePaymentTypeCondition_.toBuilder();
               }
-              deletePaymentTypeCondition_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deletePaymentTypeCondition_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deletePaymentTypeCondition_);
                 deletePaymentTypeCondition_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class OmModifyCampPaymentCondAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue conditionId_;
+    private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.values.IntegerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -259,23 +259,23 @@ public final class OmModifyCampPaymentCondAd {
     }
 
     public static final int FILTER_BY_PAYMENT_TYPE_IDS_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue filterByPaymentTypeIds_;
+    private io.dstore.values.StringValue filterByPaymentTypeIds_;
     /**
-     * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
      */
     public boolean hasFilterByPaymentTypeIds() {
       return filterByPaymentTypeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
      */
-    public io.dstore.Values.stringValue getFilterByPaymentTypeIds() {
-      return filterByPaymentTypeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByPaymentTypeIds_;
+    public io.dstore.values.StringValue getFilterByPaymentTypeIds() {
+      return filterByPaymentTypeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : filterByPaymentTypeIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder() {
       return getFilterByPaymentTypeIds();
     }
 
@@ -289,23 +289,23 @@ public final class OmModifyCampPaymentCondAd {
     }
 
     public static final int NEGATE_FILTER_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue negateFilter_;
+    private io.dstore.values.BooleanValue negateFilter_;
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
      */
     public boolean hasNegateFilter() {
       return negateFilter_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
      */
-    public io.dstore.Values.booleanValue getNegateFilter() {
-      return negateFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
+    public io.dstore.values.BooleanValue getNegateFilter() {
+      return negateFilter_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : negateFilter_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+     * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getNegateFilterOrBuilder() {
       return getNegateFilter();
     }
 
@@ -319,23 +319,23 @@ public final class OmModifyCampPaymentCondAd {
     }
 
     public static final int DELETE_PAYMENT_TYPE_CONDITION_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue deletePaymentTypeCondition_;
+    private io.dstore.values.BooleanValue deletePaymentTypeCondition_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
      */
     public boolean hasDeletePaymentTypeCondition() {
       return deletePaymentTypeCondition_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDeletePaymentTypeCondition() {
-      return deletePaymentTypeCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deletePaymentTypeCondition_;
+    public io.dstore.values.BooleanValue getDeletePaymentTypeCondition() {
+      return deletePaymentTypeCondition_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deletePaymentTypeCondition_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeletePaymentTypeConditionOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeletePaymentTypeConditionOrBuilder() {
       return getDeletePaymentTypeCondition();
     }
 
@@ -792,29 +792,29 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue conditionId_ = null;
+      private io.dstore.values.IntegerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
+      public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public Builder setConditionId(io.dstore.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -860,7 +860,7 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue filterByPaymentTypeIds_ = null;
+      private io.dstore.values.StringValue filterByPaymentTypeIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> filterByPaymentTypeIdsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> filterByPaymentTypeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
        */
       public boolean hasFilterByPaymentTypeIds() {
         return filterByPaymentTypeIdsBuilder_ != null || filterByPaymentTypeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
        */
-      public io.dstore.Values.stringValue getFilterByPaymentTypeIds() {
+      public io.dstore.values.StringValue getFilterByPaymentTypeIds() {
         if (filterByPaymentTypeIdsBuilder_ == null) {
-          return filterByPaymentTypeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : filterByPaymentTypeIds_;
+          return filterByPaymentTypeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : filterByPaymentTypeIds_;
         } else {
           return filterByPaymentTypeIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
        */
-      public Builder setFilterByPaymentTypeIds(io.dstore.Values.stringValue value) {
+      public Builder setFilterByPaymentTypeIds(io.dstore.values.StringValue value) {
         if (filterByPaymentTypeIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
        */
       public Builder setFilterByPaymentTypeIds(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (filterByPaymentTypeIdsBuilder_ == null) {
           filterByPaymentTypeIds_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
        */
-      public Builder mergeFilterByPaymentTypeIds(io.dstore.Values.stringValue value) {
+      public Builder mergeFilterByPaymentTypeIds(io.dstore.values.StringValue value) {
         if (filterByPaymentTypeIdsBuilder_ == null) {
           if (filterByPaymentTypeIds_ != null) {
             filterByPaymentTypeIds_ =
-              io.dstore.Values.stringValue.newBuilder(filterByPaymentTypeIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(filterByPaymentTypeIds_).mergeFrom(value).buildPartial();
           } else {
             filterByPaymentTypeIds_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
        */
       public Builder clearFilterByPaymentTypeIds() {
         if (filterByPaymentTypeIdsBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getFilterByPaymentTypeIdsBuilder() {
+      public io.dstore.values.StringValue.Builder getFilterByPaymentTypeIdsBuilder() {
         
         onChanged();
         return getFilterByPaymentTypeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getFilterByPaymentTypeIdsOrBuilder() {
         if (filterByPaymentTypeIdsBuilder_ != null) {
           return filterByPaymentTypeIdsBuilder_.getMessageOrBuilder();
         } else {
           return filterByPaymentTypeIds_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : filterByPaymentTypeIds_;
+              io.dstore.values.StringValue.getDefaultInstance() : filterByPaymentTypeIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue filter_by_payment_type_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue filter_by_payment_type_ids = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getFilterByPaymentTypeIdsFieldBuilder() {
         if (filterByPaymentTypeIdsBuilder_ == null) {
           filterByPaymentTypeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getFilterByPaymentTypeIds(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue negateFilter_ = null;
+      private io.dstore.values.BooleanValue negateFilter_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateFilterBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> negateFilterBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
        */
       public boolean hasNegateFilter() {
         return negateFilterBuilder_ != null || negateFilter_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
        */
-      public io.dstore.Values.booleanValue getNegateFilter() {
+      public io.dstore.values.BooleanValue getNegateFilter() {
         if (negateFilterBuilder_ == null) {
-          return negateFilter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
+          return negateFilter_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : negateFilter_;
         } else {
           return negateFilterBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
        */
-      public Builder setNegateFilter(io.dstore.Values.booleanValue value) {
+      public Builder setNegateFilter(io.dstore.values.BooleanValue value) {
         if (negateFilterBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
        */
       public Builder setNegateFilter(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (negateFilterBuilder_ == null) {
           negateFilter_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
        */
-      public Builder mergeNegateFilter(io.dstore.Values.booleanValue value) {
+      public Builder mergeNegateFilter(io.dstore.values.BooleanValue value) {
         if (negateFilterBuilder_ == null) {
           if (negateFilter_ != null) {
             negateFilter_ =
-              io.dstore.Values.booleanValue.newBuilder(negateFilter_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(negateFilter_).mergeFrom(value).buildPartial();
           } else {
             negateFilter_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
        */
       public Builder clearNegateFilter() {
         if (negateFilterBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getNegateFilterBuilder() {
+      public io.dstore.values.BooleanValue.Builder getNegateFilterBuilder() {
         
         onChanged();
         return getNegateFilterFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getNegateFilterOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getNegateFilterOrBuilder() {
         if (negateFilterBuilder_ != null) {
           return negateFilterBuilder_.getMessageOrBuilder();
         } else {
           return negateFilter_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : negateFilter_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : negateFilter_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue negate_filter = 3;</code>
+       * <code>optional .dstore.values.BooleanValue negate_filter = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getNegateFilterFieldBuilder() {
         if (negateFilterBuilder_ == null) {
           negateFilterBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getNegateFilter(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deletePaymentTypeCondition_ = null;
+      private io.dstore.values.BooleanValue deletePaymentTypeCondition_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deletePaymentTypeConditionBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deletePaymentTypeConditionBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
        */
       public boolean hasDeletePaymentTypeCondition() {
         return deletePaymentTypeConditionBuilder_ != null || deletePaymentTypeCondition_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDeletePaymentTypeCondition() {
+      public io.dstore.values.BooleanValue getDeletePaymentTypeCondition() {
         if (deletePaymentTypeConditionBuilder_ == null) {
-          return deletePaymentTypeCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deletePaymentTypeCondition_;
+          return deletePaymentTypeCondition_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deletePaymentTypeCondition_;
         } else {
           return deletePaymentTypeConditionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
        */
-      public Builder setDeletePaymentTypeCondition(io.dstore.Values.booleanValue value) {
+      public Builder setDeletePaymentTypeCondition(io.dstore.values.BooleanValue value) {
         if (deletePaymentTypeConditionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
        */
       public Builder setDeletePaymentTypeCondition(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deletePaymentTypeConditionBuilder_ == null) {
           deletePaymentTypeCondition_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
        */
-      public Builder mergeDeletePaymentTypeCondition(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeletePaymentTypeCondition(io.dstore.values.BooleanValue value) {
         if (deletePaymentTypeConditionBuilder_ == null) {
           if (deletePaymentTypeCondition_ != null) {
             deletePaymentTypeCondition_ =
-              io.dstore.Values.booleanValue.newBuilder(deletePaymentTypeCondition_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deletePaymentTypeCondition_).mergeFrom(value).buildPartial();
           } else {
             deletePaymentTypeCondition_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
        */
       public Builder clearDeletePaymentTypeCondition() {
         if (deletePaymentTypeConditionBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeletePaymentTypeConditionBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeletePaymentTypeConditionBuilder() {
         
         onChanged();
         return getDeletePaymentTypeConditionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeletePaymentTypeConditionOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeletePaymentTypeConditionOrBuilder() {
         if (deletePaymentTypeConditionBuilder_ != null) {
           return deletePaymentTypeConditionBuilder_.getMessageOrBuilder();
         } else {
           return deletePaymentTypeCondition_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deletePaymentTypeCondition_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deletePaymentTypeCondition_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_payment_type_condition = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_payment_type_condition = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeletePaymentTypeConditionFieldBuilder() {
         if (deletePaymentTypeConditionBuilder_ == null) {
           deletePaymentTypeConditionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeletePaymentTypeCondition(),
                   getParentForChildren(),
                   isClean());
@@ -1489,17 +1489,17 @@ public final class OmModifyCampPaymentCondAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
      */
-    io.dstore.Values.integerValue getConditionId();
+    io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.om_ModifyCampPaymentCond_Ad.Response}
@@ -1571,11 +1571,11 @@ public final class OmModifyCampPaymentCondAd {
               break;
             }
             case 810: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -2151,23 +2151,23 @@ public final class OmModifyCampPaymentCondAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 101;
-    private io.dstore.Values.integerValue conditionId_;
+    private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
      */
-    public io.dstore.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.values.IntegerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -3342,29 +3342,29 @@ public final class OmModifyCampPaymentCondAd {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.integerValue conditionId_ = null;
+      private io.dstore.values.IntegerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
+      public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
        */
-      public Builder setConditionId(io.dstore.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3378,10 +3378,10 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
        */
       public Builder setConditionId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -3392,13 +3392,13 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
        */
-      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -3410,7 +3410,7 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -3424,33 +3424,33 @@ public final class OmModifyCampPaymentCondAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -3536,21 +3536,21 @@ public final class OmModifyCampPaymentCondAd {
       "odifyCampPaymentCond_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\207\003\n\nPar" +
       "ameters\0221\n\014condition_id\030\001 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\032\n\021condition_id_null\030" +
+      "alues.IntegerValue\022\032\n\021condition_id_null\030" +
       "\351\007 \001(\010\022>\n\032filter_by_payment_type_ids\030\002 \001" +
-      "(\0132\032.dstore.values.stringValue\022(\n\037filter" +
+      "(\0132\032.dstore.values.StringValue\022(\n\037filter" +
       "_by_payment_type_ids_null\030\352\007 \001(\010\0222\n\rnega" +
-      "te_filter\030\003 \001(\0132\033.dstore.values.booleanV",
+      "te_filter\030\003 \001(\0132\033.dstore.values.BooleanV",
       "alue\022\033\n\022negate_filter_null\030\353\007 \001(\010\022B\n\035del" +
       "ete_payment_type_condition\030\004 \001(\0132\033.dstor" +
-      "e.values.booleanValue\022+\n\"delete_payment_" +
+      "e.values.BooleanValue\022+\n\"delete_payment_" +
       "type_condition_null\030\354\007 \001(\010\"\376\001\n\010Response\022" +
       "8\n\020meta_information\030\002 \003(\0132\036.dstore.engin" +
       "e.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dst" +
       "ore.engine.Message\022D\n\003row\030\004 \003(\01327.dstore" +
       ".engine.om_ModifyCampPaymentCond_Ad.Resp" +
       "onse.Row\0221\n\014condition_id\030e \001(\0132\033.dstore." +
-      "values.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N ",
+      "values.IntegerValue\032\026\n\003Row\022\017\n\006row_id\030\220N ",
       "\001(\005B\\\n\033io.dstore.engine.proceduresZ=gosd" +
       "k.dstore.de/engine/procedures/om_ModifyC" +
       "ampPaymentCond_Adb\006proto3"
@@ -3566,7 +3566,7 @@ public final class OmModifyCampPaymentCondAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifyCampPaymentCond_Ad_Parameters_descriptor =
@@ -3587,7 +3587,7 @@ public final class OmModifyCampPaymentCondAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampPaymentCond_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

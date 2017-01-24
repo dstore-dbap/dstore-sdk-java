@@ -19,17 +19,17 @@ public final class OmGetTrolleyAsMatrixPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetTrolleyAsMatrixPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetTrolleyAsMatrixPu {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+     * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
      */
     boolean hasCalculatePrices();
     /**
-     * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+     * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
      */
-    io.dstore.Values.integerValue getCalculatePrices();
+    io.dstore.values.IntegerValue getCalculatePrices();
     /**
-     * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+     * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCalculatePricesOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCalculatePricesOrBuilder();
 
     /**
      * <code>optional bool calculate_prices_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmGetTrolleyAsMatrixPu {
     boolean getCalculatePricesNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+     * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
      */
     boolean hasCheckAvailability();
     /**
-     * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+     * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
      */
-    io.dstore.Values.booleanValue getCheckAvailability();
+    io.dstore.values.BooleanValue getCheckAvailability();
     /**
-     * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+     * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCheckAvailabilityOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCheckAvailabilityOrBuilder();
 
     /**
      * <code>optional bool check_availability_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmGetTrolleyAsMatrixPu {
     boolean getCheckAvailabilityNull();
 
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
      */
     boolean hasPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
      */
-    io.dstore.Values.integerValue getPriceNodeCharacteristicId();
+    io.dstore.values.IntegerValue getPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool price_node_characteristic_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmGetTrolleyAsMatrixPu {
     boolean getPriceNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
      */
     boolean hasRepairEntriesWithSameNodeId();
     /**
-     * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
      */
-    io.dstore.Values.integerValue getRepairEntriesWithSameNodeId();
+    io.dstore.values.IntegerValue getRepairEntriesWithSameNodeId();
     /**
-     * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRepairEntriesWithSameNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRepairEntriesWithSameNodeIdOrBuilder();
 
     /**
      * <code>optional bool repair_entries_with_same_node_id_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class OmGetTrolleyAsMatrixPu {
     boolean getRepairEntriesWithSameNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
      */
     boolean hasDeliveryPersonId();
     /**
-     * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
      */
-    io.dstore.Values.integerValue getDeliveryPersonId();
+    io.dstore.values.IntegerValue getDeliveryPersonId();
     /**
-     * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder();
 
     /**
      * <code>optional bool delivery_person_id_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class OmGetTrolleyAsMatrixPu {
     boolean getDeliveryPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+     * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
      */
     boolean hasOutputIntoTrolleySurchInterf();
     /**
-     * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+     * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
      */
-    io.dstore.Values.booleanValue getOutputIntoTrolleySurchInterf();
+    io.dstore.values.BooleanValue getOutputIntoTrolleySurchInterf();
     /**
-     * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+     * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOutputIntoTrolleySurchInterfOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOutputIntoTrolleySurchInterfOrBuilder();
 
     /**
      * <code>optional bool output_into_trolley_surch_interf_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class OmGetTrolleyAsMatrixPu {
     boolean getOutputIntoTrolleySurchInterfNull();
 
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
      */
     boolean hasPaymentTypeId();
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
      */
-    io.dstore.Values.integerValue getPaymentTypeId();
+    io.dstore.values.IntegerValue getPaymentTypeId();
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder();
 
     /**
      * <code>optional bool payment_type_id_null = 1009;</code>
@@ -181,17 +181,17 @@ public final class OmGetTrolleyAsMatrixPu {
     boolean getPaymentTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
      */
     boolean hasShippingTypeId();
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
      */
-    io.dstore.Values.integerValue getShippingTypeId();
+    io.dstore.values.IntegerValue getShippingTypeId();
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder();
 
     /**
      * <code>optional bool shipping_type_id_null = 1010;</code>
@@ -248,11 +248,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -261,11 +261,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -274,11 +274,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (calculatePrices_ != null) {
                 subBuilder = calculatePrices_.toBuilder();
               }
-              calculatePrices_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              calculatePrices_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(calculatePrices_);
                 calculatePrices_ = subBuilder.buildPartial();
@@ -287,11 +287,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (checkAvailability_ != null) {
                 subBuilder = checkAvailability_.toBuilder();
               }
-              checkAvailability_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              checkAvailability_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkAvailability_);
                 checkAvailability_ = subBuilder.buildPartial();
@@ -300,11 +300,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (priceNodeCharacteristicId_ != null) {
                 subBuilder = priceNodeCharacteristicId_.toBuilder();
               }
-              priceNodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              priceNodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(priceNodeCharacteristicId_);
                 priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -313,11 +313,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (repairEntriesWithSameNodeId_ != null) {
                 subBuilder = repairEntriesWithSameNodeId_.toBuilder();
               }
-              repairEntriesWithSameNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              repairEntriesWithSameNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(repairEntriesWithSameNodeId_);
                 repairEntriesWithSameNodeId_ = subBuilder.buildPartial();
@@ -326,11 +326,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (deliveryPersonId_ != null) {
                 subBuilder = deliveryPersonId_.toBuilder();
               }
-              deliveryPersonId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              deliveryPersonId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deliveryPersonId_);
                 deliveryPersonId_ = subBuilder.buildPartial();
@@ -339,11 +339,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 66: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (outputIntoTrolleySurchInterf_ != null) {
                 subBuilder = outputIntoTrolleySurchInterf_.toBuilder();
               }
-              outputIntoTrolleySurchInterf_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              outputIntoTrolleySurchInterf_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputIntoTrolleySurchInterf_);
                 outputIntoTrolleySurchInterf_ = subBuilder.buildPartial();
@@ -352,11 +352,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 74: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (paymentTypeId_ != null) {
                 subBuilder = paymentTypeId_.toBuilder();
               }
-              paymentTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              paymentTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentTypeId_);
                 paymentTypeId_ = subBuilder.buildPartial();
@@ -365,11 +365,11 @@ public final class OmGetTrolleyAsMatrixPu {
               break;
             }
             case 82: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (shippingTypeId_ != null) {
                 subBuilder = shippingTypeId_.toBuilder();
               }
-              shippingTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              shippingTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingTypeId_);
                 shippingTypeId_ = subBuilder.buildPartial();
@@ -451,23 +451,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -481,23 +481,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -511,23 +511,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int CALCULATE_PRICES_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue calculatePrices_;
+    private io.dstore.values.IntegerValue calculatePrices_;
     /**
-     * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+     * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
      */
     public boolean hasCalculatePrices() {
       return calculatePrices_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+     * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
      */
-    public io.dstore.Values.integerValue getCalculatePrices() {
-      return calculatePrices_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : calculatePrices_;
+    public io.dstore.values.IntegerValue getCalculatePrices() {
+      return calculatePrices_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : calculatePrices_;
     }
     /**
-     * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+     * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCalculatePricesOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCalculatePricesOrBuilder() {
       return getCalculatePrices();
     }
 
@@ -541,23 +541,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int CHECK_AVAILABILITY_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue checkAvailability_;
+    private io.dstore.values.BooleanValue checkAvailability_;
     /**
-     * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+     * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
      */
     public boolean hasCheckAvailability() {
       return checkAvailability_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+     * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
      */
-    public io.dstore.Values.booleanValue getCheckAvailability() {
-      return checkAvailability_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkAvailability_;
+    public io.dstore.values.BooleanValue getCheckAvailability() {
+      return checkAvailability_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkAvailability_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+     * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCheckAvailabilityOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCheckAvailabilityOrBuilder() {
       return getCheckAvailability();
     }
 
@@ -571,23 +571,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int PRICE_NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue priceNodeCharacteristicId_;
+    private io.dstore.values.IntegerValue priceNodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
      */
     public boolean hasPriceNodeCharacteristicId() {
       return priceNodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
-      return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
+      return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
       return getPriceNodeCharacteristicId();
     }
 
@@ -601,23 +601,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int REPAIR_ENTRIES_WITH_SAME_NODE_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue repairEntriesWithSameNodeId_;
+    private io.dstore.values.IntegerValue repairEntriesWithSameNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
      */
     public boolean hasRepairEntriesWithSameNodeId() {
       return repairEntriesWithSameNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getRepairEntriesWithSameNodeId() {
-      return repairEntriesWithSameNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : repairEntriesWithSameNodeId_;
+    public io.dstore.values.IntegerValue getRepairEntriesWithSameNodeId() {
+      return repairEntriesWithSameNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : repairEntriesWithSameNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRepairEntriesWithSameNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRepairEntriesWithSameNodeIdOrBuilder() {
       return getRepairEntriesWithSameNodeId();
     }
 
@@ -631,23 +631,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int DELIVERY_PERSON_ID_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue deliveryPersonId_;
+    private io.dstore.values.IntegerValue deliveryPersonId_;
     /**
-     * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
      */
     public boolean hasDeliveryPersonId() {
       return deliveryPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
      */
-    public io.dstore.Values.integerValue getDeliveryPersonId() {
-      return deliveryPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
+    public io.dstore.values.IntegerValue getDeliveryPersonId() {
+      return deliveryPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deliveryPersonId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
       return getDeliveryPersonId();
     }
 
@@ -661,23 +661,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int OUTPUT_INTO_TROLLEY_SURCH_INTERF_FIELD_NUMBER = 8;
-    private io.dstore.Values.booleanValue outputIntoTrolleySurchInterf_;
+    private io.dstore.values.BooleanValue outputIntoTrolleySurchInterf_;
     /**
-     * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+     * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
      */
     public boolean hasOutputIntoTrolleySurchInterf() {
       return outputIntoTrolleySurchInterf_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+     * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
      */
-    public io.dstore.Values.booleanValue getOutputIntoTrolleySurchInterf() {
-      return outputIntoTrolleySurchInterf_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : outputIntoTrolleySurchInterf_;
+    public io.dstore.values.BooleanValue getOutputIntoTrolleySurchInterf() {
+      return outputIntoTrolleySurchInterf_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : outputIntoTrolleySurchInterf_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+     * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOutputIntoTrolleySurchInterfOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOutputIntoTrolleySurchInterfOrBuilder() {
       return getOutputIntoTrolleySurchInterf();
     }
 
@@ -691,23 +691,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 9;
-    private io.dstore.Values.integerValue paymentTypeId_;
+    private io.dstore.values.IntegerValue paymentTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
      */
     public boolean hasPaymentTypeId() {
       return paymentTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
      */
-    public io.dstore.Values.integerValue getPaymentTypeId() {
-      return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+    public io.dstore.values.IntegerValue getPaymentTypeId() {
+      return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
       return getPaymentTypeId();
     }
 
@@ -721,23 +721,23 @@ public final class OmGetTrolleyAsMatrixPu {
     }
 
     public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 10;
-    private io.dstore.Values.integerValue shippingTypeId_;
+    private io.dstore.values.IntegerValue shippingTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
      */
     public boolean hasShippingTypeId() {
       return shippingTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
      */
-    public io.dstore.Values.integerValue getShippingTypeId() {
-      return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+    public io.dstore.values.IntegerValue getShippingTypeId() {
+      return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
       return getShippingTypeId();
     }
 
@@ -1482,29 +1482,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1518,10 +1518,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1532,13 +1532,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1550,7 +1550,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1564,33 +1564,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1625,29 +1625,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1661,10 +1661,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -1675,13 +1675,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -1693,7 +1693,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1707,33 +1707,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1768,29 +1768,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue calculatePrices_ = null;
+      private io.dstore.values.IntegerValue calculatePrices_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> calculatePricesBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> calculatePricesBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+       * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
        */
       public boolean hasCalculatePrices() {
         return calculatePricesBuilder_ != null || calculatePrices_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+       * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
        */
-      public io.dstore.Values.integerValue getCalculatePrices() {
+      public io.dstore.values.IntegerValue getCalculatePrices() {
         if (calculatePricesBuilder_ == null) {
-          return calculatePrices_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : calculatePrices_;
+          return calculatePrices_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : calculatePrices_;
         } else {
           return calculatePricesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+       * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
        */
-      public Builder setCalculatePrices(io.dstore.Values.integerValue value) {
+      public Builder setCalculatePrices(io.dstore.values.IntegerValue value) {
         if (calculatePricesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1804,10 +1804,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+       * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
        */
       public Builder setCalculatePrices(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (calculatePricesBuilder_ == null) {
           calculatePrices_ = builderForValue.build();
           onChanged();
@@ -1818,13 +1818,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+       * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
        */
-      public Builder mergeCalculatePrices(io.dstore.Values.integerValue value) {
+      public Builder mergeCalculatePrices(io.dstore.values.IntegerValue value) {
         if (calculatePricesBuilder_ == null) {
           if (calculatePrices_ != null) {
             calculatePrices_ =
-              io.dstore.Values.integerValue.newBuilder(calculatePrices_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(calculatePrices_).mergeFrom(value).buildPartial();
           } else {
             calculatePrices_ = value;
           }
@@ -1836,7 +1836,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+       * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
        */
       public Builder clearCalculatePrices() {
         if (calculatePricesBuilder_ == null) {
@@ -1850,33 +1850,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+       * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCalculatePricesBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCalculatePricesBuilder() {
         
         onChanged();
         return getCalculatePricesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+       * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCalculatePricesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCalculatePricesOrBuilder() {
         if (calculatePricesBuilder_ != null) {
           return calculatePricesBuilder_.getMessageOrBuilder();
         } else {
           return calculatePrices_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : calculatePrices_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : calculatePrices_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue calculate_prices = 3;</code>
+       * <code>optional .dstore.values.IntegerValue calculate_prices = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCalculatePricesFieldBuilder() {
         if (calculatePricesBuilder_ == null) {
           calculatePricesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCalculatePrices(),
                   getParentForChildren(),
                   isClean());
@@ -1911,29 +1911,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue checkAvailability_ = null;
+      private io.dstore.values.BooleanValue checkAvailability_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkAvailabilityBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> checkAvailabilityBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+       * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
        */
       public boolean hasCheckAvailability() {
         return checkAvailabilityBuilder_ != null || checkAvailability_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+       * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
        */
-      public io.dstore.Values.booleanValue getCheckAvailability() {
+      public io.dstore.values.BooleanValue getCheckAvailability() {
         if (checkAvailabilityBuilder_ == null) {
-          return checkAvailability_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkAvailability_;
+          return checkAvailability_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkAvailability_;
         } else {
           return checkAvailabilityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+       * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
        */
-      public Builder setCheckAvailability(io.dstore.Values.booleanValue value) {
+      public Builder setCheckAvailability(io.dstore.values.BooleanValue value) {
         if (checkAvailabilityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1947,10 +1947,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+       * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
        */
       public Builder setCheckAvailability(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (checkAvailabilityBuilder_ == null) {
           checkAvailability_ = builderForValue.build();
           onChanged();
@@ -1961,13 +1961,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+       * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
        */
-      public Builder mergeCheckAvailability(io.dstore.Values.booleanValue value) {
+      public Builder mergeCheckAvailability(io.dstore.values.BooleanValue value) {
         if (checkAvailabilityBuilder_ == null) {
           if (checkAvailability_ != null) {
             checkAvailability_ =
-              io.dstore.Values.booleanValue.newBuilder(checkAvailability_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(checkAvailability_).mergeFrom(value).buildPartial();
           } else {
             checkAvailability_ = value;
           }
@@ -1979,7 +1979,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+       * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
        */
       public Builder clearCheckAvailability() {
         if (checkAvailabilityBuilder_ == null) {
@@ -1993,33 +1993,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+       * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCheckAvailabilityBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCheckAvailabilityBuilder() {
         
         onChanged();
         return getCheckAvailabilityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+       * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCheckAvailabilityOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCheckAvailabilityOrBuilder() {
         if (checkAvailabilityBuilder_ != null) {
           return checkAvailabilityBuilder_.getMessageOrBuilder();
         } else {
           return checkAvailability_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : checkAvailability_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : checkAvailability_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_availability = 4;</code>
+       * <code>optional .dstore.values.BooleanValue check_availability = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCheckAvailabilityFieldBuilder() {
         if (checkAvailabilityBuilder_ == null) {
           checkAvailabilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCheckAvailability(),
                   getParentForChildren(),
                   isClean());
@@ -2054,29 +2054,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue priceNodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue priceNodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
        */
       public boolean hasPriceNodeCharacteristicId() {
         return priceNodeCharacteristicIdBuilder_ != null || priceNodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
-          return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+          return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
         } else {
           return priceNodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
        */
-      public Builder setPriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setPriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2090,10 +2090,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
        */
       public Builder setPriceNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           priceNodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2104,13 +2104,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
        */
-      public Builder mergePriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergePriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           if (priceNodeCharacteristicId_ != null) {
             priceNodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             priceNodeCharacteristicId_ = value;
           }
@@ -2122,7 +2122,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
        */
       public Builder clearPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -2136,33 +2136,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPriceNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPriceNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getPriceNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
         if (priceNodeCharacteristicIdBuilder_ != null) {
           return priceNodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return priceNodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPriceNodeCharacteristicIdFieldBuilder() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           priceNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPriceNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2197,29 +2197,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue repairEntriesWithSameNodeId_ = null;
+      private io.dstore.values.IntegerValue repairEntriesWithSameNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> repairEntriesWithSameNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> repairEntriesWithSameNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
        */
       public boolean hasRepairEntriesWithSameNodeId() {
         return repairEntriesWithSameNodeIdBuilder_ != null || repairEntriesWithSameNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getRepairEntriesWithSameNodeId() {
+      public io.dstore.values.IntegerValue getRepairEntriesWithSameNodeId() {
         if (repairEntriesWithSameNodeIdBuilder_ == null) {
-          return repairEntriesWithSameNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : repairEntriesWithSameNodeId_;
+          return repairEntriesWithSameNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : repairEntriesWithSameNodeId_;
         } else {
           return repairEntriesWithSameNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
        */
-      public Builder setRepairEntriesWithSameNodeId(io.dstore.Values.integerValue value) {
+      public Builder setRepairEntriesWithSameNodeId(io.dstore.values.IntegerValue value) {
         if (repairEntriesWithSameNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2233,10 +2233,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
        */
       public Builder setRepairEntriesWithSameNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (repairEntriesWithSameNodeIdBuilder_ == null) {
           repairEntriesWithSameNodeId_ = builderForValue.build();
           onChanged();
@@ -2247,13 +2247,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
        */
-      public Builder mergeRepairEntriesWithSameNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeRepairEntriesWithSameNodeId(io.dstore.values.IntegerValue value) {
         if (repairEntriesWithSameNodeIdBuilder_ == null) {
           if (repairEntriesWithSameNodeId_ != null) {
             repairEntriesWithSameNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(repairEntriesWithSameNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(repairEntriesWithSameNodeId_).mergeFrom(value).buildPartial();
           } else {
             repairEntriesWithSameNodeId_ = value;
           }
@@ -2265,7 +2265,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
        */
       public Builder clearRepairEntriesWithSameNodeId() {
         if (repairEntriesWithSameNodeIdBuilder_ == null) {
@@ -2279,33 +2279,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRepairEntriesWithSameNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRepairEntriesWithSameNodeIdBuilder() {
         
         onChanged();
         return getRepairEntriesWithSameNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRepairEntriesWithSameNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRepairEntriesWithSameNodeIdOrBuilder() {
         if (repairEntriesWithSameNodeIdBuilder_ != null) {
           return repairEntriesWithSameNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return repairEntriesWithSameNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : repairEntriesWithSameNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : repairEntriesWithSameNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue repair_entries_with_same_node_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue repair_entries_with_same_node_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRepairEntriesWithSameNodeIdFieldBuilder() {
         if (repairEntriesWithSameNodeIdBuilder_ == null) {
           repairEntriesWithSameNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRepairEntriesWithSameNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -2340,29 +2340,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue deliveryPersonId_ = null;
+      private io.dstore.values.IntegerValue deliveryPersonId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deliveryPersonIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> deliveryPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
        */
       public boolean hasDeliveryPersonId() {
         return deliveryPersonIdBuilder_ != null || deliveryPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
        */
-      public io.dstore.Values.integerValue getDeliveryPersonId() {
+      public io.dstore.values.IntegerValue getDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
-          return deliveryPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
+          return deliveryPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deliveryPersonId_;
         } else {
           return deliveryPersonIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
        */
-      public Builder setDeliveryPersonId(io.dstore.Values.integerValue value) {
+      public Builder setDeliveryPersonId(io.dstore.values.IntegerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2376,10 +2376,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
        */
       public Builder setDeliveryPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (deliveryPersonIdBuilder_ == null) {
           deliveryPersonId_ = builderForValue.build();
           onChanged();
@@ -2390,13 +2390,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
        */
-      public Builder mergeDeliveryPersonId(io.dstore.Values.integerValue value) {
+      public Builder mergeDeliveryPersonId(io.dstore.values.IntegerValue value) {
         if (deliveryPersonIdBuilder_ == null) {
           if (deliveryPersonId_ != null) {
             deliveryPersonId_ =
-              io.dstore.Values.integerValue.newBuilder(deliveryPersonId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(deliveryPersonId_).mergeFrom(value).buildPartial();
           } else {
             deliveryPersonId_ = value;
           }
@@ -2408,7 +2408,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
        */
       public Builder clearDeliveryPersonId() {
         if (deliveryPersonIdBuilder_ == null) {
@@ -2422,33 +2422,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getDeliveryPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getDeliveryPersonIdBuilder() {
         
         onChanged();
         return getDeliveryPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDeliveryPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDeliveryPersonIdOrBuilder() {
         if (deliveryPersonIdBuilder_ != null) {
           return deliveryPersonIdBuilder_.getMessageOrBuilder();
         } else {
           return deliveryPersonId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : deliveryPersonId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : deliveryPersonId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delivery_person_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue delivery_person_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getDeliveryPersonIdFieldBuilder() {
         if (deliveryPersonIdBuilder_ == null) {
           deliveryPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getDeliveryPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -2483,29 +2483,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue outputIntoTrolleySurchInterf_ = null;
+      private io.dstore.values.BooleanValue outputIntoTrolleySurchInterf_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> outputIntoTrolleySurchInterfBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> outputIntoTrolleySurchInterfBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+       * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
        */
       public boolean hasOutputIntoTrolleySurchInterf() {
         return outputIntoTrolleySurchInterfBuilder_ != null || outputIntoTrolleySurchInterf_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+       * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
        */
-      public io.dstore.Values.booleanValue getOutputIntoTrolleySurchInterf() {
+      public io.dstore.values.BooleanValue getOutputIntoTrolleySurchInterf() {
         if (outputIntoTrolleySurchInterfBuilder_ == null) {
-          return outputIntoTrolleySurchInterf_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : outputIntoTrolleySurchInterf_;
+          return outputIntoTrolleySurchInterf_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : outputIntoTrolleySurchInterf_;
         } else {
           return outputIntoTrolleySurchInterfBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+       * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
        */
-      public Builder setOutputIntoTrolleySurchInterf(io.dstore.Values.booleanValue value) {
+      public Builder setOutputIntoTrolleySurchInterf(io.dstore.values.BooleanValue value) {
         if (outputIntoTrolleySurchInterfBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2519,10 +2519,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+       * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
        */
       public Builder setOutputIntoTrolleySurchInterf(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (outputIntoTrolleySurchInterfBuilder_ == null) {
           outputIntoTrolleySurchInterf_ = builderForValue.build();
           onChanged();
@@ -2533,13 +2533,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+       * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
        */
-      public Builder mergeOutputIntoTrolleySurchInterf(io.dstore.Values.booleanValue value) {
+      public Builder mergeOutputIntoTrolleySurchInterf(io.dstore.values.BooleanValue value) {
         if (outputIntoTrolleySurchInterfBuilder_ == null) {
           if (outputIntoTrolleySurchInterf_ != null) {
             outputIntoTrolleySurchInterf_ =
-              io.dstore.Values.booleanValue.newBuilder(outputIntoTrolleySurchInterf_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(outputIntoTrolleySurchInterf_).mergeFrom(value).buildPartial();
           } else {
             outputIntoTrolleySurchInterf_ = value;
           }
@@ -2551,7 +2551,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+       * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
        */
       public Builder clearOutputIntoTrolleySurchInterf() {
         if (outputIntoTrolleySurchInterfBuilder_ == null) {
@@ -2565,33 +2565,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+       * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOutputIntoTrolleySurchInterfBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOutputIntoTrolleySurchInterfBuilder() {
         
         onChanged();
         return getOutputIntoTrolleySurchInterfFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+       * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOutputIntoTrolleySurchInterfOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOutputIntoTrolleySurchInterfOrBuilder() {
         if (outputIntoTrolleySurchInterfBuilder_ != null) {
           return outputIntoTrolleySurchInterfBuilder_.getMessageOrBuilder();
         } else {
           return outputIntoTrolleySurchInterf_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : outputIntoTrolleySurchInterf_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : outputIntoTrolleySurchInterf_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue output_into_trolley_surch_interf = 8;</code>
+       * <code>optional .dstore.values.BooleanValue output_into_trolley_surch_interf = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOutputIntoTrolleySurchInterfFieldBuilder() {
         if (outputIntoTrolleySurchInterfBuilder_ == null) {
           outputIntoTrolleySurchInterfBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOutputIntoTrolleySurchInterf(),
                   getParentForChildren(),
                   isClean());
@@ -2626,29 +2626,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue paymentTypeId_ = null;
+      private io.dstore.values.IntegerValue paymentTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
        */
-      public io.dstore.Values.integerValue getPaymentTypeId() {
+      public io.dstore.values.IntegerValue getPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
-          return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+          return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
         } else {
           return paymentTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
        */
-      public Builder setPaymentTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2662,10 +2662,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
        */
       public Builder setPaymentTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (paymentTypeIdBuilder_ == null) {
           paymentTypeId_ = builderForValue.build();
           onChanged();
@@ -2676,13 +2676,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
        */
-      public Builder mergePaymentTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
           if (paymentTypeId_ != null) {
             paymentTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
           } else {
             paymentTypeId_ = value;
           }
@@ -2694,7 +2694,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
        */
       public Builder clearPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -2708,33 +2708,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPaymentTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPaymentTypeIdBuilder() {
         
         onChanged();
         return getPaymentTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
         if (paymentTypeIdBuilder_ != null) {
           return paymentTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return paymentTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 9;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPaymentTypeIdFieldBuilder() {
         if (paymentTypeIdBuilder_ == null) {
           paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPaymentTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -2769,29 +2769,29 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue shippingTypeId_ = null;
+      private io.dstore.values.IntegerValue shippingTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> shippingTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
        */
       public boolean hasShippingTypeId() {
         return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
        */
-      public io.dstore.Values.integerValue getShippingTypeId() {
+      public io.dstore.values.IntegerValue getShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
-          return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+          return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
         } else {
           return shippingTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
        */
-      public Builder setShippingTypeId(io.dstore.Values.integerValue value) {
+      public Builder setShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2805,10 +2805,10 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
        */
       public Builder setShippingTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (shippingTypeIdBuilder_ == null) {
           shippingTypeId_ = builderForValue.build();
           onChanged();
@@ -2819,13 +2819,13 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
        */
-      public Builder mergeShippingTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
           if (shippingTypeId_ != null) {
             shippingTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
           } else {
             shippingTypeId_ = value;
           }
@@ -2837,7 +2837,7 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
        */
       public Builder clearShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
@@ -2851,33 +2851,33 @@ public final class OmGetTrolleyAsMatrixPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
        */
-      public io.dstore.Values.integerValue.Builder getShippingTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getShippingTypeIdBuilder() {
         
         onChanged();
         return getShippingTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
         if (shippingTypeIdBuilder_ != null) {
           return shippingTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return shippingTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getShippingTypeIdFieldBuilder() {
         if (shippingTypeIdBuilder_ == null) {
           shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getShippingTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -3171,7 +3171,7 @@ public final class OmGetTrolleyAsMatrixPu {
        * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
        */
       boolean hasVariantTreeNodeId();
       /**
@@ -3179,24 +3179,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getVariantTreeNodeId();
+      io.dstore.values.IntegerValue getVariantTreeNodeId();
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getVariantTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getVariantTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
        */
       boolean hasProductTreeNodeId();
       /**
@@ -3204,24 +3204,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getProductTreeNodeId();
+      io.dstore.values.IntegerValue getProductTreeNodeId();
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getProductTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getProductTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
       boolean hasPriceNodeCharacteristicId();
       /**
@@ -3229,24 +3229,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getPriceNodeCharacteristicId();
+      io.dstore.values.IntegerValue getPriceNodeCharacteristicId();
       /**
        * <pre>
        * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
        */
       boolean hasSurchargeGeneratedByCampIds();
       /**
@@ -3254,24 +3254,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
        */
-      io.dstore.Values.stringValue getSurchargeGeneratedByCampIds();
+      io.dstore.values.StringValue getSurchargeGeneratedByCampIds();
       /**
        * <pre>
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder();
 
       /**
        * <pre>
        * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
        */
       boolean hasYAxisValueIds();
       /**
@@ -3279,24 +3279,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
        */
-      io.dstore.Values.stringValue getYAxisValueIds();
+      io.dstore.values.StringValue getYAxisValueIds();
       /**
        * <pre>
        * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getYAxisValueIdsOrBuilder();
+      io.dstore.values.StringValueOrBuilder getYAxisValueIdsOrBuilder();
 
       /**
        * <pre>
        * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
        */
       boolean hasInputDateAndTime();
       /**
@@ -3304,24 +3304,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
        */
-      io.dstore.Values.timestampValue getInputDateAndTime();
+      io.dstore.values.TimestampValue getInputDateAndTime();
       /**
        * <pre>
        * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getInputDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
        */
       boolean hasUnitNettoPrice();
       /**
@@ -3329,24 +3329,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
        */
-      io.dstore.Values.decimalValue getUnitNettoPrice();
+      io.dstore.values.DecimalValue getUnitNettoPrice();
       /**
        * <pre>
        * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getUnitNettoPriceOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getUnitNettoPriceOrBuilder();
 
       /**
        * <pre>
        * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
        */
       boolean hasAbsoluteUnitNettoSurcharge();
       /**
@@ -3354,24 +3354,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
        */
-      io.dstore.Values.decimalValue getAbsoluteUnitNettoSurcharge();
+      io.dstore.values.DecimalValue getAbsoluteUnitNettoSurcharge();
       /**
        * <pre>
        * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitNettoSurchargeOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNettoSurchargeOrBuilder();
 
       /**
        * <pre>
        * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
       boolean hasQuantity();
       /**
@@ -3379,24 +3379,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
-      io.dstore.Values.integerValue getQuantity();
+      io.dstore.values.IntegerValue getQuantity();
       /**
        * <pre>
        * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder();
 
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
        */
       boolean hasUnitSymbol();
       /**
@@ -3404,24 +3404,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
        */
-      io.dstore.Values.stringValue getUnitSymbol();
+      io.dstore.values.StringValue getUnitSymbol();
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder();
 
       /**
        * <pre>
        * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue removed = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
        */
       boolean hasRemoved();
       /**
@@ -3429,24 +3429,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue removed = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
        */
-      io.dstore.Values.integerValue getRemoved();
+      io.dstore.values.IntegerValue getRemoved();
       /**
        * <pre>
        * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue removed = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getRemovedOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getRemovedOrBuilder();
 
       /**
        * <pre>
        * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
        */
       boolean hasUnitBruttoPrice();
       /**
@@ -3454,24 +3454,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
        */
-      io.dstore.Values.decimalValue getUnitBruttoPrice();
+      io.dstore.values.DecimalValue getUnitBruttoPrice();
       /**
        * <pre>
        * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getUnitBruttoPriceOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getUnitBruttoPriceOrBuilder();
 
       /**
        * <pre>
        * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+       * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
        */
       boolean hasYAxisValues();
       /**
@@ -3479,24 +3479,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+       * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
        */
-      io.dstore.Values.stringValue getYAxisValues();
+      io.dstore.values.StringValue getYAxisValues();
       /**
        * <pre>
        * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+       * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getYAxisValuesOrBuilder();
+      io.dstore.values.StringValueOrBuilder getYAxisValuesOrBuilder();
 
       /**
        * <pre>
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+       * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
        */
       boolean hasSurchargeReason();
       /**
@@ -3504,24 +3504,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+       * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
        */
-      io.dstore.Values.stringValue getSurchargeReason();
+      io.dstore.values.StringValue getSurchargeReason();
       /**
        * <pre>
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+       * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSurchargeReasonOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSurchargeReasonOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+       * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
        */
       boolean hasXAxisValue();
       /**
@@ -3529,24 +3529,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+       * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
        */
-      io.dstore.Values.stringValue getXAxisValue();
+      io.dstore.values.StringValue getXAxisValue();
       /**
        * <pre>
        * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+       * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getXAxisValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getXAxisValueOrBuilder();
 
       /**
        * <pre>
        * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
        */
       boolean hasAbsoluteUnitBruttoSurcharge();
       /**
@@ -3554,24 +3554,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
        */
-      io.dstore.Values.decimalValue getAbsoluteUnitBruttoSurcharge();
+      io.dstore.values.DecimalValue getAbsoluteUnitBruttoSurcharge();
       /**
        * <pre>
        * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitBruttoSurchargeOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitBruttoSurchargeOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+       * <code>optional .dstore.values.StringValue product_description = 10017;</code>
        */
       boolean hasProductDescription();
       /**
@@ -3579,24 +3579,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+       * <code>optional .dstore.values.StringValue product_description = 10017;</code>
        */
-      io.dstore.Values.stringValue getProductDescription();
+      io.dstore.values.StringValue getProductDescription();
       /**
        * <pre>
        * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+       * <code>optional .dstore.values.StringValue product_description = 10017;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getProductDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getProductDescriptionOrBuilder();
 
       /**
        * <pre>
        * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
        */
       boolean hasXAxisValueId();
       /**
@@ -3604,24 +3604,24 @@ public final class OmGetTrolleyAsMatrixPu {
        * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
        */
-      io.dstore.Values.integerValue getXAxisValueId();
+      io.dstore.values.IntegerValue getXAxisValueId();
       /**
        * <pre>
        * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getXAxisValueIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getXAxisValueIdOrBuilder();
 
       /**
        * <pre>
        * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
        */
       boolean hasRelativeSurcharge();
       /**
@@ -3629,17 +3629,17 @@ public final class OmGetTrolleyAsMatrixPu {
        * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
        */
-      io.dstore.Values.decimalValue getRelativeSurcharge();
+      io.dstore.values.DecimalValue getRelativeSurcharge();
       /**
        * <pre>
        * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getRelativeSurchargeOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getRelativeSurchargeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetTrolleyAsMatrix_Pu.Response.Row}
@@ -3687,11 +3687,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (variantTreeNodeId_ != null) {
                   subBuilder = variantTreeNodeId_.toBuilder();
                 }
-                variantTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                variantTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(variantTreeNodeId_);
                   variantTreeNodeId_ = subBuilder.buildPartial();
@@ -3700,11 +3700,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (productTreeNodeId_ != null) {
                   subBuilder = productTreeNodeId_.toBuilder();
                 }
-                productTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                productTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(productTreeNodeId_);
                   productTreeNodeId_ = subBuilder.buildPartial();
@@ -3713,11 +3713,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (priceNodeCharacteristicId_ != null) {
                   subBuilder = priceNodeCharacteristicId_.toBuilder();
                 }
-                priceNodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                priceNodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(priceNodeCharacteristicId_);
                   priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -3726,11 +3726,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (surchargeGeneratedByCampIds_ != null) {
                   subBuilder = surchargeGeneratedByCampIds_.toBuilder();
                 }
-                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeGeneratedByCampIds_);
                   surchargeGeneratedByCampIds_ = subBuilder.buildPartial();
@@ -3739,11 +3739,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (yAxisValueIds_ != null) {
                   subBuilder = yAxisValueIds_.toBuilder();
                 }
-                yAxisValueIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                yAxisValueIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(yAxisValueIds_);
                   yAxisValueIds_ = subBuilder.buildPartial();
@@ -3752,11 +3752,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80050: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (inputDateAndTime_ != null) {
                   subBuilder = inputDateAndTime_.toBuilder();
                 }
-                inputDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                inputDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inputDateAndTime_);
                   inputDateAndTime_ = subBuilder.buildPartial();
@@ -3765,11 +3765,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80058: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (unitNettoPrice_ != null) {
                   subBuilder = unitNettoPrice_.toBuilder();
                 }
-                unitNettoPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                unitNettoPrice_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitNettoPrice_);
                   unitNettoPrice_ = subBuilder.buildPartial();
@@ -3778,11 +3778,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80066: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (absoluteUnitNettoSurcharge_ != null) {
                   subBuilder = absoluteUnitNettoSurcharge_.toBuilder();
                 }
-                absoluteUnitNettoSurcharge_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                absoluteUnitNettoSurcharge_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteUnitNettoSurcharge_);
                   absoluteUnitNettoSurcharge_ = subBuilder.buildPartial();
@@ -3791,11 +3791,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80074: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -3804,11 +3804,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80082: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
                 }
-                unitSymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                unitSymbol_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitSymbol_);
                   unitSymbol_ = subBuilder.buildPartial();
@@ -3817,11 +3817,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80090: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (removed_ != null) {
                   subBuilder = removed_.toBuilder();
                 }
-                removed_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                removed_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(removed_);
                   removed_ = subBuilder.buildPartial();
@@ -3830,11 +3830,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80098: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (unitBruttoPrice_ != null) {
                   subBuilder = unitBruttoPrice_.toBuilder();
                 }
-                unitBruttoPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                unitBruttoPrice_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitBruttoPrice_);
                   unitBruttoPrice_ = subBuilder.buildPartial();
@@ -3843,11 +3843,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80106: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (yAxisValues_ != null) {
                   subBuilder = yAxisValues_.toBuilder();
                 }
-                yAxisValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                yAxisValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(yAxisValues_);
                   yAxisValues_ = subBuilder.buildPartial();
@@ -3856,11 +3856,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80114: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (surchargeReason_ != null) {
                   subBuilder = surchargeReason_.toBuilder();
                 }
-                surchargeReason_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                surchargeReason_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeReason_);
                   surchargeReason_ = subBuilder.buildPartial();
@@ -3869,11 +3869,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80122: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (xAxisValue_ != null) {
                   subBuilder = xAxisValue_.toBuilder();
                 }
-                xAxisValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                xAxisValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(xAxisValue_);
                   xAxisValue_ = subBuilder.buildPartial();
@@ -3882,11 +3882,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80130: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (absoluteUnitBruttoSurcharge_ != null) {
                   subBuilder = absoluteUnitBruttoSurcharge_.toBuilder();
                 }
-                absoluteUnitBruttoSurcharge_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                absoluteUnitBruttoSurcharge_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteUnitBruttoSurcharge_);
                   absoluteUnitBruttoSurcharge_ = subBuilder.buildPartial();
@@ -3895,11 +3895,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80138: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (productDescription_ != null) {
                   subBuilder = productDescription_.toBuilder();
                 }
-                productDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                productDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(productDescription_);
                   productDescription_ = subBuilder.buildPartial();
@@ -3908,11 +3908,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80146: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (xAxisValueId_ != null) {
                   subBuilder = xAxisValueId_.toBuilder();
                 }
-                xAxisValueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                xAxisValueId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(xAxisValueId_);
                   xAxisValueId_ = subBuilder.buildPartial();
@@ -3921,11 +3921,11 @@ public final class OmGetTrolleyAsMatrixPu {
                 break;
               }
               case 80154: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (relativeSurcharge_ != null) {
                   subBuilder = relativeSurcharge_.toBuilder();
                 }
-                relativeSurcharge_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                relativeSurcharge_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relativeSurcharge_);
                   relativeSurcharge_ = subBuilder.buildPartial();
@@ -3966,13 +3966,13 @@ public final class OmGetTrolleyAsMatrixPu {
       }
 
       public static final int VARIANT_TREE_NODE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue variantTreeNodeId_;
+      private io.dstore.values.IntegerValue variantTreeNodeId_;
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
        */
       public boolean hasVariantTreeNodeId() {
         return variantTreeNodeId_ != null;
@@ -3982,30 +3982,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getVariantTreeNodeId() {
-        return variantTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : variantTreeNodeId_;
+      public io.dstore.values.IntegerValue getVariantTreeNodeId() {
+        return variantTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : variantTreeNodeId_;
       }
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVariantTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVariantTreeNodeIdOrBuilder() {
         return getVariantTreeNodeId();
       }
 
       public static final int PRODUCT_TREE_NODE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue productTreeNodeId_;
+      private io.dstore.values.IntegerValue productTreeNodeId_;
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
        */
       public boolean hasProductTreeNodeId() {
         return productTreeNodeId_ != null;
@@ -4015,30 +4015,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getProductTreeNodeId() {
-        return productTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : productTreeNodeId_;
+      public io.dstore.values.IntegerValue getProductTreeNodeId() {
+        return productTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : productTreeNodeId_;
       }
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getProductTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getProductTreeNodeIdOrBuilder() {
         return getProductTreeNodeId();
       }
 
       public static final int PRICE_NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue priceNodeCharacteristicId_;
+      private io.dstore.values.IntegerValue priceNodeCharacteristicId_;
       /**
        * <pre>
        * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
       public boolean hasPriceNodeCharacteristicId() {
         return priceNodeCharacteristicId_ != null;
@@ -4048,30 +4048,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
-        return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+      public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
+        return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
       }
       /**
        * <pre>
        * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
         return getPriceNodeCharacteristicId();
       }
 
       public static final int SURCHARGE_GENERATED_BY_CAMP_IDS_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue surchargeGeneratedByCampIds_;
+      private io.dstore.values.StringValue surchargeGeneratedByCampIds_;
       /**
        * <pre>
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
        */
       public boolean hasSurchargeGeneratedByCampIds() {
         return surchargeGeneratedByCampIds_ != null;
@@ -4081,30 +4081,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
        */
-      public io.dstore.Values.stringValue getSurchargeGeneratedByCampIds() {
-        return surchargeGeneratedByCampIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
+      public io.dstore.values.StringValue getSurchargeGeneratedByCampIds() {
+        return surchargeGeneratedByCampIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
       }
       /**
        * <pre>
        * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+       * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
         return getSurchargeGeneratedByCampIds();
       }
 
       public static final int Y_AXIS_VALUE_IDS_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue yAxisValueIds_;
+      private io.dstore.values.StringValue yAxisValueIds_;
       /**
        * <pre>
        * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
        */
       public boolean hasYAxisValueIds() {
         return yAxisValueIds_ != null;
@@ -4114,30 +4114,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
        */
-      public io.dstore.Values.stringValue getYAxisValueIds() {
-        return yAxisValueIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : yAxisValueIds_;
+      public io.dstore.values.StringValue getYAxisValueIds() {
+        return yAxisValueIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : yAxisValueIds_;
       }
       /**
        * <pre>
        * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getYAxisValueIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getYAxisValueIdsOrBuilder() {
         return getYAxisValueIds();
       }
 
       public static final int INPUT_DATE_AND_TIME_FIELD_NUMBER = 10006;
-      private io.dstore.Values.timestampValue inputDateAndTime_;
+      private io.dstore.values.TimestampValue inputDateAndTime_;
       /**
        * <pre>
        * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
        */
       public boolean hasInputDateAndTime() {
         return inputDateAndTime_ != null;
@@ -4147,30 +4147,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
        */
-      public io.dstore.Values.timestampValue getInputDateAndTime() {
-        return inputDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
+      public io.dstore.values.TimestampValue getInputDateAndTime() {
+        return inputDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : inputDateAndTime_;
       }
       /**
        * <pre>
        * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getInputDateAndTimeOrBuilder() {
         return getInputDateAndTime();
       }
 
       public static final int UNIT_NETTO_PRICE_FIELD_NUMBER = 10007;
-      private io.dstore.Values.decimalValue unitNettoPrice_;
+      private io.dstore.values.DecimalValue unitNettoPrice_;
       /**
        * <pre>
        * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
        */
       public boolean hasUnitNettoPrice() {
         return unitNettoPrice_ != null;
@@ -4180,30 +4180,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
        */
-      public io.dstore.Values.decimalValue getUnitNettoPrice() {
-        return unitNettoPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitNettoPrice_;
+      public io.dstore.values.DecimalValue getUnitNettoPrice() {
+        return unitNettoPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitNettoPrice_;
       }
       /**
        * <pre>
        * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getUnitNettoPriceOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getUnitNettoPriceOrBuilder() {
         return getUnitNettoPrice();
       }
 
       public static final int ABSOLUTE_UNIT_NETTO_SURCHARGE_FIELD_NUMBER = 10008;
-      private io.dstore.Values.decimalValue absoluteUnitNettoSurcharge_;
+      private io.dstore.values.DecimalValue absoluteUnitNettoSurcharge_;
       /**
        * <pre>
        * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
        */
       public boolean hasAbsoluteUnitNettoSurcharge() {
         return absoluteUnitNettoSurcharge_ != null;
@@ -4213,30 +4213,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
        */
-      public io.dstore.Values.decimalValue getAbsoluteUnitNettoSurcharge() {
-        return absoluteUnitNettoSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitNettoSurcharge_;
+      public io.dstore.values.DecimalValue getAbsoluteUnitNettoSurcharge() {
+        return absoluteUnitNettoSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitNettoSurcharge_;
       }
       /**
        * <pre>
        * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitNettoSurchargeOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNettoSurchargeOrBuilder() {
         return getAbsoluteUnitNettoSurcharge();
       }
 
       public static final int QUANTITY_FIELD_NUMBER = 10009;
-      private io.dstore.Values.integerValue quantity_;
+      private io.dstore.values.IntegerValue quantity_;
       /**
        * <pre>
        * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
       public boolean hasQuantity() {
         return quantity_ != null;
@@ -4246,30 +4246,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
-      public io.dstore.Values.integerValue getQuantity() {
-        return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+      public io.dstore.values.IntegerValue getQuantity() {
+        return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
       }
       /**
        * <pre>
        * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
         return getQuantity();
       }
 
       public static final int UNIT_SYMBOL_FIELD_NUMBER = 10010;
-      private io.dstore.Values.stringValue unitSymbol_;
+      private io.dstore.values.StringValue unitSymbol_;
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
        */
       public boolean hasUnitSymbol() {
         return unitSymbol_ != null;
@@ -4279,30 +4279,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
        */
-      public io.dstore.Values.stringValue getUnitSymbol() {
-        return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
+      public io.dstore.values.StringValue getUnitSymbol() {
+        return unitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
       }
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+       * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder() {
         return getUnitSymbol();
       }
 
       public static final int REMOVED_FIELD_NUMBER = 10011;
-      private io.dstore.Values.integerValue removed_;
+      private io.dstore.values.IntegerValue removed_;
       /**
        * <pre>
        * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue removed = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
        */
       public boolean hasRemoved() {
         return removed_ != null;
@@ -4312,30 +4312,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue removed = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
        */
-      public io.dstore.Values.integerValue getRemoved() {
-        return removed_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : removed_;
+      public io.dstore.values.IntegerValue getRemoved() {
+        return removed_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : removed_;
       }
       /**
        * <pre>
        * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue removed = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRemovedOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRemovedOrBuilder() {
         return getRemoved();
       }
 
       public static final int UNIT_BRUTTO_PRICE_FIELD_NUMBER = 10012;
-      private io.dstore.Values.decimalValue unitBruttoPrice_;
+      private io.dstore.values.DecimalValue unitBruttoPrice_;
       /**
        * <pre>
        * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
        */
       public boolean hasUnitBruttoPrice() {
         return unitBruttoPrice_ != null;
@@ -4345,30 +4345,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
        */
-      public io.dstore.Values.decimalValue getUnitBruttoPrice() {
-        return unitBruttoPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitBruttoPrice_;
+      public io.dstore.values.DecimalValue getUnitBruttoPrice() {
+        return unitBruttoPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitBruttoPrice_;
       }
       /**
        * <pre>
        * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+       * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getUnitBruttoPriceOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getUnitBruttoPriceOrBuilder() {
         return getUnitBruttoPrice();
       }
 
       public static final int Y_AXIS_VALUES_FIELD_NUMBER = 10013;
-      private io.dstore.Values.stringValue yAxisValues_;
+      private io.dstore.values.StringValue yAxisValues_;
       /**
        * <pre>
        * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+       * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
        */
       public boolean hasYAxisValues() {
         return yAxisValues_ != null;
@@ -4378,30 +4378,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+       * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
        */
-      public io.dstore.Values.stringValue getYAxisValues() {
-        return yAxisValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : yAxisValues_;
+      public io.dstore.values.StringValue getYAxisValues() {
+        return yAxisValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : yAxisValues_;
       }
       /**
        * <pre>
        * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+       * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getYAxisValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getYAxisValuesOrBuilder() {
         return getYAxisValues();
       }
 
       public static final int SURCHARGE_REASON_FIELD_NUMBER = 10014;
-      private io.dstore.Values.stringValue surchargeReason_;
+      private io.dstore.values.StringValue surchargeReason_;
       /**
        * <pre>
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+       * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
        */
       public boolean hasSurchargeReason() {
         return surchargeReason_ != null;
@@ -4411,30 +4411,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+       * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
        */
-      public io.dstore.Values.stringValue getSurchargeReason() {
-        return surchargeReason_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeReason_;
+      public io.dstore.values.StringValue getSurchargeReason() {
+        return surchargeReason_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeReason_;
       }
       /**
        * <pre>
        * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+       * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSurchargeReasonOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSurchargeReasonOrBuilder() {
         return getSurchargeReason();
       }
 
       public static final int X_AXIS_VALUE_FIELD_NUMBER = 10015;
-      private io.dstore.Values.stringValue xAxisValue_;
+      private io.dstore.values.StringValue xAxisValue_;
       /**
        * <pre>
        * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+       * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
        */
       public boolean hasXAxisValue() {
         return xAxisValue_ != null;
@@ -4444,30 +4444,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+       * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
        */
-      public io.dstore.Values.stringValue getXAxisValue() {
-        return xAxisValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : xAxisValue_;
+      public io.dstore.values.StringValue getXAxisValue() {
+        return xAxisValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : xAxisValue_;
       }
       /**
        * <pre>
        * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+       * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getXAxisValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getXAxisValueOrBuilder() {
         return getXAxisValue();
       }
 
       public static final int ABSOLUTE_UNIT_BRUTTO_SURCHARGE_FIELD_NUMBER = 10016;
-      private io.dstore.Values.decimalValue absoluteUnitBruttoSurcharge_;
+      private io.dstore.values.DecimalValue absoluteUnitBruttoSurcharge_;
       /**
        * <pre>
        * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
        */
       public boolean hasAbsoluteUnitBruttoSurcharge() {
         return absoluteUnitBruttoSurcharge_ != null;
@@ -4477,30 +4477,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
        */
-      public io.dstore.Values.decimalValue getAbsoluteUnitBruttoSurcharge() {
-        return absoluteUnitBruttoSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitBruttoSurcharge_;
+      public io.dstore.values.DecimalValue getAbsoluteUnitBruttoSurcharge() {
+        return absoluteUnitBruttoSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitBruttoSurcharge_;
       }
       /**
        * <pre>
        * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+       * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitBruttoSurchargeOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitBruttoSurchargeOrBuilder() {
         return getAbsoluteUnitBruttoSurcharge();
       }
 
       public static final int PRODUCT_DESCRIPTION_FIELD_NUMBER = 10017;
-      private io.dstore.Values.stringValue productDescription_;
+      private io.dstore.values.StringValue productDescription_;
       /**
        * <pre>
        * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+       * <code>optional .dstore.values.StringValue product_description = 10017;</code>
        */
       public boolean hasProductDescription() {
         return productDescription_ != null;
@@ -4510,30 +4510,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+       * <code>optional .dstore.values.StringValue product_description = 10017;</code>
        */
-      public io.dstore.Values.stringValue getProductDescription() {
-        return productDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : productDescription_;
+      public io.dstore.values.StringValue getProductDescription() {
+        return productDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : productDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+       * <code>optional .dstore.values.StringValue product_description = 10017;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getProductDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getProductDescriptionOrBuilder() {
         return getProductDescription();
       }
 
       public static final int X_AXIS_VALUE_ID_FIELD_NUMBER = 10018;
-      private io.dstore.Values.integerValue xAxisValueId_;
+      private io.dstore.values.IntegerValue xAxisValueId_;
       /**
        * <pre>
        * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
        */
       public boolean hasXAxisValueId() {
         return xAxisValueId_ != null;
@@ -4543,30 +4543,30 @@ public final class OmGetTrolleyAsMatrixPu {
        * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
        */
-      public io.dstore.Values.integerValue getXAxisValueId() {
-        return xAxisValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : xAxisValueId_;
+      public io.dstore.values.IntegerValue getXAxisValueId() {
+        return xAxisValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : xAxisValueId_;
       }
       /**
        * <pre>
        * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getXAxisValueIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getXAxisValueIdOrBuilder() {
         return getXAxisValueId();
       }
 
       public static final int RELATIVE_SURCHARGE_FIELD_NUMBER = 10019;
-      private io.dstore.Values.decimalValue relativeSurcharge_;
+      private io.dstore.values.DecimalValue relativeSurcharge_;
       /**
        * <pre>
        * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
        */
       public boolean hasRelativeSurcharge() {
         return relativeSurcharge_ != null;
@@ -4576,19 +4576,19 @@ public final class OmGetTrolleyAsMatrixPu {
        * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
        */
-      public io.dstore.Values.decimalValue getRelativeSurcharge() {
-        return relativeSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : relativeSurcharge_;
+      public io.dstore.values.DecimalValue getRelativeSurcharge() {
+        return relativeSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : relativeSurcharge_;
       }
       /**
        * <pre>
        * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+       * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getRelativeSurchargeOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getRelativeSurchargeOrBuilder() {
         return getRelativeSurcharge();
       }
 
@@ -5457,15 +5457,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue variantTreeNodeId_ = null;
+        private io.dstore.values.IntegerValue variantTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> variantTreeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> variantTreeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
          */
         public boolean hasVariantTreeNodeId() {
           return variantTreeNodeIdBuilder_ != null || variantTreeNodeId_ != null;
@@ -5475,11 +5475,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getVariantTreeNodeId() {
+        public io.dstore.values.IntegerValue getVariantTreeNodeId() {
           if (variantTreeNodeIdBuilder_ == null) {
-            return variantTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : variantTreeNodeId_;
+            return variantTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : variantTreeNodeId_;
           } else {
             return variantTreeNodeIdBuilder_.getMessage();
           }
@@ -5489,9 +5489,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
          */
-        public Builder setVariantTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setVariantTreeNodeId(io.dstore.values.IntegerValue value) {
           if (variantTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5509,10 +5509,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
          */
         public Builder setVariantTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (variantTreeNodeIdBuilder_ == null) {
             variantTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -5527,13 +5527,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
          */
-        public Builder mergeVariantTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeVariantTreeNodeId(io.dstore.values.IntegerValue value) {
           if (variantTreeNodeIdBuilder_ == null) {
             if (variantTreeNodeId_ != null) {
               variantTreeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(variantTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(variantTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               variantTreeNodeId_ = value;
             }
@@ -5549,7 +5549,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
          */
         public Builder clearVariantTreeNodeId() {
           if (variantTreeNodeIdBuilder_ == null) {
@@ -5567,9 +5567,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getVariantTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getVariantTreeNodeIdBuilder() {
           
           onChanged();
           return getVariantTreeNodeIdFieldBuilder().getBuilder();
@@ -5579,14 +5579,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getVariantTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getVariantTreeNodeIdOrBuilder() {
           if (variantTreeNodeIdBuilder_ != null) {
             return variantTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return variantTreeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : variantTreeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : variantTreeNodeId_;
           }
         }
         /**
@@ -5594,14 +5594,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum, das eine Variante von "ProductTreeNodeID" darstellt. "NULL", falls "ProductTreeNodeID" keine Varianten hat oder die Variante mit den Eigenschaften "YAxisValues" und "XAxisValue" nicht existiert bzw. im Warenkorb liegt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue variant_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue variant_tree_node_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getVariantTreeNodeIdFieldBuilder() {
           if (variantTreeNodeIdBuilder_ == null) {
             variantTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getVariantTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5610,15 +5610,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return variantTreeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue productTreeNodeId_ = null;
+        private io.dstore.values.IntegerValue productTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> productTreeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> productTreeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
          */
         public boolean hasProductTreeNodeId() {
           return productTreeNodeIdBuilder_ != null || productTreeNodeId_ != null;
@@ -5628,11 +5628,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getProductTreeNodeId() {
+        public io.dstore.values.IntegerValue getProductTreeNodeId() {
           if (productTreeNodeIdBuilder_ == null) {
-            return productTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : productTreeNodeId_;
+            return productTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : productTreeNodeId_;
           } else {
             return productTreeNodeIdBuilder_.getMessage();
           }
@@ -5642,9 +5642,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
          */
-        public Builder setProductTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setProductTreeNodeId(io.dstore.values.IntegerValue value) {
           if (productTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5662,10 +5662,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
          */
         public Builder setProductTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (productTreeNodeIdBuilder_ == null) {
             productTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -5680,13 +5680,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
          */
-        public Builder mergeProductTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeProductTreeNodeId(io.dstore.values.IntegerValue value) {
           if (productTreeNodeIdBuilder_ == null) {
             if (productTreeNodeId_ != null) {
               productTreeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(productTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(productTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               productTreeNodeId_ = value;
             }
@@ -5702,7 +5702,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
          */
         public Builder clearProductTreeNodeId() {
           if (productTreeNodeIdBuilder_ == null) {
@@ -5720,9 +5720,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getProductTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getProductTreeNodeIdBuilder() {
           
           onChanged();
           return getProductTreeNodeIdFieldBuilder().getBuilder();
@@ -5732,14 +5732,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getProductTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getProductTreeNodeIdOrBuilder() {
           if (productTreeNodeIdBuilder_ != null) {
             return productTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return productTreeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : productTreeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : productTreeNodeId_;
           }
         }
         /**
@@ -5747,14 +5747,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID eines Elementes im Artikelbaum (aus dem Warenkorb des Besuchers "&#64;UniqueID"). Wichtiger Hinweis : siehe Beschreibung !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue product_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue product_tree_node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getProductTreeNodeIdFieldBuilder() {
           if (productTreeNodeIdBuilder_ == null) {
             productTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getProductTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5763,15 +5763,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return productTreeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue priceNodeCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue priceNodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public boolean hasPriceNodeCharacteristicId() {
           return priceNodeCharacteristicIdBuilder_ != null || priceNodeCharacteristicId_ != null;
@@ -5781,11 +5781,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
+        public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
           if (priceNodeCharacteristicIdBuilder_ == null) {
-            return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+            return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
           } else {
             return priceNodeCharacteristicIdBuilder_.getMessage();
           }
@@ -5795,9 +5795,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
-        public Builder setPriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setPriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (priceNodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5815,10 +5815,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public Builder setPriceNodeCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (priceNodeCharacteristicIdBuilder_ == null) {
             priceNodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -5833,13 +5833,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
-        public Builder mergePriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergePriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (priceNodeCharacteristicIdBuilder_ == null) {
             if (priceNodeCharacteristicId_ != null) {
               priceNodeCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               priceNodeCharacteristicId_ = value;
             }
@@ -5855,7 +5855,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         public Builder clearPriceNodeCharacteristicId() {
           if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -5873,9 +5873,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPriceNodeCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPriceNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getPriceNodeCharacteristicIdFieldBuilder().getBuilder();
@@ -5885,14 +5885,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
           if (priceNodeCharacteristicIdBuilder_ != null) {
             return priceNodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return priceNodeCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
           }
         }
         /**
@@ -5900,14 +5900,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * ID des Merkmals; die Eigenschaft von "NodeID" zu diesem Merkmal hat den Preis ("UnitNettoPrice") bestimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue price_node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPriceNodeCharacteristicIdFieldBuilder() {
           if (priceNodeCharacteristicIdBuilder_ == null) {
             priceNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPriceNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -5916,15 +5916,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return priceNodeCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue surchargeGeneratedByCampIds_ = null;
+        private io.dstore.values.StringValue surchargeGeneratedByCampIds_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeGeneratedByCampIdsBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> surchargeGeneratedByCampIdsBuilder_;
         /**
          * <pre>
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
         public boolean hasSurchargeGeneratedByCampIds() {
           return surchargeGeneratedByCampIdsBuilder_ != null || surchargeGeneratedByCampIds_ != null;
@@ -5934,11 +5934,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
-        public io.dstore.Values.stringValue getSurchargeGeneratedByCampIds() {
+        public io.dstore.values.StringValue getSurchargeGeneratedByCampIds() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
-            return surchargeGeneratedByCampIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
+            return surchargeGeneratedByCampIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
           } else {
             return surchargeGeneratedByCampIdsBuilder_.getMessage();
           }
@@ -5948,9 +5948,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
-        public Builder setSurchargeGeneratedByCampIds(io.dstore.Values.stringValue value) {
+        public Builder setSurchargeGeneratedByCampIds(io.dstore.values.StringValue value) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5968,10 +5968,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
         public Builder setSurchargeGeneratedByCampIds(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
             surchargeGeneratedByCampIds_ = builderForValue.build();
             onChanged();
@@ -5986,13 +5986,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
-        public Builder mergeSurchargeGeneratedByCampIds(io.dstore.Values.stringValue value) {
+        public Builder mergeSurchargeGeneratedByCampIds(io.dstore.values.StringValue value) {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
             if (surchargeGeneratedByCampIds_ != null) {
               surchargeGeneratedByCampIds_ =
-                io.dstore.Values.stringValue.newBuilder(surchargeGeneratedByCampIds_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(surchargeGeneratedByCampIds_).mergeFrom(value).buildPartial();
             } else {
               surchargeGeneratedByCampIds_ = value;
             }
@@ -6008,7 +6008,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
         public Builder clearSurchargeGeneratedByCampIds() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
@@ -6026,9 +6026,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSurchargeGeneratedByCampIdsBuilder() {
+        public io.dstore.values.StringValue.Builder getSurchargeGeneratedByCampIdsBuilder() {
           
           onChanged();
           return getSurchargeGeneratedByCampIdsFieldBuilder().getBuilder();
@@ -6038,14 +6038,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSurchargeGeneratedByCampIdsOrBuilder() {
           if (surchargeGeneratedByCampIdsBuilder_ != null) {
             return surchargeGeneratedByCampIdsBuilder_.getMessageOrBuilder();
           } else {
             return surchargeGeneratedByCampIds_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
+                io.dstore.values.StringValue.getDefaultInstance() : surchargeGeneratedByCampIds_;
           }
         }
         /**
@@ -6053,14 +6053,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Liste von "CampaignID"s der Verkaufsaktionen, die zur Rabattierung der Position geführt haben. Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_generated_by_camp_ids = 10004;</code>
+         * <code>optional .dstore.values.StringValue surcharge_generated_by_camp_ids = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSurchargeGeneratedByCampIdsFieldBuilder() {
           if (surchargeGeneratedByCampIdsBuilder_ == null) {
             surchargeGeneratedByCampIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSurchargeGeneratedByCampIds(),
                     getParentForChildren(),
                     isClean());
@@ -6069,15 +6069,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return surchargeGeneratedByCampIdsBuilder_;
         }
 
-        private io.dstore.Values.stringValue yAxisValueIds_ = null;
+        private io.dstore.values.StringValue yAxisValueIds_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> yAxisValueIdsBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> yAxisValueIdsBuilder_;
         /**
          * <pre>
          * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
          */
         public boolean hasYAxisValueIds() {
           return yAxisValueIdsBuilder_ != null || yAxisValueIds_ != null;
@@ -6087,11 +6087,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
          */
-        public io.dstore.Values.stringValue getYAxisValueIds() {
+        public io.dstore.values.StringValue getYAxisValueIds() {
           if (yAxisValueIdsBuilder_ == null) {
-            return yAxisValueIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : yAxisValueIds_;
+            return yAxisValueIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : yAxisValueIds_;
           } else {
             return yAxisValueIdsBuilder_.getMessage();
           }
@@ -6101,9 +6101,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
          */
-        public Builder setYAxisValueIds(io.dstore.Values.stringValue value) {
+        public Builder setYAxisValueIds(io.dstore.values.StringValue value) {
           if (yAxisValueIdsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6121,10 +6121,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
          */
         public Builder setYAxisValueIds(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (yAxisValueIdsBuilder_ == null) {
             yAxisValueIds_ = builderForValue.build();
             onChanged();
@@ -6139,13 +6139,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
          */
-        public Builder mergeYAxisValueIds(io.dstore.Values.stringValue value) {
+        public Builder mergeYAxisValueIds(io.dstore.values.StringValue value) {
           if (yAxisValueIdsBuilder_ == null) {
             if (yAxisValueIds_ != null) {
               yAxisValueIds_ =
-                io.dstore.Values.stringValue.newBuilder(yAxisValueIds_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(yAxisValueIds_).mergeFrom(value).buildPartial();
             } else {
               yAxisValueIds_ = value;
             }
@@ -6161,7 +6161,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
          */
         public Builder clearYAxisValueIds() {
           if (yAxisValueIdsBuilder_ == null) {
@@ -6179,9 +6179,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getYAxisValueIdsBuilder() {
+        public io.dstore.values.StringValue.Builder getYAxisValueIdsBuilder() {
           
           onChanged();
           return getYAxisValueIdsFieldBuilder().getBuilder();
@@ -6191,14 +6191,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getYAxisValueIdsOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getYAxisValueIdsOrBuilder() {
           if (yAxisValueIdsBuilder_ != null) {
             return yAxisValueIdsBuilder_.getMessageOrBuilder();
           } else {
             return yAxisValueIds_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : yAxisValueIds_;
+                io.dstore.values.StringValue.getDefaultInstance() : yAxisValueIds_;
           }
         }
         /**
@@ -6206,14 +6206,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zu den Eigenschaften "YAxisValues" korrespondierenden "ValueID"s (ebenfalls durch '¶' getrennt)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_value_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue y_axis_value_ids = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getYAxisValueIdsFieldBuilder() {
           if (yAxisValueIdsBuilder_ == null) {
             yAxisValueIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getYAxisValueIds(),
                     getParentForChildren(),
                     isClean());
@@ -6222,15 +6222,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return yAxisValueIdsBuilder_;
         }
 
-        private io.dstore.Values.timestampValue inputDateAndTime_ = null;
+        private io.dstore.values.TimestampValue inputDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> inputDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> inputDateAndTimeBuilder_;
         /**
          * <pre>
          * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
          */
         public boolean hasInputDateAndTime() {
           return inputDateAndTimeBuilder_ != null || inputDateAndTime_ != null;
@@ -6240,11 +6240,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.timestampValue getInputDateAndTime() {
+        public io.dstore.values.TimestampValue getInputDateAndTime() {
           if (inputDateAndTimeBuilder_ == null) {
-            return inputDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
+            return inputDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : inputDateAndTime_;
           } else {
             return inputDateAndTimeBuilder_.getMessage();
           }
@@ -6254,9 +6254,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
          */
-        public Builder setInputDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setInputDateAndTime(io.dstore.values.TimestampValue value) {
           if (inputDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6274,10 +6274,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
          */
         public Builder setInputDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (inputDateAndTimeBuilder_ == null) {
             inputDateAndTime_ = builderForValue.build();
             onChanged();
@@ -6292,13 +6292,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
          */
-        public Builder mergeInputDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeInputDateAndTime(io.dstore.values.TimestampValue value) {
           if (inputDateAndTimeBuilder_ == null) {
             if (inputDateAndTime_ != null) {
               inputDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(inputDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(inputDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               inputDateAndTime_ = value;
             }
@@ -6314,7 +6314,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
          */
         public Builder clearInputDateAndTime() {
           if (inputDateAndTimeBuilder_ == null) {
@@ -6332,9 +6332,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getInputDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getInputDateAndTimeBuilder() {
           
           onChanged();
           return getInputDateAndTimeFieldBuilder().getBuilder();
@@ -6344,14 +6344,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getInputDateAndTimeOrBuilder() {
           if (inputDateAndTimeBuilder_ != null) {
             return inputDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return inputDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : inputDateAndTime_;
           }
         }
         /**
@@ -6359,14 +6359,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Zeitpunkt, zu dem der Besucher "&#64;UniqueID" das Element "ProductTreeNodeID" bzw. "VariantTreeNodeID" in den Warenkorb gelegt hat. Gibt es mehrere Varianten zur "ProductTreeNodeID" ist dieser Wert für alle Varianten gleich (der kleinste aller Varianten).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getInputDateAndTimeFieldBuilder() {
           if (inputDateAndTimeBuilder_ == null) {
             inputDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getInputDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -6375,15 +6375,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return inputDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.decimalValue unitNettoPrice_ = null;
+        private io.dstore.values.DecimalValue unitNettoPrice_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> unitNettoPriceBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> unitNettoPriceBuilder_;
         /**
          * <pre>
          * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
          */
         public boolean hasUnitNettoPrice() {
           return unitNettoPriceBuilder_ != null || unitNettoPrice_ != null;
@@ -6393,11 +6393,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
          */
-        public io.dstore.Values.decimalValue getUnitNettoPrice() {
+        public io.dstore.values.DecimalValue getUnitNettoPrice() {
           if (unitNettoPriceBuilder_ == null) {
-            return unitNettoPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitNettoPrice_;
+            return unitNettoPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitNettoPrice_;
           } else {
             return unitNettoPriceBuilder_.getMessage();
           }
@@ -6407,9 +6407,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
          */
-        public Builder setUnitNettoPrice(io.dstore.Values.decimalValue value) {
+        public Builder setUnitNettoPrice(io.dstore.values.DecimalValue value) {
           if (unitNettoPriceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6427,10 +6427,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
          */
         public Builder setUnitNettoPrice(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (unitNettoPriceBuilder_ == null) {
             unitNettoPrice_ = builderForValue.build();
             onChanged();
@@ -6445,13 +6445,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
          */
-        public Builder mergeUnitNettoPrice(io.dstore.Values.decimalValue value) {
+        public Builder mergeUnitNettoPrice(io.dstore.values.DecimalValue value) {
           if (unitNettoPriceBuilder_ == null) {
             if (unitNettoPrice_ != null) {
               unitNettoPrice_ =
-                io.dstore.Values.decimalValue.newBuilder(unitNettoPrice_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(unitNettoPrice_).mergeFrom(value).buildPartial();
             } else {
               unitNettoPrice_ = value;
             }
@@ -6467,7 +6467,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
          */
         public Builder clearUnitNettoPrice() {
           if (unitNettoPriceBuilder_ == null) {
@@ -6485,9 +6485,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getUnitNettoPriceBuilder() {
+        public io.dstore.values.DecimalValue.Builder getUnitNettoPriceBuilder() {
           
           onChanged();
           return getUnitNettoPriceFieldBuilder().getBuilder();
@@ -6497,14 +6497,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getUnitNettoPriceOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getUnitNettoPriceOrBuilder() {
           if (unitNettoPriceBuilder_ != null) {
             return unitNettoPriceBuilder_.getMessageOrBuilder();
           } else {
             return unitNettoPrice_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : unitNettoPrice_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : unitNettoPrice_;
           }
         }
         /**
@@ -6512,14 +6512,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Netto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_netto_price = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue unit_netto_price = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getUnitNettoPriceFieldBuilder() {
           if (unitNettoPriceBuilder_ == null) {
             unitNettoPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getUnitNettoPrice(),
                     getParentForChildren(),
                     isClean());
@@ -6528,15 +6528,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return unitNettoPriceBuilder_;
         }
 
-        private io.dstore.Values.decimalValue absoluteUnitNettoSurcharge_ = null;
+        private io.dstore.values.DecimalValue absoluteUnitNettoSurcharge_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> absoluteUnitNettoSurchargeBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> absoluteUnitNettoSurchargeBuilder_;
         /**
          * <pre>
          * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
         public boolean hasAbsoluteUnitNettoSurcharge() {
           return absoluteUnitNettoSurchargeBuilder_ != null || absoluteUnitNettoSurcharge_ != null;
@@ -6546,11 +6546,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
-        public io.dstore.Values.decimalValue getAbsoluteUnitNettoSurcharge() {
+        public io.dstore.values.DecimalValue getAbsoluteUnitNettoSurcharge() {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
-            return absoluteUnitNettoSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitNettoSurcharge_;
+            return absoluteUnitNettoSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitNettoSurcharge_;
           } else {
             return absoluteUnitNettoSurchargeBuilder_.getMessage();
           }
@@ -6560,9 +6560,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
-        public Builder setAbsoluteUnitNettoSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder setAbsoluteUnitNettoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6580,10 +6580,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
         public Builder setAbsoluteUnitNettoSurcharge(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
             absoluteUnitNettoSurcharge_ = builderForValue.build();
             onChanged();
@@ -6598,13 +6598,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
-        public Builder mergeAbsoluteUnitNettoSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder mergeAbsoluteUnitNettoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
             if (absoluteUnitNettoSurcharge_ != null) {
               absoluteUnitNettoSurcharge_ =
-                io.dstore.Values.decimalValue.newBuilder(absoluteUnitNettoSurcharge_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(absoluteUnitNettoSurcharge_).mergeFrom(value).buildPartial();
             } else {
               absoluteUnitNettoSurcharge_ = value;
             }
@@ -6620,7 +6620,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
         public Builder clearAbsoluteUnitNettoSurcharge() {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
@@ -6638,9 +6638,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getAbsoluteUnitNettoSurchargeBuilder() {
+        public io.dstore.values.DecimalValue.Builder getAbsoluteUnitNettoSurchargeBuilder() {
           
           onChanged();
           return getAbsoluteUnitNettoSurchargeFieldBuilder().getBuilder();
@@ -6650,14 +6650,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitNettoSurchargeOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitNettoSurchargeOrBuilder() {
           if (absoluteUnitNettoSurchargeBuilder_ != null) {
             return absoluteUnitNettoSurchargeBuilder_.getMessageOrBuilder();
           } else {
             return absoluteUnitNettoSurcharge_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitNettoSurcharge_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitNettoSurcharge_;
           }
         }
         /**
@@ -6665,14 +6665,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Netto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitNettoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_netto_surcharge = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_netto_surcharge = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getAbsoluteUnitNettoSurchargeFieldBuilder() {
           if (absoluteUnitNettoSurchargeBuilder_ == null) {
             absoluteUnitNettoSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getAbsoluteUnitNettoSurcharge(),
                     getParentForChildren(),
                     isClean());
@@ -6681,15 +6681,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return absoluteUnitNettoSurchargeBuilder_;
         }
 
-        private io.dstore.Values.integerValue quantity_ = null;
+        private io.dstore.values.IntegerValue quantity_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> quantityBuilder_;
         /**
          * <pre>
          * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
         public boolean hasQuantity() {
           return quantityBuilder_ != null || quantity_ != null;
@@ -6699,11 +6699,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public io.dstore.Values.integerValue getQuantity() {
+        public io.dstore.values.IntegerValue getQuantity() {
           if (quantityBuilder_ == null) {
-            return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+            return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
           } else {
             return quantityBuilder_.getMessage();
           }
@@ -6713,9 +6713,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public Builder setQuantity(io.dstore.Values.integerValue value) {
+        public Builder setQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6733,10 +6733,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
         public Builder setQuantity(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (quantityBuilder_ == null) {
             quantity_ = builderForValue.build();
             onChanged();
@@ -6751,13 +6751,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public Builder mergeQuantity(io.dstore.Values.integerValue value) {
+        public Builder mergeQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
             if (quantity_ != null) {
               quantity_ =
-                io.dstore.Values.integerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
             } else {
               quantity_ = value;
             }
@@ -6773,7 +6773,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
         public Builder clearQuantity() {
           if (quantityBuilder_ == null) {
@@ -6791,9 +6791,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public io.dstore.Values.integerValue.Builder getQuantityBuilder() {
+        public io.dstore.values.IntegerValue.Builder getQuantityBuilder() {
           
           onChanged();
           return getQuantityFieldBuilder().getBuilder();
@@ -6803,14 +6803,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
           if (quantityBuilder_ != null) {
             return quantityBuilder_.getMessageOrBuilder();
           } else {
             return quantity_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
           }
         }
         /**
@@ -6818,14 +6818,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Anzahl des Produktes "ProductTreeNodeID" bzw. der Produkt-Variante "VariantTreeNodeID", die der Besucher "&#64;UniqueID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getQuantityFieldBuilder() {
           if (quantityBuilder_ == null) {
             quantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getQuantity(),
                     getParentForChildren(),
                     isClean());
@@ -6834,15 +6834,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return quantityBuilder_;
         }
 
-        private io.dstore.Values.stringValue unitSymbol_ = null;
+        private io.dstore.values.StringValue unitSymbol_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> unitSymbolBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> unitSymbolBuilder_;
         /**
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
          */
         public boolean hasUnitSymbol() {
           return unitSymbolBuilder_ != null || unitSymbol_ != null;
@@ -6852,11 +6852,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
          */
-        public io.dstore.Values.stringValue getUnitSymbol() {
+        public io.dstore.values.StringValue getUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
-            return unitSymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
+            return unitSymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
           } else {
             return unitSymbolBuilder_.getMessage();
           }
@@ -6866,9 +6866,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
          */
-        public Builder setUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder setUnitSymbol(io.dstore.values.StringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6886,10 +6886,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
          */
         public Builder setUnitSymbol(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (unitSymbolBuilder_ == null) {
             unitSymbol_ = builderForValue.build();
             onChanged();
@@ -6904,13 +6904,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
          */
-        public Builder mergeUnitSymbol(io.dstore.Values.stringValue value) {
+        public Builder mergeUnitSymbol(io.dstore.values.StringValue value) {
           if (unitSymbolBuilder_ == null) {
             if (unitSymbol_ != null) {
               unitSymbol_ =
-                io.dstore.Values.stringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(unitSymbol_).mergeFrom(value).buildPartial();
             } else {
               unitSymbol_ = value;
             }
@@ -6926,7 +6926,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
          */
         public Builder clearUnitSymbol() {
           if (unitSymbolBuilder_ == null) {
@@ -6944,9 +6944,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUnitSymbolBuilder() {
+        public io.dstore.values.StringValue.Builder getUnitSymbolBuilder() {
           
           onChanged();
           return getUnitSymbolFieldBuilder().getBuilder();
@@ -6956,14 +6956,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUnitSymbolOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUnitSymbolOrBuilder() {
           if (unitSymbolBuilder_ != null) {
             return unitSymbolBuilder_.getMessageOrBuilder();
           } else {
             return unitSymbol_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : unitSymbol_;
+                io.dstore.values.StringValue.getDefaultInstance() : unitSymbol_;
           }
         }
         /**
@@ -6971,14 +6971,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Symbol (im Regelfall der ISO-Code) der Währung, die der Besucher "&#64;UniqueID" bevorzugt und in der die Werte "UnitNettoPrice" usw. angegeben sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue unit_symbol = 10010;</code>
+         * <code>optional .dstore.values.StringValue unit_symbol = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUnitSymbolFieldBuilder() {
           if (unitSymbolBuilder_ == null) {
             unitSymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUnitSymbol(),
                     getParentForChildren(),
                     isClean());
@@ -6987,15 +6987,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return unitSymbolBuilder_;
         }
 
-        private io.dstore.Values.integerValue removed_ = null;
+        private io.dstore.values.IntegerValue removed_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> removedBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> removedBuilder_;
         /**
          * <pre>
          * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue removed = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
          */
         public boolean hasRemoved() {
           return removedBuilder_ != null || removed_ != null;
@@ -7005,11 +7005,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue removed = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
          */
-        public io.dstore.Values.integerValue getRemoved() {
+        public io.dstore.values.IntegerValue getRemoved() {
           if (removedBuilder_ == null) {
-            return removed_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : removed_;
+            return removed_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : removed_;
           } else {
             return removedBuilder_.getMessage();
           }
@@ -7019,9 +7019,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue removed = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
          */
-        public Builder setRemoved(io.dstore.Values.integerValue value) {
+        public Builder setRemoved(io.dstore.values.IntegerValue value) {
           if (removedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7039,10 +7039,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue removed = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
          */
         public Builder setRemoved(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (removedBuilder_ == null) {
             removed_ = builderForValue.build();
             onChanged();
@@ -7057,13 +7057,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue removed = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
          */
-        public Builder mergeRemoved(io.dstore.Values.integerValue value) {
+        public Builder mergeRemoved(io.dstore.values.IntegerValue value) {
           if (removedBuilder_ == null) {
             if (removed_ != null) {
               removed_ =
-                io.dstore.Values.integerValue.newBuilder(removed_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(removed_).mergeFrom(value).buildPartial();
             } else {
               removed_ = value;
             }
@@ -7079,7 +7079,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue removed = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
          */
         public Builder clearRemoved() {
           if (removedBuilder_ == null) {
@@ -7097,9 +7097,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue removed = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
          */
-        public io.dstore.Values.integerValue.Builder getRemovedBuilder() {
+        public io.dstore.values.IntegerValue.Builder getRemovedBuilder() {
           
           onChanged();
           return getRemovedFieldBuilder().getBuilder();
@@ -7109,14 +7109,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue removed = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getRemovedOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getRemovedOrBuilder() {
           if (removedBuilder_ != null) {
             return removedBuilder_.getMessageOrBuilder();
           } else {
             return removed_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : removed_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : removed_;
           }
         }
         /**
@@ -7124,14 +7124,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * "&lt;&gt; 0", wenn "&#64;HTreeNodeID" entfernt wurde:* 1: Allg. Grund* 2: Keine aktive "Campaign" zur "BonusItemForItemSetID"* 3: Bonus Art. erfüllt keine der Bedingungen* 4: Zu viele Bonus Art. aus einem Set* 5: Komb. von Bon-Art. unters. Sets nicht möglich
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue removed = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue removed = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getRemovedFieldBuilder() {
           if (removedBuilder_ == null) {
             removedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getRemoved(),
                     getParentForChildren(),
                     isClean());
@@ -7140,15 +7140,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return removedBuilder_;
         }
 
-        private io.dstore.Values.decimalValue unitBruttoPrice_ = null;
+        private io.dstore.values.DecimalValue unitBruttoPrice_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> unitBruttoPriceBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> unitBruttoPriceBuilder_;
         /**
          * <pre>
          * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
          */
         public boolean hasUnitBruttoPrice() {
           return unitBruttoPriceBuilder_ != null || unitBruttoPrice_ != null;
@@ -7158,11 +7158,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
          */
-        public io.dstore.Values.decimalValue getUnitBruttoPrice() {
+        public io.dstore.values.DecimalValue getUnitBruttoPrice() {
           if (unitBruttoPriceBuilder_ == null) {
-            return unitBruttoPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : unitBruttoPrice_;
+            return unitBruttoPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : unitBruttoPrice_;
           } else {
             return unitBruttoPriceBuilder_.getMessage();
           }
@@ -7172,9 +7172,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
          */
-        public Builder setUnitBruttoPrice(io.dstore.Values.decimalValue value) {
+        public Builder setUnitBruttoPrice(io.dstore.values.DecimalValue value) {
           if (unitBruttoPriceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7192,10 +7192,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
          */
         public Builder setUnitBruttoPrice(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (unitBruttoPriceBuilder_ == null) {
             unitBruttoPrice_ = builderForValue.build();
             onChanged();
@@ -7210,13 +7210,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
          */
-        public Builder mergeUnitBruttoPrice(io.dstore.Values.decimalValue value) {
+        public Builder mergeUnitBruttoPrice(io.dstore.values.DecimalValue value) {
           if (unitBruttoPriceBuilder_ == null) {
             if (unitBruttoPrice_ != null) {
               unitBruttoPrice_ =
-                io.dstore.Values.decimalValue.newBuilder(unitBruttoPrice_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(unitBruttoPrice_).mergeFrom(value).buildPartial();
             } else {
               unitBruttoPrice_ = value;
             }
@@ -7232,7 +7232,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
          */
         public Builder clearUnitBruttoPrice() {
           if (unitBruttoPriceBuilder_ == null) {
@@ -7250,9 +7250,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getUnitBruttoPriceBuilder() {
+        public io.dstore.values.DecimalValue.Builder getUnitBruttoPriceBuilder() {
           
           onChanged();
           return getUnitBruttoPriceFieldBuilder().getBuilder();
@@ -7262,14 +7262,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getUnitBruttoPriceOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getUnitBruttoPriceOrBuilder() {
           if (unitBruttoPriceBuilder_ != null) {
             return unitBruttoPriceBuilder_.getMessageOrBuilder();
           } else {
             return unitBruttoPrice_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : unitBruttoPrice_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : unitBruttoPrice_;
           }
         }
         /**
@@ -7277,14 +7277,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Brutto-Verkaufspreis (für das Produkt "ProductTreeNodeID" bzw. für die Produkt-Variante "VariantTreeNodeID") pro Stück in der vom Besucher "&#64;UniqueID" bevorzugten Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue unit_brutto_price = 10012;</code>
+         * <code>optional .dstore.values.DecimalValue unit_brutto_price = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getUnitBruttoPriceFieldBuilder() {
           if (unitBruttoPriceBuilder_ == null) {
             unitBruttoPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getUnitBruttoPrice(),
                     getParentForChildren(),
                     isClean());
@@ -7293,15 +7293,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return unitBruttoPriceBuilder_;
         }
 
-        private io.dstore.Values.stringValue yAxisValues_ = null;
+        private io.dstore.values.StringValue yAxisValues_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> yAxisValuesBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> yAxisValuesBuilder_;
         /**
          * <pre>
          * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+         * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
          */
         public boolean hasYAxisValues() {
           return yAxisValuesBuilder_ != null || yAxisValues_ != null;
@@ -7311,11 +7311,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+         * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
          */
-        public io.dstore.Values.stringValue getYAxisValues() {
+        public io.dstore.values.StringValue getYAxisValues() {
           if (yAxisValuesBuilder_ == null) {
-            return yAxisValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : yAxisValues_;
+            return yAxisValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : yAxisValues_;
           } else {
             return yAxisValuesBuilder_.getMessage();
           }
@@ -7325,9 +7325,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+         * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
          */
-        public Builder setYAxisValues(io.dstore.Values.stringValue value) {
+        public Builder setYAxisValues(io.dstore.values.StringValue value) {
           if (yAxisValuesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7345,10 +7345,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+         * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
          */
         public Builder setYAxisValues(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (yAxisValuesBuilder_ == null) {
             yAxisValues_ = builderForValue.build();
             onChanged();
@@ -7363,13 +7363,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+         * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
          */
-        public Builder mergeYAxisValues(io.dstore.Values.stringValue value) {
+        public Builder mergeYAxisValues(io.dstore.values.StringValue value) {
           if (yAxisValuesBuilder_ == null) {
             if (yAxisValues_ != null) {
               yAxisValues_ =
-                io.dstore.Values.stringValue.newBuilder(yAxisValues_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(yAxisValues_).mergeFrom(value).buildPartial();
             } else {
               yAxisValues_ = value;
             }
@@ -7385,7 +7385,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+         * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
          */
         public Builder clearYAxisValues() {
           if (yAxisValuesBuilder_ == null) {
@@ -7403,9 +7403,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+         * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
          */
-        public io.dstore.Values.stringValue.Builder getYAxisValuesBuilder() {
+        public io.dstore.values.StringValue.Builder getYAxisValuesBuilder() {
           
           onChanged();
           return getYAxisValuesFieldBuilder().getBuilder();
@@ -7415,14 +7415,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+         * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getYAxisValuesOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getYAxisValuesOrBuilder() {
           if (yAxisValuesBuilder_ != null) {
             return yAxisValuesBuilder_.getMessageOrBuilder();
           } else {
             return yAxisValues_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : yAxisValues_;
+                io.dstore.values.StringValue.getDefaultInstance() : yAxisValues_;
           }
         }
         /**
@@ -7430,14 +7430,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaften (durch '¶' getrennt) von "VariantTreeNodeID" zu den "Varianten-Merkmalen" (bis auf das letzte Merkmal, siehe "XAxisValue"), die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue y_axis_values = 10013;</code>
+         * <code>optional .dstore.values.StringValue y_axis_values = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getYAxisValuesFieldBuilder() {
           if (yAxisValuesBuilder_ == null) {
             yAxisValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getYAxisValues(),
                     getParentForChildren(),
                     isClean());
@@ -7446,15 +7446,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return yAxisValuesBuilder_;
         }
 
-        private io.dstore.Values.stringValue surchargeReason_ = null;
+        private io.dstore.values.StringValue surchargeReason_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeReasonBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> surchargeReasonBuilder_;
         /**
          * <pre>
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+         * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
          */
         public boolean hasSurchargeReason() {
           return surchargeReasonBuilder_ != null || surchargeReason_ != null;
@@ -7464,11 +7464,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+         * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
          */
-        public io.dstore.Values.stringValue getSurchargeReason() {
+        public io.dstore.values.StringValue getSurchargeReason() {
           if (surchargeReasonBuilder_ == null) {
-            return surchargeReason_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeReason_;
+            return surchargeReason_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeReason_;
           } else {
             return surchargeReasonBuilder_.getMessage();
           }
@@ -7478,9 +7478,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+         * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
          */
-        public Builder setSurchargeReason(io.dstore.Values.stringValue value) {
+        public Builder setSurchargeReason(io.dstore.values.StringValue value) {
           if (surchargeReasonBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7498,10 +7498,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+         * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
          */
         public Builder setSurchargeReason(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (surchargeReasonBuilder_ == null) {
             surchargeReason_ = builderForValue.build();
             onChanged();
@@ -7516,13 +7516,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+         * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
          */
-        public Builder mergeSurchargeReason(io.dstore.Values.stringValue value) {
+        public Builder mergeSurchargeReason(io.dstore.values.StringValue value) {
           if (surchargeReasonBuilder_ == null) {
             if (surchargeReason_ != null) {
               surchargeReason_ =
-                io.dstore.Values.stringValue.newBuilder(surchargeReason_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(surchargeReason_).mergeFrom(value).buildPartial();
             } else {
               surchargeReason_ = value;
             }
@@ -7538,7 +7538,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+         * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
          */
         public Builder clearSurchargeReason() {
           if (surchargeReasonBuilder_ == null) {
@@ -7556,9 +7556,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+         * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSurchargeReasonBuilder() {
+        public io.dstore.values.StringValue.Builder getSurchargeReasonBuilder() {
           
           onChanged();
           return getSurchargeReasonFieldBuilder().getBuilder();
@@ -7568,14 +7568,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+         * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSurchargeReasonOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSurchargeReasonOrBuilder() {
           if (surchargeReasonBuilder_ != null) {
             return surchargeReasonBuilder_.getMessageOrBuilder();
           } else {
             return surchargeReason_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : surchargeReason_;
+                io.dstore.values.StringValue.getDefaultInstance() : surchargeReason_;
           }
         }
         /**
@@ -7583,14 +7583,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * "Grund" für einen evtl. vorhandenen Rabatt (z.B. ein "Aktionsname", der letztlich von der individuellen Rabatt-Ermittlung durch "_ac_om_GetSurcharges" stammt). Immer "NULL", wenn "&#64;CalculatePrices &lt; 2" ist !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue surcharge_reason = 10014;</code>
+         * <code>optional .dstore.values.StringValue surcharge_reason = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSurchargeReasonFieldBuilder() {
           if (surchargeReasonBuilder_ == null) {
             surchargeReasonBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSurchargeReason(),
                     getParentForChildren(),
                     isClean());
@@ -7599,15 +7599,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return surchargeReasonBuilder_;
         }
 
-        private io.dstore.Values.stringValue xAxisValue_ = null;
+        private io.dstore.values.StringValue xAxisValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> xAxisValueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> xAxisValueBuilder_;
         /**
          * <pre>
          * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+         * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
          */
         public boolean hasXAxisValue() {
           return xAxisValueBuilder_ != null || xAxisValue_ != null;
@@ -7617,11 +7617,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+         * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
          */
-        public io.dstore.Values.stringValue getXAxisValue() {
+        public io.dstore.values.StringValue getXAxisValue() {
           if (xAxisValueBuilder_ == null) {
-            return xAxisValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : xAxisValue_;
+            return xAxisValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : xAxisValue_;
           } else {
             return xAxisValueBuilder_.getMessage();
           }
@@ -7631,9 +7631,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+         * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
          */
-        public Builder setXAxisValue(io.dstore.Values.stringValue value) {
+        public Builder setXAxisValue(io.dstore.values.StringValue value) {
           if (xAxisValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7651,10 +7651,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+         * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
          */
         public Builder setXAxisValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (xAxisValueBuilder_ == null) {
             xAxisValue_ = builderForValue.build();
             onChanged();
@@ -7669,13 +7669,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+         * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
          */
-        public Builder mergeXAxisValue(io.dstore.Values.stringValue value) {
+        public Builder mergeXAxisValue(io.dstore.values.StringValue value) {
           if (xAxisValueBuilder_ == null) {
             if (xAxisValue_ != null) {
               xAxisValue_ =
-                io.dstore.Values.stringValue.newBuilder(xAxisValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(xAxisValue_).mergeFrom(value).buildPartial();
             } else {
               xAxisValue_ = value;
             }
@@ -7691,7 +7691,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+         * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
          */
         public Builder clearXAxisValue() {
           if (xAxisValueBuilder_ == null) {
@@ -7709,9 +7709,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+         * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
          */
-        public io.dstore.Values.stringValue.Builder getXAxisValueBuilder() {
+        public io.dstore.values.StringValue.Builder getXAxisValueBuilder() {
           
           onChanged();
           return getXAxisValueFieldBuilder().getBuilder();
@@ -7721,14 +7721,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+         * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getXAxisValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getXAxisValueOrBuilder() {
           if (xAxisValueBuilder_ != null) {
             return xAxisValueBuilder_.getMessageOrBuilder();
           } else {
             return xAxisValue_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : xAxisValue_;
+                io.dstore.values.StringValue.getDefaultInstance() : xAxisValue_;
           }
         }
         /**
@@ -7736,14 +7736,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Eigenschaft von "VariantTreeNodeID" zum letzten "Varianten-Merkmal" der Merkmale, die als Eigenschaft zur Merkmal-ID "17" zum Element "ProductTreeNodeID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue x_axis_value = 10015;</code>
+         * <code>optional .dstore.values.StringValue x_axis_value = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getXAxisValueFieldBuilder() {
           if (xAxisValueBuilder_ == null) {
             xAxisValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getXAxisValue(),
                     getParentForChildren(),
                     isClean());
@@ -7752,15 +7752,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return xAxisValueBuilder_;
         }
 
-        private io.dstore.Values.decimalValue absoluteUnitBruttoSurcharge_ = null;
+        private io.dstore.values.DecimalValue absoluteUnitBruttoSurcharge_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> absoluteUnitBruttoSurchargeBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> absoluteUnitBruttoSurchargeBuilder_;
         /**
          * <pre>
          * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
         public boolean hasAbsoluteUnitBruttoSurcharge() {
           return absoluteUnitBruttoSurchargeBuilder_ != null || absoluteUnitBruttoSurcharge_ != null;
@@ -7770,11 +7770,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
-        public io.dstore.Values.decimalValue getAbsoluteUnitBruttoSurcharge() {
+        public io.dstore.values.DecimalValue getAbsoluteUnitBruttoSurcharge() {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
-            return absoluteUnitBruttoSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitBruttoSurcharge_;
+            return absoluteUnitBruttoSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitBruttoSurcharge_;
           } else {
             return absoluteUnitBruttoSurchargeBuilder_.getMessage();
           }
@@ -7784,9 +7784,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
-        public Builder setAbsoluteUnitBruttoSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder setAbsoluteUnitBruttoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7804,10 +7804,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
         public Builder setAbsoluteUnitBruttoSurcharge(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
             absoluteUnitBruttoSurcharge_ = builderForValue.build();
             onChanged();
@@ -7822,13 +7822,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
-        public Builder mergeAbsoluteUnitBruttoSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder mergeAbsoluteUnitBruttoSurcharge(io.dstore.values.DecimalValue value) {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
             if (absoluteUnitBruttoSurcharge_ != null) {
               absoluteUnitBruttoSurcharge_ =
-                io.dstore.Values.decimalValue.newBuilder(absoluteUnitBruttoSurcharge_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(absoluteUnitBruttoSurcharge_).mergeFrom(value).buildPartial();
             } else {
               absoluteUnitBruttoSurcharge_ = value;
             }
@@ -7844,7 +7844,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
         public Builder clearAbsoluteUnitBruttoSurcharge() {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
@@ -7862,9 +7862,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getAbsoluteUnitBruttoSurchargeBuilder() {
+        public io.dstore.values.DecimalValue.Builder getAbsoluteUnitBruttoSurchargeBuilder() {
           
           onChanged();
           return getAbsoluteUnitBruttoSurchargeFieldBuilder().getBuilder();
@@ -7874,14 +7874,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getAbsoluteUnitBruttoSurchargeOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getAbsoluteUnitBruttoSurchargeOrBuilder() {
           if (absoluteUnitBruttoSurchargeBuilder_ != null) {
             return absoluteUnitBruttoSurchargeBuilder_.getMessageOrBuilder();
           } else {
             return absoluteUnitBruttoSurcharge_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : absoluteUnitBruttoSurcharge_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : absoluteUnitBruttoSurcharge_;
           }
         }
         /**
@@ -7889,14 +7889,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Absoluter Brutto-Rabatt (negativer Wert) bzw. -Aufschlag (positiver Wert) pro Stück. Entspricht also "UnitBruttoPrice * RelativeSurcharge / 100". Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue absolute_unit_brutto_surcharge = 10016;</code>
+         * <code>optional .dstore.values.DecimalValue absolute_unit_brutto_surcharge = 10016;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getAbsoluteUnitBruttoSurchargeFieldBuilder() {
           if (absoluteUnitBruttoSurchargeBuilder_ == null) {
             absoluteUnitBruttoSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getAbsoluteUnitBruttoSurcharge(),
                     getParentForChildren(),
                     isClean());
@@ -7905,15 +7905,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return absoluteUnitBruttoSurchargeBuilder_;
         }
 
-        private io.dstore.Values.stringValue productDescription_ = null;
+        private io.dstore.values.StringValue productDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> productDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> productDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+         * <code>optional .dstore.values.StringValue product_description = 10017;</code>
          */
         public boolean hasProductDescription() {
           return productDescriptionBuilder_ != null || productDescription_ != null;
@@ -7923,11 +7923,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+         * <code>optional .dstore.values.StringValue product_description = 10017;</code>
          */
-        public io.dstore.Values.stringValue getProductDescription() {
+        public io.dstore.values.StringValue getProductDescription() {
           if (productDescriptionBuilder_ == null) {
-            return productDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : productDescription_;
+            return productDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : productDescription_;
           } else {
             return productDescriptionBuilder_.getMessage();
           }
@@ -7937,9 +7937,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+         * <code>optional .dstore.values.StringValue product_description = 10017;</code>
          */
-        public Builder setProductDescription(io.dstore.Values.stringValue value) {
+        public Builder setProductDescription(io.dstore.values.StringValue value) {
           if (productDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7957,10 +7957,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+         * <code>optional .dstore.values.StringValue product_description = 10017;</code>
          */
         public Builder setProductDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (productDescriptionBuilder_ == null) {
             productDescription_ = builderForValue.build();
             onChanged();
@@ -7975,13 +7975,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+         * <code>optional .dstore.values.StringValue product_description = 10017;</code>
          */
-        public Builder mergeProductDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeProductDescription(io.dstore.values.StringValue value) {
           if (productDescriptionBuilder_ == null) {
             if (productDescription_ != null) {
               productDescription_ =
-                io.dstore.Values.stringValue.newBuilder(productDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(productDescription_).mergeFrom(value).buildPartial();
             } else {
               productDescription_ = value;
             }
@@ -7997,7 +7997,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+         * <code>optional .dstore.values.StringValue product_description = 10017;</code>
          */
         public Builder clearProductDescription() {
           if (productDescriptionBuilder_ == null) {
@@ -8015,9 +8015,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+         * <code>optional .dstore.values.StringValue product_description = 10017;</code>
          */
-        public io.dstore.Values.stringValue.Builder getProductDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getProductDescriptionBuilder() {
           
           onChanged();
           return getProductDescriptionFieldBuilder().getBuilder();
@@ -8027,14 +8027,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+         * <code>optional .dstore.values.StringValue product_description = 10017;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getProductDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getProductDescriptionOrBuilder() {
           if (productDescriptionBuilder_ != null) {
             return productDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return productDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : productDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : productDescription_;
           }
         }
         /**
@@ -8042,14 +8042,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Bezeichnung der "ProductTreeNodeID" in der Sprache, die der Besucher "&#64;UniqueID" bevorzugt (falls vorhanden steht hier evtl. die Eigenschaft zum Merkmal "Produktbezeichnung", s.a. "im_GetNodeDescriptions_Pu")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue product_description = 10017;</code>
+         * <code>optional .dstore.values.StringValue product_description = 10017;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getProductDescriptionFieldBuilder() {
           if (productDescriptionBuilder_ == null) {
             productDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getProductDescription(),
                     getParentForChildren(),
                     isClean());
@@ -8058,15 +8058,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return productDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue xAxisValueId_ = null;
+        private io.dstore.values.IntegerValue xAxisValueId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> xAxisValueIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> xAxisValueIdBuilder_;
         /**
          * <pre>
          * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
          */
         public boolean hasXAxisValueId() {
           return xAxisValueIdBuilder_ != null || xAxisValueId_ != null;
@@ -8076,11 +8076,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
          */
-        public io.dstore.Values.integerValue getXAxisValueId() {
+        public io.dstore.values.IntegerValue getXAxisValueId() {
           if (xAxisValueIdBuilder_ == null) {
-            return xAxisValueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : xAxisValueId_;
+            return xAxisValueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : xAxisValueId_;
           } else {
             return xAxisValueIdBuilder_.getMessage();
           }
@@ -8090,9 +8090,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
          */
-        public Builder setXAxisValueId(io.dstore.Values.integerValue value) {
+        public Builder setXAxisValueId(io.dstore.values.IntegerValue value) {
           if (xAxisValueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8110,10 +8110,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
          */
         public Builder setXAxisValueId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (xAxisValueIdBuilder_ == null) {
             xAxisValueId_ = builderForValue.build();
             onChanged();
@@ -8128,13 +8128,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
          */
-        public Builder mergeXAxisValueId(io.dstore.Values.integerValue value) {
+        public Builder mergeXAxisValueId(io.dstore.values.IntegerValue value) {
           if (xAxisValueIdBuilder_ == null) {
             if (xAxisValueId_ != null) {
               xAxisValueId_ =
-                io.dstore.Values.integerValue.newBuilder(xAxisValueId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(xAxisValueId_).mergeFrom(value).buildPartial();
             } else {
               xAxisValueId_ = value;
             }
@@ -8150,7 +8150,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
          */
         public Builder clearXAxisValueId() {
           if (xAxisValueIdBuilder_ == null) {
@@ -8168,9 +8168,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
          */
-        public io.dstore.Values.integerValue.Builder getXAxisValueIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getXAxisValueIdBuilder() {
           
           onChanged();
           return getXAxisValueIdFieldBuilder().getBuilder();
@@ -8180,14 +8180,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getXAxisValueIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getXAxisValueIdOrBuilder() {
           if (xAxisValueIdBuilder_ != null) {
             return xAxisValueIdBuilder_.getMessageOrBuilder();
           } else {
             return xAxisValueId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : xAxisValueId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : xAxisValueId_;
           }
         }
         /**
@@ -8195,14 +8195,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Die zur Eigenschaft "XAxisValue" korrespondierende "ValueID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue x_axis_value_id = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue x_axis_value_id = 10018;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getXAxisValueIdFieldBuilder() {
           if (xAxisValueIdBuilder_ == null) {
             xAxisValueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getXAxisValueId(),
                     getParentForChildren(),
                     isClean());
@@ -8211,15 +8211,15 @@ public final class OmGetTrolleyAsMatrixPu {
           return xAxisValueIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue relativeSurcharge_ = null;
+        private io.dstore.values.DecimalValue relativeSurcharge_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> relativeSurchargeBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> relativeSurchargeBuilder_;
         /**
          * <pre>
          * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
          */
         public boolean hasRelativeSurcharge() {
           return relativeSurchargeBuilder_ != null || relativeSurcharge_ != null;
@@ -8229,11 +8229,11 @@ public final class OmGetTrolleyAsMatrixPu {
          * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
          */
-        public io.dstore.Values.decimalValue getRelativeSurcharge() {
+        public io.dstore.values.DecimalValue getRelativeSurcharge() {
           if (relativeSurchargeBuilder_ == null) {
-            return relativeSurcharge_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : relativeSurcharge_;
+            return relativeSurcharge_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : relativeSurcharge_;
           } else {
             return relativeSurchargeBuilder_.getMessage();
           }
@@ -8243,9 +8243,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
          */
-        public Builder setRelativeSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder setRelativeSurcharge(io.dstore.values.DecimalValue value) {
           if (relativeSurchargeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8263,10 +8263,10 @@ public final class OmGetTrolleyAsMatrixPu {
          * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
          */
         public Builder setRelativeSurcharge(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (relativeSurchargeBuilder_ == null) {
             relativeSurcharge_ = builderForValue.build();
             onChanged();
@@ -8281,13 +8281,13 @@ public final class OmGetTrolleyAsMatrixPu {
          * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
          */
-        public Builder mergeRelativeSurcharge(io.dstore.Values.decimalValue value) {
+        public Builder mergeRelativeSurcharge(io.dstore.values.DecimalValue value) {
           if (relativeSurchargeBuilder_ == null) {
             if (relativeSurcharge_ != null) {
               relativeSurcharge_ =
-                io.dstore.Values.decimalValue.newBuilder(relativeSurcharge_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(relativeSurcharge_).mergeFrom(value).buildPartial();
             } else {
               relativeSurcharge_ = value;
             }
@@ -8303,7 +8303,7 @@ public final class OmGetTrolleyAsMatrixPu {
          * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
          */
         public Builder clearRelativeSurcharge() {
           if (relativeSurchargeBuilder_ == null) {
@@ -8321,9 +8321,9 @@ public final class OmGetTrolleyAsMatrixPu {
          * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getRelativeSurchargeBuilder() {
+        public io.dstore.values.DecimalValue.Builder getRelativeSurchargeBuilder() {
           
           onChanged();
           return getRelativeSurchargeFieldBuilder().getBuilder();
@@ -8333,14 +8333,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getRelativeSurchargeOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getRelativeSurchargeOrBuilder() {
           if (relativeSurchargeBuilder_ != null) {
             return relativeSurchargeBuilder_.getMessageOrBuilder();
           } else {
             return relativeSurcharge_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : relativeSurcharge_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : relativeSurcharge_;
           }
         }
         /**
@@ -8348,14 +8348,14 @@ public final class OmGetTrolleyAsMatrixPu {
          * Relativer Rabatt/Aufschlag in Prozent. Ein negativer Wert bedeutet einen Rabatt, sonst beinhaltet der Verkaufspreis einen Aufschlag. Falls KEINE "&#64;PersonID" angegeben wurde, steht hier immer "0" (bzw. "NULL") !
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue relative_surcharge = 10019;</code>
+         * <code>optional .dstore.values.DecimalValue relative_surcharge = 10019;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getRelativeSurchargeFieldBuilder() {
           if (relativeSurchargeBuilder_ == null) {
             relativeSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getRelativeSurcharge(),
                     getParentForChildren(),
                     isClean());
@@ -9824,62 +9824,62 @@ public final class OmGetTrolleyAsMatrixPu {
       "AsMatrix_Pu.proto\022&dstore.engine.om_GetT" +
       "rolleyAsMatrix_Pu\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\263\007\n\nParameter" +
-      "s\022-\n\tunique_id\030\001 \001(\0132\032.dstore.values.str" +
+      "s\022-\n\tunique_id\030\001 \001(\0132\032.dstore.values.Str" +
       "ingValue\022\027\n\016unique_id_null\030\351\007 \001(\010\022.\n\tper" +
-      "son_id\030\002 \001(\0132\033.dstore.values.integerValu" +
+      "son_id\030\002 \001(\0132\033.dstore.values.IntegerValu" +
       "e\022\027\n\016person_id_null\030\352\007 \001(\010\0225\n\020calculate_" +
-      "prices\030\003 \001(\0132\033.dstore.values.integerValu" +
+      "prices\030\003 \001(\0132\033.dstore.values.IntegerValu" +
       "e\022\036\n\025calculate_prices_null\030\353\007 \001(\010\0227\n\022che",
-      "ck_availability\030\004 \001(\0132\033.dstore.values.bo" +
+      "ck_availability\030\004 \001(\0132\033.dstore.values.Bo" +
       "oleanValue\022 \n\027check_availability_null\030\354\007" +
       " \001(\010\022A\n\034price_node_characteristic_id\030\005 \001" +
-      "(\0132\033.dstore.values.integerValue\022*\n!price" +
+      "(\0132\033.dstore.values.IntegerValue\022*\n!price" +
       "_node_characteristic_id_null\030\355\007 \001(\010\022E\n r" +
       "epair_entries_with_same_node_id\030\006 \001(\0132\033." +
-      "dstore.values.integerValue\022.\n%repair_ent" +
+      "dstore.values.IntegerValue\022.\n%repair_ent" +
       "ries_with_same_node_id_null\030\356\007 \001(\010\0227\n\022de" +
-      "livery_person_id\030\007 \001(\0132\033.dstore.values.i" +
+      "livery_person_id\030\007 \001(\0132\033.dstore.values.I" +
       "ntegerValue\022 \n\027delivery_person_id_null\030\357",
       "\007 \001(\010\022E\n output_into_trolley_surch_inter" +
-      "f\030\010 \001(\0132\033.dstore.values.booleanValue\022.\n%" +
+      "f\030\010 \001(\0132\033.dstore.values.BooleanValue\022.\n%" +
       "output_into_trolley_surch_interf_null\030\360\007" +
       " \001(\010\0224\n\017payment_type_id\030\t \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\035\n\024payment_type_id_nu" +
+      "alues.IntegerValue\022\035\n\024payment_type_id_nu" +
       "ll\030\361\007 \001(\010\0225\n\020shipping_type_id\030\n \001(\0132\033.ds" +
-      "tore.values.integerValue\022\036\n\025shipping_typ" +
+      "tore.values.IntegerValue\022\036\n\025shipping_typ" +
       "e_id_null\030\362\007 \001(\010\"\225\n\n\010Response\0228\n\020meta_in" +
       "formation\030\002 \003(\0132\036.dstore.engine.MetaInfo" +
       "rmation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine",
       ".Message\022A\n\003row\030\004 \003(\01324.dstore.engine.om" +
       "_GetTrolleyAsMatrix_Pu.Response.Row\032\342\010\n\003" +
       "Row\022\017\n\006row_id\030\220N \001(\005\022:\n\024variant_tree_nod" +
-      "e_id\030\221N \001(\0132\033.dstore.values.integerValue" +
+      "e_id\030\221N \001(\0132\033.dstore.values.IntegerValue" +
       "\022:\n\024product_tree_node_id\030\222N \001(\0132\033.dstore" +
-      ".values.integerValue\022B\n\034price_node_chara" +
-      "cteristic_id\030\223N \001(\0132\033.dstore.values.inte" +
+      ".values.IntegerValue\022B\n\034price_node_chara" +
+      "cteristic_id\030\223N \001(\0132\033.dstore.values.Inte" +
       "gerValue\022D\n\037surcharge_generated_by_camp_" +
-      "ids\030\224N \001(\0132\032.dstore.values.stringValue\0225" +
+      "ids\030\224N \001(\0132\032.dstore.values.StringValue\0225" +
       "\n\020y_axis_value_ids\030\225N \001(\0132\032.dstore.value",
-      "s.stringValue\022;\n\023input_date_and_time\030\226N " +
-      "\001(\0132\035.dstore.values.timestampValue\0226\n\020un" +
-      "it_netto_price\030\227N \001(\0132\033.dstore.values.de" +
+      "s.StringValue\022;\n\023input_date_and_time\030\226N " +
+      "\001(\0132\035.dstore.values.TimestampValue\0226\n\020un" +
+      "it_netto_price\030\227N \001(\0132\033.dstore.values.De" +
       "cimalValue\022C\n\035absolute_unit_netto_surcha" +
-      "rge\030\230N \001(\0132\033.dstore.values.decimalValue\022" +
-      ".\n\010quantity\030\231N \001(\0132\033.dstore.values.integ" +
+      "rge\030\230N \001(\0132\033.dstore.values.DecimalValue\022" +
+      ".\n\010quantity\030\231N \001(\0132\033.dstore.values.Integ" +
       "erValue\0220\n\013unit_symbol\030\232N \001(\0132\032.dstore.v" +
-      "alues.stringValue\022-\n\007removed\030\233N \001(\0132\033.ds" +
-      "tore.values.integerValue\0227\n\021unit_brutto_" +
-      "price\030\234N \001(\0132\033.dstore.values.decimalValu",
+      "alues.StringValue\022-\n\007removed\030\233N \001(\0132\033.ds" +
+      "tore.values.IntegerValue\0227\n\021unit_brutto_" +
+      "price\030\234N \001(\0132\033.dstore.values.DecimalValu",
       "e\0222\n\ry_axis_values\030\235N \001(\0132\032.dstore.value" +
-      "s.stringValue\0225\n\020surcharge_reason\030\236N \001(\013" +
-      "2\032.dstore.values.stringValue\0221\n\014x_axis_v" +
-      "alue\030\237N \001(\0132\032.dstore.values.stringValue\022" +
+      "s.StringValue\0225\n\020surcharge_reason\030\236N \001(\013" +
+      "2\032.dstore.values.StringValue\0221\n\014x_axis_v" +
+      "alue\030\237N \001(\0132\032.dstore.values.StringValue\022" +
       "D\n\036absolute_unit_brutto_surcharge\030\240N \001(\013" +
-      "2\033.dstore.values.decimalValue\0228\n\023product" +
-      "_description\030\241N \001(\0132\032.dstore.values.stri" +
+      "2\033.dstore.values.DecimalValue\0228\n\023product" +
+      "_description\030\241N \001(\0132\032.dstore.values.Stri" +
       "ngValue\0225\n\017x_axis_value_id\030\242N \001(\0132\033.dsto" +
-      "re.values.integerValue\0228\n\022relative_surch" +
-      "arge\030\243N \001(\0132\033.dstore.values.decimalValue",
+      "re.values.IntegerValue\0228\n\022relative_surch" +
+      "arge\030\243N \001(\0132\033.dstore.values.DecimalValue",
       "BY\n\033io.dstore.engine.proceduresZ:gosdk.d" +
       "store.de/engine/procedures/om_GetTrolley" +
       "AsMatrix_Pub\006proto3"
@@ -9895,7 +9895,7 @@ public final class OmGetTrolleyAsMatrixPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Parameters_descriptor =
@@ -9916,7 +9916,7 @@ public final class OmGetTrolleyAsMatrixPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolleyAsMatrix_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "VariantTreeNodeId", "ProductTreeNodeId", "PriceNodeCharacteristicId", "SurchargeGeneratedByCampIds", "YAxisValueIds", "InputDateAndTime", "UnitNettoPrice", "AbsoluteUnitNettoSurcharge", "Quantity", "UnitSymbol", "Removed", "UnitBruttoPrice", "YAxisValues", "SurchargeReason", "XAxisValue", "AbsoluteUnitBruttoSurcharge", "ProductDescription", "XAxisValueId", "RelativeSurcharge", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

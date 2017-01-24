@@ -19,17 +19,17 @@ public final class PmGetRelationshipsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
      */
     boolean hasRelationshipId();
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
      */
-    io.dstore.Values.integerValue getRelationshipId();
+    io.dstore.values.IntegerValue getRelationshipId();
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder();
 
     /**
      * <code>optional bool relationship_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetRelationshipsAd {
     boolean getRelationshipIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+     * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
      */
     boolean hasIncludeSystemRelationships();
     /**
-     * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+     * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
      */
-    io.dstore.Values.integerValue getIncludeSystemRelationships();
+    io.dstore.values.IntegerValue getIncludeSystemRelationships();
     /**
-     * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+     * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getIncludeSystemRelationshipsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getIncludeSystemRelationshipsOrBuilder();
 
     /**
      * <code>optional bool include_system_relationships_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class PmGetRelationshipsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (relationshipId_ != null) {
                 subBuilder = relationshipId_.toBuilder();
               }
-              relationshipId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              relationshipId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(relationshipId_);
                 relationshipId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class PmGetRelationshipsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (includeSystemRelationships_ != null) {
                 subBuilder = includeSystemRelationships_.toBuilder();
               }
-              includeSystemRelationships_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              includeSystemRelationships_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeSystemRelationships_);
                 includeSystemRelationships_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class PmGetRelationshipsAd {
     }
 
     public static final int RELATIONSHIP_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue relationshipId_;
+    private io.dstore.values.IntegerValue relationshipId_;
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
      */
     public boolean hasRelationshipId() {
       return relationshipId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getRelationshipId() {
-      return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
+    public io.dstore.values.IntegerValue getRelationshipId() {
+      return relationshipId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder() {
       return getRelationshipId();
     }
 
@@ -185,23 +185,23 @@ public final class PmGetRelationshipsAd {
     }
 
     public static final int INCLUDE_SYSTEM_RELATIONSHIPS_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue includeSystemRelationships_;
+    private io.dstore.values.IntegerValue includeSystemRelationships_;
     /**
-     * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+     * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
      */
     public boolean hasIncludeSystemRelationships() {
       return includeSystemRelationships_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+     * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
      */
-    public io.dstore.Values.integerValue getIncludeSystemRelationships() {
-      return includeSystemRelationships_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : includeSystemRelationships_;
+    public io.dstore.values.IntegerValue getIncludeSystemRelationships() {
+      return includeSystemRelationships_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : includeSystemRelationships_;
     }
     /**
-     * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+     * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getIncludeSystemRelationshipsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getIncludeSystemRelationshipsOrBuilder() {
       return getIncludeSystemRelationships();
     }
 
@@ -562,29 +562,29 @@ public final class PmGetRelationshipsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue relationshipId_ = null;
+      private io.dstore.values.IntegerValue relationshipId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relationshipIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> relationshipIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public boolean hasRelationshipId() {
         return relationshipIdBuilder_ != null || relationshipId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getRelationshipId() {
+      public io.dstore.values.IntegerValue getRelationshipId() {
         if (relationshipIdBuilder_ == null) {
-          return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
+          return relationshipId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
         } else {
           return relationshipIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
        */
-      public Builder setRelationshipId(io.dstore.Values.integerValue value) {
+      public Builder setRelationshipId(io.dstore.values.IntegerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class PmGetRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public Builder setRelationshipId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (relationshipIdBuilder_ == null) {
           relationshipId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class PmGetRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
        */
-      public Builder mergeRelationshipId(io.dstore.Values.integerValue value) {
+      public Builder mergeRelationshipId(io.dstore.values.IntegerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (relationshipId_ != null) {
             relationshipId_ =
-              io.dstore.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
           } else {
             relationshipId_ = value;
           }
@@ -630,7 +630,7 @@ public final class PmGetRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
        */
       public Builder clearRelationshipId() {
         if (relationshipIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class PmGetRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRelationshipIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRelationshipIdBuilder() {
         
         onChanged();
         return getRelationshipIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder() {
         if (relationshipIdBuilder_ != null) {
           return relationshipIdBuilder_.getMessageOrBuilder();
         } else {
           return relationshipId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRelationshipIdFieldBuilder() {
         if (relationshipIdBuilder_ == null) {
           relationshipIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRelationshipId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class PmGetRelationshipsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue includeSystemRelationships_ = null;
+      private io.dstore.values.IntegerValue includeSystemRelationships_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> includeSystemRelationshipsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> includeSystemRelationshipsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+       * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
        */
       public boolean hasIncludeSystemRelationships() {
         return includeSystemRelationshipsBuilder_ != null || includeSystemRelationships_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+       * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
        */
-      public io.dstore.Values.integerValue getIncludeSystemRelationships() {
+      public io.dstore.values.IntegerValue getIncludeSystemRelationships() {
         if (includeSystemRelationshipsBuilder_ == null) {
-          return includeSystemRelationships_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : includeSystemRelationships_;
+          return includeSystemRelationships_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : includeSystemRelationships_;
         } else {
           return includeSystemRelationshipsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+       * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
        */
-      public Builder setIncludeSystemRelationships(io.dstore.Values.integerValue value) {
+      public Builder setIncludeSystemRelationships(io.dstore.values.IntegerValue value) {
         if (includeSystemRelationshipsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class PmGetRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+       * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
        */
       public Builder setIncludeSystemRelationships(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (includeSystemRelationshipsBuilder_ == null) {
           includeSystemRelationships_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class PmGetRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+       * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
        */
-      public Builder mergeIncludeSystemRelationships(io.dstore.Values.integerValue value) {
+      public Builder mergeIncludeSystemRelationships(io.dstore.values.IntegerValue value) {
         if (includeSystemRelationshipsBuilder_ == null) {
           if (includeSystemRelationships_ != null) {
             includeSystemRelationships_ =
-              io.dstore.Values.integerValue.newBuilder(includeSystemRelationships_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(includeSystemRelationships_).mergeFrom(value).buildPartial();
           } else {
             includeSystemRelationships_ = value;
           }
@@ -773,7 +773,7 @@ public final class PmGetRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+       * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
        */
       public Builder clearIncludeSystemRelationships() {
         if (includeSystemRelationshipsBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class PmGetRelationshipsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+       * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getIncludeSystemRelationshipsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getIncludeSystemRelationshipsBuilder() {
         
         onChanged();
         return getIncludeSystemRelationshipsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+       * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getIncludeSystemRelationshipsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getIncludeSystemRelationshipsOrBuilder() {
         if (includeSystemRelationshipsBuilder_ != null) {
           return includeSystemRelationshipsBuilder_.getMessageOrBuilder();
         } else {
           return includeSystemRelationships_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : includeSystemRelationships_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : includeSystemRelationships_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue include_system_relationships = 2;</code>
+       * <code>optional .dstore.values.IntegerValue include_system_relationships = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getIncludeSystemRelationshipsFieldBuilder() {
         if (includeSystemRelationshipsBuilder_ == null) {
           includeSystemRelationshipsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getIncludeSystemRelationships(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class PmGetRelationshipsAd {
        * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
        */
       boolean hasSystemRelationship();
       /**
@@ -1115,24 +1115,24 @@ public final class PmGetRelationshipsAd {
        * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
        */
-      io.dstore.Values.booleanValue getSystemRelationship();
+      io.dstore.values.BooleanValue getSystemRelationship();
       /**
        * <pre>
        * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getSystemRelationshipOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getSystemRelationshipOrBuilder();
 
       /**
        * <pre>
        * ID einer Art von Beziehung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
        */
       boolean hasRelationshipId();
       /**
@@ -1140,24 +1140,24 @@ public final class PmGetRelationshipsAd {
        * ID einer Art von Beziehung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getRelationshipId();
+      io.dstore.values.IntegerValue getRelationshipId();
       /**
        * <pre>
        * ID einer Art von Beziehung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+       * <code>optional .dstore.values.StringValue relationship = 10003;</code>
        */
       boolean hasRelationship();
       /**
@@ -1165,17 +1165,17 @@ public final class PmGetRelationshipsAd {
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+       * <code>optional .dstore.values.StringValue relationship = 10003;</code>
        */
-      io.dstore.Values.stringValue getRelationship();
+      io.dstore.values.StringValue getRelationship();
       /**
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+       * <code>optional .dstore.values.StringValue relationship = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getRelationshipOrBuilder();
+      io.dstore.values.StringValueOrBuilder getRelationshipOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetRelationships_Ad.Response.Row}
@@ -1223,11 +1223,11 @@ public final class PmGetRelationshipsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (systemRelationship_ != null) {
                   subBuilder = systemRelationship_.toBuilder();
                 }
-                systemRelationship_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                systemRelationship_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(systemRelationship_);
                   systemRelationship_ = subBuilder.buildPartial();
@@ -1236,11 +1236,11 @@ public final class PmGetRelationshipsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (relationshipId_ != null) {
                   subBuilder = relationshipId_.toBuilder();
                 }
-                relationshipId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                relationshipId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relationshipId_);
                   relationshipId_ = subBuilder.buildPartial();
@@ -1249,11 +1249,11 @@ public final class PmGetRelationshipsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (relationship_ != null) {
                   subBuilder = relationship_.toBuilder();
                 }
-                relationship_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                relationship_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relationship_);
                   relationship_ = subBuilder.buildPartial();
@@ -1294,13 +1294,13 @@ public final class PmGetRelationshipsAd {
       }
 
       public static final int SYSTEM_RELATIONSHIP_FIELD_NUMBER = 10001;
-      private io.dstore.Values.booleanValue systemRelationship_;
+      private io.dstore.values.BooleanValue systemRelationship_;
       /**
        * <pre>
        * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
        */
       public boolean hasSystemRelationship() {
         return systemRelationship_ != null;
@@ -1310,30 +1310,30 @@ public final class PmGetRelationshipsAd {
        * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
        */
-      public io.dstore.Values.booleanValue getSystemRelationship() {
-        return systemRelationship_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : systemRelationship_;
+      public io.dstore.values.BooleanValue getSystemRelationship() {
+        return systemRelationship_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : systemRelationship_;
       }
       /**
        * <pre>
        * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getSystemRelationshipOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getSystemRelationshipOrBuilder() {
         return getSystemRelationship();
       }
 
       public static final int RELATIONSHIP_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue relationshipId_;
+      private io.dstore.values.IntegerValue relationshipId_;
       /**
        * <pre>
        * ID einer Art von Beziehung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
        */
       public boolean hasRelationshipId() {
         return relationshipId_ != null;
@@ -1343,30 +1343,30 @@ public final class PmGetRelationshipsAd {
        * ID einer Art von Beziehung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getRelationshipId() {
-        return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
+      public io.dstore.values.IntegerValue getRelationshipId() {
+        return relationshipId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
       }
       /**
        * <pre>
        * ID einer Art von Beziehung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder() {
         return getRelationshipId();
       }
 
       public static final int RELATIONSHIP_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue relationship_;
+      private io.dstore.values.StringValue relationship_;
       /**
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+       * <code>optional .dstore.values.StringValue relationship = 10003;</code>
        */
       public boolean hasRelationship() {
         return relationship_ != null;
@@ -1376,19 +1376,19 @@ public final class PmGetRelationshipsAd {
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+       * <code>optional .dstore.values.StringValue relationship = 10003;</code>
        */
-      public io.dstore.Values.stringValue getRelationship() {
-        return relationship_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : relationship_;
+      public io.dstore.values.StringValue getRelationship() {
+        return relationship_ == null ? io.dstore.values.StringValue.getDefaultInstance() : relationship_;
       }
       /**
        * <pre>
        * Bezeichnung der Beziehungsart "RelationshipID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+       * <code>optional .dstore.values.StringValue relationship = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getRelationshipOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getRelationshipOrBuilder() {
         return getRelationship();
       }
 
@@ -1777,15 +1777,15 @@ public final class PmGetRelationshipsAd {
           return this;
         }
 
-        private io.dstore.Values.booleanValue systemRelationship_ = null;
+        private io.dstore.values.BooleanValue systemRelationship_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> systemRelationshipBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> systemRelationshipBuilder_;
         /**
          * <pre>
          * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
          */
         public boolean hasSystemRelationship() {
           return systemRelationshipBuilder_ != null || systemRelationship_ != null;
@@ -1795,11 +1795,11 @@ public final class PmGetRelationshipsAd {
          * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
          */
-        public io.dstore.Values.booleanValue getSystemRelationship() {
+        public io.dstore.values.BooleanValue getSystemRelationship() {
           if (systemRelationshipBuilder_ == null) {
-            return systemRelationship_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : systemRelationship_;
+            return systemRelationship_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : systemRelationship_;
           } else {
             return systemRelationshipBuilder_.getMessage();
           }
@@ -1809,9 +1809,9 @@ public final class PmGetRelationshipsAd {
          * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
          */
-        public Builder setSystemRelationship(io.dstore.Values.booleanValue value) {
+        public Builder setSystemRelationship(io.dstore.values.BooleanValue value) {
           if (systemRelationshipBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1829,10 +1829,10 @@ public final class PmGetRelationshipsAd {
          * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
          */
         public Builder setSystemRelationship(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (systemRelationshipBuilder_ == null) {
             systemRelationship_ = builderForValue.build();
             onChanged();
@@ -1847,13 +1847,13 @@ public final class PmGetRelationshipsAd {
          * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
          */
-        public Builder mergeSystemRelationship(io.dstore.Values.booleanValue value) {
+        public Builder mergeSystemRelationship(io.dstore.values.BooleanValue value) {
           if (systemRelationshipBuilder_ == null) {
             if (systemRelationship_ != null) {
               systemRelationship_ =
-                io.dstore.Values.booleanValue.newBuilder(systemRelationship_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(systemRelationship_).mergeFrom(value).buildPartial();
             } else {
               systemRelationship_ = value;
             }
@@ -1869,7 +1869,7 @@ public final class PmGetRelationshipsAd {
          * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
          */
         public Builder clearSystemRelationship() {
           if (systemRelationshipBuilder_ == null) {
@@ -1887,9 +1887,9 @@ public final class PmGetRelationshipsAd {
          * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getSystemRelationshipBuilder() {
+        public io.dstore.values.BooleanValue.Builder getSystemRelationshipBuilder() {
           
           onChanged();
           return getSystemRelationshipFieldBuilder().getBuilder();
@@ -1899,14 +1899,14 @@ public final class PmGetRelationshipsAd {
          * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getSystemRelationshipOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getSystemRelationshipOrBuilder() {
           if (systemRelationshipBuilder_ != null) {
             return systemRelationshipBuilder_.getMessageOrBuilder();
           } else {
             return systemRelationship_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : systemRelationship_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : systemRelationship_;
           }
         }
         /**
@@ -1914,14 +1914,14 @@ public final class PmGetRelationshipsAd {
          * Handelt es sich um eine NUR vom "dStore" intern verwaltete Beziehung ? ("0" : Nein, "1" : Ja)
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue system_relationship = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue system_relationship = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getSystemRelationshipFieldBuilder() {
           if (systemRelationshipBuilder_ == null) {
             systemRelationshipBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getSystemRelationship(),
                     getParentForChildren(),
                     isClean());
@@ -1930,15 +1930,15 @@ public final class PmGetRelationshipsAd {
           return systemRelationshipBuilder_;
         }
 
-        private io.dstore.Values.integerValue relationshipId_ = null;
+        private io.dstore.values.IntegerValue relationshipId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relationshipIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> relationshipIdBuilder_;
         /**
          * <pre>
          * ID einer Art von Beziehung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
          */
         public boolean hasRelationshipId() {
           return relationshipIdBuilder_ != null || relationshipId_ != null;
@@ -1948,11 +1948,11 @@ public final class PmGetRelationshipsAd {
          * ID einer Art von Beziehung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getRelationshipId() {
+        public io.dstore.values.IntegerValue getRelationshipId() {
           if (relationshipIdBuilder_ == null) {
-            return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
+            return relationshipId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
           } else {
             return relationshipIdBuilder_.getMessage();
           }
@@ -1962,9 +1962,9 @@ public final class PmGetRelationshipsAd {
          * ID einer Art von Beziehung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
          */
-        public Builder setRelationshipId(io.dstore.Values.integerValue value) {
+        public Builder setRelationshipId(io.dstore.values.IntegerValue value) {
           if (relationshipIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1982,10 +1982,10 @@ public final class PmGetRelationshipsAd {
          * ID einer Art von Beziehung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
          */
         public Builder setRelationshipId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (relationshipIdBuilder_ == null) {
             relationshipId_ = builderForValue.build();
             onChanged();
@@ -2000,13 +2000,13 @@ public final class PmGetRelationshipsAd {
          * ID einer Art von Beziehung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
          */
-        public Builder mergeRelationshipId(io.dstore.Values.integerValue value) {
+        public Builder mergeRelationshipId(io.dstore.values.IntegerValue value) {
           if (relationshipIdBuilder_ == null) {
             if (relationshipId_ != null) {
               relationshipId_ =
-                io.dstore.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
             } else {
               relationshipId_ = value;
             }
@@ -2022,7 +2022,7 @@ public final class PmGetRelationshipsAd {
          * ID einer Art von Beziehung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
          */
         public Builder clearRelationshipId() {
           if (relationshipIdBuilder_ == null) {
@@ -2040,9 +2040,9 @@ public final class PmGetRelationshipsAd {
          * ID einer Art von Beziehung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getRelationshipIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getRelationshipIdBuilder() {
           
           onChanged();
           return getRelationshipIdFieldBuilder().getBuilder();
@@ -2052,14 +2052,14 @@ public final class PmGetRelationshipsAd {
          * ID einer Art von Beziehung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder() {
           if (relationshipIdBuilder_ != null) {
             return relationshipIdBuilder_.getMessageOrBuilder();
           } else {
             return relationshipId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
           }
         }
         /**
@@ -2067,14 +2067,14 @@ public final class PmGetRelationshipsAd {
          * ID einer Art von Beziehung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue relationship_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue relationship_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getRelationshipIdFieldBuilder() {
           if (relationshipIdBuilder_ == null) {
             relationshipIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getRelationshipId(),
                     getParentForChildren(),
                     isClean());
@@ -2083,15 +2083,15 @@ public final class PmGetRelationshipsAd {
           return relationshipIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue relationship_ = null;
+        private io.dstore.values.StringValue relationship_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> relationshipBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> relationshipBuilder_;
         /**
          * <pre>
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+         * <code>optional .dstore.values.StringValue relationship = 10003;</code>
          */
         public boolean hasRelationship() {
           return relationshipBuilder_ != null || relationship_ != null;
@@ -2101,11 +2101,11 @@ public final class PmGetRelationshipsAd {
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+         * <code>optional .dstore.values.StringValue relationship = 10003;</code>
          */
-        public io.dstore.Values.stringValue getRelationship() {
+        public io.dstore.values.StringValue getRelationship() {
           if (relationshipBuilder_ == null) {
-            return relationship_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : relationship_;
+            return relationship_ == null ? io.dstore.values.StringValue.getDefaultInstance() : relationship_;
           } else {
             return relationshipBuilder_.getMessage();
           }
@@ -2115,9 +2115,9 @@ public final class PmGetRelationshipsAd {
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+         * <code>optional .dstore.values.StringValue relationship = 10003;</code>
          */
-        public Builder setRelationship(io.dstore.Values.stringValue value) {
+        public Builder setRelationship(io.dstore.values.StringValue value) {
           if (relationshipBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2135,10 +2135,10 @@ public final class PmGetRelationshipsAd {
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+         * <code>optional .dstore.values.StringValue relationship = 10003;</code>
          */
         public Builder setRelationship(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (relationshipBuilder_ == null) {
             relationship_ = builderForValue.build();
             onChanged();
@@ -2153,13 +2153,13 @@ public final class PmGetRelationshipsAd {
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+         * <code>optional .dstore.values.StringValue relationship = 10003;</code>
          */
-        public Builder mergeRelationship(io.dstore.Values.stringValue value) {
+        public Builder mergeRelationship(io.dstore.values.StringValue value) {
           if (relationshipBuilder_ == null) {
             if (relationship_ != null) {
               relationship_ =
-                io.dstore.Values.stringValue.newBuilder(relationship_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(relationship_).mergeFrom(value).buildPartial();
             } else {
               relationship_ = value;
             }
@@ -2175,7 +2175,7 @@ public final class PmGetRelationshipsAd {
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+         * <code>optional .dstore.values.StringValue relationship = 10003;</code>
          */
         public Builder clearRelationship() {
           if (relationshipBuilder_ == null) {
@@ -2193,9 +2193,9 @@ public final class PmGetRelationshipsAd {
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+         * <code>optional .dstore.values.StringValue relationship = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getRelationshipBuilder() {
+        public io.dstore.values.StringValue.Builder getRelationshipBuilder() {
           
           onChanged();
           return getRelationshipFieldBuilder().getBuilder();
@@ -2205,14 +2205,14 @@ public final class PmGetRelationshipsAd {
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+         * <code>optional .dstore.values.StringValue relationship = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getRelationshipOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getRelationshipOrBuilder() {
           if (relationshipBuilder_ != null) {
             return relationshipBuilder_.getMessageOrBuilder();
           } else {
             return relationship_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : relationship_;
+                io.dstore.values.StringValue.getDefaultInstance() : relationship_;
           }
         }
         /**
@@ -2220,14 +2220,14 @@ public final class PmGetRelationshipsAd {
          * Bezeichnung der Beziehungsart "RelationshipID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue relationship = 10003;</code>
+         * <code>optional .dstore.values.StringValue relationship = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getRelationshipFieldBuilder() {
           if (relationshipBuilder_ == null) {
             relationshipBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getRelationship(),
                     getParentForChildren(),
                     isClean());
@@ -3696,10 +3696,10 @@ public final class PmGetRelationshipsAd {
       "nships_Ad.proto\022$dstore.engine.pm_GetRel" +
       "ationships_Ad\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\320\001\n\nParameters\0224\n" +
-      "\017relationship_id\030\001 \001(\0132\033.dstore.values.i" +
+      "\017relationship_id\030\001 \001(\0132\033.dstore.values.I" +
       "ntegerValue\022\035\n\024relationship_id_null\030\351\007 \001" +
       "(\010\022A\n\034include_system_relationships\030\002 \001(\013" +
-      "2\033.dstore.values.integerValue\022*\n!include" +
+      "2\033.dstore.values.IntegerValue\022*\n!include" +
       "_system_relationships_null\030\352\007 \001(\010\"\354\002\n\010Re" +
       "sponse\0228\n\020meta_information\030\002 \003(\0132\036.dstor",
       "e.engine.MetaInformation\022\'\n\007message\030\003 \003(" +
@@ -3707,9 +3707,9 @@ public final class PmGetRelationshipsAd {
       ".dstore.engine.pm_GetRelationships_Ad.Re" +
       "sponse.Row\032\273\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0229\n\023s" +
       "ystem_relationship\030\221N \001(\0132\033.dstore.value" +
-      "s.booleanValue\0225\n\017relationship_id\030\222N \001(\013" +
-      "2\033.dstore.values.integerValue\0221\n\014relatio" +
-      "nship\030\223N \001(\0132\032.dstore.values.stringValue" +
+      "s.BooleanValue\0225\n\017relationship_id\030\222N \001(\013" +
+      "2\033.dstore.values.IntegerValue\0221\n\014relatio" +
+      "nship\030\223N \001(\0132\032.dstore.values.StringValue" +
       "BW\n\033io.dstore.engine.proceduresZ8gosdk.d" +
       "store.de/engine/procedures/pm_GetRelatio",
       "nships_Adb\006proto3"
@@ -3725,7 +3725,7 @@ public final class PmGetRelationshipsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetRelationships_Ad_Parameters_descriptor =
@@ -3746,7 +3746,7 @@ public final class PmGetRelationshipsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetRelationships_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "SystemRelationship", "RelationshipId", "Relationship", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

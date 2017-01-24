@@ -19,17 +19,17 @@ public final class DoGetGlossaryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue keyword = 1;</code>
+     * <code>optional .dstore.values.StringValue keyword = 1;</code>
      */
     boolean hasKeyword();
     /**
-     * <code>optional .dstore.values.stringValue keyword = 1;</code>
+     * <code>optional .dstore.values.StringValue keyword = 1;</code>
      */
-    io.dstore.Values.stringValue getKeyword();
+    io.dstore.values.StringValue getKeyword();
     /**
-     * <code>optional .dstore.values.stringValue keyword = 1;</code>
+     * <code>optional .dstore.values.StringValue keyword = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getKeywordOrBuilder();
+    io.dstore.values.StringValueOrBuilder getKeywordOrBuilder();
 
     /**
      * <code>optional bool keyword_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class DoGetGlossaryAd {
     boolean getKeywordNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
      */
     boolean hasOrderByLowercase();
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
      */
-    io.dstore.Values.booleanValue getOrderByLowercase();
+    io.dstore.values.BooleanValue getOrderByLowercase();
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOrderByLowercaseOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOrderByLowercaseOrBuilder();
 
     /**
      * <code>optional bool order_by_lowercase_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class DoGetGlossaryAd {
     boolean getOrderByLowercaseNull();
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class DoGetGlossaryAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (keyword_ != null) {
                 subBuilder = keyword_.toBuilder();
               }
-              keyword_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              keyword_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyword_);
                 keyword_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class DoGetGlossaryAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (orderByLowercase_ != null) {
                 subBuilder = orderByLowercase_.toBuilder();
               }
-              orderByLowercase_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              orderByLowercase_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderByLowercase_);
                 orderByLowercase_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class DoGetGlossaryAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class DoGetGlossaryAd {
     }
 
     public static final int KEYWORD_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue keyword_;
+    private io.dstore.values.StringValue keyword_;
     /**
-     * <code>optional .dstore.values.stringValue keyword = 1;</code>
+     * <code>optional .dstore.values.StringValue keyword = 1;</code>
      */
     public boolean hasKeyword() {
       return keyword_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue keyword = 1;</code>
+     * <code>optional .dstore.values.StringValue keyword = 1;</code>
      */
-    public io.dstore.Values.stringValue getKeyword() {
-      return keyword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyword_;
+    public io.dstore.values.StringValue getKeyword() {
+      return keyword_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyword_;
     }
     /**
-     * <code>optional .dstore.values.stringValue keyword = 1;</code>
+     * <code>optional .dstore.values.StringValue keyword = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getKeywordOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getKeywordOrBuilder() {
       return getKeyword();
     }
 
@@ -222,23 +222,23 @@ public final class DoGetGlossaryAd {
     }
 
     public static final int ORDER_BY_LOWERCASE_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue orderByLowercase_;
+    private io.dstore.values.BooleanValue orderByLowercase_;
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
      */
     public boolean hasOrderByLowercase() {
       return orderByLowercase_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
      */
-    public io.dstore.Values.booleanValue getOrderByLowercase() {
-      return orderByLowercase_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderByLowercase_;
+    public io.dstore.values.BooleanValue getOrderByLowercase() {
+      return orderByLowercase_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderByLowercase_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOrderByLowercaseOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOrderByLowercaseOrBuilder() {
       return getOrderByLowercase();
     }
 
@@ -252,23 +252,23 @@ public final class DoGetGlossaryAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -677,29 +677,29 @@ public final class DoGetGlossaryAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue keyword_ = null;
+      private io.dstore.values.StringValue keyword_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keywordBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keywordBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue keyword = 1;</code>
+       * <code>optional .dstore.values.StringValue keyword = 1;</code>
        */
       public boolean hasKeyword() {
         return keywordBuilder_ != null || keyword_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue keyword = 1;</code>
+       * <code>optional .dstore.values.StringValue keyword = 1;</code>
        */
-      public io.dstore.Values.stringValue getKeyword() {
+      public io.dstore.values.StringValue getKeyword() {
         if (keywordBuilder_ == null) {
-          return keyword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyword_;
+          return keyword_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyword_;
         } else {
           return keywordBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue keyword = 1;</code>
+       * <code>optional .dstore.values.StringValue keyword = 1;</code>
        */
-      public Builder setKeyword(io.dstore.Values.stringValue value) {
+      public Builder setKeyword(io.dstore.values.StringValue value) {
         if (keywordBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue keyword = 1;</code>
+       * <code>optional .dstore.values.StringValue keyword = 1;</code>
        */
       public Builder setKeyword(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (keywordBuilder_ == null) {
           keyword_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue keyword = 1;</code>
+       * <code>optional .dstore.values.StringValue keyword = 1;</code>
        */
-      public Builder mergeKeyword(io.dstore.Values.stringValue value) {
+      public Builder mergeKeyword(io.dstore.values.StringValue value) {
         if (keywordBuilder_ == null) {
           if (keyword_ != null) {
             keyword_ =
-              io.dstore.Values.stringValue.newBuilder(keyword_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(keyword_).mergeFrom(value).buildPartial();
           } else {
             keyword_ = value;
           }
@@ -745,7 +745,7 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue keyword = 1;</code>
+       * <code>optional .dstore.values.StringValue keyword = 1;</code>
        */
       public Builder clearKeyword() {
         if (keywordBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue keyword = 1;</code>
+       * <code>optional .dstore.values.StringValue keyword = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getKeywordBuilder() {
+      public io.dstore.values.StringValue.Builder getKeywordBuilder() {
         
         onChanged();
         return getKeywordFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue keyword = 1;</code>
+       * <code>optional .dstore.values.StringValue keyword = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getKeywordOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getKeywordOrBuilder() {
         if (keywordBuilder_ != null) {
           return keywordBuilder_.getMessageOrBuilder();
         } else {
           return keyword_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : keyword_;
+              io.dstore.values.StringValue.getDefaultInstance() : keyword_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue keyword = 1;</code>
+       * <code>optional .dstore.values.StringValue keyword = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getKeywordFieldBuilder() {
         if (keywordBuilder_ == null) {
           keywordBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getKeyword(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class DoGetGlossaryAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue orderByLowercase_ = null;
+      private io.dstore.values.BooleanValue orderByLowercase_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> orderByLowercaseBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> orderByLowercaseBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
        */
       public boolean hasOrderByLowercase() {
         return orderByLowercaseBuilder_ != null || orderByLowercase_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
        */
-      public io.dstore.Values.booleanValue getOrderByLowercase() {
+      public io.dstore.values.BooleanValue getOrderByLowercase() {
         if (orderByLowercaseBuilder_ == null) {
-          return orderByLowercase_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderByLowercase_;
+          return orderByLowercase_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderByLowercase_;
         } else {
           return orderByLowercaseBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
        */
-      public Builder setOrderByLowercase(io.dstore.Values.booleanValue value) {
+      public Builder setOrderByLowercase(io.dstore.values.BooleanValue value) {
         if (orderByLowercaseBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
        */
       public Builder setOrderByLowercase(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (orderByLowercaseBuilder_ == null) {
           orderByLowercase_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
        */
-      public Builder mergeOrderByLowercase(io.dstore.Values.booleanValue value) {
+      public Builder mergeOrderByLowercase(io.dstore.values.BooleanValue value) {
         if (orderByLowercaseBuilder_ == null) {
           if (orderByLowercase_ != null) {
             orderByLowercase_ =
-              io.dstore.Values.booleanValue.newBuilder(orderByLowercase_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(orderByLowercase_).mergeFrom(value).buildPartial();
           } else {
             orderByLowercase_ = value;
           }
@@ -888,7 +888,7 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
        */
       public Builder clearOrderByLowercase() {
         if (orderByLowercaseBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOrderByLowercaseBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOrderByLowercaseBuilder() {
         
         onChanged();
         return getOrderByLowercaseFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOrderByLowercaseOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOrderByLowercaseOrBuilder() {
         if (orderByLowercaseBuilder_ != null) {
           return orderByLowercaseBuilder_.getMessageOrBuilder();
         } else {
           return orderByLowercase_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : orderByLowercase_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : orderByLowercase_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lowercase = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lowercase = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOrderByLowercaseFieldBuilder() {
         if (orderByLowercaseBuilder_ == null) {
           orderByLowercaseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOrderByLowercase(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class DoGetGlossaryAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class DoGetGlossaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class DoGetGlossaryAd {
        * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
       boolean hasDescription();
       /**
@@ -1373,24 +1373,24 @@ public final class DoGetGlossaryAd {
        * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
-      io.dstore.Values.stringValue getDescription();
+      io.dstore.values.StringValue getDescription();
       /**
        * <pre>
        * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
       /**
        * <pre>
        * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+       * <code>optional .dstore.values.StringValue keyword = 10002;</code>
        */
       boolean hasKeyword();
       /**
@@ -1398,24 +1398,24 @@ public final class DoGetGlossaryAd {
        * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+       * <code>optional .dstore.values.StringValue keyword = 10002;</code>
        */
-      io.dstore.Values.stringValue getKeyword();
+      io.dstore.values.StringValue getKeyword();
       /**
        * <pre>
        * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+       * <code>optional .dstore.values.StringValue keyword = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getKeywordOrBuilder();
+      io.dstore.values.StringValueOrBuilder getKeywordOrBuilder();
 
       /**
        * <pre>
        * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
        */
       boolean hasDetailedDescription();
       /**
@@ -1423,17 +1423,17 @@ public final class DoGetGlossaryAd {
        * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
        */
-      io.dstore.Values.stringValue getDetailedDescription();
+      io.dstore.values.StringValue getDetailedDescription();
       /**
        * <pre>
        * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDetailedDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.do_GetGlossary_Ad.Response.Row}
@@ -1481,11 +1481,11 @@ public final class DoGetGlossaryAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1494,11 +1494,11 @@ public final class DoGetGlossaryAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (keyword_ != null) {
                   subBuilder = keyword_.toBuilder();
                 }
-                keyword_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                keyword_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(keyword_);
                   keyword_ = subBuilder.buildPartial();
@@ -1507,11 +1507,11 @@ public final class DoGetGlossaryAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (detailedDescription_ != null) {
                   subBuilder = detailedDescription_.toBuilder();
                 }
-                detailedDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                detailedDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(detailedDescription_);
                   detailedDescription_ = subBuilder.buildPartial();
@@ -1552,13 +1552,13 @@ public final class DoGetGlossaryAd {
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue description_;
+      private io.dstore.values.StringValue description_;
       /**
        * <pre>
        * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -1568,30 +1568,30 @@ public final class DoGetGlossaryAd {
        * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.values.StringValue getDescription() {
+        return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
       }
       /**
        * <pre>
        * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int KEYWORD_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue keyword_;
+      private io.dstore.values.StringValue keyword_;
       /**
        * <pre>
        * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+       * <code>optional .dstore.values.StringValue keyword = 10002;</code>
        */
       public boolean hasKeyword() {
         return keyword_ != null;
@@ -1601,30 +1601,30 @@ public final class DoGetGlossaryAd {
        * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+       * <code>optional .dstore.values.StringValue keyword = 10002;</code>
        */
-      public io.dstore.Values.stringValue getKeyword() {
-        return keyword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyword_;
+      public io.dstore.values.StringValue getKeyword() {
+        return keyword_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyword_;
       }
       /**
        * <pre>
        * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+       * <code>optional .dstore.values.StringValue keyword = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getKeywordOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getKeywordOrBuilder() {
         return getKeyword();
       }
 
       public static final int DETAILED_DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue detailedDescription_;
+      private io.dstore.values.StringValue detailedDescription_;
       /**
        * <pre>
        * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
        */
       public boolean hasDetailedDescription() {
         return detailedDescription_ != null;
@@ -1634,19 +1634,19 @@ public final class DoGetGlossaryAd {
        * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
        */
-      public io.dstore.Values.stringValue getDetailedDescription() {
-        return detailedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
+      public io.dstore.values.StringValue getDetailedDescription() {
+        return detailedDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : detailedDescription_;
       }
       /**
        * <pre>
        * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDetailedDescriptionOrBuilder() {
         return getDetailedDescription();
       }
 
@@ -2035,15 +2035,15 @@ public final class DoGetGlossaryAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue description_ = null;
+        private io.dstore.values.StringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
          * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -2053,11 +2053,11 @@ public final class DoGetGlossaryAd {
          * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getDescription() {
+        public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
@@ -2067,9 +2067,9 @@ public final class DoGetGlossaryAd {
          * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public Builder setDescription(io.dstore.Values.stringValue value) {
+        public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2087,10 +2087,10 @@ public final class DoGetGlossaryAd {
          * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
         public Builder setDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -2105,13 +2105,13 @@ public final class DoGetGlossaryAd {
          * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public Builder mergeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2127,7 +2127,7 @@ public final class DoGetGlossaryAd {
          * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2145,9 +2145,9 @@ public final class DoGetGlossaryAd {
          * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
@@ -2157,14 +2157,14 @@ public final class DoGetGlossaryAd {
          * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.values.StringValue.getDefaultInstance() : description_;
           }
         }
         /**
@@ -2172,14 +2172,14 @@ public final class DoGetGlossaryAd {
          * Die Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2188,15 +2188,15 @@ public final class DoGetGlossaryAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue keyword_ = null;
+        private io.dstore.values.StringValue keyword_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keywordBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keywordBuilder_;
         /**
          * <pre>
          * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+         * <code>optional .dstore.values.StringValue keyword = 10002;</code>
          */
         public boolean hasKeyword() {
           return keywordBuilder_ != null || keyword_ != null;
@@ -2206,11 +2206,11 @@ public final class DoGetGlossaryAd {
          * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+         * <code>optional .dstore.values.StringValue keyword = 10002;</code>
          */
-        public io.dstore.Values.stringValue getKeyword() {
+        public io.dstore.values.StringValue getKeyword() {
           if (keywordBuilder_ == null) {
-            return keyword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyword_;
+            return keyword_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyword_;
           } else {
             return keywordBuilder_.getMessage();
           }
@@ -2220,9 +2220,9 @@ public final class DoGetGlossaryAd {
          * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+         * <code>optional .dstore.values.StringValue keyword = 10002;</code>
          */
-        public Builder setKeyword(io.dstore.Values.stringValue value) {
+        public Builder setKeyword(io.dstore.values.StringValue value) {
           if (keywordBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2240,10 +2240,10 @@ public final class DoGetGlossaryAd {
          * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+         * <code>optional .dstore.values.StringValue keyword = 10002;</code>
          */
         public Builder setKeyword(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (keywordBuilder_ == null) {
             keyword_ = builderForValue.build();
             onChanged();
@@ -2258,13 +2258,13 @@ public final class DoGetGlossaryAd {
          * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+         * <code>optional .dstore.values.StringValue keyword = 10002;</code>
          */
-        public Builder mergeKeyword(io.dstore.Values.stringValue value) {
+        public Builder mergeKeyword(io.dstore.values.StringValue value) {
           if (keywordBuilder_ == null) {
             if (keyword_ != null) {
               keyword_ =
-                io.dstore.Values.stringValue.newBuilder(keyword_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(keyword_).mergeFrom(value).buildPartial();
             } else {
               keyword_ = value;
             }
@@ -2280,7 +2280,7 @@ public final class DoGetGlossaryAd {
          * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+         * <code>optional .dstore.values.StringValue keyword = 10002;</code>
          */
         public Builder clearKeyword() {
           if (keywordBuilder_ == null) {
@@ -2298,9 +2298,9 @@ public final class DoGetGlossaryAd {
          * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+         * <code>optional .dstore.values.StringValue keyword = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getKeywordBuilder() {
+        public io.dstore.values.StringValue.Builder getKeywordBuilder() {
           
           onChanged();
           return getKeywordFieldBuilder().getBuilder();
@@ -2310,14 +2310,14 @@ public final class DoGetGlossaryAd {
          * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+         * <code>optional .dstore.values.StringValue keyword = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getKeywordOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getKeywordOrBuilder() {
           if (keywordBuilder_ != null) {
             return keywordBuilder_.getMessageOrBuilder();
           } else {
             return keyword_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : keyword_;
+                io.dstore.values.StringValue.getDefaultInstance() : keyword_;
           }
         }
         /**
@@ -2325,14 +2325,14 @@ public final class DoGetGlossaryAd {
          * Der Schlüssel, zu dem der Glossareintrag gespeichert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue keyword = 10002;</code>
+         * <code>optional .dstore.values.StringValue keyword = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getKeywordFieldBuilder() {
           if (keywordBuilder_ == null) {
             keywordBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getKeyword(),
                     getParentForChildren(),
                     isClean());
@@ -2341,15 +2341,15 @@ public final class DoGetGlossaryAd {
           return keywordBuilder_;
         }
 
-        private io.dstore.Values.stringValue detailedDescription_ = null;
+        private io.dstore.values.StringValue detailedDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> detailedDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> detailedDescriptionBuilder_;
         /**
          * <pre>
          * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
          */
         public boolean hasDetailedDescription() {
           return detailedDescriptionBuilder_ != null || detailedDescription_ != null;
@@ -2359,11 +2359,11 @@ public final class DoGetGlossaryAd {
          * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
          */
-        public io.dstore.Values.stringValue getDetailedDescription() {
+        public io.dstore.values.StringValue getDetailedDescription() {
           if (detailedDescriptionBuilder_ == null) {
-            return detailedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
+            return detailedDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : detailedDescription_;
           } else {
             return detailedDescriptionBuilder_.getMessage();
           }
@@ -2373,9 +2373,9 @@ public final class DoGetGlossaryAd {
          * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
          */
-        public Builder setDetailedDescription(io.dstore.Values.stringValue value) {
+        public Builder setDetailedDescription(io.dstore.values.StringValue value) {
           if (detailedDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2393,10 +2393,10 @@ public final class DoGetGlossaryAd {
          * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
          */
         public Builder setDetailedDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (detailedDescriptionBuilder_ == null) {
             detailedDescription_ = builderForValue.build();
             onChanged();
@@ -2411,13 +2411,13 @@ public final class DoGetGlossaryAd {
          * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
          */
-        public Builder mergeDetailedDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDetailedDescription(io.dstore.values.StringValue value) {
           if (detailedDescriptionBuilder_ == null) {
             if (detailedDescription_ != null) {
               detailedDescription_ =
-                io.dstore.Values.stringValue.newBuilder(detailedDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(detailedDescription_).mergeFrom(value).buildPartial();
             } else {
               detailedDescription_ = value;
             }
@@ -2433,7 +2433,7 @@ public final class DoGetGlossaryAd {
          * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
          */
         public Builder clearDetailedDescription() {
           if (detailedDescriptionBuilder_ == null) {
@@ -2451,9 +2451,9 @@ public final class DoGetGlossaryAd {
          * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDetailedDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDetailedDescriptionBuilder() {
           
           onChanged();
           return getDetailedDescriptionFieldBuilder().getBuilder();
@@ -2463,14 +2463,14 @@ public final class DoGetGlossaryAd {
          * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDetailedDescriptionOrBuilder() {
           if (detailedDescriptionBuilder_ != null) {
             return detailedDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return detailedDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : detailedDescription_;
           }
         }
         /**
@@ -2478,14 +2478,14 @@ public final class DoGetGlossaryAd {
          * Eine detaillierte Beschreibung zu "Keyword". Falls "&#64;LanguageID" angegeben wurde (und ungleich "1" - für Deutsch - ist) UND auch eine Übersetzung vorhanden ist, dann ist der Wert in der entsprechenden Sprache.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue detailed_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue detailed_description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDetailedDescriptionFieldBuilder() {
           if (detailedDescriptionBuilder_ == null) {
             detailedDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDetailedDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3954,21 +3954,21 @@ public final class DoGetGlossaryAd {
       "y_Ad.proto\022\037dstore.engine.do_GetGlossary" +
       "_Ad\032\023dstore/values.proto\032\032dstore/engine/" +
       "engine.proto\"\370\001\n\nParameters\022+\n\007keyword\030\001" +
-      " \001(\0132\032.dstore.values.stringValue\022\025\n\014keyw" +
+      " \001(\0132\032.dstore.values.StringValue\022\025\n\014keyw" +
       "ord_null\030\351\007 \001(\010\0227\n\022order_by_lowercase\030\002 " +
-      "\001(\0132\033.dstore.values.booleanValue\022 \n\027orde" +
+      "\001(\0132\033.dstore.values.BooleanValue\022 \n\027orde" +
       "r_by_lowercase_null\030\352\007 \001(\010\0220\n\013language_i" +
-      "d\030\003 \001(\0132\033.dstore.values.integerValue\022\031\n\020" +
+      "d\030\003 \001(\0132\033.dstore.values.IntegerValue\022\031\n\020" +
       "language_id_null\030\353\007 \001(\010\"\335\002\n\010Response\0228\n\020",
       "meta_information\030\002 \003(\0132\036.dstore.engine.M" +
       "etaInformation\022\'\n\007message\030\003 \003(\0132\026.dstore" +
       ".engine.Message\022:\n\003row\030\004 \003(\0132-.dstore.en" +
       "gine.do_GetGlossary_Ad.Response.Row\032\261\001\n\003" +
       "Row\022\017\n\006row_id\030\220N \001(\005\0220\n\013description\030\221N \001" +
-      "(\0132\032.dstore.values.stringValue\022,\n\007keywor" +
-      "d\030\222N \001(\0132\032.dstore.values.stringValue\0229\n\024" +
+      "(\0132\032.dstore.values.StringValue\022,\n\007keywor" +
+      "d\030\222N \001(\0132\032.dstore.values.StringValue\0229\n\024" +
       "detailed_description\030\223N \001(\0132\032.dstore.val" +
-      "ues.stringValueBR\n\033io.dstore.engine.proc" +
+      "ues.StringValueBR\n\033io.dstore.engine.proc" +
       "eduresZ3gosdk.dstore.de/engine/procedure",
       "s/do_GetGlossary_Adb\006proto3"
     };
@@ -3983,7 +3983,7 @@ public final class DoGetGlossaryAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_do_GetGlossary_Ad_Parameters_descriptor =
@@ -4004,7 +4004,7 @@ public final class DoGetGlossaryAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_do_GetGlossary_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "Keyword", "DetailedDescription", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

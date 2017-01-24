@@ -19,17 +19,17 @@ public final class CoModifyCommunitiesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoModifyCommunitiesAd {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue community_name = 2;</code>
+     * <code>optional .dstore.values.StringValue community_name = 2;</code>
      */
     boolean hasCommunityName();
     /**
-     * <code>optional .dstore.values.stringValue community_name = 2;</code>
+     * <code>optional .dstore.values.StringValue community_name = 2;</code>
      */
-    io.dstore.Values.stringValue getCommunityName();
+    io.dstore.values.StringValue getCommunityName();
     /**
-     * <code>optional .dstore.values.stringValue community_name = 2;</code>
+     * <code>optional .dstore.values.StringValue community_name = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder();
 
     /**
      * <code>optional bool community_name_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoModifyCommunitiesAd {
     boolean getCommunityNameNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
      */
     boolean hasDeleteCommunity();
     /**
-     * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
      */
-    io.dstore.Values.booleanValue getDeleteCommunity();
+    io.dstore.values.BooleanValue getDeleteCommunity();
     /**
-     * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteCommunityOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteCommunityOrBuilder();
 
     /**
      * <code>optional bool delete_community_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class CoModifyCommunitiesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class CoModifyCommunitiesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (communityName_ != null) {
                 subBuilder = communityName_.toBuilder();
               }
-              communityName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              communityName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityName_);
                 communityName_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class CoModifyCommunitiesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteCommunity_ != null) {
                 subBuilder = deleteCommunity_.toBuilder();
               }
-              deleteCommunity_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteCommunity_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteCommunity_);
                 deleteCommunity_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class CoModifyCommunitiesAd {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -222,23 +222,23 @@ public final class CoModifyCommunitiesAd {
     }
 
     public static final int COMMUNITY_NAME_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue communityName_;
+    private io.dstore.values.StringValue communityName_;
     /**
-     * <code>optional .dstore.values.stringValue community_name = 2;</code>
+     * <code>optional .dstore.values.StringValue community_name = 2;</code>
      */
     public boolean hasCommunityName() {
       return communityName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue community_name = 2;</code>
+     * <code>optional .dstore.values.StringValue community_name = 2;</code>
      */
-    public io.dstore.Values.stringValue getCommunityName() {
-      return communityName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityName_;
+    public io.dstore.values.StringValue getCommunityName() {
+      return communityName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue community_name = 2;</code>
+     * <code>optional .dstore.values.StringValue community_name = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
       return getCommunityName();
     }
 
@@ -252,23 +252,23 @@ public final class CoModifyCommunitiesAd {
     }
 
     public static final int DELETE_COMMUNITY_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue deleteCommunity_;
+    private io.dstore.values.BooleanValue deleteCommunity_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
      */
     public boolean hasDeleteCommunity() {
       return deleteCommunity_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteCommunity() {
-      return deleteCommunity_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCommunity_;
+    public io.dstore.values.BooleanValue getDeleteCommunity() {
+      return deleteCommunity_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCommunity_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteCommunityOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteCommunityOrBuilder() {
       return getDeleteCommunity();
     }
 
@@ -677,29 +677,29 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -745,7 +745,7 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue communityName_ = null;
+      private io.dstore.values.StringValue communityName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> communityNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> communityNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue community_name = 2;</code>
+       * <code>optional .dstore.values.StringValue community_name = 2;</code>
        */
       public boolean hasCommunityName() {
         return communityNameBuilder_ != null || communityName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 2;</code>
+       * <code>optional .dstore.values.StringValue community_name = 2;</code>
        */
-      public io.dstore.Values.stringValue getCommunityName() {
+      public io.dstore.values.StringValue getCommunityName() {
         if (communityNameBuilder_ == null) {
-          return communityName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityName_;
+          return communityName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityName_;
         } else {
           return communityNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 2;</code>
+       * <code>optional .dstore.values.StringValue community_name = 2;</code>
        */
-      public Builder setCommunityName(io.dstore.Values.stringValue value) {
+      public Builder setCommunityName(io.dstore.values.StringValue value) {
         if (communityNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 2;</code>
+       * <code>optional .dstore.values.StringValue community_name = 2;</code>
        */
       public Builder setCommunityName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (communityNameBuilder_ == null) {
           communityName_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 2;</code>
+       * <code>optional .dstore.values.StringValue community_name = 2;</code>
        */
-      public Builder mergeCommunityName(io.dstore.Values.stringValue value) {
+      public Builder mergeCommunityName(io.dstore.values.StringValue value) {
         if (communityNameBuilder_ == null) {
           if (communityName_ != null) {
             communityName_ =
-              io.dstore.Values.stringValue.newBuilder(communityName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(communityName_).mergeFrom(value).buildPartial();
           } else {
             communityName_ = value;
           }
@@ -888,7 +888,7 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 2;</code>
+       * <code>optional .dstore.values.StringValue community_name = 2;</code>
        */
       public Builder clearCommunityName() {
         if (communityNameBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 2;</code>
+       * <code>optional .dstore.values.StringValue community_name = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCommunityNameBuilder() {
+      public io.dstore.values.StringValue.Builder getCommunityNameBuilder() {
         
         onChanged();
         return getCommunityNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 2;</code>
+       * <code>optional .dstore.values.StringValue community_name = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCommunityNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCommunityNameOrBuilder() {
         if (communityNameBuilder_ != null) {
           return communityNameBuilder_.getMessageOrBuilder();
         } else {
           return communityName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : communityName_;
+              io.dstore.values.StringValue.getDefaultInstance() : communityName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue community_name = 2;</code>
+       * <code>optional .dstore.values.StringValue community_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCommunityNameFieldBuilder() {
         if (communityNameBuilder_ == null) {
           communityNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCommunityName(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteCommunity_ = null;
+      private io.dstore.values.BooleanValue deleteCommunity_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteCommunityBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteCommunityBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
        */
       public boolean hasDeleteCommunity() {
         return deleteCommunityBuilder_ != null || deleteCommunity_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteCommunity() {
+      public io.dstore.values.BooleanValue getDeleteCommunity() {
         if (deleteCommunityBuilder_ == null) {
-          return deleteCommunity_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCommunity_;
+          return deleteCommunity_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCommunity_;
         } else {
           return deleteCommunityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
        */
-      public Builder setDeleteCommunity(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteCommunity(io.dstore.values.BooleanValue value) {
         if (deleteCommunityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
        */
       public Builder setDeleteCommunity(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteCommunityBuilder_ == null) {
           deleteCommunity_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
        */
-      public Builder mergeDeleteCommunity(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteCommunity(io.dstore.values.BooleanValue value) {
         if (deleteCommunityBuilder_ == null) {
           if (deleteCommunity_ != null) {
             deleteCommunity_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteCommunity_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteCommunity_).mergeFrom(value).buildPartial();
           } else {
             deleteCommunity_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
        */
       public Builder clearDeleteCommunity() {
         if (deleteCommunityBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class CoModifyCommunitiesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteCommunityBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteCommunityBuilder() {
         
         onChanged();
         return getDeleteCommunityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteCommunityOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteCommunityOrBuilder() {
         if (deleteCommunityBuilder_ != null) {
           return deleteCommunityBuilder_.getMessageOrBuilder();
         } else {
           return deleteCommunity_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteCommunity_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteCommunity_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_community = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_community = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteCommunityFieldBuilder() {
         if (deleteCommunityBuilder_ == null) {
           deleteCommunityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteCommunity(),
                   getParentForChildren(),
                   isClean());
@@ -3192,12 +3192,12 @@ public final class CoModifyCommunitiesAd {
       "unities_Ad.proto\022%dstore.engine.co_Modif" +
       "yCommunities_Ad\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\204\002\n\nParameters\022" +
-      "1\n\014community_id\030\001 \001(\0132\033.dstore.values.in" +
+      "1\n\014community_id\030\001 \001(\0132\033.dstore.values.In" +
       "tegerValue\022\032\n\021community_id_null\030\351\007 \001(\010\0222" +
-      "\n\016community_name\030\002 \001(\0132\032.dstore.values.s" +
+      "\n\016community_name\030\002 \001(\0132\032.dstore.values.S" +
       "tringValue\022\034\n\023community_name_null\030\352\007 \001(\010" +
       "\0225\n\020delete_community\030\003 \001(\0132\033.dstore.valu" +
-      "es.booleanValue\022\036\n\025delete_community_null",
+      "es.BooleanValue\022\036\n\025delete_community_null",
       "\030\353\007 \001(\010\"\307\001\n\010Response\0228\n\020meta_information" +
       "\030\002 \003(\0132\036.dstore.engine.MetaInformation\022\'" +
       "\n\007message\030\003 \003(\0132\026.dstore.engine.Message\022" +
@@ -3218,7 +3218,7 @@ public final class CoModifyCommunitiesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_ModifyCommunities_Ad_Parameters_descriptor =
@@ -3239,7 +3239,7 @@ public final class CoModifyCommunitiesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_ModifyCommunities_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

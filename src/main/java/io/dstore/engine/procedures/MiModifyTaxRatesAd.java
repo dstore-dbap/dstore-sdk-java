@@ -19,17 +19,17 @@ public final class MiModifyTaxRatesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
     boolean hasTaxRateId();
     /**
-     * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTaxRateId();
+    io.dstore.values.IntegerValue getTaxRateId();
     /**
-     * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTaxRateIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder();
 
     /**
      * <code>optional bool tax_rate_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyTaxRatesAd {
     boolean getTaxRateIdNull();
 
     /**
-     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
      */
     boolean hasTaxRate();
     /**
-     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
      */
-    io.dstore.Values.decimalValue getTaxRate();
+    io.dstore.values.DecimalValue getTaxRate();
     /**
-     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getTaxRateOrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getTaxRateOrBuilder();
 
     /**
      * <code>optional bool tax_rate_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyTaxRatesAd {
     boolean getTaxRateNull();
 
     /**
-     * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+     * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
      */
     boolean hasTaxRateDescription();
     /**
-     * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+     * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
      */
-    io.dstore.Values.stringValue getTaxRateDescription();
+    io.dstore.values.StringValue getTaxRateDescription();
     /**
-     * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+     * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTaxRateDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTaxRateDescriptionOrBuilder();
 
     /**
      * <code>optional bool tax_rate_description_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiModifyTaxRatesAd {
     boolean getTaxRateDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
      */
     boolean hasUseAsFallback();
     /**
-     * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
      */
-    io.dstore.Values.booleanValue getUseAsFallback();
+    io.dstore.values.BooleanValue getUseAsFallback();
     /**
-     * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getUseAsFallbackOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getUseAsFallbackOrBuilder();
 
     /**
      * <code>optional bool use_as_fallback_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiModifyTaxRatesAd {
     boolean getUseAsFallbackNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
     boolean hasActive();
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
-    io.dstore.Values.booleanValue getActive();
+    io.dstore.values.BooleanValue getActive();
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
     /**
      * <code>optional bool active_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiModifyTaxRatesAd {
     boolean getActiveNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
      */
     boolean hasDeleteTaxRate();
     /**
-     * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
      */
-    io.dstore.Values.booleanValue getDeleteTaxRate();
+    io.dstore.values.BooleanValue getDeleteTaxRate();
     /**
-     * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteTaxRateOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteTaxRateOrBuilder();
 
     /**
      * <code>optional bool delete_tax_rate_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class MiModifyTaxRatesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (taxRateId_ != null) {
                 subBuilder = taxRateId_.toBuilder();
               }
-              taxRateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              taxRateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(taxRateId_);
                 taxRateId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class MiModifyTaxRatesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (taxRate_ != null) {
                 subBuilder = taxRate_.toBuilder();
               }
-              taxRate_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              taxRate_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(taxRate_);
                 taxRate_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class MiModifyTaxRatesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (taxRateDescription_ != null) {
                 subBuilder = taxRateDescription_.toBuilder();
               }
-              taxRateDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              taxRateDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(taxRateDescription_);
                 taxRateDescription_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class MiModifyTaxRatesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (useAsFallback_ != null) {
                 subBuilder = useAsFallback_.toBuilder();
               }
-              useAsFallback_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              useAsFallback_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(useAsFallback_);
                 useAsFallback_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class MiModifyTaxRatesAd {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (active_ != null) {
                 subBuilder = active_.toBuilder();
               }
-              active_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              active_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(active_);
                 active_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class MiModifyTaxRatesAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteTaxRate_ != null) {
                 subBuilder = deleteTaxRate_.toBuilder();
               }
-              deleteTaxRate_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteTaxRate_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteTaxRate_);
                 deleteTaxRate_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class MiModifyTaxRatesAd {
     }
 
     public static final int TAX_RATE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue taxRateId_;
+    private io.dstore.values.IntegerValue taxRateId_;
     /**
-     * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
     public boolean hasTaxRateId() {
       return taxRateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTaxRateId() {
-      return taxRateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : taxRateId_;
+    public io.dstore.values.IntegerValue getTaxRateId() {
+      return taxRateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxRateId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTaxRateIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder() {
       return getTaxRateId();
     }
 
@@ -333,23 +333,23 @@ public final class MiModifyTaxRatesAd {
     }
 
     public static final int TAX_RATE_FIELD_NUMBER = 2;
-    private io.dstore.Values.decimalValue taxRate_;
+    private io.dstore.values.DecimalValue taxRate_;
     /**
-     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
      */
     public boolean hasTaxRate() {
       return taxRate_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
      */
-    public io.dstore.Values.decimalValue getTaxRate() {
-      return taxRate_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : taxRate_;
+    public io.dstore.values.DecimalValue getTaxRate() {
+      return taxRate_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : taxRate_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+     * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getTaxRateOrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getTaxRateOrBuilder() {
       return getTaxRate();
     }
 
@@ -363,23 +363,23 @@ public final class MiModifyTaxRatesAd {
     }
 
     public static final int TAX_RATE_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue taxRateDescription_;
+    private io.dstore.values.StringValue taxRateDescription_;
     /**
-     * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+     * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
      */
     public boolean hasTaxRateDescription() {
       return taxRateDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+     * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
      */
-    public io.dstore.Values.stringValue getTaxRateDescription() {
-      return taxRateDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : taxRateDescription_;
+    public io.dstore.values.StringValue getTaxRateDescription() {
+      return taxRateDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : taxRateDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+     * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTaxRateDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTaxRateDescriptionOrBuilder() {
       return getTaxRateDescription();
     }
 
@@ -393,23 +393,23 @@ public final class MiModifyTaxRatesAd {
     }
 
     public static final int USE_AS_FALLBACK_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue useAsFallback_;
+    private io.dstore.values.BooleanValue useAsFallback_;
     /**
-     * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
      */
     public boolean hasUseAsFallback() {
       return useAsFallback_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
      */
-    public io.dstore.Values.booleanValue getUseAsFallback() {
-      return useAsFallback_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : useAsFallback_;
+    public io.dstore.values.BooleanValue getUseAsFallback() {
+      return useAsFallback_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : useAsFallback_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getUseAsFallbackOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getUseAsFallbackOrBuilder() {
       return getUseAsFallback();
     }
 
@@ -423,23 +423,23 @@ public final class MiModifyTaxRatesAd {
     }
 
     public static final int ACTIVE_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue active_;
+    private io.dstore.values.BooleanValue active_;
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
     public boolean hasActive() {
       return active_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
-    public io.dstore.Values.booleanValue getActive() {
-      return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
+    public io.dstore.values.BooleanValue getActive() {
+      return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
       return getActive();
     }
 
@@ -453,23 +453,23 @@ public final class MiModifyTaxRatesAd {
     }
 
     public static final int DELETE_TAX_RATE_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue deleteTaxRate_;
+    private io.dstore.values.BooleanValue deleteTaxRate_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
      */
     public boolean hasDeleteTaxRate() {
       return deleteTaxRate_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteTaxRate() {
-      return deleteTaxRate_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteTaxRate_;
+    public io.dstore.values.BooleanValue getDeleteTaxRate() {
+      return deleteTaxRate_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteTaxRate_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteTaxRateOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteTaxRateOrBuilder() {
       return getDeleteTaxRate();
     }
 
@@ -1022,29 +1022,29 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue taxRateId_ = null;
+      private io.dstore.values.IntegerValue taxRateId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> taxRateIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> taxRateIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public boolean hasTaxRateId() {
         return taxRateIdBuilder_ != null || taxRateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTaxRateId() {
+      public io.dstore.values.IntegerValue getTaxRateId() {
         if (taxRateIdBuilder_ == null) {
-          return taxRateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : taxRateId_;
+          return taxRateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxRateId_;
         } else {
           return taxRateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
-      public Builder setTaxRateId(io.dstore.Values.integerValue value) {
+      public Builder setTaxRateId(io.dstore.values.IntegerValue value) {
         if (taxRateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public Builder setTaxRateId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (taxRateIdBuilder_ == null) {
           taxRateId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
-      public Builder mergeTaxRateId(io.dstore.Values.integerValue value) {
+      public Builder mergeTaxRateId(io.dstore.values.IntegerValue value) {
         if (taxRateIdBuilder_ == null) {
           if (taxRateId_ != null) {
             taxRateId_ =
-              io.dstore.Values.integerValue.newBuilder(taxRateId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(taxRateId_).mergeFrom(value).buildPartial();
           } else {
             taxRateId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       public Builder clearTaxRateId() {
         if (taxRateIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTaxRateIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTaxRateIdBuilder() {
         
         onChanged();
         return getTaxRateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTaxRateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTaxRateIdOrBuilder() {
         if (taxRateIdBuilder_ != null) {
           return taxRateIdBuilder_.getMessageOrBuilder();
         } else {
           return taxRateId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : taxRateId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : taxRateId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_rate_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_rate_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTaxRateIdFieldBuilder() {
         if (taxRateIdBuilder_ == null) {
           taxRateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTaxRateId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
 
-      private io.dstore.Values.decimalValue taxRate_ = null;
+      private io.dstore.values.DecimalValue taxRate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> taxRateBuilder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> taxRateBuilder_;
       /**
-       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
        */
       public boolean hasTaxRate() {
         return taxRateBuilder_ != null || taxRate_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
        */
-      public io.dstore.Values.decimalValue getTaxRate() {
+      public io.dstore.values.DecimalValue getTaxRate() {
         if (taxRateBuilder_ == null) {
-          return taxRate_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : taxRate_;
+          return taxRate_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : taxRate_;
         } else {
           return taxRateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
        */
-      public Builder setTaxRate(io.dstore.Values.decimalValue value) {
+      public Builder setTaxRate(io.dstore.values.DecimalValue value) {
         if (taxRateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
        */
       public Builder setTaxRate(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (taxRateBuilder_ == null) {
           taxRate_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
        */
-      public Builder mergeTaxRate(io.dstore.Values.decimalValue value) {
+      public Builder mergeTaxRate(io.dstore.values.DecimalValue value) {
         if (taxRateBuilder_ == null) {
           if (taxRate_ != null) {
             taxRate_ =
-              io.dstore.Values.decimalValue.newBuilder(taxRate_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(taxRate_).mergeFrom(value).buildPartial();
           } else {
             taxRate_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
        */
       public Builder clearTaxRate() {
         if (taxRateBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getTaxRateBuilder() {
+      public io.dstore.values.DecimalValue.Builder getTaxRateBuilder() {
         
         onChanged();
         return getTaxRateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getTaxRateOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getTaxRateOrBuilder() {
         if (taxRateBuilder_ != null) {
           return taxRateBuilder_.getMessageOrBuilder();
         } else {
           return taxRate_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : taxRate_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : taxRate_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue tax_rate = 2;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getTaxRateFieldBuilder() {
         if (taxRateBuilder_ == null) {
           taxRateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getTaxRate(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue taxRateDescription_ = null;
+      private io.dstore.values.StringValue taxRateDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> taxRateDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> taxRateDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+       * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
        */
       public boolean hasTaxRateDescription() {
         return taxRateDescriptionBuilder_ != null || taxRateDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+       * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
        */
-      public io.dstore.Values.stringValue getTaxRateDescription() {
+      public io.dstore.values.StringValue getTaxRateDescription() {
         if (taxRateDescriptionBuilder_ == null) {
-          return taxRateDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : taxRateDescription_;
+          return taxRateDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : taxRateDescription_;
         } else {
           return taxRateDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+       * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
        */
-      public Builder setTaxRateDescription(io.dstore.Values.stringValue value) {
+      public Builder setTaxRateDescription(io.dstore.values.StringValue value) {
         if (taxRateDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+       * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
        */
       public Builder setTaxRateDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (taxRateDescriptionBuilder_ == null) {
           taxRateDescription_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+       * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
        */
-      public Builder mergeTaxRateDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeTaxRateDescription(io.dstore.values.StringValue value) {
         if (taxRateDescriptionBuilder_ == null) {
           if (taxRateDescription_ != null) {
             taxRateDescription_ =
-              io.dstore.Values.stringValue.newBuilder(taxRateDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(taxRateDescription_).mergeFrom(value).buildPartial();
           } else {
             taxRateDescription_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+       * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
        */
       public Builder clearTaxRateDescription() {
         if (taxRateDescriptionBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+       * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTaxRateDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getTaxRateDescriptionBuilder() {
         
         onChanged();
         return getTaxRateDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+       * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTaxRateDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTaxRateDescriptionOrBuilder() {
         if (taxRateDescriptionBuilder_ != null) {
           return taxRateDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return taxRateDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : taxRateDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : taxRateDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue tax_rate_description = 3;</code>
+       * <code>optional .dstore.values.StringValue tax_rate_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTaxRateDescriptionFieldBuilder() {
         if (taxRateDescriptionBuilder_ == null) {
           taxRateDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTaxRateDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue useAsFallback_ = null;
+      private io.dstore.values.BooleanValue useAsFallback_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> useAsFallbackBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> useAsFallbackBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
        */
       public boolean hasUseAsFallback() {
         return useAsFallbackBuilder_ != null || useAsFallback_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
        */
-      public io.dstore.Values.booleanValue getUseAsFallback() {
+      public io.dstore.values.BooleanValue getUseAsFallback() {
         if (useAsFallbackBuilder_ == null) {
-          return useAsFallback_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : useAsFallback_;
+          return useAsFallback_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : useAsFallback_;
         } else {
           return useAsFallbackBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
        */
-      public Builder setUseAsFallback(io.dstore.Values.booleanValue value) {
+      public Builder setUseAsFallback(io.dstore.values.BooleanValue value) {
         if (useAsFallbackBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
        */
       public Builder setUseAsFallback(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (useAsFallbackBuilder_ == null) {
           useAsFallback_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
        */
-      public Builder mergeUseAsFallback(io.dstore.Values.booleanValue value) {
+      public Builder mergeUseAsFallback(io.dstore.values.BooleanValue value) {
         if (useAsFallbackBuilder_ == null) {
           if (useAsFallback_ != null) {
             useAsFallback_ =
-              io.dstore.Values.booleanValue.newBuilder(useAsFallback_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(useAsFallback_).mergeFrom(value).buildPartial();
           } else {
             useAsFallback_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
        */
       public Builder clearUseAsFallback() {
         if (useAsFallbackBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getUseAsFallbackBuilder() {
+      public io.dstore.values.BooleanValue.Builder getUseAsFallbackBuilder() {
         
         onChanged();
         return getUseAsFallbackFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUseAsFallbackOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUseAsFallbackOrBuilder() {
         if (useAsFallbackBuilder_ != null) {
           return useAsFallbackBuilder_.getMessageOrBuilder();
         } else {
           return useAsFallback_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : useAsFallback_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : useAsFallback_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_as_fallback = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_as_fallback = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getUseAsFallbackFieldBuilder() {
         if (useAsFallbackBuilder_ == null) {
           useAsFallbackBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getUseAsFallback(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue active_ = null;
+      private io.dstore.values.BooleanValue active_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> activeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
       public boolean hasActive() {
         return activeBuilder_ != null || active_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public io.dstore.Values.booleanValue getActive() {
+      public io.dstore.values.BooleanValue getActive() {
         if (activeBuilder_ == null) {
-          return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
+          return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
         } else {
           return activeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public Builder setActive(io.dstore.Values.booleanValue value) {
+      public Builder setActive(io.dstore.values.BooleanValue value) {
         if (activeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
       public Builder setActive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (activeBuilder_ == null) {
           active_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public Builder mergeActive(io.dstore.Values.booleanValue value) {
+      public Builder mergeActive(io.dstore.values.BooleanValue value) {
         if (activeBuilder_ == null) {
           if (active_ != null) {
             active_ =
-              io.dstore.Values.booleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
           } else {
             active_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
       public Builder clearActive() {
         if (activeBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getActiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
         
         onChanged();
         return getActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         if (activeBuilder_ != null) {
           return activeBuilder_.getMessageOrBuilder();
         } else {
           return active_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : active_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : active_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getActiveFieldBuilder() {
         if (activeBuilder_ == null) {
           activeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getActive(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteTaxRate_ = null;
+      private io.dstore.values.BooleanValue deleteTaxRate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteTaxRateBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteTaxRateBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
        */
       public boolean hasDeleteTaxRate() {
         return deleteTaxRateBuilder_ != null || deleteTaxRate_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteTaxRate() {
+      public io.dstore.values.BooleanValue getDeleteTaxRate() {
         if (deleteTaxRateBuilder_ == null) {
-          return deleteTaxRate_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteTaxRate_;
+          return deleteTaxRate_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteTaxRate_;
         } else {
           return deleteTaxRateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
        */
-      public Builder setDeleteTaxRate(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteTaxRate(io.dstore.values.BooleanValue value) {
         if (deleteTaxRateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
        */
       public Builder setDeleteTaxRate(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteTaxRateBuilder_ == null) {
           deleteTaxRate_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
        */
-      public Builder mergeDeleteTaxRate(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteTaxRate(io.dstore.values.BooleanValue value) {
         if (deleteTaxRateBuilder_ == null) {
           if (deleteTaxRate_ != null) {
             deleteTaxRate_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteTaxRate_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteTaxRate_).mergeFrom(value).buildPartial();
           } else {
             deleteTaxRate_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
        */
       public Builder clearDeleteTaxRate() {
         if (deleteTaxRateBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class MiModifyTaxRatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteTaxRateBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteTaxRateBuilder() {
         
         onChanged();
         return getDeleteTaxRateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteTaxRateOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteTaxRateOrBuilder() {
         if (deleteTaxRateBuilder_ != null) {
           return deleteTaxRateBuilder_.getMessageOrBuilder();
         } else {
           return deleteTaxRate_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteTaxRate_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteTaxRate_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_tax_rate = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_tax_rate = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteTaxRateFieldBuilder() {
         if (deleteTaxRateBuilder_ == null) {
           deleteTaxRateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteTaxRate(),
                   getParentForChildren(),
                   isClean());
@@ -3966,17 +3966,17 @@ public final class MiModifyTaxRatesAd {
       "ates_Ad.proto\022\"dstore.engine.mi_ModifyTa" +
       "xRates_Ad\032\023dstore/values.proto\032\032dstore/e" +
       "ngine/engine.proto\"\353\003\n\nParameters\0220\n\013tax" +
-      "_rate_id\030\001 \001(\0132\033.dstore.values.integerVa" +
+      "_rate_id\030\001 \001(\0132\033.dstore.values.IntegerVa" +
       "lue\022\031\n\020tax_rate_id_null\030\351\007 \001(\010\022-\n\010tax_ra" +
-      "te\030\002 \001(\0132\033.dstore.values.decimalValue\022\026\n" +
+      "te\030\002 \001(\0132\033.dstore.values.DecimalValue\022\026\n" +
       "\rtax_rate_null\030\352\007 \001(\010\0228\n\024tax_rate_descri" +
-      "ption\030\003 \001(\0132\032.dstore.values.stringValue\022" +
+      "ption\030\003 \001(\0132\032.dstore.values.StringValue\022" +
       "\"\n\031tax_rate_description_null\030\353\007 \001(\010\0224\n\017u",
-      "se_as_fallback\030\004 \001(\0132\033.dstore.values.boo" +
+      "se_as_fallback\030\004 \001(\0132\033.dstore.values.Boo" +
       "leanValue\022\035\n\024use_as_fallback_null\030\354\007 \001(\010" +
-      "\022+\n\006active\030\005 \001(\0132\033.dstore.values.boolean" +
+      "\022+\n\006active\030\005 \001(\0132\033.dstore.values.Boolean" +
       "Value\022\024\n\013active_null\030\355\007 \001(\010\0224\n\017delete_ta" +
-      "x_rate\030\006 \001(\0132\033.dstore.values.booleanValu" +
+      "x_rate\030\006 \001(\0132\033.dstore.values.BooleanValu" +
       "e\022\035\n\024delete_tax_rate_null\030\356\007 \001(\010\"\304\001\n\010Res" +
       "ponse\0228\n\020meta_information\030\002 \003(\0132\036.dstore" +
       ".engine.MetaInformation\022\'\n\007message\030\003 \003(\013" +
@@ -3998,7 +3998,7 @@ public final class MiModifyTaxRatesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyTaxRates_Ad_Parameters_descriptor =
@@ -4019,7 +4019,7 @@ public final class MiModifyTaxRatesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyTaxRates_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

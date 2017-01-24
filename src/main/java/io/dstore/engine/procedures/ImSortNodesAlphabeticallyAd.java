@@ -19,17 +19,17 @@ public final class ImSortNodesAlphabeticallyAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.booleanValue descending = 1;</code>
+     * <code>optional .dstore.values.BooleanValue descending = 1;</code>
      */
     boolean hasDescending();
     /**
-     * <code>optional .dstore.values.booleanValue descending = 1;</code>
+     * <code>optional .dstore.values.BooleanValue descending = 1;</code>
      */
-    io.dstore.Values.booleanValue getDescending();
+    io.dstore.values.BooleanValue getDescending();
     /**
-     * <code>optional .dstore.values.booleanValue descending = 1;</code>
+     * <code>optional .dstore.values.BooleanValue descending = 1;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDescendingOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDescendingOrBuilder();
 
     /**
      * <code>optional bool descending_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImSortNodesAlphabeticallyAd {
     boolean getDescendingNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
     boolean hasCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
-    io.dstore.Values.booleanValue getCaseSensitive();
+    io.dstore.values.BooleanValue getCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder();
 
     /**
      * <code>optional bool case_sensitive_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImSortNodesAlphabeticallyAd {
               break;
             }
             case 10: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (descending_ != null) {
                 subBuilder = descending_.toBuilder();
               }
-              descending_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              descending_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(descending_);
                 descending_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImSortNodesAlphabeticallyAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (caseSensitive_ != null) {
                 subBuilder = caseSensitive_.toBuilder();
               }
-              caseSensitive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              caseSensitive_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(caseSensitive_);
                 caseSensitive_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImSortNodesAlphabeticallyAd {
     }
 
     public static final int DESCENDING_FIELD_NUMBER = 1;
-    private io.dstore.Values.booleanValue descending_;
+    private io.dstore.values.BooleanValue descending_;
     /**
-     * <code>optional .dstore.values.booleanValue descending = 1;</code>
+     * <code>optional .dstore.values.BooleanValue descending = 1;</code>
      */
     public boolean hasDescending() {
       return descending_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue descending = 1;</code>
+     * <code>optional .dstore.values.BooleanValue descending = 1;</code>
      */
-    public io.dstore.Values.booleanValue getDescending() {
-      return descending_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : descending_;
+    public io.dstore.values.BooleanValue getDescending() {
+      return descending_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : descending_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue descending = 1;</code>
+     * <code>optional .dstore.values.BooleanValue descending = 1;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDescendingOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDescendingOrBuilder() {
       return getDescending();
     }
 
@@ -185,23 +185,23 @@ public final class ImSortNodesAlphabeticallyAd {
     }
 
     public static final int CASE_SENSITIVE_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue caseSensitive_;
+    private io.dstore.values.BooleanValue caseSensitive_;
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
     public boolean hasCaseSensitive() {
       return caseSensitive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
-    public io.dstore.Values.booleanValue getCaseSensitive() {
-      return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+    public io.dstore.values.BooleanValue getCaseSensitive() {
+      return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
       return getCaseSensitive();
     }
 
@@ -562,29 +562,29 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue descending_ = null;
+      private io.dstore.values.BooleanValue descending_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> descendingBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> descendingBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue descending = 1;</code>
+       * <code>optional .dstore.values.BooleanValue descending = 1;</code>
        */
       public boolean hasDescending() {
         return descendingBuilder_ != null || descending_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue descending = 1;</code>
+       * <code>optional .dstore.values.BooleanValue descending = 1;</code>
        */
-      public io.dstore.Values.booleanValue getDescending() {
+      public io.dstore.values.BooleanValue getDescending() {
         if (descendingBuilder_ == null) {
-          return descending_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : descending_;
+          return descending_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : descending_;
         } else {
           return descendingBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue descending = 1;</code>
+       * <code>optional .dstore.values.BooleanValue descending = 1;</code>
        */
-      public Builder setDescending(io.dstore.Values.booleanValue value) {
+      public Builder setDescending(io.dstore.values.BooleanValue value) {
         if (descendingBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue descending = 1;</code>
+       * <code>optional .dstore.values.BooleanValue descending = 1;</code>
        */
       public Builder setDescending(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (descendingBuilder_ == null) {
           descending_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue descending = 1;</code>
+       * <code>optional .dstore.values.BooleanValue descending = 1;</code>
        */
-      public Builder mergeDescending(io.dstore.Values.booleanValue value) {
+      public Builder mergeDescending(io.dstore.values.BooleanValue value) {
         if (descendingBuilder_ == null) {
           if (descending_ != null) {
             descending_ =
-              io.dstore.Values.booleanValue.newBuilder(descending_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(descending_).mergeFrom(value).buildPartial();
           } else {
             descending_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue descending = 1;</code>
+       * <code>optional .dstore.values.BooleanValue descending = 1;</code>
        */
       public Builder clearDescending() {
         if (descendingBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue descending = 1;</code>
+       * <code>optional .dstore.values.BooleanValue descending = 1;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDescendingBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDescendingBuilder() {
         
         onChanged();
         return getDescendingFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue descending = 1;</code>
+       * <code>optional .dstore.values.BooleanValue descending = 1;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDescendingOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDescendingOrBuilder() {
         if (descendingBuilder_ != null) {
           return descendingBuilder_.getMessageOrBuilder();
         } else {
           return descending_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : descending_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : descending_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue descending = 1;</code>
+       * <code>optional .dstore.values.BooleanValue descending = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDescendingFieldBuilder() {
         if (descendingBuilder_ == null) {
           descendingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDescending(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue caseSensitive_ = null;
+      private io.dstore.values.BooleanValue caseSensitive_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> caseSensitiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
       public boolean hasCaseSensitive() {
         return caseSensitiveBuilder_ != null || caseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public io.dstore.Values.booleanValue getCaseSensitive() {
+      public io.dstore.values.BooleanValue getCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
-          return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+          return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         } else {
           return caseSensitiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public Builder setCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder setCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
       public Builder setCaseSensitive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (caseSensitiveBuilder_ == null) {
           caseSensitive_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public Builder mergeCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder mergeCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (caseSensitive_ != null) {
             caseSensitive_ =
-              io.dstore.Values.booleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
           } else {
             caseSensitive_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
       public Builder clearCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImSortNodesAlphabeticallyAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCaseSensitiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCaseSensitiveBuilder() {
         
         onChanged();
         return getCaseSensitiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
         if (caseSensitiveBuilder_ != null) {
           return caseSensitiveBuilder_.getMessageOrBuilder();
         } else {
           return caseSensitive_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
           caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
                   isClean());
@@ -2935,9 +2935,9 @@ public final class ImSortNodesAlphabeticallyAd {
       "_SortNodesAlphabetically_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\252\001\n" +
       "\nParameters\022/\n\ndescending\030\001 \001(\0132\033.dstore" +
-      ".values.booleanValue\022\030\n\017descending_null\030" +
+      ".values.BooleanValue\022\030\n\017descending_null\030" +
       "\351\007 \001(\010\0223\n\016case_sensitive\030\002 \001(\0132\033.dstore." +
-      "values.booleanValue\022\034\n\023case_sensitive_nu" +
+      "values.BooleanValue\022\034\n\023case_sensitive_nu" +
       "ll\030\352\007 \001(\010\"\315\001\n\010Response\0228\n\020meta_informati" +
       "on\030\002 \003(\0132\036.dstore.engine.MetaInformation",
       "\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Messag" +
@@ -2959,7 +2959,7 @@ public final class ImSortNodesAlphabeticallyAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_SortNodesAlphabetically_Ad_Parameters_descriptor =
@@ -2980,7 +2980,7 @@ public final class ImSortNodesAlphabeticallyAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_SortNodesAlphabetically_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class MiGetTRITriggerWorkflowAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTriggerId();
+    io.dstore.values.IntegerValue getTriggerId();
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder();
 
     /**
      * <code>optional bool trigger_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class MiGetTRITriggerWorkflowAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (triggerId_ != null) {
                 subBuilder = triggerId_.toBuilder();
               }
-              triggerId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              triggerId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(triggerId_);
                 triggerId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class MiGetTRITriggerWorkflowAd {
     }
 
     public static final int TRIGGER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue triggerId_;
+    private io.dstore.values.IntegerValue triggerId_;
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTriggerId() {
-      return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+    public io.dstore.values.IntegerValue getTriggerId() {
+      return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
     }
 
@@ -447,29 +447,29 @@ public final class MiGetTRITriggerWorkflowAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue triggerId_ = null;
+      private io.dstore.values.IntegerValue triggerId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTriggerId() {
+      public io.dstore.values.IntegerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
-          return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+          return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
         } else {
           return triggerIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public Builder setTriggerId(io.dstore.Values.integerValue value) {
+      public Builder setTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class MiGetTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (triggerIdBuilder_ == null) {
           triggerId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class MiGetTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public Builder mergeTriggerId(io.dstore.Values.integerValue value) {
+      public Builder mergeTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
           if (triggerId_ != null) {
             triggerId_ =
-              io.dstore.Values.integerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
           } else {
             triggerId_ = value;
           }
@@ -515,7 +515,7 @@ public final class MiGetTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class MiGetTRITriggerWorkflowAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTriggerIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTriggerIdBuilder() {
         
         onChanged();
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
           return triggerIdBuilder_.getMessageOrBuilder();
         } else {
           return triggerId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTriggerIdFieldBuilder() {
         if (triggerIdBuilder_ == null) {
           triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTriggerId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class MiGetTRITriggerWorkflowAd {
        * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
        */
       boolean hasIterationList();
       /**
@@ -857,24 +857,24 @@ public final class MiGetTRITriggerWorkflowAd {
        * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
        */
-      io.dstore.Values.stringValue getIterationList();
+      io.dstore.values.StringValue getIterationList();
       /**
        * <pre>
        * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getIterationListOrBuilder();
+      io.dstore.values.StringValueOrBuilder getIterationListOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+       * <code>optional .dstore.values.StringValue work_step = 10002;</code>
        */
       boolean hasWorkStep();
       /**
@@ -882,24 +882,24 @@ public final class MiGetTRITriggerWorkflowAd {
        * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+       * <code>optional .dstore.values.StringValue work_step = 10002;</code>
        */
-      io.dstore.Values.stringValue getWorkStep();
+      io.dstore.values.StringValue getWorkStep();
       /**
        * <pre>
        * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+       * <code>optional .dstore.values.StringValue work_step = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getWorkStepOrBuilder();
+      io.dstore.values.StringValueOrBuilder getWorkStepOrBuilder();
 
       /**
        * <pre>
        * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
       boolean hasDescription();
       /**
@@ -907,24 +907,24 @@ public final class MiGetTRITriggerWorkflowAd {
        * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
-      io.dstore.Values.stringValue getDescription();
+      io.dstore.values.StringValue getDescription();
       /**
        * <pre>
        * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
       /**
        * <pre>
        * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
        */
       boolean hasWorkStepNo();
       /**
@@ -932,17 +932,17 @@ public final class MiGetTRITriggerWorkflowAd {
        * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
        */
-      io.dstore.Values.integerValue getWorkStepNo();
+      io.dstore.values.IntegerValue getWorkStepNo();
       /**
        * <pre>
        * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetTRITriggerWorkflow_Ad.Response.Row}
@@ -990,11 +990,11 @@ public final class MiGetTRITriggerWorkflowAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (iterationList_ != null) {
                   subBuilder = iterationList_.toBuilder();
                 }
-                iterationList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                iterationList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(iterationList_);
                   iterationList_ = subBuilder.buildPartial();
@@ -1003,11 +1003,11 @@ public final class MiGetTRITriggerWorkflowAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (workStep_ != null) {
                   subBuilder = workStep_.toBuilder();
                 }
-                workStep_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                workStep_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(workStep_);
                   workStep_ = subBuilder.buildPartial();
@@ -1016,11 +1016,11 @@ public final class MiGetTRITriggerWorkflowAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1029,11 +1029,11 @@ public final class MiGetTRITriggerWorkflowAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (workStepNo_ != null) {
                   subBuilder = workStepNo_.toBuilder();
                 }
-                workStepNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                workStepNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(workStepNo_);
                   workStepNo_ = subBuilder.buildPartial();
@@ -1074,13 +1074,13 @@ public final class MiGetTRITriggerWorkflowAd {
       }
 
       public static final int ITERATION_LIST_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue iterationList_;
+      private io.dstore.values.StringValue iterationList_;
       /**
        * <pre>
        * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
        */
       public boolean hasIterationList() {
         return iterationList_ != null;
@@ -1090,30 +1090,30 @@ public final class MiGetTRITriggerWorkflowAd {
        * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
        */
-      public io.dstore.Values.stringValue getIterationList() {
-        return iterationList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : iterationList_;
+      public io.dstore.values.StringValue getIterationList() {
+        return iterationList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : iterationList_;
       }
       /**
        * <pre>
        * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+       * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getIterationListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getIterationListOrBuilder() {
         return getIterationList();
       }
 
       public static final int WORK_STEP_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue workStep_;
+      private io.dstore.values.StringValue workStep_;
       /**
        * <pre>
        * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+       * <code>optional .dstore.values.StringValue work_step = 10002;</code>
        */
       public boolean hasWorkStep() {
         return workStep_ != null;
@@ -1123,30 +1123,30 @@ public final class MiGetTRITriggerWorkflowAd {
        * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+       * <code>optional .dstore.values.StringValue work_step = 10002;</code>
        */
-      public io.dstore.Values.stringValue getWorkStep() {
-        return workStep_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : workStep_;
+      public io.dstore.values.StringValue getWorkStep() {
+        return workStep_ == null ? io.dstore.values.StringValue.getDefaultInstance() : workStep_;
       }
       /**
        * <pre>
        * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+       * <code>optional .dstore.values.StringValue work_step = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getWorkStepOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getWorkStepOrBuilder() {
         return getWorkStep();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue description_;
+      private io.dstore.values.StringValue description_;
       /**
        * <pre>
        * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -1156,30 +1156,30 @@ public final class MiGetTRITriggerWorkflowAd {
        * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.values.StringValue getDescription() {
+        return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
       }
       /**
        * <pre>
        * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int WORK_STEP_NO_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue workStepNo_;
+      private io.dstore.values.IntegerValue workStepNo_;
       /**
        * <pre>
        * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
        */
       public boolean hasWorkStepNo() {
         return workStepNo_ != null;
@@ -1189,19 +1189,19 @@ public final class MiGetTRITriggerWorkflowAd {
        * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
        */
-      public io.dstore.Values.integerValue getWorkStepNo() {
-        return workStepNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
+      public io.dstore.values.IntegerValue getWorkStepNo() {
+        return workStepNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : workStepNo_;
       }
       /**
        * <pre>
        * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder() {
         return getWorkStepNo();
       }
 
@@ -1620,15 +1620,15 @@ public final class MiGetTRITriggerWorkflowAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue iterationList_ = null;
+        private io.dstore.values.StringValue iterationList_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> iterationListBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> iterationListBuilder_;
         /**
          * <pre>
          * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
          */
         public boolean hasIterationList() {
           return iterationListBuilder_ != null || iterationList_ != null;
@@ -1638,11 +1638,11 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
          */
-        public io.dstore.Values.stringValue getIterationList() {
+        public io.dstore.values.StringValue getIterationList() {
           if (iterationListBuilder_ == null) {
-            return iterationList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : iterationList_;
+            return iterationList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : iterationList_;
           } else {
             return iterationListBuilder_.getMessage();
           }
@@ -1652,9 +1652,9 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
          */
-        public Builder setIterationList(io.dstore.Values.stringValue value) {
+        public Builder setIterationList(io.dstore.values.StringValue value) {
           if (iterationListBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1672,10 +1672,10 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
          */
         public Builder setIterationList(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (iterationListBuilder_ == null) {
             iterationList_ = builderForValue.build();
             onChanged();
@@ -1690,13 +1690,13 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
          */
-        public Builder mergeIterationList(io.dstore.Values.stringValue value) {
+        public Builder mergeIterationList(io.dstore.values.StringValue value) {
           if (iterationListBuilder_ == null) {
             if (iterationList_ != null) {
               iterationList_ =
-                io.dstore.Values.stringValue.newBuilder(iterationList_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(iterationList_).mergeFrom(value).buildPartial();
             } else {
               iterationList_ = value;
             }
@@ -1712,7 +1712,7 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
          */
         public Builder clearIterationList() {
           if (iterationListBuilder_ == null) {
@@ -1730,9 +1730,9 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getIterationListBuilder() {
+        public io.dstore.values.StringValue.Builder getIterationListBuilder() {
           
           onChanged();
           return getIterationListFieldBuilder().getBuilder();
@@ -1742,14 +1742,14 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getIterationListOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getIterationListOrBuilder() {
           if (iterationListBuilder_ != null) {
             return iterationListBuilder_.getMessageOrBuilder();
           } else {
             return iterationList_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : iterationList_;
+                io.dstore.values.StringValue.getDefaultInstance() : iterationList_;
           }
         }
         /**
@@ -1757,14 +1757,14 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionaler Iterator für den Arbeitsschritt "WorkStepNo" (s. a. "mi_ModifyTRITriggerWorkflow_Ad", Parameter "&#64;IterationList")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue iteration_list = 10001;</code>
+         * <code>optional .dstore.values.StringValue iteration_list = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getIterationListFieldBuilder() {
           if (iterationListBuilder_ == null) {
             iterationListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getIterationList(),
                     getParentForChildren(),
                     isClean());
@@ -1773,15 +1773,15 @@ public final class MiGetTRITriggerWorkflowAd {
           return iterationListBuilder_;
         }
 
-        private io.dstore.Values.stringValue workStep_ = null;
+        private io.dstore.values.StringValue workStep_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> workStepBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> workStepBuilder_;
         /**
          * <pre>
          * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+         * <code>optional .dstore.values.StringValue work_step = 10002;</code>
          */
         public boolean hasWorkStep() {
           return workStepBuilder_ != null || workStep_ != null;
@@ -1791,11 +1791,11 @@ public final class MiGetTRITriggerWorkflowAd {
          * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+         * <code>optional .dstore.values.StringValue work_step = 10002;</code>
          */
-        public io.dstore.Values.stringValue getWorkStep() {
+        public io.dstore.values.StringValue getWorkStep() {
           if (workStepBuilder_ == null) {
-            return workStep_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : workStep_;
+            return workStep_ == null ? io.dstore.values.StringValue.getDefaultInstance() : workStep_;
           } else {
             return workStepBuilder_.getMessage();
           }
@@ -1805,9 +1805,9 @@ public final class MiGetTRITriggerWorkflowAd {
          * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+         * <code>optional .dstore.values.StringValue work_step = 10002;</code>
          */
-        public Builder setWorkStep(io.dstore.Values.stringValue value) {
+        public Builder setWorkStep(io.dstore.values.StringValue value) {
           if (workStepBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1825,10 +1825,10 @@ public final class MiGetTRITriggerWorkflowAd {
          * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+         * <code>optional .dstore.values.StringValue work_step = 10002;</code>
          */
         public Builder setWorkStep(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (workStepBuilder_ == null) {
             workStep_ = builderForValue.build();
             onChanged();
@@ -1843,13 +1843,13 @@ public final class MiGetTRITriggerWorkflowAd {
          * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+         * <code>optional .dstore.values.StringValue work_step = 10002;</code>
          */
-        public Builder mergeWorkStep(io.dstore.Values.stringValue value) {
+        public Builder mergeWorkStep(io.dstore.values.StringValue value) {
           if (workStepBuilder_ == null) {
             if (workStep_ != null) {
               workStep_ =
-                io.dstore.Values.stringValue.newBuilder(workStep_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(workStep_).mergeFrom(value).buildPartial();
             } else {
               workStep_ = value;
             }
@@ -1865,7 +1865,7 @@ public final class MiGetTRITriggerWorkflowAd {
          * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+         * <code>optional .dstore.values.StringValue work_step = 10002;</code>
          */
         public Builder clearWorkStep() {
           if (workStepBuilder_ == null) {
@@ -1883,9 +1883,9 @@ public final class MiGetTRITriggerWorkflowAd {
          * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+         * <code>optional .dstore.values.StringValue work_step = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getWorkStepBuilder() {
+        public io.dstore.values.StringValue.Builder getWorkStepBuilder() {
           
           onChanged();
           return getWorkStepFieldBuilder().getBuilder();
@@ -1895,14 +1895,14 @@ public final class MiGetTRITriggerWorkflowAd {
          * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+         * <code>optional .dstore.values.StringValue work_step = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getWorkStepOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getWorkStepOrBuilder() {
           if (workStepBuilder_ != null) {
             return workStepBuilder_.getMessageOrBuilder();
           } else {
             return workStep_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : workStep_;
+                io.dstore.values.StringValue.getDefaultInstance() : workStep_;
           }
         }
         /**
@@ -1910,14 +1910,14 @@ public final class MiGetTRITriggerWorkflowAd {
          * Bezeichnung des Arbeitsschritts "WorkStepNo" (optional, kann also "NULL" sein)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue work_step = 10002;</code>
+         * <code>optional .dstore.values.StringValue work_step = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getWorkStepFieldBuilder() {
           if (workStepBuilder_ == null) {
             workStepBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getWorkStep(),
                     getParentForChildren(),
                     isClean());
@@ -1926,15 +1926,15 @@ public final class MiGetTRITriggerWorkflowAd {
           return workStepBuilder_;
         }
 
-        private io.dstore.Values.stringValue description_ = null;
+        private io.dstore.values.StringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
          * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -1944,11 +1944,11 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public io.dstore.Values.stringValue getDescription() {
+        public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
@@ -1958,9 +1958,9 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public Builder setDescription(io.dstore.Values.stringValue value) {
+        public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1978,10 +1978,10 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
         public Builder setDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -1996,13 +1996,13 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public Builder mergeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2018,7 +2018,7 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2036,9 +2036,9 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
@@ -2048,14 +2048,14 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.values.StringValue.getDefaultInstance() : description_;
           }
         }
         /**
@@ -2063,14 +2063,14 @@ public final class MiGetTRITriggerWorkflowAd {
          * Optionale ausführlichere Beschreibung/Doku des Arbeitsschritts "WorkStepNo"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2079,15 +2079,15 @@ public final class MiGetTRITriggerWorkflowAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue workStepNo_ = null;
+        private io.dstore.values.IntegerValue workStepNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> workStepNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> workStepNoBuilder_;
         /**
          * <pre>
          * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
          */
         public boolean hasWorkStepNo() {
           return workStepNoBuilder_ != null || workStepNo_ != null;
@@ -2097,11 +2097,11 @@ public final class MiGetTRITriggerWorkflowAd {
          * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
          */
-        public io.dstore.Values.integerValue getWorkStepNo() {
+        public io.dstore.values.IntegerValue getWorkStepNo() {
           if (workStepNoBuilder_ == null) {
-            return workStepNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
+            return workStepNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : workStepNo_;
           } else {
             return workStepNoBuilder_.getMessage();
           }
@@ -2111,9 +2111,9 @@ public final class MiGetTRITriggerWorkflowAd {
          * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
          */
-        public Builder setWorkStepNo(io.dstore.Values.integerValue value) {
+        public Builder setWorkStepNo(io.dstore.values.IntegerValue value) {
           if (workStepNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2131,10 +2131,10 @@ public final class MiGetTRITriggerWorkflowAd {
          * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
          */
         public Builder setWorkStepNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (workStepNoBuilder_ == null) {
             workStepNo_ = builderForValue.build();
             onChanged();
@@ -2149,13 +2149,13 @@ public final class MiGetTRITriggerWorkflowAd {
          * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
          */
-        public Builder mergeWorkStepNo(io.dstore.Values.integerValue value) {
+        public Builder mergeWorkStepNo(io.dstore.values.IntegerValue value) {
           if (workStepNoBuilder_ == null) {
             if (workStepNo_ != null) {
               workStepNo_ =
-                io.dstore.Values.integerValue.newBuilder(workStepNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(workStepNo_).mergeFrom(value).buildPartial();
             } else {
               workStepNo_ = value;
             }
@@ -2171,7 +2171,7 @@ public final class MiGetTRITriggerWorkflowAd {
          * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
          */
         public Builder clearWorkStepNo() {
           if (workStepNoBuilder_ == null) {
@@ -2189,9 +2189,9 @@ public final class MiGetTRITriggerWorkflowAd {
          * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getWorkStepNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getWorkStepNoBuilder() {
           
           onChanged();
           return getWorkStepNoFieldBuilder().getBuilder();
@@ -2201,14 +2201,14 @@ public final class MiGetTRITriggerWorkflowAd {
          * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder() {
           if (workStepNoBuilder_ != null) {
             return workStepNoBuilder_.getMessageOrBuilder();
           } else {
             return workStepNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : workStepNo_;
           }
         }
         /**
@@ -2216,14 +2216,14 @@ public final class MiGetTRITriggerWorkflowAd {
          * Eindeutige Nummer eines Arbeitsschrittes für den Trigger "&#64;TriggerID". Bestimmt die Reihenfolge des Arbeitsschritts innerhalb aller Arbeitsschritte des Triggers.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue work_step_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue work_step_no = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getWorkStepNoFieldBuilder() {
           if (workStepNoBuilder_ == null) {
             workStepNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getWorkStepNo(),
                     getParentForChildren(),
                     isClean());
@@ -3693,17 +3693,17 @@ public final class MiGetTRITriggerWorkflowAd {
       "etTRITriggerWorkflow_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"W\n\nPara" +
       "meters\022/\n\ntrigger_id\030\001 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\030\n\017trigger_id_null\030\351\007 \001(" +
+      "es.IntegerValue\022\030\n\017trigger_id_null\030\351\007 \001(" +
       "\010\"\227\003\n\010Response\0228\n\020meta_information\030\002 \003(\013" +
       "2\036.dstore.engine.MetaInformation\022\'\n\007mess" +
       "age\030\003 \003(\0132\026.dstore.engine.Message\022D\n\003row" +
       "\030\004 \003(\01327.dstore.engine.mi_GetTRITriggerW",
       "orkflow_Ad.Response.Row\032\341\001\n\003Row\022\017\n\006row_i" +
       "d\030\220N \001(\005\0223\n\016iteration_list\030\221N \001(\0132\032.dsto" +
-      "re.values.stringValue\022.\n\twork_step\030\222N \001(" +
-      "\0132\032.dstore.values.stringValue\0220\n\013descrip" +
-      "tion\030\223N \001(\0132\032.dstore.values.stringValue\022" +
-      "2\n\014work_step_no\030\224N \001(\0132\033.dstore.values.i" +
+      "re.values.StringValue\022.\n\twork_step\030\222N \001(" +
+      "\0132\032.dstore.values.StringValue\0220\n\013descrip" +
+      "tion\030\223N \001(\0132\032.dstore.values.StringValue\022" +
+      "2\n\014work_step_no\030\224N \001(\0132\033.dstore.values.I" +
       "ntegerValueB\\\n\033io.dstore.engine.procedur" +
       "esZ=gosdk.dstore.de/engine/procedures/mi" +
       "_GetTRITriggerWorkflow_Adb\006proto3"
@@ -3719,7 +3719,7 @@ public final class MiGetTRITriggerWorkflowAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetTRITriggerWorkflow_Ad_Parameters_descriptor =
@@ -3740,7 +3740,7 @@ public final class MiGetTRITriggerWorkflowAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTRITriggerWorkflow_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "IterationList", "WorkStep", "Description", "WorkStepNo", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

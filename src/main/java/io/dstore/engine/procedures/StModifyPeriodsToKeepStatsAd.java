@@ -19,17 +19,17 @@ public final class StModifyPeriodsToKeepStatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
     boolean hasTableName();
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
-    io.dstore.Values.stringValue getTableName();
+    io.dstore.values.StringValue getTableName();
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
     /**
      * <code>optional bool table_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class StModifyPeriodsToKeepStatsAd {
     boolean getTableNameNull();
 
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
     boolean hasLevelNo();
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
-    io.dstore.Values.integerValue getLevelNo();
+    io.dstore.values.IntegerValue getLevelNo();
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
     /**
      * <code>optional bool level_no_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class StModifyPeriodsToKeepStatsAd {
     boolean getLevelNoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
     boolean hasBasicCharacteristicNumber();
     /**
-     * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
-    io.dstore.Values.integerValue getBasicCharacteristicNumber();
+    io.dstore.values.IntegerValue getBasicCharacteristicNumber();
     /**
-     * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
 
     /**
      * <code>optional bool basic_characteristic_number_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class StModifyPeriodsToKeepStatsAd {
     boolean getBasicCharacteristicNumberNull();
 
     /**
-     * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+     * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
      */
     boolean hasKeepStatistics();
     /**
-     * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+     * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
      */
-    io.dstore.Values.integerValue getKeepStatistics();
+    io.dstore.values.IntegerValue getKeepStatistics();
     /**
-     * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+     * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getKeepStatisticsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getKeepStatisticsOrBuilder();
 
     /**
      * <code>optional bool keep_statistics_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class StModifyPeriodsToKeepStatsAd {
     boolean getKeepStatisticsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+     * <code>optional .dstore.values.StringValue time_unit = 5;</code>
      */
     boolean hasTimeUnit();
     /**
-     * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+     * <code>optional .dstore.values.StringValue time_unit = 5;</code>
      */
-    io.dstore.Values.stringValue getTimeUnit();
+    io.dstore.values.StringValue getTimeUnit();
     /**
-     * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+     * <code>optional .dstore.values.StringValue time_unit = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTimeUnitOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTimeUnitOrBuilder();
 
     /**
      * <code>optional bool time_unit_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class StModifyPeriodsToKeepStatsAd {
     boolean getTimeUnitNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    io.dstore.Values.booleanValue getDelete();
+    io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class StModifyPeriodsToKeepStatsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (tableName_ != null) {
                 subBuilder = tableName_.toBuilder();
               }
-              tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              tableName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableName_);
                 tableName_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class StModifyPeriodsToKeepStatsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (levelNo_ != null) {
                 subBuilder = levelNo_.toBuilder();
               }
-              levelNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              levelNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(levelNo_);
                 levelNo_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class StModifyPeriodsToKeepStatsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (basicCharacteristicNumber_ != null) {
                 subBuilder = basicCharacteristicNumber_.toBuilder();
               }
-              basicCharacteristicNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              basicCharacteristicNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNumber_);
                 basicCharacteristicNumber_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class StModifyPeriodsToKeepStatsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (keepStatistics_ != null) {
                 subBuilder = keepStatistics_.toBuilder();
               }
-              keepStatistics_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              keepStatistics_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keepStatistics_);
                 keepStatistics_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class StModifyPeriodsToKeepStatsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (timeUnit_ != null) {
                 subBuilder = timeUnit_.toBuilder();
               }
-              timeUnit_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              timeUnit_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(timeUnit_);
                 timeUnit_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class StModifyPeriodsToKeepStatsAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class StModifyPeriodsToKeepStatsAd {
     }
 
     public static final int TABLE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue tableName_;
+    private io.dstore.values.StringValue tableName_;
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
     public boolean hasTableName() {
       return tableName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getTableName() {
-      return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+    public io.dstore.values.StringValue getTableName() {
+      return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
       return getTableName();
     }
 
@@ -333,23 +333,23 @@ public final class StModifyPeriodsToKeepStatsAd {
     }
 
     public static final int LEVEL_NO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue levelNo_;
+    private io.dstore.values.IntegerValue levelNo_;
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
     public boolean hasLevelNo() {
       return levelNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
-    public io.dstore.Values.integerValue getLevelNo() {
-      return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
+    public io.dstore.values.IntegerValue getLevelNo() {
+      return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
       return getLevelNo();
     }
 
@@ -363,23 +363,23 @@ public final class StModifyPeriodsToKeepStatsAd {
     }
 
     public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue basicCharacteristicNumber_;
+    private io.dstore.values.IntegerValue basicCharacteristicNumber_;
     /**
-     * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
     public boolean hasBasicCharacteristicNumber() {
       return basicCharacteristicNumber_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
-    public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
-      return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+    public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
+      return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
     }
     /**
-     * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+     * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
       return getBasicCharacteristicNumber();
     }
 
@@ -393,23 +393,23 @@ public final class StModifyPeriodsToKeepStatsAd {
     }
 
     public static final int KEEP_STATISTICS_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue keepStatistics_;
+    private io.dstore.values.IntegerValue keepStatistics_;
     /**
-     * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+     * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
      */
     public boolean hasKeepStatistics() {
       return keepStatistics_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+     * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
      */
-    public io.dstore.Values.integerValue getKeepStatistics() {
-      return keepStatistics_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepStatistics_;
+    public io.dstore.values.IntegerValue getKeepStatistics() {
+      return keepStatistics_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepStatistics_;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+     * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getKeepStatisticsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getKeepStatisticsOrBuilder() {
       return getKeepStatistics();
     }
 
@@ -423,23 +423,23 @@ public final class StModifyPeriodsToKeepStatsAd {
     }
 
     public static final int TIME_UNIT_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue timeUnit_;
+    private io.dstore.values.StringValue timeUnit_;
     /**
-     * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+     * <code>optional .dstore.values.StringValue time_unit = 5;</code>
      */
     public boolean hasTimeUnit() {
       return timeUnit_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+     * <code>optional .dstore.values.StringValue time_unit = 5;</code>
      */
-    public io.dstore.Values.stringValue getTimeUnit() {
-      return timeUnit_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : timeUnit_;
+    public io.dstore.values.StringValue getTimeUnit() {
+      return timeUnit_ == null ? io.dstore.values.StringValue.getDefaultInstance() : timeUnit_;
     }
     /**
-     * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+     * <code>optional .dstore.values.StringValue time_unit = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTimeUnitOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTimeUnitOrBuilder() {
       return getTimeUnit();
     }
 
@@ -453,23 +453,23 @@ public final class StModifyPeriodsToKeepStatsAd {
     }
 
     public static final int DELETE_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue delete_;
+    private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    public io.dstore.Values.booleanValue getDelete() {
-      return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+    public io.dstore.values.BooleanValue getDelete() {
+      return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -1022,29 +1022,29 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue tableName_ = null;
+      private io.dstore.values.StringValue tableName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tableNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
       public boolean hasTableName() {
         return tableNameBuilder_ != null || tableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getTableName() {
+      public io.dstore.values.StringValue getTableName() {
         if (tableNameBuilder_ == null) {
-          return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+          return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
         } else {
           return tableNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public Builder setTableName(io.dstore.Values.stringValue value) {
+      public Builder setTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
       public Builder setTableName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (tableNameBuilder_ == null) {
           tableName_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public Builder mergeTableName(io.dstore.Values.stringValue value) {
+      public Builder mergeTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
           if (tableName_ != null) {
             tableName_ =
-              io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
           } else {
             tableName_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
       public Builder clearTableName() {
         if (tableNameBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
+      public io.dstore.values.StringValue.Builder getTableNameBuilder() {
         
         onChanged();
         return getTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         if (tableNameBuilder_ != null) {
           return tableNameBuilder_.getMessageOrBuilder();
         } else {
           return tableName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+              io.dstore.values.StringValue.getDefaultInstance() : tableName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTableNameFieldBuilder() {
         if (tableNameBuilder_ == null) {
           tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTableName(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue levelNo_ = null;
+      private io.dstore.values.IntegerValue levelNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
       public boolean hasLevelNo() {
         return levelNoBuilder_ != null || levelNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public io.dstore.Values.integerValue getLevelNo() {
+      public io.dstore.values.IntegerValue getLevelNo() {
         if (levelNoBuilder_ == null) {
-          return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
+          return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
         } else {
           return levelNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public Builder setLevelNo(io.dstore.Values.integerValue value) {
+      public Builder setLevelNo(io.dstore.values.IntegerValue value) {
         if (levelNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
       public Builder setLevelNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (levelNoBuilder_ == null) {
           levelNo_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public Builder mergeLevelNo(io.dstore.Values.integerValue value) {
+      public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
         if (levelNoBuilder_ == null) {
           if (levelNo_ != null) {
             levelNo_ =
-              io.dstore.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
           } else {
             levelNo_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
       public Builder clearLevelNo() {
         if (levelNoBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLevelNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
         
         onChanged();
         return getLevelNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         if (levelNoBuilder_ != null) {
           return levelNoBuilder_.getMessageOrBuilder();
         } else {
           return levelNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLevelNoFieldBuilder() {
         if (levelNoBuilder_ == null) {
           levelNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLevelNo(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue basicCharacteristicNumber_ = null;
+      private io.dstore.values.IntegerValue basicCharacteristicNumber_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicCharacteristicNumberBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
-      public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
+      public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
         if (basicCharacteristicNumberBuilder_ == null) {
-          return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+          return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
         } else {
           return basicCharacteristicNumberBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
-      public Builder setBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
+      public Builder setBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNumberBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public Builder setBasicCharacteristicNumber(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (basicCharacteristicNumberBuilder_ == null) {
           basicCharacteristicNumber_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
-      public Builder mergeBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
+      public Builder mergeBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
         if (basicCharacteristicNumberBuilder_ == null) {
           if (basicCharacteristicNumber_ != null) {
             basicCharacteristicNumber_ =
-              io.dstore.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
           } else {
             basicCharacteristicNumber_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       public Builder clearBasicCharacteristicNumber() {
         if (basicCharacteristicNumberBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNumberBuilder() {
         
         onChanged();
         return getBasicCharacteristicNumberFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         if (basicCharacteristicNumberBuilder_ != null) {
           return basicCharacteristicNumberBuilder_.getMessageOrBuilder();
         } else {
           return basicCharacteristicNumber_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 3;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBasicCharacteristicNumberFieldBuilder() {
         if (basicCharacteristicNumberBuilder_ == null) {
           basicCharacteristicNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBasicCharacteristicNumber(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue keepStatistics_ = null;
+      private io.dstore.values.IntegerValue keepStatistics_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> keepStatisticsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> keepStatisticsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+       * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
        */
       public boolean hasKeepStatistics() {
         return keepStatisticsBuilder_ != null || keepStatistics_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+       * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
        */
-      public io.dstore.Values.integerValue getKeepStatistics() {
+      public io.dstore.values.IntegerValue getKeepStatistics() {
         if (keepStatisticsBuilder_ == null) {
-          return keepStatistics_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepStatistics_;
+          return keepStatistics_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepStatistics_;
         } else {
           return keepStatisticsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+       * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
        */
-      public Builder setKeepStatistics(io.dstore.Values.integerValue value) {
+      public Builder setKeepStatistics(io.dstore.values.IntegerValue value) {
         if (keepStatisticsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+       * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
        */
       public Builder setKeepStatistics(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (keepStatisticsBuilder_ == null) {
           keepStatistics_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+       * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
        */
-      public Builder mergeKeepStatistics(io.dstore.Values.integerValue value) {
+      public Builder mergeKeepStatistics(io.dstore.values.IntegerValue value) {
         if (keepStatisticsBuilder_ == null) {
           if (keepStatistics_ != null) {
             keepStatistics_ =
-              io.dstore.Values.integerValue.newBuilder(keepStatistics_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(keepStatistics_).mergeFrom(value).buildPartial();
           } else {
             keepStatistics_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+       * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
        */
       public Builder clearKeepStatistics() {
         if (keepStatisticsBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+       * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getKeepStatisticsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getKeepStatisticsBuilder() {
         
         onChanged();
         return getKeepStatisticsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+       * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getKeepStatisticsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getKeepStatisticsOrBuilder() {
         if (keepStatisticsBuilder_ != null) {
           return keepStatisticsBuilder_.getMessageOrBuilder();
         } else {
           return keepStatistics_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : keepStatistics_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : keepStatistics_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_statistics = 4;</code>
+       * <code>optional .dstore.values.IntegerValue keep_statistics = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getKeepStatisticsFieldBuilder() {
         if (keepStatisticsBuilder_ == null) {
           keepStatisticsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getKeepStatistics(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue timeUnit_ = null;
+      private io.dstore.values.StringValue timeUnit_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> timeUnitBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> timeUnitBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 5;</code>
        */
       public boolean hasTimeUnit() {
         return timeUnitBuilder_ != null || timeUnit_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 5;</code>
        */
-      public io.dstore.Values.stringValue getTimeUnit() {
+      public io.dstore.values.StringValue getTimeUnit() {
         if (timeUnitBuilder_ == null) {
-          return timeUnit_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : timeUnit_;
+          return timeUnit_ == null ? io.dstore.values.StringValue.getDefaultInstance() : timeUnit_;
         } else {
           return timeUnitBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 5;</code>
        */
-      public Builder setTimeUnit(io.dstore.Values.stringValue value) {
+      public Builder setTimeUnit(io.dstore.values.StringValue value) {
         if (timeUnitBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 5;</code>
        */
       public Builder setTimeUnit(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (timeUnitBuilder_ == null) {
           timeUnit_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 5;</code>
        */
-      public Builder mergeTimeUnit(io.dstore.Values.stringValue value) {
+      public Builder mergeTimeUnit(io.dstore.values.StringValue value) {
         if (timeUnitBuilder_ == null) {
           if (timeUnit_ != null) {
             timeUnit_ =
-              io.dstore.Values.stringValue.newBuilder(timeUnit_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(timeUnit_).mergeFrom(value).buildPartial();
           } else {
             timeUnit_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 5;</code>
        */
       public Builder clearTimeUnit() {
         if (timeUnitBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTimeUnitBuilder() {
+      public io.dstore.values.StringValue.Builder getTimeUnitBuilder() {
         
         onChanged();
         return getTimeUnitFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTimeUnitOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTimeUnitOrBuilder() {
         if (timeUnitBuilder_ != null) {
           return timeUnitBuilder_.getMessageOrBuilder();
         } else {
           return timeUnit_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : timeUnit_;
+              io.dstore.values.StringValue.getDefaultInstance() : timeUnit_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue time_unit = 5;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTimeUnitFieldBuilder() {
         if (timeUnitBuilder_ == null) {
           timeUnitBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTimeUnit(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue delete_ = null;
+      private io.dstore.values.BooleanValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValue getDelete() {
+      public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public Builder setDelete(io.dstore.Values.booleanValue value) {
+      public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder setDelete(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public Builder mergeDelete(io.dstore.Values.booleanValue value) {
+      public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class StModifyPeriodsToKeepStatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -3967,17 +3967,17 @@ public final class StModifyPeriodsToKeepStatsAd {
       "t_ModifyPeriodsToKeepStats_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\352" +
       "\003\n\nParameters\022.\n\ntable_name\030\001 \001(\0132\032.dsto" +
-      "re.values.stringValue\022\030\n\017table_name_null" +
+      "re.values.StringValue\022\030\n\017table_name_null" +
       "\030\351\007 \001(\010\022-\n\010level_no\030\002 \001(\0132\033.dstore.value" +
-      "s.integerValue\022\026\n\rlevel_no_null\030\352\007 \001(\010\022@" +
+      "s.IntegerValue\022\026\n\rlevel_no_null\030\352\007 \001(\010\022@" +
       "\n\033basic_characteristic_number\030\003 \001(\0132\033.ds" +
-      "tore.values.integerValue\022)\n basic_charac",
+      "tore.values.IntegerValue\022)\n basic_charac",
       "teristic_number_null\030\353\007 \001(\010\0224\n\017keep_stat" +
-      "istics\030\004 \001(\0132\033.dstore.values.integerValu" +
+      "istics\030\004 \001(\0132\033.dstore.values.IntegerValu" +
       "e\022\035\n\024keep_statistics_null\030\354\007 \001(\010\022-\n\ttime" +
-      "_unit\030\005 \001(\0132\032.dstore.values.stringValue\022" +
+      "_unit\030\005 \001(\0132\032.dstore.values.StringValue\022" +
       "\027\n\016time_unit_null\030\355\007 \001(\010\022+\n\006delete\030\006 \001(\013" +
-      "2\033.dstore.values.booleanValue\022\024\n\013delete_" +
+      "2\033.dstore.values.BooleanValue\022\024\n\013delete_" +
       "null\030\356\007 \001(\010\"\316\001\n\010Response\0228\n\020meta_informa" +
       "tion\030\002 \003(\0132\036.dstore.engine.MetaInformati" +
       "on\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Mess" +
@@ -3999,7 +3999,7 @@ public final class StModifyPeriodsToKeepStatsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_st_ModifyPeriodsToKeepStats_Ad_Parameters_descriptor =
@@ -4020,7 +4020,7 @@ public final class StModifyPeriodsToKeepStatsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_ModifyPeriodsToKeepStats_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

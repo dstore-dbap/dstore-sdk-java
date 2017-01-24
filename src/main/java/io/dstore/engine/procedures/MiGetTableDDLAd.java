@@ -19,17 +19,17 @@ public final class MiGetTableDDLAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
     boolean hasOnlyTableName();
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
-    io.dstore.Values.stringValue getOnlyTableName();
+    io.dstore.values.StringValue getOnlyTableName();
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getOnlyTableNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getOnlyTableNameOrBuilder();
 
     /**
      * <code>optional bool only_table_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetTableDDLAd {
     boolean getOnlyTableNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
     boolean hasDatabaseName();
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
-    io.dstore.Values.stringValue getDatabaseName();
+    io.dstore.values.StringValue getDatabaseName();
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder();
 
     /**
      * <code>optional bool database_name_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetTableDDLAd {
     boolean getDatabaseNameNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
      */
     boolean hasGetOnlyColumnDefAsResult();
     /**
-     * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
      */
-    io.dstore.Values.booleanValue getGetOnlyColumnDefAsResult();
+    io.dstore.values.BooleanValue getGetOnlyColumnDefAsResult();
     /**
-     * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getGetOnlyColumnDefAsResultOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getGetOnlyColumnDefAsResultOrBuilder();
 
     /**
      * <code>optional bool get_only_column_def_as_result_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiGetTableDDLAd {
     boolean getGetOnlyColumnDefAsResultNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
      */
     boolean hasFullyQualifiedNameInOutput();
     /**
-     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
      */
-    io.dstore.Values.booleanValue getFullyQualifiedNameInOutput();
+    io.dstore.values.BooleanValue getFullyQualifiedNameInOutput();
     /**
-     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder();
 
     /**
      * <code>optional bool fully_qualified_name_in_output_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class MiGetTableDDLAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (onlyTableName_ != null) {
                 subBuilder = onlyTableName_.toBuilder();
               }
-              onlyTableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              onlyTableName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyTableName_);
                 onlyTableName_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class MiGetTableDDLAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (databaseName_ != null) {
                 subBuilder = databaseName_.toBuilder();
               }
-              databaseName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              databaseName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(databaseName_);
                 databaseName_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class MiGetTableDDLAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (getOnlyColumnDefAsResult_ != null) {
                 subBuilder = getOnlyColumnDefAsResult_.toBuilder();
               }
-              getOnlyColumnDefAsResult_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              getOnlyColumnDefAsResult_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getOnlyColumnDefAsResult_);
                 getOnlyColumnDefAsResult_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class MiGetTableDDLAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (fullyQualifiedNameInOutput_ != null) {
                 subBuilder = fullyQualifiedNameInOutput_.toBuilder();
               }
-              fullyQualifiedNameInOutput_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              fullyQualifiedNameInOutput_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fullyQualifiedNameInOutput_);
                 fullyQualifiedNameInOutput_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class MiGetTableDDLAd {
     }
 
     public static final int ONLY_TABLE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue onlyTableName_;
+    private io.dstore.values.StringValue onlyTableName_;
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
     public boolean hasOnlyTableName() {
       return onlyTableName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getOnlyTableName() {
-      return onlyTableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : onlyTableName_;
+    public io.dstore.values.StringValue getOnlyTableName() {
+      return onlyTableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : onlyTableName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getOnlyTableNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getOnlyTableNameOrBuilder() {
       return getOnlyTableName();
     }
 
@@ -259,23 +259,23 @@ public final class MiGetTableDDLAd {
     }
 
     public static final int DATABASE_NAME_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue databaseName_;
+    private io.dstore.values.StringValue databaseName_;
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
     public boolean hasDatabaseName() {
       return databaseName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
-    public io.dstore.Values.stringValue getDatabaseName() {
-      return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+    public io.dstore.values.StringValue getDatabaseName() {
+      return databaseName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
       return getDatabaseName();
     }
 
@@ -289,23 +289,23 @@ public final class MiGetTableDDLAd {
     }
 
     public static final int GET_ONLY_COLUMN_DEF_AS_RESULT_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue getOnlyColumnDefAsResult_;
+    private io.dstore.values.BooleanValue getOnlyColumnDefAsResult_;
     /**
-     * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
      */
     public boolean hasGetOnlyColumnDefAsResult() {
       return getOnlyColumnDefAsResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
      */
-    public io.dstore.Values.booleanValue getGetOnlyColumnDefAsResult() {
-      return getOnlyColumnDefAsResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getOnlyColumnDefAsResult_;
+    public io.dstore.values.BooleanValue getGetOnlyColumnDefAsResult() {
+      return getOnlyColumnDefAsResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getOnlyColumnDefAsResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getGetOnlyColumnDefAsResultOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getGetOnlyColumnDefAsResultOrBuilder() {
       return getGetOnlyColumnDefAsResult();
     }
 
@@ -319,23 +319,23 @@ public final class MiGetTableDDLAd {
     }
 
     public static final int FULLY_QUALIFIED_NAME_IN_OUTPUT_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue fullyQualifiedNameInOutput_;
+    private io.dstore.values.BooleanValue fullyQualifiedNameInOutput_;
     /**
-     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
      */
     public boolean hasFullyQualifiedNameInOutput() {
       return fullyQualifiedNameInOutput_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
      */
-    public io.dstore.Values.booleanValue getFullyQualifiedNameInOutput() {
-      return fullyQualifiedNameInOutput_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
+    public io.dstore.values.BooleanValue getFullyQualifiedNameInOutput() {
+      return fullyQualifiedNameInOutput_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+     * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder() {
       return getFullyQualifiedNameInOutput();
     }
 
@@ -792,29 +792,29 @@ public final class MiGetTableDDLAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue onlyTableName_ = null;
+      private io.dstore.values.StringValue onlyTableName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> onlyTableNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> onlyTableNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
       public boolean hasOnlyTableName() {
         return onlyTableNameBuilder_ != null || onlyTableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getOnlyTableName() {
+      public io.dstore.values.StringValue getOnlyTableName() {
         if (onlyTableNameBuilder_ == null) {
-          return onlyTableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : onlyTableName_;
+          return onlyTableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : onlyTableName_;
         } else {
           return onlyTableNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public Builder setOnlyTableName(io.dstore.Values.stringValue value) {
+      public Builder setOnlyTableName(io.dstore.values.StringValue value) {
         if (onlyTableNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
       public Builder setOnlyTableName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (onlyTableNameBuilder_ == null) {
           onlyTableName_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public Builder mergeOnlyTableName(io.dstore.Values.stringValue value) {
+      public Builder mergeOnlyTableName(io.dstore.values.StringValue value) {
         if (onlyTableNameBuilder_ == null) {
           if (onlyTableName_ != null) {
             onlyTableName_ =
-              io.dstore.Values.stringValue.newBuilder(onlyTableName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(onlyTableName_).mergeFrom(value).buildPartial();
           } else {
             onlyTableName_ = value;
           }
@@ -860,7 +860,7 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
       public Builder clearOnlyTableName() {
         if (onlyTableNameBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getOnlyTableNameBuilder() {
+      public io.dstore.values.StringValue.Builder getOnlyTableNameBuilder() {
         
         onChanged();
         return getOnlyTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOnlyTableNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOnlyTableNameOrBuilder() {
         if (onlyTableNameBuilder_ != null) {
           return onlyTableNameBuilder_.getMessageOrBuilder();
         } else {
           return onlyTableName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : onlyTableName_;
+              io.dstore.values.StringValue.getDefaultInstance() : onlyTableName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getOnlyTableNameFieldBuilder() {
         if (onlyTableNameBuilder_ == null) {
           onlyTableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getOnlyTableName(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class MiGetTableDDLAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue databaseName_ = null;
+      private io.dstore.values.StringValue databaseName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> databaseNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
       public boolean hasDatabaseName() {
         return databaseNameBuilder_ != null || databaseName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public io.dstore.Values.stringValue getDatabaseName() {
+      public io.dstore.values.StringValue getDatabaseName() {
         if (databaseNameBuilder_ == null) {
-          return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+          return databaseName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
         } else {
           return databaseNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public Builder setDatabaseName(io.dstore.Values.stringValue value) {
+      public Builder setDatabaseName(io.dstore.values.StringValue value) {
         if (databaseNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
       public Builder setDatabaseName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (databaseNameBuilder_ == null) {
           databaseName_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public Builder mergeDatabaseName(io.dstore.Values.stringValue value) {
+      public Builder mergeDatabaseName(io.dstore.values.StringValue value) {
         if (databaseNameBuilder_ == null) {
           if (databaseName_ != null) {
             databaseName_ =
-              io.dstore.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
           } else {
             databaseName_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
       public Builder clearDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDatabaseNameBuilder() {
+      public io.dstore.values.StringValue.Builder getDatabaseNameBuilder() {
         
         onChanged();
         return getDatabaseNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
         if (databaseNameBuilder_ != null) {
           return databaseNameBuilder_.getMessageOrBuilder();
         } else {
           return databaseName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+              io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDatabaseNameFieldBuilder() {
         if (databaseNameBuilder_ == null) {
           databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDatabaseName(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class MiGetTableDDLAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue getOnlyColumnDefAsResult_ = null;
+      private io.dstore.values.BooleanValue getOnlyColumnDefAsResult_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getOnlyColumnDefAsResultBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getOnlyColumnDefAsResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
        */
       public boolean hasGetOnlyColumnDefAsResult() {
         return getOnlyColumnDefAsResultBuilder_ != null || getOnlyColumnDefAsResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
        */
-      public io.dstore.Values.booleanValue getGetOnlyColumnDefAsResult() {
+      public io.dstore.values.BooleanValue getGetOnlyColumnDefAsResult() {
         if (getOnlyColumnDefAsResultBuilder_ == null) {
-          return getOnlyColumnDefAsResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getOnlyColumnDefAsResult_;
+          return getOnlyColumnDefAsResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getOnlyColumnDefAsResult_;
         } else {
           return getOnlyColumnDefAsResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
        */
-      public Builder setGetOnlyColumnDefAsResult(io.dstore.Values.booleanValue value) {
+      public Builder setGetOnlyColumnDefAsResult(io.dstore.values.BooleanValue value) {
         if (getOnlyColumnDefAsResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
        */
       public Builder setGetOnlyColumnDefAsResult(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (getOnlyColumnDefAsResultBuilder_ == null) {
           getOnlyColumnDefAsResult_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
        */
-      public Builder mergeGetOnlyColumnDefAsResult(io.dstore.Values.booleanValue value) {
+      public Builder mergeGetOnlyColumnDefAsResult(io.dstore.values.BooleanValue value) {
         if (getOnlyColumnDefAsResultBuilder_ == null) {
           if (getOnlyColumnDefAsResult_ != null) {
             getOnlyColumnDefAsResult_ =
-              io.dstore.Values.booleanValue.newBuilder(getOnlyColumnDefAsResult_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(getOnlyColumnDefAsResult_).mergeFrom(value).buildPartial();
           } else {
             getOnlyColumnDefAsResult_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
        */
       public Builder clearGetOnlyColumnDefAsResult() {
         if (getOnlyColumnDefAsResultBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getGetOnlyColumnDefAsResultBuilder() {
+      public io.dstore.values.BooleanValue.Builder getGetOnlyColumnDefAsResultBuilder() {
         
         onChanged();
         return getGetOnlyColumnDefAsResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getGetOnlyColumnDefAsResultOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getGetOnlyColumnDefAsResultOrBuilder() {
         if (getOnlyColumnDefAsResultBuilder_ != null) {
           return getOnlyColumnDefAsResultBuilder_.getMessageOrBuilder();
         } else {
           return getOnlyColumnDefAsResult_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : getOnlyColumnDefAsResult_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : getOnlyColumnDefAsResult_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_only_column_def_as_result = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_only_column_def_as_result = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getGetOnlyColumnDefAsResultFieldBuilder() {
         if (getOnlyColumnDefAsResultBuilder_ == null) {
           getOnlyColumnDefAsResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getGetOnlyColumnDefAsResult(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class MiGetTableDDLAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue fullyQualifiedNameInOutput_ = null;
+      private io.dstore.values.BooleanValue fullyQualifiedNameInOutput_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> fullyQualifiedNameInOutputBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> fullyQualifiedNameInOutputBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
        */
       public boolean hasFullyQualifiedNameInOutput() {
         return fullyQualifiedNameInOutputBuilder_ != null || fullyQualifiedNameInOutput_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
        */
-      public io.dstore.Values.booleanValue getFullyQualifiedNameInOutput() {
+      public io.dstore.values.BooleanValue getFullyQualifiedNameInOutput() {
         if (fullyQualifiedNameInOutputBuilder_ == null) {
-          return fullyQualifiedNameInOutput_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
+          return fullyQualifiedNameInOutput_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
         } else {
           return fullyQualifiedNameInOutputBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
        */
-      public Builder setFullyQualifiedNameInOutput(io.dstore.Values.booleanValue value) {
+      public Builder setFullyQualifiedNameInOutput(io.dstore.values.BooleanValue value) {
         if (fullyQualifiedNameInOutputBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
        */
       public Builder setFullyQualifiedNameInOutput(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (fullyQualifiedNameInOutputBuilder_ == null) {
           fullyQualifiedNameInOutput_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
        */
-      public Builder mergeFullyQualifiedNameInOutput(io.dstore.Values.booleanValue value) {
+      public Builder mergeFullyQualifiedNameInOutput(io.dstore.values.BooleanValue value) {
         if (fullyQualifiedNameInOutputBuilder_ == null) {
           if (fullyQualifiedNameInOutput_ != null) {
             fullyQualifiedNameInOutput_ =
-              io.dstore.Values.booleanValue.newBuilder(fullyQualifiedNameInOutput_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(fullyQualifiedNameInOutput_).mergeFrom(value).buildPartial();
           } else {
             fullyQualifiedNameInOutput_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
        */
       public Builder clearFullyQualifiedNameInOutput() {
         if (fullyQualifiedNameInOutputBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class MiGetTableDDLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getFullyQualifiedNameInOutputBuilder() {
+      public io.dstore.values.BooleanValue.Builder getFullyQualifiedNameInOutputBuilder() {
         
         onChanged();
         return getFullyQualifiedNameInOutputFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getFullyQualifiedNameInOutputOrBuilder() {
         if (fullyQualifiedNameInOutputBuilder_ != null) {
           return fullyQualifiedNameInOutputBuilder_.getMessageOrBuilder();
         } else {
           return fullyQualifiedNameInOutput_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : fullyQualifiedNameInOutput_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue fully_qualified_name_in_output = 4;</code>
+       * <code>optional .dstore.values.BooleanValue fully_qualified_name_in_output = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getFullyQualifiedNameInOutputFieldBuilder() {
         if (fullyQualifiedNameInOutputBuilder_ == null) {
           fullyQualifiedNameInOutputBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getFullyQualifiedNameInOutput(),
                   getParentForChildren(),
                   isClean());
@@ -1623,7 +1623,7 @@ public final class MiGetTableDDLAd {
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue column_name = 10001;</code>
        */
       boolean hasColumnName();
       /**
@@ -1631,24 +1631,24 @@ public final class MiGetTableDDLAd {
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue column_name = 10001;</code>
        */
-      io.dstore.Values.stringValue getColumnName();
+      io.dstore.values.StringValue getColumnName();
       /**
        * <pre>
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue column_name = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getColumnNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getColumnNameOrBuilder();
 
       /**
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
        */
       boolean hasLength();
       /**
@@ -1656,24 +1656,24 @@ public final class MiGetTableDDLAd {
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
        */
-      io.dstore.Values.integerValue getLength();
+      io.dstore.values.IntegerValue getLength();
       /**
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getLengthOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder();
 
       /**
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10003;</code>
        */
       boolean hasDataType();
       /**
@@ -1681,24 +1681,24 @@ public final class MiGetTableDDLAd {
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10003;</code>
        */
-      io.dstore.Values.stringValue getDataType();
+      io.dstore.values.StringValue getDataType();
       /**
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDataTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder();
 
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
       boolean hasPrecisionValue();
       /**
@@ -1706,24 +1706,24 @@ public final class MiGetTableDDLAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      io.dstore.Values.integerValue getPrecisionValue();
+      io.dstore.values.IntegerValue getPrecisionValue();
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder();
 
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
        */
       boolean hasScale();
       /**
@@ -1731,17 +1731,17 @@ public final class MiGetTableDDLAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
        */
-      io.dstore.Values.integerValue getScale();
+      io.dstore.values.IntegerValue getScale();
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getScaleOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetTableDDL_Ad.Response.Row}
@@ -1789,11 +1789,11 @@ public final class MiGetTableDDLAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (columnName_ != null) {
                   subBuilder = columnName_.toBuilder();
                 }
-                columnName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                columnName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(columnName_);
                   columnName_ = subBuilder.buildPartial();
@@ -1802,11 +1802,11 @@ public final class MiGetTableDDLAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (length_ != null) {
                   subBuilder = length_.toBuilder();
                 }
-                length_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                length_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(length_);
                   length_ = subBuilder.buildPartial();
@@ -1815,11 +1815,11 @@ public final class MiGetTableDDLAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (dataType_ != null) {
                   subBuilder = dataType_.toBuilder();
                 }
-                dataType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                dataType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dataType_);
                   dataType_ = subBuilder.buildPartial();
@@ -1828,11 +1828,11 @@ public final class MiGetTableDDLAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (precisionValue_ != null) {
                   subBuilder = precisionValue_.toBuilder();
                 }
-                precisionValue_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                precisionValue_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(precisionValue_);
                   precisionValue_ = subBuilder.buildPartial();
@@ -1841,11 +1841,11 @@ public final class MiGetTableDDLAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (scale_ != null) {
                   subBuilder = scale_.toBuilder();
                 }
-                scale_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                scale_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(scale_);
                   scale_ = subBuilder.buildPartial();
@@ -1886,13 +1886,13 @@ public final class MiGetTableDDLAd {
       }
 
       public static final int COLUMN_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue columnName_;
+      private io.dstore.values.StringValue columnName_;
       /**
        * <pre>
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue column_name = 10001;</code>
        */
       public boolean hasColumnName() {
         return columnName_ != null;
@@ -1902,30 +1902,30 @@ public final class MiGetTableDDLAd {
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue column_name = 10001;</code>
        */
-      public io.dstore.Values.stringValue getColumnName() {
-        return columnName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : columnName_;
+      public io.dstore.values.StringValue getColumnName() {
+        return columnName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : columnName_;
       }
       /**
        * <pre>
        * Name einer Spalte der Tabelle "&#64;OnlyTableName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue column_name = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getColumnNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getColumnNameOrBuilder() {
         return getColumnName();
       }
 
       public static final int LENGTH_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue length_;
+      private io.dstore.values.IntegerValue length_;
       /**
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
        */
       public boolean hasLength() {
         return length_ != null;
@@ -1935,30 +1935,30 @@ public final class MiGetTableDDLAd {
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
        */
-      public io.dstore.Values.integerValue getLength() {
-        return length_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : length_;
+      public io.dstore.values.IntegerValue getLength() {
+        return length_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : length_;
       }
       /**
        * <pre>
        * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
         return getLength();
       }
 
       public static final int DATA_TYPE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue dataType_;
+      private io.dstore.values.StringValue dataType_;
       /**
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10003;</code>
        */
       public boolean hasDataType() {
         return dataType_ != null;
@@ -1968,30 +1968,30 @@ public final class MiGetTableDDLAd {
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10003;</code>
        */
-      public io.dstore.Values.stringValue getDataType() {
-        return dataType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dataType_;
+      public io.dstore.values.StringValue getDataType() {
+        return dataType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dataType_;
       }
       /**
        * <pre>
        * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDataTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder() {
         return getDataType();
       }
 
       public static final int PRECISION_VALUE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue precisionValue_;
+      private io.dstore.values.IntegerValue precisionValue_;
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
       public boolean hasPrecisionValue() {
         return precisionValue_ != null;
@@ -2001,30 +2001,30 @@ public final class MiGetTableDDLAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      public io.dstore.Values.integerValue getPrecisionValue() {
-        return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+      public io.dstore.values.IntegerValue getPrecisionValue() {
+        return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
       }
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
         return getPrecisionValue();
       }
 
       public static final int SCALE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue scale_;
+      private io.dstore.values.IntegerValue scale_;
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
        */
       public boolean hasScale() {
         return scale_ != null;
@@ -2034,19 +2034,19 @@ public final class MiGetTableDDLAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
        */
-      public io.dstore.Values.integerValue getScale() {
-        return scale_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : scale_;
+      public io.dstore.values.IntegerValue getScale() {
+        return scale_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
       }
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
         return getScale();
       }
 
@@ -2495,15 +2495,15 @@ public final class MiGetTableDDLAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue columnName_ = null;
+        private io.dstore.values.StringValue columnName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> columnNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> columnNameBuilder_;
         /**
          * <pre>
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue column_name = 10001;</code>
          */
         public boolean hasColumnName() {
           return columnNameBuilder_ != null || columnName_ != null;
@@ -2513,11 +2513,11 @@ public final class MiGetTableDDLAd {
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue column_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue getColumnName() {
+        public io.dstore.values.StringValue getColumnName() {
           if (columnNameBuilder_ == null) {
-            return columnName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : columnName_;
+            return columnName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : columnName_;
           } else {
             return columnNameBuilder_.getMessage();
           }
@@ -2527,9 +2527,9 @@ public final class MiGetTableDDLAd {
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue column_name = 10001;</code>
          */
-        public Builder setColumnName(io.dstore.Values.stringValue value) {
+        public Builder setColumnName(io.dstore.values.StringValue value) {
           if (columnNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2547,10 +2547,10 @@ public final class MiGetTableDDLAd {
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue column_name = 10001;</code>
          */
         public Builder setColumnName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (columnNameBuilder_ == null) {
             columnName_ = builderForValue.build();
             onChanged();
@@ -2565,13 +2565,13 @@ public final class MiGetTableDDLAd {
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue column_name = 10001;</code>
          */
-        public Builder mergeColumnName(io.dstore.Values.stringValue value) {
+        public Builder mergeColumnName(io.dstore.values.StringValue value) {
           if (columnNameBuilder_ == null) {
             if (columnName_ != null) {
               columnName_ =
-                io.dstore.Values.stringValue.newBuilder(columnName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(columnName_).mergeFrom(value).buildPartial();
             } else {
               columnName_ = value;
             }
@@ -2587,7 +2587,7 @@ public final class MiGetTableDDLAd {
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue column_name = 10001;</code>
          */
         public Builder clearColumnName() {
           if (columnNameBuilder_ == null) {
@@ -2605,9 +2605,9 @@ public final class MiGetTableDDLAd {
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue column_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getColumnNameBuilder() {
+        public io.dstore.values.StringValue.Builder getColumnNameBuilder() {
           
           onChanged();
           return getColumnNameFieldBuilder().getBuilder();
@@ -2617,14 +2617,14 @@ public final class MiGetTableDDLAd {
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue column_name = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getColumnNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getColumnNameOrBuilder() {
           if (columnNameBuilder_ != null) {
             return columnNameBuilder_.getMessageOrBuilder();
           } else {
             return columnName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : columnName_;
+                io.dstore.values.StringValue.getDefaultInstance() : columnName_;
           }
         }
         /**
@@ -2632,14 +2632,14 @@ public final class MiGetTableDDLAd {
          * Name einer Spalte der Tabelle "&#64;OnlyTableName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue column_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue column_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getColumnNameFieldBuilder() {
           if (columnNameBuilder_ == null) {
             columnNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getColumnName(),
                     getParentForChildren(),
                     isClean());
@@ -2648,15 +2648,15 @@ public final class MiGetTableDDLAd {
           return columnNameBuilder_;
         }
 
-        private io.dstore.Values.integerValue length_ = null;
+        private io.dstore.values.IntegerValue length_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lengthBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> lengthBuilder_;
         /**
          * <pre>
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
          */
         public boolean hasLength() {
           return lengthBuilder_ != null || length_ != null;
@@ -2666,11 +2666,11 @@ public final class MiGetTableDDLAd {
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
          */
-        public io.dstore.Values.integerValue getLength() {
+        public io.dstore.values.IntegerValue getLength() {
           if (lengthBuilder_ == null) {
-            return length_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : length_;
+            return length_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : length_;
           } else {
             return lengthBuilder_.getMessage();
           }
@@ -2680,9 +2680,9 @@ public final class MiGetTableDDLAd {
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
          */
-        public Builder setLength(io.dstore.Values.integerValue value) {
+        public Builder setLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2700,10 +2700,10 @@ public final class MiGetTableDDLAd {
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
          */
         public Builder setLength(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (lengthBuilder_ == null) {
             length_ = builderForValue.build();
             onChanged();
@@ -2718,13 +2718,13 @@ public final class MiGetTableDDLAd {
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
          */
-        public Builder mergeLength(io.dstore.Values.integerValue value) {
+        public Builder mergeLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
             if (length_ != null) {
               length_ =
-                io.dstore.Values.integerValue.newBuilder(length_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(length_).mergeFrom(value).buildPartial();
             } else {
               length_ = value;
             }
@@ -2740,7 +2740,7 @@ public final class MiGetTableDDLAd {
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
          */
         public Builder clearLength() {
           if (lengthBuilder_ == null) {
@@ -2758,9 +2758,9 @@ public final class MiGetTableDDLAd {
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getLengthBuilder() {
+        public io.dstore.values.IntegerValue.Builder getLengthBuilder() {
           
           onChanged();
           return getLengthFieldBuilder().getBuilder();
@@ -2770,14 +2770,14 @@ public final class MiGetTableDDLAd {
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
           if (lengthBuilder_ != null) {
             return lengthBuilder_.getMessageOrBuilder();
           } else {
             return length_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : length_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : length_;
           }
         }
         /**
@@ -2785,14 +2785,14 @@ public final class MiGetTableDDLAd {
          * Wieviel Byte können Werte, die in der Spalte "ColumnName" ausgegeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getLengthFieldBuilder() {
           if (lengthBuilder_ == null) {
             lengthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getLength(),
                     getParentForChildren(),
                     isClean());
@@ -2801,15 +2801,15 @@ public final class MiGetTableDDLAd {
           return lengthBuilder_;
         }
 
-        private io.dstore.Values.stringValue dataType_ = null;
+        private io.dstore.values.StringValue dataType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dataTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> dataTypeBuilder_;
         /**
          * <pre>
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10003;</code>
          */
         public boolean hasDataType() {
           return dataTypeBuilder_ != null || dataType_ != null;
@@ -2819,11 +2819,11 @@ public final class MiGetTableDDLAd {
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10003;</code>
          */
-        public io.dstore.Values.stringValue getDataType() {
+        public io.dstore.values.StringValue getDataType() {
           if (dataTypeBuilder_ == null) {
-            return dataType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dataType_;
+            return dataType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dataType_;
           } else {
             return dataTypeBuilder_.getMessage();
           }
@@ -2833,9 +2833,9 @@ public final class MiGetTableDDLAd {
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10003;</code>
          */
-        public Builder setDataType(io.dstore.Values.stringValue value) {
+        public Builder setDataType(io.dstore.values.StringValue value) {
           if (dataTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2853,10 +2853,10 @@ public final class MiGetTableDDLAd {
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10003;</code>
          */
         public Builder setDataType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (dataTypeBuilder_ == null) {
             dataType_ = builderForValue.build();
             onChanged();
@@ -2871,13 +2871,13 @@ public final class MiGetTableDDLAd {
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10003;</code>
          */
-        public Builder mergeDataType(io.dstore.Values.stringValue value) {
+        public Builder mergeDataType(io.dstore.values.StringValue value) {
           if (dataTypeBuilder_ == null) {
             if (dataType_ != null) {
               dataType_ =
-                io.dstore.Values.stringValue.newBuilder(dataType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(dataType_).mergeFrom(value).buildPartial();
             } else {
               dataType_ = value;
             }
@@ -2893,7 +2893,7 @@ public final class MiGetTableDDLAd {
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10003;</code>
          */
         public Builder clearDataType() {
           if (dataTypeBuilder_ == null) {
@@ -2911,9 +2911,9 @@ public final class MiGetTableDDLAd {
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDataTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getDataTypeBuilder() {
           
           onChanged();
           return getDataTypeFieldBuilder().getBuilder();
@@ -2923,14 +2923,14 @@ public final class MiGetTableDDLAd {
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDataTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder() {
           if (dataTypeBuilder_ != null) {
             return dataTypeBuilder_.getMessageOrBuilder();
           } else {
             return dataType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : dataType_;
+                io.dstore.values.StringValue.getDefaultInstance() : dataType_;
           }
         }
         /**
@@ -2938,14 +2938,14 @@ public final class MiGetTableDDLAd {
          * Gibt den Daten-Typ der Spalte "ColumnName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10003;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDataTypeFieldBuilder() {
           if (dataTypeBuilder_ == null) {
             dataTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDataType(),
                     getParentForChildren(),
                     isClean());
@@ -2954,15 +2954,15 @@ public final class MiGetTableDDLAd {
           return dataTypeBuilder_;
         }
 
-        private io.dstore.Values.integerValue precisionValue_ = null;
+        private io.dstore.values.IntegerValue precisionValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> precisionValueBuilder_;
         /**
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         public boolean hasPrecisionValue() {
           return precisionValueBuilder_ != null || precisionValue_ != null;
@@ -2972,11 +2972,11 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public io.dstore.Values.integerValue getPrecisionValue() {
+        public io.dstore.values.IntegerValue getPrecisionValue() {
           if (precisionValueBuilder_ == null) {
-            return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+            return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
           } else {
             return precisionValueBuilder_.getMessage();
           }
@@ -2986,9 +2986,9 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public Builder setPrecisionValue(io.dstore.Values.integerValue value) {
+        public Builder setPrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3006,10 +3006,10 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         public Builder setPrecisionValue(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (precisionValueBuilder_ == null) {
             precisionValue_ = builderForValue.build();
             onChanged();
@@ -3024,13 +3024,13 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public Builder mergePrecisionValue(io.dstore.Values.integerValue value) {
+        public Builder mergePrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
             if (precisionValue_ != null) {
               precisionValue_ =
-                io.dstore.Values.integerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
             } else {
               precisionValue_ = value;
             }
@@ -3046,7 +3046,7 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         public Builder clearPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -3064,9 +3064,9 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPrecisionValueBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPrecisionValueBuilder() {
           
           onChanged();
           return getPrecisionValueFieldBuilder().getBuilder();
@@ -3076,14 +3076,14 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
           if (precisionValueBuilder_ != null) {
             return precisionValueBuilder_.getMessageOrBuilder();
           } else {
             return precisionValue_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
           }
         }
         /**
@@ -3091,14 +3091,14 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert, der in der Spalte "ColumnName" steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPrecisionValueFieldBuilder() {
           if (precisionValueBuilder_ == null) {
             precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPrecisionValue(),
                     getParentForChildren(),
                     isClean());
@@ -3107,15 +3107,15 @@ public final class MiGetTableDDLAd {
           return precisionValueBuilder_;
         }
 
-        private io.dstore.Values.integerValue scale_ = null;
+        private io.dstore.values.IntegerValue scale_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> scaleBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> scaleBuilder_;
         /**
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
          */
         public boolean hasScale() {
           return scaleBuilder_ != null || scale_ != null;
@@ -3125,11 +3125,11 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
          */
-        public io.dstore.Values.integerValue getScale() {
+        public io.dstore.values.IntegerValue getScale() {
           if (scaleBuilder_ == null) {
-            return scale_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : scale_;
+            return scale_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
           } else {
             return scaleBuilder_.getMessage();
           }
@@ -3139,9 +3139,9 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
          */
-        public Builder setScale(io.dstore.Values.integerValue value) {
+        public Builder setScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3159,10 +3159,10 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
          */
         public Builder setScale(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (scaleBuilder_ == null) {
             scale_ = builderForValue.build();
             onChanged();
@@ -3177,13 +3177,13 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
          */
-        public Builder mergeScale(io.dstore.Values.integerValue value) {
+        public Builder mergeScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
             if (scale_ != null) {
               scale_ =
-                io.dstore.Values.integerValue.newBuilder(scale_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(scale_).mergeFrom(value).buildPartial();
             } else {
               scale_ = value;
             }
@@ -3199,7 +3199,7 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
          */
         public Builder clearScale() {
           if (scaleBuilder_ == null) {
@@ -3217,9 +3217,9 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getScaleBuilder() {
+        public io.dstore.values.IntegerValue.Builder getScaleBuilder() {
           
           onChanged();
           return getScaleFieldBuilder().getBuilder();
@@ -3229,14 +3229,14 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
           if (scaleBuilder_ != null) {
             return scaleBuilder_.getMessageOrBuilder();
           } else {
             return scale_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : scale_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
           }
         }
         /**
@@ -3244,14 +3244,14 @@ public final class MiGetTableDDLAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert, der in der Spalte "ColumnName"steht, enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getScaleFieldBuilder() {
           if (scaleBuilder_ == null) {
             scaleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getScale(),
                     getParentForChildren(),
                     isClean());
@@ -4720,27 +4720,27 @@ public final class MiGetTableDDLAd {
       "L_Ad.proto\022\037dstore.engine.mi_GetTableDDL" +
       "_Ad\032\023dstore/values.proto\032\032dstore/engine/" +
       "engine.proto\"\224\003\n\nParameters\0223\n\017only_tabl" +
-      "e_name\030\001 \001(\0132\032.dstore.values.stringValue" +
+      "e_name\030\001 \001(\0132\032.dstore.values.StringValue" +
       "\022\035\n\024only_table_name_null\030\351\007 \001(\010\0221\n\rdatab" +
-      "ase_name\030\002 \001(\0132\032.dstore.values.stringVal" +
+      "ase_name\030\002 \001(\0132\032.dstore.values.StringVal" +
       "ue\022\033\n\022database_name_null\030\352\007 \001(\010\022B\n\035get_o" +
       "nly_column_def_as_result\030\003 \001(\0132\033.dstore." +
-      "values.booleanValue\022+\n\"get_only_column_d",
+      "values.BooleanValue\022+\n\"get_only_column_d",
       "ef_as_result_null\030\353\007 \001(\010\022C\n\036fully_qualif" +
       "ied_name_in_output\030\004 \001(\0132\033.dstore.values" +
-      ".booleanValue\022,\n#fully_qualified_name_in" +
+      ".BooleanValue\022,\n#fully_qualified_name_in" +
       "_output_null\030\354\007 \001(\010\"\266\003\n\010Response\0228\n\020meta" +
       "_information\030\002 \003(\0132\036.dstore.engine.MetaI" +
       "nformation\022\'\n\007message\030\003 \003(\0132\026.dstore.eng" +
       "ine.Message\022:\n\003row\030\004 \003(\0132-.dstore.engine" +
       ".mi_GetTableDDL_Ad.Response.Row\032\212\002\n\003Row\022" +
       "\017\n\006row_id\030\220N \001(\005\0220\n\013column_name\030\221N \001(\0132\032" +
-      ".dstore.values.stringValue\022,\n\006length\030\222N ",
-      "\001(\0132\033.dstore.values.integerValue\022.\n\tdata" +
-      "_type\030\223N \001(\0132\032.dstore.values.stringValue" +
+      ".dstore.values.StringValue\022,\n\006length\030\222N ",
+      "\001(\0132\033.dstore.values.IntegerValue\022.\n\tdata" +
+      "_type\030\223N \001(\0132\032.dstore.values.StringValue" +
       "\0225\n\017precision_value\030\224N \001(\0132\033.dstore.valu" +
-      "es.integerValue\022+\n\005scale\030\225N \001(\0132\033.dstore" +
-      ".values.integerValueBR\n\033io.dstore.engine" +
+      "es.IntegerValue\022+\n\005scale\030\225N \001(\0132\033.dstore" +
+      ".values.IntegerValueBR\n\033io.dstore.engine" +
       ".proceduresZ3gosdk.dstore.de/engine/proc" +
       "edures/mi_GetTableDDL_Adb\006proto3"
     };
@@ -4755,7 +4755,7 @@ public final class MiGetTableDDLAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetTableDDL_Ad_Parameters_descriptor =
@@ -4776,7 +4776,7 @@ public final class MiGetTableDDLAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTableDDL_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ColumnName", "Length", "DataType", "PrecisionValue", "Scale", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

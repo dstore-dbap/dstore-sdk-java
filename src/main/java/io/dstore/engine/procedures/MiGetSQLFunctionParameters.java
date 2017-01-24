@@ -19,17 +19,17 @@ public final class MiGetSQLFunctionParameters {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     boolean hasSQLFunctionName();
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    io.dstore.Values.stringValue getSQLFunctionName();
+    io.dstore.values.StringValue getSQLFunctionName();
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSQLFunctionNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder();
 
     /**
      * <code>optional bool s_q_l_function_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetSQLFunctionParameters {
     boolean getSQLFunctionNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
      */
     boolean hasParameterName();
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
      */
-    io.dstore.Values.stringValue getParameterName();
+    io.dstore.values.StringValue getParameterName();
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder();
 
     /**
      * <code>optional bool parameter_name_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class MiGetSQLFunctionParameters {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (sQLFunctionName_ != null) {
                 subBuilder = sQLFunctionName_.toBuilder();
               }
-              sQLFunctionName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              sQLFunctionName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sQLFunctionName_);
                 sQLFunctionName_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class MiGetSQLFunctionParameters {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (parameterName_ != null) {
                 subBuilder = parameterName_.toBuilder();
               }
-              parameterName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              parameterName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(parameterName_);
                 parameterName_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class MiGetSQLFunctionParameters {
     }
 
     public static final int S_Q_L_FUNCTION_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue sQLFunctionName_;
+    private io.dstore.values.StringValue sQLFunctionName_;
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     public boolean hasSQLFunctionName() {
       return sQLFunctionName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getSQLFunctionName() {
-      return sQLFunctionName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sQLFunctionName_;
+    public io.dstore.values.StringValue getSQLFunctionName() {
+      return sQLFunctionName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSQLFunctionNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder() {
       return getSQLFunctionName();
     }
 
@@ -185,23 +185,23 @@ public final class MiGetSQLFunctionParameters {
     }
 
     public static final int PARAMETER_NAME_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue parameterName_;
+    private io.dstore.values.StringValue parameterName_;
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
      */
     public boolean hasParameterName() {
       return parameterName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
      */
-    public io.dstore.Values.stringValue getParameterName() {
-      return parameterName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+    public io.dstore.values.StringValue getParameterName() {
+      return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
       return getParameterName();
     }
 
@@ -562,29 +562,29 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
 
-      private io.dstore.Values.stringValue sQLFunctionName_ = null;
+      private io.dstore.values.StringValue sQLFunctionName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sQLFunctionNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sQLFunctionNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public boolean hasSQLFunctionName() {
         return sQLFunctionNameBuilder_ != null || sQLFunctionName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getSQLFunctionName() {
+      public io.dstore.values.StringValue getSQLFunctionName() {
         if (sQLFunctionNameBuilder_ == null) {
-          return sQLFunctionName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sQLFunctionName_;
+          return sQLFunctionName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
         } else {
           return sQLFunctionNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public Builder setSQLFunctionName(io.dstore.Values.stringValue value) {
+      public Builder setSQLFunctionName(io.dstore.values.StringValue value) {
         if (sQLFunctionNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder setSQLFunctionName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (sQLFunctionNameBuilder_ == null) {
           sQLFunctionName_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public Builder mergeSQLFunctionName(io.dstore.Values.stringValue value) {
+      public Builder mergeSQLFunctionName(io.dstore.values.StringValue value) {
         if (sQLFunctionNameBuilder_ == null) {
           if (sQLFunctionName_ != null) {
             sQLFunctionName_ =
-              io.dstore.Values.stringValue.newBuilder(sQLFunctionName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(sQLFunctionName_).mergeFrom(value).buildPartial();
           } else {
             sQLFunctionName_ = value;
           }
@@ -630,7 +630,7 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder clearSQLFunctionName() {
         if (sQLFunctionNameBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSQLFunctionNameBuilder() {
+      public io.dstore.values.StringValue.Builder getSQLFunctionNameBuilder() {
         
         onChanged();
         return getSQLFunctionNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSQLFunctionNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder() {
         if (sQLFunctionNameBuilder_ != null) {
           return sQLFunctionNameBuilder_.getMessageOrBuilder();
         } else {
           return sQLFunctionName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : sQLFunctionName_;
+              io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSQLFunctionNameFieldBuilder() {
         if (sQLFunctionNameBuilder_ == null) {
           sQLFunctionNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSQLFunctionName(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
 
-      private io.dstore.Values.stringValue parameterName_ = null;
+      private io.dstore.values.StringValue parameterName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> parameterNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> parameterNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
        */
       public boolean hasParameterName() {
         return parameterNameBuilder_ != null || parameterName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
        */
-      public io.dstore.Values.stringValue getParameterName() {
+      public io.dstore.values.StringValue getParameterName() {
         if (parameterNameBuilder_ == null) {
-          return parameterName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+          return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
         } else {
           return parameterNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
        */
-      public Builder setParameterName(io.dstore.Values.stringValue value) {
+      public Builder setParameterName(io.dstore.values.StringValue value) {
         if (parameterNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
        */
       public Builder setParameterName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (parameterNameBuilder_ == null) {
           parameterName_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
        */
-      public Builder mergeParameterName(io.dstore.Values.stringValue value) {
+      public Builder mergeParameterName(io.dstore.values.StringValue value) {
         if (parameterNameBuilder_ == null) {
           if (parameterName_ != null) {
             parameterName_ =
-              io.dstore.Values.stringValue.newBuilder(parameterName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(parameterName_).mergeFrom(value).buildPartial();
           } else {
             parameterName_ = value;
           }
@@ -773,7 +773,7 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
        */
       public Builder clearParameterName() {
         if (parameterNameBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class MiGetSQLFunctionParameters {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getParameterNameBuilder() {
+      public io.dstore.values.StringValue.Builder getParameterNameBuilder() {
         
         onChanged();
         return getParameterNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
         if (parameterNameBuilder_ != null) {
           return parameterNameBuilder_.getMessageOrBuilder();
         } else {
           return parameterName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+              io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getParameterNameFieldBuilder() {
         if (parameterNameBuilder_ == null) {
           parameterNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getParameterName(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class MiGetSQLFunctionParameters {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10001;</code>
        */
       boolean hasLength();
       /**
@@ -1115,24 +1115,24 @@ public final class MiGetSQLFunctionParameters {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10001;</code>
        */
-      io.dstore.Values.integerValue getLength();
+      io.dstore.values.IntegerValue getLength();
       /**
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getLengthOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder();
 
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
        */
       boolean hasPrecisionValue();
       /**
@@ -1140,24 +1140,24 @@ public final class MiGetSQLFunctionParameters {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
        */
-      io.dstore.Values.integerValue getPrecisionValue();
+      io.dstore.values.IntegerValue getPrecisionValue();
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder();
 
       /**
        * <pre>
        * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
        */
       boolean hasParameterName();
       /**
@@ -1165,24 +1165,24 @@ public final class MiGetSQLFunctionParameters {
        * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
        */
-      io.dstore.Values.stringValue getParameterName();
+      io.dstore.values.StringValue getParameterName();
       /**
        * <pre>
        * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder();
 
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
        */
       boolean hasScale();
       /**
@@ -1190,24 +1190,24 @@ public final class MiGetSQLFunctionParameters {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
        */
-      io.dstore.Values.integerValue getScale();
+      io.dstore.values.IntegerValue getScale();
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getScaleOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder();
 
       /**
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+       * <code>optional .dstore.values.StringValue datatype = 10005;</code>
        */
       boolean hasDatatype();
       /**
@@ -1215,17 +1215,17 @@ public final class MiGetSQLFunctionParameters {
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+       * <code>optional .dstore.values.StringValue datatype = 10005;</code>
        */
-      io.dstore.Values.stringValue getDatatype();
+      io.dstore.values.StringValue getDatatype();
       /**
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+       * <code>optional .dstore.values.StringValue datatype = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDatatypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDatatypeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetSQLFunctionParameters.Response.Row}
@@ -1273,11 +1273,11 @@ public final class MiGetSQLFunctionParameters {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (length_ != null) {
                   subBuilder = length_.toBuilder();
                 }
-                length_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                length_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(length_);
                   length_ = subBuilder.buildPartial();
@@ -1286,11 +1286,11 @@ public final class MiGetSQLFunctionParameters {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (precisionValue_ != null) {
                   subBuilder = precisionValue_.toBuilder();
                 }
-                precisionValue_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                precisionValue_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(precisionValue_);
                   precisionValue_ = subBuilder.buildPartial();
@@ -1299,11 +1299,11 @@ public final class MiGetSQLFunctionParameters {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (parameterName_ != null) {
                   subBuilder = parameterName_.toBuilder();
                 }
-                parameterName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                parameterName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(parameterName_);
                   parameterName_ = subBuilder.buildPartial();
@@ -1312,11 +1312,11 @@ public final class MiGetSQLFunctionParameters {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (scale_ != null) {
                   subBuilder = scale_.toBuilder();
                 }
-                scale_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                scale_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(scale_);
                   scale_ = subBuilder.buildPartial();
@@ -1325,11 +1325,11 @@ public final class MiGetSQLFunctionParameters {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (datatype_ != null) {
                   subBuilder = datatype_.toBuilder();
                 }
-                datatype_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                datatype_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(datatype_);
                   datatype_ = subBuilder.buildPartial();
@@ -1370,13 +1370,13 @@ public final class MiGetSQLFunctionParameters {
       }
 
       public static final int LENGTH_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue length_;
+      private io.dstore.values.IntegerValue length_;
       /**
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10001;</code>
        */
       public boolean hasLength() {
         return length_ != null;
@@ -1386,30 +1386,30 @@ public final class MiGetSQLFunctionParameters {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10001;</code>
        */
-      public io.dstore.Values.integerValue getLength() {
-        return length_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : length_;
+      public io.dstore.values.IntegerValue getLength() {
+        return length_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : length_;
       }
       /**
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
         return getLength();
       }
 
       public static final int PRECISION_VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue precisionValue_;
+      private io.dstore.values.IntegerValue precisionValue_;
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
        */
       public boolean hasPrecisionValue() {
         return precisionValue_ != null;
@@ -1419,30 +1419,30 @@ public final class MiGetSQLFunctionParameters {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
        */
-      public io.dstore.Values.integerValue getPrecisionValue() {
-        return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+      public io.dstore.values.IntegerValue getPrecisionValue() {
+        return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
       }
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
         return getPrecisionValue();
       }
 
       public static final int PARAMETER_NAME_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue parameterName_;
+      private io.dstore.values.StringValue parameterName_;
       /**
        * <pre>
        * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
        */
       public boolean hasParameterName() {
         return parameterName_ != null;
@@ -1452,30 +1452,30 @@ public final class MiGetSQLFunctionParameters {
        * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
        */
-      public io.dstore.Values.stringValue getParameterName() {
-        return parameterName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+      public io.dstore.values.StringValue getParameterName() {
+        return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
       }
       /**
        * <pre>
        * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
         return getParameterName();
       }
 
       public static final int SCALE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue scale_;
+      private io.dstore.values.IntegerValue scale_;
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
        */
       public boolean hasScale() {
         return scale_ != null;
@@ -1485,30 +1485,30 @@ public final class MiGetSQLFunctionParameters {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
        */
-      public io.dstore.Values.integerValue getScale() {
-        return scale_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : scale_;
+      public io.dstore.values.IntegerValue getScale() {
+        return scale_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
       }
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
         return getScale();
       }
 
       public static final int DATATYPE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue datatype_;
+      private io.dstore.values.StringValue datatype_;
       /**
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+       * <code>optional .dstore.values.StringValue datatype = 10005;</code>
        */
       public boolean hasDatatype() {
         return datatype_ != null;
@@ -1518,19 +1518,19 @@ public final class MiGetSQLFunctionParameters {
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+       * <code>optional .dstore.values.StringValue datatype = 10005;</code>
        */
-      public io.dstore.Values.stringValue getDatatype() {
-        return datatype_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : datatype_;
+      public io.dstore.values.StringValue getDatatype() {
+        return datatype_ == null ? io.dstore.values.StringValue.getDefaultInstance() : datatype_;
       }
       /**
        * <pre>
        * Daten-Typ des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+       * <code>optional .dstore.values.StringValue datatype = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDatatypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDatatypeOrBuilder() {
         return getDatatype();
       }
 
@@ -1979,15 +1979,15 @@ public final class MiGetSQLFunctionParameters {
           return this;
         }
 
-        private io.dstore.Values.integerValue length_ = null;
+        private io.dstore.values.IntegerValue length_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lengthBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> lengthBuilder_;
         /**
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10001;</code>
          */
         public boolean hasLength() {
           return lengthBuilder_ != null || length_ != null;
@@ -1997,11 +1997,11 @@ public final class MiGetSQLFunctionParameters {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10001;</code>
          */
-        public io.dstore.Values.integerValue getLength() {
+        public io.dstore.values.IntegerValue getLength() {
           if (lengthBuilder_ == null) {
-            return length_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : length_;
+            return length_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : length_;
           } else {
             return lengthBuilder_.getMessage();
           }
@@ -2011,9 +2011,9 @@ public final class MiGetSQLFunctionParameters {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10001;</code>
          */
-        public Builder setLength(io.dstore.Values.integerValue value) {
+        public Builder setLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class MiGetSQLFunctionParameters {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10001;</code>
          */
         public Builder setLength(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (lengthBuilder_ == null) {
             length_ = builderForValue.build();
             onChanged();
@@ -2049,13 +2049,13 @@ public final class MiGetSQLFunctionParameters {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10001;</code>
          */
-        public Builder mergeLength(io.dstore.Values.integerValue value) {
+        public Builder mergeLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
             if (length_ != null) {
               length_ =
-                io.dstore.Values.integerValue.newBuilder(length_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(length_).mergeFrom(value).buildPartial();
             } else {
               length_ = value;
             }
@@ -2071,7 +2071,7 @@ public final class MiGetSQLFunctionParameters {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10001;</code>
          */
         public Builder clearLength() {
           if (lengthBuilder_ == null) {
@@ -2089,9 +2089,9 @@ public final class MiGetSQLFunctionParameters {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getLengthBuilder() {
+        public io.dstore.values.IntegerValue.Builder getLengthBuilder() {
           
           onChanged();
           return getLengthFieldBuilder().getBuilder();
@@ -2101,14 +2101,14 @@ public final class MiGetSQLFunctionParameters {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
           if (lengthBuilder_ != null) {
             return lengthBuilder_.getMessageOrBuilder();
           } else {
             return length_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : length_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : length_;
           }
         }
         /**
@@ -2116,14 +2116,14 @@ public final class MiGetSQLFunctionParameters {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getLengthFieldBuilder() {
           if (lengthBuilder_ == null) {
             lengthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getLength(),
                     getParentForChildren(),
                     isClean());
@@ -2132,15 +2132,15 @@ public final class MiGetSQLFunctionParameters {
           return lengthBuilder_;
         }
 
-        private io.dstore.Values.integerValue precisionValue_ = null;
+        private io.dstore.values.IntegerValue precisionValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> precisionValueBuilder_;
         /**
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
          */
         public boolean hasPrecisionValue() {
           return precisionValueBuilder_ != null || precisionValue_ != null;
@@ -2150,11 +2150,11 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
          */
-        public io.dstore.Values.integerValue getPrecisionValue() {
+        public io.dstore.values.IntegerValue getPrecisionValue() {
           if (precisionValueBuilder_ == null) {
-            return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+            return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
           } else {
             return precisionValueBuilder_.getMessage();
           }
@@ -2164,9 +2164,9 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
          */
-        public Builder setPrecisionValue(io.dstore.Values.integerValue value) {
+        public Builder setPrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2184,10 +2184,10 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
          */
         public Builder setPrecisionValue(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (precisionValueBuilder_ == null) {
             precisionValue_ = builderForValue.build();
             onChanged();
@@ -2202,13 +2202,13 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
          */
-        public Builder mergePrecisionValue(io.dstore.Values.integerValue value) {
+        public Builder mergePrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
             if (precisionValue_ != null) {
               precisionValue_ =
-                io.dstore.Values.integerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
             } else {
               precisionValue_ = value;
             }
@@ -2224,7 +2224,7 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
          */
         public Builder clearPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -2242,9 +2242,9 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPrecisionValueBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPrecisionValueBuilder() {
           
           onChanged();
           return getPrecisionValueFieldBuilder().getBuilder();
@@ -2254,14 +2254,14 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
           if (precisionValueBuilder_ != null) {
             return precisionValueBuilder_.getMessageOrBuilder();
           } else {
             return precisionValue_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
           }
         }
         /**
@@ -2269,14 +2269,14 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPrecisionValueFieldBuilder() {
           if (precisionValueBuilder_ == null) {
             precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPrecisionValue(),
                     getParentForChildren(),
                     isClean());
@@ -2285,15 +2285,15 @@ public final class MiGetSQLFunctionParameters {
           return precisionValueBuilder_;
         }
 
-        private io.dstore.Values.stringValue parameterName_ = null;
+        private io.dstore.values.StringValue parameterName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> parameterNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> parameterNameBuilder_;
         /**
          * <pre>
          * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
          */
         public boolean hasParameterName() {
           return parameterNameBuilder_ != null || parameterName_ != null;
@@ -2303,11 +2303,11 @@ public final class MiGetSQLFunctionParameters {
          * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
          */
-        public io.dstore.Values.stringValue getParameterName() {
+        public io.dstore.values.StringValue getParameterName() {
           if (parameterNameBuilder_ == null) {
-            return parameterName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+            return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
           } else {
             return parameterNameBuilder_.getMessage();
           }
@@ -2317,9 +2317,9 @@ public final class MiGetSQLFunctionParameters {
          * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
          */
-        public Builder setParameterName(io.dstore.Values.stringValue value) {
+        public Builder setParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2337,10 +2337,10 @@ public final class MiGetSQLFunctionParameters {
          * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
          */
         public Builder setParameterName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (parameterNameBuilder_ == null) {
             parameterName_ = builderForValue.build();
             onChanged();
@@ -2355,13 +2355,13 @@ public final class MiGetSQLFunctionParameters {
          * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
          */
-        public Builder mergeParameterName(io.dstore.Values.stringValue value) {
+        public Builder mergeParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
             if (parameterName_ != null) {
               parameterName_ =
-                io.dstore.Values.stringValue.newBuilder(parameterName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(parameterName_).mergeFrom(value).buildPartial();
             } else {
               parameterName_ = value;
             }
@@ -2377,7 +2377,7 @@ public final class MiGetSQLFunctionParameters {
          * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
          */
         public Builder clearParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -2395,9 +2395,9 @@ public final class MiGetSQLFunctionParameters {
          * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getParameterNameBuilder() {
+        public io.dstore.values.StringValue.Builder getParameterNameBuilder() {
           
           onChanged();
           return getParameterNameFieldBuilder().getBuilder();
@@ -2407,14 +2407,14 @@ public final class MiGetSQLFunctionParameters {
          * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
           if (parameterNameBuilder_ != null) {
             return parameterNameBuilder_.getMessageOrBuilder();
           } else {
             return parameterName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+                io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
           }
         }
         /**
@@ -2422,14 +2422,14 @@ public final class MiGetSQLFunctionParameters {
          * Name eines Parameters der SQL-Funktion "&#64;SQLFunctionName". Hinweis : Es gibt immer einen "Parameter" mit dem festen Namen "Return Type", was den Rückgabewert der Funktion darstellt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getParameterNameFieldBuilder() {
           if (parameterNameBuilder_ == null) {
             parameterNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getParameterName(),
                     getParentForChildren(),
                     isClean());
@@ -2438,15 +2438,15 @@ public final class MiGetSQLFunctionParameters {
           return parameterNameBuilder_;
         }
 
-        private io.dstore.Values.integerValue scale_ = null;
+        private io.dstore.values.IntegerValue scale_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> scaleBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> scaleBuilder_;
         /**
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
          */
         public boolean hasScale() {
           return scaleBuilder_ != null || scale_ != null;
@@ -2456,11 +2456,11 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
          */
-        public io.dstore.Values.integerValue getScale() {
+        public io.dstore.values.IntegerValue getScale() {
           if (scaleBuilder_ == null) {
-            return scale_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : scale_;
+            return scale_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
           } else {
             return scaleBuilder_.getMessage();
           }
@@ -2470,9 +2470,9 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
          */
-        public Builder setScale(io.dstore.Values.integerValue value) {
+        public Builder setScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2490,10 +2490,10 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
          */
         public Builder setScale(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (scaleBuilder_ == null) {
             scale_ = builderForValue.build();
             onChanged();
@@ -2508,13 +2508,13 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
          */
-        public Builder mergeScale(io.dstore.Values.integerValue value) {
+        public Builder mergeScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
             if (scale_ != null) {
               scale_ =
-                io.dstore.Values.integerValue.newBuilder(scale_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(scale_).mergeFrom(value).buildPartial();
             } else {
               scale_ = value;
             }
@@ -2530,7 +2530,7 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
          */
         public Builder clearScale() {
           if (scaleBuilder_ == null) {
@@ -2548,9 +2548,9 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getScaleBuilder() {
+        public io.dstore.values.IntegerValue.Builder getScaleBuilder() {
           
           onChanged();
           return getScaleFieldBuilder().getBuilder();
@@ -2560,14 +2560,14 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
           if (scaleBuilder_ != null) {
             return scaleBuilder_.getMessageOrBuilder();
           } else {
             return scale_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : scale_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
           }
         }
         /**
@@ -2575,14 +2575,14 @@ public final class MiGetSQLFunctionParameters {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getScaleFieldBuilder() {
           if (scaleBuilder_ == null) {
             scaleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getScale(),
                     getParentForChildren(),
                     isClean());
@@ -2591,15 +2591,15 @@ public final class MiGetSQLFunctionParameters {
           return scaleBuilder_;
         }
 
-        private io.dstore.Values.stringValue datatype_ = null;
+        private io.dstore.values.StringValue datatype_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> datatypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> datatypeBuilder_;
         /**
          * <pre>
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+         * <code>optional .dstore.values.StringValue datatype = 10005;</code>
          */
         public boolean hasDatatype() {
           return datatypeBuilder_ != null || datatype_ != null;
@@ -2609,11 +2609,11 @@ public final class MiGetSQLFunctionParameters {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+         * <code>optional .dstore.values.StringValue datatype = 10005;</code>
          */
-        public io.dstore.Values.stringValue getDatatype() {
+        public io.dstore.values.StringValue getDatatype() {
           if (datatypeBuilder_ == null) {
-            return datatype_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : datatype_;
+            return datatype_ == null ? io.dstore.values.StringValue.getDefaultInstance() : datatype_;
           } else {
             return datatypeBuilder_.getMessage();
           }
@@ -2623,9 +2623,9 @@ public final class MiGetSQLFunctionParameters {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+         * <code>optional .dstore.values.StringValue datatype = 10005;</code>
          */
-        public Builder setDatatype(io.dstore.Values.stringValue value) {
+        public Builder setDatatype(io.dstore.values.StringValue value) {
           if (datatypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2643,10 +2643,10 @@ public final class MiGetSQLFunctionParameters {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+         * <code>optional .dstore.values.StringValue datatype = 10005;</code>
          */
         public Builder setDatatype(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (datatypeBuilder_ == null) {
             datatype_ = builderForValue.build();
             onChanged();
@@ -2661,13 +2661,13 @@ public final class MiGetSQLFunctionParameters {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+         * <code>optional .dstore.values.StringValue datatype = 10005;</code>
          */
-        public Builder mergeDatatype(io.dstore.Values.stringValue value) {
+        public Builder mergeDatatype(io.dstore.values.StringValue value) {
           if (datatypeBuilder_ == null) {
             if (datatype_ != null) {
               datatype_ =
-                io.dstore.Values.stringValue.newBuilder(datatype_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(datatype_).mergeFrom(value).buildPartial();
             } else {
               datatype_ = value;
             }
@@ -2683,7 +2683,7 @@ public final class MiGetSQLFunctionParameters {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+         * <code>optional .dstore.values.StringValue datatype = 10005;</code>
          */
         public Builder clearDatatype() {
           if (datatypeBuilder_ == null) {
@@ -2701,9 +2701,9 @@ public final class MiGetSQLFunctionParameters {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+         * <code>optional .dstore.values.StringValue datatype = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDatatypeBuilder() {
+        public io.dstore.values.StringValue.Builder getDatatypeBuilder() {
           
           onChanged();
           return getDatatypeFieldBuilder().getBuilder();
@@ -2713,14 +2713,14 @@ public final class MiGetSQLFunctionParameters {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+         * <code>optional .dstore.values.StringValue datatype = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDatatypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDatatypeOrBuilder() {
           if (datatypeBuilder_ != null) {
             return datatypeBuilder_.getMessageOrBuilder();
           } else {
             return datatype_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : datatype_;
+                io.dstore.values.StringValue.getDefaultInstance() : datatype_;
           }
         }
         /**
@@ -2728,14 +2728,14 @@ public final class MiGetSQLFunctionParameters {
          * Daten-Typ des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue datatype = 10005;</code>
+         * <code>optional .dstore.values.StringValue datatype = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDatatypeFieldBuilder() {
           if (datatypeBuilder_ == null) {
             datatypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDatatype(),
                     getParentForChildren(),
                     isClean());
@@ -4205,21 +4205,21 @@ public final class MiGetSQLFunctionParameters {
       "etSQLFunctionParameters\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\272\001\n\nPar" +
       "ameters\0227\n\023s_q_l_function_name\030\001 \001(\0132\032.d" +
-      "store.values.stringValue\022!\n\030s_q_l_functi" +
+      "store.values.StringValue\022!\n\030s_q_l_functi" +
       "on_name_null\030\351\007 \001(\010\0222\n\016parameter_name\030\002 " +
-      "\001(\0132\032.dstore.values.stringValue\022\034\n\023param" +
+      "\001(\0132\032.dstore.values.StringValue\022\034\n\023param" +
       "eter_name_null\030\352\007 \001(\010\"\302\003\n\010Response\0228\n\020me" +
       "ta_information\030\002 \003(\0132\036.dstore.engine.Met",
       "aInformation\022\'\n\007message\030\003 \003(\0132\026.dstore.e" +
       "ngine.Message\022D\n\003row\030\004 \003(\01327.dstore.engi" +
       "ne.mi_GetSQLFunctionParameters.Response." +
       "Row\032\214\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\022,\n\006length\030\221" +
-      "N \001(\0132\033.dstore.values.integerValue\0225\n\017pr" +
-      "ecision_value\030\222N \001(\0132\033.dstore.values.int" +
+      "N \001(\0132\033.dstore.values.IntegerValue\0225\n\017pr" +
+      "ecision_value\030\222N \001(\0132\033.dstore.values.Int" +
       "egerValue\0223\n\016parameter_name\030\223N \001(\0132\032.dst" +
-      "ore.values.stringValue\022+\n\005scale\030\224N \001(\0132\033" +
-      ".dstore.values.integerValue\022-\n\010datatype\030" +
-      "\225N \001(\0132\032.dstore.values.stringValueB\\\n\033io",
+      "ore.values.StringValue\022+\n\005scale\030\224N \001(\0132\033" +
+      ".dstore.values.IntegerValue\022-\n\010datatype\030" +
+      "\225N \001(\0132\032.dstore.values.StringValueB\\\n\033io",
       ".dstore.engine.proceduresZ=gosdk.dstore." +
       "de/engine/procedures/mi_GetSQLFunctionPa" +
       "rametersb\006proto3"
@@ -4235,7 +4235,7 @@ public final class MiGetSQLFunctionParameters {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetSQLFunctionParameters_Parameters_descriptor =
@@ -4256,7 +4256,7 @@ public final class MiGetSQLFunctionParameters {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetSQLFunctionParameters_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Length", "PrecisionValue", "ParameterName", "Scale", "Datatype", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

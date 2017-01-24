@@ -19,17 +19,17 @@ public final class CoGetLostPasswordQuestionPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue question = 1;</code>
+     * <code>optional .dstore.values.StringValue question = 1;</code>
      */
     boolean hasQuestion();
     /**
-     * <code>optional .dstore.values.stringValue question = 1;</code>
+     * <code>optional .dstore.values.StringValue question = 1;</code>
      */
-    io.dstore.Values.stringValue getQuestion();
+    io.dstore.values.StringValue getQuestion();
     /**
-     * <code>optional .dstore.values.stringValue question = 1;</code>
+     * <code>optional .dstore.values.StringValue question = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getQuestionOrBuilder();
 
     /**
      * <code>optional bool question_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoGetLostPasswordQuestionPu {
     boolean getQuestionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoGetLostPasswordQuestionPu {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue nickname = 3;</code>
+     * <code>optional .dstore.values.StringValue nickname = 3;</code>
      */
     boolean hasNickname();
     /**
-     * <code>optional .dstore.values.stringValue nickname = 3;</code>
+     * <code>optional .dstore.values.StringValue nickname = 3;</code>
      */
-    io.dstore.Values.stringValue getNickname();
+    io.dstore.values.StringValue getNickname();
     /**
-     * <code>optional .dstore.values.stringValue nickname = 3;</code>
+     * <code>optional .dstore.values.StringValue nickname = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getNicknameOrBuilder();
 
     /**
      * <code>optional bool nickname_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class CoGetLostPasswordQuestionPu {
     boolean getNicknameNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
     boolean hasCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    io.dstore.Values.booleanValue getCaseSensitive();
+    io.dstore.values.BooleanValue getCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder();
 
     /**
      * <code>optional bool case_sensitive_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class CoGetLostPasswordQuestionPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (question_ != null) {
                 subBuilder = question_.toBuilder();
               }
-              question_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              question_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(question_);
                 question_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class CoGetLostPasswordQuestionPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class CoGetLostPasswordQuestionPu {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (nickname_ != null) {
                 subBuilder = nickname_.toBuilder();
               }
-              nickname_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              nickname_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nickname_);
                 nickname_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class CoGetLostPasswordQuestionPu {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (caseSensitive_ != null) {
                 subBuilder = caseSensitive_.toBuilder();
               }
-              caseSensitive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              caseSensitive_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(caseSensitive_);
                 caseSensitive_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class CoGetLostPasswordQuestionPu {
     }
 
     public static final int QUESTION_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue question_;
+    private io.dstore.values.StringValue question_;
     /**
-     * <code>optional .dstore.values.stringValue question = 1;</code>
+     * <code>optional .dstore.values.StringValue question = 1;</code>
      */
     public boolean hasQuestion() {
       return question_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue question = 1;</code>
+     * <code>optional .dstore.values.StringValue question = 1;</code>
      */
-    public io.dstore.Values.stringValue getQuestion() {
-      return question_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : question_;
+    public io.dstore.values.StringValue getQuestion() {
+      return question_ == null ? io.dstore.values.StringValue.getDefaultInstance() : question_;
     }
     /**
-     * <code>optional .dstore.values.stringValue question = 1;</code>
+     * <code>optional .dstore.values.StringValue question = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getQuestionOrBuilder() {
       return getQuestion();
     }
 
@@ -259,23 +259,23 @@ public final class CoGetLostPasswordQuestionPu {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -289,23 +289,23 @@ public final class CoGetLostPasswordQuestionPu {
     }
 
     public static final int NICKNAME_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue nickname_;
+    private io.dstore.values.StringValue nickname_;
     /**
-     * <code>optional .dstore.values.stringValue nickname = 3;</code>
+     * <code>optional .dstore.values.StringValue nickname = 3;</code>
      */
     public boolean hasNickname() {
       return nickname_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue nickname = 3;</code>
+     * <code>optional .dstore.values.StringValue nickname = 3;</code>
      */
-    public io.dstore.Values.stringValue getNickname() {
-      return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
+    public io.dstore.values.StringValue getNickname() {
+      return nickname_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nickname_;
     }
     /**
-     * <code>optional .dstore.values.stringValue nickname = 3;</code>
+     * <code>optional .dstore.values.StringValue nickname = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getNicknameOrBuilder() {
       return getNickname();
     }
 
@@ -319,23 +319,23 @@ public final class CoGetLostPasswordQuestionPu {
     }
 
     public static final int CASE_SENSITIVE_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue caseSensitive_;
+    private io.dstore.values.BooleanValue caseSensitive_;
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
     public boolean hasCaseSensitive() {
       return caseSensitive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    public io.dstore.Values.booleanValue getCaseSensitive() {
-      return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+    public io.dstore.values.BooleanValue getCaseSensitive() {
+      return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
       return getCaseSensitive();
     }
 
@@ -792,29 +792,29 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue question_ = null;
+      private io.dstore.values.StringValue question_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> questionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> questionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue question = 1;</code>
+       * <code>optional .dstore.values.StringValue question = 1;</code>
        */
       public boolean hasQuestion() {
         return questionBuilder_ != null || question_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 1;</code>
+       * <code>optional .dstore.values.StringValue question = 1;</code>
        */
-      public io.dstore.Values.stringValue getQuestion() {
+      public io.dstore.values.StringValue getQuestion() {
         if (questionBuilder_ == null) {
-          return question_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : question_;
+          return question_ == null ? io.dstore.values.StringValue.getDefaultInstance() : question_;
         } else {
           return questionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 1;</code>
+       * <code>optional .dstore.values.StringValue question = 1;</code>
        */
-      public Builder setQuestion(io.dstore.Values.stringValue value) {
+      public Builder setQuestion(io.dstore.values.StringValue value) {
         if (questionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 1;</code>
+       * <code>optional .dstore.values.StringValue question = 1;</code>
        */
       public Builder setQuestion(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (questionBuilder_ == null) {
           question_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 1;</code>
+       * <code>optional .dstore.values.StringValue question = 1;</code>
        */
-      public Builder mergeQuestion(io.dstore.Values.stringValue value) {
+      public Builder mergeQuestion(io.dstore.values.StringValue value) {
         if (questionBuilder_ == null) {
           if (question_ != null) {
             question_ =
-              io.dstore.Values.stringValue.newBuilder(question_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(question_).mergeFrom(value).buildPartial();
           } else {
             question_ = value;
           }
@@ -860,7 +860,7 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 1;</code>
+       * <code>optional .dstore.values.StringValue question = 1;</code>
        */
       public Builder clearQuestion() {
         if (questionBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 1;</code>
+       * <code>optional .dstore.values.StringValue question = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getQuestionBuilder() {
+      public io.dstore.values.StringValue.Builder getQuestionBuilder() {
         
         onChanged();
         return getQuestionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 1;</code>
+       * <code>optional .dstore.values.StringValue question = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getQuestionOrBuilder() {
         if (questionBuilder_ != null) {
           return questionBuilder_.getMessageOrBuilder();
         } else {
           return question_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : question_;
+              io.dstore.values.StringValue.getDefaultInstance() : question_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 1;</code>
+       * <code>optional .dstore.values.StringValue question = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getQuestionFieldBuilder() {
         if (questionBuilder_ == null) {
           questionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getQuestion(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue nickname_ = null;
+      private io.dstore.values.StringValue nickname_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nicknameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue nickname = 3;</code>
+       * <code>optional .dstore.values.StringValue nickname = 3;</code>
        */
       public boolean hasNickname() {
         return nicknameBuilder_ != null || nickname_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 3;</code>
+       * <code>optional .dstore.values.StringValue nickname = 3;</code>
        */
-      public io.dstore.Values.stringValue getNickname() {
+      public io.dstore.values.StringValue getNickname() {
         if (nicknameBuilder_ == null) {
-          return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
+          return nickname_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nickname_;
         } else {
           return nicknameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 3;</code>
+       * <code>optional .dstore.values.StringValue nickname = 3;</code>
        */
-      public Builder setNickname(io.dstore.Values.stringValue value) {
+      public Builder setNickname(io.dstore.values.StringValue value) {
         if (nicknameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 3;</code>
+       * <code>optional .dstore.values.StringValue nickname = 3;</code>
        */
       public Builder setNickname(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (nicknameBuilder_ == null) {
           nickname_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 3;</code>
+       * <code>optional .dstore.values.StringValue nickname = 3;</code>
        */
-      public Builder mergeNickname(io.dstore.Values.stringValue value) {
+      public Builder mergeNickname(io.dstore.values.StringValue value) {
         if (nicknameBuilder_ == null) {
           if (nickname_ != null) {
             nickname_ =
-              io.dstore.Values.stringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
           } else {
             nickname_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 3;</code>
+       * <code>optional .dstore.values.StringValue nickname = 3;</code>
        */
       public Builder clearNickname() {
         if (nicknameBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 3;</code>
+       * <code>optional .dstore.values.StringValue nickname = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getNicknameBuilder() {
+      public io.dstore.values.StringValue.Builder getNicknameBuilder() {
         
         onChanged();
         return getNicknameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 3;</code>
+       * <code>optional .dstore.values.StringValue nickname = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNicknameOrBuilder() {
         if (nicknameBuilder_ != null) {
           return nicknameBuilder_.getMessageOrBuilder();
         } else {
           return nickname_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
+              io.dstore.values.StringValue.getDefaultInstance() : nickname_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue nickname = 3;</code>
+       * <code>optional .dstore.values.StringValue nickname = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getNicknameFieldBuilder() {
         if (nicknameBuilder_ == null) {
           nicknameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getNickname(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue caseSensitive_ = null;
+      private io.dstore.values.BooleanValue caseSensitive_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> caseSensitiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       public boolean hasCaseSensitive() {
         return caseSensitiveBuilder_ != null || caseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public io.dstore.Values.booleanValue getCaseSensitive() {
+      public io.dstore.values.BooleanValue getCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
-          return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+          return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         } else {
           return caseSensitiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public Builder setCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder setCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       public Builder setCaseSensitive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (caseSensitiveBuilder_ == null) {
           caseSensitive_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public Builder mergeCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder mergeCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (caseSensitive_ != null) {
             caseSensitive_ =
-              io.dstore.Values.booleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
           } else {
             caseSensitive_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       public Builder clearCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCaseSensitiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCaseSensitiveBuilder() {
         
         onChanged();
         return getCaseSensitiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
         if (caseSensitiveBuilder_ != null) {
           return caseSensitiveBuilder_.getMessageOrBuilder();
         } else {
           return caseSensitive_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
           caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
                   isClean());
@@ -1489,17 +1489,17 @@ public final class CoGetLostPasswordQuestionPu {
         int index);
 
     /**
-     * <code>optional .dstore.values.stringValue question = 101;</code>
+     * <code>optional .dstore.values.StringValue question = 101;</code>
      */
     boolean hasQuestion();
     /**
-     * <code>optional .dstore.values.stringValue question = 101;</code>
+     * <code>optional .dstore.values.StringValue question = 101;</code>
      */
-    io.dstore.Values.stringValue getQuestion();
+    io.dstore.values.StringValue getQuestion();
     /**
-     * <code>optional .dstore.values.stringValue question = 101;</code>
+     * <code>optional .dstore.values.StringValue question = 101;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getQuestionOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.co_GetLostPasswordQuestion_Pu.Response}
@@ -1571,11 +1571,11 @@ public final class CoGetLostPasswordQuestionPu {
               break;
             }
             case 810: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (question_ != null) {
                 subBuilder = question_.toBuilder();
               }
-              question_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              question_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(question_);
                 question_ = subBuilder.buildPartial();
@@ -1629,7 +1629,7 @@ public final class CoGetLostPasswordQuestionPu {
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
+       * <code>optional .dstore.values.StringValue question = 10001;</code>
        */
       boolean hasQuestion();
       /**
@@ -1637,24 +1637,24 @@ public final class CoGetLostPasswordQuestionPu {
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
+       * <code>optional .dstore.values.StringValue question = 10001;</code>
        */
-      io.dstore.Values.stringValue getQuestion();
+      io.dstore.values.StringValue getQuestion();
       /**
        * <pre>
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
+       * <code>optional .dstore.values.StringValue question = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getQuestionOrBuilder();
 
       /**
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+       * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
        */
       boolean hasNicknameCaseSensitive();
       /**
@@ -1662,17 +1662,17 @@ public final class CoGetLostPasswordQuestionPu {
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+       * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
        */
-      io.dstore.Values.stringValue getNicknameCaseSensitive();
+      io.dstore.values.StringValue getNicknameCaseSensitive();
       /**
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+       * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getNicknameCaseSensitiveOrBuilder();
+      io.dstore.values.StringValueOrBuilder getNicknameCaseSensitiveOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetLostPasswordQuestion_Pu.Response.Row}
@@ -1720,11 +1720,11 @@ public final class CoGetLostPasswordQuestionPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (question_ != null) {
                   subBuilder = question_.toBuilder();
                 }
-                question_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                question_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(question_);
                   question_ = subBuilder.buildPartial();
@@ -1733,11 +1733,11 @@ public final class CoGetLostPasswordQuestionPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (nicknameCaseSensitive_ != null) {
                   subBuilder = nicknameCaseSensitive_.toBuilder();
                 }
-                nicknameCaseSensitive_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                nicknameCaseSensitive_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nicknameCaseSensitive_);
                   nicknameCaseSensitive_ = subBuilder.buildPartial();
@@ -1778,13 +1778,13 @@ public final class CoGetLostPasswordQuestionPu {
       }
 
       public static final int QUESTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue question_;
+      private io.dstore.values.StringValue question_;
       /**
        * <pre>
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
+       * <code>optional .dstore.values.StringValue question = 10001;</code>
        */
       public boolean hasQuestion() {
         return question_ != null;
@@ -1794,30 +1794,30 @@ public final class CoGetLostPasswordQuestionPu {
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
+       * <code>optional .dstore.values.StringValue question = 10001;</code>
        */
-      public io.dstore.Values.stringValue getQuestion() {
-        return question_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : question_;
+      public io.dstore.values.StringValue getQuestion() {
+        return question_ == null ? io.dstore.values.StringValue.getDefaultInstance() : question_;
       }
       /**
        * <pre>
        * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue question = 10001;</code>
+       * <code>optional .dstore.values.StringValue question = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getQuestionOrBuilder() {
         return getQuestion();
       }
 
       public static final int NICKNAME_CASE_SENSITIVE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue nicknameCaseSensitive_;
+      private io.dstore.values.StringValue nicknameCaseSensitive_;
       /**
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+       * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
        */
       public boolean hasNicknameCaseSensitive() {
         return nicknameCaseSensitive_ != null;
@@ -1827,19 +1827,19 @@ public final class CoGetLostPasswordQuestionPu {
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+       * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
        */
-      public io.dstore.Values.stringValue getNicknameCaseSensitive() {
-        return nicknameCaseSensitive_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nicknameCaseSensitive_;
+      public io.dstore.values.StringValue getNicknameCaseSensitive() {
+        return nicknameCaseSensitive_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nicknameCaseSensitive_;
       }
       /**
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+       * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNicknameCaseSensitiveOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNicknameCaseSensitiveOrBuilder() {
         return getNicknameCaseSensitive();
       }
 
@@ -2198,15 +2198,15 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
 
-        private io.dstore.Values.stringValue question_ = null;
+        private io.dstore.values.StringValue question_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> questionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> questionBuilder_;
         /**
          * <pre>
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
+         * <code>optional .dstore.values.StringValue question = 10001;</code>
          */
         public boolean hasQuestion() {
           return questionBuilder_ != null || question_ != null;
@@ -2216,11 +2216,11 @@ public final class CoGetLostPasswordQuestionPu {
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
+         * <code>optional .dstore.values.StringValue question = 10001;</code>
          */
-        public io.dstore.Values.stringValue getQuestion() {
+        public io.dstore.values.StringValue getQuestion() {
           if (questionBuilder_ == null) {
-            return question_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : question_;
+            return question_ == null ? io.dstore.values.StringValue.getDefaultInstance() : question_;
           } else {
             return questionBuilder_.getMessage();
           }
@@ -2230,9 +2230,9 @@ public final class CoGetLostPasswordQuestionPu {
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
+         * <code>optional .dstore.values.StringValue question = 10001;</code>
          */
-        public Builder setQuestion(io.dstore.Values.stringValue value) {
+        public Builder setQuestion(io.dstore.values.StringValue value) {
           if (questionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2250,10 +2250,10 @@ public final class CoGetLostPasswordQuestionPu {
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
+         * <code>optional .dstore.values.StringValue question = 10001;</code>
          */
         public Builder setQuestion(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (questionBuilder_ == null) {
             question_ = builderForValue.build();
             onChanged();
@@ -2268,13 +2268,13 @@ public final class CoGetLostPasswordQuestionPu {
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
+         * <code>optional .dstore.values.StringValue question = 10001;</code>
          */
-        public Builder mergeQuestion(io.dstore.Values.stringValue value) {
+        public Builder mergeQuestion(io.dstore.values.StringValue value) {
           if (questionBuilder_ == null) {
             if (question_ != null) {
               question_ =
-                io.dstore.Values.stringValue.newBuilder(question_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(question_).mergeFrom(value).buildPartial();
             } else {
               question_ = value;
             }
@@ -2290,7 +2290,7 @@ public final class CoGetLostPasswordQuestionPu {
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
+         * <code>optional .dstore.values.StringValue question = 10001;</code>
          */
         public Builder clearQuestion() {
           if (questionBuilder_ == null) {
@@ -2308,9 +2308,9 @@ public final class CoGetLostPasswordQuestionPu {
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
+         * <code>optional .dstore.values.StringValue question = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getQuestionBuilder() {
+        public io.dstore.values.StringValue.Builder getQuestionBuilder() {
           
           onChanged();
           return getQuestionFieldBuilder().getBuilder();
@@ -2320,14 +2320,14 @@ public final class CoGetLostPasswordQuestionPu {
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
+         * <code>optional .dstore.values.StringValue question = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getQuestionOrBuilder() {
           if (questionBuilder_ != null) {
             return questionBuilder_.getMessageOrBuilder();
           } else {
             return question_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : question_;
+                io.dstore.values.StringValue.getDefaultInstance() : question_;
           }
         }
         /**
@@ -2335,14 +2335,14 @@ public final class CoGetLostPasswordQuestionPu {
          * Enthält die Frage, auf die das Mitglied "&#64;Nickname" die richtige Antwort angeben muß, um sein Paßwort genannt zu bekommen. Dabei handelt es sich um die Eigenschaft zum Merkmal "QuestionCharacteristicID" aus "CommunitySettings".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue question = 10001;</code>
+         * <code>optional .dstore.values.StringValue question = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getQuestionFieldBuilder() {
           if (questionBuilder_ == null) {
             questionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getQuestion(),
                     getParentForChildren(),
                     isClean());
@@ -2351,15 +2351,15 @@ public final class CoGetLostPasswordQuestionPu {
           return questionBuilder_;
         }
 
-        private io.dstore.Values.stringValue nicknameCaseSensitive_ = null;
+        private io.dstore.values.StringValue nicknameCaseSensitive_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameCaseSensitiveBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nicknameCaseSensitiveBuilder_;
         /**
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+         * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
          */
         public boolean hasNicknameCaseSensitive() {
           return nicknameCaseSensitiveBuilder_ != null || nicknameCaseSensitive_ != null;
@@ -2369,11 +2369,11 @@ public final class CoGetLostPasswordQuestionPu {
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+         * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
          */
-        public io.dstore.Values.stringValue getNicknameCaseSensitive() {
+        public io.dstore.values.StringValue getNicknameCaseSensitive() {
           if (nicknameCaseSensitiveBuilder_ == null) {
-            return nicknameCaseSensitive_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nicknameCaseSensitive_;
+            return nicknameCaseSensitive_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nicknameCaseSensitive_;
           } else {
             return nicknameCaseSensitiveBuilder_.getMessage();
           }
@@ -2383,9 +2383,9 @@ public final class CoGetLostPasswordQuestionPu {
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+         * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
          */
-        public Builder setNicknameCaseSensitive(io.dstore.Values.stringValue value) {
+        public Builder setNicknameCaseSensitive(io.dstore.values.StringValue value) {
           if (nicknameCaseSensitiveBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2403,10 +2403,10 @@ public final class CoGetLostPasswordQuestionPu {
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+         * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
          */
         public Builder setNicknameCaseSensitive(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (nicknameCaseSensitiveBuilder_ == null) {
             nicknameCaseSensitive_ = builderForValue.build();
             onChanged();
@@ -2421,13 +2421,13 @@ public final class CoGetLostPasswordQuestionPu {
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+         * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
          */
-        public Builder mergeNicknameCaseSensitive(io.dstore.Values.stringValue value) {
+        public Builder mergeNicknameCaseSensitive(io.dstore.values.StringValue value) {
           if (nicknameCaseSensitiveBuilder_ == null) {
             if (nicknameCaseSensitive_ != null) {
               nicknameCaseSensitive_ =
-                io.dstore.Values.stringValue.newBuilder(nicknameCaseSensitive_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(nicknameCaseSensitive_).mergeFrom(value).buildPartial();
             } else {
               nicknameCaseSensitive_ = value;
             }
@@ -2443,7 +2443,7 @@ public final class CoGetLostPasswordQuestionPu {
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+         * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
          */
         public Builder clearNicknameCaseSensitive() {
           if (nicknameCaseSensitiveBuilder_ == null) {
@@ -2461,9 +2461,9 @@ public final class CoGetLostPasswordQuestionPu {
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+         * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getNicknameCaseSensitiveBuilder() {
+        public io.dstore.values.StringValue.Builder getNicknameCaseSensitiveBuilder() {
           
           onChanged();
           return getNicknameCaseSensitiveFieldBuilder().getBuilder();
@@ -2473,14 +2473,14 @@ public final class CoGetLostPasswordQuestionPu {
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+         * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getNicknameCaseSensitiveOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getNicknameCaseSensitiveOrBuilder() {
           if (nicknameCaseSensitiveBuilder_ != null) {
             return nicknameCaseSensitiveBuilder_.getMessageOrBuilder();
           } else {
             return nicknameCaseSensitive_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : nicknameCaseSensitive_;
+                io.dstore.values.StringValue.getDefaultInstance() : nicknameCaseSensitive_;
           }
         }
         /**
@@ -2488,14 +2488,14 @@ public final class CoGetLostPasswordQuestionPu {
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname_case_sensitive = 10002;</code>
+         * <code>optional .dstore.values.StringValue nickname_case_sensitive = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getNicknameCaseSensitiveFieldBuilder() {
           if (nicknameCaseSensitiveBuilder_ == null) {
             nicknameCaseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getNicknameCaseSensitive(),
                     getParentForChildren(),
                     isClean());
@@ -2659,23 +2659,23 @@ public final class CoGetLostPasswordQuestionPu {
     }
 
     public static final int QUESTION_FIELD_NUMBER = 101;
-    private io.dstore.Values.stringValue question_;
+    private io.dstore.values.StringValue question_;
     /**
-     * <code>optional .dstore.values.stringValue question = 101;</code>
+     * <code>optional .dstore.values.StringValue question = 101;</code>
      */
     public boolean hasQuestion() {
       return question_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue question = 101;</code>
+     * <code>optional .dstore.values.StringValue question = 101;</code>
      */
-    public io.dstore.Values.stringValue getQuestion() {
-      return question_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : question_;
+    public io.dstore.values.StringValue getQuestion() {
+      return question_ == null ? io.dstore.values.StringValue.getDefaultInstance() : question_;
     }
     /**
-     * <code>optional .dstore.values.stringValue question = 101;</code>
+     * <code>optional .dstore.values.StringValue question = 101;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getQuestionOrBuilder() {
       return getQuestion();
     }
 
@@ -3850,29 +3850,29 @@ public final class CoGetLostPasswordQuestionPu {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.stringValue question_ = null;
+      private io.dstore.values.StringValue question_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> questionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> questionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue question = 101;</code>
+       * <code>optional .dstore.values.StringValue question = 101;</code>
        */
       public boolean hasQuestion() {
         return questionBuilder_ != null || question_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 101;</code>
+       * <code>optional .dstore.values.StringValue question = 101;</code>
        */
-      public io.dstore.Values.stringValue getQuestion() {
+      public io.dstore.values.StringValue getQuestion() {
         if (questionBuilder_ == null) {
-          return question_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : question_;
+          return question_ == null ? io.dstore.values.StringValue.getDefaultInstance() : question_;
         } else {
           return questionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 101;</code>
+       * <code>optional .dstore.values.StringValue question = 101;</code>
        */
-      public Builder setQuestion(io.dstore.Values.stringValue value) {
+      public Builder setQuestion(io.dstore.values.StringValue value) {
         if (questionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3886,10 +3886,10 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 101;</code>
+       * <code>optional .dstore.values.StringValue question = 101;</code>
        */
       public Builder setQuestion(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (questionBuilder_ == null) {
           question_ = builderForValue.build();
           onChanged();
@@ -3900,13 +3900,13 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 101;</code>
+       * <code>optional .dstore.values.StringValue question = 101;</code>
        */
-      public Builder mergeQuestion(io.dstore.Values.stringValue value) {
+      public Builder mergeQuestion(io.dstore.values.StringValue value) {
         if (questionBuilder_ == null) {
           if (question_ != null) {
             question_ =
-              io.dstore.Values.stringValue.newBuilder(question_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(question_).mergeFrom(value).buildPartial();
           } else {
             question_ = value;
           }
@@ -3918,7 +3918,7 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 101;</code>
+       * <code>optional .dstore.values.StringValue question = 101;</code>
        */
       public Builder clearQuestion() {
         if (questionBuilder_ == null) {
@@ -3932,33 +3932,33 @@ public final class CoGetLostPasswordQuestionPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 101;</code>
+       * <code>optional .dstore.values.StringValue question = 101;</code>
        */
-      public io.dstore.Values.stringValue.Builder getQuestionBuilder() {
+      public io.dstore.values.StringValue.Builder getQuestionBuilder() {
         
         onChanged();
         return getQuestionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 101;</code>
+       * <code>optional .dstore.values.StringValue question = 101;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getQuestionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getQuestionOrBuilder() {
         if (questionBuilder_ != null) {
           return questionBuilder_.getMessageOrBuilder();
         } else {
           return question_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : question_;
+              io.dstore.values.StringValue.getDefaultInstance() : question_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue question = 101;</code>
+       * <code>optional .dstore.values.StringValue question = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getQuestionFieldBuilder() {
         if (questionBuilder_ == null) {
           questionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getQuestion(),
                   getParentForChildren(),
                   isClean());
@@ -4044,22 +4044,22 @@ public final class CoGetLostPasswordQuestionPu {
       "_GetLostPasswordQuestion_Pu\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\272\002\n" +
       "\nParameters\022,\n\010question\030\001 \001(\0132\032.dstore.v" +
-      "alues.stringValue\022\026\n\rquestion_null\030\351\007 \001(" +
+      "alues.StringValue\022\026\n\rquestion_null\030\351\007 \001(" +
       "\010\0221\n\014community_id\030\002 \001(\0132\033.dstore.values." +
-      "integerValue\022\032\n\021community_id_null\030\352\007 \001(\010" +
-      "\022,\n\010nickname\030\003 \001(\0132\032.dstore.values.strin" +
+      "IntegerValue\022\032\n\021community_id_null\030\352\007 \001(\010" +
+      "\022,\n\010nickname\030\003 \001(\0132\032.dstore.values.Strin" +
       "gValue\022\026\n\rnickname_null\030\353\007 \001(\010\0223\n\016case_s",
-      "ensitive\030\004 \001(\0132\033.dstore.values.booleanVa" +
+      "ensitive\030\004 \001(\0132\033.dstore.values.BooleanVa" +
       "lue\022\034\n\023case_sensitive_null\030\354\007 \001(\010\"\351\002\n\010Re" +
       "sponse\0228\n\020meta_information\030\002 \003(\0132\036.dstor" +
       "e.engine.MetaInformation\022\'\n\007message\030\003 \003(" +
       "\0132\026.dstore.engine.Message\022F\n\003row\030\004 \003(\01329" +
       ".dstore.engine.co_GetLostPasswordQuestio" +
       "n_Pu.Response.Row\022,\n\010question\030e \001(\0132\032.ds" +
-      "tore.values.stringValue\032\203\001\n\003Row\022\017\n\006row_i" +
+      "tore.values.StringValue\032\203\001\n\003Row\022\017\n\006row_i" +
       "d\030\220N \001(\005\022-\n\010question\030\221N \001(\0132\032.dstore.val" +
-      "ues.stringValue\022<\n\027nickname_case_sensiti",
-      "ve\030\222N \001(\0132\032.dstore.values.stringValueB^\n" +
+      "ues.StringValue\022<\n\027nickname_case_sensiti",
+      "ve\030\222N \001(\0132\032.dstore.values.StringValueB^\n" +
       "\033io.dstore.engine.proceduresZ?gosdk.dsto" +
       "re.de/engine/procedures/co_GetLostPasswo" +
       "rdQuestion_Pub\006proto3"
@@ -4075,7 +4075,7 @@ public final class CoGetLostPasswordQuestionPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Parameters_descriptor =
@@ -4096,7 +4096,7 @@ public final class CoGetLostPasswordQuestionPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetLostPasswordQuestion_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Question", "NicknameCaseSensitive", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class MiGetIndexDLLAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
     boolean hasTableName();
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
-    io.dstore.Values.stringValue getTableName();
+    io.dstore.values.StringValue getTableName();
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
     /**
      * <code>optional bool table_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetIndexDLLAd {
     boolean getTableNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue index_name = 2;</code>
+     * <code>optional .dstore.values.StringValue index_name = 2;</code>
      */
     boolean hasIndexName();
     /**
-     * <code>optional .dstore.values.stringValue index_name = 2;</code>
+     * <code>optional .dstore.values.StringValue index_name = 2;</code>
      */
-    io.dstore.Values.stringValue getIndexName();
+    io.dstore.values.StringValue getIndexName();
     /**
-     * <code>optional .dstore.values.stringValue index_name = 2;</code>
+     * <code>optional .dstore.values.StringValue index_name = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getIndexNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getIndexNameOrBuilder();
 
     /**
      * <code>optional bool index_name_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class MiGetIndexDLLAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (tableName_ != null) {
                 subBuilder = tableName_.toBuilder();
               }
-              tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              tableName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableName_);
                 tableName_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class MiGetIndexDLLAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (indexName_ != null) {
                 subBuilder = indexName_.toBuilder();
               }
-              indexName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              indexName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(indexName_);
                 indexName_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class MiGetIndexDLLAd {
     }
 
     public static final int TABLE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue tableName_;
+    private io.dstore.values.StringValue tableName_;
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
     public boolean hasTableName() {
       return tableName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getTableName() {
-      return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+    public io.dstore.values.StringValue getTableName() {
+      return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue table_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
       return getTableName();
     }
 
@@ -185,23 +185,23 @@ public final class MiGetIndexDLLAd {
     }
 
     public static final int INDEX_NAME_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue indexName_;
+    private io.dstore.values.StringValue indexName_;
     /**
-     * <code>optional .dstore.values.stringValue index_name = 2;</code>
+     * <code>optional .dstore.values.StringValue index_name = 2;</code>
      */
     public boolean hasIndexName() {
       return indexName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue index_name = 2;</code>
+     * <code>optional .dstore.values.StringValue index_name = 2;</code>
      */
-    public io.dstore.Values.stringValue getIndexName() {
-      return indexName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : indexName_;
+    public io.dstore.values.StringValue getIndexName() {
+      return indexName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : indexName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue index_name = 2;</code>
+     * <code>optional .dstore.values.StringValue index_name = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getIndexNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getIndexNameOrBuilder() {
       return getIndexName();
     }
 
@@ -562,29 +562,29 @@ public final class MiGetIndexDLLAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue tableName_ = null;
+      private io.dstore.values.StringValue tableName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tableNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
       public boolean hasTableName() {
         return tableNameBuilder_ != null || tableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getTableName() {
+      public io.dstore.values.StringValue getTableName() {
         if (tableNameBuilder_ == null) {
-          return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+          return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
         } else {
           return tableNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public Builder setTableName(io.dstore.Values.stringValue value) {
+      public Builder setTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class MiGetIndexDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
       public Builder setTableName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (tableNameBuilder_ == null) {
           tableName_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class MiGetIndexDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public Builder mergeTableName(io.dstore.Values.stringValue value) {
+      public Builder mergeTableName(io.dstore.values.StringValue value) {
         if (tableNameBuilder_ == null) {
           if (tableName_ != null) {
             tableName_ =
-              io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
           } else {
             tableName_ = value;
           }
@@ -630,7 +630,7 @@ public final class MiGetIndexDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
       public Builder clearTableName() {
         if (tableNameBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class MiGetIndexDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
+      public io.dstore.values.StringValue.Builder getTableNameBuilder() {
         
         onChanged();
         return getTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         if (tableNameBuilder_ != null) {
           return tableNameBuilder_.getMessageOrBuilder();
         } else {
           return tableName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+              io.dstore.values.StringValue.getDefaultInstance() : tableName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue table_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTableNameFieldBuilder() {
         if (tableNameBuilder_ == null) {
           tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTableName(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class MiGetIndexDLLAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue indexName_ = null;
+      private io.dstore.values.StringValue indexName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> indexNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> indexNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue index_name = 2;</code>
+       * <code>optional .dstore.values.StringValue index_name = 2;</code>
        */
       public boolean hasIndexName() {
         return indexNameBuilder_ != null || indexName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue index_name = 2;</code>
+       * <code>optional .dstore.values.StringValue index_name = 2;</code>
        */
-      public io.dstore.Values.stringValue getIndexName() {
+      public io.dstore.values.StringValue getIndexName() {
         if (indexNameBuilder_ == null) {
-          return indexName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : indexName_;
+          return indexName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : indexName_;
         } else {
           return indexNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue index_name = 2;</code>
+       * <code>optional .dstore.values.StringValue index_name = 2;</code>
        */
-      public Builder setIndexName(io.dstore.Values.stringValue value) {
+      public Builder setIndexName(io.dstore.values.StringValue value) {
         if (indexNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class MiGetIndexDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue index_name = 2;</code>
+       * <code>optional .dstore.values.StringValue index_name = 2;</code>
        */
       public Builder setIndexName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (indexNameBuilder_ == null) {
           indexName_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class MiGetIndexDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue index_name = 2;</code>
+       * <code>optional .dstore.values.StringValue index_name = 2;</code>
        */
-      public Builder mergeIndexName(io.dstore.Values.stringValue value) {
+      public Builder mergeIndexName(io.dstore.values.StringValue value) {
         if (indexNameBuilder_ == null) {
           if (indexName_ != null) {
             indexName_ =
-              io.dstore.Values.stringValue.newBuilder(indexName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(indexName_).mergeFrom(value).buildPartial();
           } else {
             indexName_ = value;
           }
@@ -773,7 +773,7 @@ public final class MiGetIndexDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue index_name = 2;</code>
+       * <code>optional .dstore.values.StringValue index_name = 2;</code>
        */
       public Builder clearIndexName() {
         if (indexNameBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class MiGetIndexDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue index_name = 2;</code>
+       * <code>optional .dstore.values.StringValue index_name = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getIndexNameBuilder() {
+      public io.dstore.values.StringValue.Builder getIndexNameBuilder() {
         
         onChanged();
         return getIndexNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue index_name = 2;</code>
+       * <code>optional .dstore.values.StringValue index_name = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getIndexNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getIndexNameOrBuilder() {
         if (indexNameBuilder_ != null) {
           return indexNameBuilder_.getMessageOrBuilder();
         } else {
           return indexName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : indexName_;
+              io.dstore.values.StringValue.getDefaultInstance() : indexName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue index_name = 2;</code>
+       * <code>optional .dstore.values.StringValue index_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getIndexNameFieldBuilder() {
         if (indexNameBuilder_ == null) {
           indexNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getIndexName(),
                   getParentForChildren(),
                   isClean());
@@ -2934,9 +2934,9 @@ public final class MiGetIndexDLLAd {
       "L_Ad.proto\022\037dstore.engine.mi_GetIndexDLL" +
       "_Ad\032\023dstore/values.proto\032\032dstore/engine/" +
       "engine.proto\"\240\001\n\nParameters\022.\n\ntable_nam" +
-      "e\030\001 \001(\0132\032.dstore.values.stringValue\022\030\n\017t" +
+      "e\030\001 \001(\0132\032.dstore.values.StringValue\022\030\n\017t" +
       "able_name_null\030\351\007 \001(\010\022.\n\nindex_name\030\002 \001(" +
-      "\0132\032.dstore.values.stringValue\022\030\n\017index_n" +
+      "\0132\032.dstore.values.StringValue\022\030\n\017index_n" +
       "ame_null\030\352\007 \001(\010\"\301\001\n\010Response\0228\n\020meta_inf" +
       "ormation\030\002 \003(\0132\036.dstore.engine.MetaInfor" +
       "mation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.",
@@ -2957,7 +2957,7 @@ public final class MiGetIndexDLLAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetIndexDLL_Ad_Parameters_descriptor =
@@ -2978,7 +2978,7 @@ public final class MiGetIndexDLLAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetIndexDLL_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

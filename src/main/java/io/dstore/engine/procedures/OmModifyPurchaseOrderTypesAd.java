@@ -19,17 +19,17 @@ public final class OmModifyPurchaseOrderTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
     boolean hasOrderTypeId();
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getOrderTypeId();
+    io.dstore.values.IntegerValue getOrderTypeId();
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOrderTypeIdOrBuilder();
 
     /**
      * <code>optional bool order_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifyPurchaseOrderTypesAd {
     boolean getOrderTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
      */
     boolean hasOrderTypeDescription();
     /**
-     * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
      */
-    io.dstore.Values.stringValue getOrderTypeDescription();
+    io.dstore.values.StringValue getOrderTypeDescription();
     /**
-     * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getOrderTypeDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getOrderTypeDescriptionOrBuilder();
 
     /**
      * <code>optional bool order_type_description_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifyPurchaseOrderTypesAd {
     boolean getOrderTypeDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
      */
     boolean hasDeleteOrderType();
     /**
-     * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
      */
-    io.dstore.Values.booleanValue getDeleteOrderType();
+    io.dstore.values.BooleanValue getDeleteOrderType();
     /**
-     * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteOrderTypeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteOrderTypeOrBuilder();
 
     /**
      * <code>optional bool delete_order_type_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class OmModifyPurchaseOrderTypesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (orderTypeId_ != null) {
                 subBuilder = orderTypeId_.toBuilder();
               }
-              orderTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              orderTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderTypeId_);
                 orderTypeId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class OmModifyPurchaseOrderTypesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (orderTypeDescription_ != null) {
                 subBuilder = orderTypeDescription_.toBuilder();
               }
-              orderTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              orderTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderTypeDescription_);
                 orderTypeDescription_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class OmModifyPurchaseOrderTypesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteOrderType_ != null) {
                 subBuilder = deleteOrderType_.toBuilder();
               }
-              deleteOrderType_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteOrderType_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteOrderType_);
                 deleteOrderType_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class OmModifyPurchaseOrderTypesAd {
     }
 
     public static final int ORDER_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue orderTypeId_;
+    private io.dstore.values.IntegerValue orderTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
     public boolean hasOrderTypeId() {
       return orderTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getOrderTypeId() {
-      return orderTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
+    public io.dstore.values.IntegerValue getOrderTypeId() {
+      return orderTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOrderTypeIdOrBuilder() {
       return getOrderTypeId();
     }
 
@@ -222,23 +222,23 @@ public final class OmModifyPurchaseOrderTypesAd {
     }
 
     public static final int ORDER_TYPE_DESCRIPTION_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue orderTypeDescription_;
+    private io.dstore.values.StringValue orderTypeDescription_;
     /**
-     * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
      */
     public boolean hasOrderTypeDescription() {
       return orderTypeDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
      */
-    public io.dstore.Values.stringValue getOrderTypeDescription() {
-      return orderTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderTypeDescription_;
+    public io.dstore.values.StringValue getOrderTypeDescription() {
+      return orderTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderTypeDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
       return getOrderTypeDescription();
     }
 
@@ -252,23 +252,23 @@ public final class OmModifyPurchaseOrderTypesAd {
     }
 
     public static final int DELETE_ORDER_TYPE_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue deleteOrderType_;
+    private io.dstore.values.BooleanValue deleteOrderType_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
      */
     public boolean hasDeleteOrderType() {
       return deleteOrderType_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteOrderType() {
-      return deleteOrderType_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteOrderType_;
+    public io.dstore.values.BooleanValue getDeleteOrderType() {
+      return deleteOrderType_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteOrderType_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteOrderTypeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteOrderTypeOrBuilder() {
       return getDeleteOrderType();
     }
 
@@ -677,29 +677,29 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue orderTypeId_ = null;
+      private io.dstore.values.IntegerValue orderTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
       public boolean hasOrderTypeId() {
         return orderTypeIdBuilder_ != null || orderTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getOrderTypeId() {
+      public io.dstore.values.IntegerValue getOrderTypeId() {
         if (orderTypeIdBuilder_ == null) {
-          return orderTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
+          return orderTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderTypeId_;
         } else {
           return orderTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public Builder setOrderTypeId(io.dstore.Values.integerValue value) {
+      public Builder setOrderTypeId(io.dstore.values.IntegerValue value) {
         if (orderTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
       public Builder setOrderTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (orderTypeIdBuilder_ == null) {
           orderTypeId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public Builder mergeOrderTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeOrderTypeId(io.dstore.values.IntegerValue value) {
         if (orderTypeIdBuilder_ == null) {
           if (orderTypeId_ != null) {
             orderTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(orderTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(orderTypeId_).mergeFrom(value).buildPartial();
           } else {
             orderTypeId_ = value;
           }
@@ -745,7 +745,7 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
       public Builder clearOrderTypeId() {
         if (orderTypeIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOrderTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getOrderTypeIdBuilder() {
         
         onChanged();
         return getOrderTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderTypeIdOrBuilder() {
         if (orderTypeIdBuilder_ != null) {
           return orderTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return orderTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : orderTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : orderTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue order_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOrderTypeIdFieldBuilder() {
         if (orderTypeIdBuilder_ == null) {
           orderTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOrderTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue orderTypeDescription_ = null;
+      private io.dstore.values.StringValue orderTypeDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderTypeDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> orderTypeDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
        */
       public boolean hasOrderTypeDescription() {
         return orderTypeDescriptionBuilder_ != null || orderTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
        */
-      public io.dstore.Values.stringValue getOrderTypeDescription() {
+      public io.dstore.values.StringValue getOrderTypeDescription() {
         if (orderTypeDescriptionBuilder_ == null) {
-          return orderTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderTypeDescription_;
+          return orderTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderTypeDescription_;
         } else {
           return orderTypeDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
        */
-      public Builder setOrderTypeDescription(io.dstore.Values.stringValue value) {
+      public Builder setOrderTypeDescription(io.dstore.values.StringValue value) {
         if (orderTypeDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
        */
       public Builder setOrderTypeDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (orderTypeDescriptionBuilder_ == null) {
           orderTypeDescription_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
        */
-      public Builder mergeOrderTypeDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeOrderTypeDescription(io.dstore.values.StringValue value) {
         if (orderTypeDescriptionBuilder_ == null) {
           if (orderTypeDescription_ != null) {
             orderTypeDescription_ =
-              io.dstore.Values.stringValue.newBuilder(orderTypeDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(orderTypeDescription_).mergeFrom(value).buildPartial();
           } else {
             orderTypeDescription_ = value;
           }
@@ -888,7 +888,7 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
        */
       public Builder clearOrderTypeDescription() {
         if (orderTypeDescriptionBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getOrderTypeDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getOrderTypeDescriptionBuilder() {
         
         onChanged();
         return getOrderTypeDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOrderTypeDescriptionOrBuilder() {
         if (orderTypeDescriptionBuilder_ != null) {
           return orderTypeDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return orderTypeDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : orderTypeDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : orderTypeDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue order_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue order_type_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getOrderTypeDescriptionFieldBuilder() {
         if (orderTypeDescriptionBuilder_ == null) {
           orderTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getOrderTypeDescription(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteOrderType_ = null;
+      private io.dstore.values.BooleanValue deleteOrderType_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteOrderTypeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteOrderTypeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
        */
       public boolean hasDeleteOrderType() {
         return deleteOrderTypeBuilder_ != null || deleteOrderType_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteOrderType() {
+      public io.dstore.values.BooleanValue getDeleteOrderType() {
         if (deleteOrderTypeBuilder_ == null) {
-          return deleteOrderType_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteOrderType_;
+          return deleteOrderType_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteOrderType_;
         } else {
           return deleteOrderTypeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
        */
-      public Builder setDeleteOrderType(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteOrderType(io.dstore.values.BooleanValue value) {
         if (deleteOrderTypeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
        */
       public Builder setDeleteOrderType(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteOrderTypeBuilder_ == null) {
           deleteOrderType_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
        */
-      public Builder mergeDeleteOrderType(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteOrderType(io.dstore.values.BooleanValue value) {
         if (deleteOrderTypeBuilder_ == null) {
           if (deleteOrderType_ != null) {
             deleteOrderType_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteOrderType_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteOrderType_).mergeFrom(value).buildPartial();
           } else {
             deleteOrderType_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
        */
       public Builder clearDeleteOrderType() {
         if (deleteOrderTypeBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class OmModifyPurchaseOrderTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteOrderTypeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteOrderTypeBuilder() {
         
         onChanged();
         return getDeleteOrderTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteOrderTypeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteOrderTypeOrBuilder() {
         if (deleteOrderTypeBuilder_ != null) {
           return deleteOrderTypeBuilder_.getMessageOrBuilder();
         } else {
           return deleteOrderType_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteOrderType_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteOrderType_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_order_type = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_order_type = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteOrderTypeFieldBuilder() {
         if (deleteOrderTypeBuilder_ == null) {
           deleteOrderTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteOrderType(),
                   getParentForChildren(),
                   isClean());
@@ -3193,11 +3193,11 @@ public final class OmModifyPurchaseOrderTypesAd {
       "m_ModifyPurchaseOrderTypes_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\230" +
       "\002\n\nParameters\0222\n\rorder_type_id\030\001 \001(\0132\033.d" +
-      "store.values.integerValue\022\033\n\022order_type_" +
+      "store.values.IntegerValue\022\033\n\022order_type_" +
       "id_null\030\351\007 \001(\010\022:\n\026order_type_description" +
-      "\030\002 \001(\0132\032.dstore.values.stringValue\022$\n\033or" +
+      "\030\002 \001(\0132\032.dstore.values.StringValue\022$\n\033or" +
       "der_type_description_null\030\352\007 \001(\010\0226\n\021dele" +
-      "te_order_type\030\003 \001(\0132\033.dstore.values.bool",
+      "te_order_type\030\003 \001(\0132\033.dstore.values.Bool",
       "eanValue\022\037\n\026delete_order_type_null\030\353\007 \001(" +
       "\010\"\316\001\n\010Response\0228\n\020meta_information\030\002 \003(\013" +
       "2\036.dstore.engine.MetaInformation\022\'\n\007mess" +
@@ -3219,7 +3219,7 @@ public final class OmModifyPurchaseOrderTypesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifyPurchaseOrderTypes_Ad_Parameters_descriptor =
@@ -3240,7 +3240,7 @@ public final class OmModifyPurchaseOrderTypesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyPurchaseOrderTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

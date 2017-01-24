@@ -19,17 +19,17 @@ public final class OmGetCampCondCriteriaTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
      */
     boolean hasCriteriaTypeId();
     /**
-     * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCriteriaTypeId();
+    io.dstore.values.IntegerValue getCriteriaTypeId();
     /**
-     * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCriteriaTypeIdOrBuilder();
 
     /**
      * <code>optional bool criteria_type_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class OmGetCampCondCriteriaTypesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (criteriaTypeId_ != null) {
                 subBuilder = criteriaTypeId_.toBuilder();
               }
-              criteriaTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              criteriaTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(criteriaTypeId_);
                 criteriaTypeId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class OmGetCampCondCriteriaTypesAd {
     }
 
     public static final int CRITERIA_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue criteriaTypeId_;
+    private io.dstore.values.IntegerValue criteriaTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
      */
     public boolean hasCriteriaTypeId() {
       return criteriaTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCriteriaTypeId() {
-      return criteriaTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+    public io.dstore.values.IntegerValue getCriteriaTypeId() {
+      return criteriaTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : criteriaTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCriteriaTypeIdOrBuilder() {
       return getCriteriaTypeId();
     }
 
@@ -447,29 +447,29 @@ public final class OmGetCampCondCriteriaTypesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue criteriaTypeId_ = null;
+      private io.dstore.values.IntegerValue criteriaTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> criteriaTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> criteriaTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
        */
       public boolean hasCriteriaTypeId() {
         return criteriaTypeIdBuilder_ != null || criteriaTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCriteriaTypeId() {
+      public io.dstore.values.IntegerValue getCriteriaTypeId() {
         if (criteriaTypeIdBuilder_ == null) {
-          return criteriaTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+          return criteriaTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : criteriaTypeId_;
         } else {
           return criteriaTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
        */
-      public Builder setCriteriaTypeId(io.dstore.Values.integerValue value) {
+      public Builder setCriteriaTypeId(io.dstore.values.IntegerValue value) {
         if (criteriaTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class OmGetCampCondCriteriaTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
        */
       public Builder setCriteriaTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (criteriaTypeIdBuilder_ == null) {
           criteriaTypeId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class OmGetCampCondCriteriaTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
        */
-      public Builder mergeCriteriaTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeCriteriaTypeId(io.dstore.values.IntegerValue value) {
         if (criteriaTypeIdBuilder_ == null) {
           if (criteriaTypeId_ != null) {
             criteriaTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(criteriaTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(criteriaTypeId_).mergeFrom(value).buildPartial();
           } else {
             criteriaTypeId_ = value;
           }
@@ -515,7 +515,7 @@ public final class OmGetCampCondCriteriaTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
        */
       public Builder clearCriteriaTypeId() {
         if (criteriaTypeIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class OmGetCampCondCriteriaTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCriteriaTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCriteriaTypeIdBuilder() {
         
         onChanged();
         return getCriteriaTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCriteriaTypeIdOrBuilder() {
         if (criteriaTypeIdBuilder_ != null) {
           return criteriaTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return criteriaTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : criteriaTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue criteria_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCriteriaTypeIdFieldBuilder() {
         if (criteriaTypeIdBuilder_ == null) {
           criteriaTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCriteriaTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class OmGetCampCondCriteriaTypesAd {
        * Die Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
        */
       boolean hasCriteraiType();
       /**
@@ -857,24 +857,24 @@ public final class OmGetCampCondCriteriaTypesAd {
        * Die Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
        */
-      io.dstore.Values.stringValue getCriteraiType();
+      io.dstore.values.StringValue getCriteraiType();
       /**
        * <pre>
        * Die Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCriteraiTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCriteraiTypeOrBuilder();
 
       /**
        * <pre>
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
        */
       boolean hasCriteriaTypeId();
       /**
@@ -882,17 +882,17 @@ public final class OmGetCampCondCriteriaTypesAd {
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getCriteriaTypeId();
+      io.dstore.values.IntegerValue getCriteriaTypeId();
       /**
        * <pre>
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCriteriaTypeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampCondCriteriaTypes_Ad.Response.Row}
@@ -940,11 +940,11 @@ public final class OmGetCampCondCriteriaTypesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (criteraiType_ != null) {
                   subBuilder = criteraiType_.toBuilder();
                 }
-                criteraiType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                criteraiType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(criteraiType_);
                   criteraiType_ = subBuilder.buildPartial();
@@ -953,11 +953,11 @@ public final class OmGetCampCondCriteriaTypesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (criteriaTypeId_ != null) {
                   subBuilder = criteriaTypeId_.toBuilder();
                 }
-                criteriaTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                criteriaTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(criteriaTypeId_);
                   criteriaTypeId_ = subBuilder.buildPartial();
@@ -998,13 +998,13 @@ public final class OmGetCampCondCriteriaTypesAd {
       }
 
       public static final int CRITERAI_TYPE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue criteraiType_;
+      private io.dstore.values.StringValue criteraiType_;
       /**
        * <pre>
        * Die Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
        */
       public boolean hasCriteraiType() {
         return criteraiType_ != null;
@@ -1014,30 +1014,30 @@ public final class OmGetCampCondCriteriaTypesAd {
        * Die Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
        */
-      public io.dstore.Values.stringValue getCriteraiType() {
-        return criteraiType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : criteraiType_;
+      public io.dstore.values.StringValue getCriteraiType() {
+        return criteraiType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : criteraiType_;
       }
       /**
        * <pre>
        * Die Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCriteraiTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCriteraiTypeOrBuilder() {
         return getCriteraiType();
       }
 
       public static final int CRITERIA_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue criteriaTypeId_;
+      private io.dstore.values.IntegerValue criteriaTypeId_;
       /**
        * <pre>
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
        */
       public boolean hasCriteriaTypeId() {
         return criteriaTypeId_ != null;
@@ -1047,19 +1047,19 @@ public final class OmGetCampCondCriteriaTypesAd {
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getCriteriaTypeId() {
-        return criteriaTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+      public io.dstore.values.IntegerValue getCriteriaTypeId() {
+        return criteriaTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : criteriaTypeId_;
       }
       /**
        * <pre>
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCriteriaTypeIdOrBuilder() {
         return getCriteriaTypeId();
       }
 
@@ -1418,15 +1418,15 @@ public final class OmGetCampCondCriteriaTypesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue criteraiType_ = null;
+        private io.dstore.values.StringValue criteraiType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> criteraiTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> criteraiTypeBuilder_;
         /**
          * <pre>
          * Die Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
          */
         public boolean hasCriteraiType() {
           return criteraiTypeBuilder_ != null || criteraiType_ != null;
@@ -1436,11 +1436,11 @@ public final class OmGetCampCondCriteriaTypesAd {
          * Die Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue getCriteraiType() {
+        public io.dstore.values.StringValue getCriteraiType() {
           if (criteraiTypeBuilder_ == null) {
-            return criteraiType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : criteraiType_;
+            return criteraiType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : criteraiType_;
           } else {
             return criteraiTypeBuilder_.getMessage();
           }
@@ -1450,9 +1450,9 @@ public final class OmGetCampCondCriteriaTypesAd {
          * Die Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
          */
-        public Builder setCriteraiType(io.dstore.Values.stringValue value) {
+        public Builder setCriteraiType(io.dstore.values.StringValue value) {
           if (criteraiTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1470,10 +1470,10 @@ public final class OmGetCampCondCriteriaTypesAd {
          * Die Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
          */
         public Builder setCriteraiType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (criteraiTypeBuilder_ == null) {
             criteraiType_ = builderForValue.build();
             onChanged();
@@ -1488,13 +1488,13 @@ public final class OmGetCampCondCriteriaTypesAd {
          * Die Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
          */
-        public Builder mergeCriteraiType(io.dstore.Values.stringValue value) {
+        public Builder mergeCriteraiType(io.dstore.values.StringValue value) {
           if (criteraiTypeBuilder_ == null) {
             if (criteraiType_ != null) {
               criteraiType_ =
-                io.dstore.Values.stringValue.newBuilder(criteraiType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(criteraiType_).mergeFrom(value).buildPartial();
             } else {
               criteraiType_ = value;
             }
@@ -1510,7 +1510,7 @@ public final class OmGetCampCondCriteriaTypesAd {
          * Die Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
          */
         public Builder clearCriteraiType() {
           if (criteraiTypeBuilder_ == null) {
@@ -1528,9 +1528,9 @@ public final class OmGetCampCondCriteriaTypesAd {
          * Die Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCriteraiTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getCriteraiTypeBuilder() {
           
           onChanged();
           return getCriteraiTypeFieldBuilder().getBuilder();
@@ -1540,14 +1540,14 @@ public final class OmGetCampCondCriteriaTypesAd {
          * Die Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCriteraiTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCriteraiTypeOrBuilder() {
           if (criteraiTypeBuilder_ != null) {
             return criteraiTypeBuilder_.getMessageOrBuilder();
           } else {
             return criteraiType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : criteraiType_;
+                io.dstore.values.StringValue.getDefaultInstance() : criteraiType_;
           }
         }
         /**
@@ -1555,14 +1555,14 @@ public final class OmGetCampCondCriteriaTypesAd {
          * Die Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criterai_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue criterai_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCriteraiTypeFieldBuilder() {
           if (criteraiTypeBuilder_ == null) {
             criteraiTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCriteraiType(),
                     getParentForChildren(),
                     isClean());
@@ -1571,15 +1571,15 @@ public final class OmGetCampCondCriteriaTypesAd {
           return criteraiTypeBuilder_;
         }
 
-        private io.dstore.Values.integerValue criteriaTypeId_ = null;
+        private io.dstore.values.IntegerValue criteriaTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> criteriaTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> criteriaTypeIdBuilder_;
         /**
          * <pre>
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
          */
         public boolean hasCriteriaTypeId() {
           return criteriaTypeIdBuilder_ != null || criteriaTypeId_ != null;
@@ -1589,11 +1589,11 @@ public final class OmGetCampCondCriteriaTypesAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getCriteriaTypeId() {
+        public io.dstore.values.IntegerValue getCriteriaTypeId() {
           if (criteriaTypeIdBuilder_ == null) {
-            return criteriaTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+            return criteriaTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : criteriaTypeId_;
           } else {
             return criteriaTypeIdBuilder_.getMessage();
           }
@@ -1603,9 +1603,9 @@ public final class OmGetCampCondCriteriaTypesAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
          */
-        public Builder setCriteriaTypeId(io.dstore.Values.integerValue value) {
+        public Builder setCriteriaTypeId(io.dstore.values.IntegerValue value) {
           if (criteriaTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1623,10 +1623,10 @@ public final class OmGetCampCondCriteriaTypesAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
          */
         public Builder setCriteriaTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (criteriaTypeIdBuilder_ == null) {
             criteriaTypeId_ = builderForValue.build();
             onChanged();
@@ -1641,13 +1641,13 @@ public final class OmGetCampCondCriteriaTypesAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
          */
-        public Builder mergeCriteriaTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeCriteriaTypeId(io.dstore.values.IntegerValue value) {
           if (criteriaTypeIdBuilder_ == null) {
             if (criteriaTypeId_ != null) {
               criteriaTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(criteriaTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(criteriaTypeId_).mergeFrom(value).buildPartial();
             } else {
               criteriaTypeId_ = value;
             }
@@ -1663,7 +1663,7 @@ public final class OmGetCampCondCriteriaTypesAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
          */
         public Builder clearCriteriaTypeId() {
           if (criteriaTypeIdBuilder_ == null) {
@@ -1681,9 +1681,9 @@ public final class OmGetCampCondCriteriaTypesAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCriteriaTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCriteriaTypeIdBuilder() {
           
           onChanged();
           return getCriteriaTypeIdFieldBuilder().getBuilder();
@@ -1693,14 +1693,14 @@ public final class OmGetCampCondCriteriaTypesAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCriteriaTypeIdOrBuilder() {
           if (criteriaTypeIdBuilder_ != null) {
             return criteriaTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return criteriaTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : criteriaTypeId_;
           }
         }
         /**
@@ -1708,14 +1708,14 @@ public final class OmGetCampCondCriteriaTypesAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCriteriaTypeIdFieldBuilder() {
           if (criteriaTypeIdBuilder_ == null) {
             criteriaTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCriteriaTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3185,16 +3185,16 @@ public final class OmGetCampCondCriteriaTypesAd {
       "m_GetCampCondCriteriaTypes_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"c" +
       "\n\nParameters\0225\n\020criteria_type_id\030\001 \001(\0132\033" +
-      ".dstore.values.integerValue\022\036\n\025criteria_" +
+      ".dstore.values.IntegerValue\022\036\n\025criteria_" +
       "type_id_null\030\351\007 \001(\010\"\273\002\n\010Response\0228\n\020meta" +
       "_information\030\002 \003(\0132\036.dstore.engine.MetaI" +
       "nformation\022\'\n\007message\030\003 \003(\0132\026.dstore.eng" +
       "ine.Message\022G\n\003row\030\004 \003(\0132:.dstore.engine",
       ".om_GetCampCondCriteriaTypes_Ad.Response" +
       ".Row\032\202\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0222\n\rcritera" +
-      "i_type\030\221N \001(\0132\032.dstore.values.stringValu" +
+      "i_type\030\221N \001(\0132\032.dstore.values.StringValu" +
       "e\0226\n\020criteria_type_id\030\222N \001(\0132\033.dstore.va" +
-      "lues.integerValueB_\n\033io.dstore.engine.pr" +
+      "lues.IntegerValueB_\n\033io.dstore.engine.pr" +
       "oceduresZ@gosdk.dstore.de/engine/procedu" +
       "res/om_GetCampCondCriteriaTypes_Adb\006prot" +
       "o3"
@@ -3210,7 +3210,7 @@ public final class OmGetCampCondCriteriaTypesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetCampCondCriteriaTypes_Ad_Parameters_descriptor =
@@ -3231,7 +3231,7 @@ public final class OmGetCampCondCriteriaTypesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampCondCriteriaTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CriteraiType", "CriteriaTypeId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

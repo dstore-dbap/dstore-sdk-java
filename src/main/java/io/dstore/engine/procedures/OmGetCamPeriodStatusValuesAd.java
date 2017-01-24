@@ -590,7 +590,7 @@ public final class OmGetCamPeriodStatusValuesAd {
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
        */
       boolean hasPeriodStatusDescription();
       /**
@@ -598,24 +598,24 @@ public final class OmGetCamPeriodStatusValuesAd {
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
        */
-      io.dstore.Values.stringValue getPeriodStatusDescription();
+      io.dstore.values.StringValue getPeriodStatusDescription();
       /**
        * <pre>
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPeriodStatusDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPeriodStatusDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
        */
       boolean hasPeriodStatusId();
       /**
@@ -623,17 +623,17 @@ public final class OmGetCamPeriodStatusValuesAd {
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getPeriodStatusId();
+      io.dstore.values.IntegerValue getPeriodStatusId();
       /**
        * <pre>
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPeriodStatusIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPeriodStatusIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCamPeriodStatusValues_Ad.Response.Row}
@@ -681,11 +681,11 @@ public final class OmGetCamPeriodStatusValuesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (periodStatusDescription_ != null) {
                   subBuilder = periodStatusDescription_.toBuilder();
                 }
-                periodStatusDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                periodStatusDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodStatusDescription_);
                   periodStatusDescription_ = subBuilder.buildPartial();
@@ -694,11 +694,11 @@ public final class OmGetCamPeriodStatusValuesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (periodStatusId_ != null) {
                   subBuilder = periodStatusId_.toBuilder();
                 }
-                periodStatusId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                periodStatusId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodStatusId_);
                   periodStatusId_ = subBuilder.buildPartial();
@@ -739,13 +739,13 @@ public final class OmGetCamPeriodStatusValuesAd {
       }
 
       public static final int PERIOD_STATUS_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue periodStatusDescription_;
+      private io.dstore.values.StringValue periodStatusDescription_;
       /**
        * <pre>
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
        */
       public boolean hasPeriodStatusDescription() {
         return periodStatusDescription_ != null;
@@ -755,30 +755,30 @@ public final class OmGetCamPeriodStatusValuesAd {
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getPeriodStatusDescription() {
-        return periodStatusDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : periodStatusDescription_;
+      public io.dstore.values.StringValue getPeriodStatusDescription() {
+        return periodStatusDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : periodStatusDescription_;
       }
       /**
        * <pre>
        * Klartext des Status-Wertes "PeriodStatusID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPeriodStatusDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPeriodStatusDescriptionOrBuilder() {
         return getPeriodStatusDescription();
       }
 
       public static final int PERIOD_STATUS_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue periodStatusId_;
+      private io.dstore.values.IntegerValue periodStatusId_;
       /**
        * <pre>
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
        */
       public boolean hasPeriodStatusId() {
         return periodStatusId_ != null;
@@ -788,19 +788,19 @@ public final class OmGetCamPeriodStatusValuesAd {
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getPeriodStatusId() {
-        return periodStatusId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : periodStatusId_;
+      public io.dstore.values.IntegerValue getPeriodStatusId() {
+        return periodStatusId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : periodStatusId_;
       }
       /**
        * <pre>
        * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPeriodStatusIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPeriodStatusIdOrBuilder() {
         return getPeriodStatusId();
       }
 
@@ -1159,15 +1159,15 @@ public final class OmGetCamPeriodStatusValuesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue periodStatusDescription_ = null;
+        private io.dstore.values.StringValue periodStatusDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> periodStatusDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> periodStatusDescriptionBuilder_;
         /**
          * <pre>
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
          */
         public boolean hasPeriodStatusDescription() {
           return periodStatusDescriptionBuilder_ != null || periodStatusDescription_ != null;
@@ -1177,11 +1177,11 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getPeriodStatusDescription() {
+        public io.dstore.values.StringValue getPeriodStatusDescription() {
           if (periodStatusDescriptionBuilder_ == null) {
-            return periodStatusDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : periodStatusDescription_;
+            return periodStatusDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : periodStatusDescription_;
           } else {
             return periodStatusDescriptionBuilder_.getMessage();
           }
@@ -1191,9 +1191,9 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
          */
-        public Builder setPeriodStatusDescription(io.dstore.Values.stringValue value) {
+        public Builder setPeriodStatusDescription(io.dstore.values.StringValue value) {
           if (periodStatusDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1211,10 +1211,10 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
          */
         public Builder setPeriodStatusDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (periodStatusDescriptionBuilder_ == null) {
             periodStatusDescription_ = builderForValue.build();
             onChanged();
@@ -1229,13 +1229,13 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
          */
-        public Builder mergePeriodStatusDescription(io.dstore.Values.stringValue value) {
+        public Builder mergePeriodStatusDescription(io.dstore.values.StringValue value) {
           if (periodStatusDescriptionBuilder_ == null) {
             if (periodStatusDescription_ != null) {
               periodStatusDescription_ =
-                io.dstore.Values.stringValue.newBuilder(periodStatusDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(periodStatusDescription_).mergeFrom(value).buildPartial();
             } else {
               periodStatusDescription_ = value;
             }
@@ -1251,7 +1251,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
          */
         public Builder clearPeriodStatusDescription() {
           if (periodStatusDescriptionBuilder_ == null) {
@@ -1269,9 +1269,9 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPeriodStatusDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getPeriodStatusDescriptionBuilder() {
           
           onChanged();
           return getPeriodStatusDescriptionFieldBuilder().getBuilder();
@@ -1281,14 +1281,14 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPeriodStatusDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPeriodStatusDescriptionOrBuilder() {
           if (periodStatusDescriptionBuilder_ != null) {
             return periodStatusDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return periodStatusDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : periodStatusDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : periodStatusDescription_;
           }
         }
         /**
@@ -1296,14 +1296,14 @@ public final class OmGetCamPeriodStatusValuesAd {
          * Klartext des Status-Wertes "PeriodStatusID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue period_status_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue period_status_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPeriodStatusDescriptionFieldBuilder() {
           if (periodStatusDescriptionBuilder_ == null) {
             periodStatusDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPeriodStatusDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1312,15 +1312,15 @@ public final class OmGetCamPeriodStatusValuesAd {
           return periodStatusDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue periodStatusId_ = null;
+        private io.dstore.values.IntegerValue periodStatusId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> periodStatusIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> periodStatusIdBuilder_;
         /**
          * <pre>
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public boolean hasPeriodStatusId() {
           return periodStatusIdBuilder_ != null || periodStatusId_ != null;
@@ -1330,11 +1330,11 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getPeriodStatusId() {
+        public io.dstore.values.IntegerValue getPeriodStatusId() {
           if (periodStatusIdBuilder_ == null) {
-            return periodStatusId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : periodStatusId_;
+            return periodStatusId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : periodStatusId_;
           } else {
             return periodStatusIdBuilder_.getMessage();
           }
@@ -1344,9 +1344,9 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
          */
-        public Builder setPeriodStatusId(io.dstore.Values.integerValue value) {
+        public Builder setPeriodStatusId(io.dstore.values.IntegerValue value) {
           if (periodStatusIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1364,10 +1364,10 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public Builder setPeriodStatusId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (periodStatusIdBuilder_ == null) {
             periodStatusId_ = builderForValue.build();
             onChanged();
@@ -1382,13 +1382,13 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
          */
-        public Builder mergePeriodStatusId(io.dstore.Values.integerValue value) {
+        public Builder mergePeriodStatusId(io.dstore.values.IntegerValue value) {
           if (periodStatusIdBuilder_ == null) {
             if (periodStatusId_ != null) {
               periodStatusId_ =
-                io.dstore.Values.integerValue.newBuilder(periodStatusId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(periodStatusId_).mergeFrom(value).buildPartial();
             } else {
               periodStatusId_ = value;
             }
@@ -1404,7 +1404,7 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         public Builder clearPeriodStatusId() {
           if (periodStatusIdBuilder_ == null) {
@@ -1422,9 +1422,9 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPeriodStatusIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPeriodStatusIdBuilder() {
           
           onChanged();
           return getPeriodStatusIdFieldBuilder().getBuilder();
@@ -1434,14 +1434,14 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPeriodStatusIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPeriodStatusIdOrBuilder() {
           if (periodStatusIdBuilder_ != null) {
             return periodStatusIdBuilder_.getMessageOrBuilder();
           } else {
             return periodStatusId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : periodStatusId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : periodStatusId_;
           }
         }
         /**
@@ -1449,14 +1449,14 @@ public final class OmGetCamPeriodStatusValuesAd {
          * ID eines Status-Wertes, in dem sich Gültigkeitszeiträume von Verkaufs-Aktionen befinden können
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue period_status_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue period_status_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPeriodStatusIdFieldBuilder() {
           if (periodStatusIdBuilder_ == null) {
             periodStatusIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPeriodStatusId(),
                     getParentForChildren(),
                     isClean());
@@ -2931,9 +2931,9 @@ public final class OmGetCamPeriodStatusValuesAd {
       "sage\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_Get" +
       "CamPeriodStatusValues_Ad.Response.Row\032\216\001" +
       "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\031period_status_",
-      "description\030\221N \001(\0132\032.dstore.values.strin" +
+      "description\030\221N \001(\0132\032.dstore.values.Strin" +
       "gValue\0226\n\020period_status_id\030\222N \001(\0132\033.dsto" +
-      "re.values.integerValueB_\n\033io.dstore.engi" +
+      "re.values.IntegerValueB_\n\033io.dstore.engi" +
       "ne.proceduresZ@gosdk.dstore.de/engine/pr" +
       "ocedures/om_GetCamPeriodStatusValues_Adb" +
       "\006proto3"
@@ -2949,7 +2949,7 @@ public final class OmGetCamPeriodStatusValuesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetCamPeriodStatusValues_Ad_Parameters_descriptor =
@@ -2970,7 +2970,7 @@ public final class OmGetCamPeriodStatusValuesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCamPeriodStatusValues_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PeriodStatusDescription", "PeriodStatusId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

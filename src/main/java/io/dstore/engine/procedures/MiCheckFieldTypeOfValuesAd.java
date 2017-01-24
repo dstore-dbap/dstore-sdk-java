@@ -19,17 +19,17 @@ public final class MiCheckFieldTypeOfValuesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue value = 1;</code>
+     * <code>optional .dstore.values.StringValue value = 1;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 1;</code>
+     * <code>optional .dstore.values.StringValue value = 1;</code>
      */
-    io.dstore.Values.stringValue getValue();
+    io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 1;</code>
+     * <code>optional .dstore.values.StringValue value = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
      * <code>optional bool value_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiCheckFieldTypeOfValuesAd {
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
      */
     boolean hasFieldTypeId();
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getFieldTypeId();
+    io.dstore.values.IntegerValue getFieldTypeId();
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder();
 
     /**
      * <code>optional bool field_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiCheckFieldTypeOfValuesAd {
     boolean getFieldTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.StringValue country = 3;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.StringValue country = 3;</code>
      */
-    io.dstore.Values.stringValue getCountry();
+    io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.StringValue country = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
      * <code>optional bool country_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiCheckFieldTypeOfValuesAd {
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
      */
     boolean hasUseOldVersion();
     /**
-     * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
      */
-    io.dstore.Values.booleanValue getUseOldVersion();
+    io.dstore.values.BooleanValue getUseOldVersion();
     /**
-     * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getUseOldVersionOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getUseOldVersionOrBuilder();
 
     /**
      * <code>optional bool use_old_version_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class MiCheckFieldTypeOfValuesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class MiCheckFieldTypeOfValuesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (fieldTypeId_ != null) {
                 subBuilder = fieldTypeId_.toBuilder();
               }
-              fieldTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              fieldTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fieldTypeId_);
                 fieldTypeId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class MiCheckFieldTypeOfValuesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              country_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class MiCheckFieldTypeOfValuesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (useOldVersion_ != null) {
                 subBuilder = useOldVersion_.toBuilder();
               }
-              useOldVersion_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              useOldVersion_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(useOldVersion_);
                 useOldVersion_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class MiCheckFieldTypeOfValuesAd {
     }
 
     public static final int VALUE_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue value_;
+    private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.stringValue value = 1;</code>
+     * <code>optional .dstore.values.StringValue value = 1;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 1;</code>
+     * <code>optional .dstore.values.StringValue value = 1;</code>
      */
-    public io.dstore.Values.stringValue getValue() {
-      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    public io.dstore.values.StringValue getValue() {
+      return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 1;</code>
+     * <code>optional .dstore.values.StringValue value = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -259,23 +259,23 @@ public final class MiCheckFieldTypeOfValuesAd {
     }
 
     public static final int FIELD_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue fieldTypeId_;
+    private io.dstore.values.IntegerValue fieldTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
      */
     public boolean hasFieldTypeId() {
       return fieldTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getFieldTypeId() {
-      return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+    public io.dstore.values.IntegerValue getFieldTypeId() {
+      return fieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
       return getFieldTypeId();
     }
 
@@ -289,23 +289,23 @@ public final class MiCheckFieldTypeOfValuesAd {
     }
 
     public static final int COUNTRY_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue country_;
+    private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.StringValue country = 3;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.StringValue country = 3;</code>
      */
-    public io.dstore.Values.stringValue getCountry() {
-      return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+    public io.dstore.values.StringValue getCountry() {
+      return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 3;</code>
+     * <code>optional .dstore.values.StringValue country = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
@@ -319,23 +319,23 @@ public final class MiCheckFieldTypeOfValuesAd {
     }
 
     public static final int USE_OLD_VERSION_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue useOldVersion_;
+    private io.dstore.values.BooleanValue useOldVersion_;
     /**
-     * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
      */
     public boolean hasUseOldVersion() {
       return useOldVersion_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
      */
-    public io.dstore.Values.booleanValue getUseOldVersion() {
-      return useOldVersion_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : useOldVersion_;
+    public io.dstore.values.BooleanValue getUseOldVersion() {
+      return useOldVersion_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : useOldVersion_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+     * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getUseOldVersionOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getUseOldVersionOrBuilder() {
       return getUseOldVersion();
     }
 
@@ -792,29 +792,29 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue value_ = null;
+      private io.dstore.values.StringValue value_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue value = 1;</code>
+       * <code>optional .dstore.values.StringValue value = 1;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 1;</code>
+       * <code>optional .dstore.values.StringValue value = 1;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
+      public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 1;</code>
+       * <code>optional .dstore.values.StringValue value = 1;</code>
        */
-      public Builder setValue(io.dstore.Values.stringValue value) {
+      public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 1;</code>
+       * <code>optional .dstore.values.StringValue value = 1;</code>
        */
       public Builder setValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 1;</code>
+       * <code>optional .dstore.values.StringValue value = 1;</code>
        */
-      public Builder mergeValue(io.dstore.Values.stringValue value) {
+      public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -860,7 +860,7 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 1;</code>
+       * <code>optional .dstore.values.StringValue value = 1;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 1;</code>
+       * <code>optional .dstore.values.StringValue value = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+      public io.dstore.values.StringValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 1;</code>
+       * <code>optional .dstore.values.StringValue value = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+              io.dstore.values.StringValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 1;</code>
+       * <code>optional .dstore.values.StringValue value = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue fieldTypeId_ = null;
+      private io.dstore.values.IntegerValue fieldTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fieldTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
        */
       public boolean hasFieldTypeId() {
         return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getFieldTypeId() {
+      public io.dstore.values.IntegerValue getFieldTypeId() {
         if (fieldTypeIdBuilder_ == null) {
-          return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+          return fieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
         } else {
           return fieldTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
        */
-      public Builder setFieldTypeId(io.dstore.Values.integerValue value) {
+      public Builder setFieldTypeId(io.dstore.values.IntegerValue value) {
         if (fieldTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
        */
       public Builder setFieldTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (fieldTypeIdBuilder_ == null) {
           fieldTypeId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
        */
-      public Builder mergeFieldTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeFieldTypeId(io.dstore.values.IntegerValue value) {
         if (fieldTypeIdBuilder_ == null) {
           if (fieldTypeId_ != null) {
             fieldTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
           } else {
             fieldTypeId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
        */
       public Builder clearFieldTypeId() {
         if (fieldTypeIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFieldTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFieldTypeIdBuilder() {
         
         onChanged();
         return getFieldTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
         if (fieldTypeIdBuilder_ != null) {
           return fieldTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return fieldTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue field_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFieldTypeIdFieldBuilder() {
         if (fieldTypeIdBuilder_ == null) {
           fieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFieldTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue country_ = null;
+      private io.dstore.values.StringValue country_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.StringValue country = 3;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.StringValue country = 3;</code>
        */
-      public io.dstore.Values.stringValue getCountry() {
+      public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
-          return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+          return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
         } else {
           return countryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.StringValue country = 3;</code>
        */
-      public Builder setCountry(io.dstore.Values.stringValue value) {
+      public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.StringValue country = 3;</code>
        */
       public Builder setCountry(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (countryBuilder_ == null) {
           country_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.StringValue country = 3;</code>
        */
-      public Builder mergeCountry(io.dstore.Values.stringValue value) {
+      public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (country_ != null) {
             country_ =
-              io.dstore.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(country_).mergeFrom(value).buildPartial();
           } else {
             country_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.StringValue country = 3;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.StringValue country = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCountryBuilder() {
+      public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
         onChanged();
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.StringValue country = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
           return countryBuilder_.getMessageOrBuilder();
         } else {
           return country_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : country_;
+              io.dstore.values.StringValue.getDefaultInstance() : country_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 3;</code>
+       * <code>optional .dstore.values.StringValue country = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
           countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue useOldVersion_ = null;
+      private io.dstore.values.BooleanValue useOldVersion_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> useOldVersionBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> useOldVersionBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
        */
       public boolean hasUseOldVersion() {
         return useOldVersionBuilder_ != null || useOldVersion_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
        */
-      public io.dstore.Values.booleanValue getUseOldVersion() {
+      public io.dstore.values.BooleanValue getUseOldVersion() {
         if (useOldVersionBuilder_ == null) {
-          return useOldVersion_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : useOldVersion_;
+          return useOldVersion_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : useOldVersion_;
         } else {
           return useOldVersionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
        */
-      public Builder setUseOldVersion(io.dstore.Values.booleanValue value) {
+      public Builder setUseOldVersion(io.dstore.values.BooleanValue value) {
         if (useOldVersionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
        */
       public Builder setUseOldVersion(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (useOldVersionBuilder_ == null) {
           useOldVersion_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
        */
-      public Builder mergeUseOldVersion(io.dstore.Values.booleanValue value) {
+      public Builder mergeUseOldVersion(io.dstore.values.BooleanValue value) {
         if (useOldVersionBuilder_ == null) {
           if (useOldVersion_ != null) {
             useOldVersion_ =
-              io.dstore.Values.booleanValue.newBuilder(useOldVersion_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(useOldVersion_).mergeFrom(value).buildPartial();
           } else {
             useOldVersion_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
        */
       public Builder clearUseOldVersion() {
         if (useOldVersionBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class MiCheckFieldTypeOfValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getUseOldVersionBuilder() {
+      public io.dstore.values.BooleanValue.Builder getUseOldVersionBuilder() {
         
         onChanged();
         return getUseOldVersionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUseOldVersionOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUseOldVersionOrBuilder() {
         if (useOldVersionBuilder_ != null) {
           return useOldVersionBuilder_.getMessageOrBuilder();
         } else {
           return useOldVersion_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : useOldVersion_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : useOldVersion_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue use_old_version = 4;</code>
+       * <code>optional .dstore.values.BooleanValue use_old_version = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getUseOldVersionFieldBuilder() {
         if (useOldVersionBuilder_ == null) {
           useOldVersionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getUseOldVersion(),
                   getParentForChildren(),
                   isClean());
@@ -1623,7 +1623,7 @@ public final class MiCheckFieldTypeOfValuesAd {
        * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       boolean hasFieldTypeId();
       /**
@@ -1631,24 +1631,24 @@ public final class MiCheckFieldTypeOfValuesAd {
        * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getFieldTypeId();
+      io.dstore.values.IntegerValue getFieldTypeId();
       /**
        * <pre>
        * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder();
 
       /**
        * <pre>
        * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -1656,24 +1656,24 @@ public final class MiCheckFieldTypeOfValuesAd {
        * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
        */
       boolean hasErrorCode();
       /**
@@ -1681,24 +1681,24 @@ public final class MiCheckFieldTypeOfValuesAd {
        * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
        */
-      io.dstore.Values.integerValue getErrorCode();
+      io.dstore.values.IntegerValue getErrorCode();
       /**
        * <pre>
        * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder();
 
       /**
        * <pre>
        * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+       * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
        */
       boolean hasAlteredValue();
       /**
@@ -1706,17 +1706,17 @@ public final class MiCheckFieldTypeOfValuesAd {
        * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+       * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
        */
-      io.dstore.Values.stringValue getAlteredValue();
+      io.dstore.values.StringValue getAlteredValue();
       /**
        * <pre>
        * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+       * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getAlteredValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getAlteredValueOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_CheckFieldTypeOfValues_Ad.Response.Row}
@@ -1764,11 +1764,11 @@ public final class MiCheckFieldTypeOfValuesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (fieldTypeId_ != null) {
                   subBuilder = fieldTypeId_.toBuilder();
                 }
-                fieldTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                fieldTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fieldTypeId_);
                   fieldTypeId_ = subBuilder.buildPartial();
@@ -1777,11 +1777,11 @@ public final class MiCheckFieldTypeOfValuesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1790,11 +1790,11 @@ public final class MiCheckFieldTypeOfValuesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (errorCode_ != null) {
                   subBuilder = errorCode_.toBuilder();
                 }
-                errorCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                errorCode_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(errorCode_);
                   errorCode_ = subBuilder.buildPartial();
@@ -1803,11 +1803,11 @@ public final class MiCheckFieldTypeOfValuesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (alteredValue_ != null) {
                   subBuilder = alteredValue_.toBuilder();
                 }
-                alteredValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                alteredValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(alteredValue_);
                   alteredValue_ = subBuilder.buildPartial();
@@ -1848,13 +1848,13 @@ public final class MiCheckFieldTypeOfValuesAd {
       }
 
       public static final int FIELD_TYPE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue fieldTypeId_;
+      private io.dstore.values.IntegerValue fieldTypeId_;
       /**
        * <pre>
        * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       public boolean hasFieldTypeId() {
         return fieldTypeId_ != null;
@@ -1864,30 +1864,30 @@ public final class MiCheckFieldTypeOfValuesAd {
        * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getFieldTypeId() {
-        return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+      public io.dstore.values.IntegerValue getFieldTypeId() {
+        return fieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
       }
       /**
        * <pre>
        * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
         return getFieldTypeId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1897,30 +1897,30 @@ public final class MiCheckFieldTypeOfValuesAd {
        * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int ERROR_CODE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue errorCode_;
+      private io.dstore.values.IntegerValue errorCode_;
       /**
        * <pre>
        * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
@@ -1930,30 +1930,30 @@ public final class MiCheckFieldTypeOfValuesAd {
        * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
        */
-      public io.dstore.Values.integerValue getErrorCode() {
-        return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
+      public io.dstore.values.IntegerValue getErrorCode() {
+        return errorCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
       }
       /**
        * <pre>
        * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
       }
 
       public static final int ALTERED_VALUE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue alteredValue_;
+      private io.dstore.values.StringValue alteredValue_;
       /**
        * <pre>
        * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+       * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
        */
       public boolean hasAlteredValue() {
         return alteredValue_ != null;
@@ -1963,19 +1963,19 @@ public final class MiCheckFieldTypeOfValuesAd {
        * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+       * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
        */
-      public io.dstore.Values.stringValue getAlteredValue() {
-        return alteredValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : alteredValue_;
+      public io.dstore.values.StringValue getAlteredValue() {
+        return alteredValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : alteredValue_;
       }
       /**
        * <pre>
        * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+       * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getAlteredValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getAlteredValueOrBuilder() {
         return getAlteredValue();
       }
 
@@ -2394,15 +2394,15 @@ public final class MiCheckFieldTypeOfValuesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue fieldTypeId_ = null;
+        private io.dstore.values.IntegerValue fieldTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fieldTypeIdBuilder_;
         /**
          * <pre>
          * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public boolean hasFieldTypeId() {
           return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
@@ -2412,11 +2412,11 @@ public final class MiCheckFieldTypeOfValuesAd {
          * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getFieldTypeId() {
+        public io.dstore.values.IntegerValue getFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
-            return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+            return fieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
           } else {
             return fieldTypeIdBuilder_.getMessage();
           }
@@ -2426,9 +2426,9 @@ public final class MiCheckFieldTypeOfValuesAd {
          * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public Builder setFieldTypeId(io.dstore.Values.integerValue value) {
+        public Builder setFieldTypeId(io.dstore.values.IntegerValue value) {
           if (fieldTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2446,10 +2446,10 @@ public final class MiCheckFieldTypeOfValuesAd {
          * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public Builder setFieldTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (fieldTypeIdBuilder_ == null) {
             fieldTypeId_ = builderForValue.build();
             onChanged();
@@ -2464,13 +2464,13 @@ public final class MiCheckFieldTypeOfValuesAd {
          * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public Builder mergeFieldTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeFieldTypeId(io.dstore.values.IntegerValue value) {
           if (fieldTypeIdBuilder_ == null) {
             if (fieldTypeId_ != null) {
               fieldTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
             } else {
               fieldTypeId_ = value;
             }
@@ -2486,7 +2486,7 @@ public final class MiCheckFieldTypeOfValuesAd {
          * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public Builder clearFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
@@ -2504,9 +2504,9 @@ public final class MiCheckFieldTypeOfValuesAd {
          * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getFieldTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getFieldTypeIdBuilder() {
           
           onChanged();
           return getFieldTypeIdFieldBuilder().getBuilder();
@@ -2516,14 +2516,14 @@ public final class MiCheckFieldTypeOfValuesAd {
          * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
           if (fieldTypeIdBuilder_ != null) {
             return fieldTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return fieldTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
           }
         }
         /**
@@ -2531,14 +2531,14 @@ public final class MiCheckFieldTypeOfValuesAd {
          * ID eines "Feld-Typs" (mögliche Werte : s. "mi_GetFieldTypes_Ad"), der das Format beschreibt, welches "Value" je nach "ErrorCode" erfüllt oder nicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getFieldTypeIdFieldBuilder() {
           if (fieldTypeIdBuilder_ == null) {
             fieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getFieldTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2547,15 +2547,15 @@ public final class MiCheckFieldTypeOfValuesAd {
           return fieldTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2565,11 +2565,11 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -2579,9 +2579,9 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2599,10 +2599,10 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2617,13 +2617,13 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2639,7 +2639,7 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2657,9 +2657,9 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -2669,14 +2669,14 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -2684,14 +2684,14 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Ein zu untersuchender Wert - entspricht also "&#64;Value" bzw. einem "Value"-Wert aus "tempdb.dbo.CharacteristicValues"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2700,15 +2700,15 @@ public final class MiCheckFieldTypeOfValuesAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.integerValue errorCode_ = null;
+        private io.dstore.values.IntegerValue errorCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> errorCodeBuilder_;
         /**
          * <pre>
          * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
@@ -2718,11 +2718,11 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
          */
-        public io.dstore.Values.integerValue getErrorCode() {
+        public io.dstore.values.IntegerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
-            return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
+            return errorCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
           } else {
             return errorCodeBuilder_.getMessage();
           }
@@ -2732,9 +2732,9 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
          */
-        public Builder setErrorCode(io.dstore.Values.integerValue value) {
+        public Builder setErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2752,10 +2752,10 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
          */
         public Builder setErrorCode(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (errorCodeBuilder_ == null) {
             errorCode_ = builderForValue.build();
             onChanged();
@@ -2770,13 +2770,13 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
          */
-        public Builder mergeErrorCode(io.dstore.Values.integerValue value) {
+        public Builder mergeErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
             if (errorCode_ != null) {
               errorCode_ =
-                io.dstore.Values.integerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
             } else {
               errorCode_ = value;
             }
@@ -2792,7 +2792,7 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -2810,9 +2810,9 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getErrorCodeBuilder() {
+        public io.dstore.values.IntegerValue.Builder getErrorCodeBuilder() {
           
           onChanged();
           return getErrorCodeFieldBuilder().getBuilder();
@@ -2822,14 +2822,14 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
             return errorCodeBuilder_.getMessageOrBuilder();
           } else {
             return errorCode_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
           }
         }
         /**
@@ -2837,14 +2837,14 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Das Ergebnis :- "0" : Alles ok, der Wert kann so übernommen werden- "1" : Alles ok, aber der Wert mußte umformatiert werden (-&gt; "AlteredValue"), z.B. bei Datumsangaben, wenn 'german' für "&#64;Country" übergeben wurde- "2" : Falsches Format
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getErrorCodeFieldBuilder() {
           if (errorCodeBuilder_ == null) {
             errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getErrorCode(),
                     getParentForChildren(),
                     isClean());
@@ -2853,15 +2853,15 @@ public final class MiCheckFieldTypeOfValuesAd {
           return errorCodeBuilder_;
         }
 
-        private io.dstore.Values.stringValue alteredValue_ = null;
+        private io.dstore.values.StringValue alteredValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> alteredValueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> alteredValueBuilder_;
         /**
          * <pre>
          * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+         * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
          */
         public boolean hasAlteredValue() {
           return alteredValueBuilder_ != null || alteredValue_ != null;
@@ -2871,11 +2871,11 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+         * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
          */
-        public io.dstore.Values.stringValue getAlteredValue() {
+        public io.dstore.values.StringValue getAlteredValue() {
           if (alteredValueBuilder_ == null) {
-            return alteredValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : alteredValue_;
+            return alteredValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : alteredValue_;
           } else {
             return alteredValueBuilder_.getMessage();
           }
@@ -2885,9 +2885,9 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+         * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
          */
-        public Builder setAlteredValue(io.dstore.Values.stringValue value) {
+        public Builder setAlteredValue(io.dstore.values.StringValue value) {
           if (alteredValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2905,10 +2905,10 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+         * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
          */
         public Builder setAlteredValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (alteredValueBuilder_ == null) {
             alteredValue_ = builderForValue.build();
             onChanged();
@@ -2923,13 +2923,13 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+         * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
          */
-        public Builder mergeAlteredValue(io.dstore.Values.stringValue value) {
+        public Builder mergeAlteredValue(io.dstore.values.StringValue value) {
           if (alteredValueBuilder_ == null) {
             if (alteredValue_ != null) {
               alteredValue_ =
-                io.dstore.Values.stringValue.newBuilder(alteredValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(alteredValue_).mergeFrom(value).buildPartial();
             } else {
               alteredValue_ = value;
             }
@@ -2945,7 +2945,7 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+         * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
          */
         public Builder clearAlteredValue() {
           if (alteredValueBuilder_ == null) {
@@ -2963,9 +2963,9 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+         * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getAlteredValueBuilder() {
+        public io.dstore.values.StringValue.Builder getAlteredValueBuilder() {
           
           onChanged();
           return getAlteredValueFieldBuilder().getBuilder();
@@ -2975,14 +2975,14 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+         * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getAlteredValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getAlteredValueOrBuilder() {
           if (alteredValueBuilder_ != null) {
             return alteredValueBuilder_.getMessageOrBuilder();
           } else {
             return alteredValue_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : alteredValue_;
+                io.dstore.values.StringValue.getDefaultInstance() : alteredValue_;
           }
         }
         /**
@@ -2990,14 +2990,14 @@ public final class MiCheckFieldTypeOfValuesAd {
          * Immer "NULL", außer im Fall "ErrorCode = 1". In diesem Fall würde intern nicht der (ursprünglich) übergebene Wert "Value" gespeichert werden, sondern dieser hier !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue altered_value = 10004;</code>
+         * <code>optional .dstore.values.StringValue altered_value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getAlteredValueFieldBuilder() {
           if (alteredValueBuilder_ == null) {
             alteredValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getAlteredValue(),
                     getParentForChildren(),
                     isClean());
@@ -4467,23 +4467,23 @@ public final class MiCheckFieldTypeOfValuesAd {
       "CheckFieldTypeOfValues_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\266\002\n\nP" +
       "arameters\022)\n\005value\030\001 \001(\0132\032.dstore.values" +
-      ".stringValue\022\023\n\nvalue_null\030\351\007 \001(\010\0222\n\rfie" +
-      "ld_type_id\030\002 \001(\0132\033.dstore.values.integer" +
+      ".StringValue\022\023\n\nvalue_null\030\351\007 \001(\010\0222\n\rfie" +
+      "ld_type_id\030\002 \001(\0132\033.dstore.values.Integer" +
       "Value\022\033\n\022field_type_id_null\030\352\007 \001(\010\022+\n\007co" +
-      "untry\030\003 \001(\0132\032.dstore.values.stringValue\022" +
+      "untry\030\003 \001(\0132\032.dstore.values.StringValue\022" +
       "\025\n\014country_null\030\353\007 \001(\010\0224\n\017use_old_versio",
-      "n\030\004 \001(\0132\033.dstore.values.booleanValue\022\035\n\024" +
+      "n\030\004 \001(\0132\033.dstore.values.BooleanValue\022\035\n\024" +
       "use_old_version_null\030\354\007 \001(\010\"\224\003\n\010Response" +
       "\0228\n\020meta_information\030\002 \003(\0132\036.dstore.engi" +
       "ne.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.ds" +
       "tore.engine.Message\022E\n\003row\030\004 \003(\01328.dstor" +
       "e.engine.mi_CheckFieldTypeOfValues_Ad.Re" +
       "sponse.Row\032\335\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0223\n\rf" +
-      "ield_type_id\030\221N \001(\0132\033.dstore.values.inte" +
+      "ield_type_id\030\221N \001(\0132\033.dstore.values.Inte" +
       "gerValue\022*\n\005value\030\222N \001(\0132\032.dstore.values" +
-      ".stringValue\0220\n\nerror_code\030\223N \001(\0132\033.dsto",
-      "re.values.integerValue\0222\n\raltered_value\030" +
-      "\224N \001(\0132\032.dstore.values.stringValueB]\n\033io" +
+      ".StringValue\0220\n\nerror_code\030\223N \001(\0132\033.dsto",
+      "re.values.IntegerValue\0222\n\raltered_value\030" +
+      "\224N \001(\0132\032.dstore.values.StringValueB]\n\033io" +
       ".dstore.engine.proceduresZ>gosdk.dstore." +
       "de/engine/procedures/mi_CheckFieldTypeOf" +
       "Values_Adb\006proto3"
@@ -4499,7 +4499,7 @@ public final class MiCheckFieldTypeOfValuesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_CheckFieldTypeOfValues_Ad_Parameters_descriptor =
@@ -4520,7 +4520,7 @@ public final class MiCheckFieldTypeOfValuesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_CheckFieldTypeOfValues_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "FieldTypeId", "Value", "ErrorCode", "AlteredValue", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

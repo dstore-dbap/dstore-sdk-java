@@ -19,17 +19,17 @@ public final class OmModifyVoucherTypeSurchAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     boolean hasVoucherTypeId();
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getVoucherTypeId();
+    io.dstore.values.IntegerValue getVoucherTypeId();
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder();
 
     /**
      * <code>optional bool voucher_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifyVoucherTypeSurchAd {
     boolean getVoucherTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     boolean hasSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getSurchargeTypeId();
+    io.dstore.values.IntegerValue getSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
     /**
      * <code>optional bool surcharge_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifyVoucherTypeSurchAd {
     boolean getSurchargeTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     boolean hasSurchargeValue();
     /**
-     * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
      */
-    io.dstore.Values.decimalValue getSurchargeValue();
+    io.dstore.values.DecimalValue getSurchargeValue();
     /**
-     * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder();
 
     /**
      * <code>optional bool surcharge_value_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmModifyVoucherTypeSurchAd {
     boolean getSurchargeValueNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
      */
     boolean hasDeleteSurcharge();
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
      */
-    io.dstore.Values.booleanValue getDeleteSurcharge();
+    io.dstore.values.BooleanValue getDeleteSurcharge();
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteSurchargeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteSurchargeOrBuilder();
 
     /**
      * <code>optional bool delete_surcharge_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class OmModifyVoucherTypeSurchAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (voucherTypeId_ != null) {
                 subBuilder = voucherTypeId_.toBuilder();
               }
-              voucherTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              voucherTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(voucherTypeId_);
                 voucherTypeId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class OmModifyVoucherTypeSurchAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (surchargeTypeId_ != null) {
                 subBuilder = surchargeTypeId_.toBuilder();
               }
-              surchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              surchargeTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(surchargeTypeId_);
                 surchargeTypeId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class OmModifyVoucherTypeSurchAd {
               break;
             }
             case 26: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (surchargeValue_ != null) {
                 subBuilder = surchargeValue_.toBuilder();
               }
-              surchargeValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              surchargeValue_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(surchargeValue_);
                 surchargeValue_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class OmModifyVoucherTypeSurchAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteSurcharge_ != null) {
                 subBuilder = deleteSurcharge_.toBuilder();
               }
-              deleteSurcharge_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteSurcharge_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteSurcharge_);
                 deleteSurcharge_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class OmModifyVoucherTypeSurchAd {
     }
 
     public static final int VOUCHER_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue voucherTypeId_;
+    private io.dstore.values.IntegerValue voucherTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
     public boolean hasVoucherTypeId() {
       return voucherTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getVoucherTypeId() {
-      return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+    public io.dstore.values.IntegerValue getVoucherTypeId() {
+      return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
       return getVoucherTypeId();
     }
 
@@ -259,23 +259,23 @@ public final class OmModifyVoucherTypeSurchAd {
     }
 
     public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue surchargeTypeId_;
+    private io.dstore.values.IntegerValue surchargeTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
     public boolean hasSurchargeTypeId() {
       return surchargeTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getSurchargeTypeId() {
-      return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+    public io.dstore.values.IntegerValue getSurchargeTypeId() {
+      return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
       return getSurchargeTypeId();
     }
 
@@ -289,23 +289,23 @@ public final class OmModifyVoucherTypeSurchAd {
     }
 
     public static final int SURCHARGE_VALUE_FIELD_NUMBER = 3;
-    private io.dstore.Values.decimalValue surchargeValue_;
+    private io.dstore.values.DecimalValue surchargeValue_;
     /**
-     * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
      */
     public boolean hasSurchargeValue() {
       return surchargeValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
      */
-    public io.dstore.Values.decimalValue getSurchargeValue() {
-      return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+    public io.dstore.values.DecimalValue getSurchargeValue() {
+      return surchargeValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : surchargeValue_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+     * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
       return getSurchargeValue();
     }
 
@@ -319,23 +319,23 @@ public final class OmModifyVoucherTypeSurchAd {
     }
 
     public static final int DELETE_SURCHARGE_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue deleteSurcharge_;
+    private io.dstore.values.BooleanValue deleteSurcharge_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
      */
     public boolean hasDeleteSurcharge() {
       return deleteSurcharge_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteSurcharge() {
-      return deleteSurcharge_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteSurcharge_;
+    public io.dstore.values.BooleanValue getDeleteSurcharge() {
+      return deleteSurcharge_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteSurcharge_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteSurchargeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteSurchargeOrBuilder() {
       return getDeleteSurcharge();
     }
 
@@ -792,29 +792,29 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue voucherTypeId_ = null;
+      private io.dstore.values.IntegerValue voucherTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> voucherTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> voucherTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public boolean hasVoucherTypeId() {
         return voucherTypeIdBuilder_ != null || voucherTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getVoucherTypeId() {
+      public io.dstore.values.IntegerValue getVoucherTypeId() {
         if (voucherTypeIdBuilder_ == null) {
-          return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+          return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
         } else {
           return voucherTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public Builder setVoucherTypeId(io.dstore.Values.integerValue value) {
+      public Builder setVoucherTypeId(io.dstore.values.IntegerValue value) {
         if (voucherTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public Builder setVoucherTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (voucherTypeIdBuilder_ == null) {
           voucherTypeId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public Builder mergeVoucherTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeVoucherTypeId(io.dstore.values.IntegerValue value) {
         if (voucherTypeIdBuilder_ == null) {
           if (voucherTypeId_ != null) {
             voucherTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
           } else {
             voucherTypeId_ = value;
           }
@@ -860,7 +860,7 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       public Builder clearVoucherTypeId() {
         if (voucherTypeIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getVoucherTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getVoucherTypeIdBuilder() {
         
         onChanged();
         return getVoucherTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
         if (voucherTypeIdBuilder_ != null) {
           return voucherTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return voucherTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getVoucherTypeIdFieldBuilder() {
         if (voucherTypeIdBuilder_ == null) {
           voucherTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getVoucherTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue surchargeTypeId_ = null;
+      private io.dstore.values.IntegerValue surchargeTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getSurchargeTypeId() {
+      public io.dstore.values.IntegerValue getSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
-          return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+          return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
         } else {
           return surchargeTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
+      public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder setSurchargeTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (surchargeTypeId_ != null) {
             surchargeTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
           } else {
             surchargeTypeId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       public Builder clearSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
         
         onChanged();
         return getSurchargeTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         if (surchargeTypeIdBuilder_ != null) {
           return surchargeTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return surchargeTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSurchargeTypeIdFieldBuilder() {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSurchargeTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
 
-      private io.dstore.Values.decimalValue surchargeValue_ = null;
+      private io.dstore.values.DecimalValue surchargeValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> surchargeValueBuilder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> surchargeValueBuilder_;
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public boolean hasSurchargeValue() {
         return surchargeValueBuilder_ != null || surchargeValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
        */
-      public io.dstore.Values.decimalValue getSurchargeValue() {
+      public io.dstore.values.DecimalValue getSurchargeValue() {
         if (surchargeValueBuilder_ == null) {
-          return surchargeValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+          return surchargeValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : surchargeValue_;
         } else {
           return surchargeValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
        */
-      public Builder setSurchargeValue(io.dstore.Values.decimalValue value) {
+      public Builder setSurchargeValue(io.dstore.values.DecimalValue value) {
         if (surchargeValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder setSurchargeValue(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (surchargeValueBuilder_ == null) {
           surchargeValue_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
        */
-      public Builder mergeSurchargeValue(io.dstore.Values.decimalValue value) {
+      public Builder mergeSurchargeValue(io.dstore.values.DecimalValue value) {
         if (surchargeValueBuilder_ == null) {
           if (surchargeValue_ != null) {
             surchargeValue_ =
-              io.dstore.Values.decimalValue.newBuilder(surchargeValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(surchargeValue_).mergeFrom(value).buildPartial();
           } else {
             surchargeValue_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       public Builder clearSurchargeValue() {
         if (surchargeValueBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getSurchargeValueBuilder() {
+      public io.dstore.values.DecimalValue.Builder getSurchargeValueBuilder() {
         
         onChanged();
         return getSurchargeValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getSurchargeValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getSurchargeValueOrBuilder() {
         if (surchargeValueBuilder_ != null) {
           return surchargeValueBuilder_.getMessageOrBuilder();
         } else {
           return surchargeValue_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : surchargeValue_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : surchargeValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue surcharge_value = 3;</code>
+       * <code>optional .dstore.values.DecimalValue surcharge_value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getSurchargeValueFieldBuilder() {
         if (surchargeValueBuilder_ == null) {
           surchargeValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getSurchargeValue(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteSurcharge_ = null;
+      private io.dstore.values.BooleanValue deleteSurcharge_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteSurchargeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteSurchargeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
        */
       public boolean hasDeleteSurcharge() {
         return deleteSurchargeBuilder_ != null || deleteSurcharge_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteSurcharge() {
+      public io.dstore.values.BooleanValue getDeleteSurcharge() {
         if (deleteSurchargeBuilder_ == null) {
-          return deleteSurcharge_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteSurcharge_;
+          return deleteSurcharge_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteSurcharge_;
         } else {
           return deleteSurchargeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
        */
-      public Builder setDeleteSurcharge(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteSurcharge(io.dstore.values.BooleanValue value) {
         if (deleteSurchargeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
        */
       public Builder setDeleteSurcharge(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteSurchargeBuilder_ == null) {
           deleteSurcharge_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
        */
-      public Builder mergeDeleteSurcharge(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteSurcharge(io.dstore.values.BooleanValue value) {
         if (deleteSurchargeBuilder_ == null) {
           if (deleteSurcharge_ != null) {
             deleteSurcharge_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteSurcharge_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteSurcharge_).mergeFrom(value).buildPartial();
           } else {
             deleteSurcharge_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
        */
       public Builder clearDeleteSurcharge() {
         if (deleteSurchargeBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class OmModifyVoucherTypeSurchAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteSurchargeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteSurchargeBuilder() {
         
         onChanged();
         return getDeleteSurchargeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteSurchargeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteSurchargeOrBuilder() {
         if (deleteSurchargeBuilder_ != null) {
           return deleteSurchargeBuilder_.getMessageOrBuilder();
         } else {
           return deleteSurcharge_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteSurcharge_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteSurcharge_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteSurchargeFieldBuilder() {
         if (deleteSurchargeBuilder_ == null) {
           deleteSurchargeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteSurcharge(),
                   getParentForChildren(),
                   isClean());
@@ -3451,13 +3451,13 @@ public final class OmModifyVoucherTypeSurchAd {
       "ModifyVoucherTypeSurch_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\346\002\n\nP" +
       "arameters\0224\n\017voucher_type_id\030\001 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\035\n\024voucher_type_" +
+      "ore.values.IntegerValue\022\035\n\024voucher_type_" +
       "id_null\030\351\007 \001(\010\0226\n\021surcharge_type_id\030\002 \001(" +
-      "\0132\033.dstore.values.integerValue\022\037\n\026surcha" +
+      "\0132\033.dstore.values.IntegerValue\022\037\n\026surcha" +
       "rge_type_id_null\030\352\007 \001(\010\0224\n\017surcharge_val" +
-      "ue\030\003 \001(\0132\033.dstore.values.decimalValue\022\035\n",
+      "ue\030\003 \001(\0132\033.dstore.values.DecimalValue\022\035\n",
       "\024surcharge_value_null\030\353\007 \001(\010\0225\n\020delete_s" +
-      "urcharge\030\004 \001(\0132\033.dstore.values.booleanVa" +
+      "urcharge\030\004 \001(\0132\033.dstore.values.BooleanVa" +
       "lue\022\036\n\025delete_surcharge_null\030\354\007 \001(\010\"\314\001\n\010" +
       "Response\0228\n\020meta_information\030\002 \003(\0132\036.dst" +
       "ore.engine.MetaInformation\022\'\n\007message\030\003 " +
@@ -3479,7 +3479,7 @@ public final class OmModifyVoucherTypeSurchAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifyVoucherTypeSurch_Ad_Parameters_descriptor =
@@ -3500,7 +3500,7 @@ public final class OmModifyVoucherTypeSurchAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyVoucherTypeSurch_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

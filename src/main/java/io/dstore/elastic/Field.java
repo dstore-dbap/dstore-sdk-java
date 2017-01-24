@@ -58,11 +58,11 @@ public  final class Field extends
           }
           case 26: {
             if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
-              value_ = new java.util.ArrayList<io.dstore.Values.Value>();
+              value_ = new java.util.ArrayList<io.dstore.values.Value>();
               mutable_bitField0_ |= 0x00000004;
             }
             value_.add(
-                input.readMessage(io.dstore.Values.Value.parser(), extensionRegistry));
+                input.readMessage(io.dstore.values.Value.parser(), extensionRegistry));
             break;
           }
         }
@@ -136,17 +136,17 @@ public  final class Field extends
   }
 
   public static final int VALUE_FIELD_NUMBER = 3;
-  private java.util.List<io.dstore.Values.Value> value_;
+  private java.util.List<io.dstore.values.Value> value_;
   /**
    * <code>repeated .dstore.values.Value value = 3;</code>
    */
-  public java.util.List<io.dstore.Values.Value> getValueList() {
+  public java.util.List<io.dstore.values.Value> getValueList() {
     return value_;
   }
   /**
    * <code>repeated .dstore.values.Value value = 3;</code>
    */
-  public java.util.List<? extends io.dstore.Values.ValueOrBuilder> 
+  public java.util.List<? extends io.dstore.values.ValueOrBuilder> 
       getValueOrBuilderList() {
     return value_;
   }
@@ -159,13 +159,13 @@ public  final class Field extends
   /**
    * <code>repeated .dstore.values.Value value = 3;</code>
    */
-  public io.dstore.Values.Value getValue(int index) {
+  public io.dstore.values.Value getValue(int index) {
     return value_.get(index);
   }
   /**
    * <code>repeated .dstore.values.Value value = 3;</code>
    */
-  public io.dstore.Values.ValueOrBuilder getValueOrBuilder(
+  public io.dstore.values.ValueOrBuilder getValueOrBuilder(
       int index) {
     return value_.get(index);
   }
@@ -611,22 +611,22 @@ public  final class Field extends
       return this;
     }
 
-    private java.util.List<io.dstore.Values.Value> value_ =
+    private java.util.List<io.dstore.values.Value> value_ =
       java.util.Collections.emptyList();
     private void ensureValueIsMutable() {
       if (!((bitField0_ & 0x00000004) == 0x00000004)) {
-        value_ = new java.util.ArrayList<io.dstore.Values.Value>(value_);
+        value_ = new java.util.ArrayList<io.dstore.values.Value>(value_);
         bitField0_ |= 0x00000004;
        }
     }
 
     private com.google.protobuf.RepeatedFieldBuilderV3<
-        io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder> valueBuilder_;
+        io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder> valueBuilder_;
 
     /**
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public java.util.List<io.dstore.Values.Value> getValueList() {
+    public java.util.List<io.dstore.values.Value> getValueList() {
       if (valueBuilder_ == null) {
         return java.util.Collections.unmodifiableList(value_);
       } else {
@@ -646,7 +646,7 @@ public  final class Field extends
     /**
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public io.dstore.Values.Value getValue(int index) {
+    public io.dstore.values.Value getValue(int index) {
       if (valueBuilder_ == null) {
         return value_.get(index);
       } else {
@@ -657,7 +657,7 @@ public  final class Field extends
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
     public Builder setValue(
-        int index, io.dstore.Values.Value value) {
+        int index, io.dstore.values.Value value) {
       if (valueBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -674,7 +674,7 @@ public  final class Field extends
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
     public Builder setValue(
-        int index, io.dstore.Values.Value.Builder builderForValue) {
+        int index, io.dstore.values.Value.Builder builderForValue) {
       if (valueBuilder_ == null) {
         ensureValueIsMutable();
         value_.set(index, builderForValue.build());
@@ -687,7 +687,7 @@ public  final class Field extends
     /**
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public Builder addValue(io.dstore.Values.Value value) {
+    public Builder addValue(io.dstore.values.Value value) {
       if (valueBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -704,7 +704,7 @@ public  final class Field extends
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
     public Builder addValue(
-        int index, io.dstore.Values.Value value) {
+        int index, io.dstore.values.Value value) {
       if (valueBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -721,7 +721,7 @@ public  final class Field extends
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
     public Builder addValue(
-        io.dstore.Values.Value.Builder builderForValue) {
+        io.dstore.values.Value.Builder builderForValue) {
       if (valueBuilder_ == null) {
         ensureValueIsMutable();
         value_.add(builderForValue.build());
@@ -735,7 +735,7 @@ public  final class Field extends
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
     public Builder addValue(
-        int index, io.dstore.Values.Value.Builder builderForValue) {
+        int index, io.dstore.values.Value.Builder builderForValue) {
       if (valueBuilder_ == null) {
         ensureValueIsMutable();
         value_.add(index, builderForValue.build());
@@ -749,7 +749,7 @@ public  final class Field extends
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
     public Builder addAllValue(
-        java.lang.Iterable<? extends io.dstore.Values.Value> values) {
+        java.lang.Iterable<? extends io.dstore.values.Value> values) {
       if (valueBuilder_ == null) {
         ensureValueIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -789,14 +789,14 @@ public  final class Field extends
     /**
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public io.dstore.Values.Value.Builder getValueBuilder(
+    public io.dstore.values.Value.Builder getValueBuilder(
         int index) {
       return getValueFieldBuilder().getBuilder(index);
     }
     /**
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public io.dstore.Values.ValueOrBuilder getValueOrBuilder(
+    public io.dstore.values.ValueOrBuilder getValueOrBuilder(
         int index) {
       if (valueBuilder_ == null) {
         return value_.get(index);  } else {
@@ -806,7 +806,7 @@ public  final class Field extends
     /**
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public java.util.List<? extends io.dstore.Values.ValueOrBuilder> 
+    public java.util.List<? extends io.dstore.values.ValueOrBuilder> 
          getValueOrBuilderList() {
       if (valueBuilder_ != null) {
         return valueBuilder_.getMessageOrBuilderList();
@@ -817,31 +817,31 @@ public  final class Field extends
     /**
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public io.dstore.Values.Value.Builder addValueBuilder() {
+    public io.dstore.values.Value.Builder addValueBuilder() {
       return getValueFieldBuilder().addBuilder(
-          io.dstore.Values.Value.getDefaultInstance());
+          io.dstore.values.Value.getDefaultInstance());
     }
     /**
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public io.dstore.Values.Value.Builder addValueBuilder(
+    public io.dstore.values.Value.Builder addValueBuilder(
         int index) {
       return getValueFieldBuilder().addBuilder(
-          index, io.dstore.Values.Value.getDefaultInstance());
+          index, io.dstore.values.Value.getDefaultInstance());
     }
     /**
      * <code>repeated .dstore.values.Value value = 3;</code>
      */
-    public java.util.List<io.dstore.Values.Value.Builder> 
+    public java.util.List<io.dstore.values.Value.Builder> 
          getValueBuilderList() {
       return getValueFieldBuilder().getBuilderList();
     }
     private com.google.protobuf.RepeatedFieldBuilderV3<
-        io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder> 
+        io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder> 
         getValueFieldBuilder() {
       if (valueBuilder_ == null) {
         valueBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-            io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder>(
+            io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder>(
                 value_,
                 ((bitField0_ & 0x00000004) == 0x00000004),
                 getParentForChildren(),

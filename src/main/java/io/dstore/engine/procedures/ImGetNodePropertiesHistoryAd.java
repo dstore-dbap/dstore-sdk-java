@@ -19,17 +19,17 @@ public final class ImGetNodePropertiesHistoryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
     boolean hasNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getNodeId();
+    io.dstore.values.IntegerValue getNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
     /**
      * <code>optional bool node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImGetNodePropertiesHistoryAd {
     boolean getNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId();
+    io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImGetNodePropertiesHistoryAd {
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    io.dstore.Values.timestampValue getFromDate();
+    io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImGetNodePropertiesHistoryAd {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
-    io.dstore.Values.timestampValue getToDate();
+    io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class ImGetNodePropertiesHistoryAd {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
      */
     boolean hasCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
      */
-    io.dstore.Values.stringValue getCharacteristicIdList();
+    io.dstore.values.StringValue getCharacteristicIdList();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCharacteristicIdListOrBuilder();
 
     /**
      * <code>optional bool characteristic_id_list_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class ImGetNodePropertiesHistoryAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeId_ != null) {
                 subBuilder = nodeId_.toBuilder();
               }
-              nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeId_);
                 nodeId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class ImGetNodePropertiesHistoryAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class ImGetNodePropertiesHistoryAd {
               break;
             }
             case 26: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class ImGetNodePropertiesHistoryAd {
               break;
             }
             case 34: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class ImGetNodePropertiesHistoryAd {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (characteristicIdList_ != null) {
                 subBuilder = characteristicIdList_.toBuilder();
               }
-              characteristicIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              characteristicIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicIdList_);
                 characteristicIdList_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class ImGetNodePropertiesHistoryAd {
     }
 
     public static final int NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue nodeId_;
+    private io.dstore.values.IntegerValue nodeId_;
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
     public boolean hasNodeId() {
       return nodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getNodeId() {
-      return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+    public io.dstore.values.IntegerValue getNodeId() {
+      return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
       return getNodeId();
     }
 
@@ -296,23 +296,23 @@ public final class ImGetNodePropertiesHistoryAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -326,23 +326,23 @@ public final class ImGetNodePropertiesHistoryAd {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 3;
-    private io.dstore.Values.timestampValue fromDate_;
+    private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    public io.dstore.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.values.TimestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -356,23 +356,23 @@ public final class ImGetNodePropertiesHistoryAd {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 4;
-    private io.dstore.Values.timestampValue toDate_;
+    private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
-    public io.dstore.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.values.TimestampValue getToDate() {
+      return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -386,23 +386,23 @@ public final class ImGetNodePropertiesHistoryAd {
     }
 
     public static final int CHARACTERISTIC_ID_LIST_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue characteristicIdList_;
+    private io.dstore.values.StringValue characteristicIdList_;
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
      */
     public boolean hasCharacteristicIdList() {
       return characteristicIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
      */
-    public io.dstore.Values.stringValue getCharacteristicIdList() {
-      return characteristicIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList_;
+    public io.dstore.values.StringValue getCharacteristicIdList() {
+      return characteristicIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCharacteristicIdListOrBuilder() {
       return getCharacteristicIdList();
     }
 
@@ -907,29 +907,29 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeId_ = null;
+      private io.dstore.values.IntegerValue nodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public boolean hasNodeId() {
         return nodeIdBuilder_ != null || nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
+      public io.dstore.values.IntegerValue getNodeId() {
         if (nodeIdBuilder_ == null) {
-          return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+          return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         } else {
           return nodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public Builder setNodeId(io.dstore.Values.integerValue value) {
+      public Builder setNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder setNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeIdBuilder_ == null) {
           nodeId_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (nodeId_ != null) {
             nodeId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
           } else {
             nodeId_ = value;
           }
@@ -975,7 +975,7 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder clearNodeId() {
         if (nodeIdBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
         
         onChanged();
         return getNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         if (nodeIdBuilder_ != null) {
           return nodeIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeIdFieldBuilder() {
         if (nodeIdBuilder_ == null) {
           nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDate_ = null;
+      private io.dstore.values.TimestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue getFromDate() {
+      public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public Builder setFromDate(io.dstore.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder setFromDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1275,33 +1275,33 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toDate_ = null;
+      private io.dstore.values.TimestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public io.dstore.Values.timestampValue getToDate() {
+      public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public Builder setToDate(io.dstore.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
       public Builder setToDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1418,33 +1418,33 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 4;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue characteristicIdList_ = null;
+      private io.dstore.values.StringValue characteristicIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characteristicIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
        */
       public boolean hasCharacteristicIdList() {
         return characteristicIdListBuilder_ != null || characteristicIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
        */
-      public io.dstore.Values.stringValue getCharacteristicIdList() {
+      public io.dstore.values.StringValue getCharacteristicIdList() {
         if (characteristicIdListBuilder_ == null) {
-          return characteristicIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList_;
+          return characteristicIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicIdList_;
         } else {
           return characteristicIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
        */
-      public Builder setCharacteristicIdList(io.dstore.Values.stringValue value) {
+      public Builder setCharacteristicIdList(io.dstore.values.StringValue value) {
         if (characteristicIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
        */
       public Builder setCharacteristicIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (characteristicIdListBuilder_ == null) {
           characteristicIdList_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
        */
-      public Builder mergeCharacteristicIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeCharacteristicIdList(io.dstore.values.StringValue value) {
         if (characteristicIdListBuilder_ == null) {
           if (characteristicIdList_ != null) {
             characteristicIdList_ =
-              io.dstore.Values.stringValue.newBuilder(characteristicIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(characteristicIdList_).mergeFrom(value).buildPartial();
           } else {
             characteristicIdList_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
        */
       public Builder clearCharacteristicIdList() {
         if (characteristicIdListBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class ImGetNodePropertiesHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCharacteristicIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getCharacteristicIdListBuilder() {
         
         onChanged();
         return getCharacteristicIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCharacteristicIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCharacteristicIdListOrBuilder() {
         if (characteristicIdListBuilder_ != null) {
           return characteristicIdListBuilder_.getMessageOrBuilder();
         } else {
           return characteristicIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : characteristicIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCharacteristicIdListFieldBuilder() {
         if (characteristicIdListBuilder_ == null) {
           characteristicIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCharacteristicIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1881,7 +1881,7 @@ public final class ImGetNodePropertiesHistoryAd {
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
        */
       boolean hasValidTo();
       /**
@@ -1889,24 +1889,24 @@ public final class ImGetNodePropertiesHistoryAd {
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
        */
-      io.dstore.Values.timestampValue getValidTo();
+      io.dstore.values.TimestampValue getValidTo();
       /**
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder();
 
       /**
        * <pre>
        * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
       boolean hasNodeId();
       /**
@@ -1914,24 +1914,24 @@ public final class ImGetNodePropertiesHistoryAd {
        * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
        */
       boolean hasNodeCharacteristicId();
       /**
@@ -1939,24 +1939,24 @@ public final class ImGetNodePropertiesHistoryAd {
        * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getNodeCharacteristicId();
+      io.dstore.values.IntegerValue getNodeCharacteristicId();
       /**
        * <pre>
        * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
        */
       boolean hasValidToChar();
       /**
@@ -1964,24 +1964,24 @@ public final class ImGetNodePropertiesHistoryAd {
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
        */
-      io.dstore.Values.stringValue getValidToChar();
+      io.dstore.values.StringValue getValidToChar();
       /**
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValidToCharOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValidToCharOrBuilder();
 
       /**
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10005;</code>
+       * <code>optional .dstore.values.StringValue value = 10005;</code>
        */
       boolean hasValue();
       /**
@@ -1989,24 +1989,24 @@ public final class ImGetNodePropertiesHistoryAd {
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10005;</code>
+       * <code>optional .dstore.values.StringValue value = 10005;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10005;</code>
+       * <code>optional .dstore.values.StringValue value = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
        */
       boolean hasValidFrom();
       /**
@@ -2014,24 +2014,24 @@ public final class ImGetNodePropertiesHistoryAd {
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
        */
-      io.dstore.Values.timestampValue getValidFrom();
+      io.dstore.values.TimestampValue getValidFrom();
       /**
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder();
 
       /**
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
        */
       boolean hasValueId();
       /**
@@ -2039,24 +2039,24 @@ public final class ImGetNodePropertiesHistoryAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
        */
-      io.dstore.Values.integerValue getValueId();
+      io.dstore.values.IntegerValue getValueId();
       /**
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
 
       /**
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
        */
       boolean hasValidFromChar();
       /**
@@ -2064,17 +2064,17 @@ public final class ImGetNodePropertiesHistoryAd {
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
        */
-      io.dstore.Values.stringValue getValidFromChar();
+      io.dstore.values.StringValue getValidFromChar();
       /**
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValidFromCharOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValidFromCharOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetNodePropertiesHistory_Ad.Response.Row}
@@ -2122,11 +2122,11 @@ public final class ImGetNodePropertiesHistoryAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (validTo_ != null) {
                   subBuilder = validTo_.toBuilder();
                 }
-                validTo_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                validTo_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validTo_);
                   validTo_ = subBuilder.buildPartial();
@@ -2135,11 +2135,11 @@ public final class ImGetNodePropertiesHistoryAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2148,11 +2148,11 @@ public final class ImGetNodePropertiesHistoryAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -2161,11 +2161,11 @@ public final class ImGetNodePropertiesHistoryAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (validToChar_ != null) {
                   subBuilder = validToChar_.toBuilder();
                 }
-                validToChar_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                validToChar_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validToChar_);
                   validToChar_ = subBuilder.buildPartial();
@@ -2174,11 +2174,11 @@ public final class ImGetNodePropertiesHistoryAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -2187,11 +2187,11 @@ public final class ImGetNodePropertiesHistoryAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (validFrom_ != null) {
                   subBuilder = validFrom_.toBuilder();
                 }
-                validFrom_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                validFrom_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validFrom_);
                   validFrom_ = subBuilder.buildPartial();
@@ -2200,11 +2200,11 @@ public final class ImGetNodePropertiesHistoryAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -2213,11 +2213,11 @@ public final class ImGetNodePropertiesHistoryAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (validFromChar_ != null) {
                   subBuilder = validFromChar_.toBuilder();
                 }
-                validFromChar_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                validFromChar_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validFromChar_);
                   validFromChar_ = subBuilder.buildPartial();
@@ -2258,13 +2258,13 @@ public final class ImGetNodePropertiesHistoryAd {
       }
 
       public static final int VALID_TO_FIELD_NUMBER = 10001;
-      private io.dstore.Values.timestampValue validTo_;
+      private io.dstore.values.TimestampValue validTo_;
       /**
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
        */
       public boolean hasValidTo() {
         return validTo_ != null;
@@ -2274,30 +2274,30 @@ public final class ImGetNodePropertiesHistoryAd {
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
        */
-      public io.dstore.Values.timestampValue getValidTo() {
-        return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
+      public io.dstore.values.TimestampValue getValidTo() {
+        return validTo_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
       }
       /**
        * <pre>
        * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder() {
         return getValidTo();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -2307,30 +2307,30 @@ public final class ImGetNodePropertiesHistoryAd {
        * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_;
       /**
        * <pre>
        * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicId_ != null;
@@ -2340,30 +2340,30 @@ public final class ImGetNodePropertiesHistoryAd {
        * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
        * <pre>
        * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
       public static final int VALID_TO_CHAR_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue validToChar_;
+      private io.dstore.values.StringValue validToChar_;
       /**
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
        */
       public boolean hasValidToChar() {
         return validToChar_ != null;
@@ -2373,30 +2373,30 @@ public final class ImGetNodePropertiesHistoryAd {
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
        */
-      public io.dstore.Values.stringValue getValidToChar() {
-        return validToChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : validToChar_;
+      public io.dstore.values.StringValue getValidToChar() {
+        return validToChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : validToChar_;
       }
       /**
        * <pre>
        * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValidToCharOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValidToCharOrBuilder() {
         return getValidToChar();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10005;</code>
+       * <code>optional .dstore.values.StringValue value = 10005;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -2406,30 +2406,30 @@ public final class ImGetNodePropertiesHistoryAd {
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10005;</code>
+       * <code>optional .dstore.values.StringValue value = 10005;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10005;</code>
+       * <code>optional .dstore.values.StringValue value = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int VALID_FROM_FIELD_NUMBER = 10006;
-      private io.dstore.Values.timestampValue validFrom_;
+      private io.dstore.values.TimestampValue validFrom_;
       /**
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
        */
       public boolean hasValidFrom() {
         return validFrom_ != null;
@@ -2439,30 +2439,30 @@ public final class ImGetNodePropertiesHistoryAd {
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
        */
-      public io.dstore.Values.timestampValue getValidFrom() {
-        return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+      public io.dstore.values.TimestampValue getValidFrom() {
+        return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
       }
       /**
        * <pre>
        * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
         return getValidFrom();
       }
 
       public static final int VALUE_ID_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue valueId_;
+      private io.dstore.values.IntegerValue valueId_;
       /**
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
@@ -2472,30 +2472,30 @@ public final class ImGetNodePropertiesHistoryAd {
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
        */
-      public io.dstore.Values.integerValue getValueId() {
-        return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+      public io.dstore.values.IntegerValue getValueId() {
+        return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
       }
       /**
        * <pre>
        * ID der Eigenschaft "Value"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
       }
 
       public static final int VALID_FROM_CHAR_FIELD_NUMBER = 10008;
-      private io.dstore.Values.stringValue validFromChar_;
+      private io.dstore.values.StringValue validFromChar_;
       /**
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
        */
       public boolean hasValidFromChar() {
         return validFromChar_ != null;
@@ -2505,19 +2505,19 @@ public final class ImGetNodePropertiesHistoryAd {
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
        */
-      public io.dstore.Values.stringValue getValidFromChar() {
-        return validFromChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : validFromChar_;
+      public io.dstore.values.StringValue getValidFromChar() {
+        return validFromChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : validFromChar_;
       }
       /**
        * <pre>
        * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+       * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValidFromCharOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValidFromCharOrBuilder() {
         return getValidFromChar();
       }
 
@@ -3056,15 +3056,15 @@ public final class ImGetNodePropertiesHistoryAd {
           return this;
         }
 
-        private io.dstore.Values.timestampValue validTo_ = null;
+        private io.dstore.values.TimestampValue validTo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> validToBuilder_;
         /**
          * <pre>
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
          */
         public boolean hasValidTo() {
           return validToBuilder_ != null || validTo_ != null;
@@ -3074,11 +3074,11 @@ public final class ImGetNodePropertiesHistoryAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
          */
-        public io.dstore.Values.timestampValue getValidTo() {
+        public io.dstore.values.TimestampValue getValidTo() {
           if (validToBuilder_ == null) {
-            return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
+            return validTo_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
           } else {
             return validToBuilder_.getMessage();
           }
@@ -3088,9 +3088,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
          */
-        public Builder setValidTo(io.dstore.Values.timestampValue value) {
+        public Builder setValidTo(io.dstore.values.TimestampValue value) {
           if (validToBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3108,10 +3108,10 @@ public final class ImGetNodePropertiesHistoryAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
          */
         public Builder setValidTo(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (validToBuilder_ == null) {
             validTo_ = builderForValue.build();
             onChanged();
@@ -3126,13 +3126,13 @@ public final class ImGetNodePropertiesHistoryAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
          */
-        public Builder mergeValidTo(io.dstore.Values.timestampValue value) {
+        public Builder mergeValidTo(io.dstore.values.TimestampValue value) {
           if (validToBuilder_ == null) {
             if (validTo_ != null) {
               validTo_ =
-                io.dstore.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
             } else {
               validTo_ = value;
             }
@@ -3148,7 +3148,7 @@ public final class ImGetNodePropertiesHistoryAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
          */
         public Builder clearValidTo() {
           if (validToBuilder_ == null) {
@@ -3166,9 +3166,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getValidToBuilder() {
+        public io.dstore.values.TimestampValue.Builder getValidToBuilder() {
           
           onChanged();
           return getValidToFieldBuilder().getBuilder();
@@ -3178,14 +3178,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder() {
           if (validToBuilder_ != null) {
             return validToBuilder_.getMessageOrBuilder();
           } else {
             return validTo_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
           }
         }
         /**
@@ -3193,14 +3193,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * Ende des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10001;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getValidToFieldBuilder() {
           if (validToBuilder_ == null) {
             validToBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getValidTo(),
                     getParentForChildren(),
                     isClean());
@@ -3209,15 +3209,15 @@ public final class ImGetNodePropertiesHistoryAd {
           return validToBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -3227,11 +3227,11 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -3241,9 +3241,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3261,10 +3261,10 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -3279,13 +3279,13 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -3301,7 +3301,7 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -3319,9 +3319,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -3331,14 +3331,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -3346,14 +3346,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID eines (übergebenen) Artikel-Elementes, das im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" zum Merkmal "NodeCharacteristicID" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3362,15 +3362,15 @@ public final class ImGetNodePropertiesHistoryAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
          */
         public boolean hasNodeCharacteristicId() {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
@@ -3380,11 +3380,11 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.values.IntegerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
@@ -3394,9 +3394,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
          */
-        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3414,10 +3414,10 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -3432,13 +3432,13 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -3454,7 +3454,7 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
          */
         public Builder clearNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -3472,9 +3472,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
@@ -3484,14 +3484,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
@@ -3499,14 +3499,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID des Merkmals, zu dem "NodeID" im Zeitraum "ValidFrom" bis "ValidTo" die Eigenschaft "Value" besaß/besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -3515,15 +3515,15 @@ public final class ImGetNodePropertiesHistoryAd {
           return nodeCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue validToChar_ = null;
+        private io.dstore.values.StringValue validToChar_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> validToCharBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> validToCharBuilder_;
         /**
          * <pre>
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
          */
         public boolean hasValidToChar() {
           return validToCharBuilder_ != null || validToChar_ != null;
@@ -3533,11 +3533,11 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
          */
-        public io.dstore.Values.stringValue getValidToChar() {
+        public io.dstore.values.StringValue getValidToChar() {
           if (validToCharBuilder_ == null) {
-            return validToChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : validToChar_;
+            return validToChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : validToChar_;
           } else {
             return validToCharBuilder_.getMessage();
           }
@@ -3547,9 +3547,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
          */
-        public Builder setValidToChar(io.dstore.Values.stringValue value) {
+        public Builder setValidToChar(io.dstore.values.StringValue value) {
           if (validToCharBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3567,10 +3567,10 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
          */
         public Builder setValidToChar(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (validToCharBuilder_ == null) {
             validToChar_ = builderForValue.build();
             onChanged();
@@ -3585,13 +3585,13 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
          */
-        public Builder mergeValidToChar(io.dstore.Values.stringValue value) {
+        public Builder mergeValidToChar(io.dstore.values.StringValue value) {
           if (validToCharBuilder_ == null) {
             if (validToChar_ != null) {
               validToChar_ =
-                io.dstore.Values.stringValue.newBuilder(validToChar_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(validToChar_).mergeFrom(value).buildPartial();
             } else {
               validToChar_ = value;
             }
@@ -3607,7 +3607,7 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
          */
         public Builder clearValidToChar() {
           if (validToCharBuilder_ == null) {
@@ -3625,9 +3625,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValidToCharBuilder() {
+        public io.dstore.values.StringValue.Builder getValidToCharBuilder() {
           
           onChanged();
           return getValidToCharFieldBuilder().getBuilder();
@@ -3637,14 +3637,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValidToCharOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValidToCharOrBuilder() {
           if (validToCharBuilder_ != null) {
             return validToCharBuilder_.getMessageOrBuilder();
           } else {
             return validToChar_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : validToChar_;
+                io.dstore.values.StringValue.getDefaultInstance() : validToChar_;
           }
         }
         /**
@@ -3652,14 +3652,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidTo" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_to_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue valid_to_char = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValidToCharFieldBuilder() {
           if (validToCharBuilder_ == null) {
             validToCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValidToChar(),
                     getParentForChildren(),
                     isClean());
@@ -3668,15 +3668,15 @@ public final class ImGetNodePropertiesHistoryAd {
           return validToCharBuilder_;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10005;</code>
+         * <code>optional .dstore.values.StringValue value = 10005;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -3686,11 +3686,11 @@ public final class ImGetNodePropertiesHistoryAd {
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10005;</code>
+         * <code>optional .dstore.values.StringValue value = 10005;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -3700,9 +3700,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10005;</code>
+         * <code>optional .dstore.values.StringValue value = 10005;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3720,10 +3720,10 @@ public final class ImGetNodePropertiesHistoryAd {
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10005;</code>
+         * <code>optional .dstore.values.StringValue value = 10005;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -3738,13 +3738,13 @@ public final class ImGetNodePropertiesHistoryAd {
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10005;</code>
+         * <code>optional .dstore.values.StringValue value = 10005;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -3760,7 +3760,7 @@ public final class ImGetNodePropertiesHistoryAd {
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10005;</code>
+         * <code>optional .dstore.values.StringValue value = 10005;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -3778,9 +3778,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10005;</code>
+         * <code>optional .dstore.values.StringValue value = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -3790,14 +3790,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10005;</code>
+         * <code>optional .dstore.values.StringValue value = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -3805,14 +3805,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * Eine Eigenschaft zum Merkmal "NodeCharacteristicID", die dem Element "NodeID" im Zeitraum "ValidFrom" bis "ValidTo"  zugewiesen ist / war
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10005;</code>
+         * <code>optional .dstore.values.StringValue value = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -3821,15 +3821,15 @@ public final class ImGetNodePropertiesHistoryAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.timestampValue validFrom_ = null;
+        private io.dstore.values.TimestampValue validFrom_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> validFromBuilder_;
         /**
          * <pre>
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public boolean hasValidFrom() {
           return validFromBuilder_ != null || validFrom_ != null;
@@ -3839,11 +3839,11 @@ public final class ImGetNodePropertiesHistoryAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
          */
-        public io.dstore.Values.timestampValue getValidFrom() {
+        public io.dstore.values.TimestampValue getValidFrom() {
           if (validFromBuilder_ == null) {
-            return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+            return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
           } else {
             return validFromBuilder_.getMessage();
           }
@@ -3853,9 +3853,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
          */
-        public Builder setValidFrom(io.dstore.Values.timestampValue value) {
+        public Builder setValidFrom(io.dstore.values.TimestampValue value) {
           if (validFromBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3873,10 +3873,10 @@ public final class ImGetNodePropertiesHistoryAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public Builder setValidFrom(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (validFromBuilder_ == null) {
             validFrom_ = builderForValue.build();
             onChanged();
@@ -3891,13 +3891,13 @@ public final class ImGetNodePropertiesHistoryAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
          */
-        public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
+        public Builder mergeValidFrom(io.dstore.values.TimestampValue value) {
           if (validFromBuilder_ == null) {
             if (validFrom_ != null) {
               validFrom_ =
-                io.dstore.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
             } else {
               validFrom_ = value;
             }
@@ -3913,7 +3913,7 @@ public final class ImGetNodePropertiesHistoryAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
          */
         public Builder clearValidFrom() {
           if (validFromBuilder_ == null) {
@@ -3931,9 +3931,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
+        public io.dstore.values.TimestampValue.Builder getValidFromBuilder() {
           
           onChanged();
           return getValidFromFieldBuilder().getBuilder();
@@ -3943,14 +3943,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
           if (validFromBuilder_ != null) {
             return validFromBuilder_.getMessageOrBuilder();
           } else {
             return validFrom_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
           }
         }
         /**
@@ -3958,14 +3958,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * Beginn des Gültigkeits-Zeitraums der Eigenschaft "Value" für "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getValidFromFieldBuilder() {
           if (validFromBuilder_ == null) {
             validFromBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getValidFrom(),
                     getParentForChildren(),
                     isClean());
@@ -3974,15 +3974,15 @@ public final class ImGetNodePropertiesHistoryAd {
           return validFromBuilder_;
         }
 
-        private io.dstore.Values.integerValue valueId_ = null;
+        private io.dstore.values.IntegerValue valueId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> valueIdBuilder_;
         /**
          * <pre>
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
@@ -3992,11 +3992,11 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue getValueId() {
+        public io.dstore.values.IntegerValue getValueId() {
           if (valueIdBuilder_ == null) {
-            return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+            return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
           } else {
             return valueIdBuilder_.getMessage();
           }
@@ -4006,9 +4006,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
          */
-        public Builder setValueId(io.dstore.Values.integerValue value) {
+        public Builder setValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4026,10 +4026,10 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
          */
         public Builder setValueId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (valueIdBuilder_ == null) {
             valueId_ = builderForValue.build();
             onChanged();
@@ -4044,13 +4044,13 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
          */
-        public Builder mergeValueId(io.dstore.Values.integerValue value) {
+        public Builder mergeValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
             if (valueId_ != null) {
               valueId_ =
-                io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
             } else {
               valueId_ = value;
             }
@@ -4066,7 +4066,7 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -4084,9 +4084,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
           
           onChanged();
           return getValueIdFieldBuilder().getBuilder();
@@ -4096,14 +4096,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
             return valueIdBuilder_.getMessageOrBuilder();
           } else {
             return valueId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
           }
         }
         /**
@@ -4111,14 +4111,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * ID der Eigenschaft "Value"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
             valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
                     isClean());
@@ -4127,15 +4127,15 @@ public final class ImGetNodePropertiesHistoryAd {
           return valueIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue validFromChar_ = null;
+        private io.dstore.values.StringValue validFromChar_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> validFromCharBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> validFromCharBuilder_;
         /**
          * <pre>
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public boolean hasValidFromChar() {
           return validFromCharBuilder_ != null || validFromChar_ != null;
@@ -4145,11 +4145,11 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
          */
-        public io.dstore.Values.stringValue getValidFromChar() {
+        public io.dstore.values.StringValue getValidFromChar() {
           if (validFromCharBuilder_ == null) {
-            return validFromChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : validFromChar_;
+            return validFromChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : validFromChar_;
           } else {
             return validFromCharBuilder_.getMessage();
           }
@@ -4159,9 +4159,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
          */
-        public Builder setValidFromChar(io.dstore.Values.stringValue value) {
+        public Builder setValidFromChar(io.dstore.values.StringValue value) {
           if (validFromCharBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4179,10 +4179,10 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public Builder setValidFromChar(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (validFromCharBuilder_ == null) {
             validFromChar_ = builderForValue.build();
             onChanged();
@@ -4197,13 +4197,13 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
          */
-        public Builder mergeValidFromChar(io.dstore.Values.stringValue value) {
+        public Builder mergeValidFromChar(io.dstore.values.StringValue value) {
           if (validFromCharBuilder_ == null) {
             if (validFromChar_ != null) {
               validFromChar_ =
-                io.dstore.Values.stringValue.newBuilder(validFromChar_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(validFromChar_).mergeFrom(value).buildPartial();
             } else {
               validFromChar_ = value;
             }
@@ -4219,7 +4219,7 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
          */
         public Builder clearValidFromChar() {
           if (validFromCharBuilder_ == null) {
@@ -4237,9 +4237,9 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValidFromCharBuilder() {
+        public io.dstore.values.StringValue.Builder getValidFromCharBuilder() {
           
           onChanged();
           return getValidFromCharFieldBuilder().getBuilder();
@@ -4249,14 +4249,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValidFromCharOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValidFromCharOrBuilder() {
           if (validFromCharBuilder_ != null) {
             return validFromCharBuilder_.getMessageOrBuilder();
           } else {
             return validFromChar_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : validFromChar_;
+                io.dstore.values.StringValue.getDefaultInstance() : validFromChar_;
           }
         }
         /**
@@ -4264,14 +4264,14 @@ public final class ImGetNodePropertiesHistoryAd {
          * "ValidFrom" als "String" im Format "01.04.2001 15:20:55:115"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valid_from_char = 10008;</code>
+         * <code>optional .dstore.values.StringValue valid_from_char = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValidFromCharFieldBuilder() {
           if (validFromCharBuilder_ == null) {
             validFromCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValidFromChar(),
                     getParentForChildren(),
                     isClean());
@@ -5741,31 +5741,31 @@ public final class ImGetNodePropertiesHistoryAd {
       "m_GetNodePropertiesHistory_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\250" +
       "\003\n\nParameters\022,\n\007node_id\030\001 \001(\0132\033.dstore." +
-      "values.integerValue\022\025\n\014node_id_null\030\351\007 \001" +
+      "values.IntegerValue\022\025\n\014node_id_null\030\351\007 \001" +
       "(\010\022;\n\026node_characteristic_id\030\002 \001(\0132\033.dst" +
-      "ore.values.integerValue\022$\n\033node_characte" +
+      "ore.values.IntegerValue\022$\n\033node_characte" +
       "ristic_id_null\030\352\007 \001(\010\0220\n\tfrom_date\030\003 \001(\013" +
-      "2\035.dstore.values.timestampValue\022\027\n\016from_",
+      "2\035.dstore.values.TimestampValue\022\027\n\016from_",
       "date_null\030\353\007 \001(\010\022.\n\007to_date\030\004 \001(\0132\035.dsto" +
-      "re.values.timestampValue\022\025\n\014to_date_null" +
+      "re.values.TimestampValue\022\025\n\014to_date_null" +
       "\030\354\007 \001(\010\022:\n\026characteristic_id_list\030\005 \001(\0132" +
-      "\032.dstore.values.stringValue\022$\n\033character" +
+      "\032.dstore.values.StringValue\022$\n\033character" +
       "istic_id_list_null\030\355\007 \001(\010\"\350\004\n\010Response\0228" +
       "\n\020meta_information\030\002 \003(\0132\036.dstore.engine" +
       ".MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dsto" +
       "re.engine.Message\022G\n\003row\030\004 \003(\0132:.dstore." +
       "engine.im_GetNodePropertiesHistory_Ad.Re" +
       "sponse.Row\032\257\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\010v",
-      "alid_to\030\221N \001(\0132\035.dstore.values.timestamp" +
+      "alid_to\030\221N \001(\0132\035.dstore.values.Timestamp" +
       "Value\022-\n\007node_id\030\222N \001(\0132\033.dstore.values." +
-      "integerValue\022<\n\026node_characteristic_id\030\223" +
-      "N \001(\0132\033.dstore.values.integerValue\0222\n\rva" +
-      "lid_to_char\030\224N \001(\0132\032.dstore.values.strin" +
-      "gValue\022*\n\005value\030\225N \001(\0132\032.dstore.values.s" +
+      "IntegerValue\022<\n\026node_characteristic_id\030\223" +
+      "N \001(\0132\033.dstore.values.IntegerValue\0222\n\rva" +
+      "lid_to_char\030\224N \001(\0132\032.dstore.values.Strin" +
+      "gValue\022*\n\005value\030\225N \001(\0132\032.dstore.values.S" +
       "tringValue\0222\n\nvalid_from\030\226N \001(\0132\035.dstore" +
-      ".values.timestampValue\022.\n\010value_id\030\227N \001(" +
-      "\0132\033.dstore.values.integerValue\0224\n\017valid_" +
-      "from_char\030\230N \001(\0132\032.dstore.values.stringV",
+      ".values.TimestampValue\022.\n\010value_id\030\227N \001(" +
+      "\0132\033.dstore.values.IntegerValue\0224\n\017valid_" +
+      "from_char\030\230N \001(\0132\032.dstore.values.StringV",
       "alueB_\n\033io.dstore.engine.proceduresZ@gos" +
       "dk.dstore.de/engine/procedures/im_GetNod" +
       "ePropertiesHistory_Adb\006proto3"
@@ -5781,7 +5781,7 @@ public final class ImGetNodePropertiesHistoryAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetNodePropertiesHistory_Ad_Parameters_descriptor =
@@ -5802,7 +5802,7 @@ public final class ImGetNodePropertiesHistoryAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNodePropertiesHistory_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ValidTo", "NodeId", "NodeCharacteristicId", "ValidToChar", "Value", "ValidFrom", "ValueId", "ValidFromChar", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

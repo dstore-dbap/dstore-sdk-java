@@ -19,17 +19,17 @@ public final class ImSetLevelOfNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
      */
     boolean hasHierarchy();
     /**
-     * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
      */
-    io.dstore.Values.stringValue getHierarchy();
+    io.dstore.values.StringValue getHierarchy();
     /**
-     * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getHierarchyOrBuilder();
+    io.dstore.values.StringValueOrBuilder getHierarchyOrBuilder();
 
     /**
      * <code>optional bool hierarchy_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class ImSetLevelOfNodesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (hierarchy_ != null) {
                 subBuilder = hierarchy_.toBuilder();
               }
-              hierarchy_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              hierarchy_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hierarchy_);
                 hierarchy_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class ImSetLevelOfNodesAd {
     }
 
     public static final int HIERARCHY_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue hierarchy_;
+    private io.dstore.values.StringValue hierarchy_;
     /**
-     * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
      */
     public boolean hasHierarchy() {
       return hierarchy_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
      */
-    public io.dstore.Values.stringValue getHierarchy() {
-      return hierarchy_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : hierarchy_;
+    public io.dstore.values.StringValue getHierarchy() {
+      return hierarchy_ == null ? io.dstore.values.StringValue.getDefaultInstance() : hierarchy_;
     }
     /**
-     * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+     * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getHierarchyOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getHierarchyOrBuilder() {
       return getHierarchy();
     }
 
@@ -447,29 +447,29 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue hierarchy_ = null;
+      private io.dstore.values.StringValue hierarchy_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> hierarchyBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> hierarchyBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
        */
       public boolean hasHierarchy() {
         return hierarchyBuilder_ != null || hierarchy_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
        */
-      public io.dstore.Values.stringValue getHierarchy() {
+      public io.dstore.values.StringValue getHierarchy() {
         if (hierarchyBuilder_ == null) {
-          return hierarchy_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : hierarchy_;
+          return hierarchy_ == null ? io.dstore.values.StringValue.getDefaultInstance() : hierarchy_;
         } else {
           return hierarchyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
        */
-      public Builder setHierarchy(io.dstore.Values.stringValue value) {
+      public Builder setHierarchy(io.dstore.values.StringValue value) {
         if (hierarchyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
        */
       public Builder setHierarchy(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (hierarchyBuilder_ == null) {
           hierarchy_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
        */
-      public Builder mergeHierarchy(io.dstore.Values.stringValue value) {
+      public Builder mergeHierarchy(io.dstore.values.StringValue value) {
         if (hierarchyBuilder_ == null) {
           if (hierarchy_ != null) {
             hierarchy_ =
-              io.dstore.Values.stringValue.newBuilder(hierarchy_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(hierarchy_).mergeFrom(value).buildPartial();
           } else {
             hierarchy_ = value;
           }
@@ -515,7 +515,7 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
        */
       public Builder clearHierarchy() {
         if (hierarchyBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class ImSetLevelOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getHierarchyBuilder() {
+      public io.dstore.values.StringValue.Builder getHierarchyBuilder() {
         
         onChanged();
         return getHierarchyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getHierarchyOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getHierarchyOrBuilder() {
         if (hierarchyBuilder_ != null) {
           return hierarchyBuilder_.getMessageOrBuilder();
         } else {
           return hierarchy_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : hierarchy_;
+              io.dstore.values.StringValue.getDefaultInstance() : hierarchy_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue hierarchy = 1;</code>
+       * <code>optional .dstore.values.StringValue hierarchy = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getHierarchyFieldBuilder() {
         if (hierarchyBuilder_ == null) {
           hierarchyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getHierarchy(),
                   getParentForChildren(),
                   isClean());
@@ -2676,7 +2676,7 @@ public final class ImSetLevelOfNodesAd {
       "Nodes_Ad.proto\022#dstore.engine.im_SetLeve" +
       "lOfNodes_Ad\032\023dstore/values.proto\032\032dstore" +
       "/engine/engine.proto\"T\n\nParameters\022-\n\thi" +
-      "erarchy\030\001 \001(\0132\032.dstore.values.stringValu" +
+      "erarchy\030\001 \001(\0132\032.dstore.values.StringValu" +
       "e\022\027\n\016hierarchy_null\030\351\007 \001(\010\"\305\001\n\010Response\022" +
       "8\n\020meta_information\030\002 \003(\0132\036.dstore.engin" +
       "e.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dst" +
@@ -2698,7 +2698,7 @@ public final class ImSetLevelOfNodesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_SetLevelOfNodes_Ad_Parameters_descriptor =
@@ -2719,7 +2719,7 @@ public final class ImSetLevelOfNodesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_SetLevelOfNodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

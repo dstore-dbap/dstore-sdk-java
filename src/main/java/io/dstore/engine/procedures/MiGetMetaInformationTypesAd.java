@@ -19,17 +19,17 @@ public final class MiGetMetaInformationTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
     boolean hasTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTableId();
+    io.dstore.values.IntegerValue getTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder();
 
     /**
      * <code>optional bool table_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class MiGetMetaInformationTypesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (tableId_ != null) {
                 subBuilder = tableId_.toBuilder();
               }
-              tableId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              tableId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableId_);
                 tableId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class MiGetMetaInformationTypesAd {
     }
 
     public static final int TABLE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue tableId_;
+    private io.dstore.values.IntegerValue tableId_;
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
     public boolean hasTableId() {
       return tableId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTableId() {
-      return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+    public io.dstore.values.IntegerValue getTableId() {
+      return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
       return getTableId();
     }
 
@@ -447,29 +447,29 @@ public final class MiGetMetaInformationTypesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue tableId_ = null;
+      private io.dstore.values.IntegerValue tableId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public boolean hasTableId() {
         return tableIdBuilder_ != null || tableId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTableId() {
+      public io.dstore.values.IntegerValue getTableId() {
         if (tableIdBuilder_ == null) {
-          return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+          return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         } else {
           return tableIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public Builder setTableId(io.dstore.Values.integerValue value) {
+      public Builder setTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class MiGetMetaInformationTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public Builder setTableId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (tableIdBuilder_ == null) {
           tableId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class MiGetMetaInformationTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public Builder mergeTableId(io.dstore.Values.integerValue value) {
+      public Builder mergeTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (tableId_ != null) {
             tableId_ =
-              io.dstore.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
           } else {
             tableId_ = value;
           }
@@ -515,7 +515,7 @@ public final class MiGetMetaInformationTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public Builder clearTableId() {
         if (tableIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class MiGetMetaInformationTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTableIdBuilder() {
         
         onChanged();
         return getTableIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
         if (tableIdBuilder_ != null) {
           return tableIdBuilder_.getMessageOrBuilder();
         } else {
           return tableId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTableIdFieldBuilder() {
         if (tableIdBuilder_ == null) {
           tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTableId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class MiGetMetaInformationTypesAd {
        * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
       boolean hasTableId();
       /**
@@ -857,24 +857,24 @@ public final class MiGetMetaInformationTypesAd {
        * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getTableId();
+      io.dstore.values.IntegerValue getTableId();
       /**
        * <pre>
        * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder();
 
       /**
        * <pre>
        * ID eines "Meta-Informations-Typs"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
        */
       boolean hasMetaInformationTypeId();
       /**
@@ -882,24 +882,24 @@ public final class MiGetMetaInformationTypesAd {
        * ID eines "Meta-Informations-Typs"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getMetaInformationTypeId();
+      io.dstore.values.IntegerValue getMetaInformationTypeId();
       /**
        * <pre>
        * ID eines "Meta-Informations-Typs"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMetaInformationTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMetaInformationTypeIdOrBuilder();
 
       /**
        * <pre>
        * Name der durch "TableID" referenzierten Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10003;</code>
        */
       boolean hasTableName();
       /**
@@ -907,24 +907,24 @@ public final class MiGetMetaInformationTypesAd {
        * Name der durch "TableID" referenzierten Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10003;</code>
        */
-      io.dstore.Values.stringValue getTableName();
+      io.dstore.values.StringValue getTableName();
       /**
        * <pre>
        * Name der durch "TableID" referenzierten Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
       /**
        * <pre>
        * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10004;</code>
+       * <code>optional .dstore.values.StringValue description = 10004;</code>
        */
       boolean hasDescription();
       /**
@@ -932,24 +932,24 @@ public final class MiGetMetaInformationTypesAd {
        * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10004;</code>
+       * <code>optional .dstore.values.StringValue description = 10004;</code>
        */
-      io.dstore.Values.stringValue getDescription();
+      io.dstore.values.StringValue getDescription();
       /**
        * <pre>
        * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10004;</code>
+       * <code>optional .dstore.values.StringValue description = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
       /**
        * <pre>
        * Art der "Meta-Information" (z.B. "Erstellungsdatum")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
        */
       boolean hasMetaInformationType();
       /**
@@ -957,17 +957,17 @@ public final class MiGetMetaInformationTypesAd {
        * Art der "Meta-Information" (z.B. "Erstellungsdatum")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
        */
-      io.dstore.Values.stringValue getMetaInformationType();
+      io.dstore.values.StringValue getMetaInformationType();
       /**
        * <pre>
        * Art der "Meta-Information" (z.B. "Erstellungsdatum")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getMetaInformationTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getMetaInformationTypeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetMetaInformationTypes_Ad.Response.Row}
@@ -1015,11 +1015,11 @@ public final class MiGetMetaInformationTypesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (tableId_ != null) {
                   subBuilder = tableId_.toBuilder();
                 }
-                tableId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                tableId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableId_);
                   tableId_ = subBuilder.buildPartial();
@@ -1028,11 +1028,11 @@ public final class MiGetMetaInformationTypesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (metaInformationTypeId_ != null) {
                   subBuilder = metaInformationTypeId_.toBuilder();
                 }
-                metaInformationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                metaInformationTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(metaInformationTypeId_);
                   metaInformationTypeId_ = subBuilder.buildPartial();
@@ -1041,11 +1041,11 @@ public final class MiGetMetaInformationTypesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (tableName_ != null) {
                   subBuilder = tableName_.toBuilder();
                 }
-                tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                tableName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableName_);
                   tableName_ = subBuilder.buildPartial();
@@ -1054,11 +1054,11 @@ public final class MiGetMetaInformationTypesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1067,11 +1067,11 @@ public final class MiGetMetaInformationTypesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (metaInformationType_ != null) {
                   subBuilder = metaInformationType_.toBuilder();
                 }
-                metaInformationType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                metaInformationType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(metaInformationType_);
                   metaInformationType_ = subBuilder.buildPartial();
@@ -1112,13 +1112,13 @@ public final class MiGetMetaInformationTypesAd {
       }
 
       public static final int TABLE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue tableId_;
+      private io.dstore.values.IntegerValue tableId_;
       /**
        * <pre>
        * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
       public boolean hasTableId() {
         return tableId_ != null;
@@ -1128,30 +1128,30 @@ public final class MiGetMetaInformationTypesAd {
        * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getTableId() {
-        return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+      public io.dstore.values.IntegerValue getTableId() {
+        return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
       }
       /**
        * <pre>
        * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
         return getTableId();
       }
 
       public static final int META_INFORMATION_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue metaInformationTypeId_;
+      private io.dstore.values.IntegerValue metaInformationTypeId_;
       /**
        * <pre>
        * ID eines "Meta-Informations-Typs"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
        */
       public boolean hasMetaInformationTypeId() {
         return metaInformationTypeId_ != null;
@@ -1161,30 +1161,30 @@ public final class MiGetMetaInformationTypesAd {
        * ID eines "Meta-Informations-Typs"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getMetaInformationTypeId() {
-        return metaInformationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : metaInformationTypeId_;
+      public io.dstore.values.IntegerValue getMetaInformationTypeId() {
+        return metaInformationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : metaInformationTypeId_;
       }
       /**
        * <pre>
        * ID eines "Meta-Informations-Typs"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMetaInformationTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMetaInformationTypeIdOrBuilder() {
         return getMetaInformationTypeId();
       }
 
       public static final int TABLE_NAME_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue tableName_;
+      private io.dstore.values.StringValue tableName_;
       /**
        * <pre>
        * Name der durch "TableID" referenzierten Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10003;</code>
        */
       public boolean hasTableName() {
         return tableName_ != null;
@@ -1194,30 +1194,30 @@ public final class MiGetMetaInformationTypesAd {
        * Name der durch "TableID" referenzierten Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10003;</code>
        */
-      public io.dstore.Values.stringValue getTableName() {
-        return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+      public io.dstore.values.StringValue getTableName() {
+        return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
       }
       /**
        * <pre>
        * Name der durch "TableID" referenzierten Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue description_;
+      private io.dstore.values.StringValue description_;
       /**
        * <pre>
        * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10004;</code>
+       * <code>optional .dstore.values.StringValue description = 10004;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -1227,30 +1227,30 @@ public final class MiGetMetaInformationTypesAd {
        * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10004;</code>
+       * <code>optional .dstore.values.StringValue description = 10004;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.values.StringValue getDescription() {
+        return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
       }
       /**
        * <pre>
        * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10004;</code>
+       * <code>optional .dstore.values.StringValue description = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int META_INFORMATION_TYPE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue metaInformationType_;
+      private io.dstore.values.StringValue metaInformationType_;
       /**
        * <pre>
        * Art der "Meta-Information" (z.B. "Erstellungsdatum")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
        */
       public boolean hasMetaInformationType() {
         return metaInformationType_ != null;
@@ -1260,19 +1260,19 @@ public final class MiGetMetaInformationTypesAd {
        * Art der "Meta-Information" (z.B. "Erstellungsdatum")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
        */
-      public io.dstore.Values.stringValue getMetaInformationType() {
-        return metaInformationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInformationType_;
+      public io.dstore.values.StringValue getMetaInformationType() {
+        return metaInformationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInformationType_;
       }
       /**
        * <pre>
        * Art der "Meta-Information" (z.B. "Erstellungsdatum")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getMetaInformationTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getMetaInformationTypeOrBuilder() {
         return getMetaInformationType();
       }
 
@@ -1721,15 +1721,15 @@ public final class MiGetMetaInformationTypesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue tableId_ = null;
+        private io.dstore.values.IntegerValue tableId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableIdBuilder_;
         /**
          * <pre>
          * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
         public boolean hasTableId() {
           return tableIdBuilder_ != null || tableId_ != null;
@@ -1739,11 +1739,11 @@ public final class MiGetMetaInformationTypesAd {
          * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getTableId() {
+        public io.dstore.values.IntegerValue getTableId() {
           if (tableIdBuilder_ == null) {
-            return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+            return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
           } else {
             return tableIdBuilder_.getMessage();
           }
@@ -1753,9 +1753,9 @@ public final class MiGetMetaInformationTypesAd {
          * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public Builder setTableId(io.dstore.Values.integerValue value) {
+        public Builder setTableId(io.dstore.values.IntegerValue value) {
           if (tableIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class MiGetMetaInformationTypesAd {
          * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
         public Builder setTableId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (tableIdBuilder_ == null) {
             tableId_ = builderForValue.build();
             onChanged();
@@ -1791,13 +1791,13 @@ public final class MiGetMetaInformationTypesAd {
          * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public Builder mergeTableId(io.dstore.Values.integerValue value) {
+        public Builder mergeTableId(io.dstore.values.IntegerValue value) {
           if (tableIdBuilder_ == null) {
             if (tableId_ != null) {
               tableId_ =
-                io.dstore.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
             } else {
               tableId_ = value;
             }
@@ -1813,7 +1813,7 @@ public final class MiGetMetaInformationTypesAd {
          * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
         public Builder clearTableId() {
           if (tableIdBuilder_ == null) {
@@ -1831,9 +1831,9 @@ public final class MiGetMetaInformationTypesAd {
          * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTableIdBuilder() {
           
           onChanged();
           return getTableIdFieldBuilder().getBuilder();
@@ -1843,14 +1843,14 @@ public final class MiGetMetaInformationTypesAd {
          * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
           if (tableIdBuilder_ != null) {
             return tableIdBuilder_.getMessageOrBuilder();
           } else {
             return tableId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
           }
         }
         /**
@@ -1858,14 +1858,14 @@ public final class MiGetMetaInformationTypesAd {
          * ID einer Tabelle (es handelt sich hierbei um eine ID, die von "mi_GetTabsRefInOtherTabs_Ad" zurückgegeben wird - mit "UsedInMetaInformationTypes = 1")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTableIdFieldBuilder() {
           if (tableIdBuilder_ == null) {
             tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTableId(),
                     getParentForChildren(),
                     isClean());
@@ -1874,15 +1874,15 @@ public final class MiGetMetaInformationTypesAd {
           return tableIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue metaInformationTypeId_ = null;
+        private io.dstore.values.IntegerValue metaInformationTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> metaInformationTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> metaInformationTypeIdBuilder_;
         /**
          * <pre>
          * ID eines "Meta-Informations-Typs"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
          */
         public boolean hasMetaInformationTypeId() {
           return metaInformationTypeIdBuilder_ != null || metaInformationTypeId_ != null;
@@ -1892,11 +1892,11 @@ public final class MiGetMetaInformationTypesAd {
          * ID eines "Meta-Informations-Typs"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getMetaInformationTypeId() {
+        public io.dstore.values.IntegerValue getMetaInformationTypeId() {
           if (metaInformationTypeIdBuilder_ == null) {
-            return metaInformationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : metaInformationTypeId_;
+            return metaInformationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : metaInformationTypeId_;
           } else {
             return metaInformationTypeIdBuilder_.getMessage();
           }
@@ -1906,9 +1906,9 @@ public final class MiGetMetaInformationTypesAd {
          * ID eines "Meta-Informations-Typs"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
          */
-        public Builder setMetaInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder setMetaInformationTypeId(io.dstore.values.IntegerValue value) {
           if (metaInformationTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1926,10 +1926,10 @@ public final class MiGetMetaInformationTypesAd {
          * ID eines "Meta-Informations-Typs"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
          */
         public Builder setMetaInformationTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (metaInformationTypeIdBuilder_ == null) {
             metaInformationTypeId_ = builderForValue.build();
             onChanged();
@@ -1944,13 +1944,13 @@ public final class MiGetMetaInformationTypesAd {
          * ID eines "Meta-Informations-Typs"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
          */
-        public Builder mergeMetaInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeMetaInformationTypeId(io.dstore.values.IntegerValue value) {
           if (metaInformationTypeIdBuilder_ == null) {
             if (metaInformationTypeId_ != null) {
               metaInformationTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(metaInformationTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(metaInformationTypeId_).mergeFrom(value).buildPartial();
             } else {
               metaInformationTypeId_ = value;
             }
@@ -1966,7 +1966,7 @@ public final class MiGetMetaInformationTypesAd {
          * ID eines "Meta-Informations-Typs"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
          */
         public Builder clearMetaInformationTypeId() {
           if (metaInformationTypeIdBuilder_ == null) {
@@ -1984,9 +1984,9 @@ public final class MiGetMetaInformationTypesAd {
          * ID eines "Meta-Informations-Typs"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMetaInformationTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMetaInformationTypeIdBuilder() {
           
           onChanged();
           return getMetaInformationTypeIdFieldBuilder().getBuilder();
@@ -1996,14 +1996,14 @@ public final class MiGetMetaInformationTypesAd {
          * ID eines "Meta-Informations-Typs"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMetaInformationTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMetaInformationTypeIdOrBuilder() {
           if (metaInformationTypeIdBuilder_ != null) {
             return metaInformationTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return metaInformationTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : metaInformationTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : metaInformationTypeId_;
           }
         }
         /**
@@ -2011,14 +2011,14 @@ public final class MiGetMetaInformationTypesAd {
          * ID eines "Meta-Informations-Typs"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMetaInformationTypeIdFieldBuilder() {
           if (metaInformationTypeIdBuilder_ == null) {
             metaInformationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMetaInformationTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2027,15 +2027,15 @@ public final class MiGetMetaInformationTypesAd {
           return metaInformationTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue tableName_ = null;
+        private io.dstore.values.StringValue tableName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tableNameBuilder_;
         /**
          * <pre>
          * Name der durch "TableID" referenzierten Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10003;</code>
          */
         public boolean hasTableName() {
           return tableNameBuilder_ != null || tableName_ != null;
@@ -2045,11 +2045,11 @@ public final class MiGetMetaInformationTypesAd {
          * Name der durch "TableID" referenzierten Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10003;</code>
          */
-        public io.dstore.Values.stringValue getTableName() {
+        public io.dstore.values.StringValue getTableName() {
           if (tableNameBuilder_ == null) {
-            return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+            return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
           } else {
             return tableNameBuilder_.getMessage();
           }
@@ -2059,9 +2059,9 @@ public final class MiGetMetaInformationTypesAd {
          * Name der durch "TableID" referenzierten Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10003;</code>
          */
-        public Builder setTableName(io.dstore.Values.stringValue value) {
+        public Builder setTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2079,10 +2079,10 @@ public final class MiGetMetaInformationTypesAd {
          * Name der durch "TableID" referenzierten Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10003;</code>
          */
         public Builder setTableName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (tableNameBuilder_ == null) {
             tableName_ = builderForValue.build();
             onChanged();
@@ -2097,13 +2097,13 @@ public final class MiGetMetaInformationTypesAd {
          * Name der durch "TableID" referenzierten Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10003;</code>
          */
-        public Builder mergeTableName(io.dstore.Values.stringValue value) {
+        public Builder mergeTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
             if (tableName_ != null) {
               tableName_ =
-                io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
             } else {
               tableName_ = value;
             }
@@ -2119,7 +2119,7 @@ public final class MiGetMetaInformationTypesAd {
          * Name der durch "TableID" referenzierten Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10003;</code>
          */
         public Builder clearTableName() {
           if (tableNameBuilder_ == null) {
@@ -2137,9 +2137,9 @@ public final class MiGetMetaInformationTypesAd {
          * Name der durch "TableID" referenzierten Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
+        public io.dstore.values.StringValue.Builder getTableNameBuilder() {
           
           onChanged();
           return getTableNameFieldBuilder().getBuilder();
@@ -2149,14 +2149,14 @@ public final class MiGetMetaInformationTypesAd {
          * Name der durch "TableID" referenzierten Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
             return tableNameBuilder_.getMessageOrBuilder();
           } else {
             return tableName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+                io.dstore.values.StringValue.getDefaultInstance() : tableName_;
           }
         }
         /**
@@ -2164,14 +2164,14 @@ public final class MiGetMetaInformationTypesAd {
          * Name der durch "TableID" referenzierten Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getTableNameFieldBuilder() {
           if (tableNameBuilder_ == null) {
             tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getTableName(),
                     getParentForChildren(),
                     isClean());
@@ -2180,15 +2180,15 @@ public final class MiGetMetaInformationTypesAd {
           return tableNameBuilder_;
         }
 
-        private io.dstore.Values.stringValue description_ = null;
+        private io.dstore.values.StringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
          * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10004;</code>
+         * <code>optional .dstore.values.StringValue description = 10004;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -2198,11 +2198,11 @@ public final class MiGetMetaInformationTypesAd {
          * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10004;</code>
+         * <code>optional .dstore.values.StringValue description = 10004;</code>
          */
-        public io.dstore.Values.stringValue getDescription() {
+        public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
@@ -2212,9 +2212,9 @@ public final class MiGetMetaInformationTypesAd {
          * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10004;</code>
+         * <code>optional .dstore.values.StringValue description = 10004;</code>
          */
-        public Builder setDescription(io.dstore.Values.stringValue value) {
+        public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2232,10 +2232,10 @@ public final class MiGetMetaInformationTypesAd {
          * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10004;</code>
+         * <code>optional .dstore.values.StringValue description = 10004;</code>
          */
         public Builder setDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -2250,13 +2250,13 @@ public final class MiGetMetaInformationTypesAd {
          * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10004;</code>
+         * <code>optional .dstore.values.StringValue description = 10004;</code>
          */
-        public Builder mergeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2272,7 +2272,7 @@ public final class MiGetMetaInformationTypesAd {
          * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10004;</code>
+         * <code>optional .dstore.values.StringValue description = 10004;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2290,9 +2290,9 @@ public final class MiGetMetaInformationTypesAd {
          * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10004;</code>
+         * <code>optional .dstore.values.StringValue description = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
@@ -2302,14 +2302,14 @@ public final class MiGetMetaInformationTypesAd {
          * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10004;</code>
+         * <code>optional .dstore.values.StringValue description = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.values.StringValue.getDefaultInstance() : description_;
           }
         }
         /**
@@ -2317,14 +2317,14 @@ public final class MiGetMetaInformationTypesAd {
          * Kurze Erläuterung zur "Meta-Informations-Art" (also was genau gespeichert wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10004;</code>
+         * <code>optional .dstore.values.StringValue description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2333,15 +2333,15 @@ public final class MiGetMetaInformationTypesAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue metaInformationType_ = null;
+        private io.dstore.values.StringValue metaInformationType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> metaInformationTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> metaInformationTypeBuilder_;
         /**
          * <pre>
          * Art der "Meta-Information" (z.B. "Erstellungsdatum")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
          */
         public boolean hasMetaInformationType() {
           return metaInformationTypeBuilder_ != null || metaInformationType_ != null;
@@ -2351,11 +2351,11 @@ public final class MiGetMetaInformationTypesAd {
          * Art der "Meta-Information" (z.B. "Erstellungsdatum")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
          */
-        public io.dstore.Values.stringValue getMetaInformationType() {
+        public io.dstore.values.StringValue getMetaInformationType() {
           if (metaInformationTypeBuilder_ == null) {
-            return metaInformationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInformationType_;
+            return metaInformationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInformationType_;
           } else {
             return metaInformationTypeBuilder_.getMessage();
           }
@@ -2365,9 +2365,9 @@ public final class MiGetMetaInformationTypesAd {
          * Art der "Meta-Information" (z.B. "Erstellungsdatum")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
          */
-        public Builder setMetaInformationType(io.dstore.Values.stringValue value) {
+        public Builder setMetaInformationType(io.dstore.values.StringValue value) {
           if (metaInformationTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2385,10 +2385,10 @@ public final class MiGetMetaInformationTypesAd {
          * Art der "Meta-Information" (z.B. "Erstellungsdatum")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
          */
         public Builder setMetaInformationType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (metaInformationTypeBuilder_ == null) {
             metaInformationType_ = builderForValue.build();
             onChanged();
@@ -2403,13 +2403,13 @@ public final class MiGetMetaInformationTypesAd {
          * Art der "Meta-Information" (z.B. "Erstellungsdatum")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
          */
-        public Builder mergeMetaInformationType(io.dstore.Values.stringValue value) {
+        public Builder mergeMetaInformationType(io.dstore.values.StringValue value) {
           if (metaInformationTypeBuilder_ == null) {
             if (metaInformationType_ != null) {
               metaInformationType_ =
-                io.dstore.Values.stringValue.newBuilder(metaInformationType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(metaInformationType_).mergeFrom(value).buildPartial();
             } else {
               metaInformationType_ = value;
             }
@@ -2425,7 +2425,7 @@ public final class MiGetMetaInformationTypesAd {
          * Art der "Meta-Information" (z.B. "Erstellungsdatum")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
          */
         public Builder clearMetaInformationType() {
           if (metaInformationTypeBuilder_ == null) {
@@ -2443,9 +2443,9 @@ public final class MiGetMetaInformationTypesAd {
          * Art der "Meta-Information" (z.B. "Erstellungsdatum")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getMetaInformationTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getMetaInformationTypeBuilder() {
           
           onChanged();
           return getMetaInformationTypeFieldBuilder().getBuilder();
@@ -2455,14 +2455,14 @@ public final class MiGetMetaInformationTypesAd {
          * Art der "Meta-Information" (z.B. "Erstellungsdatum")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getMetaInformationTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getMetaInformationTypeOrBuilder() {
           if (metaInformationTypeBuilder_ != null) {
             return metaInformationTypeBuilder_.getMessageOrBuilder();
           } else {
             return metaInformationType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : metaInformationType_;
+                io.dstore.values.StringValue.getDefaultInstance() : metaInformationType_;
           }
         }
         /**
@@ -2470,14 +2470,14 @@ public final class MiGetMetaInformationTypesAd {
          * Art der "Meta-Information" (z.B. "Erstellungsdatum")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getMetaInformationTypeFieldBuilder() {
           if (metaInformationTypeBuilder_ == null) {
             metaInformationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getMetaInformationType(),
                     getParentForChildren(),
                     isClean());
@@ -3947,19 +3947,19 @@ public final class MiGetMetaInformationTypesAd {
       "_GetMetaInformationTypes_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"S\n\n" +
       "Parameters\022-\n\010table_id\030\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\026\n\rtable_id_null\030\351\007 \001(" +
+      "lues.IntegerValue\022\026\n\rtable_id_null\030\351\007 \001(" +
       "\010\"\335\003\n\010Response\0228\n\020meta_information\030\002 \003(\013" +
       "2\036.dstore.engine.MetaInformation\022\'\n\007mess" +
       "age\030\003 \003(\0132\026.dstore.engine.Message\022F\n\003row" +
       "\030\004 \003(\01329.dstore.engine.mi_GetMetaInforma",
       "tionTypes_Ad.Response.Row\032\245\002\n\003Row\022\017\n\006row" +
       "_id\030\220N \001(\005\022.\n\010table_id\030\221N \001(\0132\033.dstore.v" +
-      "alues.integerValue\022>\n\030meta_information_t" +
-      "ype_id\030\222N \001(\0132\033.dstore.values.integerVal" +
+      "alues.IntegerValue\022>\n\030meta_information_t" +
+      "ype_id\030\222N \001(\0132\033.dstore.values.IntegerVal" +
       "ue\022/\n\ntable_name\030\223N \001(\0132\032.dstore.values." +
-      "stringValue\0220\n\013description\030\224N \001(\0132\032.dsto" +
-      "re.values.stringValue\022:\n\025meta_informatio" +
-      "n_type\030\225N \001(\0132\032.dstore.values.stringValu" +
+      "StringValue\0220\n\013description\030\224N \001(\0132\032.dsto" +
+      "re.values.StringValue\022:\n\025meta_informatio" +
+      "n_type\030\225N \001(\0132\032.dstore.values.StringValu" +
       "eB^\n\033io.dstore.engine.proceduresZ?gosdk." +
       "dstore.de/engine/procedures/mi_GetMetaIn",
       "formationTypes_Adb\006proto3"
@@ -3975,7 +3975,7 @@ public final class MiGetMetaInformationTypesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Parameters_descriptor =
@@ -3996,7 +3996,7 @@ public final class MiGetMetaInformationTypesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetMetaInformationTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TableId", "MetaInformationTypeId", "TableName", "Description", "MetaInformationType", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class MiModifyRegionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue region_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
      */
     boolean hasRegionId();
     /**
-     * <code>optional .dstore.values.integerValue region_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
      */
-    io.dstore.Values.integerValue getRegionId();
+    io.dstore.values.IntegerValue getRegionId();
     /**
-     * <code>optional .dstore.values.integerValue region_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder();
 
     /**
      * <code>optional bool region_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyRegionsAd {
     boolean getRegionIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue region = 2;</code>
+     * <code>optional .dstore.values.StringValue region = 2;</code>
      */
     boolean hasRegion();
     /**
-     * <code>optional .dstore.values.stringValue region = 2;</code>
+     * <code>optional .dstore.values.StringValue region = 2;</code>
      */
-    io.dstore.Values.stringValue getRegion();
+    io.dstore.values.StringValue getRegion();
     /**
-     * <code>optional .dstore.values.stringValue region = 2;</code>
+     * <code>optional .dstore.values.StringValue region = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getRegionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getRegionOrBuilder();
 
     /**
      * <code>optional bool region_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyRegionsAd {
     boolean getRegionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
      */
     boolean hasDeleteRegion();
     /**
-     * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
      */
-    io.dstore.Values.booleanValue getDeleteRegion();
+    io.dstore.values.BooleanValue getDeleteRegion();
     /**
-     * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteRegionOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteRegionOrBuilder();
 
     /**
      * <code>optional bool delete_region_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiModifyRegionsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (regionId_ != null) {
                 subBuilder = regionId_.toBuilder();
               }
-              regionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              regionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(regionId_);
                 regionId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiModifyRegionsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (region_ != null) {
                 subBuilder = region_.toBuilder();
               }
-              region_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              region_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(region_);
                 region_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiModifyRegionsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteRegion_ != null) {
                 subBuilder = deleteRegion_.toBuilder();
               }
-              deleteRegion_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteRegion_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteRegion_);
                 deleteRegion_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiModifyRegionsAd {
     }
 
     public static final int REGION_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue regionId_;
+    private io.dstore.values.IntegerValue regionId_;
     /**
-     * <code>optional .dstore.values.integerValue region_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
      */
     public boolean hasRegionId() {
       return regionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue region_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getRegionId() {
-      return regionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
+    public io.dstore.values.IntegerValue getRegionId() {
+      return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue region_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
       return getRegionId();
     }
 
@@ -222,23 +222,23 @@ public final class MiModifyRegionsAd {
     }
 
     public static final int REGION_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue region_;
+    private io.dstore.values.StringValue region_;
     /**
-     * <code>optional .dstore.values.stringValue region = 2;</code>
+     * <code>optional .dstore.values.StringValue region = 2;</code>
      */
     public boolean hasRegion() {
       return region_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue region = 2;</code>
+     * <code>optional .dstore.values.StringValue region = 2;</code>
      */
-    public io.dstore.Values.stringValue getRegion() {
-      return region_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : region_;
+    public io.dstore.values.StringValue getRegion() {
+      return region_ == null ? io.dstore.values.StringValue.getDefaultInstance() : region_;
     }
     /**
-     * <code>optional .dstore.values.stringValue region = 2;</code>
+     * <code>optional .dstore.values.StringValue region = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getRegionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getRegionOrBuilder() {
       return getRegion();
     }
 
@@ -252,23 +252,23 @@ public final class MiModifyRegionsAd {
     }
 
     public static final int DELETE_REGION_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue deleteRegion_;
+    private io.dstore.values.BooleanValue deleteRegion_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
      */
     public boolean hasDeleteRegion() {
       return deleteRegion_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteRegion() {
-      return deleteRegion_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteRegion_;
+    public io.dstore.values.BooleanValue getDeleteRegion() {
+      return deleteRegion_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteRegion_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteRegionOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteRegionOrBuilder() {
       return getDeleteRegion();
     }
 
@@ -677,29 +677,29 @@ public final class MiModifyRegionsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue regionId_ = null;
+      private io.dstore.values.IntegerValue regionId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> regionIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> regionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue region_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
        */
       public boolean hasRegionId() {
         return regionIdBuilder_ != null || regionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getRegionId() {
+      public io.dstore.values.IntegerValue getRegionId() {
         if (regionIdBuilder_ == null) {
-          return regionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
+          return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
         } else {
           return regionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
        */
-      public Builder setRegionId(io.dstore.Values.integerValue value) {
+      public Builder setRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
        */
       public Builder setRegionId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (regionIdBuilder_ == null) {
           regionId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
        */
-      public Builder mergeRegionId(io.dstore.Values.integerValue value) {
+      public Builder mergeRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
           if (regionId_ != null) {
             regionId_ =
-              io.dstore.Values.integerValue.newBuilder(regionId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(regionId_).mergeFrom(value).buildPartial();
           } else {
             regionId_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
        */
       public Builder clearRegionId() {
         if (regionIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRegionIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRegionIdBuilder() {
         
         onChanged();
         return getRegionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
         if (regionIdBuilder_ != null) {
           return regionIdBuilder_.getMessageOrBuilder();
         } else {
           return regionId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRegionIdFieldBuilder() {
         if (regionIdBuilder_ == null) {
           regionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRegionId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiModifyRegionsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue region_ = null;
+      private io.dstore.values.StringValue region_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> regionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> regionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue region = 2;</code>
+       * <code>optional .dstore.values.StringValue region = 2;</code>
        */
       public boolean hasRegion() {
         return regionBuilder_ != null || region_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 2;</code>
+       * <code>optional .dstore.values.StringValue region = 2;</code>
        */
-      public io.dstore.Values.stringValue getRegion() {
+      public io.dstore.values.StringValue getRegion() {
         if (regionBuilder_ == null) {
-          return region_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : region_;
+          return region_ == null ? io.dstore.values.StringValue.getDefaultInstance() : region_;
         } else {
           return regionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 2;</code>
+       * <code>optional .dstore.values.StringValue region = 2;</code>
        */
-      public Builder setRegion(io.dstore.Values.stringValue value) {
+      public Builder setRegion(io.dstore.values.StringValue value) {
         if (regionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 2;</code>
+       * <code>optional .dstore.values.StringValue region = 2;</code>
        */
       public Builder setRegion(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (regionBuilder_ == null) {
           region_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 2;</code>
+       * <code>optional .dstore.values.StringValue region = 2;</code>
        */
-      public Builder mergeRegion(io.dstore.Values.stringValue value) {
+      public Builder mergeRegion(io.dstore.values.StringValue value) {
         if (regionBuilder_ == null) {
           if (region_ != null) {
             region_ =
-              io.dstore.Values.stringValue.newBuilder(region_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(region_).mergeFrom(value).buildPartial();
           } else {
             region_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 2;</code>
+       * <code>optional .dstore.values.StringValue region = 2;</code>
        */
       public Builder clearRegion() {
         if (regionBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 2;</code>
+       * <code>optional .dstore.values.StringValue region = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getRegionBuilder() {
+      public io.dstore.values.StringValue.Builder getRegionBuilder() {
         
         onChanged();
         return getRegionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 2;</code>
+       * <code>optional .dstore.values.StringValue region = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getRegionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getRegionOrBuilder() {
         if (regionBuilder_ != null) {
           return regionBuilder_.getMessageOrBuilder();
         } else {
           return region_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : region_;
+              io.dstore.values.StringValue.getDefaultInstance() : region_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue region = 2;</code>
+       * <code>optional .dstore.values.StringValue region = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getRegionFieldBuilder() {
         if (regionBuilder_ == null) {
           regionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getRegion(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiModifyRegionsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteRegion_ = null;
+      private io.dstore.values.BooleanValue deleteRegion_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteRegionBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteRegionBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
        */
       public boolean hasDeleteRegion() {
         return deleteRegionBuilder_ != null || deleteRegion_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteRegion() {
+      public io.dstore.values.BooleanValue getDeleteRegion() {
         if (deleteRegionBuilder_ == null) {
-          return deleteRegion_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteRegion_;
+          return deleteRegion_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteRegion_;
         } else {
           return deleteRegionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
        */
-      public Builder setDeleteRegion(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteRegion(io.dstore.values.BooleanValue value) {
         if (deleteRegionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
        */
       public Builder setDeleteRegion(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteRegionBuilder_ == null) {
           deleteRegion_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
        */
-      public Builder mergeDeleteRegion(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteRegion(io.dstore.values.BooleanValue value) {
         if (deleteRegionBuilder_ == null) {
           if (deleteRegion_ != null) {
             deleteRegion_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteRegion_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteRegion_).mergeFrom(value).buildPartial();
           } else {
             deleteRegion_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
        */
       public Builder clearDeleteRegion() {
         if (deleteRegionBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiModifyRegionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteRegionBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteRegionBuilder() {
         
         onChanged();
         return getDeleteRegionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteRegionOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteRegionOrBuilder() {
         if (deleteRegionBuilder_ != null) {
           return deleteRegionBuilder_.getMessageOrBuilder();
         } else {
           return deleteRegion_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteRegion_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteRegion_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_region = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_region = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteRegionFieldBuilder() {
         if (deleteRegionBuilder_ == null) {
           deleteRegionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteRegion(),
                   getParentForChildren(),
                   isClean());
@@ -3192,11 +3192,11 @@ public final class MiModifyRegionsAd {
       "ons_Ad.proto\022!dstore.engine.mi_ModifyReg" +
       "ions_Ad\032\023dstore/values.proto\032\032dstore/eng" +
       "ine/engine.proto\"\350\001\n\nParameters\022.\n\tregio" +
-      "n_id\030\001 \001(\0132\033.dstore.values.integerValue\022" +
+      "n_id\030\001 \001(\0132\033.dstore.values.IntegerValue\022" +
       "\027\n\016region_id_null\030\351\007 \001(\010\022*\n\006region\030\002 \001(\013" +
-      "2\032.dstore.values.stringValue\022\024\n\013region_n" +
+      "2\032.dstore.values.StringValue\022\024\n\013region_n" +
       "ull\030\352\007 \001(\010\0222\n\rdelete_region\030\003 \001(\0132\033.dsto" +
-      "re.values.booleanValue\022\033\n\022delete_region_" +
+      "re.values.BooleanValue\022\033\n\022delete_region_" +
       "null\030\353\007 \001(\010\"\303\001\n\010Response\0228\n\020meta_informa",
       "tion\030\002 \003(\0132\036.dstore.engine.MetaInformati" +
       "on\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Mess" +
@@ -3217,7 +3217,7 @@ public final class MiModifyRegionsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyRegions_Ad_Parameters_descriptor =
@@ -3238,7 +3238,7 @@ public final class MiModifyRegionsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyRegions_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class MiGetCountries {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
     boolean hasCountryId();
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCountryId();
+    io.dstore.values.IntegerValue getCountryId();
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder();
 
     /**
      * <code>optional bool country_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetCountries {
     boolean getCountryIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
      */
     boolean hasRegionId();
     /**
-     * <code>optional .dstore.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
      */
-    io.dstore.Values.integerValue getRegionId();
+    io.dstore.values.IntegerValue getRegionId();
     /**
-     * <code>optional .dstore.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder();
 
     /**
      * <code>optional bool region_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetCountries {
     boolean getRegionIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiGetCountries {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (countryId_ != null) {
                 subBuilder = countryId_.toBuilder();
               }
-              countryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              countryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(countryId_);
                 countryId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiGetCountries {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (regionId_ != null) {
                 subBuilder = regionId_.toBuilder();
               }
-              regionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              regionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(regionId_);
                 regionId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiGetCountries {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiGetCountries {
     }
 
     public static final int COUNTRY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue countryId_;
+    private io.dstore.values.IntegerValue countryId_;
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
     public boolean hasCountryId() {
       return countryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCountryId() {
-      return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+    public io.dstore.values.IntegerValue getCountryId() {
+      return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
       return getCountryId();
     }
 
@@ -222,23 +222,23 @@ public final class MiGetCountries {
     }
 
     public static final int REGION_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue regionId_;
+    private io.dstore.values.IntegerValue regionId_;
     /**
-     * <code>optional .dstore.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
      */
     public boolean hasRegionId() {
       return regionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getRegionId() {
-      return regionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
+    public io.dstore.values.IntegerValue getRegionId() {
+      return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue region_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
       return getRegionId();
     }
 
@@ -252,23 +252,23 @@ public final class MiGetCountries {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -677,29 +677,29 @@ public final class MiGetCountries {
         return this;
       }
 
-      private io.dstore.Values.integerValue countryId_ = null;
+      private io.dstore.values.IntegerValue countryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> countryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
       public boolean hasCountryId() {
         return countryIdBuilder_ != null || countryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCountryId() {
+      public io.dstore.values.IntegerValue getCountryId() {
         if (countryIdBuilder_ == null) {
-          return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+          return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
         } else {
           return countryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public Builder setCountryId(io.dstore.Values.integerValue value) {
+      public Builder setCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder setCountryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (countryIdBuilder_ == null) {
           countryId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public Builder mergeCountryId(io.dstore.Values.integerValue value) {
+      public Builder mergeCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
           if (countryId_ != null) {
             countryId_ =
-              io.dstore.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
           } else {
             countryId_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder clearCountryId() {
         if (countryIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCountryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCountryIdBuilder() {
         
         onChanged();
         return getCountryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
         if (countryIdBuilder_ != null) {
           return countryIdBuilder_.getMessageOrBuilder();
         } else {
           return countryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCountryIdFieldBuilder() {
         if (countryIdBuilder_ == null) {
           countryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCountryId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiGetCountries {
         return this;
       }
 
-      private io.dstore.Values.integerValue regionId_ = null;
+      private io.dstore.values.IntegerValue regionId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> regionIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> regionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
        */
       public boolean hasRegionId() {
         return regionIdBuilder_ != null || regionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getRegionId() {
+      public io.dstore.values.IntegerValue getRegionId() {
         if (regionIdBuilder_ == null) {
-          return regionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
+          return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
         } else {
           return regionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
        */
-      public Builder setRegionId(io.dstore.Values.integerValue value) {
+      public Builder setRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
        */
       public Builder setRegionId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (regionIdBuilder_ == null) {
           regionId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
        */
-      public Builder mergeRegionId(io.dstore.Values.integerValue value) {
+      public Builder mergeRegionId(io.dstore.values.IntegerValue value) {
         if (regionIdBuilder_ == null) {
           if (regionId_ != null) {
             regionId_ =
-              io.dstore.Values.integerValue.newBuilder(regionId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(regionId_).mergeFrom(value).buildPartial();
           } else {
             regionId_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
        */
       public Builder clearRegionId() {
         if (regionIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRegionIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRegionIdBuilder() {
         
         onChanged();
         return getRegionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
         if (regionIdBuilder_ != null) {
           return regionIdBuilder_.getMessageOrBuilder();
         } else {
           return regionId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue region_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRegionIdFieldBuilder() {
         if (regionIdBuilder_ == null) {
           regionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRegionId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiGetCountries {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiGetCountries {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class MiGetCountries {
        * ID eines Landes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
       boolean hasCountryId();
       /**
@@ -1373,24 +1373,24 @@ public final class MiGetCountries {
        * ID eines Landes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getCountryId();
+      io.dstore.values.IntegerValue getCountryId();
       /**
        * <pre>
        * ID eines Landes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue country_description = 10002;</code>
        */
       boolean hasCountryDescription();
       /**
@@ -1398,24 +1398,24 @@ public final class MiGetCountries {
        * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue country_description = 10002;</code>
        */
-      io.dstore.Values.stringValue getCountryDescription();
+      io.dstore.values.StringValue getCountryDescription();
       /**
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue country_description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCountryDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCountryDescriptionOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue region = 10003;</code>
+       * <code>optional .dstore.values.StringValue region = 10003;</code>
        */
       boolean hasRegion();
       /**
@@ -1423,24 +1423,24 @@ public final class MiGetCountries {
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue region = 10003;</code>
+       * <code>optional .dstore.values.StringValue region = 10003;</code>
        */
-      io.dstore.Values.stringValue getRegion();
+      io.dstore.values.StringValue getRegion();
       /**
        * <pre>
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue region = 10003;</code>
+       * <code>optional .dstore.values.StringValue region = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getRegionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getRegionOrBuilder();
 
       /**
        * <pre>
        * ID einer Region, die dem Land zugeordnet wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
        */
       boolean hasRegionId();
       /**
@@ -1448,24 +1448,24 @@ public final class MiGetCountries {
        * ID einer Region, die dem Land zugeordnet wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
        */
-      io.dstore.Values.integerValue getRegionId();
+      io.dstore.values.IntegerValue getRegionId();
       /**
        * <pre>
        * ID einer Region, die dem Land zugeordnet wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder();
 
       /**
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue country_code = 10005;</code>
        */
       boolean hasCountryCode();
       /**
@@ -1473,24 +1473,24 @@ public final class MiGetCountries {
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue country_code = 10005;</code>
        */
-      io.dstore.Values.stringValue getCountryCode();
+      io.dstore.values.StringValue getCountryCode();
       /**
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue country_code = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCountryCodeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCountryCodeOrBuilder();
 
       /**
        * <pre>
        * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
       boolean hasSortNo();
       /**
@@ -1498,17 +1498,17 @@ public final class MiGetCountries {
        * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
-      io.dstore.Values.integerValue getSortNo();
+      io.dstore.values.IntegerValue getSortNo();
       /**
        * <pre>
        * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetCountries.Response.Row}
@@ -1556,11 +1556,11 @@ public final class MiGetCountries {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (countryId_ != null) {
                   subBuilder = countryId_.toBuilder();
                 }
-                countryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                countryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryId_);
                   countryId_ = subBuilder.buildPartial();
@@ -1569,11 +1569,11 @@ public final class MiGetCountries {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (countryDescription_ != null) {
                   subBuilder = countryDescription_.toBuilder();
                 }
-                countryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                countryDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryDescription_);
                   countryDescription_ = subBuilder.buildPartial();
@@ -1582,11 +1582,11 @@ public final class MiGetCountries {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (region_ != null) {
                   subBuilder = region_.toBuilder();
                 }
-                region_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                region_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(region_);
                   region_ = subBuilder.buildPartial();
@@ -1595,11 +1595,11 @@ public final class MiGetCountries {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (regionId_ != null) {
                   subBuilder = regionId_.toBuilder();
                 }
-                regionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                regionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(regionId_);
                   regionId_ = subBuilder.buildPartial();
@@ -1608,11 +1608,11 @@ public final class MiGetCountries {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (countryCode_ != null) {
                   subBuilder = countryCode_.toBuilder();
                 }
-                countryCode_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                countryCode_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryCode_);
                   countryCode_ = subBuilder.buildPartial();
@@ -1621,11 +1621,11 @@ public final class MiGetCountries {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1666,13 +1666,13 @@ public final class MiGetCountries {
       }
 
       public static final int COUNTRY_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue countryId_;
+      private io.dstore.values.IntegerValue countryId_;
       /**
        * <pre>
        * ID eines Landes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
       public boolean hasCountryId() {
         return countryId_ != null;
@@ -1682,30 +1682,30 @@ public final class MiGetCountries {
        * ID eines Landes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getCountryId() {
-        return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+      public io.dstore.values.IntegerValue getCountryId() {
+        return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
       }
       /**
        * <pre>
        * ID eines Landes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
         return getCountryId();
       }
 
       public static final int COUNTRY_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue countryDescription_;
+      private io.dstore.values.StringValue countryDescription_;
       /**
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue country_description = 10002;</code>
        */
       public boolean hasCountryDescription() {
         return countryDescription_ != null;
@@ -1715,30 +1715,30 @@ public final class MiGetCountries {
        * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue country_description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getCountryDescription() {
-        return countryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryDescription_;
+      public io.dstore.values.StringValue getCountryDescription() {
+        return countryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : countryDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue country_description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCountryDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCountryDescriptionOrBuilder() {
         return getCountryDescription();
       }
 
       public static final int REGION_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue region_;
+      private io.dstore.values.StringValue region_;
       /**
        * <pre>
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue region = 10003;</code>
+       * <code>optional .dstore.values.StringValue region = 10003;</code>
        */
       public boolean hasRegion() {
         return region_ != null;
@@ -1748,30 +1748,30 @@ public final class MiGetCountries {
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue region = 10003;</code>
+       * <code>optional .dstore.values.StringValue region = 10003;</code>
        */
-      public io.dstore.Values.stringValue getRegion() {
-        return region_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : region_;
+      public io.dstore.values.StringValue getRegion() {
+        return region_ == null ? io.dstore.values.StringValue.getDefaultInstance() : region_;
       }
       /**
        * <pre>
        * Bezeichnung der Region "RegionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue region = 10003;</code>
+       * <code>optional .dstore.values.StringValue region = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getRegionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getRegionOrBuilder() {
         return getRegion();
       }
 
       public static final int REGION_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue regionId_;
+      private io.dstore.values.IntegerValue regionId_;
       /**
        * <pre>
        * ID einer Region, die dem Land zugeordnet wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
        */
       public boolean hasRegionId() {
         return regionId_ != null;
@@ -1781,30 +1781,30 @@ public final class MiGetCountries {
        * ID einer Region, die dem Land zugeordnet wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
        */
-      public io.dstore.Values.integerValue getRegionId() {
-        return regionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
+      public io.dstore.values.IntegerValue getRegionId() {
+        return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
       }
       /**
        * <pre>
        * ID einer Region, die dem Land zugeordnet wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
         return getRegionId();
       }
 
       public static final int COUNTRY_CODE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue countryCode_;
+      private io.dstore.values.StringValue countryCode_;
       /**
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue country_code = 10005;</code>
        */
       public boolean hasCountryCode() {
         return countryCode_ != null;
@@ -1814,30 +1814,30 @@ public final class MiGetCountries {
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue country_code = 10005;</code>
        */
-      public io.dstore.Values.stringValue getCountryCode() {
-        return countryCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryCode_;
+      public io.dstore.values.StringValue getCountryCode() {
+        return countryCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : countryCode_;
       }
       /**
        * <pre>
        * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue country_code = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCountryCodeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCountryCodeOrBuilder() {
         return getCountryCode();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue sortNo_;
+      private io.dstore.values.IntegerValue sortNo_;
       /**
        * <pre>
        * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1847,19 +1847,19 @@ public final class MiGetCountries {
        * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.values.IntegerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
       }
       /**
        * <pre>
        * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
@@ -2338,15 +2338,15 @@ public final class MiGetCountries {
           return this;
         }
 
-        private io.dstore.Values.integerValue countryId_ = null;
+        private io.dstore.values.IntegerValue countryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> countryIdBuilder_;
         /**
          * <pre>
          * ID eines Landes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
         public boolean hasCountryId() {
           return countryIdBuilder_ != null || countryId_ != null;
@@ -2356,11 +2356,11 @@ public final class MiGetCountries {
          * ID eines Landes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getCountryId() {
+        public io.dstore.values.IntegerValue getCountryId() {
           if (countryIdBuilder_ == null) {
-            return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+            return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
           } else {
             return countryIdBuilder_.getMessage();
           }
@@ -2370,9 +2370,9 @@ public final class MiGetCountries {
          * ID eines Landes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public Builder setCountryId(io.dstore.Values.integerValue value) {
+        public Builder setCountryId(io.dstore.values.IntegerValue value) {
           if (countryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2390,10 +2390,10 @@ public final class MiGetCountries {
          * ID eines Landes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
         public Builder setCountryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (countryIdBuilder_ == null) {
             countryId_ = builderForValue.build();
             onChanged();
@@ -2408,13 +2408,13 @@ public final class MiGetCountries {
          * ID eines Landes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public Builder mergeCountryId(io.dstore.Values.integerValue value) {
+        public Builder mergeCountryId(io.dstore.values.IntegerValue value) {
           if (countryIdBuilder_ == null) {
             if (countryId_ != null) {
               countryId_ =
-                io.dstore.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
             } else {
               countryId_ = value;
             }
@@ -2430,7 +2430,7 @@ public final class MiGetCountries {
          * ID eines Landes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
         public Builder clearCountryId() {
           if (countryIdBuilder_ == null) {
@@ -2448,9 +2448,9 @@ public final class MiGetCountries {
          * ID eines Landes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCountryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCountryIdBuilder() {
           
           onChanged();
           return getCountryIdFieldBuilder().getBuilder();
@@ -2460,14 +2460,14 @@ public final class MiGetCountries {
          * ID eines Landes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
           if (countryIdBuilder_ != null) {
             return countryIdBuilder_.getMessageOrBuilder();
           } else {
             return countryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
           }
         }
         /**
@@ -2475,14 +2475,14 @@ public final class MiGetCountries {
          * ID eines Landes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCountryIdFieldBuilder() {
           if (countryIdBuilder_ == null) {
             countryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCountryId(),
                     getParentForChildren(),
                     isClean());
@@ -2491,15 +2491,15 @@ public final class MiGetCountries {
           return countryIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue countryDescription_ = null;
+        private io.dstore.values.StringValue countryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue country_description = 10002;</code>
          */
         public boolean hasCountryDescription() {
           return countryDescriptionBuilder_ != null || countryDescription_ != null;
@@ -2509,11 +2509,11 @@ public final class MiGetCountries {
          * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue country_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getCountryDescription() {
+        public io.dstore.values.StringValue getCountryDescription() {
           if (countryDescriptionBuilder_ == null) {
-            return countryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryDescription_;
+            return countryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : countryDescription_;
           } else {
             return countryDescriptionBuilder_.getMessage();
           }
@@ -2523,9 +2523,9 @@ public final class MiGetCountries {
          * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue country_description = 10002;</code>
          */
-        public Builder setCountryDescription(io.dstore.Values.stringValue value) {
+        public Builder setCountryDescription(io.dstore.values.StringValue value) {
           if (countryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2543,10 +2543,10 @@ public final class MiGetCountries {
          * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue country_description = 10002;</code>
          */
         public Builder setCountryDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (countryDescriptionBuilder_ == null) {
             countryDescription_ = builderForValue.build();
             onChanged();
@@ -2561,13 +2561,13 @@ public final class MiGetCountries {
          * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue country_description = 10002;</code>
          */
-        public Builder mergeCountryDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeCountryDescription(io.dstore.values.StringValue value) {
           if (countryDescriptionBuilder_ == null) {
             if (countryDescription_ != null) {
               countryDescription_ =
-                io.dstore.Values.stringValue.newBuilder(countryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(countryDescription_).mergeFrom(value).buildPartial();
             } else {
               countryDescription_ = value;
             }
@@ -2583,7 +2583,7 @@ public final class MiGetCountries {
          * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue country_description = 10002;</code>
          */
         public Builder clearCountryDescription() {
           if (countryDescriptionBuilder_ == null) {
@@ -2601,9 +2601,9 @@ public final class MiGetCountries {
          * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue country_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCountryDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getCountryDescriptionBuilder() {
           
           onChanged();
           return getCountryDescriptionFieldBuilder().getBuilder();
@@ -2613,14 +2613,14 @@ public final class MiGetCountries {
          * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue country_description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCountryDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCountryDescriptionOrBuilder() {
           if (countryDescriptionBuilder_ != null) {
             return countryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return countryDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : countryDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : countryDescription_;
           }
         }
         /**
@@ -2628,14 +2628,14 @@ public final class MiGetCountries {
          * Bezeichnung des Landes "CountryID" in der durch "&#64;LanguageID" angegebenen Sprache bzw. die "Default"-Bezeichnung (aus "Countries")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue country_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCountryDescriptionFieldBuilder() {
           if (countryDescriptionBuilder_ == null) {
             countryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCountryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2644,15 +2644,15 @@ public final class MiGetCountries {
           return countryDescriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue region_ = null;
+        private io.dstore.values.StringValue region_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> regionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> regionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue region = 10003;</code>
+         * <code>optional .dstore.values.StringValue region = 10003;</code>
          */
         public boolean hasRegion() {
           return regionBuilder_ != null || region_ != null;
@@ -2662,11 +2662,11 @@ public final class MiGetCountries {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue region = 10003;</code>
+         * <code>optional .dstore.values.StringValue region = 10003;</code>
          */
-        public io.dstore.Values.stringValue getRegion() {
+        public io.dstore.values.StringValue getRegion() {
           if (regionBuilder_ == null) {
-            return region_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : region_;
+            return region_ == null ? io.dstore.values.StringValue.getDefaultInstance() : region_;
           } else {
             return regionBuilder_.getMessage();
           }
@@ -2676,9 +2676,9 @@ public final class MiGetCountries {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue region = 10003;</code>
+         * <code>optional .dstore.values.StringValue region = 10003;</code>
          */
-        public Builder setRegion(io.dstore.Values.stringValue value) {
+        public Builder setRegion(io.dstore.values.StringValue value) {
           if (regionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2696,10 +2696,10 @@ public final class MiGetCountries {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue region = 10003;</code>
+         * <code>optional .dstore.values.StringValue region = 10003;</code>
          */
         public Builder setRegion(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (regionBuilder_ == null) {
             region_ = builderForValue.build();
             onChanged();
@@ -2714,13 +2714,13 @@ public final class MiGetCountries {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue region = 10003;</code>
+         * <code>optional .dstore.values.StringValue region = 10003;</code>
          */
-        public Builder mergeRegion(io.dstore.Values.stringValue value) {
+        public Builder mergeRegion(io.dstore.values.StringValue value) {
           if (regionBuilder_ == null) {
             if (region_ != null) {
               region_ =
-                io.dstore.Values.stringValue.newBuilder(region_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(region_).mergeFrom(value).buildPartial();
             } else {
               region_ = value;
             }
@@ -2736,7 +2736,7 @@ public final class MiGetCountries {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue region = 10003;</code>
+         * <code>optional .dstore.values.StringValue region = 10003;</code>
          */
         public Builder clearRegion() {
           if (regionBuilder_ == null) {
@@ -2754,9 +2754,9 @@ public final class MiGetCountries {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue region = 10003;</code>
+         * <code>optional .dstore.values.StringValue region = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getRegionBuilder() {
+        public io.dstore.values.StringValue.Builder getRegionBuilder() {
           
           onChanged();
           return getRegionFieldBuilder().getBuilder();
@@ -2766,14 +2766,14 @@ public final class MiGetCountries {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue region = 10003;</code>
+         * <code>optional .dstore.values.StringValue region = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getRegionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getRegionOrBuilder() {
           if (regionBuilder_ != null) {
             return regionBuilder_.getMessageOrBuilder();
           } else {
             return region_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : region_;
+                io.dstore.values.StringValue.getDefaultInstance() : region_;
           }
         }
         /**
@@ -2781,14 +2781,14 @@ public final class MiGetCountries {
          * Bezeichnung der Region "RegionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue region = 10003;</code>
+         * <code>optional .dstore.values.StringValue region = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getRegionFieldBuilder() {
           if (regionBuilder_ == null) {
             regionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getRegion(),
                     getParentForChildren(),
                     isClean());
@@ -2797,15 +2797,15 @@ public final class MiGetCountries {
           return regionBuilder_;
         }
 
-        private io.dstore.Values.integerValue regionId_ = null;
+        private io.dstore.values.IntegerValue regionId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> regionIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> regionIdBuilder_;
         /**
          * <pre>
          * ID einer Region, die dem Land zugeordnet wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
          */
         public boolean hasRegionId() {
           return regionIdBuilder_ != null || regionId_ != null;
@@ -2815,11 +2815,11 @@ public final class MiGetCountries {
          * ID einer Region, die dem Land zugeordnet wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue getRegionId() {
+        public io.dstore.values.IntegerValue getRegionId() {
           if (regionIdBuilder_ == null) {
-            return regionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
+            return regionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
           } else {
             return regionIdBuilder_.getMessage();
           }
@@ -2829,9 +2829,9 @@ public final class MiGetCountries {
          * ID einer Region, die dem Land zugeordnet wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
          */
-        public Builder setRegionId(io.dstore.Values.integerValue value) {
+        public Builder setRegionId(io.dstore.values.IntegerValue value) {
           if (regionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2849,10 +2849,10 @@ public final class MiGetCountries {
          * ID einer Region, die dem Land zugeordnet wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
          */
         public Builder setRegionId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (regionIdBuilder_ == null) {
             regionId_ = builderForValue.build();
             onChanged();
@@ -2867,13 +2867,13 @@ public final class MiGetCountries {
          * ID einer Region, die dem Land zugeordnet wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
          */
-        public Builder mergeRegionId(io.dstore.Values.integerValue value) {
+        public Builder mergeRegionId(io.dstore.values.IntegerValue value) {
           if (regionIdBuilder_ == null) {
             if (regionId_ != null) {
               regionId_ =
-                io.dstore.Values.integerValue.newBuilder(regionId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(regionId_).mergeFrom(value).buildPartial();
             } else {
               regionId_ = value;
             }
@@ -2889,7 +2889,7 @@ public final class MiGetCountries {
          * ID einer Region, die dem Land zugeordnet wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
          */
         public Builder clearRegionId() {
           if (regionIdBuilder_ == null) {
@@ -2907,9 +2907,9 @@ public final class MiGetCountries {
          * ID einer Region, die dem Land zugeordnet wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getRegionIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getRegionIdBuilder() {
           
           onChanged();
           return getRegionIdFieldBuilder().getBuilder();
@@ -2919,14 +2919,14 @@ public final class MiGetCountries {
          * ID einer Region, die dem Land zugeordnet wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getRegionIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getRegionIdOrBuilder() {
           if (regionIdBuilder_ != null) {
             return regionIdBuilder_.getMessageOrBuilder();
           } else {
             return regionId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : regionId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : regionId_;
           }
         }
         /**
@@ -2934,14 +2934,14 @@ public final class MiGetCountries {
          * ID einer Region, die dem Land zugeordnet wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue region_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue region_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getRegionIdFieldBuilder() {
           if (regionIdBuilder_ == null) {
             regionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getRegionId(),
                     getParentForChildren(),
                     isClean());
@@ -2950,15 +2950,15 @@ public final class MiGetCountries {
           return regionIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue countryCode_ = null;
+        private io.dstore.values.StringValue countryCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryCodeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryCodeBuilder_;
         /**
          * <pre>
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue country_code = 10005;</code>
          */
         public boolean hasCountryCode() {
           return countryCodeBuilder_ != null || countryCode_ != null;
@@ -2968,11 +2968,11 @@ public final class MiGetCountries {
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue country_code = 10005;</code>
          */
-        public io.dstore.Values.stringValue getCountryCode() {
+        public io.dstore.values.StringValue getCountryCode() {
           if (countryCodeBuilder_ == null) {
-            return countryCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : countryCode_;
+            return countryCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : countryCode_;
           } else {
             return countryCodeBuilder_.getMessage();
           }
@@ -2982,9 +2982,9 @@ public final class MiGetCountries {
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue country_code = 10005;</code>
          */
-        public Builder setCountryCode(io.dstore.Values.stringValue value) {
+        public Builder setCountryCode(io.dstore.values.StringValue value) {
           if (countryCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3002,10 +3002,10 @@ public final class MiGetCountries {
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue country_code = 10005;</code>
          */
         public Builder setCountryCode(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (countryCodeBuilder_ == null) {
             countryCode_ = builderForValue.build();
             onChanged();
@@ -3020,13 +3020,13 @@ public final class MiGetCountries {
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue country_code = 10005;</code>
          */
-        public Builder mergeCountryCode(io.dstore.Values.stringValue value) {
+        public Builder mergeCountryCode(io.dstore.values.StringValue value) {
           if (countryCodeBuilder_ == null) {
             if (countryCode_ != null) {
               countryCode_ =
-                io.dstore.Values.stringValue.newBuilder(countryCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(countryCode_).mergeFrom(value).buildPartial();
             } else {
               countryCode_ = value;
             }
@@ -3042,7 +3042,7 @@ public final class MiGetCountries {
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue country_code = 10005;</code>
          */
         public Builder clearCountryCode() {
           if (countryCodeBuilder_ == null) {
@@ -3060,9 +3060,9 @@ public final class MiGetCountries {
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue country_code = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCountryCodeBuilder() {
+        public io.dstore.values.StringValue.Builder getCountryCodeBuilder() {
           
           onChanged();
           return getCountryCodeFieldBuilder().getBuilder();
@@ -3072,14 +3072,14 @@ public final class MiGetCountries {
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue country_code = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCountryCodeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCountryCodeOrBuilder() {
           if (countryCodeBuilder_ != null) {
             return countryCodeBuilder_.getMessageOrBuilder();
           } else {
             return countryCode_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : countryCode_;
+                io.dstore.values.StringValue.getDefaultInstance() : countryCode_;
           }
         }
         /**
@@ -3087,14 +3087,14 @@ public final class MiGetCountries {
          * Internationales Symbol des Landes "CountryID". Bei Neu-Installationen ab Version 5.5.2 sind die Werte gemäß "ISO 3166-1 alpha-2". An diesen Standard sollte man sich halten bzw. die Werte bei bestehenden Installationen anpassen !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue country_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue country_code = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCountryCodeFieldBuilder() {
           if (countryCodeBuilder_ == null) {
             countryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCountryCode(),
                     getParentForChildren(),
                     isClean());
@@ -3103,15 +3103,15 @@ public final class MiGetCountries {
           return countryCodeBuilder_;
         }
 
-        private io.dstore.Values.integerValue sortNo_ = null;
+        private io.dstore.values.IntegerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
          * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -3121,11 +3121,11 @@ public final class MiGetCountries {
          * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public io.dstore.Values.integerValue getSortNo() {
+        public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
@@ -3135,9 +3135,9 @@ public final class MiGetCountries {
          * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public Builder setSortNo(io.dstore.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3155,10 +3155,10 @@ public final class MiGetCountries {
          * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public Builder setSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -3173,13 +3173,13 @@ public final class MiGetCountries {
          * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -3195,7 +3195,7 @@ public final class MiGetCountries {
          * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3213,9 +3213,9 @@ public final class MiGetCountries {
          * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
@@ -3225,14 +3225,14 @@ public final class MiGetCountries {
          * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
@@ -3240,14 +3240,14 @@ public final class MiGetCountries {
          * Bestimmt die Sortier-Reihenfolge von "CountryID" innerhalb aller Länder
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -4716,24 +4716,24 @@ public final class MiGetCountries {
       "es.proto\022\035dstore.engine.mi_GetCountries\032" +
       "\023dstore/values.proto\032\032dstore/engine/engi" +
       "ne.proto\"\355\001\n\nParameters\022/\n\ncountry_id\030\001 " +
-      "\001(\0132\033.dstore.values.integerValue\022\030\n\017coun" +
+      "\001(\0132\033.dstore.values.IntegerValue\022\030\n\017coun" +
       "try_id_null\030\351\007 \001(\010\022.\n\tregion_id\030\002 \001(\0132\033." +
-      "dstore.values.integerValue\022\027\n\016region_id_" +
+      "dstore.values.IntegerValue\022\027\n\016region_id_" +
       "null\030\352\007 \001(\010\0220\n\013language_id\030\003 \001(\0132\033.dstor" +
-      "e.values.integerValue\022\031\n\020language_id_nul" +
+      "e.values.IntegerValue\022\031\n\020language_id_nul" +
       "l\030\353\007 \001(\010\"\354\003\n\010Response\0228\n\020meta_informatio",
       "n\030\002 \003(\0132\036.dstore.engine.MetaInformation\022" +
       "\'\n\007message\030\003 \003(\0132\026.dstore.engine.Message" +
       "\0228\n\003row\030\004 \003(\0132+.dstore.engine.mi_GetCoun" +
       "tries.Response.Row\032\302\002\n\003Row\022\017\n\006row_id\030\220N " +
       "\001(\005\0220\n\ncountry_id\030\221N \001(\0132\033.dstore.values" +
-      ".integerValue\0228\n\023country_description\030\222N " +
-      "\001(\0132\032.dstore.values.stringValue\022+\n\006regio" +
-      "n\030\223N \001(\0132\032.dstore.values.stringValue\022/\n\t" +
-      "region_id\030\224N \001(\0132\033.dstore.values.integer" +
+      ".IntegerValue\0228\n\023country_description\030\222N " +
+      "\001(\0132\032.dstore.values.StringValue\022+\n\006regio" +
+      "n\030\223N \001(\0132\032.dstore.values.StringValue\022/\n\t" +
+      "region_id\030\224N \001(\0132\033.dstore.values.Integer" +
       "Value\0221\n\014country_code\030\225N \001(\0132\032.dstore.va",
-      "lues.stringValue\022-\n\007sort_no\030\226N \001(\0132\033.dst" +
-      "ore.values.integerValueBP\n\033io.dstore.eng" +
+      "lues.StringValue\022-\n\007sort_no\030\226N \001(\0132\033.dst" +
+      "ore.values.IntegerValueBP\n\033io.dstore.eng" +
       "ine.proceduresZ1gosdk.dstore.de/engine/p" +
       "rocedures/mi_GetCountriesb\006proto3"
     };
@@ -4748,7 +4748,7 @@ public final class MiGetCountries {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetCountries_Parameters_descriptor =
@@ -4769,7 +4769,7 @@ public final class MiGetCountries {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetCountries_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CountryId", "CountryDescription", "Region", "RegionId", "CountryCode", "SortNo", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

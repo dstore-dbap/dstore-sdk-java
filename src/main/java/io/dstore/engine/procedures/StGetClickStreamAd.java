@@ -19,17 +19,17 @@ public final class StGetClickStreamAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class StGetClickStreamAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    io.dstore.Values.timestampValue getFromDate();
+    io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class StGetClickStreamAd {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    io.dstore.Values.timestampValue getToDate();
+    io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class StGetClickStreamAd {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
      */
     boolean hasVisitorId();
     /**
-     * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
      */
-    io.dstore.Values.integerValue getVisitorId();
+    io.dstore.values.IntegerValue getVisitorId();
     /**
-     * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getVisitorIdOrBuilder();
 
     /**
      * <code>optional bool visitor_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class StGetClickStreamAd {
     boolean getVisitorIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
      */
     boolean hasVisitorOrPersonIdsInOneId();
     /**
-     * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
      */
-    io.dstore.Values.integerValue getVisitorOrPersonIdsInOneId();
+    io.dstore.values.IntegerValue getVisitorOrPersonIdsInOneId();
     /**
-     * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getVisitorOrPersonIdsInOneIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getVisitorOrPersonIdsInOneIdOrBuilder();
 
     /**
      * <code>optional bool visitor_or_person_ids_in_one_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class StGetClickStreamAd {
     boolean getVisitorOrPersonIdsInOneIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+     * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
      */
     boolean hasConsiderOnlyRelationPeriod();
     /**
-     * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+     * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
      */
-    io.dstore.Values.booleanValue getConsiderOnlyRelationPeriod();
+    io.dstore.values.BooleanValue getConsiderOnlyRelationPeriod();
     /**
-     * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+     * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getConsiderOnlyRelationPeriodOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getConsiderOnlyRelationPeriodOrBuilder();
 
     /**
      * <code>optional bool consider_only_relation_period_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class StGetClickStreamAd {
     boolean getConsiderOnlyRelationPeriodNull();
 
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
      */
     boolean hasBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
      */
-    io.dstore.Values.stringValue getBasicCharacteristicNumbers();
+    io.dstore.values.StringValue getBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
+    io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
 
     /**
      * <code>optional bool basic_characteristic_numbers_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class StGetClickStreamAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class StGetClickStreamAd {
               break;
             }
             case 18: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class StGetClickStreamAd {
               break;
             }
             case 26: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class StGetClickStreamAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (visitorId_ != null) {
                 subBuilder = visitorId_.toBuilder();
               }
-              visitorId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              visitorId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visitorId_);
                 visitorId_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class StGetClickStreamAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (visitorOrPersonIdsInOneId_ != null) {
                 subBuilder = visitorOrPersonIdsInOneId_.toBuilder();
               }
-              visitorOrPersonIdsInOneId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              visitorOrPersonIdsInOneId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visitorOrPersonIdsInOneId_);
                 visitorOrPersonIdsInOneId_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class StGetClickStreamAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (considerOnlyRelationPeriod_ != null) {
                 subBuilder = considerOnlyRelationPeriod_.toBuilder();
               }
-              considerOnlyRelationPeriod_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              considerOnlyRelationPeriod_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(considerOnlyRelationPeriod_);
                 considerOnlyRelationPeriod_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class StGetClickStreamAd {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (basicCharacteristicNumbers_ != null) {
                 subBuilder = basicCharacteristicNumbers_.toBuilder();
               }
-              basicCharacteristicNumbers_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              basicCharacteristicNumbers_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNumbers_);
                 basicCharacteristicNumbers_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class StGetClickStreamAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -370,23 +370,23 @@ public final class StGetClickStreamAd {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 2;
-    private io.dstore.Values.timestampValue fromDate_;
+    private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    public io.dstore.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.values.TimestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -400,23 +400,23 @@ public final class StGetClickStreamAd {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 3;
-    private io.dstore.Values.timestampValue toDate_;
+    private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    public io.dstore.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.values.TimestampValue getToDate() {
+      return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -430,23 +430,23 @@ public final class StGetClickStreamAd {
     }
 
     public static final int VISITOR_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue visitorId_;
+    private io.dstore.values.IntegerValue visitorId_;
     /**
-     * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
      */
     public boolean hasVisitorId() {
       return visitorId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getVisitorId() {
-      return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
+    public io.dstore.values.IntegerValue getVisitorId() {
+      return visitorId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getVisitorIdOrBuilder() {
       return getVisitorId();
     }
 
@@ -460,23 +460,23 @@ public final class StGetClickStreamAd {
     }
 
     public static final int VISITOR_OR_PERSON_IDS_IN_ONE_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue visitorOrPersonIdsInOneId_;
+    private io.dstore.values.IntegerValue visitorOrPersonIdsInOneId_;
     /**
-     * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
      */
     public boolean hasVisitorOrPersonIdsInOneId() {
       return visitorOrPersonIdsInOneId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getVisitorOrPersonIdsInOneId() {
-      return visitorOrPersonIdsInOneId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorOrPersonIdsInOneId_;
+    public io.dstore.values.IntegerValue getVisitorOrPersonIdsInOneId() {
+      return visitorOrPersonIdsInOneId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorOrPersonIdsInOneId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getVisitorOrPersonIdsInOneIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getVisitorOrPersonIdsInOneIdOrBuilder() {
       return getVisitorOrPersonIdsInOneId();
     }
 
@@ -490,23 +490,23 @@ public final class StGetClickStreamAd {
     }
 
     public static final int CONSIDER_ONLY_RELATION_PERIOD_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue considerOnlyRelationPeriod_;
+    private io.dstore.values.BooleanValue considerOnlyRelationPeriod_;
     /**
-     * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+     * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
      */
     public boolean hasConsiderOnlyRelationPeriod() {
       return considerOnlyRelationPeriod_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+     * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
      */
-    public io.dstore.Values.booleanValue getConsiderOnlyRelationPeriod() {
-      return considerOnlyRelationPeriod_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : considerOnlyRelationPeriod_;
+    public io.dstore.values.BooleanValue getConsiderOnlyRelationPeriod() {
+      return considerOnlyRelationPeriod_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : considerOnlyRelationPeriod_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+     * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getConsiderOnlyRelationPeriodOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getConsiderOnlyRelationPeriodOrBuilder() {
       return getConsiderOnlyRelationPeriod();
     }
 
@@ -520,23 +520,23 @@ public final class StGetClickStreamAd {
     }
 
     public static final int BASIC_CHARACTERISTIC_NUMBERS_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue basicCharacteristicNumbers_;
+    private io.dstore.values.StringValue basicCharacteristicNumbers_;
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
      */
     public boolean hasBasicCharacteristicNumbers() {
       return basicCharacteristicNumbers_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
      */
-    public io.dstore.Values.stringValue getBasicCharacteristicNumbers() {
-      return basicCharacteristicNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+    public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
+      return basicCharacteristicNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
     }
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
       return getBasicCharacteristicNumbers();
     }
 
@@ -1137,29 +1137,29 @@ public final class StGetClickStreamAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class StGetClickStreamAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDate_ = null;
+      private io.dstore.values.TimestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue getFromDate() {
+      public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public Builder setFromDate(io.dstore.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder setFromDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class StGetClickStreamAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toDate_ = null;
+      private io.dstore.values.TimestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue getToDate() {
+      public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public Builder setToDate(io.dstore.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder setToDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class StGetClickStreamAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue visitorId_ = null;
+      private io.dstore.values.IntegerValue visitorId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> visitorIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
        */
       public boolean hasVisitorId() {
         return visitorIdBuilder_ != null || visitorId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getVisitorId() {
+      public io.dstore.values.IntegerValue getVisitorId() {
         if (visitorIdBuilder_ == null) {
-          return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
+          return visitorId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorId_;
         } else {
           return visitorIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
        */
-      public Builder setVisitorId(io.dstore.Values.integerValue value) {
+      public Builder setVisitorId(io.dstore.values.IntegerValue value) {
         if (visitorIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
        */
       public Builder setVisitorId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (visitorIdBuilder_ == null) {
           visitorId_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
        */
-      public Builder mergeVisitorId(io.dstore.Values.integerValue value) {
+      public Builder mergeVisitorId(io.dstore.values.IntegerValue value) {
         if (visitorIdBuilder_ == null) {
           if (visitorId_ != null) {
             visitorId_ =
-              io.dstore.Values.integerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
           } else {
             visitorId_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
        */
       public Builder clearVisitorId() {
         if (visitorIdBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getVisitorIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getVisitorIdBuilder() {
         
         onChanged();
         return getVisitorIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVisitorIdOrBuilder() {
         if (visitorIdBuilder_ != null) {
           return visitorIdBuilder_.getMessageOrBuilder();
         } else {
           return visitorId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : visitorId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getVisitorIdFieldBuilder() {
         if (visitorIdBuilder_ == null) {
           visitorIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getVisitorId(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class StGetClickStreamAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue visitorOrPersonIdsInOneId_ = null;
+      private io.dstore.values.IntegerValue visitorOrPersonIdsInOneId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorOrPersonIdsInOneIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> visitorOrPersonIdsInOneIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
       public boolean hasVisitorOrPersonIdsInOneId() {
         return visitorOrPersonIdsInOneIdBuilder_ != null || visitorOrPersonIdsInOneId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getVisitorOrPersonIdsInOneId() {
+      public io.dstore.values.IntegerValue getVisitorOrPersonIdsInOneId() {
         if (visitorOrPersonIdsInOneIdBuilder_ == null) {
-          return visitorOrPersonIdsInOneId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorOrPersonIdsInOneId_;
+          return visitorOrPersonIdsInOneId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorOrPersonIdsInOneId_;
         } else {
           return visitorOrPersonIdsInOneIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
-      public Builder setVisitorOrPersonIdsInOneId(io.dstore.Values.integerValue value) {
+      public Builder setVisitorOrPersonIdsInOneId(io.dstore.values.IntegerValue value) {
         if (visitorOrPersonIdsInOneIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
       public Builder setVisitorOrPersonIdsInOneId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (visitorOrPersonIdsInOneIdBuilder_ == null) {
           visitorOrPersonIdsInOneId_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
-      public Builder mergeVisitorOrPersonIdsInOneId(io.dstore.Values.integerValue value) {
+      public Builder mergeVisitorOrPersonIdsInOneId(io.dstore.values.IntegerValue value) {
         if (visitorOrPersonIdsInOneIdBuilder_ == null) {
           if (visitorOrPersonIdsInOneId_ != null) {
             visitorOrPersonIdsInOneId_ =
-              io.dstore.Values.integerValue.newBuilder(visitorOrPersonIdsInOneId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(visitorOrPersonIdsInOneId_).mergeFrom(value).buildPartial();
           } else {
             visitorOrPersonIdsInOneId_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
       public Builder clearVisitorOrPersonIdsInOneId() {
         if (visitorOrPersonIdsInOneIdBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getVisitorOrPersonIdsInOneIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getVisitorOrPersonIdsInOneIdBuilder() {
         
         onChanged();
         return getVisitorOrPersonIdsInOneIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVisitorOrPersonIdsInOneIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVisitorOrPersonIdsInOneIdOrBuilder() {
         if (visitorOrPersonIdsInOneIdBuilder_ != null) {
           return visitorOrPersonIdsInOneIdBuilder_.getMessageOrBuilder();
         } else {
           return visitorOrPersonIdsInOneId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : visitorOrPersonIdsInOneId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : visitorOrPersonIdsInOneId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue visitor_or_person_ids_in_one_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_ids_in_one_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getVisitorOrPersonIdsInOneIdFieldBuilder() {
         if (visitorOrPersonIdsInOneIdBuilder_ == null) {
           visitorOrPersonIdsInOneIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getVisitorOrPersonIdsInOneId(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class StGetClickStreamAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue considerOnlyRelationPeriod_ = null;
+      private io.dstore.values.BooleanValue considerOnlyRelationPeriod_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> considerOnlyRelationPeriodBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> considerOnlyRelationPeriodBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+       * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
        */
       public boolean hasConsiderOnlyRelationPeriod() {
         return considerOnlyRelationPeriodBuilder_ != null || considerOnlyRelationPeriod_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+       * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
        */
-      public io.dstore.Values.booleanValue getConsiderOnlyRelationPeriod() {
+      public io.dstore.values.BooleanValue getConsiderOnlyRelationPeriod() {
         if (considerOnlyRelationPeriodBuilder_ == null) {
-          return considerOnlyRelationPeriod_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : considerOnlyRelationPeriod_;
+          return considerOnlyRelationPeriod_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : considerOnlyRelationPeriod_;
         } else {
           return considerOnlyRelationPeriodBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+       * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
        */
-      public Builder setConsiderOnlyRelationPeriod(io.dstore.Values.booleanValue value) {
+      public Builder setConsiderOnlyRelationPeriod(io.dstore.values.BooleanValue value) {
         if (considerOnlyRelationPeriodBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+       * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
        */
       public Builder setConsiderOnlyRelationPeriod(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (considerOnlyRelationPeriodBuilder_ == null) {
           considerOnlyRelationPeriod_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+       * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
        */
-      public Builder mergeConsiderOnlyRelationPeriod(io.dstore.Values.booleanValue value) {
+      public Builder mergeConsiderOnlyRelationPeriod(io.dstore.values.BooleanValue value) {
         if (considerOnlyRelationPeriodBuilder_ == null) {
           if (considerOnlyRelationPeriod_ != null) {
             considerOnlyRelationPeriod_ =
-              io.dstore.Values.booleanValue.newBuilder(considerOnlyRelationPeriod_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(considerOnlyRelationPeriod_).mergeFrom(value).buildPartial();
           } else {
             considerOnlyRelationPeriod_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+       * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
        */
       public Builder clearConsiderOnlyRelationPeriod() {
         if (considerOnlyRelationPeriodBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+       * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getConsiderOnlyRelationPeriodBuilder() {
+      public io.dstore.values.BooleanValue.Builder getConsiderOnlyRelationPeriodBuilder() {
         
         onChanged();
         return getConsiderOnlyRelationPeriodFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+       * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getConsiderOnlyRelationPeriodOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getConsiderOnlyRelationPeriodOrBuilder() {
         if (considerOnlyRelationPeriodBuilder_ != null) {
           return considerOnlyRelationPeriodBuilder_.getMessageOrBuilder();
         } else {
           return considerOnlyRelationPeriod_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : considerOnlyRelationPeriod_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : considerOnlyRelationPeriod_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue consider_only_relation_period = 6;</code>
+       * <code>optional .dstore.values.BooleanValue consider_only_relation_period = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getConsiderOnlyRelationPeriodFieldBuilder() {
         if (considerOnlyRelationPeriodBuilder_ == null) {
           considerOnlyRelationPeriodBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getConsiderOnlyRelationPeriod(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class StGetClickStreamAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue basicCharacteristicNumbers_ = null;
+      private io.dstore.values.StringValue basicCharacteristicNumbers_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicNumbersBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> basicCharacteristicNumbersBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
        */
       public boolean hasBasicCharacteristicNumbers() {
         return basicCharacteristicNumbersBuilder_ != null || basicCharacteristicNumbers_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
        */
-      public io.dstore.Values.stringValue getBasicCharacteristicNumbers() {
+      public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
-          return basicCharacteristicNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+          return basicCharacteristicNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
         } else {
           return basicCharacteristicNumbersBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
        */
-      public Builder setBasicCharacteristicNumbers(io.dstore.Values.stringValue value) {
+      public Builder setBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
        */
       public Builder setBasicCharacteristicNumbers(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           basicCharacteristicNumbers_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
        */
-      public Builder mergeBasicCharacteristicNumbers(io.dstore.Values.stringValue value) {
+      public Builder mergeBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           if (basicCharacteristicNumbers_ != null) {
             basicCharacteristicNumbers_ =
-              io.dstore.Values.stringValue.newBuilder(basicCharacteristicNumbers_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(basicCharacteristicNumbers_).mergeFrom(value).buildPartial();
           } else {
             basicCharacteristicNumbers_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
        */
       public Builder clearBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class StGetClickStreamAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getBasicCharacteristicNumbersBuilder() {
+      public io.dstore.values.StringValue.Builder getBasicCharacteristicNumbersBuilder() {
         
         onChanged();
         return getBasicCharacteristicNumbersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
         if (basicCharacteristicNumbersBuilder_ != null) {
           return basicCharacteristicNumbersBuilder_.getMessageOrBuilder();
         } else {
           return basicCharacteristicNumbers_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+              io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 7;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getBasicCharacteristicNumbersFieldBuilder() {
         if (basicCharacteristicNumbersBuilder_ == null) {
           basicCharacteristicNumbersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getBasicCharacteristicNumbers(),
                   getParentForChildren(),
                   isClean());
@@ -2397,7 +2397,7 @@ public final class StGetClickStreamAd {
        * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
        */
       boolean hasValueBelongsToRelatedId();
       /**
@@ -2405,24 +2405,24 @@ public final class StGetClickStreamAd {
        * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
        */
-      io.dstore.Values.booleanValue getValueBelongsToRelatedId();
+      io.dstore.values.BooleanValue getValueBelongsToRelatedId();
       /**
        * <pre>
        * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getValueBelongsToRelatedIdOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getValueBelongsToRelatedIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -2430,24 +2430,24 @@ public final class StGetClickStreamAd {
        * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
-      io.dstore.Values.stringValue getNodeDescription();
+      io.dstore.values.StringValue getNodeDescription();
       /**
        * <pre>
        * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
        */
       boolean hasVisitorOrPersonId();
       /**
@@ -2455,24 +2455,24 @@ public final class StGetClickStreamAd {
        * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getVisitorOrPersonId();
+      io.dstore.values.IntegerValue getVisitorOrPersonId();
       /**
        * <pre>
        * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getVisitorOrPersonIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getVisitorOrPersonIdOrBuilder();
 
       /**
        * <pre>
        * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
        */
       boolean hasDateAndTimeChar();
       /**
@@ -2480,24 +2480,24 @@ public final class StGetClickStreamAd {
        * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
        */
-      io.dstore.Values.stringValue getDateAndTimeChar();
+      io.dstore.values.StringValue getDateAndTimeChar();
       /**
        * <pre>
        * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDateAndTimeCharOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDateAndTimeCharOrBuilder();
 
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
        */
       boolean hasBasicCharacteristic();
       /**
@@ -2505,24 +2505,24 @@ public final class StGetClickStreamAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
        */
-      io.dstore.Values.stringValue getBasicCharacteristic();
+      io.dstore.values.StringValue getBasicCharacteristic();
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder();
+      io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder();
 
       /**
        * <pre>
        * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
        */
       boolean hasRelationExistsAtDateAndTime();
       /**
@@ -2530,24 +2530,24 @@ public final class StGetClickStreamAd {
        * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
        */
-      io.dstore.Values.booleanValue getRelationExistsAtDateAndTime();
+      io.dstore.values.BooleanValue getRelationExistsAtDateAndTime();
       /**
        * <pre>
        * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getRelationExistsAtDateAndTimeOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getRelationExistsAtDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
        */
       boolean hasHTreeNodeId();
       /**
@@ -2555,24 +2555,24 @@ public final class StGetClickStreamAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
        */
-      io.dstore.Values.integerValue getHTreeNodeId();
+      io.dstore.values.IntegerValue getHTreeNodeId();
       /**
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
        */
       boolean hasNodeId();
       /**
@@ -2580,24 +2580,24 @@ public final class StGetClickStreamAd {
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10009;</code>
        */
       boolean hasValue();
       /**
@@ -2605,24 +2605,24 @@ public final class StGetClickStreamAd {
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10009;</code>
        */
-      io.dstore.Values.decimalValue getValue();
+      io.dstore.values.DecimalValue getValue();
       /**
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10009;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getValueOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
        */
       boolean hasDateAndTime();
       /**
@@ -2630,24 +2630,24 @@ public final class StGetClickStreamAd {
        * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
        */
-      io.dstore.Values.timestampValue getDateAndTime();
+      io.dstore.values.TimestampValue getDateAndTime();
       /**
        * <pre>
        * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
        */
       boolean hasRelatedId();
       /**
@@ -2655,24 +2655,24 @@ public final class StGetClickStreamAd {
        * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
        */
-      io.dstore.Values.integerValue getRelatedId();
+      io.dstore.values.IntegerValue getRelatedId();
       /**
        * <pre>
        * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getRelatedIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getRelatedIdOrBuilder();
 
       /**
        * <pre>
        * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
        */
       boolean hasBasicCharacteristicNumber();
       /**
@@ -2680,17 +2680,17 @@ public final class StGetClickStreamAd {
        * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
        */
-      io.dstore.Values.integerValue getBasicCharacteristicNumber();
+      io.dstore.values.IntegerValue getBasicCharacteristicNumber();
       /**
        * <pre>
        * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.st_GetClickStream_Ad.Response.Row}
@@ -2738,11 +2738,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (valueBelongsToRelatedId_ != null) {
                   subBuilder = valueBelongsToRelatedId_.toBuilder();
                 }
-                valueBelongsToRelatedId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                valueBelongsToRelatedId_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueBelongsToRelatedId_);
                   valueBelongsToRelatedId_ = subBuilder.buildPartial();
@@ -2751,11 +2751,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -2764,11 +2764,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (visitorOrPersonId_ != null) {
                   subBuilder = visitorOrPersonId_.toBuilder();
                 }
-                visitorOrPersonId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                visitorOrPersonId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visitorOrPersonId_);
                   visitorOrPersonId_ = subBuilder.buildPartial();
@@ -2777,11 +2777,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (dateAndTimeChar_ != null) {
                   subBuilder = dateAndTimeChar_.toBuilder();
                 }
-                dateAndTimeChar_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                dateAndTimeChar_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dateAndTimeChar_);
                   dateAndTimeChar_ = subBuilder.buildPartial();
@@ -2790,11 +2790,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (basicCharacteristic_ != null) {
                   subBuilder = basicCharacteristic_.toBuilder();
                 }
-                basicCharacteristic_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                basicCharacteristic_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristic_);
                   basicCharacteristic_ = subBuilder.buildPartial();
@@ -2803,11 +2803,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (relationExistsAtDateAndTime_ != null) {
                   subBuilder = relationExistsAtDateAndTime_.toBuilder();
                 }
-                relationExistsAtDateAndTime_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                relationExistsAtDateAndTime_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relationExistsAtDateAndTime_);
                   relationExistsAtDateAndTime_ = subBuilder.buildPartial();
@@ -2816,11 +2816,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -2829,11 +2829,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2842,11 +2842,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80074: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -2855,11 +2855,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80082: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (dateAndTime_ != null) {
                   subBuilder = dateAndTime_.toBuilder();
                 }
-                dateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                dateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dateAndTime_);
                   dateAndTime_ = subBuilder.buildPartial();
@@ -2868,11 +2868,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80090: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (relatedId_ != null) {
                   subBuilder = relatedId_.toBuilder();
                 }
-                relatedId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                relatedId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relatedId_);
                   relatedId_ = subBuilder.buildPartial();
@@ -2881,11 +2881,11 @@ public final class StGetClickStreamAd {
                 break;
               }
               case 80098: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (basicCharacteristicNumber_ != null) {
                   subBuilder = basicCharacteristicNumber_.toBuilder();
                 }
-                basicCharacteristicNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                basicCharacteristicNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristicNumber_);
                   basicCharacteristicNumber_ = subBuilder.buildPartial();
@@ -2926,13 +2926,13 @@ public final class StGetClickStreamAd {
       }
 
       public static final int VALUE_BELONGS_TO_RELATED_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.booleanValue valueBelongsToRelatedId_;
+      private io.dstore.values.BooleanValue valueBelongsToRelatedId_;
       /**
        * <pre>
        * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
        */
       public boolean hasValueBelongsToRelatedId() {
         return valueBelongsToRelatedId_ != null;
@@ -2942,30 +2942,30 @@ public final class StGetClickStreamAd {
        * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
        */
-      public io.dstore.Values.booleanValue getValueBelongsToRelatedId() {
-        return valueBelongsToRelatedId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueBelongsToRelatedId_;
+      public io.dstore.values.BooleanValue getValueBelongsToRelatedId() {
+        return valueBelongsToRelatedId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : valueBelongsToRelatedId_;
       }
       /**
        * <pre>
        * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getValueBelongsToRelatedIdOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getValueBelongsToRelatedIdOrBuilder() {
         return getValueBelongsToRelatedId();
       }
 
       public static final int NODE_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue nodeDescription_;
+      private io.dstore.values.StringValue nodeDescription_;
       /**
        * <pre>
        * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -2975,30 +2975,30 @@ public final class StGetClickStreamAd {
        * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getNodeDescription() {
-        return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
+      public io.dstore.values.StringValue getNodeDescription() {
+        return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
       }
 
       public static final int VISITOR_OR_PERSON_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue visitorOrPersonId_;
+      private io.dstore.values.IntegerValue visitorOrPersonId_;
       /**
        * <pre>
        * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
        */
       public boolean hasVisitorOrPersonId() {
         return visitorOrPersonId_ != null;
@@ -3008,30 +3008,30 @@ public final class StGetClickStreamAd {
        * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getVisitorOrPersonId() {
-        return visitorOrPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorOrPersonId_;
+      public io.dstore.values.IntegerValue getVisitorOrPersonId() {
+        return visitorOrPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorOrPersonId_;
       }
       /**
        * <pre>
        * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVisitorOrPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVisitorOrPersonIdOrBuilder() {
         return getVisitorOrPersonId();
       }
 
       public static final int DATE_AND_TIME_CHAR_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue dateAndTimeChar_;
+      private io.dstore.values.StringValue dateAndTimeChar_;
       /**
        * <pre>
        * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
        */
       public boolean hasDateAndTimeChar() {
         return dateAndTimeChar_ != null;
@@ -3041,30 +3041,30 @@ public final class StGetClickStreamAd {
        * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
        */
-      public io.dstore.Values.stringValue getDateAndTimeChar() {
-        return dateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dateAndTimeChar_;
+      public io.dstore.values.StringValue getDateAndTimeChar() {
+        return dateAndTimeChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dateAndTimeChar_;
       }
       /**
        * <pre>
        * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+       * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDateAndTimeCharOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDateAndTimeCharOrBuilder() {
         return getDateAndTimeChar();
       }
 
       public static final int BASIC_CHARACTERISTIC_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue basicCharacteristic_;
+      private io.dstore.values.StringValue basicCharacteristic_;
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
        */
       public boolean hasBasicCharacteristic() {
         return basicCharacteristic_ != null;
@@ -3074,30 +3074,30 @@ public final class StGetClickStreamAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
        */
-      public io.dstore.Values.stringValue getBasicCharacteristic() {
-        return basicCharacteristic_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+      public io.dstore.values.StringValue getBasicCharacteristic() {
+        return basicCharacteristic_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
       }
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder() {
         return getBasicCharacteristic();
       }
 
       public static final int RELATION_EXISTS_AT_DATE_AND_TIME_FIELD_NUMBER = 10006;
-      private io.dstore.Values.booleanValue relationExistsAtDateAndTime_;
+      private io.dstore.values.BooleanValue relationExistsAtDateAndTime_;
       /**
        * <pre>
        * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
        */
       public boolean hasRelationExistsAtDateAndTime() {
         return relationExistsAtDateAndTime_ != null;
@@ -3107,30 +3107,30 @@ public final class StGetClickStreamAd {
        * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
        */
-      public io.dstore.Values.booleanValue getRelationExistsAtDateAndTime() {
-        return relationExistsAtDateAndTime_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : relationExistsAtDateAndTime_;
+      public io.dstore.values.BooleanValue getRelationExistsAtDateAndTime() {
+        return relationExistsAtDateAndTime_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : relationExistsAtDateAndTime_;
       }
       /**
        * <pre>
        * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getRelationExistsAtDateAndTimeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getRelationExistsAtDateAndTimeOrBuilder() {
         return getRelationExistsAtDateAndTime();
       }
 
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue hTreeNodeId_;
+      private io.dstore.values.IntegerValue hTreeNodeId_;
       /**
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
@@ -3140,30 +3140,30 @@ public final class StGetClickStreamAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
        */
-      public io.dstore.Values.integerValue getHTreeNodeId() {
-        return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+      public io.dstore.values.IntegerValue getHTreeNodeId() {
+        return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10008;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -3173,30 +3173,30 @@ public final class StGetClickStreamAd {
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10009;
-      private io.dstore.Values.decimalValue value_;
+      private io.dstore.values.DecimalValue value_;
       /**
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10009;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -3206,30 +3206,30 @@ public final class StGetClickStreamAd {
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10009;</code>
        */
-      public io.dstore.Values.decimalValue getValue() {
-        return value_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : value_;
+      public io.dstore.values.DecimalValue getValue() {
+        return value_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10009;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int DATE_AND_TIME_FIELD_NUMBER = 10010;
-      private io.dstore.Values.timestampValue dateAndTime_;
+      private io.dstore.values.TimestampValue dateAndTime_;
       /**
        * <pre>
        * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
        */
       public boolean hasDateAndTime() {
         return dateAndTime_ != null;
@@ -3239,30 +3239,30 @@ public final class StGetClickStreamAd {
        * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
        */
-      public io.dstore.Values.timestampValue getDateAndTime() {
-        return dateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
+      public io.dstore.values.TimestampValue getDateAndTime() {
+        return dateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : dateAndTime_;
       }
       /**
        * <pre>
        * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
         return getDateAndTime();
       }
 
       public static final int RELATED_ID_FIELD_NUMBER = 10011;
-      private io.dstore.Values.integerValue relatedId_;
+      private io.dstore.values.IntegerValue relatedId_;
       /**
        * <pre>
        * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
        */
       public boolean hasRelatedId() {
         return relatedId_ != null;
@@ -3272,30 +3272,30 @@ public final class StGetClickStreamAd {
        * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
        */
-      public io.dstore.Values.integerValue getRelatedId() {
-        return relatedId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relatedId_;
+      public io.dstore.values.IntegerValue getRelatedId() {
+        return relatedId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relatedId_;
       }
       /**
        * <pre>
        * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+       * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRelatedIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRelatedIdOrBuilder() {
         return getRelatedId();
       }
 
       public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 10012;
-      private io.dstore.Values.integerValue basicCharacteristicNumber_;
+      private io.dstore.values.IntegerValue basicCharacteristicNumber_;
       /**
        * <pre>
        * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ != null;
@@ -3305,19 +3305,19 @@ public final class StGetClickStreamAd {
        * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
        */
-      public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
-        return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+      public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
+        return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
       }
       /**
        * <pre>
        * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
       }
 
@@ -3976,15 +3976,15 @@ public final class StGetClickStreamAd {
           return this;
         }
 
-        private io.dstore.Values.booleanValue valueBelongsToRelatedId_ = null;
+        private io.dstore.values.BooleanValue valueBelongsToRelatedId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valueBelongsToRelatedIdBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> valueBelongsToRelatedIdBuilder_;
         /**
          * <pre>
          * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
          */
         public boolean hasValueBelongsToRelatedId() {
           return valueBelongsToRelatedIdBuilder_ != null || valueBelongsToRelatedId_ != null;
@@ -3994,11 +3994,11 @@ public final class StGetClickStreamAd {
          * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
          */
-        public io.dstore.Values.booleanValue getValueBelongsToRelatedId() {
+        public io.dstore.values.BooleanValue getValueBelongsToRelatedId() {
           if (valueBelongsToRelatedIdBuilder_ == null) {
-            return valueBelongsToRelatedId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueBelongsToRelatedId_;
+            return valueBelongsToRelatedId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : valueBelongsToRelatedId_;
           } else {
             return valueBelongsToRelatedIdBuilder_.getMessage();
           }
@@ -4008,9 +4008,9 @@ public final class StGetClickStreamAd {
          * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
          */
-        public Builder setValueBelongsToRelatedId(io.dstore.Values.booleanValue value) {
+        public Builder setValueBelongsToRelatedId(io.dstore.values.BooleanValue value) {
           if (valueBelongsToRelatedIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4028,10 +4028,10 @@ public final class StGetClickStreamAd {
          * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
          */
         public Builder setValueBelongsToRelatedId(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (valueBelongsToRelatedIdBuilder_ == null) {
             valueBelongsToRelatedId_ = builderForValue.build();
             onChanged();
@@ -4046,13 +4046,13 @@ public final class StGetClickStreamAd {
          * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
          */
-        public Builder mergeValueBelongsToRelatedId(io.dstore.Values.booleanValue value) {
+        public Builder mergeValueBelongsToRelatedId(io.dstore.values.BooleanValue value) {
           if (valueBelongsToRelatedIdBuilder_ == null) {
             if (valueBelongsToRelatedId_ != null) {
               valueBelongsToRelatedId_ =
-                io.dstore.Values.booleanValue.newBuilder(valueBelongsToRelatedId_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(valueBelongsToRelatedId_).mergeFrom(value).buildPartial();
             } else {
               valueBelongsToRelatedId_ = value;
             }
@@ -4068,7 +4068,7 @@ public final class StGetClickStreamAd {
          * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
          */
         public Builder clearValueBelongsToRelatedId() {
           if (valueBelongsToRelatedIdBuilder_ == null) {
@@ -4086,9 +4086,9 @@ public final class StGetClickStreamAd {
          * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getValueBelongsToRelatedIdBuilder() {
+        public io.dstore.values.BooleanValue.Builder getValueBelongsToRelatedIdBuilder() {
           
           onChanged();
           return getValueBelongsToRelatedIdFieldBuilder().getBuilder();
@@ -4098,14 +4098,14 @@ public final class StGetClickStreamAd {
          * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getValueBelongsToRelatedIdOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getValueBelongsToRelatedIdOrBuilder() {
           if (valueBelongsToRelatedIdBuilder_ != null) {
             return valueBelongsToRelatedIdBuilder_.getMessageOrBuilder();
           } else {
             return valueBelongsToRelatedId_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : valueBelongsToRelatedId_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : valueBelongsToRelatedId_;
           }
         }
         /**
@@ -4113,14 +4113,14 @@ public final class StGetClickStreamAd {
          * "0" : "Value" ist zur "VisitorOrPersonID" gespeichert"1" : "Value" ist zur "RelatedID" gespeichert
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue value_belongs_to_related_id = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue value_belongs_to_related_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getValueBelongsToRelatedIdFieldBuilder() {
           if (valueBelongsToRelatedIdBuilder_ == null) {
             valueBelongsToRelatedIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getValueBelongsToRelatedId(),
                     getParentForChildren(),
                     isClean());
@@ -4129,15 +4129,15 @@ public final class StGetClickStreamAd {
           return valueBelongsToRelatedIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue nodeDescription_ = null;
+        private io.dstore.values.StringValue nodeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nodeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -4147,11 +4147,11 @@ public final class StGetClickStreamAd {
          * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getNodeDescription() {
+        public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
-            return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
+            return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
           } else {
             return nodeDescriptionBuilder_.getMessage();
           }
@@ -4161,9 +4161,9 @@ public final class StGetClickStreamAd {
          * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public Builder setNodeDescription(io.dstore.Values.stringValue value) {
+        public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4181,10 +4181,10 @@ public final class StGetClickStreamAd {
          * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
         public Builder setNodeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescription_ = builderForValue.build();
             onChanged();
@@ -4199,13 +4199,13 @@ public final class StGetClickStreamAd {
          * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public Builder mergeNodeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (nodeDescription_ != null) {
               nodeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
             } else {
               nodeDescription_ = value;
             }
@@ -4221,7 +4221,7 @@ public final class StGetClickStreamAd {
          * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -4239,9 +4239,9 @@ public final class StGetClickStreamAd {
          * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getNodeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
           onChanged();
           return getNodeDescriptionFieldBuilder().getBuilder();
@@ -4251,14 +4251,14 @@ public final class StGetClickStreamAd {
          * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
             return nodeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return nodeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
           }
         }
         /**
@@ -4266,14 +4266,14 @@ public final class StGetClickStreamAd {
          * Bezeichnung von "NodeID". Entweder die Produktbezeichnung in der Standardsprache zum Zeitpunkt "DateAndTime" oder (falls nicht vorhanden) die "NodeDescription" (aus der Tabelle "dStore").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4282,15 +4282,15 @@ public final class StGetClickStreamAd {
           return nodeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue visitorOrPersonId_ = null;
+        private io.dstore.values.IntegerValue visitorOrPersonId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorOrPersonIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> visitorOrPersonIdBuilder_;
         /**
          * <pre>
          * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
          */
         public boolean hasVisitorOrPersonId() {
           return visitorOrPersonIdBuilder_ != null || visitorOrPersonId_ != null;
@@ -4300,11 +4300,11 @@ public final class StGetClickStreamAd {
          * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getVisitorOrPersonId() {
+        public io.dstore.values.IntegerValue getVisitorOrPersonId() {
           if (visitorOrPersonIdBuilder_ == null) {
-            return visitorOrPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorOrPersonId_;
+            return visitorOrPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorOrPersonId_;
           } else {
             return visitorOrPersonIdBuilder_.getMessage();
           }
@@ -4314,9 +4314,9 @@ public final class StGetClickStreamAd {
          * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
          */
-        public Builder setVisitorOrPersonId(io.dstore.Values.integerValue value) {
+        public Builder setVisitorOrPersonId(io.dstore.values.IntegerValue value) {
           if (visitorOrPersonIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4334,10 +4334,10 @@ public final class StGetClickStreamAd {
          * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
          */
         public Builder setVisitorOrPersonId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (visitorOrPersonIdBuilder_ == null) {
             visitorOrPersonId_ = builderForValue.build();
             onChanged();
@@ -4352,13 +4352,13 @@ public final class StGetClickStreamAd {
          * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
          */
-        public Builder mergeVisitorOrPersonId(io.dstore.Values.integerValue value) {
+        public Builder mergeVisitorOrPersonId(io.dstore.values.IntegerValue value) {
           if (visitorOrPersonIdBuilder_ == null) {
             if (visitorOrPersonId_ != null) {
               visitorOrPersonId_ =
-                io.dstore.Values.integerValue.newBuilder(visitorOrPersonId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(visitorOrPersonId_).mergeFrom(value).buildPartial();
             } else {
               visitorOrPersonId_ = value;
             }
@@ -4374,7 +4374,7 @@ public final class StGetClickStreamAd {
          * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
          */
         public Builder clearVisitorOrPersonId() {
           if (visitorOrPersonIdBuilder_ == null) {
@@ -4392,9 +4392,9 @@ public final class StGetClickStreamAd {
          * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getVisitorOrPersonIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getVisitorOrPersonIdBuilder() {
           
           onChanged();
           return getVisitorOrPersonIdFieldBuilder().getBuilder();
@@ -4404,14 +4404,14 @@ public final class StGetClickStreamAd {
          * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getVisitorOrPersonIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getVisitorOrPersonIdOrBuilder() {
           if (visitorOrPersonIdBuilder_ != null) {
             return visitorOrPersonIdBuilder_.getMessageOrBuilder();
           } else {
             return visitorOrPersonId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : visitorOrPersonId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : visitorOrPersonId_;
           }
         }
         /**
@@ -4419,14 +4419,14 @@ public final class StGetClickStreamAd {
          * Falls "&#64;VisitorOrPersonIDsInOneID = 0" ist, steht hier die "&#64;PersonID" bzw. die "&#64;VisitorID", sonst eine der IDs, die in "tempdb.dbo.OneID" übergeben wurden
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_or_person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_or_person_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getVisitorOrPersonIdFieldBuilder() {
           if (visitorOrPersonIdBuilder_ == null) {
             visitorOrPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getVisitorOrPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -4435,15 +4435,15 @@ public final class StGetClickStreamAd {
           return visitorOrPersonIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue dateAndTimeChar_ = null;
+        private io.dstore.values.StringValue dateAndTimeChar_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dateAndTimeCharBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> dateAndTimeCharBuilder_;
         /**
          * <pre>
          * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
          */
         public boolean hasDateAndTimeChar() {
           return dateAndTimeCharBuilder_ != null || dateAndTimeChar_ != null;
@@ -4453,11 +4453,11 @@ public final class StGetClickStreamAd {
          * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
          */
-        public io.dstore.Values.stringValue getDateAndTimeChar() {
+        public io.dstore.values.StringValue getDateAndTimeChar() {
           if (dateAndTimeCharBuilder_ == null) {
-            return dateAndTimeChar_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dateAndTimeChar_;
+            return dateAndTimeChar_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dateAndTimeChar_;
           } else {
             return dateAndTimeCharBuilder_.getMessage();
           }
@@ -4467,9 +4467,9 @@ public final class StGetClickStreamAd {
          * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
          */
-        public Builder setDateAndTimeChar(io.dstore.Values.stringValue value) {
+        public Builder setDateAndTimeChar(io.dstore.values.StringValue value) {
           if (dateAndTimeCharBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4487,10 +4487,10 @@ public final class StGetClickStreamAd {
          * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
          */
         public Builder setDateAndTimeChar(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (dateAndTimeCharBuilder_ == null) {
             dateAndTimeChar_ = builderForValue.build();
             onChanged();
@@ -4505,13 +4505,13 @@ public final class StGetClickStreamAd {
          * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
          */
-        public Builder mergeDateAndTimeChar(io.dstore.Values.stringValue value) {
+        public Builder mergeDateAndTimeChar(io.dstore.values.StringValue value) {
           if (dateAndTimeCharBuilder_ == null) {
             if (dateAndTimeChar_ != null) {
               dateAndTimeChar_ =
-                io.dstore.Values.stringValue.newBuilder(dateAndTimeChar_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(dateAndTimeChar_).mergeFrom(value).buildPartial();
             } else {
               dateAndTimeChar_ = value;
             }
@@ -4527,7 +4527,7 @@ public final class StGetClickStreamAd {
          * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
          */
         public Builder clearDateAndTimeChar() {
           if (dateAndTimeCharBuilder_ == null) {
@@ -4545,9 +4545,9 @@ public final class StGetClickStreamAd {
          * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDateAndTimeCharBuilder() {
+        public io.dstore.values.StringValue.Builder getDateAndTimeCharBuilder() {
           
           onChanged();
           return getDateAndTimeCharFieldBuilder().getBuilder();
@@ -4557,14 +4557,14 @@ public final class StGetClickStreamAd {
          * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDateAndTimeCharOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDateAndTimeCharOrBuilder() {
           if (dateAndTimeCharBuilder_ != null) {
             return dateAndTimeCharBuilder_.getMessageOrBuilder();
           } else {
             return dateAndTimeChar_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : dateAndTimeChar_;
+                io.dstore.values.StringValue.getDefaultInstance() : dateAndTimeChar_;
           }
         }
         /**
@@ -4572,14 +4572,14 @@ public final class StGetClickStreamAd {
          * "DateAndTime" als "string" im Format "15.04.2001 14:32:55:250"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue date_and_time_char = 10004;</code>
+         * <code>optional .dstore.values.StringValue date_and_time_char = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDateAndTimeCharFieldBuilder() {
           if (dateAndTimeCharBuilder_ == null) {
             dateAndTimeCharBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDateAndTimeChar(),
                     getParentForChildren(),
                     isClean());
@@ -4588,15 +4588,15 @@ public final class StGetClickStreamAd {
           return dateAndTimeCharBuilder_;
         }
 
-        private io.dstore.Values.stringValue basicCharacteristic_ = null;
+        private io.dstore.values.StringValue basicCharacteristic_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> basicCharacteristicBuilder_;
         /**
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
          */
         public boolean hasBasicCharacteristic() {
           return basicCharacteristicBuilder_ != null || basicCharacteristic_ != null;
@@ -4606,11 +4606,11 @@ public final class StGetClickStreamAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
          */
-        public io.dstore.Values.stringValue getBasicCharacteristic() {
+        public io.dstore.values.StringValue getBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
-            return basicCharacteristic_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+            return basicCharacteristic_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
           } else {
             return basicCharacteristicBuilder_.getMessage();
           }
@@ -4620,9 +4620,9 @@ public final class StGetClickStreamAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
          */
-        public Builder setBasicCharacteristic(io.dstore.Values.stringValue value) {
+        public Builder setBasicCharacteristic(io.dstore.values.StringValue value) {
           if (basicCharacteristicBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4640,10 +4640,10 @@ public final class StGetClickStreamAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
          */
         public Builder setBasicCharacteristic(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (basicCharacteristicBuilder_ == null) {
             basicCharacteristic_ = builderForValue.build();
             onChanged();
@@ -4658,13 +4658,13 @@ public final class StGetClickStreamAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
          */
-        public Builder mergeBasicCharacteristic(io.dstore.Values.stringValue value) {
+        public Builder mergeBasicCharacteristic(io.dstore.values.StringValue value) {
           if (basicCharacteristicBuilder_ == null) {
             if (basicCharacteristic_ != null) {
               basicCharacteristic_ =
-                io.dstore.Values.stringValue.newBuilder(basicCharacteristic_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(basicCharacteristic_).mergeFrom(value).buildPartial();
             } else {
               basicCharacteristic_ = value;
             }
@@ -4680,7 +4680,7 @@ public final class StGetClickStreamAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
          */
         public Builder clearBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
@@ -4698,9 +4698,9 @@ public final class StGetClickStreamAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBasicCharacteristicBuilder() {
+        public io.dstore.values.StringValue.Builder getBasicCharacteristicBuilder() {
           
           onChanged();
           return getBasicCharacteristicFieldBuilder().getBuilder();
@@ -4710,14 +4710,14 @@ public final class StGetClickStreamAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder() {
           if (basicCharacteristicBuilder_ != null) {
             return basicCharacteristicBuilder_.getMessageOrBuilder();
           } else {
             return basicCharacteristic_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+                io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
           }
         }
         /**
@@ -4725,14 +4725,14 @@ public final class StGetClickStreamAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10005;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBasicCharacteristicFieldBuilder() {
           if (basicCharacteristicBuilder_ == null) {
             basicCharacteristicBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBasicCharacteristic(),
                     getParentForChildren(),
                     isClean());
@@ -4741,15 +4741,15 @@ public final class StGetClickStreamAd {
           return basicCharacteristicBuilder_;
         }
 
-        private io.dstore.Values.booleanValue relationExistsAtDateAndTime_ = null;
+        private io.dstore.values.BooleanValue relationExistsAtDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> relationExistsAtDateAndTimeBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> relationExistsAtDateAndTimeBuilder_;
         /**
          * <pre>
          * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
          */
         public boolean hasRelationExistsAtDateAndTime() {
           return relationExistsAtDateAndTimeBuilder_ != null || relationExistsAtDateAndTime_ != null;
@@ -4759,11 +4759,11 @@ public final class StGetClickStreamAd {
          * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.booleanValue getRelationExistsAtDateAndTime() {
+        public io.dstore.values.BooleanValue getRelationExistsAtDateAndTime() {
           if (relationExistsAtDateAndTimeBuilder_ == null) {
-            return relationExistsAtDateAndTime_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : relationExistsAtDateAndTime_;
+            return relationExistsAtDateAndTime_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : relationExistsAtDateAndTime_;
           } else {
             return relationExistsAtDateAndTimeBuilder_.getMessage();
           }
@@ -4773,9 +4773,9 @@ public final class StGetClickStreamAd {
          * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
          */
-        public Builder setRelationExistsAtDateAndTime(io.dstore.Values.booleanValue value) {
+        public Builder setRelationExistsAtDateAndTime(io.dstore.values.BooleanValue value) {
           if (relationExistsAtDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4793,10 +4793,10 @@ public final class StGetClickStreamAd {
          * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
          */
         public Builder setRelationExistsAtDateAndTime(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (relationExistsAtDateAndTimeBuilder_ == null) {
             relationExistsAtDateAndTime_ = builderForValue.build();
             onChanged();
@@ -4811,13 +4811,13 @@ public final class StGetClickStreamAd {
          * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
          */
-        public Builder mergeRelationExistsAtDateAndTime(io.dstore.Values.booleanValue value) {
+        public Builder mergeRelationExistsAtDateAndTime(io.dstore.values.BooleanValue value) {
           if (relationExistsAtDateAndTimeBuilder_ == null) {
             if (relationExistsAtDateAndTime_ != null) {
               relationExistsAtDateAndTime_ =
-                io.dstore.Values.booleanValue.newBuilder(relationExistsAtDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(relationExistsAtDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               relationExistsAtDateAndTime_ = value;
             }
@@ -4833,7 +4833,7 @@ public final class StGetClickStreamAd {
          * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
          */
         public Builder clearRelationExistsAtDateAndTime() {
           if (relationExistsAtDateAndTimeBuilder_ == null) {
@@ -4851,9 +4851,9 @@ public final class StGetClickStreamAd {
          * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getRelationExistsAtDateAndTimeBuilder() {
+        public io.dstore.values.BooleanValue.Builder getRelationExistsAtDateAndTimeBuilder() {
           
           onChanged();
           return getRelationExistsAtDateAndTimeFieldBuilder().getBuilder();
@@ -4863,14 +4863,14 @@ public final class StGetClickStreamAd {
          * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getRelationExistsAtDateAndTimeOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getRelationExistsAtDateAndTimeOrBuilder() {
           if (relationExistsAtDateAndTimeBuilder_ != null) {
             return relationExistsAtDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return relationExistsAtDateAndTime_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : relationExistsAtDateAndTime_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : relationExistsAtDateAndTime_;
           }
         }
         /**
@@ -4878,14 +4878,14 @@ public final class StGetClickStreamAd {
          * "1", falls zum Zeitpunkt "DateAndTime" zwischen "VisitorOrPersonID" und "RelatedID" eine Zuordnung bestand
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue relation_exists_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.BooleanValue relation_exists_at_date_and_time = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getRelationExistsAtDateAndTimeFieldBuilder() {
           if (relationExistsAtDateAndTimeBuilder_ == null) {
             relationExistsAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getRelationExistsAtDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -4894,15 +4894,15 @@ public final class StGetClickStreamAd {
           return relationExistsAtDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue hTreeNodeId_ = null;
+        private io.dstore.values.IntegerValue hTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
@@ -4912,11 +4912,11 @@ public final class StGetClickStreamAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue getHTreeNodeId() {
+        public io.dstore.values.IntegerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
-            return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+            return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
           } else {
             return hTreeNodeIdBuilder_.getMessage();
           }
@@ -4926,9 +4926,9 @@ public final class StGetClickStreamAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
          */
-        public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4946,10 +4946,10 @@ public final class StGetClickStreamAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
          */
         public Builder setHTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -4964,13 +4964,13 @@ public final class StGetClickStreamAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
          */
-        public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (hTreeNodeId_ != null) {
               hTreeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               hTreeNodeId_ = value;
             }
@@ -4986,7 +4986,7 @@ public final class StGetClickStreamAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -5004,9 +5004,9 @@ public final class StGetClickStreamAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getHTreeNodeIdBuilder() {
           
           onChanged();
           return getHTreeNodeIdFieldBuilder().getBuilder();
@@ -5016,14 +5016,14 @@ public final class StGetClickStreamAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
             return hTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return hTreeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
           }
         }
         /**
@@ -5031,14 +5031,14 @@ public final class StGetClickStreamAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), zu dem die statistische Information "Value" (zum Zeitpunkt "DateAndTime" in der Tabelle "DSS_StatisticData") gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5047,15 +5047,15 @@ public final class StGetClickStreamAd {
           return hTreeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -5065,11 +5065,11 @@ public final class StGetClickStreamAd {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -5079,9 +5079,9 @@ public final class StGetClickStreamAd {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5099,10 +5099,10 @@ public final class StGetClickStreamAd {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -5117,13 +5117,13 @@ public final class StGetClickStreamAd {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -5139,7 +5139,7 @@ public final class StGetClickStreamAd {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -5157,9 +5157,9 @@ public final class StGetClickStreamAd {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -5169,14 +5169,14 @@ public final class StGetClickStreamAd {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -5184,14 +5184,14 @@ public final class StGetClickStreamAd {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes (auf das sich die statistische Information bezieht)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -5200,15 +5200,15 @@ public final class StGetClickStreamAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue value_ = null;
+        private io.dstore.values.DecimalValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> valueBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10009;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -5218,11 +5218,11 @@ public final class StGetClickStreamAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10009;</code>
          */
-        public io.dstore.Values.decimalValue getValue() {
+        public io.dstore.values.DecimalValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -5232,9 +5232,9 @@ public final class StGetClickStreamAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10009;</code>
          */
-        public Builder setValue(io.dstore.Values.decimalValue value) {
+        public Builder setValue(io.dstore.values.DecimalValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5252,10 +5252,10 @@ public final class StGetClickStreamAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10009;</code>
          */
         public Builder setValue(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -5270,13 +5270,13 @@ public final class StGetClickStreamAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10009;</code>
          */
-        public Builder mergeValue(io.dstore.Values.decimalValue value) {
+        public Builder mergeValue(io.dstore.values.DecimalValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.decimalValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -5292,7 +5292,7 @@ public final class StGetClickStreamAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10009;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -5310,9 +5310,9 @@ public final class StGetClickStreamAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10009;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getValueBuilder() {
+        public io.dstore.values.DecimalValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -5322,14 +5322,14 @@ public final class StGetClickStreamAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10009;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : value_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -5337,14 +5337,14 @@ public final class StGetClickStreamAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber", z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -5353,15 +5353,15 @@ public final class StGetClickStreamAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.timestampValue dateAndTime_ = null;
+        private io.dstore.values.TimestampValue dateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dateAndTimeBuilder_;
         /**
          * <pre>
          * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
          */
         public boolean hasDateAndTime() {
           return dateAndTimeBuilder_ != null || dateAndTime_ != null;
@@ -5371,11 +5371,11 @@ public final class StGetClickStreamAd {
          * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
          */
-        public io.dstore.Values.timestampValue getDateAndTime() {
+        public io.dstore.values.TimestampValue getDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
-            return dateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
+            return dateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : dateAndTime_;
           } else {
             return dateAndTimeBuilder_.getMessage();
           }
@@ -5385,9 +5385,9 @@ public final class StGetClickStreamAd {
          * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
          */
-        public Builder setDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setDateAndTime(io.dstore.values.TimestampValue value) {
           if (dateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5405,10 +5405,10 @@ public final class StGetClickStreamAd {
          * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
          */
         public Builder setDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (dateAndTimeBuilder_ == null) {
             dateAndTime_ = builderForValue.build();
             onChanged();
@@ -5423,13 +5423,13 @@ public final class StGetClickStreamAd {
          * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
          */
-        public Builder mergeDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeDateAndTime(io.dstore.values.TimestampValue value) {
           if (dateAndTimeBuilder_ == null) {
             if (dateAndTime_ != null) {
               dateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(dateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(dateAndTime_).mergeFrom(value).buildPartial();
             } else {
               dateAndTime_ = value;
             }
@@ -5445,7 +5445,7 @@ public final class StGetClickStreamAd {
          * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
          */
         public Builder clearDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
@@ -5463,9 +5463,9 @@ public final class StGetClickStreamAd {
          * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getDateAndTimeBuilder() {
           
           onChanged();
           return getDateAndTimeFieldBuilder().getBuilder();
@@ -5475,14 +5475,14 @@ public final class StGetClickStreamAd {
          * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
           if (dateAndTimeBuilder_ != null) {
             return dateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return dateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : dateAndTime_;
           }
         }
         /**
@@ -5490,14 +5490,14 @@ public final class StGetClickStreamAd {
          * Zeitpunkt der statistischen Information "Value" zur Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getDateAndTimeFieldBuilder() {
           if (dateAndTimeBuilder_ == null) {
             dateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -5506,15 +5506,15 @@ public final class StGetClickStreamAd {
           return dateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue relatedId_ = null;
+        private io.dstore.values.IntegerValue relatedId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relatedIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> relatedIdBuilder_;
         /**
          * <pre>
          * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
          */
         public boolean hasRelatedId() {
           return relatedIdBuilder_ != null || relatedId_ != null;
@@ -5524,11 +5524,11 @@ public final class StGetClickStreamAd {
          * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
          */
-        public io.dstore.Values.integerValue getRelatedId() {
+        public io.dstore.values.IntegerValue getRelatedId() {
           if (relatedIdBuilder_ == null) {
-            return relatedId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relatedId_;
+            return relatedId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relatedId_;
           } else {
             return relatedIdBuilder_.getMessage();
           }
@@ -5538,9 +5538,9 @@ public final class StGetClickStreamAd {
          * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
          */
-        public Builder setRelatedId(io.dstore.Values.integerValue value) {
+        public Builder setRelatedId(io.dstore.values.IntegerValue value) {
           if (relatedIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5558,10 +5558,10 @@ public final class StGetClickStreamAd {
          * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
          */
         public Builder setRelatedId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (relatedIdBuilder_ == null) {
             relatedId_ = builderForValue.build();
             onChanged();
@@ -5576,13 +5576,13 @@ public final class StGetClickStreamAd {
          * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
          */
-        public Builder mergeRelatedId(io.dstore.Values.integerValue value) {
+        public Builder mergeRelatedId(io.dstore.values.IntegerValue value) {
           if (relatedIdBuilder_ == null) {
             if (relatedId_ != null) {
               relatedId_ =
-                io.dstore.Values.integerValue.newBuilder(relatedId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(relatedId_).mergeFrom(value).buildPartial();
             } else {
               relatedId_ = value;
             }
@@ -5598,7 +5598,7 @@ public final class StGetClickStreamAd {
          * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
          */
         public Builder clearRelatedId() {
           if (relatedIdBuilder_ == null) {
@@ -5616,9 +5616,9 @@ public final class StGetClickStreamAd {
          * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
          */
-        public io.dstore.Values.integerValue.Builder getRelatedIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getRelatedIdBuilder() {
           
           onChanged();
           return getRelatedIdFieldBuilder().getBuilder();
@@ -5628,14 +5628,14 @@ public final class StGetClickStreamAd {
          * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getRelatedIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getRelatedIdOrBuilder() {
           if (relatedIdBuilder_ != null) {
             return relatedIdBuilder_.getMessageOrBuilder();
           } else {
             return relatedId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : relatedId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : relatedId_;
           }
         }
         /**
@@ -5643,14 +5643,14 @@ public final class StGetClickStreamAd {
          * Immer "NULL", wenn "ValueBelongsToRelatedID = 0" ist. Ansonsten steht hier die ID des zugeordneten Besuchers bzw. der zugeordneten Person, zu der die statistische Information "Value" gespeichert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue related_id = 10011;</code>
+         * <code>optional .dstore.values.IntegerValue related_id = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getRelatedIdFieldBuilder() {
           if (relatedIdBuilder_ == null) {
             relatedIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getRelatedId(),
                     getParentForChildren(),
                     isClean());
@@ -5659,15 +5659,15 @@ public final class StGetClickStreamAd {
           return relatedIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue basicCharacteristicNumber_ = null;
+        private io.dstore.values.IntegerValue basicCharacteristicNumber_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicCharacteristicNumberBuilder_;
         /**
          * <pre>
          * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
          */
         public boolean hasBasicCharacteristicNumber() {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
@@ -5677,11 +5677,11 @@ public final class StGetClickStreamAd {
          * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
          */
-        public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
+        public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
-            return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+            return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
           } else {
             return basicCharacteristicNumberBuilder_.getMessage();
           }
@@ -5691,9 +5691,9 @@ public final class StGetClickStreamAd {
          * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
          */
-        public Builder setBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
+        public Builder setBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5711,10 +5711,10 @@ public final class StGetClickStreamAd {
          * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
          */
         public Builder setBasicCharacteristicNumber(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumber_ = builderForValue.build();
             onChanged();
@@ -5729,13 +5729,13 @@ public final class StGetClickStreamAd {
          * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
          */
-        public Builder mergeBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
+        public Builder mergeBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (basicCharacteristicNumber_ != null) {
               basicCharacteristicNumber_ =
-                io.dstore.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
             } else {
               basicCharacteristicNumber_ = value;
             }
@@ -5751,7 +5751,7 @@ public final class StGetClickStreamAd {
          * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
          */
         public Builder clearBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -5769,9 +5769,9 @@ public final class StGetClickStreamAd {
          * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNumberBuilder() {
           
           onChanged();
           return getBasicCharacteristicNumberFieldBuilder().getBuilder();
@@ -5781,14 +5781,14 @@ public final class StGetClickStreamAd {
          * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
             return basicCharacteristicNumberBuilder_.getMessageOrBuilder();
           } else {
             return basicCharacteristicNumber_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
           }
         }
         /**
@@ -5796,14 +5796,14 @@ public final class StGetClickStreamAd {
          * Nummer der Basis-Kennzahl, auf die sich die Information "Value" bezieht (mögliche Werte : siehe "st_GetBasicCharacteristics_Ad")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10012;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBasicCharacteristicNumberFieldBuilder() {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBasicCharacteristicNumber(),
                     getParentForChildren(),
                     isClean());
@@ -7272,21 +7272,21 @@ public final class StGetClickStreamAd {
       "ream_Ad.proto\022\"dstore.engine.st_GetClick" +
       "Stream_Ad\032\023dstore/values.proto\032\032dstore/e" +
       "ngine/engine.proto\"\206\005\n\nParameters\022.\n\tper" +
-      "son_id\030\001 \001(\0132\033.dstore.values.integerValu" +
+      "son_id\030\001 \001(\0132\033.dstore.values.IntegerValu" +
       "e\022\027\n\016person_id_null\030\351\007 \001(\010\0220\n\tfrom_date\030" +
-      "\002 \001(\0132\035.dstore.values.timestampValue\022\027\n\016" +
+      "\002 \001(\0132\035.dstore.values.TimestampValue\022\027\n\016" +
       "from_date_null\030\352\007 \001(\010\022.\n\007to_date\030\003 \001(\0132\035" +
-      ".dstore.values.timestampValue\022\025\n\014to_date" +
+      ".dstore.values.TimestampValue\022\025\n\014to_date" +
       "_null\030\353\007 \001(\010\022/\n\nvisitor_id\030\004 \001(\0132\033.dstor",
-      "e.values.integerValue\022\030\n\017visitor_id_null" +
+      "e.values.IntegerValue\022\030\n\017visitor_id_null" +
       "\030\354\007 \001(\010\022D\n\037visitor_or_person_ids_in_one_" +
-      "id\030\005 \001(\0132\033.dstore.values.integerValue\022-\n" +
+      "id\030\005 \001(\0132\033.dstore.values.IntegerValue\022-\n" +
       "$visitor_or_person_ids_in_one_id_null\030\355\007" +
       " \001(\010\022B\n\035consider_only_relation_period\030\006 " +
-      "\001(\0132\033.dstore.values.booleanValue\022+\n\"cons" +
+      "\001(\0132\033.dstore.values.BooleanValue\022+\n\"cons" +
       "ider_only_relation_period_null\030\356\007 \001(\010\022@\n" +
       "\034basic_characteristic_numbers\030\007 \001(\0132\032.ds" +
-      "tore.values.stringValue\022*\n!basic_charact" +
+      "tore.values.StringValue\022*\n!basic_charact" +
       "eristic_numbers_null\030\357\007 \001(\010\"\365\006\n\010Response",
       "\0228\n\020meta_information\030\002 \003(\0132\036.dstore.engi" +
       "ne.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.ds" +
@@ -7294,22 +7294,22 @@ public final class StGetClickStreamAd {
       "e.engine.st_GetClickStream_Ad.Response.R" +
       "ow\032\306\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022A\n\033value_bel" +
       "ongs_to_related_id\030\221N \001(\0132\033.dstore.value" +
-      "s.booleanValue\0225\n\020node_description\030\222N \001(" +
-      "\0132\032.dstore.values.stringValue\022:\n\024visitor" +
-      "_or_person_id\030\223N \001(\0132\033.dstore.values.int" +
+      "s.BooleanValue\0225\n\020node_description\030\222N \001(" +
+      "\0132\032.dstore.values.StringValue\022:\n\024visitor" +
+      "_or_person_id\030\223N \001(\0132\033.dstore.values.Int" +
       "egerValue\0227\n\022date_and_time_char\030\224N \001(\0132\032",
-      ".dstore.values.stringValue\0229\n\024basic_char" +
-      "acteristic\030\225N \001(\0132\032.dstore.values.string" +
+      ".dstore.values.StringValue\0229\n\024basic_char" +
+      "acteristic\030\225N \001(\0132\032.dstore.values.String" +
       "Value\022F\n relation_exists_at_date_and_tim" +
-      "e\030\226N \001(\0132\033.dstore.values.booleanValue\0224\n" +
-      "\016h_tree_node_id\030\227N \001(\0132\033.dstore.values.i" +
+      "e\030\226N \001(\0132\033.dstore.values.BooleanValue\0224\n" +
+      "\016h_tree_node_id\030\227N \001(\0132\033.dstore.values.I" +
       "ntegerValue\022-\n\007node_id\030\230N \001(\0132\033.dstore.v" +
-      "alues.integerValue\022+\n\005value\030\231N \001(\0132\033.dst" +
-      "ore.values.decimalValue\0225\n\rdate_and_time" +
-      "\030\232N \001(\0132\035.dstore.values.timestampValue\0220" +
-      "\n\nrelated_id\030\233N \001(\0132\033.dstore.values.inte",
+      "alues.IntegerValue\022+\n\005value\030\231N \001(\0132\033.dst" +
+      "ore.values.DecimalValue\0225\n\rdate_and_time" +
+      "\030\232N \001(\0132\035.dstore.values.TimestampValue\0220" +
+      "\n\nrelated_id\030\233N \001(\0132\033.dstore.values.Inte",
       "gerValue\022A\n\033basic_characteristic_number\030" +
-      "\234N \001(\0132\033.dstore.values.integerValueBU\n\033i" +
+      "\234N \001(\0132\033.dstore.values.IntegerValueBU\n\033i" +
       "o.dstore.engine.proceduresZ6gosdk.dstore" +
       ".de/engine/procedures/st_GetClickStream_" +
       "Adb\006proto3"
@@ -7325,7 +7325,7 @@ public final class StGetClickStreamAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_st_GetClickStream_Ad_Parameters_descriptor =
@@ -7346,7 +7346,7 @@ public final class StGetClickStreamAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetClickStream_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ValueBelongsToRelatedId", "NodeDescription", "VisitorOrPersonId", "DateAndTimeChar", "BasicCharacteristic", "RelationExistsAtDateAndTime", "HTreeNodeId", "NodeId", "Value", "DateAndTime", "RelatedId", "BasicCharacteristicNumber", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

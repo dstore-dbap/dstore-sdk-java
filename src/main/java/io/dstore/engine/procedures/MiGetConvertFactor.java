@@ -19,17 +19,17 @@ public final class MiGetConvertFactor {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
     boolean hasFromUnitId();
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
-    io.dstore.Values.integerValue getFromUnitId();
+    io.dstore.values.IntegerValue getFromUnitId();
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder();
 
     /**
      * <code>optional bool from_unit_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetConvertFactor {
     boolean getFromUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
     boolean hasToUnitId();
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
-    io.dstore.Values.integerValue getToUnitId();
+    io.dstore.values.IntegerValue getToUnitId();
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder();
 
     /**
      * <code>optional bool to_unit_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetConvertFactor {
     boolean getToUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
      */
     boolean hasFactor1();
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
      */
-    io.dstore.Values.decimalValue getFactor1();
+    io.dstore.values.DecimalValue getFactor1();
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getFactor1OrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getFactor1OrBuilder();
 
     /**
      * <code>optional bool factor1_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiGetConvertFactor {
     boolean getFactor1Null();
 
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
      */
     boolean hasFactor2();
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
      */
-    io.dstore.Values.decimalValue getFactor2();
+    io.dstore.values.DecimalValue getFactor2();
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getFactor2OrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getFactor2OrBuilder();
 
     /**
      * <code>optional bool factor2_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiGetConvertFactor {
     boolean getFactor2Null();
 
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
      */
     boolean hasDivisor1();
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
      */
-    io.dstore.Values.decimalValue getDivisor1();
+    io.dstore.values.DecimalValue getDivisor1();
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getDivisor1OrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getDivisor1OrBuilder();
 
     /**
      * <code>optional bool divisor1_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiGetConvertFactor {
     boolean getDivisor1Null();
 
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
      */
     boolean hasDivisor2();
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
      */
-    io.dstore.Values.decimalValue getDivisor2();
+    io.dstore.values.DecimalValue getDivisor2();
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getDivisor2OrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getDivisor2OrBuilder();
 
     /**
      * <code>optional bool divisor2_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class MiGetConvertFactor {
     boolean getDivisor2Null();
 
     /**
-     * <code>optional .dstore.values.timestampValue date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue date = 7;</code>
      */
     boolean hasDate();
     /**
-     * <code>optional .dstore.values.timestampValue date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue date = 7;</code>
      */
-    io.dstore.Values.timestampValue getDate();
+    io.dstore.values.TimestampValue getDate();
     /**
-     * <code>optional .dstore.values.timestampValue date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue date = 7;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getDateOrBuilder();
 
     /**
      * <code>optional bool date_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (fromUnitId_ != null) {
                 subBuilder = fromUnitId_.toBuilder();
               }
-              fromUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              fromUnitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromUnitId_);
                 fromUnitId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (toUnitId_ != null) {
                 subBuilder = toUnitId_.toBuilder();
               }
-              toUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              toUnitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toUnitId_);
                 toUnitId_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 26: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (factor1_ != null) {
                 subBuilder = factor1_.toBuilder();
               }
-              factor1_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              factor1_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(factor1_);
                 factor1_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 34: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (factor2_ != null) {
                 subBuilder = factor2_.toBuilder();
               }
-              factor2_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              factor2_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(factor2_);
                 factor2_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 42: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (divisor1_ != null) {
                 subBuilder = divisor1_.toBuilder();
               }
-              divisor1_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              divisor1_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(divisor1_);
                 divisor1_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 50: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (divisor2_ != null) {
                 subBuilder = divisor2_.toBuilder();
               }
-              divisor2_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              divisor2_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(divisor2_);
                 divisor2_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 58: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (date_ != null) {
                 subBuilder = date_.toBuilder();
               }
-              date_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              date_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(date_);
                 date_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class MiGetConvertFactor {
     }
 
     public static final int FROM_UNIT_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue fromUnitId_;
+    private io.dstore.values.IntegerValue fromUnitId_;
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
     public boolean hasFromUnitId() {
       return fromUnitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getFromUnitId() {
-      return fromUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+    public io.dstore.values.IntegerValue getFromUnitId() {
+      return fromUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder() {
       return getFromUnitId();
     }
 
@@ -370,23 +370,23 @@ public final class MiGetConvertFactor {
     }
 
     public static final int TO_UNIT_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue toUnitId_;
+    private io.dstore.values.IntegerValue toUnitId_;
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
     public boolean hasToUnitId() {
       return toUnitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getToUnitId() {
-      return toUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+    public io.dstore.values.IntegerValue getToUnitId() {
+      return toUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder() {
       return getToUnitId();
     }
 
@@ -400,23 +400,23 @@ public final class MiGetConvertFactor {
     }
 
     public static final int FACTOR1_FIELD_NUMBER = 3;
-    private io.dstore.Values.decimalValue factor1_;
+    private io.dstore.values.DecimalValue factor1_;
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
      */
     public boolean hasFactor1() {
       return factor1_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
      */
-    public io.dstore.Values.decimalValue getFactor1() {
-      return factor1_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : factor1_;
+    public io.dstore.values.DecimalValue getFactor1() {
+      return factor1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : factor1_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getFactor1OrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getFactor1OrBuilder() {
       return getFactor1();
     }
 
@@ -430,23 +430,23 @@ public final class MiGetConvertFactor {
     }
 
     public static final int FACTOR2_FIELD_NUMBER = 4;
-    private io.dstore.Values.decimalValue factor2_;
+    private io.dstore.values.DecimalValue factor2_;
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
      */
     public boolean hasFactor2() {
       return factor2_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
      */
-    public io.dstore.Values.decimalValue getFactor2() {
-      return factor2_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : factor2_;
+    public io.dstore.values.DecimalValue getFactor2() {
+      return factor2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : factor2_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getFactor2OrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getFactor2OrBuilder() {
       return getFactor2();
     }
 
@@ -460,23 +460,23 @@ public final class MiGetConvertFactor {
     }
 
     public static final int DIVISOR1_FIELD_NUMBER = 5;
-    private io.dstore.Values.decimalValue divisor1_;
+    private io.dstore.values.DecimalValue divisor1_;
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
      */
     public boolean hasDivisor1() {
       return divisor1_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
      */
-    public io.dstore.Values.decimalValue getDivisor1() {
-      return divisor1_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : divisor1_;
+    public io.dstore.values.DecimalValue getDivisor1() {
+      return divisor1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : divisor1_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getDivisor1OrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getDivisor1OrBuilder() {
       return getDivisor1();
     }
 
@@ -490,23 +490,23 @@ public final class MiGetConvertFactor {
     }
 
     public static final int DIVISOR2_FIELD_NUMBER = 6;
-    private io.dstore.Values.decimalValue divisor2_;
+    private io.dstore.values.DecimalValue divisor2_;
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
      */
     public boolean hasDivisor2() {
       return divisor2_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
      */
-    public io.dstore.Values.decimalValue getDivisor2() {
-      return divisor2_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : divisor2_;
+    public io.dstore.values.DecimalValue getDivisor2() {
+      return divisor2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : divisor2_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getDivisor2OrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getDivisor2OrBuilder() {
       return getDivisor2();
     }
 
@@ -520,23 +520,23 @@ public final class MiGetConvertFactor {
     }
 
     public static final int DATE_FIELD_NUMBER = 7;
-    private io.dstore.Values.timestampValue date_;
+    private io.dstore.values.TimestampValue date_;
     /**
-     * <code>optional .dstore.values.timestampValue date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue date = 7;</code>
      */
     public boolean hasDate() {
       return date_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue date = 7;</code>
      */
-    public io.dstore.Values.timestampValue getDate() {
-      return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
+    public io.dstore.values.TimestampValue getDate() {
+      return date_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : date_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue date = 7;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
       return getDate();
     }
 
@@ -1137,29 +1137,29 @@ public final class MiGetConvertFactor {
         return this;
       }
 
-      private io.dstore.Values.integerValue fromUnitId_ = null;
+      private io.dstore.values.IntegerValue fromUnitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromUnitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromUnitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
       public boolean hasFromUnitId() {
         return fromUnitIdBuilder_ != null || fromUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getFromUnitId() {
+      public io.dstore.values.IntegerValue getFromUnitId() {
         if (fromUnitIdBuilder_ == null) {
-          return fromUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+          return fromUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
         } else {
           return fromUnitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public Builder setFromUnitId(io.dstore.Values.integerValue value) {
+      public Builder setFromUnitId(io.dstore.values.IntegerValue value) {
         if (fromUnitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
       public Builder setFromUnitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (fromUnitIdBuilder_ == null) {
           fromUnitId_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public Builder mergeFromUnitId(io.dstore.Values.integerValue value) {
+      public Builder mergeFromUnitId(io.dstore.values.IntegerValue value) {
         if (fromUnitIdBuilder_ == null) {
           if (fromUnitId_ != null) {
             fromUnitId_ =
-              io.dstore.Values.integerValue.newBuilder(fromUnitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(fromUnitId_).mergeFrom(value).buildPartial();
           } else {
             fromUnitId_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
       public Builder clearFromUnitId() {
         if (fromUnitIdBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFromUnitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFromUnitIdBuilder() {
         
         onChanged();
         return getFromUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder() {
         if (fromUnitIdBuilder_ != null) {
           return fromUnitIdBuilder_.getMessageOrBuilder();
         } else {
           return fromUnitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFromUnitIdFieldBuilder() {
         if (fromUnitIdBuilder_ == null) {
           fromUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFromUnitId(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class MiGetConvertFactor {
         return this;
       }
 
-      private io.dstore.Values.integerValue toUnitId_ = null;
+      private io.dstore.values.IntegerValue toUnitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toUnitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toUnitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
       public boolean hasToUnitId() {
         return toUnitIdBuilder_ != null || toUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getToUnitId() {
+      public io.dstore.values.IntegerValue getToUnitId() {
         if (toUnitIdBuilder_ == null) {
-          return toUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+          return toUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
         } else {
           return toUnitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public Builder setToUnitId(io.dstore.Values.integerValue value) {
+      public Builder setToUnitId(io.dstore.values.IntegerValue value) {
         if (toUnitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
       public Builder setToUnitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (toUnitIdBuilder_ == null) {
           toUnitId_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public Builder mergeToUnitId(io.dstore.Values.integerValue value) {
+      public Builder mergeToUnitId(io.dstore.values.IntegerValue value) {
         if (toUnitIdBuilder_ == null) {
           if (toUnitId_ != null) {
             toUnitId_ =
-              io.dstore.Values.integerValue.newBuilder(toUnitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(toUnitId_).mergeFrom(value).buildPartial();
           } else {
             toUnitId_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
       public Builder clearToUnitId() {
         if (toUnitIdBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getToUnitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getToUnitIdBuilder() {
         
         onChanged();
         return getToUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder() {
         if (toUnitIdBuilder_ != null) {
           return toUnitIdBuilder_.getMessageOrBuilder();
         } else {
           return toUnitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getToUnitIdFieldBuilder() {
         if (toUnitIdBuilder_ == null) {
           toUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getToUnitId(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class MiGetConvertFactor {
         return this;
       }
 
-      private io.dstore.Values.decimalValue factor1_ = null;
+      private io.dstore.values.DecimalValue factor1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> factor1Builder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> factor1Builder_;
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
        */
       public boolean hasFactor1() {
         return factor1Builder_ != null || factor1_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
        */
-      public io.dstore.Values.decimalValue getFactor1() {
+      public io.dstore.values.DecimalValue getFactor1() {
         if (factor1Builder_ == null) {
-          return factor1_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : factor1_;
+          return factor1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : factor1_;
         } else {
           return factor1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
        */
-      public Builder setFactor1(io.dstore.Values.decimalValue value) {
+      public Builder setFactor1(io.dstore.values.DecimalValue value) {
         if (factor1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
        */
       public Builder setFactor1(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (factor1Builder_ == null) {
           factor1_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
        */
-      public Builder mergeFactor1(io.dstore.Values.decimalValue value) {
+      public Builder mergeFactor1(io.dstore.values.DecimalValue value) {
         if (factor1Builder_ == null) {
           if (factor1_ != null) {
             factor1_ =
-              io.dstore.Values.decimalValue.newBuilder(factor1_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(factor1_).mergeFrom(value).buildPartial();
           } else {
             factor1_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
        */
       public Builder clearFactor1() {
         if (factor1Builder_ == null) {
@@ -1505,33 +1505,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getFactor1Builder() {
+      public io.dstore.values.DecimalValue.Builder getFactor1Builder() {
         
         onChanged();
         return getFactor1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getFactor1OrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getFactor1OrBuilder() {
         if (factor1Builder_ != null) {
           return factor1Builder_.getMessageOrBuilder();
         } else {
           return factor1_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : factor1_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : factor1_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 3;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getFactor1FieldBuilder() {
         if (factor1Builder_ == null) {
           factor1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getFactor1(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class MiGetConvertFactor {
         return this;
       }
 
-      private io.dstore.Values.decimalValue factor2_ = null;
+      private io.dstore.values.DecimalValue factor2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> factor2Builder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> factor2Builder_;
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
        */
       public boolean hasFactor2() {
         return factor2Builder_ != null || factor2_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
        */
-      public io.dstore.Values.decimalValue getFactor2() {
+      public io.dstore.values.DecimalValue getFactor2() {
         if (factor2Builder_ == null) {
-          return factor2_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : factor2_;
+          return factor2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : factor2_;
         } else {
           return factor2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
        */
-      public Builder setFactor2(io.dstore.Values.decimalValue value) {
+      public Builder setFactor2(io.dstore.values.DecimalValue value) {
         if (factor2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
        */
       public Builder setFactor2(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (factor2Builder_ == null) {
           factor2_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
        */
-      public Builder mergeFactor2(io.dstore.Values.decimalValue value) {
+      public Builder mergeFactor2(io.dstore.values.DecimalValue value) {
         if (factor2Builder_ == null) {
           if (factor2_ != null) {
             factor2_ =
-              io.dstore.Values.decimalValue.newBuilder(factor2_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(factor2_).mergeFrom(value).buildPartial();
           } else {
             factor2_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
        */
       public Builder clearFactor2() {
         if (factor2Builder_ == null) {
@@ -1648,33 +1648,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getFactor2Builder() {
+      public io.dstore.values.DecimalValue.Builder getFactor2Builder() {
         
         onChanged();
         return getFactor2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getFactor2OrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getFactor2OrBuilder() {
         if (factor2Builder_ != null) {
           return factor2Builder_.getMessageOrBuilder();
         } else {
           return factor2_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : factor2_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : factor2_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 4;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getFactor2FieldBuilder() {
         if (factor2Builder_ == null) {
           factor2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getFactor2(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class MiGetConvertFactor {
         return this;
       }
 
-      private io.dstore.Values.decimalValue divisor1_ = null;
+      private io.dstore.values.DecimalValue divisor1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> divisor1Builder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> divisor1Builder_;
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
        */
       public boolean hasDivisor1() {
         return divisor1Builder_ != null || divisor1_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
        */
-      public io.dstore.Values.decimalValue getDivisor1() {
+      public io.dstore.values.DecimalValue getDivisor1() {
         if (divisor1Builder_ == null) {
-          return divisor1_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : divisor1_;
+          return divisor1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : divisor1_;
         } else {
           return divisor1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
        */
-      public Builder setDivisor1(io.dstore.Values.decimalValue value) {
+      public Builder setDivisor1(io.dstore.values.DecimalValue value) {
         if (divisor1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
        */
       public Builder setDivisor1(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (divisor1Builder_ == null) {
           divisor1_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
        */
-      public Builder mergeDivisor1(io.dstore.Values.decimalValue value) {
+      public Builder mergeDivisor1(io.dstore.values.DecimalValue value) {
         if (divisor1Builder_ == null) {
           if (divisor1_ != null) {
             divisor1_ =
-              io.dstore.Values.decimalValue.newBuilder(divisor1_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(divisor1_).mergeFrom(value).buildPartial();
           } else {
             divisor1_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
        */
       public Builder clearDivisor1() {
         if (divisor1Builder_ == null) {
@@ -1791,33 +1791,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getDivisor1Builder() {
+      public io.dstore.values.DecimalValue.Builder getDivisor1Builder() {
         
         onChanged();
         return getDivisor1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getDivisor1OrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getDivisor1OrBuilder() {
         if (divisor1Builder_ != null) {
           return divisor1Builder_.getMessageOrBuilder();
         } else {
           return divisor1_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : divisor1_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : divisor1_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 5;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getDivisor1FieldBuilder() {
         if (divisor1Builder_ == null) {
           divisor1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getDivisor1(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class MiGetConvertFactor {
         return this;
       }
 
-      private io.dstore.Values.decimalValue divisor2_ = null;
+      private io.dstore.values.DecimalValue divisor2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> divisor2Builder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> divisor2Builder_;
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
        */
       public boolean hasDivisor2() {
         return divisor2Builder_ != null || divisor2_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
        */
-      public io.dstore.Values.decimalValue getDivisor2() {
+      public io.dstore.values.DecimalValue getDivisor2() {
         if (divisor2Builder_ == null) {
-          return divisor2_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : divisor2_;
+          return divisor2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : divisor2_;
         } else {
           return divisor2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
        */
-      public Builder setDivisor2(io.dstore.Values.decimalValue value) {
+      public Builder setDivisor2(io.dstore.values.DecimalValue value) {
         if (divisor2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
        */
       public Builder setDivisor2(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (divisor2Builder_ == null) {
           divisor2_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
        */
-      public Builder mergeDivisor2(io.dstore.Values.decimalValue value) {
+      public Builder mergeDivisor2(io.dstore.values.DecimalValue value) {
         if (divisor2Builder_ == null) {
           if (divisor2_ != null) {
             divisor2_ =
-              io.dstore.Values.decimalValue.newBuilder(divisor2_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(divisor2_).mergeFrom(value).buildPartial();
           } else {
             divisor2_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
        */
       public Builder clearDivisor2() {
         if (divisor2Builder_ == null) {
@@ -1934,33 +1934,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getDivisor2Builder() {
+      public io.dstore.values.DecimalValue.Builder getDivisor2Builder() {
         
         onChanged();
         return getDivisor2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getDivisor2OrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getDivisor2OrBuilder() {
         if (divisor2Builder_ != null) {
           return divisor2Builder_.getMessageOrBuilder();
         } else {
           return divisor2_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : divisor2_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : divisor2_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 6;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getDivisor2FieldBuilder() {
         if (divisor2Builder_ == null) {
           divisor2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getDivisor2(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class MiGetConvertFactor {
         return this;
       }
 
-      private io.dstore.Values.timestampValue date_ = null;
+      private io.dstore.values.TimestampValue date_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue date = 7;</code>
        */
       public boolean hasDate() {
         return dateBuilder_ != null || date_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue date = 7;</code>
        */
-      public io.dstore.Values.timestampValue getDate() {
+      public io.dstore.values.TimestampValue getDate() {
         if (dateBuilder_ == null) {
-          return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
+          return date_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : date_;
         } else {
           return dateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue date = 7;</code>
        */
-      public Builder setDate(io.dstore.Values.timestampValue value) {
+      public Builder setDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue date = 7;</code>
        */
       public Builder setDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (dateBuilder_ == null) {
           date_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue date = 7;</code>
        */
-      public Builder mergeDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
           if (date_ != null) {
             date_ =
-              io.dstore.Values.timestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
           } else {
             date_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue date = 7;</code>
        */
       public Builder clearDate() {
         if (dateBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue date = 7;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getDateBuilder() {
         
         onChanged();
         return getDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue date = 7;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
         if (dateBuilder_ != null) {
           return dateBuilder_.getMessageOrBuilder();
         } else {
           return date_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : date_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : date_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue date = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getDateFieldBuilder() {
         if (dateBuilder_ == null) {
           dateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getDate(),
                   getParentForChildren(),
                   isClean());
@@ -2263,56 +2263,56 @@ public final class MiGetConvertFactor {
         int index);
 
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
      */
     boolean hasFactor1();
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
      */
-    io.dstore.Values.decimalValue getFactor1();
+    io.dstore.values.DecimalValue getFactor1();
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getFactor1OrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getFactor1OrBuilder();
 
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
      */
     boolean hasFactor2();
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
      */
-    io.dstore.Values.decimalValue getFactor2();
+    io.dstore.values.DecimalValue getFactor2();
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getFactor2OrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getFactor2OrBuilder();
 
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
      */
     boolean hasDivisor1();
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
      */
-    io.dstore.Values.decimalValue getDivisor1();
+    io.dstore.values.DecimalValue getDivisor1();
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getDivisor1OrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getDivisor1OrBuilder();
 
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
      */
     boolean hasDivisor2();
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
      */
-    io.dstore.Values.decimalValue getDivisor2();
+    io.dstore.values.DecimalValue getDivisor2();
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getDivisor2OrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getDivisor2OrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_GetConvertFactor.Response}
@@ -2384,11 +2384,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 810: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (factor1_ != null) {
                 subBuilder = factor1_.toBuilder();
               }
-              factor1_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              factor1_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(factor1_);
                 factor1_ = subBuilder.buildPartial();
@@ -2397,11 +2397,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 818: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (factor2_ != null) {
                 subBuilder = factor2_.toBuilder();
               }
-              factor2_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              factor2_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(factor2_);
                 factor2_ = subBuilder.buildPartial();
@@ -2410,11 +2410,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 826: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (divisor1_ != null) {
                 subBuilder = divisor1_.toBuilder();
               }
-              divisor1_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              divisor1_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(divisor1_);
                 divisor1_ = subBuilder.buildPartial();
@@ -2423,11 +2423,11 @@ public final class MiGetConvertFactor {
               break;
             }
             case 834: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (divisor2_ != null) {
                 subBuilder = divisor2_.toBuilder();
               }
-              divisor2_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              divisor2_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(divisor2_);
                 divisor2_ = subBuilder.buildPartial();
@@ -3003,86 +3003,86 @@ public final class MiGetConvertFactor {
     }
 
     public static final int FACTOR1_FIELD_NUMBER = 101;
-    private io.dstore.Values.decimalValue factor1_;
+    private io.dstore.values.DecimalValue factor1_;
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
      */
     public boolean hasFactor1() {
       return factor1_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
      */
-    public io.dstore.Values.decimalValue getFactor1() {
-      return factor1_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : factor1_;
+    public io.dstore.values.DecimalValue getFactor1() {
+      return factor1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : factor1_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+     * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getFactor1OrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getFactor1OrBuilder() {
       return getFactor1();
     }
 
     public static final int FACTOR2_FIELD_NUMBER = 102;
-    private io.dstore.Values.decimalValue factor2_;
+    private io.dstore.values.DecimalValue factor2_;
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
      */
     public boolean hasFactor2() {
       return factor2_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
      */
-    public io.dstore.Values.decimalValue getFactor2() {
-      return factor2_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : factor2_;
+    public io.dstore.values.DecimalValue getFactor2() {
+      return factor2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : factor2_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+     * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getFactor2OrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getFactor2OrBuilder() {
       return getFactor2();
     }
 
     public static final int DIVISOR1_FIELD_NUMBER = 103;
-    private io.dstore.Values.decimalValue divisor1_;
+    private io.dstore.values.DecimalValue divisor1_;
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
      */
     public boolean hasDivisor1() {
       return divisor1_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
      */
-    public io.dstore.Values.decimalValue getDivisor1() {
-      return divisor1_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : divisor1_;
+    public io.dstore.values.DecimalValue getDivisor1() {
+      return divisor1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : divisor1_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+     * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getDivisor1OrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getDivisor1OrBuilder() {
       return getDivisor1();
     }
 
     public static final int DIVISOR2_FIELD_NUMBER = 104;
-    private io.dstore.Values.decimalValue divisor2_;
+    private io.dstore.values.DecimalValue divisor2_;
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
      */
     public boolean hasDivisor2() {
       return divisor2_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
      */
-    public io.dstore.Values.decimalValue getDivisor2() {
-      return divisor2_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : divisor2_;
+    public io.dstore.values.DecimalValue getDivisor2() {
+      return divisor2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : divisor2_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+     * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getDivisor2OrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getDivisor2OrBuilder() {
       return getDivisor2();
     }
 
@@ -4347,29 +4347,29 @@ public final class MiGetConvertFactor {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.decimalValue factor1_ = null;
+      private io.dstore.values.DecimalValue factor1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> factor1Builder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> factor1Builder_;
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
        */
       public boolean hasFactor1() {
         return factor1Builder_ != null || factor1_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
        */
-      public io.dstore.Values.decimalValue getFactor1() {
+      public io.dstore.values.DecimalValue getFactor1() {
         if (factor1Builder_ == null) {
-          return factor1_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : factor1_;
+          return factor1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : factor1_;
         } else {
           return factor1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
        */
-      public Builder setFactor1(io.dstore.Values.decimalValue value) {
+      public Builder setFactor1(io.dstore.values.DecimalValue value) {
         if (factor1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4383,10 +4383,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
        */
       public Builder setFactor1(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (factor1Builder_ == null) {
           factor1_ = builderForValue.build();
           onChanged();
@@ -4397,13 +4397,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
        */
-      public Builder mergeFactor1(io.dstore.Values.decimalValue value) {
+      public Builder mergeFactor1(io.dstore.values.DecimalValue value) {
         if (factor1Builder_ == null) {
           if (factor1_ != null) {
             factor1_ =
-              io.dstore.Values.decimalValue.newBuilder(factor1_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(factor1_).mergeFrom(value).buildPartial();
           } else {
             factor1_ = value;
           }
@@ -4415,7 +4415,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
        */
       public Builder clearFactor1() {
         if (factor1Builder_ == null) {
@@ -4429,33 +4429,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getFactor1Builder() {
+      public io.dstore.values.DecimalValue.Builder getFactor1Builder() {
         
         onChanged();
         return getFactor1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getFactor1OrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getFactor1OrBuilder() {
         if (factor1Builder_ != null) {
           return factor1Builder_.getMessageOrBuilder();
         } else {
           return factor1_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : factor1_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : factor1_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor1 = 101;</code>
+       * <code>optional .dstore.values.DecimalValue factor1 = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getFactor1FieldBuilder() {
         if (factor1Builder_ == null) {
           factor1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getFactor1(),
                   getParentForChildren(),
                   isClean());
@@ -4464,29 +4464,29 @@ public final class MiGetConvertFactor {
         return factor1Builder_;
       }
 
-      private io.dstore.Values.decimalValue factor2_ = null;
+      private io.dstore.values.DecimalValue factor2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> factor2Builder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> factor2Builder_;
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
        */
       public boolean hasFactor2() {
         return factor2Builder_ != null || factor2_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
        */
-      public io.dstore.Values.decimalValue getFactor2() {
+      public io.dstore.values.DecimalValue getFactor2() {
         if (factor2Builder_ == null) {
-          return factor2_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : factor2_;
+          return factor2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : factor2_;
         } else {
           return factor2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
        */
-      public Builder setFactor2(io.dstore.Values.decimalValue value) {
+      public Builder setFactor2(io.dstore.values.DecimalValue value) {
         if (factor2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4500,10 +4500,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
        */
       public Builder setFactor2(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (factor2Builder_ == null) {
           factor2_ = builderForValue.build();
           onChanged();
@@ -4514,13 +4514,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
        */
-      public Builder mergeFactor2(io.dstore.Values.decimalValue value) {
+      public Builder mergeFactor2(io.dstore.values.DecimalValue value) {
         if (factor2Builder_ == null) {
           if (factor2_ != null) {
             factor2_ =
-              io.dstore.Values.decimalValue.newBuilder(factor2_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(factor2_).mergeFrom(value).buildPartial();
           } else {
             factor2_ = value;
           }
@@ -4532,7 +4532,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
        */
       public Builder clearFactor2() {
         if (factor2Builder_ == null) {
@@ -4546,33 +4546,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getFactor2Builder() {
+      public io.dstore.values.DecimalValue.Builder getFactor2Builder() {
         
         onChanged();
         return getFactor2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getFactor2OrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getFactor2OrBuilder() {
         if (factor2Builder_ != null) {
           return factor2Builder_.getMessageOrBuilder();
         } else {
           return factor2_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : factor2_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : factor2_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue factor2 = 102;</code>
+       * <code>optional .dstore.values.DecimalValue factor2 = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getFactor2FieldBuilder() {
         if (factor2Builder_ == null) {
           factor2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getFactor2(),
                   getParentForChildren(),
                   isClean());
@@ -4581,29 +4581,29 @@ public final class MiGetConvertFactor {
         return factor2Builder_;
       }
 
-      private io.dstore.Values.decimalValue divisor1_ = null;
+      private io.dstore.values.DecimalValue divisor1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> divisor1Builder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> divisor1Builder_;
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
        */
       public boolean hasDivisor1() {
         return divisor1Builder_ != null || divisor1_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
        */
-      public io.dstore.Values.decimalValue getDivisor1() {
+      public io.dstore.values.DecimalValue getDivisor1() {
         if (divisor1Builder_ == null) {
-          return divisor1_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : divisor1_;
+          return divisor1_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : divisor1_;
         } else {
           return divisor1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
        */
-      public Builder setDivisor1(io.dstore.Values.decimalValue value) {
+      public Builder setDivisor1(io.dstore.values.DecimalValue value) {
         if (divisor1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4617,10 +4617,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
        */
       public Builder setDivisor1(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (divisor1Builder_ == null) {
           divisor1_ = builderForValue.build();
           onChanged();
@@ -4631,13 +4631,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
        */
-      public Builder mergeDivisor1(io.dstore.Values.decimalValue value) {
+      public Builder mergeDivisor1(io.dstore.values.DecimalValue value) {
         if (divisor1Builder_ == null) {
           if (divisor1_ != null) {
             divisor1_ =
-              io.dstore.Values.decimalValue.newBuilder(divisor1_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(divisor1_).mergeFrom(value).buildPartial();
           } else {
             divisor1_ = value;
           }
@@ -4649,7 +4649,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
        */
       public Builder clearDivisor1() {
         if (divisor1Builder_ == null) {
@@ -4663,33 +4663,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getDivisor1Builder() {
+      public io.dstore.values.DecimalValue.Builder getDivisor1Builder() {
         
         onChanged();
         return getDivisor1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getDivisor1OrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getDivisor1OrBuilder() {
         if (divisor1Builder_ != null) {
           return divisor1Builder_.getMessageOrBuilder();
         } else {
           return divisor1_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : divisor1_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : divisor1_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor1 = 103;</code>
+       * <code>optional .dstore.values.DecimalValue divisor1 = 103;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getDivisor1FieldBuilder() {
         if (divisor1Builder_ == null) {
           divisor1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getDivisor1(),
                   getParentForChildren(),
                   isClean());
@@ -4698,29 +4698,29 @@ public final class MiGetConvertFactor {
         return divisor1Builder_;
       }
 
-      private io.dstore.Values.decimalValue divisor2_ = null;
+      private io.dstore.values.DecimalValue divisor2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> divisor2Builder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> divisor2Builder_;
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
        */
       public boolean hasDivisor2() {
         return divisor2Builder_ != null || divisor2_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
        */
-      public io.dstore.Values.decimalValue getDivisor2() {
+      public io.dstore.values.DecimalValue getDivisor2() {
         if (divisor2Builder_ == null) {
-          return divisor2_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : divisor2_;
+          return divisor2_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : divisor2_;
         } else {
           return divisor2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
        */
-      public Builder setDivisor2(io.dstore.Values.decimalValue value) {
+      public Builder setDivisor2(io.dstore.values.DecimalValue value) {
         if (divisor2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4734,10 +4734,10 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
        */
       public Builder setDivisor2(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (divisor2Builder_ == null) {
           divisor2_ = builderForValue.build();
           onChanged();
@@ -4748,13 +4748,13 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
        */
-      public Builder mergeDivisor2(io.dstore.Values.decimalValue value) {
+      public Builder mergeDivisor2(io.dstore.values.DecimalValue value) {
         if (divisor2Builder_ == null) {
           if (divisor2_ != null) {
             divisor2_ =
-              io.dstore.Values.decimalValue.newBuilder(divisor2_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(divisor2_).mergeFrom(value).buildPartial();
           } else {
             divisor2_ = value;
           }
@@ -4766,7 +4766,7 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
        */
       public Builder clearDivisor2() {
         if (divisor2Builder_ == null) {
@@ -4780,33 +4780,33 @@ public final class MiGetConvertFactor {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getDivisor2Builder() {
+      public io.dstore.values.DecimalValue.Builder getDivisor2Builder() {
         
         onChanged();
         return getDivisor2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getDivisor2OrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getDivisor2OrBuilder() {
         if (divisor2Builder_ != null) {
           return divisor2Builder_.getMessageOrBuilder();
         } else {
           return divisor2_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : divisor2_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : divisor2_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue divisor2 = 104;</code>
+       * <code>optional .dstore.values.DecimalValue divisor2 = 104;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getDivisor2FieldBuilder() {
         if (divisor2Builder_ == null) {
           divisor2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getDivisor2(),
                   getParentForChildren(),
                   isClean());
@@ -4891,27 +4891,27 @@ public final class MiGetConvertFactor {
       "Factor.proto\022!dstore.engine.mi_GetConver" +
       "tFactor\032\023dstore/values.proto\032\032dstore/eng" +
       "ine/engine.proto\"\377\003\n\nParameters\0221\n\014from_" +
-      "unit_id\030\001 \001(\0132\033.dstore.values.integerVal" +
+      "unit_id\030\001 \001(\0132\033.dstore.values.IntegerVal" +
       "ue\022\032\n\021from_unit_id_null\030\351\007 \001(\010\022/\n\nto_uni" +
-      "t_id\030\002 \001(\0132\033.dstore.values.integerValue\022" +
+      "t_id\030\002 \001(\0132\033.dstore.values.IntegerValue\022" +
       "\030\n\017to_unit_id_null\030\352\007 \001(\010\022,\n\007factor1\030\003 \001" +
-      "(\0132\033.dstore.values.decimalValue\022\025\n\014facto" +
+      "(\0132\033.dstore.values.DecimalValue\022\025\n\014facto" +
       "r1_null\030\353\007 \001(\010\022,\n\007factor2\030\004 \001(\0132\033.dstore",
-      ".values.decimalValue\022\025\n\014factor2_null\030\354\007 " +
-      "\001(\010\022-\n\010divisor1\030\005 \001(\0132\033.dstore.values.de" +
+      ".values.DecimalValue\022\025\n\014factor2_null\030\354\007 " +
+      "\001(\010\022-\n\010divisor1\030\005 \001(\0132\033.dstore.values.De" +
       "cimalValue\022\026\n\rdivisor1_null\030\355\007 \001(\010\022-\n\010di" +
-      "visor2\030\006 \001(\0132\033.dstore.values.decimalValu" +
+      "visor2\030\006 \001(\0132\033.dstore.values.DecimalValu" +
       "e\022\026\n\rdivisor2_null\030\356\007 \001(\010\022+\n\004date\030\007 \001(\0132" +
-      "\035.dstore.values.timestampValue\022\022\n\tdate_n" +
+      "\035.dstore.values.TimestampValue\022\022\n\tdate_n" +
       "ull\030\357\007 \001(\010\"\375\002\n\010Response\0228\n\020meta_informat" +
       "ion\030\002 \003(\0132\036.dstore.engine.MetaInformatio" +
       "n\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Messa" +
       "ge\022<\n\003row\030\004 \003(\0132/.dstore.engine.mi_GetCo",
       "nvertFactor.Response.Row\022,\n\007factor1\030e \001(" +
-      "\0132\033.dstore.values.decimalValue\022,\n\007factor" +
-      "2\030f \001(\0132\033.dstore.values.decimalValue\022-\n\010" +
-      "divisor1\030g \001(\0132\033.dstore.values.decimalVa" +
-      "lue\022-\n\010divisor2\030h \001(\0132\033.dstore.values.de" +
+      "\0132\033.dstore.values.DecimalValue\022,\n\007factor" +
+      "2\030f \001(\0132\033.dstore.values.DecimalValue\022-\n\010" +
+      "divisor1\030g \001(\0132\033.dstore.values.DecimalVa" +
+      "lue\022-\n\010divisor2\030h \001(\0132\033.dstore.values.De" +
       "cimalValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005BT\n\033io" +
       ".dstore.engine.proceduresZ5gosdk.dstore." +
       "de/engine/procedures/mi_GetConvertFactor" +
@@ -4928,7 +4928,7 @@ public final class MiGetConvertFactor {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetConvertFactor_Parameters_descriptor =
@@ -4949,7 +4949,7 @@ public final class MiGetConvertFactor {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetConvertFactor_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

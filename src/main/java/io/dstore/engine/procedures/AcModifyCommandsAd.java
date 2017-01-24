@@ -19,17 +19,17 @@ public final class AcModifyCommandsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
     boolean hasCommandId();
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommandId();
+    io.dstore.values.IntegerValue getCommandId();
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder();
 
     /**
      * <code>optional bool command_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class AcModifyCommandsAd {
     boolean getCommandIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue command = 2;</code>
+     * <code>optional .dstore.values.StringValue command = 2;</code>
      */
     boolean hasCommand();
     /**
-     * <code>optional .dstore.values.stringValue command = 2;</code>
+     * <code>optional .dstore.values.StringValue command = 2;</code>
      */
-    io.dstore.Values.stringValue getCommand();
+    io.dstore.values.StringValue getCommand();
     /**
-     * <code>optional .dstore.values.stringValue command = 2;</code>
+     * <code>optional .dstore.values.StringValue command = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCommandOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCommandOrBuilder();
 
     /**
      * <code>optional bool command_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class AcModifyCommandsAd {
     boolean getCommandNull();
 
     /**
-     * <code>optional .dstore.values.stringValue command_description = 3;</code>
+     * <code>optional .dstore.values.StringValue command_description = 3;</code>
      */
     boolean hasCommandDescription();
     /**
-     * <code>optional .dstore.values.stringValue command_description = 3;</code>
+     * <code>optional .dstore.values.StringValue command_description = 3;</code>
      */
-    io.dstore.Values.stringValue getCommandDescription();
+    io.dstore.values.StringValue getCommandDescription();
     /**
-     * <code>optional .dstore.values.stringValue command_description = 3;</code>
+     * <code>optional .dstore.values.StringValue command_description = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCommandDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCommandDescriptionOrBuilder();
 
     /**
      * <code>optional bool command_description_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class AcModifyCommandsAd {
     boolean getCommandDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
      */
     boolean hasDeleteCommand();
     /**
-     * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
      */
-    io.dstore.Values.booleanValue getDeleteCommand();
+    io.dstore.values.BooleanValue getDeleteCommand();
     /**
-     * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteCommandOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteCommandOrBuilder();
 
     /**
      * <code>optional bool delete_command_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class AcModifyCommandsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (commandId_ != null) {
                 subBuilder = commandId_.toBuilder();
               }
-              commandId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              commandId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(commandId_);
                 commandId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class AcModifyCommandsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (command_ != null) {
                 subBuilder = command_.toBuilder();
               }
-              command_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              command_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(command_);
                 command_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class AcModifyCommandsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (commandDescription_ != null) {
                 subBuilder = commandDescription_.toBuilder();
               }
-              commandDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              commandDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(commandDescription_);
                 commandDescription_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class AcModifyCommandsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteCommand_ != null) {
                 subBuilder = deleteCommand_.toBuilder();
               }
-              deleteCommand_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteCommand_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteCommand_);
                 deleteCommand_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class AcModifyCommandsAd {
     }
 
     public static final int COMMAND_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue commandId_;
+    private io.dstore.values.IntegerValue commandId_;
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
     public boolean hasCommandId() {
       return commandId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommandId() {
-      return commandId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+    public io.dstore.values.IntegerValue getCommandId() {
+      return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
       return getCommandId();
     }
 
@@ -259,23 +259,23 @@ public final class AcModifyCommandsAd {
     }
 
     public static final int COMMAND_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue command_;
+    private io.dstore.values.StringValue command_;
     /**
-     * <code>optional .dstore.values.stringValue command = 2;</code>
+     * <code>optional .dstore.values.StringValue command = 2;</code>
      */
     public boolean hasCommand() {
       return command_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue command = 2;</code>
+     * <code>optional .dstore.values.StringValue command = 2;</code>
      */
-    public io.dstore.Values.stringValue getCommand() {
-      return command_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : command_;
+    public io.dstore.values.StringValue getCommand() {
+      return command_ == null ? io.dstore.values.StringValue.getDefaultInstance() : command_;
     }
     /**
-     * <code>optional .dstore.values.stringValue command = 2;</code>
+     * <code>optional .dstore.values.StringValue command = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCommandOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCommandOrBuilder() {
       return getCommand();
     }
 
@@ -289,23 +289,23 @@ public final class AcModifyCommandsAd {
     }
 
     public static final int COMMAND_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue commandDescription_;
+    private io.dstore.values.StringValue commandDescription_;
     /**
-     * <code>optional .dstore.values.stringValue command_description = 3;</code>
+     * <code>optional .dstore.values.StringValue command_description = 3;</code>
      */
     public boolean hasCommandDescription() {
       return commandDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue command_description = 3;</code>
+     * <code>optional .dstore.values.StringValue command_description = 3;</code>
      */
-    public io.dstore.Values.stringValue getCommandDescription() {
-      return commandDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : commandDescription_;
+    public io.dstore.values.StringValue getCommandDescription() {
+      return commandDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : commandDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue command_description = 3;</code>
+     * <code>optional .dstore.values.StringValue command_description = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCommandDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCommandDescriptionOrBuilder() {
       return getCommandDescription();
     }
 
@@ -319,23 +319,23 @@ public final class AcModifyCommandsAd {
     }
 
     public static final int DELETE_COMMAND_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue deleteCommand_;
+    private io.dstore.values.BooleanValue deleteCommand_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
      */
     public boolean hasDeleteCommand() {
       return deleteCommand_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteCommand() {
-      return deleteCommand_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCommand_;
+    public io.dstore.values.BooleanValue getDeleteCommand() {
+      return deleteCommand_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCommand_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteCommandOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteCommandOrBuilder() {
       return getDeleteCommand();
     }
 
@@ -792,29 +792,29 @@ public final class AcModifyCommandsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue commandId_ = null;
+      private io.dstore.values.IntegerValue commandId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> commandIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> commandIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       public boolean hasCommandId() {
         return commandIdBuilder_ != null || commandId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommandId() {
+      public io.dstore.values.IntegerValue getCommandId() {
         if (commandIdBuilder_ == null) {
-          return commandId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+          return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
         } else {
           return commandIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public Builder setCommandId(io.dstore.Values.integerValue value) {
+      public Builder setCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder setCommandId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (commandIdBuilder_ == null) {
           commandId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public Builder mergeCommandId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
           if (commandId_ != null) {
             commandId_ =
-              io.dstore.Values.integerValue.newBuilder(commandId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(commandId_).mergeFrom(value).buildPartial();
           } else {
             commandId_ = value;
           }
@@ -860,7 +860,7 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder clearCommandId() {
         if (commandIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommandIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommandIdBuilder() {
         
         onChanged();
         return getCommandIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
         if (commandIdBuilder_ != null) {
           return commandIdBuilder_.getMessageOrBuilder();
         } else {
           return commandId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommandIdFieldBuilder() {
         if (commandIdBuilder_ == null) {
           commandIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommandId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class AcModifyCommandsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue command_ = null;
+      private io.dstore.values.StringValue command_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> commandBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> commandBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue command = 2;</code>
+       * <code>optional .dstore.values.StringValue command = 2;</code>
        */
       public boolean hasCommand() {
         return commandBuilder_ != null || command_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue command = 2;</code>
+       * <code>optional .dstore.values.StringValue command = 2;</code>
        */
-      public io.dstore.Values.stringValue getCommand() {
+      public io.dstore.values.StringValue getCommand() {
         if (commandBuilder_ == null) {
-          return command_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : command_;
+          return command_ == null ? io.dstore.values.StringValue.getDefaultInstance() : command_;
         } else {
           return commandBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue command = 2;</code>
+       * <code>optional .dstore.values.StringValue command = 2;</code>
        */
-      public Builder setCommand(io.dstore.Values.stringValue value) {
+      public Builder setCommand(io.dstore.values.StringValue value) {
         if (commandBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue command = 2;</code>
+       * <code>optional .dstore.values.StringValue command = 2;</code>
        */
       public Builder setCommand(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (commandBuilder_ == null) {
           command_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue command = 2;</code>
+       * <code>optional .dstore.values.StringValue command = 2;</code>
        */
-      public Builder mergeCommand(io.dstore.Values.stringValue value) {
+      public Builder mergeCommand(io.dstore.values.StringValue value) {
         if (commandBuilder_ == null) {
           if (command_ != null) {
             command_ =
-              io.dstore.Values.stringValue.newBuilder(command_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(command_).mergeFrom(value).buildPartial();
           } else {
             command_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue command = 2;</code>
+       * <code>optional .dstore.values.StringValue command = 2;</code>
        */
       public Builder clearCommand() {
         if (commandBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue command = 2;</code>
+       * <code>optional .dstore.values.StringValue command = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCommandBuilder() {
+      public io.dstore.values.StringValue.Builder getCommandBuilder() {
         
         onChanged();
         return getCommandFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue command = 2;</code>
+       * <code>optional .dstore.values.StringValue command = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCommandOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCommandOrBuilder() {
         if (commandBuilder_ != null) {
           return commandBuilder_.getMessageOrBuilder();
         } else {
           return command_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : command_;
+              io.dstore.values.StringValue.getDefaultInstance() : command_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue command = 2;</code>
+       * <code>optional .dstore.values.StringValue command = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCommandFieldBuilder() {
         if (commandBuilder_ == null) {
           commandBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCommand(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class AcModifyCommandsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue commandDescription_ = null;
+      private io.dstore.values.StringValue commandDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> commandDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> commandDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue command_description = 3;</code>
+       * <code>optional .dstore.values.StringValue command_description = 3;</code>
        */
       public boolean hasCommandDescription() {
         return commandDescriptionBuilder_ != null || commandDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue command_description = 3;</code>
+       * <code>optional .dstore.values.StringValue command_description = 3;</code>
        */
-      public io.dstore.Values.stringValue getCommandDescription() {
+      public io.dstore.values.StringValue getCommandDescription() {
         if (commandDescriptionBuilder_ == null) {
-          return commandDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : commandDescription_;
+          return commandDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : commandDescription_;
         } else {
           return commandDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue command_description = 3;</code>
+       * <code>optional .dstore.values.StringValue command_description = 3;</code>
        */
-      public Builder setCommandDescription(io.dstore.Values.stringValue value) {
+      public Builder setCommandDescription(io.dstore.values.StringValue value) {
         if (commandDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue command_description = 3;</code>
+       * <code>optional .dstore.values.StringValue command_description = 3;</code>
        */
       public Builder setCommandDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (commandDescriptionBuilder_ == null) {
           commandDescription_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue command_description = 3;</code>
+       * <code>optional .dstore.values.StringValue command_description = 3;</code>
        */
-      public Builder mergeCommandDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeCommandDescription(io.dstore.values.StringValue value) {
         if (commandDescriptionBuilder_ == null) {
           if (commandDescription_ != null) {
             commandDescription_ =
-              io.dstore.Values.stringValue.newBuilder(commandDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(commandDescription_).mergeFrom(value).buildPartial();
           } else {
             commandDescription_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue command_description = 3;</code>
+       * <code>optional .dstore.values.StringValue command_description = 3;</code>
        */
       public Builder clearCommandDescription() {
         if (commandDescriptionBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue command_description = 3;</code>
+       * <code>optional .dstore.values.StringValue command_description = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCommandDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getCommandDescriptionBuilder() {
         
         onChanged();
         return getCommandDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue command_description = 3;</code>
+       * <code>optional .dstore.values.StringValue command_description = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCommandDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCommandDescriptionOrBuilder() {
         if (commandDescriptionBuilder_ != null) {
           return commandDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return commandDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : commandDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : commandDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue command_description = 3;</code>
+       * <code>optional .dstore.values.StringValue command_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCommandDescriptionFieldBuilder() {
         if (commandDescriptionBuilder_ == null) {
           commandDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCommandDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class AcModifyCommandsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteCommand_ = null;
+      private io.dstore.values.BooleanValue deleteCommand_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteCommandBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteCommandBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
        */
       public boolean hasDeleteCommand() {
         return deleteCommandBuilder_ != null || deleteCommand_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteCommand() {
+      public io.dstore.values.BooleanValue getDeleteCommand() {
         if (deleteCommandBuilder_ == null) {
-          return deleteCommand_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCommand_;
+          return deleteCommand_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCommand_;
         } else {
           return deleteCommandBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
        */
-      public Builder setDeleteCommand(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteCommand(io.dstore.values.BooleanValue value) {
         if (deleteCommandBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
        */
       public Builder setDeleteCommand(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteCommandBuilder_ == null) {
           deleteCommand_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
        */
-      public Builder mergeDeleteCommand(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteCommand(io.dstore.values.BooleanValue value) {
         if (deleteCommandBuilder_ == null) {
           if (deleteCommand_ != null) {
             deleteCommand_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteCommand_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteCommand_).mergeFrom(value).buildPartial();
           } else {
             deleteCommand_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
        */
       public Builder clearDeleteCommand() {
         if (deleteCommandBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class AcModifyCommandsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteCommandBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteCommandBuilder() {
         
         onChanged();
         return getDeleteCommandFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteCommandOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteCommandOrBuilder() {
         if (deleteCommandBuilder_ != null) {
           return deleteCommandBuilder_.getMessageOrBuilder();
         } else {
           return deleteCommand_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteCommand_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteCommand_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_command = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_command = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteCommandFieldBuilder() {
         if (deleteCommandBuilder_ == null) {
           deleteCommandBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteCommand(),
                   getParentForChildren(),
                   isClean());
@@ -3450,13 +3450,13 @@ public final class AcModifyCommandsAd {
       "ands_Ad.proto\022\"dstore.engine.ac_ModifyCo" +
       "mmands_Ad\032\023dstore/values.proto\032\032dstore/e" +
       "ngine/engine.proto\"\312\002\n\nParameters\022/\n\ncom" +
-      "mand_id\030\001 \001(\0132\033.dstore.values.integerVal" +
+      "mand_id\030\001 \001(\0132\033.dstore.values.IntegerVal" +
       "ue\022\030\n\017command_id_null\030\351\007 \001(\010\022+\n\007command\030" +
-      "\002 \001(\0132\032.dstore.values.stringValue\022\025\n\014com" +
+      "\002 \001(\0132\032.dstore.values.StringValue\022\025\n\014com" +
       "mand_null\030\352\007 \001(\010\0227\n\023command_description\030" +
-      "\003 \001(\0132\032.dstore.values.stringValue\022!\n\030com" +
+      "\003 \001(\0132\032.dstore.values.StringValue\022!\n\030com" +
       "mand_description_null\030\353\007 \001(\010\0223\n\016delete_c",
-      "ommand\030\004 \001(\0132\033.dstore.values.booleanValu" +
+      "ommand\030\004 \001(\0132\033.dstore.values.BooleanValu" +
       "e\022\034\n\023delete_command_null\030\354\007 \001(\010\"\304\001\n\010Resp" +
       "onse\0228\n\020meta_information\030\002 \003(\0132\036.dstore." +
       "engine.MetaInformation\022\'\n\007message\030\003 \003(\0132" +
@@ -3478,7 +3478,7 @@ public final class AcModifyCommandsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_ac_ModifyCommands_Ad_Parameters_descriptor =
@@ -3499,7 +3499,7 @@ public final class AcModifyCommandsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_ac_ModifyCommands_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

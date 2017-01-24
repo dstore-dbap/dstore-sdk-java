@@ -19,17 +19,17 @@ public final class PmGetPossibleDuplicatesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetPossibleDuplicatesAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
      */
     boolean hasOutputCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValue getOutputCharacteristicId();
+    io.dstore.values.IntegerValue getOutputCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOutputCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOutputCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool output_characteristic_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmGetPossibleDuplicatesAd {
     boolean getOutputCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue row_count = 3;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
      */
     boolean hasRowCount();
     /**
-     * <code>optional .dstore.values.integerValue row_count = 3;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
      */
-    io.dstore.Values.integerValue getRowCount();
+    io.dstore.values.IntegerValue getRowCount();
     /**
-     * <code>optional .dstore.values.integerValue row_count = 3;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder();
 
     /**
      * <code>optional bool row_count_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class PmGetPossibleDuplicatesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class PmGetPossibleDuplicatesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (outputCharacteristicId_ != null) {
                 subBuilder = outputCharacteristicId_.toBuilder();
               }
-              outputCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              outputCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId_);
                 outputCharacteristicId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class PmGetPossibleDuplicatesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (rowCount_ != null) {
                 subBuilder = rowCount_.toBuilder();
               }
-              rowCount_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              rowCount_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowCount_);
                 rowCount_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class PmGetPossibleDuplicatesAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -222,23 +222,23 @@ public final class PmGetPossibleDuplicatesAd {
     }
 
     public static final int OUTPUT_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue outputCharacteristicId_;
+    private io.dstore.values.IntegerValue outputCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
      */
     public boolean hasOutputCharacteristicId() {
       return outputCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getOutputCharacteristicId() {
-      return outputCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId_;
+    public io.dstore.values.IntegerValue getOutputCharacteristicId() {
+      return outputCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOutputCharacteristicIdOrBuilder() {
       return getOutputCharacteristicId();
     }
 
@@ -252,23 +252,23 @@ public final class PmGetPossibleDuplicatesAd {
     }
 
     public static final int ROW_COUNT_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue rowCount_;
+    private io.dstore.values.IntegerValue rowCount_;
     /**
-     * <code>optional .dstore.values.integerValue row_count = 3;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
      */
     public boolean hasRowCount() {
       return rowCount_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue row_count = 3;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
      */
-    public io.dstore.Values.integerValue getRowCount() {
-      return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
+    public io.dstore.values.IntegerValue getRowCount() {
+      return rowCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowCount_;
     }
     /**
-     * <code>optional .dstore.values.integerValue row_count = 3;</code>
+     * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
       return getRowCount();
     }
 
@@ -677,29 +677,29 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -745,7 +745,7 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue outputCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue outputCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> outputCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> outputCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
        */
       public boolean hasOutputCharacteristicId() {
         return outputCharacteristicIdBuilder_ != null || outputCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getOutputCharacteristicId() {
+      public io.dstore.values.IntegerValue getOutputCharacteristicId() {
         if (outputCharacteristicIdBuilder_ == null) {
-          return outputCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId_;
+          return outputCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : outputCharacteristicId_;
         } else {
           return outputCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
        */
-      public Builder setOutputCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setOutputCharacteristicId(io.dstore.values.IntegerValue value) {
         if (outputCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
        */
       public Builder setOutputCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (outputCharacteristicIdBuilder_ == null) {
           outputCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
        */
-      public Builder mergeOutputCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeOutputCharacteristicId(io.dstore.values.IntegerValue value) {
         if (outputCharacteristicIdBuilder_ == null) {
           if (outputCharacteristicId_ != null) {
             outputCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(outputCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(outputCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             outputCharacteristicId_ = value;
           }
@@ -888,7 +888,7 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
        */
       public Builder clearOutputCharacteristicId() {
         if (outputCharacteristicIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOutputCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getOutputCharacteristicIdBuilder() {
         
         onChanged();
         return getOutputCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOutputCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOutputCharacteristicIdOrBuilder() {
         if (outputCharacteristicIdBuilder_ != null) {
           return outputCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return outputCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : outputCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : outputCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue output_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue output_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOutputCharacteristicIdFieldBuilder() {
         if (outputCharacteristicIdBuilder_ == null) {
           outputCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOutputCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue rowCount_ = null;
+      private io.dstore.values.IntegerValue rowCount_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowCountBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> rowCountBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue row_count = 3;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
        */
       public boolean hasRowCount() {
         return rowCountBuilder_ != null || rowCount_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 3;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
        */
-      public io.dstore.Values.integerValue getRowCount() {
+      public io.dstore.values.IntegerValue getRowCount() {
         if (rowCountBuilder_ == null) {
-          return rowCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
+          return rowCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowCount_;
         } else {
           return rowCountBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 3;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
        */
-      public Builder setRowCount(io.dstore.Values.integerValue value) {
+      public Builder setRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 3;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
        */
       public Builder setRowCount(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (rowCountBuilder_ == null) {
           rowCount_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 3;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
        */
-      public Builder mergeRowCount(io.dstore.Values.integerValue value) {
+      public Builder mergeRowCount(io.dstore.values.IntegerValue value) {
         if (rowCountBuilder_ == null) {
           if (rowCount_ != null) {
             rowCount_ =
-              io.dstore.Values.integerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(rowCount_).mergeFrom(value).buildPartial();
           } else {
             rowCount_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 3;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
        */
       public Builder clearRowCount() {
         if (rowCountBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class PmGetPossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 3;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRowCountBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRowCountBuilder() {
         
         onChanged();
         return getRowCountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 3;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRowCountOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRowCountOrBuilder() {
         if (rowCountBuilder_ != null) {
           return rowCountBuilder_.getMessageOrBuilder();
         } else {
           return rowCount_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : rowCount_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : rowCount_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue row_count = 3;</code>
+       * <code>optional .dstore.values.IntegerValue row_count = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRowCountFieldBuilder() {
         if (rowCountBuilder_ == null) {
           rowCountBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRowCount(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class PmGetPossibleDuplicatesAd {
        * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
       boolean hasPersonId();
       /**
@@ -1373,24 +1373,24 @@ public final class PmGetPossibleDuplicatesAd {
        * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getPersonId();
+      io.dstore.values.IntegerValue getPersonId();
       /**
        * <pre>
        * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -1398,17 +1398,17 @@ public final class PmGetPossibleDuplicatesAd {
        * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetPossibleDuplicates_Ad.Response.Row}
@@ -1456,11 +1456,11 @@ public final class PmGetPossibleDuplicatesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -1469,11 +1469,11 @@ public final class PmGetPossibleDuplicatesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1514,13 +1514,13 @@ public final class PmGetPossibleDuplicatesAd {
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue personId_;
+      private io.dstore.values.IntegerValue personId_;
       /**
        * <pre>
        * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -1530,30 +1530,30 @@ public final class PmGetPossibleDuplicatesAd {
        * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.values.IntegerValue getPersonId() {
+        return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
       }
       /**
        * <pre>
        * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1563,19 +1563,19 @@ public final class PmGetPossibleDuplicatesAd {
        * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
@@ -1934,15 +1934,15 @@ public final class PmGetPossibleDuplicatesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue personId_ = null;
+        private io.dstore.values.IntegerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
          * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -1952,11 +1952,11 @@ public final class PmGetPossibleDuplicatesAd {
          * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getPersonId() {
+        public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
@@ -1966,9 +1966,9 @@ public final class PmGetPossibleDuplicatesAd {
          * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public Builder setPersonId(io.dstore.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1986,10 +1986,10 @@ public final class PmGetPossibleDuplicatesAd {
          * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
         public Builder setPersonId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -2004,13 +2004,13 @@ public final class PmGetPossibleDuplicatesAd {
          * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public Builder mergePersonId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -2026,7 +2026,7 @@ public final class PmGetPossibleDuplicatesAd {
          * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -2044,9 +2044,9 @@ public final class PmGetPossibleDuplicatesAd {
          * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
@@ -2056,14 +2056,14 @@ public final class PmGetPossibleDuplicatesAd {
          * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           }
         }
         /**
@@ -2071,14 +2071,14 @@ public final class PmGetPossibleDuplicatesAd {
          * ID einer Person, die eine mögliche Dublette zur "&#64;PersonID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -2087,15 +2087,15 @@ public final class PmGetPossibleDuplicatesAd {
           return personIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2105,11 +2105,11 @@ public final class PmGetPossibleDuplicatesAd {
          * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -2119,9 +2119,9 @@ public final class PmGetPossibleDuplicatesAd {
          * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2139,10 +2139,10 @@ public final class PmGetPossibleDuplicatesAd {
          * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2157,13 +2157,13 @@ public final class PmGetPossibleDuplicatesAd {
          * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2179,7 +2179,7 @@ public final class PmGetPossibleDuplicatesAd {
          * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2197,9 +2197,9 @@ public final class PmGetPossibleDuplicatesAd {
          * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -2209,14 +2209,14 @@ public final class PmGetPossibleDuplicatesAd {
          * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -2224,14 +2224,14 @@ public final class PmGetPossibleDuplicatesAd {
          * Eigenschaft von "PersonID" zum Merkmal "&#64;OutputCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -3701,19 +3701,19 @@ public final class PmGetPossibleDuplicatesAd {
       "etPossibleDuplicates_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\205\002\n\nPar" +
       "ameters\022.\n\tperson_id\030\001 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\027\n\016person_id_null\030\351\007 \001(\010" +
+      "es.IntegerValue\022\027\n\016person_id_null\030\351\007 \001(\010" +
       "\022=\n\030output_characteristic_id\030\002 \001(\0132\033.dst" +
-      "ore.values.integerValue\022&\n\035output_charac" +
+      "ore.values.IntegerValue\022&\n\035output_charac" +
       "teristic_id_null\030\352\007 \001(\010\022.\n\trow_count\030\003 \001" +
-      "(\0132\033.dstore.values.integerValue\022\027\n\016row_c",
+      "(\0132\033.dstore.values.IntegerValue\022\027\n\016row_c",
       "ount_null\030\353\007 \001(\010\"\250\002\n\010Response\0228\n\020meta_in" +
       "formation\030\002 \003(\0132\036.dstore.engine.MetaInfo" +
       "rmation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine" +
       ".Message\022D\n\003row\030\004 \003(\01327.dstore.engine.pm" +
       "_GetPossibleDuplicates_Ad.Response.Row\032s" +
       "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022/\n\tperson_id\030\221N \001" +
-      "(\0132\033.dstore.values.integerValue\022*\n\005value" +
-      "\030\222N \001(\0132\032.dstore.values.stringValueB\\\n\033i" +
+      "(\0132\033.dstore.values.IntegerValue\022*\n\005value" +
+      "\030\222N \001(\0132\032.dstore.values.StringValueB\\\n\033i" +
       "o.dstore.engine.proceduresZ=gosdk.dstore" +
       ".de/engine/procedures/pm_GetPossibleDupl",
       "icates_Adb\006proto3"
@@ -3729,7 +3729,7 @@ public final class PmGetPossibleDuplicatesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetPossibleDuplicates_Ad_Parameters_descriptor =
@@ -3750,7 +3750,7 @@ public final class PmGetPossibleDuplicatesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPossibleDuplicates_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PersonId", "Value", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

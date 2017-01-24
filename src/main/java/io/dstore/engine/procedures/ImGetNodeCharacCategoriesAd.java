@@ -19,17 +19,17 @@ public final class ImGetNodeCharacCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
      */
     boolean hasPredecessorCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPredecessorCategoryId();
+    io.dstore.values.IntegerValue getPredecessorCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPredecessorCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPredecessorCategoryIdOrBuilder();
 
     /**
      * <code>optional bool predecessor_category_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class ImGetNodeCharacCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (predecessorCategoryId_ != null) {
                 subBuilder = predecessorCategoryId_.toBuilder();
               }
-              predecessorCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              predecessorCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(predecessorCategoryId_);
                 predecessorCategoryId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class ImGetNodeCharacCategoriesAd {
     }
 
     public static final int PREDECESSOR_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue predecessorCategoryId_;
+    private io.dstore.values.IntegerValue predecessorCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
      */
     public boolean hasPredecessorCategoryId() {
       return predecessorCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPredecessorCategoryId() {
-      return predecessorCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorCategoryId_;
+    public io.dstore.values.IntegerValue getPredecessorCategoryId() {
+      return predecessorCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessorCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPredecessorCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPredecessorCategoryIdOrBuilder() {
       return getPredecessorCategoryId();
     }
 
@@ -447,29 +447,29 @@ public final class ImGetNodeCharacCategoriesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue predecessorCategoryId_ = null;
+      private io.dstore.values.IntegerValue predecessorCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> predecessorCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
        */
       public boolean hasPredecessorCategoryId() {
         return predecessorCategoryIdBuilder_ != null || predecessorCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPredecessorCategoryId() {
+      public io.dstore.values.IntegerValue getPredecessorCategoryId() {
         if (predecessorCategoryIdBuilder_ == null) {
-          return predecessorCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorCategoryId_;
+          return predecessorCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessorCategoryId_;
         } else {
           return predecessorCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
        */
-      public Builder setPredecessorCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setPredecessorCategoryId(io.dstore.values.IntegerValue value) {
         if (predecessorCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class ImGetNodeCharacCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
        */
       public Builder setPredecessorCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (predecessorCategoryIdBuilder_ == null) {
           predecessorCategoryId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class ImGetNodeCharacCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
        */
-      public Builder mergePredecessorCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergePredecessorCategoryId(io.dstore.values.IntegerValue value) {
         if (predecessorCategoryIdBuilder_ == null) {
           if (predecessorCategoryId_ != null) {
             predecessorCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(predecessorCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(predecessorCategoryId_).mergeFrom(value).buildPartial();
           } else {
             predecessorCategoryId_ = value;
           }
@@ -515,7 +515,7 @@ public final class ImGetNodeCharacCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
        */
       public Builder clearPredecessorCategoryId() {
         if (predecessorCategoryIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class ImGetNodeCharacCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPredecessorCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPredecessorCategoryIdBuilder() {
         
         onChanged();
         return getPredecessorCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPredecessorCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPredecessorCategoryIdOrBuilder() {
         if (predecessorCategoryIdBuilder_ != null) {
           return predecessorCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return predecessorCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : predecessorCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : predecessorCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPredecessorCategoryIdFieldBuilder() {
         if (predecessorCategoryIdBuilder_ == null) {
           predecessorCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPredecessorCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class ImGetNodeCharacCategoriesAd {
        * Bezeichnung der Kategorie "NodeCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10001;</code>
        */
       boolean hasCategoryDescription();
       /**
@@ -857,24 +857,24 @@ public final class ImGetNodeCharacCategoriesAd {
        * Bezeichnung der Kategorie "NodeCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10001;</code>
        */
-      io.dstore.Values.stringValue getCategoryDescription();
+      io.dstore.values.StringValue getCategoryDescription();
       /**
        * <pre>
        * Bezeichnung der Kategorie "NodeCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder();
 
       /**
        * <pre>
        * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
        */
       boolean hasContainsCategoriesOrCharacs();
       /**
@@ -882,24 +882,24 @@ public final class ImGetNodeCharacCategoriesAd {
        * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
        */
-      io.dstore.Values.integerValue getContainsCategoriesOrCharacs();
+      io.dstore.values.IntegerValue getContainsCategoriesOrCharacs();
       /**
        * <pre>
        * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getContainsCategoriesOrCharacsOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getContainsCategoriesOrCharacsOrBuilder();
 
       /**
        * <pre>
        * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
        */
       boolean hasSortNo();
       /**
@@ -907,24 +907,24 @@ public final class ImGetNodeCharacCategoriesAd {
        * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
        */
-      io.dstore.Values.integerValue getSortNo();
+      io.dstore.values.IntegerValue getSortNo();
       /**
        * <pre>
        * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
       /**
        * <pre>
        * ID einer Kategorie für Artikel-Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
        */
       boolean hasNodeCharacCategoryId();
       /**
@@ -932,17 +932,17 @@ public final class ImGetNodeCharacCategoriesAd {
        * ID einer Kategorie für Artikel-Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
        */
-      io.dstore.Values.integerValue getNodeCharacCategoryId();
+      io.dstore.values.IntegerValue getNodeCharacCategoryId();
       /**
        * <pre>
        * ID einer Kategorie für Artikel-Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeCharacCategoryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeCharacCategoryIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetNodeCharacCategories_Ad.Response.Row}
@@ -990,11 +990,11 @@ public final class ImGetNodeCharacCategoriesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (categoryDescription_ != null) {
                   subBuilder = categoryDescription_.toBuilder();
                 }
-                categoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                categoryDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(categoryDescription_);
                   categoryDescription_ = subBuilder.buildPartial();
@@ -1003,11 +1003,11 @@ public final class ImGetNodeCharacCategoriesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (containsCategoriesOrCharacs_ != null) {
                   subBuilder = containsCategoriesOrCharacs_.toBuilder();
                 }
-                containsCategoriesOrCharacs_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                containsCategoriesOrCharacs_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(containsCategoriesOrCharacs_);
                   containsCategoriesOrCharacs_ = subBuilder.buildPartial();
@@ -1016,11 +1016,11 @@ public final class ImGetNodeCharacCategoriesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1029,11 +1029,11 @@ public final class ImGetNodeCharacCategoriesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeCharacCategoryId_ != null) {
                   subBuilder = nodeCharacCategoryId_.toBuilder();
                 }
-                nodeCharacCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacCategoryId_);
                   nodeCharacCategoryId_ = subBuilder.buildPartial();
@@ -1074,13 +1074,13 @@ public final class ImGetNodeCharacCategoriesAd {
       }
 
       public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue categoryDescription_;
+      private io.dstore.values.StringValue categoryDescription_;
       /**
        * <pre>
        * Bezeichnung der Kategorie "NodeCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10001;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescription_ != null;
@@ -1090,30 +1090,30 @@ public final class ImGetNodeCharacCategoriesAd {
        * Bezeichnung der Kategorie "NodeCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getCategoryDescription() {
-        return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+      public io.dstore.values.StringValue getCategoryDescription() {
+        return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Kategorie "NodeCharacCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue category_description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
       }
 
       public static final int CONTAINS_CATEGORIES_OR_CHARACS_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue containsCategoriesOrCharacs_;
+      private io.dstore.values.IntegerValue containsCategoriesOrCharacs_;
       /**
        * <pre>
        * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
        */
       public boolean hasContainsCategoriesOrCharacs() {
         return containsCategoriesOrCharacs_ != null;
@@ -1123,30 +1123,30 @@ public final class ImGetNodeCharacCategoriesAd {
        * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
        */
-      public io.dstore.Values.integerValue getContainsCategoriesOrCharacs() {
-        return containsCategoriesOrCharacs_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : containsCategoriesOrCharacs_;
+      public io.dstore.values.IntegerValue getContainsCategoriesOrCharacs() {
+        return containsCategoriesOrCharacs_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : containsCategoriesOrCharacs_;
       }
       /**
        * <pre>
        * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getContainsCategoriesOrCharacsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getContainsCategoriesOrCharacsOrBuilder() {
         return getContainsCategoriesOrCharacs();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue sortNo_;
+      private io.dstore.values.IntegerValue sortNo_;
       /**
        * <pre>
        * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1156,30 +1156,30 @@ public final class ImGetNodeCharacCategoriesAd {
        * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.values.IntegerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
       }
       /**
        * <pre>
        * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
       public static final int NODE_CHARAC_CATEGORY_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue nodeCharacCategoryId_;
+      private io.dstore.values.IntegerValue nodeCharacCategoryId_;
       /**
        * <pre>
        * ID einer Kategorie für Artikel-Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
        */
       public boolean hasNodeCharacCategoryId() {
         return nodeCharacCategoryId_ != null;
@@ -1189,19 +1189,19 @@ public final class ImGetNodeCharacCategoriesAd {
        * ID einer Kategorie für Artikel-Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacCategoryId() {
-        return nodeCharacCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacCategoryId_;
+      public io.dstore.values.IntegerValue getNodeCharacCategoryId() {
+        return nodeCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacCategoryId_;
       }
       /**
        * <pre>
        * ID einer Kategorie für Artikel-Merkmale
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacCategoryIdOrBuilder() {
         return getNodeCharacCategoryId();
       }
 
@@ -1620,15 +1620,15 @@ public final class ImGetNodeCharacCategoriesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue categoryDescription_ = null;
+        private io.dstore.values.StringValue categoryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> categoryDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Kategorie "NodeCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10001;</code>
          */
         public boolean hasCategoryDescription() {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
@@ -1638,11 +1638,11 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bezeichnung der Kategorie "NodeCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getCategoryDescription() {
+        public io.dstore.values.StringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
-            return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+            return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
           } else {
             return categoryDescriptionBuilder_.getMessage();
           }
@@ -1652,9 +1652,9 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bezeichnung der Kategorie "NodeCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10001;</code>
          */
-        public Builder setCategoryDescription(io.dstore.Values.stringValue value) {
+        public Builder setCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1672,10 +1672,10 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bezeichnung der Kategorie "NodeCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10001;</code>
          */
         public Builder setCategoryDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescription_ = builderForValue.build();
             onChanged();
@@ -1690,13 +1690,13 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bezeichnung der Kategorie "NodeCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10001;</code>
          */
-        public Builder mergeCategoryDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (categoryDescription_ != null) {
               categoryDescription_ =
-                io.dstore.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
             } else {
               categoryDescription_ = value;
             }
@@ -1712,7 +1712,7 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bezeichnung der Kategorie "NodeCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10001;</code>
          */
         public Builder clearCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -1730,9 +1730,9 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bezeichnung der Kategorie "NodeCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCategoryDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getCategoryDescriptionBuilder() {
           
           onChanged();
           return getCategoryDescriptionFieldBuilder().getBuilder();
@@ -1742,14 +1742,14 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bezeichnung der Kategorie "NodeCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
             return categoryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return categoryDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
           }
         }
         /**
@@ -1757,14 +1757,14 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bezeichnung der Kategorie "NodeCharacCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue category_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCategoryDescriptionFieldBuilder() {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCategoryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1773,15 +1773,15 @@ public final class ImGetNodeCharacCategoriesAd {
           return categoryDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue containsCategoriesOrCharacs_ = null;
+        private io.dstore.values.IntegerValue containsCategoriesOrCharacs_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> containsCategoriesOrCharacsBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> containsCategoriesOrCharacsBuilder_;
         /**
          * <pre>
          * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
          */
         public boolean hasContainsCategoriesOrCharacs() {
           return containsCategoriesOrCharacsBuilder_ != null || containsCategoriesOrCharacs_ != null;
@@ -1791,11 +1791,11 @@ public final class ImGetNodeCharacCategoriesAd {
          * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
          */
-        public io.dstore.Values.integerValue getContainsCategoriesOrCharacs() {
+        public io.dstore.values.IntegerValue getContainsCategoriesOrCharacs() {
           if (containsCategoriesOrCharacsBuilder_ == null) {
-            return containsCategoriesOrCharacs_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : containsCategoriesOrCharacs_;
+            return containsCategoriesOrCharacs_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : containsCategoriesOrCharacs_;
           } else {
             return containsCategoriesOrCharacsBuilder_.getMessage();
           }
@@ -1805,9 +1805,9 @@ public final class ImGetNodeCharacCategoriesAd {
          * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
          */
-        public Builder setContainsCategoriesOrCharacs(io.dstore.Values.integerValue value) {
+        public Builder setContainsCategoriesOrCharacs(io.dstore.values.IntegerValue value) {
           if (containsCategoriesOrCharacsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1825,10 +1825,10 @@ public final class ImGetNodeCharacCategoriesAd {
          * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
          */
         public Builder setContainsCategoriesOrCharacs(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (containsCategoriesOrCharacsBuilder_ == null) {
             containsCategoriesOrCharacs_ = builderForValue.build();
             onChanged();
@@ -1843,13 +1843,13 @@ public final class ImGetNodeCharacCategoriesAd {
          * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
          */
-        public Builder mergeContainsCategoriesOrCharacs(io.dstore.Values.integerValue value) {
+        public Builder mergeContainsCategoriesOrCharacs(io.dstore.values.IntegerValue value) {
           if (containsCategoriesOrCharacsBuilder_ == null) {
             if (containsCategoriesOrCharacs_ != null) {
               containsCategoriesOrCharacs_ =
-                io.dstore.Values.integerValue.newBuilder(containsCategoriesOrCharacs_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(containsCategoriesOrCharacs_).mergeFrom(value).buildPartial();
             } else {
               containsCategoriesOrCharacs_ = value;
             }
@@ -1865,7 +1865,7 @@ public final class ImGetNodeCharacCategoriesAd {
          * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
          */
         public Builder clearContainsCategoriesOrCharacs() {
           if (containsCategoriesOrCharacsBuilder_ == null) {
@@ -1883,9 +1883,9 @@ public final class ImGetNodeCharacCategoriesAd {
          * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getContainsCategoriesOrCharacsBuilder() {
+        public io.dstore.values.IntegerValue.Builder getContainsCategoriesOrCharacsBuilder() {
           
           onChanged();
           return getContainsCategoriesOrCharacsFieldBuilder().getBuilder();
@@ -1895,14 +1895,14 @@ public final class ImGetNodeCharacCategoriesAd {
          * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getContainsCategoriesOrCharacsOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getContainsCategoriesOrCharacsOrBuilder() {
           if (containsCategoriesOrCharacsBuilder_ != null) {
             return containsCategoriesOrCharacsBuilder_.getMessageOrBuilder();
           } else {
             return containsCategoriesOrCharacs_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : containsCategoriesOrCharacs_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : containsCategoriesOrCharacs_;
           }
         }
         /**
@@ -1910,14 +1910,14 @@ public final class ImGetNodeCharacCategoriesAd {
          * Gibt an, was die Kategorie "NodeCharacCategoryID" enthält :"0" : Weder Unterkategorien noch Merkmale"1" : Nur Unterkategorien"2" : Nur Merkmale"3" : Sowohl Merkmale als auch Unterkategorien
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue contains_categories_or_characs = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue contains_categories_or_characs = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getContainsCategoriesOrCharacsFieldBuilder() {
           if (containsCategoriesOrCharacsBuilder_ == null) {
             containsCategoriesOrCharacsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getContainsCategoriesOrCharacs(),
                     getParentForChildren(),
                     isClean());
@@ -1926,15 +1926,15 @@ public final class ImGetNodeCharacCategoriesAd {
           return containsCategoriesOrCharacsBuilder_;
         }
 
-        private io.dstore.Values.integerValue sortNo_ = null;
+        private io.dstore.values.IntegerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
          * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -1944,11 +1944,11 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
          */
-        public io.dstore.Values.integerValue getSortNo() {
+        public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
@@ -1958,9 +1958,9 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
          */
-        public Builder setSortNo(io.dstore.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1978,10 +1978,10 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public Builder setSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -1996,13 +1996,13 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
          */
-        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -2018,7 +2018,7 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -2036,9 +2036,9 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
@@ -2048,14 +2048,14 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
@@ -2063,14 +2063,14 @@ public final class ImGetNodeCharacCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie innerhalb aller Kategorien mit dem gleichen Vorgänger. Bei "Haupkategorien" (solche ohne eine Vorgänger-Kategorie) steht hier immer "0".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -2079,15 +2079,15 @@ public final class ImGetNodeCharacCategoriesAd {
           return sortNoBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeCharacCategoryId_ = null;
+        private io.dstore.values.IntegerValue nodeCharacCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacCategoryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacCategoryIdBuilder_;
         /**
          * <pre>
          * ID einer Kategorie für Artikel-Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
          */
         public boolean hasNodeCharacCategoryId() {
           return nodeCharacCategoryIdBuilder_ != null || nodeCharacCategoryId_ != null;
@@ -2097,11 +2097,11 @@ public final class ImGetNodeCharacCategoriesAd {
          * ID einer Kategorie für Artikel-Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue getNodeCharacCategoryId() {
+        public io.dstore.values.IntegerValue getNodeCharacCategoryId() {
           if (nodeCharacCategoryIdBuilder_ == null) {
-            return nodeCharacCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacCategoryId_;
+            return nodeCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacCategoryId_;
           } else {
             return nodeCharacCategoryIdBuilder_.getMessage();
           }
@@ -2111,9 +2111,9 @@ public final class ImGetNodeCharacCategoriesAd {
          * ID einer Kategorie für Artikel-Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
          */
-        public Builder setNodeCharacCategoryId(io.dstore.Values.integerValue value) {
+        public Builder setNodeCharacCategoryId(io.dstore.values.IntegerValue value) {
           if (nodeCharacCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2131,10 +2131,10 @@ public final class ImGetNodeCharacCategoriesAd {
          * ID einer Kategorie für Artikel-Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
          */
         public Builder setNodeCharacCategoryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeCharacCategoryIdBuilder_ == null) {
             nodeCharacCategoryId_ = builderForValue.build();
             onChanged();
@@ -2149,13 +2149,13 @@ public final class ImGetNodeCharacCategoriesAd {
          * ID einer Kategorie für Artikel-Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
          */
-        public Builder mergeNodeCharacCategoryId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeCharacCategoryId(io.dstore.values.IntegerValue value) {
           if (nodeCharacCategoryIdBuilder_ == null) {
             if (nodeCharacCategoryId_ != null) {
               nodeCharacCategoryId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeCharacCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeCharacCategoryId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacCategoryId_ = value;
             }
@@ -2171,7 +2171,7 @@ public final class ImGetNodeCharacCategoriesAd {
          * ID einer Kategorie für Artikel-Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
          */
         public Builder clearNodeCharacCategoryId() {
           if (nodeCharacCategoryIdBuilder_ == null) {
@@ -2189,9 +2189,9 @@ public final class ImGetNodeCharacCategoriesAd {
          * ID einer Kategorie für Artikel-Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeCharacCategoryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeCharacCategoryIdBuilder() {
           
           onChanged();
           return getNodeCharacCategoryIdFieldBuilder().getBuilder();
@@ -2201,14 +2201,14 @@ public final class ImGetNodeCharacCategoriesAd {
          * ID einer Kategorie für Artikel-Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeCharacCategoryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeCharacCategoryIdOrBuilder() {
           if (nodeCharacCategoryIdBuilder_ != null) {
             return nodeCharacCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacCategoryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacCategoryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacCategoryId_;
           }
         }
         /**
@@ -2216,14 +2216,14 @@ public final class ImGetNodeCharacCategoriesAd {
          * ID einer Kategorie für Artikel-Merkmale
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_charac_category_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue node_charac_category_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeCharacCategoryIdFieldBuilder() {
           if (nodeCharacCategoryIdBuilder_ == null) {
             nodeCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeCharacCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -3693,7 +3693,7 @@ public final class ImGetNodeCharacCategoriesAd {
       "_GetNodeCharacCategories_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"q\n\n" +
       "Parameters\022<\n\027predecessor_category_id\030\001 " +
-      "\001(\0132\033.dstore.values.integerValue\022%\n\034pred" +
+      "\001(\0132\033.dstore.values.IntegerValue\022%\n\034pred" +
       "ecessor_category_id_null\030\351\007 \001(\010\"\275\003\n\010Resp" +
       "onse\0228\n\020meta_information\030\002 \003(\0132\036.dstore." +
       "engine.MetaInformation\022\'\n\007message\030\003 \003(\0132" +
@@ -3701,11 +3701,11 @@ public final class ImGetNodeCharacCategoriesAd {
       "store.engine.im_GetNodeCharacCategories_" +
       "Ad.Response.Row\032\205\002\n\003Row\022\017\n\006row_id\030\220N \001(\005" +
       "\0229\n\024category_description\030\221N \001(\0132\032.dstore" +
-      ".values.stringValue\022D\n\036contains_categori" +
-      "es_or_characs\030\222N \001(\0132\033.dstore.values.int" +
+      ".values.StringValue\022D\n\036contains_categori" +
+      "es_or_characs\030\222N \001(\0132\033.dstore.values.Int" +
       "egerValue\022-\n\007sort_no\030\223N \001(\0132\033.dstore.val" +
-      "ues.integerValue\022=\n\027node_charac_category" +
-      "_id\030\224N \001(\0132\033.dstore.values.integerValueB" +
+      "ues.IntegerValue\022=\n\027node_charac_category" +
+      "_id\030\224N \001(\0132\033.dstore.values.IntegerValueB" +
       "^\n\033io.dstore.engine.proceduresZ?gosdk.ds" +
       "tore.de/engine/procedures/im_GetNodeChar",
       "acCategories_Adb\006proto3"
@@ -3721,7 +3721,7 @@ public final class ImGetNodeCharacCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetNodeCharacCategories_Ad_Parameters_descriptor =
@@ -3742,7 +3742,7 @@ public final class ImGetNodeCharacCategoriesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNodeCharacCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CategoryDescription", "ContainsCategoriesOrCharacs", "SortNo", "NodeCharacCategoryId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

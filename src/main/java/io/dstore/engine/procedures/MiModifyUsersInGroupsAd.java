@@ -19,17 +19,17 @@ public final class MiModifyUsersInGroupsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUserId();
+    io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyUsersInGroupsAd {
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
     boolean hasUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
-    io.dstore.Values.integerValue getUserGroupId();
+    io.dstore.values.IntegerValue getUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder();
 
     /**
      * <code>optional bool user_group_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyUsersInGroupsAd {
     boolean getUserGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+     * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
      */
     boolean hasMovePriority();
     /**
-     * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+     * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
      */
-    io.dstore.Values.integerValue getMovePriority();
+    io.dstore.values.IntegerValue getMovePriority();
     /**
-     * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+     * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMovePriorityOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMovePriorityOrBuilder();
 
     /**
      * <code>optional bool move_priority_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiModifyUsersInGroupsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiModifyUsersInGroupsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userGroupId_ != null) {
                 subBuilder = userGroupId_.toBuilder();
               }
-              userGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userGroupId_);
                 userGroupId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiModifyUsersInGroupsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (movePriority_ != null) {
                 subBuilder = movePriority_.toBuilder();
               }
-              movePriority_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              movePriority_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(movePriority_);
                 movePriority_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiModifyUsersInGroupsAd {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue userId_;
+    private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.values.IntegerValue getUserId() {
+      return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -222,23 +222,23 @@ public final class MiModifyUsersInGroupsAd {
     }
 
     public static final int USER_GROUP_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue userGroupId_;
+    private io.dstore.values.IntegerValue userGroupId_;
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
     public boolean hasUserGroupId() {
       return userGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getUserGroupId() {
-      return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+    public io.dstore.values.IntegerValue getUserGroupId() {
+      return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
       return getUserGroupId();
     }
 
@@ -252,23 +252,23 @@ public final class MiModifyUsersInGroupsAd {
     }
 
     public static final int MOVE_PRIORITY_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue movePriority_;
+    private io.dstore.values.IntegerValue movePriority_;
     /**
-     * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+     * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
      */
     public boolean hasMovePriority() {
       return movePriority_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+     * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
      */
-    public io.dstore.Values.integerValue getMovePriority() {
-      return movePriority_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : movePriority_;
+    public io.dstore.values.IntegerValue getMovePriority() {
+      return movePriority_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : movePriority_;
     }
     /**
-     * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+     * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMovePriorityOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMovePriorityOrBuilder() {
       return getMovePriority();
     }
 
@@ -677,29 +677,29 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userId_ = null;
+      private io.dstore.values.IntegerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
+      public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder setUserId(io.dstore.Values.integerValue value) {
+      public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder mergeUserId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userGroupId_ = null;
+      private io.dstore.values.IntegerValue userGroupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userGroupIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
       public boolean hasUserGroupId() {
         return userGroupIdBuilder_ != null || userGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getUserGroupId() {
+      public io.dstore.values.IntegerValue getUserGroupId() {
         if (userGroupIdBuilder_ == null) {
-          return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+          return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         } else {
           return userGroupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public Builder setUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder setUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
       public Builder setUserGroupId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userGroupIdBuilder_ == null) {
           userGroupId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public Builder mergeUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (userGroupId_ != null) {
             userGroupId_ =
-              io.dstore.Values.integerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
           } else {
             userGroupId_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
       public Builder clearUserGroupId() {
         if (userGroupIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserGroupIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserGroupIdBuilder() {
         
         onChanged();
         return getUserGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
         if (userGroupIdBuilder_ != null) {
           return userGroupIdBuilder_.getMessageOrBuilder();
         } else {
           return userGroupId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserGroupIdFieldBuilder() {
         if (userGroupIdBuilder_ == null) {
           userGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue movePriority_ = null;
+      private io.dstore.values.IntegerValue movePriority_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> movePriorityBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> movePriorityBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+       * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
        */
       public boolean hasMovePriority() {
         return movePriorityBuilder_ != null || movePriority_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+       * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
        */
-      public io.dstore.Values.integerValue getMovePriority() {
+      public io.dstore.values.IntegerValue getMovePriority() {
         if (movePriorityBuilder_ == null) {
-          return movePriority_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : movePriority_;
+          return movePriority_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : movePriority_;
         } else {
           return movePriorityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+       * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
        */
-      public Builder setMovePriority(io.dstore.Values.integerValue value) {
+      public Builder setMovePriority(io.dstore.values.IntegerValue value) {
         if (movePriorityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+       * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
        */
       public Builder setMovePriority(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (movePriorityBuilder_ == null) {
           movePriority_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+       * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
        */
-      public Builder mergeMovePriority(io.dstore.Values.integerValue value) {
+      public Builder mergeMovePriority(io.dstore.values.IntegerValue value) {
         if (movePriorityBuilder_ == null) {
           if (movePriority_ != null) {
             movePriority_ =
-              io.dstore.Values.integerValue.newBuilder(movePriority_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(movePriority_).mergeFrom(value).buildPartial();
           } else {
             movePriority_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+       * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
        */
       public Builder clearMovePriority() {
         if (movePriorityBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiModifyUsersInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+       * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMovePriorityBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMovePriorityBuilder() {
         
         onChanged();
         return getMovePriorityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+       * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMovePriorityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMovePriorityOrBuilder() {
         if (movePriorityBuilder_ != null) {
           return movePriorityBuilder_.getMessageOrBuilder();
         } else {
           return movePriority_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : movePriority_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : movePriority_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue move_priority = 3;</code>
+       * <code>optional .dstore.values.IntegerValue move_priority = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMovePriorityFieldBuilder() {
         if (movePriorityBuilder_ == null) {
           movePriorityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMovePriority(),
                   getParentForChildren(),
                   isClean());
@@ -3192,11 +3192,11 @@ public final class MiModifyUsersInGroupsAd {
       "sInGroups_Ad.proto\022\'dstore.engine.mi_Mod" +
       "ifyUsersInGroups_Ad\032\023dstore/values.proto" +
       "\032\032dstore/engine/engine.proto\"\363\001\n\nParamet" +
-      "ers\022,\n\007user_id\030\001 \001(\0132\033.dstore.values.int" +
+      "ers\022,\n\007user_id\030\001 \001(\0132\033.dstore.values.Int" +
       "egerValue\022\025\n\014user_id_null\030\351\007 \001(\010\0222\n\ruser" +
-      "_group_id\030\002 \001(\0132\033.dstore.values.integerV" +
+      "_group_id\030\002 \001(\0132\033.dstore.values.IntegerV" +
       "alue\022\033\n\022user_group_id_null\030\352\007 \001(\010\0222\n\rmov" +
-      "e_priority\030\003 \001(\0132\033.dstore.values.integer" +
+      "e_priority\030\003 \001(\0132\033.dstore.values.Integer" +
       "Value\022\033\n\022move_priority_null\030\353\007 \001(\010\"\311\001\n\010R",
       "esponse\0228\n\020meta_information\030\002 \003(\0132\036.dsto" +
       "re.engine.MetaInformation\022\'\n\007message\030\003 \003" +
@@ -3218,7 +3218,7 @@ public final class MiModifyUsersInGroupsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyUsersInGroups_Ad_Parameters_descriptor =
@@ -3239,7 +3239,7 @@ public final class MiModifyUsersInGroupsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyUsersInGroups_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

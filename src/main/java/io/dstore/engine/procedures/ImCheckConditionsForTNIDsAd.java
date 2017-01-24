@@ -19,17 +19,17 @@ public final class ImCheckConditionsForTNIDsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
     boolean hasTreeNodeIdList();
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
-    io.dstore.Values.stringValue getTreeNodeIdList();
+    io.dstore.values.StringValue getTreeNodeIdList();
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTreeNodeIdListOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_list_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImCheckConditionsForTNIDsAd {
     boolean getTreeNodeIdListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
      */
     boolean hasItemConditionIds();
     /**
-     * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
      */
-    io.dstore.Values.stringValue getItemConditionIds();
+    io.dstore.values.StringValue getItemConditionIds();
     /**
-     * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getItemConditionIdsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getItemConditionIdsOrBuilder();
 
     /**
      * <code>optional bool item_condition_ids_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImCheckConditionsForTNIDsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (treeNodeIdList_ != null) {
                 subBuilder = treeNodeIdList_.toBuilder();
               }
-              treeNodeIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              treeNodeIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeIdList_);
                 treeNodeIdList_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImCheckConditionsForTNIDsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (itemConditionIds_ != null) {
                 subBuilder = itemConditionIds_.toBuilder();
               }
-              itemConditionIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              itemConditionIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemConditionIds_);
                 itemConditionIds_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImCheckConditionsForTNIDsAd {
     }
 
     public static final int TREE_NODE_ID_LIST_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue treeNodeIdList_;
+    private io.dstore.values.StringValue treeNodeIdList_;
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
     public boolean hasTreeNodeIdList() {
       return treeNodeIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
-    public io.dstore.Values.stringValue getTreeNodeIdList() {
-      return treeNodeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+    public io.dstore.values.StringValue getTreeNodeIdList() {
+      return treeNodeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : treeNodeIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTreeNodeIdListOrBuilder() {
       return getTreeNodeIdList();
     }
 
@@ -185,23 +185,23 @@ public final class ImCheckConditionsForTNIDsAd {
     }
 
     public static final int ITEM_CONDITION_IDS_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue itemConditionIds_;
+    private io.dstore.values.StringValue itemConditionIds_;
     /**
-     * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
      */
     public boolean hasItemConditionIds() {
       return itemConditionIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
      */
-    public io.dstore.Values.stringValue getItemConditionIds() {
-      return itemConditionIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemConditionIds_;
+    public io.dstore.values.StringValue getItemConditionIds() {
+      return itemConditionIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getItemConditionIdsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getItemConditionIdsOrBuilder() {
       return getItemConditionIds();
     }
 
@@ -562,29 +562,29 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue treeNodeIdList_ = null;
+      private io.dstore.values.StringValue treeNodeIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> treeNodeIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> treeNodeIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
       public boolean hasTreeNodeIdList() {
         return treeNodeIdListBuilder_ != null || treeNodeIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public io.dstore.Values.stringValue getTreeNodeIdList() {
+      public io.dstore.values.StringValue getTreeNodeIdList() {
         if (treeNodeIdListBuilder_ == null) {
-          return treeNodeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+          return treeNodeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : treeNodeIdList_;
         } else {
           return treeNodeIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public Builder setTreeNodeIdList(io.dstore.Values.stringValue value) {
+      public Builder setTreeNodeIdList(io.dstore.values.StringValue value) {
         if (treeNodeIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
       public Builder setTreeNodeIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (treeNodeIdListBuilder_ == null) {
           treeNodeIdList_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public Builder mergeTreeNodeIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeTreeNodeIdList(io.dstore.values.StringValue value) {
         if (treeNodeIdListBuilder_ == null) {
           if (treeNodeIdList_ != null) {
             treeNodeIdList_ =
-              io.dstore.Values.stringValue.newBuilder(treeNodeIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(treeNodeIdList_).mergeFrom(value).buildPartial();
           } else {
             treeNodeIdList_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
       public Builder clearTreeNodeIdList() {
         if (treeNodeIdListBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTreeNodeIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getTreeNodeIdListBuilder() {
         
         onChanged();
         return getTreeNodeIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTreeNodeIdListOrBuilder() {
         if (treeNodeIdListBuilder_ != null) {
           return treeNodeIdListBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : treeNodeIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTreeNodeIdListFieldBuilder() {
         if (treeNodeIdListBuilder_ == null) {
           treeNodeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTreeNodeIdList(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue itemConditionIds_ = null;
+      private io.dstore.values.StringValue itemConditionIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemConditionIdsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> itemConditionIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
        */
       public boolean hasItemConditionIds() {
         return itemConditionIdsBuilder_ != null || itemConditionIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
        */
-      public io.dstore.Values.stringValue getItemConditionIds() {
+      public io.dstore.values.StringValue getItemConditionIds() {
         if (itemConditionIdsBuilder_ == null) {
-          return itemConditionIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemConditionIds_;
+          return itemConditionIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionIds_;
         } else {
           return itemConditionIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
        */
-      public Builder setItemConditionIds(io.dstore.Values.stringValue value) {
+      public Builder setItemConditionIds(io.dstore.values.StringValue value) {
         if (itemConditionIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
        */
       public Builder setItemConditionIds(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (itemConditionIdsBuilder_ == null) {
           itemConditionIds_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
        */
-      public Builder mergeItemConditionIds(io.dstore.Values.stringValue value) {
+      public Builder mergeItemConditionIds(io.dstore.values.StringValue value) {
         if (itemConditionIdsBuilder_ == null) {
           if (itemConditionIds_ != null) {
             itemConditionIds_ =
-              io.dstore.Values.stringValue.newBuilder(itemConditionIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(itemConditionIds_).mergeFrom(value).buildPartial();
           } else {
             itemConditionIds_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
        */
       public Builder clearItemConditionIds() {
         if (itemConditionIdsBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImCheckConditionsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getItemConditionIdsBuilder() {
+      public io.dstore.values.StringValue.Builder getItemConditionIdsBuilder() {
         
         onChanged();
         return getItemConditionIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getItemConditionIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getItemConditionIdsOrBuilder() {
         if (itemConditionIdsBuilder_ != null) {
           return itemConditionIdsBuilder_.getMessageOrBuilder();
         } else {
           return itemConditionIds_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : itemConditionIds_;
+              io.dstore.values.StringValue.getDefaultInstance() : itemConditionIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue item_condition_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue item_condition_ids = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getItemConditionIdsFieldBuilder() {
         if (itemConditionIdsBuilder_ == null) {
           itemConditionIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getItemConditionIds(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class ImCheckConditionsForTNIDsAd {
        * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
        */
       boolean hasItemConditionId();
       /**
@@ -1115,24 +1115,24 @@ public final class ImCheckConditionsForTNIDsAd {
        * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getItemConditionId();
+      io.dstore.values.IntegerValue getItemConditionId();
       /**
        * <pre>
        * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder();
 
       /**
        * <pre>
        * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
        */
       boolean hasTNIdsFulfillingCondition();
       /**
@@ -1140,17 +1140,17 @@ public final class ImCheckConditionsForTNIDsAd {
        * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
        */
-      io.dstore.Values.stringValue getTNIdsFulfillingCondition();
+      io.dstore.values.StringValue getTNIdsFulfillingCondition();
       /**
        * <pre>
        * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getTNIdsFulfillingConditionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getTNIdsFulfillingConditionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_CheckConditionsForTNIDs_Ad.Response.Row}
@@ -1198,11 +1198,11 @@ public final class ImCheckConditionsForTNIDsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (itemConditionId_ != null) {
                   subBuilder = itemConditionId_.toBuilder();
                 }
-                itemConditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                itemConditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionId_);
                   itemConditionId_ = subBuilder.buildPartial();
@@ -1211,11 +1211,11 @@ public final class ImCheckConditionsForTNIDsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (tNIdsFulfillingCondition_ != null) {
                   subBuilder = tNIdsFulfillingCondition_.toBuilder();
                 }
-                tNIdsFulfillingCondition_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                tNIdsFulfillingCondition_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tNIdsFulfillingCondition_);
                   tNIdsFulfillingCondition_ = subBuilder.buildPartial();
@@ -1256,13 +1256,13 @@ public final class ImCheckConditionsForTNIDsAd {
       }
 
       public static final int ITEM_CONDITION_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue itemConditionId_;
+      private io.dstore.values.IntegerValue itemConditionId_;
       /**
        * <pre>
        * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionId_ != null;
@@ -1272,30 +1272,30 @@ public final class ImCheckConditionsForTNIDsAd {
        * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getItemConditionId() {
-        return itemConditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
+      public io.dstore.values.IntegerValue getItemConditionId() {
+        return itemConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
       }
       /**
        * <pre>
        * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
         return getItemConditionId();
       }
 
       public static final int T_N_IDS_FULFILLING_CONDITION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue tNIdsFulfillingCondition_;
+      private io.dstore.values.StringValue tNIdsFulfillingCondition_;
       /**
        * <pre>
        * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
        */
       public boolean hasTNIdsFulfillingCondition() {
         return tNIdsFulfillingCondition_ != null;
@@ -1305,19 +1305,19 @@ public final class ImCheckConditionsForTNIDsAd {
        * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
        */
-      public io.dstore.Values.stringValue getTNIdsFulfillingCondition() {
-        return tNIdsFulfillingCondition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tNIdsFulfillingCondition_;
+      public io.dstore.values.StringValue getTNIdsFulfillingCondition() {
+        return tNIdsFulfillingCondition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tNIdsFulfillingCondition_;
       }
       /**
        * <pre>
        * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTNIdsFulfillingConditionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTNIdsFulfillingConditionOrBuilder() {
         return getTNIdsFulfillingCondition();
       }
 
@@ -1676,15 +1676,15 @@ public final class ImCheckConditionsForTNIDsAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue itemConditionId_ = null;
+        private io.dstore.values.IntegerValue itemConditionId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionIdBuilder_;
         /**
          * <pre>
          * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
          */
         public boolean hasItemConditionId() {
           return itemConditionIdBuilder_ != null || itemConditionId_ != null;
@@ -1694,11 +1694,11 @@ public final class ImCheckConditionsForTNIDsAd {
          * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getItemConditionId() {
+        public io.dstore.values.IntegerValue getItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
-            return itemConditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
+            return itemConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
           } else {
             return itemConditionIdBuilder_.getMessage();
           }
@@ -1708,9 +1708,9 @@ public final class ImCheckConditionsForTNIDsAd {
          * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
          */
-        public Builder setItemConditionId(io.dstore.Values.integerValue value) {
+        public Builder setItemConditionId(io.dstore.values.IntegerValue value) {
           if (itemConditionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1728,10 +1728,10 @@ public final class ImCheckConditionsForTNIDsAd {
          * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
          */
         public Builder setItemConditionId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (itemConditionIdBuilder_ == null) {
             itemConditionId_ = builderForValue.build();
             onChanged();
@@ -1746,13 +1746,13 @@ public final class ImCheckConditionsForTNIDsAd {
          * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
          */
-        public Builder mergeItemConditionId(io.dstore.Values.integerValue value) {
+        public Builder mergeItemConditionId(io.dstore.values.IntegerValue value) {
           if (itemConditionIdBuilder_ == null) {
             if (itemConditionId_ != null) {
               itemConditionId_ =
-                io.dstore.Values.integerValue.newBuilder(itemConditionId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(itemConditionId_).mergeFrom(value).buildPartial();
             } else {
               itemConditionId_ = value;
             }
@@ -1768,7 +1768,7 @@ public final class ImCheckConditionsForTNIDsAd {
          * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
          */
         public Builder clearItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
@@ -1786,9 +1786,9 @@ public final class ImCheckConditionsForTNIDsAd {
          * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getItemConditionIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getItemConditionIdBuilder() {
           
           onChanged();
           return getItemConditionIdFieldBuilder().getBuilder();
@@ -1798,14 +1798,14 @@ public final class ImCheckConditionsForTNIDsAd {
          * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
           if (itemConditionIdBuilder_ != null) {
             return itemConditionIdBuilder_.getMessageOrBuilder();
           } else {
             return itemConditionId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
           }
         }
         /**
@@ -1813,14 +1813,14 @@ public final class ImCheckConditionsForTNIDsAd {
          * ID eines der in "&#64;ItemConditionIDs" angegebenen Bedingungen. Anmerkung : Es wird garantiert für JEDE in "&#64;ItemConditionIDs" angegebene Bedingung ein Datensatz geliefert !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getItemConditionIdFieldBuilder() {
           if (itemConditionIdBuilder_ == null) {
             itemConditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getItemConditionId(),
                     getParentForChildren(),
                     isClean());
@@ -1829,15 +1829,15 @@ public final class ImCheckConditionsForTNIDsAd {
           return itemConditionIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue tNIdsFulfillingCondition_ = null;
+        private io.dstore.values.StringValue tNIdsFulfillingCondition_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tNIdsFulfillingConditionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tNIdsFulfillingConditionBuilder_;
         /**
          * <pre>
          * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
          */
         public boolean hasTNIdsFulfillingCondition() {
           return tNIdsFulfillingConditionBuilder_ != null || tNIdsFulfillingCondition_ != null;
@@ -1847,11 +1847,11 @@ public final class ImCheckConditionsForTNIDsAd {
          * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
          */
-        public io.dstore.Values.stringValue getTNIdsFulfillingCondition() {
+        public io.dstore.values.StringValue getTNIdsFulfillingCondition() {
           if (tNIdsFulfillingConditionBuilder_ == null) {
-            return tNIdsFulfillingCondition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tNIdsFulfillingCondition_;
+            return tNIdsFulfillingCondition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tNIdsFulfillingCondition_;
           } else {
             return tNIdsFulfillingConditionBuilder_.getMessage();
           }
@@ -1861,9 +1861,9 @@ public final class ImCheckConditionsForTNIDsAd {
          * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
          */
-        public Builder setTNIdsFulfillingCondition(io.dstore.Values.stringValue value) {
+        public Builder setTNIdsFulfillingCondition(io.dstore.values.StringValue value) {
           if (tNIdsFulfillingConditionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1881,10 +1881,10 @@ public final class ImCheckConditionsForTNIDsAd {
          * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
          */
         public Builder setTNIdsFulfillingCondition(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (tNIdsFulfillingConditionBuilder_ == null) {
             tNIdsFulfillingCondition_ = builderForValue.build();
             onChanged();
@@ -1899,13 +1899,13 @@ public final class ImCheckConditionsForTNIDsAd {
          * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
          */
-        public Builder mergeTNIdsFulfillingCondition(io.dstore.Values.stringValue value) {
+        public Builder mergeTNIdsFulfillingCondition(io.dstore.values.StringValue value) {
           if (tNIdsFulfillingConditionBuilder_ == null) {
             if (tNIdsFulfillingCondition_ != null) {
               tNIdsFulfillingCondition_ =
-                io.dstore.Values.stringValue.newBuilder(tNIdsFulfillingCondition_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(tNIdsFulfillingCondition_).mergeFrom(value).buildPartial();
             } else {
               tNIdsFulfillingCondition_ = value;
             }
@@ -1921,7 +1921,7 @@ public final class ImCheckConditionsForTNIDsAd {
          * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
          */
         public Builder clearTNIdsFulfillingCondition() {
           if (tNIdsFulfillingConditionBuilder_ == null) {
@@ -1939,9 +1939,9 @@ public final class ImCheckConditionsForTNIDsAd {
          * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getTNIdsFulfillingConditionBuilder() {
+        public io.dstore.values.StringValue.Builder getTNIdsFulfillingConditionBuilder() {
           
           onChanged();
           return getTNIdsFulfillingConditionFieldBuilder().getBuilder();
@@ -1951,14 +1951,14 @@ public final class ImCheckConditionsForTNIDsAd {
          * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getTNIdsFulfillingConditionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getTNIdsFulfillingConditionOrBuilder() {
           if (tNIdsFulfillingConditionBuilder_ != null) {
             return tNIdsFulfillingConditionBuilder_.getMessageOrBuilder();
           } else {
             return tNIdsFulfillingCondition_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : tNIdsFulfillingCondition_;
+                io.dstore.values.StringValue.getDefaultInstance() : tNIdsFulfillingCondition_;
           }
         }
         /**
@@ -1966,14 +1966,14 @@ public final class ImCheckConditionsForTNIDsAd {
          * Die IDs aus "&#64;TreeNodeIDList" (durch "," getrennt), die "ItemConditionID" erfüllen. "NULL" bedeutet, daß KEINE der "TreeNodeID"s die Bedingung erfüllt.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue t_n_ids_fulfilling_condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue t_n_ids_fulfilling_condition = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getTNIdsFulfillingConditionFieldBuilder() {
           if (tNIdsFulfillingConditionBuilder_ == null) {
             tNIdsFulfillingConditionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getTNIdsFulfillingCondition(),
                     getParentForChildren(),
                     isClean());
@@ -3443,9 +3443,9 @@ public final class ImCheckConditionsForTNIDsAd {
       "_CheckConditionsForTNIDs_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\276\001\n" +
       "\nParameters\0225\n\021tree_node_id_list\030\001 \001(\0132\032" +
-      ".dstore.values.stringValue\022\037\n\026tree_node_" +
+      ".dstore.values.StringValue\022\037\n\026tree_node_" +
       "id_list_null\030\351\007 \001(\010\0226\n\022item_condition_id" +
-      "s\030\002 \001(\0132\032.dstore.values.stringValue\022 \n\027i" +
+      "s\030\002 \001(\0132\032.dstore.values.StringValue\022 \n\027i" +
       "tem_condition_ids_null\030\352\007 \001(\010\"\312\002\n\010Respon" +
       "se\0228\n\020meta_information\030\002 \003(\0132\036.dstore.en",
       "gine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026." +
@@ -3453,8 +3453,8 @@ public final class ImCheckConditionsForTNIDsAd {
       "ore.engine.im_CheckConditionsForTNIDs_Ad" +
       ".Response.Row\032\222\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227" +
       "\n\021item_condition_id\030\221N \001(\0132\033.dstore.valu" +
-      "es.integerValue\022A\n\034t_n_ids_fulfilling_co" +
-      "ndition\030\222N \001(\0132\032.dstore.values.stringVal" +
+      "es.IntegerValue\022A\n\034t_n_ids_fulfilling_co" +
+      "ndition\030\222N \001(\0132\032.dstore.values.StringVal" +
       "ueB^\n\033io.dstore.engine.proceduresZ?gosdk" +
       ".dstore.de/engine/procedures/im_CheckCon" +
       "ditionsForTNIDs_Adb\006proto3"
@@ -3470,7 +3470,7 @@ public final class ImCheckConditionsForTNIDsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_CheckConditionsForTNIDs_Ad_Parameters_descriptor =
@@ -3491,7 +3491,7 @@ public final class ImCheckConditionsForTNIDsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_CheckConditionsForTNIDs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ItemConditionId", "TNIdsFulfillingCondition", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

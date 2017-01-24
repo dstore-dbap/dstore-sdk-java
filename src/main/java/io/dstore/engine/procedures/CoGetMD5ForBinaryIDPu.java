@@ -19,17 +19,17 @@ public final class CoGetMD5ForBinaryIDPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoGetMD5ForBinaryIDPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoGetMD5ForBinaryIDPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class CoGetMD5ForBinaryIDPu {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
      */
     boolean hasCommunityMemberId();
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
      */
-    io.dstore.Values.integerValue getCommunityMemberId();
+    io.dstore.values.IntegerValue getCommunityMemberId();
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
 
     /**
      * <code>optional bool community_member_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class CoGetMD5ForBinaryIDPu {
     boolean getCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
      */
     boolean hasBinaryId();
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
      */
-    io.dstore.Values.integerValue getBinaryId();
+    io.dstore.values.IntegerValue getBinaryId();
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder();
 
     /**
      * <code>optional bool binary_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class CoGetMD5ForBinaryIDPu {
     boolean getBinaryIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+     * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
      */
     boolean hasAdditionalBinaryInformation();
     /**
-     * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+     * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
      */
-    io.dstore.Values.booleanValue getAdditionalBinaryInformation();
+    io.dstore.values.BooleanValue getAdditionalBinaryInformation();
     /**
-     * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+     * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getAdditionalBinaryInformationOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getAdditionalBinaryInformationOrBuilder();
 
     /**
      * <code>optional bool additional_binary_information_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class CoGetMD5ForBinaryIDPu {
     boolean getAdditionalBinaryInformationNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class CoGetMD5ForBinaryIDPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class CoGetMD5ForBinaryIDPu {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class CoGetMD5ForBinaryIDPu {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class CoGetMD5ForBinaryIDPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityMemberId_ != null) {
                 subBuilder = communityMemberId_.toBuilder();
               }
-              communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityMemberId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMemberId_);
                 communityMemberId_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class CoGetMD5ForBinaryIDPu {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binaryId_ != null) {
                 subBuilder = binaryId_.toBuilder();
               }
-              binaryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binaryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryId_);
                 binaryId_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class CoGetMD5ForBinaryIDPu {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (additionalBinaryInformation_ != null) {
                 subBuilder = additionalBinaryInformation_.toBuilder();
               }
-              additionalBinaryInformation_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              additionalBinaryInformation_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(additionalBinaryInformation_);
                 additionalBinaryInformation_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class CoGetMD5ForBinaryIDPu {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class CoGetMD5ForBinaryIDPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -370,23 +370,23 @@ public final class CoGetMD5ForBinaryIDPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -400,23 +400,23 @@ public final class CoGetMD5ForBinaryIDPu {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -430,23 +430,23 @@ public final class CoGetMD5ForBinaryIDPu {
     }
 
     public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue communityMemberId_;
+    private io.dstore.values.IntegerValue communityMemberId_;
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
      */
     public boolean hasCommunityMemberId() {
       return communityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getCommunityMemberId() {
-      return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+    public io.dstore.values.IntegerValue getCommunityMemberId() {
+      return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
       return getCommunityMemberId();
     }
 
@@ -460,23 +460,23 @@ public final class CoGetMD5ForBinaryIDPu {
     }
 
     public static final int BINARY_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue binaryId_;
+    private io.dstore.values.IntegerValue binaryId_;
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
      */
     public boolean hasBinaryId() {
       return binaryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getBinaryId() {
-      return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
+    public io.dstore.values.IntegerValue getBinaryId() {
+      return binaryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder() {
       return getBinaryId();
     }
 
@@ -490,23 +490,23 @@ public final class CoGetMD5ForBinaryIDPu {
     }
 
     public static final int ADDITIONAL_BINARY_INFORMATION_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue additionalBinaryInformation_;
+    private io.dstore.values.BooleanValue additionalBinaryInformation_;
     /**
-     * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+     * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
      */
     public boolean hasAdditionalBinaryInformation() {
       return additionalBinaryInformation_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+     * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
      */
-    public io.dstore.Values.booleanValue getAdditionalBinaryInformation() {
-      return additionalBinaryInformation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : additionalBinaryInformation_;
+    public io.dstore.values.BooleanValue getAdditionalBinaryInformation() {
+      return additionalBinaryInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : additionalBinaryInformation_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+     * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getAdditionalBinaryInformationOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getAdditionalBinaryInformationOrBuilder() {
       return getAdditionalBinaryInformation();
     }
 
@@ -520,23 +520,23 @@ public final class CoGetMD5ForBinaryIDPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue separatorInIdentVals_;
+    private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.values.StringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1137,29 +1137,29 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityMemberId_ = null;
+      private io.dstore.values.IntegerValue communityMemberId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberIdBuilder_ != null || communityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getCommunityMemberId() {
+      public io.dstore.values.IntegerValue getCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
-          return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+          return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
         } else {
           return communityMemberIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
        */
-      public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder setCommunityMemberId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityMemberIdBuilder_ == null) {
           communityMemberId_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
        */
-      public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (communityMemberIdBuilder_ == null) {
           if (communityMemberId_ != null) {
             communityMemberId_ =
-              io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
           } else {
             communityMemberId_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
        */
       public Builder clearCommunityMemberId() {
         if (communityMemberIdBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
         
         onChanged();
         return getCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         if (communityMemberIdBuilder_ != null) {
           return communityMemberIdBuilder_.getMessageOrBuilder();
         } else {
           return communityMemberId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityMemberIdFieldBuilder() {
         if (communityMemberIdBuilder_ == null) {
           communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityMemberId(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue binaryId_ = null;
+      private io.dstore.values.IntegerValue binaryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
        */
       public boolean hasBinaryId() {
         return binaryIdBuilder_ != null || binaryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getBinaryId() {
+      public io.dstore.values.IntegerValue getBinaryId() {
         if (binaryIdBuilder_ == null) {
-          return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
+          return binaryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryId_;
         } else {
           return binaryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
        */
-      public Builder setBinaryId(io.dstore.Values.integerValue value) {
+      public Builder setBinaryId(io.dstore.values.IntegerValue value) {
         if (binaryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
        */
       public Builder setBinaryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binaryIdBuilder_ == null) {
           binaryId_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
        */
-      public Builder mergeBinaryId(io.dstore.Values.integerValue value) {
+      public Builder mergeBinaryId(io.dstore.values.IntegerValue value) {
         if (binaryIdBuilder_ == null) {
           if (binaryId_ != null) {
             binaryId_ =
-              io.dstore.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
           } else {
             binaryId_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
        */
       public Builder clearBinaryId() {
         if (binaryIdBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinaryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinaryIdBuilder() {
         
         onChanged();
         return getBinaryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder() {
         if (binaryIdBuilder_ != null) {
           return binaryIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binaryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinaryIdFieldBuilder() {
         if (binaryIdBuilder_ == null) {
           binaryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinaryId(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue additionalBinaryInformation_ = null;
+      private io.dstore.values.BooleanValue additionalBinaryInformation_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> additionalBinaryInformationBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> additionalBinaryInformationBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+       * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
        */
       public boolean hasAdditionalBinaryInformation() {
         return additionalBinaryInformationBuilder_ != null || additionalBinaryInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+       * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
        */
-      public io.dstore.Values.booleanValue getAdditionalBinaryInformation() {
+      public io.dstore.values.BooleanValue getAdditionalBinaryInformation() {
         if (additionalBinaryInformationBuilder_ == null) {
-          return additionalBinaryInformation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : additionalBinaryInformation_;
+          return additionalBinaryInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : additionalBinaryInformation_;
         } else {
           return additionalBinaryInformationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+       * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
        */
-      public Builder setAdditionalBinaryInformation(io.dstore.Values.booleanValue value) {
+      public Builder setAdditionalBinaryInformation(io.dstore.values.BooleanValue value) {
         if (additionalBinaryInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+       * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
        */
       public Builder setAdditionalBinaryInformation(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (additionalBinaryInformationBuilder_ == null) {
           additionalBinaryInformation_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+       * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
        */
-      public Builder mergeAdditionalBinaryInformation(io.dstore.Values.booleanValue value) {
+      public Builder mergeAdditionalBinaryInformation(io.dstore.values.BooleanValue value) {
         if (additionalBinaryInformationBuilder_ == null) {
           if (additionalBinaryInformation_ != null) {
             additionalBinaryInformation_ =
-              io.dstore.Values.booleanValue.newBuilder(additionalBinaryInformation_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(additionalBinaryInformation_).mergeFrom(value).buildPartial();
           } else {
             additionalBinaryInformation_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+       * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
        */
       public Builder clearAdditionalBinaryInformation() {
         if (additionalBinaryInformationBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+       * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getAdditionalBinaryInformationBuilder() {
+      public io.dstore.values.BooleanValue.Builder getAdditionalBinaryInformationBuilder() {
         
         onChanged();
         return getAdditionalBinaryInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+       * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getAdditionalBinaryInformationOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getAdditionalBinaryInformationOrBuilder() {
         if (additionalBinaryInformationBuilder_ != null) {
           return additionalBinaryInformationBuilder_.getMessageOrBuilder();
         } else {
           return additionalBinaryInformation_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : additionalBinaryInformation_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : additionalBinaryInformation_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_binary_information = 6;</code>
+       * <code>optional .dstore.values.BooleanValue additional_binary_information = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getAdditionalBinaryInformationFieldBuilder() {
         if (additionalBinaryInformationBuilder_ == null) {
           additionalBinaryInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getAdditionalBinaryInformation(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.values.StringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class CoGetMD5ForBinaryIDPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -2397,7 +2397,7 @@ public final class CoGetMD5ForBinaryIDPu {
        * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+       * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
        */
       boolean hasMD5Hash();
       /**
@@ -2405,24 +2405,24 @@ public final class CoGetMD5ForBinaryIDPu {
        * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+       * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
        */
-      io.dstore.Values.stringValue getMD5Hash();
+      io.dstore.values.StringValue getMD5Hash();
       /**
        * <pre>
        * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+       * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getMD5HashOrBuilder();
+      io.dstore.values.StringValueOrBuilder getMD5HashOrBuilder();
 
       /**
        * <pre>
        * Das Format der Datei (z.B. "gif" oder "jpg")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+       * <code>optional .dstore.values.StringValue content_type = 20001;</code>
        */
       boolean hasContentType();
       /**
@@ -2430,24 +2430,24 @@ public final class CoGetMD5ForBinaryIDPu {
        * Das Format der Datei (z.B. "gif" oder "jpg")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+       * <code>optional .dstore.values.StringValue content_type = 20001;</code>
        */
-      io.dstore.Values.stringValue getContentType();
+      io.dstore.values.StringValue getContentType();
       /**
        * <pre>
        * Das Format der Datei (z.B. "gif" oder "jpg")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+       * <code>optional .dstore.values.StringValue content_type = 20001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getContentTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getContentTypeOrBuilder();
 
       /**
        * <pre>
        * Erstellungsdatum der Datei
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+       * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
        */
       boolean hasFileDateAndTime();
       /**
@@ -2455,24 +2455,24 @@ public final class CoGetMD5ForBinaryIDPu {
        * Erstellungsdatum der Datei
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+       * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
        */
-      io.dstore.Values.timestampValue getFileDateAndTime();
+      io.dstore.values.TimestampValue getFileDateAndTime();
       /**
        * <pre>
        * Erstellungsdatum der Datei
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+       * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getFileDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getFileDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Größe der Datei in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
        */
       boolean hasFilesizeInKB();
       /**
@@ -2480,17 +2480,17 @@ public final class CoGetMD5ForBinaryIDPu {
        * Größe der Datei in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
        */
-      io.dstore.Values.integerValue getFilesizeInKB();
+      io.dstore.values.IntegerValue getFilesizeInKB();
       /**
        * <pre>
        * Größe der Datei in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getFilesizeInKBOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getFilesizeInKBOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetMD5ForBinaryID_Pu.Response.Row}
@@ -2538,11 +2538,11 @@ public final class CoGetMD5ForBinaryIDPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (mD5Hash_ != null) {
                   subBuilder = mD5Hash_.toBuilder();
                 }
-                mD5Hash_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                mD5Hash_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(mD5Hash_);
                   mD5Hash_ = subBuilder.buildPartial();
@@ -2551,11 +2551,11 @@ public final class CoGetMD5ForBinaryIDPu {
                 break;
               }
               case 160010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (contentType_ != null) {
                   subBuilder = contentType_.toBuilder();
                 }
-                contentType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                contentType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(contentType_);
                   contentType_ = subBuilder.buildPartial();
@@ -2564,11 +2564,11 @@ public final class CoGetMD5ForBinaryIDPu {
                 break;
               }
               case 160018: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (fileDateAndTime_ != null) {
                   subBuilder = fileDateAndTime_.toBuilder();
                 }
-                fileDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                fileDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fileDateAndTime_);
                   fileDateAndTime_ = subBuilder.buildPartial();
@@ -2577,11 +2577,11 @@ public final class CoGetMD5ForBinaryIDPu {
                 break;
               }
               case 160034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (filesizeInKB_ != null) {
                   subBuilder = filesizeInKB_.toBuilder();
                 }
-                filesizeInKB_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                filesizeInKB_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(filesizeInKB_);
                   filesizeInKB_ = subBuilder.buildPartial();
@@ -2622,13 +2622,13 @@ public final class CoGetMD5ForBinaryIDPu {
       }
 
       public static final int M_D5_HASH_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue mD5Hash_;
+      private io.dstore.values.StringValue mD5Hash_;
       /**
        * <pre>
        * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+       * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
        */
       public boolean hasMD5Hash() {
         return mD5Hash_ != null;
@@ -2638,30 +2638,30 @@ public final class CoGetMD5ForBinaryIDPu {
        * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+       * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
        */
-      public io.dstore.Values.stringValue getMD5Hash() {
-        return mD5Hash_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : mD5Hash_;
+      public io.dstore.values.StringValue getMD5Hash() {
+        return mD5Hash_ == null ? io.dstore.values.StringValue.getDefaultInstance() : mD5Hash_;
       }
       /**
        * <pre>
        * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+       * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getMD5HashOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getMD5HashOrBuilder() {
         return getMD5Hash();
       }
 
       public static final int CONTENT_TYPE_FIELD_NUMBER = 20001;
-      private io.dstore.Values.stringValue contentType_;
+      private io.dstore.values.StringValue contentType_;
       /**
        * <pre>
        * Das Format der Datei (z.B. "gif" oder "jpg")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+       * <code>optional .dstore.values.StringValue content_type = 20001;</code>
        */
       public boolean hasContentType() {
         return contentType_ != null;
@@ -2671,30 +2671,30 @@ public final class CoGetMD5ForBinaryIDPu {
        * Das Format der Datei (z.B. "gif" oder "jpg")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+       * <code>optional .dstore.values.StringValue content_type = 20001;</code>
        */
-      public io.dstore.Values.stringValue getContentType() {
-        return contentType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : contentType_;
+      public io.dstore.values.StringValue getContentType() {
+        return contentType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : contentType_;
       }
       /**
        * <pre>
        * Das Format der Datei (z.B. "gif" oder "jpg")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+       * <code>optional .dstore.values.StringValue content_type = 20001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getContentTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getContentTypeOrBuilder() {
         return getContentType();
       }
 
       public static final int FILE_DATE_AND_TIME_FIELD_NUMBER = 20002;
-      private io.dstore.Values.timestampValue fileDateAndTime_;
+      private io.dstore.values.TimestampValue fileDateAndTime_;
       /**
        * <pre>
        * Erstellungsdatum der Datei
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+       * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
        */
       public boolean hasFileDateAndTime() {
         return fileDateAndTime_ != null;
@@ -2704,30 +2704,30 @@ public final class CoGetMD5ForBinaryIDPu {
        * Erstellungsdatum der Datei
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+       * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
        */
-      public io.dstore.Values.timestampValue getFileDateAndTime() {
-        return fileDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fileDateAndTime_;
+      public io.dstore.values.TimestampValue getFileDateAndTime() {
+        return fileDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fileDateAndTime_;
       }
       /**
        * <pre>
        * Erstellungsdatum der Datei
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+       * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFileDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFileDateAndTimeOrBuilder() {
         return getFileDateAndTime();
       }
 
       public static final int FILESIZE_IN_K_B_FIELD_NUMBER = 20004;
-      private io.dstore.Values.integerValue filesizeInKB_;
+      private io.dstore.values.IntegerValue filesizeInKB_;
       /**
        * <pre>
        * Größe der Datei in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
        */
       public boolean hasFilesizeInKB() {
         return filesizeInKB_ != null;
@@ -2737,19 +2737,19 @@ public final class CoGetMD5ForBinaryIDPu {
        * Größe der Datei in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
        */
-      public io.dstore.Values.integerValue getFilesizeInKB() {
-        return filesizeInKB_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filesizeInKB_;
+      public io.dstore.values.IntegerValue getFilesizeInKB() {
+        return filesizeInKB_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : filesizeInKB_;
       }
       /**
        * <pre>
        * Größe der Datei in KiloBytes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFilesizeInKBOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFilesizeInKBOrBuilder() {
         return getFilesizeInKB();
       }
 
@@ -3168,15 +3168,15 @@ public final class CoGetMD5ForBinaryIDPu {
           return this;
         }
 
-        private io.dstore.Values.stringValue mD5Hash_ = null;
+        private io.dstore.values.StringValue mD5Hash_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> mD5HashBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> mD5HashBuilder_;
         /**
          * <pre>
          * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+         * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
          */
         public boolean hasMD5Hash() {
           return mD5HashBuilder_ != null || mD5Hash_ != null;
@@ -3186,11 +3186,11 @@ public final class CoGetMD5ForBinaryIDPu {
          * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+         * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
          */
-        public io.dstore.Values.stringValue getMD5Hash() {
+        public io.dstore.values.StringValue getMD5Hash() {
           if (mD5HashBuilder_ == null) {
-            return mD5Hash_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : mD5Hash_;
+            return mD5Hash_ == null ? io.dstore.values.StringValue.getDefaultInstance() : mD5Hash_;
           } else {
             return mD5HashBuilder_.getMessage();
           }
@@ -3200,9 +3200,9 @@ public final class CoGetMD5ForBinaryIDPu {
          * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+         * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
          */
-        public Builder setMD5Hash(io.dstore.Values.stringValue value) {
+        public Builder setMD5Hash(io.dstore.values.StringValue value) {
           if (mD5HashBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3220,10 +3220,10 @@ public final class CoGetMD5ForBinaryIDPu {
          * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+         * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
          */
         public Builder setMD5Hash(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (mD5HashBuilder_ == null) {
             mD5Hash_ = builderForValue.build();
             onChanged();
@@ -3238,13 +3238,13 @@ public final class CoGetMD5ForBinaryIDPu {
          * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+         * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
          */
-        public Builder mergeMD5Hash(io.dstore.Values.stringValue value) {
+        public Builder mergeMD5Hash(io.dstore.values.StringValue value) {
           if (mD5HashBuilder_ == null) {
             if (mD5Hash_ != null) {
               mD5Hash_ =
-                io.dstore.Values.stringValue.newBuilder(mD5Hash_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(mD5Hash_).mergeFrom(value).buildPartial();
             } else {
               mD5Hash_ = value;
             }
@@ -3260,7 +3260,7 @@ public final class CoGetMD5ForBinaryIDPu {
          * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+         * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
          */
         public Builder clearMD5Hash() {
           if (mD5HashBuilder_ == null) {
@@ -3278,9 +3278,9 @@ public final class CoGetMD5ForBinaryIDPu {
          * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+         * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getMD5HashBuilder() {
+        public io.dstore.values.StringValue.Builder getMD5HashBuilder() {
           
           onChanged();
           return getMD5HashFieldBuilder().getBuilder();
@@ -3290,14 +3290,14 @@ public final class CoGetMD5ForBinaryIDPu {
          * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+         * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getMD5HashOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getMD5HashOrBuilder() {
           if (mD5HashBuilder_ != null) {
             return mD5HashBuilder_.getMessageOrBuilder();
           } else {
             return mD5Hash_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : mD5Hash_;
+                io.dstore.values.StringValue.getDefaultInstance() : mD5Hash_;
           }
         }
         /**
@@ -3305,14 +3305,14 @@ public final class CoGetMD5ForBinaryIDPu {
          * Der "MD5-Hash" der durch "&#64;BinaryID" angegebenen Datei
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue m_d5_hash = 10001;</code>
+         * <code>optional .dstore.values.StringValue m_d5_hash = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getMD5HashFieldBuilder() {
           if (mD5HashBuilder_ == null) {
             mD5HashBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getMD5Hash(),
                     getParentForChildren(),
                     isClean());
@@ -3321,15 +3321,15 @@ public final class CoGetMD5ForBinaryIDPu {
           return mD5HashBuilder_;
         }
 
-        private io.dstore.Values.stringValue contentType_ = null;
+        private io.dstore.values.StringValue contentType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> contentTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> contentTypeBuilder_;
         /**
          * <pre>
          * Das Format der Datei (z.B. "gif" oder "jpg")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+         * <code>optional .dstore.values.StringValue content_type = 20001;</code>
          */
         public boolean hasContentType() {
           return contentTypeBuilder_ != null || contentType_ != null;
@@ -3339,11 +3339,11 @@ public final class CoGetMD5ForBinaryIDPu {
          * Das Format der Datei (z.B. "gif" oder "jpg")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+         * <code>optional .dstore.values.StringValue content_type = 20001;</code>
          */
-        public io.dstore.Values.stringValue getContentType() {
+        public io.dstore.values.StringValue getContentType() {
           if (contentTypeBuilder_ == null) {
-            return contentType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : contentType_;
+            return contentType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : contentType_;
           } else {
             return contentTypeBuilder_.getMessage();
           }
@@ -3353,9 +3353,9 @@ public final class CoGetMD5ForBinaryIDPu {
          * Das Format der Datei (z.B. "gif" oder "jpg")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+         * <code>optional .dstore.values.StringValue content_type = 20001;</code>
          */
-        public Builder setContentType(io.dstore.Values.stringValue value) {
+        public Builder setContentType(io.dstore.values.StringValue value) {
           if (contentTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3373,10 +3373,10 @@ public final class CoGetMD5ForBinaryIDPu {
          * Das Format der Datei (z.B. "gif" oder "jpg")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+         * <code>optional .dstore.values.StringValue content_type = 20001;</code>
          */
         public Builder setContentType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (contentTypeBuilder_ == null) {
             contentType_ = builderForValue.build();
             onChanged();
@@ -3391,13 +3391,13 @@ public final class CoGetMD5ForBinaryIDPu {
          * Das Format der Datei (z.B. "gif" oder "jpg")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+         * <code>optional .dstore.values.StringValue content_type = 20001;</code>
          */
-        public Builder mergeContentType(io.dstore.Values.stringValue value) {
+        public Builder mergeContentType(io.dstore.values.StringValue value) {
           if (contentTypeBuilder_ == null) {
             if (contentType_ != null) {
               contentType_ =
-                io.dstore.Values.stringValue.newBuilder(contentType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(contentType_).mergeFrom(value).buildPartial();
             } else {
               contentType_ = value;
             }
@@ -3413,7 +3413,7 @@ public final class CoGetMD5ForBinaryIDPu {
          * Das Format der Datei (z.B. "gif" oder "jpg")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+         * <code>optional .dstore.values.StringValue content_type = 20001;</code>
          */
         public Builder clearContentType() {
           if (contentTypeBuilder_ == null) {
@@ -3431,9 +3431,9 @@ public final class CoGetMD5ForBinaryIDPu {
          * Das Format der Datei (z.B. "gif" oder "jpg")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+         * <code>optional .dstore.values.StringValue content_type = 20001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getContentTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getContentTypeBuilder() {
           
           onChanged();
           return getContentTypeFieldBuilder().getBuilder();
@@ -3443,14 +3443,14 @@ public final class CoGetMD5ForBinaryIDPu {
          * Das Format der Datei (z.B. "gif" oder "jpg")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+         * <code>optional .dstore.values.StringValue content_type = 20001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getContentTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getContentTypeOrBuilder() {
           if (contentTypeBuilder_ != null) {
             return contentTypeBuilder_.getMessageOrBuilder();
           } else {
             return contentType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : contentType_;
+                io.dstore.values.StringValue.getDefaultInstance() : contentType_;
           }
         }
         /**
@@ -3458,14 +3458,14 @@ public final class CoGetMD5ForBinaryIDPu {
          * Das Format der Datei (z.B. "gif" oder "jpg")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue content_type = 20001;</code>
+         * <code>optional .dstore.values.StringValue content_type = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getContentTypeFieldBuilder() {
           if (contentTypeBuilder_ == null) {
             contentTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getContentType(),
                     getParentForChildren(),
                     isClean());
@@ -3474,15 +3474,15 @@ public final class CoGetMD5ForBinaryIDPu {
           return contentTypeBuilder_;
         }
 
-        private io.dstore.Values.timestampValue fileDateAndTime_ = null;
+        private io.dstore.values.TimestampValue fileDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fileDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fileDateAndTimeBuilder_;
         /**
          * <pre>
          * Erstellungsdatum der Datei
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+         * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
          */
         public boolean hasFileDateAndTime() {
           return fileDateAndTimeBuilder_ != null || fileDateAndTime_ != null;
@@ -3492,11 +3492,11 @@ public final class CoGetMD5ForBinaryIDPu {
          * Erstellungsdatum der Datei
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+         * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
          */
-        public io.dstore.Values.timestampValue getFileDateAndTime() {
+        public io.dstore.values.TimestampValue getFileDateAndTime() {
           if (fileDateAndTimeBuilder_ == null) {
-            return fileDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fileDateAndTime_;
+            return fileDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fileDateAndTime_;
           } else {
             return fileDateAndTimeBuilder_.getMessage();
           }
@@ -3506,9 +3506,9 @@ public final class CoGetMD5ForBinaryIDPu {
          * Erstellungsdatum der Datei
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+         * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
          */
-        public Builder setFileDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setFileDateAndTime(io.dstore.values.TimestampValue value) {
           if (fileDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3526,10 +3526,10 @@ public final class CoGetMD5ForBinaryIDPu {
          * Erstellungsdatum der Datei
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+         * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
          */
         public Builder setFileDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (fileDateAndTimeBuilder_ == null) {
             fileDateAndTime_ = builderForValue.build();
             onChanged();
@@ -3544,13 +3544,13 @@ public final class CoGetMD5ForBinaryIDPu {
          * Erstellungsdatum der Datei
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+         * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
          */
-        public Builder mergeFileDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeFileDateAndTime(io.dstore.values.TimestampValue value) {
           if (fileDateAndTimeBuilder_ == null) {
             if (fileDateAndTime_ != null) {
               fileDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(fileDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(fileDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               fileDateAndTime_ = value;
             }
@@ -3566,7 +3566,7 @@ public final class CoGetMD5ForBinaryIDPu {
          * Erstellungsdatum der Datei
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+         * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
          */
         public Builder clearFileDateAndTime() {
           if (fileDateAndTimeBuilder_ == null) {
@@ -3584,9 +3584,9 @@ public final class CoGetMD5ForBinaryIDPu {
          * Erstellungsdatum der Datei
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+         * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getFileDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getFileDateAndTimeBuilder() {
           
           onChanged();
           return getFileDateAndTimeFieldBuilder().getBuilder();
@@ -3596,14 +3596,14 @@ public final class CoGetMD5ForBinaryIDPu {
          * Erstellungsdatum der Datei
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+         * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getFileDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getFileDateAndTimeOrBuilder() {
           if (fileDateAndTimeBuilder_ != null) {
             return fileDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return fileDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : fileDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : fileDateAndTime_;
           }
         }
         /**
@@ -3611,14 +3611,14 @@ public final class CoGetMD5ForBinaryIDPu {
          * Erstellungsdatum der Datei
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue file_date_and_time = 20002;</code>
+         * <code>optional .dstore.values.TimestampValue file_date_and_time = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getFileDateAndTimeFieldBuilder() {
           if (fileDateAndTimeBuilder_ == null) {
             fileDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getFileDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -3627,15 +3627,15 @@ public final class CoGetMD5ForBinaryIDPu {
           return fileDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue filesizeInKB_ = null;
+        private io.dstore.values.IntegerValue filesizeInKB_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filesizeInKBBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> filesizeInKBBuilder_;
         /**
          * <pre>
          * Größe der Datei in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
          */
         public boolean hasFilesizeInKB() {
           return filesizeInKBBuilder_ != null || filesizeInKB_ != null;
@@ -3645,11 +3645,11 @@ public final class CoGetMD5ForBinaryIDPu {
          * Größe der Datei in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
          */
-        public io.dstore.Values.integerValue getFilesizeInKB() {
+        public io.dstore.values.IntegerValue getFilesizeInKB() {
           if (filesizeInKBBuilder_ == null) {
-            return filesizeInKB_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filesizeInKB_;
+            return filesizeInKB_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : filesizeInKB_;
           } else {
             return filesizeInKBBuilder_.getMessage();
           }
@@ -3659,9 +3659,9 @@ public final class CoGetMD5ForBinaryIDPu {
          * Größe der Datei in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
          */
-        public Builder setFilesizeInKB(io.dstore.Values.integerValue value) {
+        public Builder setFilesizeInKB(io.dstore.values.IntegerValue value) {
           if (filesizeInKBBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3679,10 +3679,10 @@ public final class CoGetMD5ForBinaryIDPu {
          * Größe der Datei in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
          */
         public Builder setFilesizeInKB(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (filesizeInKBBuilder_ == null) {
             filesizeInKB_ = builderForValue.build();
             onChanged();
@@ -3697,13 +3697,13 @@ public final class CoGetMD5ForBinaryIDPu {
          * Größe der Datei in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
          */
-        public Builder mergeFilesizeInKB(io.dstore.Values.integerValue value) {
+        public Builder mergeFilesizeInKB(io.dstore.values.IntegerValue value) {
           if (filesizeInKBBuilder_ == null) {
             if (filesizeInKB_ != null) {
               filesizeInKB_ =
-                io.dstore.Values.integerValue.newBuilder(filesizeInKB_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(filesizeInKB_).mergeFrom(value).buildPartial();
             } else {
               filesizeInKB_ = value;
             }
@@ -3719,7 +3719,7 @@ public final class CoGetMD5ForBinaryIDPu {
          * Größe der Datei in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
          */
         public Builder clearFilesizeInKB() {
           if (filesizeInKBBuilder_ == null) {
@@ -3737,9 +3737,9 @@ public final class CoGetMD5ForBinaryIDPu {
          * Größe der Datei in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getFilesizeInKBBuilder() {
+        public io.dstore.values.IntegerValue.Builder getFilesizeInKBBuilder() {
           
           onChanged();
           return getFilesizeInKBFieldBuilder().getBuilder();
@@ -3749,14 +3749,14 @@ public final class CoGetMD5ForBinaryIDPu {
          * Größe der Datei in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getFilesizeInKBOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getFilesizeInKBOrBuilder() {
           if (filesizeInKBBuilder_ != null) {
             return filesizeInKBBuilder_.getMessageOrBuilder();
           } else {
             return filesizeInKB_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : filesizeInKB_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : filesizeInKB_;
           }
         }
         /**
@@ -3764,14 +3764,14 @@ public final class CoGetMD5ForBinaryIDPu {
          * Größe der Datei in KiloBytes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue filesize_in_k_b = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue filesize_in_k_b = 20004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getFilesizeInKBFieldBuilder() {
           if (filesizeInKBBuilder_ == null) {
             filesizeInKBBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getFilesizeInKB(),
                     getParentForChildren(),
                     isClean());
@@ -5240,33 +5240,33 @@ public final class CoGetMD5ForBinaryIDPu {
       "inaryID_Pu.proto\022%dstore.engine.co_GetMD" +
       "5ForBinaryID_Pu\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\214\005\n\nParameters\022" +
-      "-\n\tunique_id\030\001 \001(\0132\032.dstore.values.strin" +
+      "-\n\tunique_id\030\001 \001(\0132\032.dstore.values.Strin" +
       "gValue\022\027\n\016unique_id_null\030\351\007 \001(\010\022@\n\034perso" +
       "n_identification_values\030\002 \001(\0132\032.dstore.v" +
-      "alues.stringValue\022*\n!person_identificati" +
+      "alues.StringValue\022*\n!person_identificati" +
       "on_values_null\030\352\007 \001(\010\0221\n\014community_id\030\003 " +
-      "\001(\0132\033.dstore.values.integerValue\022\032\n\021comm",
+      "\001(\0132\033.dstore.values.IntegerValue\022\032\n\021comm",
       "unity_id_null\030\353\007 \001(\010\0228\n\023community_member" +
-      "_id\030\004 \001(\0132\033.dstore.values.integerValue\022!" +
+      "_id\030\004 \001(\0132\033.dstore.values.IntegerValue\022!" +
       "\n\030community_member_id_null\030\354\007 \001(\010\022.\n\tbin" +
-      "ary_id\030\005 \001(\0132\033.dstore.values.integerValu" +
+      "ary_id\030\005 \001(\0132\033.dstore.values.IntegerValu" +
       "e\022\027\n\016binary_id_null\030\355\007 \001(\010\022B\n\035additional" +
       "_binary_information\030\006 \001(\0132\033.dstore.value" +
-      "s.booleanValue\022+\n\"additional_binary_info" +
+      "s.BooleanValue\022+\n\"additional_binary_info" +
       "rmation_null\030\356\007 \001(\010\022;\n\027separator_in_iden" +
-      "t_vals\030\007 \001(\0132\032.dstore.values.stringValue" +
+      "t_vals\030\007 \001(\0132\032.dstore.values.StringValue" +
       "\022%\n\034separator_in_ident_vals_null\030\357\007 \001(\010\"",
       "\241\003\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036" +
       ".dstore.engine.MetaInformation\022\'\n\007messag" +
       "e\030\003 \003(\0132\026.dstore.engine.Message\022@\n\003row\030\004" +
       " \003(\01323.dstore.engine.co_GetMD5ForBinaryI" +
       "D_Pu.Response.Row\032\357\001\n\003Row\022\017\n\006row_id\030\220N \001" +
-      "(\005\022.\n\tm_d5_hash\030\221N \001(\0132\032.dstore.values.s" +
+      "(\005\022.\n\tm_d5_hash\030\221N \001(\0132\032.dstore.values.S" +
       "tringValue\0222\n\014content_type\030\241\234\001 \001(\0132\032.dst" +
-      "ore.values.stringValue\022;\n\022file_date_and_" +
-      "time\030\242\234\001 \001(\0132\035.dstore.values.timestampVa" +
+      "ore.values.StringValue\022;\n\022file_date_and_" +
+      "time\030\242\234\001 \001(\0132\035.dstore.values.TimestampVa" +
       "lue\0226\n\017filesize_in_k_b\030\244\234\001 \001(\0132\033.dstore.",
-      "values.integerValueBX\n\033io.dstore.engine." +
+      "values.IntegerValueBX\n\033io.dstore.engine." +
       "proceduresZ9gosdk.dstore.de/engine/proce" +
       "dures/co_GetMD5ForBinaryID_Pub\006proto3"
     };
@@ -5281,7 +5281,7 @@ public final class CoGetMD5ForBinaryIDPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_GetMD5ForBinaryID_Pu_Parameters_descriptor =
@@ -5302,7 +5302,7 @@ public final class CoGetMD5ForBinaryIDPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetMD5ForBinaryID_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "MD5Hash", "ContentType", "FileDateAndTime", "FilesizeInKB", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

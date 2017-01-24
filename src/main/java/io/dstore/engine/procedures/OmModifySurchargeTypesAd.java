@@ -19,17 +19,17 @@ public final class OmModifySurchargeTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     boolean hasSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getSurchargeTypeId();
+    io.dstore.values.IntegerValue getSurchargeTypeId();
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
     /**
      * <code>optional bool surcharge_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifySurchargeTypesAd {
     boolean getSurchargeTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
      */
     boolean hasSurchargeTypeDescription();
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
      */
-    io.dstore.Values.stringValue getSurchargeTypeDescription();
+    io.dstore.values.StringValue getSurchargeTypeDescription();
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder();
 
     /**
      * <code>optional bool surcharge_type_description_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifySurchargeTypesAd {
     boolean getSurchargeTypeDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue relative = 3;</code>
+     * <code>optional .dstore.values.BooleanValue relative = 3;</code>
      */
     boolean hasRelative();
     /**
-     * <code>optional .dstore.values.booleanValue relative = 3;</code>
+     * <code>optional .dstore.values.BooleanValue relative = 3;</code>
      */
-    io.dstore.Values.booleanValue getRelative();
+    io.dstore.values.BooleanValue getRelative();
     /**
-     * <code>optional .dstore.values.booleanValue relative = 3;</code>
+     * <code>optional .dstore.values.BooleanValue relative = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getRelativeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getRelativeOrBuilder();
 
     /**
      * <code>optional bool relative_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmModifySurchargeTypesAd {
     boolean getRelativeNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+     * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
      */
     boolean hasBrutto();
     /**
-     * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+     * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
      */
-    io.dstore.Values.booleanValue getBrutto();
+    io.dstore.values.BooleanValue getBrutto();
     /**
-     * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+     * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getBruttoOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getBruttoOrBuilder();
 
     /**
      * <code>optional bool brutto_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmModifySurchargeTypesAd {
     boolean getBruttoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
      */
     boolean hasUnitId();
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
      */
-    io.dstore.Values.integerValue getUnitId();
+    io.dstore.values.IntegerValue getUnitId();
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder();
 
     /**
      * <code>optional bool unit_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmModifySurchargeTypesAd {
     boolean getUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
      */
     boolean hasDeleteSurchargeType();
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
      */
-    io.dstore.Values.booleanValue getDeleteSurchargeType();
+    io.dstore.values.BooleanValue getDeleteSurchargeType();
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteSurchargeTypeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteSurchargeTypeOrBuilder();
 
     /**
      * <code>optional bool delete_surcharge_type_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class OmModifySurchargeTypesAd {
     boolean getDeleteSurchargeTypeNull();
 
     /**
-     * <code>optional .dstore.values.integerValue category_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
      */
     boolean hasCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue category_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
      */
-    io.dstore.Values.integerValue getCategoryId();
+    io.dstore.values.IntegerValue getCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue category_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCategoryIdOrBuilder();
 
     /**
      * <code>optional bool category_id_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class OmModifySurchargeTypesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (surchargeTypeId_ != null) {
                 subBuilder = surchargeTypeId_.toBuilder();
               }
-              surchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              surchargeTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(surchargeTypeId_);
                 surchargeTypeId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class OmModifySurchargeTypesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (surchargeTypeDescription_ != null) {
                 subBuilder = surchargeTypeDescription_.toBuilder();
               }
-              surchargeTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              surchargeTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(surchargeTypeDescription_);
                 surchargeTypeDescription_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class OmModifySurchargeTypesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (relative_ != null) {
                 subBuilder = relative_.toBuilder();
               }
-              relative_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              relative_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(relative_);
                 relative_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class OmModifySurchargeTypesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (brutto_ != null) {
                 subBuilder = brutto_.toBuilder();
               }
-              brutto_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              brutto_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(brutto_);
                 brutto_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class OmModifySurchargeTypesAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (unitId_ != null) {
                 subBuilder = unitId_.toBuilder();
               }
-              unitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              unitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(unitId_);
                 unitId_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class OmModifySurchargeTypesAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteSurchargeType_ != null) {
                 subBuilder = deleteSurchargeType_.toBuilder();
               }
-              deleteSurchargeType_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteSurchargeType_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteSurchargeType_);
                 deleteSurchargeType_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class OmModifySurchargeTypesAd {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (categoryId_ != null) {
                 subBuilder = categoryId_.toBuilder();
               }
-              categoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              categoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(categoryId_);
                 categoryId_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class OmModifySurchargeTypesAd {
     }
 
     public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue surchargeTypeId_;
+    private io.dstore.values.IntegerValue surchargeTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
     public boolean hasSurchargeTypeId() {
       return surchargeTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getSurchargeTypeId() {
-      return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+    public io.dstore.values.IntegerValue getSurchargeTypeId() {
+      return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
       return getSurchargeTypeId();
     }
 
@@ -370,23 +370,23 @@ public final class OmModifySurchargeTypesAd {
     }
 
     public static final int SURCHARGE_TYPE_DESCRIPTION_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue surchargeTypeDescription_;
+    private io.dstore.values.StringValue surchargeTypeDescription_;
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
      */
     public boolean hasSurchargeTypeDescription() {
       return surchargeTypeDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
      */
-    public io.dstore.Values.stringValue getSurchargeTypeDescription() {
-      return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+    public io.dstore.values.StringValue getSurchargeTypeDescription() {
+      return surchargeTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+     * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
       return getSurchargeTypeDescription();
     }
 
@@ -400,23 +400,23 @@ public final class OmModifySurchargeTypesAd {
     }
 
     public static final int RELATIVE_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue relative_;
+    private io.dstore.values.BooleanValue relative_;
     /**
-     * <code>optional .dstore.values.booleanValue relative = 3;</code>
+     * <code>optional .dstore.values.BooleanValue relative = 3;</code>
      */
     public boolean hasRelative() {
       return relative_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue relative = 3;</code>
+     * <code>optional .dstore.values.BooleanValue relative = 3;</code>
      */
-    public io.dstore.Values.booleanValue getRelative() {
-      return relative_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : relative_;
+    public io.dstore.values.BooleanValue getRelative() {
+      return relative_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : relative_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue relative = 3;</code>
+     * <code>optional .dstore.values.BooleanValue relative = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getRelativeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getRelativeOrBuilder() {
       return getRelative();
     }
 
@@ -430,23 +430,23 @@ public final class OmModifySurchargeTypesAd {
     }
 
     public static final int BRUTTO_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue brutto_;
+    private io.dstore.values.BooleanValue brutto_;
     /**
-     * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+     * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
      */
     public boolean hasBrutto() {
       return brutto_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+     * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
      */
-    public io.dstore.Values.booleanValue getBrutto() {
-      return brutto_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : brutto_;
+    public io.dstore.values.BooleanValue getBrutto() {
+      return brutto_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : brutto_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+     * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getBruttoOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getBruttoOrBuilder() {
       return getBrutto();
     }
 
@@ -460,23 +460,23 @@ public final class OmModifySurchargeTypesAd {
     }
 
     public static final int UNIT_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue unitId_;
+    private io.dstore.values.IntegerValue unitId_;
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
      */
     public boolean hasUnitId() {
       return unitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getUnitId() {
-      return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+    public io.dstore.values.IntegerValue getUnitId() {
+      return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
       return getUnitId();
     }
 
@@ -490,23 +490,23 @@ public final class OmModifySurchargeTypesAd {
     }
 
     public static final int DELETE_SURCHARGE_TYPE_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue deleteSurchargeType_;
+    private io.dstore.values.BooleanValue deleteSurchargeType_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
      */
     public boolean hasDeleteSurchargeType() {
       return deleteSurchargeType_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteSurchargeType() {
-      return deleteSurchargeType_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteSurchargeType_;
+    public io.dstore.values.BooleanValue getDeleteSurchargeType() {
+      return deleteSurchargeType_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteSurchargeType_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteSurchargeTypeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteSurchargeTypeOrBuilder() {
       return getDeleteSurchargeType();
     }
 
@@ -520,23 +520,23 @@ public final class OmModifySurchargeTypesAd {
     }
 
     public static final int CATEGORY_ID_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue categoryId_;
+    private io.dstore.values.IntegerValue categoryId_;
     /**
-     * <code>optional .dstore.values.integerValue category_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
      */
     public boolean hasCategoryId() {
       return categoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue category_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
      */
-    public io.dstore.Values.integerValue getCategoryId() {
-      return categoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : categoryId_;
+    public io.dstore.values.IntegerValue getCategoryId() {
+      return categoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : categoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue category_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCategoryIdOrBuilder() {
       return getCategoryId();
     }
 
@@ -1137,29 +1137,29 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue surchargeTypeId_ = null;
+      private io.dstore.values.IntegerValue surchargeTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getSurchargeTypeId() {
+      public io.dstore.values.IntegerValue getSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
-          return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+          return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
         } else {
           return surchargeTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
+      public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public Builder setSurchargeTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeId_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
         if (surchargeTypeIdBuilder_ == null) {
           if (surchargeTypeId_ != null) {
             surchargeTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
           } else {
             surchargeTypeId_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       public Builder clearSurchargeTypeId() {
         if (surchargeTypeIdBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
         
         onChanged();
         return getSurchargeTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         if (surchargeTypeIdBuilder_ != null) {
           return surchargeTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return surchargeTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSurchargeTypeIdFieldBuilder() {
         if (surchargeTypeIdBuilder_ == null) {
           surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSurchargeTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue surchargeTypeDescription_ = null;
+      private io.dstore.values.StringValue surchargeTypeDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> surchargeTypeDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> surchargeTypeDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
        */
       public boolean hasSurchargeTypeDescription() {
         return surchargeTypeDescriptionBuilder_ != null || surchargeTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
        */
-      public io.dstore.Values.stringValue getSurchargeTypeDescription() {
+      public io.dstore.values.StringValue getSurchargeTypeDescription() {
         if (surchargeTypeDescriptionBuilder_ == null) {
-          return surchargeTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+          return surchargeTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
         } else {
           return surchargeTypeDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
        */
-      public Builder setSurchargeTypeDescription(io.dstore.Values.stringValue value) {
+      public Builder setSurchargeTypeDescription(io.dstore.values.StringValue value) {
         if (surchargeTypeDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
        */
       public Builder setSurchargeTypeDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (surchargeTypeDescriptionBuilder_ == null) {
           surchargeTypeDescription_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
        */
-      public Builder mergeSurchargeTypeDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeSurchargeTypeDescription(io.dstore.values.StringValue value) {
         if (surchargeTypeDescriptionBuilder_ == null) {
           if (surchargeTypeDescription_ != null) {
             surchargeTypeDescription_ =
-              io.dstore.Values.stringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(surchargeTypeDescription_).mergeFrom(value).buildPartial();
           } else {
             surchargeTypeDescription_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
        */
       public Builder clearSurchargeTypeDescription() {
         if (surchargeTypeDescriptionBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSurchargeTypeDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getSurchargeTypeDescriptionBuilder() {
         
         onChanged();
         return getSurchargeTypeDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSurchargeTypeDescriptionOrBuilder() {
         if (surchargeTypeDescriptionBuilder_ != null) {
           return surchargeTypeDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return surchargeTypeDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : surchargeTypeDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : surchargeTypeDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue surcharge_type_description = 2;</code>
+       * <code>optional .dstore.values.StringValue surcharge_type_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSurchargeTypeDescriptionFieldBuilder() {
         if (surchargeTypeDescriptionBuilder_ == null) {
           surchargeTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSurchargeTypeDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue relative_ = null;
+      private io.dstore.values.BooleanValue relative_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> relativeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> relativeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue relative = 3;</code>
+       * <code>optional .dstore.values.BooleanValue relative = 3;</code>
        */
       public boolean hasRelative() {
         return relativeBuilder_ != null || relative_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 3;</code>
+       * <code>optional .dstore.values.BooleanValue relative = 3;</code>
        */
-      public io.dstore.Values.booleanValue getRelative() {
+      public io.dstore.values.BooleanValue getRelative() {
         if (relativeBuilder_ == null) {
-          return relative_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : relative_;
+          return relative_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : relative_;
         } else {
           return relativeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 3;</code>
+       * <code>optional .dstore.values.BooleanValue relative = 3;</code>
        */
-      public Builder setRelative(io.dstore.Values.booleanValue value) {
+      public Builder setRelative(io.dstore.values.BooleanValue value) {
         if (relativeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 3;</code>
+       * <code>optional .dstore.values.BooleanValue relative = 3;</code>
        */
       public Builder setRelative(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (relativeBuilder_ == null) {
           relative_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 3;</code>
+       * <code>optional .dstore.values.BooleanValue relative = 3;</code>
        */
-      public Builder mergeRelative(io.dstore.Values.booleanValue value) {
+      public Builder mergeRelative(io.dstore.values.BooleanValue value) {
         if (relativeBuilder_ == null) {
           if (relative_ != null) {
             relative_ =
-              io.dstore.Values.booleanValue.newBuilder(relative_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(relative_).mergeFrom(value).buildPartial();
           } else {
             relative_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 3;</code>
+       * <code>optional .dstore.values.BooleanValue relative = 3;</code>
        */
       public Builder clearRelative() {
         if (relativeBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 3;</code>
+       * <code>optional .dstore.values.BooleanValue relative = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getRelativeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getRelativeBuilder() {
         
         onChanged();
         return getRelativeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 3;</code>
+       * <code>optional .dstore.values.BooleanValue relative = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getRelativeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getRelativeOrBuilder() {
         if (relativeBuilder_ != null) {
           return relativeBuilder_.getMessageOrBuilder();
         } else {
           return relative_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : relative_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : relative_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue relative = 3;</code>
+       * <code>optional .dstore.values.BooleanValue relative = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getRelativeFieldBuilder() {
         if (relativeBuilder_ == null) {
           relativeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getRelative(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue brutto_ = null;
+      private io.dstore.values.BooleanValue brutto_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> bruttoBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> bruttoBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+       * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
        */
       public boolean hasBrutto() {
         return bruttoBuilder_ != null || brutto_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+       * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
        */
-      public io.dstore.Values.booleanValue getBrutto() {
+      public io.dstore.values.BooleanValue getBrutto() {
         if (bruttoBuilder_ == null) {
-          return brutto_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : brutto_;
+          return brutto_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : brutto_;
         } else {
           return bruttoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+       * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
        */
-      public Builder setBrutto(io.dstore.Values.booleanValue value) {
+      public Builder setBrutto(io.dstore.values.BooleanValue value) {
         if (bruttoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+       * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
        */
       public Builder setBrutto(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (bruttoBuilder_ == null) {
           brutto_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+       * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
        */
-      public Builder mergeBrutto(io.dstore.Values.booleanValue value) {
+      public Builder mergeBrutto(io.dstore.values.BooleanValue value) {
         if (bruttoBuilder_ == null) {
           if (brutto_ != null) {
             brutto_ =
-              io.dstore.Values.booleanValue.newBuilder(brutto_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(brutto_).mergeFrom(value).buildPartial();
           } else {
             brutto_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+       * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
        */
       public Builder clearBrutto() {
         if (bruttoBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+       * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getBruttoBuilder() {
+      public io.dstore.values.BooleanValue.Builder getBruttoBuilder() {
         
         onChanged();
         return getBruttoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+       * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getBruttoOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getBruttoOrBuilder() {
         if (bruttoBuilder_ != null) {
           return bruttoBuilder_.getMessageOrBuilder();
         } else {
           return brutto_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : brutto_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : brutto_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue brutto = 4;</code>
+       * <code>optional .dstore.values.BooleanValue brutto = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getBruttoFieldBuilder() {
         if (bruttoBuilder_ == null) {
           bruttoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getBrutto(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue unitId_ = null;
+      private io.dstore.values.IntegerValue unitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
        */
       public boolean hasUnitId() {
         return unitIdBuilder_ != null || unitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getUnitId() {
+      public io.dstore.values.IntegerValue getUnitId() {
         if (unitIdBuilder_ == null) {
-          return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+          return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
         } else {
           return unitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
        */
-      public Builder setUnitId(io.dstore.Values.integerValue value) {
+      public Builder setUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
        */
       public Builder setUnitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (unitIdBuilder_ == null) {
           unitId_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
        */
-      public Builder mergeUnitId(io.dstore.Values.integerValue value) {
+      public Builder mergeUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
           if (unitId_ != null) {
             unitId_ =
-              io.dstore.Values.integerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
           } else {
             unitId_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
        */
       public Builder clearUnitId() {
         if (unitIdBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUnitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUnitIdBuilder() {
         
         onChanged();
         return getUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
         if (unitIdBuilder_ != null) {
           return unitIdBuilder_.getMessageOrBuilder();
         } else {
           return unitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUnitIdFieldBuilder() {
         if (unitIdBuilder_ == null) {
           unitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUnitId(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteSurchargeType_ = null;
+      private io.dstore.values.BooleanValue deleteSurchargeType_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteSurchargeTypeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteSurchargeTypeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
        */
       public boolean hasDeleteSurchargeType() {
         return deleteSurchargeTypeBuilder_ != null || deleteSurchargeType_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteSurchargeType() {
+      public io.dstore.values.BooleanValue getDeleteSurchargeType() {
         if (deleteSurchargeTypeBuilder_ == null) {
-          return deleteSurchargeType_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteSurchargeType_;
+          return deleteSurchargeType_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteSurchargeType_;
         } else {
           return deleteSurchargeTypeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
        */
-      public Builder setDeleteSurchargeType(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteSurchargeType(io.dstore.values.BooleanValue value) {
         if (deleteSurchargeTypeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
        */
       public Builder setDeleteSurchargeType(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteSurchargeTypeBuilder_ == null) {
           deleteSurchargeType_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
        */
-      public Builder mergeDeleteSurchargeType(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteSurchargeType(io.dstore.values.BooleanValue value) {
         if (deleteSurchargeTypeBuilder_ == null) {
           if (deleteSurchargeType_ != null) {
             deleteSurchargeType_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteSurchargeType_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteSurchargeType_).mergeFrom(value).buildPartial();
           } else {
             deleteSurchargeType_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
        */
       public Builder clearDeleteSurchargeType() {
         if (deleteSurchargeTypeBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteSurchargeTypeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteSurchargeTypeBuilder() {
         
         onChanged();
         return getDeleteSurchargeTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteSurchargeTypeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteSurchargeTypeOrBuilder() {
         if (deleteSurchargeTypeBuilder_ != null) {
           return deleteSurchargeTypeBuilder_.getMessageOrBuilder();
         } else {
           return deleteSurchargeType_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteSurchargeType_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteSurchargeType_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_surcharge_type = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_surcharge_type = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteSurchargeTypeFieldBuilder() {
         if (deleteSurchargeTypeBuilder_ == null) {
           deleteSurchargeTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteSurchargeType(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue categoryId_ = null;
+      private io.dstore.values.IntegerValue categoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> categoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> categoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue category_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
        */
       public boolean hasCategoryId() {
         return categoryIdBuilder_ != null || categoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue category_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
        */
-      public io.dstore.Values.integerValue getCategoryId() {
+      public io.dstore.values.IntegerValue getCategoryId() {
         if (categoryIdBuilder_ == null) {
-          return categoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : categoryId_;
+          return categoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : categoryId_;
         } else {
           return categoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue category_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
        */
-      public Builder setCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setCategoryId(io.dstore.values.IntegerValue value) {
         if (categoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue category_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
        */
       public Builder setCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (categoryIdBuilder_ == null) {
           categoryId_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue category_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
        */
-      public Builder mergeCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergeCategoryId(io.dstore.values.IntegerValue value) {
         if (categoryIdBuilder_ == null) {
           if (categoryId_ != null) {
             categoryId_ =
-              io.dstore.Values.integerValue.newBuilder(categoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(categoryId_).mergeFrom(value).buildPartial();
           } else {
             categoryId_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue category_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
        */
       public Builder clearCategoryId() {
         if (categoryIdBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class OmModifySurchargeTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue category_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCategoryIdBuilder() {
         
         onChanged();
         return getCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue category_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCategoryIdOrBuilder() {
         if (categoryIdBuilder_ != null) {
           return categoryIdBuilder_.getMessageOrBuilder();
         } else {
           return categoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : categoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : categoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue category_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue category_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCategoryIdFieldBuilder() {
         if (categoryIdBuilder_ == null) {
           categoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -4225,19 +4225,19 @@ public final class OmModifySurchargeTypesAd {
       "difySurchargeTypes_Ad\032\023dstore/values.pro" +
       "to\032\032dstore/engine/engine.proto\"\314\004\n\nParam" +
       "eters\0226\n\021surcharge_type_id\030\001 \001(\0132\033.dstor" +
-      "e.values.integerValue\022\037\n\026surcharge_type_" +
+      "e.values.IntegerValue\022\037\n\026surcharge_type_" +
       "id_null\030\351\007 \001(\010\022>\n\032surcharge_type_descrip" +
-      "tion\030\002 \001(\0132\032.dstore.values.stringValue\022(" +
+      "tion\030\002 \001(\0132\032.dstore.values.StringValue\022(" +
       "\n\037surcharge_type_description_null\030\352\007 \001(\010" +
-      "\022-\n\010relative\030\003 \001(\0132\033.dstore.values.boole",
+      "\022-\n\010relative\030\003 \001(\0132\033.dstore.values.Boole",
       "anValue\022\026\n\rrelative_null\030\353\007 \001(\010\022+\n\006brutt" +
-      "o\030\004 \001(\0132\033.dstore.values.booleanValue\022\024\n\013" +
+      "o\030\004 \001(\0132\033.dstore.values.BooleanValue\022\024\n\013" +
       "brutto_null\030\354\007 \001(\010\022,\n\007unit_id\030\005 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\025\n\014unit_id_null" +
+      "tore.values.IntegerValue\022\025\n\014unit_id_null" +
       "\030\355\007 \001(\010\022:\n\025delete_surcharge_type\030\006 \001(\0132\033" +
-      ".dstore.values.booleanValue\022#\n\032delete_su" +
+      ".dstore.values.BooleanValue\022#\n\032delete_su" +
       "rcharge_type_null\030\356\007 \001(\010\0220\n\013category_id\030" +
-      "\007 \001(\0132\033.dstore.values.integerValue\022\031\n\020ca" +
+      "\007 \001(\0132\033.dstore.values.IntegerValue\022\031\n\020ca" +
       "tegory_id_null\030\357\007 \001(\010\"\312\001\n\010Response\0228\n\020me" +
       "ta_information\030\002 \003(\0132\036.dstore.engine.Met",
       "aInformation\022\'\n\007message\030\003 \003(\0132\026.dstore.e" +
@@ -4259,7 +4259,7 @@ public final class OmModifySurchargeTypesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifySurchargeTypes_Ad_Parameters_descriptor =
@@ -4280,7 +4280,7 @@ public final class OmModifySurchargeTypesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifySurchargeTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

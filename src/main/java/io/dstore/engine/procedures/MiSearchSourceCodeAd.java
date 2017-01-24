@@ -19,17 +19,17 @@ public final class MiSearchSourceCodeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+     * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
      */
     boolean hasSearchPattern();
     /**
-     * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+     * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
      */
-    io.dstore.Values.stringValue getSearchPattern();
+    io.dstore.values.StringValue getSearchPattern();
     /**
-     * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+     * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSearchPatternOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSearchPatternOrBuilder();
 
     /**
      * <code>optional bool search_pattern_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiSearchSourceCodeAd {
     boolean getSearchPatternNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
     boolean hasCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
-    io.dstore.Values.booleanValue getCaseSensitive();
+    io.dstore.values.BooleanValue getCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder();
 
     /**
      * <code>optional bool case_sensitive_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiSearchSourceCodeAd {
     boolean getCaseSensitiveNull();
 
     /**
-     * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+     * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
      */
     boolean hasDoNotSearchInCommentPart();
     /**
-     * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+     * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
      */
-    io.dstore.Values.integerValue getDoNotSearchInCommentPart();
+    io.dstore.values.IntegerValue getDoNotSearchInCommentPart();
     /**
-     * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+     * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getDoNotSearchInCommentPartOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getDoNotSearchInCommentPartOrBuilder();
 
     /**
      * <code>optional bool do_not_search_in_comment_part_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiSearchSourceCodeAd {
     boolean getDoNotSearchInCommentPartNull();
 
     /**
-     * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+     * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
      */
     boolean hasSearchOnlyThisObjectName();
     /**
-     * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+     * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
      */
-    io.dstore.Values.stringValue getSearchOnlyThisObjectName();
+    io.dstore.values.StringValue getSearchOnlyThisObjectName();
     /**
-     * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+     * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSearchOnlyThisObjectNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSearchOnlyThisObjectNameOrBuilder();
 
     /**
      * <code>optional bool search_only_this_object_name_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiSearchSourceCodeAd {
     boolean getSearchOnlyThisObjectNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+     * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
      */
     boolean hasSearchOnlyObjectType();
     /**
-     * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+     * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
      */
-    io.dstore.Values.stringValue getSearchOnlyObjectType();
+    io.dstore.values.StringValue getSearchOnlyObjectType();
     /**
-     * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+     * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSearchOnlyObjectTypeOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSearchOnlyObjectTypeOrBuilder();
 
     /**
      * <code>optional bool search_only_object_type_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiSearchSourceCodeAd {
     boolean getSearchOnlyObjectTypeNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+     * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
      */
     boolean hasGetDistinctObjectNamesOnly();
     /**
-     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+     * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
      */
-    io.dstore.Values.booleanValue getGetDistinctObjectNamesOnly();
+    io.dstore.values.BooleanValue getGetDistinctObjectNamesOnly();
     /**
-     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+     * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder();
 
     /**
      * <code>optional bool get_distinct_object_names_only_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class MiSearchSourceCodeAd {
     boolean getGetDistinctObjectNamesOnlyNull();
 
     /**
-     * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+     * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
      */
     boolean hasSearchObjectsWithNameLike();
     /**
-     * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+     * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
      */
-    io.dstore.Values.stringValue getSearchObjectsWithNameLike();
+    io.dstore.values.StringValue getSearchObjectsWithNameLike();
     /**
-     * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+     * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSearchObjectsWithNameLikeOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSearchObjectsWithNameLikeOrBuilder();
 
     /**
      * <code>optional bool search_objects_with_name_like_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class MiSearchSourceCodeAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (searchPattern_ != null) {
                 subBuilder = searchPattern_.toBuilder();
               }
-              searchPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              searchPattern_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchPattern_);
                 searchPattern_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class MiSearchSourceCodeAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (caseSensitive_ != null) {
                 subBuilder = caseSensitive_.toBuilder();
               }
-              caseSensitive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              caseSensitive_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(caseSensitive_);
                 caseSensitive_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class MiSearchSourceCodeAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (doNotSearchInCommentPart_ != null) {
                 subBuilder = doNotSearchInCommentPart_.toBuilder();
               }
-              doNotSearchInCommentPart_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              doNotSearchInCommentPart_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(doNotSearchInCommentPart_);
                 doNotSearchInCommentPart_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class MiSearchSourceCodeAd {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (searchOnlyThisObjectName_ != null) {
                 subBuilder = searchOnlyThisObjectName_.toBuilder();
               }
-              searchOnlyThisObjectName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              searchOnlyThisObjectName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchOnlyThisObjectName_);
                 searchOnlyThisObjectName_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class MiSearchSourceCodeAd {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (searchOnlyObjectType_ != null) {
                 subBuilder = searchOnlyObjectType_.toBuilder();
               }
-              searchOnlyObjectType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              searchOnlyObjectType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchOnlyObjectType_);
                 searchOnlyObjectType_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class MiSearchSourceCodeAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (getDistinctObjectNamesOnly_ != null) {
                 subBuilder = getDistinctObjectNamesOnly_.toBuilder();
               }
-              getDistinctObjectNamesOnly_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              getDistinctObjectNamesOnly_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getDistinctObjectNamesOnly_);
                 getDistinctObjectNamesOnly_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class MiSearchSourceCodeAd {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (searchObjectsWithNameLike_ != null) {
                 subBuilder = searchObjectsWithNameLike_.toBuilder();
               }
-              searchObjectsWithNameLike_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              searchObjectsWithNameLike_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchObjectsWithNameLike_);
                 searchObjectsWithNameLike_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class MiSearchSourceCodeAd {
     }
 
     public static final int SEARCH_PATTERN_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue searchPattern_;
+    private io.dstore.values.StringValue searchPattern_;
     /**
-     * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+     * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
      */
     public boolean hasSearchPattern() {
       return searchPattern_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+     * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
      */
-    public io.dstore.Values.stringValue getSearchPattern() {
-      return searchPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchPattern_;
+    public io.dstore.values.StringValue getSearchPattern() {
+      return searchPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchPattern_;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+     * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSearchPatternOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSearchPatternOrBuilder() {
       return getSearchPattern();
     }
 
@@ -370,23 +370,23 @@ public final class MiSearchSourceCodeAd {
     }
 
     public static final int CASE_SENSITIVE_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue caseSensitive_;
+    private io.dstore.values.BooleanValue caseSensitive_;
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
     public boolean hasCaseSensitive() {
       return caseSensitive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
-    public io.dstore.Values.booleanValue getCaseSensitive() {
-      return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+    public io.dstore.values.BooleanValue getCaseSensitive() {
+      return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
       return getCaseSensitive();
     }
 
@@ -400,23 +400,23 @@ public final class MiSearchSourceCodeAd {
     }
 
     public static final int DO_NOT_SEARCH_IN_COMMENT_PART_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue doNotSearchInCommentPart_;
+    private io.dstore.values.IntegerValue doNotSearchInCommentPart_;
     /**
-     * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+     * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
      */
     public boolean hasDoNotSearchInCommentPart() {
       return doNotSearchInCommentPart_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+     * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
      */
-    public io.dstore.Values.integerValue getDoNotSearchInCommentPart() {
-      return doNotSearchInCommentPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : doNotSearchInCommentPart_;
+    public io.dstore.values.IntegerValue getDoNotSearchInCommentPart() {
+      return doNotSearchInCommentPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : doNotSearchInCommentPart_;
     }
     /**
-     * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+     * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getDoNotSearchInCommentPartOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getDoNotSearchInCommentPartOrBuilder() {
       return getDoNotSearchInCommentPart();
     }
 
@@ -430,23 +430,23 @@ public final class MiSearchSourceCodeAd {
     }
 
     public static final int SEARCH_ONLY_THIS_OBJECT_NAME_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue searchOnlyThisObjectName_;
+    private io.dstore.values.StringValue searchOnlyThisObjectName_;
     /**
-     * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+     * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
      */
     public boolean hasSearchOnlyThisObjectName() {
       return searchOnlyThisObjectName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+     * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
      */
-    public io.dstore.Values.stringValue getSearchOnlyThisObjectName() {
-      return searchOnlyThisObjectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchOnlyThisObjectName_;
+    public io.dstore.values.StringValue getSearchOnlyThisObjectName() {
+      return searchOnlyThisObjectName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchOnlyThisObjectName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+     * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSearchOnlyThisObjectNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSearchOnlyThisObjectNameOrBuilder() {
       return getSearchOnlyThisObjectName();
     }
 
@@ -460,23 +460,23 @@ public final class MiSearchSourceCodeAd {
     }
 
     public static final int SEARCH_ONLY_OBJECT_TYPE_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue searchOnlyObjectType_;
+    private io.dstore.values.StringValue searchOnlyObjectType_;
     /**
-     * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+     * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
      */
     public boolean hasSearchOnlyObjectType() {
       return searchOnlyObjectType_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+     * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
      */
-    public io.dstore.Values.stringValue getSearchOnlyObjectType() {
-      return searchOnlyObjectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchOnlyObjectType_;
+    public io.dstore.values.StringValue getSearchOnlyObjectType() {
+      return searchOnlyObjectType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchOnlyObjectType_;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+     * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSearchOnlyObjectTypeOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSearchOnlyObjectTypeOrBuilder() {
       return getSearchOnlyObjectType();
     }
 
@@ -490,23 +490,23 @@ public final class MiSearchSourceCodeAd {
     }
 
     public static final int GET_DISTINCT_OBJECT_NAMES_ONLY_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue getDistinctObjectNamesOnly_;
+    private io.dstore.values.BooleanValue getDistinctObjectNamesOnly_;
     /**
-     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+     * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
      */
     public boolean hasGetDistinctObjectNamesOnly() {
       return getDistinctObjectNamesOnly_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+     * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
      */
-    public io.dstore.Values.booleanValue getGetDistinctObjectNamesOnly() {
-      return getDistinctObjectNamesOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
+    public io.dstore.values.BooleanValue getGetDistinctObjectNamesOnly() {
+      return getDistinctObjectNamesOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+     * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder() {
       return getGetDistinctObjectNamesOnly();
     }
 
@@ -520,23 +520,23 @@ public final class MiSearchSourceCodeAd {
     }
 
     public static final int SEARCH_OBJECTS_WITH_NAME_LIKE_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue searchObjectsWithNameLike_;
+    private io.dstore.values.StringValue searchObjectsWithNameLike_;
     /**
-     * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+     * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
      */
     public boolean hasSearchObjectsWithNameLike() {
       return searchObjectsWithNameLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+     * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
      */
-    public io.dstore.Values.stringValue getSearchObjectsWithNameLike() {
-      return searchObjectsWithNameLike_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchObjectsWithNameLike_;
+    public io.dstore.values.StringValue getSearchObjectsWithNameLike() {
+      return searchObjectsWithNameLike_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchObjectsWithNameLike_;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+     * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSearchObjectsWithNameLikeOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSearchObjectsWithNameLikeOrBuilder() {
       return getSearchObjectsWithNameLike();
     }
 
@@ -1137,29 +1137,29 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue searchPattern_ = null;
+      private io.dstore.values.StringValue searchPattern_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchPatternBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> searchPatternBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+       * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
        */
       public boolean hasSearchPattern() {
         return searchPatternBuilder_ != null || searchPattern_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+       * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
        */
-      public io.dstore.Values.stringValue getSearchPattern() {
+      public io.dstore.values.StringValue getSearchPattern() {
         if (searchPatternBuilder_ == null) {
-          return searchPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchPattern_;
+          return searchPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchPattern_;
         } else {
           return searchPatternBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+       * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
        */
-      public Builder setSearchPattern(io.dstore.Values.stringValue value) {
+      public Builder setSearchPattern(io.dstore.values.StringValue value) {
         if (searchPatternBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+       * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
        */
       public Builder setSearchPattern(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (searchPatternBuilder_ == null) {
           searchPattern_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+       * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
        */
-      public Builder mergeSearchPattern(io.dstore.Values.stringValue value) {
+      public Builder mergeSearchPattern(io.dstore.values.StringValue value) {
         if (searchPatternBuilder_ == null) {
           if (searchPattern_ != null) {
             searchPattern_ =
-              io.dstore.Values.stringValue.newBuilder(searchPattern_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(searchPattern_).mergeFrom(value).buildPartial();
           } else {
             searchPattern_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+       * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
        */
       public Builder clearSearchPattern() {
         if (searchPatternBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+       * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSearchPatternBuilder() {
+      public io.dstore.values.StringValue.Builder getSearchPatternBuilder() {
         
         onChanged();
         return getSearchPatternFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+       * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSearchPatternOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSearchPatternOrBuilder() {
         if (searchPatternBuilder_ != null) {
           return searchPatternBuilder_.getMessageOrBuilder();
         } else {
           return searchPattern_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : searchPattern_;
+              io.dstore.values.StringValue.getDefaultInstance() : searchPattern_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_pattern = 1;</code>
+       * <code>optional .dstore.values.StringValue search_pattern = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSearchPatternFieldBuilder() {
         if (searchPatternBuilder_ == null) {
           searchPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSearchPattern(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue caseSensitive_ = null;
+      private io.dstore.values.BooleanValue caseSensitive_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> caseSensitiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
       public boolean hasCaseSensitive() {
         return caseSensitiveBuilder_ != null || caseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public io.dstore.Values.booleanValue getCaseSensitive() {
+      public io.dstore.values.BooleanValue getCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
-          return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+          return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         } else {
           return caseSensitiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public Builder setCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder setCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
       public Builder setCaseSensitive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (caseSensitiveBuilder_ == null) {
           caseSensitive_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public Builder mergeCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder mergeCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (caseSensitive_ != null) {
             caseSensitive_ =
-              io.dstore.Values.booleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
           } else {
             caseSensitive_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
       public Builder clearCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCaseSensitiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCaseSensitiveBuilder() {
         
         onChanged();
         return getCaseSensitiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
         if (caseSensitiveBuilder_ != null) {
           return caseSensitiveBuilder_.getMessageOrBuilder();
         } else {
           return caseSensitive_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 2;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
           caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue doNotSearchInCommentPart_ = null;
+      private io.dstore.values.IntegerValue doNotSearchInCommentPart_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> doNotSearchInCommentPartBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> doNotSearchInCommentPartBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+       * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
        */
       public boolean hasDoNotSearchInCommentPart() {
         return doNotSearchInCommentPartBuilder_ != null || doNotSearchInCommentPart_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+       * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
        */
-      public io.dstore.Values.integerValue getDoNotSearchInCommentPart() {
+      public io.dstore.values.IntegerValue getDoNotSearchInCommentPart() {
         if (doNotSearchInCommentPartBuilder_ == null) {
-          return doNotSearchInCommentPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : doNotSearchInCommentPart_;
+          return doNotSearchInCommentPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : doNotSearchInCommentPart_;
         } else {
           return doNotSearchInCommentPartBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+       * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
        */
-      public Builder setDoNotSearchInCommentPart(io.dstore.Values.integerValue value) {
+      public Builder setDoNotSearchInCommentPart(io.dstore.values.IntegerValue value) {
         if (doNotSearchInCommentPartBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+       * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
        */
       public Builder setDoNotSearchInCommentPart(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (doNotSearchInCommentPartBuilder_ == null) {
           doNotSearchInCommentPart_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+       * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
        */
-      public Builder mergeDoNotSearchInCommentPart(io.dstore.Values.integerValue value) {
+      public Builder mergeDoNotSearchInCommentPart(io.dstore.values.IntegerValue value) {
         if (doNotSearchInCommentPartBuilder_ == null) {
           if (doNotSearchInCommentPart_ != null) {
             doNotSearchInCommentPart_ =
-              io.dstore.Values.integerValue.newBuilder(doNotSearchInCommentPart_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(doNotSearchInCommentPart_).mergeFrom(value).buildPartial();
           } else {
             doNotSearchInCommentPart_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+       * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
        */
       public Builder clearDoNotSearchInCommentPart() {
         if (doNotSearchInCommentPartBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+       * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getDoNotSearchInCommentPartBuilder() {
+      public io.dstore.values.IntegerValue.Builder getDoNotSearchInCommentPartBuilder() {
         
         onChanged();
         return getDoNotSearchInCommentPartFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+       * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDoNotSearchInCommentPartOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDoNotSearchInCommentPartOrBuilder() {
         if (doNotSearchInCommentPartBuilder_ != null) {
           return doNotSearchInCommentPartBuilder_.getMessageOrBuilder();
         } else {
           return doNotSearchInCommentPart_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : doNotSearchInCommentPart_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : doNotSearchInCommentPart_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue do_not_search_in_comment_part = 3;</code>
+       * <code>optional .dstore.values.IntegerValue do_not_search_in_comment_part = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getDoNotSearchInCommentPartFieldBuilder() {
         if (doNotSearchInCommentPartBuilder_ == null) {
           doNotSearchInCommentPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getDoNotSearchInCommentPart(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue searchOnlyThisObjectName_ = null;
+      private io.dstore.values.StringValue searchOnlyThisObjectName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchOnlyThisObjectNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> searchOnlyThisObjectNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+       * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
        */
       public boolean hasSearchOnlyThisObjectName() {
         return searchOnlyThisObjectNameBuilder_ != null || searchOnlyThisObjectName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+       * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
        */
-      public io.dstore.Values.stringValue getSearchOnlyThisObjectName() {
+      public io.dstore.values.StringValue getSearchOnlyThisObjectName() {
         if (searchOnlyThisObjectNameBuilder_ == null) {
-          return searchOnlyThisObjectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchOnlyThisObjectName_;
+          return searchOnlyThisObjectName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchOnlyThisObjectName_;
         } else {
           return searchOnlyThisObjectNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+       * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
        */
-      public Builder setSearchOnlyThisObjectName(io.dstore.Values.stringValue value) {
+      public Builder setSearchOnlyThisObjectName(io.dstore.values.StringValue value) {
         if (searchOnlyThisObjectNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+       * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
        */
       public Builder setSearchOnlyThisObjectName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (searchOnlyThisObjectNameBuilder_ == null) {
           searchOnlyThisObjectName_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+       * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
        */
-      public Builder mergeSearchOnlyThisObjectName(io.dstore.Values.stringValue value) {
+      public Builder mergeSearchOnlyThisObjectName(io.dstore.values.StringValue value) {
         if (searchOnlyThisObjectNameBuilder_ == null) {
           if (searchOnlyThisObjectName_ != null) {
             searchOnlyThisObjectName_ =
-              io.dstore.Values.stringValue.newBuilder(searchOnlyThisObjectName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(searchOnlyThisObjectName_).mergeFrom(value).buildPartial();
           } else {
             searchOnlyThisObjectName_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+       * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
        */
       public Builder clearSearchOnlyThisObjectName() {
         if (searchOnlyThisObjectNameBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+       * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSearchOnlyThisObjectNameBuilder() {
+      public io.dstore.values.StringValue.Builder getSearchOnlyThisObjectNameBuilder() {
         
         onChanged();
         return getSearchOnlyThisObjectNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+       * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSearchOnlyThisObjectNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSearchOnlyThisObjectNameOrBuilder() {
         if (searchOnlyThisObjectNameBuilder_ != null) {
           return searchOnlyThisObjectNameBuilder_.getMessageOrBuilder();
         } else {
           return searchOnlyThisObjectName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : searchOnlyThisObjectName_;
+              io.dstore.values.StringValue.getDefaultInstance() : searchOnlyThisObjectName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_this_object_name = 4;</code>
+       * <code>optional .dstore.values.StringValue search_only_this_object_name = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSearchOnlyThisObjectNameFieldBuilder() {
         if (searchOnlyThisObjectNameBuilder_ == null) {
           searchOnlyThisObjectNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSearchOnlyThisObjectName(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue searchOnlyObjectType_ = null;
+      private io.dstore.values.StringValue searchOnlyObjectType_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchOnlyObjectTypeBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> searchOnlyObjectTypeBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+       * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
        */
       public boolean hasSearchOnlyObjectType() {
         return searchOnlyObjectTypeBuilder_ != null || searchOnlyObjectType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+       * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
        */
-      public io.dstore.Values.stringValue getSearchOnlyObjectType() {
+      public io.dstore.values.StringValue getSearchOnlyObjectType() {
         if (searchOnlyObjectTypeBuilder_ == null) {
-          return searchOnlyObjectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchOnlyObjectType_;
+          return searchOnlyObjectType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchOnlyObjectType_;
         } else {
           return searchOnlyObjectTypeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+       * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
        */
-      public Builder setSearchOnlyObjectType(io.dstore.Values.stringValue value) {
+      public Builder setSearchOnlyObjectType(io.dstore.values.StringValue value) {
         if (searchOnlyObjectTypeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+       * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
        */
       public Builder setSearchOnlyObjectType(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (searchOnlyObjectTypeBuilder_ == null) {
           searchOnlyObjectType_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+       * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
        */
-      public Builder mergeSearchOnlyObjectType(io.dstore.Values.stringValue value) {
+      public Builder mergeSearchOnlyObjectType(io.dstore.values.StringValue value) {
         if (searchOnlyObjectTypeBuilder_ == null) {
           if (searchOnlyObjectType_ != null) {
             searchOnlyObjectType_ =
-              io.dstore.Values.stringValue.newBuilder(searchOnlyObjectType_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(searchOnlyObjectType_).mergeFrom(value).buildPartial();
           } else {
             searchOnlyObjectType_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+       * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
        */
       public Builder clearSearchOnlyObjectType() {
         if (searchOnlyObjectTypeBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+       * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSearchOnlyObjectTypeBuilder() {
+      public io.dstore.values.StringValue.Builder getSearchOnlyObjectTypeBuilder() {
         
         onChanged();
         return getSearchOnlyObjectTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+       * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSearchOnlyObjectTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSearchOnlyObjectTypeOrBuilder() {
         if (searchOnlyObjectTypeBuilder_ != null) {
           return searchOnlyObjectTypeBuilder_.getMessageOrBuilder();
         } else {
           return searchOnlyObjectType_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : searchOnlyObjectType_;
+              io.dstore.values.StringValue.getDefaultInstance() : searchOnlyObjectType_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_only_object_type = 5;</code>
+       * <code>optional .dstore.values.StringValue search_only_object_type = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSearchOnlyObjectTypeFieldBuilder() {
         if (searchOnlyObjectTypeBuilder_ == null) {
           searchOnlyObjectTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSearchOnlyObjectType(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue getDistinctObjectNamesOnly_ = null;
+      private io.dstore.values.BooleanValue getDistinctObjectNamesOnly_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getDistinctObjectNamesOnlyBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getDistinctObjectNamesOnlyBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+       * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
        */
       public boolean hasGetDistinctObjectNamesOnly() {
         return getDistinctObjectNamesOnlyBuilder_ != null || getDistinctObjectNamesOnly_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+       * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
        */
-      public io.dstore.Values.booleanValue getGetDistinctObjectNamesOnly() {
+      public io.dstore.values.BooleanValue getGetDistinctObjectNamesOnly() {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
-          return getDistinctObjectNamesOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
+          return getDistinctObjectNamesOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
         } else {
           return getDistinctObjectNamesOnlyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+       * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
        */
-      public Builder setGetDistinctObjectNamesOnly(io.dstore.Values.booleanValue value) {
+      public Builder setGetDistinctObjectNamesOnly(io.dstore.values.BooleanValue value) {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+       * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
        */
       public Builder setGetDistinctObjectNamesOnly(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
           getDistinctObjectNamesOnly_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+       * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
        */
-      public Builder mergeGetDistinctObjectNamesOnly(io.dstore.Values.booleanValue value) {
+      public Builder mergeGetDistinctObjectNamesOnly(io.dstore.values.BooleanValue value) {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
           if (getDistinctObjectNamesOnly_ != null) {
             getDistinctObjectNamesOnly_ =
-              io.dstore.Values.booleanValue.newBuilder(getDistinctObjectNamesOnly_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(getDistinctObjectNamesOnly_).mergeFrom(value).buildPartial();
           } else {
             getDistinctObjectNamesOnly_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+       * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
        */
       public Builder clearGetDistinctObjectNamesOnly() {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+       * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getGetDistinctObjectNamesOnlyBuilder() {
+      public io.dstore.values.BooleanValue.Builder getGetDistinctObjectNamesOnlyBuilder() {
         
         onChanged();
         return getGetDistinctObjectNamesOnlyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+       * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getGetDistinctObjectNamesOnlyOrBuilder() {
         if (getDistinctObjectNamesOnlyBuilder_ != null) {
           return getDistinctObjectNamesOnlyBuilder_.getMessageOrBuilder();
         } else {
           return getDistinctObjectNamesOnly_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : getDistinctObjectNamesOnly_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_distinct_object_names_only = 6;</code>
+       * <code>optional .dstore.values.BooleanValue get_distinct_object_names_only = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getGetDistinctObjectNamesOnlyFieldBuilder() {
         if (getDistinctObjectNamesOnlyBuilder_ == null) {
           getDistinctObjectNamesOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getGetDistinctObjectNamesOnly(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue searchObjectsWithNameLike_ = null;
+      private io.dstore.values.StringValue searchObjectsWithNameLike_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchObjectsWithNameLikeBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> searchObjectsWithNameLikeBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+       * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
        */
       public boolean hasSearchObjectsWithNameLike() {
         return searchObjectsWithNameLikeBuilder_ != null || searchObjectsWithNameLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+       * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
        */
-      public io.dstore.Values.stringValue getSearchObjectsWithNameLike() {
+      public io.dstore.values.StringValue getSearchObjectsWithNameLike() {
         if (searchObjectsWithNameLikeBuilder_ == null) {
-          return searchObjectsWithNameLike_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchObjectsWithNameLike_;
+          return searchObjectsWithNameLike_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchObjectsWithNameLike_;
         } else {
           return searchObjectsWithNameLikeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+       * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
        */
-      public Builder setSearchObjectsWithNameLike(io.dstore.Values.stringValue value) {
+      public Builder setSearchObjectsWithNameLike(io.dstore.values.StringValue value) {
         if (searchObjectsWithNameLikeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+       * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
        */
       public Builder setSearchObjectsWithNameLike(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (searchObjectsWithNameLikeBuilder_ == null) {
           searchObjectsWithNameLike_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+       * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
        */
-      public Builder mergeSearchObjectsWithNameLike(io.dstore.Values.stringValue value) {
+      public Builder mergeSearchObjectsWithNameLike(io.dstore.values.StringValue value) {
         if (searchObjectsWithNameLikeBuilder_ == null) {
           if (searchObjectsWithNameLike_ != null) {
             searchObjectsWithNameLike_ =
-              io.dstore.Values.stringValue.newBuilder(searchObjectsWithNameLike_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(searchObjectsWithNameLike_).mergeFrom(value).buildPartial();
           } else {
             searchObjectsWithNameLike_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+       * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
        */
       public Builder clearSearchObjectsWithNameLike() {
         if (searchObjectsWithNameLikeBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class MiSearchSourceCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+       * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSearchObjectsWithNameLikeBuilder() {
+      public io.dstore.values.StringValue.Builder getSearchObjectsWithNameLikeBuilder() {
         
         onChanged();
         return getSearchObjectsWithNameLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+       * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSearchObjectsWithNameLikeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSearchObjectsWithNameLikeOrBuilder() {
         if (searchObjectsWithNameLikeBuilder_ != null) {
           return searchObjectsWithNameLikeBuilder_.getMessageOrBuilder();
         } else {
           return searchObjectsWithNameLike_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : searchObjectsWithNameLike_;
+              io.dstore.values.StringValue.getDefaultInstance() : searchObjectsWithNameLike_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_objects_with_name_like = 7;</code>
+       * <code>optional .dstore.values.StringValue search_objects_with_name_like = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSearchObjectsWithNameLikeFieldBuilder() {
         if (searchObjectsWithNameLikeBuilder_ == null) {
           searchObjectsWithNameLikeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSearchObjectsWithNameLike(),
                   getParentForChildren(),
                   isClean());
@@ -2397,7 +2397,7 @@ public final class MiSearchSourceCodeAd {
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
       boolean hasObjectType();
       /**
@@ -2405,24 +2405,24 @@ public final class MiSearchSourceCodeAd {
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
-      io.dstore.Values.stringValue getObjectType();
+      io.dstore.values.StringValue getObjectType();
       /**
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getObjectTypeOrBuilder();
 
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
        */
       boolean hasCodeLineNumber();
       /**
@@ -2430,24 +2430,24 @@ public final class MiSearchSourceCodeAd {
        * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
        */
-      io.dstore.Values.integerValue getCodeLineNumber();
+      io.dstore.values.IntegerValue getCodeLineNumber();
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder();
 
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
       boolean hasCodeLine();
       /**
@@ -2455,24 +2455,24 @@ public final class MiSearchSourceCodeAd {
        * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
-      io.dstore.Values.stringValue getCodeLine();
+      io.dstore.values.StringValue getCodeLine();
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCodeLineOrBuilder();
 
       /**
        * <pre>
        * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
       boolean hasObjectName();
       /**
@@ -2480,17 +2480,17 @@ public final class MiSearchSourceCodeAd {
        * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
-      io.dstore.Values.stringValue getObjectName();
+      io.dstore.values.StringValue getObjectName();
       /**
        * <pre>
        * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getObjectNameOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_SearchSourceCode_Ad.Response.Row}
@@ -2538,11 +2538,11 @@ public final class MiSearchSourceCodeAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (objectType_ != null) {
                   subBuilder = objectType_.toBuilder();
                 }
-                objectType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                objectType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectType_);
                   objectType_ = subBuilder.buildPartial();
@@ -2551,11 +2551,11 @@ public final class MiSearchSourceCodeAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (codeLineNumber_ != null) {
                   subBuilder = codeLineNumber_.toBuilder();
                 }
-                codeLineNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                codeLineNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLineNumber_);
                   codeLineNumber_ = subBuilder.buildPartial();
@@ -2564,11 +2564,11 @@ public final class MiSearchSourceCodeAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (codeLine_ != null) {
                   subBuilder = codeLine_.toBuilder();
                 }
-                codeLine_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                codeLine_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLine_);
                   codeLine_ = subBuilder.buildPartial();
@@ -2577,11 +2577,11 @@ public final class MiSearchSourceCodeAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (objectName_ != null) {
                   subBuilder = objectName_.toBuilder();
                 }
-                objectName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                objectName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectName_);
                   objectName_ = subBuilder.buildPartial();
@@ -2622,13 +2622,13 @@ public final class MiSearchSourceCodeAd {
       }
 
       public static final int OBJECT_TYPE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue objectType_;
+      private io.dstore.values.StringValue objectType_;
       /**
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
       public boolean hasObjectType() {
         return objectType_ != null;
@@ -2638,30 +2638,30 @@ public final class MiSearchSourceCodeAd {
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
-      public io.dstore.Values.stringValue getObjectType() {
-        return objectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
+      public io.dstore.values.StringValue getObjectType() {
+        return objectType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectType_;
       }
       /**
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getObjectTypeOrBuilder() {
         return getObjectType();
       }
 
       public static final int CODE_LINE_NUMBER_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue codeLineNumber_;
+      private io.dstore.values.IntegerValue codeLineNumber_;
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
        */
       public boolean hasCodeLineNumber() {
         return codeLineNumber_ != null;
@@ -2671,30 +2671,30 @@ public final class MiSearchSourceCodeAd {
        * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
        */
-      public io.dstore.Values.integerValue getCodeLineNumber() {
-        return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+      public io.dstore.values.IntegerValue getCodeLineNumber() {
+        return codeLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
       }
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder() {
         return getCodeLineNumber();
       }
 
       public static final int CODE_LINE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue codeLine_;
+      private io.dstore.values.StringValue codeLine_;
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
       public boolean hasCodeLine() {
         return codeLine_ != null;
@@ -2704,30 +2704,30 @@ public final class MiSearchSourceCodeAd {
        * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
-      public io.dstore.Values.stringValue getCodeLine() {
-        return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
+      public io.dstore.values.StringValue getCodeLine() {
+        return codeLine_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codeLine_;
       }
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+       * <code>optional .dstore.values.StringValue code_line = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCodeLineOrBuilder() {
         return getCodeLine();
       }
 
       public static final int OBJECT_NAME_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue objectName_;
+      private io.dstore.values.StringValue objectName_;
       /**
        * <pre>
        * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
       public boolean hasObjectName() {
         return objectName_ != null;
@@ -2737,19 +2737,19 @@ public final class MiSearchSourceCodeAd {
        * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
-      public io.dstore.Values.stringValue getObjectName() {
-        return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
+      public io.dstore.values.StringValue getObjectName() {
+        return objectName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectName_;
       }
       /**
        * <pre>
        * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getObjectNameOrBuilder() {
         return getObjectName();
       }
 
@@ -3168,15 +3168,15 @@ public final class MiSearchSourceCodeAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue objectType_ = null;
+        private io.dstore.values.StringValue objectType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> objectTypeBuilder_;
         /**
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
         public boolean hasObjectType() {
           return objectTypeBuilder_ != null || objectType_ != null;
@@ -3186,11 +3186,11 @@ public final class MiSearchSourceCodeAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue getObjectType() {
+        public io.dstore.values.StringValue getObjectType() {
           if (objectTypeBuilder_ == null) {
-            return objectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
+            return objectType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectType_;
           } else {
             return objectTypeBuilder_.getMessage();
           }
@@ -3200,9 +3200,9 @@ public final class MiSearchSourceCodeAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public Builder setObjectType(io.dstore.Values.stringValue value) {
+        public Builder setObjectType(io.dstore.values.StringValue value) {
           if (objectTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3220,10 +3220,10 @@ public final class MiSearchSourceCodeAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
         public Builder setObjectType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (objectTypeBuilder_ == null) {
             objectType_ = builderForValue.build();
             onChanged();
@@ -3238,13 +3238,13 @@ public final class MiSearchSourceCodeAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public Builder mergeObjectType(io.dstore.Values.stringValue value) {
+        public Builder mergeObjectType(io.dstore.values.StringValue value) {
           if (objectTypeBuilder_ == null) {
             if (objectType_ != null) {
               objectType_ =
-                io.dstore.Values.stringValue.newBuilder(objectType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(objectType_).mergeFrom(value).buildPartial();
             } else {
               objectType_ = value;
             }
@@ -3260,7 +3260,7 @@ public final class MiSearchSourceCodeAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
         public Builder clearObjectType() {
           if (objectTypeBuilder_ == null) {
@@ -3278,9 +3278,9 @@ public final class MiSearchSourceCodeAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getObjectTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getObjectTypeBuilder() {
           
           onChanged();
           return getObjectTypeFieldBuilder().getBuilder();
@@ -3290,14 +3290,14 @@ public final class MiSearchSourceCodeAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getObjectTypeOrBuilder() {
           if (objectTypeBuilder_ != null) {
             return objectTypeBuilder_.getMessageOrBuilder();
           } else {
             return objectType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
+                io.dstore.values.StringValue.getDefaultInstance() : objectType_;
           }
         }
         /**
@@ -3305,14 +3305,14 @@ public final class MiSearchSourceCodeAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"* "SQLFunct" (für SQL-Funktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getObjectTypeFieldBuilder() {
           if (objectTypeBuilder_ == null) {
             objectTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getObjectType(),
                     getParentForChildren(),
                     isClean());
@@ -3321,15 +3321,15 @@ public final class MiSearchSourceCodeAd {
           return objectTypeBuilder_;
         }
 
-        private io.dstore.Values.integerValue codeLineNumber_ = null;
+        private io.dstore.values.IntegerValue codeLineNumber_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> codeLineNumberBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> codeLineNumberBuilder_;
         /**
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
          */
         public boolean hasCodeLineNumber() {
           return codeLineNumberBuilder_ != null || codeLineNumber_ != null;
@@ -3339,11 +3339,11 @@ public final class MiSearchSourceCodeAd {
          * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
          */
-        public io.dstore.Values.integerValue getCodeLineNumber() {
+        public io.dstore.values.IntegerValue getCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
-            return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+            return codeLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
           } else {
             return codeLineNumberBuilder_.getMessage();
           }
@@ -3353,9 +3353,9 @@ public final class MiSearchSourceCodeAd {
          * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
          */
-        public Builder setCodeLineNumber(io.dstore.Values.integerValue value) {
+        public Builder setCodeLineNumber(io.dstore.values.IntegerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3373,10 +3373,10 @@ public final class MiSearchSourceCodeAd {
          * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
          */
         public Builder setCodeLineNumber(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumber_ = builderForValue.build();
             onChanged();
@@ -3391,13 +3391,13 @@ public final class MiSearchSourceCodeAd {
          * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
          */
-        public Builder mergeCodeLineNumber(io.dstore.Values.integerValue value) {
+        public Builder mergeCodeLineNumber(io.dstore.values.IntegerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (codeLineNumber_ != null) {
               codeLineNumber_ =
-                io.dstore.Values.integerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
             } else {
               codeLineNumber_ = value;
             }
@@ -3413,7 +3413,7 @@ public final class MiSearchSourceCodeAd {
          * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
          */
         public Builder clearCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
@@ -3431,9 +3431,9 @@ public final class MiSearchSourceCodeAd {
          * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCodeLineNumberBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCodeLineNumberBuilder() {
           
           onChanged();
           return getCodeLineNumberFieldBuilder().getBuilder();
@@ -3443,14 +3443,14 @@ public final class MiSearchSourceCodeAd {
          * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder() {
           if (codeLineNumberBuilder_ != null) {
             return codeLineNumberBuilder_.getMessageOrBuilder();
           } else {
             return codeLineNumber_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
           }
         }
         /**
@@ -3458,14 +3458,14 @@ public final class MiSearchSourceCodeAd {
          * Eindeutige Nummer der Zeile im Source-Code von "ObjectName", in der "&#64;SearchPattern" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCodeLineNumberFieldBuilder() {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCodeLineNumber(),
                     getParentForChildren(),
                     isClean());
@@ -3474,15 +3474,15 @@ public final class MiSearchSourceCodeAd {
           return codeLineNumberBuilder_;
         }
 
-        private io.dstore.Values.stringValue codeLine_ = null;
+        private io.dstore.values.StringValue codeLine_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> codeLineBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> codeLineBuilder_;
         /**
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
         public boolean hasCodeLine() {
           return codeLineBuilder_ != null || codeLine_ != null;
@@ -3492,11 +3492,11 @@ public final class MiSearchSourceCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public io.dstore.Values.stringValue getCodeLine() {
+        public io.dstore.values.StringValue getCodeLine() {
           if (codeLineBuilder_ == null) {
-            return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
+            return codeLine_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codeLine_;
           } else {
             return codeLineBuilder_.getMessage();
           }
@@ -3506,9 +3506,9 @@ public final class MiSearchSourceCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public Builder setCodeLine(io.dstore.Values.stringValue value) {
+        public Builder setCodeLine(io.dstore.values.StringValue value) {
           if (codeLineBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3526,10 +3526,10 @@ public final class MiSearchSourceCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
         public Builder setCodeLine(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (codeLineBuilder_ == null) {
             codeLine_ = builderForValue.build();
             onChanged();
@@ -3544,13 +3544,13 @@ public final class MiSearchSourceCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public Builder mergeCodeLine(io.dstore.Values.stringValue value) {
+        public Builder mergeCodeLine(io.dstore.values.StringValue value) {
           if (codeLineBuilder_ == null) {
             if (codeLine_ != null) {
               codeLine_ =
-                io.dstore.Values.stringValue.newBuilder(codeLine_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(codeLine_).mergeFrom(value).buildPartial();
             } else {
               codeLine_ = value;
             }
@@ -3566,7 +3566,7 @@ public final class MiSearchSourceCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
         public Builder clearCodeLine() {
           if (codeLineBuilder_ == null) {
@@ -3584,9 +3584,9 @@ public final class MiSearchSourceCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCodeLineBuilder() {
+        public io.dstore.values.StringValue.Builder getCodeLineBuilder() {
           
           onChanged();
           return getCodeLineFieldBuilder().getBuilder();
@@ -3596,14 +3596,14 @@ public final class MiSearchSourceCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCodeLineOrBuilder() {
           if (codeLineBuilder_ != null) {
             return codeLineBuilder_.getMessageOrBuilder();
           } else {
             return codeLine_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
+                io.dstore.values.StringValue.getDefaultInstance() : codeLine_;
           }
         }
         /**
@@ -3611,14 +3611,14 @@ public final class MiSearchSourceCodeAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" des Source-Codes von "ObjectName" steht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 10003;</code>
+         * <code>optional .dstore.values.StringValue code_line = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCodeLineFieldBuilder() {
           if (codeLineBuilder_ == null) {
             codeLineBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCodeLine(),
                     getParentForChildren(),
                     isClean());
@@ -3627,15 +3627,15 @@ public final class MiSearchSourceCodeAd {
           return codeLineBuilder_;
         }
 
-        private io.dstore.Values.stringValue objectName_ = null;
+        private io.dstore.values.StringValue objectName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> objectNameBuilder_;
         /**
          * <pre>
          * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
         public boolean hasObjectName() {
           return objectNameBuilder_ != null || objectName_ != null;
@@ -3645,11 +3645,11 @@ public final class MiSearchSourceCodeAd {
          * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public io.dstore.Values.stringValue getObjectName() {
+        public io.dstore.values.StringValue getObjectName() {
           if (objectNameBuilder_ == null) {
-            return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
+            return objectName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectName_;
           } else {
             return objectNameBuilder_.getMessage();
           }
@@ -3659,9 +3659,9 @@ public final class MiSearchSourceCodeAd {
          * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public Builder setObjectName(io.dstore.Values.stringValue value) {
+        public Builder setObjectName(io.dstore.values.StringValue value) {
           if (objectNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3679,10 +3679,10 @@ public final class MiSearchSourceCodeAd {
          * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
         public Builder setObjectName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (objectNameBuilder_ == null) {
             objectName_ = builderForValue.build();
             onChanged();
@@ -3697,13 +3697,13 @@ public final class MiSearchSourceCodeAd {
          * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public Builder mergeObjectName(io.dstore.Values.stringValue value) {
+        public Builder mergeObjectName(io.dstore.values.StringValue value) {
           if (objectNameBuilder_ == null) {
             if (objectName_ != null) {
               objectName_ =
-                io.dstore.Values.stringValue.newBuilder(objectName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(objectName_).mergeFrom(value).buildPartial();
             } else {
               objectName_ = value;
             }
@@ -3719,7 +3719,7 @@ public final class MiSearchSourceCodeAd {
          * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
         public Builder clearObjectName() {
           if (objectNameBuilder_ == null) {
@@ -3737,9 +3737,9 @@ public final class MiSearchSourceCodeAd {
          * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getObjectNameBuilder() {
+        public io.dstore.values.StringValue.Builder getObjectNameBuilder() {
           
           onChanged();
           return getObjectNameFieldBuilder().getBuilder();
@@ -3749,14 +3749,14 @@ public final class MiSearchSourceCodeAd {
          * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getObjectNameOrBuilder() {
           if (objectNameBuilder_ != null) {
             return objectNameBuilder_.getMessageOrBuilder();
           } else {
             return objectName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
+                io.dstore.values.StringValue.getDefaultInstance() : objectName_;
           }
         }
         /**
@@ -3764,14 +3764,14 @@ public final class MiSearchSourceCodeAd {
          * Name des Objektes, in dessen Source-Code "&#64;SearchPattern" vorkommt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getObjectNameFieldBuilder() {
           if (objectNameBuilder_ == null) {
             objectNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getObjectName(),
                     getParentForChildren(),
                     isClean());
@@ -5240,34 +5240,34 @@ public final class MiSearchSourceCodeAd {
       "ceCode_Ad.proto\022$dstore.engine.mi_Search" +
       "SourceCode_Ad\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\327\005\n\nParameters\0222\n" +
-      "\016search_pattern\030\001 \001(\0132\032.dstore.values.st" +
+      "\016search_pattern\030\001 \001(\0132\032.dstore.values.St" +
       "ringValue\022\034\n\023search_pattern_null\030\351\007 \001(\010\022" +
       "3\n\016case_sensitive\030\002 \001(\0132\033.dstore.values." +
-      "booleanValue\022\034\n\023case_sensitive_null\030\352\007 \001" +
+      "BooleanValue\022\034\n\023case_sensitive_null\030\352\007 \001" +
       "(\010\022B\n\035do_not_search_in_comment_part\030\003 \001(" +
-      "\0132\033.dstore.values.integerValue\022+\n\"do_not",
+      "\0132\033.dstore.values.IntegerValue\022+\n\"do_not",
       "_search_in_comment_part_null\030\353\007 \001(\010\022@\n\034s" +
       "earch_only_this_object_name\030\004 \001(\0132\032.dsto" +
-      "re.values.stringValue\022*\n!search_only_thi" +
+      "re.values.StringValue\022*\n!search_only_thi" +
       "s_object_name_null\030\354\007 \001(\010\022;\n\027search_only" +
-      "_object_type\030\005 \001(\0132\032.dstore.values.strin" +
+      "_object_type\030\005 \001(\0132\032.dstore.values.Strin" +
       "gValue\022%\n\034search_only_object_type_null\030\355" +
       "\007 \001(\010\022C\n\036get_distinct_object_names_only\030" +
-      "\006 \001(\0132\033.dstore.values.booleanValue\022,\n#ge" +
+      "\006 \001(\0132\033.dstore.values.BooleanValue\022,\n#ge" +
       "t_distinct_object_names_only_null\030\356\007 \001(\010" +
       "\022A\n\035search_objects_with_name_like\030\007 \001(\0132",
-      "\032.dstore.values.stringValue\022+\n\"search_ob" +
+      "\032.dstore.values.StringValue\022+\n\"search_ob" +
       "jects_with_name_like_null\030\357\007 \001(\010\"\223\003\n\010Res" +
       "ponse\0228\n\020meta_information\030\002 \003(\0132\036.dstore" +
       ".engine.MetaInformation\022\'\n\007message\030\003 \003(\013" +
       "2\026.dstore.engine.Message\022?\n\003row\030\004 \003(\01322." +
       "dstore.engine.mi_SearchSourceCode_Ad.Res" +
       "ponse.Row\032\342\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\013ob" +
-      "ject_type\030\221N \001(\0132\032.dstore.values.stringV" +
+      "ject_type\030\221N \001(\0132\032.dstore.values.StringV" +
       "alue\0226\n\020code_line_number\030\222N \001(\0132\033.dstore" +
-      ".values.integerValue\022.\n\tcode_line\030\223N \001(\013",
-      "2\032.dstore.values.stringValue\0220\n\013object_n" +
-      "ame\030\224N \001(\0132\032.dstore.values.stringValueBW" +
+      ".values.IntegerValue\022.\n\tcode_line\030\223N \001(\013",
+      "2\032.dstore.values.StringValue\0220\n\013object_n" +
+      "ame\030\224N \001(\0132\032.dstore.values.StringValueBW" +
       "\n\033io.dstore.engine.proceduresZ8gosdk.dst" +
       "ore.de/engine/procedures/mi_SearchSource" +
       "Code_Adb\006proto3"
@@ -5283,7 +5283,7 @@ public final class MiSearchSourceCodeAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_SearchSourceCode_Ad_Parameters_descriptor =
@@ -5304,7 +5304,7 @@ public final class MiSearchSourceCodeAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_SearchSourceCode_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ObjectType", "CodeLineNumber", "CodeLine", "ObjectName", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

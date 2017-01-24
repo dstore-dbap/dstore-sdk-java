@@ -19,17 +19,17 @@ public final class MiGetTabsRefInOtherTabsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
     boolean hasTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTableId();
+    io.dstore.values.IntegerValue getTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder();
 
     /**
      * <code>optional bool table_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetTabsRefInOtherTabsAd {
     boolean getTableIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
      */
     boolean hasUsedInSearchItems();
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
      */
-    io.dstore.Values.integerValue getUsedInSearchItems();
+    io.dstore.values.IntegerValue getUsedInSearchItems();
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUsedInSearchItemsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUsedInSearchItemsOrBuilder();
 
     /**
      * <code>optional bool used_in_search_items_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetTabsRefInOtherTabsAd {
     boolean getUsedInSearchItemsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
      */
     boolean hasUsedInSearchItemLacks();
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
      */
-    io.dstore.Values.integerValue getUsedInSearchItemLacks();
+    io.dstore.values.IntegerValue getUsedInSearchItemLacks();
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUsedInSearchItemLacksOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUsedInSearchItemLacksOrBuilder();
 
     /**
      * <code>optional bool used_in_search_item_lacks_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiGetTabsRefInOtherTabsAd {
     boolean getUsedInSearchItemLacksNull();
 
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
      */
     boolean hasUsedInRatingValues();
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
      */
-    io.dstore.Values.integerValue getUsedInRatingValues();
+    io.dstore.values.IntegerValue getUsedInRatingValues();
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUsedInRatingValuesOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUsedInRatingValuesOrBuilder();
 
     /**
      * <code>optional bool used_in_rating_values_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiGetTabsRefInOtherTabsAd {
     boolean getUsedInRatingValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
      */
     boolean hasUsedInRatingSubjects();
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
      */
-    io.dstore.Values.integerValue getUsedInRatingSubjects();
+    io.dstore.values.IntegerValue getUsedInRatingSubjects();
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUsedInRatingSubjectsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUsedInRatingSubjectsOrBuilder();
 
     /**
      * <code>optional bool used_in_rating_subjects_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiGetTabsRefInOtherTabsAd {
     boolean getUsedInRatingSubjectsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
      */
     boolean hasUsedInMetaInformationTypes();
     /**
-     * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
      */
-    io.dstore.Values.integerValue getUsedInMetaInformationTypes();
+    io.dstore.values.IntegerValue getUsedInMetaInformationTypes();
     /**
-     * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUsedInMetaInformationTypesOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUsedInMetaInformationTypesOrBuilder();
 
     /**
      * <code>optional bool used_in_meta_information_types_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class MiGetTabsRefInOtherTabsAd {
     boolean getUsedInMetaInformationTypesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
      */
     boolean hasUsedInPersonCharacValueRefs();
     /**
-     * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
      */
-    io.dstore.Values.integerValue getUsedInPersonCharacValueRefs();
+    io.dstore.values.IntegerValue getUsedInPersonCharacValueRefs();
     /**
-     * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder();
 
     /**
      * <code>optional bool used_in_person_charac_value_refs_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class MiGetTabsRefInOtherTabsAd {
     boolean getUsedInPersonCharacValueRefsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
      */
     boolean hasUsedInPredefinedBillContent();
     /**
-     * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
      */
-    io.dstore.Values.integerValue getUsedInPredefinedBillContent();
+    io.dstore.values.IntegerValue getUsedInPredefinedBillContent();
     /**
-     * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUsedInPredefinedBillContentOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUsedInPredefinedBillContentOrBuilder();
 
     /**
      * <code>optional bool used_in_predefined_bill_content_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class MiGetTabsRefInOtherTabsAd {
     boolean getUsedInPredefinedBillContentNull();
 
     /**
-     * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
      */
     boolean hasUsedInCashAccTransactions();
     /**
-     * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
      */
-    io.dstore.Values.integerValue getUsedInCashAccTransactions();
+    io.dstore.values.IntegerValue getUsedInCashAccTransactions();
     /**
-     * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUsedInCashAccTransactionsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUsedInCashAccTransactionsOrBuilder();
 
     /**
      * <code>optional bool used_in_cash_acc_transactions_null = 1009;</code>
@@ -229,11 +229,11 @@ public final class MiGetTabsRefInOtherTabsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (tableId_ != null) {
                 subBuilder = tableId_.toBuilder();
               }
-              tableId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              tableId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableId_);
                 tableId_ = subBuilder.buildPartial();
@@ -242,11 +242,11 @@ public final class MiGetTabsRefInOtherTabsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (usedInSearchItems_ != null) {
                 subBuilder = usedInSearchItems_.toBuilder();
               }
-              usedInSearchItems_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              usedInSearchItems_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(usedInSearchItems_);
                 usedInSearchItems_ = subBuilder.buildPartial();
@@ -255,11 +255,11 @@ public final class MiGetTabsRefInOtherTabsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (usedInSearchItemLacks_ != null) {
                 subBuilder = usedInSearchItemLacks_.toBuilder();
               }
-              usedInSearchItemLacks_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              usedInSearchItemLacks_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(usedInSearchItemLacks_);
                 usedInSearchItemLacks_ = subBuilder.buildPartial();
@@ -268,11 +268,11 @@ public final class MiGetTabsRefInOtherTabsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (usedInRatingValues_ != null) {
                 subBuilder = usedInRatingValues_.toBuilder();
               }
-              usedInRatingValues_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              usedInRatingValues_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(usedInRatingValues_);
                 usedInRatingValues_ = subBuilder.buildPartial();
@@ -281,11 +281,11 @@ public final class MiGetTabsRefInOtherTabsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (usedInRatingSubjects_ != null) {
                 subBuilder = usedInRatingSubjects_.toBuilder();
               }
-              usedInRatingSubjects_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              usedInRatingSubjects_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(usedInRatingSubjects_);
                 usedInRatingSubjects_ = subBuilder.buildPartial();
@@ -294,11 +294,11 @@ public final class MiGetTabsRefInOtherTabsAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (usedInMetaInformationTypes_ != null) {
                 subBuilder = usedInMetaInformationTypes_.toBuilder();
               }
-              usedInMetaInformationTypes_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              usedInMetaInformationTypes_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(usedInMetaInformationTypes_);
                 usedInMetaInformationTypes_ = subBuilder.buildPartial();
@@ -307,11 +307,11 @@ public final class MiGetTabsRefInOtherTabsAd {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (usedInPersonCharacValueRefs_ != null) {
                 subBuilder = usedInPersonCharacValueRefs_.toBuilder();
               }
-              usedInPersonCharacValueRefs_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              usedInPersonCharacValueRefs_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(usedInPersonCharacValueRefs_);
                 usedInPersonCharacValueRefs_ = subBuilder.buildPartial();
@@ -320,11 +320,11 @@ public final class MiGetTabsRefInOtherTabsAd {
               break;
             }
             case 66: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (usedInPredefinedBillContent_ != null) {
                 subBuilder = usedInPredefinedBillContent_.toBuilder();
               }
-              usedInPredefinedBillContent_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              usedInPredefinedBillContent_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(usedInPredefinedBillContent_);
                 usedInPredefinedBillContent_ = subBuilder.buildPartial();
@@ -333,11 +333,11 @@ public final class MiGetTabsRefInOtherTabsAd {
               break;
             }
             case 74: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (usedInCashAccTransactions_ != null) {
                 subBuilder = usedInCashAccTransactions_.toBuilder();
               }
-              usedInCashAccTransactions_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              usedInCashAccTransactions_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(usedInCashAccTransactions_);
                 usedInCashAccTransactions_ = subBuilder.buildPartial();
@@ -414,23 +414,23 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     public static final int TABLE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue tableId_;
+    private io.dstore.values.IntegerValue tableId_;
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
     public boolean hasTableId() {
       return tableId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTableId() {
-      return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+    public io.dstore.values.IntegerValue getTableId() {
+      return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
       return getTableId();
     }
 
@@ -444,23 +444,23 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     public static final int USED_IN_SEARCH_ITEMS_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue usedInSearchItems_;
+    private io.dstore.values.IntegerValue usedInSearchItems_;
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
      */
     public boolean hasUsedInSearchItems() {
       return usedInSearchItems_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
      */
-    public io.dstore.Values.integerValue getUsedInSearchItems() {
-      return usedInSearchItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInSearchItems_;
+    public io.dstore.values.IntegerValue getUsedInSearchItems() {
+      return usedInSearchItems_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInSearchItems_;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUsedInSearchItemsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUsedInSearchItemsOrBuilder() {
       return getUsedInSearchItems();
     }
 
@@ -474,23 +474,23 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     public static final int USED_IN_SEARCH_ITEM_LACKS_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue usedInSearchItemLacks_;
+    private io.dstore.values.IntegerValue usedInSearchItemLacks_;
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
      */
     public boolean hasUsedInSearchItemLacks() {
       return usedInSearchItemLacks_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
      */
-    public io.dstore.Values.integerValue getUsedInSearchItemLacks() {
-      return usedInSearchItemLacks_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInSearchItemLacks_;
+    public io.dstore.values.IntegerValue getUsedInSearchItemLacks() {
+      return usedInSearchItemLacks_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInSearchItemLacks_;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUsedInSearchItemLacksOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUsedInSearchItemLacksOrBuilder() {
       return getUsedInSearchItemLacks();
     }
 
@@ -504,23 +504,23 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     public static final int USED_IN_RATING_VALUES_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue usedInRatingValues_;
+    private io.dstore.values.IntegerValue usedInRatingValues_;
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
      */
     public boolean hasUsedInRatingValues() {
       return usedInRatingValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
      */
-    public io.dstore.Values.integerValue getUsedInRatingValues() {
-      return usedInRatingValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInRatingValues_;
+    public io.dstore.values.IntegerValue getUsedInRatingValues() {
+      return usedInRatingValues_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInRatingValues_;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUsedInRatingValuesOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUsedInRatingValuesOrBuilder() {
       return getUsedInRatingValues();
     }
 
@@ -534,23 +534,23 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     public static final int USED_IN_RATING_SUBJECTS_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue usedInRatingSubjects_;
+    private io.dstore.values.IntegerValue usedInRatingSubjects_;
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
      */
     public boolean hasUsedInRatingSubjects() {
       return usedInRatingSubjects_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
      */
-    public io.dstore.Values.integerValue getUsedInRatingSubjects() {
-      return usedInRatingSubjects_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInRatingSubjects_;
+    public io.dstore.values.IntegerValue getUsedInRatingSubjects() {
+      return usedInRatingSubjects_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInRatingSubjects_;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUsedInRatingSubjectsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUsedInRatingSubjectsOrBuilder() {
       return getUsedInRatingSubjects();
     }
 
@@ -564,23 +564,23 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     public static final int USED_IN_META_INFORMATION_TYPES_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue usedInMetaInformationTypes_;
+    private io.dstore.values.IntegerValue usedInMetaInformationTypes_;
     /**
-     * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
      */
     public boolean hasUsedInMetaInformationTypes() {
       return usedInMetaInformationTypes_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
      */
-    public io.dstore.Values.integerValue getUsedInMetaInformationTypes() {
-      return usedInMetaInformationTypes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInMetaInformationTypes_;
+    public io.dstore.values.IntegerValue getUsedInMetaInformationTypes() {
+      return usedInMetaInformationTypes_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInMetaInformationTypes_;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUsedInMetaInformationTypesOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUsedInMetaInformationTypesOrBuilder() {
       return getUsedInMetaInformationTypes();
     }
 
@@ -594,23 +594,23 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     public static final int USED_IN_PERSON_CHARAC_VALUE_REFS_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue usedInPersonCharacValueRefs_;
+    private io.dstore.values.IntegerValue usedInPersonCharacValueRefs_;
     /**
-     * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
      */
     public boolean hasUsedInPersonCharacValueRefs() {
       return usedInPersonCharacValueRefs_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
      */
-    public io.dstore.Values.integerValue getUsedInPersonCharacValueRefs() {
-      return usedInPersonCharacValueRefs_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
+    public io.dstore.values.IntegerValue getUsedInPersonCharacValueRefs() {
+      return usedInPersonCharacValueRefs_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder() {
       return getUsedInPersonCharacValueRefs();
     }
 
@@ -624,23 +624,23 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     public static final int USED_IN_PREDEFINED_BILL_CONTENT_FIELD_NUMBER = 8;
-    private io.dstore.Values.integerValue usedInPredefinedBillContent_;
+    private io.dstore.values.IntegerValue usedInPredefinedBillContent_;
     /**
-     * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
      */
     public boolean hasUsedInPredefinedBillContent() {
       return usedInPredefinedBillContent_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
      */
-    public io.dstore.Values.integerValue getUsedInPredefinedBillContent() {
-      return usedInPredefinedBillContent_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInPredefinedBillContent_;
+    public io.dstore.values.IntegerValue getUsedInPredefinedBillContent() {
+      return usedInPredefinedBillContent_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInPredefinedBillContent_;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUsedInPredefinedBillContentOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUsedInPredefinedBillContentOrBuilder() {
       return getUsedInPredefinedBillContent();
     }
 
@@ -654,23 +654,23 @@ public final class MiGetTabsRefInOtherTabsAd {
     }
 
     public static final int USED_IN_CASH_ACC_TRANSACTIONS_FIELD_NUMBER = 9;
-    private io.dstore.Values.integerValue usedInCashAccTransactions_;
+    private io.dstore.values.IntegerValue usedInCashAccTransactions_;
     /**
-     * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
      */
     public boolean hasUsedInCashAccTransactions() {
       return usedInCashAccTransactions_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
      */
-    public io.dstore.Values.integerValue getUsedInCashAccTransactions() {
-      return usedInCashAccTransactions_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInCashAccTransactions_;
+    public io.dstore.values.IntegerValue getUsedInCashAccTransactions() {
+      return usedInCashAccTransactions_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInCashAccTransactions_;
     }
     /**
-     * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+     * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUsedInCashAccTransactionsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUsedInCashAccTransactionsOrBuilder() {
       return getUsedInCashAccTransactions();
     }
 
@@ -1367,29 +1367,29 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue tableId_ = null;
+      private io.dstore.values.IntegerValue tableId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public boolean hasTableId() {
         return tableIdBuilder_ != null || tableId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTableId() {
+      public io.dstore.values.IntegerValue getTableId() {
         if (tableIdBuilder_ == null) {
-          return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+          return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         } else {
           return tableIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public Builder setTableId(io.dstore.Values.integerValue value) {
+      public Builder setTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1403,10 +1403,10 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public Builder setTableId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (tableIdBuilder_ == null) {
           tableId_ = builderForValue.build();
           onChanged();
@@ -1417,13 +1417,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public Builder mergeTableId(io.dstore.Values.integerValue value) {
+      public Builder mergeTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (tableId_ != null) {
             tableId_ =
-              io.dstore.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
           } else {
             tableId_ = value;
           }
@@ -1435,7 +1435,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public Builder clearTableId() {
         if (tableIdBuilder_ == null) {
@@ -1449,33 +1449,33 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTableIdBuilder() {
         
         onChanged();
         return getTableIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
         if (tableIdBuilder_ != null) {
           return tableIdBuilder_.getMessageOrBuilder();
         } else {
           return tableId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTableIdFieldBuilder() {
         if (tableIdBuilder_ == null) {
           tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTableId(),
                   getParentForChildren(),
                   isClean());
@@ -1510,29 +1510,29 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue usedInSearchItems_ = null;
+      private io.dstore.values.IntegerValue usedInSearchItems_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInSearchItemsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedInSearchItemsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
        */
       public boolean hasUsedInSearchItems() {
         return usedInSearchItemsBuilder_ != null || usedInSearchItems_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
        */
-      public io.dstore.Values.integerValue getUsedInSearchItems() {
+      public io.dstore.values.IntegerValue getUsedInSearchItems() {
         if (usedInSearchItemsBuilder_ == null) {
-          return usedInSearchItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInSearchItems_;
+          return usedInSearchItems_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInSearchItems_;
         } else {
           return usedInSearchItemsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
        */
-      public Builder setUsedInSearchItems(io.dstore.Values.integerValue value) {
+      public Builder setUsedInSearchItems(io.dstore.values.IntegerValue value) {
         if (usedInSearchItemsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1546,10 +1546,10 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
        */
       public Builder setUsedInSearchItems(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (usedInSearchItemsBuilder_ == null) {
           usedInSearchItems_ = builderForValue.build();
           onChanged();
@@ -1560,13 +1560,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
        */
-      public Builder mergeUsedInSearchItems(io.dstore.Values.integerValue value) {
+      public Builder mergeUsedInSearchItems(io.dstore.values.IntegerValue value) {
         if (usedInSearchItemsBuilder_ == null) {
           if (usedInSearchItems_ != null) {
             usedInSearchItems_ =
-              io.dstore.Values.integerValue.newBuilder(usedInSearchItems_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(usedInSearchItems_).mergeFrom(value).buildPartial();
           } else {
             usedInSearchItems_ = value;
           }
@@ -1578,7 +1578,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
        */
       public Builder clearUsedInSearchItems() {
         if (usedInSearchItemsBuilder_ == null) {
@@ -1592,33 +1592,33 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUsedInSearchItemsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUsedInSearchItemsBuilder() {
         
         onChanged();
         return getUsedInSearchItemsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedInSearchItemsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedInSearchItemsOrBuilder() {
         if (usedInSearchItemsBuilder_ != null) {
           return usedInSearchItemsBuilder_.getMessageOrBuilder();
         } else {
           return usedInSearchItems_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : usedInSearchItems_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : usedInSearchItems_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_items = 2;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_items = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUsedInSearchItemsFieldBuilder() {
         if (usedInSearchItemsBuilder_ == null) {
           usedInSearchItemsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUsedInSearchItems(),
                   getParentForChildren(),
                   isClean());
@@ -1653,29 +1653,29 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue usedInSearchItemLacks_ = null;
+      private io.dstore.values.IntegerValue usedInSearchItemLacks_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInSearchItemLacksBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedInSearchItemLacksBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
        */
       public boolean hasUsedInSearchItemLacks() {
         return usedInSearchItemLacksBuilder_ != null || usedInSearchItemLacks_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
        */
-      public io.dstore.Values.integerValue getUsedInSearchItemLacks() {
+      public io.dstore.values.IntegerValue getUsedInSearchItemLacks() {
         if (usedInSearchItemLacksBuilder_ == null) {
-          return usedInSearchItemLacks_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInSearchItemLacks_;
+          return usedInSearchItemLacks_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInSearchItemLacks_;
         } else {
           return usedInSearchItemLacksBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
        */
-      public Builder setUsedInSearchItemLacks(io.dstore.Values.integerValue value) {
+      public Builder setUsedInSearchItemLacks(io.dstore.values.IntegerValue value) {
         if (usedInSearchItemLacksBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1689,10 +1689,10 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
        */
       public Builder setUsedInSearchItemLacks(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (usedInSearchItemLacksBuilder_ == null) {
           usedInSearchItemLacks_ = builderForValue.build();
           onChanged();
@@ -1703,13 +1703,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
        */
-      public Builder mergeUsedInSearchItemLacks(io.dstore.Values.integerValue value) {
+      public Builder mergeUsedInSearchItemLacks(io.dstore.values.IntegerValue value) {
         if (usedInSearchItemLacksBuilder_ == null) {
           if (usedInSearchItemLacks_ != null) {
             usedInSearchItemLacks_ =
-              io.dstore.Values.integerValue.newBuilder(usedInSearchItemLacks_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(usedInSearchItemLacks_).mergeFrom(value).buildPartial();
           } else {
             usedInSearchItemLacks_ = value;
           }
@@ -1721,7 +1721,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
        */
       public Builder clearUsedInSearchItemLacks() {
         if (usedInSearchItemLacksBuilder_ == null) {
@@ -1735,33 +1735,33 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUsedInSearchItemLacksBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUsedInSearchItemLacksBuilder() {
         
         onChanged();
         return getUsedInSearchItemLacksFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedInSearchItemLacksOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedInSearchItemLacksOrBuilder() {
         if (usedInSearchItemLacksBuilder_ != null) {
           return usedInSearchItemLacksBuilder_.getMessageOrBuilder();
         } else {
           return usedInSearchItemLacks_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : usedInSearchItemLacks_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : usedInSearchItemLacks_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_search_item_lacks = 3;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_search_item_lacks = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUsedInSearchItemLacksFieldBuilder() {
         if (usedInSearchItemLacksBuilder_ == null) {
           usedInSearchItemLacksBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUsedInSearchItemLacks(),
                   getParentForChildren(),
                   isClean());
@@ -1796,29 +1796,29 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue usedInRatingValues_ = null;
+      private io.dstore.values.IntegerValue usedInRatingValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInRatingValuesBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedInRatingValuesBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
        */
       public boolean hasUsedInRatingValues() {
         return usedInRatingValuesBuilder_ != null || usedInRatingValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
        */
-      public io.dstore.Values.integerValue getUsedInRatingValues() {
+      public io.dstore.values.IntegerValue getUsedInRatingValues() {
         if (usedInRatingValuesBuilder_ == null) {
-          return usedInRatingValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInRatingValues_;
+          return usedInRatingValues_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInRatingValues_;
         } else {
           return usedInRatingValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
        */
-      public Builder setUsedInRatingValues(io.dstore.Values.integerValue value) {
+      public Builder setUsedInRatingValues(io.dstore.values.IntegerValue value) {
         if (usedInRatingValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1832,10 +1832,10 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
        */
       public Builder setUsedInRatingValues(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (usedInRatingValuesBuilder_ == null) {
           usedInRatingValues_ = builderForValue.build();
           onChanged();
@@ -1846,13 +1846,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
        */
-      public Builder mergeUsedInRatingValues(io.dstore.Values.integerValue value) {
+      public Builder mergeUsedInRatingValues(io.dstore.values.IntegerValue value) {
         if (usedInRatingValuesBuilder_ == null) {
           if (usedInRatingValues_ != null) {
             usedInRatingValues_ =
-              io.dstore.Values.integerValue.newBuilder(usedInRatingValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(usedInRatingValues_).mergeFrom(value).buildPartial();
           } else {
             usedInRatingValues_ = value;
           }
@@ -1864,7 +1864,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
        */
       public Builder clearUsedInRatingValues() {
         if (usedInRatingValuesBuilder_ == null) {
@@ -1878,33 +1878,33 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUsedInRatingValuesBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUsedInRatingValuesBuilder() {
         
         onChanged();
         return getUsedInRatingValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedInRatingValuesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedInRatingValuesOrBuilder() {
         if (usedInRatingValuesBuilder_ != null) {
           return usedInRatingValuesBuilder_.getMessageOrBuilder();
         } else {
           return usedInRatingValues_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : usedInRatingValues_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : usedInRatingValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_values = 4;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_values = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUsedInRatingValuesFieldBuilder() {
         if (usedInRatingValuesBuilder_ == null) {
           usedInRatingValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUsedInRatingValues(),
                   getParentForChildren(),
                   isClean());
@@ -1939,29 +1939,29 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue usedInRatingSubjects_ = null;
+      private io.dstore.values.IntegerValue usedInRatingSubjects_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInRatingSubjectsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedInRatingSubjectsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
        */
       public boolean hasUsedInRatingSubjects() {
         return usedInRatingSubjectsBuilder_ != null || usedInRatingSubjects_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
        */
-      public io.dstore.Values.integerValue getUsedInRatingSubjects() {
+      public io.dstore.values.IntegerValue getUsedInRatingSubjects() {
         if (usedInRatingSubjectsBuilder_ == null) {
-          return usedInRatingSubjects_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInRatingSubjects_;
+          return usedInRatingSubjects_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInRatingSubjects_;
         } else {
           return usedInRatingSubjectsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
        */
-      public Builder setUsedInRatingSubjects(io.dstore.Values.integerValue value) {
+      public Builder setUsedInRatingSubjects(io.dstore.values.IntegerValue value) {
         if (usedInRatingSubjectsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1975,10 +1975,10 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
        */
       public Builder setUsedInRatingSubjects(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (usedInRatingSubjectsBuilder_ == null) {
           usedInRatingSubjects_ = builderForValue.build();
           onChanged();
@@ -1989,13 +1989,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
        */
-      public Builder mergeUsedInRatingSubjects(io.dstore.Values.integerValue value) {
+      public Builder mergeUsedInRatingSubjects(io.dstore.values.IntegerValue value) {
         if (usedInRatingSubjectsBuilder_ == null) {
           if (usedInRatingSubjects_ != null) {
             usedInRatingSubjects_ =
-              io.dstore.Values.integerValue.newBuilder(usedInRatingSubjects_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(usedInRatingSubjects_).mergeFrom(value).buildPartial();
           } else {
             usedInRatingSubjects_ = value;
           }
@@ -2007,7 +2007,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
        */
       public Builder clearUsedInRatingSubjects() {
         if (usedInRatingSubjectsBuilder_ == null) {
@@ -2021,33 +2021,33 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUsedInRatingSubjectsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUsedInRatingSubjectsBuilder() {
         
         onChanged();
         return getUsedInRatingSubjectsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedInRatingSubjectsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedInRatingSubjectsOrBuilder() {
         if (usedInRatingSubjectsBuilder_ != null) {
           return usedInRatingSubjectsBuilder_.getMessageOrBuilder();
         } else {
           return usedInRatingSubjects_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : usedInRatingSubjects_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : usedInRatingSubjects_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_rating_subjects = 5;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_rating_subjects = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUsedInRatingSubjectsFieldBuilder() {
         if (usedInRatingSubjectsBuilder_ == null) {
           usedInRatingSubjectsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUsedInRatingSubjects(),
                   getParentForChildren(),
                   isClean());
@@ -2082,29 +2082,29 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue usedInMetaInformationTypes_ = null;
+      private io.dstore.values.IntegerValue usedInMetaInformationTypes_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInMetaInformationTypesBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedInMetaInformationTypesBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
        */
       public boolean hasUsedInMetaInformationTypes() {
         return usedInMetaInformationTypesBuilder_ != null || usedInMetaInformationTypes_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
        */
-      public io.dstore.Values.integerValue getUsedInMetaInformationTypes() {
+      public io.dstore.values.IntegerValue getUsedInMetaInformationTypes() {
         if (usedInMetaInformationTypesBuilder_ == null) {
-          return usedInMetaInformationTypes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInMetaInformationTypes_;
+          return usedInMetaInformationTypes_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInMetaInformationTypes_;
         } else {
           return usedInMetaInformationTypesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
        */
-      public Builder setUsedInMetaInformationTypes(io.dstore.Values.integerValue value) {
+      public Builder setUsedInMetaInformationTypes(io.dstore.values.IntegerValue value) {
         if (usedInMetaInformationTypesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2118,10 +2118,10 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
        */
       public Builder setUsedInMetaInformationTypes(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (usedInMetaInformationTypesBuilder_ == null) {
           usedInMetaInformationTypes_ = builderForValue.build();
           onChanged();
@@ -2132,13 +2132,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
        */
-      public Builder mergeUsedInMetaInformationTypes(io.dstore.Values.integerValue value) {
+      public Builder mergeUsedInMetaInformationTypes(io.dstore.values.IntegerValue value) {
         if (usedInMetaInformationTypesBuilder_ == null) {
           if (usedInMetaInformationTypes_ != null) {
             usedInMetaInformationTypes_ =
-              io.dstore.Values.integerValue.newBuilder(usedInMetaInformationTypes_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(usedInMetaInformationTypes_).mergeFrom(value).buildPartial();
           } else {
             usedInMetaInformationTypes_ = value;
           }
@@ -2150,7 +2150,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
        */
       public Builder clearUsedInMetaInformationTypes() {
         if (usedInMetaInformationTypesBuilder_ == null) {
@@ -2164,33 +2164,33 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUsedInMetaInformationTypesBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUsedInMetaInformationTypesBuilder() {
         
         onChanged();
         return getUsedInMetaInformationTypesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedInMetaInformationTypesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedInMetaInformationTypesOrBuilder() {
         if (usedInMetaInformationTypesBuilder_ != null) {
           return usedInMetaInformationTypesBuilder_.getMessageOrBuilder();
         } else {
           return usedInMetaInformationTypes_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : usedInMetaInformationTypes_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : usedInMetaInformationTypes_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_meta_information_types = 6;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_meta_information_types = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUsedInMetaInformationTypesFieldBuilder() {
         if (usedInMetaInformationTypesBuilder_ == null) {
           usedInMetaInformationTypesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUsedInMetaInformationTypes(),
                   getParentForChildren(),
                   isClean());
@@ -2225,29 +2225,29 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue usedInPersonCharacValueRefs_ = null;
+      private io.dstore.values.IntegerValue usedInPersonCharacValueRefs_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInPersonCharacValueRefsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedInPersonCharacValueRefsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
        */
       public boolean hasUsedInPersonCharacValueRefs() {
         return usedInPersonCharacValueRefsBuilder_ != null || usedInPersonCharacValueRefs_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
        */
-      public io.dstore.Values.integerValue getUsedInPersonCharacValueRefs() {
+      public io.dstore.values.IntegerValue getUsedInPersonCharacValueRefs() {
         if (usedInPersonCharacValueRefsBuilder_ == null) {
-          return usedInPersonCharacValueRefs_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
+          return usedInPersonCharacValueRefs_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
         } else {
           return usedInPersonCharacValueRefsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
        */
-      public Builder setUsedInPersonCharacValueRefs(io.dstore.Values.integerValue value) {
+      public Builder setUsedInPersonCharacValueRefs(io.dstore.values.IntegerValue value) {
         if (usedInPersonCharacValueRefsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2261,10 +2261,10 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
        */
       public Builder setUsedInPersonCharacValueRefs(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (usedInPersonCharacValueRefsBuilder_ == null) {
           usedInPersonCharacValueRefs_ = builderForValue.build();
           onChanged();
@@ -2275,13 +2275,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
        */
-      public Builder mergeUsedInPersonCharacValueRefs(io.dstore.Values.integerValue value) {
+      public Builder mergeUsedInPersonCharacValueRefs(io.dstore.values.IntegerValue value) {
         if (usedInPersonCharacValueRefsBuilder_ == null) {
           if (usedInPersonCharacValueRefs_ != null) {
             usedInPersonCharacValueRefs_ =
-              io.dstore.Values.integerValue.newBuilder(usedInPersonCharacValueRefs_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(usedInPersonCharacValueRefs_).mergeFrom(value).buildPartial();
           } else {
             usedInPersonCharacValueRefs_ = value;
           }
@@ -2293,7 +2293,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
        */
       public Builder clearUsedInPersonCharacValueRefs() {
         if (usedInPersonCharacValueRefsBuilder_ == null) {
@@ -2307,33 +2307,33 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUsedInPersonCharacValueRefsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUsedInPersonCharacValueRefsBuilder() {
         
         onChanged();
         return getUsedInPersonCharacValueRefsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder() {
         if (usedInPersonCharacValueRefsBuilder_ != null) {
           return usedInPersonCharacValueRefsBuilder_.getMessageOrBuilder();
         } else {
           return usedInPersonCharacValueRefs_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_person_charac_value_refs = 7;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_person_charac_value_refs = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUsedInPersonCharacValueRefsFieldBuilder() {
         if (usedInPersonCharacValueRefsBuilder_ == null) {
           usedInPersonCharacValueRefsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUsedInPersonCharacValueRefs(),
                   getParentForChildren(),
                   isClean());
@@ -2368,29 +2368,29 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue usedInPredefinedBillContent_ = null;
+      private io.dstore.values.IntegerValue usedInPredefinedBillContent_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInPredefinedBillContentBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedInPredefinedBillContentBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
        */
       public boolean hasUsedInPredefinedBillContent() {
         return usedInPredefinedBillContentBuilder_ != null || usedInPredefinedBillContent_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
        */
-      public io.dstore.Values.integerValue getUsedInPredefinedBillContent() {
+      public io.dstore.values.IntegerValue getUsedInPredefinedBillContent() {
         if (usedInPredefinedBillContentBuilder_ == null) {
-          return usedInPredefinedBillContent_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInPredefinedBillContent_;
+          return usedInPredefinedBillContent_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInPredefinedBillContent_;
         } else {
           return usedInPredefinedBillContentBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
        */
-      public Builder setUsedInPredefinedBillContent(io.dstore.Values.integerValue value) {
+      public Builder setUsedInPredefinedBillContent(io.dstore.values.IntegerValue value) {
         if (usedInPredefinedBillContentBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2404,10 +2404,10 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
        */
       public Builder setUsedInPredefinedBillContent(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (usedInPredefinedBillContentBuilder_ == null) {
           usedInPredefinedBillContent_ = builderForValue.build();
           onChanged();
@@ -2418,13 +2418,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
        */
-      public Builder mergeUsedInPredefinedBillContent(io.dstore.Values.integerValue value) {
+      public Builder mergeUsedInPredefinedBillContent(io.dstore.values.IntegerValue value) {
         if (usedInPredefinedBillContentBuilder_ == null) {
           if (usedInPredefinedBillContent_ != null) {
             usedInPredefinedBillContent_ =
-              io.dstore.Values.integerValue.newBuilder(usedInPredefinedBillContent_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(usedInPredefinedBillContent_).mergeFrom(value).buildPartial();
           } else {
             usedInPredefinedBillContent_ = value;
           }
@@ -2436,7 +2436,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
        */
       public Builder clearUsedInPredefinedBillContent() {
         if (usedInPredefinedBillContentBuilder_ == null) {
@@ -2450,33 +2450,33 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUsedInPredefinedBillContentBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUsedInPredefinedBillContentBuilder() {
         
         onChanged();
         return getUsedInPredefinedBillContentFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedInPredefinedBillContentOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedInPredefinedBillContentOrBuilder() {
         if (usedInPredefinedBillContentBuilder_ != null) {
           return usedInPredefinedBillContentBuilder_.getMessageOrBuilder();
         } else {
           return usedInPredefinedBillContent_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : usedInPredefinedBillContent_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : usedInPredefinedBillContent_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_predefined_bill_content = 8;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_predefined_bill_content = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUsedInPredefinedBillContentFieldBuilder() {
         if (usedInPredefinedBillContentBuilder_ == null) {
           usedInPredefinedBillContentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUsedInPredefinedBillContent(),
                   getParentForChildren(),
                   isClean());
@@ -2511,29 +2511,29 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue usedInCashAccTransactions_ = null;
+      private io.dstore.values.IntegerValue usedInCashAccTransactions_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedInCashAccTransactionsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedInCashAccTransactionsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
        */
       public boolean hasUsedInCashAccTransactions() {
         return usedInCashAccTransactionsBuilder_ != null || usedInCashAccTransactions_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
        */
-      public io.dstore.Values.integerValue getUsedInCashAccTransactions() {
+      public io.dstore.values.IntegerValue getUsedInCashAccTransactions() {
         if (usedInCashAccTransactionsBuilder_ == null) {
-          return usedInCashAccTransactions_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedInCashAccTransactions_;
+          return usedInCashAccTransactions_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedInCashAccTransactions_;
         } else {
           return usedInCashAccTransactionsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
        */
-      public Builder setUsedInCashAccTransactions(io.dstore.Values.integerValue value) {
+      public Builder setUsedInCashAccTransactions(io.dstore.values.IntegerValue value) {
         if (usedInCashAccTransactionsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2547,10 +2547,10 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
        */
       public Builder setUsedInCashAccTransactions(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (usedInCashAccTransactionsBuilder_ == null) {
           usedInCashAccTransactions_ = builderForValue.build();
           onChanged();
@@ -2561,13 +2561,13 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
        */
-      public Builder mergeUsedInCashAccTransactions(io.dstore.Values.integerValue value) {
+      public Builder mergeUsedInCashAccTransactions(io.dstore.values.IntegerValue value) {
         if (usedInCashAccTransactionsBuilder_ == null) {
           if (usedInCashAccTransactions_ != null) {
             usedInCashAccTransactions_ =
-              io.dstore.Values.integerValue.newBuilder(usedInCashAccTransactions_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(usedInCashAccTransactions_).mergeFrom(value).buildPartial();
           } else {
             usedInCashAccTransactions_ = value;
           }
@@ -2579,7 +2579,7 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
        */
       public Builder clearUsedInCashAccTransactions() {
         if (usedInCashAccTransactionsBuilder_ == null) {
@@ -2593,33 +2593,33 @@ public final class MiGetTabsRefInOtherTabsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUsedInCashAccTransactionsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUsedInCashAccTransactionsBuilder() {
         
         onChanged();
         return getUsedInCashAccTransactionsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedInCashAccTransactionsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedInCashAccTransactionsOrBuilder() {
         if (usedInCashAccTransactionsBuilder_ != null) {
           return usedInCashAccTransactionsBuilder_.getMessageOrBuilder();
         } else {
           return usedInCashAccTransactions_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : usedInCashAccTransactions_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : usedInCashAccTransactions_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue used_in_cash_acc_transactions = 9;</code>
+       * <code>optional .dstore.values.IntegerValue used_in_cash_acc_transactions = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUsedInCashAccTransactionsFieldBuilder() {
         if (usedInCashAccTransactionsBuilder_ == null) {
           usedInCashAccTransactionsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUsedInCashAccTransactions(),
                   getParentForChildren(),
                   isClean());
@@ -2913,7 +2913,7 @@ public final class MiGetTabsRefInOtherTabsAd {
        * ID der Tabelle "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
       boolean hasTableId();
       /**
@@ -2921,24 +2921,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * ID der Tabelle "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getTableId();
+      io.dstore.values.IntegerValue getTableId();
       /**
        * <pre>
        * ID der Tabelle "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder();
 
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
        */
       boolean hasUsedInSearchItemLacks();
       /**
@@ -2946,24 +2946,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
        */
-      io.dstore.Values.booleanValue getUsedInSearchItemLacks();
+      io.dstore.values.BooleanValue getUsedInSearchItemLacks();
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getUsedInSearchItemLacksOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getUsedInSearchItemLacksOrBuilder();
 
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
        */
       boolean hasUsedInRatingValues();
       /**
@@ -2971,24 +2971,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
        */
-      io.dstore.Values.booleanValue getUsedInRatingValues();
+      io.dstore.values.BooleanValue getUsedInRatingValues();
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getUsedInRatingValuesOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getUsedInRatingValuesOrBuilder();
 
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
        */
       boolean hasUsedInPredefinedBillContent();
       /**
@@ -2996,24 +2996,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
        */
-      io.dstore.Values.booleanValue getUsedInPredefinedBillContent();
+      io.dstore.values.BooleanValue getUsedInPredefinedBillContent();
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getUsedInPredefinedBillContentOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getUsedInPredefinedBillContentOrBuilder();
 
       /**
        * <pre>
        * Name der (dStore-)Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10005;</code>
        */
       boolean hasTableName();
       /**
@@ -3021,24 +3021,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * Name der (dStore-)Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10005;</code>
        */
-      io.dstore.Values.stringValue getTableName();
+      io.dstore.values.StringValue getTableName();
       /**
        * <pre>
        * Name der (dStore-)Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getTableNameOrBuilder();
 
       /**
        * <pre>
        * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+       * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
        */
       boolean hasPrimaryKeyColumnName();
       /**
@@ -3046,24 +3046,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+       * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
        */
-      io.dstore.Values.stringValue getPrimaryKeyColumnName();
+      io.dstore.values.StringValue getPrimaryKeyColumnName();
       /**
        * <pre>
        * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+       * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPrimaryKeyColumnNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPrimaryKeyColumnNameOrBuilder();
 
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
        */
       boolean hasUsedInSearchItems();
       /**
@@ -3071,24 +3071,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
        */
-      io.dstore.Values.booleanValue getUsedInSearchItems();
+      io.dstore.values.BooleanValue getUsedInSearchItems();
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getUsedInSearchItemsOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getUsedInSearchItemsOrBuilder();
 
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
        */
       boolean hasUsedInPersonCharacValueRefs();
       /**
@@ -3096,24 +3096,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
        */
-      io.dstore.Values.booleanValue getUsedInPersonCharacValueRefs();
+      io.dstore.values.BooleanValue getUsedInPersonCharacValueRefs();
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder();
 
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
        */
       boolean hasUsedInMetaInformationTypes();
       /**
@@ -3121,24 +3121,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
        */
-      io.dstore.Values.booleanValue getUsedInMetaInformationTypes();
+      io.dstore.values.BooleanValue getUsedInMetaInformationTypes();
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getUsedInMetaInformationTypesOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getUsedInMetaInformationTypesOrBuilder();
 
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
        */
       boolean hasUsedInRatingSubjects();
       /**
@@ -3146,24 +3146,24 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
        */
-      io.dstore.Values.booleanValue getUsedInRatingSubjects();
+      io.dstore.values.BooleanValue getUsedInRatingSubjects();
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getUsedInRatingSubjectsOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getUsedInRatingSubjectsOrBuilder();
 
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
        */
       boolean hasUsedInCashAccTransactions();
       /**
@@ -3171,17 +3171,17 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
        */
-      io.dstore.Values.booleanValue getUsedInCashAccTransactions();
+      io.dstore.values.BooleanValue getUsedInCashAccTransactions();
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getUsedInCashAccTransactionsOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getUsedInCashAccTransactionsOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetTabsRefInOtherTabs_Ad.Response.Row}
@@ -3229,11 +3229,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (tableId_ != null) {
                   subBuilder = tableId_.toBuilder();
                 }
-                tableId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                tableId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableId_);
                   tableId_ = subBuilder.buildPartial();
@@ -3242,11 +3242,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (usedInSearchItemLacks_ != null) {
                   subBuilder = usedInSearchItemLacks_.toBuilder();
                 }
-                usedInSearchItemLacks_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                usedInSearchItemLacks_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedInSearchItemLacks_);
                   usedInSearchItemLacks_ = subBuilder.buildPartial();
@@ -3255,11 +3255,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (usedInRatingValues_ != null) {
                   subBuilder = usedInRatingValues_.toBuilder();
                 }
-                usedInRatingValues_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                usedInRatingValues_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedInRatingValues_);
                   usedInRatingValues_ = subBuilder.buildPartial();
@@ -3268,11 +3268,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (usedInPredefinedBillContent_ != null) {
                   subBuilder = usedInPredefinedBillContent_.toBuilder();
                 }
-                usedInPredefinedBillContent_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                usedInPredefinedBillContent_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedInPredefinedBillContent_);
                   usedInPredefinedBillContent_ = subBuilder.buildPartial();
@@ -3281,11 +3281,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (tableName_ != null) {
                   subBuilder = tableName_.toBuilder();
                 }
-                tableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                tableName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableName_);
                   tableName_ = subBuilder.buildPartial();
@@ -3294,11 +3294,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (primaryKeyColumnName_ != null) {
                   subBuilder = primaryKeyColumnName_.toBuilder();
                 }
-                primaryKeyColumnName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                primaryKeyColumnName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(primaryKeyColumnName_);
                   primaryKeyColumnName_ = subBuilder.buildPartial();
@@ -3307,11 +3307,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (usedInSearchItems_ != null) {
                   subBuilder = usedInSearchItems_.toBuilder();
                 }
-                usedInSearchItems_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                usedInSearchItems_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedInSearchItems_);
                   usedInSearchItems_ = subBuilder.buildPartial();
@@ -3320,11 +3320,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (usedInPersonCharacValueRefs_ != null) {
                   subBuilder = usedInPersonCharacValueRefs_.toBuilder();
                 }
-                usedInPersonCharacValueRefs_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                usedInPersonCharacValueRefs_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedInPersonCharacValueRefs_);
                   usedInPersonCharacValueRefs_ = subBuilder.buildPartial();
@@ -3333,11 +3333,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80074: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (usedInMetaInformationTypes_ != null) {
                   subBuilder = usedInMetaInformationTypes_.toBuilder();
                 }
-                usedInMetaInformationTypes_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                usedInMetaInformationTypes_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedInMetaInformationTypes_);
                   usedInMetaInformationTypes_ = subBuilder.buildPartial();
@@ -3346,11 +3346,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80082: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (usedInRatingSubjects_ != null) {
                   subBuilder = usedInRatingSubjects_.toBuilder();
                 }
-                usedInRatingSubjects_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                usedInRatingSubjects_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedInRatingSubjects_);
                   usedInRatingSubjects_ = subBuilder.buildPartial();
@@ -3359,11 +3359,11 @@ public final class MiGetTabsRefInOtherTabsAd {
                 break;
               }
               case 80090: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (usedInCashAccTransactions_ != null) {
                   subBuilder = usedInCashAccTransactions_.toBuilder();
                 }
-                usedInCashAccTransactions_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                usedInCashAccTransactions_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedInCashAccTransactions_);
                   usedInCashAccTransactions_ = subBuilder.buildPartial();
@@ -3404,13 +3404,13 @@ public final class MiGetTabsRefInOtherTabsAd {
       }
 
       public static final int TABLE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue tableId_;
+      private io.dstore.values.IntegerValue tableId_;
       /**
        * <pre>
        * ID der Tabelle "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
       public boolean hasTableId() {
         return tableId_ != null;
@@ -3420,30 +3420,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * ID der Tabelle "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getTableId() {
-        return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+      public io.dstore.values.IntegerValue getTableId() {
+        return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
       }
       /**
        * <pre>
        * ID der Tabelle "TableName"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
         return getTableId();
       }
 
       public static final int USED_IN_SEARCH_ITEM_LACKS_FIELD_NUMBER = 10002;
-      private io.dstore.Values.booleanValue usedInSearchItemLacks_;
+      private io.dstore.values.BooleanValue usedInSearchItemLacks_;
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
        */
       public boolean hasUsedInSearchItemLacks() {
         return usedInSearchItemLacks_ != null;
@@ -3453,30 +3453,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
        */
-      public io.dstore.Values.booleanValue getUsedInSearchItemLacks() {
-        return usedInSearchItemLacks_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInSearchItemLacks_;
+      public io.dstore.values.BooleanValue getUsedInSearchItemLacks() {
+        return usedInSearchItemLacks_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInSearchItemLacks_;
       }
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUsedInSearchItemLacksOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUsedInSearchItemLacksOrBuilder() {
         return getUsedInSearchItemLacks();
       }
 
       public static final int USED_IN_RATING_VALUES_FIELD_NUMBER = 10003;
-      private io.dstore.Values.booleanValue usedInRatingValues_;
+      private io.dstore.values.BooleanValue usedInRatingValues_;
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
        */
       public boolean hasUsedInRatingValues() {
         return usedInRatingValues_ != null;
@@ -3486,30 +3486,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
        */
-      public io.dstore.Values.booleanValue getUsedInRatingValues() {
-        return usedInRatingValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInRatingValues_;
+      public io.dstore.values.BooleanValue getUsedInRatingValues() {
+        return usedInRatingValues_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInRatingValues_;
       }
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUsedInRatingValuesOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUsedInRatingValuesOrBuilder() {
         return getUsedInRatingValues();
       }
 
       public static final int USED_IN_PREDEFINED_BILL_CONTENT_FIELD_NUMBER = 10004;
-      private io.dstore.Values.booleanValue usedInPredefinedBillContent_;
+      private io.dstore.values.BooleanValue usedInPredefinedBillContent_;
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
        */
       public boolean hasUsedInPredefinedBillContent() {
         return usedInPredefinedBillContent_ != null;
@@ -3519,30 +3519,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
        */
-      public io.dstore.Values.booleanValue getUsedInPredefinedBillContent() {
-        return usedInPredefinedBillContent_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInPredefinedBillContent_;
+      public io.dstore.values.BooleanValue getUsedInPredefinedBillContent() {
+        return usedInPredefinedBillContent_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInPredefinedBillContent_;
       }
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUsedInPredefinedBillContentOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUsedInPredefinedBillContentOrBuilder() {
         return getUsedInPredefinedBillContent();
       }
 
       public static final int TABLE_NAME_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue tableName_;
+      private io.dstore.values.StringValue tableName_;
       /**
        * <pre>
        * Name der (dStore-)Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10005;</code>
        */
       public boolean hasTableName() {
         return tableName_ != null;
@@ -3552,30 +3552,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * Name der (dStore-)Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10005;</code>
        */
-      public io.dstore.Values.stringValue getTableName() {
-        return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+      public io.dstore.values.StringValue getTableName() {
+        return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
       }
       /**
        * <pre>
        * Name der (dStore-)Tabelle
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue table_name = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
         return getTableName();
       }
 
       public static final int PRIMARY_KEY_COLUMN_NAME_FIELD_NUMBER = 10006;
-      private io.dstore.Values.stringValue primaryKeyColumnName_;
+      private io.dstore.values.StringValue primaryKeyColumnName_;
       /**
        * <pre>
        * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+       * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
        */
       public boolean hasPrimaryKeyColumnName() {
         return primaryKeyColumnName_ != null;
@@ -3585,30 +3585,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+       * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
        */
-      public io.dstore.Values.stringValue getPrimaryKeyColumnName() {
-        return primaryKeyColumnName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : primaryKeyColumnName_;
+      public io.dstore.values.StringValue getPrimaryKeyColumnName() {
+        return primaryKeyColumnName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : primaryKeyColumnName_;
       }
       /**
        * <pre>
        * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+       * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPrimaryKeyColumnNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPrimaryKeyColumnNameOrBuilder() {
         return getPrimaryKeyColumnName();
       }
 
       public static final int USED_IN_SEARCH_ITEMS_FIELD_NUMBER = 10007;
-      private io.dstore.Values.booleanValue usedInSearchItems_;
+      private io.dstore.values.BooleanValue usedInSearchItems_;
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
        */
       public boolean hasUsedInSearchItems() {
         return usedInSearchItems_ != null;
@@ -3618,30 +3618,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
        */
-      public io.dstore.Values.booleanValue getUsedInSearchItems() {
-        return usedInSearchItems_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInSearchItems_;
+      public io.dstore.values.BooleanValue getUsedInSearchItems() {
+        return usedInSearchItems_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInSearchItems_;
       }
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUsedInSearchItemsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUsedInSearchItemsOrBuilder() {
         return getUsedInSearchItems();
       }
 
       public static final int USED_IN_PERSON_CHARAC_VALUE_REFS_FIELD_NUMBER = 10008;
-      private io.dstore.Values.booleanValue usedInPersonCharacValueRefs_;
+      private io.dstore.values.BooleanValue usedInPersonCharacValueRefs_;
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
        */
       public boolean hasUsedInPersonCharacValueRefs() {
         return usedInPersonCharacValueRefs_ != null;
@@ -3651,30 +3651,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
        */
-      public io.dstore.Values.booleanValue getUsedInPersonCharacValueRefs() {
-        return usedInPersonCharacValueRefs_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
+      public io.dstore.values.BooleanValue getUsedInPersonCharacValueRefs() {
+        return usedInPersonCharacValueRefs_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
       }
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder() {
         return getUsedInPersonCharacValueRefs();
       }
 
       public static final int USED_IN_META_INFORMATION_TYPES_FIELD_NUMBER = 10009;
-      private io.dstore.Values.booleanValue usedInMetaInformationTypes_;
+      private io.dstore.values.BooleanValue usedInMetaInformationTypes_;
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
        */
       public boolean hasUsedInMetaInformationTypes() {
         return usedInMetaInformationTypes_ != null;
@@ -3684,30 +3684,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
        */
-      public io.dstore.Values.booleanValue getUsedInMetaInformationTypes() {
-        return usedInMetaInformationTypes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInMetaInformationTypes_;
+      public io.dstore.values.BooleanValue getUsedInMetaInformationTypes() {
+        return usedInMetaInformationTypes_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInMetaInformationTypes_;
       }
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUsedInMetaInformationTypesOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUsedInMetaInformationTypesOrBuilder() {
         return getUsedInMetaInformationTypes();
       }
 
       public static final int USED_IN_RATING_SUBJECTS_FIELD_NUMBER = 10010;
-      private io.dstore.Values.booleanValue usedInRatingSubjects_;
+      private io.dstore.values.BooleanValue usedInRatingSubjects_;
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
        */
       public boolean hasUsedInRatingSubjects() {
         return usedInRatingSubjects_ != null;
@@ -3717,30 +3717,30 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
        */
-      public io.dstore.Values.booleanValue getUsedInRatingSubjects() {
-        return usedInRatingSubjects_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInRatingSubjects_;
+      public io.dstore.values.BooleanValue getUsedInRatingSubjects() {
+        return usedInRatingSubjects_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInRatingSubjects_;
       }
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUsedInRatingSubjectsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUsedInRatingSubjectsOrBuilder() {
         return getUsedInRatingSubjects();
       }
 
       public static final int USED_IN_CASH_ACC_TRANSACTIONS_FIELD_NUMBER = 10011;
-      private io.dstore.Values.booleanValue usedInCashAccTransactions_;
+      private io.dstore.values.BooleanValue usedInCashAccTransactions_;
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
        */
       public boolean hasUsedInCashAccTransactions() {
         return usedInCashAccTransactions_ != null;
@@ -3750,19 +3750,19 @@ public final class MiGetTabsRefInOtherTabsAd {
        * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
        */
-      public io.dstore.Values.booleanValue getUsedInCashAccTransactions() {
-        return usedInCashAccTransactions_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInCashAccTransactions_;
+      public io.dstore.values.BooleanValue getUsedInCashAccTransactions() {
+        return usedInCashAccTransactions_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInCashAccTransactions_;
       }
       /**
        * <pre>
        * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+       * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUsedInCashAccTransactionsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUsedInCashAccTransactionsOrBuilder() {
         return getUsedInCashAccTransactions();
       }
 
@@ -4391,15 +4391,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue tableId_ = null;
+        private io.dstore.values.IntegerValue tableId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableIdBuilder_;
         /**
          * <pre>
          * ID der Tabelle "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
         public boolean hasTableId() {
           return tableIdBuilder_ != null || tableId_ != null;
@@ -4409,11 +4409,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * ID der Tabelle "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getTableId() {
+        public io.dstore.values.IntegerValue getTableId() {
           if (tableIdBuilder_ == null) {
-            return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+            return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
           } else {
             return tableIdBuilder_.getMessage();
           }
@@ -4423,9 +4423,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * ID der Tabelle "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public Builder setTableId(io.dstore.Values.integerValue value) {
+        public Builder setTableId(io.dstore.values.IntegerValue value) {
           if (tableIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4443,10 +4443,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * ID der Tabelle "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
         public Builder setTableId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (tableIdBuilder_ == null) {
             tableId_ = builderForValue.build();
             onChanged();
@@ -4461,13 +4461,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * ID der Tabelle "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public Builder mergeTableId(io.dstore.Values.integerValue value) {
+        public Builder mergeTableId(io.dstore.values.IntegerValue value) {
           if (tableIdBuilder_ == null) {
             if (tableId_ != null) {
               tableId_ =
-                io.dstore.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
             } else {
               tableId_ = value;
             }
@@ -4483,7 +4483,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * ID der Tabelle "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
         public Builder clearTableId() {
           if (tableIdBuilder_ == null) {
@@ -4501,9 +4501,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * ID der Tabelle "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTableIdBuilder() {
           
           onChanged();
           return getTableIdFieldBuilder().getBuilder();
@@ -4513,14 +4513,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * ID der Tabelle "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
           if (tableIdBuilder_ != null) {
             return tableIdBuilder_.getMessageOrBuilder();
           } else {
             return tableId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
           }
         }
         /**
@@ -4528,14 +4528,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * ID der Tabelle "TableName"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue table_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue table_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTableIdFieldBuilder() {
           if (tableIdBuilder_ == null) {
             tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTableId(),
                     getParentForChildren(),
                     isClean());
@@ -4544,15 +4544,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return tableIdBuilder_;
         }
 
-        private io.dstore.Values.booleanValue usedInSearchItemLacks_ = null;
+        private io.dstore.values.BooleanValue usedInSearchItemLacks_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInSearchItemLacksBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> usedInSearchItemLacksBuilder_;
         /**
          * <pre>
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
          */
         public boolean hasUsedInSearchItemLacks() {
           return usedInSearchItemLacksBuilder_ != null || usedInSearchItemLacks_ != null;
@@ -4562,11 +4562,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
          */
-        public io.dstore.Values.booleanValue getUsedInSearchItemLacks() {
+        public io.dstore.values.BooleanValue getUsedInSearchItemLacks() {
           if (usedInSearchItemLacksBuilder_ == null) {
-            return usedInSearchItemLacks_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInSearchItemLacks_;
+            return usedInSearchItemLacks_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInSearchItemLacks_;
           } else {
             return usedInSearchItemLacksBuilder_.getMessage();
           }
@@ -4576,9 +4576,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
          */
-        public Builder setUsedInSearchItemLacks(io.dstore.Values.booleanValue value) {
+        public Builder setUsedInSearchItemLacks(io.dstore.values.BooleanValue value) {
           if (usedInSearchItemLacksBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4596,10 +4596,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
          */
         public Builder setUsedInSearchItemLacks(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (usedInSearchItemLacksBuilder_ == null) {
             usedInSearchItemLacks_ = builderForValue.build();
             onChanged();
@@ -4614,13 +4614,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
          */
-        public Builder mergeUsedInSearchItemLacks(io.dstore.Values.booleanValue value) {
+        public Builder mergeUsedInSearchItemLacks(io.dstore.values.BooleanValue value) {
           if (usedInSearchItemLacksBuilder_ == null) {
             if (usedInSearchItemLacks_ != null) {
               usedInSearchItemLacks_ =
-                io.dstore.Values.booleanValue.newBuilder(usedInSearchItemLacks_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(usedInSearchItemLacks_).mergeFrom(value).buildPartial();
             } else {
               usedInSearchItemLacks_ = value;
             }
@@ -4636,7 +4636,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
          */
         public Builder clearUsedInSearchItemLacks() {
           if (usedInSearchItemLacksBuilder_ == null) {
@@ -4654,9 +4654,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getUsedInSearchItemLacksBuilder() {
+        public io.dstore.values.BooleanValue.Builder getUsedInSearchItemLacksBuilder() {
           
           onChanged();
           return getUsedInSearchItemLacksFieldBuilder().getBuilder();
@@ -4666,14 +4666,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getUsedInSearchItemLacksOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getUsedInSearchItemLacksOrBuilder() {
           if (usedInSearchItemLacksBuilder_ != null) {
             return usedInSearchItemLacksBuilder_.getMessageOrBuilder();
           } else {
             return usedInSearchItemLacks_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : usedInSearchItemLacks_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : usedInSearchItemLacks_;
           }
         }
         /**
@@ -4681,14 +4681,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItemLacks" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_item_lacks = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_item_lacks = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getUsedInSearchItemLacksFieldBuilder() {
           if (usedInSearchItemLacksBuilder_ == null) {
             usedInSearchItemLacksBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getUsedInSearchItemLacks(),
                     getParentForChildren(),
                     isClean());
@@ -4697,15 +4697,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return usedInSearchItemLacksBuilder_;
         }
 
-        private io.dstore.Values.booleanValue usedInRatingValues_ = null;
+        private io.dstore.values.BooleanValue usedInRatingValues_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInRatingValuesBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> usedInRatingValuesBuilder_;
         /**
          * <pre>
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
          */
         public boolean hasUsedInRatingValues() {
           return usedInRatingValuesBuilder_ != null || usedInRatingValues_ != null;
@@ -4715,11 +4715,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
          */
-        public io.dstore.Values.booleanValue getUsedInRatingValues() {
+        public io.dstore.values.BooleanValue getUsedInRatingValues() {
           if (usedInRatingValuesBuilder_ == null) {
-            return usedInRatingValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInRatingValues_;
+            return usedInRatingValues_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInRatingValues_;
           } else {
             return usedInRatingValuesBuilder_.getMessage();
           }
@@ -4729,9 +4729,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
          */
-        public Builder setUsedInRatingValues(io.dstore.Values.booleanValue value) {
+        public Builder setUsedInRatingValues(io.dstore.values.BooleanValue value) {
           if (usedInRatingValuesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4749,10 +4749,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
          */
         public Builder setUsedInRatingValues(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (usedInRatingValuesBuilder_ == null) {
             usedInRatingValues_ = builderForValue.build();
             onChanged();
@@ -4767,13 +4767,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
          */
-        public Builder mergeUsedInRatingValues(io.dstore.Values.booleanValue value) {
+        public Builder mergeUsedInRatingValues(io.dstore.values.BooleanValue value) {
           if (usedInRatingValuesBuilder_ == null) {
             if (usedInRatingValues_ != null) {
               usedInRatingValues_ =
-                io.dstore.Values.booleanValue.newBuilder(usedInRatingValues_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(usedInRatingValues_).mergeFrom(value).buildPartial();
             } else {
               usedInRatingValues_ = value;
             }
@@ -4789,7 +4789,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
          */
         public Builder clearUsedInRatingValues() {
           if (usedInRatingValuesBuilder_ == null) {
@@ -4807,9 +4807,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getUsedInRatingValuesBuilder() {
+        public io.dstore.values.BooleanValue.Builder getUsedInRatingValuesBuilder() {
           
           onChanged();
           return getUsedInRatingValuesFieldBuilder().getBuilder();
@@ -4819,14 +4819,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getUsedInRatingValuesOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getUsedInRatingValuesOrBuilder() {
           if (usedInRatingValuesBuilder_ != null) {
             return usedInRatingValuesBuilder_.getMessageOrBuilder();
           } else {
             return usedInRatingValues_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : usedInRatingValues_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : usedInRatingValues_;
           }
         }
         /**
@@ -4834,14 +4834,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingValues" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_values = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_values = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getUsedInRatingValuesFieldBuilder() {
           if (usedInRatingValuesBuilder_ == null) {
             usedInRatingValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getUsedInRatingValues(),
                     getParentForChildren(),
                     isClean());
@@ -4850,15 +4850,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return usedInRatingValuesBuilder_;
         }
 
-        private io.dstore.Values.booleanValue usedInPredefinedBillContent_ = null;
+        private io.dstore.values.BooleanValue usedInPredefinedBillContent_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInPredefinedBillContentBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> usedInPredefinedBillContentBuilder_;
         /**
          * <pre>
          * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
          */
         public boolean hasUsedInPredefinedBillContent() {
           return usedInPredefinedBillContentBuilder_ != null || usedInPredefinedBillContent_ != null;
@@ -4868,11 +4868,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
          */
-        public io.dstore.Values.booleanValue getUsedInPredefinedBillContent() {
+        public io.dstore.values.BooleanValue getUsedInPredefinedBillContent() {
           if (usedInPredefinedBillContentBuilder_ == null) {
-            return usedInPredefinedBillContent_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInPredefinedBillContent_;
+            return usedInPredefinedBillContent_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInPredefinedBillContent_;
           } else {
             return usedInPredefinedBillContentBuilder_.getMessage();
           }
@@ -4882,9 +4882,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
          */
-        public Builder setUsedInPredefinedBillContent(io.dstore.Values.booleanValue value) {
+        public Builder setUsedInPredefinedBillContent(io.dstore.values.BooleanValue value) {
           if (usedInPredefinedBillContentBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4902,10 +4902,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
          */
         public Builder setUsedInPredefinedBillContent(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (usedInPredefinedBillContentBuilder_ == null) {
             usedInPredefinedBillContent_ = builderForValue.build();
             onChanged();
@@ -4920,13 +4920,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
          */
-        public Builder mergeUsedInPredefinedBillContent(io.dstore.Values.booleanValue value) {
+        public Builder mergeUsedInPredefinedBillContent(io.dstore.values.BooleanValue value) {
           if (usedInPredefinedBillContentBuilder_ == null) {
             if (usedInPredefinedBillContent_ != null) {
               usedInPredefinedBillContent_ =
-                io.dstore.Values.booleanValue.newBuilder(usedInPredefinedBillContent_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(usedInPredefinedBillContent_).mergeFrom(value).buildPartial();
             } else {
               usedInPredefinedBillContent_ = value;
             }
@@ -4942,7 +4942,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
          */
         public Builder clearUsedInPredefinedBillContent() {
           if (usedInPredefinedBillContentBuilder_ == null) {
@@ -4960,9 +4960,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getUsedInPredefinedBillContentBuilder() {
+        public io.dstore.values.BooleanValue.Builder getUsedInPredefinedBillContentBuilder() {
           
           onChanged();
           return getUsedInPredefinedBillContentFieldBuilder().getBuilder();
@@ -4972,14 +4972,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getUsedInPredefinedBillContentOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getUsedInPredefinedBillContentOrBuilder() {
           if (usedInPredefinedBillContentBuilder_ != null) {
             return usedInPredefinedBillContentBuilder_.getMessageOrBuilder();
           } else {
             return usedInPredefinedBillContent_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : usedInPredefinedBillContent_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : usedInPredefinedBillContent_;
           }
         }
         /**
@@ -4987,14 +4987,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PredefinedBillContent" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_predefined_bill_content = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_predefined_bill_content = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getUsedInPredefinedBillContentFieldBuilder() {
           if (usedInPredefinedBillContentBuilder_ == null) {
             usedInPredefinedBillContentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getUsedInPredefinedBillContent(),
                     getParentForChildren(),
                     isClean());
@@ -5003,15 +5003,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return usedInPredefinedBillContentBuilder_;
         }
 
-        private io.dstore.Values.stringValue tableName_ = null;
+        private io.dstore.values.StringValue tableName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tableNameBuilder_;
         /**
          * <pre>
          * Name der (dStore-)Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10005;</code>
          */
         public boolean hasTableName() {
           return tableNameBuilder_ != null || tableName_ != null;
@@ -5021,11 +5021,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Name der (dStore-)Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10005;</code>
          */
-        public io.dstore.Values.stringValue getTableName() {
+        public io.dstore.values.StringValue getTableName() {
           if (tableNameBuilder_ == null) {
-            return tableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+            return tableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableName_;
           } else {
             return tableNameBuilder_.getMessage();
           }
@@ -5035,9 +5035,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Name der (dStore-)Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10005;</code>
          */
-        public Builder setTableName(io.dstore.Values.stringValue value) {
+        public Builder setTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5055,10 +5055,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Name der (dStore-)Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10005;</code>
          */
         public Builder setTableName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (tableNameBuilder_ == null) {
             tableName_ = builderForValue.build();
             onChanged();
@@ -5073,13 +5073,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Name der (dStore-)Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10005;</code>
          */
-        public Builder mergeTableName(io.dstore.Values.stringValue value) {
+        public Builder mergeTableName(io.dstore.values.StringValue value) {
           if (tableNameBuilder_ == null) {
             if (tableName_ != null) {
               tableName_ =
-                io.dstore.Values.stringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(tableName_).mergeFrom(value).buildPartial();
             } else {
               tableName_ = value;
             }
@@ -5095,7 +5095,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Name der (dStore-)Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10005;</code>
          */
         public Builder clearTableName() {
           if (tableNameBuilder_ == null) {
@@ -5113,9 +5113,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Name der (dStore-)Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getTableNameBuilder() {
+        public io.dstore.values.StringValue.Builder getTableNameBuilder() {
           
           onChanged();
           return getTableNameFieldBuilder().getBuilder();
@@ -5125,14 +5125,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Name der (dStore-)Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getTableNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getTableNameOrBuilder() {
           if (tableNameBuilder_ != null) {
             return tableNameBuilder_.getMessageOrBuilder();
           } else {
             return tableName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : tableName_;
+                io.dstore.values.StringValue.getDefaultInstance() : tableName_;
           }
         }
         /**
@@ -5140,14 +5140,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Name der (dStore-)Tabelle
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue table_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue table_name = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getTableNameFieldBuilder() {
           if (tableNameBuilder_ == null) {
             tableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getTableName(),
                     getParentForChildren(),
                     isClean());
@@ -5156,15 +5156,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return tableNameBuilder_;
         }
 
-        private io.dstore.Values.stringValue primaryKeyColumnName_ = null;
+        private io.dstore.values.StringValue primaryKeyColumnName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> primaryKeyColumnNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> primaryKeyColumnNameBuilder_;
         /**
          * <pre>
          * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+         * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
          */
         public boolean hasPrimaryKeyColumnName() {
           return primaryKeyColumnNameBuilder_ != null || primaryKeyColumnName_ != null;
@@ -5174,11 +5174,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+         * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
          */
-        public io.dstore.Values.stringValue getPrimaryKeyColumnName() {
+        public io.dstore.values.StringValue getPrimaryKeyColumnName() {
           if (primaryKeyColumnNameBuilder_ == null) {
-            return primaryKeyColumnName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : primaryKeyColumnName_;
+            return primaryKeyColumnName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : primaryKeyColumnName_;
           } else {
             return primaryKeyColumnNameBuilder_.getMessage();
           }
@@ -5188,9 +5188,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+         * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
          */
-        public Builder setPrimaryKeyColumnName(io.dstore.Values.stringValue value) {
+        public Builder setPrimaryKeyColumnName(io.dstore.values.StringValue value) {
           if (primaryKeyColumnNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5208,10 +5208,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+         * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
          */
         public Builder setPrimaryKeyColumnName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (primaryKeyColumnNameBuilder_ == null) {
             primaryKeyColumnName_ = builderForValue.build();
             onChanged();
@@ -5226,13 +5226,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+         * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
          */
-        public Builder mergePrimaryKeyColumnName(io.dstore.Values.stringValue value) {
+        public Builder mergePrimaryKeyColumnName(io.dstore.values.StringValue value) {
           if (primaryKeyColumnNameBuilder_ == null) {
             if (primaryKeyColumnName_ != null) {
               primaryKeyColumnName_ =
-                io.dstore.Values.stringValue.newBuilder(primaryKeyColumnName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(primaryKeyColumnName_).mergeFrom(value).buildPartial();
             } else {
               primaryKeyColumnName_ = value;
             }
@@ -5248,7 +5248,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+         * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
          */
         public Builder clearPrimaryKeyColumnName() {
           if (primaryKeyColumnNameBuilder_ == null) {
@@ -5266,9 +5266,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+         * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPrimaryKeyColumnNameBuilder() {
+        public io.dstore.values.StringValue.Builder getPrimaryKeyColumnNameBuilder() {
           
           onChanged();
           return getPrimaryKeyColumnNameFieldBuilder().getBuilder();
@@ -5278,14 +5278,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+         * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPrimaryKeyColumnNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPrimaryKeyColumnNameOrBuilder() {
           if (primaryKeyColumnNameBuilder_ != null) {
             return primaryKeyColumnNameBuilder_.getMessageOrBuilder();
           } else {
             return primaryKeyColumnName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : primaryKeyColumnName_;
+                io.dstore.values.StringValue.getDefaultInstance() : primaryKeyColumnName_;
           }
         }
         /**
@@ -5293,14 +5293,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * Spaltenname(n) aus denen der Primärschlüssel der Tabelle besteht
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue primary_key_column_name = 10006;</code>
+         * <code>optional .dstore.values.StringValue primary_key_column_name = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPrimaryKeyColumnNameFieldBuilder() {
           if (primaryKeyColumnNameBuilder_ == null) {
             primaryKeyColumnNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPrimaryKeyColumnName(),
                     getParentForChildren(),
                     isClean());
@@ -5309,15 +5309,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return primaryKeyColumnNameBuilder_;
         }
 
-        private io.dstore.Values.booleanValue usedInSearchItems_ = null;
+        private io.dstore.values.BooleanValue usedInSearchItems_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInSearchItemsBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> usedInSearchItemsBuilder_;
         /**
          * <pre>
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
          */
         public boolean hasUsedInSearchItems() {
           return usedInSearchItemsBuilder_ != null || usedInSearchItems_ != null;
@@ -5327,11 +5327,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
          */
-        public io.dstore.Values.booleanValue getUsedInSearchItems() {
+        public io.dstore.values.BooleanValue getUsedInSearchItems() {
           if (usedInSearchItemsBuilder_ == null) {
-            return usedInSearchItems_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInSearchItems_;
+            return usedInSearchItems_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInSearchItems_;
           } else {
             return usedInSearchItemsBuilder_.getMessage();
           }
@@ -5341,9 +5341,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
          */
-        public Builder setUsedInSearchItems(io.dstore.Values.booleanValue value) {
+        public Builder setUsedInSearchItems(io.dstore.values.BooleanValue value) {
           if (usedInSearchItemsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5361,10 +5361,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
          */
         public Builder setUsedInSearchItems(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (usedInSearchItemsBuilder_ == null) {
             usedInSearchItems_ = builderForValue.build();
             onChanged();
@@ -5379,13 +5379,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
          */
-        public Builder mergeUsedInSearchItems(io.dstore.Values.booleanValue value) {
+        public Builder mergeUsedInSearchItems(io.dstore.values.BooleanValue value) {
           if (usedInSearchItemsBuilder_ == null) {
             if (usedInSearchItems_ != null) {
               usedInSearchItems_ =
-                io.dstore.Values.booleanValue.newBuilder(usedInSearchItems_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(usedInSearchItems_).mergeFrom(value).buildPartial();
             } else {
               usedInSearchItems_ = value;
             }
@@ -5401,7 +5401,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
          */
         public Builder clearUsedInSearchItems() {
           if (usedInSearchItemsBuilder_ == null) {
@@ -5419,9 +5419,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getUsedInSearchItemsBuilder() {
+        public io.dstore.values.BooleanValue.Builder getUsedInSearchItemsBuilder() {
           
           onChanged();
           return getUsedInSearchItemsFieldBuilder().getBuilder();
@@ -5431,14 +5431,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getUsedInSearchItemsOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getUsedInSearchItemsOrBuilder() {
           if (usedInSearchItemsBuilder_ != null) {
             return usedInSearchItemsBuilder_.getMessageOrBuilder();
           } else {
             return usedInSearchItems_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : usedInSearchItems_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : usedInSearchItems_;
           }
         }
         /**
@@ -5446,14 +5446,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "SearchItems" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_search_items = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_search_items = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getUsedInSearchItemsFieldBuilder() {
           if (usedInSearchItemsBuilder_ == null) {
             usedInSearchItemsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getUsedInSearchItems(),
                     getParentForChildren(),
                     isClean());
@@ -5462,15 +5462,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return usedInSearchItemsBuilder_;
         }
 
-        private io.dstore.Values.booleanValue usedInPersonCharacValueRefs_ = null;
+        private io.dstore.values.BooleanValue usedInPersonCharacValueRefs_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInPersonCharacValueRefsBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> usedInPersonCharacValueRefsBuilder_;
         /**
          * <pre>
          * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
          */
         public boolean hasUsedInPersonCharacValueRefs() {
           return usedInPersonCharacValueRefsBuilder_ != null || usedInPersonCharacValueRefs_ != null;
@@ -5480,11 +5480,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
          */
-        public io.dstore.Values.booleanValue getUsedInPersonCharacValueRefs() {
+        public io.dstore.values.BooleanValue getUsedInPersonCharacValueRefs() {
           if (usedInPersonCharacValueRefsBuilder_ == null) {
-            return usedInPersonCharacValueRefs_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
+            return usedInPersonCharacValueRefs_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
           } else {
             return usedInPersonCharacValueRefsBuilder_.getMessage();
           }
@@ -5494,9 +5494,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
          */
-        public Builder setUsedInPersonCharacValueRefs(io.dstore.Values.booleanValue value) {
+        public Builder setUsedInPersonCharacValueRefs(io.dstore.values.BooleanValue value) {
           if (usedInPersonCharacValueRefsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5514,10 +5514,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
          */
         public Builder setUsedInPersonCharacValueRefs(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (usedInPersonCharacValueRefsBuilder_ == null) {
             usedInPersonCharacValueRefs_ = builderForValue.build();
             onChanged();
@@ -5532,13 +5532,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
          */
-        public Builder mergeUsedInPersonCharacValueRefs(io.dstore.Values.booleanValue value) {
+        public Builder mergeUsedInPersonCharacValueRefs(io.dstore.values.BooleanValue value) {
           if (usedInPersonCharacValueRefsBuilder_ == null) {
             if (usedInPersonCharacValueRefs_ != null) {
               usedInPersonCharacValueRefs_ =
-                io.dstore.Values.booleanValue.newBuilder(usedInPersonCharacValueRefs_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(usedInPersonCharacValueRefs_).mergeFrom(value).buildPartial();
             } else {
               usedInPersonCharacValueRefs_ = value;
             }
@@ -5554,7 +5554,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
          */
         public Builder clearUsedInPersonCharacValueRefs() {
           if (usedInPersonCharacValueRefsBuilder_ == null) {
@@ -5572,9 +5572,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getUsedInPersonCharacValueRefsBuilder() {
+        public io.dstore.values.BooleanValue.Builder getUsedInPersonCharacValueRefsBuilder() {
           
           onChanged();
           return getUsedInPersonCharacValueRefsFieldBuilder().getBuilder();
@@ -5584,14 +5584,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getUsedInPersonCharacValueRefsOrBuilder() {
           if (usedInPersonCharacValueRefsBuilder_ != null) {
             return usedInPersonCharacValueRefsBuilder_.getMessageOrBuilder();
           } else {
             return usedInPersonCharacValueRefs_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : usedInPersonCharacValueRefs_;
           }
         }
         /**
@@ -5599,14 +5599,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "PersonCharacValueReferences" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_person_charac_value_refs = 10008;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_person_charac_value_refs = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getUsedInPersonCharacValueRefsFieldBuilder() {
           if (usedInPersonCharacValueRefsBuilder_ == null) {
             usedInPersonCharacValueRefsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getUsedInPersonCharacValueRefs(),
                     getParentForChildren(),
                     isClean());
@@ -5615,15 +5615,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return usedInPersonCharacValueRefsBuilder_;
         }
 
-        private io.dstore.Values.booleanValue usedInMetaInformationTypes_ = null;
+        private io.dstore.values.BooleanValue usedInMetaInformationTypes_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInMetaInformationTypesBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> usedInMetaInformationTypesBuilder_;
         /**
          * <pre>
          * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
          */
         public boolean hasUsedInMetaInformationTypes() {
           return usedInMetaInformationTypesBuilder_ != null || usedInMetaInformationTypes_ != null;
@@ -5633,11 +5633,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
          */
-        public io.dstore.Values.booleanValue getUsedInMetaInformationTypes() {
+        public io.dstore.values.BooleanValue getUsedInMetaInformationTypes() {
           if (usedInMetaInformationTypesBuilder_ == null) {
-            return usedInMetaInformationTypes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInMetaInformationTypes_;
+            return usedInMetaInformationTypes_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInMetaInformationTypes_;
           } else {
             return usedInMetaInformationTypesBuilder_.getMessage();
           }
@@ -5647,9 +5647,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
          */
-        public Builder setUsedInMetaInformationTypes(io.dstore.Values.booleanValue value) {
+        public Builder setUsedInMetaInformationTypes(io.dstore.values.BooleanValue value) {
           if (usedInMetaInformationTypesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5667,10 +5667,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
          */
         public Builder setUsedInMetaInformationTypes(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (usedInMetaInformationTypesBuilder_ == null) {
             usedInMetaInformationTypes_ = builderForValue.build();
             onChanged();
@@ -5685,13 +5685,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
          */
-        public Builder mergeUsedInMetaInformationTypes(io.dstore.Values.booleanValue value) {
+        public Builder mergeUsedInMetaInformationTypes(io.dstore.values.BooleanValue value) {
           if (usedInMetaInformationTypesBuilder_ == null) {
             if (usedInMetaInformationTypes_ != null) {
               usedInMetaInformationTypes_ =
-                io.dstore.Values.booleanValue.newBuilder(usedInMetaInformationTypes_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(usedInMetaInformationTypes_).mergeFrom(value).buildPartial();
             } else {
               usedInMetaInformationTypes_ = value;
             }
@@ -5707,7 +5707,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
          */
         public Builder clearUsedInMetaInformationTypes() {
           if (usedInMetaInformationTypesBuilder_ == null) {
@@ -5725,9 +5725,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getUsedInMetaInformationTypesBuilder() {
+        public io.dstore.values.BooleanValue.Builder getUsedInMetaInformationTypesBuilder() {
           
           onChanged();
           return getUsedInMetaInformationTypesFieldBuilder().getBuilder();
@@ -5737,14 +5737,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getUsedInMetaInformationTypesOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getUsedInMetaInformationTypesOrBuilder() {
           if (usedInMetaInformationTypesBuilder_ != null) {
             return usedInMetaInformationTypesBuilder_.getMessageOrBuilder();
           } else {
             return usedInMetaInformationTypes_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : usedInMetaInformationTypes_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : usedInMetaInformationTypes_;
           }
         }
         /**
@@ -5752,14 +5752,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "MetaInformationTypes" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_meta_information_types = 10009;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_meta_information_types = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getUsedInMetaInformationTypesFieldBuilder() {
           if (usedInMetaInformationTypesBuilder_ == null) {
             usedInMetaInformationTypesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getUsedInMetaInformationTypes(),
                     getParentForChildren(),
                     isClean());
@@ -5768,15 +5768,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return usedInMetaInformationTypesBuilder_;
         }
 
-        private io.dstore.Values.booleanValue usedInRatingSubjects_ = null;
+        private io.dstore.values.BooleanValue usedInRatingSubjects_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInRatingSubjectsBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> usedInRatingSubjectsBuilder_;
         /**
          * <pre>
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
          */
         public boolean hasUsedInRatingSubjects() {
           return usedInRatingSubjectsBuilder_ != null || usedInRatingSubjects_ != null;
@@ -5786,11 +5786,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
          */
-        public io.dstore.Values.booleanValue getUsedInRatingSubjects() {
+        public io.dstore.values.BooleanValue getUsedInRatingSubjects() {
           if (usedInRatingSubjectsBuilder_ == null) {
-            return usedInRatingSubjects_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInRatingSubjects_;
+            return usedInRatingSubjects_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInRatingSubjects_;
           } else {
             return usedInRatingSubjectsBuilder_.getMessage();
           }
@@ -5800,9 +5800,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
          */
-        public Builder setUsedInRatingSubjects(io.dstore.Values.booleanValue value) {
+        public Builder setUsedInRatingSubjects(io.dstore.values.BooleanValue value) {
           if (usedInRatingSubjectsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5820,10 +5820,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
          */
         public Builder setUsedInRatingSubjects(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (usedInRatingSubjectsBuilder_ == null) {
             usedInRatingSubjects_ = builderForValue.build();
             onChanged();
@@ -5838,13 +5838,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
          */
-        public Builder mergeUsedInRatingSubjects(io.dstore.Values.booleanValue value) {
+        public Builder mergeUsedInRatingSubjects(io.dstore.values.BooleanValue value) {
           if (usedInRatingSubjectsBuilder_ == null) {
             if (usedInRatingSubjects_ != null) {
               usedInRatingSubjects_ =
-                io.dstore.Values.booleanValue.newBuilder(usedInRatingSubjects_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(usedInRatingSubjects_).mergeFrom(value).buildPartial();
             } else {
               usedInRatingSubjects_ = value;
             }
@@ -5860,7 +5860,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
          */
         public Builder clearUsedInRatingSubjects() {
           if (usedInRatingSubjectsBuilder_ == null) {
@@ -5878,9 +5878,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getUsedInRatingSubjectsBuilder() {
+        public io.dstore.values.BooleanValue.Builder getUsedInRatingSubjectsBuilder() {
           
           onChanged();
           return getUsedInRatingSubjectsFieldBuilder().getBuilder();
@@ -5890,14 +5890,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getUsedInRatingSubjectsOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getUsedInRatingSubjectsOrBuilder() {
           if (usedInRatingSubjectsBuilder_ != null) {
             return usedInRatingSubjectsBuilder_.getMessageOrBuilder();
           } else {
             return usedInRatingSubjects_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : usedInRatingSubjects_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : usedInRatingSubjects_;
           }
         }
         /**
@@ -5905,14 +5905,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "RatingSubjects" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_rating_subjects = 10010;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_rating_subjects = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getUsedInRatingSubjectsFieldBuilder() {
           if (usedInRatingSubjectsBuilder_ == null) {
             usedInRatingSubjectsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getUsedInRatingSubjects(),
                     getParentForChildren(),
                     isClean());
@@ -5921,15 +5921,15 @@ public final class MiGetTabsRefInOtherTabsAd {
           return usedInRatingSubjectsBuilder_;
         }
 
-        private io.dstore.Values.booleanValue usedInCashAccTransactions_ = null;
+        private io.dstore.values.BooleanValue usedInCashAccTransactions_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> usedInCashAccTransactionsBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> usedInCashAccTransactionsBuilder_;
         /**
          * <pre>
          * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
          */
         public boolean hasUsedInCashAccTransactions() {
           return usedInCashAccTransactionsBuilder_ != null || usedInCashAccTransactions_ != null;
@@ -5939,11 +5939,11 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
          */
-        public io.dstore.Values.booleanValue getUsedInCashAccTransactions() {
+        public io.dstore.values.BooleanValue getUsedInCashAccTransactions() {
           if (usedInCashAccTransactionsBuilder_ == null) {
-            return usedInCashAccTransactions_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : usedInCashAccTransactions_;
+            return usedInCashAccTransactions_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : usedInCashAccTransactions_;
           } else {
             return usedInCashAccTransactionsBuilder_.getMessage();
           }
@@ -5953,9 +5953,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
          */
-        public Builder setUsedInCashAccTransactions(io.dstore.Values.booleanValue value) {
+        public Builder setUsedInCashAccTransactions(io.dstore.values.BooleanValue value) {
           if (usedInCashAccTransactionsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5973,10 +5973,10 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
          */
         public Builder setUsedInCashAccTransactions(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (usedInCashAccTransactionsBuilder_ == null) {
             usedInCashAccTransactions_ = builderForValue.build();
             onChanged();
@@ -5991,13 +5991,13 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
          */
-        public Builder mergeUsedInCashAccTransactions(io.dstore.Values.booleanValue value) {
+        public Builder mergeUsedInCashAccTransactions(io.dstore.values.BooleanValue value) {
           if (usedInCashAccTransactionsBuilder_ == null) {
             if (usedInCashAccTransactions_ != null) {
               usedInCashAccTransactions_ =
-                io.dstore.Values.booleanValue.newBuilder(usedInCashAccTransactions_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(usedInCashAccTransactions_).mergeFrom(value).buildPartial();
             } else {
               usedInCashAccTransactions_ = value;
             }
@@ -6013,7 +6013,7 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
          */
         public Builder clearUsedInCashAccTransactions() {
           if (usedInCashAccTransactionsBuilder_ == null) {
@@ -6031,9 +6031,9 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getUsedInCashAccTransactionsBuilder() {
+        public io.dstore.values.BooleanValue.Builder getUsedInCashAccTransactionsBuilder() {
           
           onChanged();
           return getUsedInCashAccTransactionsFieldBuilder().getBuilder();
@@ -6043,14 +6043,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getUsedInCashAccTransactionsOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getUsedInCashAccTransactionsOrBuilder() {
           if (usedInCashAccTransactionsBuilder_ != null) {
             return usedInCashAccTransactionsBuilder_.getMessageOrBuilder();
           } else {
             return usedInCashAccTransactions_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : usedInCashAccTransactions_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : usedInCashAccTransactions_;
           }
         }
         /**
@@ -6058,14 +6058,14 @@ public final class MiGetTabsRefInOtherTabsAd {
          * "1" falls die "TableID" in der Spalte "TableID" von "CashAccountTransactions" referenziert werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue used_in_cash_acc_transactions = 10011;</code>
+         * <code>optional .dstore.values.BooleanValue used_in_cash_acc_transactions = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getUsedInCashAccTransactionsFieldBuilder() {
           if (usedInCashAccTransactionsBuilder_ == null) {
             usedInCashAccTransactionsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getUsedInCashAccTransactions(),
                     getParentForChildren(),
                     isClean());
@@ -7535,51 +7535,51 @@ public final class MiGetTabsRefInOtherTabsAd {
       "etTabsRefInOtherTabs_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\261\007\n\nPar" +
       "ameters\022-\n\010table_id\030\001 \001(\0132\033.dstore.value" +
-      "s.integerValue\022\026\n\rtable_id_null\030\351\007 \001(\010\0229" +
+      "s.IntegerValue\022\026\n\rtable_id_null\030\351\007 \001(\010\0229" +
       "\n\024used_in_search_items\030\002 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\"\n\031used_in_search_item" +
+      "lues.IntegerValue\022\"\n\031used_in_search_item" +
       "s_null\030\352\007 \001(\010\022>\n\031used_in_search_item_lac" +
-      "ks\030\003 \001(\0132\033.dstore.values.integerValue\022\'\n",
+      "ks\030\003 \001(\0132\033.dstore.values.IntegerValue\022\'\n",
       "\036used_in_search_item_lacks_null\030\353\007 \001(\010\022:" +
       "\n\025used_in_rating_values\030\004 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022#\n\032used_in_rating_val" +
+      "alues.IntegerValue\022#\n\032used_in_rating_val" +
       "ues_null\030\354\007 \001(\010\022<\n\027used_in_rating_subjec" +
-      "ts\030\005 \001(\0132\033.dstore.values.integerValue\022%\n" +
+      "ts\030\005 \001(\0132\033.dstore.values.IntegerValue\022%\n" +
       "\034used_in_rating_subjects_null\030\355\007 \001(\010\022C\n\036" +
       "used_in_meta_information_types\030\006 \001(\0132\033.d" +
-      "store.values.integerValue\022,\n#used_in_met" +
+      "store.values.IntegerValue\022,\n#used_in_met" +
       "a_information_types_null\030\356\007 \001(\010\022E\n used_" +
       "in_person_charac_value_refs\030\007 \001(\0132\033.dsto",
-      "re.values.integerValue\022.\n%used_in_person" +
+      "re.values.IntegerValue\022.\n%used_in_person" +
       "_charac_value_refs_null\030\357\007 \001(\010\022D\n\037used_i" +
       "n_predefined_bill_content\030\010 \001(\0132\033.dstore" +
-      ".values.integerValue\022-\n$used_in_predefin" +
+      ".values.IntegerValue\022-\n$used_in_predefin" +
       "ed_bill_content_null\030\360\007 \001(\010\022B\n\035used_in_c" +
       "ash_acc_transactions\030\t \001(\0132\033.dstore.valu" +
-      "es.integerValue\022+\n\"used_in_cash_acc_tran" +
+      "es.IntegerValue\022+\n\"used_in_cash_acc_tran" +
       "sactions_null\030\361\007 \001(\010\"\376\006\n\010Response\0228\n\020met" +
       "a_information\030\002 \003(\0132\036.dstore.engine.Meta" +
       "Information\022\'\n\007message\030\003 \003(\0132\026.dstore.en",
       "gine.Message\022D\n\003row\030\004 \003(\01327.dstore.engin" +
       "e.mi_GetTabsRefInOtherTabs_Ad.Response.R" +
       "ow\032\310\005\n\003Row\022\017\n\006row_id\030\220N \001(\005\022.\n\010table_id\030" +
-      "\221N \001(\0132\033.dstore.values.integerValue\022?\n\031u" +
+      "\221N \001(\0132\033.dstore.values.IntegerValue\022?\n\031u" +
       "sed_in_search_item_lacks\030\222N \001(\0132\033.dstore" +
-      ".values.booleanValue\022;\n\025used_in_rating_v" +
-      "alues\030\223N \001(\0132\033.dstore.values.booleanValu" +
+      ".values.BooleanValue\022;\n\025used_in_rating_v" +
+      "alues\030\223N \001(\0132\033.dstore.values.BooleanValu" +
       "e\022E\n\037used_in_predefined_bill_content\030\224N " +
-      "\001(\0132\033.dstore.values.booleanValue\022/\n\ntabl" +
-      "e_name\030\225N \001(\0132\032.dstore.values.stringValu",
+      "\001(\0132\033.dstore.values.BooleanValue\022/\n\ntabl" +
+      "e_name\030\225N \001(\0132\032.dstore.values.StringValu",
       "e\022<\n\027primary_key_column_name\030\226N \001(\0132\032.ds" +
-      "tore.values.stringValue\022:\n\024used_in_searc" +
-      "h_items\030\227N \001(\0132\033.dstore.values.booleanVa" +
+      "tore.values.StringValue\022:\n\024used_in_searc" +
+      "h_items\030\227N \001(\0132\033.dstore.values.BooleanVa" +
       "lue\022F\n used_in_person_charac_value_refs\030" +
-      "\230N \001(\0132\033.dstore.values.booleanValue\022D\n\036u" +
+      "\230N \001(\0132\033.dstore.values.BooleanValue\022D\n\036u" +
       "sed_in_meta_information_types\030\231N \001(\0132\033.d" +
-      "store.values.booleanValue\022=\n\027used_in_rat" +
-      "ing_subjects\030\232N \001(\0132\033.dstore.values.bool" +
+      "store.values.BooleanValue\022=\n\027used_in_rat" +
+      "ing_subjects\030\232N \001(\0132\033.dstore.values.Bool" +
       "eanValue\022C\n\035used_in_cash_acc_transaction" +
-      "s\030\233N \001(\0132\033.dstore.values.booleanValueB\\\n",
+      "s\030\233N \001(\0132\033.dstore.values.BooleanValueB\\\n",
       "\033io.dstore.engine.proceduresZ=gosdk.dsto" +
       "re.de/engine/procedures/mi_GetTabsRefInO" +
       "therTabs_Adb\006proto3"
@@ -7595,7 +7595,7 @@ public final class MiGetTabsRefInOtherTabsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Parameters_descriptor =
@@ -7616,7 +7616,7 @@ public final class MiGetTabsRefInOtherTabsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTabsRefInOtherTabs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TableId", "UsedInSearchItemLacks", "UsedInRatingValues", "UsedInPredefinedBillContent", "TableName", "PrimaryKeyColumnName", "UsedInSearchItems", "UsedInPersonCharacValueRefs", "UsedInMetaInformationTypes", "UsedInRatingSubjects", "UsedInCashAccTransactions", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

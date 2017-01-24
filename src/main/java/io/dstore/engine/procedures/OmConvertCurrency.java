@@ -19,17 +19,17 @@ public final class OmConvertCurrency {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.decimalValue value = 1;</code>
+     * <code>optional .dstore.values.DecimalValue value = 1;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.decimalValue value = 1;</code>
+     * <code>optional .dstore.values.DecimalValue value = 1;</code>
      */
-    io.dstore.Values.decimalValue getValue();
+    io.dstore.values.DecimalValue getValue();
     /**
-     * <code>optional .dstore.values.decimalValue value = 1;</code>
+     * <code>optional .dstore.values.DecimalValue value = 1;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getValueOrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getValueOrBuilder();
 
     /**
      * <code>optional bool value_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmConvertCurrency {
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
      */
     boolean hasFromUnitId();
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
      */
-    io.dstore.Values.integerValue getFromUnitId();
+    io.dstore.values.IntegerValue getFromUnitId();
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder();
 
     /**
      * <code>optional bool from_unit_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmConvertCurrency {
     boolean getFromUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
      */
     boolean hasToUnitId();
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
      */
-    io.dstore.Values.integerValue getToUnitId();
+    io.dstore.values.IntegerValue getToUnitId();
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder();
 
     /**
      * <code>optional bool to_unit_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmConvertCurrency {
     boolean getToUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
      */
     boolean hasConvertedValue();
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
      */
-    io.dstore.Values.decimalValue getConvertedValue();
+    io.dstore.values.DecimalValue getConvertedValue();
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getConvertedValueOrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getConvertedValueOrBuilder();
 
     /**
      * <code>optional bool converted_value_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmConvertCurrency {
     boolean getConvertedValueNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue date = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date = 5;</code>
      */
     boolean hasDate();
     /**
-     * <code>optional .dstore.values.timestampValue date = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date = 5;</code>
      */
-    io.dstore.Values.timestampValue getDate();
+    io.dstore.values.TimestampValue getDate();
     /**
-     * <code>optional .dstore.values.timestampValue date = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date = 5;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getDateOrBuilder();
 
     /**
      * <code>optional bool date_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmConvertCurrency {
     boolean getDateNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
      */
-    io.dstore.Values.booleanValue getSelectResult();
+    io.dstore.values.BooleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
      * <code>optional bool select_result_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class OmConvertCurrency {
               break;
             }
             case 10: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class OmConvertCurrency {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (fromUnitId_ != null) {
                 subBuilder = fromUnitId_.toBuilder();
               }
-              fromUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              fromUnitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromUnitId_);
                 fromUnitId_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class OmConvertCurrency {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (toUnitId_ != null) {
                 subBuilder = toUnitId_.toBuilder();
               }
-              toUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              toUnitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toUnitId_);
                 toUnitId_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class OmConvertCurrency {
               break;
             }
             case 34: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (convertedValue_ != null) {
                 subBuilder = convertedValue_.toBuilder();
               }
-              convertedValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              convertedValue_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(convertedValue_);
                 convertedValue_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class OmConvertCurrency {
               break;
             }
             case 42: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (date_ != null) {
                 subBuilder = date_.toBuilder();
               }
-              date_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              date_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(date_);
                 date_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class OmConvertCurrency {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
               }
-              selectResult_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              selectResult_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectResult_);
                 selectResult_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class OmConvertCurrency {
     }
 
     public static final int VALUE_FIELD_NUMBER = 1;
-    private io.dstore.Values.decimalValue value_;
+    private io.dstore.values.DecimalValue value_;
     /**
-     * <code>optional .dstore.values.decimalValue value = 1;</code>
+     * <code>optional .dstore.values.DecimalValue value = 1;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue value = 1;</code>
+     * <code>optional .dstore.values.DecimalValue value = 1;</code>
      */
-    public io.dstore.Values.decimalValue getValue() {
-      return value_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : value_;
+    public io.dstore.values.DecimalValue getValue() {
+      return value_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue value = 1;</code>
+     * <code>optional .dstore.values.DecimalValue value = 1;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -333,23 +333,23 @@ public final class OmConvertCurrency {
     }
 
     public static final int FROM_UNIT_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue fromUnitId_;
+    private io.dstore.values.IntegerValue fromUnitId_;
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
      */
     public boolean hasFromUnitId() {
       return fromUnitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getFromUnitId() {
-      return fromUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+    public io.dstore.values.IntegerValue getFromUnitId() {
+      return fromUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder() {
       return getFromUnitId();
     }
 
@@ -363,23 +363,23 @@ public final class OmConvertCurrency {
     }
 
     public static final int TO_UNIT_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue toUnitId_;
+    private io.dstore.values.IntegerValue toUnitId_;
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
      */
     public boolean hasToUnitId() {
       return toUnitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getToUnitId() {
-      return toUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+    public io.dstore.values.IntegerValue getToUnitId() {
+      return toUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder() {
       return getToUnitId();
     }
 
@@ -393,23 +393,23 @@ public final class OmConvertCurrency {
     }
 
     public static final int CONVERTED_VALUE_FIELD_NUMBER = 4;
-    private io.dstore.Values.decimalValue convertedValue_;
+    private io.dstore.values.DecimalValue convertedValue_;
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
      */
     public boolean hasConvertedValue() {
       return convertedValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
      */
-    public io.dstore.Values.decimalValue getConvertedValue() {
-      return convertedValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : convertedValue_;
+    public io.dstore.values.DecimalValue getConvertedValue() {
+      return convertedValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : convertedValue_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getConvertedValueOrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getConvertedValueOrBuilder() {
       return getConvertedValue();
     }
 
@@ -423,23 +423,23 @@ public final class OmConvertCurrency {
     }
 
     public static final int DATE_FIELD_NUMBER = 5;
-    private io.dstore.Values.timestampValue date_;
+    private io.dstore.values.TimestampValue date_;
     /**
-     * <code>optional .dstore.values.timestampValue date = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date = 5;</code>
      */
     public boolean hasDate() {
       return date_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue date = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date = 5;</code>
      */
-    public io.dstore.Values.timestampValue getDate() {
-      return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
+    public io.dstore.values.TimestampValue getDate() {
+      return date_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : date_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue date = 5;</code>
+     * <code>optional .dstore.values.TimestampValue date = 5;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
       return getDate();
     }
 
@@ -453,23 +453,23 @@ public final class OmConvertCurrency {
     }
 
     public static final int SELECT_RESULT_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue selectResult_;
+    private io.dstore.values.BooleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
      */
-    public io.dstore.Values.booleanValue getSelectResult() {
-      return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+    public io.dstore.values.BooleanValue getSelectResult() {
+      return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
@@ -1022,29 +1022,29 @@ public final class OmConvertCurrency {
         return this;
       }
 
-      private io.dstore.Values.decimalValue value_ = null;
+      private io.dstore.values.DecimalValue value_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> valueBuilder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.decimalValue value = 1;</code>
+       * <code>optional .dstore.values.DecimalValue value = 1;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 1;</code>
+       * <code>optional .dstore.values.DecimalValue value = 1;</code>
        */
-      public io.dstore.Values.decimalValue getValue() {
+      public io.dstore.values.DecimalValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 1;</code>
+       * <code>optional .dstore.values.DecimalValue value = 1;</code>
        */
-      public Builder setValue(io.dstore.Values.decimalValue value) {
+      public Builder setValue(io.dstore.values.DecimalValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 1;</code>
+       * <code>optional .dstore.values.DecimalValue value = 1;</code>
        */
       public Builder setValue(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 1;</code>
+       * <code>optional .dstore.values.DecimalValue value = 1;</code>
        */
-      public Builder mergeValue(io.dstore.Values.decimalValue value) {
+      public Builder mergeValue(io.dstore.values.DecimalValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.Values.decimalValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 1;</code>
+       * <code>optional .dstore.values.DecimalValue value = 1;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 1;</code>
+       * <code>optional .dstore.values.DecimalValue value = 1;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getValueBuilder() {
+      public io.dstore.values.DecimalValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 1;</code>
+       * <code>optional .dstore.values.DecimalValue value = 1;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : value_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue value = 1;</code>
+       * <code>optional .dstore.values.DecimalValue value = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class OmConvertCurrency {
         return this;
       }
 
-      private io.dstore.Values.integerValue fromUnitId_ = null;
+      private io.dstore.values.IntegerValue fromUnitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromUnitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromUnitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
        */
       public boolean hasFromUnitId() {
         return fromUnitIdBuilder_ != null || fromUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getFromUnitId() {
+      public io.dstore.values.IntegerValue getFromUnitId() {
         if (fromUnitIdBuilder_ == null) {
-          return fromUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+          return fromUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
         } else {
           return fromUnitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
        */
-      public Builder setFromUnitId(io.dstore.Values.integerValue value) {
+      public Builder setFromUnitId(io.dstore.values.IntegerValue value) {
         if (fromUnitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
        */
       public Builder setFromUnitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (fromUnitIdBuilder_ == null) {
           fromUnitId_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
        */
-      public Builder mergeFromUnitId(io.dstore.Values.integerValue value) {
+      public Builder mergeFromUnitId(io.dstore.values.IntegerValue value) {
         if (fromUnitIdBuilder_ == null) {
           if (fromUnitId_ != null) {
             fromUnitId_ =
-              io.dstore.Values.integerValue.newBuilder(fromUnitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(fromUnitId_).mergeFrom(value).buildPartial();
           } else {
             fromUnitId_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
        */
       public Builder clearFromUnitId() {
         if (fromUnitIdBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFromUnitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFromUnitIdBuilder() {
         
         onChanged();
         return getFromUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromUnitIdOrBuilder() {
         if (fromUnitIdBuilder_ != null) {
           return fromUnitIdBuilder_.getMessageOrBuilder();
         } else {
           return fromUnitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : fromUnitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : fromUnitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_unit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_unit_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFromUnitIdFieldBuilder() {
         if (fromUnitIdBuilder_ == null) {
           fromUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFromUnitId(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class OmConvertCurrency {
         return this;
       }
 
-      private io.dstore.Values.integerValue toUnitId_ = null;
+      private io.dstore.values.IntegerValue toUnitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toUnitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toUnitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
        */
       public boolean hasToUnitId() {
         return toUnitIdBuilder_ != null || toUnitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getToUnitId() {
+      public io.dstore.values.IntegerValue getToUnitId() {
         if (toUnitIdBuilder_ == null) {
-          return toUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+          return toUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
         } else {
           return toUnitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
        */
-      public Builder setToUnitId(io.dstore.Values.integerValue value) {
+      public Builder setToUnitId(io.dstore.values.IntegerValue value) {
         if (toUnitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
        */
       public Builder setToUnitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (toUnitIdBuilder_ == null) {
           toUnitId_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
        */
-      public Builder mergeToUnitId(io.dstore.Values.integerValue value) {
+      public Builder mergeToUnitId(io.dstore.values.IntegerValue value) {
         if (toUnitIdBuilder_ == null) {
           if (toUnitId_ != null) {
             toUnitId_ =
-              io.dstore.Values.integerValue.newBuilder(toUnitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(toUnitId_).mergeFrom(value).buildPartial();
           } else {
             toUnitId_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
        */
       public Builder clearToUnitId() {
         if (toUnitIdBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getToUnitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getToUnitIdBuilder() {
         
         onChanged();
         return getToUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getToUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getToUnitIdOrBuilder() {
         if (toUnitIdBuilder_ != null) {
           return toUnitIdBuilder_.getMessageOrBuilder();
         } else {
           return toUnitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : toUnitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : toUnitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_unit_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_unit_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getToUnitIdFieldBuilder() {
         if (toUnitIdBuilder_ == null) {
           toUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getToUnitId(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class OmConvertCurrency {
         return this;
       }
 
-      private io.dstore.Values.decimalValue convertedValue_ = null;
+      private io.dstore.values.DecimalValue convertedValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> convertedValueBuilder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> convertedValueBuilder_;
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
        */
       public boolean hasConvertedValue() {
         return convertedValueBuilder_ != null || convertedValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
        */
-      public io.dstore.Values.decimalValue getConvertedValue() {
+      public io.dstore.values.DecimalValue getConvertedValue() {
         if (convertedValueBuilder_ == null) {
-          return convertedValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : convertedValue_;
+          return convertedValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : convertedValue_;
         } else {
           return convertedValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
        */
-      public Builder setConvertedValue(io.dstore.Values.decimalValue value) {
+      public Builder setConvertedValue(io.dstore.values.DecimalValue value) {
         if (convertedValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
        */
       public Builder setConvertedValue(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (convertedValueBuilder_ == null) {
           convertedValue_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
        */
-      public Builder mergeConvertedValue(io.dstore.Values.decimalValue value) {
+      public Builder mergeConvertedValue(io.dstore.values.DecimalValue value) {
         if (convertedValueBuilder_ == null) {
           if (convertedValue_ != null) {
             convertedValue_ =
-              io.dstore.Values.decimalValue.newBuilder(convertedValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(convertedValue_).mergeFrom(value).buildPartial();
           } else {
             convertedValue_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
        */
       public Builder clearConvertedValue() {
         if (convertedValueBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getConvertedValueBuilder() {
+      public io.dstore.values.DecimalValue.Builder getConvertedValueBuilder() {
         
         onChanged();
         return getConvertedValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getConvertedValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getConvertedValueOrBuilder() {
         if (convertedValueBuilder_ != null) {
           return convertedValueBuilder_.getMessageOrBuilder();
         } else {
           return convertedValue_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : convertedValue_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : convertedValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 4;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getConvertedValueFieldBuilder() {
         if (convertedValueBuilder_ == null) {
           convertedValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getConvertedValue(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class OmConvertCurrency {
         return this;
       }
 
-      private io.dstore.Values.timestampValue date_ = null;
+      private io.dstore.values.TimestampValue date_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue date = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date = 5;</code>
        */
       public boolean hasDate() {
         return dateBuilder_ != null || date_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date = 5;</code>
        */
-      public io.dstore.Values.timestampValue getDate() {
+      public io.dstore.values.TimestampValue getDate() {
         if (dateBuilder_ == null) {
-          return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
+          return date_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : date_;
         } else {
           return dateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date = 5;</code>
        */
-      public Builder setDate(io.dstore.Values.timestampValue value) {
+      public Builder setDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date = 5;</code>
        */
       public Builder setDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (dateBuilder_ == null) {
           date_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date = 5;</code>
        */
-      public Builder mergeDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
           if (date_ != null) {
             date_ =
-              io.dstore.Values.timestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
           } else {
             date_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date = 5;</code>
        */
       public Builder clearDate() {
         if (dateBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date = 5;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getDateBuilder() {
         
         onChanged();
         return getDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date = 5;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
         if (dateBuilder_ != null) {
           return dateBuilder_.getMessageOrBuilder();
         } else {
           return date_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : date_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : date_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 5;</code>
+       * <code>optional .dstore.values.TimestampValue date = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getDateFieldBuilder() {
         if (dateBuilder_ == null) {
           dateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getDate(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class OmConvertCurrency {
         return this;
       }
 
-      private io.dstore.Values.booleanValue selectResult_ = null;
+      private io.dstore.values.BooleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
        */
-      public io.dstore.Values.booleanValue getSelectResult() {
+      public io.dstore.values.BooleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
-          return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+          return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
         } else {
           return selectResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
        */
-      public Builder setSelectResult(io.dstore.Values.booleanValue value) {
+      public Builder setSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
        */
       public Builder setSelectResult(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (selectResultBuilder_ == null) {
           selectResult_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
        */
-      public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
+      public Builder mergeSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
           if (selectResult_ != null) {
             selectResult_ =
-              io.dstore.Values.booleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
           } else {
             selectResult_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
+      public io.dstore.values.BooleanValue.Builder getSelectResultBuilder() {
         
         onChanged();
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
           return selectResultBuilder_.getMessageOrBuilder();
         } else {
           return selectResult_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 6;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getSelectResultFieldBuilder() {
         if (selectResultBuilder_ == null) {
           selectResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getSelectResult(),
                   getParentForChildren(),
                   isClean());
@@ -2005,17 +2005,17 @@ public final class OmConvertCurrency {
         int index);
 
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
      */
     boolean hasConvertedValue();
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
      */
-    io.dstore.Values.decimalValue getConvertedValue();
+    io.dstore.values.DecimalValue getConvertedValue();
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getConvertedValueOrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getConvertedValueOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.om_ConvertCurrency.Response}
@@ -2087,11 +2087,11 @@ public final class OmConvertCurrency {
               break;
             }
             case 810: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (convertedValue_ != null) {
                 subBuilder = convertedValue_.toBuilder();
               }
-              convertedValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              convertedValue_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(convertedValue_);
                 convertedValue_ = subBuilder.buildPartial();
@@ -2145,7 +2145,7 @@ public final class OmConvertCurrency {
        * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
        */
       boolean hasConvertedValue();
       /**
@@ -2153,17 +2153,17 @@ public final class OmConvertCurrency {
        * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
        */
-      io.dstore.Values.decimalValue getConvertedValue();
+      io.dstore.values.DecimalValue getConvertedValue();
       /**
        * <pre>
        * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getConvertedValueOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getConvertedValueOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_ConvertCurrency.Response.Row}
@@ -2211,11 +2211,11 @@ public final class OmConvertCurrency {
                 break;
               }
               case 80010: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (convertedValue_ != null) {
                   subBuilder = convertedValue_.toBuilder();
                 }
-                convertedValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                convertedValue_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(convertedValue_);
                   convertedValue_ = subBuilder.buildPartial();
@@ -2256,13 +2256,13 @@ public final class OmConvertCurrency {
       }
 
       public static final int CONVERTED_VALUE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.decimalValue convertedValue_;
+      private io.dstore.values.DecimalValue convertedValue_;
       /**
        * <pre>
        * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
        */
       public boolean hasConvertedValue() {
         return convertedValue_ != null;
@@ -2272,19 +2272,19 @@ public final class OmConvertCurrency {
        * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
        */
-      public io.dstore.Values.decimalValue getConvertedValue() {
-        return convertedValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : convertedValue_;
+      public io.dstore.values.DecimalValue getConvertedValue() {
+        return convertedValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : convertedValue_;
       }
       /**
        * <pre>
        * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getConvertedValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getConvertedValueOrBuilder() {
         return getConvertedValue();
       }
 
@@ -2613,15 +2613,15 @@ public final class OmConvertCurrency {
           return this;
         }
 
-        private io.dstore.Values.decimalValue convertedValue_ = null;
+        private io.dstore.values.DecimalValue convertedValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> convertedValueBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> convertedValueBuilder_;
         /**
          * <pre>
          * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
          */
         public boolean hasConvertedValue() {
           return convertedValueBuilder_ != null || convertedValue_ != null;
@@ -2631,11 +2631,11 @@ public final class OmConvertCurrency {
          * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
          */
-        public io.dstore.Values.decimalValue getConvertedValue() {
+        public io.dstore.values.DecimalValue getConvertedValue() {
           if (convertedValueBuilder_ == null) {
-            return convertedValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : convertedValue_;
+            return convertedValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : convertedValue_;
           } else {
             return convertedValueBuilder_.getMessage();
           }
@@ -2645,9 +2645,9 @@ public final class OmConvertCurrency {
          * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
          */
-        public Builder setConvertedValue(io.dstore.Values.decimalValue value) {
+        public Builder setConvertedValue(io.dstore.values.DecimalValue value) {
           if (convertedValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2665,10 +2665,10 @@ public final class OmConvertCurrency {
          * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
          */
         public Builder setConvertedValue(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (convertedValueBuilder_ == null) {
             convertedValue_ = builderForValue.build();
             onChanged();
@@ -2683,13 +2683,13 @@ public final class OmConvertCurrency {
          * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
          */
-        public Builder mergeConvertedValue(io.dstore.Values.decimalValue value) {
+        public Builder mergeConvertedValue(io.dstore.values.DecimalValue value) {
           if (convertedValueBuilder_ == null) {
             if (convertedValue_ != null) {
               convertedValue_ =
-                io.dstore.Values.decimalValue.newBuilder(convertedValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(convertedValue_).mergeFrom(value).buildPartial();
             } else {
               convertedValue_ = value;
             }
@@ -2705,7 +2705,7 @@ public final class OmConvertCurrency {
          * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
          */
         public Builder clearConvertedValue() {
           if (convertedValueBuilder_ == null) {
@@ -2723,9 +2723,9 @@ public final class OmConvertCurrency {
          * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getConvertedValueBuilder() {
+        public io.dstore.values.DecimalValue.Builder getConvertedValueBuilder() {
           
           onChanged();
           return getConvertedValueFieldBuilder().getBuilder();
@@ -2735,14 +2735,14 @@ public final class OmConvertCurrency {
          * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getConvertedValueOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getConvertedValueOrBuilder() {
           if (convertedValueBuilder_ != null) {
             return convertedValueBuilder_.getMessageOrBuilder();
           } else {
             return convertedValue_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : convertedValue_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : convertedValue_;
           }
         }
         /**
@@ -2750,14 +2750,14 @@ public final class OmConvertCurrency {
          * Der umgerechnete Wert von "&#64;Value" in der Einheit "&#64;ToUnitID"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue converted_value = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue converted_value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getConvertedValueFieldBuilder() {
           if (convertedValueBuilder_ == null) {
             convertedValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getConvertedValue(),
                     getParentForChildren(),
                     isClean());
@@ -2921,23 +2921,23 @@ public final class OmConvertCurrency {
     }
 
     public static final int CONVERTED_VALUE_FIELD_NUMBER = 101;
-    private io.dstore.Values.decimalValue convertedValue_;
+    private io.dstore.values.DecimalValue convertedValue_;
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
      */
     public boolean hasConvertedValue() {
       return convertedValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
      */
-    public io.dstore.Values.decimalValue getConvertedValue() {
-      return convertedValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : convertedValue_;
+    public io.dstore.values.DecimalValue getConvertedValue() {
+      return convertedValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : convertedValue_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+     * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getConvertedValueOrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getConvertedValueOrBuilder() {
       return getConvertedValue();
     }
 
@@ -4112,29 +4112,29 @@ public final class OmConvertCurrency {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.decimalValue convertedValue_ = null;
+      private io.dstore.values.DecimalValue convertedValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> convertedValueBuilder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> convertedValueBuilder_;
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
        */
       public boolean hasConvertedValue() {
         return convertedValueBuilder_ != null || convertedValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
        */
-      public io.dstore.Values.decimalValue getConvertedValue() {
+      public io.dstore.values.DecimalValue getConvertedValue() {
         if (convertedValueBuilder_ == null) {
-          return convertedValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : convertedValue_;
+          return convertedValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : convertedValue_;
         } else {
           return convertedValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
        */
-      public Builder setConvertedValue(io.dstore.Values.decimalValue value) {
+      public Builder setConvertedValue(io.dstore.values.DecimalValue value) {
         if (convertedValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4148,10 +4148,10 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
        */
       public Builder setConvertedValue(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (convertedValueBuilder_ == null) {
           convertedValue_ = builderForValue.build();
           onChanged();
@@ -4162,13 +4162,13 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
        */
-      public Builder mergeConvertedValue(io.dstore.Values.decimalValue value) {
+      public Builder mergeConvertedValue(io.dstore.values.DecimalValue value) {
         if (convertedValueBuilder_ == null) {
           if (convertedValue_ != null) {
             convertedValue_ =
-              io.dstore.Values.decimalValue.newBuilder(convertedValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(convertedValue_).mergeFrom(value).buildPartial();
           } else {
             convertedValue_ = value;
           }
@@ -4180,7 +4180,7 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
        */
       public Builder clearConvertedValue() {
         if (convertedValueBuilder_ == null) {
@@ -4194,33 +4194,33 @@ public final class OmConvertCurrency {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getConvertedValueBuilder() {
+      public io.dstore.values.DecimalValue.Builder getConvertedValueBuilder() {
         
         onChanged();
         return getConvertedValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getConvertedValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getConvertedValueOrBuilder() {
         if (convertedValueBuilder_ != null) {
           return convertedValueBuilder_.getMessageOrBuilder();
         } else {
           return convertedValue_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : convertedValue_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : convertedValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue converted_value = 101;</code>
+       * <code>optional .dstore.values.DecimalValue converted_value = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getConvertedValueFieldBuilder() {
         if (convertedValueBuilder_ == null) {
           convertedValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getConvertedValue(),
                   getParentForChildren(),
                   isClean());
@@ -4305,25 +4305,25 @@ public final class OmConvertCurrency {
       "rency.proto\022 dstore.engine.om_ConvertCur" +
       "rency\032\023dstore/values.proto\032\032dstore/engin" +
       "e/engine.proto\"\316\003\n\nParameters\022*\n\005value\030\001" +
-      " \001(\0132\033.dstore.values.decimalValue\022\023\n\nval" +
+      " \001(\0132\033.dstore.values.DecimalValue\022\023\n\nval" +
       "ue_null\030\351\007 \001(\010\0221\n\014from_unit_id\030\002 \001(\0132\033.d" +
-      "store.values.integerValue\022\032\n\021from_unit_i" +
+      "store.values.IntegerValue\022\032\n\021from_unit_i" +
       "d_null\030\352\007 \001(\010\022/\n\nto_unit_id\030\003 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\030\n\017to_unit_id_nul" +
+      "re.values.IntegerValue\022\030\n\017to_unit_id_nul" +
       "l\030\353\007 \001(\010\0224\n\017converted_value\030\004 \001(\0132\033.dsto",
-      "re.values.decimalValue\022\035\n\024converted_valu" +
+      "re.values.DecimalValue\022\035\n\024converted_valu" +
       "e_null\030\354\007 \001(\010\022+\n\004date\030\005 \001(\0132\035.dstore.val" +
-      "ues.timestampValue\022\022\n\tdate_null\030\355\007 \001(\010\0222" +
-      "\n\rselect_result\030\006 \001(\0132\033.dstore.values.bo" +
+      "ues.TimestampValue\022\022\n\tdate_null\030\355\007 \001(\010\0222" +
+      "\n\rselect_result\030\006 \001(\0132\033.dstore.values.Bo" +
       "oleanValue\022\033\n\022select_result_null\030\356\007 \001(\010\"" +
       "\257\002\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036" +
       ".dstore.engine.MetaInformation\022\'\n\007messag" +
       "e\030\003 \003(\0132\026.dstore.engine.Message\022;\n\003row\030\004" +
       " \003(\0132..dstore.engine.om_ConvertCurrency." +
       "Response.Row\0224\n\017converted_value\030e \001(\0132\033.",
-      "dstore.values.decimalValue\032M\n\003Row\022\017\n\006row" +
+      "dstore.values.DecimalValue\032M\n\003Row\022\017\n\006row" +
       "_id\030\220N \001(\005\0225\n\017converted_value\030\221N \001(\0132\033.d" +
-      "store.values.decimalValueBS\n\033io.dstore.e" +
+      "store.values.DecimalValueBS\n\033io.dstore.e" +
       "ngine.proceduresZ4gosdk.dstore.de/engine" +
       "/procedures/om_ConvertCurrencyb\006proto3"
     };
@@ -4338,7 +4338,7 @@ public final class OmConvertCurrency {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ConvertCurrency_Parameters_descriptor =
@@ -4359,7 +4359,7 @@ public final class OmConvertCurrency {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ConvertCurrency_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ConvertedValue", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

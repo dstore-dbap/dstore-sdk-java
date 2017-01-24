@@ -19,17 +19,17 @@ public final class ImDeleteTemplateUsageAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
      */
     boolean hasSourceTemplateId();
     /**
-     * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
      */
-    io.dstore.Values.integerValue getSourceTemplateId();
+    io.dstore.values.IntegerValue getSourceTemplateId();
     /**
-     * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSourceTemplateIdOrBuilder();
 
     /**
      * <code>optional bool source_template_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImDeleteTemplateUsageAd {
     boolean getSourceTemplateIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
      */
     boolean hasTargetTemplateId();
     /**
-     * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
      */
-    io.dstore.Values.integerValue getTargetTemplateId();
+    io.dstore.values.IntegerValue getTargetTemplateId();
     /**
-     * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTargetTemplateIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTargetTemplateIdOrBuilder();
 
     /**
      * <code>optional bool target_template_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImDeleteTemplateUsageAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sourceTemplateId_ != null) {
                 subBuilder = sourceTemplateId_.toBuilder();
               }
-              sourceTemplateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sourceTemplateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sourceTemplateId_);
                 sourceTemplateId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImDeleteTemplateUsageAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (targetTemplateId_ != null) {
                 subBuilder = targetTemplateId_.toBuilder();
               }
-              targetTemplateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              targetTemplateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(targetTemplateId_);
                 targetTemplateId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImDeleteTemplateUsageAd {
     }
 
     public static final int SOURCE_TEMPLATE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue sourceTemplateId_;
+    private io.dstore.values.IntegerValue sourceTemplateId_;
     /**
-     * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
      */
     public boolean hasSourceTemplateId() {
       return sourceTemplateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getSourceTemplateId() {
-      return sourceTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
+    public io.dstore.values.IntegerValue getSourceTemplateId() {
+      return sourceTemplateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sourceTemplateId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSourceTemplateIdOrBuilder() {
       return getSourceTemplateId();
     }
 
@@ -185,23 +185,23 @@ public final class ImDeleteTemplateUsageAd {
     }
 
     public static final int TARGET_TEMPLATE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue targetTemplateId_;
+    private io.dstore.values.IntegerValue targetTemplateId_;
     /**
-     * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
      */
     public boolean hasTargetTemplateId() {
       return targetTemplateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getTargetTemplateId() {
-      return targetTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : targetTemplateId_;
+    public io.dstore.values.IntegerValue getTargetTemplateId() {
+      return targetTemplateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : targetTemplateId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTargetTemplateIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTargetTemplateIdOrBuilder() {
       return getTargetTemplateId();
     }
 
@@ -562,29 +562,29 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sourceTemplateId_ = null;
+      private io.dstore.values.IntegerValue sourceTemplateId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sourceTemplateIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sourceTemplateIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
        */
       public boolean hasSourceTemplateId() {
         return sourceTemplateIdBuilder_ != null || sourceTemplateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getSourceTemplateId() {
+      public io.dstore.values.IntegerValue getSourceTemplateId() {
         if (sourceTemplateIdBuilder_ == null) {
-          return sourceTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
+          return sourceTemplateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sourceTemplateId_;
         } else {
           return sourceTemplateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
        */
-      public Builder setSourceTemplateId(io.dstore.Values.integerValue value) {
+      public Builder setSourceTemplateId(io.dstore.values.IntegerValue value) {
         if (sourceTemplateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
        */
       public Builder setSourceTemplateId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sourceTemplateIdBuilder_ == null) {
           sourceTemplateId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
        */
-      public Builder mergeSourceTemplateId(io.dstore.Values.integerValue value) {
+      public Builder mergeSourceTemplateId(io.dstore.values.IntegerValue value) {
         if (sourceTemplateIdBuilder_ == null) {
           if (sourceTemplateId_ != null) {
             sourceTemplateId_ =
-              io.dstore.Values.integerValue.newBuilder(sourceTemplateId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sourceTemplateId_).mergeFrom(value).buildPartial();
           } else {
             sourceTemplateId_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
        */
       public Builder clearSourceTemplateId() {
         if (sourceTemplateIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSourceTemplateIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSourceTemplateIdBuilder() {
         
         onChanged();
         return getSourceTemplateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSourceTemplateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSourceTemplateIdOrBuilder() {
         if (sourceTemplateIdBuilder_ != null) {
           return sourceTemplateIdBuilder_.getMessageOrBuilder();
         } else {
           return sourceTemplateId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sourceTemplateId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sourceTemplateId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue source_template_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue source_template_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSourceTemplateIdFieldBuilder() {
         if (sourceTemplateIdBuilder_ == null) {
           sourceTemplateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSourceTemplateId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue targetTemplateId_ = null;
+      private io.dstore.values.IntegerValue targetTemplateId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> targetTemplateIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> targetTemplateIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
        */
       public boolean hasTargetTemplateId() {
         return targetTemplateIdBuilder_ != null || targetTemplateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getTargetTemplateId() {
+      public io.dstore.values.IntegerValue getTargetTemplateId() {
         if (targetTemplateIdBuilder_ == null) {
-          return targetTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : targetTemplateId_;
+          return targetTemplateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : targetTemplateId_;
         } else {
           return targetTemplateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
        */
-      public Builder setTargetTemplateId(io.dstore.Values.integerValue value) {
+      public Builder setTargetTemplateId(io.dstore.values.IntegerValue value) {
         if (targetTemplateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
        */
       public Builder setTargetTemplateId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (targetTemplateIdBuilder_ == null) {
           targetTemplateId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
        */
-      public Builder mergeTargetTemplateId(io.dstore.Values.integerValue value) {
+      public Builder mergeTargetTemplateId(io.dstore.values.IntegerValue value) {
         if (targetTemplateIdBuilder_ == null) {
           if (targetTemplateId_ != null) {
             targetTemplateId_ =
-              io.dstore.Values.integerValue.newBuilder(targetTemplateId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(targetTemplateId_).mergeFrom(value).buildPartial();
           } else {
             targetTemplateId_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
        */
       public Builder clearTargetTemplateId() {
         if (targetTemplateIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImDeleteTemplateUsageAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTargetTemplateIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTargetTemplateIdBuilder() {
         
         onChanged();
         return getTargetTemplateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTargetTemplateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTargetTemplateIdOrBuilder() {
         if (targetTemplateIdBuilder_ != null) {
           return targetTemplateIdBuilder_.getMessageOrBuilder();
         } else {
           return targetTemplateId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : targetTemplateId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : targetTemplateId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue target_template_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue target_template_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTargetTemplateIdFieldBuilder() {
         if (targetTemplateIdBuilder_ == null) {
           targetTemplateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTargetTemplateId(),
                   getParentForChildren(),
                   isClean());
@@ -2935,9 +2935,9 @@ public final class ImDeleteTemplateUsageAd {
       "eteTemplateUsage_Ad\032\023dstore/values.proto" +
       "\032\032dstore/engine/engine.proto\"\302\001\n\nParamet" +
       "ers\0227\n\022source_template_id\030\001 \001(\0132\033.dstore" +
-      ".values.integerValue\022 \n\027source_template_" +
+      ".values.IntegerValue\022 \n\027source_template_" +
       "id_null\030\351\007 \001(\010\0227\n\022target_template_id\030\002 \001" +
-      "(\0132\033.dstore.values.integerValue\022 \n\027targe" +
+      "(\0132\033.dstore.values.IntegerValue\022 \n\027targe" +
       "t_template_id_null\030\352\007 \001(\010\"\311\001\n\010Response\0228" +
       "\n\020meta_information\030\002 \003(\0132\036.dstore.engine",
       ".MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dsto" +
@@ -2959,7 +2959,7 @@ public final class ImDeleteTemplateUsageAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_DeleteTemplateUsage_Ad_Parameters_descriptor =
@@ -2980,7 +2980,7 @@ public final class ImDeleteTemplateUsageAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_DeleteTemplateUsage_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

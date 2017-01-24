@@ -19,17 +19,17 @@ public final class CoCreateNewMessagePu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoCreateNewMessagePu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoCreateNewMessagePu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class CoCreateNewMessagePu {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
      */
     boolean hasToCommunityMemberId();
     /**
-     * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
      */
-    io.dstore.Values.integerValue getToCommunityMemberId();
+    io.dstore.values.IntegerValue getToCommunityMemberId();
     /**
-     * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getToCommunityMemberIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getToCommunityMemberIdOrBuilder();
 
     /**
      * <code>optional bool to_community_member_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class CoCreateNewMessagePu {
     boolean getToCommunityMemberIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue message = 5;</code>
+     * <code>optional .dstore.values.StringValue message = 5;</code>
      */
     boolean hasMessage();
     /**
-     * <code>optional .dstore.values.stringValue message = 5;</code>
+     * <code>optional .dstore.values.StringValue message = 5;</code>
      */
-    io.dstore.Values.stringValue getMessage();
+    io.dstore.values.StringValue getMessage();
     /**
-     * <code>optional .dstore.values.stringValue message = 5;</code>
+     * <code>optional .dstore.values.StringValue message = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getMessageOrBuilder();
+    io.dstore.values.StringValueOrBuilder getMessageOrBuilder();
 
     /**
      * <code>optional bool message_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class CoCreateNewMessagePu {
     boolean getMessageNull();
 
     /**
-     * <code>optional .dstore.values.integerValue message_status = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
      */
     boolean hasMessageStatus();
     /**
-     * <code>optional .dstore.values.integerValue message_status = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
      */
-    io.dstore.Values.integerValue getMessageStatus();
+    io.dstore.values.IntegerValue getMessageStatus();
     /**
-     * <code>optional .dstore.values.integerValue message_status = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMessageStatusOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMessageStatusOrBuilder();
 
     /**
      * <code>optional bool message_status_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class CoCreateNewMessagePu {
     boolean getMessageStatusNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class CoCreateNewMessagePu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class CoCreateNewMessagePu {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class CoCreateNewMessagePu {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class CoCreateNewMessagePu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (toCommunityMemberId_ != null) {
                 subBuilder = toCommunityMemberId_.toBuilder();
               }
-              toCommunityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              toCommunityMemberId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toCommunityMemberId_);
                 toCommunityMemberId_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class CoCreateNewMessagePu {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (message_ != null) {
                 subBuilder = message_.toBuilder();
               }
-              message_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              message_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(message_);
                 message_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class CoCreateNewMessagePu {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (messageStatus_ != null) {
                 subBuilder = messageStatus_.toBuilder();
               }
-              messageStatus_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              messageStatus_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(messageStatus_);
                 messageStatus_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class CoCreateNewMessagePu {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class CoCreateNewMessagePu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -370,23 +370,23 @@ public final class CoCreateNewMessagePu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -400,23 +400,23 @@ public final class CoCreateNewMessagePu {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -430,23 +430,23 @@ public final class CoCreateNewMessagePu {
     }
 
     public static final int TO_COMMUNITY_MEMBER_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue toCommunityMemberId_;
+    private io.dstore.values.IntegerValue toCommunityMemberId_;
     /**
-     * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
      */
     public boolean hasToCommunityMemberId() {
       return toCommunityMemberId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getToCommunityMemberId() {
-      return toCommunityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toCommunityMemberId_;
+    public io.dstore.values.IntegerValue getToCommunityMemberId() {
+      return toCommunityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toCommunityMemberId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getToCommunityMemberIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getToCommunityMemberIdOrBuilder() {
       return getToCommunityMemberId();
     }
 
@@ -460,23 +460,23 @@ public final class CoCreateNewMessagePu {
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue message_;
+    private io.dstore.values.StringValue message_;
     /**
-     * <code>optional .dstore.values.stringValue message = 5;</code>
+     * <code>optional .dstore.values.StringValue message = 5;</code>
      */
     public boolean hasMessage() {
       return message_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue message = 5;</code>
+     * <code>optional .dstore.values.StringValue message = 5;</code>
      */
-    public io.dstore.Values.stringValue getMessage() {
-      return message_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : message_;
+    public io.dstore.values.StringValue getMessage() {
+      return message_ == null ? io.dstore.values.StringValue.getDefaultInstance() : message_;
     }
     /**
-     * <code>optional .dstore.values.stringValue message = 5;</code>
+     * <code>optional .dstore.values.StringValue message = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getMessageOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getMessageOrBuilder() {
       return getMessage();
     }
 
@@ -490,23 +490,23 @@ public final class CoCreateNewMessagePu {
     }
 
     public static final int MESSAGE_STATUS_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue messageStatus_;
+    private io.dstore.values.IntegerValue messageStatus_;
     /**
-     * <code>optional .dstore.values.integerValue message_status = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
      */
     public boolean hasMessageStatus() {
       return messageStatus_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue message_status = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
      */
-    public io.dstore.Values.integerValue getMessageStatus() {
-      return messageStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : messageStatus_;
+    public io.dstore.values.IntegerValue getMessageStatus() {
+      return messageStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : messageStatus_;
     }
     /**
-     * <code>optional .dstore.values.integerValue message_status = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMessageStatusOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMessageStatusOrBuilder() {
       return getMessageStatus();
     }
 
@@ -520,23 +520,23 @@ public final class CoCreateNewMessagePu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue separatorInIdentVals_;
+    private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.values.StringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1137,29 +1137,29 @@ public final class CoCreateNewMessagePu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class CoCreateNewMessagePu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class CoCreateNewMessagePu {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class CoCreateNewMessagePu {
         return this;
       }
 
-      private io.dstore.Values.integerValue toCommunityMemberId_ = null;
+      private io.dstore.values.IntegerValue toCommunityMemberId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toCommunityMemberIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toCommunityMemberIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
        */
       public boolean hasToCommunityMemberId() {
         return toCommunityMemberIdBuilder_ != null || toCommunityMemberId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getToCommunityMemberId() {
+      public io.dstore.values.IntegerValue getToCommunityMemberId() {
         if (toCommunityMemberIdBuilder_ == null) {
-          return toCommunityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toCommunityMemberId_;
+          return toCommunityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toCommunityMemberId_;
         } else {
           return toCommunityMemberIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
        */
-      public Builder setToCommunityMemberId(io.dstore.Values.integerValue value) {
+      public Builder setToCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (toCommunityMemberIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
        */
       public Builder setToCommunityMemberId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (toCommunityMemberIdBuilder_ == null) {
           toCommunityMemberId_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
        */
-      public Builder mergeToCommunityMemberId(io.dstore.Values.integerValue value) {
+      public Builder mergeToCommunityMemberId(io.dstore.values.IntegerValue value) {
         if (toCommunityMemberIdBuilder_ == null) {
           if (toCommunityMemberId_ != null) {
             toCommunityMemberId_ =
-              io.dstore.Values.integerValue.newBuilder(toCommunityMemberId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(toCommunityMemberId_).mergeFrom(value).buildPartial();
           } else {
             toCommunityMemberId_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
        */
       public Builder clearToCommunityMemberId() {
         if (toCommunityMemberIdBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getToCommunityMemberIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getToCommunityMemberIdBuilder() {
         
         onChanged();
         return getToCommunityMemberIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getToCommunityMemberIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getToCommunityMemberIdOrBuilder() {
         if (toCommunityMemberIdBuilder_ != null) {
           return toCommunityMemberIdBuilder_.getMessageOrBuilder();
         } else {
           return toCommunityMemberId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : toCommunityMemberId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : toCommunityMemberId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_community_member_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue to_community_member_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getToCommunityMemberIdFieldBuilder() {
         if (toCommunityMemberIdBuilder_ == null) {
           toCommunityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getToCommunityMemberId(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class CoCreateNewMessagePu {
         return this;
       }
 
-      private io.dstore.Values.stringValue message_ = null;
+      private io.dstore.values.StringValue message_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> messageBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> messageBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue message = 5;</code>
+       * <code>optional .dstore.values.StringValue message = 5;</code>
        */
       public boolean hasMessage() {
         return messageBuilder_ != null || message_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 5;</code>
+       * <code>optional .dstore.values.StringValue message = 5;</code>
        */
-      public io.dstore.Values.stringValue getMessage() {
+      public io.dstore.values.StringValue getMessage() {
         if (messageBuilder_ == null) {
-          return message_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : message_;
+          return message_ == null ? io.dstore.values.StringValue.getDefaultInstance() : message_;
         } else {
           return messageBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 5;</code>
+       * <code>optional .dstore.values.StringValue message = 5;</code>
        */
-      public Builder setMessage(io.dstore.Values.stringValue value) {
+      public Builder setMessage(io.dstore.values.StringValue value) {
         if (messageBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 5;</code>
+       * <code>optional .dstore.values.StringValue message = 5;</code>
        */
       public Builder setMessage(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (messageBuilder_ == null) {
           message_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 5;</code>
+       * <code>optional .dstore.values.StringValue message = 5;</code>
        */
-      public Builder mergeMessage(io.dstore.Values.stringValue value) {
+      public Builder mergeMessage(io.dstore.values.StringValue value) {
         if (messageBuilder_ == null) {
           if (message_ != null) {
             message_ =
-              io.dstore.Values.stringValue.newBuilder(message_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(message_).mergeFrom(value).buildPartial();
           } else {
             message_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 5;</code>
+       * <code>optional .dstore.values.StringValue message = 5;</code>
        */
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 5;</code>
+       * <code>optional .dstore.values.StringValue message = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getMessageBuilder() {
+      public io.dstore.values.StringValue.Builder getMessageBuilder() {
         
         onChanged();
         return getMessageFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 5;</code>
+       * <code>optional .dstore.values.StringValue message = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getMessageOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getMessageOrBuilder() {
         if (messageBuilder_ != null) {
           return messageBuilder_.getMessageOrBuilder();
         } else {
           return message_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : message_;
+              io.dstore.values.StringValue.getDefaultInstance() : message_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue message = 5;</code>
+       * <code>optional .dstore.values.StringValue message = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getMessageFieldBuilder() {
         if (messageBuilder_ == null) {
           messageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getMessage(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class CoCreateNewMessagePu {
         return this;
       }
 
-      private io.dstore.Values.integerValue messageStatus_ = null;
+      private io.dstore.values.IntegerValue messageStatus_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> messageStatusBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> messageStatusBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue message_status = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
        */
       public boolean hasMessageStatus() {
         return messageStatusBuilder_ != null || messageStatus_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
        */
-      public io.dstore.Values.integerValue getMessageStatus() {
+      public io.dstore.values.IntegerValue getMessageStatus() {
         if (messageStatusBuilder_ == null) {
-          return messageStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : messageStatus_;
+          return messageStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : messageStatus_;
         } else {
           return messageStatusBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
        */
-      public Builder setMessageStatus(io.dstore.Values.integerValue value) {
+      public Builder setMessageStatus(io.dstore.values.IntegerValue value) {
         if (messageStatusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
        */
       public Builder setMessageStatus(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (messageStatusBuilder_ == null) {
           messageStatus_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
        */
-      public Builder mergeMessageStatus(io.dstore.Values.integerValue value) {
+      public Builder mergeMessageStatus(io.dstore.values.IntegerValue value) {
         if (messageStatusBuilder_ == null) {
           if (messageStatus_ != null) {
             messageStatus_ =
-              io.dstore.Values.integerValue.newBuilder(messageStatus_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(messageStatus_).mergeFrom(value).buildPartial();
           } else {
             messageStatus_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
        */
       public Builder clearMessageStatus() {
         if (messageStatusBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMessageStatusBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMessageStatusBuilder() {
         
         onChanged();
         return getMessageStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMessageStatusOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMessageStatusOrBuilder() {
         if (messageStatusBuilder_ != null) {
           return messageStatusBuilder_.getMessageOrBuilder();
         } else {
           return messageStatus_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : messageStatus_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : messageStatus_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue message_status = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMessageStatusFieldBuilder() {
         if (messageStatusBuilder_ == null) {
           messageStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMessageStatus(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class CoCreateNewMessagePu {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.values.StringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class CoCreateNewMessagePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 7;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -4224,20 +4224,20 @@ public final class CoCreateNewMessagePu {
       "essage_Pu.proto\022$dstore.engine.co_Create" +
       "NewMessage_Pu\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\357\004\n\nParameters\022-\n" +
-      "\tunique_id\030\001 \001(\0132\032.dstore.values.stringV" +
+      "\tunique_id\030\001 \001(\0132\032.dstore.values.StringV" +
       "alue\022\027\n\016unique_id_null\030\351\007 \001(\010\022@\n\034person_" +
       "identification_values\030\002 \001(\0132\032.dstore.val" +
-      "ues.stringValue\022*\n!person_identification" +
+      "ues.StringValue\022*\n!person_identification" +
       "_values_null\030\352\007 \001(\010\0221\n\014community_id\030\003 \001(" +
-      "\0132\033.dstore.values.integerValue\022\032\n\021commun",
+      "\0132\033.dstore.values.IntegerValue\022\032\n\021commun",
       "ity_id_null\030\353\007 \001(\010\022;\n\026to_community_membe" +
-      "r_id\030\004 \001(\0132\033.dstore.values.integerValue\022" +
+      "r_id\030\004 \001(\0132\033.dstore.values.IntegerValue\022" +
       "$\n\033to_community_member_id_null\030\354\007 \001(\010\022+\n" +
-      "\007message\030\005 \001(\0132\032.dstore.values.stringVal" +
+      "\007message\030\005 \001(\0132\032.dstore.values.StringVal" +
       "ue\022\025\n\014message_null\030\355\007 \001(\010\0223\n\016message_sta" +
-      "tus\030\006 \001(\0132\033.dstore.values.integerValue\022\034" +
+      "tus\030\006 \001(\0132\033.dstore.values.IntegerValue\022\034" +
       "\n\023message_status_null\030\356\007 \001(\010\022;\n\027separato" +
-      "r_in_ident_vals\030\007 \001(\0132\032.dstore.values.st" +
+      "r_in_ident_vals\030\007 \001(\0132\032.dstore.values.St" +
       "ringValue\022%\n\034separator_in_ident_vals_nul" +
       "l\030\357\007 \001(\010\"\306\001\n\010Response\0228\n\020meta_informatio",
       "n\030\002 \003(\0132\036.dstore.engine.MetaInformation\022" +
@@ -4259,7 +4259,7 @@ public final class CoCreateNewMessagePu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_CreateNewMessage_Pu_Parameters_descriptor =
@@ -4280,7 +4280,7 @@ public final class CoCreateNewMessagePu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_CreateNewMessage_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class ImGetNewCharacsForNodeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
     boolean hasNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getNodeId();
+    io.dstore.values.IntegerValue getNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
     /**
      * <code>optional bool node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImGetNewCharacsForNodeAd {
     boolean getNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
      */
     boolean hasOrderByCharacDescription();
     /**
-     * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
      */
-    io.dstore.Values.booleanValue getOrderByCharacDescription();
+    io.dstore.values.BooleanValue getOrderByCharacDescription();
     /**
-     * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOrderByCharacDescriptionOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOrderByCharacDescriptionOrBuilder();
 
     /**
      * <code>optional bool order_by_charac_description_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImGetNewCharacsForNodeAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeId_ != null) {
                 subBuilder = nodeId_.toBuilder();
               }
-              nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeId_);
                 nodeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImGetNewCharacsForNodeAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (orderByCharacDescription_ != null) {
                 subBuilder = orderByCharacDescription_.toBuilder();
               }
-              orderByCharacDescription_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              orderByCharacDescription_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderByCharacDescription_);
                 orderByCharacDescription_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImGetNewCharacsForNodeAd {
     }
 
     public static final int NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue nodeId_;
+    private io.dstore.values.IntegerValue nodeId_;
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
     public boolean hasNodeId() {
       return nodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getNodeId() {
-      return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+    public io.dstore.values.IntegerValue getNodeId() {
+      return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
       return getNodeId();
     }
 
@@ -185,23 +185,23 @@ public final class ImGetNewCharacsForNodeAd {
     }
 
     public static final int ORDER_BY_CHARAC_DESCRIPTION_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue orderByCharacDescription_;
+    private io.dstore.values.BooleanValue orderByCharacDescription_;
     /**
-     * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
      */
     public boolean hasOrderByCharacDescription() {
       return orderByCharacDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
      */
-    public io.dstore.Values.booleanValue getOrderByCharacDescription() {
-      return orderByCharacDescription_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderByCharacDescription_;
+    public io.dstore.values.BooleanValue getOrderByCharacDescription() {
+      return orderByCharacDescription_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderByCharacDescription_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOrderByCharacDescriptionOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOrderByCharacDescriptionOrBuilder() {
       return getOrderByCharacDescription();
     }
 
@@ -562,29 +562,29 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeId_ = null;
+      private io.dstore.values.IntegerValue nodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public boolean hasNodeId() {
         return nodeIdBuilder_ != null || nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
+      public io.dstore.values.IntegerValue getNodeId() {
         if (nodeIdBuilder_ == null) {
-          return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+          return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         } else {
           return nodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public Builder setNodeId(io.dstore.Values.integerValue value) {
+      public Builder setNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder setNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeIdBuilder_ == null) {
           nodeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (nodeId_ != null) {
             nodeId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
           } else {
             nodeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder clearNodeId() {
         if (nodeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
         
         onChanged();
         return getNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         if (nodeIdBuilder_ != null) {
           return nodeIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeIdFieldBuilder() {
         if (nodeIdBuilder_ == null) {
           nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue orderByCharacDescription_ = null;
+      private io.dstore.values.BooleanValue orderByCharacDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> orderByCharacDescriptionBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> orderByCharacDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
        */
       public boolean hasOrderByCharacDescription() {
         return orderByCharacDescriptionBuilder_ != null || orderByCharacDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
        */
-      public io.dstore.Values.booleanValue getOrderByCharacDescription() {
+      public io.dstore.values.BooleanValue getOrderByCharacDescription() {
         if (orderByCharacDescriptionBuilder_ == null) {
-          return orderByCharacDescription_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderByCharacDescription_;
+          return orderByCharacDescription_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderByCharacDescription_;
         } else {
           return orderByCharacDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
        */
-      public Builder setOrderByCharacDescription(io.dstore.Values.booleanValue value) {
+      public Builder setOrderByCharacDescription(io.dstore.values.BooleanValue value) {
         if (orderByCharacDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
        */
       public Builder setOrderByCharacDescription(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (orderByCharacDescriptionBuilder_ == null) {
           orderByCharacDescription_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
        */
-      public Builder mergeOrderByCharacDescription(io.dstore.Values.booleanValue value) {
+      public Builder mergeOrderByCharacDescription(io.dstore.values.BooleanValue value) {
         if (orderByCharacDescriptionBuilder_ == null) {
           if (orderByCharacDescription_ != null) {
             orderByCharacDescription_ =
-              io.dstore.Values.booleanValue.newBuilder(orderByCharacDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(orderByCharacDescription_).mergeFrom(value).buildPartial();
           } else {
             orderByCharacDescription_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
        */
       public Builder clearOrderByCharacDescription() {
         if (orderByCharacDescriptionBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImGetNewCharacsForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOrderByCharacDescriptionBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOrderByCharacDescriptionBuilder() {
         
         onChanged();
         return getOrderByCharacDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOrderByCharacDescriptionOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOrderByCharacDescriptionOrBuilder() {
         if (orderByCharacDescriptionBuilder_ != null) {
           return orderByCharacDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return orderByCharacDescription_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : orderByCharacDescription_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : orderByCharacDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_charac_description = 2;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_charac_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOrderByCharacDescriptionFieldBuilder() {
         if (orderByCharacDescriptionBuilder_ == null) {
           orderByCharacDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOrderByCharacDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class ImGetNewCharacsForNodeAd {
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
       boolean hasCharacteristicDescription();
       /**
@@ -1115,24 +1115,24 @@ public final class ImGetNewCharacsForNodeAd {
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
-      io.dstore.Values.stringValue getCharacteristicDescription();
+      io.dstore.values.StringValue getCharacteristicDescription();
       /**
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
       boolean hasNodeCharacteristicId();
       /**
@@ -1140,17 +1140,17 @@ public final class ImGetNewCharacsForNodeAd {
        * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getNodeCharacteristicId();
+      io.dstore.values.IntegerValue getNodeCharacteristicId();
       /**
        * <pre>
        * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetNewCharacsForNode_Ad.Response.Row}
@@ -1198,11 +1198,11 @@ public final class ImGetNewCharacsForNodeAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (characteristicDescription_ != null) {
                   subBuilder = characteristicDescription_.toBuilder();
                 }
-                characteristicDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                characteristicDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicDescription_);
                   characteristicDescription_ = subBuilder.buildPartial();
@@ -1211,11 +1211,11 @@ public final class ImGetNewCharacsForNodeAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -1256,13 +1256,13 @@ public final class ImGetNewCharacsForNodeAd {
       }
 
       public static final int CHARACTERISTIC_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue characteristicDescription_;
+      private io.dstore.values.StringValue characteristicDescription_;
       /**
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
       public boolean hasCharacteristicDescription() {
         return characteristicDescription_ != null;
@@ -1272,30 +1272,30 @@ public final class ImGetNewCharacsForNodeAd {
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getCharacteristicDescription() {
-        return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+      public io.dstore.values.StringValue getCharacteristicDescription() {
+        return characteristicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
         return getCharacteristicDescription();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_;
       /**
        * <pre>
        * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicId_ != null;
@@ -1305,19 +1305,19 @@ public final class ImGetNewCharacsForNodeAd {
        * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
        * <pre>
        * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
@@ -1676,15 +1676,15 @@ public final class ImGetNewCharacsForNodeAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue characteristicDescription_ = null;
+        private io.dstore.values.StringValue characteristicDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characteristicDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
         public boolean hasCharacteristicDescription() {
           return characteristicDescriptionBuilder_ != null || characteristicDescription_ != null;
@@ -1694,11 +1694,11 @@ public final class ImGetNewCharacsForNodeAd {
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getCharacteristicDescription() {
+        public io.dstore.values.StringValue getCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
-            return characteristicDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+            return characteristicDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
           } else {
             return characteristicDescriptionBuilder_.getMessage();
           }
@@ -1708,9 +1708,9 @@ public final class ImGetNewCharacsForNodeAd {
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public Builder setCharacteristicDescription(io.dstore.Values.stringValue value) {
+        public Builder setCharacteristicDescription(io.dstore.values.StringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1728,10 +1728,10 @@ public final class ImGetNewCharacsForNodeAd {
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
         public Builder setCharacteristicDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescription_ = builderForValue.build();
             onChanged();
@@ -1746,13 +1746,13 @@ public final class ImGetNewCharacsForNodeAd {
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public Builder mergeCharacteristicDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeCharacteristicDescription(io.dstore.values.StringValue value) {
           if (characteristicDescriptionBuilder_ == null) {
             if (characteristicDescription_ != null) {
               characteristicDescription_ =
-                io.dstore.Values.stringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(characteristicDescription_).mergeFrom(value).buildPartial();
             } else {
               characteristicDescription_ = value;
             }
@@ -1768,7 +1768,7 @@ public final class ImGetNewCharacsForNodeAd {
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
         public Builder clearCharacteristicDescription() {
           if (characteristicDescriptionBuilder_ == null) {
@@ -1786,9 +1786,9 @@ public final class ImGetNewCharacsForNodeAd {
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCharacteristicDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getCharacteristicDescriptionBuilder() {
           
           onChanged();
           return getCharacteristicDescriptionFieldBuilder().getBuilder();
@@ -1798,14 +1798,14 @@ public final class ImGetNewCharacsForNodeAd {
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCharacteristicDescriptionOrBuilder() {
           if (characteristicDescriptionBuilder_ != null) {
             return characteristicDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return characteristicDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : characteristicDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : characteristicDescription_;
           }
         }
         /**
@@ -1813,14 +1813,14 @@ public final class ImGetNewCharacsForNodeAd {
          * Bezeichnung des Merkmals "NodeCharacteristicID" (in der Standardsprache)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue characteristic_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue characteristic_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCharacteristicDescriptionFieldBuilder() {
           if (characteristicDescriptionBuilder_ == null) {
             characteristicDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCharacteristicDescription(),
                     getParentForChildren(),
                     isClean());
@@ -1829,15 +1829,15 @@ public final class ImGetNewCharacsForNodeAd {
           return characteristicDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public boolean hasNodeCharacteristicId() {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
@@ -1847,11 +1847,11 @@ public final class ImGetNewCharacsForNodeAd {
          * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.values.IntegerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
@@ -1861,9 +1861,9 @@ public final class ImGetNewCharacsForNodeAd {
          * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
-        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1881,10 +1881,10 @@ public final class ImGetNewCharacsForNodeAd {
          * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -1899,13 +1899,13 @@ public final class ImGetNewCharacsForNodeAd {
          * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -1921,7 +1921,7 @@ public final class ImGetNewCharacsForNodeAd {
          * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         public Builder clearNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -1939,9 +1939,9 @@ public final class ImGetNewCharacsForNodeAd {
          * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
@@ -1951,14 +1951,14 @@ public final class ImGetNewCharacsForNodeAd {
          * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
@@ -1966,14 +1966,14 @@ public final class ImGetNewCharacsForNodeAd {
          * ID eines Merkmals, zu dem "&#64;NodeID" noch keine Eigenschaft besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -3442,10 +3442,10 @@ public final class ImGetNewCharacsForNodeAd {
       "acsForNode_Ad.proto\022(dstore.engine.im_Ge" +
       "tNewCharacsForNode_Ad\032\023dstore/values.pro" +
       "to\032\032dstore/engine/engine.proto\"\276\001\n\nParam" +
-      "eters\022,\n\007node_id\030\001 \001(\0132\033.dstore.values.i" +
+      "eters\022,\n\007node_id\030\001 \001(\0132\033.dstore.values.I" +
       "ntegerValue\022\025\n\014node_id_null\030\351\007 \001(\010\022@\n\033or" +
       "der_by_charac_description\030\002 \001(\0132\033.dstore" +
-      ".values.booleanValue\022)\n order_by_charac_" +
+      ".values.BooleanValue\022)\n order_by_charac_" +
       "description_null\030\352\007 \001(\010\"\312\002\n\010Response\0228\n\020" +
       "meta_information\030\002 \003(\0132\036.dstore.engine.M",
       "etaInformation\022\'\n\007message\030\003 \003(\0132\026.dstore" +
@@ -3453,8 +3453,8 @@ public final class ImGetNewCharacsForNodeAd {
       "gine.im_GetNewCharacsForNode_Ad.Response" +
       ".Row\032\225\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\022?\n\032charact" +
       "eristic_description\030\221N \001(\0132\032.dstore.valu" +
-      "es.stringValue\022<\n\026node_characteristic_id" +
-      "\030\222N \001(\0132\033.dstore.values.integerValueB[\n\033" +
+      "es.StringValue\022<\n\026node_characteristic_id" +
+      "\030\222N \001(\0132\033.dstore.values.IntegerValueB[\n\033" +
       "io.dstore.engine.proceduresZ<gosdk.dstor" +
       "e.de/engine/procedures/im_GetNewCharacsF" +
       "orNode_Adb\006proto3"
@@ -3470,7 +3470,7 @@ public final class ImGetNewCharacsForNodeAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetNewCharacsForNode_Ad_Parameters_descriptor =
@@ -3491,7 +3491,7 @@ public final class ImGetNewCharacsForNodeAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNewCharacsForNode_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CharacteristicDescription", "NodeCharacteristicId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

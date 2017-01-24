@@ -19,17 +19,17 @@ public final class PmConfigureValueColumnsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmConfigureValueColumnsAd {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
      */
     boolean hasIdentCharacId();
     /**
-     * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
      */
-    io.dstore.Values.integerValue getIdentCharacId();
+    io.dstore.values.IntegerValue getIdentCharacId();
     /**
-     * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getIdentCharacIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getIdentCharacIdOrBuilder();
 
     /**
      * <code>optional bool ident_charac_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmConfigureValueColumnsAd {
     boolean getIdentCharacIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
      */
     boolean hasCharacId1();
     /**
-     * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
      */
-    io.dstore.Values.integerValue getCharacId1();
+    io.dstore.values.IntegerValue getCharacId1();
     /**
-     * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCharacId1OrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCharacId1OrBuilder();
 
     /**
      * <code>optional bool charac_id1_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class PmConfigureValueColumnsAd {
     boolean getCharacId1Null();
 
     /**
-     * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
      */
     boolean hasCharacId2();
     /**
-     * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
      */
-    io.dstore.Values.integerValue getCharacId2();
+    io.dstore.values.IntegerValue getCharacId2();
     /**
-     * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCharacId2OrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCharacId2OrBuilder();
 
     /**
      * <code>optional bool charac_id2_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class PmConfigureValueColumnsAd {
     boolean getCharacId2Null();
 
     /**
-     * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
      */
     boolean hasCharacId3();
     /**
-     * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
      */
-    io.dstore.Values.integerValue getCharacId3();
+    io.dstore.values.IntegerValue getCharacId3();
     /**
-     * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCharacId3OrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCharacId3OrBuilder();
 
     /**
      * <code>optional bool charac_id3_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class PmConfigureValueColumnsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class PmConfigureValueColumnsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (identCharacId_ != null) {
                 subBuilder = identCharacId_.toBuilder();
               }
-              identCharacId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              identCharacId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(identCharacId_);
                 identCharacId_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class PmConfigureValueColumnsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (characId1_ != null) {
                 subBuilder = characId1_.toBuilder();
               }
-              characId1_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              characId1_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characId1_);
                 characId1_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class PmConfigureValueColumnsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (characId2_ != null) {
                 subBuilder = characId2_.toBuilder();
               }
-              characId2_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              characId2_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characId2_);
                 characId2_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class PmConfigureValueColumnsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (characId3_ != null) {
                 subBuilder = characId3_.toBuilder();
               }
-              characId3_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              characId3_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characId3_);
                 characId3_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class PmConfigureValueColumnsAd {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -296,23 +296,23 @@ public final class PmConfigureValueColumnsAd {
     }
 
     public static final int IDENT_CHARAC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue identCharacId_;
+    private io.dstore.values.IntegerValue identCharacId_;
     /**
-     * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
      */
     public boolean hasIdentCharacId() {
       return identCharacId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getIdentCharacId() {
-      return identCharacId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : identCharacId_;
+    public io.dstore.values.IntegerValue getIdentCharacId() {
+      return identCharacId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : identCharacId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getIdentCharacIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getIdentCharacIdOrBuilder() {
       return getIdentCharacId();
     }
 
@@ -326,23 +326,23 @@ public final class PmConfigureValueColumnsAd {
     }
 
     public static final int CHARAC_ID1_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue characId1_;
+    private io.dstore.values.IntegerValue characId1_;
     /**
-     * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
      */
     public boolean hasCharacId1() {
       return characId1_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
      */
-    public io.dstore.Values.integerValue getCharacId1() {
-      return characId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characId1_;
+    public io.dstore.values.IntegerValue getCharacId1() {
+      return characId1_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characId1_;
     }
     /**
-     * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCharacId1OrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCharacId1OrBuilder() {
       return getCharacId1();
     }
 
@@ -356,23 +356,23 @@ public final class PmConfigureValueColumnsAd {
     }
 
     public static final int CHARAC_ID2_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue characId2_;
+    private io.dstore.values.IntegerValue characId2_;
     /**
-     * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
      */
     public boolean hasCharacId2() {
       return characId2_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
      */
-    public io.dstore.Values.integerValue getCharacId2() {
-      return characId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characId2_;
+    public io.dstore.values.IntegerValue getCharacId2() {
+      return characId2_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characId2_;
     }
     /**
-     * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCharacId2OrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCharacId2OrBuilder() {
       return getCharacId2();
     }
 
@@ -386,23 +386,23 @@ public final class PmConfigureValueColumnsAd {
     }
 
     public static final int CHARAC_ID3_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue characId3_;
+    private io.dstore.values.IntegerValue characId3_;
     /**
-     * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
      */
     public boolean hasCharacId3() {
       return characId3_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
      */
-    public io.dstore.Values.integerValue getCharacId3() {
-      return characId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characId3_;
+    public io.dstore.values.IntegerValue getCharacId3() {
+      return characId3_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characId3_;
     }
     /**
-     * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCharacId3OrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCharacId3OrBuilder() {
       return getCharacId3();
     }
 
@@ -907,29 +907,29 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -975,7 +975,7 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue identCharacId_ = null;
+      private io.dstore.values.IntegerValue identCharacId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> identCharacIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> identCharacIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
        */
       public boolean hasIdentCharacId() {
         return identCharacIdBuilder_ != null || identCharacId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getIdentCharacId() {
+      public io.dstore.values.IntegerValue getIdentCharacId() {
         if (identCharacIdBuilder_ == null) {
-          return identCharacId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : identCharacId_;
+          return identCharacId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : identCharacId_;
         } else {
           return identCharacIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
        */
-      public Builder setIdentCharacId(io.dstore.Values.integerValue value) {
+      public Builder setIdentCharacId(io.dstore.values.IntegerValue value) {
         if (identCharacIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
        */
       public Builder setIdentCharacId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (identCharacIdBuilder_ == null) {
           identCharacId_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
        */
-      public Builder mergeIdentCharacId(io.dstore.Values.integerValue value) {
+      public Builder mergeIdentCharacId(io.dstore.values.IntegerValue value) {
         if (identCharacIdBuilder_ == null) {
           if (identCharacId_ != null) {
             identCharacId_ =
-              io.dstore.Values.integerValue.newBuilder(identCharacId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(identCharacId_).mergeFrom(value).buildPartial();
           } else {
             identCharacId_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
        */
       public Builder clearIdentCharacId() {
         if (identCharacIdBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getIdentCharacIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getIdentCharacIdBuilder() {
         
         onChanged();
         return getIdentCharacIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getIdentCharacIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getIdentCharacIdOrBuilder() {
         if (identCharacIdBuilder_ != null) {
           return identCharacIdBuilder_.getMessageOrBuilder();
         } else {
           return identCharacId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : identCharacId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : identCharacId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue ident_charac_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue ident_charac_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getIdentCharacIdFieldBuilder() {
         if (identCharacIdBuilder_ == null) {
           identCharacIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getIdentCharacId(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue characId1_ = null;
+      private io.dstore.values.IntegerValue characId1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characId1Builder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> characId1Builder_;
       /**
-       * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
        */
       public boolean hasCharacId1() {
         return characId1Builder_ != null || characId1_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
        */
-      public io.dstore.Values.integerValue getCharacId1() {
+      public io.dstore.values.IntegerValue getCharacId1() {
         if (characId1Builder_ == null) {
-          return characId1_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characId1_;
+          return characId1_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characId1_;
         } else {
           return characId1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
        */
-      public Builder setCharacId1(io.dstore.Values.integerValue value) {
+      public Builder setCharacId1(io.dstore.values.IntegerValue value) {
         if (characId1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
        */
       public Builder setCharacId1(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (characId1Builder_ == null) {
           characId1_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
        */
-      public Builder mergeCharacId1(io.dstore.Values.integerValue value) {
+      public Builder mergeCharacId1(io.dstore.values.IntegerValue value) {
         if (characId1Builder_ == null) {
           if (characId1_ != null) {
             characId1_ =
-              io.dstore.Values.integerValue.newBuilder(characId1_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(characId1_).mergeFrom(value).buildPartial();
           } else {
             characId1_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
        */
       public Builder clearCharacId1() {
         if (characId1Builder_ == null) {
@@ -1275,33 +1275,33 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCharacId1Builder() {
+      public io.dstore.values.IntegerValue.Builder getCharacId1Builder() {
         
         onChanged();
         return getCharacId1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCharacId1OrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCharacId1OrBuilder() {
         if (characId1Builder_ != null) {
           return characId1Builder_.getMessageOrBuilder();
         } else {
           return characId1_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : characId1_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : characId1_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id1 = 3;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id1 = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCharacId1FieldBuilder() {
         if (characId1Builder_ == null) {
           characId1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCharacId1(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue characId2_ = null;
+      private io.dstore.values.IntegerValue characId2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characId2Builder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> characId2Builder_;
       /**
-       * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
        */
       public boolean hasCharacId2() {
         return characId2Builder_ != null || characId2_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
        */
-      public io.dstore.Values.integerValue getCharacId2() {
+      public io.dstore.values.IntegerValue getCharacId2() {
         if (characId2Builder_ == null) {
-          return characId2_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characId2_;
+          return characId2_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characId2_;
         } else {
           return characId2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
        */
-      public Builder setCharacId2(io.dstore.Values.integerValue value) {
+      public Builder setCharacId2(io.dstore.values.IntegerValue value) {
         if (characId2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
        */
       public Builder setCharacId2(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (characId2Builder_ == null) {
           characId2_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
        */
-      public Builder mergeCharacId2(io.dstore.Values.integerValue value) {
+      public Builder mergeCharacId2(io.dstore.values.IntegerValue value) {
         if (characId2Builder_ == null) {
           if (characId2_ != null) {
             characId2_ =
-              io.dstore.Values.integerValue.newBuilder(characId2_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(characId2_).mergeFrom(value).buildPartial();
           } else {
             characId2_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
        */
       public Builder clearCharacId2() {
         if (characId2Builder_ == null) {
@@ -1418,33 +1418,33 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCharacId2Builder() {
+      public io.dstore.values.IntegerValue.Builder getCharacId2Builder() {
         
         onChanged();
         return getCharacId2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCharacId2OrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCharacId2OrBuilder() {
         if (characId2Builder_ != null) {
           return characId2Builder_.getMessageOrBuilder();
         } else {
           return characId2_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : characId2_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : characId2_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id2 = 4;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id2 = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCharacId2FieldBuilder() {
         if (characId2Builder_ == null) {
           characId2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCharacId2(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue characId3_ = null;
+      private io.dstore.values.IntegerValue characId3_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characId3Builder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> characId3Builder_;
       /**
-       * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
        */
       public boolean hasCharacId3() {
         return characId3Builder_ != null || characId3_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
        */
-      public io.dstore.Values.integerValue getCharacId3() {
+      public io.dstore.values.IntegerValue getCharacId3() {
         if (characId3Builder_ == null) {
-          return characId3_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characId3_;
+          return characId3_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characId3_;
         } else {
           return characId3Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
        */
-      public Builder setCharacId3(io.dstore.Values.integerValue value) {
+      public Builder setCharacId3(io.dstore.values.IntegerValue value) {
         if (characId3Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
        */
       public Builder setCharacId3(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (characId3Builder_ == null) {
           characId3_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
        */
-      public Builder mergeCharacId3(io.dstore.Values.integerValue value) {
+      public Builder mergeCharacId3(io.dstore.values.IntegerValue value) {
         if (characId3Builder_ == null) {
           if (characId3_ != null) {
             characId3_ =
-              io.dstore.Values.integerValue.newBuilder(characId3_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(characId3_).mergeFrom(value).buildPartial();
           } else {
             characId3_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
        */
       public Builder clearCharacId3() {
         if (characId3Builder_ == null) {
@@ -1561,33 +1561,33 @@ public final class PmConfigureValueColumnsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCharacId3Builder() {
+      public io.dstore.values.IntegerValue.Builder getCharacId3Builder() {
         
         onChanged();
         return getCharacId3FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCharacId3OrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCharacId3OrBuilder() {
         if (characId3Builder_ != null) {
           return characId3Builder_.getMessageOrBuilder();
         } else {
           return characId3_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : characId3_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : characId3_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id3 = 5;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id3 = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCharacId3FieldBuilder() {
         if (characId3Builder_ == null) {
           characId3Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCharacId3(),
                   getParentForChildren(),
                   isClean());
@@ -3709,15 +3709,15 @@ public final class PmConfigureValueColumnsAd {
       "onfigureValueColumns_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\225\003\n\nPar" +
       "ameters\0223\n\016person_type_id\030\001 \001(\0132\033.dstore" +
-      ".values.integerValue\022\034\n\023person_type_id_n" +
+      ".values.IntegerValue\022\034\n\023person_type_id_n" +
       "ull\030\351\007 \001(\010\0224\n\017ident_charac_id\030\002 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\035\n\024ident_charac" +
+      "tore.values.IntegerValue\022\035\n\024ident_charac" +
       "_id_null\030\352\007 \001(\010\022/\n\ncharac_id1\030\003 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\030\n\017charac_id1_n",
+      "tore.values.IntegerValue\022\030\n\017charac_id1_n",
       "ull\030\353\007 \001(\010\022/\n\ncharac_id2\030\004 \001(\0132\033.dstore." +
-      "values.integerValue\022\030\n\017charac_id2_null\030\354" +
+      "values.IntegerValue\022\030\n\017charac_id2_null\030\354" +
       "\007 \001(\010\022/\n\ncharac_id3\030\005 \001(\0132\033.dstore.value" +
-      "s.integerValue\022\030\n\017charac_id3_null\030\355\007 \001(\010" +
+      "s.IntegerValue\022\030\n\017charac_id3_null\030\355\007 \001(\010" +
       "\"\313\001\n\010Response\0228\n\020meta_information\030\002 \003(\0132" +
       "\036.dstore.engine.MetaInformation\022\'\n\007messa" +
       "ge\030\003 \003(\0132\026.dstore.engine.Message\022D\n\003row\030" +
@@ -3738,7 +3738,7 @@ public final class PmConfigureValueColumnsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_ConfigureValueColumns_Ad_Parameters_descriptor =
@@ -3759,7 +3759,7 @@ public final class PmConfigureValueColumnsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_ConfigureValueColumns_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

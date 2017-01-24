@@ -19,17 +19,17 @@ public final class ImModifyPredefinedValueAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
      */
     boolean hasValueId();
     /**
-     * <code>optional .dstore.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
      */
-    io.dstore.Values.integerValue getValueId();
+    io.dstore.values.IntegerValue getValueId();
     /**
-     * <code>optional .dstore.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
 
     /**
      * <code>optional bool value_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImModifyPredefinedValueAd {
     boolean getValueIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
     boolean hasNewValue();
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
-    io.dstore.Values.stringValue getNewValue();
+    io.dstore.values.StringValue getNewValue();
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getNewValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getNewValueOrBuilder();
 
     /**
      * <code>optional bool new_value_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImModifyPredefinedValueAd {
     boolean getNewValueNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    io.dstore.Values.integerValue getSortNo();
+    io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
      * <code>optional bool sort_no_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImModifyPredefinedValueAd {
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+     * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
      */
     boolean hasProhibitValueChangeIfUsed();
     /**
-     * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+     * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
      */
-    io.dstore.Values.booleanValue getProhibitValueChangeIfUsed();
+    io.dstore.values.BooleanValue getProhibitValueChangeIfUsed();
     /**
-     * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+     * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getProhibitValueChangeIfUsedOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getProhibitValueChangeIfUsedOrBuilder();
 
     /**
      * <code>optional bool prohibit_value_change_if_used_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class ImModifyPredefinedValueAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (valueId_ != null) {
                 subBuilder = valueId_.toBuilder();
               }
-              valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              valueId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueId_);
                 valueId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class ImModifyPredefinedValueAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (newValue_ != null) {
                 subBuilder = newValue_.toBuilder();
               }
-              newValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              newValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newValue_);
                 newValue_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class ImModifyPredefinedValueAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
               }
-              sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNo_);
                 sortNo_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class ImModifyPredefinedValueAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (prohibitValueChangeIfUsed_ != null) {
                 subBuilder = prohibitValueChangeIfUsed_.toBuilder();
               }
-              prohibitValueChangeIfUsed_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              prohibitValueChangeIfUsed_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(prohibitValueChangeIfUsed_);
                 prohibitValueChangeIfUsed_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class ImModifyPredefinedValueAd {
     }
 
     public static final int VALUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue valueId_;
+    private io.dstore.values.IntegerValue valueId_;
     /**
-     * <code>optional .dstore.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
      */
     public boolean hasValueId() {
       return valueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getValueId() {
-      return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+    public io.dstore.values.IntegerValue getValueId() {
+      return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue value_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
       return getValueId();
     }
 
@@ -259,23 +259,23 @@ public final class ImModifyPredefinedValueAd {
     }
 
     public static final int NEW_VALUE_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue newValue_;
+    private io.dstore.values.StringValue newValue_;
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
     public boolean hasNewValue() {
       return newValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
-    public io.dstore.Values.stringValue getNewValue() {
-      return newValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newValue_;
+    public io.dstore.values.StringValue getNewValue() {
+      return newValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue new_value = 2;</code>
+     * <code>optional .dstore.values.StringValue new_value = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getNewValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getNewValueOrBuilder() {
       return getNewValue();
     }
 
@@ -289,23 +289,23 @@ public final class ImModifyPredefinedValueAd {
     }
 
     public static final int SORT_NO_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue sortNo_;
+    private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    public io.dstore.Values.integerValue getSortNo() {
-      return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+    public io.dstore.values.IntegerValue getSortNo() {
+      return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
     }
 
@@ -319,23 +319,23 @@ public final class ImModifyPredefinedValueAd {
     }
 
     public static final int PROHIBIT_VALUE_CHANGE_IF_USED_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue prohibitValueChangeIfUsed_;
+    private io.dstore.values.BooleanValue prohibitValueChangeIfUsed_;
     /**
-     * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+     * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
      */
     public boolean hasProhibitValueChangeIfUsed() {
       return prohibitValueChangeIfUsed_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+     * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
      */
-    public io.dstore.Values.booleanValue getProhibitValueChangeIfUsed() {
-      return prohibitValueChangeIfUsed_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : prohibitValueChangeIfUsed_;
+    public io.dstore.values.BooleanValue getProhibitValueChangeIfUsed() {
+      return prohibitValueChangeIfUsed_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : prohibitValueChangeIfUsed_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+     * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getProhibitValueChangeIfUsedOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getProhibitValueChangeIfUsedOrBuilder() {
       return getProhibitValueChangeIfUsed();
     }
 
@@ -792,29 +792,29 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue valueId_ = null;
+      private io.dstore.values.IntegerValue valueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> valueIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
        */
       public boolean hasValueId() {
         return valueIdBuilder_ != null || valueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getValueId() {
+      public io.dstore.values.IntegerValue getValueId() {
         if (valueIdBuilder_ == null) {
-          return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+          return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
         } else {
           return valueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
        */
-      public Builder setValueId(io.dstore.Values.integerValue value) {
+      public Builder setValueId(io.dstore.values.IntegerValue value) {
         if (valueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
        */
       public Builder setValueId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (valueIdBuilder_ == null) {
           valueId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
        */
-      public Builder mergeValueId(io.dstore.Values.integerValue value) {
+      public Builder mergeValueId(io.dstore.values.IntegerValue value) {
         if (valueIdBuilder_ == null) {
           if (valueId_ != null) {
             valueId_ =
-              io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
           } else {
             valueId_ = value;
           }
@@ -860,7 +860,7 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
        */
       public Builder clearValueId() {
         if (valueIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
         
         onChanged();
         return getValueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         if (valueIdBuilder_ != null) {
           return valueIdBuilder_.getMessageOrBuilder();
         } else {
           return valueId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue value_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getValueIdFieldBuilder() {
         if (valueIdBuilder_ == null) {
           valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getValueId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue newValue_ = null;
+      private io.dstore.values.StringValue newValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> newValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> newValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
       public boolean hasNewValue() {
         return newValueBuilder_ != null || newValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public io.dstore.Values.stringValue getNewValue() {
+      public io.dstore.values.StringValue getNewValue() {
         if (newValueBuilder_ == null) {
-          return newValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newValue_;
+          return newValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newValue_;
         } else {
           return newValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public Builder setNewValue(io.dstore.Values.stringValue value) {
+      public Builder setNewValue(io.dstore.values.StringValue value) {
         if (newValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
       public Builder setNewValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (newValueBuilder_ == null) {
           newValue_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public Builder mergeNewValue(io.dstore.Values.stringValue value) {
+      public Builder mergeNewValue(io.dstore.values.StringValue value) {
         if (newValueBuilder_ == null) {
           if (newValue_ != null) {
             newValue_ =
-              io.dstore.Values.stringValue.newBuilder(newValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(newValue_).mergeFrom(value).buildPartial();
           } else {
             newValue_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
       public Builder clearNewValue() {
         if (newValueBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getNewValueBuilder() {
+      public io.dstore.values.StringValue.Builder getNewValueBuilder() {
         
         onChanged();
         return getNewValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNewValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNewValueOrBuilder() {
         if (newValueBuilder_ != null) {
           return newValueBuilder_.getMessageOrBuilder();
         } else {
           return newValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : newValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : newValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 2;</code>
+       * <code>optional .dstore.values.StringValue new_value = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getNewValueFieldBuilder() {
         if (newValueBuilder_ == null) {
           newValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getNewValue(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortNo_ = null;
+      private io.dstore.values.IntegerValue sortNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
+      public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
-          return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+          return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         } else {
           return sortNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public Builder setSortNo(io.dstore.Values.integerValue value) {
+      public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder setSortNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortNoBuilder_ == null) {
           sortNo_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+      public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (sortNo_ != null) {
             sortNo_ =
-              io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
           } else {
             sortNo_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
         onChanged();
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
           return sortNoBuilder_.getMessageOrBuilder();
         } else {
           return sortNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortNoFieldBuilder() {
         if (sortNoBuilder_ == null) {
           sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortNo(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue prohibitValueChangeIfUsed_ = null;
+      private io.dstore.values.BooleanValue prohibitValueChangeIfUsed_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> prohibitValueChangeIfUsedBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> prohibitValueChangeIfUsedBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+       * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
        */
       public boolean hasProhibitValueChangeIfUsed() {
         return prohibitValueChangeIfUsedBuilder_ != null || prohibitValueChangeIfUsed_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+       * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
        */
-      public io.dstore.Values.booleanValue getProhibitValueChangeIfUsed() {
+      public io.dstore.values.BooleanValue getProhibitValueChangeIfUsed() {
         if (prohibitValueChangeIfUsedBuilder_ == null) {
-          return prohibitValueChangeIfUsed_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : prohibitValueChangeIfUsed_;
+          return prohibitValueChangeIfUsed_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : prohibitValueChangeIfUsed_;
         } else {
           return prohibitValueChangeIfUsedBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+       * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
        */
-      public Builder setProhibitValueChangeIfUsed(io.dstore.Values.booleanValue value) {
+      public Builder setProhibitValueChangeIfUsed(io.dstore.values.BooleanValue value) {
         if (prohibitValueChangeIfUsedBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+       * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
        */
       public Builder setProhibitValueChangeIfUsed(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (prohibitValueChangeIfUsedBuilder_ == null) {
           prohibitValueChangeIfUsed_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+       * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
        */
-      public Builder mergeProhibitValueChangeIfUsed(io.dstore.Values.booleanValue value) {
+      public Builder mergeProhibitValueChangeIfUsed(io.dstore.values.BooleanValue value) {
         if (prohibitValueChangeIfUsedBuilder_ == null) {
           if (prohibitValueChangeIfUsed_ != null) {
             prohibitValueChangeIfUsed_ =
-              io.dstore.Values.booleanValue.newBuilder(prohibitValueChangeIfUsed_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(prohibitValueChangeIfUsed_).mergeFrom(value).buildPartial();
           } else {
             prohibitValueChangeIfUsed_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+       * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
        */
       public Builder clearProhibitValueChangeIfUsed() {
         if (prohibitValueChangeIfUsedBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class ImModifyPredefinedValueAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+       * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getProhibitValueChangeIfUsedBuilder() {
+      public io.dstore.values.BooleanValue.Builder getProhibitValueChangeIfUsedBuilder() {
         
         onChanged();
         return getProhibitValueChangeIfUsedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+       * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getProhibitValueChangeIfUsedOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getProhibitValueChangeIfUsedOrBuilder() {
         if (prohibitValueChangeIfUsedBuilder_ != null) {
           return prohibitValueChangeIfUsedBuilder_.getMessageOrBuilder();
         } else {
           return prohibitValueChangeIfUsed_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : prohibitValueChangeIfUsed_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : prohibitValueChangeIfUsed_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue prohibit_value_change_if_used = 4;</code>
+       * <code>optional .dstore.values.BooleanValue prohibit_value_change_if_used = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getProhibitValueChangeIfUsedFieldBuilder() {
         if (prohibitValueChangeIfUsedBuilder_ == null) {
           prohibitValueChangeIfUsedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getProhibitValueChangeIfUsed(),
                   getParentForChildren(),
                   isClean());
@@ -3451,12 +3451,12 @@ public final class ImModifyPredefinedValueAd {
       "odifyPredefinedValue_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\321\002\n\nPar" +
       "ameters\022-\n\010value_id\030\001 \001(\0132\033.dstore.value" +
-      "s.integerValue\022\026\n\rvalue_id_null\030\351\007 \001(\010\022-" +
-      "\n\tnew_value\030\002 \001(\0132\032.dstore.values.string" +
+      "s.IntegerValue\022\026\n\rvalue_id_null\030\351\007 \001(\010\022-" +
+      "\n\tnew_value\030\002 \001(\0132\032.dstore.values.String" +
       "Value\022\027\n\016new_value_null\030\352\007 \001(\010\022,\n\007sort_n" +
-      "o\030\003 \001(\0132\033.dstore.values.integerValue\022\025\n\014" +
+      "o\030\003 \001(\0132\033.dstore.values.IntegerValue\022\025\n\014" +
       "sort_no_null\030\353\007 \001(\010\022B\n\035prohibit_value_ch",
-      "ange_if_used\030\004 \001(\0132\033.dstore.values.boole" +
+      "ange_if_used\030\004 \001(\0132\033.dstore.values.Boole" +
       "anValue\022+\n\"prohibit_value_change_if_used" +
       "_null\030\354\007 \001(\010\"\313\001\n\010Response\0228\n\020meta_inform" +
       "ation\030\002 \003(\0132\036.dstore.engine.MetaInformat" +
@@ -3478,7 +3478,7 @@ public final class ImModifyPredefinedValueAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_ModifyPredefinedValue_Ad_Parameters_descriptor =
@@ -3499,7 +3499,7 @@ public final class ImModifyPredefinedValueAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyPredefinedValue_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

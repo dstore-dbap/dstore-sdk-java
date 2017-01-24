@@ -19,17 +19,17 @@ public final class MiGetTRITriggerConditionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTriggerId();
+    io.dstore.values.IntegerValue getTriggerId();
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder();
 
     /**
      * <code>optional bool trigger_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetTRITriggerConditionsAd {
     boolean getTriggerIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
      */
     boolean hasWorkStepNo();
     /**
-     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
      */
-    io.dstore.Values.integerValue getWorkStepNo();
+    io.dstore.values.IntegerValue getWorkStepNo();
     /**
-     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder();
 
     /**
      * <code>optional bool work_step_no_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class MiGetTRITriggerConditionsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (triggerId_ != null) {
                 subBuilder = triggerId_.toBuilder();
               }
-              triggerId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              triggerId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(triggerId_);
                 triggerId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class MiGetTRITriggerConditionsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (workStepNo_ != null) {
                 subBuilder = workStepNo_.toBuilder();
               }
-              workStepNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              workStepNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(workStepNo_);
                 workStepNo_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class MiGetTRITriggerConditionsAd {
     }
 
     public static final int TRIGGER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue triggerId_;
+    private io.dstore.values.IntegerValue triggerId_;
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTriggerId() {
-      return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+    public io.dstore.values.IntegerValue getTriggerId() {
+      return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
     }
 
@@ -185,23 +185,23 @@ public final class MiGetTRITriggerConditionsAd {
     }
 
     public static final int WORK_STEP_NO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue workStepNo_;
+    private io.dstore.values.IntegerValue workStepNo_;
     /**
-     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
      */
     public boolean hasWorkStepNo() {
       return workStepNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
      */
-    public io.dstore.Values.integerValue getWorkStepNo() {
-      return workStepNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
+    public io.dstore.values.IntegerValue getWorkStepNo() {
+      return workStepNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : workStepNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder() {
       return getWorkStepNo();
     }
 
@@ -562,29 +562,29 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue triggerId_ = null;
+      private io.dstore.values.IntegerValue triggerId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTriggerId() {
+      public io.dstore.values.IntegerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
-          return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+          return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
         } else {
           return triggerIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public Builder setTriggerId(io.dstore.Values.integerValue value) {
+      public Builder setTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (triggerIdBuilder_ == null) {
           triggerId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public Builder mergeTriggerId(io.dstore.Values.integerValue value) {
+      public Builder mergeTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
           if (triggerId_ != null) {
             triggerId_ =
-              io.dstore.Values.integerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
           } else {
             triggerId_ = value;
           }
@@ -630,7 +630,7 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTriggerIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTriggerIdBuilder() {
         
         onChanged();
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
           return triggerIdBuilder_.getMessageOrBuilder();
         } else {
           return triggerId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTriggerIdFieldBuilder() {
         if (triggerIdBuilder_ == null) {
           triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTriggerId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue workStepNo_ = null;
+      private io.dstore.values.IntegerValue workStepNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> workStepNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> workStepNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public boolean hasWorkStepNo() {
         return workStepNoBuilder_ != null || workStepNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
        */
-      public io.dstore.Values.integerValue getWorkStepNo() {
+      public io.dstore.values.IntegerValue getWorkStepNo() {
         if (workStepNoBuilder_ == null) {
-          return workStepNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
+          return workStepNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : workStepNo_;
         } else {
           return workStepNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
        */
-      public Builder setWorkStepNo(io.dstore.Values.integerValue value) {
+      public Builder setWorkStepNo(io.dstore.values.IntegerValue value) {
         if (workStepNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder setWorkStepNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (workStepNoBuilder_ == null) {
           workStepNo_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
        */
-      public Builder mergeWorkStepNo(io.dstore.Values.integerValue value) {
+      public Builder mergeWorkStepNo(io.dstore.values.IntegerValue value) {
         if (workStepNoBuilder_ == null) {
           if (workStepNo_ != null) {
             workStepNo_ =
-              io.dstore.Values.integerValue.newBuilder(workStepNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(workStepNo_).mergeFrom(value).buildPartial();
           } else {
             workStepNo_ = value;
           }
@@ -773,7 +773,7 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
        */
       public Builder clearWorkStepNo() {
         if (workStepNoBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class MiGetTRITriggerConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getWorkStepNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getWorkStepNoBuilder() {
         
         onChanged();
         return getWorkStepNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getWorkStepNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getWorkStepNoOrBuilder() {
         if (workStepNoBuilder_ != null) {
           return workStepNoBuilder_.getMessageOrBuilder();
         } else {
           return workStepNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : workStepNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : workStepNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue work_step_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue work_step_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getWorkStepNoFieldBuilder() {
         if (workStepNoBuilder_ == null) {
           workStepNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getWorkStepNo(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class MiGetTRITriggerConditionsAd {
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
+       * <code>optional .dstore.values.StringValue operator = 10001;</code>
        */
       boolean hasOperator();
       /**
@@ -1115,24 +1115,24 @@ public final class MiGetTRITriggerConditionsAd {
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
+       * <code>optional .dstore.values.StringValue operator = 10001;</code>
        */
-      io.dstore.Values.stringValue getOperator();
+      io.dstore.values.StringValue getOperator();
       /**
        * <pre>
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
+       * <code>optional .dstore.values.StringValue operator = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getOperatorOrBuilder();
+      io.dstore.values.StringValueOrBuilder getOperatorOrBuilder();
 
       /**
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition = 10002;</code>
        */
       boolean hasCondition();
       /**
@@ -1140,24 +1140,24 @@ public final class MiGetTRITriggerConditionsAd {
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition = 10002;</code>
        */
-      io.dstore.Values.stringValue getCondition();
+      io.dstore.values.StringValue getCondition();
       /**
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getConditionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getConditionOrBuilder();
 
       /**
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
        */
       boolean hasNegateCondition();
       /**
@@ -1165,24 +1165,24 @@ public final class MiGetTRITriggerConditionsAd {
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
        */
-      io.dstore.Values.booleanValue getNegateCondition();
+      io.dstore.values.BooleanValue getNegateCondition();
       /**
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getNegateConditionOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getNegateConditionOrBuilder();
 
       /**
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
        */
       boolean hasCheckEachAffectedId();
       /**
@@ -1190,24 +1190,24 @@ public final class MiGetTRITriggerConditionsAd {
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
        */
-      io.dstore.Values.booleanValue getCheckEachAffectedId();
+      io.dstore.values.BooleanValue getCheckEachAffectedId();
       /**
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getCheckEachAffectedIdOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getCheckEachAffectedIdOrBuilder();
 
       /**
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
        */
       boolean hasConditionNumber();
       /**
@@ -1215,24 +1215,24 @@ public final class MiGetTRITriggerConditionsAd {
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
        */
-      io.dstore.Values.integerValue getConditionNumber();
+      io.dstore.values.IntegerValue getConditionNumber();
       /**
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getConditionNumberOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getConditionNumberOrBuilder();
 
       /**
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+       * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
        */
       boolean hasStrToCompare();
       /**
@@ -1240,17 +1240,17 @@ public final class MiGetTRITriggerConditionsAd {
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+       * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
        */
-      io.dstore.Values.stringValue getStrToCompare();
+      io.dstore.values.StringValue getStrToCompare();
       /**
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+       * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getStrToCompareOrBuilder();
+      io.dstore.values.StringValueOrBuilder getStrToCompareOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetTRITriggerConditions_Ad.Response.Row}
@@ -1298,11 +1298,11 @@ public final class MiGetTRITriggerConditionsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (operator_ != null) {
                   subBuilder = operator_.toBuilder();
                 }
-                operator_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                operator_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(operator_);
                   operator_ = subBuilder.buildPartial();
@@ -1311,11 +1311,11 @@ public final class MiGetTRITriggerConditionsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (condition_ != null) {
                   subBuilder = condition_.toBuilder();
                 }
-                condition_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                condition_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition_);
                   condition_ = subBuilder.buildPartial();
@@ -1324,11 +1324,11 @@ public final class MiGetTRITriggerConditionsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (negateCondition_ != null) {
                   subBuilder = negateCondition_.toBuilder();
                 }
-                negateCondition_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                negateCondition_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(negateCondition_);
                   negateCondition_ = subBuilder.buildPartial();
@@ -1337,11 +1337,11 @@ public final class MiGetTRITriggerConditionsAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (checkEachAffectedId_ != null) {
                   subBuilder = checkEachAffectedId_.toBuilder();
                 }
-                checkEachAffectedId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                checkEachAffectedId_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(checkEachAffectedId_);
                   checkEachAffectedId_ = subBuilder.buildPartial();
@@ -1350,11 +1350,11 @@ public final class MiGetTRITriggerConditionsAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (conditionNumber_ != null) {
                   subBuilder = conditionNumber_.toBuilder();
                 }
-                conditionNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                conditionNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionNumber_);
                   conditionNumber_ = subBuilder.buildPartial();
@@ -1363,11 +1363,11 @@ public final class MiGetTRITriggerConditionsAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (strToCompare_ != null) {
                   subBuilder = strToCompare_.toBuilder();
                 }
-                strToCompare_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                strToCompare_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(strToCompare_);
                   strToCompare_ = subBuilder.buildPartial();
@@ -1408,13 +1408,13 @@ public final class MiGetTRITriggerConditionsAd {
       }
 
       public static final int OPERATOR_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue operator_;
+      private io.dstore.values.StringValue operator_;
       /**
        * <pre>
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
+       * <code>optional .dstore.values.StringValue operator = 10001;</code>
        */
       public boolean hasOperator() {
         return operator_ != null;
@@ -1424,30 +1424,30 @@ public final class MiGetTRITriggerConditionsAd {
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
+       * <code>optional .dstore.values.StringValue operator = 10001;</code>
        */
-      public io.dstore.Values.stringValue getOperator() {
-        return operator_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator_;
+      public io.dstore.values.StringValue getOperator() {
+        return operator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator_;
       }
       /**
        * <pre>
        * Wie "StrToCompare" und "Condition" verglichen werden sollen
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator = 10001;</code>
+       * <code>optional .dstore.values.StringValue operator = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOperatorOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOperatorOrBuilder() {
         return getOperator();
       }
 
       public static final int CONDITION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue condition_;
+      private io.dstore.values.StringValue condition_;
       /**
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition = 10002;</code>
        */
       public boolean hasCondition() {
         return condition_ != null;
@@ -1457,30 +1457,30 @@ public final class MiGetTRITriggerConditionsAd {
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition = 10002;</code>
        */
-      public io.dstore.Values.stringValue getCondition() {
-        return condition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition_;
+      public io.dstore.values.StringValue getCondition() {
+        return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
       }
       /**
        * <pre>
        * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getConditionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
         return getCondition();
       }
 
       public static final int NEGATE_CONDITION_FIELD_NUMBER = 10003;
-      private io.dstore.Values.booleanValue negateCondition_;
+      private io.dstore.values.BooleanValue negateCondition_;
       /**
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
        */
       public boolean hasNegateCondition() {
         return negateCondition_ != null;
@@ -1490,30 +1490,30 @@ public final class MiGetTRITriggerConditionsAd {
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
        */
-      public io.dstore.Values.booleanValue getNegateCondition() {
-        return negateCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateCondition_;
+      public io.dstore.values.BooleanValue getNegateCondition() {
+        return negateCondition_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : negateCondition_;
       }
       /**
        * <pre>
        * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+       * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getNegateConditionOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getNegateConditionOrBuilder() {
         return getNegateCondition();
       }
 
       public static final int CHECK_EACH_AFFECTED_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.booleanValue checkEachAffectedId_;
+      private io.dstore.values.BooleanValue checkEachAffectedId_;
       /**
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
        */
       public boolean hasCheckEachAffectedId() {
         return checkEachAffectedId_ != null;
@@ -1523,30 +1523,30 @@ public final class MiGetTRITriggerConditionsAd {
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
        */
-      public io.dstore.Values.booleanValue getCheckEachAffectedId() {
-        return checkEachAffectedId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkEachAffectedId_;
+      public io.dstore.values.BooleanValue getCheckEachAffectedId() {
+        return checkEachAffectedId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkEachAffectedId_;
       }
       /**
        * <pre>
        * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCheckEachAffectedIdOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCheckEachAffectedIdOrBuilder() {
         return getCheckEachAffectedId();
       }
 
       public static final int CONDITION_NUMBER_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue conditionNumber_;
+      private io.dstore.values.IntegerValue conditionNumber_;
       /**
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
        */
       public boolean hasConditionNumber() {
         return conditionNumber_ != null;
@@ -1556,30 +1556,30 @@ public final class MiGetTRITriggerConditionsAd {
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
        */
-      public io.dstore.Values.integerValue getConditionNumber() {
-        return conditionNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionNumber_;
+      public io.dstore.values.IntegerValue getConditionNumber() {
+        return conditionNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionNumber_;
       }
       /**
        * <pre>
        * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionNumberOrBuilder() {
         return getConditionNumber();
       }
 
       public static final int STR_TO_COMPARE_FIELD_NUMBER = 10006;
-      private io.dstore.Values.stringValue strToCompare_;
+      private io.dstore.values.StringValue strToCompare_;
       /**
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+       * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
        */
       public boolean hasStrToCompare() {
         return strToCompare_ != null;
@@ -1589,19 +1589,19 @@ public final class MiGetTRITriggerConditionsAd {
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+       * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
        */
-      public io.dstore.Values.stringValue getStrToCompare() {
-        return strToCompare_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : strToCompare_;
+      public io.dstore.values.StringValue getStrToCompare() {
+        return strToCompare_ == null ? io.dstore.values.StringValue.getDefaultInstance() : strToCompare_;
       }
       /**
        * <pre>
        * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+       * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getStrToCompareOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getStrToCompareOrBuilder() {
         return getStrToCompare();
       }
 
@@ -2080,15 +2080,15 @@ public final class MiGetTRITriggerConditionsAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue operator_ = null;
+        private io.dstore.values.StringValue operator_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operatorBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> operatorBuilder_;
         /**
          * <pre>
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
+         * <code>optional .dstore.values.StringValue operator = 10001;</code>
          */
         public boolean hasOperator() {
           return operatorBuilder_ != null || operator_ != null;
@@ -2098,11 +2098,11 @@ public final class MiGetTRITriggerConditionsAd {
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
+         * <code>optional .dstore.values.StringValue operator = 10001;</code>
          */
-        public io.dstore.Values.stringValue getOperator() {
+        public io.dstore.values.StringValue getOperator() {
           if (operatorBuilder_ == null) {
-            return operator_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator_;
+            return operator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator_;
           } else {
             return operatorBuilder_.getMessage();
           }
@@ -2112,9 +2112,9 @@ public final class MiGetTRITriggerConditionsAd {
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
+         * <code>optional .dstore.values.StringValue operator = 10001;</code>
          */
-        public Builder setOperator(io.dstore.Values.stringValue value) {
+        public Builder setOperator(io.dstore.values.StringValue value) {
           if (operatorBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2132,10 +2132,10 @@ public final class MiGetTRITriggerConditionsAd {
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
+         * <code>optional .dstore.values.StringValue operator = 10001;</code>
          */
         public Builder setOperator(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (operatorBuilder_ == null) {
             operator_ = builderForValue.build();
             onChanged();
@@ -2150,13 +2150,13 @@ public final class MiGetTRITriggerConditionsAd {
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
+         * <code>optional .dstore.values.StringValue operator = 10001;</code>
          */
-        public Builder mergeOperator(io.dstore.Values.stringValue value) {
+        public Builder mergeOperator(io.dstore.values.StringValue value) {
           if (operatorBuilder_ == null) {
             if (operator_ != null) {
               operator_ =
-                io.dstore.Values.stringValue.newBuilder(operator_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(operator_).mergeFrom(value).buildPartial();
             } else {
               operator_ = value;
             }
@@ -2172,7 +2172,7 @@ public final class MiGetTRITriggerConditionsAd {
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
+         * <code>optional .dstore.values.StringValue operator = 10001;</code>
          */
         public Builder clearOperator() {
           if (operatorBuilder_ == null) {
@@ -2190,9 +2190,9 @@ public final class MiGetTRITriggerConditionsAd {
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
+         * <code>optional .dstore.values.StringValue operator = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getOperatorBuilder() {
+        public io.dstore.values.StringValue.Builder getOperatorBuilder() {
           
           onChanged();
           return getOperatorFieldBuilder().getBuilder();
@@ -2202,14 +2202,14 @@ public final class MiGetTRITriggerConditionsAd {
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
+         * <code>optional .dstore.values.StringValue operator = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getOperatorOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getOperatorOrBuilder() {
           if (operatorBuilder_ != null) {
             return operatorBuilder_.getMessageOrBuilder();
           } else {
             return operator_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : operator_;
+                io.dstore.values.StringValue.getDefaultInstance() : operator_;
           }
         }
         /**
@@ -2217,14 +2217,14 @@ public final class MiGetTRITriggerConditionsAd {
          * Wie "StrToCompare" und "Condition" verglichen werden sollen
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator = 10001;</code>
+         * <code>optional .dstore.values.StringValue operator = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getOperatorFieldBuilder() {
           if (operatorBuilder_ == null) {
             operatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getOperator(),
                     getParentForChildren(),
                     isClean());
@@ -2233,15 +2233,15 @@ public final class MiGetTRITriggerConditionsAd {
           return operatorBuilder_;
         }
 
-        private io.dstore.Values.stringValue condition_ = null;
+        private io.dstore.values.StringValue condition_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> conditionBuilder_;
         /**
          * <pre>
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition = 10002;</code>
          */
         public boolean hasCondition() {
           return conditionBuilder_ != null || condition_ != null;
@@ -2251,11 +2251,11 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition = 10002;</code>
          */
-        public io.dstore.Values.stringValue getCondition() {
+        public io.dstore.values.StringValue getCondition() {
           if (conditionBuilder_ == null) {
-            return condition_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition_;
+            return condition_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition_;
           } else {
             return conditionBuilder_.getMessage();
           }
@@ -2265,9 +2265,9 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition = 10002;</code>
          */
-        public Builder setCondition(io.dstore.Values.stringValue value) {
+        public Builder setCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2285,10 +2285,10 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition = 10002;</code>
          */
         public Builder setCondition(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (conditionBuilder_ == null) {
             condition_ = builderForValue.build();
             onChanged();
@@ -2303,13 +2303,13 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition = 10002;</code>
          */
-        public Builder mergeCondition(io.dstore.Values.stringValue value) {
+        public Builder mergeCondition(io.dstore.values.StringValue value) {
           if (conditionBuilder_ == null) {
             if (condition_ != null) {
               condition_ =
-                io.dstore.Values.stringValue.newBuilder(condition_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(condition_).mergeFrom(value).buildPartial();
             } else {
               condition_ = value;
             }
@@ -2325,7 +2325,7 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition = 10002;</code>
          */
         public Builder clearCondition() {
           if (conditionBuilder_ == null) {
@@ -2343,9 +2343,9 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getConditionBuilder() {
+        public io.dstore.values.StringValue.Builder getConditionBuilder() {
           
           onChanged();
           return getConditionFieldBuilder().getBuilder();
@@ -2355,14 +2355,14 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getConditionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getConditionOrBuilder() {
           if (conditionBuilder_ != null) {
             return conditionBuilder_.getMessageOrBuilder();
           } else {
             return condition_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : condition_;
+                io.dstore.values.StringValue.getDefaultInstance() : condition_;
           }
         }
         /**
@@ -2370,14 +2370,14 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck" mit dem "StrToCompare" anhand des in "Operator" angegebenen Operators verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getConditionFieldBuilder() {
           if (conditionBuilder_ == null) {
             conditionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCondition(),
                     getParentForChildren(),
                     isClean());
@@ -2386,15 +2386,15 @@ public final class MiGetTRITriggerConditionsAd {
           return conditionBuilder_;
         }
 
-        private io.dstore.Values.booleanValue negateCondition_ = null;
+        private io.dstore.values.BooleanValue negateCondition_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> negateConditionBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> negateConditionBuilder_;
         /**
          * <pre>
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
          */
         public boolean hasNegateCondition() {
           return negateConditionBuilder_ != null || negateCondition_ != null;
@@ -2404,11 +2404,11 @@ public final class MiGetTRITriggerConditionsAd {
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
          */
-        public io.dstore.Values.booleanValue getNegateCondition() {
+        public io.dstore.values.BooleanValue getNegateCondition() {
           if (negateConditionBuilder_ == null) {
-            return negateCondition_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : negateCondition_;
+            return negateCondition_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : negateCondition_;
           } else {
             return negateConditionBuilder_.getMessage();
           }
@@ -2418,9 +2418,9 @@ public final class MiGetTRITriggerConditionsAd {
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
          */
-        public Builder setNegateCondition(io.dstore.Values.booleanValue value) {
+        public Builder setNegateCondition(io.dstore.values.BooleanValue value) {
           if (negateConditionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2438,10 +2438,10 @@ public final class MiGetTRITriggerConditionsAd {
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
          */
         public Builder setNegateCondition(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (negateConditionBuilder_ == null) {
             negateCondition_ = builderForValue.build();
             onChanged();
@@ -2456,13 +2456,13 @@ public final class MiGetTRITriggerConditionsAd {
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
          */
-        public Builder mergeNegateCondition(io.dstore.Values.booleanValue value) {
+        public Builder mergeNegateCondition(io.dstore.values.BooleanValue value) {
           if (negateConditionBuilder_ == null) {
             if (negateCondition_ != null) {
               negateCondition_ =
-                io.dstore.Values.booleanValue.newBuilder(negateCondition_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(negateCondition_).mergeFrom(value).buildPartial();
             } else {
               negateCondition_ = value;
             }
@@ -2478,7 +2478,7 @@ public final class MiGetTRITriggerConditionsAd {
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
          */
         public Builder clearNegateCondition() {
           if (negateConditionBuilder_ == null) {
@@ -2496,9 +2496,9 @@ public final class MiGetTRITriggerConditionsAd {
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getNegateConditionBuilder() {
+        public io.dstore.values.BooleanValue.Builder getNegateConditionBuilder() {
           
           onChanged();
           return getNegateConditionFieldBuilder().getBuilder();
@@ -2508,14 +2508,14 @@ public final class MiGetTRITriggerConditionsAd {
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getNegateConditionOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getNegateConditionOrBuilder() {
           if (negateConditionBuilder_ != null) {
             return negateConditionBuilder_.getMessageOrBuilder();
           } else {
             return negateCondition_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : negateCondition_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : negateCondition_;
           }
         }
         /**
@@ -2523,14 +2523,14 @@ public final class MiGetTRITriggerConditionsAd {
          * Gibt an, ob der Vergleich von "StrToCompare" und "Condition" wahr sein muß ("0") oder nicht ("1"), damit die Bedingung "ConditionNumber" als erfüllt gilt
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue negate_condition = 10003;</code>
+         * <code>optional .dstore.values.BooleanValue negate_condition = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getNegateConditionFieldBuilder() {
           if (negateConditionBuilder_ == null) {
             negateConditionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getNegateCondition(),
                     getParentForChildren(),
                     isClean());
@@ -2539,15 +2539,15 @@ public final class MiGetTRITriggerConditionsAd {
           return negateConditionBuilder_;
         }
 
-        private io.dstore.Values.booleanValue checkEachAffectedId_ = null;
+        private io.dstore.values.BooleanValue checkEachAffectedId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkEachAffectedIdBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> checkEachAffectedIdBuilder_;
         /**
          * <pre>
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
          */
         public boolean hasCheckEachAffectedId() {
           return checkEachAffectedIdBuilder_ != null || checkEachAffectedId_ != null;
@@ -2557,11 +2557,11 @@ public final class MiGetTRITriggerConditionsAd {
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
          */
-        public io.dstore.Values.booleanValue getCheckEachAffectedId() {
+        public io.dstore.values.BooleanValue getCheckEachAffectedId() {
           if (checkEachAffectedIdBuilder_ == null) {
-            return checkEachAffectedId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkEachAffectedId_;
+            return checkEachAffectedId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkEachAffectedId_;
           } else {
             return checkEachAffectedIdBuilder_.getMessage();
           }
@@ -2571,9 +2571,9 @@ public final class MiGetTRITriggerConditionsAd {
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
          */
-        public Builder setCheckEachAffectedId(io.dstore.Values.booleanValue value) {
+        public Builder setCheckEachAffectedId(io.dstore.values.BooleanValue value) {
           if (checkEachAffectedIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2591,10 +2591,10 @@ public final class MiGetTRITriggerConditionsAd {
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
          */
         public Builder setCheckEachAffectedId(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (checkEachAffectedIdBuilder_ == null) {
             checkEachAffectedId_ = builderForValue.build();
             onChanged();
@@ -2609,13 +2609,13 @@ public final class MiGetTRITriggerConditionsAd {
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
          */
-        public Builder mergeCheckEachAffectedId(io.dstore.Values.booleanValue value) {
+        public Builder mergeCheckEachAffectedId(io.dstore.values.BooleanValue value) {
           if (checkEachAffectedIdBuilder_ == null) {
             if (checkEachAffectedId_ != null) {
               checkEachAffectedId_ =
-                io.dstore.Values.booleanValue.newBuilder(checkEachAffectedId_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(checkEachAffectedId_).mergeFrom(value).buildPartial();
             } else {
               checkEachAffectedId_ = value;
             }
@@ -2631,7 +2631,7 @@ public final class MiGetTRITriggerConditionsAd {
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
          */
         public Builder clearCheckEachAffectedId() {
           if (checkEachAffectedIdBuilder_ == null) {
@@ -2649,9 +2649,9 @@ public final class MiGetTRITriggerConditionsAd {
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getCheckEachAffectedIdBuilder() {
+        public io.dstore.values.BooleanValue.Builder getCheckEachAffectedIdBuilder() {
           
           onChanged();
           return getCheckEachAffectedIdFieldBuilder().getBuilder();
@@ -2661,14 +2661,14 @@ public final class MiGetTRITriggerConditionsAd {
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getCheckEachAffectedIdOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getCheckEachAffectedIdOrBuilder() {
           if (checkEachAffectedIdBuilder_ != null) {
             return checkEachAffectedIdBuilder_.getMessageOrBuilder();
           } else {
             return checkEachAffectedId_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : checkEachAffectedId_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : checkEachAffectedId_;
           }
         }
         /**
@@ -2676,14 +2676,14 @@ public final class MiGetTRITriggerConditionsAd {
          * Soll die Bedingung für ALLE IDs, die vom Trigger betroffen sind, geprüft werden ("1") oder sollen die IDs durchlaufen werden, bis bei einer die Bedingung erfüllt ist ("0").
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue check_each_affected_id = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue check_each_affected_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getCheckEachAffectedIdFieldBuilder() {
           if (checkEachAffectedIdBuilder_ == null) {
             checkEachAffectedIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getCheckEachAffectedId(),
                     getParentForChildren(),
                     isClean());
@@ -2692,15 +2692,15 @@ public final class MiGetTRITriggerConditionsAd {
           return checkEachAffectedIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue conditionNumber_ = null;
+        private io.dstore.values.IntegerValue conditionNumber_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionNumberBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionNumberBuilder_;
         /**
          * <pre>
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public boolean hasConditionNumber() {
           return conditionNumberBuilder_ != null || conditionNumber_ != null;
@@ -2710,11 +2710,11 @@ public final class MiGetTRITriggerConditionsAd {
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
          */
-        public io.dstore.Values.integerValue getConditionNumber() {
+        public io.dstore.values.IntegerValue getConditionNumber() {
           if (conditionNumberBuilder_ == null) {
-            return conditionNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionNumber_;
+            return conditionNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionNumber_;
           } else {
             return conditionNumberBuilder_.getMessage();
           }
@@ -2724,9 +2724,9 @@ public final class MiGetTRITriggerConditionsAd {
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
          */
-        public Builder setConditionNumber(io.dstore.Values.integerValue value) {
+        public Builder setConditionNumber(io.dstore.values.IntegerValue value) {
           if (conditionNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2744,10 +2744,10 @@ public final class MiGetTRITriggerConditionsAd {
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public Builder setConditionNumber(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (conditionNumberBuilder_ == null) {
             conditionNumber_ = builderForValue.build();
             onChanged();
@@ -2762,13 +2762,13 @@ public final class MiGetTRITriggerConditionsAd {
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
          */
-        public Builder mergeConditionNumber(io.dstore.Values.integerValue value) {
+        public Builder mergeConditionNumber(io.dstore.values.IntegerValue value) {
           if (conditionNumberBuilder_ == null) {
             if (conditionNumber_ != null) {
               conditionNumber_ =
-                io.dstore.Values.integerValue.newBuilder(conditionNumber_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(conditionNumber_).mergeFrom(value).buildPartial();
             } else {
               conditionNumber_ = value;
             }
@@ -2784,7 +2784,7 @@ public final class MiGetTRITriggerConditionsAd {
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
          */
         public Builder clearConditionNumber() {
           if (conditionNumberBuilder_ == null) {
@@ -2802,9 +2802,9 @@ public final class MiGetTRITriggerConditionsAd {
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getConditionNumberBuilder() {
+        public io.dstore.values.IntegerValue.Builder getConditionNumberBuilder() {
           
           onChanged();
           return getConditionNumberFieldBuilder().getBuilder();
@@ -2814,14 +2814,14 @@ public final class MiGetTRITriggerConditionsAd {
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getConditionNumberOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getConditionNumberOrBuilder() {
           if (conditionNumberBuilder_ != null) {
             return conditionNumberBuilder_.getMessageOrBuilder();
           } else {
             return conditionNumber_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : conditionNumber_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : conditionNumber_;
           }
         }
         /**
@@ -2829,14 +2829,14 @@ public final class MiGetTRITriggerConditionsAd {
          * X-te Bedingung (bei "1" angefangen, maximal "255"). Bedingungen zur gleichen "WorkStepNo" werden mit "AND" verknüpft. Die Nummer bestimmt die Reihenfolge, in der die Bedingung innerhalb aller Bedingungen zum Arbeitsschritt ausgewertet wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue condition_number = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getConditionNumberFieldBuilder() {
           if (conditionNumberBuilder_ == null) {
             conditionNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getConditionNumber(),
                     getParentForChildren(),
                     isClean());
@@ -2845,15 +2845,15 @@ public final class MiGetTRITriggerConditionsAd {
           return conditionNumberBuilder_;
         }
 
-        private io.dstore.Values.stringValue strToCompare_ = null;
+        private io.dstore.values.StringValue strToCompare_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> strToCompareBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> strToCompareBuilder_;
         /**
          * <pre>
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+         * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
          */
         public boolean hasStrToCompare() {
           return strToCompareBuilder_ != null || strToCompare_ != null;
@@ -2863,11 +2863,11 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+         * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
          */
-        public io.dstore.Values.stringValue getStrToCompare() {
+        public io.dstore.values.StringValue getStrToCompare() {
           if (strToCompareBuilder_ == null) {
-            return strToCompare_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : strToCompare_;
+            return strToCompare_ == null ? io.dstore.values.StringValue.getDefaultInstance() : strToCompare_;
           } else {
             return strToCompareBuilder_.getMessage();
           }
@@ -2877,9 +2877,9 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+         * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
          */
-        public Builder setStrToCompare(io.dstore.Values.stringValue value) {
+        public Builder setStrToCompare(io.dstore.values.StringValue value) {
           if (strToCompareBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2897,10 +2897,10 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+         * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
          */
         public Builder setStrToCompare(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (strToCompareBuilder_ == null) {
             strToCompare_ = builderForValue.build();
             onChanged();
@@ -2915,13 +2915,13 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+         * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
          */
-        public Builder mergeStrToCompare(io.dstore.Values.stringValue value) {
+        public Builder mergeStrToCompare(io.dstore.values.StringValue value) {
           if (strToCompareBuilder_ == null) {
             if (strToCompare_ != null) {
               strToCompare_ =
-                io.dstore.Values.stringValue.newBuilder(strToCompare_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(strToCompare_).mergeFrom(value).buildPartial();
             } else {
               strToCompare_ = value;
             }
@@ -2937,7 +2937,7 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+         * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
          */
         public Builder clearStrToCompare() {
           if (strToCompareBuilder_ == null) {
@@ -2955,9 +2955,9 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+         * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getStrToCompareBuilder() {
+        public io.dstore.values.StringValue.Builder getStrToCompareBuilder() {
           
           onChanged();
           return getStrToCompareFieldBuilder().getBuilder();
@@ -2967,14 +2967,14 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+         * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getStrToCompareOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getStrToCompareOrBuilder() {
           if (strToCompareBuilder_ != null) {
             return strToCompareBuilder_.getMessageOrBuilder();
           } else {
             return strToCompare_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : strToCompare_;
+                io.dstore.values.StringValue.getDefaultInstance() : strToCompare_;
           }
         }
         /**
@@ -2982,14 +2982,14 @@ public final class MiGetTRITriggerConditionsAd {
          * "TRI-Ausdruck", der anhand des in "Operator" angegebenen Operators mit "Condition" verglichen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue str_to_compare = 10006;</code>
+         * <code>optional .dstore.values.StringValue str_to_compare = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getStrToCompareFieldBuilder() {
           if (strToCompareBuilder_ == null) {
             strToCompareBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getStrToCompare(),
                     getParentForChildren(),
                     isClean());
@@ -4459,23 +4459,23 @@ public final class MiGetTRITriggerConditionsAd {
       "_GetTRITriggerConditions_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\246\001\n" +
       "\nParameters\022/\n\ntrigger_id\030\001 \001(\0132\033.dstore" +
-      ".values.integerValue\022\030\n\017trigger_id_null\030" +
+      ".values.IntegerValue\022\030\n\017trigger_id_null\030" +
       "\351\007 \001(\010\0221\n\014work_step_no\030\002 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\032\n\021work_step_no_null\030\352" +
+      "lues.IntegerValue\022\032\n\021work_step_no_null\030\352" +
       "\007 \001(\010\"\220\004\n\010Response\0228\n\020meta_information\030\002" +
       " \003(\0132\036.dstore.engine.MetaInformation\022\'\n\007",
       "message\030\003 \003(\0132\026.dstore.engine.Message\022F\n" +
       "\003row\030\004 \003(\01329.dstore.engine.mi_GetTRITrig" +
       "gerConditions_Ad.Response.Row\032\330\002\n\003Row\022\017\n" +
       "\006row_id\030\220N \001(\005\022-\n\010operator\030\221N \001(\0132\032.dsto" +
-      "re.values.stringValue\022.\n\tcondition\030\222N \001(" +
-      "\0132\032.dstore.values.stringValue\0226\n\020negate_" +
-      "condition\030\223N \001(\0132\033.dstore.values.boolean" +
+      "re.values.StringValue\022.\n\tcondition\030\222N \001(" +
+      "\0132\032.dstore.values.StringValue\0226\n\020negate_" +
+      "condition\030\223N \001(\0132\033.dstore.values.Boolean" +
       "Value\022<\n\026check_each_affected_id\030\224N \001(\0132\033" +
-      ".dstore.values.booleanValue\0226\n\020condition" +
-      "_number\030\225N \001(\0132\033.dstore.values.integerVa",
+      ".dstore.values.BooleanValue\0226\n\020condition" +
+      "_number\030\225N \001(\0132\033.dstore.values.IntegerVa",
       "lue\0223\n\016str_to_compare\030\226N \001(\0132\032.dstore.va" +
-      "lues.stringValueB^\n\033io.dstore.engine.pro" +
+      "lues.StringValueB^\n\033io.dstore.engine.pro" +
       "ceduresZ?gosdk.dstore.de/engine/procedur" +
       "es/mi_GetTRITriggerConditions_Adb\006proto3"
     };
@@ -4490,7 +4490,7 @@ public final class MiGetTRITriggerConditionsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetTRITriggerConditions_Ad_Parameters_descriptor =
@@ -4511,7 +4511,7 @@ public final class MiGetTRITriggerConditionsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTRITriggerConditions_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Operator", "Condition", "NegateCondition", "CheckEachAffectedId", "ConditionNumber", "StrToCompare", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

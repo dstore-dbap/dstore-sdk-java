@@ -19,17 +19,17 @@ public final class MiInsertTempdbTextData {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue data = 1;</code>
+     * <code>optional .dstore.values.StringValue data = 1;</code>
      */
     boolean hasData();
     /**
-     * <code>optional .dstore.values.stringValue data = 1;</code>
+     * <code>optional .dstore.values.StringValue data = 1;</code>
      */
-    io.dstore.Values.stringValue getData();
+    io.dstore.values.StringValue getData();
     /**
-     * <code>optional .dstore.values.stringValue data = 1;</code>
+     * <code>optional .dstore.values.StringValue data = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDataOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDataOrBuilder();
 
     /**
      * <code>optional bool data_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiInsertTempdbTextData {
     boolean getDataNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
      */
-    io.dstore.Values.integerValue getSortNo();
+    io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
      * <code>optional bool sort_no_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiInsertTempdbTextData {
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.stringValue format = 3;</code>
+     * <code>optional .dstore.values.StringValue format = 3;</code>
      */
     boolean hasFormat();
     /**
-     * <code>optional .dstore.values.stringValue format = 3;</code>
+     * <code>optional .dstore.values.StringValue format = 3;</code>
      */
-    io.dstore.Values.stringValue getFormat();
+    io.dstore.values.StringValue getFormat();
     /**
-     * <code>optional .dstore.values.stringValue format = 3;</code>
+     * <code>optional .dstore.values.StringValue format = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getFormatOrBuilder();
+    io.dstore.values.StringValueOrBuilder getFormatOrBuilder();
 
     /**
      * <code>optional bool format_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiInsertTempdbTextData {
     boolean getFormatNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
-    io.dstore.Values.booleanValue getDelete();
+    io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class MiInsertTempdbTextData {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (data_ != null) {
                 subBuilder = data_.toBuilder();
               }
-              data_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              data_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(data_);
                 data_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class MiInsertTempdbTextData {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
               }
-              sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNo_);
                 sortNo_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class MiInsertTempdbTextData {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (format_ != null) {
                 subBuilder = format_.toBuilder();
               }
-              format_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              format_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(format_);
                 format_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class MiInsertTempdbTextData {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class MiInsertTempdbTextData {
     }
 
     public static final int DATA_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue data_;
+    private io.dstore.values.StringValue data_;
     /**
-     * <code>optional .dstore.values.stringValue data = 1;</code>
+     * <code>optional .dstore.values.StringValue data = 1;</code>
      */
     public boolean hasData() {
       return data_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue data = 1;</code>
+     * <code>optional .dstore.values.StringValue data = 1;</code>
      */
-    public io.dstore.Values.stringValue getData() {
-      return data_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : data_;
+    public io.dstore.values.StringValue getData() {
+      return data_ == null ? io.dstore.values.StringValue.getDefaultInstance() : data_;
     }
     /**
-     * <code>optional .dstore.values.stringValue data = 1;</code>
+     * <code>optional .dstore.values.StringValue data = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDataOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDataOrBuilder() {
       return getData();
     }
 
@@ -259,23 +259,23 @@ public final class MiInsertTempdbTextData {
     }
 
     public static final int SORT_NO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue sortNo_;
+    private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
      */
-    public io.dstore.Values.integerValue getSortNo() {
-      return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+    public io.dstore.values.IntegerValue getSortNo() {
+      return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
     }
 
@@ -289,23 +289,23 @@ public final class MiInsertTempdbTextData {
     }
 
     public static final int FORMAT_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue format_;
+    private io.dstore.values.StringValue format_;
     /**
-     * <code>optional .dstore.values.stringValue format = 3;</code>
+     * <code>optional .dstore.values.StringValue format = 3;</code>
      */
     public boolean hasFormat() {
       return format_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue format = 3;</code>
+     * <code>optional .dstore.values.StringValue format = 3;</code>
      */
-    public io.dstore.Values.stringValue getFormat() {
-      return format_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : format_;
+    public io.dstore.values.StringValue getFormat() {
+      return format_ == null ? io.dstore.values.StringValue.getDefaultInstance() : format_;
     }
     /**
-     * <code>optional .dstore.values.stringValue format = 3;</code>
+     * <code>optional .dstore.values.StringValue format = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getFormatOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getFormatOrBuilder() {
       return getFormat();
     }
 
@@ -319,23 +319,23 @@ public final class MiInsertTempdbTextData {
     }
 
     public static final int DELETE_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue delete_;
+    private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDelete() {
-      return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+    public io.dstore.values.BooleanValue getDelete() {
+      return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -792,29 +792,29 @@ public final class MiInsertTempdbTextData {
         return this;
       }
 
-      private io.dstore.Values.stringValue data_ = null;
+      private io.dstore.values.StringValue data_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dataBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> dataBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue data = 1;</code>
+       * <code>optional .dstore.values.StringValue data = 1;</code>
        */
       public boolean hasData() {
         return dataBuilder_ != null || data_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue data = 1;</code>
+       * <code>optional .dstore.values.StringValue data = 1;</code>
        */
-      public io.dstore.Values.stringValue getData() {
+      public io.dstore.values.StringValue getData() {
         if (dataBuilder_ == null) {
-          return data_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : data_;
+          return data_ == null ? io.dstore.values.StringValue.getDefaultInstance() : data_;
         } else {
           return dataBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue data = 1;</code>
+       * <code>optional .dstore.values.StringValue data = 1;</code>
        */
-      public Builder setData(io.dstore.Values.stringValue value) {
+      public Builder setData(io.dstore.values.StringValue value) {
         if (dataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue data = 1;</code>
+       * <code>optional .dstore.values.StringValue data = 1;</code>
        */
       public Builder setData(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (dataBuilder_ == null) {
           data_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue data = 1;</code>
+       * <code>optional .dstore.values.StringValue data = 1;</code>
        */
-      public Builder mergeData(io.dstore.Values.stringValue value) {
+      public Builder mergeData(io.dstore.values.StringValue value) {
         if (dataBuilder_ == null) {
           if (data_ != null) {
             data_ =
-              io.dstore.Values.stringValue.newBuilder(data_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(data_).mergeFrom(value).buildPartial();
           } else {
             data_ = value;
           }
@@ -860,7 +860,7 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue data = 1;</code>
+       * <code>optional .dstore.values.StringValue data = 1;</code>
        */
       public Builder clearData() {
         if (dataBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue data = 1;</code>
+       * <code>optional .dstore.values.StringValue data = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDataBuilder() {
+      public io.dstore.values.StringValue.Builder getDataBuilder() {
         
         onChanged();
         return getDataFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue data = 1;</code>
+       * <code>optional .dstore.values.StringValue data = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDataOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDataOrBuilder() {
         if (dataBuilder_ != null) {
           return dataBuilder_.getMessageOrBuilder();
         } else {
           return data_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : data_;
+              io.dstore.values.StringValue.getDefaultInstance() : data_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue data = 1;</code>
+       * <code>optional .dstore.values.StringValue data = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDataFieldBuilder() {
         if (dataBuilder_ == null) {
           dataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getData(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class MiInsertTempdbTextData {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortNo_ = null;
+      private io.dstore.values.IntegerValue sortNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
+      public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
-          return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+          return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         } else {
           return sortNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
        */
-      public Builder setSortNo(io.dstore.Values.integerValue value) {
+      public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
        */
       public Builder setSortNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortNoBuilder_ == null) {
           sortNo_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
        */
-      public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+      public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (sortNo_ != null) {
             sortNo_ =
-              io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
           } else {
             sortNo_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
         onChanged();
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
           return sortNoBuilder_.getMessageOrBuilder();
         } else {
           return sortNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortNoFieldBuilder() {
         if (sortNoBuilder_ == null) {
           sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortNo(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class MiInsertTempdbTextData {
         return this;
       }
 
-      private io.dstore.Values.stringValue format_ = null;
+      private io.dstore.values.StringValue format_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> formatBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> formatBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue format = 3;</code>
+       * <code>optional .dstore.values.StringValue format = 3;</code>
        */
       public boolean hasFormat() {
         return formatBuilder_ != null || format_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue format = 3;</code>
+       * <code>optional .dstore.values.StringValue format = 3;</code>
        */
-      public io.dstore.Values.stringValue getFormat() {
+      public io.dstore.values.StringValue getFormat() {
         if (formatBuilder_ == null) {
-          return format_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : format_;
+          return format_ == null ? io.dstore.values.StringValue.getDefaultInstance() : format_;
         } else {
           return formatBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue format = 3;</code>
+       * <code>optional .dstore.values.StringValue format = 3;</code>
        */
-      public Builder setFormat(io.dstore.Values.stringValue value) {
+      public Builder setFormat(io.dstore.values.StringValue value) {
         if (formatBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue format = 3;</code>
+       * <code>optional .dstore.values.StringValue format = 3;</code>
        */
       public Builder setFormat(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (formatBuilder_ == null) {
           format_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue format = 3;</code>
+       * <code>optional .dstore.values.StringValue format = 3;</code>
        */
-      public Builder mergeFormat(io.dstore.Values.stringValue value) {
+      public Builder mergeFormat(io.dstore.values.StringValue value) {
         if (formatBuilder_ == null) {
           if (format_ != null) {
             format_ =
-              io.dstore.Values.stringValue.newBuilder(format_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(format_).mergeFrom(value).buildPartial();
           } else {
             format_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue format = 3;</code>
+       * <code>optional .dstore.values.StringValue format = 3;</code>
        */
       public Builder clearFormat() {
         if (formatBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue format = 3;</code>
+       * <code>optional .dstore.values.StringValue format = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getFormatBuilder() {
+      public io.dstore.values.StringValue.Builder getFormatBuilder() {
         
         onChanged();
         return getFormatFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue format = 3;</code>
+       * <code>optional .dstore.values.StringValue format = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getFormatOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getFormatOrBuilder() {
         if (formatBuilder_ != null) {
           return formatBuilder_.getMessageOrBuilder();
         } else {
           return format_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : format_;
+              io.dstore.values.StringValue.getDefaultInstance() : format_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue format = 3;</code>
+       * <code>optional .dstore.values.StringValue format = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getFormatFieldBuilder() {
         if (formatBuilder_ == null) {
           formatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getFormat(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class MiInsertTempdbTextData {
         return this;
       }
 
-      private io.dstore.Values.booleanValue delete_ = null;
+      private io.dstore.values.BooleanValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDelete() {
+      public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public Builder setDelete(io.dstore.Values.booleanValue value) {
+      public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder setDelete(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public Builder mergeDelete(io.dstore.Values.booleanValue value) {
+      public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class MiInsertTempdbTextData {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -3450,12 +3450,12 @@ public final class MiInsertTempdbTextData {
       "db_TextData.proto\022&dstore.engine.mi_Inse" +
       "rtTempdb_TextData\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\224\002\n\nParameter" +
-      "s\022(\n\004data\030\001 \001(\0132\032.dstore.values.stringVa" +
+      "s\022(\n\004data\030\001 \001(\0132\032.dstore.values.StringVa" +
       "lue\022\022\n\tdata_null\030\351\007 \001(\010\022,\n\007sort_no\030\002 \001(\013" +
-      "2\033.dstore.values.integerValue\022\025\n\014sort_no" +
+      "2\033.dstore.values.IntegerValue\022\025\n\014sort_no" +
       "_null\030\352\007 \001(\010\022*\n\006format\030\003 \001(\0132\032.dstore.va" +
-      "lues.stringValue\022\024\n\013format_null\030\353\007 \001(\010\022+" +
-      "\n\006delete\030\004 \001(\0132\033.dstore.values.booleanVa",
+      "lues.StringValue\022\024\n\013format_null\030\353\007 \001(\010\022+" +
+      "\n\006delete\030\004 \001(\0132\033.dstore.values.BooleanVa",
       "lue\022\024\n\013delete_null\030\354\007 \001(\010\"\310\001\n\010Response\0228" +
       "\n\020meta_information\030\002 \003(\0132\036.dstore.engine" +
       ".MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dsto" +
@@ -3477,7 +3477,7 @@ public final class MiInsertTempdbTextData {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_InsertTempdb_TextData_Parameters_descriptor =
@@ -3498,7 +3498,7 @@ public final class MiInsertTempdbTextData {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_InsertTempdb_TextData_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

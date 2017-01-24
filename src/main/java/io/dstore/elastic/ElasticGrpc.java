@@ -33,7 +33,7 @@ public class ElasticGrpc {
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
-              "dstore.elastic.Elastic", "itemGet"),
+              "dstore.elastic.Elastic", "ItemGet"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemGet.Request.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemGet.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
@@ -42,9 +42,18 @@ public class ElasticGrpc {
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.UNARY,
           generateFullMethodName(
-              "dstore.elastic.Elastic", "itemSuggest"),
+              "dstore.elastic.Elastic", "ItemSuggest"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemSuggest.Request.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemSuggest.Response.getDefaultInstance()));
+  @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
+  public static final io.grpc.MethodDescriptor<io.dstore.elastic.item.ItemExport.Request,
+      io.dstore.elastic.item.ItemExport.Response> METHOD_ITEM_EXPORT =
+      io.grpc.MethodDescriptor.create(
+          io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
+          generateFullMethodName(
+              "dstore.elastic.Elastic", "ItemExport"),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemExport.Request.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.ItemExport.Response.getDefaultInstance()));
 
   /**
    * Creates a new async stub that supports all call types for the service
@@ -87,6 +96,13 @@ public class ElasticGrpc {
       asyncUnimplementedUnaryCall(METHOD_ITEM_SUGGEST, responseObserver);
     }
 
+    /**
+     */
+    public void itemExport(io.dstore.elastic.item.ItemExport.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemExport.Response> responseObserver) {
+      asyncUnimplementedUnaryCall(METHOD_ITEM_EXPORT, responseObserver);
+    }
+
     @java.lang.Override public io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
@@ -103,6 +119,13 @@ public class ElasticGrpc {
                 io.dstore.elastic.item.ItemSuggest.Request,
                 io.dstore.elastic.item.ItemSuggest.Response>(
                   this, METHODID_ITEM_SUGGEST)))
+          .addMethod(
+            METHOD_ITEM_EXPORT,
+            asyncServerStreamingCall(
+              new MethodHandlers<
+                io.dstore.elastic.item.ItemExport.Request,
+                io.dstore.elastic.item.ItemExport.Response>(
+                  this, METHODID_ITEM_EXPORT)))
           .build();
     }
   }
@@ -140,6 +163,14 @@ public class ElasticGrpc {
       asyncUnaryCall(
           getChannel().newCall(METHOD_ITEM_SUGGEST, getCallOptions()), request, responseObserver);
     }
+
+    /**
+     */
+    public void itemExport(io.dstore.elastic.item.ItemExport.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemExport.Response> responseObserver) {
+      asyncServerStreamingCall(
+          getChannel().newCall(METHOD_ITEM_EXPORT, getCallOptions()), request, responseObserver);
+    }
   }
 
   /**
@@ -174,6 +205,14 @@ public class ElasticGrpc {
       return blockingUnaryCall(
           getChannel(), METHOD_ITEM_SUGGEST, getCallOptions(), request);
     }
+
+    /**
+     */
+    public java.util.Iterator<io.dstore.elastic.item.ItemExport.Response> itemExport(
+        io.dstore.elastic.item.ItemExport.Request request) {
+      return blockingServerStreamingCall(
+          getChannel(), METHOD_ITEM_EXPORT, getCallOptions(), request);
+    }
   }
 
   /**
@@ -205,6 +244,7 @@ public class ElasticGrpc {
 
   private static final int METHODID_ITEM_GET = 0;
   private static final int METHODID_ITEM_SUGGEST = 1;
+  private static final int METHODID_ITEM_EXPORT = 2;
 
   private static class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -231,6 +271,10 @@ public class ElasticGrpc {
           serviceImpl.itemSuggest((io.dstore.elastic.item.ItemSuggest.Request) request,
               (io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemSuggest.Response>) responseObserver);
           break;
+        case METHODID_ITEM_EXPORT:
+          serviceImpl.itemExport((io.dstore.elastic.item.ItemExport.Request) request,
+              (io.grpc.stub.StreamObserver<io.dstore.elastic.item.ItemExport.Response>) responseObserver);
+          break;
         default:
           throw new AssertionError();
       }
@@ -250,7 +294,8 @@ public class ElasticGrpc {
   public static io.grpc.ServiceDescriptor getServiceDescriptor() {
     return new io.grpc.ServiceDescriptor(SERVICE_NAME,
         METHOD_ITEM_GET,
-        METHOD_ITEM_SUGGEST);
+        METHOD_ITEM_SUGGEST,
+        METHOD_ITEM_EXPORT);
   }
 
 }

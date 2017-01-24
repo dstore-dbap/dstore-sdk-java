@@ -19,17 +19,17 @@ public final class MiCheckPerformanceAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
      */
     boolean hasProcedureNames();
     /**
-     * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
      */
-    io.dstore.Values.stringValue getProcedureNames();
+    io.dstore.values.StringValue getProcedureNames();
     /**
-     * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getProcedureNamesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getProcedureNamesOrBuilder();
 
     /**
      * <code>optional bool procedure_names_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiCheckPerformanceAd {
     boolean getProcedureNamesNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+     * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
      */
     boolean hasOnlyProceduresInAnyValues();
     /**
-     * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+     * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
      */
-    io.dstore.Values.booleanValue getOnlyProceduresInAnyValues();
+    io.dstore.values.BooleanValue getOnlyProceduresInAnyValues();
     /**
-     * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+     * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOnlyProceduresInAnyValuesOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOnlyProceduresInAnyValuesOrBuilder();
 
     /**
      * <code>optional bool only_procedures_in_any_values_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiCheckPerformanceAd {
     boolean getOnlyProceduresInAnyValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
      */
-    io.dstore.Values.integerValue getTreeNodeId();
+    io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiCheckPerformanceAd {
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
      */
     boolean hasTreeNodeIdForVariantMatrix();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
      */
-    io.dstore.Values.integerValue getTreeNodeIdForVariantMatrix();
+    io.dstore.values.IntegerValue getTreeNodeIdForVariantMatrix();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTreeNodeIdForVariantMatrixOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTreeNodeIdForVariantMatrixOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_for_variant_matrix_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiCheckPerformanceAd {
     boolean getTreeNodeIdForVariantMatrixNull();
 
     /**
-     * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
      */
     boolean hasYAxisCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
      */
-    io.dstore.Values.integerValue getYAxisCharacteristicId();
+    io.dstore.values.IntegerValue getYAxisCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getYAxisCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getYAxisCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool y_axis_characteristic_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiCheckPerformanceAd {
     boolean getYAxisCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
      */
     boolean hasXAxisCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValue getXAxisCharacteristicId();
+    io.dstore.values.IntegerValue getXAxisCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getXAxisCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getXAxisCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool x_axis_characteristic_id_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class MiCheckPerformanceAd {
     boolean getXAxisCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
      */
     boolean hasValueCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
      */
-    io.dstore.Values.integerValue getValueCharacteristicId();
+    io.dstore.values.IntegerValue getValueCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getValueCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getValueCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool value_characteristic_id_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class MiCheckPerformanceAd {
     boolean getValueCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+     * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
      */
     boolean hasSearchNodeCharacteristicIds();
     /**
-     * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+     * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
      */
-    io.dstore.Values.stringValue getSearchNodeCharacteristicIds();
+    io.dstore.values.StringValue getSearchNodeCharacteristicIds();
     /**
-     * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+     * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSearchNodeCharacteristicIdsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSearchNodeCharacteristicIdsOrBuilder();
 
     /**
      * <code>optional bool search_node_characteristic_ids_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class MiCheckPerformanceAd {
     boolean getSearchNodeCharacteristicIdsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue search_value = 9;</code>
+     * <code>optional .dstore.values.StringValue search_value = 9;</code>
      */
     boolean hasSearchValue();
     /**
-     * <code>optional .dstore.values.stringValue search_value = 9;</code>
+     * <code>optional .dstore.values.StringValue search_value = 9;</code>
      */
-    io.dstore.Values.stringValue getSearchValue();
+    io.dstore.values.StringValue getSearchValue();
     /**
-     * <code>optional .dstore.values.stringValue search_value = 9;</code>
+     * <code>optional .dstore.values.StringValue search_value = 9;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder();
 
     /**
      * <code>optional bool search_value_null = 1009;</code>
@@ -181,17 +181,17 @@ public final class MiCheckPerformanceAd {
     boolean getSearchValueNull();
 
     /**
-     * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
      */
     boolean hasSearchPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
      */
-    io.dstore.Values.integerValue getSearchPersonTypeId();
+    io.dstore.values.IntegerValue getSearchPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSearchPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSearchPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool search_person_type_id_null = 1010;</code>
@@ -199,17 +199,17 @@ public final class MiCheckPerformanceAd {
     boolean getSearchPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+     * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
      */
     boolean hasPersonOutputCharacteristics();
     /**
-     * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+     * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
      */
-    io.dstore.Values.stringValue getPersonOutputCharacteristics();
+    io.dstore.values.StringValue getPersonOutputCharacteristics();
     /**
-     * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+     * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonOutputCharacteristicsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonOutputCharacteristicsOrBuilder();
 
     /**
      * <code>optional bool person_output_characteristics_null = 1011;</code>
@@ -217,17 +217,17 @@ public final class MiCheckPerformanceAd {
     boolean getPersonOutputCharacteristicsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+     * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
      */
     boolean hasPersonCharacteristicIds();
     /**
-     * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+     * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
      */
-    io.dstore.Values.stringValue getPersonCharacteristicIds();
+    io.dstore.values.StringValue getPersonCharacteristicIds();
     /**
-     * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+     * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonCharacteristicIdsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonCharacteristicIdsOrBuilder();
 
     /**
      * <code>optional bool person_characteristic_ids_null = 1012;</code>
@@ -235,17 +235,17 @@ public final class MiCheckPerformanceAd {
     boolean getPersonCharacteristicIdsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+     * <code>optional .dstore.values.StringValue condition_list = 13;</code>
      */
     boolean hasConditionList();
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+     * <code>optional .dstore.values.StringValue condition_list = 13;</code>
      */
-    io.dstore.Values.stringValue getConditionList();
+    io.dstore.values.StringValue getConditionList();
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+     * <code>optional .dstore.values.StringValue condition_list = 13;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getConditionListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getConditionListOrBuilder();
 
     /**
      * <code>optional bool condition_list_null = 1013;</code>
@@ -253,17 +253,17 @@ public final class MiCheckPerformanceAd {
     boolean getConditionListNull();
 
     /**
-     * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+     * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
      */
     boolean hasOrderPersonId();
     /**
-     * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+     * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
      */
-    io.dstore.Values.integerValue getOrderPersonId();
+    io.dstore.values.IntegerValue getOrderPersonId();
     /**
-     * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+     * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOrderPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOrderPersonIdOrBuilder();
 
     /**
      * <code>optional bool order_person_id_null = 1014;</code>
@@ -324,11 +324,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (procedureNames_ != null) {
                 subBuilder = procedureNames_.toBuilder();
               }
-              procedureNames_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              procedureNames_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureNames_);
                 procedureNames_ = subBuilder.buildPartial();
@@ -337,11 +337,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (onlyProceduresInAnyValues_ != null) {
                 subBuilder = onlyProceduresInAnyValues_.toBuilder();
               }
-              onlyProceduresInAnyValues_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              onlyProceduresInAnyValues_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyProceduresInAnyValues_);
                 onlyProceduresInAnyValues_ = subBuilder.buildPartial();
@@ -350,11 +350,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -363,11 +363,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (treeNodeIdForVariantMatrix_ != null) {
                 subBuilder = treeNodeIdForVariantMatrix_.toBuilder();
               }
-              treeNodeIdForVariantMatrix_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              treeNodeIdForVariantMatrix_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeIdForVariantMatrix_);
                 treeNodeIdForVariantMatrix_ = subBuilder.buildPartial();
@@ -376,11 +376,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (yAxisCharacteristicId_ != null) {
                 subBuilder = yAxisCharacteristicId_.toBuilder();
               }
-              yAxisCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              yAxisCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(yAxisCharacteristicId_);
                 yAxisCharacteristicId_ = subBuilder.buildPartial();
@@ -389,11 +389,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (xAxisCharacteristicId_ != null) {
                 subBuilder = xAxisCharacteristicId_.toBuilder();
               }
-              xAxisCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              xAxisCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(xAxisCharacteristicId_);
                 xAxisCharacteristicId_ = subBuilder.buildPartial();
@@ -402,11 +402,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (valueCharacteristicId_ != null) {
                 subBuilder = valueCharacteristicId_.toBuilder();
               }
-              valueCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              valueCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueCharacteristicId_);
                 valueCharacteristicId_ = subBuilder.buildPartial();
@@ -415,11 +415,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 66: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (searchNodeCharacteristicIds_ != null) {
                 subBuilder = searchNodeCharacteristicIds_.toBuilder();
               }
-              searchNodeCharacteristicIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              searchNodeCharacteristicIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchNodeCharacteristicIds_);
                 searchNodeCharacteristicIds_ = subBuilder.buildPartial();
@@ -428,11 +428,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 74: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (searchValue_ != null) {
                 subBuilder = searchValue_.toBuilder();
               }
-              searchValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              searchValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchValue_);
                 searchValue_ = subBuilder.buildPartial();
@@ -441,11 +441,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 82: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (searchPersonTypeId_ != null) {
                 subBuilder = searchPersonTypeId_.toBuilder();
               }
-              searchPersonTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              searchPersonTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchPersonTypeId_);
                 searchPersonTypeId_ = subBuilder.buildPartial();
@@ -454,11 +454,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 90: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personOutputCharacteristics_ != null) {
                 subBuilder = personOutputCharacteristics_.toBuilder();
               }
-              personOutputCharacteristics_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personOutputCharacteristics_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personOutputCharacteristics_);
                 personOutputCharacteristics_ = subBuilder.buildPartial();
@@ -467,11 +467,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 98: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personCharacteristicIds_ != null) {
                 subBuilder = personCharacteristicIds_.toBuilder();
               }
-              personCharacteristicIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personCharacteristicIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personCharacteristicIds_);
                 personCharacteristicIds_ = subBuilder.buildPartial();
@@ -480,11 +480,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 106: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (conditionList_ != null) {
                 subBuilder = conditionList_.toBuilder();
               }
-              conditionList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              conditionList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionList_);
                 conditionList_ = subBuilder.buildPartial();
@@ -493,11 +493,11 @@ public final class MiCheckPerformanceAd {
               break;
             }
             case 114: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (orderPersonId_ != null) {
                 subBuilder = orderPersonId_.toBuilder();
               }
-              orderPersonId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              orderPersonId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderPersonId_);
                 orderPersonId_ = subBuilder.buildPartial();
@@ -599,23 +599,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int PROCEDURE_NAMES_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue procedureNames_;
+    private io.dstore.values.StringValue procedureNames_;
     /**
-     * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
      */
     public boolean hasProcedureNames() {
       return procedureNames_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
      */
-    public io.dstore.Values.stringValue getProcedureNames() {
-      return procedureNames_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureNames_;
+    public io.dstore.values.StringValue getProcedureNames() {
+      return procedureNames_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureNames_;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getProcedureNamesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getProcedureNamesOrBuilder() {
       return getProcedureNames();
     }
 
@@ -629,23 +629,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int ONLY_PROCEDURES_IN_ANY_VALUES_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue onlyProceduresInAnyValues_;
+    private io.dstore.values.BooleanValue onlyProceduresInAnyValues_;
     /**
-     * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+     * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
      */
     public boolean hasOnlyProceduresInAnyValues() {
       return onlyProceduresInAnyValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+     * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
      */
-    public io.dstore.Values.booleanValue getOnlyProceduresInAnyValues() {
-      return onlyProceduresInAnyValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyProceduresInAnyValues_;
+    public io.dstore.values.BooleanValue getOnlyProceduresInAnyValues() {
+      return onlyProceduresInAnyValues_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyProceduresInAnyValues_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+     * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOnlyProceduresInAnyValuesOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOnlyProceduresInAnyValuesOrBuilder() {
       return getOnlyProceduresInAnyValues();
     }
 
@@ -659,23 +659,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue treeNodeId_;
+    private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getTreeNodeId() {
-      return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+    public io.dstore.values.IntegerValue getTreeNodeId() {
+      return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
     }
 
@@ -689,23 +689,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int TREE_NODE_ID_FOR_VARIANT_MATRIX_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue treeNodeIdForVariantMatrix_;
+    private io.dstore.values.IntegerValue treeNodeIdForVariantMatrix_;
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
      */
     public boolean hasTreeNodeIdForVariantMatrix() {
       return treeNodeIdForVariantMatrix_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
      */
-    public io.dstore.Values.integerValue getTreeNodeIdForVariantMatrix() {
-      return treeNodeIdForVariantMatrix_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeIdForVariantMatrix_;
+    public io.dstore.values.IntegerValue getTreeNodeIdForVariantMatrix() {
+      return treeNodeIdForVariantMatrix_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeIdForVariantMatrix_;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdForVariantMatrixOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdForVariantMatrixOrBuilder() {
       return getTreeNodeIdForVariantMatrix();
     }
 
@@ -719,23 +719,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int Y_AXIS_CHARACTERISTIC_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue yAxisCharacteristicId_;
+    private io.dstore.values.IntegerValue yAxisCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
      */
     public boolean hasYAxisCharacteristicId() {
       return yAxisCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getYAxisCharacteristicId() {
-      return yAxisCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : yAxisCharacteristicId_;
+    public io.dstore.values.IntegerValue getYAxisCharacteristicId() {
+      return yAxisCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : yAxisCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getYAxisCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getYAxisCharacteristicIdOrBuilder() {
       return getYAxisCharacteristicId();
     }
 
@@ -749,23 +749,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int X_AXIS_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue xAxisCharacteristicId_;
+    private io.dstore.values.IntegerValue xAxisCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
      */
     public boolean hasXAxisCharacteristicId() {
       return xAxisCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getXAxisCharacteristicId() {
-      return xAxisCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : xAxisCharacteristicId_;
+    public io.dstore.values.IntegerValue getXAxisCharacteristicId() {
+      return xAxisCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : xAxisCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getXAxisCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getXAxisCharacteristicIdOrBuilder() {
       return getXAxisCharacteristicId();
     }
 
@@ -779,23 +779,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int VALUE_CHARACTERISTIC_ID_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue valueCharacteristicId_;
+    private io.dstore.values.IntegerValue valueCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
      */
     public boolean hasValueCharacteristicId() {
       return valueCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
      */
-    public io.dstore.Values.integerValue getValueCharacteristicId() {
-      return valueCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueCharacteristicId_;
+    public io.dstore.values.IntegerValue getValueCharacteristicId() {
+      return valueCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getValueCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getValueCharacteristicIdOrBuilder() {
       return getValueCharacteristicId();
     }
 
@@ -809,23 +809,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int SEARCH_NODE_CHARACTERISTIC_IDS_FIELD_NUMBER = 8;
-    private io.dstore.Values.stringValue searchNodeCharacteristicIds_;
+    private io.dstore.values.StringValue searchNodeCharacteristicIds_;
     /**
-     * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+     * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
      */
     public boolean hasSearchNodeCharacteristicIds() {
       return searchNodeCharacteristicIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+     * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
      */
-    public io.dstore.Values.stringValue getSearchNodeCharacteristicIds() {
-      return searchNodeCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchNodeCharacteristicIds_;
+    public io.dstore.values.StringValue getSearchNodeCharacteristicIds() {
+      return searchNodeCharacteristicIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchNodeCharacteristicIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+     * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSearchNodeCharacteristicIdsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSearchNodeCharacteristicIdsOrBuilder() {
       return getSearchNodeCharacteristicIds();
     }
 
@@ -839,23 +839,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int SEARCH_VALUE_FIELD_NUMBER = 9;
-    private io.dstore.Values.stringValue searchValue_;
+    private io.dstore.values.StringValue searchValue_;
     /**
-     * <code>optional .dstore.values.stringValue search_value = 9;</code>
+     * <code>optional .dstore.values.StringValue search_value = 9;</code>
      */
     public boolean hasSearchValue() {
       return searchValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_value = 9;</code>
+     * <code>optional .dstore.values.StringValue search_value = 9;</code>
      */
-    public io.dstore.Values.stringValue getSearchValue() {
-      return searchValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+    public io.dstore.values.StringValue getSearchValue() {
+      return searchValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_value = 9;</code>
+     * <code>optional .dstore.values.StringValue search_value = 9;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder() {
       return getSearchValue();
     }
 
@@ -869,23 +869,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int SEARCH_PERSON_TYPE_ID_FIELD_NUMBER = 10;
-    private io.dstore.Values.integerValue searchPersonTypeId_;
+    private io.dstore.values.IntegerValue searchPersonTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
      */
     public boolean hasSearchPersonTypeId() {
       return searchPersonTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
      */
-    public io.dstore.Values.integerValue getSearchPersonTypeId() {
-      return searchPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : searchPersonTypeId_;
+    public io.dstore.values.IntegerValue getSearchPersonTypeId() {
+      return searchPersonTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : searchPersonTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+     * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSearchPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSearchPersonTypeIdOrBuilder() {
       return getSearchPersonTypeId();
     }
 
@@ -899,23 +899,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int PERSON_OUTPUT_CHARACTERISTICS_FIELD_NUMBER = 11;
-    private io.dstore.Values.stringValue personOutputCharacteristics_;
+    private io.dstore.values.StringValue personOutputCharacteristics_;
     /**
-     * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+     * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
      */
     public boolean hasPersonOutputCharacteristics() {
       return personOutputCharacteristics_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+     * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
      */
-    public io.dstore.Values.stringValue getPersonOutputCharacteristics() {
-      return personOutputCharacteristics_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personOutputCharacteristics_;
+    public io.dstore.values.StringValue getPersonOutputCharacteristics() {
+      return personOutputCharacteristics_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personOutputCharacteristics_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+     * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonOutputCharacteristicsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonOutputCharacteristicsOrBuilder() {
       return getPersonOutputCharacteristics();
     }
 
@@ -929,23 +929,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int PERSON_CHARACTERISTIC_IDS_FIELD_NUMBER = 12;
-    private io.dstore.Values.stringValue personCharacteristicIds_;
+    private io.dstore.values.StringValue personCharacteristicIds_;
     /**
-     * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+     * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
      */
     public boolean hasPersonCharacteristicIds() {
       return personCharacteristicIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+     * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
      */
-    public io.dstore.Values.stringValue getPersonCharacteristicIds() {
-      return personCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personCharacteristicIds_;
+    public io.dstore.values.StringValue getPersonCharacteristicIds() {
+      return personCharacteristicIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personCharacteristicIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+     * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonCharacteristicIdsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonCharacteristicIdsOrBuilder() {
       return getPersonCharacteristicIds();
     }
 
@@ -959,23 +959,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int CONDITION_LIST_FIELD_NUMBER = 13;
-    private io.dstore.Values.stringValue conditionList_;
+    private io.dstore.values.StringValue conditionList_;
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+     * <code>optional .dstore.values.StringValue condition_list = 13;</code>
      */
     public boolean hasConditionList() {
       return conditionList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+     * <code>optional .dstore.values.StringValue condition_list = 13;</code>
      */
-    public io.dstore.Values.stringValue getConditionList() {
-      return conditionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : conditionList_;
+    public io.dstore.values.StringValue getConditionList() {
+      return conditionList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+     * <code>optional .dstore.values.StringValue condition_list = 13;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getConditionListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getConditionListOrBuilder() {
       return getConditionList();
     }
 
@@ -989,23 +989,23 @@ public final class MiCheckPerformanceAd {
     }
 
     public static final int ORDER_PERSON_ID_FIELD_NUMBER = 14;
-    private io.dstore.Values.integerValue orderPersonId_;
+    private io.dstore.values.IntegerValue orderPersonId_;
     /**
-     * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+     * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
      */
     public boolean hasOrderPersonId() {
       return orderPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+     * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
      */
-    public io.dstore.Values.integerValue getOrderPersonId() {
-      return orderPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderPersonId_;
+    public io.dstore.values.IntegerValue getOrderPersonId() {
+      return orderPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderPersonId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+     * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOrderPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOrderPersonIdOrBuilder() {
       return getOrderPersonId();
     }
 
@@ -1942,29 +1942,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue procedureNames_ = null;
+      private io.dstore.values.StringValue procedureNames_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNamesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNamesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
        */
       public boolean hasProcedureNames() {
         return procedureNamesBuilder_ != null || procedureNames_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
        */
-      public io.dstore.Values.stringValue getProcedureNames() {
+      public io.dstore.values.StringValue getProcedureNames() {
         if (procedureNamesBuilder_ == null) {
-          return procedureNames_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureNames_;
+          return procedureNames_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureNames_;
         } else {
           return procedureNamesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
        */
-      public Builder setProcedureNames(io.dstore.Values.stringValue value) {
+      public Builder setProcedureNames(io.dstore.values.StringValue value) {
         if (procedureNamesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1978,10 +1978,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
        */
       public Builder setProcedureNames(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (procedureNamesBuilder_ == null) {
           procedureNames_ = builderForValue.build();
           onChanged();
@@ -1992,13 +1992,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
        */
-      public Builder mergeProcedureNames(io.dstore.Values.stringValue value) {
+      public Builder mergeProcedureNames(io.dstore.values.StringValue value) {
         if (procedureNamesBuilder_ == null) {
           if (procedureNames_ != null) {
             procedureNames_ =
-              io.dstore.Values.stringValue.newBuilder(procedureNames_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(procedureNames_).mergeFrom(value).buildPartial();
           } else {
             procedureNames_ = value;
           }
@@ -2010,7 +2010,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
        */
       public Builder clearProcedureNames() {
         if (procedureNamesBuilder_ == null) {
@@ -2024,33 +2024,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getProcedureNamesBuilder() {
+      public io.dstore.values.StringValue.Builder getProcedureNamesBuilder() {
         
         onChanged();
         return getProcedureNamesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getProcedureNamesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getProcedureNamesOrBuilder() {
         if (procedureNamesBuilder_ != null) {
           return procedureNamesBuilder_.getMessageOrBuilder();
         } else {
           return procedureNames_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : procedureNames_;
+              io.dstore.values.StringValue.getDefaultInstance() : procedureNames_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_names = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_names = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getProcedureNamesFieldBuilder() {
         if (procedureNamesBuilder_ == null) {
           procedureNamesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getProcedureNames(),
                   getParentForChildren(),
                   isClean());
@@ -2085,29 +2085,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue onlyProceduresInAnyValues_ = null;
+      private io.dstore.values.BooleanValue onlyProceduresInAnyValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyProceduresInAnyValuesBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyProceduresInAnyValuesBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+       * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
        */
       public boolean hasOnlyProceduresInAnyValues() {
         return onlyProceduresInAnyValuesBuilder_ != null || onlyProceduresInAnyValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+       * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
        */
-      public io.dstore.Values.booleanValue getOnlyProceduresInAnyValues() {
+      public io.dstore.values.BooleanValue getOnlyProceduresInAnyValues() {
         if (onlyProceduresInAnyValuesBuilder_ == null) {
-          return onlyProceduresInAnyValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyProceduresInAnyValues_;
+          return onlyProceduresInAnyValues_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyProceduresInAnyValues_;
         } else {
           return onlyProceduresInAnyValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+       * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
        */
-      public Builder setOnlyProceduresInAnyValues(io.dstore.Values.booleanValue value) {
+      public Builder setOnlyProceduresInAnyValues(io.dstore.values.BooleanValue value) {
         if (onlyProceduresInAnyValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2121,10 +2121,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+       * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
        */
       public Builder setOnlyProceduresInAnyValues(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (onlyProceduresInAnyValuesBuilder_ == null) {
           onlyProceduresInAnyValues_ = builderForValue.build();
           onChanged();
@@ -2135,13 +2135,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+       * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
        */
-      public Builder mergeOnlyProceduresInAnyValues(io.dstore.Values.booleanValue value) {
+      public Builder mergeOnlyProceduresInAnyValues(io.dstore.values.BooleanValue value) {
         if (onlyProceduresInAnyValuesBuilder_ == null) {
           if (onlyProceduresInAnyValues_ != null) {
             onlyProceduresInAnyValues_ =
-              io.dstore.Values.booleanValue.newBuilder(onlyProceduresInAnyValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(onlyProceduresInAnyValues_).mergeFrom(value).buildPartial();
           } else {
             onlyProceduresInAnyValues_ = value;
           }
@@ -2153,7 +2153,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+       * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
        */
       public Builder clearOnlyProceduresInAnyValues() {
         if (onlyProceduresInAnyValuesBuilder_ == null) {
@@ -2167,33 +2167,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+       * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOnlyProceduresInAnyValuesBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOnlyProceduresInAnyValuesBuilder() {
         
         onChanged();
         return getOnlyProceduresInAnyValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+       * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOnlyProceduresInAnyValuesOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOnlyProceduresInAnyValuesOrBuilder() {
         if (onlyProceduresInAnyValuesBuilder_ != null) {
           return onlyProceduresInAnyValuesBuilder_.getMessageOrBuilder();
         } else {
           return onlyProceduresInAnyValues_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : onlyProceduresInAnyValues_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : onlyProceduresInAnyValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_procedures_in_any_values = 2;</code>
+       * <code>optional .dstore.values.BooleanValue only_procedures_in_any_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOnlyProceduresInAnyValuesFieldBuilder() {
         if (onlyProceduresInAnyValuesBuilder_ == null) {
           onlyProceduresInAnyValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOnlyProceduresInAnyValues(),
                   getParentForChildren(),
                   isClean());
@@ -2228,29 +2228,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue treeNodeId_ = null;
+      private io.dstore.values.IntegerValue treeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
+      public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
-          return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+          return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         } else {
           return treeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
        */
-      public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2264,10 +2264,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
        */
       public Builder setTreeNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (treeNodeIdBuilder_ == null) {
           treeNodeId_ = builderForValue.build();
           onChanged();
@@ -2278,13 +2278,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
        */
-      public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (treeNodeId_ != null) {
             treeNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeId_ = value;
           }
@@ -2296,7 +2296,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -2310,33 +2310,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
           return treeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTreeNodeIdFieldBuilder() {
         if (treeNodeIdBuilder_ == null) {
           treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -2371,29 +2371,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue treeNodeIdForVariantMatrix_ = null;
+      private io.dstore.values.IntegerValue treeNodeIdForVariantMatrix_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdForVariantMatrixBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdForVariantMatrixBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
        */
       public boolean hasTreeNodeIdForVariantMatrix() {
         return treeNodeIdForVariantMatrixBuilder_ != null || treeNodeIdForVariantMatrix_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeIdForVariantMatrix() {
+      public io.dstore.values.IntegerValue getTreeNodeIdForVariantMatrix() {
         if (treeNodeIdForVariantMatrixBuilder_ == null) {
-          return treeNodeIdForVariantMatrix_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeIdForVariantMatrix_;
+          return treeNodeIdForVariantMatrix_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeIdForVariantMatrix_;
         } else {
           return treeNodeIdForVariantMatrixBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
        */
-      public Builder setTreeNodeIdForVariantMatrix(io.dstore.Values.integerValue value) {
+      public Builder setTreeNodeIdForVariantMatrix(io.dstore.values.IntegerValue value) {
         if (treeNodeIdForVariantMatrixBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2407,10 +2407,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
        */
       public Builder setTreeNodeIdForVariantMatrix(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (treeNodeIdForVariantMatrixBuilder_ == null) {
           treeNodeIdForVariantMatrix_ = builderForValue.build();
           onChanged();
@@ -2421,13 +2421,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
        */
-      public Builder mergeTreeNodeIdForVariantMatrix(io.dstore.Values.integerValue value) {
+      public Builder mergeTreeNodeIdForVariantMatrix(io.dstore.values.IntegerValue value) {
         if (treeNodeIdForVariantMatrixBuilder_ == null) {
           if (treeNodeIdForVariantMatrix_ != null) {
             treeNodeIdForVariantMatrix_ =
-              io.dstore.Values.integerValue.newBuilder(treeNodeIdForVariantMatrix_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(treeNodeIdForVariantMatrix_).mergeFrom(value).buildPartial();
           } else {
             treeNodeIdForVariantMatrix_ = value;
           }
@@ -2439,7 +2439,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
        */
       public Builder clearTreeNodeIdForVariantMatrix() {
         if (treeNodeIdForVariantMatrixBuilder_ == null) {
@@ -2453,33 +2453,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTreeNodeIdForVariantMatrixBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTreeNodeIdForVariantMatrixBuilder() {
         
         onChanged();
         return getTreeNodeIdForVariantMatrixFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdForVariantMatrixOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdForVariantMatrixOrBuilder() {
         if (treeNodeIdForVariantMatrixBuilder_ != null) {
           return treeNodeIdForVariantMatrixBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeIdForVariantMatrix_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeIdForVariantMatrix_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeIdForVariantMatrix_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id_for_variant_matrix = 4;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id_for_variant_matrix = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTreeNodeIdForVariantMatrixFieldBuilder() {
         if (treeNodeIdForVariantMatrixBuilder_ == null) {
           treeNodeIdForVariantMatrixBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTreeNodeIdForVariantMatrix(),
                   getParentForChildren(),
                   isClean());
@@ -2514,29 +2514,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue yAxisCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue yAxisCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> yAxisCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> yAxisCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
        */
       public boolean hasYAxisCharacteristicId() {
         return yAxisCharacteristicIdBuilder_ != null || yAxisCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getYAxisCharacteristicId() {
+      public io.dstore.values.IntegerValue getYAxisCharacteristicId() {
         if (yAxisCharacteristicIdBuilder_ == null) {
-          return yAxisCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : yAxisCharacteristicId_;
+          return yAxisCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : yAxisCharacteristicId_;
         } else {
           return yAxisCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
        */
-      public Builder setYAxisCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setYAxisCharacteristicId(io.dstore.values.IntegerValue value) {
         if (yAxisCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2550,10 +2550,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
        */
       public Builder setYAxisCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (yAxisCharacteristicIdBuilder_ == null) {
           yAxisCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2564,13 +2564,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
        */
-      public Builder mergeYAxisCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeYAxisCharacteristicId(io.dstore.values.IntegerValue value) {
         if (yAxisCharacteristicIdBuilder_ == null) {
           if (yAxisCharacteristicId_ != null) {
             yAxisCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(yAxisCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(yAxisCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             yAxisCharacteristicId_ = value;
           }
@@ -2582,7 +2582,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
        */
       public Builder clearYAxisCharacteristicId() {
         if (yAxisCharacteristicIdBuilder_ == null) {
@@ -2596,33 +2596,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getYAxisCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getYAxisCharacteristicIdBuilder() {
         
         onChanged();
         return getYAxisCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getYAxisCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getYAxisCharacteristicIdOrBuilder() {
         if (yAxisCharacteristicIdBuilder_ != null) {
           return yAxisCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return yAxisCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : yAxisCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : yAxisCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue y_axis_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue y_axis_characteristic_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getYAxisCharacteristicIdFieldBuilder() {
         if (yAxisCharacteristicIdBuilder_ == null) {
           yAxisCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getYAxisCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2657,29 +2657,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue xAxisCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue xAxisCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> xAxisCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> xAxisCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
        */
       public boolean hasXAxisCharacteristicId() {
         return xAxisCharacteristicIdBuilder_ != null || xAxisCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getXAxisCharacteristicId() {
+      public io.dstore.values.IntegerValue getXAxisCharacteristicId() {
         if (xAxisCharacteristicIdBuilder_ == null) {
-          return xAxisCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : xAxisCharacteristicId_;
+          return xAxisCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : xAxisCharacteristicId_;
         } else {
           return xAxisCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
        */
-      public Builder setXAxisCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setXAxisCharacteristicId(io.dstore.values.IntegerValue value) {
         if (xAxisCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2693,10 +2693,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
        */
       public Builder setXAxisCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (xAxisCharacteristicIdBuilder_ == null) {
           xAxisCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2707,13 +2707,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
        */
-      public Builder mergeXAxisCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeXAxisCharacteristicId(io.dstore.values.IntegerValue value) {
         if (xAxisCharacteristicIdBuilder_ == null) {
           if (xAxisCharacteristicId_ != null) {
             xAxisCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(xAxisCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(xAxisCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             xAxisCharacteristicId_ = value;
           }
@@ -2725,7 +2725,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
        */
       public Builder clearXAxisCharacteristicId() {
         if (xAxisCharacteristicIdBuilder_ == null) {
@@ -2739,33 +2739,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getXAxisCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getXAxisCharacteristicIdBuilder() {
         
         onChanged();
         return getXAxisCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getXAxisCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getXAxisCharacteristicIdOrBuilder() {
         if (xAxisCharacteristicIdBuilder_ != null) {
           return xAxisCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return xAxisCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : xAxisCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : xAxisCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue x_axis_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue x_axis_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getXAxisCharacteristicIdFieldBuilder() {
         if (xAxisCharacteristicIdBuilder_ == null) {
           xAxisCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getXAxisCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2800,29 +2800,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue valueCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue valueCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> valueCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
        */
       public boolean hasValueCharacteristicId() {
         return valueCharacteristicIdBuilder_ != null || valueCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
        */
-      public io.dstore.Values.integerValue getValueCharacteristicId() {
+      public io.dstore.values.IntegerValue getValueCharacteristicId() {
         if (valueCharacteristicIdBuilder_ == null) {
-          return valueCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueCharacteristicId_;
+          return valueCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueCharacteristicId_;
         } else {
           return valueCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
        */
-      public Builder setValueCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setValueCharacteristicId(io.dstore.values.IntegerValue value) {
         if (valueCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2836,10 +2836,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
        */
       public Builder setValueCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (valueCharacteristicIdBuilder_ == null) {
           valueCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2850,13 +2850,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
        */
-      public Builder mergeValueCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeValueCharacteristicId(io.dstore.values.IntegerValue value) {
         if (valueCharacteristicIdBuilder_ == null) {
           if (valueCharacteristicId_ != null) {
             valueCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(valueCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(valueCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             valueCharacteristicId_ = value;
           }
@@ -2868,7 +2868,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
        */
       public Builder clearValueCharacteristicId() {
         if (valueCharacteristicIdBuilder_ == null) {
@@ -2882,33 +2882,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getValueCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getValueCharacteristicIdBuilder() {
         
         onChanged();
         return getValueCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getValueCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getValueCharacteristicIdOrBuilder() {
         if (valueCharacteristicIdBuilder_ != null) {
           return valueCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return valueCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : valueCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : valueCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue value_characteristic_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue value_characteristic_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getValueCharacteristicIdFieldBuilder() {
         if (valueCharacteristicIdBuilder_ == null) {
           valueCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getValueCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2943,29 +2943,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue searchNodeCharacteristicIds_ = null;
+      private io.dstore.values.StringValue searchNodeCharacteristicIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchNodeCharacteristicIdsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> searchNodeCharacteristicIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+       * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
        */
       public boolean hasSearchNodeCharacteristicIds() {
         return searchNodeCharacteristicIdsBuilder_ != null || searchNodeCharacteristicIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+       * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
        */
-      public io.dstore.Values.stringValue getSearchNodeCharacteristicIds() {
+      public io.dstore.values.StringValue getSearchNodeCharacteristicIds() {
         if (searchNodeCharacteristicIdsBuilder_ == null) {
-          return searchNodeCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchNodeCharacteristicIds_;
+          return searchNodeCharacteristicIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchNodeCharacteristicIds_;
         } else {
           return searchNodeCharacteristicIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+       * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
        */
-      public Builder setSearchNodeCharacteristicIds(io.dstore.Values.stringValue value) {
+      public Builder setSearchNodeCharacteristicIds(io.dstore.values.StringValue value) {
         if (searchNodeCharacteristicIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2979,10 +2979,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+       * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
        */
       public Builder setSearchNodeCharacteristicIds(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (searchNodeCharacteristicIdsBuilder_ == null) {
           searchNodeCharacteristicIds_ = builderForValue.build();
           onChanged();
@@ -2993,13 +2993,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+       * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
        */
-      public Builder mergeSearchNodeCharacteristicIds(io.dstore.Values.stringValue value) {
+      public Builder mergeSearchNodeCharacteristicIds(io.dstore.values.StringValue value) {
         if (searchNodeCharacteristicIdsBuilder_ == null) {
           if (searchNodeCharacteristicIds_ != null) {
             searchNodeCharacteristicIds_ =
-              io.dstore.Values.stringValue.newBuilder(searchNodeCharacteristicIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(searchNodeCharacteristicIds_).mergeFrom(value).buildPartial();
           } else {
             searchNodeCharacteristicIds_ = value;
           }
@@ -3011,7 +3011,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+       * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
        */
       public Builder clearSearchNodeCharacteristicIds() {
         if (searchNodeCharacteristicIdsBuilder_ == null) {
@@ -3025,33 +3025,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+       * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSearchNodeCharacteristicIdsBuilder() {
+      public io.dstore.values.StringValue.Builder getSearchNodeCharacteristicIdsBuilder() {
         
         onChanged();
         return getSearchNodeCharacteristicIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+       * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSearchNodeCharacteristicIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSearchNodeCharacteristicIdsOrBuilder() {
         if (searchNodeCharacteristicIdsBuilder_ != null) {
           return searchNodeCharacteristicIdsBuilder_.getMessageOrBuilder();
         } else {
           return searchNodeCharacteristicIds_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : searchNodeCharacteristicIds_;
+              io.dstore.values.StringValue.getDefaultInstance() : searchNodeCharacteristicIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_node_characteristic_ids = 8;</code>
+       * <code>optional .dstore.values.StringValue search_node_characteristic_ids = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSearchNodeCharacteristicIdsFieldBuilder() {
         if (searchNodeCharacteristicIdsBuilder_ == null) {
           searchNodeCharacteristicIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSearchNodeCharacteristicIds(),
                   getParentForChildren(),
                   isClean());
@@ -3086,29 +3086,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue searchValue_ = null;
+      private io.dstore.values.StringValue searchValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> searchValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue search_value = 9;</code>
+       * <code>optional .dstore.values.StringValue search_value = 9;</code>
        */
       public boolean hasSearchValue() {
         return searchValueBuilder_ != null || searchValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 9;</code>
+       * <code>optional .dstore.values.StringValue search_value = 9;</code>
        */
-      public io.dstore.Values.stringValue getSearchValue() {
+      public io.dstore.values.StringValue getSearchValue() {
         if (searchValueBuilder_ == null) {
-          return searchValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+          return searchValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
         } else {
           return searchValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 9;</code>
+       * <code>optional .dstore.values.StringValue search_value = 9;</code>
        */
-      public Builder setSearchValue(io.dstore.Values.stringValue value) {
+      public Builder setSearchValue(io.dstore.values.StringValue value) {
         if (searchValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3122,10 +3122,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 9;</code>
+       * <code>optional .dstore.values.StringValue search_value = 9;</code>
        */
       public Builder setSearchValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (searchValueBuilder_ == null) {
           searchValue_ = builderForValue.build();
           onChanged();
@@ -3136,13 +3136,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 9;</code>
+       * <code>optional .dstore.values.StringValue search_value = 9;</code>
        */
-      public Builder mergeSearchValue(io.dstore.Values.stringValue value) {
+      public Builder mergeSearchValue(io.dstore.values.StringValue value) {
         if (searchValueBuilder_ == null) {
           if (searchValue_ != null) {
             searchValue_ =
-              io.dstore.Values.stringValue.newBuilder(searchValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(searchValue_).mergeFrom(value).buildPartial();
           } else {
             searchValue_ = value;
           }
@@ -3154,7 +3154,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 9;</code>
+       * <code>optional .dstore.values.StringValue search_value = 9;</code>
        */
       public Builder clearSearchValue() {
         if (searchValueBuilder_ == null) {
@@ -3168,33 +3168,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 9;</code>
+       * <code>optional .dstore.values.StringValue search_value = 9;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSearchValueBuilder() {
+      public io.dstore.values.StringValue.Builder getSearchValueBuilder() {
         
         onChanged();
         return getSearchValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 9;</code>
+       * <code>optional .dstore.values.StringValue search_value = 9;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder() {
         if (searchValueBuilder_ != null) {
           return searchValueBuilder_.getMessageOrBuilder();
         } else {
           return searchValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 9;</code>
+       * <code>optional .dstore.values.StringValue search_value = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSearchValueFieldBuilder() {
         if (searchValueBuilder_ == null) {
           searchValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSearchValue(),
                   getParentForChildren(),
                   isClean());
@@ -3229,29 +3229,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue searchPersonTypeId_ = null;
+      private io.dstore.values.IntegerValue searchPersonTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> searchPersonTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> searchPersonTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
        */
       public boolean hasSearchPersonTypeId() {
         return searchPersonTypeIdBuilder_ != null || searchPersonTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
        */
-      public io.dstore.Values.integerValue getSearchPersonTypeId() {
+      public io.dstore.values.IntegerValue getSearchPersonTypeId() {
         if (searchPersonTypeIdBuilder_ == null) {
-          return searchPersonTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : searchPersonTypeId_;
+          return searchPersonTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : searchPersonTypeId_;
         } else {
           return searchPersonTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
        */
-      public Builder setSearchPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setSearchPersonTypeId(io.dstore.values.IntegerValue value) {
         if (searchPersonTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3265,10 +3265,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
        */
       public Builder setSearchPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (searchPersonTypeIdBuilder_ == null) {
           searchPersonTypeId_ = builderForValue.build();
           onChanged();
@@ -3279,13 +3279,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
        */
-      public Builder mergeSearchPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeSearchPersonTypeId(io.dstore.values.IntegerValue value) {
         if (searchPersonTypeIdBuilder_ == null) {
           if (searchPersonTypeId_ != null) {
             searchPersonTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(searchPersonTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(searchPersonTypeId_).mergeFrom(value).buildPartial();
           } else {
             searchPersonTypeId_ = value;
           }
@@ -3297,7 +3297,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
        */
       public Builder clearSearchPersonTypeId() {
         if (searchPersonTypeIdBuilder_ == null) {
@@ -3311,33 +3311,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSearchPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSearchPersonTypeIdBuilder() {
         
         onChanged();
         return getSearchPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSearchPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSearchPersonTypeIdOrBuilder() {
         if (searchPersonTypeIdBuilder_ != null) {
           return searchPersonTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return searchPersonTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : searchPersonTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : searchPersonTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue search_person_type_id = 10;</code>
+       * <code>optional .dstore.values.IntegerValue search_person_type_id = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSearchPersonTypeIdFieldBuilder() {
         if (searchPersonTypeIdBuilder_ == null) {
           searchPersonTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSearchPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -3372,29 +3372,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue personOutputCharacteristics_ = null;
+      private io.dstore.values.StringValue personOutputCharacteristics_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personOutputCharacteristicsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personOutputCharacteristicsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+       * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
        */
       public boolean hasPersonOutputCharacteristics() {
         return personOutputCharacteristicsBuilder_ != null || personOutputCharacteristics_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+       * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
        */
-      public io.dstore.Values.stringValue getPersonOutputCharacteristics() {
+      public io.dstore.values.StringValue getPersonOutputCharacteristics() {
         if (personOutputCharacteristicsBuilder_ == null) {
-          return personOutputCharacteristics_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personOutputCharacteristics_;
+          return personOutputCharacteristics_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personOutputCharacteristics_;
         } else {
           return personOutputCharacteristicsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+       * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
        */
-      public Builder setPersonOutputCharacteristics(io.dstore.Values.stringValue value) {
+      public Builder setPersonOutputCharacteristics(io.dstore.values.StringValue value) {
         if (personOutputCharacteristicsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3408,10 +3408,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+       * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
        */
       public Builder setPersonOutputCharacteristics(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personOutputCharacteristicsBuilder_ == null) {
           personOutputCharacteristics_ = builderForValue.build();
           onChanged();
@@ -3422,13 +3422,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+       * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
        */
-      public Builder mergePersonOutputCharacteristics(io.dstore.Values.stringValue value) {
+      public Builder mergePersonOutputCharacteristics(io.dstore.values.StringValue value) {
         if (personOutputCharacteristicsBuilder_ == null) {
           if (personOutputCharacteristics_ != null) {
             personOutputCharacteristics_ =
-              io.dstore.Values.stringValue.newBuilder(personOutputCharacteristics_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personOutputCharacteristics_).mergeFrom(value).buildPartial();
           } else {
             personOutputCharacteristics_ = value;
           }
@@ -3440,7 +3440,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+       * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
        */
       public Builder clearPersonOutputCharacteristics() {
         if (personOutputCharacteristicsBuilder_ == null) {
@@ -3454,33 +3454,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+       * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonOutputCharacteristicsBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonOutputCharacteristicsBuilder() {
         
         onChanged();
         return getPersonOutputCharacteristicsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+       * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonOutputCharacteristicsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonOutputCharacteristicsOrBuilder() {
         if (personOutputCharacteristicsBuilder_ != null) {
           return personOutputCharacteristicsBuilder_.getMessageOrBuilder();
         } else {
           return personOutputCharacteristics_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personOutputCharacteristics_;
+              io.dstore.values.StringValue.getDefaultInstance() : personOutputCharacteristics_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_output_characteristics = 11;</code>
+       * <code>optional .dstore.values.StringValue person_output_characteristics = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonOutputCharacteristicsFieldBuilder() {
         if (personOutputCharacteristicsBuilder_ == null) {
           personOutputCharacteristicsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonOutputCharacteristics(),
                   getParentForChildren(),
                   isClean());
@@ -3515,29 +3515,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue personCharacteristicIds_ = null;
+      private io.dstore.values.StringValue personCharacteristicIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personCharacteristicIdsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personCharacteristicIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+       * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
        */
       public boolean hasPersonCharacteristicIds() {
         return personCharacteristicIdsBuilder_ != null || personCharacteristicIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+       * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
        */
-      public io.dstore.Values.stringValue getPersonCharacteristicIds() {
+      public io.dstore.values.StringValue getPersonCharacteristicIds() {
         if (personCharacteristicIdsBuilder_ == null) {
-          return personCharacteristicIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personCharacteristicIds_;
+          return personCharacteristicIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personCharacteristicIds_;
         } else {
           return personCharacteristicIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+       * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
        */
-      public Builder setPersonCharacteristicIds(io.dstore.Values.stringValue value) {
+      public Builder setPersonCharacteristicIds(io.dstore.values.StringValue value) {
         if (personCharacteristicIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3551,10 +3551,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+       * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
        */
       public Builder setPersonCharacteristicIds(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personCharacteristicIdsBuilder_ == null) {
           personCharacteristicIds_ = builderForValue.build();
           onChanged();
@@ -3565,13 +3565,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+       * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
        */
-      public Builder mergePersonCharacteristicIds(io.dstore.Values.stringValue value) {
+      public Builder mergePersonCharacteristicIds(io.dstore.values.StringValue value) {
         if (personCharacteristicIdsBuilder_ == null) {
           if (personCharacteristicIds_ != null) {
             personCharacteristicIds_ =
-              io.dstore.Values.stringValue.newBuilder(personCharacteristicIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personCharacteristicIds_).mergeFrom(value).buildPartial();
           } else {
             personCharacteristicIds_ = value;
           }
@@ -3583,7 +3583,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+       * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
        */
       public Builder clearPersonCharacteristicIds() {
         if (personCharacteristicIdsBuilder_ == null) {
@@ -3597,33 +3597,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+       * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonCharacteristicIdsBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonCharacteristicIdsBuilder() {
         
         onChanged();
         return getPersonCharacteristicIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+       * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonCharacteristicIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonCharacteristicIdsOrBuilder() {
         if (personCharacteristicIdsBuilder_ != null) {
           return personCharacteristicIdsBuilder_.getMessageOrBuilder();
         } else {
           return personCharacteristicIds_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personCharacteristicIds_;
+              io.dstore.values.StringValue.getDefaultInstance() : personCharacteristicIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_characteristic_ids = 12;</code>
+       * <code>optional .dstore.values.StringValue person_characteristic_ids = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonCharacteristicIdsFieldBuilder() {
         if (personCharacteristicIdsBuilder_ == null) {
           personCharacteristicIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonCharacteristicIds(),
                   getParentForChildren(),
                   isClean());
@@ -3658,29 +3658,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue conditionList_ = null;
+      private io.dstore.values.StringValue conditionList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> conditionListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+       * <code>optional .dstore.values.StringValue condition_list = 13;</code>
        */
       public boolean hasConditionList() {
         return conditionListBuilder_ != null || conditionList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+       * <code>optional .dstore.values.StringValue condition_list = 13;</code>
        */
-      public io.dstore.Values.stringValue getConditionList() {
+      public io.dstore.values.StringValue getConditionList() {
         if (conditionListBuilder_ == null) {
-          return conditionList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : conditionList_;
+          return conditionList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionList_;
         } else {
           return conditionListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+       * <code>optional .dstore.values.StringValue condition_list = 13;</code>
        */
-      public Builder setConditionList(io.dstore.Values.stringValue value) {
+      public Builder setConditionList(io.dstore.values.StringValue value) {
         if (conditionListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3694,10 +3694,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+       * <code>optional .dstore.values.StringValue condition_list = 13;</code>
        */
       public Builder setConditionList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (conditionListBuilder_ == null) {
           conditionList_ = builderForValue.build();
           onChanged();
@@ -3708,13 +3708,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+       * <code>optional .dstore.values.StringValue condition_list = 13;</code>
        */
-      public Builder mergeConditionList(io.dstore.Values.stringValue value) {
+      public Builder mergeConditionList(io.dstore.values.StringValue value) {
         if (conditionListBuilder_ == null) {
           if (conditionList_ != null) {
             conditionList_ =
-              io.dstore.Values.stringValue.newBuilder(conditionList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(conditionList_).mergeFrom(value).buildPartial();
           } else {
             conditionList_ = value;
           }
@@ -3726,7 +3726,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+       * <code>optional .dstore.values.StringValue condition_list = 13;</code>
        */
       public Builder clearConditionList() {
         if (conditionListBuilder_ == null) {
@@ -3740,33 +3740,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+       * <code>optional .dstore.values.StringValue condition_list = 13;</code>
        */
-      public io.dstore.Values.stringValue.Builder getConditionListBuilder() {
+      public io.dstore.values.StringValue.Builder getConditionListBuilder() {
         
         onChanged();
         return getConditionListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+       * <code>optional .dstore.values.StringValue condition_list = 13;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getConditionListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getConditionListOrBuilder() {
         if (conditionListBuilder_ != null) {
           return conditionListBuilder_.getMessageOrBuilder();
         } else {
           return conditionList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : conditionList_;
+              io.dstore.values.StringValue.getDefaultInstance() : conditionList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_list = 13;</code>
+       * <code>optional .dstore.values.StringValue condition_list = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getConditionListFieldBuilder() {
         if (conditionListBuilder_ == null) {
           conditionListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getConditionList(),
                   getParentForChildren(),
                   isClean());
@@ -3801,29 +3801,29 @@ public final class MiCheckPerformanceAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue orderPersonId_ = null;
+      private io.dstore.values.IntegerValue orderPersonId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderPersonIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+       * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
        */
       public boolean hasOrderPersonId() {
         return orderPersonIdBuilder_ != null || orderPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+       * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
        */
-      public io.dstore.Values.integerValue getOrderPersonId() {
+      public io.dstore.values.IntegerValue getOrderPersonId() {
         if (orderPersonIdBuilder_ == null) {
-          return orderPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderPersonId_;
+          return orderPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderPersonId_;
         } else {
           return orderPersonIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+       * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
        */
-      public Builder setOrderPersonId(io.dstore.Values.integerValue value) {
+      public Builder setOrderPersonId(io.dstore.values.IntegerValue value) {
         if (orderPersonIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3837,10 +3837,10 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+       * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
        */
       public Builder setOrderPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (orderPersonIdBuilder_ == null) {
           orderPersonId_ = builderForValue.build();
           onChanged();
@@ -3851,13 +3851,13 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+       * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
        */
-      public Builder mergeOrderPersonId(io.dstore.Values.integerValue value) {
+      public Builder mergeOrderPersonId(io.dstore.values.IntegerValue value) {
         if (orderPersonIdBuilder_ == null) {
           if (orderPersonId_ != null) {
             orderPersonId_ =
-              io.dstore.Values.integerValue.newBuilder(orderPersonId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(orderPersonId_).mergeFrom(value).buildPartial();
           } else {
             orderPersonId_ = value;
           }
@@ -3869,7 +3869,7 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+       * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
        */
       public Builder clearOrderPersonId() {
         if (orderPersonIdBuilder_ == null) {
@@ -3883,33 +3883,33 @@ public final class MiCheckPerformanceAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+       * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOrderPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getOrderPersonIdBuilder() {
         
         onChanged();
         return getOrderPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+       * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderPersonIdOrBuilder() {
         if (orderPersonIdBuilder_ != null) {
           return orderPersonIdBuilder_.getMessageOrBuilder();
         } else {
           return orderPersonId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : orderPersonId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : orderPersonId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_person_id = 14;</code>
+       * <code>optional .dstore.values.IntegerValue order_person_id = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOrderPersonIdFieldBuilder() {
         if (orderPersonIdBuilder_ == null) {
           orderPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOrderPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -6030,40 +6030,40 @@ public final class MiCheckPerformanceAd {
       "rmance_Ad.proto\022$dstore.engine.mi_CheckP" +
       "erformance_Ad\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\350\n\n\nParameters\0223\n" +
-      "\017procedure_names\030\001 \001(\0132\032.dstore.values.s" +
+      "\017procedure_names\030\001 \001(\0132\032.dstore.values.S" +
       "tringValue\022\035\n\024procedure_names_null\030\351\007 \001(" +
       "\010\022B\n\035only_procedures_in_any_values\030\002 \001(\013" +
-      "2\033.dstore.values.booleanValue\022+\n\"only_pr" +
+      "2\033.dstore.values.BooleanValue\022+\n\"only_pr" +
       "ocedures_in_any_values_null\030\352\007 \001(\010\0221\n\014tr" +
-      "ee_node_id\030\003 \001(\0132\033.dstore.values.integer",
+      "ee_node_id\030\003 \001(\0132\033.dstore.values.Integer",
       "Value\022\032\n\021tree_node_id_null\030\353\007 \001(\010\022D\n\037tre" +
       "e_node_id_for_variant_matrix\030\004 \001(\0132\033.dst" +
-      "ore.values.integerValue\022-\n$tree_node_id_" +
+      "ore.values.IntegerValue\022-\n$tree_node_id_" +
       "for_variant_matrix_null\030\354\007 \001(\010\022=\n\030y_axis" +
       "_characteristic_id\030\005 \001(\0132\033.dstore.values" +
-      ".integerValue\022&\n\035y_axis_characteristic_i" +
+      ".IntegerValue\022&\n\035y_axis_characteristic_i" +
       "d_null\030\355\007 \001(\010\022=\n\030x_axis_characteristic_i" +
-      "d\030\006 \001(\0132\033.dstore.values.integerValue\022&\n\035" +
+      "d\030\006 \001(\0132\033.dstore.values.IntegerValue\022&\n\035" +
       "x_axis_characteristic_id_null\030\356\007 \001(\010\022<\n\027" +
       "value_characteristic_id\030\007 \001(\0132\033.dstore.v",
-      "alues.integerValue\022%\n\034value_characterist" +
+      "alues.IntegerValue\022%\n\034value_characterist" +
       "ic_id_null\030\357\007 \001(\010\022B\n\036search_node_charact" +
-      "eristic_ids\030\010 \001(\0132\032.dstore.values.string" +
+      "eristic_ids\030\010 \001(\0132\032.dstore.values.String" +
       "Value\022,\n#search_node_characteristic_ids_" +
       "null\030\360\007 \001(\010\0220\n\014search_value\030\t \001(\0132\032.dsto" +
-      "re.values.stringValue\022\032\n\021search_value_nu" +
+      "re.values.StringValue\022\032\n\021search_value_nu" +
       "ll\030\361\007 \001(\010\022:\n\025search_person_type_id\030\n \001(\013" +
-      "2\033.dstore.values.integerValue\022#\n\032search_" +
+      "2\033.dstore.values.IntegerValue\022#\n\032search_" +
       "person_type_id_null\030\362\007 \001(\010\022A\n\035person_out" +
       "put_characteristics\030\013 \001(\0132\032.dstore.value",
-      "s.stringValue\022+\n\"person_output_character" +
+      "s.StringValue\022+\n\"person_output_character" +
       "istics_null\030\363\007 \001(\010\022=\n\031person_characteris" +
-      "tic_ids\030\014 \001(\0132\032.dstore.values.stringValu" +
+      "tic_ids\030\014 \001(\0132\032.dstore.values.StringValu" +
       "e\022\'\n\036person_characteristic_ids_null\030\364\007 \001" +
       "(\010\0222\n\016condition_list\030\r \001(\0132\032.dstore.valu" +
-      "es.stringValue\022\034\n\023condition_list_null\030\365\007" +
+      "es.StringValue\022\034\n\023condition_list_null\030\365\007" +
       " \001(\010\0224\n\017order_person_id\030\016 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\035\n\024order_person_id_nu" +
+      "alues.IntegerValue\022\035\n\024order_person_id_nu" +
       "ll\030\366\007 \001(\010\"\306\001\n\010Response\0228\n\020meta_informati" +
       "on\030\002 \003(\0132\036.dstore.engine.MetaInformation",
       "\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Messag" +
@@ -6084,7 +6084,7 @@ public final class MiCheckPerformanceAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_CheckPerformance_Ad_Parameters_descriptor =
@@ -6105,7 +6105,7 @@ public final class MiCheckPerformanceAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_CheckPerformance_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class ImGetBinaryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     boolean hasBinaryCodeId();
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    io.dstore.Values.integerValue getBinaryCodeId();
+    io.dstore.values.IntegerValue getBinaryCodeId();
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
     /**
      * <code>optional bool binary_code_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class ImGetBinaryAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binaryCodeId_ != null) {
                 subBuilder = binaryCodeId_.toBuilder();
               }
-              binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binaryCodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCodeId_);
                 binaryCodeId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class ImGetBinaryAd {
     }
 
     public static final int BINARY_CODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue binaryCodeId_;
+    private io.dstore.values.IntegerValue binaryCodeId_;
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public boolean hasBinaryCodeId() {
       return binaryCodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getBinaryCodeId() {
-      return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+    public io.dstore.values.IntegerValue getBinaryCodeId() {
+      return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
       return getBinaryCodeId();
     }
 
@@ -447,29 +447,29 @@ public final class ImGetBinaryAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue binaryCodeId_ = null;
+      private io.dstore.values.IntegerValue binaryCodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCodeId() {
+      public io.dstore.values.IntegerValue getBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
-          return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+          return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
         } else {
           return binaryCodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
+      public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class ImGetBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder setBinaryCodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binaryCodeIdBuilder_ == null) {
           binaryCodeId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class ImGetBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
           if (binaryCodeId_ != null) {
             binaryCodeId_ =
-              io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
           } else {
             binaryCodeId_ = value;
           }
@@ -515,7 +515,7 @@ public final class ImGetBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder clearBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class ImGetBinaryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
         
         onChanged();
         return getBinaryCodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         if (binaryCodeIdBuilder_ != null) {
           return binaryCodeIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryCodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinaryCodeIdFieldBuilder() {
         if (binaryCodeIdBuilder_ == null) {
           binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinaryCodeId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class ImGetBinaryAd {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
        */
       boolean hasBinaryCode();
       /**
@@ -857,17 +857,17 @@ public final class ImGetBinaryAd {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
        */
-      io.dstore.Values.bytesValue getBinaryCode();
+      io.dstore.values.BytesValue getBinaryCode();
       /**
        * <pre>
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
        */
-      io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder();
+      io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetBinary_Ad.Response.Row}
@@ -915,11 +915,11 @@ public final class ImGetBinaryAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.bytesValue.Builder subBuilder = null;
+                io.dstore.values.BytesValue.Builder subBuilder = null;
                 if (binaryCode_ != null) {
                   subBuilder = binaryCode_.toBuilder();
                 }
-                binaryCode_ = input.readMessage(io.dstore.Values.bytesValue.parser(), extensionRegistry);
+                binaryCode_ = input.readMessage(io.dstore.values.BytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCode_);
                   binaryCode_ = subBuilder.buildPartial();
@@ -960,13 +960,13 @@ public final class ImGetBinaryAd {
       }
 
       public static final int BINARY_CODE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.bytesValue binaryCode_;
+      private io.dstore.values.BytesValue binaryCode_;
       /**
        * <pre>
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
        */
       public boolean hasBinaryCode() {
         return binaryCode_ != null;
@@ -976,19 +976,19 @@ public final class ImGetBinaryAd {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
        */
-      public io.dstore.Values.bytesValue getBinaryCode() {
-        return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+      public io.dstore.values.BytesValue getBinaryCode() {
+        return binaryCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
       }
       /**
        * <pre>
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
        */
-      public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
+      public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
       }
 
@@ -1317,15 +1317,15 @@ public final class ImGetBinaryAd {
           return this;
         }
 
-        private io.dstore.Values.bytesValue binaryCode_ = null;
+        private io.dstore.values.BytesValue binaryCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> binaryCodeBuilder_;
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> binaryCodeBuilder_;
         /**
          * <pre>
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
          */
         public boolean hasBinaryCode() {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
@@ -1335,11 +1335,11 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
          */
-        public io.dstore.Values.bytesValue getBinaryCode() {
+        public io.dstore.values.BytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
-            return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+            return binaryCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
           } else {
             return binaryCodeBuilder_.getMessage();
           }
@@ -1349,9 +1349,9 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
          */
-        public Builder setBinaryCode(io.dstore.Values.bytesValue value) {
+        public Builder setBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1369,10 +1369,10 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
          */
         public Builder setBinaryCode(
-            io.dstore.Values.bytesValue.Builder builderForValue) {
+            io.dstore.values.BytesValue.Builder builderForValue) {
           if (binaryCodeBuilder_ == null) {
             binaryCode_ = builderForValue.build();
             onChanged();
@@ -1387,13 +1387,13 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
          */
-        public Builder mergeBinaryCode(io.dstore.Values.bytesValue value) {
+        public Builder mergeBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (binaryCode_ != null) {
               binaryCode_ =
-                io.dstore.Values.bytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.BytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
             } else {
               binaryCode_ = value;
             }
@@ -1409,7 +1409,7 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
          */
         public Builder clearBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -1427,9 +1427,9 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
          */
-        public io.dstore.Values.bytesValue.Builder getBinaryCodeBuilder() {
+        public io.dstore.values.BytesValue.Builder getBinaryCodeBuilder() {
           
           onChanged();
           return getBinaryCodeFieldBuilder().getBuilder();
@@ -1439,14 +1439,14 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
          */
-        public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
+        public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
             return binaryCodeBuilder_.getMessageOrBuilder();
           } else {
             return binaryCode_ == null ?
-                io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+                io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
           }
         }
         /**
@@ -1454,14 +1454,14 @@ public final class ImGetBinaryAd {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10001;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
             getBinaryCodeFieldBuilder() {
           if (binaryCodeBuilder_ == null) {
             binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
+                io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder>(
                     getBinaryCode(),
                     getParentForChildren(),
                     isClean());
@@ -2930,14 +2930,14 @@ public final class ImGetBinaryAd {
       "Ad.proto\022\035dstore.engine.im_GetBinary_Ad\032" +
       "\023dstore/values.proto\032\032dstore/engine/engi" +
       "ne.proto\"_\n\nParameters\0223\n\016binary_code_id" +
-      "\030\001 \001(\0132\033.dstore.values.integerValue\022\034\n\023b" +
+      "\030\001 \001(\0132\033.dstore.values.IntegerValue\022\034\n\023b" +
       "inary_code_id_null\030\351\007 \001(\010\"\360\001\n\010Response\0228" +
       "\n\020meta_information\030\002 \003(\0132\036.dstore.engine" +
       ".MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dsto" +
       "re.engine.Message\0228\n\003row\030\004 \003(\0132+.dstore." +
       "engine.im_GetBinary_Ad.Response.Row\032G\n\003R",
       "ow\022\017\n\006row_id\030\220N \001(\005\022/\n\013binary_code\030\221N \001(" +
-      "\0132\031.dstore.values.bytesValueBP\n\033io.dstor" +
+      "\0132\031.dstore.values.BytesValueBP\n\033io.dstor" +
       "e.engine.proceduresZ1gosdk.dstore.de/eng" +
       "ine/procedures/im_GetBinary_Adb\006proto3"
     };
@@ -2952,7 +2952,7 @@ public final class ImGetBinaryAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetBinary_Ad_Parameters_descriptor =
@@ -2973,7 +2973,7 @@ public final class ImGetBinaryAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetBinary_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BinaryCode", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

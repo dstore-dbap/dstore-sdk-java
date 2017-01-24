@@ -19,17 +19,17 @@ public final class PmModifyPersonsInGroupsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmModifyPersonsInGroupsAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
      */
     boolean hasGroupId();
     /**
-     * <code>optional .dstore.values.integerValue group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
      */
-    io.dstore.Values.integerValue getGroupId();
+    io.dstore.values.IntegerValue getGroupId();
     /**
-     * <code>optional .dstore.values.integerValue group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder();
 
     /**
      * <code>optional bool group_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmModifyPersonsInGroupsAd {
     boolean getGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
      */
     boolean hasRevoke();
     /**
-     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
      */
-    io.dstore.Values.booleanValue getRevoke();
+    io.dstore.values.BooleanValue getRevoke();
     /**
-     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getRevokeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getRevokeOrBuilder();
 
     /**
      * <code>optional bool revoke_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class PmModifyPersonsInGroupsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class PmModifyPersonsInGroupsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (groupId_ != null) {
                 subBuilder = groupId_.toBuilder();
               }
-              groupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              groupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupId_);
                 groupId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class PmModifyPersonsInGroupsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (revoke_ != null) {
                 subBuilder = revoke_.toBuilder();
               }
-              revoke_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              revoke_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(revoke_);
                 revoke_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class PmModifyPersonsInGroupsAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -222,23 +222,23 @@ public final class PmModifyPersonsInGroupsAd {
     }
 
     public static final int GROUP_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue groupId_;
+    private io.dstore.values.IntegerValue groupId_;
     /**
-     * <code>optional .dstore.values.integerValue group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
      */
     public boolean hasGroupId() {
       return groupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getGroupId() {
-      return groupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupId_;
+    public io.dstore.values.IntegerValue getGroupId() {
+      return groupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : groupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder() {
       return getGroupId();
     }
 
@@ -252,23 +252,23 @@ public final class PmModifyPersonsInGroupsAd {
     }
 
     public static final int REVOKE_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue revoke_;
+    private io.dstore.values.BooleanValue revoke_;
     /**
-     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
      */
     public boolean hasRevoke() {
       return revoke_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
      */
-    public io.dstore.Values.booleanValue getRevoke() {
-      return revoke_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : revoke_;
+    public io.dstore.values.BooleanValue getRevoke() {
+      return revoke_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : revoke_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+     * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getRevokeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getRevokeOrBuilder() {
       return getRevoke();
     }
 
@@ -677,29 +677,29 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -745,7 +745,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue groupId_ = null;
+      private io.dstore.values.IntegerValue groupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> groupIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> groupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
        */
       public boolean hasGroupId() {
         return groupIdBuilder_ != null || groupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getGroupId() {
+      public io.dstore.values.IntegerValue getGroupId() {
         if (groupIdBuilder_ == null) {
-          return groupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : groupId_;
+          return groupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : groupId_;
         } else {
           return groupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
        */
-      public Builder setGroupId(io.dstore.Values.integerValue value) {
+      public Builder setGroupId(io.dstore.values.IntegerValue value) {
         if (groupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
        */
       public Builder setGroupId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (groupIdBuilder_ == null) {
           groupId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
        */
-      public Builder mergeGroupId(io.dstore.Values.integerValue value) {
+      public Builder mergeGroupId(io.dstore.values.IntegerValue value) {
         if (groupIdBuilder_ == null) {
           if (groupId_ != null) {
             groupId_ =
-              io.dstore.Values.integerValue.newBuilder(groupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(groupId_).mergeFrom(value).buildPartial();
           } else {
             groupId_ = value;
           }
@@ -888,7 +888,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
        */
       public Builder clearGroupId() {
         if (groupIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getGroupIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getGroupIdBuilder() {
         
         onChanged();
         return getGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getGroupIdOrBuilder() {
         if (groupIdBuilder_ != null) {
           return groupIdBuilder_.getMessageOrBuilder();
         } else {
           return groupId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : groupId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : groupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue group_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getGroupIdFieldBuilder() {
         if (groupIdBuilder_ == null) {
           groupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue revoke_ = null;
+      private io.dstore.values.BooleanValue revoke_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> revokeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> revokeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
        */
       public boolean hasRevoke() {
         return revokeBuilder_ != null || revoke_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
        */
-      public io.dstore.Values.booleanValue getRevoke() {
+      public io.dstore.values.BooleanValue getRevoke() {
         if (revokeBuilder_ == null) {
-          return revoke_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : revoke_;
+          return revoke_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : revoke_;
         } else {
           return revokeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
        */
-      public Builder setRevoke(io.dstore.Values.booleanValue value) {
+      public Builder setRevoke(io.dstore.values.BooleanValue value) {
         if (revokeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder setRevoke(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (revokeBuilder_ == null) {
           revoke_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
        */
-      public Builder mergeRevoke(io.dstore.Values.booleanValue value) {
+      public Builder mergeRevoke(io.dstore.values.BooleanValue value) {
         if (revokeBuilder_ == null) {
           if (revoke_ != null) {
             revoke_ =
-              io.dstore.Values.booleanValue.newBuilder(revoke_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(revoke_).mergeFrom(value).buildPartial();
           } else {
             revoke_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
        */
       public Builder clearRevoke() {
         if (revokeBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class PmModifyPersonsInGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getRevokeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getRevokeBuilder() {
         
         onChanged();
         return getRevokeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getRevokeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getRevokeOrBuilder() {
         if (revokeBuilder_ != null) {
           return revokeBuilder_.getMessageOrBuilder();
         } else {
           return revoke_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : revoke_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : revoke_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue revoke = 3;</code>
+       * <code>optional .dstore.values.BooleanValue revoke = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getRevokeFieldBuilder() {
         if (revokeBuilder_ == null) {
           revokeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getRevoke(),
                   getParentForChildren(),
                   isClean());
@@ -3193,10 +3193,10 @@ public final class PmModifyPersonsInGroupsAd {
       "odifyPersonsInGroups_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\337\001\n\nPar" +
       "ameters\022.\n\tperson_id\030\001 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\027\n\016person_id_null\030\351\007 \001(\010" +
-      "\022-\n\010group_id\030\002 \001(\0132\033.dstore.values.integ" +
+      "es.IntegerValue\022\027\n\016person_id_null\030\351\007 \001(\010" +
+      "\022-\n\010group_id\030\002 \001(\0132\033.dstore.values.Integ" +
       "erValue\022\026\n\rgroup_id_null\030\352\007 \001(\010\022+\n\006revok" +
-      "e\030\003 \001(\0132\033.dstore.values.booleanValue\022\024\n\013" +
+      "e\030\003 \001(\0132\033.dstore.values.BooleanValue\022\024\n\013" +
       "revoke_null\030\353\007 \001(\010\"\313\001\n\010Response\0228\n\020meta_",
       "information\030\002 \003(\0132\036.dstore.engine.MetaIn" +
       "formation\022\'\n\007message\030\003 \003(\0132\026.dstore.engi" +
@@ -3218,7 +3218,7 @@ public final class PmModifyPersonsInGroupsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_ModifyPersonsInGroups_Ad_Parameters_descriptor =
@@ -3239,7 +3239,7 @@ public final class PmModifyPersonsInGroupsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_ModifyPersonsInGroups_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

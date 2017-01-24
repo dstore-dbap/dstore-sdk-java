@@ -19,17 +19,17 @@ public final class ImMoveTreeNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
     boolean hasTargetTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTargetTreeNodeId();
+    io.dstore.values.IntegerValue getTargetTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTargetTreeNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTargetTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool target_tree_node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImMoveTreeNodesAd {
     boolean getTargetTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue resort = 2;</code>
+     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
      */
     boolean hasResort();
     /**
-     * <code>optional .dstore.values.booleanValue resort = 2;</code>
+     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
      */
-    io.dstore.Values.booleanValue getResort();
+    io.dstore.values.BooleanValue getResort();
     /**
-     * <code>optional .dstore.values.booleanValue resort = 2;</code>
+     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getResortOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getResortOrBuilder();
 
     /**
      * <code>optional bool resort_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImMoveTreeNodesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (targetTreeNodeId_ != null) {
                 subBuilder = targetTreeNodeId_.toBuilder();
               }
-              targetTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              targetTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(targetTreeNodeId_);
                 targetTreeNodeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImMoveTreeNodesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (resort_ != null) {
                 subBuilder = resort_.toBuilder();
               }
-              resort_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              resort_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(resort_);
                 resort_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImMoveTreeNodesAd {
     }
 
     public static final int TARGET_TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue targetTreeNodeId_;
+    private io.dstore.values.IntegerValue targetTreeNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
     public boolean hasTargetTreeNodeId() {
       return targetTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTargetTreeNodeId() {
-      return targetTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : targetTreeNodeId_;
+    public io.dstore.values.IntegerValue getTargetTreeNodeId() {
+      return targetTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : targetTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTargetTreeNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTargetTreeNodeIdOrBuilder() {
       return getTargetTreeNodeId();
     }
 
@@ -185,23 +185,23 @@ public final class ImMoveTreeNodesAd {
     }
 
     public static final int RESORT_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue resort_;
+    private io.dstore.values.BooleanValue resort_;
     /**
-     * <code>optional .dstore.values.booleanValue resort = 2;</code>
+     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
      */
     public boolean hasResort() {
       return resort_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue resort = 2;</code>
+     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
      */
-    public io.dstore.Values.booleanValue getResort() {
-      return resort_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : resort_;
+    public io.dstore.values.BooleanValue getResort() {
+      return resort_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : resort_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue resort = 2;</code>
+     * <code>optional .dstore.values.BooleanValue resort = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getResortOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getResortOrBuilder() {
       return getResort();
     }
 
@@ -562,29 +562,29 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue targetTreeNodeId_ = null;
+      private io.dstore.values.IntegerValue targetTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> targetTreeNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> targetTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public boolean hasTargetTreeNodeId() {
         return targetTreeNodeIdBuilder_ != null || targetTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTargetTreeNodeId() {
+      public io.dstore.values.IntegerValue getTargetTreeNodeId() {
         if (targetTreeNodeIdBuilder_ == null) {
-          return targetTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : targetTreeNodeId_;
+          return targetTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : targetTreeNodeId_;
         } else {
           return targetTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
-      public Builder setTargetTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder setTargetTreeNodeId(io.dstore.values.IntegerValue value) {
         if (targetTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public Builder setTargetTreeNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (targetTreeNodeIdBuilder_ == null) {
           targetTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
-      public Builder mergeTargetTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeTargetTreeNodeId(io.dstore.values.IntegerValue value) {
         if (targetTreeNodeIdBuilder_ == null) {
           if (targetTreeNodeId_ != null) {
             targetTreeNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(targetTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(targetTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             targetTreeNodeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       public Builder clearTargetTreeNodeId() {
         if (targetTreeNodeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTargetTreeNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTargetTreeNodeIdBuilder() {
         
         onChanged();
         return getTargetTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTargetTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTargetTreeNodeIdOrBuilder() {
         if (targetTreeNodeIdBuilder_ != null) {
           return targetTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return targetTreeNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : targetTreeNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : targetTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue target_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue target_tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTargetTreeNodeIdFieldBuilder() {
         if (targetTreeNodeIdBuilder_ == null) {
           targetTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTargetTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue resort_ = null;
+      private io.dstore.values.BooleanValue resort_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> resortBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> resortBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue resort = 2;</code>
+       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
        */
       public boolean hasResort() {
         return resortBuilder_ != null || resort_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue resort = 2;</code>
+       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
        */
-      public io.dstore.Values.booleanValue getResort() {
+      public io.dstore.values.BooleanValue getResort() {
         if (resortBuilder_ == null) {
-          return resort_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : resort_;
+          return resort_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : resort_;
         } else {
           return resortBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue resort = 2;</code>
+       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
        */
-      public Builder setResort(io.dstore.Values.booleanValue value) {
+      public Builder setResort(io.dstore.values.BooleanValue value) {
         if (resortBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue resort = 2;</code>
+       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
        */
       public Builder setResort(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (resortBuilder_ == null) {
           resort_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue resort = 2;</code>
+       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
        */
-      public Builder mergeResort(io.dstore.Values.booleanValue value) {
+      public Builder mergeResort(io.dstore.values.BooleanValue value) {
         if (resortBuilder_ == null) {
           if (resort_ != null) {
             resort_ =
-              io.dstore.Values.booleanValue.newBuilder(resort_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(resort_).mergeFrom(value).buildPartial();
           } else {
             resort_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue resort = 2;</code>
+       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
        */
       public Builder clearResort() {
         if (resortBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImMoveTreeNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue resort = 2;</code>
+       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getResortBuilder() {
+      public io.dstore.values.BooleanValue.Builder getResortBuilder() {
         
         onChanged();
         return getResortFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue resort = 2;</code>
+       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getResortOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getResortOrBuilder() {
         if (resortBuilder_ != null) {
           return resortBuilder_.getMessageOrBuilder();
         } else {
           return resort_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : resort_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : resort_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue resort = 2;</code>
+       * <code>optional .dstore.values.BooleanValue resort = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getResortFieldBuilder() {
         if (resortBuilder_ == null) {
           resortBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getResort(),
                   getParentForChildren(),
                   isClean());
@@ -2934,9 +2934,9 @@ public final class ImMoveTreeNodesAd {
       "des_Ad.proto\022!dstore.engine.im_MoveTreeN" +
       "odes_Ad\032\023dstore/values.proto\032\032dstore/eng" +
       "ine/engine.proto\"\254\001\n\nParameters\0228\n\023targe" +
-      "t_tree_node_id\030\001 \001(\0132\033.dstore.values.int" +
+      "t_tree_node_id\030\001 \001(\0132\033.dstore.values.Int" +
       "egerValue\022!\n\030target_tree_node_id_null\030\351\007" +
-      " \001(\010\022+\n\006resort\030\002 \001(\0132\033.dstore.values.boo" +
+      " \001(\010\022+\n\006resort\030\002 \001(\0132\033.dstore.values.Boo" +
       "leanValue\022\024\n\013resort_null\030\352\007 \001(\010\"\303\001\n\010Resp" +
       "onse\0228\n\020meta_information\030\002 \003(\0132\036.dstore." +
       "engine.MetaInformation\022\'\n\007message\030\003 \003(\0132",
@@ -2958,7 +2958,7 @@ public final class ImMoveTreeNodesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_MoveTreeNodes_Ad_Parameters_descriptor =
@@ -2979,7 +2979,7 @@ public final class ImMoveTreeNodesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_MoveTreeNodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

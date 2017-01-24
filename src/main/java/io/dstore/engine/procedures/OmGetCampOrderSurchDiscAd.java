@@ -19,17 +19,17 @@ public final class OmGetCampOrderSurchDiscAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCampaignId();
+    io.dstore.values.IntegerValue getCampaignId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
      * <code>optional bool campaign_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetCampOrderSurchDiscAd {
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
     boolean hasBenefitId();
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
-    io.dstore.Values.integerValue getBenefitId();
+    io.dstore.values.IntegerValue getBenefitId();
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
 
     /**
      * <code>optional bool benefit_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetCampOrderSurchDiscAd {
     boolean getBenefitIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
      */
     boolean hasGetUnusedBenefits();
     /**
-     * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
      */
-    io.dstore.Values.booleanValue getGetUnusedBenefits();
+    io.dstore.values.BooleanValue getGetUnusedBenefits();
     /**
-     * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getGetUnusedBenefitsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getGetUnusedBenefitsOrBuilder();
 
     /**
      * <code>optional bool get_unused_benefits_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class OmGetCampOrderSurchDiscAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class OmGetCampOrderSurchDiscAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (benefitId_ != null) {
                 subBuilder = benefitId_.toBuilder();
               }
-              benefitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              benefitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(benefitId_);
                 benefitId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class OmGetCampOrderSurchDiscAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (getUnusedBenefits_ != null) {
                 subBuilder = getUnusedBenefits_.toBuilder();
               }
-              getUnusedBenefits_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              getUnusedBenefits_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getUnusedBenefits_);
                 getUnusedBenefits_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class OmGetCampOrderSurchDiscAd {
     }
 
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue campaignId_;
+    private io.dstore.values.IntegerValue campaignId_;
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCampaignId() {
-      return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+    public io.dstore.values.IntegerValue getCampaignId() {
+      return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
     }
 
@@ -222,23 +222,23 @@ public final class OmGetCampOrderSurchDiscAd {
     }
 
     public static final int BENEFIT_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue benefitId_;
+    private io.dstore.values.IntegerValue benefitId_;
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
     public boolean hasBenefitId() {
       return benefitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getBenefitId() {
-      return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+    public io.dstore.values.IntegerValue getBenefitId() {
+      return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
       return getBenefitId();
     }
 
@@ -252,23 +252,23 @@ public final class OmGetCampOrderSurchDiscAd {
     }
 
     public static final int GET_UNUSED_BENEFITS_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue getUnusedBenefits_;
+    private io.dstore.values.BooleanValue getUnusedBenefits_;
     /**
-     * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
      */
     public boolean hasGetUnusedBenefits() {
       return getUnusedBenefits_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
      */
-    public io.dstore.Values.booleanValue getGetUnusedBenefits() {
-      return getUnusedBenefits_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getUnusedBenefits_;
+    public io.dstore.values.BooleanValue getGetUnusedBenefits() {
+      return getUnusedBenefits_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getUnusedBenefits_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getGetUnusedBenefitsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getGetUnusedBenefitsOrBuilder() {
       return getGetUnusedBenefits();
     }
 
@@ -677,29 +677,29 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue campaignId_ = null;
+      private io.dstore.values.IntegerValue campaignId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCampaignId() {
+      public io.dstore.values.IntegerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
-          return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+          return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
         } else {
           return campaignIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public Builder setCampaignId(io.dstore.Values.integerValue value) {
+      public Builder setCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (campaignIdBuilder_ == null) {
           campaignId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
+      public Builder mergeCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
           if (campaignId_ != null) {
             campaignId_ =
-              io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
           } else {
             campaignId_ = value;
           }
@@ -745,7 +745,7 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCampaignIdBuilder() {
         
         onChanged();
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
           return campaignIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCampaignIdFieldBuilder() {
         if (campaignIdBuilder_ == null) {
           campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCampaignId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue benefitId_ = null;
+      private io.dstore.values.IntegerValue benefitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public boolean hasBenefitId() {
         return benefitIdBuilder_ != null || benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getBenefitId() {
+      public io.dstore.values.IntegerValue getBenefitId() {
         if (benefitIdBuilder_ == null) {
-          return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+          return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
         } else {
           return benefitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public Builder setBenefitId(io.dstore.Values.integerValue value) {
+      public Builder setBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public Builder setBenefitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (benefitIdBuilder_ == null) {
           benefitId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
+      public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
           if (benefitId_ != null) {
             benefitId_ =
-              io.dstore.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
           } else {
             benefitId_ = value;
           }
@@ -888,7 +888,7 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public Builder clearBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
         
         onChanged();
         return getBenefitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         if (benefitIdBuilder_ != null) {
           return benefitIdBuilder_.getMessageOrBuilder();
         } else {
           return benefitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBenefitIdFieldBuilder() {
         if (benefitIdBuilder_ == null) {
           benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBenefitId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue getUnusedBenefits_ = null;
+      private io.dstore.values.BooleanValue getUnusedBenefits_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getUnusedBenefitsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getUnusedBenefitsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
        */
       public boolean hasGetUnusedBenefits() {
         return getUnusedBenefitsBuilder_ != null || getUnusedBenefits_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
        */
-      public io.dstore.Values.booleanValue getGetUnusedBenefits() {
+      public io.dstore.values.BooleanValue getGetUnusedBenefits() {
         if (getUnusedBenefitsBuilder_ == null) {
-          return getUnusedBenefits_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getUnusedBenefits_;
+          return getUnusedBenefits_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getUnusedBenefits_;
         } else {
           return getUnusedBenefitsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
        */
-      public Builder setGetUnusedBenefits(io.dstore.Values.booleanValue value) {
+      public Builder setGetUnusedBenefits(io.dstore.values.BooleanValue value) {
         if (getUnusedBenefitsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
        */
       public Builder setGetUnusedBenefits(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (getUnusedBenefitsBuilder_ == null) {
           getUnusedBenefits_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
        */
-      public Builder mergeGetUnusedBenefits(io.dstore.Values.booleanValue value) {
+      public Builder mergeGetUnusedBenefits(io.dstore.values.BooleanValue value) {
         if (getUnusedBenefitsBuilder_ == null) {
           if (getUnusedBenefits_ != null) {
             getUnusedBenefits_ =
-              io.dstore.Values.booleanValue.newBuilder(getUnusedBenefits_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(getUnusedBenefits_).mergeFrom(value).buildPartial();
           } else {
             getUnusedBenefits_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
        */
       public Builder clearGetUnusedBenefits() {
         if (getUnusedBenefitsBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class OmGetCampOrderSurchDiscAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getGetUnusedBenefitsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getGetUnusedBenefitsBuilder() {
         
         onChanged();
         return getGetUnusedBenefitsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getGetUnusedBenefitsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getGetUnusedBenefitsOrBuilder() {
         if (getUnusedBenefitsBuilder_ != null) {
           return getUnusedBenefitsBuilder_.getMessageOrBuilder();
         } else {
           return getUnusedBenefits_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : getUnusedBenefits_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : getUnusedBenefits_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_unused_benefits = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_unused_benefits = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getGetUnusedBenefitsFieldBuilder() {
         if (getUnusedBenefitsBuilder_ == null) {
           getUnusedBenefitsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getGetUnusedBenefits(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class OmGetCampOrderSurchDiscAd {
        * ID eines "Surcharges" der Kategorie "Relative Rabatte"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
        */
       boolean hasDiscountSurchargeTypeId();
       /**
@@ -1373,24 +1373,24 @@ public final class OmGetCampOrderSurchDiscAd {
        * ID eines "Surcharges" der Kategorie "Relative Rabatte"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getDiscountSurchargeTypeId();
+      io.dstore.values.IntegerValue getDiscountSurchargeTypeId();
       /**
        * <pre>
        * ID eines "Surcharges" der Kategorie "Relative Rabatte"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getDiscountSurchargeTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getDiscountSurchargeTypeIdOrBuilder();
 
       /**
        * <pre>
        * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
        */
       boolean hasBenefitId();
       /**
@@ -1398,24 +1398,24 @@ public final class OmGetCampOrderSurchDiscAd {
        * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getBenefitId();
+      io.dstore.values.IntegerValue getBenefitId();
       /**
        * <pre>
        * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
 
       /**
        * <pre>
        * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
        */
       boolean hasApplyToSurchargeTypeId();
       /**
@@ -1423,24 +1423,24 @@ public final class OmGetCampOrderSurchDiscAd {
        * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getApplyToSurchargeTypeId();
+      io.dstore.values.IntegerValue getApplyToSurchargeTypeId();
       /**
        * <pre>
        * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getApplyToSurchargeTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getApplyToSurchargeTypeIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "ApplyToSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
        */
       boolean hasApplyToSurchargeDescription();
       /**
@@ -1448,24 +1448,24 @@ public final class OmGetCampOrderSurchDiscAd {
        * Bezeichnung der "ApplyToSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
        */
-      io.dstore.Values.stringValue getApplyToSurchargeDescription();
+      io.dstore.values.StringValue getApplyToSurchargeDescription();
       /**
        * <pre>
        * Bezeichnung der "ApplyToSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getApplyToSurchargeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getApplyToSurchargeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
        */
       boolean hasDiscountValue();
       /**
@@ -1473,24 +1473,24 @@ public final class OmGetCampOrderSurchDiscAd {
        * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
        */
-      io.dstore.Values.decimalValue getDiscountValue();
+      io.dstore.values.DecimalValue getDiscountValue();
       /**
        * <pre>
        * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getDiscountValueOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getDiscountValueOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "DiscountSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+       * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
        */
       boolean hasDiscountSurchargeDescription();
       /**
@@ -1498,17 +1498,17 @@ public final class OmGetCampOrderSurchDiscAd {
        * Bezeichnung der "DiscountSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+       * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
        */
-      io.dstore.Values.stringValue getDiscountSurchargeDescription();
+      io.dstore.values.StringValue getDiscountSurchargeDescription();
       /**
        * <pre>
        * Bezeichnung der "DiscountSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+       * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDiscountSurchargeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDiscountSurchargeDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampOrderSurchDisc_Ad.Response.Row}
@@ -1556,11 +1556,11 @@ public final class OmGetCampOrderSurchDiscAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (discountSurchargeTypeId_ != null) {
                   subBuilder = discountSurchargeTypeId_.toBuilder();
                 }
-                discountSurchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                discountSurchargeTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(discountSurchargeTypeId_);
                   discountSurchargeTypeId_ = subBuilder.buildPartial();
@@ -1569,11 +1569,11 @@ public final class OmGetCampOrderSurchDiscAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (benefitId_ != null) {
                   subBuilder = benefitId_.toBuilder();
                 }
-                benefitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                benefitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(benefitId_);
                   benefitId_ = subBuilder.buildPartial();
@@ -1582,11 +1582,11 @@ public final class OmGetCampOrderSurchDiscAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (applyToSurchargeTypeId_ != null) {
                   subBuilder = applyToSurchargeTypeId_.toBuilder();
                 }
-                applyToSurchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                applyToSurchargeTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(applyToSurchargeTypeId_);
                   applyToSurchargeTypeId_ = subBuilder.buildPartial();
@@ -1595,11 +1595,11 @@ public final class OmGetCampOrderSurchDiscAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (applyToSurchargeDescription_ != null) {
                   subBuilder = applyToSurchargeDescription_.toBuilder();
                 }
-                applyToSurchargeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                applyToSurchargeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(applyToSurchargeDescription_);
                   applyToSurchargeDescription_ = subBuilder.buildPartial();
@@ -1608,11 +1608,11 @@ public final class OmGetCampOrderSurchDiscAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (discountValue_ != null) {
                   subBuilder = discountValue_.toBuilder();
                 }
-                discountValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                discountValue_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(discountValue_);
                   discountValue_ = subBuilder.buildPartial();
@@ -1621,11 +1621,11 @@ public final class OmGetCampOrderSurchDiscAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (discountSurchargeDescription_ != null) {
                   subBuilder = discountSurchargeDescription_.toBuilder();
                 }
-                discountSurchargeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                discountSurchargeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(discountSurchargeDescription_);
                   discountSurchargeDescription_ = subBuilder.buildPartial();
@@ -1666,13 +1666,13 @@ public final class OmGetCampOrderSurchDiscAd {
       }
 
       public static final int DISCOUNT_SURCHARGE_TYPE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue discountSurchargeTypeId_;
+      private io.dstore.values.IntegerValue discountSurchargeTypeId_;
       /**
        * <pre>
        * ID eines "Surcharges" der Kategorie "Relative Rabatte"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
        */
       public boolean hasDiscountSurchargeTypeId() {
         return discountSurchargeTypeId_ != null;
@@ -1682,30 +1682,30 @@ public final class OmGetCampOrderSurchDiscAd {
        * ID eines "Surcharges" der Kategorie "Relative Rabatte"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getDiscountSurchargeTypeId() {
-        return discountSurchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : discountSurchargeTypeId_;
+      public io.dstore.values.IntegerValue getDiscountSurchargeTypeId() {
+        return discountSurchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : discountSurchargeTypeId_;
       }
       /**
        * <pre>
        * ID eines "Surcharges" der Kategorie "Relative Rabatte"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDiscountSurchargeTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDiscountSurchargeTypeIdOrBuilder() {
         return getDiscountSurchargeTypeId();
       }
 
       public static final int BENEFIT_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue benefitId_;
+      private io.dstore.values.IntegerValue benefitId_;
       /**
        * <pre>
        * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
        */
       public boolean hasBenefitId() {
         return benefitId_ != null;
@@ -1715,30 +1715,30 @@ public final class OmGetCampOrderSurchDiscAd {
        * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getBenefitId() {
-        return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+      public io.dstore.values.IntegerValue getBenefitId() {
+        return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
       }
       /**
        * <pre>
        * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         return getBenefitId();
       }
 
       public static final int APPLY_TO_SURCHARGE_TYPE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue applyToSurchargeTypeId_;
+      private io.dstore.values.IntegerValue applyToSurchargeTypeId_;
       /**
        * <pre>
        * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
        */
       public boolean hasApplyToSurchargeTypeId() {
         return applyToSurchargeTypeId_ != null;
@@ -1748,30 +1748,30 @@ public final class OmGetCampOrderSurchDiscAd {
        * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getApplyToSurchargeTypeId() {
-        return applyToSurchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applyToSurchargeTypeId_;
+      public io.dstore.values.IntegerValue getApplyToSurchargeTypeId() {
+        return applyToSurchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applyToSurchargeTypeId_;
       }
       /**
        * <pre>
        * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getApplyToSurchargeTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getApplyToSurchargeTypeIdOrBuilder() {
         return getApplyToSurchargeTypeId();
       }
 
       public static final int APPLY_TO_SURCHARGE_DESCRIPTION_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue applyToSurchargeDescription_;
+      private io.dstore.values.StringValue applyToSurchargeDescription_;
       /**
        * <pre>
        * Bezeichnung der "ApplyToSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
        */
       public boolean hasApplyToSurchargeDescription() {
         return applyToSurchargeDescription_ != null;
@@ -1781,30 +1781,30 @@ public final class OmGetCampOrderSurchDiscAd {
        * Bezeichnung der "ApplyToSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
        */
-      public io.dstore.Values.stringValue getApplyToSurchargeDescription() {
-        return applyToSurchargeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : applyToSurchargeDescription_;
+      public io.dstore.values.StringValue getApplyToSurchargeDescription() {
+        return applyToSurchargeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : applyToSurchargeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der "ApplyToSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getApplyToSurchargeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getApplyToSurchargeDescriptionOrBuilder() {
         return getApplyToSurchargeDescription();
       }
 
       public static final int DISCOUNT_VALUE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.decimalValue discountValue_;
+      private io.dstore.values.DecimalValue discountValue_;
       /**
        * <pre>
        * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
        */
       public boolean hasDiscountValue() {
         return discountValue_ != null;
@@ -1814,30 +1814,30 @@ public final class OmGetCampOrderSurchDiscAd {
        * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
        */
-      public io.dstore.Values.decimalValue getDiscountValue() {
-        return discountValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : discountValue_;
+      public io.dstore.values.DecimalValue getDiscountValue() {
+        return discountValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : discountValue_;
       }
       /**
        * <pre>
        * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getDiscountValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getDiscountValueOrBuilder() {
         return getDiscountValue();
       }
 
       public static final int DISCOUNT_SURCHARGE_DESCRIPTION_FIELD_NUMBER = 10006;
-      private io.dstore.Values.stringValue discountSurchargeDescription_;
+      private io.dstore.values.StringValue discountSurchargeDescription_;
       /**
        * <pre>
        * Bezeichnung der "DiscountSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+       * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
        */
       public boolean hasDiscountSurchargeDescription() {
         return discountSurchargeDescription_ != null;
@@ -1847,19 +1847,19 @@ public final class OmGetCampOrderSurchDiscAd {
        * Bezeichnung der "DiscountSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+       * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
        */
-      public io.dstore.Values.stringValue getDiscountSurchargeDescription() {
-        return discountSurchargeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : discountSurchargeDescription_;
+      public io.dstore.values.StringValue getDiscountSurchargeDescription() {
+        return discountSurchargeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : discountSurchargeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der "DiscountSurchargeTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+       * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDiscountSurchargeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDiscountSurchargeDescriptionOrBuilder() {
         return getDiscountSurchargeDescription();
       }
 
@@ -2338,15 +2338,15 @@ public final class OmGetCampOrderSurchDiscAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue discountSurchargeTypeId_ = null;
+        private io.dstore.values.IntegerValue discountSurchargeTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> discountSurchargeTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> discountSurchargeTypeIdBuilder_;
         /**
          * <pre>
          * ID eines "Surcharges" der Kategorie "Relative Rabatte"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
          */
         public boolean hasDiscountSurchargeTypeId() {
           return discountSurchargeTypeIdBuilder_ != null || discountSurchargeTypeId_ != null;
@@ -2356,11 +2356,11 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" der Kategorie "Relative Rabatte"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getDiscountSurchargeTypeId() {
+        public io.dstore.values.IntegerValue getDiscountSurchargeTypeId() {
           if (discountSurchargeTypeIdBuilder_ == null) {
-            return discountSurchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : discountSurchargeTypeId_;
+            return discountSurchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : discountSurchargeTypeId_;
           } else {
             return discountSurchargeTypeIdBuilder_.getMessage();
           }
@@ -2370,9 +2370,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" der Kategorie "Relative Rabatte"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
          */
-        public Builder setDiscountSurchargeTypeId(io.dstore.Values.integerValue value) {
+        public Builder setDiscountSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (discountSurchargeTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2390,10 +2390,10 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" der Kategorie "Relative Rabatte"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
          */
         public Builder setDiscountSurchargeTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (discountSurchargeTypeIdBuilder_ == null) {
             discountSurchargeTypeId_ = builderForValue.build();
             onChanged();
@@ -2408,13 +2408,13 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" der Kategorie "Relative Rabatte"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
          */
-        public Builder mergeDiscountSurchargeTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeDiscountSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (discountSurchargeTypeIdBuilder_ == null) {
             if (discountSurchargeTypeId_ != null) {
               discountSurchargeTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(discountSurchargeTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(discountSurchargeTypeId_).mergeFrom(value).buildPartial();
             } else {
               discountSurchargeTypeId_ = value;
             }
@@ -2430,7 +2430,7 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" der Kategorie "Relative Rabatte"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
          */
         public Builder clearDiscountSurchargeTypeId() {
           if (discountSurchargeTypeIdBuilder_ == null) {
@@ -2448,9 +2448,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" der Kategorie "Relative Rabatte"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getDiscountSurchargeTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getDiscountSurchargeTypeIdBuilder() {
           
           onChanged();
           return getDiscountSurchargeTypeIdFieldBuilder().getBuilder();
@@ -2460,14 +2460,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" der Kategorie "Relative Rabatte"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getDiscountSurchargeTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getDiscountSurchargeTypeIdOrBuilder() {
           if (discountSurchargeTypeIdBuilder_ != null) {
             return discountSurchargeTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return discountSurchargeTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : discountSurchargeTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : discountSurchargeTypeId_;
           }
         }
         /**
@@ -2475,14 +2475,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" der Kategorie "Relative Rabatte"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue discount_surcharge_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue discount_surcharge_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getDiscountSurchargeTypeIdFieldBuilder() {
           if (discountSurchargeTypeIdBuilder_ == null) {
             discountSurchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getDiscountSurchargeTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2491,15 +2491,15 @@ public final class OmGetCampOrderSurchDiscAd {
           return discountSurchargeTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue benefitId_ = null;
+        private io.dstore.values.IntegerValue benefitId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitIdBuilder_;
         /**
          * <pre>
          * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public boolean hasBenefitId() {
           return benefitIdBuilder_ != null || benefitId_ != null;
@@ -2509,11 +2509,11 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getBenefitId() {
+        public io.dstore.values.IntegerValue getBenefitId() {
           if (benefitIdBuilder_ == null) {
-            return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+            return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
           } else {
             return benefitIdBuilder_.getMessage();
           }
@@ -2523,9 +2523,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
          */
-        public Builder setBenefitId(io.dstore.Values.integerValue value) {
+        public Builder setBenefitId(io.dstore.values.IntegerValue value) {
           if (benefitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2543,10 +2543,10 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public Builder setBenefitId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (benefitIdBuilder_ == null) {
             benefitId_ = builderForValue.build();
             onChanged();
@@ -2561,13 +2561,13 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
          */
-        public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
+        public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
           if (benefitIdBuilder_ == null) {
             if (benefitId_ != null) {
               benefitId_ =
-                io.dstore.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
             } else {
               benefitId_ = value;
             }
@@ -2583,7 +2583,7 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         public Builder clearBenefitId() {
           if (benefitIdBuilder_ == null) {
@@ -2601,9 +2601,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
           
           onChanged();
           return getBenefitIdFieldBuilder().getBuilder();
@@ -2613,14 +2613,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
           if (benefitIdBuilder_ != null) {
             return benefitIdBuilder_.getMessageOrBuilder();
           } else {
             return benefitId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
           }
         }
         /**
@@ -2628,14 +2628,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Rabatt auf Zusatzkosten"-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBenefitIdFieldBuilder() {
           if (benefitIdBuilder_ == null) {
             benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBenefitId(),
                     getParentForChildren(),
                     isClean());
@@ -2644,15 +2644,15 @@ public final class OmGetCampOrderSurchDiscAd {
           return benefitIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue applyToSurchargeTypeId_ = null;
+        private io.dstore.values.IntegerValue applyToSurchargeTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applyToSurchargeTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> applyToSurchargeTypeIdBuilder_;
         /**
          * <pre>
          * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
          */
         public boolean hasApplyToSurchargeTypeId() {
           return applyToSurchargeTypeIdBuilder_ != null || applyToSurchargeTypeId_ != null;
@@ -2662,11 +2662,11 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getApplyToSurchargeTypeId() {
+        public io.dstore.values.IntegerValue getApplyToSurchargeTypeId() {
           if (applyToSurchargeTypeIdBuilder_ == null) {
-            return applyToSurchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applyToSurchargeTypeId_;
+            return applyToSurchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applyToSurchargeTypeId_;
           } else {
             return applyToSurchargeTypeIdBuilder_.getMessage();
           }
@@ -2676,9 +2676,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
          */
-        public Builder setApplyToSurchargeTypeId(io.dstore.Values.integerValue value) {
+        public Builder setApplyToSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (applyToSurchargeTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2696,10 +2696,10 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
          */
         public Builder setApplyToSurchargeTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (applyToSurchargeTypeIdBuilder_ == null) {
             applyToSurchargeTypeId_ = builderForValue.build();
             onChanged();
@@ -2714,13 +2714,13 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
          */
-        public Builder mergeApplyToSurchargeTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeApplyToSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (applyToSurchargeTypeIdBuilder_ == null) {
             if (applyToSurchargeTypeId_ != null) {
               applyToSurchargeTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(applyToSurchargeTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(applyToSurchargeTypeId_).mergeFrom(value).buildPartial();
             } else {
               applyToSurchargeTypeId_ = value;
             }
@@ -2736,7 +2736,7 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
          */
         public Builder clearApplyToSurchargeTypeId() {
           if (applyToSurchargeTypeIdBuilder_ == null) {
@@ -2754,9 +2754,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getApplyToSurchargeTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getApplyToSurchargeTypeIdBuilder() {
           
           onChanged();
           return getApplyToSurchargeTypeIdFieldBuilder().getBuilder();
@@ -2766,14 +2766,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getApplyToSurchargeTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getApplyToSurchargeTypeIdOrBuilder() {
           if (applyToSurchargeTypeIdBuilder_ != null) {
             return applyToSurchargeTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return applyToSurchargeTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : applyToSurchargeTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : applyToSurchargeTypeId_;
           }
         }
         /**
@@ -2781,14 +2781,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * ID eines "Surcharges" (derzeit : der Kategorie "Versandkosten" oder "Zahlungskosten"), auf den der durch "DiscountSurchargeTypeID" und "DiscountValue" bestimmte Rabatt gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue apply_to_surcharge_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue apply_to_surcharge_type_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getApplyToSurchargeTypeIdFieldBuilder() {
           if (applyToSurchargeTypeIdBuilder_ == null) {
             applyToSurchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getApplyToSurchargeTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2797,15 +2797,15 @@ public final class OmGetCampOrderSurchDiscAd {
           return applyToSurchargeTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue applyToSurchargeDescription_ = null;
+        private io.dstore.values.StringValue applyToSurchargeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> applyToSurchargeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> applyToSurchargeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der "ApplyToSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
          */
         public boolean hasApplyToSurchargeDescription() {
           return applyToSurchargeDescriptionBuilder_ != null || applyToSurchargeDescription_ != null;
@@ -2815,11 +2815,11 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "ApplyToSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue getApplyToSurchargeDescription() {
+        public io.dstore.values.StringValue getApplyToSurchargeDescription() {
           if (applyToSurchargeDescriptionBuilder_ == null) {
-            return applyToSurchargeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : applyToSurchargeDescription_;
+            return applyToSurchargeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : applyToSurchargeDescription_;
           } else {
             return applyToSurchargeDescriptionBuilder_.getMessage();
           }
@@ -2829,9 +2829,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "ApplyToSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
          */
-        public Builder setApplyToSurchargeDescription(io.dstore.Values.stringValue value) {
+        public Builder setApplyToSurchargeDescription(io.dstore.values.StringValue value) {
           if (applyToSurchargeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2849,10 +2849,10 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "ApplyToSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
          */
         public Builder setApplyToSurchargeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (applyToSurchargeDescriptionBuilder_ == null) {
             applyToSurchargeDescription_ = builderForValue.build();
             onChanged();
@@ -2867,13 +2867,13 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "ApplyToSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
          */
-        public Builder mergeApplyToSurchargeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeApplyToSurchargeDescription(io.dstore.values.StringValue value) {
           if (applyToSurchargeDescriptionBuilder_ == null) {
             if (applyToSurchargeDescription_ != null) {
               applyToSurchargeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(applyToSurchargeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(applyToSurchargeDescription_).mergeFrom(value).buildPartial();
             } else {
               applyToSurchargeDescription_ = value;
             }
@@ -2889,7 +2889,7 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "ApplyToSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
          */
         public Builder clearApplyToSurchargeDescription() {
           if (applyToSurchargeDescriptionBuilder_ == null) {
@@ -2907,9 +2907,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "ApplyToSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getApplyToSurchargeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getApplyToSurchargeDescriptionBuilder() {
           
           onChanged();
           return getApplyToSurchargeDescriptionFieldBuilder().getBuilder();
@@ -2919,14 +2919,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "ApplyToSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getApplyToSurchargeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getApplyToSurchargeDescriptionOrBuilder() {
           if (applyToSurchargeDescriptionBuilder_ != null) {
             return applyToSurchargeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return applyToSurchargeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : applyToSurchargeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : applyToSurchargeDescription_;
           }
         }
         /**
@@ -2934,14 +2934,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "ApplyToSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue apply_to_surcharge_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue apply_to_surcharge_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getApplyToSurchargeDescriptionFieldBuilder() {
           if (applyToSurchargeDescriptionBuilder_ == null) {
             applyToSurchargeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getApplyToSurchargeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2950,15 +2950,15 @@ public final class OmGetCampOrderSurchDiscAd {
           return applyToSurchargeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.decimalValue discountValue_ = null;
+        private io.dstore.values.DecimalValue discountValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> discountValueBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> discountValueBuilder_;
         /**
          * <pre>
          * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
          */
         public boolean hasDiscountValue() {
           return discountValueBuilder_ != null || discountValue_ != null;
@@ -2968,11 +2968,11 @@ public final class OmGetCampOrderSurchDiscAd {
          * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
          */
-        public io.dstore.Values.decimalValue getDiscountValue() {
+        public io.dstore.values.DecimalValue getDiscountValue() {
           if (discountValueBuilder_ == null) {
-            return discountValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : discountValue_;
+            return discountValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : discountValue_;
           } else {
             return discountValueBuilder_.getMessage();
           }
@@ -2982,9 +2982,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
          */
-        public Builder setDiscountValue(io.dstore.Values.decimalValue value) {
+        public Builder setDiscountValue(io.dstore.values.DecimalValue value) {
           if (discountValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3002,10 +3002,10 @@ public final class OmGetCampOrderSurchDiscAd {
          * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
          */
         public Builder setDiscountValue(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (discountValueBuilder_ == null) {
             discountValue_ = builderForValue.build();
             onChanged();
@@ -3020,13 +3020,13 @@ public final class OmGetCampOrderSurchDiscAd {
          * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
          */
-        public Builder mergeDiscountValue(io.dstore.Values.decimalValue value) {
+        public Builder mergeDiscountValue(io.dstore.values.DecimalValue value) {
           if (discountValueBuilder_ == null) {
             if (discountValue_ != null) {
               discountValue_ =
-                io.dstore.Values.decimalValue.newBuilder(discountValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(discountValue_).mergeFrom(value).buildPartial();
             } else {
               discountValue_ = value;
             }
@@ -3042,7 +3042,7 @@ public final class OmGetCampOrderSurchDiscAd {
          * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
          */
         public Builder clearDiscountValue() {
           if (discountValueBuilder_ == null) {
@@ -3060,9 +3060,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getDiscountValueBuilder() {
+        public io.dstore.values.DecimalValue.Builder getDiscountValueBuilder() {
           
           onChanged();
           return getDiscountValueFieldBuilder().getBuilder();
@@ -3072,14 +3072,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getDiscountValueOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getDiscountValueOrBuilder() {
           if (discountValueBuilder_ != null) {
             return discountValueBuilder_.getMessageOrBuilder();
           } else {
             return discountValue_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : discountValue_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : discountValue_;
           }
         }
         /**
@@ -3087,14 +3087,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * Relativer Rabatt (positiver Wert, aber "&lt;= 100"), der auf die durch "ApplyToSurchargeTypeID" anfallenden Kosten gewährt wird
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue discount_value = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue discount_value = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getDiscountValueFieldBuilder() {
           if (discountValueBuilder_ == null) {
             discountValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getDiscountValue(),
                     getParentForChildren(),
                     isClean());
@@ -3103,15 +3103,15 @@ public final class OmGetCampOrderSurchDiscAd {
           return discountValueBuilder_;
         }
 
-        private io.dstore.Values.stringValue discountSurchargeDescription_ = null;
+        private io.dstore.values.StringValue discountSurchargeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> discountSurchargeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> discountSurchargeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der "DiscountSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+         * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
          */
         public boolean hasDiscountSurchargeDescription() {
           return discountSurchargeDescriptionBuilder_ != null || discountSurchargeDescription_ != null;
@@ -3121,11 +3121,11 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "DiscountSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+         * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
          */
-        public io.dstore.Values.stringValue getDiscountSurchargeDescription() {
+        public io.dstore.values.StringValue getDiscountSurchargeDescription() {
           if (discountSurchargeDescriptionBuilder_ == null) {
-            return discountSurchargeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : discountSurchargeDescription_;
+            return discountSurchargeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : discountSurchargeDescription_;
           } else {
             return discountSurchargeDescriptionBuilder_.getMessage();
           }
@@ -3135,9 +3135,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "DiscountSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+         * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
          */
-        public Builder setDiscountSurchargeDescription(io.dstore.Values.stringValue value) {
+        public Builder setDiscountSurchargeDescription(io.dstore.values.StringValue value) {
           if (discountSurchargeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3155,10 +3155,10 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "DiscountSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+         * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
          */
         public Builder setDiscountSurchargeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (discountSurchargeDescriptionBuilder_ == null) {
             discountSurchargeDescription_ = builderForValue.build();
             onChanged();
@@ -3173,13 +3173,13 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "DiscountSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+         * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
          */
-        public Builder mergeDiscountSurchargeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDiscountSurchargeDescription(io.dstore.values.StringValue value) {
           if (discountSurchargeDescriptionBuilder_ == null) {
             if (discountSurchargeDescription_ != null) {
               discountSurchargeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(discountSurchargeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(discountSurchargeDescription_).mergeFrom(value).buildPartial();
             } else {
               discountSurchargeDescription_ = value;
             }
@@ -3195,7 +3195,7 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "DiscountSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+         * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
          */
         public Builder clearDiscountSurchargeDescription() {
           if (discountSurchargeDescriptionBuilder_ == null) {
@@ -3213,9 +3213,9 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "DiscountSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+         * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDiscountSurchargeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDiscountSurchargeDescriptionBuilder() {
           
           onChanged();
           return getDiscountSurchargeDescriptionFieldBuilder().getBuilder();
@@ -3225,14 +3225,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "DiscountSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+         * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDiscountSurchargeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDiscountSurchargeDescriptionOrBuilder() {
           if (discountSurchargeDescriptionBuilder_ != null) {
             return discountSurchargeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return discountSurchargeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : discountSurchargeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : discountSurchargeDescription_;
           }
         }
         /**
@@ -3240,14 +3240,14 @@ public final class OmGetCampOrderSurchDiscAd {
          * Bezeichnung der "DiscountSurchargeTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue discount_surcharge_description = 10006;</code>
+         * <code>optional .dstore.values.StringValue discount_surcharge_description = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDiscountSurchargeDescriptionFieldBuilder() {
           if (discountSurchargeDescriptionBuilder_ == null) {
             discountSurchargeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDiscountSurchargeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4717,26 +4717,26 @@ public final class OmGetCampOrderSurchDiscAd {
       "etCampOrderSurchDisc_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\201\002\n\nPar" +
       "ameters\0220\n\013campaign_id\030\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\031\n\020campaign_id_null\030\351\007" +
+      "lues.IntegerValue\022\031\n\020campaign_id_null\030\351\007" +
       " \001(\010\022/\n\nbenefit_id\030\002 \001(\0132\033.dstore.values" +
-      ".integerValue\022\030\n\017benefit_id_null\030\352\007 \001(\010\022" +
+      ".IntegerValue\022\030\n\017benefit_id_null\030\352\007 \001(\010\022" +
       "8\n\023get_unused_benefits\030\003 \001(\0132\033.dstore.va" +
-      "lues.booleanValue\022!\n\030get_unused_benefits",
+      "lues.BooleanValue\022!\n\030get_unused_benefits",
       "_null\030\353\007 \001(\010\"\302\004\n\010Response\0228\n\020meta_inform" +
       "ation\030\002 \003(\0132\036.dstore.engine.MetaInformat" +
       "ion\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Mes" +
       "sage\022D\n\003row\030\004 \003(\01327.dstore.engine.om_Get" +
       "CampOrderSurchDisc_Ad.Response.Row\032\214\003\n\003R" +
       "ow\022\017\n\006row_id\030\220N \001(\005\022@\n\032discount_surcharg" +
-      "e_type_id\030\221N \001(\0132\033.dstore.values.integer" +
+      "e_type_id\030\221N \001(\0132\033.dstore.values.Integer" +
       "Value\0220\n\nbenefit_id\030\222N \001(\0132\033.dstore.valu" +
-      "es.integerValue\022@\n\032apply_to_surcharge_ty" +
-      "pe_id\030\223N \001(\0132\033.dstore.values.integerValu",
+      "es.IntegerValue\022@\n\032apply_to_surcharge_ty" +
+      "pe_id\030\223N \001(\0132\033.dstore.values.IntegerValu",
       "e\022C\n\036apply_to_surcharge_description\030\224N \001" +
-      "(\0132\032.dstore.values.stringValue\0224\n\016discou" +
-      "nt_value\030\225N \001(\0132\033.dstore.values.decimalV" +
+      "(\0132\032.dstore.values.StringValue\0224\n\016discou" +
+      "nt_value\030\225N \001(\0132\033.dstore.values.DecimalV" +
       "alue\022C\n\036discount_surcharge_description\030\226" +
-      "N \001(\0132\032.dstore.values.stringValueB\\\n\033io." +
+      "N \001(\0132\032.dstore.values.StringValueB\\\n\033io." +
       "dstore.engine.proceduresZ=gosdk.dstore.d" +
       "e/engine/procedures/om_GetCampOrderSurch" +
       "Disc_Adb\006proto3"
@@ -4752,7 +4752,7 @@ public final class OmGetCampOrderSurchDiscAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetCampOrderSurchDisc_Ad_Parameters_descriptor =
@@ -4773,7 +4773,7 @@ public final class OmGetCampOrderSurchDiscAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampOrderSurchDisc_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "DiscountSurchargeTypeId", "BenefitId", "ApplyToSurchargeTypeId", "ApplyToSurchargeDescription", "DiscountValue", "DiscountSurchargeDescription", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

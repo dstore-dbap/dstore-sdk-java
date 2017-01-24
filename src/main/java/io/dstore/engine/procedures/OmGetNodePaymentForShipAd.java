@@ -19,17 +19,17 @@ public final class OmGetNodePaymentForShipAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTreeNodeId();
+    io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class OmGetNodePaymentForShipAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class OmGetNodePaymentForShipAd {
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue treeNodeId_;
+    private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTreeNodeId() {
-      return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+    public io.dstore.values.IntegerValue getTreeNodeId() {
+      return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
     }
 
@@ -447,29 +447,29 @@ public final class OmGetNodePaymentForShipAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue treeNodeId_ = null;
+      private io.dstore.values.IntegerValue treeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
+      public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
-          return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+          return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         } else {
           return treeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class OmGetNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (treeNodeIdBuilder_ == null) {
           treeNodeId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class OmGetNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (treeNodeId_ != null) {
             treeNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeId_ = value;
           }
@@ -515,7 +515,7 @@ public final class OmGetNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class OmGetNodePaymentForShipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
           return treeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTreeNodeIdFieldBuilder() {
         if (treeNodeIdBuilder_ == null) {
           treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class OmGetNodePaymentForShipAd {
        * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
        */
       boolean hasHideWhenOrderedAlone();
       /**
@@ -857,24 +857,24 @@ public final class OmGetNodePaymentForShipAd {
        * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
        */
-      io.dstore.Values.booleanValue getHideWhenOrderedAlone();
+      io.dstore.values.BooleanValue getHideWhenOrderedAlone();
       /**
        * <pre>
        * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getHideWhenOrderedAloneOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getHideWhenOrderedAloneOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
       boolean hasNodeDescription();
       /**
@@ -882,24 +882,24 @@ public final class OmGetNodePaymentForShipAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
-      io.dstore.Values.stringValue getNodeDescription();
+      io.dstore.values.StringValue getNodeDescription();
       /**
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
        */
       boolean hasPaymentForShippingId();
       /**
@@ -907,24 +907,24 @@ public final class OmGetNodePaymentForShipAd {
        * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getPaymentForShippingId();
+      io.dstore.values.IntegerValue getPaymentForShippingId();
       /**
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+       * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
        */
       boolean hasDescriptionForAdmin();
       /**
@@ -932,24 +932,24 @@ public final class OmGetNodePaymentForShipAd {
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+       * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
        */
-      io.dstore.Values.stringValue getDescriptionForAdmin();
+      io.dstore.values.StringValue getDescriptionForAdmin();
       /**
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+       * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionForAdminOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionForAdminOrBuilder();
 
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -957,24 +957,24 @@ public final class OmGetNodePaymentForShipAd {
        * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
-      io.dstore.Values.integerValue getTreeNodeId();
+      io.dstore.values.IntegerValue getTreeNodeId();
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
       boolean hasNodeId();
       /**
@@ -982,24 +982,24 @@ public final class OmGetNodePaymentForShipAd {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue always = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue always = 10007;</code>
        */
       boolean hasAlways();
       /**
@@ -1007,24 +1007,24 @@ public final class OmGetNodePaymentForShipAd {
        * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue always = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue always = 10007;</code>
        */
-      io.dstore.Values.booleanValue getAlways();
+      io.dstore.values.BooleanValue getAlways();
       /**
        * <pre>
        * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue always = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue always = 10007;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getAlwaysOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getAlwaysOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
        */
       boolean hasPaymentForShippingDescription();
       /**
@@ -1032,17 +1032,17 @@ public final class OmGetNodePaymentForShipAd {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
        */
-      io.dstore.Values.stringValue getPaymentForShippingDescription();
+      io.dstore.values.StringValue getPaymentForShippingDescription();
       /**
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetNodePaymentForShip_Ad.Response.Row}
@@ -1090,11 +1090,11 @@ public final class OmGetNodePaymentForShipAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (hideWhenOrderedAlone_ != null) {
                   subBuilder = hideWhenOrderedAlone_.toBuilder();
                 }
-                hideWhenOrderedAlone_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                hideWhenOrderedAlone_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hideWhenOrderedAlone_);
                   hideWhenOrderedAlone_ = subBuilder.buildPartial();
@@ -1103,11 +1103,11 @@ public final class OmGetNodePaymentForShipAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -1116,11 +1116,11 @@ public final class OmGetNodePaymentForShipAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (paymentForShippingId_ != null) {
                   subBuilder = paymentForShippingId_.toBuilder();
                 }
-                paymentForShippingId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                paymentForShippingId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentForShippingId_);
                   paymentForShippingId_ = subBuilder.buildPartial();
@@ -1129,11 +1129,11 @@ public final class OmGetNodePaymentForShipAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (descriptionForAdmin_ != null) {
                   subBuilder = descriptionForAdmin_.toBuilder();
                 }
-                descriptionForAdmin_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                descriptionForAdmin_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(descriptionForAdmin_);
                   descriptionForAdmin_ = subBuilder.buildPartial();
@@ -1142,11 +1142,11 @@ public final class OmGetNodePaymentForShipAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -1155,11 +1155,11 @@ public final class OmGetNodePaymentForShipAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -1168,11 +1168,11 @@ public final class OmGetNodePaymentForShipAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (always_ != null) {
                   subBuilder = always_.toBuilder();
                 }
-                always_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                always_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(always_);
                   always_ = subBuilder.buildPartial();
@@ -1181,11 +1181,11 @@ public final class OmGetNodePaymentForShipAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (paymentForShippingDescription_ != null) {
                   subBuilder = paymentForShippingDescription_.toBuilder();
                 }
-                paymentForShippingDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                paymentForShippingDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentForShippingDescription_);
                   paymentForShippingDescription_ = subBuilder.buildPartial();
@@ -1226,13 +1226,13 @@ public final class OmGetNodePaymentForShipAd {
       }
 
       public static final int HIDE_WHEN_ORDERED_ALONE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.booleanValue hideWhenOrderedAlone_;
+      private io.dstore.values.BooleanValue hideWhenOrderedAlone_;
       /**
        * <pre>
        * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
        */
       public boolean hasHideWhenOrderedAlone() {
         return hideWhenOrderedAlone_ != null;
@@ -1242,30 +1242,30 @@ public final class OmGetNodePaymentForShipAd {
        * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
        */
-      public io.dstore.Values.booleanValue getHideWhenOrderedAlone() {
-        return hideWhenOrderedAlone_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : hideWhenOrderedAlone_;
+      public io.dstore.values.BooleanValue getHideWhenOrderedAlone() {
+        return hideWhenOrderedAlone_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hideWhenOrderedAlone_;
       }
       /**
        * <pre>
        * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getHideWhenOrderedAloneOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getHideWhenOrderedAloneOrBuilder() {
         return getHideWhenOrderedAlone();
       }
 
       public static final int NODE_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue nodeDescription_;
+      private io.dstore.values.StringValue nodeDescription_;
       /**
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
       public boolean hasNodeDescription() {
         return nodeDescription_ != null;
@@ -1275,30 +1275,30 @@ public final class OmGetNodePaymentForShipAd {
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getNodeDescription() {
-        return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
+      public io.dstore.values.StringValue getNodeDescription() {
+        return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue node_description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
         return getNodeDescription();
       }
 
       public static final int PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue paymentForShippingId_;
+      private io.dstore.values.IntegerValue paymentForShippingId_;
       /**
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingId_ != null;
@@ -1308,30 +1308,30 @@ public final class OmGetNodePaymentForShipAd {
        * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getPaymentForShippingId() {
-        return paymentForShippingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
+      public io.dstore.values.IntegerValue getPaymentForShippingId() {
+        return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
       }
       /**
        * <pre>
        * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         return getPaymentForShippingId();
       }
 
       public static final int DESCRIPTION_FOR_ADMIN_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue descriptionForAdmin_;
+      private io.dstore.values.StringValue descriptionForAdmin_;
       /**
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+       * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
        */
       public boolean hasDescriptionForAdmin() {
         return descriptionForAdmin_ != null;
@@ -1341,30 +1341,30 @@ public final class OmGetNodePaymentForShipAd {
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+       * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
        */
-      public io.dstore.Values.stringValue getDescriptionForAdmin() {
-        return descriptionForAdmin_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : descriptionForAdmin_;
+      public io.dstore.values.StringValue getDescriptionForAdmin() {
+        return descriptionForAdmin_ == null ? io.dstore.values.StringValue.getDefaultInstance() : descriptionForAdmin_;
       }
       /**
        * <pre>
        * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+       * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionForAdminOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionForAdminOrBuilder() {
         return getDescriptionForAdmin();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue treeNodeId_;
+      private io.dstore.values.IntegerValue treeNodeId_;
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -1374,30 +1374,30 @@ public final class OmGetNodePaymentForShipAd {
        * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.values.IntegerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
        * <pre>
        * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -1407,30 +1407,30 @@ public final class OmGetNodePaymentForShipAd {
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int ALWAYS_FIELD_NUMBER = 10007;
-      private io.dstore.Values.booleanValue always_;
+      private io.dstore.values.BooleanValue always_;
       /**
        * <pre>
        * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue always = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue always = 10007;</code>
        */
       public boolean hasAlways() {
         return always_ != null;
@@ -1440,30 +1440,30 @@ public final class OmGetNodePaymentForShipAd {
        * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue always = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue always = 10007;</code>
        */
-      public io.dstore.Values.booleanValue getAlways() {
-        return always_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : always_;
+      public io.dstore.values.BooleanValue getAlways() {
+        return always_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : always_;
       }
       /**
        * <pre>
        * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue always = 10007;</code>
+       * <code>optional .dstore.values.BooleanValue always = 10007;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getAlwaysOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getAlwaysOrBuilder() {
         return getAlways();
       }
 
       public static final int PAYMENT_FOR_SHIPPING_DESCRIPTION_FIELD_NUMBER = 10008;
-      private io.dstore.Values.stringValue paymentForShippingDescription_;
+      private io.dstore.values.StringValue paymentForShippingDescription_;
       /**
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
        */
       public boolean hasPaymentForShippingDescription() {
         return paymentForShippingDescription_ != null;
@@ -1473,19 +1473,19 @@ public final class OmGetNodePaymentForShipAd {
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
        */
-      public io.dstore.Values.stringValue getPaymentForShippingDescription() {
-        return paymentForShippingDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentForShippingDescription_;
+      public io.dstore.values.StringValue getPaymentForShippingDescription() {
+        return paymentForShippingDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentForShippingDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
         return getPaymentForShippingDescription();
       }
 
@@ -2024,15 +2024,15 @@ public final class OmGetNodePaymentForShipAd {
           return this;
         }
 
-        private io.dstore.Values.booleanValue hideWhenOrderedAlone_ = null;
+        private io.dstore.values.BooleanValue hideWhenOrderedAlone_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> hideWhenOrderedAloneBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> hideWhenOrderedAloneBuilder_;
         /**
          * <pre>
          * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
          */
         public boolean hasHideWhenOrderedAlone() {
           return hideWhenOrderedAloneBuilder_ != null || hideWhenOrderedAlone_ != null;
@@ -2042,11 +2042,11 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
          */
-        public io.dstore.Values.booleanValue getHideWhenOrderedAlone() {
+        public io.dstore.values.BooleanValue getHideWhenOrderedAlone() {
           if (hideWhenOrderedAloneBuilder_ == null) {
-            return hideWhenOrderedAlone_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : hideWhenOrderedAlone_;
+            return hideWhenOrderedAlone_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : hideWhenOrderedAlone_;
           } else {
             return hideWhenOrderedAloneBuilder_.getMessage();
           }
@@ -2056,9 +2056,9 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
          */
-        public Builder setHideWhenOrderedAlone(io.dstore.Values.booleanValue value) {
+        public Builder setHideWhenOrderedAlone(io.dstore.values.BooleanValue value) {
           if (hideWhenOrderedAloneBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2076,10 +2076,10 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
          */
         public Builder setHideWhenOrderedAlone(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (hideWhenOrderedAloneBuilder_ == null) {
             hideWhenOrderedAlone_ = builderForValue.build();
             onChanged();
@@ -2094,13 +2094,13 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
          */
-        public Builder mergeHideWhenOrderedAlone(io.dstore.Values.booleanValue value) {
+        public Builder mergeHideWhenOrderedAlone(io.dstore.values.BooleanValue value) {
           if (hideWhenOrderedAloneBuilder_ == null) {
             if (hideWhenOrderedAlone_ != null) {
               hideWhenOrderedAlone_ =
-                io.dstore.Values.booleanValue.newBuilder(hideWhenOrderedAlone_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(hideWhenOrderedAlone_).mergeFrom(value).buildPartial();
             } else {
               hideWhenOrderedAlone_ = value;
             }
@@ -2116,7 +2116,7 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
          */
         public Builder clearHideWhenOrderedAlone() {
           if (hideWhenOrderedAloneBuilder_ == null) {
@@ -2134,9 +2134,9 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getHideWhenOrderedAloneBuilder() {
+        public io.dstore.values.BooleanValue.Builder getHideWhenOrderedAloneBuilder() {
           
           onChanged();
           return getHideWhenOrderedAloneFieldBuilder().getBuilder();
@@ -2146,14 +2146,14 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getHideWhenOrderedAloneOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getHideWhenOrderedAloneOrBuilder() {
           if (hideWhenOrderedAloneBuilder_ != null) {
             return hideWhenOrderedAloneBuilder_.getMessageOrBuilder();
           } else {
             return hideWhenOrderedAlone_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : hideWhenOrderedAlone_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : hideWhenOrderedAlone_;
           }
         }
         /**
@@ -2161,14 +2161,14 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird die "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" NICHT ausgegeben, wenn sich im Warenkorb des Benutzers NUR Artikel befinden, denen diese "PaymentForShippingID" zwar zugewiesen ist, aber ebenfalls mit "HideWhenOrderedAlone = 1"
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue hide_when_ordered_alone = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue hide_when_ordered_alone = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getHideWhenOrderedAloneFieldBuilder() {
           if (hideWhenOrderedAloneBuilder_ == null) {
             hideWhenOrderedAloneBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getHideWhenOrderedAlone(),
                     getParentForChildren(),
                     isClean());
@@ -2177,15 +2177,15 @@ public final class OmGetNodePaymentForShipAd {
           return hideWhenOrderedAloneBuilder_;
         }
 
-        private io.dstore.Values.stringValue nodeDescription_ = null;
+        private io.dstore.values.StringValue nodeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nodeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nodeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
         public boolean hasNodeDescription() {
           return nodeDescriptionBuilder_ != null || nodeDescription_ != null;
@@ -2195,11 +2195,11 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getNodeDescription() {
+        public io.dstore.values.StringValue getNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
-            return nodeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
+            return nodeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
           } else {
             return nodeDescriptionBuilder_.getMessage();
           }
@@ -2209,9 +2209,9 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public Builder setNodeDescription(io.dstore.Values.stringValue value) {
+        public Builder setNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2229,10 +2229,10 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
         public Builder setNodeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescription_ = builderForValue.build();
             onChanged();
@@ -2247,13 +2247,13 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public Builder mergeNodeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeNodeDescription(io.dstore.values.StringValue value) {
           if (nodeDescriptionBuilder_ == null) {
             if (nodeDescription_ != null) {
               nodeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(nodeDescription_).mergeFrom(value).buildPartial();
             } else {
               nodeDescription_ = value;
             }
@@ -2269,7 +2269,7 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
         public Builder clearNodeDescription() {
           if (nodeDescriptionBuilder_ == null) {
@@ -2287,9 +2287,9 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getNodeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getNodeDescriptionBuilder() {
           
           onChanged();
           return getNodeDescriptionFieldBuilder().getBuilder();
@@ -2299,14 +2299,14 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getNodeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getNodeDescriptionOrBuilder() {
           if (nodeDescriptionBuilder_ != null) {
             return nodeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return nodeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : nodeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : nodeDescription_;
           }
         }
         /**
@@ -2314,14 +2314,14 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue node_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue node_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getNodeDescriptionFieldBuilder() {
           if (nodeDescriptionBuilder_ == null) {
             nodeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getNodeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2330,15 +2330,15 @@ public final class OmGetNodePaymentForShipAd {
           return nodeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue paymentForShippingId_ = null;
+        private io.dstore.values.IntegerValue paymentForShippingId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentForShippingIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentForShippingIdBuilder_;
         /**
          * <pre>
          * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
          */
         public boolean hasPaymentForShippingId() {
           return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
@@ -2348,11 +2348,11 @@ public final class OmGetNodePaymentForShipAd {
          * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getPaymentForShippingId() {
+        public io.dstore.values.IntegerValue getPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
-            return paymentForShippingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
+            return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
           } else {
             return paymentForShippingIdBuilder_.getMessage();
           }
@@ -2362,9 +2362,9 @@ public final class OmGetNodePaymentForShipAd {
          * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
          */
-        public Builder setPaymentForShippingId(io.dstore.Values.integerValue value) {
+        public Builder setPaymentForShippingId(io.dstore.values.IntegerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2382,10 +2382,10 @@ public final class OmGetNodePaymentForShipAd {
          * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
          */
         public Builder setPaymentForShippingId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (paymentForShippingIdBuilder_ == null) {
             paymentForShippingId_ = builderForValue.build();
             onChanged();
@@ -2400,13 +2400,13 @@ public final class OmGetNodePaymentForShipAd {
          * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
          */
-        public Builder mergePaymentForShippingId(io.dstore.Values.integerValue value) {
+        public Builder mergePaymentForShippingId(io.dstore.values.IntegerValue value) {
           if (paymentForShippingIdBuilder_ == null) {
             if (paymentForShippingId_ != null) {
               paymentForShippingId_ =
-                io.dstore.Values.integerValue.newBuilder(paymentForShippingId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(paymentForShippingId_).mergeFrom(value).buildPartial();
             } else {
               paymentForShippingId_ = value;
             }
@@ -2422,7 +2422,7 @@ public final class OmGetNodePaymentForShipAd {
          * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
          */
         public Builder clearPaymentForShippingId() {
           if (paymentForShippingIdBuilder_ == null) {
@@ -2440,9 +2440,9 @@ public final class OmGetNodePaymentForShipAd {
          * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPaymentForShippingIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPaymentForShippingIdBuilder() {
           
           onChanged();
           return getPaymentForShippingIdFieldBuilder().getBuilder();
@@ -2452,14 +2452,14 @@ public final class OmGetNodePaymentForShipAd {
          * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
           if (paymentForShippingIdBuilder_ != null) {
             return paymentForShippingIdBuilder_.getMessageOrBuilder();
           } else {
             return paymentForShippingId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
           }
         }
         /**
@@ -2467,14 +2467,14 @@ public final class OmGetNodePaymentForShipAd {
          * ID einer Zahlungsart-Versandart-Kombination, die bei einer Bestellung für "TreeNodeID" sowie für alle Elemente im Artikelbaum, die von "TreeNodeID" erben, zur Verfügung stehen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_for_shipping_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPaymentForShippingIdFieldBuilder() {
           if (paymentForShippingIdBuilder_ == null) {
             paymentForShippingIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPaymentForShippingId(),
                     getParentForChildren(),
                     isClean());
@@ -2483,15 +2483,15 @@ public final class OmGetNodePaymentForShipAd {
           return paymentForShippingIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue descriptionForAdmin_ = null;
+        private io.dstore.values.StringValue descriptionForAdmin_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionForAdminBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionForAdminBuilder_;
         /**
          * <pre>
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+         * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
          */
         public boolean hasDescriptionForAdmin() {
           return descriptionForAdminBuilder_ != null || descriptionForAdmin_ != null;
@@ -2501,11 +2501,11 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+         * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
          */
-        public io.dstore.Values.stringValue getDescriptionForAdmin() {
+        public io.dstore.values.StringValue getDescriptionForAdmin() {
           if (descriptionForAdminBuilder_ == null) {
-            return descriptionForAdmin_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : descriptionForAdmin_;
+            return descriptionForAdmin_ == null ? io.dstore.values.StringValue.getDefaultInstance() : descriptionForAdmin_;
           } else {
             return descriptionForAdminBuilder_.getMessage();
           }
@@ -2515,9 +2515,9 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+         * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
          */
-        public Builder setDescriptionForAdmin(io.dstore.Values.stringValue value) {
+        public Builder setDescriptionForAdmin(io.dstore.values.StringValue value) {
           if (descriptionForAdminBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2535,10 +2535,10 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+         * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
          */
         public Builder setDescriptionForAdmin(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionForAdminBuilder_ == null) {
             descriptionForAdmin_ = builderForValue.build();
             onChanged();
@@ -2553,13 +2553,13 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+         * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
          */
-        public Builder mergeDescriptionForAdmin(io.dstore.Values.stringValue value) {
+        public Builder mergeDescriptionForAdmin(io.dstore.values.StringValue value) {
           if (descriptionForAdminBuilder_ == null) {
             if (descriptionForAdmin_ != null) {
               descriptionForAdmin_ =
-                io.dstore.Values.stringValue.newBuilder(descriptionForAdmin_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(descriptionForAdmin_).mergeFrom(value).buildPartial();
             } else {
               descriptionForAdmin_ = value;
             }
@@ -2575,7 +2575,7 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+         * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
          */
         public Builder clearDescriptionForAdmin() {
           if (descriptionForAdminBuilder_ == null) {
@@ -2593,9 +2593,9 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+         * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionForAdminBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionForAdminBuilder() {
           
           onChanged();
           return getDescriptionForAdminFieldBuilder().getBuilder();
@@ -2605,14 +2605,14 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+         * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionForAdminOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionForAdminOrBuilder() {
           if (descriptionForAdminBuilder_ != null) {
             return descriptionForAdminBuilder_.getMessageOrBuilder();
           } else {
             return descriptionForAdmin_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : descriptionForAdmin_;
+                io.dstore.values.StringValue.getDefaultInstance() : descriptionForAdmin_;
           }
         }
         /**
@@ -2620,14 +2620,14 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der "PaymentForShippingID" für den Administrator. Hintergrund : Kombinationen, die von der Bezeichnung her identisch sind, und für einen Administrator bei Konfigurierungen nicht auseinander zu halten wären.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_for_admin = 10004;</code>
+         * <code>optional .dstore.values.StringValue description_for_admin = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionForAdminFieldBuilder() {
           if (descriptionForAdminBuilder_ == null) {
             descriptionForAdminBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescriptionForAdmin(),
                     getParentForChildren(),
                     isClean());
@@ -2636,15 +2636,15 @@ public final class OmGetNodePaymentForShipAd {
           return descriptionForAdminBuilder_;
         }
 
-        private io.dstore.Values.integerValue treeNodeId_ = null;
+        private io.dstore.values.IntegerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -2654,11 +2654,11 @@ public final class OmGetNodePaymentForShipAd {
          * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue getTreeNodeId() {
+        public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
@@ -2668,9 +2668,9 @@ public final class OmGetNodePaymentForShipAd {
          * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2688,10 +2688,10 @@ public final class OmGetNodePaymentForShipAd {
          * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public Builder setTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -2706,13 +2706,13 @@ public final class OmGetNodePaymentForShipAd {
          * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -2728,7 +2728,7 @@ public final class OmGetNodePaymentForShipAd {
          * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -2746,9 +2746,9 @@ public final class OmGetNodePaymentForShipAd {
          * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
@@ -2758,14 +2758,14 @@ public final class OmGetNodePaymentForShipAd {
          * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
@@ -2773,14 +2773,14 @@ public final class OmGetNodePaymentForShipAd {
          * ID eines Elementes im Artikelbaum, dem die Zahlungsart-Versandart-Kombination "PaymentForShippingID" zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -2789,15 +2789,15 @@ public final class OmGetNodePaymentForShipAd {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -2807,11 +2807,11 @@ public final class OmGetNodePaymentForShipAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -2821,9 +2821,9 @@ public final class OmGetNodePaymentForShipAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2841,10 +2841,10 @@ public final class OmGetNodePaymentForShipAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -2859,13 +2859,13 @@ public final class OmGetNodePaymentForShipAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -2881,7 +2881,7 @@ public final class OmGetNodePaymentForShipAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -2899,9 +2899,9 @@ public final class OmGetNodePaymentForShipAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -2911,14 +2911,14 @@ public final class OmGetNodePaymentForShipAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -2926,14 +2926,14 @@ public final class OmGetNodePaymentForShipAd {
          * ID des zur "TreeNodeID" zugehörigen Artikel-Elementes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -2942,15 +2942,15 @@ public final class OmGetNodePaymentForShipAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.booleanValue always_ = null;
+        private io.dstore.values.BooleanValue always_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> alwaysBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> alwaysBuilder_;
         /**
          * <pre>
          * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue always = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue always = 10007;</code>
          */
         public boolean hasAlways() {
           return alwaysBuilder_ != null || always_ != null;
@@ -2960,11 +2960,11 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue always = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue always = 10007;</code>
          */
-        public io.dstore.Values.booleanValue getAlways() {
+        public io.dstore.values.BooleanValue getAlways() {
           if (alwaysBuilder_ == null) {
-            return always_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : always_;
+            return always_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : always_;
           } else {
             return alwaysBuilder_.getMessage();
           }
@@ -2974,9 +2974,9 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue always = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue always = 10007;</code>
          */
-        public Builder setAlways(io.dstore.Values.booleanValue value) {
+        public Builder setAlways(io.dstore.values.BooleanValue value) {
           if (alwaysBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2994,10 +2994,10 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue always = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue always = 10007;</code>
          */
         public Builder setAlways(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (alwaysBuilder_ == null) {
             always_ = builderForValue.build();
             onChanged();
@@ -3012,13 +3012,13 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue always = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue always = 10007;</code>
          */
-        public Builder mergeAlways(io.dstore.Values.booleanValue value) {
+        public Builder mergeAlways(io.dstore.values.BooleanValue value) {
           if (alwaysBuilder_ == null) {
             if (always_ != null) {
               always_ =
-                io.dstore.Values.booleanValue.newBuilder(always_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(always_).mergeFrom(value).buildPartial();
             } else {
               always_ = value;
             }
@@ -3034,7 +3034,7 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue always = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue always = 10007;</code>
          */
         public Builder clearAlways() {
           if (alwaysBuilder_ == null) {
@@ -3052,9 +3052,9 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue always = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue always = 10007;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getAlwaysBuilder() {
+        public io.dstore.values.BooleanValue.Builder getAlwaysBuilder() {
           
           onChanged();
           return getAlwaysFieldBuilder().getBuilder();
@@ -3064,14 +3064,14 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue always = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue always = 10007;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getAlwaysOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getAlwaysOrBuilder() {
           if (alwaysBuilder_ != null) {
             return alwaysBuilder_.getMessageOrBuilder();
           } else {
             return always_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : always_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : always_;
           }
         }
         /**
@@ -3079,14 +3079,14 @@ public final class OmGetNodePaymentForShipAd {
          * Falls "1", wird diese "PaymentForShippingID" von "om_GetPaymentAndShipping_Pu" auch dann angezeigt, wenn nicht alle im Warenkorb befindlichen Artikel diese Kombination zugewiesen haben
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue always = 10007;</code>
+         * <code>optional .dstore.values.BooleanValue always = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getAlwaysFieldBuilder() {
           if (alwaysBuilder_ == null) {
             alwaysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getAlways(),
                     getParentForChildren(),
                     isClean());
@@ -3095,15 +3095,15 @@ public final class OmGetNodePaymentForShipAd {
           return alwaysBuilder_;
         }
 
-        private io.dstore.Values.stringValue paymentForShippingDescription_ = null;
+        private io.dstore.values.StringValue paymentForShippingDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentForShippingDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> paymentForShippingDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
          */
         public boolean hasPaymentForShippingDescription() {
           return paymentForShippingDescriptionBuilder_ != null || paymentForShippingDescription_ != null;
@@ -3113,11 +3113,11 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
          */
-        public io.dstore.Values.stringValue getPaymentForShippingDescription() {
+        public io.dstore.values.StringValue getPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
-            return paymentForShippingDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentForShippingDescription_;
+            return paymentForShippingDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentForShippingDescription_;
           } else {
             return paymentForShippingDescriptionBuilder_.getMessage();
           }
@@ -3127,9 +3127,9 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
          */
-        public Builder setPaymentForShippingDescription(io.dstore.Values.stringValue value) {
+        public Builder setPaymentForShippingDescription(io.dstore.values.StringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3147,10 +3147,10 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
          */
         public Builder setPaymentForShippingDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (paymentForShippingDescriptionBuilder_ == null) {
             paymentForShippingDescription_ = builderForValue.build();
             onChanged();
@@ -3165,13 +3165,13 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
          */
-        public Builder mergePaymentForShippingDescription(io.dstore.Values.stringValue value) {
+        public Builder mergePaymentForShippingDescription(io.dstore.values.StringValue value) {
           if (paymentForShippingDescriptionBuilder_ == null) {
             if (paymentForShippingDescription_ != null) {
               paymentForShippingDescription_ =
-                io.dstore.Values.stringValue.newBuilder(paymentForShippingDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(paymentForShippingDescription_).mergeFrom(value).buildPartial();
             } else {
               paymentForShippingDescription_ = value;
             }
@@ -3187,7 +3187,7 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
          */
         public Builder clearPaymentForShippingDescription() {
           if (paymentForShippingDescriptionBuilder_ == null) {
@@ -3205,9 +3205,9 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPaymentForShippingDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getPaymentForShippingDescriptionBuilder() {
           
           onChanged();
           return getPaymentForShippingDescriptionFieldBuilder().getBuilder();
@@ -3217,14 +3217,14 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
           if (paymentForShippingDescriptionBuilder_ != null) {
             return paymentForShippingDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return paymentForShippingDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : paymentForShippingDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : paymentForShippingDescription_;
           }
         }
         /**
@@ -3232,14 +3232,14 @@ public final class OmGetNodePaymentForShipAd {
          * Bezeichnung der Zahlungsart-Versandart-Kombination "PaymentForShippingID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_for_shipping_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue payment_for_shipping_description = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPaymentForShippingDescriptionFieldBuilder() {
           if (paymentForShippingDescriptionBuilder_ == null) {
             paymentForShippingDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPaymentForShippingDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4709,24 +4709,24 @@ public final class OmGetNodePaymentForShipAd {
       "etNodePaymentForShip_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"[\n\nPara" +
       "meters\0221\n\014tree_node_id\030\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\032\n\021tree_node_id_null\030\351" +
+      "lues.IntegerValue\022\032\n\021tree_node_id_null\030\351" +
       "\007 \001(\010\"\225\005\n\010Response\0228\n\020meta_information\030\002" +
       " \003(\0132\036.dstore.engine.MetaInformation\022\'\n\007" +
       "message\030\003 \003(\0132\026.dstore.engine.Message\022D\n" +
       "\003row\030\004 \003(\01327.dstore.engine.om_GetNodePay",
       "mentForShip_Ad.Response.Row\032\337\003\n\003Row\022\017\n\006r" +
       "ow_id\030\220N \001(\005\022=\n\027hide_when_ordered_alone\030" +
-      "\221N \001(\0132\033.dstore.values.booleanValue\0225\n\020n" +
-      "ode_description\030\222N \001(\0132\032.dstore.values.s" +
+      "\221N \001(\0132\033.dstore.values.BooleanValue\0225\n\020n" +
+      "ode_description\030\222N \001(\0132\032.dstore.values.S" +
       "tringValue\022=\n\027payment_for_shipping_id\030\223N" +
-      " \001(\0132\033.dstore.values.integerValue\022:\n\025des" +
+      " \001(\0132\033.dstore.values.IntegerValue\022:\n\025des" +
       "cription_for_admin\030\224N \001(\0132\032.dstore.value" +
-      "s.stringValue\0222\n\014tree_node_id\030\225N \001(\0132\033.d" +
-      "store.values.integerValue\022-\n\007node_id\030\226N " +
-      "\001(\0132\033.dstore.values.integerValue\022,\n\006alwa",
-      "ys\030\227N \001(\0132\033.dstore.values.booleanValue\022E" +
+      "s.StringValue\0222\n\014tree_node_id\030\225N \001(\0132\033.d" +
+      "store.values.IntegerValue\022-\n\007node_id\030\226N " +
+      "\001(\0132\033.dstore.values.IntegerValue\022,\n\006alwa",
+      "ys\030\227N \001(\0132\033.dstore.values.BooleanValue\022E" +
       "\n payment_for_shipping_description\030\230N \001(" +
-      "\0132\032.dstore.values.stringValueB\\\n\033io.dsto" +
+      "\0132\032.dstore.values.StringValueB\\\n\033io.dsto" +
       "re.engine.proceduresZ=gosdk.dstore.de/en" +
       "gine/procedures/om_GetNodePaymentForShip" +
       "_Adb\006proto3"
@@ -4742,7 +4742,7 @@ public final class OmGetNodePaymentForShipAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetNodePaymentForShip_Ad_Parameters_descriptor =
@@ -4763,7 +4763,7 @@ public final class OmGetNodePaymentForShipAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetNodePaymentForShip_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "HideWhenOrderedAlone", "NodeDescription", "PaymentForShippingId", "DescriptionForAdmin", "TreeNodeId", "NodeId", "Always", "PaymentForShippingDescription", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

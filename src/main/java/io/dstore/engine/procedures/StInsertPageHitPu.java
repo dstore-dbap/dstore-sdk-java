@@ -19,17 +19,17 @@ public final class StInsertPageHitPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue page_description = 1;</code>
+     * <code>optional .dstore.values.StringValue page_description = 1;</code>
      */
     boolean hasPageDescription();
     /**
-     * <code>optional .dstore.values.stringValue page_description = 1;</code>
+     * <code>optional .dstore.values.StringValue page_description = 1;</code>
      */
-    io.dstore.Values.stringValue getPageDescription();
+    io.dstore.values.StringValue getPageDescription();
     /**
-     * <code>optional .dstore.values.stringValue page_description = 1;</code>
+     * <code>optional .dstore.values.StringValue page_description = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPageDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPageDescriptionOrBuilder();
 
     /**
      * <code>optional bool page_description_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class StInsertPageHitPu {
     boolean getPageDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class StInsertPageHitPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (pageDescription_ != null) {
                 subBuilder = pageDescription_.toBuilder();
               }
-              pageDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              pageDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(pageDescription_);
                 pageDescription_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class StInsertPageHitPu {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class StInsertPageHitPu {
     }
 
     public static final int PAGE_DESCRIPTION_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue pageDescription_;
+    private io.dstore.values.StringValue pageDescription_;
     /**
-     * <code>optional .dstore.values.stringValue page_description = 1;</code>
+     * <code>optional .dstore.values.StringValue page_description = 1;</code>
      */
     public boolean hasPageDescription() {
       return pageDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue page_description = 1;</code>
+     * <code>optional .dstore.values.StringValue page_description = 1;</code>
      */
-    public io.dstore.Values.stringValue getPageDescription() {
-      return pageDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : pageDescription_;
+    public io.dstore.values.StringValue getPageDescription() {
+      return pageDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : pageDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue page_description = 1;</code>
+     * <code>optional .dstore.values.StringValue page_description = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPageDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPageDescriptionOrBuilder() {
       return getPageDescription();
     }
 
@@ -185,23 +185,23 @@ public final class StInsertPageHitPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -562,29 +562,29 @@ public final class StInsertPageHitPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue pageDescription_ = null;
+      private io.dstore.values.StringValue pageDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> pageDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> pageDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue page_description = 1;</code>
+       * <code>optional .dstore.values.StringValue page_description = 1;</code>
        */
       public boolean hasPageDescription() {
         return pageDescriptionBuilder_ != null || pageDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue page_description = 1;</code>
+       * <code>optional .dstore.values.StringValue page_description = 1;</code>
        */
-      public io.dstore.Values.stringValue getPageDescription() {
+      public io.dstore.values.StringValue getPageDescription() {
         if (pageDescriptionBuilder_ == null) {
-          return pageDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : pageDescription_;
+          return pageDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : pageDescription_;
         } else {
           return pageDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue page_description = 1;</code>
+       * <code>optional .dstore.values.StringValue page_description = 1;</code>
        */
-      public Builder setPageDescription(io.dstore.Values.stringValue value) {
+      public Builder setPageDescription(io.dstore.values.StringValue value) {
         if (pageDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class StInsertPageHitPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue page_description = 1;</code>
+       * <code>optional .dstore.values.StringValue page_description = 1;</code>
        */
       public Builder setPageDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (pageDescriptionBuilder_ == null) {
           pageDescription_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class StInsertPageHitPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue page_description = 1;</code>
+       * <code>optional .dstore.values.StringValue page_description = 1;</code>
        */
-      public Builder mergePageDescription(io.dstore.Values.stringValue value) {
+      public Builder mergePageDescription(io.dstore.values.StringValue value) {
         if (pageDescriptionBuilder_ == null) {
           if (pageDescription_ != null) {
             pageDescription_ =
-              io.dstore.Values.stringValue.newBuilder(pageDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(pageDescription_).mergeFrom(value).buildPartial();
           } else {
             pageDescription_ = value;
           }
@@ -630,7 +630,7 @@ public final class StInsertPageHitPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue page_description = 1;</code>
+       * <code>optional .dstore.values.StringValue page_description = 1;</code>
        */
       public Builder clearPageDescription() {
         if (pageDescriptionBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class StInsertPageHitPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue page_description = 1;</code>
+       * <code>optional .dstore.values.StringValue page_description = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPageDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getPageDescriptionBuilder() {
         
         onChanged();
         return getPageDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue page_description = 1;</code>
+       * <code>optional .dstore.values.StringValue page_description = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPageDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPageDescriptionOrBuilder() {
         if (pageDescriptionBuilder_ != null) {
           return pageDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return pageDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : pageDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : pageDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue page_description = 1;</code>
+       * <code>optional .dstore.values.StringValue page_description = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPageDescriptionFieldBuilder() {
         if (pageDescriptionBuilder_ == null) {
           pageDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPageDescription(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class StInsertPageHitPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class StInsertPageHitPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class StInsertPageHitPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -773,7 +773,7 @@ public final class StInsertPageHitPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class StInsertPageHitPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 2;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -2934,9 +2934,9 @@ public final class StInsertPageHitPu {
       "Hit_Pu.proto\022!dstore.engine.st_InsertPag" +
       "eHit_Pu\032\023dstore/values.proto\032\032dstore/eng" +
       "ine/engine.proto\"\252\001\n\nParameters\0224\n\020page_" +
-      "description\030\001 \001(\0132\032.dstore.values.string" +
+      "description\030\001 \001(\0132\032.dstore.values.String" +
       "Value\022\036\n\025page_description_null\030\351\007 \001(\010\022-\n" +
-      "\tunique_id\030\002 \001(\0132\032.dstore.values.stringV" +
+      "\tunique_id\030\002 \001(\0132\032.dstore.values.StringV" +
       "alue\022\027\n\016unique_id_null\030\352\007 \001(\010\"\303\001\n\010Respon" +
       "se\0228\n\020meta_information\030\002 \003(\0132\036.dstore.en" +
       "gine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.",
@@ -2958,7 +2958,7 @@ public final class StInsertPageHitPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_st_InsertPageHit_Pu_Parameters_descriptor =
@@ -2979,7 +2979,7 @@ public final class StInsertPageHitPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_InsertPageHit_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

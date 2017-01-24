@@ -19,17 +19,17 @@ public final class CoDeleteInactiveMembersAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoDeleteInactiveMembersAd {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+     * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
      */
     boolean hasLastLoginXMonthAgo();
     /**
-     * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+     * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
      */
-    io.dstore.Values.integerValue getLastLoginXMonthAgo();
+    io.dstore.values.IntegerValue getLastLoginXMonthAgo();
     /**
-     * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+     * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLastLoginXMonthAgoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLastLoginXMonthAgoOrBuilder();
 
     /**
      * <code>optional bool last_login_x_month_ago_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoDeleteInactiveMembersAd {
     boolean getLastLoginXMonthAgoNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+     * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
      */
     boolean hasDoNotDeleteButLogOnly();
     /**
-     * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+     * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
      */
-    io.dstore.Values.booleanValue getDoNotDeleteButLogOnly();
+    io.dstore.values.BooleanValue getDoNotDeleteButLogOnly();
     /**
-     * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+     * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDoNotDeleteButLogOnlyOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDoNotDeleteButLogOnlyOrBuilder();
 
     /**
      * <code>optional bool do_not_delete_but_log_only_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class CoDeleteInactiveMembersAd {
     boolean getDoNotDeleteButLogOnlyNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+     * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
      */
     boolean hasOnlyMembersWithoutLoginStats();
     /**
-     * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+     * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
      */
-    io.dstore.Values.booleanValue getOnlyMembersWithoutLoginStats();
+    io.dstore.values.BooleanValue getOnlyMembersWithoutLoginStats();
     /**
-     * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+     * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOnlyMembersWithoutLoginStatsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOnlyMembersWithoutLoginStatsOrBuilder();
 
     /**
      * <code>optional bool only_members_without_login_stats_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class CoDeleteInactiveMembersAd {
     boolean getOnlyMembersWithoutLoginStatsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
      */
     boolean hasMaxNumberOfMembersToDelete();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
      */
-    io.dstore.Values.integerValue getMaxNumberOfMembersToDelete();
+    io.dstore.values.IntegerValue getMaxNumberOfMembersToDelete();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMaxNumberOfMembersToDeleteOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMaxNumberOfMembersToDeleteOrBuilder();
 
     /**
      * <code>optional bool max_number_of_members_to_delete_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class CoDeleteInactiveMembersAd {
     boolean getMaxNumberOfMembersToDeleteNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+     * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
      */
     boolean hasPrintErrors();
     /**
-     * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+     * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
      */
-    io.dstore.Values.booleanValue getPrintErrors();
+    io.dstore.values.BooleanValue getPrintErrors();
     /**
-     * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+     * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getPrintErrorsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getPrintErrorsOrBuilder();
 
     /**
      * <code>optional bool print_errors_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class CoDeleteInactiveMembersAd {
     boolean getPrintErrorsNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
      */
     boolean hasAdditionalInformation();
     /**
-     * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
      */
-    io.dstore.Values.booleanValue getAdditionalInformation();
+    io.dstore.values.BooleanValue getAdditionalInformation();
     /**
-     * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getAdditionalInformationOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getAdditionalInformationOrBuilder();
 
     /**
      * <code>optional bool additional_information_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class CoDeleteInactiveMembersAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class CoDeleteInactiveMembersAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (lastLoginXMonthAgo_ != null) {
                 subBuilder = lastLoginXMonthAgo_.toBuilder();
               }
-              lastLoginXMonthAgo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              lastLoginXMonthAgo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lastLoginXMonthAgo_);
                 lastLoginXMonthAgo_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class CoDeleteInactiveMembersAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (doNotDeleteButLogOnly_ != null) {
                 subBuilder = doNotDeleteButLogOnly_.toBuilder();
               }
-              doNotDeleteButLogOnly_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              doNotDeleteButLogOnly_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(doNotDeleteButLogOnly_);
                 doNotDeleteButLogOnly_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class CoDeleteInactiveMembersAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (onlyMembersWithoutLoginStats_ != null) {
                 subBuilder = onlyMembersWithoutLoginStats_.toBuilder();
               }
-              onlyMembersWithoutLoginStats_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              onlyMembersWithoutLoginStats_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyMembersWithoutLoginStats_);
                 onlyMembersWithoutLoginStats_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class CoDeleteInactiveMembersAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (maxNumberOfMembersToDelete_ != null) {
                 subBuilder = maxNumberOfMembersToDelete_.toBuilder();
               }
-              maxNumberOfMembersToDelete_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              maxNumberOfMembersToDelete_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfMembersToDelete_);
                 maxNumberOfMembersToDelete_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class CoDeleteInactiveMembersAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (printErrors_ != null) {
                 subBuilder = printErrors_.toBuilder();
               }
-              printErrors_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              printErrors_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(printErrors_);
                 printErrors_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class CoDeleteInactiveMembersAd {
               break;
             }
             case 58: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (additionalInformation_ != null) {
                 subBuilder = additionalInformation_.toBuilder();
               }
-              additionalInformation_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              additionalInformation_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(additionalInformation_);
                 additionalInformation_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class CoDeleteInactiveMembersAd {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -370,23 +370,23 @@ public final class CoDeleteInactiveMembersAd {
     }
 
     public static final int LAST_LOGIN_X_MONTH_AGO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue lastLoginXMonthAgo_;
+    private io.dstore.values.IntegerValue lastLoginXMonthAgo_;
     /**
-     * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+     * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
      */
     public boolean hasLastLoginXMonthAgo() {
       return lastLoginXMonthAgo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+     * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
      */
-    public io.dstore.Values.integerValue getLastLoginXMonthAgo() {
-      return lastLoginXMonthAgo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lastLoginXMonthAgo_;
+    public io.dstore.values.IntegerValue getLastLoginXMonthAgo() {
+      return lastLoginXMonthAgo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lastLoginXMonthAgo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+     * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLastLoginXMonthAgoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLastLoginXMonthAgoOrBuilder() {
       return getLastLoginXMonthAgo();
     }
 
@@ -400,23 +400,23 @@ public final class CoDeleteInactiveMembersAd {
     }
 
     public static final int DO_NOT_DELETE_BUT_LOG_ONLY_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue doNotDeleteButLogOnly_;
+    private io.dstore.values.BooleanValue doNotDeleteButLogOnly_;
     /**
-     * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+     * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
      */
     public boolean hasDoNotDeleteButLogOnly() {
       return doNotDeleteButLogOnly_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+     * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
      */
-    public io.dstore.Values.booleanValue getDoNotDeleteButLogOnly() {
-      return doNotDeleteButLogOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : doNotDeleteButLogOnly_;
+    public io.dstore.values.BooleanValue getDoNotDeleteButLogOnly() {
+      return doNotDeleteButLogOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : doNotDeleteButLogOnly_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+     * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDoNotDeleteButLogOnlyOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDoNotDeleteButLogOnlyOrBuilder() {
       return getDoNotDeleteButLogOnly();
     }
 
@@ -430,23 +430,23 @@ public final class CoDeleteInactiveMembersAd {
     }
 
     public static final int ONLY_MEMBERS_WITHOUT_LOGIN_STATS_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue onlyMembersWithoutLoginStats_;
+    private io.dstore.values.BooleanValue onlyMembersWithoutLoginStats_;
     /**
-     * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+     * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
      */
     public boolean hasOnlyMembersWithoutLoginStats() {
       return onlyMembersWithoutLoginStats_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+     * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
      */
-    public io.dstore.Values.booleanValue getOnlyMembersWithoutLoginStats() {
-      return onlyMembersWithoutLoginStats_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyMembersWithoutLoginStats_;
+    public io.dstore.values.BooleanValue getOnlyMembersWithoutLoginStats() {
+      return onlyMembersWithoutLoginStats_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyMembersWithoutLoginStats_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+     * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOnlyMembersWithoutLoginStatsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOnlyMembersWithoutLoginStatsOrBuilder() {
       return getOnlyMembersWithoutLoginStats();
     }
 
@@ -460,23 +460,23 @@ public final class CoDeleteInactiveMembersAd {
     }
 
     public static final int MAX_NUMBER_OF_MEMBERS_TO_DELETE_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue maxNumberOfMembersToDelete_;
+    private io.dstore.values.IntegerValue maxNumberOfMembersToDelete_;
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
      */
     public boolean hasMaxNumberOfMembersToDelete() {
       return maxNumberOfMembersToDelete_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
      */
-    public io.dstore.Values.integerValue getMaxNumberOfMembersToDelete() {
-      return maxNumberOfMembersToDelete_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfMembersToDelete_;
+    public io.dstore.values.IntegerValue getMaxNumberOfMembersToDelete() {
+      return maxNumberOfMembersToDelete_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfMembersToDelete_;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMaxNumberOfMembersToDeleteOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfMembersToDeleteOrBuilder() {
       return getMaxNumberOfMembersToDelete();
     }
 
@@ -490,23 +490,23 @@ public final class CoDeleteInactiveMembersAd {
     }
 
     public static final int PRINT_ERRORS_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue printErrors_;
+    private io.dstore.values.BooleanValue printErrors_;
     /**
-     * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+     * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
      */
     public boolean hasPrintErrors() {
       return printErrors_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+     * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
      */
-    public io.dstore.Values.booleanValue getPrintErrors() {
-      return printErrors_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : printErrors_;
+    public io.dstore.values.BooleanValue getPrintErrors() {
+      return printErrors_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : printErrors_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+     * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getPrintErrorsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getPrintErrorsOrBuilder() {
       return getPrintErrors();
     }
 
@@ -520,23 +520,23 @@ public final class CoDeleteInactiveMembersAd {
     }
 
     public static final int ADDITIONAL_INFORMATION_FIELD_NUMBER = 7;
-    private io.dstore.Values.booleanValue additionalInformation_;
+    private io.dstore.values.BooleanValue additionalInformation_;
     /**
-     * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
      */
     public boolean hasAdditionalInformation() {
       return additionalInformation_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
      */
-    public io.dstore.Values.booleanValue getAdditionalInformation() {
-      return additionalInformation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : additionalInformation_;
+    public io.dstore.values.BooleanValue getAdditionalInformation() {
+      return additionalInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : additionalInformation_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getAdditionalInformationOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getAdditionalInformationOrBuilder() {
       return getAdditionalInformation();
     }
 
@@ -1137,29 +1137,29 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue lastLoginXMonthAgo_ = null;
+      private io.dstore.values.IntegerValue lastLoginXMonthAgo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lastLoginXMonthAgoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> lastLoginXMonthAgoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+       * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
        */
       public boolean hasLastLoginXMonthAgo() {
         return lastLoginXMonthAgoBuilder_ != null || lastLoginXMonthAgo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+       * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
        */
-      public io.dstore.Values.integerValue getLastLoginXMonthAgo() {
+      public io.dstore.values.IntegerValue getLastLoginXMonthAgo() {
         if (lastLoginXMonthAgoBuilder_ == null) {
-          return lastLoginXMonthAgo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lastLoginXMonthAgo_;
+          return lastLoginXMonthAgo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lastLoginXMonthAgo_;
         } else {
           return lastLoginXMonthAgoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+       * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
        */
-      public Builder setLastLoginXMonthAgo(io.dstore.Values.integerValue value) {
+      public Builder setLastLoginXMonthAgo(io.dstore.values.IntegerValue value) {
         if (lastLoginXMonthAgoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+       * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
        */
       public Builder setLastLoginXMonthAgo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (lastLoginXMonthAgoBuilder_ == null) {
           lastLoginXMonthAgo_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+       * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
        */
-      public Builder mergeLastLoginXMonthAgo(io.dstore.Values.integerValue value) {
+      public Builder mergeLastLoginXMonthAgo(io.dstore.values.IntegerValue value) {
         if (lastLoginXMonthAgoBuilder_ == null) {
           if (lastLoginXMonthAgo_ != null) {
             lastLoginXMonthAgo_ =
-              io.dstore.Values.integerValue.newBuilder(lastLoginXMonthAgo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(lastLoginXMonthAgo_).mergeFrom(value).buildPartial();
           } else {
             lastLoginXMonthAgo_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+       * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
        */
       public Builder clearLastLoginXMonthAgo() {
         if (lastLoginXMonthAgoBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+       * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLastLoginXMonthAgoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLastLoginXMonthAgoBuilder() {
         
         onChanged();
         return getLastLoginXMonthAgoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+       * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLastLoginXMonthAgoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLastLoginXMonthAgoOrBuilder() {
         if (lastLoginXMonthAgoBuilder_ != null) {
           return lastLoginXMonthAgoBuilder_.getMessageOrBuilder();
         } else {
           return lastLoginXMonthAgo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : lastLoginXMonthAgo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : lastLoginXMonthAgo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue last_login_x_month_ago = 2;</code>
+       * <code>optional .dstore.values.IntegerValue last_login_x_month_ago = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLastLoginXMonthAgoFieldBuilder() {
         if (lastLoginXMonthAgoBuilder_ == null) {
           lastLoginXMonthAgoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLastLoginXMonthAgo(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue doNotDeleteButLogOnly_ = null;
+      private io.dstore.values.BooleanValue doNotDeleteButLogOnly_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> doNotDeleteButLogOnlyBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> doNotDeleteButLogOnlyBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+       * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
        */
       public boolean hasDoNotDeleteButLogOnly() {
         return doNotDeleteButLogOnlyBuilder_ != null || doNotDeleteButLogOnly_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+       * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
        */
-      public io.dstore.Values.booleanValue getDoNotDeleteButLogOnly() {
+      public io.dstore.values.BooleanValue getDoNotDeleteButLogOnly() {
         if (doNotDeleteButLogOnlyBuilder_ == null) {
-          return doNotDeleteButLogOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : doNotDeleteButLogOnly_;
+          return doNotDeleteButLogOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : doNotDeleteButLogOnly_;
         } else {
           return doNotDeleteButLogOnlyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+       * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
        */
-      public Builder setDoNotDeleteButLogOnly(io.dstore.Values.booleanValue value) {
+      public Builder setDoNotDeleteButLogOnly(io.dstore.values.BooleanValue value) {
         if (doNotDeleteButLogOnlyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+       * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
        */
       public Builder setDoNotDeleteButLogOnly(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (doNotDeleteButLogOnlyBuilder_ == null) {
           doNotDeleteButLogOnly_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+       * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
        */
-      public Builder mergeDoNotDeleteButLogOnly(io.dstore.Values.booleanValue value) {
+      public Builder mergeDoNotDeleteButLogOnly(io.dstore.values.BooleanValue value) {
         if (doNotDeleteButLogOnlyBuilder_ == null) {
           if (doNotDeleteButLogOnly_ != null) {
             doNotDeleteButLogOnly_ =
-              io.dstore.Values.booleanValue.newBuilder(doNotDeleteButLogOnly_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(doNotDeleteButLogOnly_).mergeFrom(value).buildPartial();
           } else {
             doNotDeleteButLogOnly_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+       * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
        */
       public Builder clearDoNotDeleteButLogOnly() {
         if (doNotDeleteButLogOnlyBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+       * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDoNotDeleteButLogOnlyBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDoNotDeleteButLogOnlyBuilder() {
         
         onChanged();
         return getDoNotDeleteButLogOnlyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+       * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDoNotDeleteButLogOnlyOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDoNotDeleteButLogOnlyOrBuilder() {
         if (doNotDeleteButLogOnlyBuilder_ != null) {
           return doNotDeleteButLogOnlyBuilder_.getMessageOrBuilder();
         } else {
           return doNotDeleteButLogOnly_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : doNotDeleteButLogOnly_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : doNotDeleteButLogOnly_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue do_not_delete_but_log_only = 3;</code>
+       * <code>optional .dstore.values.BooleanValue do_not_delete_but_log_only = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDoNotDeleteButLogOnlyFieldBuilder() {
         if (doNotDeleteButLogOnlyBuilder_ == null) {
           doNotDeleteButLogOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDoNotDeleteButLogOnly(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue onlyMembersWithoutLoginStats_ = null;
+      private io.dstore.values.BooleanValue onlyMembersWithoutLoginStats_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyMembersWithoutLoginStatsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyMembersWithoutLoginStatsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+       * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
        */
       public boolean hasOnlyMembersWithoutLoginStats() {
         return onlyMembersWithoutLoginStatsBuilder_ != null || onlyMembersWithoutLoginStats_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+       * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
        */
-      public io.dstore.Values.booleanValue getOnlyMembersWithoutLoginStats() {
+      public io.dstore.values.BooleanValue getOnlyMembersWithoutLoginStats() {
         if (onlyMembersWithoutLoginStatsBuilder_ == null) {
-          return onlyMembersWithoutLoginStats_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyMembersWithoutLoginStats_;
+          return onlyMembersWithoutLoginStats_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyMembersWithoutLoginStats_;
         } else {
           return onlyMembersWithoutLoginStatsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+       * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
        */
-      public Builder setOnlyMembersWithoutLoginStats(io.dstore.Values.booleanValue value) {
+      public Builder setOnlyMembersWithoutLoginStats(io.dstore.values.BooleanValue value) {
         if (onlyMembersWithoutLoginStatsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+       * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
        */
       public Builder setOnlyMembersWithoutLoginStats(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (onlyMembersWithoutLoginStatsBuilder_ == null) {
           onlyMembersWithoutLoginStats_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+       * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
        */
-      public Builder mergeOnlyMembersWithoutLoginStats(io.dstore.Values.booleanValue value) {
+      public Builder mergeOnlyMembersWithoutLoginStats(io.dstore.values.BooleanValue value) {
         if (onlyMembersWithoutLoginStatsBuilder_ == null) {
           if (onlyMembersWithoutLoginStats_ != null) {
             onlyMembersWithoutLoginStats_ =
-              io.dstore.Values.booleanValue.newBuilder(onlyMembersWithoutLoginStats_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(onlyMembersWithoutLoginStats_).mergeFrom(value).buildPartial();
           } else {
             onlyMembersWithoutLoginStats_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+       * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
        */
       public Builder clearOnlyMembersWithoutLoginStats() {
         if (onlyMembersWithoutLoginStatsBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+       * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOnlyMembersWithoutLoginStatsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOnlyMembersWithoutLoginStatsBuilder() {
         
         onChanged();
         return getOnlyMembersWithoutLoginStatsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+       * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOnlyMembersWithoutLoginStatsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOnlyMembersWithoutLoginStatsOrBuilder() {
         if (onlyMembersWithoutLoginStatsBuilder_ != null) {
           return onlyMembersWithoutLoginStatsBuilder_.getMessageOrBuilder();
         } else {
           return onlyMembersWithoutLoginStats_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : onlyMembersWithoutLoginStats_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : onlyMembersWithoutLoginStats_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_members_without_login_stats = 4;</code>
+       * <code>optional .dstore.values.BooleanValue only_members_without_login_stats = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOnlyMembersWithoutLoginStatsFieldBuilder() {
         if (onlyMembersWithoutLoginStatsBuilder_ == null) {
           onlyMembersWithoutLoginStatsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOnlyMembersWithoutLoginStats(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue maxNumberOfMembersToDelete_ = null;
+      private io.dstore.values.IntegerValue maxNumberOfMembersToDelete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfMembersToDeleteBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfMembersToDeleteBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
        */
       public boolean hasMaxNumberOfMembersToDelete() {
         return maxNumberOfMembersToDeleteBuilder_ != null || maxNumberOfMembersToDelete_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
        */
-      public io.dstore.Values.integerValue getMaxNumberOfMembersToDelete() {
+      public io.dstore.values.IntegerValue getMaxNumberOfMembersToDelete() {
         if (maxNumberOfMembersToDeleteBuilder_ == null) {
-          return maxNumberOfMembersToDelete_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfMembersToDelete_;
+          return maxNumberOfMembersToDelete_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfMembersToDelete_;
         } else {
           return maxNumberOfMembersToDeleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
        */
-      public Builder setMaxNumberOfMembersToDelete(io.dstore.Values.integerValue value) {
+      public Builder setMaxNumberOfMembersToDelete(io.dstore.values.IntegerValue value) {
         if (maxNumberOfMembersToDeleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
        */
       public Builder setMaxNumberOfMembersToDelete(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (maxNumberOfMembersToDeleteBuilder_ == null) {
           maxNumberOfMembersToDelete_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
        */
-      public Builder mergeMaxNumberOfMembersToDelete(io.dstore.Values.integerValue value) {
+      public Builder mergeMaxNumberOfMembersToDelete(io.dstore.values.IntegerValue value) {
         if (maxNumberOfMembersToDeleteBuilder_ == null) {
           if (maxNumberOfMembersToDelete_ != null) {
             maxNumberOfMembersToDelete_ =
-              io.dstore.Values.integerValue.newBuilder(maxNumberOfMembersToDelete_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(maxNumberOfMembersToDelete_).mergeFrom(value).buildPartial();
           } else {
             maxNumberOfMembersToDelete_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
        */
       public Builder clearMaxNumberOfMembersToDelete() {
         if (maxNumberOfMembersToDeleteBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMaxNumberOfMembersToDeleteBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMaxNumberOfMembersToDeleteBuilder() {
         
         onChanged();
         return getMaxNumberOfMembersToDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfMembersToDeleteOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfMembersToDeleteOrBuilder() {
         if (maxNumberOfMembersToDeleteBuilder_ != null) {
           return maxNumberOfMembersToDeleteBuilder_.getMessageOrBuilder();
         } else {
           return maxNumberOfMembersToDelete_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfMembersToDelete_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfMembersToDelete_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_members_to_delete = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_members_to_delete = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMaxNumberOfMembersToDeleteFieldBuilder() {
         if (maxNumberOfMembersToDeleteBuilder_ == null) {
           maxNumberOfMembersToDeleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMaxNumberOfMembersToDelete(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue printErrors_ = null;
+      private io.dstore.values.BooleanValue printErrors_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> printErrorsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> printErrorsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+       * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
        */
       public boolean hasPrintErrors() {
         return printErrorsBuilder_ != null || printErrors_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+       * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
        */
-      public io.dstore.Values.booleanValue getPrintErrors() {
+      public io.dstore.values.BooleanValue getPrintErrors() {
         if (printErrorsBuilder_ == null) {
-          return printErrors_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : printErrors_;
+          return printErrors_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : printErrors_;
         } else {
           return printErrorsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+       * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
        */
-      public Builder setPrintErrors(io.dstore.Values.booleanValue value) {
+      public Builder setPrintErrors(io.dstore.values.BooleanValue value) {
         if (printErrorsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+       * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
        */
       public Builder setPrintErrors(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (printErrorsBuilder_ == null) {
           printErrors_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+       * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
        */
-      public Builder mergePrintErrors(io.dstore.Values.booleanValue value) {
+      public Builder mergePrintErrors(io.dstore.values.BooleanValue value) {
         if (printErrorsBuilder_ == null) {
           if (printErrors_ != null) {
             printErrors_ =
-              io.dstore.Values.booleanValue.newBuilder(printErrors_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(printErrors_).mergeFrom(value).buildPartial();
           } else {
             printErrors_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+       * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
        */
       public Builder clearPrintErrors() {
         if (printErrorsBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+       * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getPrintErrorsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getPrintErrorsBuilder() {
         
         onChanged();
         return getPrintErrorsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+       * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getPrintErrorsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getPrintErrorsOrBuilder() {
         if (printErrorsBuilder_ != null) {
           return printErrorsBuilder_.getMessageOrBuilder();
         } else {
           return printErrors_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : printErrors_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : printErrors_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_errors = 6;</code>
+       * <code>optional .dstore.values.BooleanValue print_errors = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getPrintErrorsFieldBuilder() {
         if (printErrorsBuilder_ == null) {
           printErrorsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getPrintErrors(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue additionalInformation_ = null;
+      private io.dstore.values.BooleanValue additionalInformation_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> additionalInformationBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> additionalInformationBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
        */
       public boolean hasAdditionalInformation() {
         return additionalInformationBuilder_ != null || additionalInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
        */
-      public io.dstore.Values.booleanValue getAdditionalInformation() {
+      public io.dstore.values.BooleanValue getAdditionalInformation() {
         if (additionalInformationBuilder_ == null) {
-          return additionalInformation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : additionalInformation_;
+          return additionalInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : additionalInformation_;
         } else {
           return additionalInformationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
        */
-      public Builder setAdditionalInformation(io.dstore.Values.booleanValue value) {
+      public Builder setAdditionalInformation(io.dstore.values.BooleanValue value) {
         if (additionalInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
        */
       public Builder setAdditionalInformation(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (additionalInformationBuilder_ == null) {
           additionalInformation_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
        */
-      public Builder mergeAdditionalInformation(io.dstore.Values.booleanValue value) {
+      public Builder mergeAdditionalInformation(io.dstore.values.BooleanValue value) {
         if (additionalInformationBuilder_ == null) {
           if (additionalInformation_ != null) {
             additionalInformation_ =
-              io.dstore.Values.booleanValue.newBuilder(additionalInformation_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(additionalInformation_).mergeFrom(value).buildPartial();
           } else {
             additionalInformation_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
        */
       public Builder clearAdditionalInformation() {
         if (additionalInformationBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class CoDeleteInactiveMembersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getAdditionalInformationBuilder() {
+      public io.dstore.values.BooleanValue.Builder getAdditionalInformationBuilder() {
         
         onChanged();
         return getAdditionalInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getAdditionalInformationOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getAdditionalInformationOrBuilder() {
         if (additionalInformationBuilder_ != null) {
           return additionalInformationBuilder_.getMessageOrBuilder();
         } else {
           return additionalInformation_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : additionalInformation_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : additionalInformation_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue additional_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue additional_information = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getAdditionalInformationFieldBuilder() {
         if (additionalInformationBuilder_ == null) {
           additionalInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getAdditionalInformation(),
                   getParentForChildren(),
                   isClean());
@@ -2397,7 +2397,7 @@ public final class CoDeleteInactiveMembersAd {
        * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
        */
       boolean hasCommunityMemberId();
       /**
@@ -2405,24 +2405,24 @@ public final class CoDeleteInactiveMembersAd {
        * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getCommunityMemberId();
+      io.dstore.values.IntegerValue getCommunityMemberId();
       /**
        * <pre>
        * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
 
       /**
        * <pre>
        * Wann war das Mitglied "CommunityMemberID" zuletzt online
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
        */
       boolean hasLastLogin();
       /**
@@ -2430,24 +2430,24 @@ public final class CoDeleteInactiveMembersAd {
        * Wann war das Mitglied "CommunityMemberID" zuletzt online
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
        */
-      io.dstore.Values.timestampValue getLastLogin();
+      io.dstore.values.TimestampValue getLastLogin();
       /**
        * <pre>
        * Wann war das Mitglied "CommunityMemberID" zuletzt online
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getLastLoginOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getLastLoginOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+       * <code>optional .dstore.values.StringValue nickname = 10003;</code>
        */
       boolean hasNickname();
       /**
@@ -2455,24 +2455,24 @@ public final class CoDeleteInactiveMembersAd {
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+       * <code>optional .dstore.values.StringValue nickname = 10003;</code>
        */
-      io.dstore.Values.stringValue getNickname();
+      io.dstore.values.StringValue getNickname();
       /**
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+       * <code>optional .dstore.values.StringValue nickname = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getNicknameOrBuilder();
 
       /**
        * <pre>
        * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+       * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
        */
       boolean hasCreationDateAndTime();
       /**
@@ -2480,24 +2480,24 @@ public final class CoDeleteInactiveMembersAd {
        * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+       * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
        */
-      io.dstore.Values.timestampValue getCreationDateAndTime();
+      io.dstore.values.TimestampValue getCreationDateAndTime();
       /**
        * <pre>
        * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+       * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getCreationDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getCreationDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
        */
       boolean hasNumberOfPostings();
       /**
@@ -2505,17 +2505,17 @@ public final class CoDeleteInactiveMembersAd {
        * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
        */
-      io.dstore.Values.integerValue getNumberOfPostings();
+      io.dstore.values.IntegerValue getNumberOfPostings();
       /**
        * <pre>
        * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNumberOfPostingsOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNumberOfPostingsOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_DeleteInactiveMembers_Ad.Response.Row}
@@ -2563,11 +2563,11 @@ public final class CoDeleteInactiveMembersAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (communityMemberId_ != null) {
                   subBuilder = communityMemberId_.toBuilder();
                 }
-                communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                communityMemberId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityMemberId_);
                   communityMemberId_ = subBuilder.buildPartial();
@@ -2576,11 +2576,11 @@ public final class CoDeleteInactiveMembersAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (lastLogin_ != null) {
                   subBuilder = lastLogin_.toBuilder();
                 }
-                lastLogin_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                lastLogin_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastLogin_);
                   lastLogin_ = subBuilder.buildPartial();
@@ -2589,11 +2589,11 @@ public final class CoDeleteInactiveMembersAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (nickname_ != null) {
                   subBuilder = nickname_.toBuilder();
                 }
-                nickname_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                nickname_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nickname_);
                   nickname_ = subBuilder.buildPartial();
@@ -2602,11 +2602,11 @@ public final class CoDeleteInactiveMembersAd {
                 break;
               }
               case 160026: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (creationDateAndTime_ != null) {
                   subBuilder = creationDateAndTime_.toBuilder();
                 }
-                creationDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                creationDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(creationDateAndTime_);
                   creationDateAndTime_ = subBuilder.buildPartial();
@@ -2615,11 +2615,11 @@ public final class CoDeleteInactiveMembersAd {
                 break;
               }
               case 160034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (numberOfPostings_ != null) {
                   subBuilder = numberOfPostings_.toBuilder();
                 }
-                numberOfPostings_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                numberOfPostings_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfPostings_);
                   numberOfPostings_ = subBuilder.buildPartial();
@@ -2660,13 +2660,13 @@ public final class CoDeleteInactiveMembersAd {
       }
 
       public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue communityMemberId_;
+      private io.dstore.values.IntegerValue communityMemberId_;
       /**
        * <pre>
        * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberId_ != null;
@@ -2676,30 +2676,30 @@ public final class CoDeleteInactiveMembersAd {
        * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getCommunityMemberId() {
-        return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+      public io.dstore.values.IntegerValue getCommunityMemberId() {
+        return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
       }
       /**
        * <pre>
        * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         return getCommunityMemberId();
       }
 
       public static final int LAST_LOGIN_FIELD_NUMBER = 10002;
-      private io.dstore.Values.timestampValue lastLogin_;
+      private io.dstore.values.TimestampValue lastLogin_;
       /**
        * <pre>
        * Wann war das Mitglied "CommunityMemberID" zuletzt online
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
        */
       public boolean hasLastLogin() {
         return lastLogin_ != null;
@@ -2709,30 +2709,30 @@ public final class CoDeleteInactiveMembersAd {
        * Wann war das Mitglied "CommunityMemberID" zuletzt online
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
        */
-      public io.dstore.Values.timestampValue getLastLogin() {
-        return lastLogin_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastLogin_;
+      public io.dstore.values.TimestampValue getLastLogin() {
+        return lastLogin_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : lastLogin_;
       }
       /**
        * <pre>
        * Wann war das Mitglied "CommunityMemberID" zuletzt online
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getLastLoginOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getLastLoginOrBuilder() {
         return getLastLogin();
       }
 
       public static final int NICKNAME_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue nickname_;
+      private io.dstore.values.StringValue nickname_;
       /**
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+       * <code>optional .dstore.values.StringValue nickname = 10003;</code>
        */
       public boolean hasNickname() {
         return nickname_ != null;
@@ -2742,30 +2742,30 @@ public final class CoDeleteInactiveMembersAd {
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+       * <code>optional .dstore.values.StringValue nickname = 10003;</code>
        */
-      public io.dstore.Values.stringValue getNickname() {
-        return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
+      public io.dstore.values.StringValue getNickname() {
+        return nickname_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nickname_;
       }
       /**
        * <pre>
        * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+       * <code>optional .dstore.values.StringValue nickname = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNicknameOrBuilder() {
         return getNickname();
       }
 
       public static final int CREATION_DATE_AND_TIME_FIELD_NUMBER = 20003;
-      private io.dstore.Values.timestampValue creationDateAndTime_;
+      private io.dstore.values.TimestampValue creationDateAndTime_;
       /**
        * <pre>
        * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+       * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
        */
       public boolean hasCreationDateAndTime() {
         return creationDateAndTime_ != null;
@@ -2775,30 +2775,30 @@ public final class CoDeleteInactiveMembersAd {
        * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+       * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
        */
-      public io.dstore.Values.timestampValue getCreationDateAndTime() {
-        return creationDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : creationDateAndTime_;
+      public io.dstore.values.TimestampValue getCreationDateAndTime() {
+        return creationDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : creationDateAndTime_;
       }
       /**
        * <pre>
        * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+       * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getCreationDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getCreationDateAndTimeOrBuilder() {
         return getCreationDateAndTime();
       }
 
       public static final int NUMBER_OF_POSTINGS_FIELD_NUMBER = 20004;
-      private io.dstore.Values.integerValue numberOfPostings_;
+      private io.dstore.values.IntegerValue numberOfPostings_;
       /**
        * <pre>
        * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
        */
       public boolean hasNumberOfPostings() {
         return numberOfPostings_ != null;
@@ -2808,19 +2808,19 @@ public final class CoDeleteInactiveMembersAd {
        * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
        */
-      public io.dstore.Values.integerValue getNumberOfPostings() {
-        return numberOfPostings_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfPostings_;
+      public io.dstore.values.IntegerValue getNumberOfPostings() {
+        return numberOfPostings_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfPostings_;
       }
       /**
        * <pre>
        * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNumberOfPostingsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNumberOfPostingsOrBuilder() {
         return getNumberOfPostings();
       }
 
@@ -3269,15 +3269,15 @@ public final class CoDeleteInactiveMembersAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue communityMemberId_ = null;
+        private io.dstore.values.IntegerValue communityMemberId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
         /**
          * <pre>
          * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public boolean hasCommunityMemberId() {
           return communityMemberIdBuilder_ != null || communityMemberId_ != null;
@@ -3287,11 +3287,11 @@ public final class CoDeleteInactiveMembersAd {
          * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getCommunityMemberId() {
+        public io.dstore.values.IntegerValue getCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
-            return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+            return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
           } else {
             return communityMemberIdBuilder_.getMessage();
           }
@@ -3301,9 +3301,9 @@ public final class CoDeleteInactiveMembersAd {
          * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
          */
-        public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
+        public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
           if (communityMemberIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3321,10 +3321,10 @@ public final class CoDeleteInactiveMembersAd {
          * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public Builder setCommunityMemberId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (communityMemberIdBuilder_ == null) {
             communityMemberId_ = builderForValue.build();
             onChanged();
@@ -3339,13 +3339,13 @@ public final class CoDeleteInactiveMembersAd {
          * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
          */
-        public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
+        public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
           if (communityMemberIdBuilder_ == null) {
             if (communityMemberId_ != null) {
               communityMemberId_ =
-                io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
             } else {
               communityMemberId_ = value;
             }
@@ -3361,7 +3361,7 @@ public final class CoDeleteInactiveMembersAd {
          * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         public Builder clearCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -3379,9 +3379,9 @@ public final class CoDeleteInactiveMembersAd {
          * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
           
           onChanged();
           return getCommunityMemberIdFieldBuilder().getBuilder();
@@ -3391,14 +3391,14 @@ public final class CoDeleteInactiveMembersAd {
          * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
           if (communityMemberIdBuilder_ != null) {
             return communityMemberIdBuilder_.getMessageOrBuilder();
           } else {
             return communityMemberId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
           }
         }
         /**
@@ -3406,14 +3406,14 @@ public final class CoDeleteInactiveMembersAd {
          * ID eines Mitglieds der Community "&#64;CommunityID", das länger als "&#64;LastLoginXMonthAgo" Monate nicht mehr eingeloggt war bzw. zu dem keine "OnlineTime"-Statistiken mehr vorhanden sind.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCommunityMemberIdFieldBuilder() {
           if (communityMemberIdBuilder_ == null) {
             communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCommunityMemberId(),
                     getParentForChildren(),
                     isClean());
@@ -3422,15 +3422,15 @@ public final class CoDeleteInactiveMembersAd {
           return communityMemberIdBuilder_;
         }
 
-        private io.dstore.Values.timestampValue lastLogin_ = null;
+        private io.dstore.values.TimestampValue lastLogin_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastLoginBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> lastLoginBuilder_;
         /**
          * <pre>
          * Wann war das Mitglied "CommunityMemberID" zuletzt online
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
          */
         public boolean hasLastLogin() {
           return lastLoginBuilder_ != null || lastLogin_ != null;
@@ -3440,11 +3440,11 @@ public final class CoDeleteInactiveMembersAd {
          * Wann war das Mitglied "CommunityMemberID" zuletzt online
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
          */
-        public io.dstore.Values.timestampValue getLastLogin() {
+        public io.dstore.values.TimestampValue getLastLogin() {
           if (lastLoginBuilder_ == null) {
-            return lastLogin_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastLogin_;
+            return lastLogin_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : lastLogin_;
           } else {
             return lastLoginBuilder_.getMessage();
           }
@@ -3454,9 +3454,9 @@ public final class CoDeleteInactiveMembersAd {
          * Wann war das Mitglied "CommunityMemberID" zuletzt online
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
          */
-        public Builder setLastLogin(io.dstore.Values.timestampValue value) {
+        public Builder setLastLogin(io.dstore.values.TimestampValue value) {
           if (lastLoginBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3474,10 +3474,10 @@ public final class CoDeleteInactiveMembersAd {
          * Wann war das Mitglied "CommunityMemberID" zuletzt online
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
          */
         public Builder setLastLogin(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (lastLoginBuilder_ == null) {
             lastLogin_ = builderForValue.build();
             onChanged();
@@ -3492,13 +3492,13 @@ public final class CoDeleteInactiveMembersAd {
          * Wann war das Mitglied "CommunityMemberID" zuletzt online
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
          */
-        public Builder mergeLastLogin(io.dstore.Values.timestampValue value) {
+        public Builder mergeLastLogin(io.dstore.values.TimestampValue value) {
           if (lastLoginBuilder_ == null) {
             if (lastLogin_ != null) {
               lastLogin_ =
-                io.dstore.Values.timestampValue.newBuilder(lastLogin_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(lastLogin_).mergeFrom(value).buildPartial();
             } else {
               lastLogin_ = value;
             }
@@ -3514,7 +3514,7 @@ public final class CoDeleteInactiveMembersAd {
          * Wann war das Mitglied "CommunityMemberID" zuletzt online
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
          */
         public Builder clearLastLogin() {
           if (lastLoginBuilder_ == null) {
@@ -3532,9 +3532,9 @@ public final class CoDeleteInactiveMembersAd {
          * Wann war das Mitglied "CommunityMemberID" zuletzt online
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getLastLoginBuilder() {
+        public io.dstore.values.TimestampValue.Builder getLastLoginBuilder() {
           
           onChanged();
           return getLastLoginFieldBuilder().getBuilder();
@@ -3544,14 +3544,14 @@ public final class CoDeleteInactiveMembersAd {
          * Wann war das Mitglied "CommunityMemberID" zuletzt online
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getLastLoginOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getLastLoginOrBuilder() {
           if (lastLoginBuilder_ != null) {
             return lastLoginBuilder_.getMessageOrBuilder();
           } else {
             return lastLogin_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : lastLogin_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : lastLogin_;
           }
         }
         /**
@@ -3559,14 +3559,14 @@ public final class CoDeleteInactiveMembersAd {
          * Wann war das Mitglied "CommunityMemberID" zuletzt online
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_login = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue last_login = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getLastLoginFieldBuilder() {
           if (lastLoginBuilder_ == null) {
             lastLoginBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getLastLogin(),
                     getParentForChildren(),
                     isClean());
@@ -3575,15 +3575,15 @@ public final class CoDeleteInactiveMembersAd {
           return lastLoginBuilder_;
         }
 
-        private io.dstore.Values.stringValue nickname_ = null;
+        private io.dstore.values.StringValue nickname_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nicknameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nicknameBuilder_;
         /**
          * <pre>
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+         * <code>optional .dstore.values.StringValue nickname = 10003;</code>
          */
         public boolean hasNickname() {
           return nicknameBuilder_ != null || nickname_ != null;
@@ -3593,11 +3593,11 @@ public final class CoDeleteInactiveMembersAd {
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+         * <code>optional .dstore.values.StringValue nickname = 10003;</code>
          */
-        public io.dstore.Values.stringValue getNickname() {
+        public io.dstore.values.StringValue getNickname() {
           if (nicknameBuilder_ == null) {
-            return nickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
+            return nickname_ == null ? io.dstore.values.StringValue.getDefaultInstance() : nickname_;
           } else {
             return nicknameBuilder_.getMessage();
           }
@@ -3607,9 +3607,9 @@ public final class CoDeleteInactiveMembersAd {
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+         * <code>optional .dstore.values.StringValue nickname = 10003;</code>
          */
-        public Builder setNickname(io.dstore.Values.stringValue value) {
+        public Builder setNickname(io.dstore.values.StringValue value) {
           if (nicknameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3627,10 +3627,10 @@ public final class CoDeleteInactiveMembersAd {
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+         * <code>optional .dstore.values.StringValue nickname = 10003;</code>
          */
         public Builder setNickname(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (nicknameBuilder_ == null) {
             nickname_ = builderForValue.build();
             onChanged();
@@ -3645,13 +3645,13 @@ public final class CoDeleteInactiveMembersAd {
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+         * <code>optional .dstore.values.StringValue nickname = 10003;</code>
          */
-        public Builder mergeNickname(io.dstore.Values.stringValue value) {
+        public Builder mergeNickname(io.dstore.values.StringValue value) {
           if (nicknameBuilder_ == null) {
             if (nickname_ != null) {
               nickname_ =
-                io.dstore.Values.stringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(nickname_).mergeFrom(value).buildPartial();
             } else {
               nickname_ = value;
             }
@@ -3667,7 +3667,7 @@ public final class CoDeleteInactiveMembersAd {
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+         * <code>optional .dstore.values.StringValue nickname = 10003;</code>
          */
         public Builder clearNickname() {
           if (nicknameBuilder_ == null) {
@@ -3685,9 +3685,9 @@ public final class CoDeleteInactiveMembersAd {
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+         * <code>optional .dstore.values.StringValue nickname = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getNicknameBuilder() {
+        public io.dstore.values.StringValue.Builder getNicknameBuilder() {
           
           onChanged();
           return getNicknameFieldBuilder().getBuilder();
@@ -3697,14 +3697,14 @@ public final class CoDeleteInactiveMembersAd {
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+         * <code>optional .dstore.values.StringValue nickname = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getNicknameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getNicknameOrBuilder() {
           if (nicknameBuilder_ != null) {
             return nicknameBuilder_.getMessageOrBuilder();
           } else {
             return nickname_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : nickname_;
+                io.dstore.values.StringValue.getDefaultInstance() : nickname_;
           }
         }
         /**
@@ -3712,14 +3712,14 @@ public final class CoDeleteInactiveMembersAd {
          * Eigenschaft zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue nickname = 10003;</code>
+         * <code>optional .dstore.values.StringValue nickname = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getNicknameFieldBuilder() {
           if (nicknameBuilder_ == null) {
             nicknameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getNickname(),
                     getParentForChildren(),
                     isClean());
@@ -3728,15 +3728,15 @@ public final class CoDeleteInactiveMembersAd {
           return nicknameBuilder_;
         }
 
-        private io.dstore.Values.timestampValue creationDateAndTime_ = null;
+        private io.dstore.values.TimestampValue creationDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> creationDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> creationDateAndTimeBuilder_;
         /**
          * <pre>
          * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+         * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
          */
         public boolean hasCreationDateAndTime() {
           return creationDateAndTimeBuilder_ != null || creationDateAndTime_ != null;
@@ -3746,11 +3746,11 @@ public final class CoDeleteInactiveMembersAd {
          * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+         * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
          */
-        public io.dstore.Values.timestampValue getCreationDateAndTime() {
+        public io.dstore.values.TimestampValue getCreationDateAndTime() {
           if (creationDateAndTimeBuilder_ == null) {
-            return creationDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : creationDateAndTime_;
+            return creationDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : creationDateAndTime_;
           } else {
             return creationDateAndTimeBuilder_.getMessage();
           }
@@ -3760,9 +3760,9 @@ public final class CoDeleteInactiveMembersAd {
          * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+         * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
          */
-        public Builder setCreationDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setCreationDateAndTime(io.dstore.values.TimestampValue value) {
           if (creationDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3780,10 +3780,10 @@ public final class CoDeleteInactiveMembersAd {
          * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+         * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
          */
         public Builder setCreationDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (creationDateAndTimeBuilder_ == null) {
             creationDateAndTime_ = builderForValue.build();
             onChanged();
@@ -3798,13 +3798,13 @@ public final class CoDeleteInactiveMembersAd {
          * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+         * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
          */
-        public Builder mergeCreationDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeCreationDateAndTime(io.dstore.values.TimestampValue value) {
           if (creationDateAndTimeBuilder_ == null) {
             if (creationDateAndTime_ != null) {
               creationDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(creationDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(creationDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               creationDateAndTime_ = value;
             }
@@ -3820,7 +3820,7 @@ public final class CoDeleteInactiveMembersAd {
          * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+         * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
          */
         public Builder clearCreationDateAndTime() {
           if (creationDateAndTimeBuilder_ == null) {
@@ -3838,9 +3838,9 @@ public final class CoDeleteInactiveMembersAd {
          * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+         * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getCreationDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getCreationDateAndTimeBuilder() {
           
           onChanged();
           return getCreationDateAndTimeFieldBuilder().getBuilder();
@@ -3850,14 +3850,14 @@ public final class CoDeleteInactiveMembersAd {
          * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+         * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getCreationDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getCreationDateAndTimeOrBuilder() {
           if (creationDateAndTimeBuilder_ != null) {
             return creationDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return creationDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : creationDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : creationDateAndTime_;
           }
         }
         /**
@@ -3865,14 +3865,14 @@ public final class CoDeleteInactiveMembersAd {
          * Wann wurde die Person (das Mitglied) angelegt (nicht, wann wurde die Person Mitglied in der Community "&#64;CommuntiyID" !)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue creation_date_and_time = 20003;</code>
+         * <code>optional .dstore.values.TimestampValue creation_date_and_time = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getCreationDateAndTimeFieldBuilder() {
           if (creationDateAndTimeBuilder_ == null) {
             creationDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getCreationDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -3881,15 +3881,15 @@ public final class CoDeleteInactiveMembersAd {
           return creationDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue numberOfPostings_ = null;
+        private io.dstore.values.IntegerValue numberOfPostings_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfPostingsBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfPostingsBuilder_;
         /**
          * <pre>
          * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
          */
         public boolean hasNumberOfPostings() {
           return numberOfPostingsBuilder_ != null || numberOfPostings_ != null;
@@ -3899,11 +3899,11 @@ public final class CoDeleteInactiveMembersAd {
          * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
          */
-        public io.dstore.Values.integerValue getNumberOfPostings() {
+        public io.dstore.values.IntegerValue getNumberOfPostings() {
           if (numberOfPostingsBuilder_ == null) {
-            return numberOfPostings_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfPostings_;
+            return numberOfPostings_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfPostings_;
           } else {
             return numberOfPostingsBuilder_.getMessage();
           }
@@ -3913,9 +3913,9 @@ public final class CoDeleteInactiveMembersAd {
          * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
          */
-        public Builder setNumberOfPostings(io.dstore.Values.integerValue value) {
+        public Builder setNumberOfPostings(io.dstore.values.IntegerValue value) {
           if (numberOfPostingsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3933,10 +3933,10 @@ public final class CoDeleteInactiveMembersAd {
          * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
          */
         public Builder setNumberOfPostings(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (numberOfPostingsBuilder_ == null) {
             numberOfPostings_ = builderForValue.build();
             onChanged();
@@ -3951,13 +3951,13 @@ public final class CoDeleteInactiveMembersAd {
          * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
          */
-        public Builder mergeNumberOfPostings(io.dstore.Values.integerValue value) {
+        public Builder mergeNumberOfPostings(io.dstore.values.IntegerValue value) {
           if (numberOfPostingsBuilder_ == null) {
             if (numberOfPostings_ != null) {
               numberOfPostings_ =
-                io.dstore.Values.integerValue.newBuilder(numberOfPostings_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(numberOfPostings_).mergeFrom(value).buildPartial();
             } else {
               numberOfPostings_ = value;
             }
@@ -3973,7 +3973,7 @@ public final class CoDeleteInactiveMembersAd {
          * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
          */
         public Builder clearNumberOfPostings() {
           if (numberOfPostingsBuilder_ == null) {
@@ -3991,9 +3991,9 @@ public final class CoDeleteInactiveMembersAd {
          * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNumberOfPostingsBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNumberOfPostingsBuilder() {
           
           onChanged();
           return getNumberOfPostingsFieldBuilder().getBuilder();
@@ -4003,14 +4003,14 @@ public final class CoDeleteInactiveMembersAd {
          * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNumberOfPostingsOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNumberOfPostingsOrBuilder() {
           if (numberOfPostingsBuilder_ != null) {
             return numberOfPostingsBuilder_.getMessageOrBuilder();
           } else {
             return numberOfPostings_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : numberOfPostings_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : numberOfPostings_;
           }
         }
         /**
@@ -4018,14 +4018,14 @@ public final class CoDeleteInactiveMembersAd {
          * Anzahl aller NICHT-GELÖSCHTEN Beiträge des Mitglieds
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_postings = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_postings = 20004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNumberOfPostingsFieldBuilder() {
           if (numberOfPostingsBuilder_ == null) {
             numberOfPostingsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNumberOfPostings(),
                     getParentForChildren(),
                     isClean());
@@ -5495,22 +5495,22 @@ public final class CoDeleteInactiveMembersAd {
       "eleteInactiveMembers_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\307\005\n\nPar" +
       "ameters\0221\n\014community_id\030\001 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\032\n\021community_id_null\030" +
+      "alues.IntegerValue\022\032\n\021community_id_null\030" +
       "\351\007 \001(\010\022;\n\026last_login_x_month_ago\030\002 \001(\0132\033" +
-      ".dstore.values.integerValue\022$\n\033last_logi" +
+      ".dstore.values.IntegerValue\022$\n\033last_logi" +
       "n_x_month_ago_null\030\352\007 \001(\010\022?\n\032do_not_dele" +
-      "te_but_log_only\030\003 \001(\0132\033.dstore.values.bo",
+      "te_but_log_only\030\003 \001(\0132\033.dstore.values.Bo",
       "oleanValue\022(\n\037do_not_delete_but_log_only" +
       "_null\030\353\007 \001(\010\022E\n only_members_without_log" +
-      "in_stats\030\004 \001(\0132\033.dstore.values.booleanVa" +
+      "in_stats\030\004 \001(\0132\033.dstore.values.BooleanVa" +
       "lue\022.\n%only_members_without_login_stats_" +
       "null\030\354\007 \001(\010\022D\n\037max_number_of_members_to_" +
-      "delete\030\005 \001(\0132\033.dstore.values.integerValu" +
+      "delete\030\005 \001(\0132\033.dstore.values.IntegerValu" +
       "e\022-\n$max_number_of_members_to_delete_nul" +
       "l\030\355\007 \001(\010\0221\n\014print_errors\030\006 \001(\0132\033.dstore." +
-      "values.booleanValue\022\032\n\021print_errors_null" +
+      "values.BooleanValue\022\032\n\021print_errors_null" +
       "\030\356\007 \001(\010\022;\n\026additional_information\030\007 \001(\0132",
-      "\033.dstore.values.booleanValue\022$\n\033addition" +
+      "\033.dstore.values.BooleanValue\022$\n\033addition" +
       "al_information_null\030\357\007 \001(\010\"\346\003\n\010Response\022" +
       "8\n\020meta_information\030\002 \003(\0132\036.dstore.engin" +
       "e.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dst" +
@@ -5518,12 +5518,12 @@ public final class CoDeleteInactiveMembersAd {
       ".engine.co_DeleteInactiveMembers_Ad.Resp" +
       "onse.Row\032\260\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0229\n\023com" +
       "munity_member_id\030\221N \001(\0132\033.dstore.values." +
-      "integerValue\0222\n\nlast_login\030\222N \001(\0132\035.dsto" +
-      "re.values.timestampValue\022-\n\010nickname\030\223N ",
-      "\001(\0132\032.dstore.values.stringValue\022?\n\026creat" +
+      "IntegerValue\0222\n\nlast_login\030\222N \001(\0132\035.dsto" +
+      "re.values.TimestampValue\022-\n\010nickname\030\223N ",
+      "\001(\0132\032.dstore.values.StringValue\022?\n\026creat" +
       "ion_date_and_time\030\243\234\001 \001(\0132\035.dstore.value" +
-      "s.timestampValue\0229\n\022number_of_postings\030\244" +
-      "\234\001 \001(\0132\033.dstore.values.integerValueB\\\n\033i" +
+      "s.TimestampValue\0229\n\022number_of_postings\030\244" +
+      "\234\001 \001(\0132\033.dstore.values.IntegerValueB\\\n\033i" +
       "o.dstore.engine.proceduresZ=gosdk.dstore" +
       ".de/engine/procedures/co_DeleteInactiveM" +
       "embers_Adb\006proto3"
@@ -5539,7 +5539,7 @@ public final class CoDeleteInactiveMembersAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Parameters_descriptor =
@@ -5560,7 +5560,7 @@ public final class CoDeleteInactiveMembersAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_DeleteInactiveMembers_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CommunityMemberId", "LastLogin", "Nickname", "CreationDateAndTime", "NumberOfPostings", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

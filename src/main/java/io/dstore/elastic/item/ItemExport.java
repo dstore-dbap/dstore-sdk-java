@@ -2348,16 +2348,16 @@ public final class ItemExport {
       "\n%dstore/elastic/item/item_export.proto\022" +
       "\037dstore.elastic.item.item_export\032\034dstore" +
       "/elastic/elastic.proto\032\036dstore/elastic/i" +
-      "tem/item.proto\032\023dstore/values.proto\"\265\001\n\007" +
-      "Request\022(\n\005query\030\001 \001(\0132\031.dstore.elastic." +
-      "BoolQuery\022\036\n\026only_matching_variants\030\002 \001(" +
-      "\010\022\035\n\025include_field_pattern\030\005 \003(\t\022\035\n\025excl" +
-      "ude_field_pattern\030\006 \003(\t\022\"\n\004sort\030\n \003(\0132\024." +
-      "dstore.elastic.Sort\"j\n\010Response\022\022\n\ntotal" +
-      "_hits\030\001 \001(\005\022,\n\004item\030\002 \003(\0132\036.dstore.elast",
-      "ic.item.item.Item\022\034\n\024elastic_query_strin" +
-      "g\030\003 \001(\tB=\n\026io.dstore.elastic.itemZ#gosdk" +
-      ".dstore.de/elastic/item/exportb\006proto3"
+      "tem/item.proto\"\265\001\n\007Request\022(\n\005query\030\001 \001(" +
+      "\0132\031.dstore.elastic.BoolQuery\022\036\n\026only_mat" +
+      "ching_variants\030\002 \001(\010\022\035\n\025include_field_pa" +
+      "ttern\030\005 \003(\t\022\035\n\025exclude_field_pattern\030\006 \003" +
+      "(\t\022\"\n\004sort\030\n \003(\0132\024.dstore.elastic.Sort\"j" +
+      "\n\010Response\022\022\n\ntotal_hits\030\001 \001(\005\022,\n\004item\030\002" +
+      " \003(\0132\036.dstore.elastic.item.item.Item\022\034\n\024",
+      "elastic_query_string\030\003 \001(\tB=\n\026io.dstore." +
+      "elastic.itemZ#gosdk.dstore.de/elastic/it" +
+      "em/exportb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2372,7 +2372,6 @@ public final class ItemExport {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.elastic.ElasticOuterClass.getDescriptor(),
           io.dstore.elastic.item.ItemOuterClass.getDescriptor(),
-          io.dstore.Values.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_item_item_export_Request_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2388,7 +2387,6 @@ public final class ItemExport {
         new java.lang.String[] { "TotalHits", "Item", "ElasticQueryString", });
     io.dstore.elastic.ElasticOuterClass.getDescriptor();
     io.dstore.elastic.item.ItemOuterClass.getDescriptor();
-    io.dstore.Values.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

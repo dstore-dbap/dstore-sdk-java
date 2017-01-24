@@ -1766,25 +1766,25 @@ public final class Procedure {
      * Use {@link #getOutputParametersMap()} instead.
      */
     @java.lang.Deprecated
-    java.util.Map<java.lang.String, io.dstore.Values.Value>
+    java.util.Map<java.lang.String, io.dstore.values.Value>
     getOutputParameters();
     /**
      * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
      */
-    java.util.Map<java.lang.String, io.dstore.Values.Value>
+    java.util.Map<java.lang.String, io.dstore.values.Value>
     getOutputParametersMap();
     /**
      * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
      */
 
-    io.dstore.Values.Value getOutputParametersOrDefault(
+    io.dstore.values.Value getOutputParametersOrDefault(
         java.lang.String key,
-        io.dstore.Values.Value defaultValue);
+        io.dstore.values.Value defaultValue);
     /**
      * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
      */
 
-    io.dstore.Values.Value getOutputParametersOrThrow(
+    io.dstore.values.Value getOutputParametersOrThrow(
         java.lang.String key);
 
     /**
@@ -1883,7 +1883,7 @@ public final class Procedure {
                     OutputParametersDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000008;
               }
-              com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
+              com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
               outputParameters = input.readMessage(
                   OutputParametersDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               outputParameters_.getMutableMap().put(outputParameters.getKey(), outputParameters.getValue());
@@ -1971,7 +1971,7 @@ public final class Procedure {
        * Use {@link #getColumnsMap()} instead.
        */
       @java.lang.Deprecated
-      java.util.Map<java.lang.String, io.dstore.Values.Value>
+      java.util.Map<java.lang.String, io.dstore.values.Value>
       getColumns();
       /**
        * <pre>
@@ -1980,7 +1980,7 @@ public final class Procedure {
        *
        * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
        */
-      java.util.Map<java.lang.String, io.dstore.Values.Value>
+      java.util.Map<java.lang.String, io.dstore.values.Value>
       getColumnsMap();
       /**
        * <pre>
@@ -1990,9 +1990,9 @@ public final class Procedure {
        * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
        */
 
-      io.dstore.Values.Value getColumnsOrDefault(
+      io.dstore.values.Value getColumnsOrDefault(
           java.lang.String key,
-          io.dstore.Values.Value defaultValue);
+          io.dstore.values.Value defaultValue);
       /**
        * <pre>
        * a map of column names to values
@@ -2001,7 +2001,7 @@ public final class Procedure {
        * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
        */
 
-      io.dstore.Values.Value getColumnsOrThrow(
+      io.dstore.values.Value getColumnsOrThrow(
           java.lang.String key);
     }
     /**
@@ -2055,7 +2055,7 @@ public final class Procedure {
                       ColumnsDefaultEntryHolder.defaultEntry);
                   mutable_bitField0_ |= 0x00000002;
                 }
-                com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
+                com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
                 columns = input.readMessage(
                     ColumnsDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
                 columns_.getMutableMap().put(columns.getKey(), columns.getValue());
@@ -2108,18 +2108,18 @@ public final class Procedure {
       public static final int COLUMNS_FIELD_NUMBER = 2;
       private static final class ColumnsDefaultEntryHolder {
         static final com.google.protobuf.MapEntry<
-            java.lang.String, io.dstore.Values.Value> defaultEntry =
+            java.lang.String, io.dstore.values.Value> defaultEntry =
                 com.google.protobuf.MapEntry
-                .<java.lang.String, io.dstore.Values.Value>newDefaultInstance(
+                .<java.lang.String, io.dstore.values.Value>newDefaultInstance(
                     io.dstore.engine.Procedure.internal_static_dstore_engine_procedure_Response_Row_ColumnsEntry_descriptor, 
                     com.google.protobuf.WireFormat.FieldType.STRING,
                     "",
                     com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                    io.dstore.Values.Value.getDefaultInstance());
+                    io.dstore.values.Value.getDefaultInstance());
       }
       private com.google.protobuf.MapField<
-          java.lang.String, io.dstore.Values.Value> columns_;
-      private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
+          java.lang.String, io.dstore.values.Value> columns_;
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.values.Value>
       internalGetColumns() {
         if (columns_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
@@ -2148,7 +2148,7 @@ public final class Procedure {
        * Use {@link #getColumnsMap()} instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.String, io.dstore.Values.Value> getColumns() {
+      public java.util.Map<java.lang.String, io.dstore.values.Value> getColumns() {
         return getColumnsMap();
       }
       /**
@@ -2159,7 +2159,7 @@ public final class Procedure {
        * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
        */
 
-      public java.util.Map<java.lang.String, io.dstore.Values.Value> getColumnsMap() {
+      public java.util.Map<java.lang.String, io.dstore.values.Value> getColumnsMap() {
         return internalGetColumns().getMap();
       }
       /**
@@ -2170,11 +2170,11 @@ public final class Procedure {
        * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
        */
 
-      public io.dstore.Values.Value getColumnsOrDefault(
+      public io.dstore.values.Value getColumnsOrDefault(
           java.lang.String key,
-          io.dstore.Values.Value defaultValue) {
+          io.dstore.values.Value defaultValue) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        java.util.Map<java.lang.String, io.dstore.Values.Value> map =
+        java.util.Map<java.lang.String, io.dstore.values.Value> map =
             internalGetColumns().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
@@ -2186,10 +2186,10 @@ public final class Procedure {
        * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
        */
 
-      public io.dstore.Values.Value getColumnsOrThrow(
+      public io.dstore.values.Value getColumnsOrThrow(
           java.lang.String key) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        java.util.Map<java.lang.String, io.dstore.Values.Value> map =
+        java.util.Map<java.lang.String, io.dstore.values.Value> map =
             internalGetColumns().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
@@ -2212,9 +2212,9 @@ public final class Procedure {
         if (rowId_ != 0) {
           output.writeInt32(1, rowId_);
         }
-        for (java.util.Map.Entry<java.lang.String, io.dstore.Values.Value> entry
+        for (java.util.Map.Entry<java.lang.String, io.dstore.values.Value> entry
              : internalGetColumns().getMap().entrySet()) {
-          com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
+          com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
           columns = ColumnsDefaultEntryHolder.defaultEntry.newBuilderForType()
               .setKey(entry.getKey())
               .setValue(entry.getValue())
@@ -2232,9 +2232,9 @@ public final class Procedure {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(1, rowId_);
         }
-        for (java.util.Map.Entry<java.lang.String, io.dstore.Values.Value> entry
+        for (java.util.Map.Entry<java.lang.String, io.dstore.values.Value> entry
              : internalGetColumns().getMap().entrySet()) {
-          com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
+          com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
           columns = ColumnsDefaultEntryHolder.defaultEntry.newBuilderForType()
               .setKey(entry.getKey())
               .setValue(entry.getValue())
@@ -2549,8 +2549,8 @@ public final class Procedure {
         }
 
         private com.google.protobuf.MapField<
-            java.lang.String, io.dstore.Values.Value> columns_;
-        private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
+            java.lang.String, io.dstore.values.Value> columns_;
+        private com.google.protobuf.MapField<java.lang.String, io.dstore.values.Value>
         internalGetColumns() {
           if (columns_ == null) {
             return com.google.protobuf.MapField.emptyMapField(
@@ -2558,7 +2558,7 @@ public final class Procedure {
           }
           return columns_;
         }
-        private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
+        private com.google.protobuf.MapField<java.lang.String, io.dstore.values.Value>
         internalGetMutableColumns() {
           onChanged();;
           if (columns_ == null) {
@@ -2591,7 +2591,7 @@ public final class Procedure {
          * Use {@link #getColumnsMap()} instead.
          */
         @java.lang.Deprecated
-        public java.util.Map<java.lang.String, io.dstore.Values.Value> getColumns() {
+        public java.util.Map<java.lang.String, io.dstore.values.Value> getColumns() {
           return getColumnsMap();
         }
         /**
@@ -2602,7 +2602,7 @@ public final class Procedure {
          * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
          */
 
-        public java.util.Map<java.lang.String, io.dstore.Values.Value> getColumnsMap() {
+        public java.util.Map<java.lang.String, io.dstore.values.Value> getColumnsMap() {
           return internalGetColumns().getMap();
         }
         /**
@@ -2613,11 +2613,11 @@ public final class Procedure {
          * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
          */
 
-        public io.dstore.Values.Value getColumnsOrDefault(
+        public io.dstore.values.Value getColumnsOrDefault(
             java.lang.String key,
-            io.dstore.Values.Value defaultValue) {
+            io.dstore.values.Value defaultValue) {
           if (key == null) { throw new java.lang.NullPointerException(); }
-          java.util.Map<java.lang.String, io.dstore.Values.Value> map =
+          java.util.Map<java.lang.String, io.dstore.values.Value> map =
               internalGetColumns().getMap();
           return map.containsKey(key) ? map.get(key) : defaultValue;
         }
@@ -2629,10 +2629,10 @@ public final class Procedure {
          * <code>map&lt;string, .dstore.values.Value&gt; columns = 2;</code>
          */
 
-        public io.dstore.Values.Value getColumnsOrThrow(
+        public io.dstore.values.Value getColumnsOrThrow(
             java.lang.String key) {
           if (key == null) { throw new java.lang.NullPointerException(); }
-          java.util.Map<java.lang.String, io.dstore.Values.Value> map =
+          java.util.Map<java.lang.String, io.dstore.values.Value> map =
               internalGetColumns().getMap();
           if (!map.containsKey(key)) {
             throw new java.lang.IllegalArgumentException();
@@ -2662,7 +2662,7 @@ public final class Procedure {
          * Use alternate mutation accessors instead.
          */
         @java.lang.Deprecated
-        public java.util.Map<java.lang.String, io.dstore.Values.Value>
+        public java.util.Map<java.lang.String, io.dstore.values.Value>
         getMutableColumns() {
           return internalGetMutableColumns().getMutableMap();
         }
@@ -2675,7 +2675,7 @@ public final class Procedure {
          */
         public Builder putColumns(
             java.lang.String key,
-            io.dstore.Values.Value value) {
+            io.dstore.values.Value value) {
           if (key == null) { throw new java.lang.NullPointerException(); }
           if (value == null) { throw new java.lang.NullPointerException(); }
           getMutableColumns().put(key, value);
@@ -2690,7 +2690,7 @@ public final class Procedure {
          */
 
         public Builder putAllColumns(
-            java.util.Map<java.lang.String, io.dstore.Values.Value> values) {
+            java.util.Map<java.lang.String, io.dstore.values.Value> values) {
           getMutableColumns().putAll(values);
           return this;
         }
@@ -2826,18 +2826,18 @@ public final class Procedure {
     public static final int OUTPUT_PARAMETERS_FIELD_NUMBER = 6;
     private static final class OutputParametersDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
-          java.lang.String, io.dstore.Values.Value> defaultEntry =
+          java.lang.String, io.dstore.values.Value> defaultEntry =
               com.google.protobuf.MapEntry
-              .<java.lang.String, io.dstore.Values.Value>newDefaultInstance(
+              .<java.lang.String, io.dstore.values.Value>newDefaultInstance(
                   io.dstore.engine.Procedure.internal_static_dstore_engine_procedure_Response_OutputParametersEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  io.dstore.Values.Value.getDefaultInstance());
+                  io.dstore.values.Value.getDefaultInstance());
     }
     private com.google.protobuf.MapField<
-        java.lang.String, io.dstore.Values.Value> outputParameters_;
-    private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
+        java.lang.String, io.dstore.values.Value> outputParameters_;
+    private com.google.protobuf.MapField<java.lang.String, io.dstore.values.Value>
     internalGetOutputParameters() {
       if (outputParameters_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
@@ -2862,25 +2862,25 @@ public final class Procedure {
      * Use {@link #getOutputParametersMap()} instead.
      */
     @java.lang.Deprecated
-    public java.util.Map<java.lang.String, io.dstore.Values.Value> getOutputParameters() {
+    public java.util.Map<java.lang.String, io.dstore.values.Value> getOutputParameters() {
       return getOutputParametersMap();
     }
     /**
      * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
      */
 
-    public java.util.Map<java.lang.String, io.dstore.Values.Value> getOutputParametersMap() {
+    public java.util.Map<java.lang.String, io.dstore.values.Value> getOutputParametersMap() {
       return internalGetOutputParameters().getMap();
     }
     /**
      * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
      */
 
-    public io.dstore.Values.Value getOutputParametersOrDefault(
+    public io.dstore.values.Value getOutputParametersOrDefault(
         java.lang.String key,
-        io.dstore.Values.Value defaultValue) {
+        io.dstore.values.Value defaultValue) {
       if (key == null) { throw new java.lang.NullPointerException(); }
-      java.util.Map<java.lang.String, io.dstore.Values.Value> map =
+      java.util.Map<java.lang.String, io.dstore.values.Value> map =
           internalGetOutputParameters().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
@@ -2888,10 +2888,10 @@ public final class Procedure {
      * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
      */
 
-    public io.dstore.Values.Value getOutputParametersOrThrow(
+    public io.dstore.values.Value getOutputParametersOrThrow(
         java.lang.String key) {
       if (key == null) { throw new java.lang.NullPointerException(); }
-      java.util.Map<java.lang.String, io.dstore.Values.Value> map =
+      java.util.Map<java.lang.String, io.dstore.values.Value> map =
           internalGetOutputParameters().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
@@ -2955,9 +2955,9 @@ public final class Procedure {
       for (int i = 0; i < row_.size(); i++) {
         output.writeMessage(5, row_.get(i));
       }
-      for (java.util.Map.Entry<java.lang.String, io.dstore.Values.Value> entry
+      for (java.util.Map.Entry<java.lang.String, io.dstore.values.Value> entry
            : internalGetOutputParameters().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
+        com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
         outputParameters = OutputParametersDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
@@ -2986,9 +2986,9 @@ public final class Procedure {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, row_.get(i));
       }
-      for (java.util.Map.Entry<java.lang.String, io.dstore.Values.Value> entry
+      for (java.util.Map.Entry<java.lang.String, io.dstore.values.Value> entry
            : internalGetOutputParameters().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, io.dstore.Values.Value>
+        com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
         outputParameters = OutputParametersDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
@@ -3931,8 +3931,8 @@ public final class Procedure {
       }
 
       private com.google.protobuf.MapField<
-          java.lang.String, io.dstore.Values.Value> outputParameters_;
-      private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
+          java.lang.String, io.dstore.values.Value> outputParameters_;
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.values.Value>
       internalGetOutputParameters() {
         if (outputParameters_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
@@ -3940,7 +3940,7 @@ public final class Procedure {
         }
         return outputParameters_;
       }
-      private com.google.protobuf.MapField<java.lang.String, io.dstore.Values.Value>
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.values.Value>
       internalGetMutableOutputParameters() {
         onChanged();;
         if (outputParameters_ == null) {
@@ -3969,25 +3969,25 @@ public final class Procedure {
        * Use {@link #getOutputParametersMap()} instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.String, io.dstore.Values.Value> getOutputParameters() {
+      public java.util.Map<java.lang.String, io.dstore.values.Value> getOutputParameters() {
         return getOutputParametersMap();
       }
       /**
        * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
        */
 
-      public java.util.Map<java.lang.String, io.dstore.Values.Value> getOutputParametersMap() {
+      public java.util.Map<java.lang.String, io.dstore.values.Value> getOutputParametersMap() {
         return internalGetOutputParameters().getMap();
       }
       /**
        * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
        */
 
-      public io.dstore.Values.Value getOutputParametersOrDefault(
+      public io.dstore.values.Value getOutputParametersOrDefault(
           java.lang.String key,
-          io.dstore.Values.Value defaultValue) {
+          io.dstore.values.Value defaultValue) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        java.util.Map<java.lang.String, io.dstore.Values.Value> map =
+        java.util.Map<java.lang.String, io.dstore.values.Value> map =
             internalGetOutputParameters().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
@@ -3995,10 +3995,10 @@ public final class Procedure {
        * <code>map&lt;string, .dstore.values.Value&gt; output_parameters = 6;</code>
        */
 
-      public io.dstore.Values.Value getOutputParametersOrThrow(
+      public io.dstore.values.Value getOutputParametersOrThrow(
           java.lang.String key) {
         if (key == null) { throw new java.lang.NullPointerException(); }
-        java.util.Map<java.lang.String, io.dstore.Values.Value> map =
+        java.util.Map<java.lang.String, io.dstore.values.Value> map =
             internalGetOutputParameters().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
@@ -4024,7 +4024,7 @@ public final class Procedure {
        * Use alternate mutation accessors instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.String, io.dstore.Values.Value>
+      public java.util.Map<java.lang.String, io.dstore.values.Value>
       getMutableOutputParameters() {
         return internalGetMutableOutputParameters().getMutableMap();
       }
@@ -4033,7 +4033,7 @@ public final class Procedure {
        */
       public Builder putOutputParameters(
           java.lang.String key,
-          io.dstore.Values.Value value) {
+          io.dstore.values.Value value) {
         if (key == null) { throw new java.lang.NullPointerException(); }
         if (value == null) { throw new java.lang.NullPointerException(); }
         getMutableOutputParameters().put(key, value);
@@ -4044,7 +4044,7 @@ public final class Procedure {
        */
 
       public Builder putAllOutputParameters(
-          java.util.Map<java.lang.String, io.dstore.Values.Value> values) {
+          java.util.Map<java.lang.String, io.dstore.values.Value> values) {
         getMutableOutputParameters().putAll(values);
         return this;
       }
@@ -4409,7 +4409,7 @@ public final class Procedure {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_procedure_Call_descriptor =
@@ -4448,7 +4448,7 @@ public final class Procedure {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_procedure_Response_Row_ColumnsEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

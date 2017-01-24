@@ -19,17 +19,17 @@ public final class MiModifyLanguageDescrAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyLanguageDescrAd {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
      */
     boolean hasTranslationLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
      */
-    io.dstore.Values.integerValue getTranslationLanguageId();
+    io.dstore.values.IntegerValue getTranslationLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTranslationLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTranslationLanguageIdOrBuilder();
 
     /**
      * <code>optional bool translation_language_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyLanguageDescrAd {
     boolean getTranslationLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue language_name = 3;</code>
+     * <code>optional .dstore.values.StringValue language_name = 3;</code>
      */
     boolean hasLanguageName();
     /**
-     * <code>optional .dstore.values.stringValue language_name = 3;</code>
+     * <code>optional .dstore.values.StringValue language_name = 3;</code>
      */
-    io.dstore.Values.stringValue getLanguageName();
+    io.dstore.values.StringValue getLanguageName();
     /**
-     * <code>optional .dstore.values.stringValue language_name = 3;</code>
+     * <code>optional .dstore.values.StringValue language_name = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getLanguageNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getLanguageNameOrBuilder();
 
     /**
      * <code>optional bool language_name_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiModifyLanguageDescrAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiModifyLanguageDescrAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (translationLanguageId_ != null) {
                 subBuilder = translationLanguageId_.toBuilder();
               }
-              translationLanguageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              translationLanguageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(translationLanguageId_);
                 translationLanguageId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiModifyLanguageDescrAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (languageName_ != null) {
                 subBuilder = languageName_.toBuilder();
               }
-              languageName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              languageName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageName_);
                 languageName_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiModifyLanguageDescrAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -222,23 +222,23 @@ public final class MiModifyLanguageDescrAd {
     }
 
     public static final int TRANSLATION_LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue translationLanguageId_;
+    private io.dstore.values.IntegerValue translationLanguageId_;
     /**
-     * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
      */
     public boolean hasTranslationLanguageId() {
       return translationLanguageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getTranslationLanguageId() {
-      return translationLanguageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : translationLanguageId_;
+    public io.dstore.values.IntegerValue getTranslationLanguageId() {
+      return translationLanguageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : translationLanguageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTranslationLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTranslationLanguageIdOrBuilder() {
       return getTranslationLanguageId();
     }
 
@@ -252,23 +252,23 @@ public final class MiModifyLanguageDescrAd {
     }
 
     public static final int LANGUAGE_NAME_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue languageName_;
+    private io.dstore.values.StringValue languageName_;
     /**
-     * <code>optional .dstore.values.stringValue language_name = 3;</code>
+     * <code>optional .dstore.values.StringValue language_name = 3;</code>
      */
     public boolean hasLanguageName() {
       return languageName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue language_name = 3;</code>
+     * <code>optional .dstore.values.StringValue language_name = 3;</code>
      */
-    public io.dstore.Values.stringValue getLanguageName() {
-      return languageName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageName_;
+    public io.dstore.values.StringValue getLanguageName() {
+      return languageName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : languageName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue language_name = 3;</code>
+     * <code>optional .dstore.values.StringValue language_name = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getLanguageNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getLanguageNameOrBuilder() {
       return getLanguageName();
     }
 
@@ -677,29 +677,29 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue translationLanguageId_ = null;
+      private io.dstore.values.IntegerValue translationLanguageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> translationLanguageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> translationLanguageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
        */
       public boolean hasTranslationLanguageId() {
         return translationLanguageIdBuilder_ != null || translationLanguageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getTranslationLanguageId() {
+      public io.dstore.values.IntegerValue getTranslationLanguageId() {
         if (translationLanguageIdBuilder_ == null) {
-          return translationLanguageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : translationLanguageId_;
+          return translationLanguageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : translationLanguageId_;
         } else {
           return translationLanguageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
        */
-      public Builder setTranslationLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setTranslationLanguageId(io.dstore.values.IntegerValue value) {
         if (translationLanguageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
        */
       public Builder setTranslationLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (translationLanguageIdBuilder_ == null) {
           translationLanguageId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
        */
-      public Builder mergeTranslationLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeTranslationLanguageId(io.dstore.values.IntegerValue value) {
         if (translationLanguageIdBuilder_ == null) {
           if (translationLanguageId_ != null) {
             translationLanguageId_ =
-              io.dstore.Values.integerValue.newBuilder(translationLanguageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(translationLanguageId_).mergeFrom(value).buildPartial();
           } else {
             translationLanguageId_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
        */
       public Builder clearTranslationLanguageId() {
         if (translationLanguageIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTranslationLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTranslationLanguageIdBuilder() {
         
         onChanged();
         return getTranslationLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTranslationLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTranslationLanguageIdOrBuilder() {
         if (translationLanguageIdBuilder_ != null) {
           return translationLanguageIdBuilder_.getMessageOrBuilder();
         } else {
           return translationLanguageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : translationLanguageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : translationLanguageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue translation_language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue translation_language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTranslationLanguageIdFieldBuilder() {
         if (translationLanguageIdBuilder_ == null) {
           translationLanguageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTranslationLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue languageName_ = null;
+      private io.dstore.values.StringValue languageName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> languageNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue language_name = 3;</code>
+       * <code>optional .dstore.values.StringValue language_name = 3;</code>
        */
       public boolean hasLanguageName() {
         return languageNameBuilder_ != null || languageName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue language_name = 3;</code>
+       * <code>optional .dstore.values.StringValue language_name = 3;</code>
        */
-      public io.dstore.Values.stringValue getLanguageName() {
+      public io.dstore.values.StringValue getLanguageName() {
         if (languageNameBuilder_ == null) {
-          return languageName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : languageName_;
+          return languageName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : languageName_;
         } else {
           return languageNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue language_name = 3;</code>
+       * <code>optional .dstore.values.StringValue language_name = 3;</code>
        */
-      public Builder setLanguageName(io.dstore.Values.stringValue value) {
+      public Builder setLanguageName(io.dstore.values.StringValue value) {
         if (languageNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue language_name = 3;</code>
+       * <code>optional .dstore.values.StringValue language_name = 3;</code>
        */
       public Builder setLanguageName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (languageNameBuilder_ == null) {
           languageName_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue language_name = 3;</code>
+       * <code>optional .dstore.values.StringValue language_name = 3;</code>
        */
-      public Builder mergeLanguageName(io.dstore.Values.stringValue value) {
+      public Builder mergeLanguageName(io.dstore.values.StringValue value) {
         if (languageNameBuilder_ == null) {
           if (languageName_ != null) {
             languageName_ =
-              io.dstore.Values.stringValue.newBuilder(languageName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(languageName_).mergeFrom(value).buildPartial();
           } else {
             languageName_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue language_name = 3;</code>
+       * <code>optional .dstore.values.StringValue language_name = 3;</code>
        */
       public Builder clearLanguageName() {
         if (languageNameBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiModifyLanguageDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue language_name = 3;</code>
+       * <code>optional .dstore.values.StringValue language_name = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getLanguageNameBuilder() {
+      public io.dstore.values.StringValue.Builder getLanguageNameBuilder() {
         
         onChanged();
         return getLanguageNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue language_name = 3;</code>
+       * <code>optional .dstore.values.StringValue language_name = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getLanguageNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getLanguageNameOrBuilder() {
         if (languageNameBuilder_ != null) {
           return languageNameBuilder_.getMessageOrBuilder();
         } else {
           return languageName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : languageName_;
+              io.dstore.values.StringValue.getDefaultInstance() : languageName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue language_name = 3;</code>
+       * <code>optional .dstore.values.StringValue language_name = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getLanguageNameFieldBuilder() {
         if (languageNameBuilder_ == null) {
           languageNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getLanguageName(),
                   getParentForChildren(),
                   isClean());
@@ -3193,11 +3193,11 @@ public final class MiModifyLanguageDescrAd {
       "ifyLanguageDescr_Ad\032\023dstore/values.proto" +
       "\032\032dstore/engine/engine.proto\"\216\002\n\nParamet" +
       "ers\0220\n\013language_id\030\001 \001(\0132\033.dstore.values" +
-      ".integerValue\022\031\n\020language_id_null\030\351\007 \001(\010" +
+      ".IntegerValue\022\031\n\020language_id_null\030\351\007 \001(\010" +
       "\022<\n\027translation_language_id\030\002 \001(\0132\033.dsto" +
-      "re.values.integerValue\022%\n\034translation_la" +
+      "re.values.IntegerValue\022%\n\034translation_la" +
       "nguage_id_null\030\352\007 \001(\010\0221\n\rlanguage_name\030\003" +
-      " \001(\0132\032.dstore.values.stringValue\022\033\n\022lang",
+      " \001(\0132\032.dstore.values.StringValue\022\033\n\022lang",
       "uage_name_null\030\353\007 \001(\010\"\311\001\n\010Response\0228\n\020me" +
       "ta_information\030\002 \003(\0132\036.dstore.engine.Met" +
       "aInformation\022\'\n\007message\030\003 \003(\0132\026.dstore.e" +
@@ -3219,7 +3219,7 @@ public final class MiModifyLanguageDescrAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyLanguageDescr_Ad_Parameters_descriptor =
@@ -3240,7 +3240,7 @@ public final class MiModifyLanguageDescrAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyLanguageDescr_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

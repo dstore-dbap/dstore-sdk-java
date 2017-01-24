@@ -19,17 +19,17 @@ public final class CoGetMessagesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoGetMessagesPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoGetMessagesPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class CoGetMessagesPu {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+     * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
      */
     boolean hasGetNewMessages();
     /**
-     * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+     * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
      */
-    io.dstore.Values.booleanValue getGetNewMessages();
+    io.dstore.values.BooleanValue getGetNewMessages();
     /**
-     * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+     * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getGetNewMessagesOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getGetNewMessagesOrBuilder();
 
     /**
      * <code>optional bool get_new_messages_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class CoGetMessagesPu {
     boolean getGetNewMessagesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
     boolean hasDateAndTimeFormat();
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
-    io.dstore.Values.integerValue getDateAndTimeFormat();
+    io.dstore.values.IntegerValue getDateAndTimeFormat();
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getDateAndTimeFormatOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getDateAndTimeFormatOrBuilder();
 
     /**
      * <code>optional bool date_and_time_format_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class CoGetMessagesPu {
     boolean getDateAndTimeFormatNull();
 
     /**
-     * <code>optional .dstore.values.integerValue message_no = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
      */
     boolean hasMessageNo();
     /**
-     * <code>optional .dstore.values.integerValue message_no = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
      */
-    io.dstore.Values.integerValue getMessageNo();
+    io.dstore.values.IntegerValue getMessageNo();
     /**
-     * <code>optional .dstore.values.integerValue message_no = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMessageNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMessageNoOrBuilder();
 
     /**
      * <code>optional bool message_no_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class CoGetMessagesPu {
     boolean getMessageNoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
      */
     boolean hasMaxNumberOfRows();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
      */
-    io.dstore.Values.integerValue getMaxNumberOfRows();
+    io.dstore.values.IntegerValue getMaxNumberOfRows();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMaxNumberOfRowsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMaxNumberOfRowsOrBuilder();
 
     /**
      * <code>optional bool max_number_of_rows_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class CoGetMessagesPu {
     boolean getMaxNumberOfRowsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1008;</code>
@@ -210,11 +210,11 @@ public final class CoGetMessagesPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -223,11 +223,11 @@ public final class CoGetMessagesPu {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -236,11 +236,11 @@ public final class CoGetMessagesPu {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -249,11 +249,11 @@ public final class CoGetMessagesPu {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (getNewMessages_ != null) {
                 subBuilder = getNewMessages_.toBuilder();
               }
-              getNewMessages_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              getNewMessages_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getNewMessages_);
                 getNewMessages_ = subBuilder.buildPartial();
@@ -262,11 +262,11 @@ public final class CoGetMessagesPu {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (dateAndTimeFormat_ != null) {
                 subBuilder = dateAndTimeFormat_.toBuilder();
               }
-              dateAndTimeFormat_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              dateAndTimeFormat_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateAndTimeFormat_);
                 dateAndTimeFormat_ = subBuilder.buildPartial();
@@ -275,11 +275,11 @@ public final class CoGetMessagesPu {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (messageNo_ != null) {
                 subBuilder = messageNo_.toBuilder();
               }
-              messageNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              messageNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(messageNo_);
                 messageNo_ = subBuilder.buildPartial();
@@ -288,11 +288,11 @@ public final class CoGetMessagesPu {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (maxNumberOfRows_ != null) {
                 subBuilder = maxNumberOfRows_.toBuilder();
               }
-              maxNumberOfRows_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              maxNumberOfRows_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfRows_);
                 maxNumberOfRows_ = subBuilder.buildPartial();
@@ -301,11 +301,11 @@ public final class CoGetMessagesPu {
               break;
             }
             case 66: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -377,23 +377,23 @@ public final class CoGetMessagesPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -407,23 +407,23 @@ public final class CoGetMessagesPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -437,23 +437,23 @@ public final class CoGetMessagesPu {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -467,23 +467,23 @@ public final class CoGetMessagesPu {
     }
 
     public static final int GET_NEW_MESSAGES_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue getNewMessages_;
+    private io.dstore.values.BooleanValue getNewMessages_;
     /**
-     * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+     * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
      */
     public boolean hasGetNewMessages() {
       return getNewMessages_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+     * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
      */
-    public io.dstore.Values.booleanValue getGetNewMessages() {
-      return getNewMessages_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getNewMessages_;
+    public io.dstore.values.BooleanValue getGetNewMessages() {
+      return getNewMessages_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getNewMessages_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+     * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getGetNewMessagesOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getGetNewMessagesOrBuilder() {
       return getGetNewMessages();
     }
 
@@ -497,23 +497,23 @@ public final class CoGetMessagesPu {
     }
 
     public static final int DATE_AND_TIME_FORMAT_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue dateAndTimeFormat_;
+    private io.dstore.values.IntegerValue dateAndTimeFormat_;
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
     public boolean hasDateAndTimeFormat() {
       return dateAndTimeFormat_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
-    public io.dstore.Values.integerValue getDateAndTimeFormat() {
-      return dateAndTimeFormat_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : dateAndTimeFormat_;
+    public io.dstore.values.IntegerValue getDateAndTimeFormat() {
+      return dateAndTimeFormat_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : dateAndTimeFormat_;
     }
     /**
-     * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+     * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getDateAndTimeFormatOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getDateAndTimeFormatOrBuilder() {
       return getDateAndTimeFormat();
     }
 
@@ -527,23 +527,23 @@ public final class CoGetMessagesPu {
     }
 
     public static final int MESSAGE_NO_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue messageNo_;
+    private io.dstore.values.IntegerValue messageNo_;
     /**
-     * <code>optional .dstore.values.integerValue message_no = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
      */
     public boolean hasMessageNo() {
       return messageNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue message_no = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
      */
-    public io.dstore.Values.integerValue getMessageNo() {
-      return messageNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : messageNo_;
+    public io.dstore.values.IntegerValue getMessageNo() {
+      return messageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : messageNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue message_no = 6;</code>
+     * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMessageNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMessageNoOrBuilder() {
       return getMessageNo();
     }
 
@@ -557,23 +557,23 @@ public final class CoGetMessagesPu {
     }
 
     public static final int MAX_NUMBER_OF_ROWS_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue maxNumberOfRows_;
+    private io.dstore.values.IntegerValue maxNumberOfRows_;
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
      */
     public boolean hasMaxNumberOfRows() {
       return maxNumberOfRows_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
      */
-    public io.dstore.Values.integerValue getMaxNumberOfRows() {
-      return maxNumberOfRows_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfRows_;
+    public io.dstore.values.IntegerValue getMaxNumberOfRows() {
+      return maxNumberOfRows_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfRows_;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
       return getMaxNumberOfRows();
     }
 
@@ -587,23 +587,23 @@ public final class CoGetMessagesPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 8;
-    private io.dstore.Values.stringValue separatorInIdentVals_;
+    private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.values.StringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1252,29 +1252,29 @@ public final class CoGetMessagesPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1288,10 +1288,10 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1302,13 +1302,13 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1320,7 +1320,7 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1334,33 +1334,33 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1395,29 +1395,29 @@ public final class CoGetMessagesPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1431,10 +1431,10 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1445,13 +1445,13 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1463,7 +1463,7 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1477,33 +1477,33 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1538,29 +1538,29 @@ public final class CoGetMessagesPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1574,10 +1574,10 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -1588,13 +1588,13 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -1606,7 +1606,7 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1620,33 +1620,33 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -1681,29 +1681,29 @@ public final class CoGetMessagesPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue getNewMessages_ = null;
+      private io.dstore.values.BooleanValue getNewMessages_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getNewMessagesBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getNewMessagesBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+       * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
        */
       public boolean hasGetNewMessages() {
         return getNewMessagesBuilder_ != null || getNewMessages_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+       * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
        */
-      public io.dstore.Values.booleanValue getGetNewMessages() {
+      public io.dstore.values.BooleanValue getGetNewMessages() {
         if (getNewMessagesBuilder_ == null) {
-          return getNewMessages_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getNewMessages_;
+          return getNewMessages_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getNewMessages_;
         } else {
           return getNewMessagesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+       * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
        */
-      public Builder setGetNewMessages(io.dstore.Values.booleanValue value) {
+      public Builder setGetNewMessages(io.dstore.values.BooleanValue value) {
         if (getNewMessagesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1717,10 +1717,10 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+       * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
        */
       public Builder setGetNewMessages(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (getNewMessagesBuilder_ == null) {
           getNewMessages_ = builderForValue.build();
           onChanged();
@@ -1731,13 +1731,13 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+       * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
        */
-      public Builder mergeGetNewMessages(io.dstore.Values.booleanValue value) {
+      public Builder mergeGetNewMessages(io.dstore.values.BooleanValue value) {
         if (getNewMessagesBuilder_ == null) {
           if (getNewMessages_ != null) {
             getNewMessages_ =
-              io.dstore.Values.booleanValue.newBuilder(getNewMessages_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(getNewMessages_).mergeFrom(value).buildPartial();
           } else {
             getNewMessages_ = value;
           }
@@ -1749,7 +1749,7 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+       * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
        */
       public Builder clearGetNewMessages() {
         if (getNewMessagesBuilder_ == null) {
@@ -1763,33 +1763,33 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+       * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getGetNewMessagesBuilder() {
+      public io.dstore.values.BooleanValue.Builder getGetNewMessagesBuilder() {
         
         onChanged();
         return getGetNewMessagesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+       * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getGetNewMessagesOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getGetNewMessagesOrBuilder() {
         if (getNewMessagesBuilder_ != null) {
           return getNewMessagesBuilder_.getMessageOrBuilder();
         } else {
           return getNewMessages_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : getNewMessages_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : getNewMessages_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_new_messages = 4;</code>
+       * <code>optional .dstore.values.BooleanValue get_new_messages = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getGetNewMessagesFieldBuilder() {
         if (getNewMessagesBuilder_ == null) {
           getNewMessagesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getGetNewMessages(),
                   getParentForChildren(),
                   isClean());
@@ -1824,29 +1824,29 @@ public final class CoGetMessagesPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue dateAndTimeFormat_ = null;
+      private io.dstore.values.IntegerValue dateAndTimeFormat_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> dateAndTimeFormatBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> dateAndTimeFormatBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
       public boolean hasDateAndTimeFormat() {
         return dateAndTimeFormatBuilder_ != null || dateAndTimeFormat_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public io.dstore.Values.integerValue getDateAndTimeFormat() {
+      public io.dstore.values.IntegerValue getDateAndTimeFormat() {
         if (dateAndTimeFormatBuilder_ == null) {
-          return dateAndTimeFormat_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : dateAndTimeFormat_;
+          return dateAndTimeFormat_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : dateAndTimeFormat_;
         } else {
           return dateAndTimeFormatBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public Builder setDateAndTimeFormat(io.dstore.Values.integerValue value) {
+      public Builder setDateAndTimeFormat(io.dstore.values.IntegerValue value) {
         if (dateAndTimeFormatBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1860,10 +1860,10 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
       public Builder setDateAndTimeFormat(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (dateAndTimeFormatBuilder_ == null) {
           dateAndTimeFormat_ = builderForValue.build();
           onChanged();
@@ -1874,13 +1874,13 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public Builder mergeDateAndTimeFormat(io.dstore.Values.integerValue value) {
+      public Builder mergeDateAndTimeFormat(io.dstore.values.IntegerValue value) {
         if (dateAndTimeFormatBuilder_ == null) {
           if (dateAndTimeFormat_ != null) {
             dateAndTimeFormat_ =
-              io.dstore.Values.integerValue.newBuilder(dateAndTimeFormat_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(dateAndTimeFormat_).mergeFrom(value).buildPartial();
           } else {
             dateAndTimeFormat_ = value;
           }
@@ -1892,7 +1892,7 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
       public Builder clearDateAndTimeFormat() {
         if (dateAndTimeFormatBuilder_ == null) {
@@ -1906,33 +1906,33 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getDateAndTimeFormatBuilder() {
+      public io.dstore.values.IntegerValue.Builder getDateAndTimeFormatBuilder() {
         
         onChanged();
         return getDateAndTimeFormatFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDateAndTimeFormatOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDateAndTimeFormatOrBuilder() {
         if (dateAndTimeFormatBuilder_ != null) {
           return dateAndTimeFormatBuilder_.getMessageOrBuilder();
         } else {
           return dateAndTimeFormat_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : dateAndTimeFormat_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : dateAndTimeFormat_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue date_and_time_format = 5;</code>
+       * <code>optional .dstore.values.IntegerValue date_and_time_format = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getDateAndTimeFormatFieldBuilder() {
         if (dateAndTimeFormatBuilder_ == null) {
           dateAndTimeFormatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getDateAndTimeFormat(),
                   getParentForChildren(),
                   isClean());
@@ -1967,29 +1967,29 @@ public final class CoGetMessagesPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue messageNo_ = null;
+      private io.dstore.values.IntegerValue messageNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> messageNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> messageNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue message_no = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
        */
       public boolean hasMessageNo() {
         return messageNoBuilder_ != null || messageNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_no = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
        */
-      public io.dstore.Values.integerValue getMessageNo() {
+      public io.dstore.values.IntegerValue getMessageNo() {
         if (messageNoBuilder_ == null) {
-          return messageNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : messageNo_;
+          return messageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : messageNo_;
         } else {
           return messageNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue message_no = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
        */
-      public Builder setMessageNo(io.dstore.Values.integerValue value) {
+      public Builder setMessageNo(io.dstore.values.IntegerValue value) {
         if (messageNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2003,10 +2003,10 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_no = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
        */
       public Builder setMessageNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (messageNoBuilder_ == null) {
           messageNo_ = builderForValue.build();
           onChanged();
@@ -2017,13 +2017,13 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_no = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
        */
-      public Builder mergeMessageNo(io.dstore.Values.integerValue value) {
+      public Builder mergeMessageNo(io.dstore.values.IntegerValue value) {
         if (messageNoBuilder_ == null) {
           if (messageNo_ != null) {
             messageNo_ =
-              io.dstore.Values.integerValue.newBuilder(messageNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(messageNo_).mergeFrom(value).buildPartial();
           } else {
             messageNo_ = value;
           }
@@ -2035,7 +2035,7 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_no = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
        */
       public Builder clearMessageNo() {
         if (messageNoBuilder_ == null) {
@@ -2049,33 +2049,33 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue message_no = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMessageNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMessageNoBuilder() {
         
         onChanged();
         return getMessageNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue message_no = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMessageNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMessageNoOrBuilder() {
         if (messageNoBuilder_ != null) {
           return messageNoBuilder_.getMessageOrBuilder();
         } else {
           return messageNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : messageNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : messageNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue message_no = 6;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMessageNoFieldBuilder() {
         if (messageNoBuilder_ == null) {
           messageNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMessageNo(),
                   getParentForChildren(),
                   isClean());
@@ -2110,29 +2110,29 @@ public final class CoGetMessagesPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue maxNumberOfRows_ = null;
+      private io.dstore.values.IntegerValue maxNumberOfRows_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfRowsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfRowsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
        */
       public boolean hasMaxNumberOfRows() {
         return maxNumberOfRowsBuilder_ != null || maxNumberOfRows_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
        */
-      public io.dstore.Values.integerValue getMaxNumberOfRows() {
+      public io.dstore.values.IntegerValue getMaxNumberOfRows() {
         if (maxNumberOfRowsBuilder_ == null) {
-          return maxNumberOfRows_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfRows_;
+          return maxNumberOfRows_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfRows_;
         } else {
           return maxNumberOfRowsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
        */
-      public Builder setMaxNumberOfRows(io.dstore.Values.integerValue value) {
+      public Builder setMaxNumberOfRows(io.dstore.values.IntegerValue value) {
         if (maxNumberOfRowsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2146,10 +2146,10 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
        */
       public Builder setMaxNumberOfRows(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (maxNumberOfRowsBuilder_ == null) {
           maxNumberOfRows_ = builderForValue.build();
           onChanged();
@@ -2160,13 +2160,13 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
        */
-      public Builder mergeMaxNumberOfRows(io.dstore.Values.integerValue value) {
+      public Builder mergeMaxNumberOfRows(io.dstore.values.IntegerValue value) {
         if (maxNumberOfRowsBuilder_ == null) {
           if (maxNumberOfRows_ != null) {
             maxNumberOfRows_ =
-              io.dstore.Values.integerValue.newBuilder(maxNumberOfRows_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(maxNumberOfRows_).mergeFrom(value).buildPartial();
           } else {
             maxNumberOfRows_ = value;
           }
@@ -2178,7 +2178,7 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
        */
       public Builder clearMaxNumberOfRows() {
         if (maxNumberOfRowsBuilder_ == null) {
@@ -2192,33 +2192,33 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMaxNumberOfRowsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMaxNumberOfRowsBuilder() {
         
         onChanged();
         return getMaxNumberOfRowsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
         if (maxNumberOfRowsBuilder_ != null) {
           return maxNumberOfRowsBuilder_.getMessageOrBuilder();
         } else {
           return maxNumberOfRows_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfRows_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfRows_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 7;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMaxNumberOfRowsFieldBuilder() {
         if (maxNumberOfRowsBuilder_ == null) {
           maxNumberOfRowsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMaxNumberOfRows(),
                   getParentForChildren(),
                   isClean());
@@ -2253,29 +2253,29 @@ public final class CoGetMessagesPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.values.StringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2289,10 +2289,10 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -2303,13 +2303,13 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -2321,7 +2321,7 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2335,33 +2335,33 @@ public final class CoGetMessagesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -2655,7 +2655,7 @@ public final class CoGetMessagesPu {
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+       * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
        */
       boolean hasFromCommunityMemberNickname();
       /**
@@ -2663,24 +2663,24 @@ public final class CoGetMessagesPu {
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+       * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
        */
-      io.dstore.Values.stringValue getFromCommunityMemberNickname();
+      io.dstore.values.StringValue getFromCommunityMemberNickname();
       /**
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+       * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getFromCommunityMemberNicknameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getFromCommunityMemberNicknameOrBuilder();
 
       /**
        * <pre>
        * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
        */
       boolean hasMessageStatus();
       /**
@@ -2688,24 +2688,24 @@ public final class CoGetMessagesPu {
        * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
        */
-      io.dstore.Values.integerValue getMessageStatus();
+      io.dstore.values.IntegerValue getMessageStatus();
       /**
        * <pre>
        * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMessageStatusOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMessageStatusOrBuilder();
 
       /**
        * <pre>
        * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue message = 10003;</code>
+       * <code>optional .dstore.values.StringValue message = 10003;</code>
        */
       boolean hasMessage();
       /**
@@ -2713,24 +2713,24 @@ public final class CoGetMessagesPu {
        * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue message = 10003;</code>
+       * <code>optional .dstore.values.StringValue message = 10003;</code>
        */
-      io.dstore.Values.stringValue getMessage();
+      io.dstore.values.StringValue getMessage();
       /**
        * <pre>
        * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue message = 10003;</code>
+       * <code>optional .dstore.values.StringValue message = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getMessageOrBuilder();
+      io.dstore.values.StringValueOrBuilder getMessageOrBuilder();
 
       /**
        * <pre>
        * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
        */
       boolean hasMessageNo();
       /**
@@ -2738,24 +2738,24 @@ public final class CoGetMessagesPu {
        * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
        */
-      io.dstore.Values.integerValue getMessageNo();
+      io.dstore.values.IntegerValue getMessageNo();
       /**
        * <pre>
        * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMessageNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMessageNoOrBuilder();
 
       /**
        * <pre>
        * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
        */
       boolean hasMessageDateAndTime();
       /**
@@ -2763,24 +2763,24 @@ public final class CoGetMessagesPu {
        * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
        */
-      io.dstore.Values.timestampValue getMessageDateAndTime();
+      io.dstore.values.TimestampValue getMessageDateAndTime();
       /**
        * <pre>
        * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getMessageDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getMessageDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
        */
       boolean hasFromCommunityMemberId();
       /**
@@ -2788,17 +2788,17 @@ public final class CoGetMessagesPu {
        * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
        */
-      io.dstore.Values.integerValue getFromCommunityMemberId();
+      io.dstore.values.IntegerValue getFromCommunityMemberId();
       /**
        * <pre>
        * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getFromCommunityMemberIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetMessages_Pu.Response.Row}
@@ -2846,11 +2846,11 @@ public final class CoGetMessagesPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (fromCommunityMemberNickname_ != null) {
                   subBuilder = fromCommunityMemberNickname_.toBuilder();
                 }
-                fromCommunityMemberNickname_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                fromCommunityMemberNickname_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromCommunityMemberNickname_);
                   fromCommunityMemberNickname_ = subBuilder.buildPartial();
@@ -2859,11 +2859,11 @@ public final class CoGetMessagesPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (messageStatus_ != null) {
                   subBuilder = messageStatus_.toBuilder();
                 }
-                messageStatus_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                messageStatus_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(messageStatus_);
                   messageStatus_ = subBuilder.buildPartial();
@@ -2872,11 +2872,11 @@ public final class CoGetMessagesPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (message_ != null) {
                   subBuilder = message_.toBuilder();
                 }
-                message_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                message_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(message_);
                   message_ = subBuilder.buildPartial();
@@ -2885,11 +2885,11 @@ public final class CoGetMessagesPu {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (messageNo_ != null) {
                   subBuilder = messageNo_.toBuilder();
                 }
-                messageNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                messageNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(messageNo_);
                   messageNo_ = subBuilder.buildPartial();
@@ -2898,11 +2898,11 @@ public final class CoGetMessagesPu {
                 break;
               }
               case 80042: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (messageDateAndTime_ != null) {
                   subBuilder = messageDateAndTime_.toBuilder();
                 }
-                messageDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                messageDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(messageDateAndTime_);
                   messageDateAndTime_ = subBuilder.buildPartial();
@@ -2911,11 +2911,11 @@ public final class CoGetMessagesPu {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (fromCommunityMemberId_ != null) {
                   subBuilder = fromCommunityMemberId_.toBuilder();
                 }
-                fromCommunityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                fromCommunityMemberId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromCommunityMemberId_);
                   fromCommunityMemberId_ = subBuilder.buildPartial();
@@ -2956,13 +2956,13 @@ public final class CoGetMessagesPu {
       }
 
       public static final int FROM_COMMUNITY_MEMBER_NICKNAME_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue fromCommunityMemberNickname_;
+      private io.dstore.values.StringValue fromCommunityMemberNickname_;
       /**
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+       * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
        */
       public boolean hasFromCommunityMemberNickname() {
         return fromCommunityMemberNickname_ != null;
@@ -2972,30 +2972,30 @@ public final class CoGetMessagesPu {
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+       * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
        */
-      public io.dstore.Values.stringValue getFromCommunityMemberNickname() {
-        return fromCommunityMemberNickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromCommunityMemberNickname_;
+      public io.dstore.values.StringValue getFromCommunityMemberNickname() {
+        return fromCommunityMemberNickname_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fromCommunityMemberNickname_;
       }
       /**
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+       * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getFromCommunityMemberNicknameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getFromCommunityMemberNicknameOrBuilder() {
         return getFromCommunityMemberNickname();
       }
 
       public static final int MESSAGE_STATUS_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue messageStatus_;
+      private io.dstore.values.IntegerValue messageStatus_;
       /**
        * <pre>
        * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
        */
       public boolean hasMessageStatus() {
         return messageStatus_ != null;
@@ -3005,30 +3005,30 @@ public final class CoGetMessagesPu {
        * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
        */
-      public io.dstore.Values.integerValue getMessageStatus() {
-        return messageStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : messageStatus_;
+      public io.dstore.values.IntegerValue getMessageStatus() {
+        return messageStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : messageStatus_;
       }
       /**
        * <pre>
        * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMessageStatusOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMessageStatusOrBuilder() {
         return getMessageStatus();
       }
 
       public static final int MESSAGE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue message_;
+      private io.dstore.values.StringValue message_;
       /**
        * <pre>
        * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue message = 10003;</code>
+       * <code>optional .dstore.values.StringValue message = 10003;</code>
        */
       public boolean hasMessage() {
         return message_ != null;
@@ -3038,30 +3038,30 @@ public final class CoGetMessagesPu {
        * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue message = 10003;</code>
+       * <code>optional .dstore.values.StringValue message = 10003;</code>
        */
-      public io.dstore.Values.stringValue getMessage() {
-        return message_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : message_;
+      public io.dstore.values.StringValue getMessage() {
+        return message_ == null ? io.dstore.values.StringValue.getDefaultInstance() : message_;
       }
       /**
        * <pre>
        * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue message = 10003;</code>
+       * <code>optional .dstore.values.StringValue message = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getMessageOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getMessageOrBuilder() {
         return getMessage();
       }
 
       public static final int MESSAGE_NO_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue messageNo_;
+      private io.dstore.values.IntegerValue messageNo_;
       /**
        * <pre>
        * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
        */
       public boolean hasMessageNo() {
         return messageNo_ != null;
@@ -3071,30 +3071,30 @@ public final class CoGetMessagesPu {
        * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
        */
-      public io.dstore.Values.integerValue getMessageNo() {
-        return messageNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : messageNo_;
+      public io.dstore.values.IntegerValue getMessageNo() {
+        return messageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : messageNo_;
       }
       /**
        * <pre>
        * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMessageNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMessageNoOrBuilder() {
         return getMessageNo();
       }
 
       public static final int MESSAGE_DATE_AND_TIME_FIELD_NUMBER = 10005;
-      private io.dstore.Values.timestampValue messageDateAndTime_;
+      private io.dstore.values.TimestampValue messageDateAndTime_;
       /**
        * <pre>
        * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
        */
       public boolean hasMessageDateAndTime() {
         return messageDateAndTime_ != null;
@@ -3104,30 +3104,30 @@ public final class CoGetMessagesPu {
        * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
        */
-      public io.dstore.Values.timestampValue getMessageDateAndTime() {
-        return messageDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : messageDateAndTime_;
+      public io.dstore.values.TimestampValue getMessageDateAndTime() {
+        return messageDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : messageDateAndTime_;
       }
       /**
        * <pre>
        * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getMessageDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getMessageDateAndTimeOrBuilder() {
         return getMessageDateAndTime();
       }
 
       public static final int FROM_COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue fromCommunityMemberId_;
+      private io.dstore.values.IntegerValue fromCommunityMemberId_;
       /**
        * <pre>
        * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
        */
       public boolean hasFromCommunityMemberId() {
         return fromCommunityMemberId_ != null;
@@ -3137,19 +3137,19 @@ public final class CoGetMessagesPu {
        * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
        */
-      public io.dstore.Values.integerValue getFromCommunityMemberId() {
-        return fromCommunityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
+      public io.dstore.values.IntegerValue getFromCommunityMemberId() {
+        return fromCommunityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromCommunityMemberId_;
       }
       /**
        * <pre>
        * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
         return getFromCommunityMemberId();
       }
 
@@ -3628,15 +3628,15 @@ public final class CoGetMessagesPu {
           return this;
         }
 
-        private io.dstore.Values.stringValue fromCommunityMemberNickname_ = null;
+        private io.dstore.values.StringValue fromCommunityMemberNickname_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fromCommunityMemberNicknameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> fromCommunityMemberNicknameBuilder_;
         /**
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+         * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
          */
         public boolean hasFromCommunityMemberNickname() {
           return fromCommunityMemberNicknameBuilder_ != null || fromCommunityMemberNickname_ != null;
@@ -3646,11 +3646,11 @@ public final class CoGetMessagesPu {
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+         * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
          */
-        public io.dstore.Values.stringValue getFromCommunityMemberNickname() {
+        public io.dstore.values.StringValue getFromCommunityMemberNickname() {
           if (fromCommunityMemberNicknameBuilder_ == null) {
-            return fromCommunityMemberNickname_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fromCommunityMemberNickname_;
+            return fromCommunityMemberNickname_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fromCommunityMemberNickname_;
           } else {
             return fromCommunityMemberNicknameBuilder_.getMessage();
           }
@@ -3660,9 +3660,9 @@ public final class CoGetMessagesPu {
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+         * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
          */
-        public Builder setFromCommunityMemberNickname(io.dstore.Values.stringValue value) {
+        public Builder setFromCommunityMemberNickname(io.dstore.values.StringValue value) {
           if (fromCommunityMemberNicknameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3680,10 +3680,10 @@ public final class CoGetMessagesPu {
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+         * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
          */
         public Builder setFromCommunityMemberNickname(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (fromCommunityMemberNicknameBuilder_ == null) {
             fromCommunityMemberNickname_ = builderForValue.build();
             onChanged();
@@ -3698,13 +3698,13 @@ public final class CoGetMessagesPu {
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+         * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
          */
-        public Builder mergeFromCommunityMemberNickname(io.dstore.Values.stringValue value) {
+        public Builder mergeFromCommunityMemberNickname(io.dstore.values.StringValue value) {
           if (fromCommunityMemberNicknameBuilder_ == null) {
             if (fromCommunityMemberNickname_ != null) {
               fromCommunityMemberNickname_ =
-                io.dstore.Values.stringValue.newBuilder(fromCommunityMemberNickname_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(fromCommunityMemberNickname_).mergeFrom(value).buildPartial();
             } else {
               fromCommunityMemberNickname_ = value;
             }
@@ -3720,7 +3720,7 @@ public final class CoGetMessagesPu {
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+         * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
          */
         public Builder clearFromCommunityMemberNickname() {
           if (fromCommunityMemberNicknameBuilder_ == null) {
@@ -3738,9 +3738,9 @@ public final class CoGetMessagesPu {
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+         * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getFromCommunityMemberNicknameBuilder() {
+        public io.dstore.values.StringValue.Builder getFromCommunityMemberNicknameBuilder() {
           
           onChanged();
           return getFromCommunityMemberNicknameFieldBuilder().getBuilder();
@@ -3750,14 +3750,14 @@ public final class CoGetMessagesPu {
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+         * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getFromCommunityMemberNicknameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getFromCommunityMemberNicknameOrBuilder() {
           if (fromCommunityMemberNicknameBuilder_ != null) {
             return fromCommunityMemberNicknameBuilder_.getMessageOrBuilder();
           } else {
             return fromCommunityMemberNickname_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : fromCommunityMemberNickname_;
+                io.dstore.values.StringValue.getDefaultInstance() : fromCommunityMemberNickname_;
           }
         }
         /**
@@ -3765,14 +3765,14 @@ public final class CoGetMessagesPu {
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue from_community_member_nickname = 10001;</code>
+         * <code>optional .dstore.values.StringValue from_community_member_nickname = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getFromCommunityMemberNicknameFieldBuilder() {
           if (fromCommunityMemberNicknameBuilder_ == null) {
             fromCommunityMemberNicknameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getFromCommunityMemberNickname(),
                     getParentForChildren(),
                     isClean());
@@ -3781,15 +3781,15 @@ public final class CoGetMessagesPu {
           return fromCommunityMemberNicknameBuilder_;
         }
 
-        private io.dstore.Values.integerValue messageStatus_ = null;
+        private io.dstore.values.IntegerValue messageStatus_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> messageStatusBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> messageStatusBuilder_;
         /**
          * <pre>
          * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
          */
         public boolean hasMessageStatus() {
           return messageStatusBuilder_ != null || messageStatus_ != null;
@@ -3799,11 +3799,11 @@ public final class CoGetMessagesPu {
          * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
          */
-        public io.dstore.Values.integerValue getMessageStatus() {
+        public io.dstore.values.IntegerValue getMessageStatus() {
           if (messageStatusBuilder_ == null) {
-            return messageStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : messageStatus_;
+            return messageStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : messageStatus_;
           } else {
             return messageStatusBuilder_.getMessage();
           }
@@ -3813,9 +3813,9 @@ public final class CoGetMessagesPu {
          * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
          */
-        public Builder setMessageStatus(io.dstore.Values.integerValue value) {
+        public Builder setMessageStatus(io.dstore.values.IntegerValue value) {
           if (messageStatusBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3833,10 +3833,10 @@ public final class CoGetMessagesPu {
          * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
          */
         public Builder setMessageStatus(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (messageStatusBuilder_ == null) {
             messageStatus_ = builderForValue.build();
             onChanged();
@@ -3851,13 +3851,13 @@ public final class CoGetMessagesPu {
          * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
          */
-        public Builder mergeMessageStatus(io.dstore.Values.integerValue value) {
+        public Builder mergeMessageStatus(io.dstore.values.IntegerValue value) {
           if (messageStatusBuilder_ == null) {
             if (messageStatus_ != null) {
               messageStatus_ =
-                io.dstore.Values.integerValue.newBuilder(messageStatus_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(messageStatus_).mergeFrom(value).buildPartial();
             } else {
               messageStatus_ = value;
             }
@@ -3873,7 +3873,7 @@ public final class CoGetMessagesPu {
          * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
          */
         public Builder clearMessageStatus() {
           if (messageStatusBuilder_ == null) {
@@ -3891,9 +3891,9 @@ public final class CoGetMessagesPu {
          * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMessageStatusBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMessageStatusBuilder() {
           
           onChanged();
           return getMessageStatusFieldBuilder().getBuilder();
@@ -3903,14 +3903,14 @@ public final class CoGetMessagesPu {
          * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMessageStatusOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMessageStatusOrBuilder() {
           if (messageStatusBuilder_ != null) {
             return messageStatusBuilder_.getMessageOrBuilder();
           } else {
             return messageStatus_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : messageStatus_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : messageStatus_;
           }
         }
         /**
@@ -3918,14 +3918,14 @@ public final class CoGetMessagesPu {
          * Status der Nachricht "Message". Bedeutung(en) :* 0 bis 99 : neu (ungelesen)   (z.B könnte "1" bedeuten, "Schicke es auch als SMS")* 100 bis 199 : alt (gelesen)* 200 bis 254 : &lt;undefiniert&gt;* 255 : gelöscht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_status = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue message_status = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMessageStatusFieldBuilder() {
           if (messageStatusBuilder_ == null) {
             messageStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMessageStatus(),
                     getParentForChildren(),
                     isClean());
@@ -3934,15 +3934,15 @@ public final class CoGetMessagesPu {
           return messageStatusBuilder_;
         }
 
-        private io.dstore.Values.stringValue message_ = null;
+        private io.dstore.values.StringValue message_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> messageBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> messageBuilder_;
         /**
          * <pre>
          * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue message = 10003;</code>
+         * <code>optional .dstore.values.StringValue message = 10003;</code>
          */
         public boolean hasMessage() {
           return messageBuilder_ != null || message_ != null;
@@ -3952,11 +3952,11 @@ public final class CoGetMessagesPu {
          * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue message = 10003;</code>
+         * <code>optional .dstore.values.StringValue message = 10003;</code>
          */
-        public io.dstore.Values.stringValue getMessage() {
+        public io.dstore.values.StringValue getMessage() {
           if (messageBuilder_ == null) {
-            return message_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : message_;
+            return message_ == null ? io.dstore.values.StringValue.getDefaultInstance() : message_;
           } else {
             return messageBuilder_.getMessage();
           }
@@ -3966,9 +3966,9 @@ public final class CoGetMessagesPu {
          * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue message = 10003;</code>
+         * <code>optional .dstore.values.StringValue message = 10003;</code>
          */
-        public Builder setMessage(io.dstore.Values.stringValue value) {
+        public Builder setMessage(io.dstore.values.StringValue value) {
           if (messageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3986,10 +3986,10 @@ public final class CoGetMessagesPu {
          * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue message = 10003;</code>
+         * <code>optional .dstore.values.StringValue message = 10003;</code>
          */
         public Builder setMessage(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (messageBuilder_ == null) {
             message_ = builderForValue.build();
             onChanged();
@@ -4004,13 +4004,13 @@ public final class CoGetMessagesPu {
          * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue message = 10003;</code>
+         * <code>optional .dstore.values.StringValue message = 10003;</code>
          */
-        public Builder mergeMessage(io.dstore.Values.stringValue value) {
+        public Builder mergeMessage(io.dstore.values.StringValue value) {
           if (messageBuilder_ == null) {
             if (message_ != null) {
               message_ =
-                io.dstore.Values.stringValue.newBuilder(message_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(message_).mergeFrom(value).buildPartial();
             } else {
               message_ = value;
             }
@@ -4026,7 +4026,7 @@ public final class CoGetMessagesPu {
          * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue message = 10003;</code>
+         * <code>optional .dstore.values.StringValue message = 10003;</code>
          */
         public Builder clearMessage() {
           if (messageBuilder_ == null) {
@@ -4044,9 +4044,9 @@ public final class CoGetMessagesPu {
          * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue message = 10003;</code>
+         * <code>optional .dstore.values.StringValue message = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getMessageBuilder() {
+        public io.dstore.values.StringValue.Builder getMessageBuilder() {
           
           onChanged();
           return getMessageFieldBuilder().getBuilder();
@@ -4056,14 +4056,14 @@ public final class CoGetMessagesPu {
          * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue message = 10003;</code>
+         * <code>optional .dstore.values.StringValue message = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getMessageOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getMessageOrBuilder() {
           if (messageBuilder_ != null) {
             return messageBuilder_.getMessageOrBuilder();
           } else {
             return message_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : message_;
+                io.dstore.values.StringValue.getDefaultInstance() : message_;
           }
         }
         /**
@@ -4071,14 +4071,14 @@ public final class CoGetMessagesPu {
          * Die Nachricht von "FromCommunityMemberID" an das (durch "&#64;PersonIdentificationValues" identifizierte) Community-Mitglied
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue message = 10003;</code>
+         * <code>optional .dstore.values.StringValue message = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getMessageFieldBuilder() {
           if (messageBuilder_ == null) {
             messageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getMessage(),
                     getParentForChildren(),
                     isClean());
@@ -4087,15 +4087,15 @@ public final class CoGetMessagesPu {
           return messageBuilder_;
         }
 
-        private io.dstore.Values.integerValue messageNo_ = null;
+        private io.dstore.values.IntegerValue messageNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> messageNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> messageNoBuilder_;
         /**
          * <pre>
          * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
          */
         public boolean hasMessageNo() {
           return messageNoBuilder_ != null || messageNo_ != null;
@@ -4105,11 +4105,11 @@ public final class CoGetMessagesPu {
          * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
          */
-        public io.dstore.Values.integerValue getMessageNo() {
+        public io.dstore.values.IntegerValue getMessageNo() {
           if (messageNoBuilder_ == null) {
-            return messageNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : messageNo_;
+            return messageNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : messageNo_;
           } else {
             return messageNoBuilder_.getMessage();
           }
@@ -4119,9 +4119,9 @@ public final class CoGetMessagesPu {
          * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
          */
-        public Builder setMessageNo(io.dstore.Values.integerValue value) {
+        public Builder setMessageNo(io.dstore.values.IntegerValue value) {
           if (messageNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4139,10 +4139,10 @@ public final class CoGetMessagesPu {
          * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
          */
         public Builder setMessageNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (messageNoBuilder_ == null) {
             messageNo_ = builderForValue.build();
             onChanged();
@@ -4157,13 +4157,13 @@ public final class CoGetMessagesPu {
          * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
          */
-        public Builder mergeMessageNo(io.dstore.Values.integerValue value) {
+        public Builder mergeMessageNo(io.dstore.values.IntegerValue value) {
           if (messageNoBuilder_ == null) {
             if (messageNo_ != null) {
               messageNo_ =
-                io.dstore.Values.integerValue.newBuilder(messageNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(messageNo_).mergeFrom(value).buildPartial();
             } else {
               messageNo_ = value;
             }
@@ -4179,7 +4179,7 @@ public final class CoGetMessagesPu {
          * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
          */
         public Builder clearMessageNo() {
           if (messageNoBuilder_ == null) {
@@ -4197,9 +4197,9 @@ public final class CoGetMessagesPu {
          * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMessageNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMessageNoBuilder() {
           
           onChanged();
           return getMessageNoFieldBuilder().getBuilder();
@@ -4209,14 +4209,14 @@ public final class CoGetMessagesPu {
          * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMessageNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMessageNoOrBuilder() {
           if (messageNoBuilder_ != null) {
             return messageNoBuilder_.getMessageOrBuilder();
           } else {
             return messageNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : messageNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : messageNo_;
           }
         }
         /**
@@ -4224,14 +4224,14 @@ public final class CoGetMessagesPu {
          * Nummer der Nachricht "Message". Gibt an, um die wievielte Nachricht es sich für das (durch "&#64;PersonIdentificationValues" identifizierte) Mitglied handelt. ACHTUNG : es werden negative Werte zurückgegeben !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue message_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue message_no = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMessageNoFieldBuilder() {
           if (messageNoBuilder_ == null) {
             messageNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMessageNo(),
                     getParentForChildren(),
                     isClean());
@@ -4240,15 +4240,15 @@ public final class CoGetMessagesPu {
           return messageNoBuilder_;
         }
 
-        private io.dstore.Values.timestampValue messageDateAndTime_ = null;
+        private io.dstore.values.TimestampValue messageDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> messageDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> messageDateAndTimeBuilder_;
         /**
          * <pre>
          * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
          */
         public boolean hasMessageDateAndTime() {
           return messageDateAndTimeBuilder_ != null || messageDateAndTime_ != null;
@@ -4258,11 +4258,11 @@ public final class CoGetMessagesPu {
          * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
          */
-        public io.dstore.Values.timestampValue getMessageDateAndTime() {
+        public io.dstore.values.TimestampValue getMessageDateAndTime() {
           if (messageDateAndTimeBuilder_ == null) {
-            return messageDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : messageDateAndTime_;
+            return messageDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : messageDateAndTime_;
           } else {
             return messageDateAndTimeBuilder_.getMessage();
           }
@@ -4272,9 +4272,9 @@ public final class CoGetMessagesPu {
          * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
          */
-        public Builder setMessageDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setMessageDateAndTime(io.dstore.values.TimestampValue value) {
           if (messageDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4292,10 +4292,10 @@ public final class CoGetMessagesPu {
          * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
          */
         public Builder setMessageDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (messageDateAndTimeBuilder_ == null) {
             messageDateAndTime_ = builderForValue.build();
             onChanged();
@@ -4310,13 +4310,13 @@ public final class CoGetMessagesPu {
          * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
          */
-        public Builder mergeMessageDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeMessageDateAndTime(io.dstore.values.TimestampValue value) {
           if (messageDateAndTimeBuilder_ == null) {
             if (messageDateAndTime_ != null) {
               messageDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(messageDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(messageDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               messageDateAndTime_ = value;
             }
@@ -4332,7 +4332,7 @@ public final class CoGetMessagesPu {
          * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
          */
         public Builder clearMessageDateAndTime() {
           if (messageDateAndTimeBuilder_ == null) {
@@ -4350,9 +4350,9 @@ public final class CoGetMessagesPu {
          * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getMessageDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getMessageDateAndTimeBuilder() {
           
           onChanged();
           return getMessageDateAndTimeFieldBuilder().getBuilder();
@@ -4362,14 +4362,14 @@ public final class CoGetMessagesPu {
          * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getMessageDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getMessageDateAndTimeOrBuilder() {
           if (messageDateAndTimeBuilder_ != null) {
             return messageDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return messageDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : messageDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : messageDateAndTime_;
           }
         }
         /**
@@ -4377,14 +4377,14 @@ public final class CoGetMessagesPu {
          * Wann wurde die Nachricht "Message" geschickt. Falls "&#64;DateAndTimeFormat = NULL" übergeben wurde, ist das Format "07.02.2000 17:30:21". Ansonsten wird "&#64;DateAndTimeFormat" für die "style"-Option der ASE-Funktion "convert" verwendet (siehe Beschreibung).
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue message_date_and_time = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue message_date_and_time = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getMessageDateAndTimeFieldBuilder() {
           if (messageDateAndTimeBuilder_ == null) {
             messageDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getMessageDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -4393,15 +4393,15 @@ public final class CoGetMessagesPu {
           return messageDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue fromCommunityMemberId_ = null;
+        private io.dstore.values.IntegerValue fromCommunityMemberId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromCommunityMemberIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromCommunityMemberIdBuilder_;
         /**
          * <pre>
          * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
          */
         public boolean hasFromCommunityMemberId() {
           return fromCommunityMemberIdBuilder_ != null || fromCommunityMemberId_ != null;
@@ -4411,11 +4411,11 @@ public final class CoGetMessagesPu {
          * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue getFromCommunityMemberId() {
+        public io.dstore.values.IntegerValue getFromCommunityMemberId() {
           if (fromCommunityMemberIdBuilder_ == null) {
-            return fromCommunityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
+            return fromCommunityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromCommunityMemberId_;
           } else {
             return fromCommunityMemberIdBuilder_.getMessage();
           }
@@ -4425,9 +4425,9 @@ public final class CoGetMessagesPu {
          * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
          */
-        public Builder setFromCommunityMemberId(io.dstore.Values.integerValue value) {
+        public Builder setFromCommunityMemberId(io.dstore.values.IntegerValue value) {
           if (fromCommunityMemberIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4445,10 +4445,10 @@ public final class CoGetMessagesPu {
          * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
          */
         public Builder setFromCommunityMemberId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (fromCommunityMemberIdBuilder_ == null) {
             fromCommunityMemberId_ = builderForValue.build();
             onChanged();
@@ -4463,13 +4463,13 @@ public final class CoGetMessagesPu {
          * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
          */
-        public Builder mergeFromCommunityMemberId(io.dstore.Values.integerValue value) {
+        public Builder mergeFromCommunityMemberId(io.dstore.values.IntegerValue value) {
           if (fromCommunityMemberIdBuilder_ == null) {
             if (fromCommunityMemberId_ != null) {
               fromCommunityMemberId_ =
-                io.dstore.Values.integerValue.newBuilder(fromCommunityMemberId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(fromCommunityMemberId_).mergeFrom(value).buildPartial();
             } else {
               fromCommunityMemberId_ = value;
             }
@@ -4485,7 +4485,7 @@ public final class CoGetMessagesPu {
          * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
          */
         public Builder clearFromCommunityMemberId() {
           if (fromCommunityMemberIdBuilder_ == null) {
@@ -4503,9 +4503,9 @@ public final class CoGetMessagesPu {
          * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getFromCommunityMemberIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getFromCommunityMemberIdBuilder() {
           
           onChanged();
           return getFromCommunityMemberIdFieldBuilder().getBuilder();
@@ -4515,14 +4515,14 @@ public final class CoGetMessagesPu {
          * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getFromCommunityMemberIdOrBuilder() {
           if (fromCommunityMemberIdBuilder_ != null) {
             return fromCommunityMemberIdBuilder_.getMessageOrBuilder();
           } else {
             return fromCommunityMemberId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : fromCommunityMemberId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : fromCommunityMemberId_;
           }
         }
         /**
@@ -4530,14 +4530,14 @@ public final class CoGetMessagesPu {
          * ID des Community-Mitglieds, von dem die Nachricht "Message" stammt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_community_member_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue from_community_member_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getFromCommunityMemberIdFieldBuilder() {
           if (fromCommunityMemberIdBuilder_ == null) {
             fromCommunityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getFromCommunityMemberId(),
                     getParentForChildren(),
                     isClean());
@@ -6006,37 +6006,37 @@ public final class CoGetMessagesPu {
       "s_Pu.proto\022\037dstore.engine.co_GetMessages" +
       "_Pu\032\023dstore/values.proto\032\032dstore/engine/" +
       "engine.proto\"\321\005\n\nParameters\022-\n\tunique_id" +
-      "\030\001 \001(\0132\032.dstore.values.stringValue\022\027\n\016un" +
+      "\030\001 \001(\0132\032.dstore.values.StringValue\022\027\n\016un" +
       "ique_id_null\030\351\007 \001(\010\022@\n\034person_identifica" +
-      "tion_values\030\002 \001(\0132\032.dstore.values.string" +
+      "tion_values\030\002 \001(\0132\032.dstore.values.String" +
       "Value\022*\n!person_identification_values_nu" +
       "ll\030\352\007 \001(\010\0221\n\014community_id\030\003 \001(\0132\033.dstore" +
-      ".values.integerValue\022\032\n\021community_id_nul",
+      ".values.IntegerValue\022\032\n\021community_id_nul",
       "l\030\353\007 \001(\010\0225\n\020get_new_messages\030\004 \001(\0132\033.dst" +
-      "ore.values.booleanValue\022\036\n\025get_new_messa" +
+      "ore.values.BooleanValue\022\036\n\025get_new_messa" +
       "ges_null\030\354\007 \001(\010\0229\n\024date_and_time_format\030" +
-      "\005 \001(\0132\033.dstore.values.integerValue\022\"\n\031da" +
+      "\005 \001(\0132\033.dstore.values.IntegerValue\022\"\n\031da" +
       "te_and_time_format_null\030\355\007 \001(\010\022/\n\nmessag" +
-      "e_no\030\006 \001(\0132\033.dstore.values.integerValue\022" +
+      "e_no\030\006 \001(\0132\033.dstore.values.IntegerValue\022" +
       "\030\n\017message_no_null\030\356\007 \001(\010\0227\n\022max_number_" +
-      "of_rows\030\007 \001(\0132\033.dstore.values.integerVal" +
+      "of_rows\030\007 \001(\0132\033.dstore.values.IntegerVal" +
       "ue\022 \n\027max_number_of_rows_null\030\357\007 \001(\010\022;\n\027" +
       "separator_in_ident_vals\030\010 \001(\0132\032.dstore.v",
-      "alues.stringValue\022%\n\034separator_in_ident_" +
+      "alues.StringValue\022%\n\034separator_in_ident_" +
       "vals_null\030\360\007 \001(\010\"\234\004\n\010Response\0228\n\020meta_in" +
       "formation\030\002 \003(\0132\036.dstore.engine.MetaInfo" +
       "rmation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine" +
       ".Message\022:\n\003row\030\004 \003(\0132-.dstore.engine.co" +
       "_GetMessages_Pu.Response.Row\032\360\002\n\003Row\022\017\n\006" +
       "row_id\030\220N \001(\005\022C\n\036from_community_member_n" +
-      "ickname\030\221N \001(\0132\032.dstore.values.stringVal" +
+      "ickname\030\221N \001(\0132\032.dstore.values.StringVal" +
       "ue\0224\n\016message_status\030\222N \001(\0132\033.dstore.val" +
-      "ues.integerValue\022,\n\007message\030\223N \001(\0132\032.dst",
-      "ore.values.stringValue\0220\n\nmessage_no\030\224N " +
-      "\001(\0132\033.dstore.values.integerValue\022=\n\025mess" +
+      "ues.IntegerValue\022,\n\007message\030\223N \001(\0132\032.dst",
+      "ore.values.StringValue\0220\n\nmessage_no\030\224N " +
+      "\001(\0132\033.dstore.values.IntegerValue\022=\n\025mess" +
       "age_date_and_time\030\225N \001(\0132\035.dstore.values" +
-      ".timestampValue\022>\n\030from_community_member" +
-      "_id\030\226N \001(\0132\033.dstore.values.integerValueB" +
+      ".TimestampValue\022>\n\030from_community_member" +
+      "_id\030\226N \001(\0132\033.dstore.values.IntegerValueB" +
       "R\n\033io.dstore.engine.proceduresZ3gosdk.ds" +
       "tore.de/engine/procedures/co_GetMessages" +
       "_Pub\006proto3"
@@ -6052,7 +6052,7 @@ public final class CoGetMessagesPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_GetMessages_Pu_Parameters_descriptor =
@@ -6073,7 +6073,7 @@ public final class CoGetMessagesPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetMessages_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "FromCommunityMemberNickname", "MessageStatus", "Message", "MessageNo", "MessageDateAndTime", "FromCommunityMemberId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

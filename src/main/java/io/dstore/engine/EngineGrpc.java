@@ -33,7 +33,7 @@ public class EngineGrpc {
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
-              "dstore.engine.Engine", "execProcedure"),
+              "dstore.engine.Engine", "ExecProcedure"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Call.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
@@ -42,27 +42,27 @@ public class EngineGrpc {
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.BIDI_STREAMING,
           generateFullMethodName(
-              "dstore.engine.Engine", "execBatch"),
+              "dstore.engine.Engine", "ExecBatch"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Call.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
-  public static final io.grpc.MethodDescriptor<io.dstore.Values.stringValue,
-      io.dstore.Values.stringValue> METHOD_CREATE_UNIQUE_ID =
+  public static final io.grpc.MethodDescriptor<io.dstore.values.StringValue,
+      io.dstore.values.StringValue> METHOD_CREATE_UNIQUE_ID =
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.UNARY,
           generateFullMethodName(
-              "dstore.engine.Engine", "createUniqueID"),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.stringValue.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.stringValue.getDefaultInstance()));
+              "dstore.engine.Engine", "CreateUniqueID"),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.values.StringValue.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.values.StringValue.getDefaultInstance()));
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
-  public static final io.grpc.MethodDescriptor<io.dstore.Values.stringValue,
-      io.dstore.Values.booleanValue> METHOD_IS_VALID_UNIQUE_ID =
+  public static final io.grpc.MethodDescriptor<io.dstore.values.StringValue,
+      io.dstore.values.BooleanValue> METHOD_IS_VALID_UNIQUE_ID =
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.UNARY,
           generateFullMethodName(
-              "dstore.engine.Engine", "isValidUniqueID"),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.stringValue.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.Values.booleanValue.getDefaultInstance()));
+              "dstore.engine.Engine", "IsValidUniqueID"),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.values.StringValue.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.values.BooleanValue.getDefaultInstance()));
 
   /**
    * Creates a new async stub that supports all call types for the service
@@ -107,15 +107,15 @@ public class EngineGrpc {
 
     /**
      */
-    public void createUniqueID(io.dstore.Values.stringValue request,
-        io.grpc.stub.StreamObserver<io.dstore.Values.stringValue> responseObserver) {
+    public void createUniqueID(io.dstore.values.StringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.values.StringValue> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_CREATE_UNIQUE_ID, responseObserver);
     }
 
     /**
      */
-    public void isValidUniqueID(io.dstore.Values.stringValue request,
-        io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue> responseObserver) {
+    public void isValidUniqueID(io.dstore.values.StringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.values.BooleanValue> responseObserver) {
       asyncUnimplementedUnaryCall(METHOD_IS_VALID_UNIQUE_ID, responseObserver);
     }
 
@@ -139,15 +139,15 @@ public class EngineGrpc {
             METHOD_CREATE_UNIQUE_ID,
             asyncUnaryCall(
               new MethodHandlers<
-                io.dstore.Values.stringValue,
-                io.dstore.Values.stringValue>(
+                io.dstore.values.StringValue,
+                io.dstore.values.StringValue>(
                   this, METHODID_CREATE_UNIQUE_ID)))
           .addMethod(
             METHOD_IS_VALID_UNIQUE_ID,
             asyncUnaryCall(
               new MethodHandlers<
-                io.dstore.Values.stringValue,
-                io.dstore.Values.booleanValue>(
+                io.dstore.values.StringValue,
+                io.dstore.values.BooleanValue>(
                   this, METHODID_IS_VALID_UNIQUE_ID)))
           .build();
     }
@@ -189,16 +189,16 @@ public class EngineGrpc {
 
     /**
      */
-    public void createUniqueID(io.dstore.Values.stringValue request,
-        io.grpc.stub.StreamObserver<io.dstore.Values.stringValue> responseObserver) {
+    public void createUniqueID(io.dstore.values.StringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.values.StringValue> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(METHOD_CREATE_UNIQUE_ID, getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void isValidUniqueID(io.dstore.Values.stringValue request,
-        io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue> responseObserver) {
+    public void isValidUniqueID(io.dstore.values.StringValue request,
+        io.grpc.stub.StreamObserver<io.dstore.values.BooleanValue> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(METHOD_IS_VALID_UNIQUE_ID, getCallOptions()), request, responseObserver);
     }
@@ -232,14 +232,14 @@ public class EngineGrpc {
 
     /**
      */
-    public io.dstore.Values.stringValue createUniqueID(io.dstore.Values.stringValue request) {
+    public io.dstore.values.StringValue createUniqueID(io.dstore.values.StringValue request) {
       return blockingUnaryCall(
           getChannel(), METHOD_CREATE_UNIQUE_ID, getCallOptions(), request);
     }
 
     /**
      */
-    public io.dstore.Values.booleanValue isValidUniqueID(io.dstore.Values.stringValue request) {
+    public io.dstore.values.BooleanValue isValidUniqueID(io.dstore.values.StringValue request) {
       return blockingUnaryCall(
           getChannel(), METHOD_IS_VALID_UNIQUE_ID, getCallOptions(), request);
     }
@@ -265,16 +265,16 @@ public class EngineGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.stringValue> createUniqueID(
-        io.dstore.Values.stringValue request) {
+    public com.google.common.util.concurrent.ListenableFuture<io.dstore.values.StringValue> createUniqueID(
+        io.dstore.values.StringValue request) {
       return futureUnaryCall(
           getChannel().newCall(METHOD_CREATE_UNIQUE_ID, getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<io.dstore.Values.booleanValue> isValidUniqueID(
-        io.dstore.Values.stringValue request) {
+    public com.google.common.util.concurrent.ListenableFuture<io.dstore.values.BooleanValue> isValidUniqueID(
+        io.dstore.values.StringValue request) {
       return futureUnaryCall(
           getChannel().newCall(METHOD_IS_VALID_UNIQUE_ID, getCallOptions()), request);
     }
@@ -307,12 +307,12 @@ public class EngineGrpc {
               (io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response>) responseObserver);
           break;
         case METHODID_CREATE_UNIQUE_ID:
-          serviceImpl.createUniqueID((io.dstore.Values.stringValue) request,
-              (io.grpc.stub.StreamObserver<io.dstore.Values.stringValue>) responseObserver);
+          serviceImpl.createUniqueID((io.dstore.values.StringValue) request,
+              (io.grpc.stub.StreamObserver<io.dstore.values.StringValue>) responseObserver);
           break;
         case METHODID_IS_VALID_UNIQUE_ID:
-          serviceImpl.isValidUniqueID((io.dstore.Values.stringValue) request,
-              (io.grpc.stub.StreamObserver<io.dstore.Values.booleanValue>) responseObserver);
+          serviceImpl.isValidUniqueID((io.dstore.values.StringValue) request,
+              (io.grpc.stub.StreamObserver<io.dstore.values.BooleanValue>) responseObserver);
           break;
         default:
           throw new AssertionError();

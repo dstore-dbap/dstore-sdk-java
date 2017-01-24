@@ -19,17 +19,17 @@ public final class PmGetEncryptionAlgorithmPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetEncryptionAlgorithmPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
     boolean hasIdentifyingCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValue getIdentifyingCharacteristicId();
+    io.dstore.values.IntegerValue getIdentifyingCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool identifying_characteristic_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmGetEncryptionAlgorithmPu {
     boolean getIdentifyingCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
     boolean hasIdentifyingValue();
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
-    io.dstore.Values.stringValue getIdentifyingValue();
+    io.dstore.values.StringValue getIdentifyingValue();
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder();
 
     /**
      * <code>optional bool identifying_value_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class PmGetEncryptionAlgorithmPu {
     boolean getIdentifyingValueNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
     boolean hasCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    io.dstore.Values.booleanValue getCaseSensitive();
+    io.dstore.values.BooleanValue getCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder();
 
     /**
      * <code>optional bool case_sensitive_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class PmGetEncryptionAlgorithmPu {
     boolean getCaseSensitiveNull();
 
     /**
-     * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
      */
     boolean hasGetEncrAlgForCharacIdList();
     /**
-     * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
      */
-    io.dstore.Values.stringValue getGetEncrAlgForCharacIdList();
+    io.dstore.values.StringValue getGetEncrAlgForCharacIdList();
     /**
-     * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getGetEncrAlgForCharacIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getGetEncrAlgForCharacIdListOrBuilder();
 
     /**
      * <code>optional bool get_encr_alg_for_charac_id_list_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class PmGetEncryptionAlgorithmPu {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class PmGetEncryptionAlgorithmPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (identifyingCharacteristicId_ != null) {
                 subBuilder = identifyingCharacteristicId_.toBuilder();
               }
-              identifyingCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              identifyingCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(identifyingCharacteristicId_);
                 identifyingCharacteristicId_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class PmGetEncryptionAlgorithmPu {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (identifyingValue_ != null) {
                 subBuilder = identifyingValue_.toBuilder();
               }
-              identifyingValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              identifyingValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(identifyingValue_);
                 identifyingValue_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class PmGetEncryptionAlgorithmPu {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (caseSensitive_ != null) {
                 subBuilder = caseSensitive_.toBuilder();
               }
-              caseSensitive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              caseSensitive_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(caseSensitive_);
                 caseSensitive_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class PmGetEncryptionAlgorithmPu {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (getEncrAlgForCharacIdList_ != null) {
                 subBuilder = getEncrAlgForCharacIdList_.toBuilder();
               }
-              getEncrAlgForCharacIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              getEncrAlgForCharacIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getEncrAlgForCharacIdList_);
                 getEncrAlgForCharacIdList_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class PmGetEncryptionAlgorithmPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -296,23 +296,23 @@ public final class PmGetEncryptionAlgorithmPu {
     }
 
     public static final int IDENTIFYING_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue identifyingCharacteristicId_;
+    private io.dstore.values.IntegerValue identifyingCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
     public boolean hasIdentifyingCharacteristicId() {
       return identifyingCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getIdentifyingCharacteristicId() {
-      return identifyingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : identifyingCharacteristicId_;
+    public io.dstore.values.IntegerValue getIdentifyingCharacteristicId() {
+      return identifyingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : identifyingCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
       return getIdentifyingCharacteristicId();
     }
 
@@ -326,23 +326,23 @@ public final class PmGetEncryptionAlgorithmPu {
     }
 
     public static final int IDENTIFYING_VALUE_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue identifyingValue_;
+    private io.dstore.values.StringValue identifyingValue_;
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
     public boolean hasIdentifyingValue() {
       return identifyingValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
-    public io.dstore.Values.stringValue getIdentifyingValue() {
-      return identifyingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+    public io.dstore.values.StringValue getIdentifyingValue() {
+      return identifyingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder() {
       return getIdentifyingValue();
     }
 
@@ -356,23 +356,23 @@ public final class PmGetEncryptionAlgorithmPu {
     }
 
     public static final int CASE_SENSITIVE_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue caseSensitive_;
+    private io.dstore.values.BooleanValue caseSensitive_;
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
     public boolean hasCaseSensitive() {
       return caseSensitive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    public io.dstore.Values.booleanValue getCaseSensitive() {
-      return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+    public io.dstore.values.BooleanValue getCaseSensitive() {
+      return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
       return getCaseSensitive();
     }
 
@@ -386,23 +386,23 @@ public final class PmGetEncryptionAlgorithmPu {
     }
 
     public static final int GET_ENCR_ALG_FOR_CHARAC_ID_LIST_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue getEncrAlgForCharacIdList_;
+    private io.dstore.values.StringValue getEncrAlgForCharacIdList_;
     /**
-     * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
      */
     public boolean hasGetEncrAlgForCharacIdList() {
       return getEncrAlgForCharacIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
      */
-    public io.dstore.Values.stringValue getGetEncrAlgForCharacIdList() {
-      return getEncrAlgForCharacIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : getEncrAlgForCharacIdList_;
+    public io.dstore.values.StringValue getGetEncrAlgForCharacIdList() {
+      return getEncrAlgForCharacIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : getEncrAlgForCharacIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+     * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getGetEncrAlgForCharacIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getGetEncrAlgForCharacIdListOrBuilder() {
       return getGetEncrAlgForCharacIdList();
     }
 
@@ -907,29 +907,29 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -975,7 +975,7 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue identifyingCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue identifyingCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> identifyingCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> identifyingCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
       public boolean hasIdentifyingCharacteristicId() {
         return identifyingCharacteristicIdBuilder_ != null || identifyingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getIdentifyingCharacteristicId() {
+      public io.dstore.values.IntegerValue getIdentifyingCharacteristicId() {
         if (identifyingCharacteristicIdBuilder_ == null) {
-          return identifyingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : identifyingCharacteristicId_;
+          return identifyingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : identifyingCharacteristicId_;
         } else {
           return identifyingCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public Builder setIdentifyingCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setIdentifyingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (identifyingCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
       public Builder setIdentifyingCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (identifyingCharacteristicIdBuilder_ == null) {
           identifyingCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public Builder mergeIdentifyingCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeIdentifyingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (identifyingCharacteristicIdBuilder_ == null) {
           if (identifyingCharacteristicId_ != null) {
             identifyingCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(identifyingCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(identifyingCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             identifyingCharacteristicId_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
       public Builder clearIdentifyingCharacteristicId() {
         if (identifyingCharacteristicIdBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getIdentifyingCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getIdentifyingCharacteristicIdBuilder() {
         
         onChanged();
         return getIdentifyingCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
         if (identifyingCharacteristicIdBuilder_ != null) {
           return identifyingCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return identifyingCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : identifyingCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : identifyingCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getIdentifyingCharacteristicIdFieldBuilder() {
         if (identifyingCharacteristicIdBuilder_ == null) {
           identifyingCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getIdentifyingCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue identifyingValue_ = null;
+      private io.dstore.values.StringValue identifyingValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> identifyingValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> identifyingValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
       public boolean hasIdentifyingValue() {
         return identifyingValueBuilder_ != null || identifyingValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public io.dstore.Values.stringValue getIdentifyingValue() {
+      public io.dstore.values.StringValue getIdentifyingValue() {
         if (identifyingValueBuilder_ == null) {
-          return identifyingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+          return identifyingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
         } else {
           return identifyingValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public Builder setIdentifyingValue(io.dstore.Values.stringValue value) {
+      public Builder setIdentifyingValue(io.dstore.values.StringValue value) {
         if (identifyingValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
       public Builder setIdentifyingValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (identifyingValueBuilder_ == null) {
           identifyingValue_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public Builder mergeIdentifyingValue(io.dstore.Values.stringValue value) {
+      public Builder mergeIdentifyingValue(io.dstore.values.StringValue value) {
         if (identifyingValueBuilder_ == null) {
           if (identifyingValue_ != null) {
             identifyingValue_ =
-              io.dstore.Values.stringValue.newBuilder(identifyingValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(identifyingValue_).mergeFrom(value).buildPartial();
           } else {
             identifyingValue_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
       public Builder clearIdentifyingValue() {
         if (identifyingValueBuilder_ == null) {
@@ -1275,33 +1275,33 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getIdentifyingValueBuilder() {
+      public io.dstore.values.StringValue.Builder getIdentifyingValueBuilder() {
         
         onChanged();
         return getIdentifyingValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder() {
         if (identifyingValueBuilder_ != null) {
           return identifyingValueBuilder_.getMessageOrBuilder();
         } else {
           return identifyingValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getIdentifyingValueFieldBuilder() {
         if (identifyingValueBuilder_ == null) {
           identifyingValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getIdentifyingValue(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue caseSensitive_ = null;
+      private io.dstore.values.BooleanValue caseSensitive_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> caseSensitiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       public boolean hasCaseSensitive() {
         return caseSensitiveBuilder_ != null || caseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public io.dstore.Values.booleanValue getCaseSensitive() {
+      public io.dstore.values.BooleanValue getCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
-          return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+          return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         } else {
           return caseSensitiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public Builder setCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder setCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       public Builder setCaseSensitive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (caseSensitiveBuilder_ == null) {
           caseSensitive_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public Builder mergeCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder mergeCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (caseSensitive_ != null) {
             caseSensitive_ =
-              io.dstore.Values.booleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
           } else {
             caseSensitive_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       public Builder clearCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
@@ -1418,33 +1418,33 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCaseSensitiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCaseSensitiveBuilder() {
         
         onChanged();
         return getCaseSensitiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
         if (caseSensitiveBuilder_ != null) {
           return caseSensitiveBuilder_.getMessageOrBuilder();
         } else {
           return caseSensitive_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
           caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue getEncrAlgForCharacIdList_ = null;
+      private io.dstore.values.StringValue getEncrAlgForCharacIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> getEncrAlgForCharacIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> getEncrAlgForCharacIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
        */
       public boolean hasGetEncrAlgForCharacIdList() {
         return getEncrAlgForCharacIdListBuilder_ != null || getEncrAlgForCharacIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
        */
-      public io.dstore.Values.stringValue getGetEncrAlgForCharacIdList() {
+      public io.dstore.values.StringValue getGetEncrAlgForCharacIdList() {
         if (getEncrAlgForCharacIdListBuilder_ == null) {
-          return getEncrAlgForCharacIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : getEncrAlgForCharacIdList_;
+          return getEncrAlgForCharacIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : getEncrAlgForCharacIdList_;
         } else {
           return getEncrAlgForCharacIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
        */
-      public Builder setGetEncrAlgForCharacIdList(io.dstore.Values.stringValue value) {
+      public Builder setGetEncrAlgForCharacIdList(io.dstore.values.StringValue value) {
         if (getEncrAlgForCharacIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
        */
       public Builder setGetEncrAlgForCharacIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (getEncrAlgForCharacIdListBuilder_ == null) {
           getEncrAlgForCharacIdList_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
        */
-      public Builder mergeGetEncrAlgForCharacIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeGetEncrAlgForCharacIdList(io.dstore.values.StringValue value) {
         if (getEncrAlgForCharacIdListBuilder_ == null) {
           if (getEncrAlgForCharacIdList_ != null) {
             getEncrAlgForCharacIdList_ =
-              io.dstore.Values.stringValue.newBuilder(getEncrAlgForCharacIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(getEncrAlgForCharacIdList_).mergeFrom(value).buildPartial();
           } else {
             getEncrAlgForCharacIdList_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
        */
       public Builder clearGetEncrAlgForCharacIdList() {
         if (getEncrAlgForCharacIdListBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class PmGetEncryptionAlgorithmPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getGetEncrAlgForCharacIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getGetEncrAlgForCharacIdListBuilder() {
         
         onChanged();
         return getGetEncrAlgForCharacIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getGetEncrAlgForCharacIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getGetEncrAlgForCharacIdListOrBuilder() {
         if (getEncrAlgForCharacIdListBuilder_ != null) {
           return getEncrAlgForCharacIdListBuilder_.getMessageOrBuilder();
         } else {
           return getEncrAlgForCharacIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : getEncrAlgForCharacIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : getEncrAlgForCharacIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue get_encr_alg_for_charac_id_list = 5;</code>
+       * <code>optional .dstore.values.StringValue get_encr_alg_for_charac_id_list = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getGetEncrAlgForCharacIdListFieldBuilder() {
         if (getEncrAlgForCharacIdListBuilder_ == null) {
           getEncrAlgForCharacIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getGetEncrAlgForCharacIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1881,7 +1881,7 @@ public final class PmGetEncryptionAlgorithmPu {
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
@@ -1889,24 +1889,24 @@ public final class PmGetEncryptionAlgorithmPu {
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getPersonCharacteristicId();
+      io.dstore.values.IntegerValue getPersonCharacteristicId();
       /**
        * <pre>
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+       * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
        */
       boolean hasEncryptionAlgorithm();
       /**
@@ -1914,17 +1914,17 @@ public final class PmGetEncryptionAlgorithmPu {
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+       * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
        */
-      io.dstore.Values.stringValue getEncryptionAlgorithm();
+      io.dstore.values.StringValue getEncryptionAlgorithm();
       /**
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+       * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getEncryptionAlgorithmOrBuilder();
+      io.dstore.values.StringValueOrBuilder getEncryptionAlgorithmOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetEncryptionAlgorithm_Pu.Response.Row}
@@ -1972,11 +1972,11 @@ public final class PmGetEncryptionAlgorithmPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personCharacteristicId_ != null) {
                   subBuilder = personCharacteristicId_.toBuilder();
                 }
-                personCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personCharacteristicId_);
                   personCharacteristicId_ = subBuilder.buildPartial();
@@ -1985,11 +1985,11 @@ public final class PmGetEncryptionAlgorithmPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (encryptionAlgorithm_ != null) {
                   subBuilder = encryptionAlgorithm_.toBuilder();
                 }
-                encryptionAlgorithm_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                encryptionAlgorithm_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(encryptionAlgorithm_);
                   encryptionAlgorithm_ = subBuilder.buildPartial();
@@ -2030,13 +2030,13 @@ public final class PmGetEncryptionAlgorithmPu {
       }
 
       public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue personCharacteristicId_;
+      private io.dstore.values.IntegerValue personCharacteristicId_;
       /**
        * <pre>
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
@@ -2046,30 +2046,30 @@ public final class PmGetEncryptionAlgorithmPu {
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getPersonCharacteristicId() {
-        return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+      public io.dstore.values.IntegerValue getPersonCharacteristicId() {
+        return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
       }
       /**
        * <pre>
        * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
       }
 
       public static final int ENCRYPTION_ALGORITHM_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue encryptionAlgorithm_;
+      private io.dstore.values.StringValue encryptionAlgorithm_;
       /**
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+       * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
        */
       public boolean hasEncryptionAlgorithm() {
         return encryptionAlgorithm_ != null;
@@ -2079,19 +2079,19 @@ public final class PmGetEncryptionAlgorithmPu {
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+       * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
        */
-      public io.dstore.Values.stringValue getEncryptionAlgorithm() {
-        return encryptionAlgorithm_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : encryptionAlgorithm_;
+      public io.dstore.values.StringValue getEncryptionAlgorithm() {
+        return encryptionAlgorithm_ == null ? io.dstore.values.StringValue.getDefaultInstance() : encryptionAlgorithm_;
       }
       /**
        * <pre>
        * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+       * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getEncryptionAlgorithmOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getEncryptionAlgorithmOrBuilder() {
         return getEncryptionAlgorithm();
       }
 
@@ -2450,15 +2450,15 @@ public final class PmGetEncryptionAlgorithmPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue personCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue personCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
@@ -2468,11 +2468,11 @@ public final class PmGetEncryptionAlgorithmPu {
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getPersonCharacteristicId() {
+        public io.dstore.values.IntegerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
-            return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+            return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           } else {
             return personCharacteristicIdBuilder_.getMessage();
           }
@@ -2482,9 +2482,9 @@ public final class PmGetEncryptionAlgorithmPu {
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2502,10 +2502,10 @@ public final class PmGetEncryptionAlgorithmPu {
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder setPersonCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -2520,13 +2520,13 @@ public final class PmGetEncryptionAlgorithmPu {
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (personCharacteristicId_ != null) {
               personCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               personCharacteristicId_ = value;
             }
@@ -2542,7 +2542,7 @@ public final class PmGetEncryptionAlgorithmPu {
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2560,9 +2560,9 @@ public final class PmGetEncryptionAlgorithmPu {
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
           
           onChanged();
           return getPersonCharacteristicIdFieldBuilder().getBuilder();
@@ -2572,14 +2572,14 @@ public final class PmGetEncryptionAlgorithmPu {
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
             return personCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return personCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           }
         }
         /**
@@ -2587,14 +2587,14 @@ public final class PmGetEncryptionAlgorithmPu {
          * ID eines Merkmals, das in "&#64;GetEncrAlgForCharacIDList" angegeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonCharacteristicIdFieldBuilder() {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -2603,15 +2603,15 @@ public final class PmGetEncryptionAlgorithmPu {
           return personCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue encryptionAlgorithm_ = null;
+        private io.dstore.values.StringValue encryptionAlgorithm_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> encryptionAlgorithmBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> encryptionAlgorithmBuilder_;
         /**
          * <pre>
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+         * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
          */
         public boolean hasEncryptionAlgorithm() {
           return encryptionAlgorithmBuilder_ != null || encryptionAlgorithm_ != null;
@@ -2621,11 +2621,11 @@ public final class PmGetEncryptionAlgorithmPu {
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+         * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
          */
-        public io.dstore.Values.stringValue getEncryptionAlgorithm() {
+        public io.dstore.values.StringValue getEncryptionAlgorithm() {
           if (encryptionAlgorithmBuilder_ == null) {
-            return encryptionAlgorithm_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : encryptionAlgorithm_;
+            return encryptionAlgorithm_ == null ? io.dstore.values.StringValue.getDefaultInstance() : encryptionAlgorithm_;
           } else {
             return encryptionAlgorithmBuilder_.getMessage();
           }
@@ -2635,9 +2635,9 @@ public final class PmGetEncryptionAlgorithmPu {
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+         * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
          */
-        public Builder setEncryptionAlgorithm(io.dstore.Values.stringValue value) {
+        public Builder setEncryptionAlgorithm(io.dstore.values.StringValue value) {
           if (encryptionAlgorithmBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2655,10 +2655,10 @@ public final class PmGetEncryptionAlgorithmPu {
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+         * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
          */
         public Builder setEncryptionAlgorithm(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (encryptionAlgorithmBuilder_ == null) {
             encryptionAlgorithm_ = builderForValue.build();
             onChanged();
@@ -2673,13 +2673,13 @@ public final class PmGetEncryptionAlgorithmPu {
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+         * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
          */
-        public Builder mergeEncryptionAlgorithm(io.dstore.Values.stringValue value) {
+        public Builder mergeEncryptionAlgorithm(io.dstore.values.StringValue value) {
           if (encryptionAlgorithmBuilder_ == null) {
             if (encryptionAlgorithm_ != null) {
               encryptionAlgorithm_ =
-                io.dstore.Values.stringValue.newBuilder(encryptionAlgorithm_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(encryptionAlgorithm_).mergeFrom(value).buildPartial();
             } else {
               encryptionAlgorithm_ = value;
             }
@@ -2695,7 +2695,7 @@ public final class PmGetEncryptionAlgorithmPu {
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+         * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
          */
         public Builder clearEncryptionAlgorithm() {
           if (encryptionAlgorithmBuilder_ == null) {
@@ -2713,9 +2713,9 @@ public final class PmGetEncryptionAlgorithmPu {
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+         * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getEncryptionAlgorithmBuilder() {
+        public io.dstore.values.StringValue.Builder getEncryptionAlgorithmBuilder() {
           
           onChanged();
           return getEncryptionAlgorithmFieldBuilder().getBuilder();
@@ -2725,14 +2725,14 @@ public final class PmGetEncryptionAlgorithmPu {
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+         * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getEncryptionAlgorithmOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getEncryptionAlgorithmOrBuilder() {
           if (encryptionAlgorithmBuilder_ != null) {
             return encryptionAlgorithmBuilder_.getMessageOrBuilder();
           } else {
             return encryptionAlgorithm_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : encryptionAlgorithm_;
+                io.dstore.values.StringValue.getDefaultInstance() : encryptionAlgorithm_;
           }
         }
         /**
@@ -2740,14 +2740,14 @@ public final class PmGetEncryptionAlgorithmPu {
          * Verschlüsselungs-Algorithmus, mit dem die Eigenschaft der identifizierten Person zum Merkmal "PersonCharacteristicID" verschlüsselt ist. "NULL" bedeutet, daß kein Algorithmus ermittelt werden konnte - der Grund ist aber unklar !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue encryption_algorithm = 10002;</code>
+         * <code>optional .dstore.values.StringValue encryption_algorithm = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getEncryptionAlgorithmFieldBuilder() {
           if (encryptionAlgorithmBuilder_ == null) {
             encryptionAlgorithmBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getEncryptionAlgorithm(),
                     getParentForChildren(),
                     isClean());
@@ -4217,16 +4217,16 @@ public final class PmGetEncryptionAlgorithmPu {
       "GetEncryptionAlgorithm_Pu\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\357\003\n\nP" +
       "arameters\0223\n\016person_type_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\034\n\023person_type_id" +
+      "re.values.IntegerValue\022\034\n\023person_type_id" +
       "_null\030\351\007 \001(\010\022B\n\035identifying_characterist" +
-      "ic_id\030\002 \001(\0132\033.dstore.values.integerValue" +
+      "ic_id\030\002 \001(\0132\033.dstore.values.IntegerValue" +
       "\022+\n\"identifying_characteristic_id_null\030\352" +
       "\007 \001(\010\0225\n\021identifying_value\030\003 \001(\0132\032.dstor",
-      "e.values.stringValue\022\037\n\026identifying_valu" +
+      "e.values.StringValue\022\037\n\026identifying_valu" +
       "e_null\030\353\007 \001(\010\0223\n\016case_sensitive\030\004 \001(\0132\033." +
-      "dstore.values.booleanValue\022\034\n\023case_sensi" +
+      "dstore.values.BooleanValue\022\034\n\023case_sensi" +
       "tive_null\030\354\007 \001(\010\022C\n\037get_encr_alg_for_cha" +
-      "rac_id_list\030\005 \001(\0132\032.dstore.values.string" +
+      "rac_id_list\030\005 \001(\0132\032.dstore.values.String" +
       "Value\022-\n$get_encr_alg_for_charac_id_list" +
       "_null\030\355\007 \001(\010\"\310\002\n\010Response\0228\n\020meta_inform" +
       "ation\030\002 \003(\0132\036.dstore.engine.MetaInformat" +
@@ -4234,9 +4234,9 @@ public final class PmGetEncryptionAlgorithmPu {
       "sage\022E\n\003row\030\004 \003(\01328.dstore.engine.pm_Get",
       "EncryptionAlgorithm_Pu.Response.Row\032\221\001\n\003" +
       "Row\022\017\n\006row_id\030\220N \001(\005\022>\n\030person_character" +
-      "istic_id\030\221N \001(\0132\033.dstore.values.integerV" +
+      "istic_id\030\221N \001(\0132\033.dstore.values.IntegerV" +
       "alue\0229\n\024encryption_algorithm\030\222N \001(\0132\032.ds" +
-      "tore.values.stringValueB]\n\033io.dstore.eng" +
+      "tore.values.StringValueB]\n\033io.dstore.eng" +
       "ine.proceduresZ>gosdk.dstore.de/engine/p" +
       "rocedures/pm_GetEncryptionAlgorithm_Pub\006" +
       "proto3"
@@ -4252,7 +4252,7 @@ public final class PmGetEncryptionAlgorithmPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetEncryptionAlgorithm_Pu_Parameters_descriptor =
@@ -4273,7 +4273,7 @@ public final class PmGetEncryptionAlgorithmPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetEncryptionAlgorithm_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PersonCharacteristicId", "EncryptionAlgorithm", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

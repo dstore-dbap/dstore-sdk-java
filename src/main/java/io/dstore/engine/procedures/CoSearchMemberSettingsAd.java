@@ -19,17 +19,17 @@ public final class CoSearchMemberSettingsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoSearchMemberSettingsAd {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    io.dstore.Values.stringValue getKeyVariable();
+    io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+    io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
      * <code>optional bool key_variable_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoSearchMemberSettingsAd {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
-    io.dstore.Values.stringValue getValue();
+    io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
      * <code>optional bool value_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class CoSearchMemberSettingsAd {
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+     * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
      */
     boolean hasFromRowNumber();
     /**
-     * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+     * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
      */
-    io.dstore.Values.integerValue getFromRowNumber();
+    io.dstore.values.IntegerValue getFromRowNumber();
     /**
-     * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+     * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFromRowNumberOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFromRowNumberOrBuilder();
 
     /**
      * <code>optional bool from_row_number_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class CoSearchMemberSettingsAd {
     boolean getFromRowNumberNull();
 
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
      */
     boolean hasMaxNumberOfRows();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
      */
-    io.dstore.Values.integerValue getMaxNumberOfRows();
+    io.dstore.values.IntegerValue getMaxNumberOfRows();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMaxNumberOfRowsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMaxNumberOfRowsOrBuilder();
 
     /**
      * <code>optional bool max_number_of_rows_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class CoSearchMemberSettingsAd {
     boolean getMaxNumberOfRowsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+     * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
      */
     boolean hasOrderByColumn();
     /**
-     * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+     * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
      */
-    io.dstore.Values.integerValue getOrderByColumn();
+    io.dstore.values.IntegerValue getOrderByColumn();
     /**
-     * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+     * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOrderByColumnOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOrderByColumnOrBuilder();
 
     /**
      * <code>optional bool order_by_column_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class CoSearchMemberSettingsAd {
     boolean getOrderByColumnNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
      */
     boolean hasOrderByLowerValues();
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
      */
-    io.dstore.Values.booleanValue getOrderByLowerValues();
+    io.dstore.values.BooleanValue getOrderByLowerValues();
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOrderByLowerValuesOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOrderByLowerValuesOrBuilder();
 
     /**
      * <code>optional bool order_by_lower_values_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class CoSearchMemberSettingsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class CoSearchMemberSettingsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class CoSearchMemberSettingsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class CoSearchMemberSettingsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (fromRowNumber_ != null) {
                 subBuilder = fromRowNumber_.toBuilder();
               }
-              fromRowNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              fromRowNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromRowNumber_);
                 fromRowNumber_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class CoSearchMemberSettingsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (maxNumberOfRows_ != null) {
                 subBuilder = maxNumberOfRows_.toBuilder();
               }
-              maxNumberOfRows_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              maxNumberOfRows_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfRows_);
                 maxNumberOfRows_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class CoSearchMemberSettingsAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (orderByColumn_ != null) {
                 subBuilder = orderByColumn_.toBuilder();
               }
-              orderByColumn_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              orderByColumn_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderByColumn_);
                 orderByColumn_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class CoSearchMemberSettingsAd {
               break;
             }
             case 58: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (orderByLowerValues_ != null) {
                 subBuilder = orderByLowerValues_.toBuilder();
               }
-              orderByLowerValues_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              orderByLowerValues_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderByLowerValues_);
                 orderByLowerValues_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class CoSearchMemberSettingsAd {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -370,23 +370,23 @@ public final class CoSearchMemberSettingsAd {
     }
 
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue keyVariable_;
+    private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    public io.dstore.Values.stringValue getKeyVariable() {
-      return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+    public io.dstore.values.StringValue getKeyVariable() {
+      return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
     }
 
@@ -400,23 +400,23 @@ public final class CoSearchMemberSettingsAd {
     }
 
     public static final int VALUE_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue value_;
+    private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
-    public io.dstore.Values.stringValue getValue() {
-      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    public io.dstore.values.StringValue getValue() {
+      return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -430,23 +430,23 @@ public final class CoSearchMemberSettingsAd {
     }
 
     public static final int FROM_ROW_NUMBER_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue fromRowNumber_;
+    private io.dstore.values.IntegerValue fromRowNumber_;
     /**
-     * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+     * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
      */
     public boolean hasFromRowNumber() {
       return fromRowNumber_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+     * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
      */
-    public io.dstore.Values.integerValue getFromRowNumber() {
-      return fromRowNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromRowNumber_;
+    public io.dstore.values.IntegerValue getFromRowNumber() {
+      return fromRowNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromRowNumber_;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+     * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFromRowNumberOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFromRowNumberOrBuilder() {
       return getFromRowNumber();
     }
 
@@ -460,23 +460,23 @@ public final class CoSearchMemberSettingsAd {
     }
 
     public static final int MAX_NUMBER_OF_ROWS_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue maxNumberOfRows_;
+    private io.dstore.values.IntegerValue maxNumberOfRows_;
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
      */
     public boolean hasMaxNumberOfRows() {
       return maxNumberOfRows_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
      */
-    public io.dstore.Values.integerValue getMaxNumberOfRows() {
-      return maxNumberOfRows_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfRows_;
+    public io.dstore.values.IntegerValue getMaxNumberOfRows() {
+      return maxNumberOfRows_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfRows_;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
       return getMaxNumberOfRows();
     }
 
@@ -490,23 +490,23 @@ public final class CoSearchMemberSettingsAd {
     }
 
     public static final int ORDER_BY_COLUMN_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue orderByColumn_;
+    private io.dstore.values.IntegerValue orderByColumn_;
     /**
-     * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+     * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
      */
     public boolean hasOrderByColumn() {
       return orderByColumn_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+     * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
      */
-    public io.dstore.Values.integerValue getOrderByColumn() {
-      return orderByColumn_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderByColumn_;
+    public io.dstore.values.IntegerValue getOrderByColumn() {
+      return orderByColumn_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderByColumn_;
     }
     /**
-     * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+     * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOrderByColumnOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOrderByColumnOrBuilder() {
       return getOrderByColumn();
     }
 
@@ -520,23 +520,23 @@ public final class CoSearchMemberSettingsAd {
     }
 
     public static final int ORDER_BY_LOWER_VALUES_FIELD_NUMBER = 7;
-    private io.dstore.Values.booleanValue orderByLowerValues_;
+    private io.dstore.values.BooleanValue orderByLowerValues_;
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
      */
     public boolean hasOrderByLowerValues() {
       return orderByLowerValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
      */
-    public io.dstore.Values.booleanValue getOrderByLowerValues() {
-      return orderByLowerValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderByLowerValues_;
+    public io.dstore.values.BooleanValue getOrderByLowerValues() {
+      return orderByLowerValues_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderByLowerValues_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+     * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOrderByLowerValuesOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOrderByLowerValuesOrBuilder() {
       return getOrderByLowerValues();
     }
 
@@ -1137,29 +1137,29 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue keyVariable_ = null;
+      private io.dstore.values.StringValue keyVariable_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValue getKeyVariable() {
+      public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
-          return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+          return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
         } else {
           return keyVariableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public Builder setKeyVariable(io.dstore.Values.stringValue value) {
+      public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (keyVariableBuilder_ == null) {
           keyVariable_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
+      public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
           if (keyVariable_ != null) {
             keyVariable_ =
-              io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
           } else {
             keyVariable_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
+      public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
         onChanged();
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
           return keyVariableBuilder_.getMessageOrBuilder();
         } else {
           return keyVariable_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+              io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getKeyVariableFieldBuilder() {
         if (keyVariableBuilder_ == null) {
           keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getKeyVariable(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue value_ = null;
+      private io.dstore.values.StringValue value_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
+      public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public Builder setValue(io.dstore.Values.stringValue value) {
+      public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public Builder mergeValue(io.dstore.Values.stringValue value) {
+      public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+      public io.dstore.values.StringValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+              io.dstore.values.StringValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue fromRowNumber_ = null;
+      private io.dstore.values.IntegerValue fromRowNumber_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromRowNumberBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromRowNumberBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+       * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
        */
       public boolean hasFromRowNumber() {
         return fromRowNumberBuilder_ != null || fromRowNumber_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+       * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
        */
-      public io.dstore.Values.integerValue getFromRowNumber() {
+      public io.dstore.values.IntegerValue getFromRowNumber() {
         if (fromRowNumberBuilder_ == null) {
-          return fromRowNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromRowNumber_;
+          return fromRowNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromRowNumber_;
         } else {
           return fromRowNumberBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+       * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
        */
-      public Builder setFromRowNumber(io.dstore.Values.integerValue value) {
+      public Builder setFromRowNumber(io.dstore.values.IntegerValue value) {
         if (fromRowNumberBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+       * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
        */
       public Builder setFromRowNumber(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (fromRowNumberBuilder_ == null) {
           fromRowNumber_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+       * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
        */
-      public Builder mergeFromRowNumber(io.dstore.Values.integerValue value) {
+      public Builder mergeFromRowNumber(io.dstore.values.IntegerValue value) {
         if (fromRowNumberBuilder_ == null) {
           if (fromRowNumber_ != null) {
             fromRowNumber_ =
-              io.dstore.Values.integerValue.newBuilder(fromRowNumber_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(fromRowNumber_).mergeFrom(value).buildPartial();
           } else {
             fromRowNumber_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+       * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
        */
       public Builder clearFromRowNumber() {
         if (fromRowNumberBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+       * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFromRowNumberBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFromRowNumberBuilder() {
         
         onChanged();
         return getFromRowNumberFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+       * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromRowNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromRowNumberOrBuilder() {
         if (fromRowNumberBuilder_ != null) {
           return fromRowNumberBuilder_.getMessageOrBuilder();
         } else {
           return fromRowNumber_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : fromRowNumber_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : fromRowNumber_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_row_number = 4;</code>
+       * <code>optional .dstore.values.IntegerValue from_row_number = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFromRowNumberFieldBuilder() {
         if (fromRowNumberBuilder_ == null) {
           fromRowNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFromRowNumber(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue maxNumberOfRows_ = null;
+      private io.dstore.values.IntegerValue maxNumberOfRows_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfRowsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfRowsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
        */
       public boolean hasMaxNumberOfRows() {
         return maxNumberOfRowsBuilder_ != null || maxNumberOfRows_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
        */
-      public io.dstore.Values.integerValue getMaxNumberOfRows() {
+      public io.dstore.values.IntegerValue getMaxNumberOfRows() {
         if (maxNumberOfRowsBuilder_ == null) {
-          return maxNumberOfRows_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfRows_;
+          return maxNumberOfRows_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfRows_;
         } else {
           return maxNumberOfRowsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
        */
-      public Builder setMaxNumberOfRows(io.dstore.Values.integerValue value) {
+      public Builder setMaxNumberOfRows(io.dstore.values.IntegerValue value) {
         if (maxNumberOfRowsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
        */
       public Builder setMaxNumberOfRows(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (maxNumberOfRowsBuilder_ == null) {
           maxNumberOfRows_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
        */
-      public Builder mergeMaxNumberOfRows(io.dstore.Values.integerValue value) {
+      public Builder mergeMaxNumberOfRows(io.dstore.values.IntegerValue value) {
         if (maxNumberOfRowsBuilder_ == null) {
           if (maxNumberOfRows_ != null) {
             maxNumberOfRows_ =
-              io.dstore.Values.integerValue.newBuilder(maxNumberOfRows_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(maxNumberOfRows_).mergeFrom(value).buildPartial();
           } else {
             maxNumberOfRows_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
        */
       public Builder clearMaxNumberOfRows() {
         if (maxNumberOfRowsBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMaxNumberOfRowsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMaxNumberOfRowsBuilder() {
         
         onChanged();
         return getMaxNumberOfRowsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
         if (maxNumberOfRowsBuilder_ != null) {
           return maxNumberOfRowsBuilder_.getMessageOrBuilder();
         } else {
           return maxNumberOfRows_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfRows_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfRows_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 5;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMaxNumberOfRowsFieldBuilder() {
         if (maxNumberOfRowsBuilder_ == null) {
           maxNumberOfRowsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMaxNumberOfRows(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue orderByColumn_ = null;
+      private io.dstore.values.IntegerValue orderByColumn_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderByColumnBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderByColumnBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+       * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
        */
       public boolean hasOrderByColumn() {
         return orderByColumnBuilder_ != null || orderByColumn_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+       * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
        */
-      public io.dstore.Values.integerValue getOrderByColumn() {
+      public io.dstore.values.IntegerValue getOrderByColumn() {
         if (orderByColumnBuilder_ == null) {
-          return orderByColumn_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderByColumn_;
+          return orderByColumn_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderByColumn_;
         } else {
           return orderByColumnBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+       * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
        */
-      public Builder setOrderByColumn(io.dstore.Values.integerValue value) {
+      public Builder setOrderByColumn(io.dstore.values.IntegerValue value) {
         if (orderByColumnBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+       * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
        */
       public Builder setOrderByColumn(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (orderByColumnBuilder_ == null) {
           orderByColumn_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+       * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
        */
-      public Builder mergeOrderByColumn(io.dstore.Values.integerValue value) {
+      public Builder mergeOrderByColumn(io.dstore.values.IntegerValue value) {
         if (orderByColumnBuilder_ == null) {
           if (orderByColumn_ != null) {
             orderByColumn_ =
-              io.dstore.Values.integerValue.newBuilder(orderByColumn_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(orderByColumn_).mergeFrom(value).buildPartial();
           } else {
             orderByColumn_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+       * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
        */
       public Builder clearOrderByColumn() {
         if (orderByColumnBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+       * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOrderByColumnBuilder() {
+      public io.dstore.values.IntegerValue.Builder getOrderByColumnBuilder() {
         
         onChanged();
         return getOrderByColumnFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+       * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderByColumnOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderByColumnOrBuilder() {
         if (orderByColumnBuilder_ != null) {
           return orderByColumnBuilder_.getMessageOrBuilder();
         } else {
           return orderByColumn_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : orderByColumn_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : orderByColumn_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue order_by_column = 6;</code>
+       * <code>optional .dstore.values.IntegerValue order_by_column = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOrderByColumnFieldBuilder() {
         if (orderByColumnBuilder_ == null) {
           orderByColumnBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOrderByColumn(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue orderByLowerValues_ = null;
+      private io.dstore.values.BooleanValue orderByLowerValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> orderByLowerValuesBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> orderByLowerValuesBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
        */
       public boolean hasOrderByLowerValues() {
         return orderByLowerValuesBuilder_ != null || orderByLowerValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
        */
-      public io.dstore.Values.booleanValue getOrderByLowerValues() {
+      public io.dstore.values.BooleanValue getOrderByLowerValues() {
         if (orderByLowerValuesBuilder_ == null) {
-          return orderByLowerValues_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderByLowerValues_;
+          return orderByLowerValues_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderByLowerValues_;
         } else {
           return orderByLowerValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
        */
-      public Builder setOrderByLowerValues(io.dstore.Values.booleanValue value) {
+      public Builder setOrderByLowerValues(io.dstore.values.BooleanValue value) {
         if (orderByLowerValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
        */
       public Builder setOrderByLowerValues(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (orderByLowerValuesBuilder_ == null) {
           orderByLowerValues_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
        */
-      public Builder mergeOrderByLowerValues(io.dstore.Values.booleanValue value) {
+      public Builder mergeOrderByLowerValues(io.dstore.values.BooleanValue value) {
         if (orderByLowerValuesBuilder_ == null) {
           if (orderByLowerValues_ != null) {
             orderByLowerValues_ =
-              io.dstore.Values.booleanValue.newBuilder(orderByLowerValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(orderByLowerValues_).mergeFrom(value).buildPartial();
           } else {
             orderByLowerValues_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
        */
       public Builder clearOrderByLowerValues() {
         if (orderByLowerValuesBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class CoSearchMemberSettingsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOrderByLowerValuesBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOrderByLowerValuesBuilder() {
         
         onChanged();
         return getOrderByLowerValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOrderByLowerValuesOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOrderByLowerValuesOrBuilder() {
         if (orderByLowerValuesBuilder_ != null) {
           return orderByLowerValuesBuilder_.getMessageOrBuilder();
         } else {
           return orderByLowerValues_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : orderByLowerValues_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : orderByLowerValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_by_lower_values = 7;</code>
+       * <code>optional .dstore.values.BooleanValue order_by_lower_values = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOrderByLowerValuesFieldBuilder() {
         if (orderByLowerValuesBuilder_ == null) {
           orderByLowerValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOrderByLowerValues(),
                   getParentForChildren(),
                   isClean());
@@ -2397,7 +2397,7 @@ public final class CoSearchMemberSettingsAd {
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
        */
       boolean hasIdentifyingValue();
       /**
@@ -2405,24 +2405,24 @@ public final class CoSearchMemberSettingsAd {
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
        */
-      io.dstore.Values.stringValue getIdentifyingValue();
+      io.dstore.values.StringValue getIdentifyingValue();
       /**
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder();
 
       /**
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
        */
       boolean hasSettingValue();
       /**
@@ -2430,24 +2430,24 @@ public final class CoSearchMemberSettingsAd {
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
        */
-      io.dstore.Values.stringValue getSettingValue();
+      io.dstore.values.StringValue getSettingValue();
       /**
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSettingValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSettingValueOrBuilder();
 
       /**
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
        */
       boolean hasCommunityMemberId();
       /**
@@ -2455,17 +2455,17 @@ public final class CoSearchMemberSettingsAd {
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getCommunityMemberId();
+      io.dstore.values.IntegerValue getCommunityMemberId();
       /**
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_SearchMemberSettings_Ad.Response.Row}
@@ -2513,11 +2513,11 @@ public final class CoSearchMemberSettingsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (identifyingValue_ != null) {
                   subBuilder = identifyingValue_.toBuilder();
                 }
-                identifyingValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                identifyingValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(identifyingValue_);
                   identifyingValue_ = subBuilder.buildPartial();
@@ -2526,11 +2526,11 @@ public final class CoSearchMemberSettingsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (settingValue_ != null) {
                   subBuilder = settingValue_.toBuilder();
                 }
-                settingValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                settingValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(settingValue_);
                   settingValue_ = subBuilder.buildPartial();
@@ -2539,11 +2539,11 @@ public final class CoSearchMemberSettingsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (communityMemberId_ != null) {
                   subBuilder = communityMemberId_.toBuilder();
                 }
-                communityMemberId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                communityMemberId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityMemberId_);
                   communityMemberId_ = subBuilder.buildPartial();
@@ -2584,13 +2584,13 @@ public final class CoSearchMemberSettingsAd {
       }
 
       public static final int IDENTIFYING_VALUE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue identifyingValue_;
+      private io.dstore.values.StringValue identifyingValue_;
       /**
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
        */
       public boolean hasIdentifyingValue() {
         return identifyingValue_ != null;
@@ -2600,30 +2600,30 @@ public final class CoSearchMemberSettingsAd {
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
        */
-      public io.dstore.Values.stringValue getIdentifyingValue() {
-        return identifyingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+      public io.dstore.values.StringValue getIdentifyingValue() {
+        return identifyingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
       }
       /**
        * <pre>
        * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder() {
         return getIdentifyingValue();
       }
 
       public static final int SETTING_VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue settingValue_;
+      private io.dstore.values.StringValue settingValue_;
       /**
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
        */
       public boolean hasSettingValue() {
         return settingValue_ != null;
@@ -2633,30 +2633,30 @@ public final class CoSearchMemberSettingsAd {
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
        */
-      public io.dstore.Values.stringValue getSettingValue() {
-        return settingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : settingValue_;
+      public io.dstore.values.StringValue getSettingValue() {
+        return settingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : settingValue_;
       }
       /**
        * <pre>
        * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSettingValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSettingValueOrBuilder() {
         return getSettingValue();
       }
 
       public static final int COMMUNITY_MEMBER_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue communityMemberId_;
+      private io.dstore.values.IntegerValue communityMemberId_;
       /**
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
        */
       public boolean hasCommunityMemberId() {
         return communityMemberId_ != null;
@@ -2666,19 +2666,19 @@ public final class CoSearchMemberSettingsAd {
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getCommunityMemberId() {
-        return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+      public io.dstore.values.IntegerValue getCommunityMemberId() {
+        return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
       }
       /**
        * <pre>
        * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
         return getCommunityMemberId();
       }
 
@@ -3067,15 +3067,15 @@ public final class CoSearchMemberSettingsAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue identifyingValue_ = null;
+        private io.dstore.values.StringValue identifyingValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> identifyingValueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> identifyingValueBuilder_;
         /**
          * <pre>
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
          */
         public boolean hasIdentifyingValue() {
           return identifyingValueBuilder_ != null || identifyingValue_ != null;
@@ -3085,11 +3085,11 @@ public final class CoSearchMemberSettingsAd {
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
          */
-        public io.dstore.Values.stringValue getIdentifyingValue() {
+        public io.dstore.values.StringValue getIdentifyingValue() {
           if (identifyingValueBuilder_ == null) {
-            return identifyingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+            return identifyingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
           } else {
             return identifyingValueBuilder_.getMessage();
           }
@@ -3099,9 +3099,9 @@ public final class CoSearchMemberSettingsAd {
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
          */
-        public Builder setIdentifyingValue(io.dstore.Values.stringValue value) {
+        public Builder setIdentifyingValue(io.dstore.values.StringValue value) {
           if (identifyingValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3119,10 +3119,10 @@ public final class CoSearchMemberSettingsAd {
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
          */
         public Builder setIdentifyingValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (identifyingValueBuilder_ == null) {
             identifyingValue_ = builderForValue.build();
             onChanged();
@@ -3137,13 +3137,13 @@ public final class CoSearchMemberSettingsAd {
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
          */
-        public Builder mergeIdentifyingValue(io.dstore.Values.stringValue value) {
+        public Builder mergeIdentifyingValue(io.dstore.values.StringValue value) {
           if (identifyingValueBuilder_ == null) {
             if (identifyingValue_ != null) {
               identifyingValue_ =
-                io.dstore.Values.stringValue.newBuilder(identifyingValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(identifyingValue_).mergeFrom(value).buildPartial();
             } else {
               identifyingValue_ = value;
             }
@@ -3159,7 +3159,7 @@ public final class CoSearchMemberSettingsAd {
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
          */
         public Builder clearIdentifyingValue() {
           if (identifyingValueBuilder_ == null) {
@@ -3177,9 +3177,9 @@ public final class CoSearchMemberSettingsAd {
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getIdentifyingValueBuilder() {
+        public io.dstore.values.StringValue.Builder getIdentifyingValueBuilder() {
           
           onChanged();
           return getIdentifyingValueFieldBuilder().getBuilder();
@@ -3189,14 +3189,14 @@ public final class CoSearchMemberSettingsAd {
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder() {
           if (identifyingValueBuilder_ != null) {
             return identifyingValueBuilder_.getMessageOrBuilder();
           } else {
             return identifyingValue_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+                io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
           }
         }
         /**
@@ -3204,14 +3204,14 @@ public final class CoSearchMemberSettingsAd {
          * Eigenschaft des Mitglieds "CommunityMemberID" zu dem Merkmal, anhand dessen die Community-Mitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10001;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getIdentifyingValueFieldBuilder() {
           if (identifyingValueBuilder_ == null) {
             identifyingValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getIdentifyingValue(),
                     getParentForChildren(),
                     isClean());
@@ -3220,15 +3220,15 @@ public final class CoSearchMemberSettingsAd {
           return identifyingValueBuilder_;
         }
 
-        private io.dstore.Values.stringValue settingValue_ = null;
+        private io.dstore.values.StringValue settingValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> settingValueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> settingValueBuilder_;
         /**
          * <pre>
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
          */
         public boolean hasSettingValue() {
           return settingValueBuilder_ != null || settingValue_ != null;
@@ -3238,11 +3238,11 @@ public final class CoSearchMemberSettingsAd {
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
          */
-        public io.dstore.Values.stringValue getSettingValue() {
+        public io.dstore.values.StringValue getSettingValue() {
           if (settingValueBuilder_ == null) {
-            return settingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : settingValue_;
+            return settingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : settingValue_;
           } else {
             return settingValueBuilder_.getMessage();
           }
@@ -3252,9 +3252,9 @@ public final class CoSearchMemberSettingsAd {
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
          */
-        public Builder setSettingValue(io.dstore.Values.stringValue value) {
+        public Builder setSettingValue(io.dstore.values.StringValue value) {
           if (settingValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3272,10 +3272,10 @@ public final class CoSearchMemberSettingsAd {
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
          */
         public Builder setSettingValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (settingValueBuilder_ == null) {
             settingValue_ = builderForValue.build();
             onChanged();
@@ -3290,13 +3290,13 @@ public final class CoSearchMemberSettingsAd {
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
          */
-        public Builder mergeSettingValue(io.dstore.Values.stringValue value) {
+        public Builder mergeSettingValue(io.dstore.values.StringValue value) {
           if (settingValueBuilder_ == null) {
             if (settingValue_ != null) {
               settingValue_ =
-                io.dstore.Values.stringValue.newBuilder(settingValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(settingValue_).mergeFrom(value).buildPartial();
             } else {
               settingValue_ = value;
             }
@@ -3312,7 +3312,7 @@ public final class CoSearchMemberSettingsAd {
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
          */
         public Builder clearSettingValue() {
           if (settingValueBuilder_ == null) {
@@ -3330,9 +3330,9 @@ public final class CoSearchMemberSettingsAd {
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSettingValueBuilder() {
+        public io.dstore.values.StringValue.Builder getSettingValueBuilder() {
           
           onChanged();
           return getSettingValueFieldBuilder().getBuilder();
@@ -3342,14 +3342,14 @@ public final class CoSearchMemberSettingsAd {
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSettingValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSettingValueOrBuilder() {
           if (settingValueBuilder_ != null) {
             return settingValueBuilder_.getMessageOrBuilder();
           } else {
             return settingValue_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : settingValue_;
+                io.dstore.values.StringValue.getDefaultInstance() : settingValue_;
           }
         }
         /**
@@ -3357,14 +3357,14 @@ public final class CoSearchMemberSettingsAd {
          * Der Wert, den das Mitglied "CommunityMemberID" zum Schlüssel "&#64;KeyVariable" in der Community "&#64;CommunityID" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue setting_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue setting_value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSettingValueFieldBuilder() {
           if (settingValueBuilder_ == null) {
             settingValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSettingValue(),
                     getParentForChildren(),
                     isClean());
@@ -3373,15 +3373,15 @@ public final class CoSearchMemberSettingsAd {
           return settingValueBuilder_;
         }
 
-        private io.dstore.Values.integerValue communityMemberId_ = null;
+        private io.dstore.values.IntegerValue communityMemberId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityMemberIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityMemberIdBuilder_;
         /**
          * <pre>
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
          */
         public boolean hasCommunityMemberId() {
           return communityMemberIdBuilder_ != null || communityMemberId_ != null;
@@ -3391,11 +3391,11 @@ public final class CoSearchMemberSettingsAd {
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getCommunityMemberId() {
+        public io.dstore.values.IntegerValue getCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
-            return communityMemberId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+            return communityMemberId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
           } else {
             return communityMemberIdBuilder_.getMessage();
           }
@@ -3405,9 +3405,9 @@ public final class CoSearchMemberSettingsAd {
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
          */
-        public Builder setCommunityMemberId(io.dstore.Values.integerValue value) {
+        public Builder setCommunityMemberId(io.dstore.values.IntegerValue value) {
           if (communityMemberIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3425,10 +3425,10 @@ public final class CoSearchMemberSettingsAd {
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
          */
         public Builder setCommunityMemberId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (communityMemberIdBuilder_ == null) {
             communityMemberId_ = builderForValue.build();
             onChanged();
@@ -3443,13 +3443,13 @@ public final class CoSearchMemberSettingsAd {
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
          */
-        public Builder mergeCommunityMemberId(io.dstore.Values.integerValue value) {
+        public Builder mergeCommunityMemberId(io.dstore.values.IntegerValue value) {
           if (communityMemberIdBuilder_ == null) {
             if (communityMemberId_ != null) {
               communityMemberId_ =
-                io.dstore.Values.integerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(communityMemberId_).mergeFrom(value).buildPartial();
             } else {
               communityMemberId_ = value;
             }
@@ -3465,7 +3465,7 @@ public final class CoSearchMemberSettingsAd {
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
          */
         public Builder clearCommunityMemberId() {
           if (communityMemberIdBuilder_ == null) {
@@ -3483,9 +3483,9 @@ public final class CoSearchMemberSettingsAd {
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCommunityMemberIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCommunityMemberIdBuilder() {
           
           onChanged();
           return getCommunityMemberIdFieldBuilder().getBuilder();
@@ -3495,14 +3495,14 @@ public final class CoSearchMemberSettingsAd {
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCommunityMemberIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCommunityMemberIdOrBuilder() {
           if (communityMemberIdBuilder_ != null) {
             return communityMemberIdBuilder_.getMessageOrBuilder();
           } else {
             return communityMemberId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : communityMemberId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : communityMemberId_;
           }
         }
         /**
@@ -3510,14 +3510,14 @@ public final class CoSearchMemberSettingsAd {
          * ID eines Community-Mitglieds, das einen Eintrag (bzw. den Eintrag "&#64;Value") zum Schlüssel "&#64;KeyVariable" hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_member_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_member_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCommunityMemberIdFieldBuilder() {
           if (communityMemberIdBuilder_ == null) {
             communityMemberIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCommunityMemberId(),
                     getParentForChildren(),
                     isClean());
@@ -4987,29 +4987,29 @@ public final class CoSearchMemberSettingsAd {
       "archMemberSettings_Ad\032\023dstore/values.pro" +
       "to\032\032dstore/engine/engine.proto\"\317\004\n\nParam" +
       "eters\0221\n\014community_id\030\001 \001(\0132\033.dstore.val" +
-      "ues.integerValue\022\032\n\021community_id_null\030\351\007" +
+      "ues.IntegerValue\022\032\n\021community_id_null\030\351\007" +
       " \001(\010\0220\n\014key_variable\030\002 \001(\0132\032.dstore.valu" +
-      "es.stringValue\022\032\n\021key_variable_null\030\352\007 \001" +
-      "(\010\022)\n\005value\030\003 \001(\0132\032.dstore.values.string" +
+      "es.StringValue\022\032\n\021key_variable_null\030\352\007 \001" +
+      "(\010\022)\n\005value\030\003 \001(\0132\032.dstore.values.String" +
       "Value\022\023\n\nvalue_null\030\353\007 \001(\010\0224\n\017from_row_n",
-      "umber\030\004 \001(\0132\033.dstore.values.integerValue" +
+      "umber\030\004 \001(\0132\033.dstore.values.IntegerValue" +
       "\022\035\n\024from_row_number_null\030\354\007 \001(\010\0227\n\022max_n" +
-      "umber_of_rows\030\005 \001(\0132\033.dstore.values.inte" +
+      "umber_of_rows\030\005 \001(\0132\033.dstore.values.Inte" +
       "gerValue\022 \n\027max_number_of_rows_null\030\355\007 \001" +
       "(\010\0224\n\017order_by_column\030\006 \001(\0132\033.dstore.val" +
-      "ues.integerValue\022\035\n\024order_by_column_null" +
+      "ues.IntegerValue\022\035\n\024order_by_column_null" +
       "\030\356\007 \001(\010\022:\n\025order_by_lower_values\030\007 \001(\0132\033" +
-      ".dstore.values.booleanValue\022#\n\032order_by_" +
+      ".dstore.values.BooleanValue\022#\n\032order_by_" +
       "lower_values_null\030\357\007 \001(\010\"\362\002\n\010Response\0228\n" +
       "\020meta_information\030\002 \003(\0132\036.dstore.engine.",
       "MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dstor" +
       "e.engine.Message\022C\n\003row\030\004 \003(\01326.dstore.e" +
       "ngine.co_SearchMemberSettings_Ad.Respons" +
       "e.Row\032\275\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0226\n\021identi" +
-      "fying_value\030\221N \001(\0132\032.dstore.values.strin" +
+      "fying_value\030\221N \001(\0132\032.dstore.values.Strin" +
       "gValue\0222\n\rsetting_value\030\222N \001(\0132\032.dstore." +
-      "values.stringValue\0229\n\023community_member_i" +
-      "d\030\223N \001(\0132\033.dstore.values.integerValueB[\n" +
+      "values.StringValue\0229\n\023community_member_i" +
+      "d\030\223N \001(\0132\033.dstore.values.IntegerValueB[\n" +
       "\033io.dstore.engine.proceduresZ<gosdk.dsto" +
       "re.de/engine/procedures/co_SearchMemberS",
       "ettings_Adb\006proto3"
@@ -5025,7 +5025,7 @@ public final class CoSearchMemberSettingsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_SearchMemberSettings_Ad_Parameters_descriptor =
@@ -5046,7 +5046,7 @@ public final class CoSearchMemberSettingsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_SearchMemberSettings_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "IdentifyingValue", "SettingValue", "CommunityMemberId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

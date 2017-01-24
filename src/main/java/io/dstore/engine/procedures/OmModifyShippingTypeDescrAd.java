@@ -19,17 +19,17 @@ public final class OmModifyShippingTypeDescrAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
     boolean hasShippingTypeId();
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getShippingTypeId();
+    io.dstore.values.IntegerValue getShippingTypeId();
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder();
 
     /**
      * <code>optional bool shipping_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifyShippingTypeDescrAd {
     boolean getShippingTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifyShippingTypeDescrAd {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
      */
     boolean hasShippingTypeDescription();
     /**
-     * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
      */
-    io.dstore.Values.stringValue getShippingTypeDescription();
+    io.dstore.values.StringValue getShippingTypeDescription();
     /**
-     * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder();
 
     /**
      * <code>optional bool shipping_type_description_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class OmModifyShippingTypeDescrAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (shippingTypeId_ != null) {
                 subBuilder = shippingTypeId_.toBuilder();
               }
-              shippingTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              shippingTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingTypeId_);
                 shippingTypeId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class OmModifyShippingTypeDescrAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class OmModifyShippingTypeDescrAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (shippingTypeDescription_ != null) {
                 subBuilder = shippingTypeDescription_.toBuilder();
               }
-              shippingTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              shippingTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingTypeDescription_);
                 shippingTypeDescription_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class OmModifyShippingTypeDescrAd {
     }
 
     public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue shippingTypeId_;
+    private io.dstore.values.IntegerValue shippingTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
     public boolean hasShippingTypeId() {
       return shippingTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getShippingTypeId() {
-      return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+    public io.dstore.values.IntegerValue getShippingTypeId() {
+      return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
       return getShippingTypeId();
     }
 
@@ -222,23 +222,23 @@ public final class OmModifyShippingTypeDescrAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -252,23 +252,23 @@ public final class OmModifyShippingTypeDescrAd {
     }
 
     public static final int SHIPPING_TYPE_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue shippingTypeDescription_;
+    private io.dstore.values.StringValue shippingTypeDescription_;
     /**
-     * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
      */
     public boolean hasShippingTypeDescription() {
       return shippingTypeDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
      */
-    public io.dstore.Values.stringValue getShippingTypeDescription() {
-      return shippingTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
+    public io.dstore.values.StringValue getShippingTypeDescription() {
+      return shippingTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+     * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
       return getShippingTypeDescription();
     }
 
@@ -677,29 +677,29 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue shippingTypeId_ = null;
+      private io.dstore.values.IntegerValue shippingTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> shippingTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public boolean hasShippingTypeId() {
         return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getShippingTypeId() {
+      public io.dstore.values.IntegerValue getShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
-          return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+          return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
         } else {
           return shippingTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
-      public Builder setShippingTypeId(io.dstore.Values.integerValue value) {
+      public Builder setShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public Builder setShippingTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (shippingTypeIdBuilder_ == null) {
           shippingTypeId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
-      public Builder mergeShippingTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeShippingTypeId(io.dstore.values.IntegerValue value) {
         if (shippingTypeIdBuilder_ == null) {
           if (shippingTypeId_ != null) {
             shippingTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
           } else {
             shippingTypeId_ = value;
           }
@@ -745,7 +745,7 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       public Builder clearShippingTypeId() {
         if (shippingTypeIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getShippingTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getShippingTypeIdBuilder() {
         
         onChanged();
         return getShippingTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
         if (shippingTypeIdBuilder_ != null) {
           return shippingTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return shippingTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue shipping_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getShippingTypeIdFieldBuilder() {
         if (shippingTypeIdBuilder_ == null) {
           shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getShippingTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -888,7 +888,7 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue shippingTypeDescription_ = null;
+      private io.dstore.values.StringValue shippingTypeDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> shippingTypeDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> shippingTypeDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
        */
       public boolean hasShippingTypeDescription() {
         return shippingTypeDescriptionBuilder_ != null || shippingTypeDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
        */
-      public io.dstore.Values.stringValue getShippingTypeDescription() {
+      public io.dstore.values.StringValue getShippingTypeDescription() {
         if (shippingTypeDescriptionBuilder_ == null) {
-          return shippingTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
+          return shippingTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
         } else {
           return shippingTypeDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
        */
-      public Builder setShippingTypeDescription(io.dstore.Values.stringValue value) {
+      public Builder setShippingTypeDescription(io.dstore.values.StringValue value) {
         if (shippingTypeDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
        */
       public Builder setShippingTypeDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (shippingTypeDescriptionBuilder_ == null) {
           shippingTypeDescription_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
        */
-      public Builder mergeShippingTypeDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeShippingTypeDescription(io.dstore.values.StringValue value) {
         if (shippingTypeDescriptionBuilder_ == null) {
           if (shippingTypeDescription_ != null) {
             shippingTypeDescription_ =
-              io.dstore.Values.stringValue.newBuilder(shippingTypeDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(shippingTypeDescription_).mergeFrom(value).buildPartial();
           } else {
             shippingTypeDescription_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
        */
       public Builder clearShippingTypeDescription() {
         if (shippingTypeDescriptionBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class OmModifyShippingTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getShippingTypeDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getShippingTypeDescriptionBuilder() {
         
         onChanged();
         return getShippingTypeDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
         if (shippingTypeDescriptionBuilder_ != null) {
           return shippingTypeDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return shippingTypeDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue shipping_type_description = 3;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getShippingTypeDescriptionFieldBuilder() {
         if (shippingTypeDescriptionBuilder_ == null) {
           shippingTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getShippingTypeDescription(),
                   getParentForChildren(),
                   isClean());
@@ -3193,11 +3193,11 @@ public final class OmModifyShippingTypeDescrAd {
       "_ModifyShippingTypeDescr_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\230\002\n" +
       "\nParameters\0225\n\020shipping_type_id\030\001 \001(\0132\033." +
-      "dstore.values.integerValue\022\036\n\025shipping_t" +
+      "dstore.values.IntegerValue\022\036\n\025shipping_t" +
       "ype_id_null\030\351\007 \001(\010\0220\n\013language_id\030\002 \001(\0132" +
-      "\033.dstore.values.integerValue\022\031\n\020language" +
+      "\033.dstore.values.IntegerValue\022\031\n\020language" +
       "_id_null\030\352\007 \001(\010\022=\n\031shipping_type_descrip" +
-      "tion\030\003 \001(\0132\032.dstore.values.stringValue\022\'",
+      "tion\030\003 \001(\0132\032.dstore.values.StringValue\022\'",
       "\n\036shipping_type_description_null\030\353\007 \001(\010\"" +
       "\315\001\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036" +
       ".dstore.engine.MetaInformation\022\'\n\007messag" +
@@ -3219,7 +3219,7 @@ public final class OmModifyShippingTypeDescrAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifyShippingTypeDescr_Ad_Parameters_descriptor =
@@ -3240,7 +3240,7 @@ public final class OmModifyShippingTypeDescrAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyShippingTypeDescr_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmInsertIntoTrolleyPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmInsertIntoTrolleyPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
      */
     boolean hasNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
      */
-    io.dstore.Values.integerValue getNodeId();
+    io.dstore.values.IntegerValue getNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
     /**
      * <code>optional bool node_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmInsertIntoTrolleyPu {
     boolean getNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
      */
     boolean hasIsTreeNodeId();
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
      */
-    io.dstore.Values.booleanValue getIsTreeNodeId();
+    io.dstore.values.BooleanValue getIsTreeNodeId();
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIsTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool is_tree_node_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmInsertIntoTrolleyPu {
     boolean getIsTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue quantity = 4;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
      */
     boolean hasQuantity();
     /**
-     * <code>optional .dstore.values.integerValue quantity = 4;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
      */
-    io.dstore.Values.integerValue getQuantity();
+    io.dstore.values.IntegerValue getQuantity();
     /**
-     * <code>optional .dstore.values.integerValue quantity = 4;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder();
 
     /**
      * <code>optional bool quantity_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmInsertIntoTrolleyPu {
     boolean getQuantityNull();
 
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
      */
     boolean hasInputNestLevelForContInfo();
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
      */
-    io.dstore.Values.integerValue getInputNestLevelForContInfo();
+    io.dstore.values.IntegerValue getInputNestLevelForContInfo();
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getInputNestLevelForContInfoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getInputNestLevelForContInfoOrBuilder();
 
     /**
      * <code>optional bool input_nest_level_for_cont_info_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmInsertIntoTrolleyPu {
     boolean getInputNestLevelForContInfoNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.StringValue country = 6;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.StringValue country = 6;</code>
      */
-    io.dstore.Values.stringValue getCountry();
+    io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.StringValue country = 6;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
      * <code>optional bool country_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class OmInsertIntoTrolleyPu {
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
      */
     boolean hasBonusItemForItemSetId();
     /**
-     * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
      */
-    io.dstore.Values.integerValue getBonusItemForItemSetId();
+    io.dstore.values.IntegerValue getBonusItemForItemSetId();
     /**
-     * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBonusItemForItemSetIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBonusItemForItemSetIdOrBuilder();
 
     /**
      * <code>optional bool bonus_item_for_item_set_id_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class OmInsertIntoTrolleyPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class OmInsertIntoTrolleyPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeId_ != null) {
                 subBuilder = nodeId_.toBuilder();
               }
-              nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeId_);
                 nodeId_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class OmInsertIntoTrolleyPu {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (isTreeNodeId_ != null) {
                 subBuilder = isTreeNodeId_.toBuilder();
               }
-              isTreeNodeId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              isTreeNodeId_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isTreeNodeId_);
                 isTreeNodeId_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class OmInsertIntoTrolleyPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (quantity_ != null) {
                 subBuilder = quantity_.toBuilder();
               }
-              quantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              quantity_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(quantity_);
                 quantity_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class OmInsertIntoTrolleyPu {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (inputNestLevelForContInfo_ != null) {
                 subBuilder = inputNestLevelForContInfo_.toBuilder();
               }
-              inputNestLevelForContInfo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              inputNestLevelForContInfo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inputNestLevelForContInfo_);
                 inputNestLevelForContInfo_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class OmInsertIntoTrolleyPu {
               break;
             }
             case 50: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              country_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class OmInsertIntoTrolleyPu {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (bonusItemForItemSetId_ != null) {
                 subBuilder = bonusItemForItemSetId_.toBuilder();
               }
-              bonusItemForItemSetId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              bonusItemForItemSetId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(bonusItemForItemSetId_);
                 bonusItemForItemSetId_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class OmInsertIntoTrolleyPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -370,23 +370,23 @@ public final class OmInsertIntoTrolleyPu {
     }
 
     public static final int NODE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue nodeId_;
+    private io.dstore.values.IntegerValue nodeId_;
     /**
-     * <code>optional .dstore.values.integerValue node_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
      */
     public boolean hasNodeId() {
       return nodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getNodeId() {
-      return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+    public io.dstore.values.IntegerValue getNodeId() {
+      return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
       return getNodeId();
     }
 
@@ -400,23 +400,23 @@ public final class OmInsertIntoTrolleyPu {
     }
 
     public static final int IS_TREE_NODE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue isTreeNodeId_;
+    private io.dstore.values.BooleanValue isTreeNodeId_;
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
      */
     public boolean hasIsTreeNodeId() {
       return isTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
      */
-    public io.dstore.Values.booleanValue getIsTreeNodeId() {
-      return isTreeNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
+    public io.dstore.values.BooleanValue getIsTreeNodeId() {
+      return isTreeNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
       return getIsTreeNodeId();
     }
 
@@ -430,23 +430,23 @@ public final class OmInsertIntoTrolleyPu {
     }
 
     public static final int QUANTITY_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue quantity_;
+    private io.dstore.values.IntegerValue quantity_;
     /**
-     * <code>optional .dstore.values.integerValue quantity = 4;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
      */
     public boolean hasQuantity() {
       return quantity_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue quantity = 4;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
      */
-    public io.dstore.Values.integerValue getQuantity() {
-      return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+    public io.dstore.values.IntegerValue getQuantity() {
+      return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
     }
     /**
-     * <code>optional .dstore.values.integerValue quantity = 4;</code>
+     * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
       return getQuantity();
     }
 
@@ -460,23 +460,23 @@ public final class OmInsertIntoTrolleyPu {
     }
 
     public static final int INPUT_NEST_LEVEL_FOR_CONT_INFO_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue inputNestLevelForContInfo_;
+    private io.dstore.values.IntegerValue inputNestLevelForContInfo_;
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
      */
     public boolean hasInputNestLevelForContInfo() {
       return inputNestLevelForContInfo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
      */
-    public io.dstore.Values.integerValue getInputNestLevelForContInfo() {
-      return inputNestLevelForContInfo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inputNestLevelForContInfo_;
+    public io.dstore.values.IntegerValue getInputNestLevelForContInfo() {
+      return inputNestLevelForContInfo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inputNestLevelForContInfo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+     * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getInputNestLevelForContInfoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getInputNestLevelForContInfoOrBuilder() {
       return getInputNestLevelForContInfo();
     }
 
@@ -490,23 +490,23 @@ public final class OmInsertIntoTrolleyPu {
     }
 
     public static final int COUNTRY_FIELD_NUMBER = 6;
-    private io.dstore.Values.stringValue country_;
+    private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.StringValue country = 6;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.StringValue country = 6;</code>
      */
-    public io.dstore.Values.stringValue getCountry() {
-      return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+    public io.dstore.values.StringValue getCountry() {
+      return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 6;</code>
+     * <code>optional .dstore.values.StringValue country = 6;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
@@ -520,23 +520,23 @@ public final class OmInsertIntoTrolleyPu {
     }
 
     public static final int BONUS_ITEM_FOR_ITEM_SET_ID_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue bonusItemForItemSetId_;
+    private io.dstore.values.IntegerValue bonusItemForItemSetId_;
     /**
-     * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
      */
     public boolean hasBonusItemForItemSetId() {
       return bonusItemForItemSetId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
      */
-    public io.dstore.Values.integerValue getBonusItemForItemSetId() {
-      return bonusItemForItemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : bonusItemForItemSetId_;
+    public io.dstore.values.IntegerValue getBonusItemForItemSetId() {
+      return bonusItemForItemSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : bonusItemForItemSetId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+     * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBonusItemForItemSetIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBonusItemForItemSetIdOrBuilder() {
       return getBonusItemForItemSetId();
     }
 
@@ -1137,29 +1137,29 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeId_ = null;
+      private io.dstore.values.IntegerValue nodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
        */
       public boolean hasNodeId() {
         return nodeIdBuilder_ != null || nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
+      public io.dstore.values.IntegerValue getNodeId() {
         if (nodeIdBuilder_ == null) {
-          return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+          return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         } else {
           return nodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
        */
-      public Builder setNodeId(io.dstore.Values.integerValue value) {
+      public Builder setNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
        */
       public Builder setNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeIdBuilder_ == null) {
           nodeId_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
        */
-      public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (nodeId_ != null) {
             nodeId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
           } else {
             nodeId_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
        */
       public Builder clearNodeId() {
         if (nodeIdBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
         
         onChanged();
         return getNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         if (nodeIdBuilder_ != null) {
           return nodeIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeIdFieldBuilder() {
         if (nodeIdBuilder_ == null) {
           nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue isTreeNodeId_ = null;
+      private io.dstore.values.BooleanValue isTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isTreeNodeIdBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
        */
       public boolean hasIsTreeNodeId() {
         return isTreeNodeIdBuilder_ != null || isTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
        */
-      public io.dstore.Values.booleanValue getIsTreeNodeId() {
+      public io.dstore.values.BooleanValue getIsTreeNodeId() {
         if (isTreeNodeIdBuilder_ == null) {
-          return isTreeNodeId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
+          return isTreeNodeId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isTreeNodeId_;
         } else {
           return isTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
        */
-      public Builder setIsTreeNodeId(io.dstore.Values.booleanValue value) {
+      public Builder setIsTreeNodeId(io.dstore.values.BooleanValue value) {
         if (isTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
        */
       public Builder setIsTreeNodeId(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (isTreeNodeIdBuilder_ == null) {
           isTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
        */
-      public Builder mergeIsTreeNodeId(io.dstore.Values.booleanValue value) {
+      public Builder mergeIsTreeNodeId(io.dstore.values.BooleanValue value) {
         if (isTreeNodeIdBuilder_ == null) {
           if (isTreeNodeId_ != null) {
             isTreeNodeId_ =
-              io.dstore.Values.booleanValue.newBuilder(isTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(isTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             isTreeNodeId_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
        */
       public Builder clearIsTreeNodeId() {
         if (isTreeNodeIdBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIsTreeNodeIdBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIsTreeNodeIdBuilder() {
         
         onChanged();
         return getIsTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIsTreeNodeIdOrBuilder() {
         if (isTreeNodeIdBuilder_ != null) {
           return isTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return isTreeNodeId_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : isTreeNodeId_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : isTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_tree_node_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_tree_node_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIsTreeNodeIdFieldBuilder() {
         if (isTreeNodeIdBuilder_ == null) {
           isTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIsTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue quantity_ = null;
+      private io.dstore.values.IntegerValue quantity_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> quantityBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue quantity = 4;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
        */
       public boolean hasQuantity() {
         return quantityBuilder_ != null || quantity_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 4;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
        */
-      public io.dstore.Values.integerValue getQuantity() {
+      public io.dstore.values.IntegerValue getQuantity() {
         if (quantityBuilder_ == null) {
-          return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+          return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
         } else {
           return quantityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 4;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
        */
-      public Builder setQuantity(io.dstore.Values.integerValue value) {
+      public Builder setQuantity(io.dstore.values.IntegerValue value) {
         if (quantityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 4;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
        */
       public Builder setQuantity(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (quantityBuilder_ == null) {
           quantity_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 4;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
        */
-      public Builder mergeQuantity(io.dstore.Values.integerValue value) {
+      public Builder mergeQuantity(io.dstore.values.IntegerValue value) {
         if (quantityBuilder_ == null) {
           if (quantity_ != null) {
             quantity_ =
-              io.dstore.Values.integerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
           } else {
             quantity_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 4;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
        */
       public Builder clearQuantity() {
         if (quantityBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 4;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getQuantityBuilder() {
+      public io.dstore.values.IntegerValue.Builder getQuantityBuilder() {
         
         onChanged();
         return getQuantityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 4;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
         if (quantityBuilder_ != null) {
           return quantityBuilder_.getMessageOrBuilder();
         } else {
           return quantity_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue quantity = 4;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getQuantityFieldBuilder() {
         if (quantityBuilder_ == null) {
           quantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getQuantity(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue inputNestLevelForContInfo_ = null;
+      private io.dstore.values.IntegerValue inputNestLevelForContInfo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inputNestLevelForContInfoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> inputNestLevelForContInfoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
        */
       public boolean hasInputNestLevelForContInfo() {
         return inputNestLevelForContInfoBuilder_ != null || inputNestLevelForContInfo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
        */
-      public io.dstore.Values.integerValue getInputNestLevelForContInfo() {
+      public io.dstore.values.IntegerValue getInputNestLevelForContInfo() {
         if (inputNestLevelForContInfoBuilder_ == null) {
-          return inputNestLevelForContInfo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inputNestLevelForContInfo_;
+          return inputNestLevelForContInfo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inputNestLevelForContInfo_;
         } else {
           return inputNestLevelForContInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
        */
-      public Builder setInputNestLevelForContInfo(io.dstore.Values.integerValue value) {
+      public Builder setInputNestLevelForContInfo(io.dstore.values.IntegerValue value) {
         if (inputNestLevelForContInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
        */
       public Builder setInputNestLevelForContInfo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (inputNestLevelForContInfoBuilder_ == null) {
           inputNestLevelForContInfo_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
        */
-      public Builder mergeInputNestLevelForContInfo(io.dstore.Values.integerValue value) {
+      public Builder mergeInputNestLevelForContInfo(io.dstore.values.IntegerValue value) {
         if (inputNestLevelForContInfoBuilder_ == null) {
           if (inputNestLevelForContInfo_ != null) {
             inputNestLevelForContInfo_ =
-              io.dstore.Values.integerValue.newBuilder(inputNestLevelForContInfo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(inputNestLevelForContInfo_).mergeFrom(value).buildPartial();
           } else {
             inputNestLevelForContInfo_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
        */
       public Builder clearInputNestLevelForContInfo() {
         if (inputNestLevelForContInfoBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getInputNestLevelForContInfoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getInputNestLevelForContInfoBuilder() {
         
         onChanged();
         return getInputNestLevelForContInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInputNestLevelForContInfoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInputNestLevelForContInfoOrBuilder() {
         if (inputNestLevelForContInfoBuilder_ != null) {
           return inputNestLevelForContInfoBuilder_.getMessageOrBuilder();
         } else {
           return inputNestLevelForContInfo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : inputNestLevelForContInfo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : inputNestLevelForContInfo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue input_nest_level_for_cont_info = 5;</code>
+       * <code>optional .dstore.values.IntegerValue input_nest_level_for_cont_info = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getInputNestLevelForContInfoFieldBuilder() {
         if (inputNestLevelForContInfoBuilder_ == null) {
           inputNestLevelForContInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getInputNestLevelForContInfo(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue country_ = null;
+      private io.dstore.values.StringValue country_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.StringValue country = 6;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.StringValue country = 6;</code>
        */
-      public io.dstore.Values.stringValue getCountry() {
+      public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
-          return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+          return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
         } else {
           return countryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.StringValue country = 6;</code>
        */
-      public Builder setCountry(io.dstore.Values.stringValue value) {
+      public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.StringValue country = 6;</code>
        */
       public Builder setCountry(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (countryBuilder_ == null) {
           country_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.StringValue country = 6;</code>
        */
-      public Builder mergeCountry(io.dstore.Values.stringValue value) {
+      public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (country_ != null) {
             country_ =
-              io.dstore.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(country_).mergeFrom(value).buildPartial();
           } else {
             country_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.StringValue country = 6;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.StringValue country = 6;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCountryBuilder() {
+      public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
         onChanged();
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.StringValue country = 6;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
           return countryBuilder_.getMessageOrBuilder();
         } else {
           return country_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : country_;
+              io.dstore.values.StringValue.getDefaultInstance() : country_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 6;</code>
+       * <code>optional .dstore.values.StringValue country = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
           countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue bonusItemForItemSetId_ = null;
+      private io.dstore.values.IntegerValue bonusItemForItemSetId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> bonusItemForItemSetIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> bonusItemForItemSetIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
        */
       public boolean hasBonusItemForItemSetId() {
         return bonusItemForItemSetIdBuilder_ != null || bonusItemForItemSetId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
        */
-      public io.dstore.Values.integerValue getBonusItemForItemSetId() {
+      public io.dstore.values.IntegerValue getBonusItemForItemSetId() {
         if (bonusItemForItemSetIdBuilder_ == null) {
-          return bonusItemForItemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : bonusItemForItemSetId_;
+          return bonusItemForItemSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : bonusItemForItemSetId_;
         } else {
           return bonusItemForItemSetIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
        */
-      public Builder setBonusItemForItemSetId(io.dstore.Values.integerValue value) {
+      public Builder setBonusItemForItemSetId(io.dstore.values.IntegerValue value) {
         if (bonusItemForItemSetIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
        */
       public Builder setBonusItemForItemSetId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (bonusItemForItemSetIdBuilder_ == null) {
           bonusItemForItemSetId_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
        */
-      public Builder mergeBonusItemForItemSetId(io.dstore.Values.integerValue value) {
+      public Builder mergeBonusItemForItemSetId(io.dstore.values.IntegerValue value) {
         if (bonusItemForItemSetIdBuilder_ == null) {
           if (bonusItemForItemSetId_ != null) {
             bonusItemForItemSetId_ =
-              io.dstore.Values.integerValue.newBuilder(bonusItemForItemSetId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(bonusItemForItemSetId_).mergeFrom(value).buildPartial();
           } else {
             bonusItemForItemSetId_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
        */
       public Builder clearBonusItemForItemSetId() {
         if (bonusItemForItemSetIdBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class OmInsertIntoTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBonusItemForItemSetIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBonusItemForItemSetIdBuilder() {
         
         onChanged();
         return getBonusItemForItemSetIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBonusItemForItemSetIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBonusItemForItemSetIdOrBuilder() {
         if (bonusItemForItemSetIdBuilder_ != null) {
           return bonusItemForItemSetIdBuilder_.getMessageOrBuilder();
         } else {
           return bonusItemForItemSetId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : bonusItemForItemSetId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : bonusItemForItemSetId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bonus_item_for_item_set_id = 7;</code>
+       * <code>optional .dstore.values.IntegerValue bonus_item_for_item_set_id = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBonusItemForItemSetIdFieldBuilder() {
         if (bonusItemForItemSetIdBuilder_ == null) {
           bonusItemForItemSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBonusItemForItemSetId(),
                   getParentForChildren(),
                   isClean());
@@ -2397,7 +2397,7 @@ public final class OmInsertIntoTrolleyPu {
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       boolean hasInformationTypeId();
       /**
@@ -2405,24 +2405,24 @@ public final class OmInsertIntoTrolleyPu {
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getInformationTypeId();
+      io.dstore.values.IntegerValue getInformationTypeId();
       /**
        * <pre>
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
       boolean hasHTreeNodeId();
       /**
@@ -2430,24 +2430,24 @@ public final class OmInsertIntoTrolleyPu {
        * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getHTreeNodeId();
+      io.dstore.values.IntegerValue getHTreeNodeId();
       /**
        * <pre>
        * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
       boolean hasNodeId();
       /**
@@ -2455,24 +2455,24 @@ public final class OmInsertIntoTrolleyPu {
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -2480,24 +2480,24 @@ public final class OmInsertIntoTrolleyPu {
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
        */
-      io.dstore.Values.integerValue getTreeNodeId();
+      io.dstore.values.IntegerValue getTreeNodeId();
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
        */
       boolean hasErrorCode();
       /**
@@ -2505,17 +2505,17 @@ public final class OmInsertIntoTrolleyPu {
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
        */
-      io.dstore.Values.integerValue getErrorCode();
+      io.dstore.values.IntegerValue getErrorCode();
       /**
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_InsertIntoTrolley_Pu.Response.Row}
@@ -2563,11 +2563,11 @@ public final class OmInsertIntoTrolleyPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -2576,11 +2576,11 @@ public final class OmInsertIntoTrolleyPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -2589,11 +2589,11 @@ public final class OmInsertIntoTrolleyPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2602,11 +2602,11 @@ public final class OmInsertIntoTrolleyPu {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -2615,11 +2615,11 @@ public final class OmInsertIntoTrolleyPu {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (errorCode_ != null) {
                   subBuilder = errorCode_.toBuilder();
                 }
-                errorCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                errorCode_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(errorCode_);
                   errorCode_ = subBuilder.buildPartial();
@@ -2660,13 +2660,13 @@ public final class OmInsertIntoTrolleyPu {
       }
 
       public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue informationTypeId_;
+      private io.dstore.values.IntegerValue informationTypeId_;
       /**
        * <pre>
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
@@ -2676,30 +2676,30 @@ public final class OmInsertIntoTrolleyPu {
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getInformationTypeId() {
-        return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+      public io.dstore.values.IntegerValue getInformationTypeId() {
+        return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
       }
       /**
        * <pre>
        * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
       }
 
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue hTreeNodeId_;
+      private io.dstore.values.IntegerValue hTreeNodeId_;
       /**
        * <pre>
        * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
@@ -2709,30 +2709,30 @@ public final class OmInsertIntoTrolleyPu {
        * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getHTreeNodeId() {
-        return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+      public io.dstore.values.IntegerValue getHTreeNodeId() {
+        return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
        * <pre>
        * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -2742,30 +2742,30 @@ public final class OmInsertIntoTrolleyPu {
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue treeNodeId_;
+      private io.dstore.values.IntegerValue treeNodeId_;
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -2775,30 +2775,30 @@ public final class OmInsertIntoTrolleyPu {
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.values.IntegerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
        * <pre>
        * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int ERROR_CODE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue errorCode_;
+      private io.dstore.values.IntegerValue errorCode_;
       /**
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
        */
       public boolean hasErrorCode() {
         return errorCode_ != null;
@@ -2808,19 +2808,19 @@ public final class OmInsertIntoTrolleyPu {
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
        */
-      public io.dstore.Values.integerValue getErrorCode() {
-        return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
+      public io.dstore.values.IntegerValue getErrorCode() {
+        return errorCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
       }
       /**
        * <pre>
        * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
         return getErrorCode();
       }
 
@@ -3269,15 +3269,15 @@ public final class OmInsertIntoTrolleyPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue informationTypeId_ = null;
+        private io.dstore.values.IntegerValue informationTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
         /**
          * <pre>
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
@@ -3287,11 +3287,11 @@ public final class OmInsertIntoTrolleyPu {
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getInformationTypeId() {
+        public io.dstore.values.IntegerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
-            return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+            return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
           } else {
             return informationTypeIdBuilder_.getMessage();
           }
@@ -3301,9 +3301,9 @@ public final class OmInsertIntoTrolleyPu {
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3321,10 +3321,10 @@ public final class OmInsertIntoTrolleyPu {
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder setInformationTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (informationTypeIdBuilder_ == null) {
             informationTypeId_ = builderForValue.build();
             onChanged();
@@ -3339,13 +3339,13 @@ public final class OmInsertIntoTrolleyPu {
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (informationTypeId_ != null) {
               informationTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
             } else {
               informationTypeId_ = value;
             }
@@ -3361,7 +3361,7 @@ public final class OmInsertIntoTrolleyPu {
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -3379,9 +3379,9 @@ public final class OmInsertIntoTrolleyPu {
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
           
           onChanged();
           return getInformationTypeIdFieldBuilder().getBuilder();
@@ -3391,14 +3391,14 @@ public final class OmInsertIntoTrolleyPu {
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
             return informationTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return informationTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
           }
         }
         /**
@@ -3406,14 +3406,14 @@ public final class OmInsertIntoTrolleyPu {
          * ID der Informations-Art bei der es einen Fehler gab (-&gt; "ErrorCode")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getInformationTypeIdFieldBuilder() {
           if (informationTypeIdBuilder_ == null) {
             informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getInformationTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3422,15 +3422,15 @@ public final class OmInsertIntoTrolleyPu {
           return informationTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue hTreeNodeId_ = null;
+        private io.dstore.values.IntegerValue hTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
@@ -3440,11 +3440,11 @@ public final class OmInsertIntoTrolleyPu {
          * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getHTreeNodeId() {
+        public io.dstore.values.IntegerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
-            return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+            return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
           } else {
             return hTreeNodeIdBuilder_.getMessage();
           }
@@ -3454,9 +3454,9 @@ public final class OmInsertIntoTrolleyPu {
          * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
-        public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3474,10 +3474,10 @@ public final class OmInsertIntoTrolleyPu {
          * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public Builder setHTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -3492,13 +3492,13 @@ public final class OmInsertIntoTrolleyPu {
          * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
-        public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (hTreeNodeId_ != null) {
               hTreeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               hTreeNodeId_ = value;
             }
@@ -3514,7 +3514,7 @@ public final class OmInsertIntoTrolleyPu {
          * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -3532,9 +3532,9 @@ public final class OmInsertIntoTrolleyPu {
          * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getHTreeNodeIdBuilder() {
           
           onChanged();
           return getHTreeNodeIdFieldBuilder().getBuilder();
@@ -3544,14 +3544,14 @@ public final class OmInsertIntoTrolleyPu {
          * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
             return hTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return hTreeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
           }
         }
         /**
@@ -3559,14 +3559,14 @@ public final class OmInsertIntoTrolleyPu {
          * ID eines Elementes im historischen Artikelbaum, die in den Warenkorb gelegt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3575,15 +3575,15 @@ public final class OmInsertIntoTrolleyPu {
           return hTreeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -3593,11 +3593,11 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -3607,9 +3607,9 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3627,10 +3627,10 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -3645,13 +3645,13 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -3667,7 +3667,7 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -3685,9 +3685,9 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -3697,14 +3697,14 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -3712,14 +3712,14 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Artikel-Elementes - im Fall "&#64;IsTreeNodeID = 0" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3728,15 +3728,15 @@ public final class OmInsertIntoTrolleyPu {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue treeNodeId_ = null;
+        private io.dstore.values.IntegerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -3746,11 +3746,11 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue getTreeNodeId() {
+        public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
@@ -3760,9 +3760,9 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
          */
-        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3780,10 +3780,10 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
          */
         public Builder setTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -3798,13 +3798,13 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
          */
-        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -3820,7 +3820,7 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -3838,9 +3838,9 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
@@ -3850,14 +3850,14 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
@@ -3865,14 +3865,14 @@ public final class OmInsertIntoTrolleyPu {
          * ID des zur "HTreeNodeID" zugehörigen Elementes im Artikelbaum - im Fall "&#64;IsTreeNodeID = 1" also eine der übergebenen IDs, die "in den Warenkorb gelegt" werden sollten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3881,15 +3881,15 @@ public final class OmInsertIntoTrolleyPu {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue errorCode_ = null;
+        private io.dstore.values.IntegerValue errorCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> errorCodeBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> errorCodeBuilder_;
         /**
          * <pre>
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
          */
         public boolean hasErrorCode() {
           return errorCodeBuilder_ != null || errorCode_ != null;
@@ -3899,11 +3899,11 @@ public final class OmInsertIntoTrolleyPu {
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
          */
-        public io.dstore.Values.integerValue getErrorCode() {
+        public io.dstore.values.IntegerValue getErrorCode() {
           if (errorCodeBuilder_ == null) {
-            return errorCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
+            return errorCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
           } else {
             return errorCodeBuilder_.getMessage();
           }
@@ -3913,9 +3913,9 @@ public final class OmInsertIntoTrolleyPu {
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
          */
-        public Builder setErrorCode(io.dstore.Values.integerValue value) {
+        public Builder setErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3933,10 +3933,10 @@ public final class OmInsertIntoTrolleyPu {
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
          */
         public Builder setErrorCode(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (errorCodeBuilder_ == null) {
             errorCode_ = builderForValue.build();
             onChanged();
@@ -3951,13 +3951,13 @@ public final class OmInsertIntoTrolleyPu {
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
          */
-        public Builder mergeErrorCode(io.dstore.Values.integerValue value) {
+        public Builder mergeErrorCode(io.dstore.values.IntegerValue value) {
           if (errorCodeBuilder_ == null) {
             if (errorCode_ != null) {
               errorCode_ =
-                io.dstore.Values.integerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(errorCode_).mergeFrom(value).buildPartial();
             } else {
               errorCode_ = value;
             }
@@ -3973,7 +3973,7 @@ public final class OmInsertIntoTrolleyPu {
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
          */
         public Builder clearErrorCode() {
           if (errorCodeBuilder_ == null) {
@@ -3991,9 +3991,9 @@ public final class OmInsertIntoTrolleyPu {
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getErrorCodeBuilder() {
+        public io.dstore.values.IntegerValue.Builder getErrorCodeBuilder() {
           
           onChanged();
           return getErrorCodeFieldBuilder().getBuilder();
@@ -4003,14 +4003,14 @@ public final class OmInsertIntoTrolleyPu {
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getErrorCodeOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getErrorCodeOrBuilder() {
           if (errorCodeBuilder_ != null) {
             return errorCodeBuilder_.getMessageOrBuilder();
           } else {
             return errorCode_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : errorCode_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : errorCode_;
           }
         }
         /**
@@ -4018,14 +4018,14 @@ public final class OmInsertIntoTrolleyPu {
          * Dieser Code gibt Auskunft über die Ursache des Fehlers. Folgende Werte sind möglich :"1" : Die "Information" entspricht nicht der zur "InformationTypeID" konfigurierten "FieldTypeID", d.h. das Format des Wertes ist ungültig
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue error_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue error_code = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getErrorCodeFieldBuilder() {
           if (errorCodeBuilder_ == null) {
             errorCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getErrorCode(),
                     getParentForChildren(),
                     isClean());
@@ -5494,32 +5494,32 @@ public final class OmInsertIntoTrolleyPu {
       "Trolley_Pu.proto\022%dstore.engine.om_Inser" +
       "tIntoTrolley_Pu\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\327\004\n\nParameters\022" +
-      "-\n\tunique_id\030\001 \001(\0132\032.dstore.values.strin" +
+      "-\n\tunique_id\030\001 \001(\0132\032.dstore.values.Strin" +
       "gValue\022\027\n\016unique_id_null\030\351\007 \001(\010\022,\n\007node_" +
-      "id\030\002 \001(\0132\033.dstore.values.integerValue\022\025\n" +
+      "id\030\002 \001(\0132\033.dstore.values.IntegerValue\022\025\n" +
       "\014node_id_null\030\352\007 \001(\010\0224\n\017is_tree_node_id\030" +
-      "\003 \001(\0132\033.dstore.values.booleanValue\022\035\n\024is" +
+      "\003 \001(\0132\033.dstore.values.BooleanValue\022\035\n\024is" +
       "_tree_node_id_null\030\353\007 \001(\010\022-\n\010quantity\030\004 ",
-      "\001(\0132\033.dstore.values.integerValue\022\026\n\rquan" +
+      "\001(\0132\033.dstore.values.IntegerValue\022\026\n\rquan" +
       "tity_null\030\354\007 \001(\010\022C\n\036input_nest_level_for" +
-      "_cont_info\030\005 \001(\0132\033.dstore.values.integer" +
+      "_cont_info\030\005 \001(\0132\033.dstore.values.Integer" +
       "Value\022,\n#input_nest_level_for_cont_info_" +
       "null\030\355\007 \001(\010\022+\n\007country\030\006 \001(\0132\032.dstore.va" +
-      "lues.stringValue\022\025\n\014country_null\030\356\007 \001(\010\022" +
+      "lues.StringValue\022\025\n\014country_null\030\356\007 \001(\010\022" +
       "?\n\032bonus_item_for_item_set_id\030\007 \001(\0132\033.ds" +
-      "tore.values.integerValue\022(\n\037bonus_item_f" +
+      "tore.values.IntegerValue\022(\n\037bonus_item_f" +
       "or_item_set_id_null\030\357\007 \001(\010\"\316\003\n\010Response\022" +
       "8\n\020meta_information\030\002 \003(\0132\036.dstore.engin",
       "e.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dst" +
       "ore.engine.Message\022@\n\003row\030\004 \003(\01323.dstore" +
       ".engine.om_InsertIntoTrolley_Pu.Response" +
       ".Row\032\234\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0229\n\023informa" +
-      "tion_type_id\030\221N \001(\0132\033.dstore.values.inte" +
+      "tion_type_id\030\221N \001(\0132\033.dstore.values.Inte" +
       "gerValue\0224\n\016h_tree_node_id\030\222N \001(\0132\033.dsto" +
-      "re.values.integerValue\022-\n\007node_id\030\223N \001(\013" +
-      "2\033.dstore.values.integerValue\0222\n\014tree_no" +
-      "de_id\030\224N \001(\0132\033.dstore.values.integerValu" +
-      "e\0220\n\nerror_code\030\225N \001(\0132\033.dstore.values.i",
+      "re.values.IntegerValue\022-\n\007node_id\030\223N \001(\013" +
+      "2\033.dstore.values.IntegerValue\0222\n\014tree_no" +
+      "de_id\030\224N \001(\0132\033.dstore.values.IntegerValu" +
+      "e\0220\n\nerror_code\030\225N \001(\0132\033.dstore.values.I",
       "ntegerValueBX\n\033io.dstore.engine.procedur" +
       "esZ9gosdk.dstore.de/engine/procedures/om" +
       "_InsertIntoTrolley_Pub\006proto3"
@@ -5535,7 +5535,7 @@ public final class OmInsertIntoTrolleyPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_InsertIntoTrolley_Pu_Parameters_descriptor =
@@ -5556,7 +5556,7 @@ public final class OmInsertIntoTrolleyPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_InsertIntoTrolley_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "InformationTypeId", "HTreeNodeId", "NodeId", "TreeNodeId", "ErrorCode", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

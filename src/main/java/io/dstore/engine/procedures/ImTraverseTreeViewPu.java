@@ -19,17 +19,17 @@ public final class ImTraverseTreeViewPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     boolean hasTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTreeNodeId();
+    io.dstore.values.IntegerValue getTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImTraverseTreeViewPu {
     boolean getTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue next = 2;</code>
+     * <code>optional .dstore.values.BooleanValue next = 2;</code>
      */
     boolean hasNext();
     /**
-     * <code>optional .dstore.values.booleanValue next = 2;</code>
+     * <code>optional .dstore.values.BooleanValue next = 2;</code>
      */
-    io.dstore.Values.booleanValue getNext();
+    io.dstore.values.BooleanValue getNext();
     /**
-     * <code>optional .dstore.values.booleanValue next = 2;</code>
+     * <code>optional .dstore.values.BooleanValue next = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getNextOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getNextOrBuilder();
 
     /**
      * <code>optional bool next_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImTraverseTreeViewPu {
     boolean getNextNull();
 
     /**
-     * <code>optional .dstore.values.integerValue level_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
      */
     boolean hasLevelNo();
     /**
-     * <code>optional .dstore.values.integerValue level_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
      */
-    io.dstore.Values.integerValue getLevelNo();
+    io.dstore.values.IntegerValue getLevelNo();
     /**
-     * <code>optional .dstore.values.integerValue level_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
     /**
      * <code>optional bool level_no_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImTraverseTreeViewPu {
     boolean getLevelNoNull();
 
     /**
-     * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
     boolean hasDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
-    io.dstore.Values.integerValue getDomainTreeNodeId();
+    io.dstore.values.IntegerValue getDomainTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool domain_tree_node_id_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class ImTraverseTreeViewPu {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class ImTraverseTreeViewPu {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (next_ != null) {
                 subBuilder = next_.toBuilder();
               }
-              next_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              next_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(next_);
                 next_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class ImTraverseTreeViewPu {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (levelNo_ != null) {
                 subBuilder = levelNo_.toBuilder();
               }
-              levelNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              levelNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(levelNo_);
                 levelNo_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class ImTraverseTreeViewPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (domainTreeNodeId_ != null) {
                 subBuilder = domainTreeNodeId_.toBuilder();
               }
-              domainTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              domainTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(domainTreeNodeId_);
                 domainTreeNodeId_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class ImTraverseTreeViewPu {
     }
 
     public static final int TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue treeNodeId_;
+    private io.dstore.values.IntegerValue treeNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
     public boolean hasTreeNodeId() {
       return treeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTreeNodeId() {
-      return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+    public io.dstore.values.IntegerValue getTreeNodeId() {
+      return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
       return getTreeNodeId();
     }
 
@@ -259,23 +259,23 @@ public final class ImTraverseTreeViewPu {
     }
 
     public static final int NEXT_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue next_;
+    private io.dstore.values.BooleanValue next_;
     /**
-     * <code>optional .dstore.values.booleanValue next = 2;</code>
+     * <code>optional .dstore.values.BooleanValue next = 2;</code>
      */
     public boolean hasNext() {
       return next_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue next = 2;</code>
+     * <code>optional .dstore.values.BooleanValue next = 2;</code>
      */
-    public io.dstore.Values.booleanValue getNext() {
-      return next_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : next_;
+    public io.dstore.values.BooleanValue getNext() {
+      return next_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : next_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue next = 2;</code>
+     * <code>optional .dstore.values.BooleanValue next = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getNextOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getNextOrBuilder() {
       return getNext();
     }
 
@@ -289,23 +289,23 @@ public final class ImTraverseTreeViewPu {
     }
 
     public static final int LEVEL_NO_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue levelNo_;
+    private io.dstore.values.IntegerValue levelNo_;
     /**
-     * <code>optional .dstore.values.integerValue level_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
      */
     public boolean hasLevelNo() {
       return levelNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue level_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
      */
-    public io.dstore.Values.integerValue getLevelNo() {
-      return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
+    public io.dstore.values.IntegerValue getLevelNo() {
+      return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue level_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
       return getLevelNo();
     }
 
@@ -319,23 +319,23 @@ public final class ImTraverseTreeViewPu {
     }
 
     public static final int DOMAIN_TREE_NODE_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue domainTreeNodeId_;
+    private io.dstore.values.IntegerValue domainTreeNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
     public boolean hasDomainTreeNodeId() {
       return domainTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getDomainTreeNodeId() {
-      return domainTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
+    public io.dstore.values.IntegerValue getDomainTreeNodeId() {
+      return domainTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : domainTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
       return getDomainTreeNodeId();
     }
 
@@ -792,29 +792,29 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue treeNodeId_ = null;
+      private io.dstore.values.IntegerValue treeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeIdBuilder_ != null || treeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
+      public io.dstore.values.IntegerValue getTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
-          return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+          return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         } else {
           return treeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder setTreeNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (treeNodeIdBuilder_ == null) {
           treeNodeId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
         if (treeNodeIdBuilder_ == null) {
           if (treeNodeId_ != null) {
             treeNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
           } else {
             treeNodeId_ = value;
           }
@@ -860,7 +860,7 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       public Builder clearTreeNodeId() {
         if (treeNodeIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
         
         onChanged();
         return getTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         if (treeNodeIdBuilder_ != null) {
           return treeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTreeNodeIdFieldBuilder() {
         if (treeNodeIdBuilder_ == null) {
           treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue next_ = null;
+      private io.dstore.values.BooleanValue next_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> nextBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> nextBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue next = 2;</code>
+       * <code>optional .dstore.values.BooleanValue next = 2;</code>
        */
       public boolean hasNext() {
         return nextBuilder_ != null || next_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 2;</code>
+       * <code>optional .dstore.values.BooleanValue next = 2;</code>
        */
-      public io.dstore.Values.booleanValue getNext() {
+      public io.dstore.values.BooleanValue getNext() {
         if (nextBuilder_ == null) {
-          return next_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : next_;
+          return next_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : next_;
         } else {
           return nextBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 2;</code>
+       * <code>optional .dstore.values.BooleanValue next = 2;</code>
        */
-      public Builder setNext(io.dstore.Values.booleanValue value) {
+      public Builder setNext(io.dstore.values.BooleanValue value) {
         if (nextBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 2;</code>
+       * <code>optional .dstore.values.BooleanValue next = 2;</code>
        */
       public Builder setNext(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (nextBuilder_ == null) {
           next_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 2;</code>
+       * <code>optional .dstore.values.BooleanValue next = 2;</code>
        */
-      public Builder mergeNext(io.dstore.Values.booleanValue value) {
+      public Builder mergeNext(io.dstore.values.BooleanValue value) {
         if (nextBuilder_ == null) {
           if (next_ != null) {
             next_ =
-              io.dstore.Values.booleanValue.newBuilder(next_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(next_).mergeFrom(value).buildPartial();
           } else {
             next_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 2;</code>
+       * <code>optional .dstore.values.BooleanValue next = 2;</code>
        */
       public Builder clearNext() {
         if (nextBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 2;</code>
+       * <code>optional .dstore.values.BooleanValue next = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getNextBuilder() {
+      public io.dstore.values.BooleanValue.Builder getNextBuilder() {
         
         onChanged();
         return getNextFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 2;</code>
+       * <code>optional .dstore.values.BooleanValue next = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getNextOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getNextOrBuilder() {
         if (nextBuilder_ != null) {
           return nextBuilder_.getMessageOrBuilder();
         } else {
           return next_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : next_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : next_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue next = 2;</code>
+       * <code>optional .dstore.values.BooleanValue next = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getNextFieldBuilder() {
         if (nextBuilder_ == null) {
           nextBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getNext(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue levelNo_ = null;
+      private io.dstore.values.IntegerValue levelNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue level_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
        */
       public boolean hasLevelNo() {
         return levelNoBuilder_ != null || levelNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
        */
-      public io.dstore.Values.integerValue getLevelNo() {
+      public io.dstore.values.IntegerValue getLevelNo() {
         if (levelNoBuilder_ == null) {
-          return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
+          return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
         } else {
           return levelNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
        */
-      public Builder setLevelNo(io.dstore.Values.integerValue value) {
+      public Builder setLevelNo(io.dstore.values.IntegerValue value) {
         if (levelNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
        */
       public Builder setLevelNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (levelNoBuilder_ == null) {
           levelNo_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
        */
-      public Builder mergeLevelNo(io.dstore.Values.integerValue value) {
+      public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
         if (levelNoBuilder_ == null) {
           if (levelNo_ != null) {
             levelNo_ =
-              io.dstore.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
           } else {
             levelNo_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
        */
       public Builder clearLevelNo() {
         if (levelNoBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLevelNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
         
         onChanged();
         return getLevelNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         if (levelNoBuilder_ != null) {
           return levelNoBuilder_.getMessageOrBuilder();
         } else {
           return levelNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLevelNoFieldBuilder() {
         if (levelNoBuilder_ == null) {
           levelNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLevelNo(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue domainTreeNodeId_ = null;
+      private io.dstore.values.IntegerValue domainTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> domainTreeNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> domainTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public boolean hasDomainTreeNodeId() {
         return domainTreeNodeIdBuilder_ != null || domainTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getDomainTreeNodeId() {
+      public io.dstore.values.IntegerValue getDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
-          return domainTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
+          return domainTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : domainTreeNodeId_;
         } else {
           return domainTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
-      public Builder setDomainTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder setDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public Builder setDomainTreeNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (domainTreeNodeIdBuilder_ == null) {
           domainTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
-      public Builder mergeDomainTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeDomainTreeNodeId(io.dstore.values.IntegerValue value) {
         if (domainTreeNodeIdBuilder_ == null) {
           if (domainTreeNodeId_ != null) {
             domainTreeNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(domainTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(domainTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             domainTreeNodeId_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       public Builder clearDomainTreeNodeId() {
         if (domainTreeNodeIdBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class ImTraverseTreeViewPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getDomainTreeNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getDomainTreeNodeIdBuilder() {
         
         onChanged();
         return getDomainTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDomainTreeNodeIdOrBuilder() {
         if (domainTreeNodeIdBuilder_ != null) {
           return domainTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return domainTreeNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : domainTreeNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : domainTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue domain_tree_node_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue domain_tree_node_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getDomainTreeNodeIdFieldBuilder() {
         if (domainTreeNodeIdBuilder_ == null) {
           domainTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getDomainTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1623,7 +1623,7 @@ public final class ImTraverseTreeViewPu {
        * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
        */
       boolean hasResultTreeNodeId();
       /**
@@ -1631,17 +1631,17 @@ public final class ImTraverseTreeViewPu {
        * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getResultTreeNodeId();
+      io.dstore.values.IntegerValue getResultTreeNodeId();
       /**
        * <pre>
        * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getResultTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getResultTreeNodeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_TraverseTreeView_Pu.Response.Row}
@@ -1689,11 +1689,11 @@ public final class ImTraverseTreeViewPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (resultTreeNodeId_ != null) {
                   subBuilder = resultTreeNodeId_.toBuilder();
                 }
-                resultTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                resultTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(resultTreeNodeId_);
                   resultTreeNodeId_ = subBuilder.buildPartial();
@@ -1734,13 +1734,13 @@ public final class ImTraverseTreeViewPu {
       }
 
       public static final int RESULT_TREE_NODE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue resultTreeNodeId_;
+      private io.dstore.values.IntegerValue resultTreeNodeId_;
       /**
        * <pre>
        * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
        */
       public boolean hasResultTreeNodeId() {
         return resultTreeNodeId_ != null;
@@ -1750,19 +1750,19 @@ public final class ImTraverseTreeViewPu {
        * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getResultTreeNodeId() {
-        return resultTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : resultTreeNodeId_;
+      public io.dstore.values.IntegerValue getResultTreeNodeId() {
+        return resultTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : resultTreeNodeId_;
       }
       /**
        * <pre>
        * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getResultTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getResultTreeNodeIdOrBuilder() {
         return getResultTreeNodeId();
       }
 
@@ -2091,15 +2091,15 @@ public final class ImTraverseTreeViewPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue resultTreeNodeId_ = null;
+        private io.dstore.values.IntegerValue resultTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> resultTreeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> resultTreeNodeIdBuilder_;
         /**
          * <pre>
          * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
          */
         public boolean hasResultTreeNodeId() {
           return resultTreeNodeIdBuilder_ != null || resultTreeNodeId_ != null;
@@ -2109,11 +2109,11 @@ public final class ImTraverseTreeViewPu {
          * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getResultTreeNodeId() {
+        public io.dstore.values.IntegerValue getResultTreeNodeId() {
           if (resultTreeNodeIdBuilder_ == null) {
-            return resultTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : resultTreeNodeId_;
+            return resultTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : resultTreeNodeId_;
           } else {
             return resultTreeNodeIdBuilder_.getMessage();
           }
@@ -2123,9 +2123,9 @@ public final class ImTraverseTreeViewPu {
          * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
          */
-        public Builder setResultTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setResultTreeNodeId(io.dstore.values.IntegerValue value) {
           if (resultTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2143,10 +2143,10 @@ public final class ImTraverseTreeViewPu {
          * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
          */
         public Builder setResultTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (resultTreeNodeIdBuilder_ == null) {
             resultTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -2161,13 +2161,13 @@ public final class ImTraverseTreeViewPu {
          * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
          */
-        public Builder mergeResultTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeResultTreeNodeId(io.dstore.values.IntegerValue value) {
           if (resultTreeNodeIdBuilder_ == null) {
             if (resultTreeNodeId_ != null) {
               resultTreeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(resultTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(resultTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               resultTreeNodeId_ = value;
             }
@@ -2183,7 +2183,7 @@ public final class ImTraverseTreeViewPu {
          * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
          */
         public Builder clearResultTreeNodeId() {
           if (resultTreeNodeIdBuilder_ == null) {
@@ -2201,9 +2201,9 @@ public final class ImTraverseTreeViewPu {
          * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getResultTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getResultTreeNodeIdBuilder() {
           
           onChanged();
           return getResultTreeNodeIdFieldBuilder().getBuilder();
@@ -2213,14 +2213,14 @@ public final class ImTraverseTreeViewPu {
          * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getResultTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getResultTreeNodeIdOrBuilder() {
           if (resultTreeNodeIdBuilder_ != null) {
             return resultTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return resultTreeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : resultTreeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : resultTreeNodeId_;
           }
         }
         /**
@@ -2228,14 +2228,14 @@ public final class ImTraverseTreeViewPu {
          * ID des benachbarten Elementes von "&#64;TreeNodeID". "-1", falls keines gefunden wurde.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue result_tree_node_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getResultTreeNodeIdFieldBuilder() {
           if (resultTreeNodeIdBuilder_ == null) {
             resultTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getResultTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3704,20 +3704,20 @@ public final class ImTraverseTreeViewPu {
       "eeView_Pu.proto\022$dstore.engine.im_Traver" +
       "seTreeView_Pu\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\276\002\n\nParameters\0221\n" +
-      "\014tree_node_id\030\001 \001(\0132\033.dstore.values.inte" +
+      "\014tree_node_id\030\001 \001(\0132\033.dstore.values.Inte" +
       "gerValue\022\032\n\021tree_node_id_null\030\351\007 \001(\010\022)\n\004" +
-      "next\030\002 \001(\0132\033.dstore.values.booleanValue\022" +
+      "next\030\002 \001(\0132\033.dstore.values.BooleanValue\022" +
       "\022\n\tnext_null\030\352\007 \001(\010\022-\n\010level_no\030\003 \001(\0132\033." +
-      "dstore.values.integerValue\022\026\n\rlevel_no_n" +
+      "dstore.values.IntegerValue\022\026\n\rlevel_no_n" +
       "ull\030\353\007 \001(\010\0228\n\023domain_tree_node_id\030\004 \001(\0132",
-      "\033.dstore.values.integerValue\022!\n\030domain_t" +
+      "\033.dstore.values.IntegerValue\022!\n\030domain_t" +
       "ree_node_id_null\030\354\007 \001(\010\"\201\002\n\010Response\0228\n\020" +
       "meta_information\030\002 \003(\0132\036.dstore.engine.M" +
       "etaInformation\022\'\n\007message\030\003 \003(\0132\026.dstore" +
       ".engine.Message\022?\n\003row\030\004 \003(\01322.dstore.en" +
       "gine.im_TraverseTreeView_Pu.Response.Row" +
       "\032Q\n\003Row\022\017\n\006row_id\030\220N \001(\005\0229\n\023result_tree_" +
-      "node_id\030\221N \001(\0132\033.dstore.values.integerVa" +
+      "node_id\030\221N \001(\0132\033.dstore.values.IntegerVa" +
       "lueBW\n\033io.dstore.engine.proceduresZ8gosd" +
       "k.dstore.de/engine/procedures/im_Travers",
       "eTreeView_Pub\006proto3"
@@ -3733,7 +3733,7 @@ public final class ImTraverseTreeViewPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_TraverseTreeView_Pu_Parameters_descriptor =
@@ -3754,7 +3754,7 @@ public final class ImTraverseTreeViewPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_TraverseTreeView_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ResultTreeNodeId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmModifyPayForShipDescrAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
     boolean hasPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPaymentForShippingId();
+    io.dstore.values.IntegerValue getPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
     /**
      * <code>optional bool payment_for_shipping_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifyPayForShipDescrAd {
     boolean getPaymentForShippingIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifyPayForShipDescrAd {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+     * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
      */
     boolean hasPaymentForShippingDescription();
     /**
-     * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+     * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
      */
-    io.dstore.Values.stringValue getPaymentForShippingDescription();
+    io.dstore.values.StringValue getPaymentForShippingDescription();
     /**
-     * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+     * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder();
 
     /**
      * <code>optional bool payment_for_shipping_description_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmModifyPayForShipDescrAd {
     boolean getPaymentForShippingDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
     boolean hasDeleteTranslation();
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
-    io.dstore.Values.booleanValue getDeleteTranslation();
+    io.dstore.values.BooleanValue getDeleteTranslation();
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteTranslationOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteTranslationOrBuilder();
 
     /**
      * <code>optional bool delete_translation_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class OmModifyPayForShipDescrAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (paymentForShippingId_ != null) {
                 subBuilder = paymentForShippingId_.toBuilder();
               }
-              paymentForShippingId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              paymentForShippingId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentForShippingId_);
                 paymentForShippingId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class OmModifyPayForShipDescrAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class OmModifyPayForShipDescrAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (paymentForShippingDescription_ != null) {
                 subBuilder = paymentForShippingDescription_.toBuilder();
               }
-              paymentForShippingDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              paymentForShippingDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentForShippingDescription_);
                 paymentForShippingDescription_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class OmModifyPayForShipDescrAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteTranslation_ != null) {
                 subBuilder = deleteTranslation_.toBuilder();
               }
-              deleteTranslation_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteTranslation_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteTranslation_);
                 deleteTranslation_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class OmModifyPayForShipDescrAd {
     }
 
     public static final int PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue paymentForShippingId_;
+    private io.dstore.values.IntegerValue paymentForShippingId_;
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
     public boolean hasPaymentForShippingId() {
       return paymentForShippingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPaymentForShippingId() {
-      return paymentForShippingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
+    public io.dstore.values.IntegerValue getPaymentForShippingId() {
+      return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
       return getPaymentForShippingId();
     }
 
@@ -259,23 +259,23 @@ public final class OmModifyPayForShipDescrAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -289,23 +289,23 @@ public final class OmModifyPayForShipDescrAd {
     }
 
     public static final int PAYMENT_FOR_SHIPPING_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue paymentForShippingDescription_;
+    private io.dstore.values.StringValue paymentForShippingDescription_;
     /**
-     * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+     * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
      */
     public boolean hasPaymentForShippingDescription() {
       return paymentForShippingDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+     * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
      */
-    public io.dstore.Values.stringValue getPaymentForShippingDescription() {
-      return paymentForShippingDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentForShippingDescription_;
+    public io.dstore.values.StringValue getPaymentForShippingDescription() {
+      return paymentForShippingDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentForShippingDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+     * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
       return getPaymentForShippingDescription();
     }
 
@@ -319,23 +319,23 @@ public final class OmModifyPayForShipDescrAd {
     }
 
     public static final int DELETE_TRANSLATION_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue deleteTranslation_;
+    private io.dstore.values.BooleanValue deleteTranslation_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
     public boolean hasDeleteTranslation() {
       return deleteTranslation_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteTranslation() {
-      return deleteTranslation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteTranslation_;
+    public io.dstore.values.BooleanValue getDeleteTranslation() {
+      return deleteTranslation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteTranslation_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteTranslationOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteTranslationOrBuilder() {
       return getDeleteTranslation();
     }
 
@@ -792,29 +792,29 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue paymentForShippingId_ = null;
+      private io.dstore.values.IntegerValue paymentForShippingId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentForShippingIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentForShippingIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPaymentForShippingId() {
+      public io.dstore.values.IntegerValue getPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
-          return paymentForShippingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
+          return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
         } else {
           return paymentForShippingIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
-      public Builder setPaymentForShippingId(io.dstore.Values.integerValue value) {
+      public Builder setPaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public Builder setPaymentForShippingId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (paymentForShippingIdBuilder_ == null) {
           paymentForShippingId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
-      public Builder mergePaymentForShippingId(io.dstore.Values.integerValue value) {
+      public Builder mergePaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
           if (paymentForShippingId_ != null) {
             paymentForShippingId_ =
-              io.dstore.Values.integerValue.newBuilder(paymentForShippingId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(paymentForShippingId_).mergeFrom(value).buildPartial();
           } else {
             paymentForShippingId_ = value;
           }
@@ -860,7 +860,7 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       public Builder clearPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPaymentForShippingIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPaymentForShippingIdBuilder() {
         
         onChanged();
         return getPaymentForShippingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         if (paymentForShippingIdBuilder_ != null) {
           return paymentForShippingIdBuilder_.getMessageOrBuilder();
         } else {
           return paymentForShippingId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPaymentForShippingIdFieldBuilder() {
         if (paymentForShippingIdBuilder_ == null) {
           paymentForShippingIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPaymentForShippingId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue paymentForShippingDescription_ = null;
+      private io.dstore.values.StringValue paymentForShippingDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentForShippingDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> paymentForShippingDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
        */
       public boolean hasPaymentForShippingDescription() {
         return paymentForShippingDescriptionBuilder_ != null || paymentForShippingDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
        */
-      public io.dstore.Values.stringValue getPaymentForShippingDescription() {
+      public io.dstore.values.StringValue getPaymentForShippingDescription() {
         if (paymentForShippingDescriptionBuilder_ == null) {
-          return paymentForShippingDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentForShippingDescription_;
+          return paymentForShippingDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentForShippingDescription_;
         } else {
           return paymentForShippingDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
        */
-      public Builder setPaymentForShippingDescription(io.dstore.Values.stringValue value) {
+      public Builder setPaymentForShippingDescription(io.dstore.values.StringValue value) {
         if (paymentForShippingDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
        */
       public Builder setPaymentForShippingDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (paymentForShippingDescriptionBuilder_ == null) {
           paymentForShippingDescription_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
        */
-      public Builder mergePaymentForShippingDescription(io.dstore.Values.stringValue value) {
+      public Builder mergePaymentForShippingDescription(io.dstore.values.StringValue value) {
         if (paymentForShippingDescriptionBuilder_ == null) {
           if (paymentForShippingDescription_ != null) {
             paymentForShippingDescription_ =
-              io.dstore.Values.stringValue.newBuilder(paymentForShippingDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(paymentForShippingDescription_).mergeFrom(value).buildPartial();
           } else {
             paymentForShippingDescription_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
        */
       public Builder clearPaymentForShippingDescription() {
         if (paymentForShippingDescriptionBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPaymentForShippingDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getPaymentForShippingDescriptionBuilder() {
         
         onChanged();
         return getPaymentForShippingDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPaymentForShippingDescriptionOrBuilder() {
         if (paymentForShippingDescriptionBuilder_ != null) {
           return paymentForShippingDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return paymentForShippingDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : paymentForShippingDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : paymentForShippingDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue payment_for_shipping_description = 3;</code>
+       * <code>optional .dstore.values.StringValue payment_for_shipping_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPaymentForShippingDescriptionFieldBuilder() {
         if (paymentForShippingDescriptionBuilder_ == null) {
           paymentForShippingDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPaymentForShippingDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteTranslation_ = null;
+      private io.dstore.values.BooleanValue deleteTranslation_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteTranslationBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteTranslationBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
       public boolean hasDeleteTranslation() {
         return deleteTranslationBuilder_ != null || deleteTranslation_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteTranslation() {
+      public io.dstore.values.BooleanValue getDeleteTranslation() {
         if (deleteTranslationBuilder_ == null) {
-          return deleteTranslation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteTranslation_;
+          return deleteTranslation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteTranslation_;
         } else {
           return deleteTranslationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public Builder setDeleteTranslation(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteTranslation(io.dstore.values.BooleanValue value) {
         if (deleteTranslationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
       public Builder setDeleteTranslation(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteTranslationBuilder_ == null) {
           deleteTranslation_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public Builder mergeDeleteTranslation(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteTranslation(io.dstore.values.BooleanValue value) {
         if (deleteTranslationBuilder_ == null) {
           if (deleteTranslation_ != null) {
             deleteTranslation_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteTranslation_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteTranslation_).mergeFrom(value).buildPartial();
           } else {
             deleteTranslation_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
       public Builder clearDeleteTranslation() {
         if (deleteTranslationBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class OmModifyPayForShipDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteTranslationBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteTranslationBuilder() {
         
         onChanged();
         return getDeleteTranslationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteTranslationOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteTranslationOrBuilder() {
         if (deleteTranslationBuilder_ != null) {
           return deleteTranslationBuilder_.getMessageOrBuilder();
         } else {
           return deleteTranslation_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteTranslation_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteTranslation_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_translation = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_translation = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteTranslationFieldBuilder() {
         if (deleteTranslationBuilder_ == null) {
           deleteTranslationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteTranslation(),
                   getParentForChildren(),
                   isClean());
@@ -3451,14 +3451,14 @@ public final class OmModifyPayForShipDescrAd {
       "odifyPayForShipDescr_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\217\003\n\nPar" +
       "ameters\022<\n\027payment_for_shipping_id\030\001 \001(\013" +
-      "2\033.dstore.values.integerValue\022%\n\034payment" +
+      "2\033.dstore.values.IntegerValue\022%\n\034payment" +
       "_for_shipping_id_null\030\351\007 \001(\010\0220\n\013language" +
-      "_id\030\002 \001(\0132\033.dstore.values.integerValue\022\031" +
+      "_id\030\002 \001(\0132\033.dstore.values.IntegerValue\022\031" +
       "\n\020language_id_null\030\352\007 \001(\010\022D\n payment_for" +
       "_shipping_description\030\003 \001(\0132\032.dstore.val",
-      "ues.stringValue\022.\n%payment_for_shipping_" +
+      "ues.StringValue\022.\n%payment_for_shipping_" +
       "description_null\030\353\007 \001(\010\0227\n\022delete_transl" +
-      "ation\030\004 \001(\0132\033.dstore.values.booleanValue" +
+      "ation\030\004 \001(\0132\033.dstore.values.BooleanValue" +
       "\022 \n\027delete_translation_null\030\354\007 \001(\010\"\313\001\n\010R" +
       "esponse\0228\n\020meta_information\030\002 \003(\0132\036.dsto" +
       "re.engine.MetaInformation\022\'\n\007message\030\003 \003" +
@@ -3480,7 +3480,7 @@ public final class OmModifyPayForShipDescrAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifyPayForShipDescr_Ad_Parameters_descriptor =
@@ -3501,7 +3501,7 @@ public final class OmModifyPayForShipDescrAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyPayForShipDescr_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

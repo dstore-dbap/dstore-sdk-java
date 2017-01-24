@@ -19,17 +19,17 @@ public final class FoGetForumAccessLevelIDsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class FoGetForumAccessLevelIDsPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class FoGetForumAccessLevelIDsPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class FoGetForumAccessLevelIDsPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    io.dstore.Values.integerValue getForumId();
+    io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class FoGetForumAccessLevelIDsPu {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class FoGetForumAccessLevelIDsPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class FoGetForumAccessLevelIDsPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class FoGetForumAccessLevelIDsPu {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class FoGetForumAccessLevelIDsPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class FoGetForumAccessLevelIDsPu {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class FoGetForumAccessLevelIDsPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -296,23 +296,23 @@ public final class FoGetForumAccessLevelIDsPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -326,23 +326,23 @@ public final class FoGetForumAccessLevelIDsPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -356,23 +356,23 @@ public final class FoGetForumAccessLevelIDsPu {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue forumId_;
+    private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.values.IntegerValue getForumId() {
+      return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -386,23 +386,23 @@ public final class FoGetForumAccessLevelIDsPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue separatorInIdentVals_;
+    private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.values.StringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -907,29 +907,29 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -975,7 +975,7 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1275,33 +1275,33 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue forumId_ = null;
+      private io.dstore.values.IntegerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getForumId() {
+      public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public Builder setForumId(io.dstore.Values.integerValue value) {
+      public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       public Builder setForumId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public Builder mergeForumId(io.dstore.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -1418,33 +1418,33 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.values.StringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class FoGetForumAccessLevelIDsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 5;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -1881,7 +1881,7 @@ public final class FoGetForumAccessLevelIDsPu {
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
       boolean hasAccessLevelId();
       /**
@@ -1889,24 +1889,24 @@ public final class FoGetForumAccessLevelIDsPu {
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getAccessLevelId();
+      io.dstore.values.IntegerValue getAccessLevelId();
       /**
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getAccessLevelIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getAccessLevelIdOrBuilder();
 
       /**
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
       boolean hasDescription();
       /**
@@ -1914,17 +1914,17 @@ public final class FoGetForumAccessLevelIDsPu {
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      io.dstore.Values.stringValue getDescription();
+      io.dstore.values.StringValue getDescription();
       /**
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetForumAccessLevelIDs_Pu.Response.Row}
@@ -1972,11 +1972,11 @@ public final class FoGetForumAccessLevelIDsPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (accessLevelId_ != null) {
                   subBuilder = accessLevelId_.toBuilder();
                 }
-                accessLevelId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                accessLevelId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accessLevelId_);
                   accessLevelId_ = subBuilder.buildPartial();
@@ -1985,11 +1985,11 @@ public final class FoGetForumAccessLevelIDsPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -2030,13 +2030,13 @@ public final class FoGetForumAccessLevelIDsPu {
       }
 
       public static final int ACCESS_LEVEL_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue accessLevelId_;
+      private io.dstore.values.IntegerValue accessLevelId_;
       /**
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
       public boolean hasAccessLevelId() {
         return accessLevelId_ != null;
@@ -2046,30 +2046,30 @@ public final class FoGetForumAccessLevelIDsPu {
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getAccessLevelId() {
-        return accessLevelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevelId_;
+      public io.dstore.values.IntegerValue getAccessLevelId() {
+        return accessLevelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevelId_;
       }
       /**
        * <pre>
        * ID eines Zugriffsrechtes
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getAccessLevelIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getAccessLevelIdOrBuilder() {
         return getAccessLevelId();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue description_;
+      private io.dstore.values.StringValue description_;
       /**
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -2079,19 +2079,19 @@ public final class FoGetForumAccessLevelIDsPu {
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.values.StringValue getDescription() {
+        return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
       }
       /**
        * <pre>
        * Beschreibung des Zugriffsrechtes "AccessLevelID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
@@ -2450,15 +2450,15 @@ public final class FoGetForumAccessLevelIDsPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue accessLevelId_ = null;
+        private io.dstore.values.IntegerValue accessLevelId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accessLevelIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> accessLevelIdBuilder_;
         /**
          * <pre>
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
         public boolean hasAccessLevelId() {
           return accessLevelIdBuilder_ != null || accessLevelId_ != null;
@@ -2468,11 +2468,11 @@ public final class FoGetForumAccessLevelIDsPu {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getAccessLevelId() {
+        public io.dstore.values.IntegerValue getAccessLevelId() {
           if (accessLevelIdBuilder_ == null) {
-            return accessLevelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevelId_;
+            return accessLevelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevelId_;
           } else {
             return accessLevelIdBuilder_.getMessage();
           }
@@ -2482,9 +2482,9 @@ public final class FoGetForumAccessLevelIDsPu {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public Builder setAccessLevelId(io.dstore.Values.integerValue value) {
+        public Builder setAccessLevelId(io.dstore.values.IntegerValue value) {
           if (accessLevelIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2502,10 +2502,10 @@ public final class FoGetForumAccessLevelIDsPu {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
         public Builder setAccessLevelId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (accessLevelIdBuilder_ == null) {
             accessLevelId_ = builderForValue.build();
             onChanged();
@@ -2520,13 +2520,13 @@ public final class FoGetForumAccessLevelIDsPu {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public Builder mergeAccessLevelId(io.dstore.Values.integerValue value) {
+        public Builder mergeAccessLevelId(io.dstore.values.IntegerValue value) {
           if (accessLevelIdBuilder_ == null) {
             if (accessLevelId_ != null) {
               accessLevelId_ =
-                io.dstore.Values.integerValue.newBuilder(accessLevelId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(accessLevelId_).mergeFrom(value).buildPartial();
             } else {
               accessLevelId_ = value;
             }
@@ -2542,7 +2542,7 @@ public final class FoGetForumAccessLevelIDsPu {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
         public Builder clearAccessLevelId() {
           if (accessLevelIdBuilder_ == null) {
@@ -2560,9 +2560,9 @@ public final class FoGetForumAccessLevelIDsPu {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getAccessLevelIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getAccessLevelIdBuilder() {
           
           onChanged();
           return getAccessLevelIdFieldBuilder().getBuilder();
@@ -2572,14 +2572,14 @@ public final class FoGetForumAccessLevelIDsPu {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getAccessLevelIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getAccessLevelIdOrBuilder() {
           if (accessLevelIdBuilder_ != null) {
             return accessLevelIdBuilder_.getMessageOrBuilder();
           } else {
             return accessLevelId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : accessLevelId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : accessLevelId_;
           }
         }
         /**
@@ -2587,14 +2587,14 @@ public final class FoGetForumAccessLevelIDsPu {
          * ID eines Zugriffsrechtes
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue access_level_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getAccessLevelIdFieldBuilder() {
           if (accessLevelIdBuilder_ == null) {
             accessLevelIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getAccessLevelId(),
                     getParentForChildren(),
                     isClean());
@@ -2603,15 +2603,15 @@ public final class FoGetForumAccessLevelIDsPu {
           return accessLevelIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue description_ = null;
+        private io.dstore.values.StringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -2621,11 +2621,11 @@ public final class FoGetForumAccessLevelIDsPu {
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getDescription() {
+        public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
@@ -2635,9 +2635,9 @@ public final class FoGetForumAccessLevelIDsPu {
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public Builder setDescription(io.dstore.Values.stringValue value) {
+        public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2655,10 +2655,10 @@ public final class FoGetForumAccessLevelIDsPu {
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         public Builder setDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -2673,13 +2673,13 @@ public final class FoGetForumAccessLevelIDsPu {
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public Builder mergeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2695,7 +2695,7 @@ public final class FoGetForumAccessLevelIDsPu {
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2713,9 +2713,9 @@ public final class FoGetForumAccessLevelIDsPu {
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
@@ -2725,14 +2725,14 @@ public final class FoGetForumAccessLevelIDsPu {
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.values.StringValue.getDefaultInstance() : description_;
           }
         }
         /**
@@ -2740,14 +2740,14 @@ public final class FoGetForumAccessLevelIDsPu {
          * Beschreibung des Zugriffsrechtes "AccessLevelID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4217,15 +4217,15 @@ public final class FoGetForumAccessLevelIDsPu {
       "GetForumAccessLevelIDs_Pu\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\300\003\n\nP" +
       "arameters\022@\n\034person_identification_value" +
-      "s\030\001 \001(\0132\032.dstore.values.stringValue\022*\n!p" +
+      "s\030\001 \001(\0132\032.dstore.values.StringValue\022*\n!p" +
       "erson_identification_values_null\030\351\007 \001(\010\022" +
       "3\n\016person_type_id\030\002 \001(\0132\033.dstore.values." +
-      "integerValue\022\034\n\023person_type_id_null\030\352\007 \001" +
-      "(\010\022-\n\tunique_id\030\003 \001(\0132\032.dstore.values.st",
+      "IntegerValue\022\034\n\023person_type_id_null\030\352\007 \001" +
+      "(\010\022-\n\tunique_id\030\003 \001(\0132\032.dstore.values.St",
       "ringValue\022\027\n\016unique_id_null\030\353\007 \001(\010\022-\n\010fo" +
-      "rum_id\030\004 \001(\0132\033.dstore.values.integerValu" +
+      "rum_id\030\004 \001(\0132\033.dstore.values.IntegerValu" +
       "e\022\026\n\rforum_id_null\030\354\007 \001(\010\022;\n\027separator_i" +
-      "n_ident_vals\030\005 \001(\0132\032.dstore.values.strin" +
+      "n_ident_vals\030\005 \001(\0132\032.dstore.values.Strin" +
       "gValue\022%\n\034separator_in_ident_vals_null\030\355" +
       "\007 \001(\010\"\265\002\n\010Response\0228\n\020meta_information\030\002" +
       " \003(\0132\036.dstore.engine.MetaInformation\022\'\n\007" +
@@ -4233,8 +4233,8 @@ public final class FoGetForumAccessLevelIDsPu {
       "\003row\030\004 \003(\01328.dstore.engine.fo_GetForumAc" +
       "cessLevelIDs_Pu.Response.Row\032\177\n\003Row\022\017\n\006r",
       "ow_id\030\220N \001(\005\0225\n\017access_level_id\030\221N \001(\0132\033" +
-      ".dstore.values.integerValue\0220\n\013descripti" +
-      "on\030\222N \001(\0132\032.dstore.values.stringValueB]\n" +
+      ".dstore.values.IntegerValue\0220\n\013descripti" +
+      "on\030\222N \001(\0132\032.dstore.values.StringValueB]\n" +
       "\033io.dstore.engine.proceduresZ>gosdk.dsto" +
       "re.de/engine/procedures/fo_GetForumAcces" +
       "sLevelIDs_Pub\006proto3"
@@ -4250,7 +4250,7 @@ public final class FoGetForumAccessLevelIDsPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_fo_GetForumAccessLevelIDs_Pu_Parameters_descriptor =
@@ -4271,7 +4271,7 @@ public final class FoGetForumAccessLevelIDsPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetForumAccessLevelIDs_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "AccessLevelId", "Description", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

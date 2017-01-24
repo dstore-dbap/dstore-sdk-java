@@ -19,17 +19,17 @@ public final class OmModifyCustomerCashAccAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifyCustomerCashAccAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
     boolean hasCashAccountTypeId();
     /**
-     * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getCashAccountTypeId();
+    io.dstore.values.IntegerValue getCashAccountTypeId();
     /**
-     * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder();
 
     /**
      * <code>optional bool cash_account_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifyCustomerCashAccAd {
     boolean getCashAccountTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
-    io.dstore.Values.integerValue getCurrencyId();
+    io.dstore.values.IntegerValue getCurrencyId();
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
      * <code>optional bool currency_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmModifyCustomerCashAccAd {
     boolean getCurrencyIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue account_status = 4;</code>
+     * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
      */
     boolean hasAccountStatus();
     /**
-     * <code>optional .dstore.values.integerValue account_status = 4;</code>
+     * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
      */
-    io.dstore.Values.integerValue getAccountStatus();
+    io.dstore.values.IntegerValue getAccountStatus();
     /**
-     * <code>optional .dstore.values.integerValue account_status = 4;</code>
+     * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getAccountStatusOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getAccountStatusOrBuilder();
 
     /**
      * <code>optional bool account_status_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmModifyCustomerCashAccAd {
     boolean getAccountStatusNull();
 
     /**
-     * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+     * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
      */
     boolean hasMinAccountBalance();
     /**
-     * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+     * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
      */
-    io.dstore.Values.decimalValue getMinAccountBalance();
+    io.dstore.values.DecimalValue getMinAccountBalance();
     /**
-     * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+     * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
      */
-    io.dstore.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder();
+    io.dstore.values.DecimalValueOrBuilder getMinAccountBalanceOrBuilder();
 
     /**
      * <code>optional bool min_account_balance_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmModifyCustomerCashAccAd {
     boolean getMinAccountBalanceNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
      */
     boolean hasDeleteAccount();
     /**
-     * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
      */
-    io.dstore.Values.booleanValue getDeleteAccount();
+    io.dstore.values.BooleanValue getDeleteAccount();
     /**
-     * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteAccountOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteAccountOrBuilder();
 
     /**
      * <code>optional bool delete_account_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class OmModifyCustomerCashAccAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class OmModifyCustomerCashAccAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (cashAccountTypeId_ != null) {
                 subBuilder = cashAccountTypeId_.toBuilder();
               }
-              cashAccountTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              cashAccountTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cashAccountTypeId_);
                 cashAccountTypeId_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class OmModifyCustomerCashAccAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (currencyId_ != null) {
                 subBuilder = currencyId_.toBuilder();
               }
-              currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              currencyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(currencyId_);
                 currencyId_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class OmModifyCustomerCashAccAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (accountStatus_ != null) {
                 subBuilder = accountStatus_.toBuilder();
               }
-              accountStatus_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              accountStatus_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(accountStatus_);
                 accountStatus_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class OmModifyCustomerCashAccAd {
               break;
             }
             case 42: {
-              io.dstore.Values.decimalValue.Builder subBuilder = null;
+              io.dstore.values.DecimalValue.Builder subBuilder = null;
               if (minAccountBalance_ != null) {
                 subBuilder = minAccountBalance_.toBuilder();
               }
-              minAccountBalance_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+              minAccountBalance_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(minAccountBalance_);
                 minAccountBalance_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class OmModifyCustomerCashAccAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteAccount_ != null) {
                 subBuilder = deleteAccount_.toBuilder();
               }
-              deleteAccount_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteAccount_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteAccount_);
                 deleteAccount_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class OmModifyCustomerCashAccAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -333,23 +333,23 @@ public final class OmModifyCustomerCashAccAd {
     }
 
     public static final int CASH_ACCOUNT_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue cashAccountTypeId_;
+    private io.dstore.values.IntegerValue cashAccountTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
     public boolean hasCashAccountTypeId() {
       return cashAccountTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getCashAccountTypeId() {
-      return cashAccountTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
+    public io.dstore.values.IntegerValue getCashAccountTypeId() {
+      return cashAccountTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cashAccountTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder() {
       return getCashAccountTypeId();
     }
 
@@ -363,23 +363,23 @@ public final class OmModifyCustomerCashAccAd {
     }
 
     public static final int CURRENCY_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue currencyId_;
+    private io.dstore.values.IntegerValue currencyId_;
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getCurrencyId() {
-      return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+    public io.dstore.values.IntegerValue getCurrencyId() {
+      return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
     }
 
@@ -393,23 +393,23 @@ public final class OmModifyCustomerCashAccAd {
     }
 
     public static final int ACCOUNT_STATUS_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue accountStatus_;
+    private io.dstore.values.IntegerValue accountStatus_;
     /**
-     * <code>optional .dstore.values.integerValue account_status = 4;</code>
+     * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
      */
     public boolean hasAccountStatus() {
       return accountStatus_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue account_status = 4;</code>
+     * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
      */
-    public io.dstore.Values.integerValue getAccountStatus() {
-      return accountStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accountStatus_;
+    public io.dstore.values.IntegerValue getAccountStatus() {
+      return accountStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accountStatus_;
     }
     /**
-     * <code>optional .dstore.values.integerValue account_status = 4;</code>
+     * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getAccountStatusOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getAccountStatusOrBuilder() {
       return getAccountStatus();
     }
 
@@ -423,23 +423,23 @@ public final class OmModifyCustomerCashAccAd {
     }
 
     public static final int MIN_ACCOUNT_BALANCE_FIELD_NUMBER = 5;
-    private io.dstore.Values.decimalValue minAccountBalance_;
+    private io.dstore.values.DecimalValue minAccountBalance_;
     /**
-     * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+     * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
      */
     public boolean hasMinAccountBalance() {
       return minAccountBalance_ != null;
     }
     /**
-     * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+     * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
      */
-    public io.dstore.Values.decimalValue getMinAccountBalance() {
-      return minAccountBalance_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
+    public io.dstore.values.DecimalValue getMinAccountBalance() {
+      return minAccountBalance_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : minAccountBalance_;
     }
     /**
-     * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+     * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
      */
-    public io.dstore.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder() {
+    public io.dstore.values.DecimalValueOrBuilder getMinAccountBalanceOrBuilder() {
       return getMinAccountBalance();
     }
 
@@ -453,23 +453,23 @@ public final class OmModifyCustomerCashAccAd {
     }
 
     public static final int DELETE_ACCOUNT_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue deleteAccount_;
+    private io.dstore.values.BooleanValue deleteAccount_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
      */
     public boolean hasDeleteAccount() {
       return deleteAccount_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteAccount() {
-      return deleteAccount_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteAccount_;
+    public io.dstore.values.BooleanValue getDeleteAccount() {
+      return deleteAccount_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteAccount_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteAccountOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteAccountOrBuilder() {
       return getDeleteAccount();
     }
 
@@ -1022,29 +1022,29 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue cashAccountTypeId_ = null;
+      private io.dstore.values.IntegerValue cashAccountTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> cashAccountTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> cashAccountTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public boolean hasCashAccountTypeId() {
         return cashAccountTypeIdBuilder_ != null || cashAccountTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getCashAccountTypeId() {
+      public io.dstore.values.IntegerValue getCashAccountTypeId() {
         if (cashAccountTypeIdBuilder_ == null) {
-          return cashAccountTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
+          return cashAccountTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : cashAccountTypeId_;
         } else {
           return cashAccountTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
-      public Builder setCashAccountTypeId(io.dstore.Values.integerValue value) {
+      public Builder setCashAccountTypeId(io.dstore.values.IntegerValue value) {
         if (cashAccountTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public Builder setCashAccountTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (cashAccountTypeIdBuilder_ == null) {
           cashAccountTypeId_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
-      public Builder mergeCashAccountTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeCashAccountTypeId(io.dstore.values.IntegerValue value) {
         if (cashAccountTypeIdBuilder_ == null) {
           if (cashAccountTypeId_ != null) {
             cashAccountTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(cashAccountTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(cashAccountTypeId_).mergeFrom(value).buildPartial();
           } else {
             cashAccountTypeId_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       public Builder clearCashAccountTypeId() {
         if (cashAccountTypeIdBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCashAccountTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCashAccountTypeIdBuilder() {
         
         onChanged();
         return getCashAccountTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCashAccountTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCashAccountTypeIdOrBuilder() {
         if (cashAccountTypeIdBuilder_ != null) {
           return cashAccountTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return cashAccountTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : cashAccountTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : cashAccountTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue cash_account_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue cash_account_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCashAccountTypeIdFieldBuilder() {
         if (cashAccountTypeIdBuilder_ == null) {
           cashAccountTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCashAccountTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue currencyId_ = null;
+      private io.dstore.values.IntegerValue currencyId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getCurrencyId() {
+      public io.dstore.values.IntegerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
-          return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+          return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
         } else {
           return currencyIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public Builder setCurrencyId(io.dstore.Values.integerValue value) {
+      public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
       public Builder setCurrencyId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (currencyIdBuilder_ == null) {
           currencyId_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
+      public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
           if (currencyId_ != null) {
             currencyId_ =
-              io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
           } else {
             currencyId_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
         
         onChanged();
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
           return currencyIdBuilder_.getMessageOrBuilder();
         } else {
           return currencyId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCurrencyIdFieldBuilder() {
         if (currencyIdBuilder_ == null) {
           currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCurrencyId(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue accountStatus_ = null;
+      private io.dstore.values.IntegerValue accountStatus_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accountStatusBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> accountStatusBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue account_status = 4;</code>
+       * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
        */
       public boolean hasAccountStatus() {
         return accountStatusBuilder_ != null || accountStatus_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue account_status = 4;</code>
+       * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
        */
-      public io.dstore.Values.integerValue getAccountStatus() {
+      public io.dstore.values.IntegerValue getAccountStatus() {
         if (accountStatusBuilder_ == null) {
-          return accountStatus_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accountStatus_;
+          return accountStatus_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accountStatus_;
         } else {
           return accountStatusBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue account_status = 4;</code>
+       * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
        */
-      public Builder setAccountStatus(io.dstore.Values.integerValue value) {
+      public Builder setAccountStatus(io.dstore.values.IntegerValue value) {
         if (accountStatusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue account_status = 4;</code>
+       * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
        */
       public Builder setAccountStatus(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (accountStatusBuilder_ == null) {
           accountStatus_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue account_status = 4;</code>
+       * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
        */
-      public Builder mergeAccountStatus(io.dstore.Values.integerValue value) {
+      public Builder mergeAccountStatus(io.dstore.values.IntegerValue value) {
         if (accountStatusBuilder_ == null) {
           if (accountStatus_ != null) {
             accountStatus_ =
-              io.dstore.Values.integerValue.newBuilder(accountStatus_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(accountStatus_).mergeFrom(value).buildPartial();
           } else {
             accountStatus_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue account_status = 4;</code>
+       * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
        */
       public Builder clearAccountStatus() {
         if (accountStatusBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue account_status = 4;</code>
+       * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getAccountStatusBuilder() {
+      public io.dstore.values.IntegerValue.Builder getAccountStatusBuilder() {
         
         onChanged();
         return getAccountStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue account_status = 4;</code>
+       * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getAccountStatusOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getAccountStatusOrBuilder() {
         if (accountStatusBuilder_ != null) {
           return accountStatusBuilder_.getMessageOrBuilder();
         } else {
           return accountStatus_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : accountStatus_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : accountStatus_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue account_status = 4;</code>
+       * <code>optional .dstore.values.IntegerValue account_status = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getAccountStatusFieldBuilder() {
         if (accountStatusBuilder_ == null) {
           accountStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getAccountStatus(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
 
-      private io.dstore.Values.decimalValue minAccountBalance_ = null;
+      private io.dstore.values.DecimalValue minAccountBalance_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> minAccountBalanceBuilder_;
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> minAccountBalanceBuilder_;
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+       * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
        */
       public boolean hasMinAccountBalance() {
         return minAccountBalanceBuilder_ != null || minAccountBalance_ != null;
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+       * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
        */
-      public io.dstore.Values.decimalValue getMinAccountBalance() {
+      public io.dstore.values.DecimalValue getMinAccountBalance() {
         if (minAccountBalanceBuilder_ == null) {
-          return minAccountBalance_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
+          return minAccountBalance_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : minAccountBalance_;
         } else {
           return minAccountBalanceBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+       * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
        */
-      public Builder setMinAccountBalance(io.dstore.Values.decimalValue value) {
+      public Builder setMinAccountBalance(io.dstore.values.DecimalValue value) {
         if (minAccountBalanceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+       * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
        */
       public Builder setMinAccountBalance(
-          io.dstore.Values.decimalValue.Builder builderForValue) {
+          io.dstore.values.DecimalValue.Builder builderForValue) {
         if (minAccountBalanceBuilder_ == null) {
           minAccountBalance_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+       * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
        */
-      public Builder mergeMinAccountBalance(io.dstore.Values.decimalValue value) {
+      public Builder mergeMinAccountBalance(io.dstore.values.DecimalValue value) {
         if (minAccountBalanceBuilder_ == null) {
           if (minAccountBalance_ != null) {
             minAccountBalance_ =
-              io.dstore.Values.decimalValue.newBuilder(minAccountBalance_).mergeFrom(value).buildPartial();
+              io.dstore.values.DecimalValue.newBuilder(minAccountBalance_).mergeFrom(value).buildPartial();
           } else {
             minAccountBalance_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+       * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
        */
       public Builder clearMinAccountBalance() {
         if (minAccountBalanceBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+       * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
        */
-      public io.dstore.Values.decimalValue.Builder getMinAccountBalanceBuilder() {
+      public io.dstore.values.DecimalValue.Builder getMinAccountBalanceBuilder() {
         
         onChanged();
         return getMinAccountBalanceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+       * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getMinAccountBalanceOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getMinAccountBalanceOrBuilder() {
         if (minAccountBalanceBuilder_ != null) {
           return minAccountBalanceBuilder_.getMessageOrBuilder();
         } else {
           return minAccountBalance_ == null ?
-              io.dstore.Values.decimalValue.getDefaultInstance() : minAccountBalance_;
+              io.dstore.values.DecimalValue.getDefaultInstance() : minAccountBalance_;
         }
       }
       /**
-       * <code>optional .dstore.values.decimalValue min_account_balance = 5;</code>
+       * <code>optional .dstore.values.DecimalValue min_account_balance = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+          io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
           getMinAccountBalanceFieldBuilder() {
         if (minAccountBalanceBuilder_ == null) {
           minAccountBalanceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+              io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                   getMinAccountBalance(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteAccount_ = null;
+      private io.dstore.values.BooleanValue deleteAccount_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteAccountBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteAccountBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
        */
       public boolean hasDeleteAccount() {
         return deleteAccountBuilder_ != null || deleteAccount_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteAccount() {
+      public io.dstore.values.BooleanValue getDeleteAccount() {
         if (deleteAccountBuilder_ == null) {
-          return deleteAccount_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteAccount_;
+          return deleteAccount_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteAccount_;
         } else {
           return deleteAccountBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
        */
-      public Builder setDeleteAccount(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteAccount(io.dstore.values.BooleanValue value) {
         if (deleteAccountBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
        */
       public Builder setDeleteAccount(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteAccountBuilder_ == null) {
           deleteAccount_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
        */
-      public Builder mergeDeleteAccount(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteAccount(io.dstore.values.BooleanValue value) {
         if (deleteAccountBuilder_ == null) {
           if (deleteAccount_ != null) {
             deleteAccount_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteAccount_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteAccount_).mergeFrom(value).buildPartial();
           } else {
             deleteAccount_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
        */
       public Builder clearDeleteAccount() {
         if (deleteAccountBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class OmModifyCustomerCashAccAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteAccountBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteAccountBuilder() {
         
         onChanged();
         return getDeleteAccountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteAccountOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteAccountOrBuilder() {
         if (deleteAccountBuilder_ != null) {
           return deleteAccountBuilder_.getMessageOrBuilder();
         } else {
           return deleteAccount_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteAccount_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteAccount_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_account = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_account = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteAccountFieldBuilder() {
         if (deleteAccountBuilder_ == null) {
           deleteAccountBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteAccount(),
                   getParentForChildren(),
                   isClean());
@@ -3967,17 +3967,17 @@ public final class OmModifyCustomerCashAccAd {
       "odifyCustomerCashAcc_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\204\004\n\nPar" +
       "ameters\022.\n\tperson_id\030\001 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\027\n\016person_id_null\030\351\007 \001(\010" +
+      "es.IntegerValue\022\027\n\016person_id_null\030\351\007 \001(\010" +
       "\0229\n\024cash_account_type_id\030\002 \001(\0132\033.dstore." +
-      "values.integerValue\022\"\n\031cash_account_type" +
+      "values.IntegerValue\022\"\n\031cash_account_type" +
       "_id_null\030\352\007 \001(\010\0220\n\013currency_id\030\003 \001(\0132\033.d" +
-      "store.values.integerValue\022\031\n\020currency_id",
+      "store.values.IntegerValue\022\031\n\020currency_id",
       "_null\030\353\007 \001(\010\0223\n\016account_status\030\004 \001(\0132\033.d" +
-      "store.values.integerValue\022\034\n\023account_sta" +
+      "store.values.IntegerValue\022\034\n\023account_sta" +
       "tus_null\030\354\007 \001(\010\0228\n\023min_account_balance\030\005" +
-      " \001(\0132\033.dstore.values.decimalValue\022!\n\030min" +
+      " \001(\0132\033.dstore.values.DecimalValue\022!\n\030min" +
       "_account_balance_null\030\355\007 \001(\010\0223\n\016delete_a" +
-      "ccount\030\006 \001(\0132\033.dstore.values.booleanValu" +
+      "ccount\030\006 \001(\0132\033.dstore.values.BooleanValu" +
       "e\022\034\n\023delete_account_null\030\356\007 \001(\010\"\313\001\n\010Resp" +
       "onse\0228\n\020meta_information\030\002 \003(\0132\036.dstore." +
       "engine.MetaInformation\022\'\n\007message\030\003 \003(\0132" +
@@ -3999,7 +3999,7 @@ public final class OmModifyCustomerCashAccAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifyCustomerCashAcc_Ad_Parameters_descriptor =
@@ -4020,7 +4020,7 @@ public final class OmModifyCustomerCashAccAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCustomerCashAcc_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

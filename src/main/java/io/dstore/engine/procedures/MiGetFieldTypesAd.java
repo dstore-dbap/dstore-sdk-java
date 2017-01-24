@@ -590,7 +590,7 @@ public final class MiGetFieldTypesAd {
        * ID eines Datentyps
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       boolean hasFieldTypeId();
       /**
@@ -598,24 +598,24 @@ public final class MiGetFieldTypesAd {
        * ID eines Datentyps
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getFieldTypeId();
+      io.dstore.values.IntegerValue getFieldTypeId();
       /**
        * <pre>
        * ID eines Datentyps
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder();
 
       /**
        * <pre>
        * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
        */
       boolean hasBasicFieldType();
       /**
@@ -623,24 +623,24 @@ public final class MiGetFieldTypesAd {
        * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
        */
-      io.dstore.Values.stringValue getBasicFieldType();
+      io.dstore.values.StringValue getBasicFieldType();
       /**
        * <pre>
        * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBasicFieldTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getBasicFieldTypeOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
        */
       boolean hasFieldTypeDescription();
       /**
@@ -648,24 +648,24 @@ public final class MiGetFieldTypesAd {
        * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
        */
-      io.dstore.Values.stringValue getFieldTypeDescription();
+      io.dstore.values.StringValue getFieldTypeDescription();
       /**
        * <pre>
        * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getFieldTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getFieldTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
       boolean hasPrecisionValue();
       /**
@@ -673,24 +673,24 @@ public final class MiGetFieldTypesAd {
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      io.dstore.Values.integerValue getPrecisionValue();
+      io.dstore.values.IntegerValue getPrecisionValue();
       /**
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder();
 
       /**
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
        */
       boolean hasBasicFieldTypeId();
       /**
@@ -698,24 +698,24 @@ public final class MiGetFieldTypesAd {
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
        */
-      io.dstore.Values.integerValue getBasicFieldTypeId();
+      io.dstore.values.IntegerValue getBasicFieldTypeId();
       /**
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBasicFieldTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBasicFieldTypeIdOrBuilder();
 
       /**
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
        */
       boolean hasMaxLength();
       /**
@@ -723,17 +723,17 @@ public final class MiGetFieldTypesAd {
        * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
        */
-      io.dstore.Values.integerValue getMaxLength();
+      io.dstore.values.IntegerValue getMaxLength();
       /**
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMaxLengthOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMaxLengthOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetFieldTypes_Ad.Response.Row}
@@ -781,11 +781,11 @@ public final class MiGetFieldTypesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (fieldTypeId_ != null) {
                   subBuilder = fieldTypeId_.toBuilder();
                 }
-                fieldTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                fieldTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fieldTypeId_);
                   fieldTypeId_ = subBuilder.buildPartial();
@@ -794,11 +794,11 @@ public final class MiGetFieldTypesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (basicFieldType_ != null) {
                   subBuilder = basicFieldType_.toBuilder();
                 }
-                basicFieldType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                basicFieldType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicFieldType_);
                   basicFieldType_ = subBuilder.buildPartial();
@@ -807,11 +807,11 @@ public final class MiGetFieldTypesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (fieldTypeDescription_ != null) {
                   subBuilder = fieldTypeDescription_.toBuilder();
                 }
-                fieldTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                fieldTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fieldTypeDescription_);
                   fieldTypeDescription_ = subBuilder.buildPartial();
@@ -820,11 +820,11 @@ public final class MiGetFieldTypesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (precisionValue_ != null) {
                   subBuilder = precisionValue_.toBuilder();
                 }
-                precisionValue_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                precisionValue_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(precisionValue_);
                   precisionValue_ = subBuilder.buildPartial();
@@ -833,11 +833,11 @@ public final class MiGetFieldTypesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (basicFieldTypeId_ != null) {
                   subBuilder = basicFieldTypeId_.toBuilder();
                 }
-                basicFieldTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                basicFieldTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicFieldTypeId_);
                   basicFieldTypeId_ = subBuilder.buildPartial();
@@ -846,11 +846,11 @@ public final class MiGetFieldTypesAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (maxLength_ != null) {
                   subBuilder = maxLength_.toBuilder();
                 }
-                maxLength_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                maxLength_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxLength_);
                   maxLength_ = subBuilder.buildPartial();
@@ -891,13 +891,13 @@ public final class MiGetFieldTypesAd {
       }
 
       public static final int FIELD_TYPE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue fieldTypeId_;
+      private io.dstore.values.IntegerValue fieldTypeId_;
       /**
        * <pre>
        * ID eines Datentyps
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
       public boolean hasFieldTypeId() {
         return fieldTypeId_ != null;
@@ -907,30 +907,30 @@ public final class MiGetFieldTypesAd {
        * ID eines Datentyps
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getFieldTypeId() {
-        return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+      public io.dstore.values.IntegerValue getFieldTypeId() {
+        return fieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
       }
       /**
        * <pre>
        * ID eines Datentyps
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
         return getFieldTypeId();
       }
 
       public static final int BASIC_FIELD_TYPE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue basicFieldType_;
+      private io.dstore.values.StringValue basicFieldType_;
       /**
        * <pre>
        * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
        */
       public boolean hasBasicFieldType() {
         return basicFieldType_ != null;
@@ -940,30 +940,30 @@ public final class MiGetFieldTypesAd {
        * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
        */
-      public io.dstore.Values.stringValue getBasicFieldType() {
-        return basicFieldType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicFieldType_;
+      public io.dstore.values.StringValue getBasicFieldType() {
+        return basicFieldType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicFieldType_;
       }
       /**
        * <pre>
        * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBasicFieldTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBasicFieldTypeOrBuilder() {
         return getBasicFieldType();
       }
 
       public static final int FIELD_TYPE_DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue fieldTypeDescription_;
+      private io.dstore.values.StringValue fieldTypeDescription_;
       /**
        * <pre>
        * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
        */
       public boolean hasFieldTypeDescription() {
         return fieldTypeDescription_ != null;
@@ -973,30 +973,30 @@ public final class MiGetFieldTypesAd {
        * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
        */
-      public io.dstore.Values.stringValue getFieldTypeDescription() {
-        return fieldTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fieldTypeDescription_;
+      public io.dstore.values.StringValue getFieldTypeDescription() {
+        return fieldTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fieldTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+       * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getFieldTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getFieldTypeDescriptionOrBuilder() {
         return getFieldTypeDescription();
       }
 
       public static final int PRECISION_VALUE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue precisionValue_;
+      private io.dstore.values.IntegerValue precisionValue_;
       /**
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
       public boolean hasPrecisionValue() {
         return precisionValue_ != null;
@@ -1006,30 +1006,30 @@ public final class MiGetFieldTypesAd {
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      public io.dstore.Values.integerValue getPrecisionValue() {
-        return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+      public io.dstore.values.IntegerValue getPrecisionValue() {
+        return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
       }
       /**
        * <pre>
        * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
         return getPrecisionValue();
       }
 
       public static final int BASIC_FIELD_TYPE_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue basicFieldTypeId_;
+      private io.dstore.values.IntegerValue basicFieldTypeId_;
       /**
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
        */
       public boolean hasBasicFieldTypeId() {
         return basicFieldTypeId_ != null;
@@ -1039,30 +1039,30 @@ public final class MiGetFieldTypesAd {
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
        */
-      public io.dstore.Values.integerValue getBasicFieldTypeId() {
-        return basicFieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicFieldTypeId_;
+      public io.dstore.values.IntegerValue getBasicFieldTypeId() {
+        return basicFieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicFieldTypeId_;
       }
       /**
        * <pre>
        * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBasicFieldTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBasicFieldTypeIdOrBuilder() {
         return getBasicFieldTypeId();
       }
 
       public static final int MAX_LENGTH_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue maxLength_;
+      private io.dstore.values.IntegerValue maxLength_;
       /**
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
        */
       public boolean hasMaxLength() {
         return maxLength_ != null;
@@ -1072,19 +1072,19 @@ public final class MiGetFieldTypesAd {
        * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
        */
-      public io.dstore.Values.integerValue getMaxLength() {
-        return maxLength_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxLength_;
+      public io.dstore.values.IntegerValue getMaxLength() {
+        return maxLength_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxLength_;
       }
       /**
        * <pre>
        * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxLengthOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxLengthOrBuilder() {
         return getMaxLength();
       }
 
@@ -1563,15 +1563,15 @@ public final class MiGetFieldTypesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue fieldTypeId_ = null;
+        private io.dstore.values.IntegerValue fieldTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fieldTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fieldTypeIdBuilder_;
         /**
          * <pre>
          * ID eines Datentyps
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public boolean hasFieldTypeId() {
           return fieldTypeIdBuilder_ != null || fieldTypeId_ != null;
@@ -1581,11 +1581,11 @@ public final class MiGetFieldTypesAd {
          * ID eines Datentyps
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getFieldTypeId() {
+        public io.dstore.values.IntegerValue getFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
-            return fieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+            return fieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
           } else {
             return fieldTypeIdBuilder_.getMessage();
           }
@@ -1595,9 +1595,9 @@ public final class MiGetFieldTypesAd {
          * ID eines Datentyps
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public Builder setFieldTypeId(io.dstore.Values.integerValue value) {
+        public Builder setFieldTypeId(io.dstore.values.IntegerValue value) {
           if (fieldTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1615,10 +1615,10 @@ public final class MiGetFieldTypesAd {
          * ID eines Datentyps
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public Builder setFieldTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (fieldTypeIdBuilder_ == null) {
             fieldTypeId_ = builderForValue.build();
             onChanged();
@@ -1633,13 +1633,13 @@ public final class MiGetFieldTypesAd {
          * ID eines Datentyps
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public Builder mergeFieldTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeFieldTypeId(io.dstore.values.IntegerValue value) {
           if (fieldTypeIdBuilder_ == null) {
             if (fieldTypeId_ != null) {
               fieldTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(fieldTypeId_).mergeFrom(value).buildPartial();
             } else {
               fieldTypeId_ = value;
             }
@@ -1655,7 +1655,7 @@ public final class MiGetFieldTypesAd {
          * ID eines Datentyps
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         public Builder clearFieldTypeId() {
           if (fieldTypeIdBuilder_ == null) {
@@ -1673,9 +1673,9 @@ public final class MiGetFieldTypesAd {
          * ID eines Datentyps
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getFieldTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getFieldTypeIdBuilder() {
           
           onChanged();
           return getFieldTypeIdFieldBuilder().getBuilder();
@@ -1685,14 +1685,14 @@ public final class MiGetFieldTypesAd {
          * ID eines Datentyps
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getFieldTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getFieldTypeIdOrBuilder() {
           if (fieldTypeIdBuilder_ != null) {
             return fieldTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return fieldTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : fieldTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : fieldTypeId_;
           }
         }
         /**
@@ -1700,14 +1700,14 @@ public final class MiGetFieldTypesAd {
          * ID eines Datentyps
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue field_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue field_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getFieldTypeIdFieldBuilder() {
           if (fieldTypeIdBuilder_ == null) {
             fieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getFieldTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -1716,15 +1716,15 @@ public final class MiGetFieldTypesAd {
           return fieldTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue basicFieldType_ = null;
+        private io.dstore.values.StringValue basicFieldType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicFieldTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> basicFieldTypeBuilder_;
         /**
          * <pre>
          * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
          */
         public boolean hasBasicFieldType() {
           return basicFieldTypeBuilder_ != null || basicFieldType_ != null;
@@ -1734,11 +1734,11 @@ public final class MiGetFieldTypesAd {
          * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
          */
-        public io.dstore.Values.stringValue getBasicFieldType() {
+        public io.dstore.values.StringValue getBasicFieldType() {
           if (basicFieldTypeBuilder_ == null) {
-            return basicFieldType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicFieldType_;
+            return basicFieldType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicFieldType_;
           } else {
             return basicFieldTypeBuilder_.getMessage();
           }
@@ -1748,9 +1748,9 @@ public final class MiGetFieldTypesAd {
          * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
          */
-        public Builder setBasicFieldType(io.dstore.Values.stringValue value) {
+        public Builder setBasicFieldType(io.dstore.values.StringValue value) {
           if (basicFieldTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1768,10 +1768,10 @@ public final class MiGetFieldTypesAd {
          * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
          */
         public Builder setBasicFieldType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (basicFieldTypeBuilder_ == null) {
             basicFieldType_ = builderForValue.build();
             onChanged();
@@ -1786,13 +1786,13 @@ public final class MiGetFieldTypesAd {
          * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
          */
-        public Builder mergeBasicFieldType(io.dstore.Values.stringValue value) {
+        public Builder mergeBasicFieldType(io.dstore.values.StringValue value) {
           if (basicFieldTypeBuilder_ == null) {
             if (basicFieldType_ != null) {
               basicFieldType_ =
-                io.dstore.Values.stringValue.newBuilder(basicFieldType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(basicFieldType_).mergeFrom(value).buildPartial();
             } else {
               basicFieldType_ = value;
             }
@@ -1808,7 +1808,7 @@ public final class MiGetFieldTypesAd {
          * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
          */
         public Builder clearBasicFieldType() {
           if (basicFieldTypeBuilder_ == null) {
@@ -1826,9 +1826,9 @@ public final class MiGetFieldTypesAd {
          * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBasicFieldTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getBasicFieldTypeBuilder() {
           
           onChanged();
           return getBasicFieldTypeFieldBuilder().getBuilder();
@@ -1838,14 +1838,14 @@ public final class MiGetFieldTypesAd {
          * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBasicFieldTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBasicFieldTypeOrBuilder() {
           if (basicFieldTypeBuilder_ != null) {
             return basicFieldTypeBuilder_.getMessageOrBuilder();
           } else {
             return basicFieldType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : basicFieldType_;
+                io.dstore.values.StringValue.getDefaultInstance() : basicFieldType_;
           }
         }
         /**
@@ -1853,14 +1853,14 @@ public final class MiGetFieldTypesAd {
          * Der Basis-Daten-Typ, mögliche Werte :* Ja-Nein (intern immer als "0" und "1" gespeichert)* Zahl* Text* Datum* Uhrzeit* Datum und Uhrzeit* vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_field_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_field_type = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBasicFieldTypeFieldBuilder() {
           if (basicFieldTypeBuilder_ == null) {
             basicFieldTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBasicFieldType(),
                     getParentForChildren(),
                     isClean());
@@ -1869,15 +1869,15 @@ public final class MiGetFieldTypesAd {
           return basicFieldTypeBuilder_;
         }
 
-        private io.dstore.Values.stringValue fieldTypeDescription_ = null;
+        private io.dstore.values.StringValue fieldTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> fieldTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> fieldTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
          */
         public boolean hasFieldTypeDescription() {
           return fieldTypeDescriptionBuilder_ != null || fieldTypeDescription_ != null;
@@ -1887,11 +1887,11 @@ public final class MiGetFieldTypesAd {
          * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
          */
-        public io.dstore.Values.stringValue getFieldTypeDescription() {
+        public io.dstore.values.StringValue getFieldTypeDescription() {
           if (fieldTypeDescriptionBuilder_ == null) {
-            return fieldTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : fieldTypeDescription_;
+            return fieldTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : fieldTypeDescription_;
           } else {
             return fieldTypeDescriptionBuilder_.getMessage();
           }
@@ -1901,9 +1901,9 @@ public final class MiGetFieldTypesAd {
          * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
          */
-        public Builder setFieldTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setFieldTypeDescription(io.dstore.values.StringValue value) {
           if (fieldTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1921,10 +1921,10 @@ public final class MiGetFieldTypesAd {
          * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
          */
         public Builder setFieldTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (fieldTypeDescriptionBuilder_ == null) {
             fieldTypeDescription_ = builderForValue.build();
             onChanged();
@@ -1939,13 +1939,13 @@ public final class MiGetFieldTypesAd {
          * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
          */
-        public Builder mergeFieldTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeFieldTypeDescription(io.dstore.values.StringValue value) {
           if (fieldTypeDescriptionBuilder_ == null) {
             if (fieldTypeDescription_ != null) {
               fieldTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(fieldTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(fieldTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               fieldTypeDescription_ = value;
             }
@@ -1961,7 +1961,7 @@ public final class MiGetFieldTypesAd {
          * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
          */
         public Builder clearFieldTypeDescription() {
           if (fieldTypeDescriptionBuilder_ == null) {
@@ -1979,9 +1979,9 @@ public final class MiGetFieldTypesAd {
          * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getFieldTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getFieldTypeDescriptionBuilder() {
           
           onChanged();
           return getFieldTypeDescriptionFieldBuilder().getBuilder();
@@ -1991,14 +1991,14 @@ public final class MiGetFieldTypesAd {
          * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getFieldTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getFieldTypeDescriptionOrBuilder() {
           if (fieldTypeDescriptionBuilder_ != null) {
             return fieldTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return fieldTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : fieldTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : fieldTypeDescription_;
           }
         }
         /**
@@ -2006,14 +2006,14 @@ public final class MiGetFieldTypesAd {
          * Bezeichnung des Datentyps "FieldTypeID", z.B. "Ganze Zahlen von -999 bis 999" oder "Text - 20 Zeichen"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue field_type_description = 10003;</code>
+         * <code>optional .dstore.values.StringValue field_type_description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getFieldTypeDescriptionFieldBuilder() {
           if (fieldTypeDescriptionBuilder_ == null) {
             fieldTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getFieldTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2022,15 +2022,15 @@ public final class MiGetFieldTypesAd {
           return fieldTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue precisionValue_ = null;
+        private io.dstore.values.IntegerValue precisionValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> precisionValueBuilder_;
         /**
          * <pre>
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         public boolean hasPrecisionValue() {
           return precisionValueBuilder_ != null || precisionValue_ != null;
@@ -2040,11 +2040,11 @@ public final class MiGetFieldTypesAd {
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public io.dstore.Values.integerValue getPrecisionValue() {
+        public io.dstore.values.IntegerValue getPrecisionValue() {
           if (precisionValueBuilder_ == null) {
-            return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+            return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
           } else {
             return precisionValueBuilder_.getMessage();
           }
@@ -2054,9 +2054,9 @@ public final class MiGetFieldTypesAd {
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public Builder setPrecisionValue(io.dstore.Values.integerValue value) {
+        public Builder setPrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2074,10 +2074,10 @@ public final class MiGetFieldTypesAd {
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         public Builder setPrecisionValue(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (precisionValueBuilder_ == null) {
             precisionValue_ = builderForValue.build();
             onChanged();
@@ -2092,13 +2092,13 @@ public final class MiGetFieldTypesAd {
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public Builder mergePrecisionValue(io.dstore.Values.integerValue value) {
+        public Builder mergePrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
             if (precisionValue_ != null) {
               precisionValue_ =
-                io.dstore.Values.integerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
             } else {
               precisionValue_ = value;
             }
@@ -2114,7 +2114,7 @@ public final class MiGetFieldTypesAd {
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         public Builder clearPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -2132,9 +2132,9 @@ public final class MiGetFieldTypesAd {
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPrecisionValueBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPrecisionValueBuilder() {
           
           onChanged();
           return getPrecisionValueFieldBuilder().getBuilder();
@@ -2144,14 +2144,14 @@ public final class MiGetFieldTypesAd {
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
           if (precisionValueBuilder_ != null) {
             return precisionValueBuilder_.getMessageOrBuilder();
           } else {
             return precisionValue_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
           }
         }
         /**
@@ -2159,14 +2159,14 @@ public final class MiGetFieldTypesAd {
          * Gilt nur für Datentypen mit Basis-Daten-Typ "Zahl" und gibt die Anzahl erlaubter Nachkommastellen an
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPrecisionValueFieldBuilder() {
           if (precisionValueBuilder_ == null) {
             precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPrecisionValue(),
                     getParentForChildren(),
                     isClean());
@@ -2175,15 +2175,15 @@ public final class MiGetFieldTypesAd {
           return precisionValueBuilder_;
         }
 
-        private io.dstore.Values.integerValue basicFieldTypeId_ = null;
+        private io.dstore.values.IntegerValue basicFieldTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicFieldTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicFieldTypeIdBuilder_;
         /**
          * <pre>
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
          */
         public boolean hasBasicFieldTypeId() {
           return basicFieldTypeIdBuilder_ != null || basicFieldTypeId_ != null;
@@ -2193,11 +2193,11 @@ public final class MiGetFieldTypesAd {
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue getBasicFieldTypeId() {
+        public io.dstore.values.IntegerValue getBasicFieldTypeId() {
           if (basicFieldTypeIdBuilder_ == null) {
-            return basicFieldTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicFieldTypeId_;
+            return basicFieldTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicFieldTypeId_;
           } else {
             return basicFieldTypeIdBuilder_.getMessage();
           }
@@ -2207,9 +2207,9 @@ public final class MiGetFieldTypesAd {
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
          */
-        public Builder setBasicFieldTypeId(io.dstore.Values.integerValue value) {
+        public Builder setBasicFieldTypeId(io.dstore.values.IntegerValue value) {
           if (basicFieldTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2227,10 +2227,10 @@ public final class MiGetFieldTypesAd {
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
          */
         public Builder setBasicFieldTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (basicFieldTypeIdBuilder_ == null) {
             basicFieldTypeId_ = builderForValue.build();
             onChanged();
@@ -2245,13 +2245,13 @@ public final class MiGetFieldTypesAd {
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
          */
-        public Builder mergeBasicFieldTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeBasicFieldTypeId(io.dstore.values.IntegerValue value) {
           if (basicFieldTypeIdBuilder_ == null) {
             if (basicFieldTypeId_ != null) {
               basicFieldTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(basicFieldTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(basicFieldTypeId_).mergeFrom(value).buildPartial();
             } else {
               basicFieldTypeId_ = value;
             }
@@ -2267,7 +2267,7 @@ public final class MiGetFieldTypesAd {
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
          */
         public Builder clearBasicFieldTypeId() {
           if (basicFieldTypeIdBuilder_ == null) {
@@ -2285,9 +2285,9 @@ public final class MiGetFieldTypesAd {
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBasicFieldTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBasicFieldTypeIdBuilder() {
           
           onChanged();
           return getBasicFieldTypeIdFieldBuilder().getBuilder();
@@ -2297,14 +2297,14 @@ public final class MiGetFieldTypesAd {
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBasicFieldTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBasicFieldTypeIdOrBuilder() {
           if (basicFieldTypeIdBuilder_ != null) {
             return basicFieldTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return basicFieldTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : basicFieldTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : basicFieldTypeId_;
           }
         }
         /**
@@ -2312,14 +2312,14 @@ public final class MiGetFieldTypesAd {
          * ID des Basis-Feld-Typs, der "FieldTypeID" zugrunde liegt. Mögliche Werte :"0" : Ja-Nein"1" : Zahl"2" : Text"3" : Datum"4" : Uhrzeit"5" : Datum und Uhrzeit"6" : vergangenes Datum
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_field_type_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_field_type_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBasicFieldTypeIdFieldBuilder() {
           if (basicFieldTypeIdBuilder_ == null) {
             basicFieldTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBasicFieldTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2328,15 +2328,15 @@ public final class MiGetFieldTypesAd {
           return basicFieldTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue maxLength_ = null;
+        private io.dstore.values.IntegerValue maxLength_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxLengthBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxLengthBuilder_;
         /**
          * <pre>
          * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
          */
         public boolean hasMaxLength() {
           return maxLengthBuilder_ != null || maxLength_ != null;
@@ -2346,11 +2346,11 @@ public final class MiGetFieldTypesAd {
          * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
          */
-        public io.dstore.Values.integerValue getMaxLength() {
+        public io.dstore.values.IntegerValue getMaxLength() {
           if (maxLengthBuilder_ == null) {
-            return maxLength_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxLength_;
+            return maxLength_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxLength_;
           } else {
             return maxLengthBuilder_.getMessage();
           }
@@ -2360,9 +2360,9 @@ public final class MiGetFieldTypesAd {
          * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
          */
-        public Builder setMaxLength(io.dstore.Values.integerValue value) {
+        public Builder setMaxLength(io.dstore.values.IntegerValue value) {
           if (maxLengthBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2380,10 +2380,10 @@ public final class MiGetFieldTypesAd {
          * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
          */
         public Builder setMaxLength(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (maxLengthBuilder_ == null) {
             maxLength_ = builderForValue.build();
             onChanged();
@@ -2398,13 +2398,13 @@ public final class MiGetFieldTypesAd {
          * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
          */
-        public Builder mergeMaxLength(io.dstore.Values.integerValue value) {
+        public Builder mergeMaxLength(io.dstore.values.IntegerValue value) {
           if (maxLengthBuilder_ == null) {
             if (maxLength_ != null) {
               maxLength_ =
-                io.dstore.Values.integerValue.newBuilder(maxLength_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(maxLength_).mergeFrom(value).buildPartial();
             } else {
               maxLength_ = value;
             }
@@ -2420,7 +2420,7 @@ public final class MiGetFieldTypesAd {
          * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
          */
         public Builder clearMaxLength() {
           if (maxLengthBuilder_ == null) {
@@ -2438,9 +2438,9 @@ public final class MiGetFieldTypesAd {
          * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMaxLengthBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMaxLengthBuilder() {
           
           onChanged();
           return getMaxLengthFieldBuilder().getBuilder();
@@ -2450,14 +2450,14 @@ public final class MiGetFieldTypesAd {
          * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMaxLengthOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMaxLengthOrBuilder() {
           if (maxLengthBuilder_ != null) {
             return maxLengthBuilder_.getMessageOrBuilder();
           } else {
             return maxLength_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : maxLength_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : maxLength_;
           }
         }
         /**
@@ -2465,14 +2465,14 @@ public final class MiGetFieldTypesAd {
          * Maximale Anzahl Zeichen, die Eigenschaften/Werte vom Datentyp "FieldTypeID" haben dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_length = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue max_length = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMaxLengthFieldBuilder() {
           if (maxLengthBuilder_ == null) {
             maxLengthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMaxLength(),
                     getParentForChildren(),
                     isClean());
@@ -3946,14 +3946,14 @@ public final class MiGetFieldTypesAd {
       ".dstore.engine.Message\022<\n\003row\030\004 \003(\0132/.ds" +
       "tore.engine.mi_GetFieldTypes_Ad.Response" +
       ".Row\032\343\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0223\n\rfield_t" +
-      "ype_id\030\221N \001(\0132\033.dstore.values.integerVal",
+      "ype_id\030\221N \001(\0132\033.dstore.values.IntegerVal",
       "ue\0225\n\020basic_field_type\030\222N \001(\0132\032.dstore.v" +
-      "alues.stringValue\022;\n\026field_type_descript" +
-      "ion\030\223N \001(\0132\032.dstore.values.stringValue\0225" +
+      "alues.StringValue\022;\n\026field_type_descript" +
+      "ion\030\223N \001(\0132\032.dstore.values.StringValue\0225" +
       "\n\017precision_value\030\224N \001(\0132\033.dstore.values" +
-      ".integerValue\0229\n\023basic_field_type_id\030\225N " +
-      "\001(\0132\033.dstore.values.integerValue\0220\n\nmax_" +
-      "length\030\226N \001(\0132\033.dstore.values.integerVal" +
+      ".IntegerValue\0229\n\023basic_field_type_id\030\225N " +
+      "\001(\0132\033.dstore.values.IntegerValue\0220\n\nmax_" +
+      "length\030\226N \001(\0132\033.dstore.values.IntegerVal" +
       "ueBT\n\033io.dstore.engine.proceduresZ5gosdk" +
       ".dstore.de/engine/procedures/mi_GetField" +
       "Types_Adb\006proto3"
@@ -3969,7 +3969,7 @@ public final class MiGetFieldTypesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetFieldTypes_Ad_Parameters_descriptor =
@@ -3990,7 +3990,7 @@ public final class MiGetFieldTypesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetFieldTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "FieldTypeId", "BasicFieldType", "FieldTypeDescription", "PrecisionValue", "BasicFieldTypeId", "MaxLength", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

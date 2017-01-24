@@ -19,17 +19,17 @@ public final class OmGetCampaignItemConGroupsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
     boolean hasConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    io.dstore.Values.integerValue getConditionId();
+    io.dstore.values.IntegerValue getConditionId();
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
     /**
      * <code>optional bool condition_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetCampaignItemConGroupsAd {
     boolean getConditionIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
      */
     boolean hasItemConditionGroupId();
     /**
-     * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
      */
-    io.dstore.Values.integerValue getItemConditionGroupId();
+    io.dstore.values.IntegerValue getItemConditionGroupId();
     /**
-     * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getItemConditionGroupIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder();
 
     /**
      * <code>optional bool item_condition_group_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class OmGetCampaignItemConGroupsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class OmGetCampaignItemConGroupsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (itemConditionGroupId_ != null) {
                 subBuilder = itemConditionGroupId_.toBuilder();
               }
-              itemConditionGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              itemConditionGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemConditionGroupId_);
                 itemConditionGroupId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class OmGetCampaignItemConGroupsAd {
     }
 
     public static final int CONDITION_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue conditionId_;
+    private io.dstore.values.IntegerValue conditionId_;
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
     public boolean hasConditionId() {
       return conditionId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getConditionId() {
-      return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+    public io.dstore.values.IntegerValue getConditionId() {
+      return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
       return getConditionId();
     }
 
@@ -185,23 +185,23 @@ public final class OmGetCampaignItemConGroupsAd {
     }
 
     public static final int ITEM_CONDITION_GROUP_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue itemConditionGroupId_;
+    private io.dstore.values.IntegerValue itemConditionGroupId_;
     /**
-     * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
      */
     public boolean hasItemConditionGroupId() {
       return itemConditionGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getItemConditionGroupId() {
-      return itemConditionGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionGroupId_;
+    public io.dstore.values.IntegerValue getItemConditionGroupId() {
+      return itemConditionGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionGroupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getItemConditionGroupIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
       return getItemConditionGroupId();
     }
 
@@ -562,29 +562,29 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue conditionId_ = null;
+      private io.dstore.values.IntegerValue conditionId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public boolean hasConditionId() {
         return conditionIdBuilder_ != null || conditionId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
+      public io.dstore.values.IntegerValue getConditionId() {
         if (conditionIdBuilder_ == null) {
-          return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+          return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         } else {
           return conditionIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public Builder setConditionId(io.dstore.Values.integerValue value) {
+      public Builder setConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder setConditionId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionIdBuilder_ == null) {
           conditionId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
         if (conditionIdBuilder_ == null) {
           if (conditionId_ != null) {
             conditionId_ =
-              io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
           } else {
             conditionId_ = value;
           }
@@ -630,7 +630,7 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       public Builder clearConditionId() {
         if (conditionIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
         
         onChanged();
         return getConditionIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         if (conditionIdBuilder_ != null) {
           return conditionIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionIdFieldBuilder() {
         if (conditionIdBuilder_ == null) {
           conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue itemConditionGroupId_ = null;
+      private io.dstore.values.IntegerValue itemConditionGroupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionGroupIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
        */
       public boolean hasItemConditionGroupId() {
         return itemConditionGroupIdBuilder_ != null || itemConditionGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getItemConditionGroupId() {
+      public io.dstore.values.IntegerValue getItemConditionGroupId() {
         if (itemConditionGroupIdBuilder_ == null) {
-          return itemConditionGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionGroupId_;
+          return itemConditionGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionGroupId_;
         } else {
           return itemConditionGroupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
        */
-      public Builder setItemConditionGroupId(io.dstore.Values.integerValue value) {
+      public Builder setItemConditionGroupId(io.dstore.values.IntegerValue value) {
         if (itemConditionGroupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
        */
       public Builder setItemConditionGroupId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (itemConditionGroupIdBuilder_ == null) {
           itemConditionGroupId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
        */
-      public Builder mergeItemConditionGroupId(io.dstore.Values.integerValue value) {
+      public Builder mergeItemConditionGroupId(io.dstore.values.IntegerValue value) {
         if (itemConditionGroupIdBuilder_ == null) {
           if (itemConditionGroupId_ != null) {
             itemConditionGroupId_ =
-              io.dstore.Values.integerValue.newBuilder(itemConditionGroupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(itemConditionGroupId_).mergeFrom(value).buildPartial();
           } else {
             itemConditionGroupId_ = value;
           }
@@ -773,7 +773,7 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
        */
       public Builder clearItemConditionGroupId() {
         if (itemConditionGroupIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class OmGetCampaignItemConGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getItemConditionGroupIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getItemConditionGroupIdBuilder() {
         
         onChanged();
         return getItemConditionGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getItemConditionGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
         if (itemConditionGroupIdBuilder_ != null) {
           return itemConditionGroupIdBuilder_.getMessageOrBuilder();
         } else {
           return itemConditionGroupId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : itemConditionGroupId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionGroupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getItemConditionGroupIdFieldBuilder() {
         if (itemConditionGroupIdBuilder_ == null) {
           itemConditionGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getItemConditionGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
        */
       boolean hasCondition1();
       /**
@@ -1115,24 +1115,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
        */
-      io.dstore.Values.stringValue getCondition1();
+      io.dstore.values.StringValue getCondition1();
       /**
        * <pre>
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCondition1OrBuilder();
+      io.dstore.values.StringValueOrBuilder getCondition1OrBuilder();
 
       /**
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
        */
       boolean hasCondition2();
       /**
@@ -1140,24 +1140,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
        */
-      io.dstore.Values.stringValue getCondition2();
+      io.dstore.values.StringValue getCondition2();
       /**
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCondition2OrBuilder();
+      io.dstore.values.StringValueOrBuilder getCondition2OrBuilder();
 
       /**
        * <pre>
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
        */
       boolean hasRecursiveEvaluation();
       /**
@@ -1165,24 +1165,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
        */
-      io.dstore.Values.integerValue getRecursiveEvaluation();
+      io.dstore.values.IntegerValue getRecursiveEvaluation();
       /**
        * <pre>
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getRecursiveEvaluationOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder();
 
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
        */
       boolean hasToBasicPriceSumPart();
       /**
@@ -1190,24 +1190,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
        */
-      io.dstore.Values.decimalValue getToBasicPriceSumPart();
+      io.dstore.values.DecimalValue getToBasicPriceSumPart();
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getToBasicPriceSumPartOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getToBasicPriceSumPartOrBuilder();
 
       /**
        * <pre>
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
        */
       boolean hasDomainTreeNodeIds();
       /**
@@ -1215,24 +1215,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
        */
-      io.dstore.Values.stringValue getDomainTreeNodeIds();
+      io.dstore.values.StringValue getDomainTreeNodeIds();
       /**
        * <pre>
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDomainTreeNodeIdsOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder();
 
       /**
        * <pre>
        * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
        */
       boolean hasNodeCharacteristicId();
       /**
@@ -1240,24 +1240,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
        */
-      io.dstore.Values.integerValue getNodeCharacteristicId();
+      io.dstore.values.IntegerValue getNodeCharacteristicId();
       /**
        * <pre>
        * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
        */
       boolean hasItemConditionPartId();
       /**
@@ -1265,24 +1265,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
        */
-      io.dstore.Values.integerValue getItemConditionPartId();
+      io.dstore.values.IntegerValue getItemConditionPartId();
       /**
        * <pre>
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getItemConditionPartIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder();
 
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
        */
       boolean hasFromBasicPriceSumPart();
       /**
@@ -1290,24 +1290,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
        */
-      io.dstore.Values.decimalValue getFromBasicPriceSumPart();
+      io.dstore.values.DecimalValue getFromBasicPriceSumPart();
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getFromBasicPriceSumPartOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getFromBasicPriceSumPartOrBuilder();
 
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
        */
       boolean hasToQuantity();
       /**
@@ -1315,24 +1315,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
        */
-      io.dstore.Values.integerValue getToQuantity();
+      io.dstore.values.IntegerValue getToQuantity();
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getToQuantityOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getToQuantityOrBuilder();
 
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
        */
       boolean hasMaxNumberOfItems();
       /**
@@ -1340,24 +1340,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
        */
-      io.dstore.Values.integerValue getMaxNumberOfItems();
+      io.dstore.values.IntegerValue getMaxNumberOfItems();
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMaxNumberOfItemsOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMaxNumberOfItemsOrBuilder();
 
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
        */
       boolean hasToItemBasicPricePart();
       /**
@@ -1365,24 +1365,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
        */
-      io.dstore.Values.decimalValue getToItemBasicPricePart();
+      io.dstore.values.DecimalValue getToItemBasicPricePart();
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getToItemBasicPricePartOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getToItemBasicPricePartOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+       * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
        */
       boolean hasItemConditionPartDescription();
       /**
@@ -1390,24 +1390,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+       * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
        */
-      io.dstore.Values.stringValue getItemConditionPartDescription();
+      io.dstore.values.StringValue getItemConditionPartDescription();
       /**
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+       * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getItemConditionPartDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getItemConditionPartDescriptionOrBuilder();
 
       /**
        * <pre>
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
        */
       boolean hasLevelIds();
       /**
@@ -1415,24 +1415,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
        */
-      io.dstore.Values.stringValue getLevelIds();
+      io.dstore.values.StringValue getLevelIds();
       /**
        * <pre>
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getLevelIdsOrBuilder();
+      io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder();
 
       /**
        * <pre>
        * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
        */
       boolean hasItemConditionGroupId();
       /**
@@ -1440,24 +1440,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
        */
-      io.dstore.Values.integerValue getItemConditionGroupId();
+      io.dstore.values.IntegerValue getItemConditionGroupId();
       /**
        * <pre>
        * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getItemConditionGroupIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
        */
       boolean hasExtendedItemCondGroupDescr();
       /**
@@ -1465,24 +1465,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
        */
-      io.dstore.Values.stringValue getExtendedItemCondGroupDescr();
+      io.dstore.values.StringValue getExtendedItemCondGroupDescr();
       /**
        * <pre>
        * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getExtendedItemCondGroupDescrOrBuilder();
+      io.dstore.values.StringValueOrBuilder getExtendedItemCondGroupDescrOrBuilder();
 
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
        */
       boolean hasFromQuantity();
       /**
@@ -1490,24 +1490,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
        */
-      io.dstore.Values.integerValue getFromQuantity();
+      io.dstore.values.IntegerValue getFromQuantity();
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getFromQuantityOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getFromQuantityOrBuilder();
 
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
        */
       boolean hasFromItemBasicPrice();
       /**
@@ -1515,24 +1515,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
        */
-      io.dstore.Values.decimalValue getFromItemBasicPrice();
+      io.dstore.values.DecimalValue getFromItemBasicPrice();
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getFromItemBasicPriceOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getFromItemBasicPriceOrBuilder();
 
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
        */
       boolean hasItemGroupSortNo();
       /**
@@ -1540,24 +1540,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
        */
-      io.dstore.Values.integerValue getItemGroupSortNo();
+      io.dstore.values.IntegerValue getItemGroupSortNo();
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getItemGroupSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getItemGroupSortNoOrBuilder();
 
       /**
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
        */
       boolean hasOperator1();
       /**
@@ -1565,24 +1565,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
        */
-      io.dstore.Values.stringValue getOperator1();
+      io.dstore.values.StringValue getOperator1();
       /**
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getOperator1OrBuilder();
+      io.dstore.values.StringValueOrBuilder getOperator1OrBuilder();
 
       /**
        * <pre>
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
        */
       boolean hasOperator2();
       /**
@@ -1590,24 +1590,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
        */
-      io.dstore.Values.stringValue getOperator2();
+      io.dstore.values.StringValue getOperator2();
       /**
        * <pre>
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getOperator2OrBuilder();
+      io.dstore.values.StringValueOrBuilder getOperator2OrBuilder();
 
       /**
        * <pre>
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
        */
       boolean hasCombinePartsWithANDOperator();
       /**
@@ -1615,24 +1615,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
        */
-      io.dstore.Values.booleanValue getCombinePartsWithANDOperator();
+      io.dstore.values.BooleanValue getCombinePartsWithANDOperator();
       /**
        * <pre>
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder();
 
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
        */
       boolean hasMinNumberOfItemsPart();
       /**
@@ -1640,24 +1640,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
        */
-      io.dstore.Values.integerValue getMinNumberOfItemsPart();
+      io.dstore.values.IntegerValue getMinNumberOfItemsPart();
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMinNumberOfItemsPartOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMinNumberOfItemsPartOrBuilder();
 
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
        */
       boolean hasItemPartSortNo();
       /**
@@ -1665,24 +1665,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
        */
-      io.dstore.Values.integerValue getItemPartSortNo();
+      io.dstore.values.IntegerValue getItemPartSortNo();
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getItemPartSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getItemPartSortNoOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
        */
       boolean hasExtendedItemCondPartDescr();
       /**
@@ -1690,24 +1690,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
        */
-      io.dstore.Values.stringValue getExtendedItemCondPartDescr();
+      io.dstore.values.StringValue getExtendedItemCondPartDescr();
       /**
        * <pre>
        * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getExtendedItemCondPartDescrOrBuilder();
+      io.dstore.values.StringValueOrBuilder getExtendedItemCondPartDescrOrBuilder();
 
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
        */
       boolean hasMaxNumberOfItemsPart();
       /**
@@ -1715,24 +1715,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
        */
-      io.dstore.Values.integerValue getMaxNumberOfItemsPart();
+      io.dstore.values.IntegerValue getMaxNumberOfItemsPart();
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMaxNumberOfItemsPartOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMaxNumberOfItemsPartOrBuilder();
 
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
        */
       boolean hasFromItemBasicPricePart();
       /**
@@ -1740,24 +1740,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
        */
-      io.dstore.Values.decimalValue getFromItemBasicPricePart();
+      io.dstore.values.DecimalValue getFromItemBasicPricePart();
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getFromItemBasicPricePartOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getFromItemBasicPricePartOrBuilder();
 
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
        */
       boolean hasMinNumberOfItems();
       /**
@@ -1765,24 +1765,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
        */
-      io.dstore.Values.integerValue getMinNumberOfItems();
+      io.dstore.values.IntegerValue getMinNumberOfItems();
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMinNumberOfItemsOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMinNumberOfItemsOrBuilder();
 
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
        */
       boolean hasFromBasicPriceSum();
       /**
@@ -1790,24 +1790,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
        */
-      io.dstore.Values.decimalValue getFromBasicPriceSum();
+      io.dstore.values.DecimalValue getFromBasicPriceSum();
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getFromBasicPriceSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getFromBasicPriceSumOrBuilder();
 
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
        */
       boolean hasToBasicPriceSum();
       /**
@@ -1815,24 +1815,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
        */
-      io.dstore.Values.decimalValue getToBasicPriceSum();
+      io.dstore.values.DecimalValue getToBasicPriceSum();
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getToBasicPriceSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getToBasicPriceSumOrBuilder();
 
       /**
        * <pre>
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
        */
       boolean hasConditionId();
       /**
@@ -1840,24 +1840,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
        */
-      io.dstore.Values.integerValue getConditionId();
+      io.dstore.values.IntegerValue getConditionId();
       /**
        * <pre>
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
 
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
        */
       boolean hasToItemBasicPrice();
       /**
@@ -1865,24 +1865,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
        */
-      io.dstore.Values.decimalValue getToItemBasicPrice();
+      io.dstore.values.DecimalValue getToItemBasicPrice();
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getToItemBasicPriceOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getToItemBasicPriceOrBuilder();
 
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
        */
       boolean hasToQuantityPart();
       /**
@@ -1890,24 +1890,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
        */
-      io.dstore.Values.integerValue getToQuantityPart();
+      io.dstore.values.IntegerValue getToQuantityPart();
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getToQuantityPartOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getToQuantityPartOrBuilder();
 
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
        */
       boolean hasFromQuantityPart();
       /**
@@ -1915,24 +1915,24 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
        */
-      io.dstore.Values.integerValue getFromQuantityPart();
+      io.dstore.values.IntegerValue getFromQuantityPart();
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getFromQuantityPartOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getFromQuantityPartOrBuilder();
 
       /**
        * <pre>
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
        */
       boolean hasInheritDepth();
       /**
@@ -1940,17 +1940,17 @@ public final class OmGetCampaignItemConGroupsAd {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
        */
-      io.dstore.Values.integerValue getInheritDepth();
+      io.dstore.values.IntegerValue getInheritDepth();
       /**
        * <pre>
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getInheritDepthOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampaignItemConGroups_Ad.Response.Row}
@@ -1999,11 +1999,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (condition1_ != null) {
                   subBuilder = condition1_.toBuilder();
                 }
-                condition1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                condition1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition1_);
                   condition1_ = subBuilder.buildPartial();
@@ -2012,11 +2012,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (condition2_ != null) {
                   subBuilder = condition2_.toBuilder();
                 }
-                condition2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                condition2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition2_);
                   condition2_ = subBuilder.buildPartial();
@@ -2025,11 +2025,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (recursiveEvaluation_ != null) {
                   subBuilder = recursiveEvaluation_.toBuilder();
                 }
-                recursiveEvaluation_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                recursiveEvaluation_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(recursiveEvaluation_);
                   recursiveEvaluation_ = subBuilder.buildPartial();
@@ -2038,11 +2038,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (toBasicPriceSumPart_ != null) {
                   subBuilder = toBasicPriceSumPart_.toBuilder();
                 }
-                toBasicPriceSumPart_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                toBasicPriceSumPart_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toBasicPriceSumPart_);
                   toBasicPriceSumPart_ = subBuilder.buildPartial();
@@ -2051,11 +2051,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (domainTreeNodeIds_ != null) {
                   subBuilder = domainTreeNodeIds_.toBuilder();
                 }
-                domainTreeNodeIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                domainTreeNodeIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(domainTreeNodeIds_);
                   domainTreeNodeIds_ = subBuilder.buildPartial();
@@ -2064,11 +2064,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -2077,11 +2077,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (itemConditionPartId_ != null) {
                   subBuilder = itemConditionPartId_.toBuilder();
                 }
-                itemConditionPartId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                itemConditionPartId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionPartId_);
                   itemConditionPartId_ = subBuilder.buildPartial();
@@ -2090,11 +2090,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (fromBasicPriceSumPart_ != null) {
                   subBuilder = fromBasicPriceSumPart_.toBuilder();
                 }
-                fromBasicPriceSumPart_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                fromBasicPriceSumPart_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromBasicPriceSumPart_);
                   fromBasicPriceSumPart_ = subBuilder.buildPartial();
@@ -2103,11 +2103,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80074: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (toQuantity_ != null) {
                   subBuilder = toQuantity_.toBuilder();
                 }
-                toQuantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                toQuantity_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toQuantity_);
                   toQuantity_ = subBuilder.buildPartial();
@@ -2116,11 +2116,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80082: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (maxNumberOfItems_ != null) {
                   subBuilder = maxNumberOfItems_.toBuilder();
                 }
-                maxNumberOfItems_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                maxNumberOfItems_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxNumberOfItems_);
                   maxNumberOfItems_ = subBuilder.buildPartial();
@@ -2129,11 +2129,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80090: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (toItemBasicPricePart_ != null) {
                   subBuilder = toItemBasicPricePart_.toBuilder();
                 }
-                toItemBasicPricePart_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                toItemBasicPricePart_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toItemBasicPricePart_);
                   toItemBasicPricePart_ = subBuilder.buildPartial();
@@ -2142,11 +2142,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80098: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (itemConditionPartDescription_ != null) {
                   subBuilder = itemConditionPartDescription_.toBuilder();
                 }
-                itemConditionPartDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                itemConditionPartDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionPartDescription_);
                   itemConditionPartDescription_ = subBuilder.buildPartial();
@@ -2155,11 +2155,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80106: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (levelIds_ != null) {
                   subBuilder = levelIds_.toBuilder();
                 }
-                levelIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                levelIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelIds_);
                   levelIds_ = subBuilder.buildPartial();
@@ -2168,11 +2168,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80114: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (itemConditionGroupId_ != null) {
                   subBuilder = itemConditionGroupId_.toBuilder();
                 }
-                itemConditionGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                itemConditionGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionGroupId_);
                   itemConditionGroupId_ = subBuilder.buildPartial();
@@ -2181,11 +2181,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80122: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (extendedItemCondGroupDescr_ != null) {
                   subBuilder = extendedItemCondGroupDescr_.toBuilder();
                 }
-                extendedItemCondGroupDescr_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                extendedItemCondGroupDescr_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(extendedItemCondGroupDescr_);
                   extendedItemCondGroupDescr_ = subBuilder.buildPartial();
@@ -2194,11 +2194,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80130: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (fromQuantity_ != null) {
                   subBuilder = fromQuantity_.toBuilder();
                 }
-                fromQuantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                fromQuantity_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromQuantity_);
                   fromQuantity_ = subBuilder.buildPartial();
@@ -2207,11 +2207,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80138: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (fromItemBasicPrice_ != null) {
                   subBuilder = fromItemBasicPrice_.toBuilder();
                 }
-                fromItemBasicPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                fromItemBasicPrice_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromItemBasicPrice_);
                   fromItemBasicPrice_ = subBuilder.buildPartial();
@@ -2220,11 +2220,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80146: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (itemGroupSortNo_ != null) {
                   subBuilder = itemGroupSortNo_.toBuilder();
                 }
-                itemGroupSortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                itemGroupSortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemGroupSortNo_);
                   itemGroupSortNo_ = subBuilder.buildPartial();
@@ -2233,11 +2233,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80154: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (operator1_ != null) {
                   subBuilder = operator1_.toBuilder();
                 }
-                operator1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                operator1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(operator1_);
                   operator1_ = subBuilder.buildPartial();
@@ -2246,11 +2246,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80162: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (operator2_ != null) {
                   subBuilder = operator2_.toBuilder();
                 }
-                operator2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                operator2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(operator2_);
                   operator2_ = subBuilder.buildPartial();
@@ -2259,11 +2259,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80170: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (combinePartsWithANDOperator_ != null) {
                   subBuilder = combinePartsWithANDOperator_.toBuilder();
                 }
-                combinePartsWithANDOperator_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                combinePartsWithANDOperator_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(combinePartsWithANDOperator_);
                   combinePartsWithANDOperator_ = subBuilder.buildPartial();
@@ -2272,11 +2272,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80178: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (minNumberOfItemsPart_ != null) {
                   subBuilder = minNumberOfItemsPart_.toBuilder();
                 }
-                minNumberOfItemsPart_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                minNumberOfItemsPart_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(minNumberOfItemsPart_);
                   minNumberOfItemsPart_ = subBuilder.buildPartial();
@@ -2285,11 +2285,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80186: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (itemPartSortNo_ != null) {
                   subBuilder = itemPartSortNo_.toBuilder();
                 }
-                itemPartSortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                itemPartSortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemPartSortNo_);
                   itemPartSortNo_ = subBuilder.buildPartial();
@@ -2298,11 +2298,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80194: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (extendedItemCondPartDescr_ != null) {
                   subBuilder = extendedItemCondPartDescr_.toBuilder();
                 }
-                extendedItemCondPartDescr_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                extendedItemCondPartDescr_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(extendedItemCondPartDescr_);
                   extendedItemCondPartDescr_ = subBuilder.buildPartial();
@@ -2311,11 +2311,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80202: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (maxNumberOfItemsPart_ != null) {
                   subBuilder = maxNumberOfItemsPart_.toBuilder();
                 }
-                maxNumberOfItemsPart_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                maxNumberOfItemsPart_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxNumberOfItemsPart_);
                   maxNumberOfItemsPart_ = subBuilder.buildPartial();
@@ -2324,11 +2324,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80210: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (fromItemBasicPricePart_ != null) {
                   subBuilder = fromItemBasicPricePart_.toBuilder();
                 }
-                fromItemBasicPricePart_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                fromItemBasicPricePart_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromItemBasicPricePart_);
                   fromItemBasicPricePart_ = subBuilder.buildPartial();
@@ -2337,11 +2337,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80218: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (minNumberOfItems_ != null) {
                   subBuilder = minNumberOfItems_.toBuilder();
                 }
-                minNumberOfItems_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                minNumberOfItems_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(minNumberOfItems_);
                   minNumberOfItems_ = subBuilder.buildPartial();
@@ -2350,11 +2350,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80226: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (fromBasicPriceSum_ != null) {
                   subBuilder = fromBasicPriceSum_.toBuilder();
                 }
-                fromBasicPriceSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                fromBasicPriceSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromBasicPriceSum_);
                   fromBasicPriceSum_ = subBuilder.buildPartial();
@@ -2363,11 +2363,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80234: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (toBasicPriceSum_ != null) {
                   subBuilder = toBasicPriceSum_.toBuilder();
                 }
-                toBasicPriceSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                toBasicPriceSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toBasicPriceSum_);
                   toBasicPriceSum_ = subBuilder.buildPartial();
@@ -2376,11 +2376,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80242: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (conditionId_ != null) {
                   subBuilder = conditionId_.toBuilder();
                 }
-                conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionId_);
                   conditionId_ = subBuilder.buildPartial();
@@ -2389,11 +2389,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80250: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (toItemBasicPrice_ != null) {
                   subBuilder = toItemBasicPrice_.toBuilder();
                 }
-                toItemBasicPrice_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                toItemBasicPrice_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toItemBasicPrice_);
                   toItemBasicPrice_ = subBuilder.buildPartial();
@@ -2402,11 +2402,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80258: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (toQuantityPart_ != null) {
                   subBuilder = toQuantityPart_.toBuilder();
                 }
-                toQuantityPart_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                toQuantityPart_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toQuantityPart_);
                   toQuantityPart_ = subBuilder.buildPartial();
@@ -2415,11 +2415,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80266: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (fromQuantityPart_ != null) {
                   subBuilder = fromQuantityPart_.toBuilder();
                 }
-                fromQuantityPart_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                fromQuantityPart_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromQuantityPart_);
                   fromQuantityPart_ = subBuilder.buildPartial();
@@ -2428,11 +2428,11 @@ public final class OmGetCampaignItemConGroupsAd {
                 break;
               }
               case 80274: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (inheritDepth_ != null) {
                   subBuilder = inheritDepth_.toBuilder();
                 }
-                inheritDepth_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                inheritDepth_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inheritDepth_);
                   inheritDepth_ = subBuilder.buildPartial();
@@ -2473,13 +2473,13 @@ public final class OmGetCampaignItemConGroupsAd {
       }
 
       public static final int CONDITION1_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue condition1_;
+      private io.dstore.values.StringValue condition1_;
       /**
        * <pre>
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
        */
       public boolean hasCondition1() {
         return condition1_ != null;
@@ -2489,30 +2489,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
        */
-      public io.dstore.Values.stringValue getCondition1() {
-        return condition1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition1_;
+      public io.dstore.values.StringValue getCondition1() {
+        return condition1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition1_;
       }
       /**
        * <pre>
        * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCondition1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
         return getCondition1();
       }
 
       public static final int CONDITION2_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue condition2_;
+      private io.dstore.values.StringValue condition2_;
       /**
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
        */
       public boolean hasCondition2() {
         return condition2_ != null;
@@ -2522,30 +2522,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
        */
-      public io.dstore.Values.stringValue getCondition2() {
-        return condition2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition2_;
+      public io.dstore.values.StringValue getCondition2() {
+        return condition2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition2_;
       }
       /**
        * <pre>
        * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCondition2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
         return getCondition2();
       }
 
       public static final int RECURSIVE_EVALUATION_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue recursiveEvaluation_;
+      private io.dstore.values.IntegerValue recursiveEvaluation_;
       /**
        * <pre>
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
        */
       public boolean hasRecursiveEvaluation() {
         return recursiveEvaluation_ != null;
@@ -2555,30 +2555,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
        */
-      public io.dstore.Values.integerValue getRecursiveEvaluation() {
-        return recursiveEvaluation_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : recursiveEvaluation_;
+      public io.dstore.values.IntegerValue getRecursiveEvaluation() {
+        return recursiveEvaluation_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : recursiveEvaluation_;
       }
       /**
        * <pre>
        * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRecursiveEvaluationOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
         return getRecursiveEvaluation();
       }
 
       public static final int TO_BASIC_PRICE_SUM_PART_FIELD_NUMBER = 10004;
-      private io.dstore.Values.decimalValue toBasicPriceSumPart_;
+      private io.dstore.values.DecimalValue toBasicPriceSumPart_;
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
        */
       public boolean hasToBasicPriceSumPart() {
         return toBasicPriceSumPart_ != null;
@@ -2588,30 +2588,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
        */
-      public io.dstore.Values.decimalValue getToBasicPriceSumPart() {
-        return toBasicPriceSumPart_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toBasicPriceSumPart_;
+      public io.dstore.values.DecimalValue getToBasicPriceSumPart() {
+        return toBasicPriceSumPart_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toBasicPriceSumPart_;
       }
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getToBasicPriceSumPartOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getToBasicPriceSumPartOrBuilder() {
         return getToBasicPriceSumPart();
       }
 
       public static final int DOMAIN_TREE_NODE_IDS_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue domainTreeNodeIds_;
+      private io.dstore.values.StringValue domainTreeNodeIds_;
       /**
        * <pre>
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
        */
       public boolean hasDomainTreeNodeIds() {
         return domainTreeNodeIds_ != null;
@@ -2621,30 +2621,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
        */
-      public io.dstore.Values.stringValue getDomainTreeNodeIds() {
-        return domainTreeNodeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : domainTreeNodeIds_;
+      public io.dstore.values.StringValue getDomainTreeNodeIds() {
+        return domainTreeNodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : domainTreeNodeIds_;
       }
       /**
        * <pre>
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
         return getDomainTreeNodeIds();
       }
 
       public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue nodeCharacteristicId_;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_;
       /**
        * <pre>
        * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicId_ != null;
@@ -2654,30 +2654,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
-        return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+        return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
       }
       /**
        * <pre>
        * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         return getNodeCharacteristicId();
       }
 
       public static final int ITEM_CONDITION_PART_ID_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue itemConditionPartId_;
+      private io.dstore.values.IntegerValue itemConditionPartId_;
       /**
        * <pre>
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
        */
       public boolean hasItemConditionPartId() {
         return itemConditionPartId_ != null;
@@ -2687,30 +2687,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
        */
-      public io.dstore.Values.integerValue getItemConditionPartId() {
-        return itemConditionPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionPartId_;
+      public io.dstore.values.IntegerValue getItemConditionPartId() {
+        return itemConditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionPartId_;
       }
       /**
        * <pre>
        * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getItemConditionPartIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder() {
         return getItemConditionPartId();
       }
 
       public static final int FROM_BASIC_PRICE_SUM_PART_FIELD_NUMBER = 10008;
-      private io.dstore.Values.decimalValue fromBasicPriceSumPart_;
+      private io.dstore.values.DecimalValue fromBasicPriceSumPart_;
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
        */
       public boolean hasFromBasicPriceSumPart() {
         return fromBasicPriceSumPart_ != null;
@@ -2720,30 +2720,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
        */
-      public io.dstore.Values.decimalValue getFromBasicPriceSumPart() {
-        return fromBasicPriceSumPart_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromBasicPriceSumPart_;
+      public io.dstore.values.DecimalValue getFromBasicPriceSumPart() {
+        return fromBasicPriceSumPart_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromBasicPriceSumPart_;
       }
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getFromBasicPriceSumPartOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getFromBasicPriceSumPartOrBuilder() {
         return getFromBasicPriceSumPart();
       }
 
       public static final int TO_QUANTITY_FIELD_NUMBER = 10009;
-      private io.dstore.Values.integerValue toQuantity_;
+      private io.dstore.values.IntegerValue toQuantity_;
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
        */
       public boolean hasToQuantity() {
         return toQuantity_ != null;
@@ -2753,30 +2753,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
        */
-      public io.dstore.Values.integerValue getToQuantity() {
-        return toQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toQuantity_;
+      public io.dstore.values.IntegerValue getToQuantity() {
+        return toQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toQuantity_;
       }
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getToQuantityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getToQuantityOrBuilder() {
         return getToQuantity();
       }
 
       public static final int MAX_NUMBER_OF_ITEMS_FIELD_NUMBER = 10010;
-      private io.dstore.Values.integerValue maxNumberOfItems_;
+      private io.dstore.values.IntegerValue maxNumberOfItems_;
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
        */
       public boolean hasMaxNumberOfItems() {
         return maxNumberOfItems_ != null;
@@ -2786,30 +2786,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
        */
-      public io.dstore.Values.integerValue getMaxNumberOfItems() {
-        return maxNumberOfItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfItems_;
+      public io.dstore.values.IntegerValue getMaxNumberOfItems() {
+        return maxNumberOfItems_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfItems_;
       }
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
         return getMaxNumberOfItems();
       }
 
       public static final int TO_ITEM_BASIC_PRICE_PART_FIELD_NUMBER = 10011;
-      private io.dstore.Values.decimalValue toItemBasicPricePart_;
+      private io.dstore.values.DecimalValue toItemBasicPricePart_;
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
        */
       public boolean hasToItemBasicPricePart() {
         return toItemBasicPricePart_ != null;
@@ -2819,30 +2819,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
        */
-      public io.dstore.Values.decimalValue getToItemBasicPricePart() {
-        return toItemBasicPricePart_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toItemBasicPricePart_;
+      public io.dstore.values.DecimalValue getToItemBasicPricePart() {
+        return toItemBasicPricePart_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toItemBasicPricePart_;
       }
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getToItemBasicPricePartOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getToItemBasicPricePartOrBuilder() {
         return getToItemBasicPricePart();
       }
 
       public static final int ITEM_CONDITION_PART_DESCRIPTION_FIELD_NUMBER = 10012;
-      private io.dstore.Values.stringValue itemConditionPartDescription_;
+      private io.dstore.values.StringValue itemConditionPartDescription_;
       /**
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+       * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
        */
       public boolean hasItemConditionPartDescription() {
         return itemConditionPartDescription_ != null;
@@ -2852,30 +2852,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+       * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
        */
-      public io.dstore.Values.stringValue getItemConditionPartDescription() {
-        return itemConditionPartDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemConditionPartDescription_;
+      public io.dstore.values.StringValue getItemConditionPartDescription() {
+        return itemConditionPartDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionPartDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+       * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getItemConditionPartDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getItemConditionPartDescriptionOrBuilder() {
         return getItemConditionPartDescription();
       }
 
       public static final int LEVEL_IDS_FIELD_NUMBER = 10013;
-      private io.dstore.Values.stringValue levelIds_;
+      private io.dstore.values.StringValue levelIds_;
       /**
        * <pre>
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
        */
       public boolean hasLevelIds() {
         return levelIds_ != null;
@@ -2885,30 +2885,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
        */
-      public io.dstore.Values.stringValue getLevelIds() {
-        return levelIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : levelIds_;
+      public io.dstore.values.StringValue getLevelIds() {
+        return levelIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelIds_;
       }
       /**
        * <pre>
        * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getLevelIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
         return getLevelIds();
       }
 
       public static final int ITEM_CONDITION_GROUP_ID_FIELD_NUMBER = 10014;
-      private io.dstore.Values.integerValue itemConditionGroupId_;
+      private io.dstore.values.IntegerValue itemConditionGroupId_;
       /**
        * <pre>
        * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
        */
       public boolean hasItemConditionGroupId() {
         return itemConditionGroupId_ != null;
@@ -2918,30 +2918,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
        */
-      public io.dstore.Values.integerValue getItemConditionGroupId() {
-        return itemConditionGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionGroupId_;
+      public io.dstore.values.IntegerValue getItemConditionGroupId() {
+        return itemConditionGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionGroupId_;
       }
       /**
        * <pre>
        * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getItemConditionGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
         return getItemConditionGroupId();
       }
 
       public static final int EXTENDED_ITEM_COND_GROUP_DESCR_FIELD_NUMBER = 10015;
-      private io.dstore.Values.stringValue extendedItemCondGroupDescr_;
+      private io.dstore.values.StringValue extendedItemCondGroupDescr_;
       /**
        * <pre>
        * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
        */
       public boolean hasExtendedItemCondGroupDescr() {
         return extendedItemCondGroupDescr_ != null;
@@ -2951,30 +2951,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
        */
-      public io.dstore.Values.stringValue getExtendedItemCondGroupDescr() {
-        return extendedItemCondGroupDescr_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : extendedItemCondGroupDescr_;
+      public io.dstore.values.StringValue getExtendedItemCondGroupDescr() {
+        return extendedItemCondGroupDescr_ == null ? io.dstore.values.StringValue.getDefaultInstance() : extendedItemCondGroupDescr_;
       }
       /**
        * <pre>
        * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getExtendedItemCondGroupDescrOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getExtendedItemCondGroupDescrOrBuilder() {
         return getExtendedItemCondGroupDescr();
       }
 
       public static final int FROM_QUANTITY_FIELD_NUMBER = 10016;
-      private io.dstore.Values.integerValue fromQuantity_;
+      private io.dstore.values.IntegerValue fromQuantity_;
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
        */
       public boolean hasFromQuantity() {
         return fromQuantity_ != null;
@@ -2984,30 +2984,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
        */
-      public io.dstore.Values.integerValue getFromQuantity() {
-        return fromQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromQuantity_;
+      public io.dstore.values.IntegerValue getFromQuantity() {
+        return fromQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromQuantity_;
       }
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromQuantityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromQuantityOrBuilder() {
         return getFromQuantity();
       }
 
       public static final int FROM_ITEM_BASIC_PRICE_FIELD_NUMBER = 10017;
-      private io.dstore.Values.decimalValue fromItemBasicPrice_;
+      private io.dstore.values.DecimalValue fromItemBasicPrice_;
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
        */
       public boolean hasFromItemBasicPrice() {
         return fromItemBasicPrice_ != null;
@@ -3017,30 +3017,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
        */
-      public io.dstore.Values.decimalValue getFromItemBasicPrice() {
-        return fromItemBasicPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromItemBasicPrice_;
+      public io.dstore.values.DecimalValue getFromItemBasicPrice() {
+        return fromItemBasicPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromItemBasicPrice_;
       }
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
         return getFromItemBasicPrice();
       }
 
       public static final int ITEM_GROUP_SORT_NO_FIELD_NUMBER = 10018;
-      private io.dstore.Values.integerValue itemGroupSortNo_;
+      private io.dstore.values.IntegerValue itemGroupSortNo_;
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
        */
       public boolean hasItemGroupSortNo() {
         return itemGroupSortNo_ != null;
@@ -3050,30 +3050,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
        */
-      public io.dstore.Values.integerValue getItemGroupSortNo() {
-        return itemGroupSortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemGroupSortNo_;
+      public io.dstore.values.IntegerValue getItemGroupSortNo() {
+        return itemGroupSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemGroupSortNo_;
       }
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+       * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getItemGroupSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getItemGroupSortNoOrBuilder() {
         return getItemGroupSortNo();
       }
 
       public static final int OPERATOR1_FIELD_NUMBER = 10019;
-      private io.dstore.Values.stringValue operator1_;
+      private io.dstore.values.StringValue operator1_;
       /**
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
        */
       public boolean hasOperator1() {
         return operator1_ != null;
@@ -3083,30 +3083,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
        */
-      public io.dstore.Values.stringValue getOperator1() {
-        return operator1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator1_;
+      public io.dstore.values.StringValue getOperator1() {
+        return operator1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator1_;
       }
       /**
        * <pre>
        * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOperator1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
         return getOperator1();
       }
 
       public static final int OPERATOR2_FIELD_NUMBER = 10020;
-      private io.dstore.Values.stringValue operator2_;
+      private io.dstore.values.StringValue operator2_;
       /**
        * <pre>
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
        */
       public boolean hasOperator2() {
         return operator2_ != null;
@@ -3116,30 +3116,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
        */
-      public io.dstore.Values.stringValue getOperator2() {
-        return operator2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator2_;
+      public io.dstore.values.StringValue getOperator2() {
+        return operator2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator2_;
       }
       /**
        * <pre>
        * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOperator2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
         return getOperator2();
       }
 
       public static final int COMBINE_PARTS_WITH_A_N_D_OPERATOR_FIELD_NUMBER = 10021;
-      private io.dstore.Values.booleanValue combinePartsWithANDOperator_;
+      private io.dstore.values.BooleanValue combinePartsWithANDOperator_;
       /**
        * <pre>
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
        */
       public boolean hasCombinePartsWithANDOperator() {
         return combinePartsWithANDOperator_ != null;
@@ -3149,30 +3149,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
        */
-      public io.dstore.Values.booleanValue getCombinePartsWithANDOperator() {
-        return combinePartsWithANDOperator_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : combinePartsWithANDOperator_;
+      public io.dstore.values.BooleanValue getCombinePartsWithANDOperator() {
+        return combinePartsWithANDOperator_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : combinePartsWithANDOperator_;
       }
       /**
        * <pre>
        * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+       * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder() {
         return getCombinePartsWithANDOperator();
       }
 
       public static final int MIN_NUMBER_OF_ITEMS_PART_FIELD_NUMBER = 10022;
-      private io.dstore.Values.integerValue minNumberOfItemsPart_;
+      private io.dstore.values.IntegerValue minNumberOfItemsPart_;
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
        */
       public boolean hasMinNumberOfItemsPart() {
         return minNumberOfItemsPart_ != null;
@@ -3182,30 +3182,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
        */
-      public io.dstore.Values.integerValue getMinNumberOfItemsPart() {
-        return minNumberOfItemsPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : minNumberOfItemsPart_;
+      public io.dstore.values.IntegerValue getMinNumberOfItemsPart() {
+        return minNumberOfItemsPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : minNumberOfItemsPart_;
       }
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMinNumberOfItemsPartOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMinNumberOfItemsPartOrBuilder() {
         return getMinNumberOfItemsPart();
       }
 
       public static final int ITEM_PART_SORT_NO_FIELD_NUMBER = 10023;
-      private io.dstore.Values.integerValue itemPartSortNo_;
+      private io.dstore.values.IntegerValue itemPartSortNo_;
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
        */
       public boolean hasItemPartSortNo() {
         return itemPartSortNo_ != null;
@@ -3215,30 +3215,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
        */
-      public io.dstore.Values.integerValue getItemPartSortNo() {
-        return itemPartSortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemPartSortNo_;
+      public io.dstore.values.IntegerValue getItemPartSortNo() {
+        return itemPartSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemPartSortNo_;
       }
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+       * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getItemPartSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getItemPartSortNoOrBuilder() {
         return getItemPartSortNo();
       }
 
       public static final int EXTENDED_ITEM_COND_PART_DESCR_FIELD_NUMBER = 10024;
-      private io.dstore.Values.stringValue extendedItemCondPartDescr_;
+      private io.dstore.values.StringValue extendedItemCondPartDescr_;
       /**
        * <pre>
        * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
        */
       public boolean hasExtendedItemCondPartDescr() {
         return extendedItemCondPartDescr_ != null;
@@ -3248,30 +3248,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
        */
-      public io.dstore.Values.stringValue getExtendedItemCondPartDescr() {
-        return extendedItemCondPartDescr_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : extendedItemCondPartDescr_;
+      public io.dstore.values.StringValue getExtendedItemCondPartDescr() {
+        return extendedItemCondPartDescr_ == null ? io.dstore.values.StringValue.getDefaultInstance() : extendedItemCondPartDescr_;
       }
       /**
        * <pre>
        * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+       * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getExtendedItemCondPartDescrOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getExtendedItemCondPartDescrOrBuilder() {
         return getExtendedItemCondPartDescr();
       }
 
       public static final int MAX_NUMBER_OF_ITEMS_PART_FIELD_NUMBER = 10025;
-      private io.dstore.Values.integerValue maxNumberOfItemsPart_;
+      private io.dstore.values.IntegerValue maxNumberOfItemsPart_;
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
        */
       public boolean hasMaxNumberOfItemsPart() {
         return maxNumberOfItemsPart_ != null;
@@ -3281,30 +3281,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
        */
-      public io.dstore.Values.integerValue getMaxNumberOfItemsPart() {
-        return maxNumberOfItemsPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfItemsPart_;
+      public io.dstore.values.IntegerValue getMaxNumberOfItemsPart() {
+        return maxNumberOfItemsPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfItemsPart_;
       }
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfItemsPartOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfItemsPartOrBuilder() {
         return getMaxNumberOfItemsPart();
       }
 
       public static final int FROM_ITEM_BASIC_PRICE_PART_FIELD_NUMBER = 10026;
-      private io.dstore.Values.decimalValue fromItemBasicPricePart_;
+      private io.dstore.values.DecimalValue fromItemBasicPricePart_;
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
        */
       public boolean hasFromItemBasicPricePart() {
         return fromItemBasicPricePart_ != null;
@@ -3314,30 +3314,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
        */
-      public io.dstore.Values.decimalValue getFromItemBasicPricePart() {
-        return fromItemBasicPricePart_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromItemBasicPricePart_;
+      public io.dstore.values.DecimalValue getFromItemBasicPricePart() {
+        return fromItemBasicPricePart_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromItemBasicPricePart_;
       }
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+       * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getFromItemBasicPricePartOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getFromItemBasicPricePartOrBuilder() {
         return getFromItemBasicPricePart();
       }
 
       public static final int MIN_NUMBER_OF_ITEMS_FIELD_NUMBER = 10027;
-      private io.dstore.Values.integerValue minNumberOfItems_;
+      private io.dstore.values.IntegerValue minNumberOfItems_;
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
        */
       public boolean hasMinNumberOfItems() {
         return minNumberOfItems_ != null;
@@ -3347,30 +3347,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
        */
-      public io.dstore.Values.integerValue getMinNumberOfItems() {
-        return minNumberOfItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : minNumberOfItems_;
+      public io.dstore.values.IntegerValue getMinNumberOfItems() {
+        return minNumberOfItems_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : minNumberOfItems_;
       }
       /**
        * <pre>
        * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+       * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMinNumberOfItemsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMinNumberOfItemsOrBuilder() {
         return getMinNumberOfItems();
       }
 
       public static final int FROM_BASIC_PRICE_SUM_FIELD_NUMBER = 10028;
-      private io.dstore.Values.decimalValue fromBasicPriceSum_;
+      private io.dstore.values.DecimalValue fromBasicPriceSum_;
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
        */
       public boolean hasFromBasicPriceSum() {
         return fromBasicPriceSum_ != null;
@@ -3380,30 +3380,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
        */
-      public io.dstore.Values.decimalValue getFromBasicPriceSum() {
-        return fromBasicPriceSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromBasicPriceSum_;
+      public io.dstore.values.DecimalValue getFromBasicPriceSum() {
+        return fromBasicPriceSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromBasicPriceSum_;
       }
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+       * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
         return getFromBasicPriceSum();
       }
 
       public static final int TO_BASIC_PRICE_SUM_FIELD_NUMBER = 10029;
-      private io.dstore.Values.decimalValue toBasicPriceSum_;
+      private io.dstore.values.DecimalValue toBasicPriceSum_;
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
        */
       public boolean hasToBasicPriceSum() {
         return toBasicPriceSum_ != null;
@@ -3413,30 +3413,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
        */
-      public io.dstore.Values.decimalValue getToBasicPriceSum() {
-        return toBasicPriceSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toBasicPriceSum_;
+      public io.dstore.values.DecimalValue getToBasicPriceSum() {
+        return toBasicPriceSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toBasicPriceSum_;
       }
       /**
        * <pre>
        * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+       * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getToBasicPriceSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getToBasicPriceSumOrBuilder() {
         return getToBasicPriceSum();
       }
 
       public static final int CONDITION_ID_FIELD_NUMBER = 10030;
-      private io.dstore.Values.integerValue conditionId_;
+      private io.dstore.values.IntegerValue conditionId_;
       /**
        * <pre>
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
        */
       public boolean hasConditionId() {
         return conditionId_ != null;
@@ -3446,30 +3446,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
-        return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+      public io.dstore.values.IntegerValue getConditionId() {
+        return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
       }
       /**
        * <pre>
        * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
       }
 
       public static final int TO_ITEM_BASIC_PRICE_FIELD_NUMBER = 10031;
-      private io.dstore.Values.decimalValue toItemBasicPrice_;
+      private io.dstore.values.DecimalValue toItemBasicPrice_;
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
        */
       public boolean hasToItemBasicPrice() {
         return toItemBasicPrice_ != null;
@@ -3479,30 +3479,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
        */
-      public io.dstore.Values.decimalValue getToItemBasicPrice() {
-        return toItemBasicPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toItemBasicPrice_;
+      public io.dstore.values.DecimalValue getToItemBasicPrice() {
+        return toItemBasicPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toItemBasicPrice_;
       }
       /**
        * <pre>
        * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+       * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getToItemBasicPriceOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getToItemBasicPriceOrBuilder() {
         return getToItemBasicPrice();
       }
 
       public static final int TO_QUANTITY_PART_FIELD_NUMBER = 10032;
-      private io.dstore.Values.integerValue toQuantityPart_;
+      private io.dstore.values.IntegerValue toQuantityPart_;
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
        */
       public boolean hasToQuantityPart() {
         return toQuantityPart_ != null;
@@ -3512,30 +3512,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
        */
-      public io.dstore.Values.integerValue getToQuantityPart() {
-        return toQuantityPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toQuantityPart_;
+      public io.dstore.values.IntegerValue getToQuantityPart() {
+        return toQuantityPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toQuantityPart_;
       }
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+       * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getToQuantityPartOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getToQuantityPartOrBuilder() {
         return getToQuantityPart();
       }
 
       public static final int FROM_QUANTITY_PART_FIELD_NUMBER = 10033;
-      private io.dstore.Values.integerValue fromQuantityPart_;
+      private io.dstore.values.IntegerValue fromQuantityPart_;
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
        */
       public boolean hasFromQuantityPart() {
         return fromQuantityPart_ != null;
@@ -3545,30 +3545,30 @@ public final class OmGetCampaignItemConGroupsAd {
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
        */
-      public io.dstore.Values.integerValue getFromQuantityPart() {
-        return fromQuantityPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromQuantityPart_;
+      public io.dstore.values.IntegerValue getFromQuantityPart() {
+        return fromQuantityPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromQuantityPart_;
       }
       /**
        * <pre>
        * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+       * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromQuantityPartOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromQuantityPartOrBuilder() {
         return getFromQuantityPart();
       }
 
       public static final int INHERIT_DEPTH_FIELD_NUMBER = 10034;
-      private io.dstore.Values.integerValue inheritDepth_;
+      private io.dstore.values.IntegerValue inheritDepth_;
       /**
        * <pre>
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
        */
       public boolean hasInheritDepth() {
         return inheritDepth_ != null;
@@ -3578,19 +3578,19 @@ public final class OmGetCampaignItemConGroupsAd {
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
        */
-      public io.dstore.Values.integerValue getInheritDepth() {
-        return inheritDepth_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritDepth_;
+      public io.dstore.values.IntegerValue getInheritDepth() {
+        return inheritDepth_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inheritDepth_;
       }
       /**
        * <pre>
        * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInheritDepthOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
         return getInheritDepth();
       }
 
@@ -4909,15 +4909,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue condition1_ = null;
+        private io.dstore.values.StringValue condition1_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition1Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> condition1Builder_;
         /**
          * <pre>
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
          */
         public boolean hasCondition1() {
           return condition1Builder_ != null || condition1_ != null;
@@ -4927,11 +4927,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
          */
-        public io.dstore.Values.stringValue getCondition1() {
+        public io.dstore.values.StringValue getCondition1() {
           if (condition1Builder_ == null) {
-            return condition1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition1_;
+            return condition1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition1_;
           } else {
             return condition1Builder_.getMessage();
           }
@@ -4941,9 +4941,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
          */
-        public Builder setCondition1(io.dstore.Values.stringValue value) {
+        public Builder setCondition1(io.dstore.values.StringValue value) {
           if (condition1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4961,10 +4961,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
          */
         public Builder setCondition1(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (condition1Builder_ == null) {
             condition1_ = builderForValue.build();
             onChanged();
@@ -4979,13 +4979,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
          */
-        public Builder mergeCondition1(io.dstore.Values.stringValue value) {
+        public Builder mergeCondition1(io.dstore.values.StringValue value) {
           if (condition1Builder_ == null) {
             if (condition1_ != null) {
               condition1_ =
-                io.dstore.Values.stringValue.newBuilder(condition1_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(condition1_).mergeFrom(value).buildPartial();
             } else {
               condition1_ = value;
             }
@@ -5001,7 +5001,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
          */
         public Builder clearCondition1() {
           if (condition1Builder_ == null) {
@@ -5019,9 +5019,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCondition1Builder() {
+        public io.dstore.values.StringValue.Builder getCondition1Builder() {
           
           onChanged();
           return getCondition1FieldBuilder().getBuilder();
@@ -5031,14 +5031,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCondition1OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
           if (condition1Builder_ != null) {
             return condition1Builder_.getMessageOrBuilder();
           } else {
             return condition1_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : condition1_;
+                io.dstore.values.StringValue.getDefaultInstance() : condition1_;
           }
         }
         /**
@@ -5046,14 +5046,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator1" anzuwenden ist ("NULL", falls "Operator1" den Wert "E" oder "!E" hat)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition1 = 10001;</code>
+         * <code>optional .dstore.values.StringValue condition1 = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCondition1FieldBuilder() {
           if (condition1Builder_ == null) {
             condition1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCondition1(),
                     getParentForChildren(),
                     isClean());
@@ -5062,15 +5062,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return condition1Builder_;
         }
 
-        private io.dstore.Values.stringValue condition2_ = null;
+        private io.dstore.values.StringValue condition2_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition2Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> condition2Builder_;
         /**
          * <pre>
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
          */
         public boolean hasCondition2() {
           return condition2Builder_ != null || condition2_ != null;
@@ -5080,11 +5080,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
          */
-        public io.dstore.Values.stringValue getCondition2() {
+        public io.dstore.values.StringValue getCondition2() {
           if (condition2Builder_ == null) {
-            return condition2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition2_;
+            return condition2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition2_;
           } else {
             return condition2Builder_.getMessage();
           }
@@ -5094,9 +5094,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
          */
-        public Builder setCondition2(io.dstore.Values.stringValue value) {
+        public Builder setCondition2(io.dstore.values.StringValue value) {
           if (condition2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5114,10 +5114,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
          */
         public Builder setCondition2(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (condition2Builder_ == null) {
             condition2_ = builderForValue.build();
             onChanged();
@@ -5132,13 +5132,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
          */
-        public Builder mergeCondition2(io.dstore.Values.stringValue value) {
+        public Builder mergeCondition2(io.dstore.values.StringValue value) {
           if (condition2Builder_ == null) {
             if (condition2_ != null) {
               condition2_ =
-                io.dstore.Values.stringValue.newBuilder(condition2_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(condition2_).mergeFrom(value).buildPartial();
             } else {
               condition2_ = value;
             }
@@ -5154,7 +5154,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
          */
         public Builder clearCondition2() {
           if (condition2Builder_ == null) {
@@ -5172,9 +5172,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCondition2Builder() {
+        public io.dstore.values.StringValue.Builder getCondition2Builder() {
           
           onChanged();
           return getCondition2FieldBuilder().getBuilder();
@@ -5184,14 +5184,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCondition2OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
           if (condition2Builder_ != null) {
             return condition2Builder_.getMessageOrBuilder();
           } else {
             return condition2_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : condition2_;
+                io.dstore.values.StringValue.getDefaultInstance() : condition2_;
           }
         }
         /**
@@ -5199,14 +5199,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bedingung, die in Verbindung mit "Operator2" anzuwenden ist (nur belegt, wenn "Operator2" den Wert "&lt;" oder "&lt;=" enthält)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue condition2 = 10002;</code>
+         * <code>optional .dstore.values.StringValue condition2 = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCondition2FieldBuilder() {
           if (condition2Builder_ == null) {
             condition2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCondition2(),
                     getParentForChildren(),
                     isClean());
@@ -5215,15 +5215,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return condition2Builder_;
         }
 
-        private io.dstore.Values.integerValue recursiveEvaluation_ = null;
+        private io.dstore.values.IntegerValue recursiveEvaluation_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> recursiveEvaluationBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> recursiveEvaluationBuilder_;
         /**
          * <pre>
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
          */
         public boolean hasRecursiveEvaluation() {
           return recursiveEvaluationBuilder_ != null || recursiveEvaluation_ != null;
@@ -5233,11 +5233,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
          */
-        public io.dstore.Values.integerValue getRecursiveEvaluation() {
+        public io.dstore.values.IntegerValue getRecursiveEvaluation() {
           if (recursiveEvaluationBuilder_ == null) {
-            return recursiveEvaluation_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : recursiveEvaluation_;
+            return recursiveEvaluation_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : recursiveEvaluation_;
           } else {
             return recursiveEvaluationBuilder_.getMessage();
           }
@@ -5247,9 +5247,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
          */
-        public Builder setRecursiveEvaluation(io.dstore.Values.integerValue value) {
+        public Builder setRecursiveEvaluation(io.dstore.values.IntegerValue value) {
           if (recursiveEvaluationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5267,10 +5267,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
          */
         public Builder setRecursiveEvaluation(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (recursiveEvaluationBuilder_ == null) {
             recursiveEvaluation_ = builderForValue.build();
             onChanged();
@@ -5285,13 +5285,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
          */
-        public Builder mergeRecursiveEvaluation(io.dstore.Values.integerValue value) {
+        public Builder mergeRecursiveEvaluation(io.dstore.values.IntegerValue value) {
           if (recursiveEvaluationBuilder_ == null) {
             if (recursiveEvaluation_ != null) {
               recursiveEvaluation_ =
-                io.dstore.Values.integerValue.newBuilder(recursiveEvaluation_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(recursiveEvaluation_).mergeFrom(value).buildPartial();
             } else {
               recursiveEvaluation_ = value;
             }
@@ -5307,7 +5307,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
          */
         public Builder clearRecursiveEvaluation() {
           if (recursiveEvaluationBuilder_ == null) {
@@ -5325,9 +5325,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getRecursiveEvaluationBuilder() {
+        public io.dstore.values.IntegerValue.Builder getRecursiveEvaluationBuilder() {
           
           onChanged();
           return getRecursiveEvaluationFieldBuilder().getBuilder();
@@ -5337,14 +5337,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getRecursiveEvaluationOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
           if (recursiveEvaluationBuilder_ != null) {
             return recursiveEvaluationBuilder_.getMessageOrBuilder();
           } else {
             return recursiveEvaluation_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : recursiveEvaluation_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : recursiveEvaluation_;
           }
         }
         /**
@@ -5352,14 +5352,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Was soll zwecks Prüfung der Bedingung zu "NodeCharacteristicID" (wenn rekursiv) gewählt werden ?"0" : direkte Eigenschaft (also eine Merkmal-ID)"1" : rekursiv ausgewertete Eigenschaft"2" : zugehör. Beschreibung der Eigenschaft (also der Merkmal-ID)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue recursive_evaluation = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue recursive_evaluation = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getRecursiveEvaluationFieldBuilder() {
           if (recursiveEvaluationBuilder_ == null) {
             recursiveEvaluationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getRecursiveEvaluation(),
                     getParentForChildren(),
                     isClean());
@@ -5368,15 +5368,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return recursiveEvaluationBuilder_;
         }
 
-        private io.dstore.Values.decimalValue toBasicPriceSumPart_ = null;
+        private io.dstore.values.DecimalValue toBasicPriceSumPart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toBasicPriceSumPartBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> toBasicPriceSumPartBuilder_;
         /**
          * <pre>
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
          */
         public boolean hasToBasicPriceSumPart() {
           return toBasicPriceSumPartBuilder_ != null || toBasicPriceSumPart_ != null;
@@ -5386,11 +5386,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
          */
-        public io.dstore.Values.decimalValue getToBasicPriceSumPart() {
+        public io.dstore.values.DecimalValue getToBasicPriceSumPart() {
           if (toBasicPriceSumPartBuilder_ == null) {
-            return toBasicPriceSumPart_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toBasicPriceSumPart_;
+            return toBasicPriceSumPart_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toBasicPriceSumPart_;
           } else {
             return toBasicPriceSumPartBuilder_.getMessage();
           }
@@ -5400,9 +5400,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
          */
-        public Builder setToBasicPriceSumPart(io.dstore.Values.decimalValue value) {
+        public Builder setToBasicPriceSumPart(io.dstore.values.DecimalValue value) {
           if (toBasicPriceSumPartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5420,10 +5420,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
          */
         public Builder setToBasicPriceSumPart(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (toBasicPriceSumPartBuilder_ == null) {
             toBasicPriceSumPart_ = builderForValue.build();
             onChanged();
@@ -5438,13 +5438,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
          */
-        public Builder mergeToBasicPriceSumPart(io.dstore.Values.decimalValue value) {
+        public Builder mergeToBasicPriceSumPart(io.dstore.values.DecimalValue value) {
           if (toBasicPriceSumPartBuilder_ == null) {
             if (toBasicPriceSumPart_ != null) {
               toBasicPriceSumPart_ =
-                io.dstore.Values.decimalValue.newBuilder(toBasicPriceSumPart_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(toBasicPriceSumPart_).mergeFrom(value).buildPartial();
             } else {
               toBasicPriceSumPart_ = value;
             }
@@ -5460,7 +5460,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
          */
         public Builder clearToBasicPriceSumPart() {
           if (toBasicPriceSumPartBuilder_ == null) {
@@ -5478,9 +5478,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getToBasicPriceSumPartBuilder() {
+        public io.dstore.values.DecimalValue.Builder getToBasicPriceSumPartBuilder() {
           
           onChanged();
           return getToBasicPriceSumPartFieldBuilder().getBuilder();
@@ -5490,14 +5490,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getToBasicPriceSumPartOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getToBasicPriceSumPartOrBuilder() {
           if (toBasicPriceSumPartBuilder_ != null) {
             return toBasicPriceSumPartBuilder_.getMessageOrBuilder();
           } else {
             return toBasicPriceSumPart_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : toBasicPriceSumPart_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : toBasicPriceSumPart_;
           }
         }
         /**
@@ -5505,14 +5505,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum_part = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum_part = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getToBasicPriceSumPartFieldBuilder() {
           if (toBasicPriceSumPartBuilder_ == null) {
             toBasicPriceSumPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getToBasicPriceSumPart(),
                     getParentForChildren(),
                     isClean());
@@ -5521,15 +5521,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return toBasicPriceSumPartBuilder_;
         }
 
-        private io.dstore.Values.stringValue domainTreeNodeIds_ = null;
+        private io.dstore.values.StringValue domainTreeNodeIds_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> domainTreeNodeIdsBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> domainTreeNodeIdsBuilder_;
         /**
          * <pre>
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
          */
         public boolean hasDomainTreeNodeIds() {
           return domainTreeNodeIdsBuilder_ != null || domainTreeNodeIds_ != null;
@@ -5539,11 +5539,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
          */
-        public io.dstore.Values.stringValue getDomainTreeNodeIds() {
+        public io.dstore.values.StringValue getDomainTreeNodeIds() {
           if (domainTreeNodeIdsBuilder_ == null) {
-            return domainTreeNodeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : domainTreeNodeIds_;
+            return domainTreeNodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : domainTreeNodeIds_;
           } else {
             return domainTreeNodeIdsBuilder_.getMessage();
           }
@@ -5553,9 +5553,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
          */
-        public Builder setDomainTreeNodeIds(io.dstore.Values.stringValue value) {
+        public Builder setDomainTreeNodeIds(io.dstore.values.StringValue value) {
           if (domainTreeNodeIdsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5573,10 +5573,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
          */
         public Builder setDomainTreeNodeIds(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (domainTreeNodeIdsBuilder_ == null) {
             domainTreeNodeIds_ = builderForValue.build();
             onChanged();
@@ -5591,13 +5591,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
          */
-        public Builder mergeDomainTreeNodeIds(io.dstore.Values.stringValue value) {
+        public Builder mergeDomainTreeNodeIds(io.dstore.values.StringValue value) {
           if (domainTreeNodeIdsBuilder_ == null) {
             if (domainTreeNodeIds_ != null) {
               domainTreeNodeIds_ =
-                io.dstore.Values.stringValue.newBuilder(domainTreeNodeIds_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(domainTreeNodeIds_).mergeFrom(value).buildPartial();
             } else {
               domainTreeNodeIds_ = value;
             }
@@ -5613,7 +5613,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
          */
         public Builder clearDomainTreeNodeIds() {
           if (domainTreeNodeIdsBuilder_ == null) {
@@ -5631,9 +5631,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDomainTreeNodeIdsBuilder() {
+        public io.dstore.values.StringValue.Builder getDomainTreeNodeIdsBuilder() {
           
           onChanged();
           return getDomainTreeNodeIdsFieldBuilder().getBuilder();
@@ -5643,14 +5643,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
           if (domainTreeNodeIdsBuilder_ != null) {
             return domainTreeNodeIdsBuilder_.getMessageOrBuilder();
           } else {
             return domainTreeNodeIds_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : domainTreeNodeIds_;
+                io.dstore.values.StringValue.getDefaultInstance() : domainTreeNodeIds_;
           }
         }
         /**
@@ -5658,14 +5658,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum ein Vorgänger-Element besitzen, dessen "TreeNodeID" aus der hier angegebenen Menge von IDs kommt. Sonderfall ",," bedeutet "beliebiger Vorgänger".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue domain_tree_node_ids = 10005;</code>
+         * <code>optional .dstore.values.StringValue domain_tree_node_ids = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDomainTreeNodeIdsFieldBuilder() {
           if (domainTreeNodeIdsBuilder_ == null) {
             domainTreeNodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDomainTreeNodeIds(),
                     getParentForChildren(),
                     isClean());
@@ -5674,15 +5674,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return domainTreeNodeIdsBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
          */
         public boolean hasNodeCharacteristicId() {
           return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
@@ -5692,11 +5692,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue getNodeCharacteristicId() {
+        public io.dstore.values.IntegerValue getNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
-            return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+            return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           } else {
             return nodeCharacteristicIdBuilder_.getMessage();
           }
@@ -5706,9 +5706,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
          */
-        public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5726,10 +5726,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
          */
         public Builder setNodeCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -5744,13 +5744,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
          */
-        public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (nodeCharacteristicIdBuilder_ == null) {
             if (nodeCharacteristicId_ != null) {
               nodeCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               nodeCharacteristicId_ = value;
             }
@@ -5766,7 +5766,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
          */
         public Builder clearNodeCharacteristicId() {
           if (nodeCharacteristicIdBuilder_ == null) {
@@ -5784,9 +5784,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
           
           onChanged();
           return getNodeCharacteristicIdFieldBuilder().getBuilder();
@@ -5796,14 +5796,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
           if (nodeCharacteristicIdBuilder_ != null) {
             return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
           }
         }
         /**
@@ -5811,14 +5811,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Merkmals. Um "ItemConditionPartID" zu erfüllen, muß ein Element im Artikelbaum eine Eigenschaft zu diesem Merkmal besitzen, die der Bedingung ("Operator1" etc.) genügt. Sonderfall "-1" : "KEINE Eigenschafts-Bedingung" (ist also immer erfüllt).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_characteristic_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue node_characteristic_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeCharacteristicIdFieldBuilder() {
           if (nodeCharacteristicIdBuilder_ == null) {
             nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -5827,15 +5827,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return nodeCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue itemConditionPartId_ = null;
+        private io.dstore.values.IntegerValue itemConditionPartId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionPartIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionPartIdBuilder_;
         /**
          * <pre>
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
          */
         public boolean hasItemConditionPartId() {
           return itemConditionPartIdBuilder_ != null || itemConditionPartId_ != null;
@@ -5845,11 +5845,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue getItemConditionPartId() {
+        public io.dstore.values.IntegerValue getItemConditionPartId() {
           if (itemConditionPartIdBuilder_ == null) {
-            return itemConditionPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionPartId_;
+            return itemConditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionPartId_;
           } else {
             return itemConditionPartIdBuilder_.getMessage();
           }
@@ -5859,9 +5859,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
          */
-        public Builder setItemConditionPartId(io.dstore.Values.integerValue value) {
+        public Builder setItemConditionPartId(io.dstore.values.IntegerValue value) {
           if (itemConditionPartIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5879,10 +5879,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
          */
         public Builder setItemConditionPartId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (itemConditionPartIdBuilder_ == null) {
             itemConditionPartId_ = builderForValue.build();
             onChanged();
@@ -5897,13 +5897,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
          */
-        public Builder mergeItemConditionPartId(io.dstore.Values.integerValue value) {
+        public Builder mergeItemConditionPartId(io.dstore.values.IntegerValue value) {
           if (itemConditionPartIdBuilder_ == null) {
             if (itemConditionPartId_ != null) {
               itemConditionPartId_ =
-                io.dstore.Values.integerValue.newBuilder(itemConditionPartId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(itemConditionPartId_).mergeFrom(value).buildPartial();
             } else {
               itemConditionPartId_ = value;
             }
@@ -5919,7 +5919,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
          */
         public Builder clearItemConditionPartId() {
           if (itemConditionPartIdBuilder_ == null) {
@@ -5937,9 +5937,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getItemConditionPartIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getItemConditionPartIdBuilder() {
           
           onChanged();
           return getItemConditionPartIdFieldBuilder().getBuilder();
@@ -5949,14 +5949,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getItemConditionPartIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getItemConditionPartIdOrBuilder() {
           if (itemConditionPartIdBuilder_ != null) {
             return itemConditionPartIdBuilder_.getMessageOrBuilder();
           } else {
             return itemConditionPartId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : itemConditionPartId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionPartId_;
           }
         }
         /**
@@ -5964,14 +5964,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID eines Bedingungs-Teils, das Bestandteil von "ItemConditionGroupID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_part_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_part_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getItemConditionPartIdFieldBuilder() {
           if (itemConditionPartIdBuilder_ == null) {
             itemConditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getItemConditionPartId(),
                     getParentForChildren(),
                     isClean());
@@ -5980,15 +5980,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return itemConditionPartIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue fromBasicPriceSumPart_ = null;
+        private io.dstore.values.DecimalValue fromBasicPriceSumPart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromBasicPriceSumPartBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> fromBasicPriceSumPartBuilder_;
         /**
          * <pre>
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
          */
         public boolean hasFromBasicPriceSumPart() {
           return fromBasicPriceSumPartBuilder_ != null || fromBasicPriceSumPart_ != null;
@@ -5998,11 +5998,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
          */
-        public io.dstore.Values.decimalValue getFromBasicPriceSumPart() {
+        public io.dstore.values.DecimalValue getFromBasicPriceSumPart() {
           if (fromBasicPriceSumPartBuilder_ == null) {
-            return fromBasicPriceSumPart_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromBasicPriceSumPart_;
+            return fromBasicPriceSumPart_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromBasicPriceSumPart_;
           } else {
             return fromBasicPriceSumPartBuilder_.getMessage();
           }
@@ -6012,9 +6012,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
          */
-        public Builder setFromBasicPriceSumPart(io.dstore.Values.decimalValue value) {
+        public Builder setFromBasicPriceSumPart(io.dstore.values.DecimalValue value) {
           if (fromBasicPriceSumPartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6032,10 +6032,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
          */
         public Builder setFromBasicPriceSumPart(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (fromBasicPriceSumPartBuilder_ == null) {
             fromBasicPriceSumPart_ = builderForValue.build();
             onChanged();
@@ -6050,13 +6050,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
          */
-        public Builder mergeFromBasicPriceSumPart(io.dstore.Values.decimalValue value) {
+        public Builder mergeFromBasicPriceSumPart(io.dstore.values.DecimalValue value) {
           if (fromBasicPriceSumPartBuilder_ == null) {
             if (fromBasicPriceSumPart_ != null) {
               fromBasicPriceSumPart_ =
-                io.dstore.Values.decimalValue.newBuilder(fromBasicPriceSumPart_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(fromBasicPriceSumPart_).mergeFrom(value).buildPartial();
             } else {
               fromBasicPriceSumPart_ = value;
             }
@@ -6072,7 +6072,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
          */
         public Builder clearFromBasicPriceSumPart() {
           if (fromBasicPriceSumPartBuilder_ == null) {
@@ -6090,9 +6090,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getFromBasicPriceSumPartBuilder() {
+        public io.dstore.values.DecimalValue.Builder getFromBasicPriceSumPartBuilder() {
           
           onChanged();
           return getFromBasicPriceSumPartFieldBuilder().getBuilder();
@@ -6102,14 +6102,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getFromBasicPriceSumPartOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getFromBasicPriceSumPartOrBuilder() {
           if (fromBasicPriceSumPartBuilder_ != null) {
             return fromBasicPriceSumPartBuilder_.getMessageOrBuilder();
           } else {
             return fromBasicPriceSumPart_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : fromBasicPriceSumPart_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : fromBasicPriceSumPart_;
           }
         }
         /**
@@ -6117,14 +6117,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum_part = 10008;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum_part = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getFromBasicPriceSumPartFieldBuilder() {
           if (fromBasicPriceSumPartBuilder_ == null) {
             fromBasicPriceSumPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getFromBasicPriceSumPart(),
                     getParentForChildren(),
                     isClean());
@@ -6133,15 +6133,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return fromBasicPriceSumPartBuilder_;
         }
 
-        private io.dstore.Values.integerValue toQuantity_ = null;
+        private io.dstore.values.IntegerValue toQuantity_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toQuantityBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toQuantityBuilder_;
         /**
          * <pre>
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
          */
         public boolean hasToQuantity() {
           return toQuantityBuilder_ != null || toQuantity_ != null;
@@ -6151,11 +6151,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
          */
-        public io.dstore.Values.integerValue getToQuantity() {
+        public io.dstore.values.IntegerValue getToQuantity() {
           if (toQuantityBuilder_ == null) {
-            return toQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toQuantity_;
+            return toQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toQuantity_;
           } else {
             return toQuantityBuilder_.getMessage();
           }
@@ -6165,9 +6165,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
          */
-        public Builder setToQuantity(io.dstore.Values.integerValue value) {
+        public Builder setToQuantity(io.dstore.values.IntegerValue value) {
           if (toQuantityBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6185,10 +6185,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
          */
         public Builder setToQuantity(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (toQuantityBuilder_ == null) {
             toQuantity_ = builderForValue.build();
             onChanged();
@@ -6203,13 +6203,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
          */
-        public Builder mergeToQuantity(io.dstore.Values.integerValue value) {
+        public Builder mergeToQuantity(io.dstore.values.IntegerValue value) {
           if (toQuantityBuilder_ == null) {
             if (toQuantity_ != null) {
               toQuantity_ =
-                io.dstore.Values.integerValue.newBuilder(toQuantity_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(toQuantity_).mergeFrom(value).buildPartial();
             } else {
               toQuantity_ = value;
             }
@@ -6225,7 +6225,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
          */
         public Builder clearToQuantity() {
           if (toQuantityBuilder_ == null) {
@@ -6243,9 +6243,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
          */
-        public io.dstore.Values.integerValue.Builder getToQuantityBuilder() {
+        public io.dstore.values.IntegerValue.Builder getToQuantityBuilder() {
           
           onChanged();
           return getToQuantityFieldBuilder().getBuilder();
@@ -6255,14 +6255,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getToQuantityOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getToQuantityOrBuilder() {
           if (toQuantityBuilder_ != null) {
             return toQuantityBuilder_.getMessageOrBuilder();
           } else {
             return toQuantity_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : toQuantity_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : toQuantity_;
           }
         }
         /**
@@ -6270,14 +6270,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getToQuantityFieldBuilder() {
           if (toQuantityBuilder_ == null) {
             toQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getToQuantity(),
                     getParentForChildren(),
                     isClean());
@@ -6286,15 +6286,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return toQuantityBuilder_;
         }
 
-        private io.dstore.Values.integerValue maxNumberOfItems_ = null;
+        private io.dstore.values.IntegerValue maxNumberOfItems_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfItemsBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfItemsBuilder_;
         /**
          * <pre>
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
          */
         public boolean hasMaxNumberOfItems() {
           return maxNumberOfItemsBuilder_ != null || maxNumberOfItems_ != null;
@@ -6304,11 +6304,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
          */
-        public io.dstore.Values.integerValue getMaxNumberOfItems() {
+        public io.dstore.values.IntegerValue getMaxNumberOfItems() {
           if (maxNumberOfItemsBuilder_ == null) {
-            return maxNumberOfItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfItems_;
+            return maxNumberOfItems_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfItems_;
           } else {
             return maxNumberOfItemsBuilder_.getMessage();
           }
@@ -6318,9 +6318,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
          */
-        public Builder setMaxNumberOfItems(io.dstore.Values.integerValue value) {
+        public Builder setMaxNumberOfItems(io.dstore.values.IntegerValue value) {
           if (maxNumberOfItemsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6338,10 +6338,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
          */
         public Builder setMaxNumberOfItems(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (maxNumberOfItemsBuilder_ == null) {
             maxNumberOfItems_ = builderForValue.build();
             onChanged();
@@ -6356,13 +6356,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
          */
-        public Builder mergeMaxNumberOfItems(io.dstore.Values.integerValue value) {
+        public Builder mergeMaxNumberOfItems(io.dstore.values.IntegerValue value) {
           if (maxNumberOfItemsBuilder_ == null) {
             if (maxNumberOfItems_ != null) {
               maxNumberOfItems_ =
-                io.dstore.Values.integerValue.newBuilder(maxNumberOfItems_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(maxNumberOfItems_).mergeFrom(value).buildPartial();
             } else {
               maxNumberOfItems_ = value;
             }
@@ -6378,7 +6378,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
          */
         public Builder clearMaxNumberOfItems() {
           if (maxNumberOfItemsBuilder_ == null) {
@@ -6396,9 +6396,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMaxNumberOfItemsBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMaxNumberOfItemsBuilder() {
           
           onChanged();
           return getMaxNumberOfItemsFieldBuilder().getBuilder();
@@ -6408,14 +6408,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfItemsOrBuilder() {
           if (maxNumberOfItemsBuilder_ != null) {
             return maxNumberOfItemsBuilder_.getMessageOrBuilder();
           } else {
             return maxNumberOfItems_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfItems_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfItems_;
           }
         }
         /**
@@ -6423,14 +6423,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items = 10010;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMaxNumberOfItemsFieldBuilder() {
           if (maxNumberOfItemsBuilder_ == null) {
             maxNumberOfItemsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMaxNumberOfItems(),
                     getParentForChildren(),
                     isClean());
@@ -6439,15 +6439,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return maxNumberOfItemsBuilder_;
         }
 
-        private io.dstore.Values.decimalValue toItemBasicPricePart_ = null;
+        private io.dstore.values.DecimalValue toItemBasicPricePart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toItemBasicPricePartBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> toItemBasicPricePartBuilder_;
         /**
          * <pre>
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
          */
         public boolean hasToItemBasicPricePart() {
           return toItemBasicPricePartBuilder_ != null || toItemBasicPricePart_ != null;
@@ -6457,11 +6457,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
          */
-        public io.dstore.Values.decimalValue getToItemBasicPricePart() {
+        public io.dstore.values.DecimalValue getToItemBasicPricePart() {
           if (toItemBasicPricePartBuilder_ == null) {
-            return toItemBasicPricePart_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toItemBasicPricePart_;
+            return toItemBasicPricePart_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toItemBasicPricePart_;
           } else {
             return toItemBasicPricePartBuilder_.getMessage();
           }
@@ -6471,9 +6471,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
          */
-        public Builder setToItemBasicPricePart(io.dstore.Values.decimalValue value) {
+        public Builder setToItemBasicPricePart(io.dstore.values.DecimalValue value) {
           if (toItemBasicPricePartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6491,10 +6491,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
          */
         public Builder setToItemBasicPricePart(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (toItemBasicPricePartBuilder_ == null) {
             toItemBasicPricePart_ = builderForValue.build();
             onChanged();
@@ -6509,13 +6509,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
          */
-        public Builder mergeToItemBasicPricePart(io.dstore.Values.decimalValue value) {
+        public Builder mergeToItemBasicPricePart(io.dstore.values.DecimalValue value) {
           if (toItemBasicPricePartBuilder_ == null) {
             if (toItemBasicPricePart_ != null) {
               toItemBasicPricePart_ =
-                io.dstore.Values.decimalValue.newBuilder(toItemBasicPricePart_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(toItemBasicPricePart_).mergeFrom(value).buildPartial();
             } else {
               toItemBasicPricePart_ = value;
             }
@@ -6531,7 +6531,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
          */
         public Builder clearToItemBasicPricePart() {
           if (toItemBasicPricePartBuilder_ == null) {
@@ -6549,9 +6549,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getToItemBasicPricePartBuilder() {
+        public io.dstore.values.DecimalValue.Builder getToItemBasicPricePartBuilder() {
           
           onChanged();
           return getToItemBasicPricePartFieldBuilder().getBuilder();
@@ -6561,14 +6561,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getToItemBasicPricePartOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getToItemBasicPricePartOrBuilder() {
           if (toItemBasicPricePartBuilder_ != null) {
             return toItemBasicPricePartBuilder_.getMessageOrBuilder();
           } else {
             return toItemBasicPricePart_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : toItemBasicPricePart_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : toItemBasicPricePart_;
           }
         }
         /**
@@ -6576,14 +6576,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price_part = 10011;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price_part = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getToItemBasicPricePartFieldBuilder() {
           if (toItemBasicPricePartBuilder_ == null) {
             toItemBasicPricePartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getToItemBasicPricePart(),
                     getParentForChildren(),
                     isClean());
@@ -6592,15 +6592,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return toItemBasicPricePartBuilder_;
         }
 
-        private io.dstore.Values.stringValue itemConditionPartDescription_ = null;
+        private io.dstore.values.StringValue itemConditionPartDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemConditionPartDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> itemConditionPartDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+         * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
          */
         public boolean hasItemConditionPartDescription() {
           return itemConditionPartDescriptionBuilder_ != null || itemConditionPartDescription_ != null;
@@ -6610,11 +6610,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+         * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
          */
-        public io.dstore.Values.stringValue getItemConditionPartDescription() {
+        public io.dstore.values.StringValue getItemConditionPartDescription() {
           if (itemConditionPartDescriptionBuilder_ == null) {
-            return itemConditionPartDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemConditionPartDescription_;
+            return itemConditionPartDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionPartDescription_;
           } else {
             return itemConditionPartDescriptionBuilder_.getMessage();
           }
@@ -6624,9 +6624,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+         * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
          */
-        public Builder setItemConditionPartDescription(io.dstore.Values.stringValue value) {
+        public Builder setItemConditionPartDescription(io.dstore.values.StringValue value) {
           if (itemConditionPartDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6644,10 +6644,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+         * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
          */
         public Builder setItemConditionPartDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (itemConditionPartDescriptionBuilder_ == null) {
             itemConditionPartDescription_ = builderForValue.build();
             onChanged();
@@ -6662,13 +6662,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+         * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
          */
-        public Builder mergeItemConditionPartDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeItemConditionPartDescription(io.dstore.values.StringValue value) {
           if (itemConditionPartDescriptionBuilder_ == null) {
             if (itemConditionPartDescription_ != null) {
               itemConditionPartDescription_ =
-                io.dstore.Values.stringValue.newBuilder(itemConditionPartDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(itemConditionPartDescription_).mergeFrom(value).buildPartial();
             } else {
               itemConditionPartDescription_ = value;
             }
@@ -6684,7 +6684,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+         * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
          */
         public Builder clearItemConditionPartDescription() {
           if (itemConditionPartDescriptionBuilder_ == null) {
@@ -6702,9 +6702,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+         * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
          */
-        public io.dstore.Values.stringValue.Builder getItemConditionPartDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getItemConditionPartDescriptionBuilder() {
           
           onChanged();
           return getItemConditionPartDescriptionFieldBuilder().getBuilder();
@@ -6714,14 +6714,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+         * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getItemConditionPartDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getItemConditionPartDescriptionOrBuilder() {
           if (itemConditionPartDescriptionBuilder_ != null) {
             return itemConditionPartDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return itemConditionPartDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : itemConditionPartDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : itemConditionPartDescription_;
           }
         }
         /**
@@ -6729,14 +6729,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_part_description = 10012;</code>
+         * <code>optional .dstore.values.StringValue item_condition_part_description = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getItemConditionPartDescriptionFieldBuilder() {
           if (itemConditionPartDescriptionBuilder_ == null) {
             itemConditionPartDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getItemConditionPartDescription(),
                     getParentForChildren(),
                     isClean());
@@ -6745,15 +6745,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return itemConditionPartDescriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue levelIds_ = null;
+        private io.dstore.values.StringValue levelIds_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> levelIdsBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> levelIdsBuilder_;
         /**
          * <pre>
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+         * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
          */
         public boolean hasLevelIds() {
           return levelIdsBuilder_ != null || levelIds_ != null;
@@ -6763,11 +6763,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+         * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
          */
-        public io.dstore.Values.stringValue getLevelIds() {
+        public io.dstore.values.StringValue getLevelIds() {
           if (levelIdsBuilder_ == null) {
-            return levelIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : levelIds_;
+            return levelIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelIds_;
           } else {
             return levelIdsBuilder_.getMessage();
           }
@@ -6777,9 +6777,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+         * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
          */
-        public Builder setLevelIds(io.dstore.Values.stringValue value) {
+        public Builder setLevelIds(io.dstore.values.StringValue value) {
           if (levelIdsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6797,10 +6797,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+         * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
          */
         public Builder setLevelIds(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (levelIdsBuilder_ == null) {
             levelIds_ = builderForValue.build();
             onChanged();
@@ -6815,13 +6815,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+         * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
          */
-        public Builder mergeLevelIds(io.dstore.Values.stringValue value) {
+        public Builder mergeLevelIds(io.dstore.values.StringValue value) {
           if (levelIdsBuilder_ == null) {
             if (levelIds_ != null) {
               levelIds_ =
-                io.dstore.Values.stringValue.newBuilder(levelIds_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(levelIds_).mergeFrom(value).buildPartial();
             } else {
               levelIds_ = value;
             }
@@ -6837,7 +6837,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+         * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
          */
         public Builder clearLevelIds() {
           if (levelIdsBuilder_ == null) {
@@ -6855,9 +6855,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+         * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
          */
-        public io.dstore.Values.stringValue.Builder getLevelIdsBuilder() {
+        public io.dstore.values.StringValue.Builder getLevelIdsBuilder() {
           
           onChanged();
           return getLevelIdsFieldBuilder().getBuilder();
@@ -6867,14 +6867,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+         * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getLevelIdsOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
           if (levelIdsBuilder_ != null) {
             return levelIdsBuilder_.getMessageOrBuilder();
           } else {
             return levelIds_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : levelIds_;
+                io.dstore.values.StringValue.getDefaultInstance() : levelIds_;
           }
         }
         /**
@@ -6882,14 +6882,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Um den (Artikel-)Bedingungs-Teil "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue level_ids = 10013;</code>
+         * <code>optional .dstore.values.StringValue level_ids = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getLevelIdsFieldBuilder() {
           if (levelIdsBuilder_ == null) {
             levelIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getLevelIds(),
                     getParentForChildren(),
                     isClean());
@@ -6898,15 +6898,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return levelIdsBuilder_;
         }
 
-        private io.dstore.Values.integerValue itemConditionGroupId_ = null;
+        private io.dstore.values.IntegerValue itemConditionGroupId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionGroupIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionGroupIdBuilder_;
         /**
          * <pre>
          * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
          */
         public boolean hasItemConditionGroupId() {
           return itemConditionGroupIdBuilder_ != null || itemConditionGroupId_ != null;
@@ -6916,11 +6916,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
          */
-        public io.dstore.Values.integerValue getItemConditionGroupId() {
+        public io.dstore.values.IntegerValue getItemConditionGroupId() {
           if (itemConditionGroupIdBuilder_ == null) {
-            return itemConditionGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionGroupId_;
+            return itemConditionGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionGroupId_;
           } else {
             return itemConditionGroupIdBuilder_.getMessage();
           }
@@ -6930,9 +6930,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
          */
-        public Builder setItemConditionGroupId(io.dstore.Values.integerValue value) {
+        public Builder setItemConditionGroupId(io.dstore.values.IntegerValue value) {
           if (itemConditionGroupIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -6950,10 +6950,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
          */
         public Builder setItemConditionGroupId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (itemConditionGroupIdBuilder_ == null) {
             itemConditionGroupId_ = builderForValue.build();
             onChanged();
@@ -6968,13 +6968,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
          */
-        public Builder mergeItemConditionGroupId(io.dstore.Values.integerValue value) {
+        public Builder mergeItemConditionGroupId(io.dstore.values.IntegerValue value) {
           if (itemConditionGroupIdBuilder_ == null) {
             if (itemConditionGroupId_ != null) {
               itemConditionGroupId_ =
-                io.dstore.Values.integerValue.newBuilder(itemConditionGroupId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(itemConditionGroupId_).mergeFrom(value).buildPartial();
             } else {
               itemConditionGroupId_ = value;
             }
@@ -6990,7 +6990,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
          */
         public Builder clearItemConditionGroupId() {
           if (itemConditionGroupIdBuilder_ == null) {
@@ -7008,9 +7008,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
          */
-        public io.dstore.Values.integerValue.Builder getItemConditionGroupIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getItemConditionGroupIdBuilder() {
           
           onChanged();
           return getItemConditionGroupIdFieldBuilder().getBuilder();
@@ -7020,14 +7020,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getItemConditionGroupIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getItemConditionGroupIdOrBuilder() {
           if (itemConditionGroupIdBuilder_ != null) {
             return itemConditionGroupIdBuilder_.getMessageOrBuilder();
           } else {
             return itemConditionGroupId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : itemConditionGroupId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionGroupId_;
           }
         }
         /**
@@ -7035,14 +7035,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Bedingungs-Gruppe, die Bestandteil der Artikel-Bedingung, auf der "ConditionID" basiert, ist - natürlich identisch mit "&#64;ItemConditionGroupID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_group_id = 10014;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_group_id = 10014;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getItemConditionGroupIdFieldBuilder() {
           if (itemConditionGroupIdBuilder_ == null) {
             itemConditionGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getItemConditionGroupId(),
                     getParentForChildren(),
                     isClean());
@@ -7051,15 +7051,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return itemConditionGroupIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue extendedItemCondGroupDescr_ = null;
+        private io.dstore.values.StringValue extendedItemCondGroupDescr_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> extendedItemCondGroupDescrBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> extendedItemCondGroupDescrBuilder_;
         /**
          * <pre>
          * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
          */
         public boolean hasExtendedItemCondGroupDescr() {
           return extendedItemCondGroupDescrBuilder_ != null || extendedItemCondGroupDescr_ != null;
@@ -7069,11 +7069,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
          */
-        public io.dstore.Values.stringValue getExtendedItemCondGroupDescr() {
+        public io.dstore.values.StringValue getExtendedItemCondGroupDescr() {
           if (extendedItemCondGroupDescrBuilder_ == null) {
-            return extendedItemCondGroupDescr_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : extendedItemCondGroupDescr_;
+            return extendedItemCondGroupDescr_ == null ? io.dstore.values.StringValue.getDefaultInstance() : extendedItemCondGroupDescr_;
           } else {
             return extendedItemCondGroupDescrBuilder_.getMessage();
           }
@@ -7083,9 +7083,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
          */
-        public Builder setExtendedItemCondGroupDescr(io.dstore.Values.stringValue value) {
+        public Builder setExtendedItemCondGroupDescr(io.dstore.values.StringValue value) {
           if (extendedItemCondGroupDescrBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7103,10 +7103,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
          */
         public Builder setExtendedItemCondGroupDescr(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (extendedItemCondGroupDescrBuilder_ == null) {
             extendedItemCondGroupDescr_ = builderForValue.build();
             onChanged();
@@ -7121,13 +7121,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
          */
-        public Builder mergeExtendedItemCondGroupDescr(io.dstore.Values.stringValue value) {
+        public Builder mergeExtendedItemCondGroupDescr(io.dstore.values.StringValue value) {
           if (extendedItemCondGroupDescrBuilder_ == null) {
             if (extendedItemCondGroupDescr_ != null) {
               extendedItemCondGroupDescr_ =
-                io.dstore.Values.stringValue.newBuilder(extendedItemCondGroupDescr_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(extendedItemCondGroupDescr_).mergeFrom(value).buildPartial();
             } else {
               extendedItemCondGroupDescr_ = value;
             }
@@ -7143,7 +7143,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
          */
         public Builder clearExtendedItemCondGroupDescr() {
           if (extendedItemCondGroupDescrBuilder_ == null) {
@@ -7161,9 +7161,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
          */
-        public io.dstore.Values.stringValue.Builder getExtendedItemCondGroupDescrBuilder() {
+        public io.dstore.values.StringValue.Builder getExtendedItemCondGroupDescrBuilder() {
           
           onChanged();
           return getExtendedItemCondGroupDescrFieldBuilder().getBuilder();
@@ -7173,14 +7173,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getExtendedItemCondGroupDescrOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getExtendedItemCondGroupDescrOrBuilder() {
           if (extendedItemCondGroupDescrBuilder_ != null) {
             return extendedItemCondGroupDescrBuilder_.getMessageOrBuilder();
           } else {
             return extendedItemCondGroupDescr_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : extendedItemCondGroupDescr_;
+                io.dstore.values.StringValue.getDefaultInstance() : extendedItemCondGroupDescr_;
           }
         }
         /**
@@ -7188,14 +7188,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung der um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Gruppe "ItemConditionGroupID" ("NULL", wenn die Bedingungs-Gruppe nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_group_descr = 10015;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_group_descr = 10015;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getExtendedItemCondGroupDescrFieldBuilder() {
           if (extendedItemCondGroupDescrBuilder_ == null) {
             extendedItemCondGroupDescrBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getExtendedItemCondGroupDescr(),
                     getParentForChildren(),
                     isClean());
@@ -7204,15 +7204,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return extendedItemCondGroupDescrBuilder_;
         }
 
-        private io.dstore.Values.integerValue fromQuantity_ = null;
+        private io.dstore.values.IntegerValue fromQuantity_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromQuantityBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromQuantityBuilder_;
         /**
          * <pre>
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
          */
         public boolean hasFromQuantity() {
           return fromQuantityBuilder_ != null || fromQuantity_ != null;
@@ -7222,11 +7222,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
          */
-        public io.dstore.Values.integerValue getFromQuantity() {
+        public io.dstore.values.IntegerValue getFromQuantity() {
           if (fromQuantityBuilder_ == null) {
-            return fromQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromQuantity_;
+            return fromQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromQuantity_;
           } else {
             return fromQuantityBuilder_.getMessage();
           }
@@ -7236,9 +7236,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
          */
-        public Builder setFromQuantity(io.dstore.Values.integerValue value) {
+        public Builder setFromQuantity(io.dstore.values.IntegerValue value) {
           if (fromQuantityBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7256,10 +7256,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
          */
         public Builder setFromQuantity(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (fromQuantityBuilder_ == null) {
             fromQuantity_ = builderForValue.build();
             onChanged();
@@ -7274,13 +7274,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
          */
-        public Builder mergeFromQuantity(io.dstore.Values.integerValue value) {
+        public Builder mergeFromQuantity(io.dstore.values.IntegerValue value) {
           if (fromQuantityBuilder_ == null) {
             if (fromQuantity_ != null) {
               fromQuantity_ =
-                io.dstore.Values.integerValue.newBuilder(fromQuantity_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(fromQuantity_).mergeFrom(value).buildPartial();
             } else {
               fromQuantity_ = value;
             }
@@ -7296,7 +7296,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
          */
         public Builder clearFromQuantity() {
           if (fromQuantityBuilder_ == null) {
@@ -7314,9 +7314,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
          */
-        public io.dstore.Values.integerValue.Builder getFromQuantityBuilder() {
+        public io.dstore.values.IntegerValue.Builder getFromQuantityBuilder() {
           
           onChanged();
           return getFromQuantityFieldBuilder().getBuilder();
@@ -7326,14 +7326,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getFromQuantityOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getFromQuantityOrBuilder() {
           if (fromQuantityBuilder_ != null) {
             return fromQuantityBuilder_.getMessageOrBuilder();
           } else {
             return fromQuantity_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : fromQuantity_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : fromQuantity_;
           }
         }
         /**
@@ -7341,14 +7341,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity = 10016;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity = 10016;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getFromQuantityFieldBuilder() {
           if (fromQuantityBuilder_ == null) {
             fromQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getFromQuantity(),
                     getParentForChildren(),
                     isClean());
@@ -7357,15 +7357,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return fromQuantityBuilder_;
         }
 
-        private io.dstore.Values.decimalValue fromItemBasicPrice_ = null;
+        private io.dstore.values.DecimalValue fromItemBasicPrice_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromItemBasicPriceBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> fromItemBasicPriceBuilder_;
         /**
          * <pre>
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
          */
         public boolean hasFromItemBasicPrice() {
           return fromItemBasicPriceBuilder_ != null || fromItemBasicPrice_ != null;
@@ -7375,11 +7375,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
          */
-        public io.dstore.Values.decimalValue getFromItemBasicPrice() {
+        public io.dstore.values.DecimalValue getFromItemBasicPrice() {
           if (fromItemBasicPriceBuilder_ == null) {
-            return fromItemBasicPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromItemBasicPrice_;
+            return fromItemBasicPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromItemBasicPrice_;
           } else {
             return fromItemBasicPriceBuilder_.getMessage();
           }
@@ -7389,9 +7389,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
          */
-        public Builder setFromItemBasicPrice(io.dstore.Values.decimalValue value) {
+        public Builder setFromItemBasicPrice(io.dstore.values.DecimalValue value) {
           if (fromItemBasicPriceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7409,10 +7409,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
          */
         public Builder setFromItemBasicPrice(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (fromItemBasicPriceBuilder_ == null) {
             fromItemBasicPrice_ = builderForValue.build();
             onChanged();
@@ -7427,13 +7427,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
          */
-        public Builder mergeFromItemBasicPrice(io.dstore.Values.decimalValue value) {
+        public Builder mergeFromItemBasicPrice(io.dstore.values.DecimalValue value) {
           if (fromItemBasicPriceBuilder_ == null) {
             if (fromItemBasicPrice_ != null) {
               fromItemBasicPrice_ =
-                io.dstore.Values.decimalValue.newBuilder(fromItemBasicPrice_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(fromItemBasicPrice_).mergeFrom(value).buildPartial();
             } else {
               fromItemBasicPrice_ = value;
             }
@@ -7449,7 +7449,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
          */
         public Builder clearFromItemBasicPrice() {
           if (fromItemBasicPriceBuilder_ == null) {
@@ -7467,9 +7467,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getFromItemBasicPriceBuilder() {
+        public io.dstore.values.DecimalValue.Builder getFromItemBasicPriceBuilder() {
           
           onChanged();
           return getFromItemBasicPriceFieldBuilder().getBuilder();
@@ -7479,14 +7479,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getFromItemBasicPriceOrBuilder() {
           if (fromItemBasicPriceBuilder_ != null) {
             return fromItemBasicPriceBuilder_.getMessageOrBuilder();
           } else {
             return fromItemBasicPrice_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : fromItemBasicPrice_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : fromItemBasicPrice_;
           }
         }
         /**
@@ -7494,14 +7494,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price = 10017;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price = 10017;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getFromItemBasicPriceFieldBuilder() {
           if (fromItemBasicPriceBuilder_ == null) {
             fromItemBasicPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getFromItemBasicPrice(),
                     getParentForChildren(),
                     isClean());
@@ -7510,15 +7510,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return fromItemBasicPriceBuilder_;
         }
 
-        private io.dstore.Values.integerValue itemGroupSortNo_ = null;
+        private io.dstore.values.IntegerValue itemGroupSortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemGroupSortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemGroupSortNoBuilder_;
         /**
          * <pre>
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
          */
         public boolean hasItemGroupSortNo() {
           return itemGroupSortNoBuilder_ != null || itemGroupSortNo_ != null;
@@ -7528,11 +7528,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
          */
-        public io.dstore.Values.integerValue getItemGroupSortNo() {
+        public io.dstore.values.IntegerValue getItemGroupSortNo() {
           if (itemGroupSortNoBuilder_ == null) {
-            return itemGroupSortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemGroupSortNo_;
+            return itemGroupSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemGroupSortNo_;
           } else {
             return itemGroupSortNoBuilder_.getMessage();
           }
@@ -7542,9 +7542,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
          */
-        public Builder setItemGroupSortNo(io.dstore.Values.integerValue value) {
+        public Builder setItemGroupSortNo(io.dstore.values.IntegerValue value) {
           if (itemGroupSortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7562,10 +7562,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
          */
         public Builder setItemGroupSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (itemGroupSortNoBuilder_ == null) {
             itemGroupSortNo_ = builderForValue.build();
             onChanged();
@@ -7580,13 +7580,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
          */
-        public Builder mergeItemGroupSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeItemGroupSortNo(io.dstore.values.IntegerValue value) {
           if (itemGroupSortNoBuilder_ == null) {
             if (itemGroupSortNo_ != null) {
               itemGroupSortNo_ =
-                io.dstore.Values.integerValue.newBuilder(itemGroupSortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(itemGroupSortNo_).mergeFrom(value).buildPartial();
             } else {
               itemGroupSortNo_ = value;
             }
@@ -7602,7 +7602,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
          */
         public Builder clearItemGroupSortNo() {
           if (itemGroupSortNoBuilder_ == null) {
@@ -7620,9 +7620,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
          */
-        public io.dstore.Values.integerValue.Builder getItemGroupSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getItemGroupSortNoBuilder() {
           
           onChanged();
           return getItemGroupSortNoFieldBuilder().getBuilder();
@@ -7632,14 +7632,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getItemGroupSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getItemGroupSortNoOrBuilder() {
           if (itemGroupSortNoBuilder_ != null) {
             return itemGroupSortNoBuilder_.getMessageOrBuilder();
           } else {
             return itemGroupSortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : itemGroupSortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : itemGroupSortNo_;
           }
         }
         /**
@@ -7647,14 +7647,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionGroupID" innerhalb aller der Artikel-Bedingung (auf der "ConditionID" basiert) zugeordneten Bedingungs-Gruppen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_group_sort_no = 10018;</code>
+         * <code>optional .dstore.values.IntegerValue item_group_sort_no = 10018;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getItemGroupSortNoFieldBuilder() {
           if (itemGroupSortNoBuilder_ == null) {
             itemGroupSortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getItemGroupSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -7663,15 +7663,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return itemGroupSortNoBuilder_;
         }
 
-        private io.dstore.Values.stringValue operator1_ = null;
+        private io.dstore.values.StringValue operator1_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator1Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> operator1Builder_;
         /**
          * <pre>
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+         * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
          */
         public boolean hasOperator1() {
           return operator1Builder_ != null || operator1_ != null;
@@ -7681,11 +7681,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+         * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
          */
-        public io.dstore.Values.stringValue getOperator1() {
+        public io.dstore.values.StringValue getOperator1() {
           if (operator1Builder_ == null) {
-            return operator1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator1_;
+            return operator1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator1_;
           } else {
             return operator1Builder_.getMessage();
           }
@@ -7695,9 +7695,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+         * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
          */
-        public Builder setOperator1(io.dstore.Values.stringValue value) {
+        public Builder setOperator1(io.dstore.values.StringValue value) {
           if (operator1Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7715,10 +7715,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+         * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
          */
         public Builder setOperator1(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (operator1Builder_ == null) {
             operator1_ = builderForValue.build();
             onChanged();
@@ -7733,13 +7733,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+         * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
          */
-        public Builder mergeOperator1(io.dstore.Values.stringValue value) {
+        public Builder mergeOperator1(io.dstore.values.StringValue value) {
           if (operator1Builder_ == null) {
             if (operator1_ != null) {
               operator1_ =
-                io.dstore.Values.stringValue.newBuilder(operator1_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(operator1_).mergeFrom(value).buildPartial();
             } else {
               operator1_ = value;
             }
@@ -7755,7 +7755,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+         * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
          */
         public Builder clearOperator1() {
           if (operator1Builder_ == null) {
@@ -7773,9 +7773,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+         * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
          */
-        public io.dstore.Values.stringValue.Builder getOperator1Builder() {
+        public io.dstore.values.StringValue.Builder getOperator1Builder() {
           
           onChanged();
           return getOperator1FieldBuilder().getBuilder();
@@ -7785,14 +7785,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+         * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getOperator1OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
           if (operator1Builder_ != null) {
             return operator1Builder_.getMessageOrBuilder();
           } else {
             return operator1_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : operator1_;
+                io.dstore.values.StringValue.getDefaultInstance() : operator1_;
           }
         }
         /**
@@ -7800,14 +7800,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition1". Mögliche Werte :- "="- "!=" / "&lt;&gt;"  - "~" / "!~" (LIKE / NOT LIKE)- "&gt;"- "&lt;"- "&gt;="- "&lt;="- "IN" / "!I" (in / NICHT in Menge von "Value"-Werten)- "E" / "!E" (IRGENDEINE / KEINE Eigenschaft)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator1 = 10019;</code>
+         * <code>optional .dstore.values.StringValue operator1 = 10019;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getOperator1FieldBuilder() {
           if (operator1Builder_ == null) {
             operator1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getOperator1(),
                     getParentForChildren(),
                     isClean());
@@ -7816,15 +7816,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return operator1Builder_;
         }
 
-        private io.dstore.Values.stringValue operator2_ = null;
+        private io.dstore.values.StringValue operator2_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator2Builder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> operator2Builder_;
         /**
          * <pre>
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+         * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
          */
         public boolean hasOperator2() {
           return operator2Builder_ != null || operator2_ != null;
@@ -7834,11 +7834,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+         * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
          */
-        public io.dstore.Values.stringValue getOperator2() {
+        public io.dstore.values.StringValue getOperator2() {
           if (operator2Builder_ == null) {
-            return operator2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator2_;
+            return operator2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator2_;
           } else {
             return operator2Builder_.getMessage();
           }
@@ -7848,9 +7848,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+         * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
          */
-        public Builder setOperator2(io.dstore.Values.stringValue value) {
+        public Builder setOperator2(io.dstore.values.StringValue value) {
           if (operator2Builder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -7868,10 +7868,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+         * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
          */
         public Builder setOperator2(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (operator2Builder_ == null) {
             operator2_ = builderForValue.build();
             onChanged();
@@ -7886,13 +7886,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+         * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
          */
-        public Builder mergeOperator2(io.dstore.Values.stringValue value) {
+        public Builder mergeOperator2(io.dstore.values.StringValue value) {
           if (operator2Builder_ == null) {
             if (operator2_ != null) {
               operator2_ =
-                io.dstore.Values.stringValue.newBuilder(operator2_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(operator2_).mergeFrom(value).buildPartial();
             } else {
               operator2_ = value;
             }
@@ -7908,7 +7908,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+         * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
          */
         public Builder clearOperator2() {
           if (operator2Builder_ == null) {
@@ -7926,9 +7926,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+         * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
          */
-        public io.dstore.Values.stringValue.Builder getOperator2Builder() {
+        public io.dstore.values.StringValue.Builder getOperator2Builder() {
           
           onChanged();
           return getOperator2FieldBuilder().getBuilder();
@@ -7938,14 +7938,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+         * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getOperator2OrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
           if (operator2Builder_ != null) {
             return operator2Builder_.getMessageOrBuilder();
           } else {
             return operator2_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : operator2_;
+                io.dstore.values.StringValue.getDefaultInstance() : operator2_;
           }
         }
         /**
@@ -7953,14 +7953,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Operator für die Bedingung "Condition2". Mögliche Werte :- "&lt;" oder "&lt;=", falls "Operator1" "&gt;" oder "&gt;=" enthält- bel. Zeichen (Trennzeichen für Werte-Menge), falls "Operator1" "IN" oder "!I" enthält
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue operator2 = 10020;</code>
+         * <code>optional .dstore.values.StringValue operator2 = 10020;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getOperator2FieldBuilder() {
           if (operator2Builder_ == null) {
             operator2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getOperator2(),
                     getParentForChildren(),
                     isClean());
@@ -7969,15 +7969,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return operator2Builder_;
         }
 
-        private io.dstore.Values.booleanValue combinePartsWithANDOperator_ = null;
+        private io.dstore.values.BooleanValue combinePartsWithANDOperator_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> combinePartsWithANDOperatorBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> combinePartsWithANDOperatorBuilder_;
         /**
          * <pre>
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
          */
         public boolean hasCombinePartsWithANDOperator() {
           return combinePartsWithANDOperatorBuilder_ != null || combinePartsWithANDOperator_ != null;
@@ -7987,11 +7987,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
          */
-        public io.dstore.Values.booleanValue getCombinePartsWithANDOperator() {
+        public io.dstore.values.BooleanValue getCombinePartsWithANDOperator() {
           if (combinePartsWithANDOperatorBuilder_ == null) {
-            return combinePartsWithANDOperator_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : combinePartsWithANDOperator_;
+            return combinePartsWithANDOperator_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : combinePartsWithANDOperator_;
           } else {
             return combinePartsWithANDOperatorBuilder_.getMessage();
           }
@@ -8001,9 +8001,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
          */
-        public Builder setCombinePartsWithANDOperator(io.dstore.Values.booleanValue value) {
+        public Builder setCombinePartsWithANDOperator(io.dstore.values.BooleanValue value) {
           if (combinePartsWithANDOperatorBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8021,10 +8021,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
          */
         public Builder setCombinePartsWithANDOperator(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (combinePartsWithANDOperatorBuilder_ == null) {
             combinePartsWithANDOperator_ = builderForValue.build();
             onChanged();
@@ -8039,13 +8039,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
          */
-        public Builder mergeCombinePartsWithANDOperator(io.dstore.Values.booleanValue value) {
+        public Builder mergeCombinePartsWithANDOperator(io.dstore.values.BooleanValue value) {
           if (combinePartsWithANDOperatorBuilder_ == null) {
             if (combinePartsWithANDOperator_ != null) {
               combinePartsWithANDOperator_ =
-                io.dstore.Values.booleanValue.newBuilder(combinePartsWithANDOperator_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(combinePartsWithANDOperator_).mergeFrom(value).buildPartial();
             } else {
               combinePartsWithANDOperator_ = value;
             }
@@ -8061,7 +8061,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
          */
         public Builder clearCombinePartsWithANDOperator() {
           if (combinePartsWithANDOperatorBuilder_ == null) {
@@ -8079,9 +8079,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getCombinePartsWithANDOperatorBuilder() {
+        public io.dstore.values.BooleanValue.Builder getCombinePartsWithANDOperatorBuilder() {
           
           onChanged();
           return getCombinePartsWithANDOperatorFieldBuilder().getBuilder();
@@ -8091,14 +8091,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getCombinePartsWithANDOperatorOrBuilder() {
           if (combinePartsWithANDOperatorBuilder_ != null) {
             return combinePartsWithANDOperatorBuilder_.getMessageOrBuilder();
           } else {
             return combinePartsWithANDOperator_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : combinePartsWithANDOperator_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : combinePartsWithANDOperator_;
           }
         }
         /**
@@ -8106,14 +8106,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Gibt an, ob die der "ItemConditionGroupID" zugeordneten Bedingungs-Teile logisch mit UND verknüpft werden ("1") oder mit ODER ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue combine_parts_with_a_n_d_operator = 10021;</code>
+         * <code>optional .dstore.values.BooleanValue combine_parts_with_a_n_d_operator = 10021;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getCombinePartsWithANDOperatorFieldBuilder() {
           if (combinePartsWithANDOperatorBuilder_ == null) {
             combinePartsWithANDOperatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getCombinePartsWithANDOperator(),
                     getParentForChildren(),
                     isClean());
@@ -8122,15 +8122,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return combinePartsWithANDOperatorBuilder_;
         }
 
-        private io.dstore.Values.integerValue minNumberOfItemsPart_ = null;
+        private io.dstore.values.IntegerValue minNumberOfItemsPart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> minNumberOfItemsPartBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> minNumberOfItemsPartBuilder_;
         /**
          * <pre>
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
          */
         public boolean hasMinNumberOfItemsPart() {
           return minNumberOfItemsPartBuilder_ != null || minNumberOfItemsPart_ != null;
@@ -8140,11 +8140,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
          */
-        public io.dstore.Values.integerValue getMinNumberOfItemsPart() {
+        public io.dstore.values.IntegerValue getMinNumberOfItemsPart() {
           if (minNumberOfItemsPartBuilder_ == null) {
-            return minNumberOfItemsPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : minNumberOfItemsPart_;
+            return minNumberOfItemsPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : minNumberOfItemsPart_;
           } else {
             return minNumberOfItemsPartBuilder_.getMessage();
           }
@@ -8154,9 +8154,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
          */
-        public Builder setMinNumberOfItemsPart(io.dstore.Values.integerValue value) {
+        public Builder setMinNumberOfItemsPart(io.dstore.values.IntegerValue value) {
           if (minNumberOfItemsPartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8174,10 +8174,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
          */
         public Builder setMinNumberOfItemsPart(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (minNumberOfItemsPartBuilder_ == null) {
             minNumberOfItemsPart_ = builderForValue.build();
             onChanged();
@@ -8192,13 +8192,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
          */
-        public Builder mergeMinNumberOfItemsPart(io.dstore.Values.integerValue value) {
+        public Builder mergeMinNumberOfItemsPart(io.dstore.values.IntegerValue value) {
           if (minNumberOfItemsPartBuilder_ == null) {
             if (minNumberOfItemsPart_ != null) {
               minNumberOfItemsPart_ =
-                io.dstore.Values.integerValue.newBuilder(minNumberOfItemsPart_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(minNumberOfItemsPart_).mergeFrom(value).buildPartial();
             } else {
               minNumberOfItemsPart_ = value;
             }
@@ -8214,7 +8214,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
          */
         public Builder clearMinNumberOfItemsPart() {
           if (minNumberOfItemsPartBuilder_ == null) {
@@ -8232,9 +8232,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMinNumberOfItemsPartBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMinNumberOfItemsPartBuilder() {
           
           onChanged();
           return getMinNumberOfItemsPartFieldBuilder().getBuilder();
@@ -8244,14 +8244,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMinNumberOfItemsPartOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMinNumberOfItemsPartOrBuilder() {
           if (minNumberOfItemsPartBuilder_ != null) {
             return minNumberOfItemsPartBuilder_.getMessageOrBuilder();
           } else {
             return minNumberOfItemsPart_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : minNumberOfItemsPart_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : minNumberOfItemsPart_;
           }
         }
         /**
@@ -8259,14 +8259,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items_part = 10022;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items_part = 10022;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMinNumberOfItemsPartFieldBuilder() {
           if (minNumberOfItemsPartBuilder_ == null) {
             minNumberOfItemsPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMinNumberOfItemsPart(),
                     getParentForChildren(),
                     isClean());
@@ -8275,15 +8275,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return minNumberOfItemsPartBuilder_;
         }
 
-        private io.dstore.Values.integerValue itemPartSortNo_ = null;
+        private io.dstore.values.IntegerValue itemPartSortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemPartSortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemPartSortNoBuilder_;
         /**
          * <pre>
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
          */
         public boolean hasItemPartSortNo() {
           return itemPartSortNoBuilder_ != null || itemPartSortNo_ != null;
@@ -8293,11 +8293,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
          */
-        public io.dstore.Values.integerValue getItemPartSortNo() {
+        public io.dstore.values.IntegerValue getItemPartSortNo() {
           if (itemPartSortNoBuilder_ == null) {
-            return itemPartSortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemPartSortNo_;
+            return itemPartSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemPartSortNo_;
           } else {
             return itemPartSortNoBuilder_.getMessage();
           }
@@ -8307,9 +8307,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
          */
-        public Builder setItemPartSortNo(io.dstore.Values.integerValue value) {
+        public Builder setItemPartSortNo(io.dstore.values.IntegerValue value) {
           if (itemPartSortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8327,10 +8327,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
          */
         public Builder setItemPartSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (itemPartSortNoBuilder_ == null) {
             itemPartSortNo_ = builderForValue.build();
             onChanged();
@@ -8345,13 +8345,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
          */
-        public Builder mergeItemPartSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeItemPartSortNo(io.dstore.values.IntegerValue value) {
           if (itemPartSortNoBuilder_ == null) {
             if (itemPartSortNo_ != null) {
               itemPartSortNo_ =
-                io.dstore.Values.integerValue.newBuilder(itemPartSortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(itemPartSortNo_).mergeFrom(value).buildPartial();
             } else {
               itemPartSortNo_ = value;
             }
@@ -8367,7 +8367,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
          */
         public Builder clearItemPartSortNo() {
           if (itemPartSortNoBuilder_ == null) {
@@ -8385,9 +8385,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
          */
-        public io.dstore.Values.integerValue.Builder getItemPartSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getItemPartSortNoBuilder() {
           
           onChanged();
           return getItemPartSortNoFieldBuilder().getBuilder();
@@ -8397,14 +8397,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getItemPartSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getItemPartSortNoOrBuilder() {
           if (itemPartSortNoBuilder_ != null) {
             return itemPartSortNoBuilder_.getMessageOrBuilder();
           } else {
             return itemPartSortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : itemPartSortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : itemPartSortNo_;
           }
         }
         /**
@@ -8412,14 +8412,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bestimmt die Reihenfolge von "ItemConditionPartID" innerhalb aller der Bedingungs-Gruppe "ItemConditionGroupID" zugeordneten Bedingungs-Teile
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_part_sort_no = 10023;</code>
+         * <code>optional .dstore.values.IntegerValue item_part_sort_no = 10023;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getItemPartSortNoFieldBuilder() {
           if (itemPartSortNoBuilder_ == null) {
             itemPartSortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getItemPartSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -8428,15 +8428,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return itemPartSortNoBuilder_;
         }
 
-        private io.dstore.Values.stringValue extendedItemCondPartDescr_ = null;
+        private io.dstore.values.StringValue extendedItemCondPartDescr_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> extendedItemCondPartDescrBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> extendedItemCondPartDescrBuilder_;
         /**
          * <pre>
          * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
          */
         public boolean hasExtendedItemCondPartDescr() {
           return extendedItemCondPartDescrBuilder_ != null || extendedItemCondPartDescr_ != null;
@@ -8446,11 +8446,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
          */
-        public io.dstore.Values.stringValue getExtendedItemCondPartDescr() {
+        public io.dstore.values.StringValue getExtendedItemCondPartDescr() {
           if (extendedItemCondPartDescrBuilder_ == null) {
-            return extendedItemCondPartDescr_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : extendedItemCondPartDescr_;
+            return extendedItemCondPartDescr_ == null ? io.dstore.values.StringValue.getDefaultInstance() : extendedItemCondPartDescr_;
           } else {
             return extendedItemCondPartDescrBuilder_.getMessage();
           }
@@ -8460,9 +8460,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
          */
-        public Builder setExtendedItemCondPartDescr(io.dstore.Values.stringValue value) {
+        public Builder setExtendedItemCondPartDescr(io.dstore.values.StringValue value) {
           if (extendedItemCondPartDescrBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8480,10 +8480,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
          */
         public Builder setExtendedItemCondPartDescr(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (extendedItemCondPartDescrBuilder_ == null) {
             extendedItemCondPartDescr_ = builderForValue.build();
             onChanged();
@@ -8498,13 +8498,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
          */
-        public Builder mergeExtendedItemCondPartDescr(io.dstore.Values.stringValue value) {
+        public Builder mergeExtendedItemCondPartDescr(io.dstore.values.StringValue value) {
           if (extendedItemCondPartDescrBuilder_ == null) {
             if (extendedItemCondPartDescr_ != null) {
               extendedItemCondPartDescr_ =
-                io.dstore.Values.stringValue.newBuilder(extendedItemCondPartDescr_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(extendedItemCondPartDescr_).mergeFrom(value).buildPartial();
             } else {
               extendedItemCondPartDescr_ = value;
             }
@@ -8520,7 +8520,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
          */
         public Builder clearExtendedItemCondPartDescr() {
           if (extendedItemCondPartDescrBuilder_ == null) {
@@ -8538,9 +8538,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
          */
-        public io.dstore.Values.stringValue.Builder getExtendedItemCondPartDescrBuilder() {
+        public io.dstore.values.StringValue.Builder getExtendedItemCondPartDescrBuilder() {
           
           onChanged();
           return getExtendedItemCondPartDescrFieldBuilder().getBuilder();
@@ -8550,14 +8550,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getExtendedItemCondPartDescrOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getExtendedItemCondPartDescrOrBuilder() {
           if (extendedItemCondPartDescrBuilder_ != null) {
             return extendedItemCondPartDescrBuilder_.getMessageOrBuilder();
           } else {
             return extendedItemCondPartDescr_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : extendedItemCondPartDescr_;
+                io.dstore.values.StringValue.getDefaultInstance() : extendedItemCondPartDescr_;
           }
         }
         /**
@@ -8565,14 +8565,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Bezeichnung des um Mengen- und/oder Warenwert-Kriterium erweiterten Bedingungs-Teils "ItemConditionPartID" ("NULL", wenn der Bedingungs-Teil nicht erweitert ist)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue extended_item_cond_part_descr = 10024;</code>
+         * <code>optional .dstore.values.StringValue extended_item_cond_part_descr = 10024;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getExtendedItemCondPartDescrFieldBuilder() {
           if (extendedItemCondPartDescrBuilder_ == null) {
             extendedItemCondPartDescrBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getExtendedItemCondPartDescr(),
                     getParentForChildren(),
                     isClean());
@@ -8581,15 +8581,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return extendedItemCondPartDescrBuilder_;
         }
 
-        private io.dstore.Values.integerValue maxNumberOfItemsPart_ = null;
+        private io.dstore.values.IntegerValue maxNumberOfItemsPart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfItemsPartBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfItemsPartBuilder_;
         /**
          * <pre>
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
          */
         public boolean hasMaxNumberOfItemsPart() {
           return maxNumberOfItemsPartBuilder_ != null || maxNumberOfItemsPart_ != null;
@@ -8599,11 +8599,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
          */
-        public io.dstore.Values.integerValue getMaxNumberOfItemsPart() {
+        public io.dstore.values.IntegerValue getMaxNumberOfItemsPart() {
           if (maxNumberOfItemsPartBuilder_ == null) {
-            return maxNumberOfItemsPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfItemsPart_;
+            return maxNumberOfItemsPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfItemsPart_;
           } else {
             return maxNumberOfItemsPartBuilder_.getMessage();
           }
@@ -8613,9 +8613,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
          */
-        public Builder setMaxNumberOfItemsPart(io.dstore.Values.integerValue value) {
+        public Builder setMaxNumberOfItemsPart(io.dstore.values.IntegerValue value) {
           if (maxNumberOfItemsPartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8633,10 +8633,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
          */
         public Builder setMaxNumberOfItemsPart(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (maxNumberOfItemsPartBuilder_ == null) {
             maxNumberOfItemsPart_ = builderForValue.build();
             onChanged();
@@ -8651,13 +8651,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
          */
-        public Builder mergeMaxNumberOfItemsPart(io.dstore.Values.integerValue value) {
+        public Builder mergeMaxNumberOfItemsPart(io.dstore.values.IntegerValue value) {
           if (maxNumberOfItemsPartBuilder_ == null) {
             if (maxNumberOfItemsPart_ != null) {
               maxNumberOfItemsPart_ =
-                io.dstore.Values.integerValue.newBuilder(maxNumberOfItemsPart_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(maxNumberOfItemsPart_).mergeFrom(value).buildPartial();
             } else {
               maxNumberOfItemsPart_ = value;
             }
@@ -8673,7 +8673,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
          */
         public Builder clearMaxNumberOfItemsPart() {
           if (maxNumberOfItemsPartBuilder_ == null) {
@@ -8691,9 +8691,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMaxNumberOfItemsPartBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMaxNumberOfItemsPartBuilder() {
           
           onChanged();
           return getMaxNumberOfItemsPartFieldBuilder().getBuilder();
@@ -8703,14 +8703,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMaxNumberOfItemsPartOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfItemsPartOrBuilder() {
           if (maxNumberOfItemsPartBuilder_ != null) {
             return maxNumberOfItemsPartBuilder_.getMessageOrBuilder();
           } else {
             return maxNumberOfItemsPart_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfItemsPart_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfItemsPart_;
           }
         }
         /**
@@ -8718,14 +8718,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "MinNumberOfItems" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_number_of_items_part = 10025;</code>
+         * <code>optional .dstore.values.IntegerValue max_number_of_items_part = 10025;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMaxNumberOfItemsPartFieldBuilder() {
           if (maxNumberOfItemsPartBuilder_ == null) {
             maxNumberOfItemsPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMaxNumberOfItemsPart(),
                     getParentForChildren(),
                     isClean());
@@ -8734,15 +8734,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return maxNumberOfItemsPartBuilder_;
         }
 
-        private io.dstore.Values.decimalValue fromItemBasicPricePart_ = null;
+        private io.dstore.values.DecimalValue fromItemBasicPricePart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromItemBasicPricePartBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> fromItemBasicPricePartBuilder_;
         /**
          * <pre>
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
          */
         public boolean hasFromItemBasicPricePart() {
           return fromItemBasicPricePartBuilder_ != null || fromItemBasicPricePart_ != null;
@@ -8752,11 +8752,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
          */
-        public io.dstore.Values.decimalValue getFromItemBasicPricePart() {
+        public io.dstore.values.DecimalValue getFromItemBasicPricePart() {
           if (fromItemBasicPricePartBuilder_ == null) {
-            return fromItemBasicPricePart_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromItemBasicPricePart_;
+            return fromItemBasicPricePart_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromItemBasicPricePart_;
           } else {
             return fromItemBasicPricePartBuilder_.getMessage();
           }
@@ -8766,9 +8766,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
          */
-        public Builder setFromItemBasicPricePart(io.dstore.Values.decimalValue value) {
+        public Builder setFromItemBasicPricePart(io.dstore.values.DecimalValue value) {
           if (fromItemBasicPricePartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8786,10 +8786,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
          */
         public Builder setFromItemBasicPricePart(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (fromItemBasicPricePartBuilder_ == null) {
             fromItemBasicPricePart_ = builderForValue.build();
             onChanged();
@@ -8804,13 +8804,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
          */
-        public Builder mergeFromItemBasicPricePart(io.dstore.Values.decimalValue value) {
+        public Builder mergeFromItemBasicPricePart(io.dstore.values.DecimalValue value) {
           if (fromItemBasicPricePartBuilder_ == null) {
             if (fromItemBasicPricePart_ != null) {
               fromItemBasicPricePart_ =
-                io.dstore.Values.decimalValue.newBuilder(fromItemBasicPricePart_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(fromItemBasicPricePart_).mergeFrom(value).buildPartial();
             } else {
               fromItemBasicPricePart_ = value;
             }
@@ -8826,7 +8826,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
          */
         public Builder clearFromItemBasicPricePart() {
           if (fromItemBasicPricePartBuilder_ == null) {
@@ -8844,9 +8844,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getFromItemBasicPricePartBuilder() {
+        public io.dstore.values.DecimalValue.Builder getFromItemBasicPricePartBuilder() {
           
           onChanged();
           return getFromItemBasicPricePartFieldBuilder().getBuilder();
@@ -8856,14 +8856,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getFromItemBasicPricePartOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getFromItemBasicPricePartOrBuilder() {
           if (fromItemBasicPricePartBuilder_ != null) {
             return fromItemBasicPricePartBuilder_.getMessageOrBuilder();
           } else {
             return fromItemBasicPricePart_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : fromItemBasicPricePart_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : fromItemBasicPricePart_;
           }
         }
         /**
@@ -8871,14 +8871,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das den Bedingungs-Teil "ItemConditionPartID" erfüllt, liefert, muß zwischen diesem Wert und "ToItemBasicPrice" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_item_basic_price_part = 10026;</code>
+         * <code>optional .dstore.values.DecimalValue from_item_basic_price_part = 10026;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getFromItemBasicPricePartFieldBuilder() {
           if (fromItemBasicPricePartBuilder_ == null) {
             fromItemBasicPricePartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getFromItemBasicPricePart(),
                     getParentForChildren(),
                     isClean());
@@ -8887,15 +8887,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return fromItemBasicPricePartBuilder_;
         }
 
-        private io.dstore.Values.integerValue minNumberOfItems_ = null;
+        private io.dstore.values.IntegerValue minNumberOfItems_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> minNumberOfItemsBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> minNumberOfItemsBuilder_;
         /**
          * <pre>
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
          */
         public boolean hasMinNumberOfItems() {
           return minNumberOfItemsBuilder_ != null || minNumberOfItems_ != null;
@@ -8905,11 +8905,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
          */
-        public io.dstore.Values.integerValue getMinNumberOfItems() {
+        public io.dstore.values.IntegerValue getMinNumberOfItems() {
           if (minNumberOfItemsBuilder_ == null) {
-            return minNumberOfItems_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : minNumberOfItems_;
+            return minNumberOfItems_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : minNumberOfItems_;
           } else {
             return minNumberOfItemsBuilder_.getMessage();
           }
@@ -8919,9 +8919,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
          */
-        public Builder setMinNumberOfItems(io.dstore.Values.integerValue value) {
+        public Builder setMinNumberOfItems(io.dstore.values.IntegerValue value) {
           if (minNumberOfItemsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -8939,10 +8939,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
          */
         public Builder setMinNumberOfItems(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (minNumberOfItemsBuilder_ == null) {
             minNumberOfItems_ = builderForValue.build();
             onChanged();
@@ -8957,13 +8957,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
          */
-        public Builder mergeMinNumberOfItems(io.dstore.Values.integerValue value) {
+        public Builder mergeMinNumberOfItems(io.dstore.values.IntegerValue value) {
           if (minNumberOfItemsBuilder_ == null) {
             if (minNumberOfItems_ != null) {
               minNumberOfItems_ =
-                io.dstore.Values.integerValue.newBuilder(minNumberOfItems_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(minNumberOfItems_).mergeFrom(value).buildPartial();
             } else {
               minNumberOfItems_ = value;
             }
@@ -8979,7 +8979,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
          */
         public Builder clearMinNumberOfItems() {
           if (minNumberOfItemsBuilder_ == null) {
@@ -8997,9 +8997,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMinNumberOfItemsBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMinNumberOfItemsBuilder() {
           
           onChanged();
           return getMinNumberOfItemsFieldBuilder().getBuilder();
@@ -9009,14 +9009,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMinNumberOfItemsOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMinNumberOfItemsOrBuilder() {
           if (minNumberOfItemsBuilder_ != null) {
             return minNumberOfItemsBuilder_.getMessageOrBuilder();
           } else {
             return minNumberOfItems_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : minNumberOfItems_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : minNumberOfItems_;
           }
         }
         /**
@@ -9024,14 +9024,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Anzahl VERSCHIEDENER Artikel-Elemente, die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zwischen diesem Wert und "MaxNumberOfItems" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue min_number_of_items = 10027;</code>
+         * <code>optional .dstore.values.IntegerValue min_number_of_items = 10027;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMinNumberOfItemsFieldBuilder() {
           if (minNumberOfItemsBuilder_ == null) {
             minNumberOfItemsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMinNumberOfItems(),
                     getParentForChildren(),
                     isClean());
@@ -9040,15 +9040,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return minNumberOfItemsBuilder_;
         }
 
-        private io.dstore.Values.decimalValue fromBasicPriceSum_ = null;
+        private io.dstore.values.DecimalValue fromBasicPriceSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> fromBasicPriceSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> fromBasicPriceSumBuilder_;
         /**
          * <pre>
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
          */
         public boolean hasFromBasicPriceSum() {
           return fromBasicPriceSumBuilder_ != null || fromBasicPriceSum_ != null;
@@ -9058,11 +9058,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
          */
-        public io.dstore.Values.decimalValue getFromBasicPriceSum() {
+        public io.dstore.values.DecimalValue getFromBasicPriceSum() {
           if (fromBasicPriceSumBuilder_ == null) {
-            return fromBasicPriceSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : fromBasicPriceSum_;
+            return fromBasicPriceSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : fromBasicPriceSum_;
           } else {
             return fromBasicPriceSumBuilder_.getMessage();
           }
@@ -9072,9 +9072,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
          */
-        public Builder setFromBasicPriceSum(io.dstore.Values.decimalValue value) {
+        public Builder setFromBasicPriceSum(io.dstore.values.DecimalValue value) {
           if (fromBasicPriceSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9092,10 +9092,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
          */
         public Builder setFromBasicPriceSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (fromBasicPriceSumBuilder_ == null) {
             fromBasicPriceSum_ = builderForValue.build();
             onChanged();
@@ -9110,13 +9110,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
          */
-        public Builder mergeFromBasicPriceSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeFromBasicPriceSum(io.dstore.values.DecimalValue value) {
           if (fromBasicPriceSumBuilder_ == null) {
             if (fromBasicPriceSum_ != null) {
               fromBasicPriceSum_ =
-                io.dstore.Values.decimalValue.newBuilder(fromBasicPriceSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(fromBasicPriceSum_).mergeFrom(value).buildPartial();
             } else {
               fromBasicPriceSum_ = value;
             }
@@ -9132,7 +9132,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
          */
         public Builder clearFromBasicPriceSum() {
           if (fromBasicPriceSumBuilder_ == null) {
@@ -9150,9 +9150,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getFromBasicPriceSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getFromBasicPriceSumBuilder() {
           
           onChanged();
           return getFromBasicPriceSumFieldBuilder().getBuilder();
@@ -9162,14 +9162,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getFromBasicPriceSumOrBuilder() {
           if (fromBasicPriceSumBuilder_ != null) {
             return fromBasicPriceSumBuilder_.getMessageOrBuilder();
           } else {
             return fromBasicPriceSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : fromBasicPriceSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : fromBasicPriceSum_;
           }
         }
         /**
@@ -9177,14 +9177,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. diesem Wert und "ToBasicPriceSum" liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue from_basic_price_sum = 10028;</code>
+         * <code>optional .dstore.values.DecimalValue from_basic_price_sum = 10028;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getFromBasicPriceSumFieldBuilder() {
           if (fromBasicPriceSumBuilder_ == null) {
             fromBasicPriceSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getFromBasicPriceSum(),
                     getParentForChildren(),
                     isClean());
@@ -9193,15 +9193,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return fromBasicPriceSumBuilder_;
         }
 
-        private io.dstore.Values.decimalValue toBasicPriceSum_ = null;
+        private io.dstore.values.DecimalValue toBasicPriceSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toBasicPriceSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> toBasicPriceSumBuilder_;
         /**
          * <pre>
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
          */
         public boolean hasToBasicPriceSum() {
           return toBasicPriceSumBuilder_ != null || toBasicPriceSum_ != null;
@@ -9211,11 +9211,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
          */
-        public io.dstore.Values.decimalValue getToBasicPriceSum() {
+        public io.dstore.values.DecimalValue getToBasicPriceSum() {
           if (toBasicPriceSumBuilder_ == null) {
-            return toBasicPriceSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toBasicPriceSum_;
+            return toBasicPriceSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toBasicPriceSum_;
           } else {
             return toBasicPriceSumBuilder_.getMessage();
           }
@@ -9225,9 +9225,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
          */
-        public Builder setToBasicPriceSum(io.dstore.Values.decimalValue value) {
+        public Builder setToBasicPriceSum(io.dstore.values.DecimalValue value) {
           if (toBasicPriceSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9245,10 +9245,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
          */
         public Builder setToBasicPriceSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (toBasicPriceSumBuilder_ == null) {
             toBasicPriceSum_ = builderForValue.build();
             onChanged();
@@ -9263,13 +9263,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
          */
-        public Builder mergeToBasicPriceSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeToBasicPriceSum(io.dstore.values.DecimalValue value) {
           if (toBasicPriceSumBuilder_ == null) {
             if (toBasicPriceSum_ != null) {
               toBasicPriceSum_ =
-                io.dstore.Values.decimalValue.newBuilder(toBasicPriceSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(toBasicPriceSum_).mergeFrom(value).buildPartial();
             } else {
               toBasicPriceSum_ = value;
             }
@@ -9285,7 +9285,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
          */
         public Builder clearToBasicPriceSum() {
           if (toBasicPriceSumBuilder_ == null) {
@@ -9303,9 +9303,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getToBasicPriceSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getToBasicPriceSumBuilder() {
           
           onChanged();
           return getToBasicPriceSumFieldBuilder().getBuilder();
@@ -9315,14 +9315,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getToBasicPriceSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getToBasicPriceSumOrBuilder() {
           if (toBasicPriceSumBuilder_ != null) {
             return toBasicPriceSumBuilder_.getMessageOrBuilder();
           } else {
             return toBasicPriceSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : toBasicPriceSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : toBasicPriceSum_;
           }
         }
         /**
@@ -9330,14 +9330,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Summe für alle Artikel-Elemente (Summe aller Einzelpreise, die "_om_GetBasicPrices" liefert, mit der jew. "Quantity" multipliziert), die die Bedingungs-Gruppe "ItemConditionGroupID" erfüllen, muß zw. "FromBasicPriceSum" und diesem Wert liegen
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_basic_price_sum = 10029;</code>
+         * <code>optional .dstore.values.DecimalValue to_basic_price_sum = 10029;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getToBasicPriceSumFieldBuilder() {
           if (toBasicPriceSumBuilder_ == null) {
             toBasicPriceSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getToBasicPriceSum(),
                     getParentForChildren(),
                     isClean());
@@ -9346,15 +9346,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return toBasicPriceSumBuilder_;
         }
 
-        private io.dstore.Values.integerValue conditionId_ = null;
+        private io.dstore.values.IntegerValue conditionId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
         /**
          * <pre>
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
          */
         public boolean hasConditionId() {
           return conditionIdBuilder_ != null || conditionId_ != null;
@@ -9364,11 +9364,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
          */
-        public io.dstore.Values.integerValue getConditionId() {
+        public io.dstore.values.IntegerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
-            return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+            return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
           } else {
             return conditionIdBuilder_.getMessage();
           }
@@ -9378,9 +9378,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
          */
-        public Builder setConditionId(io.dstore.Values.integerValue value) {
+        public Builder setConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9398,10 +9398,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
          */
         public Builder setConditionId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (conditionIdBuilder_ == null) {
             conditionId_ = builderForValue.build();
             onChanged();
@@ -9416,13 +9416,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
          */
-        public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+        public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
             if (conditionId_ != null) {
               conditionId_ =
-                io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
             } else {
               conditionId_ = value;
             }
@@ -9438,7 +9438,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
          */
         public Builder clearConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -9456,9 +9456,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
          */
-        public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
           
           onChanged();
           return getConditionIdFieldBuilder().getBuilder();
@@ -9468,14 +9468,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
             return conditionIdBuilder_.getMessageOrBuilder();
           } else {
             return conditionId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
           }
         }
         /**
@@ -9483,14 +9483,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * ID einer Verkaufs-Aktions-Bedingung (die auf einer Artikel-Bedingung basiert) - natürlich identisch mit "&#64;ConditionID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10030;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10030;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getConditionIdFieldBuilder() {
           if (conditionIdBuilder_ == null) {
             conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getConditionId(),
                     getParentForChildren(),
                     isClean());
@@ -9499,15 +9499,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return conditionIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue toItemBasicPrice_ = null;
+        private io.dstore.values.DecimalValue toItemBasicPrice_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> toItemBasicPriceBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> toItemBasicPriceBuilder_;
         /**
          * <pre>
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
          */
         public boolean hasToItemBasicPrice() {
           return toItemBasicPriceBuilder_ != null || toItemBasicPrice_ != null;
@@ -9517,11 +9517,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
          */
-        public io.dstore.Values.decimalValue getToItemBasicPrice() {
+        public io.dstore.values.DecimalValue getToItemBasicPrice() {
           if (toItemBasicPriceBuilder_ == null) {
-            return toItemBasicPrice_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : toItemBasicPrice_;
+            return toItemBasicPrice_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : toItemBasicPrice_;
           } else {
             return toItemBasicPriceBuilder_.getMessage();
           }
@@ -9531,9 +9531,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
          */
-        public Builder setToItemBasicPrice(io.dstore.Values.decimalValue value) {
+        public Builder setToItemBasicPrice(io.dstore.values.DecimalValue value) {
           if (toItemBasicPriceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9551,10 +9551,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
          */
         public Builder setToItemBasicPrice(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (toItemBasicPriceBuilder_ == null) {
             toItemBasicPrice_ = builderForValue.build();
             onChanged();
@@ -9569,13 +9569,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
          */
-        public Builder mergeToItemBasicPrice(io.dstore.Values.decimalValue value) {
+        public Builder mergeToItemBasicPrice(io.dstore.values.DecimalValue value) {
           if (toItemBasicPriceBuilder_ == null) {
             if (toItemBasicPrice_ != null) {
               toItemBasicPrice_ =
-                io.dstore.Values.decimalValue.newBuilder(toItemBasicPrice_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(toItemBasicPrice_).mergeFrom(value).buildPartial();
             } else {
               toItemBasicPrice_ = value;
             }
@@ -9591,7 +9591,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
          */
         public Builder clearToItemBasicPrice() {
           if (toItemBasicPriceBuilder_ == null) {
@@ -9609,9 +9609,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getToItemBasicPriceBuilder() {
+        public io.dstore.values.DecimalValue.Builder getToItemBasicPriceBuilder() {
           
           onChanged();
           return getToItemBasicPriceFieldBuilder().getBuilder();
@@ -9621,14 +9621,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getToItemBasicPriceOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getToItemBasicPriceOrBuilder() {
           if (toItemBasicPriceBuilder_ != null) {
             return toItemBasicPriceBuilder_.getMessageOrBuilder();
           } else {
             return toItemBasicPrice_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : toItemBasicPrice_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : toItemBasicPrice_;
           }
         }
         /**
@@ -9636,14 +9636,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Der EINZEL-Preis, den "_om_GetBasicPrices" für ein Artikel-Element, das die Bedingungs-Gruppe "ItemConditionGroupID" erfüllt, liefert, muß zwischen "FromItemBasicPrice" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue to_item_basic_price = 10031;</code>
+         * <code>optional .dstore.values.DecimalValue to_item_basic_price = 10031;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getToItemBasicPriceFieldBuilder() {
           if (toItemBasicPriceBuilder_ == null) {
             toItemBasicPriceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getToItemBasicPrice(),
                     getParentForChildren(),
                     isClean());
@@ -9652,15 +9652,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return toItemBasicPriceBuilder_;
         }
 
-        private io.dstore.Values.integerValue toQuantityPart_ = null;
+        private io.dstore.values.IntegerValue toQuantityPart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toQuantityPartBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toQuantityPartBuilder_;
         /**
          * <pre>
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
          */
         public boolean hasToQuantityPart() {
           return toQuantityPartBuilder_ != null || toQuantityPart_ != null;
@@ -9670,11 +9670,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
          */
-        public io.dstore.Values.integerValue getToQuantityPart() {
+        public io.dstore.values.IntegerValue getToQuantityPart() {
           if (toQuantityPartBuilder_ == null) {
-            return toQuantityPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toQuantityPart_;
+            return toQuantityPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toQuantityPart_;
           } else {
             return toQuantityPartBuilder_.getMessage();
           }
@@ -9684,9 +9684,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
          */
-        public Builder setToQuantityPart(io.dstore.Values.integerValue value) {
+        public Builder setToQuantityPart(io.dstore.values.IntegerValue value) {
           if (toQuantityPartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9704,10 +9704,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
          */
         public Builder setToQuantityPart(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (toQuantityPartBuilder_ == null) {
             toQuantityPart_ = builderForValue.build();
             onChanged();
@@ -9722,13 +9722,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
          */
-        public Builder mergeToQuantityPart(io.dstore.Values.integerValue value) {
+        public Builder mergeToQuantityPart(io.dstore.values.IntegerValue value) {
           if (toQuantityPartBuilder_ == null) {
             if (toQuantityPart_ != null) {
               toQuantityPart_ =
-                io.dstore.Values.integerValue.newBuilder(toQuantityPart_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(toQuantityPart_).mergeFrom(value).buildPartial();
             } else {
               toQuantityPart_ = value;
             }
@@ -9744,7 +9744,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
          */
         public Builder clearToQuantityPart() {
           if (toQuantityPartBuilder_ == null) {
@@ -9762,9 +9762,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
          */
-        public io.dstore.Values.integerValue.Builder getToQuantityPartBuilder() {
+        public io.dstore.values.IntegerValue.Builder getToQuantityPartBuilder() {
           
           onChanged();
           return getToQuantityPartFieldBuilder().getBuilder();
@@ -9774,14 +9774,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getToQuantityPartOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getToQuantityPartOrBuilder() {
           if (toQuantityPartBuilder_ != null) {
             return toQuantityPartBuilder_.getMessageOrBuilder();
           } else {
             return toQuantityPart_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : toQuantityPart_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : toQuantityPart_;
           }
         }
         /**
@@ -9789,14 +9789,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen "FromQuantity" und diesem Wert (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue to_quantity_part = 10032;</code>
+         * <code>optional .dstore.values.IntegerValue to_quantity_part = 10032;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getToQuantityPartFieldBuilder() {
           if (toQuantityPartBuilder_ == null) {
             toQuantityPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getToQuantityPart(),
                     getParentForChildren(),
                     isClean());
@@ -9805,15 +9805,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return toQuantityPartBuilder_;
         }
 
-        private io.dstore.Values.integerValue fromQuantityPart_ = null;
+        private io.dstore.values.IntegerValue fromQuantityPart_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromQuantityPartBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromQuantityPartBuilder_;
         /**
          * <pre>
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
          */
         public boolean hasFromQuantityPart() {
           return fromQuantityPartBuilder_ != null || fromQuantityPart_ != null;
@@ -9823,11 +9823,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
          */
-        public io.dstore.Values.integerValue getFromQuantityPart() {
+        public io.dstore.values.IntegerValue getFromQuantityPart() {
           if (fromQuantityPartBuilder_ == null) {
-            return fromQuantityPart_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromQuantityPart_;
+            return fromQuantityPart_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromQuantityPart_;
           } else {
             return fromQuantityPartBuilder_.getMessage();
           }
@@ -9837,9 +9837,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
          */
-        public Builder setFromQuantityPart(io.dstore.Values.integerValue value) {
+        public Builder setFromQuantityPart(io.dstore.values.IntegerValue value) {
           if (fromQuantityPartBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -9857,10 +9857,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
          */
         public Builder setFromQuantityPart(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (fromQuantityPartBuilder_ == null) {
             fromQuantityPart_ = builderForValue.build();
             onChanged();
@@ -9875,13 +9875,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
          */
-        public Builder mergeFromQuantityPart(io.dstore.Values.integerValue value) {
+        public Builder mergeFromQuantityPart(io.dstore.values.IntegerValue value) {
           if (fromQuantityPartBuilder_ == null) {
             if (fromQuantityPart_ != null) {
               fromQuantityPart_ =
-                io.dstore.Values.integerValue.newBuilder(fromQuantityPart_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(fromQuantityPart_).mergeFrom(value).buildPartial();
             } else {
               fromQuantityPart_ = value;
             }
@@ -9897,7 +9897,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
          */
         public Builder clearFromQuantityPart() {
           if (fromQuantityPartBuilder_ == null) {
@@ -9915,9 +9915,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
          */
-        public io.dstore.Values.integerValue.Builder getFromQuantityPartBuilder() {
+        public io.dstore.values.IntegerValue.Builder getFromQuantityPartBuilder() {
           
           onChanged();
           return getFromQuantityPartFieldBuilder().getBuilder();
@@ -9927,14 +9927,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getFromQuantityPartOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getFromQuantityPartOrBuilder() {
           if (fromQuantityPartBuilder_ != null) {
             return fromQuantityPartBuilder_.getMessageOrBuilder();
           } else {
             return fromQuantityPart_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : fromQuantityPart_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : fromQuantityPart_;
           }
         }
         /**
@@ -9942,14 +9942,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Die Gesamt-Menge (Summe "Quantity") ALLER Artikel-Elemente, die den Bedingungs-Teil "ItemConditionPartID" erfüllen, muß zwischen diesem Wert und "ToQuantity" (sofern nicht "NULL") liegen (um "ConditionID" zu erfüllen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue from_quantity_part = 10033;</code>
+         * <code>optional .dstore.values.IntegerValue from_quantity_part = 10033;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getFromQuantityPartFieldBuilder() {
           if (fromQuantityPartBuilder_ == null) {
             fromQuantityPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getFromQuantityPart(),
                     getParentForChildren(),
                     isClean());
@@ -9958,15 +9958,15 @@ public final class OmGetCampaignItemConGroupsAd {
           return fromQuantityPartBuilder_;
         }
 
-        private io.dstore.Values.integerValue inheritDepth_ = null;
+        private io.dstore.values.IntegerValue inheritDepth_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inheritDepthBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> inheritDepthBuilder_;
         /**
          * <pre>
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+         * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
          */
         public boolean hasInheritDepth() {
           return inheritDepthBuilder_ != null || inheritDepth_ != null;
@@ -9976,11 +9976,11 @@ public final class OmGetCampaignItemConGroupsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+         * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
          */
-        public io.dstore.Values.integerValue getInheritDepth() {
+        public io.dstore.values.IntegerValue getInheritDepth() {
           if (inheritDepthBuilder_ == null) {
-            return inheritDepth_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritDepth_;
+            return inheritDepth_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inheritDepth_;
           } else {
             return inheritDepthBuilder_.getMessage();
           }
@@ -9990,9 +9990,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+         * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
          */
-        public Builder setInheritDepth(io.dstore.Values.integerValue value) {
+        public Builder setInheritDepth(io.dstore.values.IntegerValue value) {
           if (inheritDepthBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -10010,10 +10010,10 @@ public final class OmGetCampaignItemConGroupsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+         * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
          */
         public Builder setInheritDepth(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (inheritDepthBuilder_ == null) {
             inheritDepth_ = builderForValue.build();
             onChanged();
@@ -10028,13 +10028,13 @@ public final class OmGetCampaignItemConGroupsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+         * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
          */
-        public Builder mergeInheritDepth(io.dstore.Values.integerValue value) {
+        public Builder mergeInheritDepth(io.dstore.values.IntegerValue value) {
           if (inheritDepthBuilder_ == null) {
             if (inheritDepth_ != null) {
               inheritDepth_ =
-                io.dstore.Values.integerValue.newBuilder(inheritDepth_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(inheritDepth_).mergeFrom(value).buildPartial();
             } else {
               inheritDepth_ = value;
             }
@@ -10050,7 +10050,7 @@ public final class OmGetCampaignItemConGroupsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+         * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
          */
         public Builder clearInheritDepth() {
           if (inheritDepthBuilder_ == null) {
@@ -10068,9 +10068,9 @@ public final class OmGetCampaignItemConGroupsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+         * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
          */
-        public io.dstore.Values.integerValue.Builder getInheritDepthBuilder() {
+        public io.dstore.values.IntegerValue.Builder getInheritDepthBuilder() {
           
           onChanged();
           return getInheritDepthFieldBuilder().getBuilder();
@@ -10080,14 +10080,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+         * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getInheritDepthOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
           if (inheritDepthBuilder_ != null) {
             return inheritDepthBuilder_.getMessageOrBuilder();
           } else {
             return inheritDepth_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : inheritDepth_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : inheritDepth_;
           }
         }
         /**
@@ -10095,14 +10095,14 @@ public final class OmGetCampaignItemConGroupsAd {
          * Welche Eigenschaften zu "NodeCharacteristicID" hinsichtlich Vererbung sollen bei Prüfung der Eigenschafts-Bedingung beachtet werden :"-1" : Alle"0" : unvererbte"1" : direkte u. einfach geerbte"2" : direkte u. einfach oder zweifach geerbteusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inherit_depth = 10034;</code>
+         * <code>optional .dstore.values.IntegerValue inherit_depth = 10034;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getInheritDepthFieldBuilder() {
           if (inheritDepthBuilder_ == null) {
             inheritDepthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getInheritDepth(),
                     getParentForChildren(),
                     isClean());
@@ -11572,9 +11572,9 @@ public final class OmGetCampaignItemConGroupsAd {
       "m_GetCampaignItemConGroups_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\300" +
       "\001\n\nParameters\0221\n\014condition_id\030\001 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\032\n\021condition_id" +
+      "tore.values.IntegerValue\022\032\n\021condition_id" +
       "_null\030\351\007 \001(\010\022<\n\027item_condition_group_id\030" +
-      "\002 \001(\0132\033.dstore.values.integerValue\022%\n\034it" +
+      "\002 \001(\0132\033.dstore.values.IntegerValue\022%\n\034it" +
       "em_condition_group_id_null\030\352\007 \001(\010\"\247\021\n\010Re" +
       "sponse\0228\n\020meta_information\030\002 \003(\0132\036.dstor",
       "e.engine.MetaInformation\022\'\n\007message\030\003 \003(" +
@@ -11582,55 +11582,55 @@ public final class OmGetCampaignItemConGroupsAd {
       ".dstore.engine.om_GetCampaignItemConGrou" +
       "ps_Ad.Response.Row\032\356\017\n\003Row\022\017\n\006row_id\030\220N " +
       "\001(\005\022/\n\ncondition1\030\221N \001(\0132\032.dstore.values" +
-      ".stringValue\022/\n\ncondition2\030\222N \001(\0132\032.dsto" +
-      "re.values.stringValue\022:\n\024recursive_evalu" +
-      "ation\030\223N \001(\0132\033.dstore.values.integerValu" +
+      ".StringValue\022/\n\ncondition2\030\222N \001(\0132\032.dsto" +
+      "re.values.StringValue\022:\n\024recursive_evalu" +
+      "ation\030\223N \001(\0132\033.dstore.values.IntegerValu" +
       "e\022=\n\027to_basic_price_sum_part\030\224N \001(\0132\033.ds" +
-      "tore.values.decimalValue\0229\n\024domain_tree_",
-      "node_ids\030\225N \001(\0132\032.dstore.values.stringVa" +
+      "tore.values.DecimalValue\0229\n\024domain_tree_",
+      "node_ids\030\225N \001(\0132\032.dstore.values.StringVa" +
       "lue\022<\n\026node_characteristic_id\030\226N \001(\0132\033.d" +
-      "store.values.integerValue\022<\n\026item_condit" +
-      "ion_part_id\030\227N \001(\0132\033.dstore.values.integ" +
+      "store.values.IntegerValue\022<\n\026item_condit" +
+      "ion_part_id\030\227N \001(\0132\033.dstore.values.Integ" +
       "erValue\022?\n\031from_basic_price_sum_part\030\230N " +
-      "\001(\0132\033.dstore.values.decimalValue\0221\n\013to_q" +
-      "uantity\030\231N \001(\0132\033.dstore.values.integerVa" +
+      "\001(\0132\033.dstore.values.DecimalValue\0221\n\013to_q" +
+      "uantity\030\231N \001(\0132\033.dstore.values.IntegerVa" +
       "lue\0229\n\023max_number_of_items\030\232N \001(\0132\033.dsto" +
-      "re.values.integerValue\022>\n\030to_item_basic_" +
-      "price_part\030\233N \001(\0132\033.dstore.values.decima",
+      "re.values.IntegerValue\022>\n\030to_item_basic_" +
+      "price_part\030\233N \001(\0132\033.dstore.values.Decima",
       "lValue\022D\n\037item_condition_part_descriptio" +
-      "n\030\234N \001(\0132\032.dstore.values.stringValue\022.\n\t" +
-      "level_ids\030\235N \001(\0132\032.dstore.values.stringV" +
+      "n\030\234N \001(\0132\032.dstore.values.StringValue\022.\n\t" +
+      "level_ids\030\235N \001(\0132\032.dstore.values.StringV" +
       "alue\022=\n\027item_condition_group_id\030\236N \001(\0132\033" +
-      ".dstore.values.integerValue\022C\n\036extended_" +
+      ".dstore.values.IntegerValue\022C\n\036extended_" +
       "item_cond_group_descr\030\237N \001(\0132\032.dstore.va" +
-      "lues.stringValue\0223\n\rfrom_quantity\030\240N \001(\013" +
-      "2\033.dstore.values.integerValue\022;\n\025from_it" +
-      "em_basic_price\030\241N \001(\0132\033.dstore.values.de" +
+      "lues.StringValue\0223\n\rfrom_quantity\030\240N \001(\013" +
+      "2\033.dstore.values.IntegerValue\022;\n\025from_it" +
+      "em_basic_price\030\241N \001(\0132\033.dstore.values.De" +
       "cimalValue\0228\n\022item_group_sort_no\030\242N \001(\0132",
-      "\033.dstore.values.integerValue\022.\n\toperator" +
-      "1\030\243N \001(\0132\032.dstore.values.stringValue\022.\n\t" +
-      "operator2\030\244N \001(\0132\032.dstore.values.stringV" +
+      "\033.dstore.values.IntegerValue\022.\n\toperator" +
+      "1\030\243N \001(\0132\032.dstore.values.StringValue\022.\n\t" +
+      "operator2\030\244N \001(\0132\032.dstore.values.StringV" +
       "alue\022G\n!combine_parts_with_a_n_d_operato" +
-      "r\030\245N \001(\0132\033.dstore.values.booleanValue\022>\n" +
+      "r\030\245N \001(\0132\033.dstore.values.BooleanValue\022>\n" +
       "\030min_number_of_items_part\030\246N \001(\0132\033.dstor" +
-      "e.values.integerValue\0227\n\021item_part_sort_" +
-      "no\030\247N \001(\0132\033.dstore.values.integerValue\022B" +
+      "e.values.IntegerValue\0227\n\021item_part_sort_" +
+      "no\030\247N \001(\0132\033.dstore.values.IntegerValue\022B" +
       "\n\035extended_item_cond_part_descr\030\250N \001(\0132\032" +
-      ".dstore.values.stringValue\022>\n\030max_number",
-      "_of_items_part\030\251N \001(\0132\033.dstore.values.in" +
+      ".dstore.values.StringValue\022>\n\030max_number",
+      "_of_items_part\030\251N \001(\0132\033.dstore.values.In" +
       "tegerValue\022@\n\032from_item_basic_price_part" +
-      "\030\252N \001(\0132\033.dstore.values.decimalValue\0229\n\023" +
+      "\030\252N \001(\0132\033.dstore.values.DecimalValue\0229\n\023" +
       "min_number_of_items\030\253N \001(\0132\033.dstore.valu" +
-      "es.integerValue\022:\n\024from_basic_price_sum\030" +
-      "\254N \001(\0132\033.dstore.values.decimalValue\0228\n\022t" +
+      "es.IntegerValue\022:\n\024from_basic_price_sum\030" +
+      "\254N \001(\0132\033.dstore.values.DecimalValue\0228\n\022t" +
       "o_basic_price_sum\030\255N \001(\0132\033.dstore.values" +
-      ".decimalValue\0222\n\014condition_id\030\256N \001(\0132\033.d" +
-      "store.values.integerValue\0229\n\023to_item_bas" +
-      "ic_price\030\257N \001(\0132\033.dstore.values.decimalV",
+      ".DecimalValue\0222\n\014condition_id\030\256N \001(\0132\033.d" +
+      "store.values.IntegerValue\0229\n\023to_item_bas" +
+      "ic_price\030\257N \001(\0132\033.dstore.values.DecimalV",
       "alue\0226\n\020to_quantity_part\030\260N \001(\0132\033.dstore" +
-      ".values.integerValue\0228\n\022from_quantity_pa" +
-      "rt\030\261N \001(\0132\033.dstore.values.integerValue\0223" +
-      "\n\rinherit_depth\030\262N \001(\0132\033.dstore.values.i" +
+      ".values.IntegerValue\0228\n\022from_quantity_pa" +
+      "rt\030\261N \001(\0132\033.dstore.values.IntegerValue\0223" +
+      "\n\rinherit_depth\030\262N \001(\0132\033.dstore.values.I" +
       "ntegerValueB_\n\033io.dstore.engine.procedur" +
       "esZ@gosdk.dstore.de/engine/procedures/om" +
       "_GetCampaignItemConGroups_Adb\006proto3"
@@ -11646,7 +11646,7 @@ public final class OmGetCampaignItemConGroupsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetCampaignItemConGroups_Ad_Parameters_descriptor =
@@ -11667,7 +11667,7 @@ public final class OmGetCampaignItemConGroupsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignItemConGroups_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Condition1", "Condition2", "RecursiveEvaluation", "ToBasicPriceSumPart", "DomainTreeNodeIds", "NodeCharacteristicId", "ItemConditionPartId", "FromBasicPriceSumPart", "ToQuantity", "MaxNumberOfItems", "ToItemBasicPricePart", "ItemConditionPartDescription", "LevelIds", "ItemConditionGroupId", "ExtendedItemCondGroupDescr", "FromQuantity", "FromItemBasicPrice", "ItemGroupSortNo", "Operator1", "Operator2", "CombinePartsWithANDOperator", "MinNumberOfItemsPart", "ItemPartSortNo", "ExtendedItemCondPartDescr", "MaxNumberOfItemsPart", "FromItemBasicPricePart", "MinNumberOfItems", "FromBasicPriceSum", "ToBasicPriceSum", "ConditionId", "ToItemBasicPrice", "ToQuantityPart", "FromQuantityPart", "InheritDepth", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

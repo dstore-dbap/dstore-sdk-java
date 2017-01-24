@@ -19,17 +19,17 @@ public final class OmModifyOrderStateRulesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUserId();
+    io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifyOrderStateRulesAd {
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
      */
     boolean hasFromOrderStateId();
     /**
-     * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
      */
-    io.dstore.Values.integerValue getFromOrderStateId();
+    io.dstore.values.IntegerValue getFromOrderStateId();
     /**
-     * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFromOrderStateIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFromOrderStateIdOrBuilder();
 
     /**
      * <code>optional bool from_order_state_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifyOrderStateRulesAd {
     boolean getFromOrderStateIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
      */
     boolean hasToOrderStateId();
     /**
-     * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
      */
-    io.dstore.Values.integerValue getToOrderStateId();
+    io.dstore.values.IntegerValue getToOrderStateId();
     /**
-     * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getToOrderStateIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getToOrderStateIdOrBuilder();
 
     /**
      * <code>optional bool to_order_state_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmModifyOrderStateRulesAd {
     boolean getToOrderStateIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
      */
     boolean hasPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
      */
-    io.dstore.Values.integerValue getPaymentForShippingId();
+    io.dstore.values.IntegerValue getPaymentForShippingId();
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder();
 
     /**
      * <code>optional bool payment_for_shipping_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmModifyOrderStateRulesAd {
     boolean getPaymentForShippingIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+     * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
      */
     boolean hasAllowed();
     /**
-     * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+     * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
      */
-    io.dstore.Values.booleanValue getAllowed();
+    io.dstore.values.BooleanValue getAllowed();
     /**
-     * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+     * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getAllowedOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getAllowedOrBuilder();
 
     /**
      * <code>optional bool allowed_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmModifyOrderStateRulesAd {
     boolean getAllowedNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    io.dstore.Values.booleanValue getDelete();
+    io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class OmModifyOrderStateRulesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class OmModifyOrderStateRulesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (fromOrderStateId_ != null) {
                 subBuilder = fromOrderStateId_.toBuilder();
               }
-              fromOrderStateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              fromOrderStateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromOrderStateId_);
                 fromOrderStateId_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class OmModifyOrderStateRulesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (toOrderStateId_ != null) {
                 subBuilder = toOrderStateId_.toBuilder();
               }
-              toOrderStateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              toOrderStateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toOrderStateId_);
                 toOrderStateId_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class OmModifyOrderStateRulesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (paymentForShippingId_ != null) {
                 subBuilder = paymentForShippingId_.toBuilder();
               }
-              paymentForShippingId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              paymentForShippingId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentForShippingId_);
                 paymentForShippingId_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class OmModifyOrderStateRulesAd {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (allowed_ != null) {
                 subBuilder = allowed_.toBuilder();
               }
-              allowed_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              allowed_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(allowed_);
                 allowed_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class OmModifyOrderStateRulesAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class OmModifyOrderStateRulesAd {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue userId_;
+    private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.values.IntegerValue getUserId() {
+      return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -333,23 +333,23 @@ public final class OmModifyOrderStateRulesAd {
     }
 
     public static final int FROM_ORDER_STATE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue fromOrderStateId_;
+    private io.dstore.values.IntegerValue fromOrderStateId_;
     /**
-     * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
      */
     public boolean hasFromOrderStateId() {
       return fromOrderStateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getFromOrderStateId() {
-      return fromOrderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromOrderStateId_;
+    public io.dstore.values.IntegerValue getFromOrderStateId() {
+      return fromOrderStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromOrderStateId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFromOrderStateIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFromOrderStateIdOrBuilder() {
       return getFromOrderStateId();
     }
 
@@ -363,23 +363,23 @@ public final class OmModifyOrderStateRulesAd {
     }
 
     public static final int TO_ORDER_STATE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue toOrderStateId_;
+    private io.dstore.values.IntegerValue toOrderStateId_;
     /**
-     * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
      */
     public boolean hasToOrderStateId() {
       return toOrderStateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getToOrderStateId() {
-      return toOrderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toOrderStateId_;
+    public io.dstore.values.IntegerValue getToOrderStateId() {
+      return toOrderStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toOrderStateId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getToOrderStateIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getToOrderStateIdOrBuilder() {
       return getToOrderStateId();
     }
 
@@ -393,23 +393,23 @@ public final class OmModifyOrderStateRulesAd {
     }
 
     public static final int PAYMENT_FOR_SHIPPING_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue paymentForShippingId_;
+    private io.dstore.values.IntegerValue paymentForShippingId_;
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
      */
     public boolean hasPaymentForShippingId() {
       return paymentForShippingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getPaymentForShippingId() {
-      return paymentForShippingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
+    public io.dstore.values.IntegerValue getPaymentForShippingId() {
+      return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
       return getPaymentForShippingId();
     }
 
@@ -423,23 +423,23 @@ public final class OmModifyOrderStateRulesAd {
     }
 
     public static final int ALLOWED_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue allowed_;
+    private io.dstore.values.BooleanValue allowed_;
     /**
-     * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+     * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
      */
     public boolean hasAllowed() {
       return allowed_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+     * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
      */
-    public io.dstore.Values.booleanValue getAllowed() {
-      return allowed_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : allowed_;
+    public io.dstore.values.BooleanValue getAllowed() {
+      return allowed_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : allowed_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+     * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getAllowedOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getAllowedOrBuilder() {
       return getAllowed();
     }
 
@@ -453,23 +453,23 @@ public final class OmModifyOrderStateRulesAd {
     }
 
     public static final int DELETE_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue delete_;
+    private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    public io.dstore.Values.booleanValue getDelete() {
-      return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+    public io.dstore.values.BooleanValue getDelete() {
+      return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -1022,29 +1022,29 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userId_ = null;
+      private io.dstore.values.IntegerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
+      public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder setUserId(io.dstore.Values.integerValue value) {
+      public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder mergeUserId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue fromOrderStateId_ = null;
+      private io.dstore.values.IntegerValue fromOrderStateId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> fromOrderStateIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> fromOrderStateIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
        */
       public boolean hasFromOrderStateId() {
         return fromOrderStateIdBuilder_ != null || fromOrderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getFromOrderStateId() {
+      public io.dstore.values.IntegerValue getFromOrderStateId() {
         if (fromOrderStateIdBuilder_ == null) {
-          return fromOrderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : fromOrderStateId_;
+          return fromOrderStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : fromOrderStateId_;
         } else {
           return fromOrderStateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
        */
-      public Builder setFromOrderStateId(io.dstore.Values.integerValue value) {
+      public Builder setFromOrderStateId(io.dstore.values.IntegerValue value) {
         if (fromOrderStateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
        */
       public Builder setFromOrderStateId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (fromOrderStateIdBuilder_ == null) {
           fromOrderStateId_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
        */
-      public Builder mergeFromOrderStateId(io.dstore.Values.integerValue value) {
+      public Builder mergeFromOrderStateId(io.dstore.values.IntegerValue value) {
         if (fromOrderStateIdBuilder_ == null) {
           if (fromOrderStateId_ != null) {
             fromOrderStateId_ =
-              io.dstore.Values.integerValue.newBuilder(fromOrderStateId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(fromOrderStateId_).mergeFrom(value).buildPartial();
           } else {
             fromOrderStateId_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
        */
       public Builder clearFromOrderStateId() {
         if (fromOrderStateIdBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFromOrderStateIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFromOrderStateIdBuilder() {
         
         onChanged();
         return getFromOrderStateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFromOrderStateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFromOrderStateIdOrBuilder() {
         if (fromOrderStateIdBuilder_ != null) {
           return fromOrderStateIdBuilder_.getMessageOrBuilder();
         } else {
           return fromOrderStateId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : fromOrderStateId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : fromOrderStateId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue from_order_state_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue from_order_state_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFromOrderStateIdFieldBuilder() {
         if (fromOrderStateIdBuilder_ == null) {
           fromOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFromOrderStateId(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue toOrderStateId_ = null;
+      private io.dstore.values.IntegerValue toOrderStateId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> toOrderStateIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> toOrderStateIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
        */
       public boolean hasToOrderStateId() {
         return toOrderStateIdBuilder_ != null || toOrderStateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getToOrderStateId() {
+      public io.dstore.values.IntegerValue getToOrderStateId() {
         if (toOrderStateIdBuilder_ == null) {
-          return toOrderStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : toOrderStateId_;
+          return toOrderStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : toOrderStateId_;
         } else {
           return toOrderStateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
        */
-      public Builder setToOrderStateId(io.dstore.Values.integerValue value) {
+      public Builder setToOrderStateId(io.dstore.values.IntegerValue value) {
         if (toOrderStateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
        */
       public Builder setToOrderStateId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (toOrderStateIdBuilder_ == null) {
           toOrderStateId_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
        */
-      public Builder mergeToOrderStateId(io.dstore.Values.integerValue value) {
+      public Builder mergeToOrderStateId(io.dstore.values.IntegerValue value) {
         if (toOrderStateIdBuilder_ == null) {
           if (toOrderStateId_ != null) {
             toOrderStateId_ =
-              io.dstore.Values.integerValue.newBuilder(toOrderStateId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(toOrderStateId_).mergeFrom(value).buildPartial();
           } else {
             toOrderStateId_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
        */
       public Builder clearToOrderStateId() {
         if (toOrderStateIdBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getToOrderStateIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getToOrderStateIdBuilder() {
         
         onChanged();
         return getToOrderStateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getToOrderStateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getToOrderStateIdOrBuilder() {
         if (toOrderStateIdBuilder_ != null) {
           return toOrderStateIdBuilder_.getMessageOrBuilder();
         } else {
           return toOrderStateId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : toOrderStateId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : toOrderStateId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue to_order_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue to_order_state_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getToOrderStateIdFieldBuilder() {
         if (toOrderStateIdBuilder_ == null) {
           toOrderStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getToOrderStateId(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue paymentForShippingId_ = null;
+      private io.dstore.values.IntegerValue paymentForShippingId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentForShippingIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentForShippingIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
        */
       public boolean hasPaymentForShippingId() {
         return paymentForShippingIdBuilder_ != null || paymentForShippingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getPaymentForShippingId() {
+      public io.dstore.values.IntegerValue getPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
-          return paymentForShippingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
+          return paymentForShippingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
         } else {
           return paymentForShippingIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
        */
-      public Builder setPaymentForShippingId(io.dstore.Values.integerValue value) {
+      public Builder setPaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
        */
       public Builder setPaymentForShippingId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (paymentForShippingIdBuilder_ == null) {
           paymentForShippingId_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
        */
-      public Builder mergePaymentForShippingId(io.dstore.Values.integerValue value) {
+      public Builder mergePaymentForShippingId(io.dstore.values.IntegerValue value) {
         if (paymentForShippingIdBuilder_ == null) {
           if (paymentForShippingId_ != null) {
             paymentForShippingId_ =
-              io.dstore.Values.integerValue.newBuilder(paymentForShippingId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(paymentForShippingId_).mergeFrom(value).buildPartial();
           } else {
             paymentForShippingId_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
        */
       public Builder clearPaymentForShippingId() {
         if (paymentForShippingIdBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPaymentForShippingIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPaymentForShippingIdBuilder() {
         
         onChanged();
         return getPaymentForShippingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPaymentForShippingIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPaymentForShippingIdOrBuilder() {
         if (paymentForShippingIdBuilder_ != null) {
           return paymentForShippingIdBuilder_.getMessageOrBuilder();
         } else {
           return paymentForShippingId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : paymentForShippingId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : paymentForShippingId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_for_shipping_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue payment_for_shipping_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPaymentForShippingIdFieldBuilder() {
         if (paymentForShippingIdBuilder_ == null) {
           paymentForShippingIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPaymentForShippingId(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue allowed_ = null;
+      private io.dstore.values.BooleanValue allowed_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> allowedBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> allowedBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
        */
       public boolean hasAllowed() {
         return allowedBuilder_ != null || allowed_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
        */
-      public io.dstore.Values.booleanValue getAllowed() {
+      public io.dstore.values.BooleanValue getAllowed() {
         if (allowedBuilder_ == null) {
-          return allowed_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : allowed_;
+          return allowed_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : allowed_;
         } else {
           return allowedBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
        */
-      public Builder setAllowed(io.dstore.Values.booleanValue value) {
+      public Builder setAllowed(io.dstore.values.BooleanValue value) {
         if (allowedBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
        */
       public Builder setAllowed(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (allowedBuilder_ == null) {
           allowed_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
        */
-      public Builder mergeAllowed(io.dstore.Values.booleanValue value) {
+      public Builder mergeAllowed(io.dstore.values.BooleanValue value) {
         if (allowedBuilder_ == null) {
           if (allowed_ != null) {
             allowed_ =
-              io.dstore.Values.booleanValue.newBuilder(allowed_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(allowed_).mergeFrom(value).buildPartial();
           } else {
             allowed_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
        */
       public Builder clearAllowed() {
         if (allowedBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getAllowedBuilder() {
+      public io.dstore.values.BooleanValue.Builder getAllowedBuilder() {
         
         onChanged();
         return getAllowedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getAllowedOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getAllowedOrBuilder() {
         if (allowedBuilder_ != null) {
           return allowedBuilder_.getMessageOrBuilder();
         } else {
           return allowed_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : allowed_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : allowed_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue allowed = 5;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getAllowedFieldBuilder() {
         if (allowedBuilder_ == null) {
           allowedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getAllowed(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue delete_ = null;
+      private io.dstore.values.BooleanValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValue getDelete() {
+      public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public Builder setDelete(io.dstore.Values.booleanValue value) {
+      public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder setDelete(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public Builder mergeDelete(io.dstore.Values.booleanValue value) {
+      public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class OmModifyOrderStateRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -3967,17 +3967,17 @@ public final class OmModifyOrderStateRulesAd {
       "odifyOrderStateRules_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\364\003\n\nPar" +
       "ameters\022,\n\007user_id\030\001 \001(\0132\033.dstore.values" +
-      ".integerValue\022\025\n\014user_id_null\030\351\007 \001(\010\0228\n\023" +
+      ".IntegerValue\022\025\n\014user_id_null\030\351\007 \001(\010\0228\n\023" +
       "from_order_state_id\030\002 \001(\0132\033.dstore.value" +
-      "s.integerValue\022!\n\030from_order_state_id_nu" +
+      "s.IntegerValue\022!\n\030from_order_state_id_nu" +
       "ll\030\352\007 \001(\010\0226\n\021to_order_state_id\030\003 \001(\0132\033.d" +
-      "store.values.integerValue\022\037\n\026to_order_st",
+      "store.values.IntegerValue\022\037\n\026to_order_st",
       "ate_id_null\030\353\007 \001(\010\022<\n\027payment_for_shippi" +
-      "ng_id\030\004 \001(\0132\033.dstore.values.integerValue" +
+      "ng_id\030\004 \001(\0132\033.dstore.values.IntegerValue" +
       "\022%\n\034payment_for_shipping_id_null\030\354\007 \001(\010\022" +
-      ",\n\007allowed\030\005 \001(\0132\033.dstore.values.boolean" +
+      ",\n\007allowed\030\005 \001(\0132\033.dstore.values.Boolean" +
       "Value\022\025\n\014allowed_null\030\355\007 \001(\010\022+\n\006delete\030\006" +
-      " \001(\0132\033.dstore.values.booleanValue\022\024\n\013del" +
+      " \001(\0132\033.dstore.values.BooleanValue\022\024\n\013del" +
       "ete_null\030\356\007 \001(\010\"\313\001\n\010Response\0228\n\020meta_inf" +
       "ormation\030\002 \003(\0132\036.dstore.engine.MetaInfor" +
       "mation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine." +
@@ -3999,7 +3999,7 @@ public final class OmModifyOrderStateRulesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifyOrderStateRules_Ad_Parameters_descriptor =
@@ -4020,7 +4020,7 @@ public final class OmModifyOrderStateRulesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyOrderStateRules_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

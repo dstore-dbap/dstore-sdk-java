@@ -19,17 +19,17 @@ public final class MiGetApplicationsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
      */
     boolean hasApplicationId();
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
      */
-    io.dstore.Values.integerValue getApplicationId();
+    io.dstore.values.IntegerValue getApplicationId();
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getApplicationIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getApplicationIdOrBuilder();
 
     /**
      * <code>optional bool application_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetApplicationsAd {
     boolean getApplicationIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue application_name = 2;</code>
+     * <code>optional .dstore.values.StringValue application_name = 2;</code>
      */
     boolean hasApplicationName();
     /**
-     * <code>optional .dstore.values.stringValue application_name = 2;</code>
+     * <code>optional .dstore.values.StringValue application_name = 2;</code>
      */
-    io.dstore.Values.stringValue getApplicationName();
+    io.dstore.values.StringValue getApplicationName();
     /**
-     * <code>optional .dstore.values.stringValue application_name = 2;</code>
+     * <code>optional .dstore.values.StringValue application_name = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getApplicationNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getApplicationNameOrBuilder();
 
     /**
      * <code>optional bool application_name_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetApplicationsAd {
     boolean getApplicationNameNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+     * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
      */
     boolean hasSearchForAppNameWithLike();
     /**
-     * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+     * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
      */
-    io.dstore.Values.booleanValue getSearchForAppNameWithLike();
+    io.dstore.values.BooleanValue getSearchForAppNameWithLike();
     /**
-     * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+     * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getSearchForAppNameWithLikeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getSearchForAppNameWithLikeOrBuilder();
 
     /**
      * <code>optional bool search_for_app_name_with_like_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiGetApplicationsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (applicationId_ != null) {
                 subBuilder = applicationId_.toBuilder();
               }
-              applicationId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              applicationId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(applicationId_);
                 applicationId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiGetApplicationsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (applicationName_ != null) {
                 subBuilder = applicationName_.toBuilder();
               }
-              applicationName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              applicationName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(applicationName_);
                 applicationName_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiGetApplicationsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (searchForAppNameWithLike_ != null) {
                 subBuilder = searchForAppNameWithLike_.toBuilder();
               }
-              searchForAppNameWithLike_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              searchForAppNameWithLike_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchForAppNameWithLike_);
                 searchForAppNameWithLike_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiGetApplicationsAd {
     }
 
     public static final int APPLICATION_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue applicationId_;
+    private io.dstore.values.IntegerValue applicationId_;
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
      */
     public boolean hasApplicationId() {
       return applicationId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getApplicationId() {
-      return applicationId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationId_;
+    public io.dstore.values.IntegerValue getApplicationId() {
+      return applicationId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applicationId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue application_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getApplicationIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getApplicationIdOrBuilder() {
       return getApplicationId();
     }
 
@@ -222,23 +222,23 @@ public final class MiGetApplicationsAd {
     }
 
     public static final int APPLICATION_NAME_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue applicationName_;
+    private io.dstore.values.StringValue applicationName_;
     /**
-     * <code>optional .dstore.values.stringValue application_name = 2;</code>
+     * <code>optional .dstore.values.StringValue application_name = 2;</code>
      */
     public boolean hasApplicationName() {
       return applicationName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue application_name = 2;</code>
+     * <code>optional .dstore.values.StringValue application_name = 2;</code>
      */
-    public io.dstore.Values.stringValue getApplicationName() {
-      return applicationName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : applicationName_;
+    public io.dstore.values.StringValue getApplicationName() {
+      return applicationName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : applicationName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue application_name = 2;</code>
+     * <code>optional .dstore.values.StringValue application_name = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getApplicationNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getApplicationNameOrBuilder() {
       return getApplicationName();
     }
 
@@ -252,23 +252,23 @@ public final class MiGetApplicationsAd {
     }
 
     public static final int SEARCH_FOR_APP_NAME_WITH_LIKE_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue searchForAppNameWithLike_;
+    private io.dstore.values.BooleanValue searchForAppNameWithLike_;
     /**
-     * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+     * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
      */
     public boolean hasSearchForAppNameWithLike() {
       return searchForAppNameWithLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+     * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
      */
-    public io.dstore.Values.booleanValue getSearchForAppNameWithLike() {
-      return searchForAppNameWithLike_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : searchForAppNameWithLike_;
+    public io.dstore.values.BooleanValue getSearchForAppNameWithLike() {
+      return searchForAppNameWithLike_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : searchForAppNameWithLike_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+     * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getSearchForAppNameWithLikeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getSearchForAppNameWithLikeOrBuilder() {
       return getSearchForAppNameWithLike();
     }
 
@@ -677,29 +677,29 @@ public final class MiGetApplicationsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue applicationId_ = null;
+      private io.dstore.values.IntegerValue applicationId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applicationIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> applicationIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
        */
       public boolean hasApplicationId() {
         return applicationIdBuilder_ != null || applicationId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getApplicationId() {
+      public io.dstore.values.IntegerValue getApplicationId() {
         if (applicationIdBuilder_ == null) {
-          return applicationId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationId_;
+          return applicationId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applicationId_;
         } else {
           return applicationIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
        */
-      public Builder setApplicationId(io.dstore.Values.integerValue value) {
+      public Builder setApplicationId(io.dstore.values.IntegerValue value) {
         if (applicationIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
        */
       public Builder setApplicationId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (applicationIdBuilder_ == null) {
           applicationId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
        */
-      public Builder mergeApplicationId(io.dstore.Values.integerValue value) {
+      public Builder mergeApplicationId(io.dstore.values.IntegerValue value) {
         if (applicationIdBuilder_ == null) {
           if (applicationId_ != null) {
             applicationId_ =
-              io.dstore.Values.integerValue.newBuilder(applicationId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(applicationId_).mergeFrom(value).buildPartial();
           } else {
             applicationId_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
        */
       public Builder clearApplicationId() {
         if (applicationIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getApplicationIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getApplicationIdBuilder() {
         
         onChanged();
         return getApplicationIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getApplicationIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getApplicationIdOrBuilder() {
         if (applicationIdBuilder_ != null) {
           return applicationIdBuilder_.getMessageOrBuilder();
         } else {
           return applicationId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : applicationId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : applicationId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue application_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getApplicationIdFieldBuilder() {
         if (applicationIdBuilder_ == null) {
           applicationIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getApplicationId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiGetApplicationsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue applicationName_ = null;
+      private io.dstore.values.StringValue applicationName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> applicationNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> applicationNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue application_name = 2;</code>
+       * <code>optional .dstore.values.StringValue application_name = 2;</code>
        */
       public boolean hasApplicationName() {
         return applicationNameBuilder_ != null || applicationName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_name = 2;</code>
+       * <code>optional .dstore.values.StringValue application_name = 2;</code>
        */
-      public io.dstore.Values.stringValue getApplicationName() {
+      public io.dstore.values.StringValue getApplicationName() {
         if (applicationNameBuilder_ == null) {
-          return applicationName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : applicationName_;
+          return applicationName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : applicationName_;
         } else {
           return applicationNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue application_name = 2;</code>
+       * <code>optional .dstore.values.StringValue application_name = 2;</code>
        */
-      public Builder setApplicationName(io.dstore.Values.stringValue value) {
+      public Builder setApplicationName(io.dstore.values.StringValue value) {
         if (applicationNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_name = 2;</code>
+       * <code>optional .dstore.values.StringValue application_name = 2;</code>
        */
       public Builder setApplicationName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (applicationNameBuilder_ == null) {
           applicationName_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_name = 2;</code>
+       * <code>optional .dstore.values.StringValue application_name = 2;</code>
        */
-      public Builder mergeApplicationName(io.dstore.Values.stringValue value) {
+      public Builder mergeApplicationName(io.dstore.values.StringValue value) {
         if (applicationNameBuilder_ == null) {
           if (applicationName_ != null) {
             applicationName_ =
-              io.dstore.Values.stringValue.newBuilder(applicationName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(applicationName_).mergeFrom(value).buildPartial();
           } else {
             applicationName_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_name = 2;</code>
+       * <code>optional .dstore.values.StringValue application_name = 2;</code>
        */
       public Builder clearApplicationName() {
         if (applicationNameBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue application_name = 2;</code>
+       * <code>optional .dstore.values.StringValue application_name = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getApplicationNameBuilder() {
+      public io.dstore.values.StringValue.Builder getApplicationNameBuilder() {
         
         onChanged();
         return getApplicationNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue application_name = 2;</code>
+       * <code>optional .dstore.values.StringValue application_name = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getApplicationNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getApplicationNameOrBuilder() {
         if (applicationNameBuilder_ != null) {
           return applicationNameBuilder_.getMessageOrBuilder();
         } else {
           return applicationName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : applicationName_;
+              io.dstore.values.StringValue.getDefaultInstance() : applicationName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue application_name = 2;</code>
+       * <code>optional .dstore.values.StringValue application_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getApplicationNameFieldBuilder() {
         if (applicationNameBuilder_ == null) {
           applicationNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getApplicationName(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiGetApplicationsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue searchForAppNameWithLike_ = null;
+      private io.dstore.values.BooleanValue searchForAppNameWithLike_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> searchForAppNameWithLikeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> searchForAppNameWithLikeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+       * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
        */
       public boolean hasSearchForAppNameWithLike() {
         return searchForAppNameWithLikeBuilder_ != null || searchForAppNameWithLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+       * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
        */
-      public io.dstore.Values.booleanValue getSearchForAppNameWithLike() {
+      public io.dstore.values.BooleanValue getSearchForAppNameWithLike() {
         if (searchForAppNameWithLikeBuilder_ == null) {
-          return searchForAppNameWithLike_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : searchForAppNameWithLike_;
+          return searchForAppNameWithLike_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : searchForAppNameWithLike_;
         } else {
           return searchForAppNameWithLikeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+       * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
        */
-      public Builder setSearchForAppNameWithLike(io.dstore.Values.booleanValue value) {
+      public Builder setSearchForAppNameWithLike(io.dstore.values.BooleanValue value) {
         if (searchForAppNameWithLikeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+       * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
        */
       public Builder setSearchForAppNameWithLike(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (searchForAppNameWithLikeBuilder_ == null) {
           searchForAppNameWithLike_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+       * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
        */
-      public Builder mergeSearchForAppNameWithLike(io.dstore.Values.booleanValue value) {
+      public Builder mergeSearchForAppNameWithLike(io.dstore.values.BooleanValue value) {
         if (searchForAppNameWithLikeBuilder_ == null) {
           if (searchForAppNameWithLike_ != null) {
             searchForAppNameWithLike_ =
-              io.dstore.Values.booleanValue.newBuilder(searchForAppNameWithLike_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(searchForAppNameWithLike_).mergeFrom(value).buildPartial();
           } else {
             searchForAppNameWithLike_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+       * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
        */
       public Builder clearSearchForAppNameWithLike() {
         if (searchForAppNameWithLikeBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiGetApplicationsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+       * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getSearchForAppNameWithLikeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getSearchForAppNameWithLikeBuilder() {
         
         onChanged();
         return getSearchForAppNameWithLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+       * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getSearchForAppNameWithLikeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getSearchForAppNameWithLikeOrBuilder() {
         if (searchForAppNameWithLikeBuilder_ != null) {
           return searchForAppNameWithLikeBuilder_.getMessageOrBuilder();
         } else {
           return searchForAppNameWithLike_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : searchForAppNameWithLike_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : searchForAppNameWithLike_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue search_for_app_name_with_like = 3;</code>
+       * <code>optional .dstore.values.BooleanValue search_for_app_name_with_like = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getSearchForAppNameWithLikeFieldBuilder() {
         if (searchForAppNameWithLikeBuilder_ == null) {
           searchForAppNameWithLikeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getSearchForAppNameWithLike(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class MiGetApplicationsAd {
        * Bezeichnung/Name der Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue application_name = 10001;</code>
        */
       boolean hasApplicationName();
       /**
@@ -1373,24 +1373,24 @@ public final class MiGetApplicationsAd {
        * Bezeichnung/Name der Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue application_name = 10001;</code>
        */
-      io.dstore.Values.stringValue getApplicationName();
+      io.dstore.values.StringValue getApplicationName();
       /**
        * <pre>
        * Bezeichnung/Name der Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue application_name = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getApplicationNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getApplicationNameOrBuilder();
 
       /**
        * <pre>
        * ID einer registrierten "dStore"-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
        */
       boolean hasApplicationId();
       /**
@@ -1398,17 +1398,17 @@ public final class MiGetApplicationsAd {
        * ID einer registrierten "dStore"-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getApplicationId();
+      io.dstore.values.IntegerValue getApplicationId();
       /**
        * <pre>
        * ID einer registrierten "dStore"-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getApplicationIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getApplicationIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetApplications_Ad.Response.Row}
@@ -1456,11 +1456,11 @@ public final class MiGetApplicationsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (applicationName_ != null) {
                   subBuilder = applicationName_.toBuilder();
                 }
-                applicationName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                applicationName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(applicationName_);
                   applicationName_ = subBuilder.buildPartial();
@@ -1469,11 +1469,11 @@ public final class MiGetApplicationsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (applicationId_ != null) {
                   subBuilder = applicationId_.toBuilder();
                 }
-                applicationId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                applicationId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(applicationId_);
                   applicationId_ = subBuilder.buildPartial();
@@ -1514,13 +1514,13 @@ public final class MiGetApplicationsAd {
       }
 
       public static final int APPLICATION_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue applicationName_;
+      private io.dstore.values.StringValue applicationName_;
       /**
        * <pre>
        * Bezeichnung/Name der Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue application_name = 10001;</code>
        */
       public boolean hasApplicationName() {
         return applicationName_ != null;
@@ -1530,30 +1530,30 @@ public final class MiGetApplicationsAd {
        * Bezeichnung/Name der Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue application_name = 10001;</code>
        */
-      public io.dstore.Values.stringValue getApplicationName() {
-        return applicationName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : applicationName_;
+      public io.dstore.values.StringValue getApplicationName() {
+        return applicationName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : applicationName_;
       }
       /**
        * <pre>
        * Bezeichnung/Name der Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue application_name = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getApplicationNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getApplicationNameOrBuilder() {
         return getApplicationName();
       }
 
       public static final int APPLICATION_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue applicationId_;
+      private io.dstore.values.IntegerValue applicationId_;
       /**
        * <pre>
        * ID einer registrierten "dStore"-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
        */
       public boolean hasApplicationId() {
         return applicationId_ != null;
@@ -1563,19 +1563,19 @@ public final class MiGetApplicationsAd {
        * ID einer registrierten "dStore"-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getApplicationId() {
-        return applicationId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationId_;
+      public io.dstore.values.IntegerValue getApplicationId() {
+        return applicationId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applicationId_;
       }
       /**
        * <pre>
        * ID einer registrierten "dStore"-Anwendung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getApplicationIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getApplicationIdOrBuilder() {
         return getApplicationId();
       }
 
@@ -1934,15 +1934,15 @@ public final class MiGetApplicationsAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue applicationName_ = null;
+        private io.dstore.values.StringValue applicationName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> applicationNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> applicationNameBuilder_;
         /**
          * <pre>
          * Bezeichnung/Name der Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue application_name = 10001;</code>
          */
         public boolean hasApplicationName() {
           return applicationNameBuilder_ != null || applicationName_ != null;
@@ -1952,11 +1952,11 @@ public final class MiGetApplicationsAd {
          * Bezeichnung/Name der Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue application_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue getApplicationName() {
+        public io.dstore.values.StringValue getApplicationName() {
           if (applicationNameBuilder_ == null) {
-            return applicationName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : applicationName_;
+            return applicationName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : applicationName_;
           } else {
             return applicationNameBuilder_.getMessage();
           }
@@ -1966,9 +1966,9 @@ public final class MiGetApplicationsAd {
          * Bezeichnung/Name der Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue application_name = 10001;</code>
          */
-        public Builder setApplicationName(io.dstore.Values.stringValue value) {
+        public Builder setApplicationName(io.dstore.values.StringValue value) {
           if (applicationNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1986,10 +1986,10 @@ public final class MiGetApplicationsAd {
          * Bezeichnung/Name der Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue application_name = 10001;</code>
          */
         public Builder setApplicationName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (applicationNameBuilder_ == null) {
             applicationName_ = builderForValue.build();
             onChanged();
@@ -2004,13 +2004,13 @@ public final class MiGetApplicationsAd {
          * Bezeichnung/Name der Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue application_name = 10001;</code>
          */
-        public Builder mergeApplicationName(io.dstore.Values.stringValue value) {
+        public Builder mergeApplicationName(io.dstore.values.StringValue value) {
           if (applicationNameBuilder_ == null) {
             if (applicationName_ != null) {
               applicationName_ =
-                io.dstore.Values.stringValue.newBuilder(applicationName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(applicationName_).mergeFrom(value).buildPartial();
             } else {
               applicationName_ = value;
             }
@@ -2026,7 +2026,7 @@ public final class MiGetApplicationsAd {
          * Bezeichnung/Name der Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue application_name = 10001;</code>
          */
         public Builder clearApplicationName() {
           if (applicationNameBuilder_ == null) {
@@ -2044,9 +2044,9 @@ public final class MiGetApplicationsAd {
          * Bezeichnung/Name der Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue application_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getApplicationNameBuilder() {
+        public io.dstore.values.StringValue.Builder getApplicationNameBuilder() {
           
           onChanged();
           return getApplicationNameFieldBuilder().getBuilder();
@@ -2056,14 +2056,14 @@ public final class MiGetApplicationsAd {
          * Bezeichnung/Name der Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue application_name = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getApplicationNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getApplicationNameOrBuilder() {
           if (applicationNameBuilder_ != null) {
             return applicationNameBuilder_.getMessageOrBuilder();
           } else {
             return applicationName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : applicationName_;
+                io.dstore.values.StringValue.getDefaultInstance() : applicationName_;
           }
         }
         /**
@@ -2071,14 +2071,14 @@ public final class MiGetApplicationsAd {
          * Bezeichnung/Name der Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue application_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue application_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getApplicationNameFieldBuilder() {
           if (applicationNameBuilder_ == null) {
             applicationNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getApplicationName(),
                     getParentForChildren(),
                     isClean());
@@ -2087,15 +2087,15 @@ public final class MiGetApplicationsAd {
           return applicationNameBuilder_;
         }
 
-        private io.dstore.Values.integerValue applicationId_ = null;
+        private io.dstore.values.IntegerValue applicationId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> applicationIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> applicationIdBuilder_;
         /**
          * <pre>
          * ID einer registrierten "dStore"-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
          */
         public boolean hasApplicationId() {
           return applicationIdBuilder_ != null || applicationId_ != null;
@@ -2105,11 +2105,11 @@ public final class MiGetApplicationsAd {
          * ID einer registrierten "dStore"-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getApplicationId() {
+        public io.dstore.values.IntegerValue getApplicationId() {
           if (applicationIdBuilder_ == null) {
-            return applicationId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : applicationId_;
+            return applicationId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : applicationId_;
           } else {
             return applicationIdBuilder_.getMessage();
           }
@@ -2119,9 +2119,9 @@ public final class MiGetApplicationsAd {
          * ID einer registrierten "dStore"-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
          */
-        public Builder setApplicationId(io.dstore.Values.integerValue value) {
+        public Builder setApplicationId(io.dstore.values.IntegerValue value) {
           if (applicationIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2139,10 +2139,10 @@ public final class MiGetApplicationsAd {
          * ID einer registrierten "dStore"-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
          */
         public Builder setApplicationId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (applicationIdBuilder_ == null) {
             applicationId_ = builderForValue.build();
             onChanged();
@@ -2157,13 +2157,13 @@ public final class MiGetApplicationsAd {
          * ID einer registrierten "dStore"-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
          */
-        public Builder mergeApplicationId(io.dstore.Values.integerValue value) {
+        public Builder mergeApplicationId(io.dstore.values.IntegerValue value) {
           if (applicationIdBuilder_ == null) {
             if (applicationId_ != null) {
               applicationId_ =
-                io.dstore.Values.integerValue.newBuilder(applicationId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(applicationId_).mergeFrom(value).buildPartial();
             } else {
               applicationId_ = value;
             }
@@ -2179,7 +2179,7 @@ public final class MiGetApplicationsAd {
          * ID einer registrierten "dStore"-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
          */
         public Builder clearApplicationId() {
           if (applicationIdBuilder_ == null) {
@@ -2197,9 +2197,9 @@ public final class MiGetApplicationsAd {
          * ID einer registrierten "dStore"-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getApplicationIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getApplicationIdBuilder() {
           
           onChanged();
           return getApplicationIdFieldBuilder().getBuilder();
@@ -2209,14 +2209,14 @@ public final class MiGetApplicationsAd {
          * ID einer registrierten "dStore"-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getApplicationIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getApplicationIdOrBuilder() {
           if (applicationIdBuilder_ != null) {
             return applicationIdBuilder_.getMessageOrBuilder();
           } else {
             return applicationId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : applicationId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : applicationId_;
           }
         }
         /**
@@ -2224,14 +2224,14 @@ public final class MiGetApplicationsAd {
          * ID einer registrierten "dStore"-Anwendung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue application_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue application_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getApplicationIdFieldBuilder() {
           if (applicationIdBuilder_ == null) {
             applicationIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getApplicationId(),
                     getParentForChildren(),
                     isClean());
@@ -3700,12 +3700,12 @@ public final class MiGetApplicationsAd {
       "tions_Ad.proto\022#dstore.engine.mi_GetAppl" +
       "ications_Ad\032\023dstore/values.proto\032\032dstore" +
       "/engine/engine.proto\"\246\002\n\nParameters\0223\n\016a" +
-      "pplication_id\030\001 \001(\0132\033.dstore.values.inte" +
+      "pplication_id\030\001 \001(\0132\033.dstore.values.Inte" +
       "gerValue\022\034\n\023application_id_null\030\351\007 \001(\010\0224" +
       "\n\020application_name\030\002 \001(\0132\032.dstore.values" +
-      ".stringValue\022\036\n\025application_name_null\030\352\007" +
+      ".StringValue\022\036\n\025application_name_null\030\352\007" +
       " \001(\010\022B\n\035search_for_app_name_with_like\030\003 " +
-      "\001(\0132\033.dstore.values.booleanValue\022+\n\"sear",
+      "\001(\0132\033.dstore.values.BooleanValue\022+\n\"sear",
       "ch_for_app_name_with_like_null\030\353\007 \001(\010\"\263\002" +
       "\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036.d" +
       "store.engine.MetaInformation\022\'\n\007message\030" +
@@ -3713,8 +3713,8 @@ public final class MiGetApplicationsAd {
       "(\01321.dstore.engine.mi_GetApplications_Ad" +
       ".Response.Row\032\203\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0225" +
       "\n\020application_name\030\221N \001(\0132\032.dstore.value" +
-      "s.stringValue\0224\n\016application_id\030\222N \001(\0132\033" +
-      ".dstore.values.integerValueBV\n\033io.dstore" +
+      "s.StringValue\0224\n\016application_id\030\222N \001(\0132\033" +
+      ".dstore.values.IntegerValueBV\n\033io.dstore" +
       ".engine.proceduresZ7gosdk.dstore.de/engi",
       "ne/procedures/mi_GetApplications_Adb\006pro" +
       "to3"
@@ -3730,7 +3730,7 @@ public final class MiGetApplicationsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetApplications_Ad_Parameters_descriptor =
@@ -3751,7 +3751,7 @@ public final class MiGetApplicationsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetApplications_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ApplicationName", "ApplicationId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

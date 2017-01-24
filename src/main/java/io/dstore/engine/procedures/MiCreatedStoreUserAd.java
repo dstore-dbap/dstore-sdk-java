@@ -19,17 +19,17 @@ public final class MiCreatedStoreUserAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.StringValue user_name = 1;</code>
      */
     boolean hasUserName();
     /**
-     * <code>optional .dstore.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.StringValue user_name = 1;</code>
      */
-    io.dstore.Values.stringValue getUserName();
+    io.dstore.values.StringValue getUserName();
     /**
-     * <code>optional .dstore.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.StringValue user_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
     /**
      * <code>optional bool user_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiCreatedStoreUserAd {
     boolean getUserNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
      */
     boolean hasDBLogin();
     /**
-     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
      */
-    io.dstore.Values.stringValue getDBLogin();
+    io.dstore.values.StringValue getDBLogin();
     /**
-     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDBLoginOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDBLoginOrBuilder();
 
     /**
      * <code>optional bool d_b_login_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiCreatedStoreUserAd {
     boolean getDBLoginNull();
 
     /**
-     * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+     * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
      */
     boolean hasDBPassword();
     /**
-     * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+     * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
      */
-    io.dstore.Values.stringValue getDBPassword();
+    io.dstore.values.StringValue getDBPassword();
     /**
-     * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+     * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDBPasswordOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDBPasswordOrBuilder();
 
     /**
      * <code>optional bool d_b_password_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiCreatedStoreUserAd {
     boolean getDBPasswordNull();
 
     /**
-     * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+     * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
      */
     boolean hasDBLoginDescription();
     /**
-     * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+     * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
      */
-    io.dstore.Values.stringValue getDBLoginDescription();
+    io.dstore.values.StringValue getDBLoginDescription();
     /**
-     * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+     * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDBLoginDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDBLoginDescriptionOrBuilder();
 
     /**
      * <code>optional bool d_b_login_description_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiCreatedStoreUserAd {
     boolean getDBLoginDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+     * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
      */
     boolean hasDBGroupAdmin();
     /**
-     * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+     * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
      */
-    io.dstore.Values.booleanValue getDBGroupAdmin();
+    io.dstore.values.BooleanValue getDBGroupAdmin();
     /**
-     * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+     * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDBGroupAdminOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDBGroupAdminOrBuilder();
 
     /**
      * <code>optional bool d_b_group_admin_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiCreatedStoreUserAd {
     boolean getDBGroupAdminNull();
 
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
      */
     boolean hasUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
      */
-    io.dstore.Values.integerValue getUserGroupId();
+    io.dstore.values.IntegerValue getUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder();
 
     /**
      * <code>optional bool user_group_id_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class MiCreatedStoreUserAd {
     boolean getUserGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+     * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
      */
     boolean hasCreatePersonWithPassword();
     /**
-     * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+     * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
      */
-    io.dstore.Values.stringValue getCreatePersonWithPassword();
+    io.dstore.values.StringValue getCreatePersonWithPassword();
     /**
-     * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+     * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCreatePersonWithPasswordOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCreatePersonWithPasswordOrBuilder();
 
     /**
      * <code>optional bool create_person_with_password_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class MiCreatedStoreUserAd {
     boolean getCreatePersonWithPasswordNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+     * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
      */
     boolean hasUserMayCreateNewUsers();
     /**
-     * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+     * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
      */
-    io.dstore.Values.booleanValue getUserMayCreateNewUsers();
+    io.dstore.values.BooleanValue getUserMayCreateNewUsers();
     /**
-     * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+     * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getUserMayCreateNewUsersOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getUserMayCreateNewUsersOrBuilder();
 
     /**
      * <code>optional bool user_may_create_new_users_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class MiCreatedStoreUserAd {
     boolean getUserMayCreateNewUsersNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+     * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
      */
     boolean hasAbortIfLoginAlreadyExists();
     /**
-     * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+     * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
      */
-    io.dstore.Values.booleanValue getAbortIfLoginAlreadyExists();
+    io.dstore.values.BooleanValue getAbortIfLoginAlreadyExists();
     /**
-     * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+     * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getAbortIfLoginAlreadyExistsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getAbortIfLoginAlreadyExistsOrBuilder();
 
     /**
      * <code>optional bool abort_if_login_already_exists_null = 1009;</code>
@@ -229,11 +229,11 @@ public final class MiCreatedStoreUserAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (userName_ != null) {
                 subBuilder = userName_.toBuilder();
               }
-              userName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              userName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userName_);
                 userName_ = subBuilder.buildPartial();
@@ -242,11 +242,11 @@ public final class MiCreatedStoreUserAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (dBLogin_ != null) {
                 subBuilder = dBLogin_.toBuilder();
               }
-              dBLogin_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              dBLogin_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dBLogin_);
                 dBLogin_ = subBuilder.buildPartial();
@@ -255,11 +255,11 @@ public final class MiCreatedStoreUserAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (dBPassword_ != null) {
                 subBuilder = dBPassword_.toBuilder();
               }
-              dBPassword_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              dBPassword_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dBPassword_);
                 dBPassword_ = subBuilder.buildPartial();
@@ -268,11 +268,11 @@ public final class MiCreatedStoreUserAd {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (dBLoginDescription_ != null) {
                 subBuilder = dBLoginDescription_.toBuilder();
               }
-              dBLoginDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              dBLoginDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dBLoginDescription_);
                 dBLoginDescription_ = subBuilder.buildPartial();
@@ -281,11 +281,11 @@ public final class MiCreatedStoreUserAd {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (dBGroupAdmin_ != null) {
                 subBuilder = dBGroupAdmin_.toBuilder();
               }
-              dBGroupAdmin_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              dBGroupAdmin_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dBGroupAdmin_);
                 dBGroupAdmin_ = subBuilder.buildPartial();
@@ -294,11 +294,11 @@ public final class MiCreatedStoreUserAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userGroupId_ != null) {
                 subBuilder = userGroupId_.toBuilder();
               }
-              userGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userGroupId_);
                 userGroupId_ = subBuilder.buildPartial();
@@ -307,11 +307,11 @@ public final class MiCreatedStoreUserAd {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (createPersonWithPassword_ != null) {
                 subBuilder = createPersonWithPassword_.toBuilder();
               }
-              createPersonWithPassword_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              createPersonWithPassword_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(createPersonWithPassword_);
                 createPersonWithPassword_ = subBuilder.buildPartial();
@@ -320,11 +320,11 @@ public final class MiCreatedStoreUserAd {
               break;
             }
             case 66: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (userMayCreateNewUsers_ != null) {
                 subBuilder = userMayCreateNewUsers_.toBuilder();
               }
-              userMayCreateNewUsers_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              userMayCreateNewUsers_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userMayCreateNewUsers_);
                 userMayCreateNewUsers_ = subBuilder.buildPartial();
@@ -333,11 +333,11 @@ public final class MiCreatedStoreUserAd {
               break;
             }
             case 74: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (abortIfLoginAlreadyExists_ != null) {
                 subBuilder = abortIfLoginAlreadyExists_.toBuilder();
               }
-              abortIfLoginAlreadyExists_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              abortIfLoginAlreadyExists_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(abortIfLoginAlreadyExists_);
                 abortIfLoginAlreadyExists_ = subBuilder.buildPartial();
@@ -414,23 +414,23 @@ public final class MiCreatedStoreUserAd {
     }
 
     public static final int USER_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue userName_;
+    private io.dstore.values.StringValue userName_;
     /**
-     * <code>optional .dstore.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.StringValue user_name = 1;</code>
      */
     public boolean hasUserName() {
       return userName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.StringValue user_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getUserName() {
-      return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+    public io.dstore.values.StringValue getUserName() {
+      return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue user_name = 1;</code>
+     * <code>optional .dstore.values.StringValue user_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
       return getUserName();
     }
 
@@ -444,23 +444,23 @@ public final class MiCreatedStoreUserAd {
     }
 
     public static final int D_B_LOGIN_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue dBLogin_;
+    private io.dstore.values.StringValue dBLogin_;
     /**
-     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
      */
     public boolean hasDBLogin() {
       return dBLogin_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
      */
-    public io.dstore.Values.stringValue getDBLogin() {
-      return dBLogin_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBLogin_;
+    public io.dstore.values.StringValue getDBLogin() {
+      return dBLogin_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dBLogin_;
     }
     /**
-     * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+     * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDBLoginOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDBLoginOrBuilder() {
       return getDBLogin();
     }
 
@@ -474,23 +474,23 @@ public final class MiCreatedStoreUserAd {
     }
 
     public static final int D_B_PASSWORD_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue dBPassword_;
+    private io.dstore.values.StringValue dBPassword_;
     /**
-     * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+     * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
      */
     public boolean hasDBPassword() {
       return dBPassword_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+     * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
      */
-    public io.dstore.Values.stringValue getDBPassword() {
-      return dBPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBPassword_;
+    public io.dstore.values.StringValue getDBPassword() {
+      return dBPassword_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dBPassword_;
     }
     /**
-     * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+     * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDBPasswordOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDBPasswordOrBuilder() {
       return getDBPassword();
     }
 
@@ -504,23 +504,23 @@ public final class MiCreatedStoreUserAd {
     }
 
     public static final int D_B_LOGIN_DESCRIPTION_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue dBLoginDescription_;
+    private io.dstore.values.StringValue dBLoginDescription_;
     /**
-     * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+     * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
      */
     public boolean hasDBLoginDescription() {
       return dBLoginDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+     * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
      */
-    public io.dstore.Values.stringValue getDBLoginDescription() {
-      return dBLoginDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBLoginDescription_;
+    public io.dstore.values.StringValue getDBLoginDescription() {
+      return dBLoginDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dBLoginDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+     * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDBLoginDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDBLoginDescriptionOrBuilder() {
       return getDBLoginDescription();
     }
 
@@ -534,23 +534,23 @@ public final class MiCreatedStoreUserAd {
     }
 
     public static final int D_B_GROUP_ADMIN_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue dBGroupAdmin_;
+    private io.dstore.values.BooleanValue dBGroupAdmin_;
     /**
-     * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+     * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
      */
     public boolean hasDBGroupAdmin() {
       return dBGroupAdmin_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+     * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
      */
-    public io.dstore.Values.booleanValue getDBGroupAdmin() {
-      return dBGroupAdmin_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : dBGroupAdmin_;
+    public io.dstore.values.BooleanValue getDBGroupAdmin() {
+      return dBGroupAdmin_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : dBGroupAdmin_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+     * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDBGroupAdminOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDBGroupAdminOrBuilder() {
       return getDBGroupAdmin();
     }
 
@@ -564,23 +564,23 @@ public final class MiCreatedStoreUserAd {
     }
 
     public static final int USER_GROUP_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue userGroupId_;
+    private io.dstore.values.IntegerValue userGroupId_;
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
      */
     public boolean hasUserGroupId() {
       return userGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getUserGroupId() {
-      return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+    public io.dstore.values.IntegerValue getUserGroupId() {
+      return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
       return getUserGroupId();
     }
 
@@ -594,23 +594,23 @@ public final class MiCreatedStoreUserAd {
     }
 
     public static final int CREATE_PERSON_WITH_PASSWORD_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue createPersonWithPassword_;
+    private io.dstore.values.StringValue createPersonWithPassword_;
     /**
-     * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+     * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
      */
     public boolean hasCreatePersonWithPassword() {
       return createPersonWithPassword_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+     * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
      */
-    public io.dstore.Values.stringValue getCreatePersonWithPassword() {
-      return createPersonWithPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : createPersonWithPassword_;
+    public io.dstore.values.StringValue getCreatePersonWithPassword() {
+      return createPersonWithPassword_ == null ? io.dstore.values.StringValue.getDefaultInstance() : createPersonWithPassword_;
     }
     /**
-     * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+     * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCreatePersonWithPasswordOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCreatePersonWithPasswordOrBuilder() {
       return getCreatePersonWithPassword();
     }
 
@@ -624,23 +624,23 @@ public final class MiCreatedStoreUserAd {
     }
 
     public static final int USER_MAY_CREATE_NEW_USERS_FIELD_NUMBER = 8;
-    private io.dstore.Values.booleanValue userMayCreateNewUsers_;
+    private io.dstore.values.BooleanValue userMayCreateNewUsers_;
     /**
-     * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+     * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
      */
     public boolean hasUserMayCreateNewUsers() {
       return userMayCreateNewUsers_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+     * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
      */
-    public io.dstore.Values.booleanValue getUserMayCreateNewUsers() {
-      return userMayCreateNewUsers_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : userMayCreateNewUsers_;
+    public io.dstore.values.BooleanValue getUserMayCreateNewUsers() {
+      return userMayCreateNewUsers_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : userMayCreateNewUsers_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+     * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getUserMayCreateNewUsersOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getUserMayCreateNewUsersOrBuilder() {
       return getUserMayCreateNewUsers();
     }
 
@@ -654,23 +654,23 @@ public final class MiCreatedStoreUserAd {
     }
 
     public static final int ABORT_IF_LOGIN_ALREADY_EXISTS_FIELD_NUMBER = 9;
-    private io.dstore.Values.booleanValue abortIfLoginAlreadyExists_;
+    private io.dstore.values.BooleanValue abortIfLoginAlreadyExists_;
     /**
-     * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+     * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
      */
     public boolean hasAbortIfLoginAlreadyExists() {
       return abortIfLoginAlreadyExists_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+     * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
      */
-    public io.dstore.Values.booleanValue getAbortIfLoginAlreadyExists() {
-      return abortIfLoginAlreadyExists_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : abortIfLoginAlreadyExists_;
+    public io.dstore.values.BooleanValue getAbortIfLoginAlreadyExists() {
+      return abortIfLoginAlreadyExists_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : abortIfLoginAlreadyExists_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+     * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getAbortIfLoginAlreadyExistsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getAbortIfLoginAlreadyExistsOrBuilder() {
       return getAbortIfLoginAlreadyExists();
     }
 
@@ -1367,29 +1367,29 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue userName_ = null;
+      private io.dstore.values.StringValue userName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> userNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.StringValue user_name = 1;</code>
        */
       public boolean hasUserName() {
         return userNameBuilder_ != null || userName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.StringValue user_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getUserName() {
+      public io.dstore.values.StringValue getUserName() {
         if (userNameBuilder_ == null) {
-          return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+          return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
         } else {
           return userNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.StringValue user_name = 1;</code>
        */
-      public Builder setUserName(io.dstore.Values.stringValue value) {
+      public Builder setUserName(io.dstore.values.StringValue value) {
         if (userNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1403,10 +1403,10 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.StringValue user_name = 1;</code>
        */
       public Builder setUserName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (userNameBuilder_ == null) {
           userName_ = builderForValue.build();
           onChanged();
@@ -1417,13 +1417,13 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.StringValue user_name = 1;</code>
        */
-      public Builder mergeUserName(io.dstore.Values.stringValue value) {
+      public Builder mergeUserName(io.dstore.values.StringValue value) {
         if (userNameBuilder_ == null) {
           if (userName_ != null) {
             userName_ =
-              io.dstore.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
           } else {
             userName_ = value;
           }
@@ -1435,7 +1435,7 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.StringValue user_name = 1;</code>
        */
       public Builder clearUserName() {
         if (userNameBuilder_ == null) {
@@ -1449,33 +1449,33 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.StringValue user_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
+      public io.dstore.values.StringValue.Builder getUserNameBuilder() {
         
         onChanged();
         return getUserNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.StringValue user_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         if (userNameBuilder_ != null) {
           return userNameBuilder_.getMessageOrBuilder();
         } else {
           return userName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+              io.dstore.values.StringValue.getDefaultInstance() : userName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue user_name = 1;</code>
+       * <code>optional .dstore.values.StringValue user_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUserNameFieldBuilder() {
         if (userNameBuilder_ == null) {
           userNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUserName(),
                   getParentForChildren(),
                   isClean());
@@ -1510,29 +1510,29 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue dBLogin_ = null;
+      private io.dstore.values.StringValue dBLogin_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dBLoginBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> dBLoginBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
        */
       public boolean hasDBLogin() {
         return dBLoginBuilder_ != null || dBLogin_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
        */
-      public io.dstore.Values.stringValue getDBLogin() {
+      public io.dstore.values.StringValue getDBLogin() {
         if (dBLoginBuilder_ == null) {
-          return dBLogin_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBLogin_;
+          return dBLogin_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dBLogin_;
         } else {
           return dBLoginBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
        */
-      public Builder setDBLogin(io.dstore.Values.stringValue value) {
+      public Builder setDBLogin(io.dstore.values.StringValue value) {
         if (dBLoginBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1546,10 +1546,10 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
        */
       public Builder setDBLogin(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (dBLoginBuilder_ == null) {
           dBLogin_ = builderForValue.build();
           onChanged();
@@ -1560,13 +1560,13 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
        */
-      public Builder mergeDBLogin(io.dstore.Values.stringValue value) {
+      public Builder mergeDBLogin(io.dstore.values.StringValue value) {
         if (dBLoginBuilder_ == null) {
           if (dBLogin_ != null) {
             dBLogin_ =
-              io.dstore.Values.stringValue.newBuilder(dBLogin_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(dBLogin_).mergeFrom(value).buildPartial();
           } else {
             dBLogin_ = value;
           }
@@ -1578,7 +1578,7 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
        */
       public Builder clearDBLogin() {
         if (dBLoginBuilder_ == null) {
@@ -1592,33 +1592,33 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDBLoginBuilder() {
+      public io.dstore.values.StringValue.Builder getDBLoginBuilder() {
         
         onChanged();
         return getDBLoginFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDBLoginOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDBLoginOrBuilder() {
         if (dBLoginBuilder_ != null) {
           return dBLoginBuilder_.getMessageOrBuilder();
         } else {
           return dBLogin_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : dBLogin_;
+              io.dstore.values.StringValue.getDefaultInstance() : dBLogin_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login = 2;</code>
+       * <code>optional .dstore.values.StringValue d_b_login = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDBLoginFieldBuilder() {
         if (dBLoginBuilder_ == null) {
           dBLoginBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDBLogin(),
                   getParentForChildren(),
                   isClean());
@@ -1653,29 +1653,29 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue dBPassword_ = null;
+      private io.dstore.values.StringValue dBPassword_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dBPasswordBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> dBPasswordBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+       * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
        */
       public boolean hasDBPassword() {
         return dBPasswordBuilder_ != null || dBPassword_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+       * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
        */
-      public io.dstore.Values.stringValue getDBPassword() {
+      public io.dstore.values.StringValue getDBPassword() {
         if (dBPasswordBuilder_ == null) {
-          return dBPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBPassword_;
+          return dBPassword_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dBPassword_;
         } else {
           return dBPasswordBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+       * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
        */
-      public Builder setDBPassword(io.dstore.Values.stringValue value) {
+      public Builder setDBPassword(io.dstore.values.StringValue value) {
         if (dBPasswordBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1689,10 +1689,10 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+       * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
        */
       public Builder setDBPassword(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (dBPasswordBuilder_ == null) {
           dBPassword_ = builderForValue.build();
           onChanged();
@@ -1703,13 +1703,13 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+       * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
        */
-      public Builder mergeDBPassword(io.dstore.Values.stringValue value) {
+      public Builder mergeDBPassword(io.dstore.values.StringValue value) {
         if (dBPasswordBuilder_ == null) {
           if (dBPassword_ != null) {
             dBPassword_ =
-              io.dstore.Values.stringValue.newBuilder(dBPassword_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(dBPassword_).mergeFrom(value).buildPartial();
           } else {
             dBPassword_ = value;
           }
@@ -1721,7 +1721,7 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+       * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
        */
       public Builder clearDBPassword() {
         if (dBPasswordBuilder_ == null) {
@@ -1735,33 +1735,33 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+       * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDBPasswordBuilder() {
+      public io.dstore.values.StringValue.Builder getDBPasswordBuilder() {
         
         onChanged();
         return getDBPasswordFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+       * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDBPasswordOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDBPasswordOrBuilder() {
         if (dBPasswordBuilder_ != null) {
           return dBPasswordBuilder_.getMessageOrBuilder();
         } else {
           return dBPassword_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : dBPassword_;
+              io.dstore.values.StringValue.getDefaultInstance() : dBPassword_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_password = 3;</code>
+       * <code>optional .dstore.values.StringValue d_b_password = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDBPasswordFieldBuilder() {
         if (dBPasswordBuilder_ == null) {
           dBPasswordBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDBPassword(),
                   getParentForChildren(),
                   isClean());
@@ -1796,29 +1796,29 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue dBLoginDescription_ = null;
+      private io.dstore.values.StringValue dBLoginDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dBLoginDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> dBLoginDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+       * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
        */
       public boolean hasDBLoginDescription() {
         return dBLoginDescriptionBuilder_ != null || dBLoginDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+       * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
        */
-      public io.dstore.Values.stringValue getDBLoginDescription() {
+      public io.dstore.values.StringValue getDBLoginDescription() {
         if (dBLoginDescriptionBuilder_ == null) {
-          return dBLoginDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dBLoginDescription_;
+          return dBLoginDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dBLoginDescription_;
         } else {
           return dBLoginDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+       * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
        */
-      public Builder setDBLoginDescription(io.dstore.Values.stringValue value) {
+      public Builder setDBLoginDescription(io.dstore.values.StringValue value) {
         if (dBLoginDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1832,10 +1832,10 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+       * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
        */
       public Builder setDBLoginDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (dBLoginDescriptionBuilder_ == null) {
           dBLoginDescription_ = builderForValue.build();
           onChanged();
@@ -1846,13 +1846,13 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+       * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
        */
-      public Builder mergeDBLoginDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeDBLoginDescription(io.dstore.values.StringValue value) {
         if (dBLoginDescriptionBuilder_ == null) {
           if (dBLoginDescription_ != null) {
             dBLoginDescription_ =
-              io.dstore.Values.stringValue.newBuilder(dBLoginDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(dBLoginDescription_).mergeFrom(value).buildPartial();
           } else {
             dBLoginDescription_ = value;
           }
@@ -1864,7 +1864,7 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+       * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
        */
       public Builder clearDBLoginDescription() {
         if (dBLoginDescriptionBuilder_ == null) {
@@ -1878,33 +1878,33 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+       * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDBLoginDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getDBLoginDescriptionBuilder() {
         
         onChanged();
         return getDBLoginDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+       * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDBLoginDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDBLoginDescriptionOrBuilder() {
         if (dBLoginDescriptionBuilder_ != null) {
           return dBLoginDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return dBLoginDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : dBLoginDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : dBLoginDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue d_b_login_description = 4;</code>
+       * <code>optional .dstore.values.StringValue d_b_login_description = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDBLoginDescriptionFieldBuilder() {
         if (dBLoginDescriptionBuilder_ == null) {
           dBLoginDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDBLoginDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1939,29 +1939,29 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue dBGroupAdmin_ = null;
+      private io.dstore.values.BooleanValue dBGroupAdmin_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> dBGroupAdminBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> dBGroupAdminBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+       * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
        */
       public boolean hasDBGroupAdmin() {
         return dBGroupAdminBuilder_ != null || dBGroupAdmin_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+       * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
        */
-      public io.dstore.Values.booleanValue getDBGroupAdmin() {
+      public io.dstore.values.BooleanValue getDBGroupAdmin() {
         if (dBGroupAdminBuilder_ == null) {
-          return dBGroupAdmin_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : dBGroupAdmin_;
+          return dBGroupAdmin_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : dBGroupAdmin_;
         } else {
           return dBGroupAdminBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+       * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
        */
-      public Builder setDBGroupAdmin(io.dstore.Values.booleanValue value) {
+      public Builder setDBGroupAdmin(io.dstore.values.BooleanValue value) {
         if (dBGroupAdminBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1975,10 +1975,10 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+       * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
        */
       public Builder setDBGroupAdmin(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (dBGroupAdminBuilder_ == null) {
           dBGroupAdmin_ = builderForValue.build();
           onChanged();
@@ -1989,13 +1989,13 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+       * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
        */
-      public Builder mergeDBGroupAdmin(io.dstore.Values.booleanValue value) {
+      public Builder mergeDBGroupAdmin(io.dstore.values.BooleanValue value) {
         if (dBGroupAdminBuilder_ == null) {
           if (dBGroupAdmin_ != null) {
             dBGroupAdmin_ =
-              io.dstore.Values.booleanValue.newBuilder(dBGroupAdmin_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(dBGroupAdmin_).mergeFrom(value).buildPartial();
           } else {
             dBGroupAdmin_ = value;
           }
@@ -2007,7 +2007,7 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+       * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
        */
       public Builder clearDBGroupAdmin() {
         if (dBGroupAdminBuilder_ == null) {
@@ -2021,33 +2021,33 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+       * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDBGroupAdminBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDBGroupAdminBuilder() {
         
         onChanged();
         return getDBGroupAdminFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+       * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDBGroupAdminOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDBGroupAdminOrBuilder() {
         if (dBGroupAdminBuilder_ != null) {
           return dBGroupAdminBuilder_.getMessageOrBuilder();
         } else {
           return dBGroupAdmin_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : dBGroupAdmin_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : dBGroupAdmin_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue d_b_group_admin = 5;</code>
+       * <code>optional .dstore.values.BooleanValue d_b_group_admin = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDBGroupAdminFieldBuilder() {
         if (dBGroupAdminBuilder_ == null) {
           dBGroupAdminBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDBGroupAdmin(),
                   getParentForChildren(),
                   isClean());
@@ -2082,29 +2082,29 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userGroupId_ = null;
+      private io.dstore.values.IntegerValue userGroupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userGroupIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
        */
       public boolean hasUserGroupId() {
         return userGroupIdBuilder_ != null || userGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getUserGroupId() {
+      public io.dstore.values.IntegerValue getUserGroupId() {
         if (userGroupIdBuilder_ == null) {
-          return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+          return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         } else {
           return userGroupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
        */
-      public Builder setUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder setUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2118,10 +2118,10 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
        */
       public Builder setUserGroupId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userGroupIdBuilder_ == null) {
           userGroupId_ = builderForValue.build();
           onChanged();
@@ -2132,13 +2132,13 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
        */
-      public Builder mergeUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (userGroupId_ != null) {
             userGroupId_ =
-              io.dstore.Values.integerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
           } else {
             userGroupId_ = value;
           }
@@ -2150,7 +2150,7 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
        */
       public Builder clearUserGroupId() {
         if (userGroupIdBuilder_ == null) {
@@ -2164,33 +2164,33 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserGroupIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserGroupIdBuilder() {
         
         onChanged();
         return getUserGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
         if (userGroupIdBuilder_ != null) {
           return userGroupIdBuilder_.getMessageOrBuilder();
         } else {
           return userGroupId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserGroupIdFieldBuilder() {
         if (userGroupIdBuilder_ == null) {
           userGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -2225,29 +2225,29 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue createPersonWithPassword_ = null;
+      private io.dstore.values.StringValue createPersonWithPassword_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> createPersonWithPasswordBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> createPersonWithPasswordBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+       * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
        */
       public boolean hasCreatePersonWithPassword() {
         return createPersonWithPasswordBuilder_ != null || createPersonWithPassword_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+       * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
        */
-      public io.dstore.Values.stringValue getCreatePersonWithPassword() {
+      public io.dstore.values.StringValue getCreatePersonWithPassword() {
         if (createPersonWithPasswordBuilder_ == null) {
-          return createPersonWithPassword_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : createPersonWithPassword_;
+          return createPersonWithPassword_ == null ? io.dstore.values.StringValue.getDefaultInstance() : createPersonWithPassword_;
         } else {
           return createPersonWithPasswordBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+       * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
        */
-      public Builder setCreatePersonWithPassword(io.dstore.Values.stringValue value) {
+      public Builder setCreatePersonWithPassword(io.dstore.values.StringValue value) {
         if (createPersonWithPasswordBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2261,10 +2261,10 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+       * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
        */
       public Builder setCreatePersonWithPassword(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (createPersonWithPasswordBuilder_ == null) {
           createPersonWithPassword_ = builderForValue.build();
           onChanged();
@@ -2275,13 +2275,13 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+       * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
        */
-      public Builder mergeCreatePersonWithPassword(io.dstore.Values.stringValue value) {
+      public Builder mergeCreatePersonWithPassword(io.dstore.values.StringValue value) {
         if (createPersonWithPasswordBuilder_ == null) {
           if (createPersonWithPassword_ != null) {
             createPersonWithPassword_ =
-              io.dstore.Values.stringValue.newBuilder(createPersonWithPassword_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(createPersonWithPassword_).mergeFrom(value).buildPartial();
           } else {
             createPersonWithPassword_ = value;
           }
@@ -2293,7 +2293,7 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+       * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
        */
       public Builder clearCreatePersonWithPassword() {
         if (createPersonWithPasswordBuilder_ == null) {
@@ -2307,33 +2307,33 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+       * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCreatePersonWithPasswordBuilder() {
+      public io.dstore.values.StringValue.Builder getCreatePersonWithPasswordBuilder() {
         
         onChanged();
         return getCreatePersonWithPasswordFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+       * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCreatePersonWithPasswordOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCreatePersonWithPasswordOrBuilder() {
         if (createPersonWithPasswordBuilder_ != null) {
           return createPersonWithPasswordBuilder_.getMessageOrBuilder();
         } else {
           return createPersonWithPassword_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : createPersonWithPassword_;
+              io.dstore.values.StringValue.getDefaultInstance() : createPersonWithPassword_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue create_person_with_password = 7;</code>
+       * <code>optional .dstore.values.StringValue create_person_with_password = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCreatePersonWithPasswordFieldBuilder() {
         if (createPersonWithPasswordBuilder_ == null) {
           createPersonWithPasswordBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCreatePersonWithPassword(),
                   getParentForChildren(),
                   isClean());
@@ -2368,29 +2368,29 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue userMayCreateNewUsers_ = null;
+      private io.dstore.values.BooleanValue userMayCreateNewUsers_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> userMayCreateNewUsersBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> userMayCreateNewUsersBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+       * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
        */
       public boolean hasUserMayCreateNewUsers() {
         return userMayCreateNewUsersBuilder_ != null || userMayCreateNewUsers_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+       * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
        */
-      public io.dstore.Values.booleanValue getUserMayCreateNewUsers() {
+      public io.dstore.values.BooleanValue getUserMayCreateNewUsers() {
         if (userMayCreateNewUsersBuilder_ == null) {
-          return userMayCreateNewUsers_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : userMayCreateNewUsers_;
+          return userMayCreateNewUsers_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : userMayCreateNewUsers_;
         } else {
           return userMayCreateNewUsersBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+       * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
        */
-      public Builder setUserMayCreateNewUsers(io.dstore.Values.booleanValue value) {
+      public Builder setUserMayCreateNewUsers(io.dstore.values.BooleanValue value) {
         if (userMayCreateNewUsersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2404,10 +2404,10 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+       * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
        */
       public Builder setUserMayCreateNewUsers(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (userMayCreateNewUsersBuilder_ == null) {
           userMayCreateNewUsers_ = builderForValue.build();
           onChanged();
@@ -2418,13 +2418,13 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+       * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
        */
-      public Builder mergeUserMayCreateNewUsers(io.dstore.Values.booleanValue value) {
+      public Builder mergeUserMayCreateNewUsers(io.dstore.values.BooleanValue value) {
         if (userMayCreateNewUsersBuilder_ == null) {
           if (userMayCreateNewUsers_ != null) {
             userMayCreateNewUsers_ =
-              io.dstore.Values.booleanValue.newBuilder(userMayCreateNewUsers_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(userMayCreateNewUsers_).mergeFrom(value).buildPartial();
           } else {
             userMayCreateNewUsers_ = value;
           }
@@ -2436,7 +2436,7 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+       * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
        */
       public Builder clearUserMayCreateNewUsers() {
         if (userMayCreateNewUsersBuilder_ == null) {
@@ -2450,33 +2450,33 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+       * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getUserMayCreateNewUsersBuilder() {
+      public io.dstore.values.BooleanValue.Builder getUserMayCreateNewUsersBuilder() {
         
         onChanged();
         return getUserMayCreateNewUsersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+       * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getUserMayCreateNewUsersOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getUserMayCreateNewUsersOrBuilder() {
         if (userMayCreateNewUsersBuilder_ != null) {
           return userMayCreateNewUsersBuilder_.getMessageOrBuilder();
         } else {
           return userMayCreateNewUsers_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : userMayCreateNewUsers_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : userMayCreateNewUsers_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue user_may_create_new_users = 8;</code>
+       * <code>optional .dstore.values.BooleanValue user_may_create_new_users = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getUserMayCreateNewUsersFieldBuilder() {
         if (userMayCreateNewUsersBuilder_ == null) {
           userMayCreateNewUsersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getUserMayCreateNewUsers(),
                   getParentForChildren(),
                   isClean());
@@ -2511,29 +2511,29 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue abortIfLoginAlreadyExists_ = null;
+      private io.dstore.values.BooleanValue abortIfLoginAlreadyExists_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> abortIfLoginAlreadyExistsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> abortIfLoginAlreadyExistsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+       * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
        */
       public boolean hasAbortIfLoginAlreadyExists() {
         return abortIfLoginAlreadyExistsBuilder_ != null || abortIfLoginAlreadyExists_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+       * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
        */
-      public io.dstore.Values.booleanValue getAbortIfLoginAlreadyExists() {
+      public io.dstore.values.BooleanValue getAbortIfLoginAlreadyExists() {
         if (abortIfLoginAlreadyExistsBuilder_ == null) {
-          return abortIfLoginAlreadyExists_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : abortIfLoginAlreadyExists_;
+          return abortIfLoginAlreadyExists_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : abortIfLoginAlreadyExists_;
         } else {
           return abortIfLoginAlreadyExistsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+       * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
        */
-      public Builder setAbortIfLoginAlreadyExists(io.dstore.Values.booleanValue value) {
+      public Builder setAbortIfLoginAlreadyExists(io.dstore.values.BooleanValue value) {
         if (abortIfLoginAlreadyExistsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2547,10 +2547,10 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+       * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
        */
       public Builder setAbortIfLoginAlreadyExists(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (abortIfLoginAlreadyExistsBuilder_ == null) {
           abortIfLoginAlreadyExists_ = builderForValue.build();
           onChanged();
@@ -2561,13 +2561,13 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+       * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
        */
-      public Builder mergeAbortIfLoginAlreadyExists(io.dstore.Values.booleanValue value) {
+      public Builder mergeAbortIfLoginAlreadyExists(io.dstore.values.BooleanValue value) {
         if (abortIfLoginAlreadyExistsBuilder_ == null) {
           if (abortIfLoginAlreadyExists_ != null) {
             abortIfLoginAlreadyExists_ =
-              io.dstore.Values.booleanValue.newBuilder(abortIfLoginAlreadyExists_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(abortIfLoginAlreadyExists_).mergeFrom(value).buildPartial();
           } else {
             abortIfLoginAlreadyExists_ = value;
           }
@@ -2579,7 +2579,7 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+       * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
        */
       public Builder clearAbortIfLoginAlreadyExists() {
         if (abortIfLoginAlreadyExistsBuilder_ == null) {
@@ -2593,33 +2593,33 @@ public final class MiCreatedStoreUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+       * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getAbortIfLoginAlreadyExistsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getAbortIfLoginAlreadyExistsBuilder() {
         
         onChanged();
         return getAbortIfLoginAlreadyExistsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+       * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getAbortIfLoginAlreadyExistsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getAbortIfLoginAlreadyExistsOrBuilder() {
         if (abortIfLoginAlreadyExistsBuilder_ != null) {
           return abortIfLoginAlreadyExistsBuilder_.getMessageOrBuilder();
         } else {
           return abortIfLoginAlreadyExists_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : abortIfLoginAlreadyExists_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : abortIfLoginAlreadyExists_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue abort_if_login_already_exists = 9;</code>
+       * <code>optional .dstore.values.BooleanValue abort_if_login_already_exists = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getAbortIfLoginAlreadyExistsFieldBuilder() {
         if (abortIfLoginAlreadyExistsBuilder_ == null) {
           abortIfLoginAlreadyExistsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getAbortIfLoginAlreadyExists(),
                   getParentForChildren(),
                   isClean());
@@ -4740,25 +4740,25 @@ public final class MiCreatedStoreUserAd {
       "reUser_Ad.proto\022$dstore.engine.mi_Create" +
       "dStoreUser_Ad\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\266\006\n\nParameters\022-\n" +
-      "\tuser_name\030\001 \001(\0132\032.dstore.values.stringV" +
+      "\tuser_name\030\001 \001(\0132\032.dstore.values.StringV" +
       "alue\022\027\n\016user_name_null\030\351\007 \001(\010\022-\n\td_b_log" +
-      "in\030\002 \001(\0132\032.dstore.values.stringValue\022\027\n\016" +
+      "in\030\002 \001(\0132\032.dstore.values.StringValue\022\027\n\016" +
       "d_b_login_null\030\352\007 \001(\010\0220\n\014d_b_password\030\003 " +
-      "\001(\0132\032.dstore.values.stringValue\022\032\n\021d_b_p" +
+      "\001(\0132\032.dstore.values.StringValue\022\032\n\021d_b_p" +
       "assword_null\030\353\007 \001(\010\0229\n\025d_b_login_descrip",
-      "tion\030\004 \001(\0132\032.dstore.values.stringValue\022#" +
+      "tion\030\004 \001(\0132\032.dstore.values.StringValue\022#" +
       "\n\032d_b_login_description_null\030\354\007 \001(\010\0224\n\017d" +
-      "_b_group_admin\030\005 \001(\0132\033.dstore.values.boo" +
+      "_b_group_admin\030\005 \001(\0132\033.dstore.values.Boo" +
       "leanValue\022\035\n\024d_b_group_admin_null\030\355\007 \001(\010" +
       "\0222\n\ruser_group_id\030\006 \001(\0132\033.dstore.values." +
-      "integerValue\022\033\n\022user_group_id_null\030\356\007 \001(" +
+      "IntegerValue\022\033\n\022user_group_id_null\030\356\007 \001(" +
       "\010\022?\n\033create_person_with_password\030\007 \001(\0132\032" +
-      ".dstore.values.stringValue\022)\n create_per" +
+      ".dstore.values.StringValue\022)\n create_per" +
       "son_with_password_null\030\357\007 \001(\010\022>\n\031user_ma" +
       "y_create_new_users\030\010 \001(\0132\033.dstore.values",
-      ".booleanValue\022\'\n\036user_may_create_new_use" +
+      ".BooleanValue\022\'\n\036user_may_create_new_use" +
       "rs_null\030\360\007 \001(\010\022B\n\035abort_if_login_already" +
-      "_exists\030\t \001(\0132\033.dstore.values.booleanVal" +
+      "_exists\030\t \001(\0132\033.dstore.values.BooleanVal" +
       "ue\022+\n\"abort_if_login_already_exists_null" +
       "\030\361\007 \001(\010\"\306\001\n\010Response\0228\n\020meta_information" +
       "\030\002 \003(\0132\036.dstore.engine.MetaInformation\022\'" +
@@ -4780,7 +4780,7 @@ public final class MiCreatedStoreUserAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Parameters_descriptor =
@@ -4801,7 +4801,7 @@ public final class MiCreatedStoreUserAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_CreatedStoreUser_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmGetCampaignBonusItemsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCampaignId();
+    io.dstore.values.IntegerValue getCampaignId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
      * <code>optional bool campaign_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetCampaignBonusItemsAd {
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
     boolean hasBenefitId();
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
-    io.dstore.Values.integerValue getBenefitId();
+    io.dstore.values.IntegerValue getBenefitId();
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
 
     /**
      * <code>optional bool benefit_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetCampaignBonusItemsAd {
     boolean getBenefitIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
     boolean hasGetAssignedSets();
     /**
-     * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
-    io.dstore.Values.booleanValue getGetAssignedSets();
+    io.dstore.values.BooleanValue getGetAssignedSets();
     /**
-     * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getGetAssignedSetsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getGetAssignedSetsOrBuilder();
 
     /**
      * <code>optional bool get_assigned_sets_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class OmGetCampaignBonusItemsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class OmGetCampaignBonusItemsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (benefitId_ != null) {
                 subBuilder = benefitId_.toBuilder();
               }
-              benefitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              benefitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(benefitId_);
                 benefitId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class OmGetCampaignBonusItemsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (getAssignedSets_ != null) {
                 subBuilder = getAssignedSets_.toBuilder();
               }
-              getAssignedSets_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              getAssignedSets_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getAssignedSets_);
                 getAssignedSets_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class OmGetCampaignBonusItemsAd {
     }
 
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue campaignId_;
+    private io.dstore.values.IntegerValue campaignId_;
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCampaignId() {
-      return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+    public io.dstore.values.IntegerValue getCampaignId() {
+      return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
     }
 
@@ -222,23 +222,23 @@ public final class OmGetCampaignBonusItemsAd {
     }
 
     public static final int BENEFIT_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue benefitId_;
+    private io.dstore.values.IntegerValue benefitId_;
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
     public boolean hasBenefitId() {
       return benefitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getBenefitId() {
-      return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+    public io.dstore.values.IntegerValue getBenefitId() {
+      return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
       return getBenefitId();
     }
 
@@ -252,23 +252,23 @@ public final class OmGetCampaignBonusItemsAd {
     }
 
     public static final int GET_ASSIGNED_SETS_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue getAssignedSets_;
+    private io.dstore.values.BooleanValue getAssignedSets_;
     /**
-     * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
     public boolean hasGetAssignedSets() {
       return getAssignedSets_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
-    public io.dstore.Values.booleanValue getGetAssignedSets() {
-      return getAssignedSets_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getAssignedSets_;
+    public io.dstore.values.BooleanValue getGetAssignedSets() {
+      return getAssignedSets_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getAssignedSets_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+     * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getGetAssignedSetsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getGetAssignedSetsOrBuilder() {
       return getGetAssignedSets();
     }
 
@@ -677,29 +677,29 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue campaignId_ = null;
+      private io.dstore.values.IntegerValue campaignId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCampaignId() {
+      public io.dstore.values.IntegerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
-          return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+          return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
         } else {
           return campaignIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public Builder setCampaignId(io.dstore.Values.integerValue value) {
+      public Builder setCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (campaignIdBuilder_ == null) {
           campaignId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
+      public Builder mergeCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
           if (campaignId_ != null) {
             campaignId_ =
-              io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
           } else {
             campaignId_ = value;
           }
@@ -745,7 +745,7 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCampaignIdBuilder() {
         
         onChanged();
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
           return campaignIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCampaignIdFieldBuilder() {
         if (campaignIdBuilder_ == null) {
           campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCampaignId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue benefitId_ = null;
+      private io.dstore.values.IntegerValue benefitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public boolean hasBenefitId() {
         return benefitIdBuilder_ != null || benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getBenefitId() {
+      public io.dstore.values.IntegerValue getBenefitId() {
         if (benefitIdBuilder_ == null) {
-          return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+          return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
         } else {
           return benefitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public Builder setBenefitId(io.dstore.Values.integerValue value) {
+      public Builder setBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public Builder setBenefitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (benefitIdBuilder_ == null) {
           benefitId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
+      public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
           if (benefitId_ != null) {
             benefitId_ =
-              io.dstore.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
           } else {
             benefitId_ = value;
           }
@@ -888,7 +888,7 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
       public Builder clearBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
         
         onChanged();
         return getBenefitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         if (benefitIdBuilder_ != null) {
           return benefitIdBuilder_.getMessageOrBuilder();
         } else {
           return benefitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBenefitIdFieldBuilder() {
         if (benefitIdBuilder_ == null) {
           benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBenefitId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue getAssignedSets_ = null;
+      private io.dstore.values.BooleanValue getAssignedSets_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getAssignedSetsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getAssignedSetsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public boolean hasGetAssignedSets() {
         return getAssignedSetsBuilder_ != null || getAssignedSets_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
-      public io.dstore.Values.booleanValue getGetAssignedSets() {
+      public io.dstore.values.BooleanValue getGetAssignedSets() {
         if (getAssignedSetsBuilder_ == null) {
-          return getAssignedSets_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getAssignedSets_;
+          return getAssignedSets_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getAssignedSets_;
         } else {
           return getAssignedSetsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
-      public Builder setGetAssignedSets(io.dstore.Values.booleanValue value) {
+      public Builder setGetAssignedSets(io.dstore.values.BooleanValue value) {
         if (getAssignedSetsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public Builder setGetAssignedSets(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (getAssignedSetsBuilder_ == null) {
           getAssignedSets_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
-      public Builder mergeGetAssignedSets(io.dstore.Values.booleanValue value) {
+      public Builder mergeGetAssignedSets(io.dstore.values.BooleanValue value) {
         if (getAssignedSetsBuilder_ == null) {
           if (getAssignedSets_ != null) {
             getAssignedSets_ =
-              io.dstore.Values.booleanValue.newBuilder(getAssignedSets_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(getAssignedSets_).mergeFrom(value).buildPartial();
           } else {
             getAssignedSets_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       public Builder clearGetAssignedSets() {
         if (getAssignedSetsBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class OmGetCampaignBonusItemsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getGetAssignedSetsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getGetAssignedSetsBuilder() {
         
         onChanged();
         return getGetAssignedSetsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getGetAssignedSetsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getGetAssignedSetsOrBuilder() {
         if (getAssignedSetsBuilder_ != null) {
           return getAssignedSetsBuilder_.getMessageOrBuilder();
         } else {
           return getAssignedSets_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : getAssignedSets_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : getAssignedSets_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_assigned_sets = 3;</code>
+       * <code>optional .dstore.values.BooleanValue get_assigned_sets = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getGetAssignedSetsFieldBuilder() {
         if (getAssignedSetsBuilder_ == null) {
           getAssignedSetsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getGetAssignedSets(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class OmGetCampaignBonusItemsAd {
        * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
        */
       boolean hasBenefitId();
       /**
@@ -1373,24 +1373,24 @@ public final class OmGetCampaignBonusItemsAd {
        * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getBenefitId();
+      io.dstore.values.IntegerValue getBenefitId();
       /**
        * <pre>
        * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
 
       /**
        * <pre>
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
        */
       boolean hasBonusFromOneSetOnly();
       /**
@@ -1398,24 +1398,24 @@ public final class OmGetCampaignBonusItemsAd {
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
        */
-      io.dstore.Values.booleanValue getBonusFromOneSetOnly();
+      io.dstore.values.BooleanValue getBonusFromOneSetOnly();
       /**
        * <pre>
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder();
 
       /**
        * <pre>
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
       boolean hasItemConditionId();
       /**
@@ -1423,24 +1423,24 @@ public final class OmGetCampaignBonusItemsAd {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
-      io.dstore.Values.integerValue getItemConditionId();
+      io.dstore.values.IntegerValue getItemConditionId();
       /**
        * <pre>
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
        */
       boolean hasItemSetId();
       /**
@@ -1448,24 +1448,24 @@ public final class OmGetCampaignBonusItemsAd {
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
        */
-      io.dstore.Values.integerValue getItemSetId();
+      io.dstore.values.IntegerValue getItemSetId();
       /**
        * <pre>
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder();
 
       /**
        * <pre>
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
        */
       boolean hasMaxQuantity();
       /**
@@ -1473,24 +1473,24 @@ public final class OmGetCampaignBonusItemsAd {
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
        */
-      io.dstore.Values.integerValue getMaxQuantity();
+      io.dstore.values.IntegerValue getMaxQuantity();
       /**
        * <pre>
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMaxQuantityOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMaxQuantityOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
        */
       boolean hasItemConditionDescription();
       /**
@@ -1498,24 +1498,24 @@ public final class OmGetCampaignBonusItemsAd {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
        */
-      io.dstore.Values.stringValue getItemConditionDescription();
+      io.dstore.values.StringValue getItemConditionDescription();
       /**
        * <pre>
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getItemConditionDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getItemConditionDescriptionOrBuilder();
 
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
       boolean hasSortNo();
       /**
@@ -1523,17 +1523,17 @@ public final class OmGetCampaignBonusItemsAd {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
-      io.dstore.Values.integerValue getSortNo();
+      io.dstore.values.IntegerValue getSortNo();
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampaignBonusItems_Ad.Response.Row}
@@ -1581,11 +1581,11 @@ public final class OmGetCampaignBonusItemsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (benefitId_ != null) {
                   subBuilder = benefitId_.toBuilder();
                 }
-                benefitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                benefitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(benefitId_);
                   benefitId_ = subBuilder.buildPartial();
@@ -1594,11 +1594,11 @@ public final class OmGetCampaignBonusItemsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (bonusFromOneSetOnly_ != null) {
                   subBuilder = bonusFromOneSetOnly_.toBuilder();
                 }
-                bonusFromOneSetOnly_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                bonusFromOneSetOnly_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(bonusFromOneSetOnly_);
                   bonusFromOneSetOnly_ = subBuilder.buildPartial();
@@ -1607,11 +1607,11 @@ public final class OmGetCampaignBonusItemsAd {
                 break;
               }
               case 160010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (itemConditionId_ != null) {
                   subBuilder = itemConditionId_.toBuilder();
                 }
-                itemConditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                itemConditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionId_);
                   itemConditionId_ = subBuilder.buildPartial();
@@ -1620,11 +1620,11 @@ public final class OmGetCampaignBonusItemsAd {
                 break;
               }
               case 160026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (itemSetId_ != null) {
                   subBuilder = itemSetId_.toBuilder();
                 }
-                itemSetId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                itemSetId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemSetId_);
                   itemSetId_ = subBuilder.buildPartial();
@@ -1633,11 +1633,11 @@ public final class OmGetCampaignBonusItemsAd {
                 break;
               }
               case 160042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (maxQuantity_ != null) {
                   subBuilder = maxQuantity_.toBuilder();
                 }
-                maxQuantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                maxQuantity_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxQuantity_);
                   maxQuantity_ = subBuilder.buildPartial();
@@ -1646,11 +1646,11 @@ public final class OmGetCampaignBonusItemsAd {
                 break;
               }
               case 160050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (itemConditionDescription_ != null) {
                   subBuilder = itemConditionDescription_.toBuilder();
                 }
-                itemConditionDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                itemConditionDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionDescription_);
                   itemConditionDescription_ = subBuilder.buildPartial();
@@ -1659,11 +1659,11 @@ public final class OmGetCampaignBonusItemsAd {
                 break;
               }
               case 160058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1704,13 +1704,13 @@ public final class OmGetCampaignBonusItemsAd {
       }
 
       public static final int BENEFIT_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue benefitId_;
+      private io.dstore.values.IntegerValue benefitId_;
       /**
        * <pre>
        * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
        */
       public boolean hasBenefitId() {
         return benefitId_ != null;
@@ -1720,30 +1720,30 @@ public final class OmGetCampaignBonusItemsAd {
        * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getBenefitId() {
-        return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+      public io.dstore.values.IntegerValue getBenefitId() {
+        return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
       }
       /**
        * <pre>
        * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         return getBenefitId();
       }
 
       public static final int BONUS_FROM_ONE_SET_ONLY_FIELD_NUMBER = 10002;
-      private io.dstore.Values.booleanValue bonusFromOneSetOnly_;
+      private io.dstore.values.BooleanValue bonusFromOneSetOnly_;
       /**
        * <pre>
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
        */
       public boolean hasBonusFromOneSetOnly() {
         return bonusFromOneSetOnly_ != null;
@@ -1753,30 +1753,30 @@ public final class OmGetCampaignBonusItemsAd {
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
        */
-      public io.dstore.Values.booleanValue getBonusFromOneSetOnly() {
-        return bonusFromOneSetOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
+      public io.dstore.values.BooleanValue getBonusFromOneSetOnly() {
+        return bonusFromOneSetOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
       }
       /**
        * <pre>
        * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+       * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
         return getBonusFromOneSetOnly();
       }
 
       public static final int ITEM_CONDITION_ID_FIELD_NUMBER = 20001;
-      private io.dstore.Values.integerValue itemConditionId_;
+      private io.dstore.values.IntegerValue itemConditionId_;
       /**
        * <pre>
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
       public boolean hasItemConditionId() {
         return itemConditionId_ != null;
@@ -1786,30 +1786,30 @@ public final class OmGetCampaignBonusItemsAd {
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
-      public io.dstore.Values.integerValue getItemConditionId() {
-        return itemConditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
+      public io.dstore.values.IntegerValue getItemConditionId() {
+        return itemConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
       }
       /**
        * <pre>
        * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
         return getItemConditionId();
       }
 
       public static final int ITEM_SET_ID_FIELD_NUMBER = 20003;
-      private io.dstore.Values.integerValue itemSetId_;
+      private io.dstore.values.IntegerValue itemSetId_;
       /**
        * <pre>
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
        */
       public boolean hasItemSetId() {
         return itemSetId_ != null;
@@ -1819,30 +1819,30 @@ public final class OmGetCampaignBonusItemsAd {
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
        */
-      public io.dstore.Values.integerValue getItemSetId() {
-        return itemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
+      public io.dstore.values.IntegerValue getItemSetId() {
+        return itemSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemSetId_;
       }
       /**
        * <pre>
        * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder() {
         return getItemSetId();
       }
 
       public static final int MAX_QUANTITY_FIELD_NUMBER = 20005;
-      private io.dstore.Values.integerValue maxQuantity_;
+      private io.dstore.values.IntegerValue maxQuantity_;
       /**
        * <pre>
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
        */
       public boolean hasMaxQuantity() {
         return maxQuantity_ != null;
@@ -1852,30 +1852,30 @@ public final class OmGetCampaignBonusItemsAd {
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
        */
-      public io.dstore.Values.integerValue getMaxQuantity() {
-        return maxQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxQuantity_;
+      public io.dstore.values.IntegerValue getMaxQuantity() {
+        return maxQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxQuantity_;
       }
       /**
        * <pre>
        * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxQuantityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxQuantityOrBuilder() {
         return getMaxQuantity();
       }
 
       public static final int ITEM_CONDITION_DESCRIPTION_FIELD_NUMBER = 20006;
-      private io.dstore.Values.stringValue itemConditionDescription_;
+      private io.dstore.values.StringValue itemConditionDescription_;
       /**
        * <pre>
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
        */
       public boolean hasItemConditionDescription() {
         return itemConditionDescription_ != null;
@@ -1885,30 +1885,30 @@ public final class OmGetCampaignBonusItemsAd {
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
        */
-      public io.dstore.Values.stringValue getItemConditionDescription() {
-        return itemConditionDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemConditionDescription_;
+      public io.dstore.values.StringValue getItemConditionDescription() {
+        return itemConditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Artikel-Bedingung "ItemConditionID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getItemConditionDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getItemConditionDescriptionOrBuilder() {
         return getItemConditionDescription();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 20007;
-      private io.dstore.Values.integerValue sortNo_;
+      private io.dstore.values.IntegerValue sortNo_;
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1918,19 +1918,19 @@ public final class OmGetCampaignBonusItemsAd {
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.values.IntegerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
       }
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
@@ -2439,15 +2439,15 @@ public final class OmGetCampaignBonusItemsAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue benefitId_ = null;
+        private io.dstore.values.IntegerValue benefitId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitIdBuilder_;
         /**
          * <pre>
          * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
          */
         public boolean hasBenefitId() {
           return benefitIdBuilder_ != null || benefitId_ != null;
@@ -2457,11 +2457,11 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getBenefitId() {
+        public io.dstore.values.IntegerValue getBenefitId() {
           if (benefitIdBuilder_ == null) {
-            return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+            return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
           } else {
             return benefitIdBuilder_.getMessage();
           }
@@ -2471,9 +2471,9 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
          */
-        public Builder setBenefitId(io.dstore.Values.integerValue value) {
+        public Builder setBenefitId(io.dstore.values.IntegerValue value) {
           if (benefitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2491,10 +2491,10 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
          */
         public Builder setBenefitId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (benefitIdBuilder_ == null) {
             benefitId_ = builderForValue.build();
             onChanged();
@@ -2509,13 +2509,13 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
          */
-        public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
+        public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
           if (benefitIdBuilder_ == null) {
             if (benefitId_ != null) {
               benefitId_ =
-                io.dstore.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
             } else {
               benefitId_ = value;
             }
@@ -2531,7 +2531,7 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
          */
         public Builder clearBenefitId() {
           if (benefitIdBuilder_ == null) {
@@ -2549,9 +2549,9 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
           
           onChanged();
           return getBenefitIdFieldBuilder().getBuilder();
@@ -2561,14 +2561,14 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
           if (benefitIdBuilder_ != null) {
             return benefitIdBuilder_.getMessageOrBuilder();
           } else {
             return benefitId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
           }
         }
         /**
@@ -2576,14 +2576,14 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Item-Benefits für Verkaufs-Aktionen - natürlich identisch mit "&#64;BenefitID" wenn angegeben
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue benefit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue benefit_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBenefitIdFieldBuilder() {
           if (benefitIdBuilder_ == null) {
             benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBenefitId(),
                     getParentForChildren(),
                     isClean());
@@ -2592,15 +2592,15 @@ public final class OmGetCampaignBonusItemsAd {
           return benefitIdBuilder_;
         }
 
-        private io.dstore.Values.booleanValue bonusFromOneSetOnly_ = null;
+        private io.dstore.values.BooleanValue bonusFromOneSetOnly_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> bonusFromOneSetOnlyBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> bonusFromOneSetOnlyBuilder_;
         /**
          * <pre>
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
          */
         public boolean hasBonusFromOneSetOnly() {
           return bonusFromOneSetOnlyBuilder_ != null || bonusFromOneSetOnly_ != null;
@@ -2610,11 +2610,11 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
          */
-        public io.dstore.Values.booleanValue getBonusFromOneSetOnly() {
+        public io.dstore.values.BooleanValue getBonusFromOneSetOnly() {
           if (bonusFromOneSetOnlyBuilder_ == null) {
-            return bonusFromOneSetOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
+            return bonusFromOneSetOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
           } else {
             return bonusFromOneSetOnlyBuilder_.getMessage();
           }
@@ -2624,9 +2624,9 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
          */
-        public Builder setBonusFromOneSetOnly(io.dstore.Values.booleanValue value) {
+        public Builder setBonusFromOneSetOnly(io.dstore.values.BooleanValue value) {
           if (bonusFromOneSetOnlyBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2644,10 +2644,10 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
          */
         public Builder setBonusFromOneSetOnly(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (bonusFromOneSetOnlyBuilder_ == null) {
             bonusFromOneSetOnly_ = builderForValue.build();
             onChanged();
@@ -2662,13 +2662,13 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
          */
-        public Builder mergeBonusFromOneSetOnly(io.dstore.Values.booleanValue value) {
+        public Builder mergeBonusFromOneSetOnly(io.dstore.values.BooleanValue value) {
           if (bonusFromOneSetOnlyBuilder_ == null) {
             if (bonusFromOneSetOnly_ != null) {
               bonusFromOneSetOnly_ =
-                io.dstore.Values.booleanValue.newBuilder(bonusFromOneSetOnly_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(bonusFromOneSetOnly_).mergeFrom(value).buildPartial();
             } else {
               bonusFromOneSetOnly_ = value;
             }
@@ -2684,7 +2684,7 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
          */
         public Builder clearBonusFromOneSetOnly() {
           if (bonusFromOneSetOnlyBuilder_ == null) {
@@ -2702,9 +2702,9 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getBonusFromOneSetOnlyBuilder() {
+        public io.dstore.values.BooleanValue.Builder getBonusFromOneSetOnlyBuilder() {
           
           onChanged();
           return getBonusFromOneSetOnlyFieldBuilder().getBuilder();
@@ -2714,14 +2714,14 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getBonusFromOneSetOnlyOrBuilder() {
           if (bonusFromOneSetOnlyBuilder_ != null) {
             return bonusFromOneSetOnlyBuilder_.getMessageOrBuilder();
           } else {
             return bonusFromOneSetOnly_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : bonusFromOneSetOnly_;
           }
         }
         /**
@@ -2729,14 +2729,14 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, ob Bonus-Artikel nur aus einem Set gewählt werden dürfen ("1") oder aus jedem einzelnen Set ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue bonus_from_one_set_only = 10002;</code>
+         * <code>optional .dstore.values.BooleanValue bonus_from_one_set_only = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getBonusFromOneSetOnlyFieldBuilder() {
           if (bonusFromOneSetOnlyBuilder_ == null) {
             bonusFromOneSetOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getBonusFromOneSetOnly(),
                     getParentForChildren(),
                     isClean());
@@ -2745,15 +2745,15 @@ public final class OmGetCampaignBonusItemsAd {
           return bonusFromOneSetOnlyBuilder_;
         }
 
-        private io.dstore.Values.integerValue itemConditionId_ = null;
+        private io.dstore.values.IntegerValue itemConditionId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemConditionIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemConditionIdBuilder_;
         /**
          * <pre>
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public boolean hasItemConditionId() {
           return itemConditionIdBuilder_ != null || itemConditionId_ != null;
@@ -2763,11 +2763,11 @@ public final class OmGetCampaignBonusItemsAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
-        public io.dstore.Values.integerValue getItemConditionId() {
+        public io.dstore.values.IntegerValue getItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
-            return itemConditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
+            return itemConditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
           } else {
             return itemConditionIdBuilder_.getMessage();
           }
@@ -2777,9 +2777,9 @@ public final class OmGetCampaignBonusItemsAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
-        public Builder setItemConditionId(io.dstore.Values.integerValue value) {
+        public Builder setItemConditionId(io.dstore.values.IntegerValue value) {
           if (itemConditionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2797,10 +2797,10 @@ public final class OmGetCampaignBonusItemsAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public Builder setItemConditionId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (itemConditionIdBuilder_ == null) {
             itemConditionId_ = builderForValue.build();
             onChanged();
@@ -2815,13 +2815,13 @@ public final class OmGetCampaignBonusItemsAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
-        public Builder mergeItemConditionId(io.dstore.Values.integerValue value) {
+        public Builder mergeItemConditionId(io.dstore.values.IntegerValue value) {
           if (itemConditionIdBuilder_ == null) {
             if (itemConditionId_ != null) {
               itemConditionId_ =
-                io.dstore.Values.integerValue.newBuilder(itemConditionId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(itemConditionId_).mergeFrom(value).buildPartial();
             } else {
               itemConditionId_ = value;
             }
@@ -2837,7 +2837,7 @@ public final class OmGetCampaignBonusItemsAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         public Builder clearItemConditionId() {
           if (itemConditionIdBuilder_ == null) {
@@ -2855,9 +2855,9 @@ public final class OmGetCampaignBonusItemsAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getItemConditionIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getItemConditionIdBuilder() {
           
           onChanged();
           return getItemConditionIdFieldBuilder().getBuilder();
@@ -2867,14 +2867,14 @@ public final class OmGetCampaignBonusItemsAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getItemConditionIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getItemConditionIdOrBuilder() {
           if (itemConditionIdBuilder_ != null) {
             return itemConditionIdBuilder_.getMessageOrBuilder();
           } else {
             return itemConditionId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : itemConditionId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : itemConditionId_;
           }
         }
         /**
@@ -2882,14 +2882,14 @@ public final class OmGetCampaignBonusItemsAd {
          * ID der Artikel-Bedingung, die das Set "ItemSetID" definiert. Die genaue Definition der Bedingung erhält man durch "im_GetItemConditions_Ad".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_condition_id = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue item_condition_id = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getItemConditionIdFieldBuilder() {
           if (itemConditionIdBuilder_ == null) {
             itemConditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getItemConditionId(),
                     getParentForChildren(),
                     isClean());
@@ -2898,15 +2898,15 @@ public final class OmGetCampaignBonusItemsAd {
           return itemConditionIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue itemSetId_ = null;
+        private io.dstore.values.IntegerValue itemSetId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemSetIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemSetIdBuilder_;
         /**
          * <pre>
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
          */
         public boolean hasItemSetId() {
           return itemSetIdBuilder_ != null || itemSetId_ != null;
@@ -2916,11 +2916,11 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
          */
-        public io.dstore.Values.integerValue getItemSetId() {
+        public io.dstore.values.IntegerValue getItemSetId() {
           if (itemSetIdBuilder_ == null) {
-            return itemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
+            return itemSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemSetId_;
           } else {
             return itemSetIdBuilder_.getMessage();
           }
@@ -2930,9 +2930,9 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
          */
-        public Builder setItemSetId(io.dstore.Values.integerValue value) {
+        public Builder setItemSetId(io.dstore.values.IntegerValue value) {
           if (itemSetIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2950,10 +2950,10 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
          */
         public Builder setItemSetId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (itemSetIdBuilder_ == null) {
             itemSetId_ = builderForValue.build();
             onChanged();
@@ -2968,13 +2968,13 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
          */
-        public Builder mergeItemSetId(io.dstore.Values.integerValue value) {
+        public Builder mergeItemSetId(io.dstore.values.IntegerValue value) {
           if (itemSetIdBuilder_ == null) {
             if (itemSetId_ != null) {
               itemSetId_ =
-                io.dstore.Values.integerValue.newBuilder(itemSetId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(itemSetId_).mergeFrom(value).buildPartial();
             } else {
               itemSetId_ = value;
             }
@@ -2990,7 +2990,7 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
          */
         public Builder clearItemSetId() {
           if (itemSetIdBuilder_ == null) {
@@ -3008,9 +3008,9 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getItemSetIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getItemSetIdBuilder() {
           
           onChanged();
           return getItemSetIdFieldBuilder().getBuilder();
@@ -3020,14 +3020,14 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder() {
           if (itemSetIdBuilder_ != null) {
             return itemSetIdBuilder_.getMessageOrBuilder();
           } else {
             return itemSetId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : itemSetId_;
           }
         }
         /**
@@ -3035,14 +3035,14 @@ public final class OmGetCampaignBonusItemsAd {
          * ID eines Bonus-Sets, das Teil des Benefits "BenefitID" ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue item_set_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue item_set_id = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getItemSetIdFieldBuilder() {
           if (itemSetIdBuilder_ == null) {
             itemSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getItemSetId(),
                     getParentForChildren(),
                     isClean());
@@ -3051,15 +3051,15 @@ public final class OmGetCampaignBonusItemsAd {
           return itemSetIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue maxQuantity_ = null;
+        private io.dstore.values.IntegerValue maxQuantity_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxQuantityBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxQuantityBuilder_;
         /**
          * <pre>
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
          */
         public boolean hasMaxQuantity() {
           return maxQuantityBuilder_ != null || maxQuantity_ != null;
@@ -3069,11 +3069,11 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
          */
-        public io.dstore.Values.integerValue getMaxQuantity() {
+        public io.dstore.values.IntegerValue getMaxQuantity() {
           if (maxQuantityBuilder_ == null) {
-            return maxQuantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxQuantity_;
+            return maxQuantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxQuantity_;
           } else {
             return maxQuantityBuilder_.getMessage();
           }
@@ -3083,9 +3083,9 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
          */
-        public Builder setMaxQuantity(io.dstore.Values.integerValue value) {
+        public Builder setMaxQuantity(io.dstore.values.IntegerValue value) {
           if (maxQuantityBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3103,10 +3103,10 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
          */
         public Builder setMaxQuantity(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (maxQuantityBuilder_ == null) {
             maxQuantity_ = builderForValue.build();
             onChanged();
@@ -3121,13 +3121,13 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
          */
-        public Builder mergeMaxQuantity(io.dstore.Values.integerValue value) {
+        public Builder mergeMaxQuantity(io.dstore.values.IntegerValue value) {
           if (maxQuantityBuilder_ == null) {
             if (maxQuantity_ != null) {
               maxQuantity_ =
-                io.dstore.Values.integerValue.newBuilder(maxQuantity_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(maxQuantity_).mergeFrom(value).buildPartial();
             } else {
               maxQuantity_ = value;
             }
@@ -3143,7 +3143,7 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
          */
         public Builder clearMaxQuantity() {
           if (maxQuantityBuilder_ == null) {
@@ -3161,9 +3161,9 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMaxQuantityBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMaxQuantityBuilder() {
           
           onChanged();
           return getMaxQuantityFieldBuilder().getBuilder();
@@ -3173,14 +3173,14 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMaxQuantityOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMaxQuantityOrBuilder() {
           if (maxQuantityBuilder_ != null) {
             return maxQuantityBuilder_.getMessageOrBuilder();
           } else {
             return maxQuantity_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : maxQuantity_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : maxQuantity_;
           }
         }
         /**
@@ -3188,14 +3188,14 @@ public final class OmGetCampaignBonusItemsAd {
          * Gibt an, wieviele unterschiedliche Bonus-Artikel aus dem Set "ItemSetID" gewählt werden dürfen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue max_quantity = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue max_quantity = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMaxQuantityFieldBuilder() {
           if (maxQuantityBuilder_ == null) {
             maxQuantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMaxQuantity(),
                     getParentForChildren(),
                     isClean());
@@ -3204,15 +3204,15 @@ public final class OmGetCampaignBonusItemsAd {
           return maxQuantityBuilder_;
         }
 
-        private io.dstore.Values.stringValue itemConditionDescription_ = null;
+        private io.dstore.values.StringValue itemConditionDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemConditionDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> itemConditionDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
          */
         public boolean hasItemConditionDescription() {
           return itemConditionDescriptionBuilder_ != null || itemConditionDescription_ != null;
@@ -3222,11 +3222,11 @@ public final class OmGetCampaignBonusItemsAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
          */
-        public io.dstore.Values.stringValue getItemConditionDescription() {
+        public io.dstore.values.StringValue getItemConditionDescription() {
           if (itemConditionDescriptionBuilder_ == null) {
-            return itemConditionDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemConditionDescription_;
+            return itemConditionDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemConditionDescription_;
           } else {
             return itemConditionDescriptionBuilder_.getMessage();
           }
@@ -3236,9 +3236,9 @@ public final class OmGetCampaignBonusItemsAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
          */
-        public Builder setItemConditionDescription(io.dstore.Values.stringValue value) {
+        public Builder setItemConditionDescription(io.dstore.values.StringValue value) {
           if (itemConditionDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3256,10 +3256,10 @@ public final class OmGetCampaignBonusItemsAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
          */
         public Builder setItemConditionDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (itemConditionDescriptionBuilder_ == null) {
             itemConditionDescription_ = builderForValue.build();
             onChanged();
@@ -3274,13 +3274,13 @@ public final class OmGetCampaignBonusItemsAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
          */
-        public Builder mergeItemConditionDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeItemConditionDescription(io.dstore.values.StringValue value) {
           if (itemConditionDescriptionBuilder_ == null) {
             if (itemConditionDescription_ != null) {
               itemConditionDescription_ =
-                io.dstore.Values.stringValue.newBuilder(itemConditionDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(itemConditionDescription_).mergeFrom(value).buildPartial();
             } else {
               itemConditionDescription_ = value;
             }
@@ -3296,7 +3296,7 @@ public final class OmGetCampaignBonusItemsAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
          */
         public Builder clearItemConditionDescription() {
           if (itemConditionDescriptionBuilder_ == null) {
@@ -3314,9 +3314,9 @@ public final class OmGetCampaignBonusItemsAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getItemConditionDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getItemConditionDescriptionBuilder() {
           
           onChanged();
           return getItemConditionDescriptionFieldBuilder().getBuilder();
@@ -3326,14 +3326,14 @@ public final class OmGetCampaignBonusItemsAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getItemConditionDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getItemConditionDescriptionOrBuilder() {
           if (itemConditionDescriptionBuilder_ != null) {
             return itemConditionDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return itemConditionDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : itemConditionDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : itemConditionDescription_;
           }
         }
         /**
@@ -3341,14 +3341,14 @@ public final class OmGetCampaignBonusItemsAd {
          * Bezeichnung der Artikel-Bedingung "ItemConditionID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_condition_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue item_condition_description = 20006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getItemConditionDescriptionFieldBuilder() {
           if (itemConditionDescriptionBuilder_ == null) {
             itemConditionDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getItemConditionDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3357,15 +3357,15 @@ public final class OmGetCampaignBonusItemsAd {
           return itemConditionDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue sortNo_ = null;
+        private io.dstore.values.IntegerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -3375,11 +3375,11 @@ public final class OmGetCampaignBonusItemsAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public io.dstore.Values.integerValue getSortNo() {
+        public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
@@ -3389,9 +3389,9 @@ public final class OmGetCampaignBonusItemsAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public Builder setSortNo(io.dstore.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3409,10 +3409,10 @@ public final class OmGetCampaignBonusItemsAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
         public Builder setSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -3427,13 +3427,13 @@ public final class OmGetCampaignBonusItemsAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -3449,7 +3449,7 @@ public final class OmGetCampaignBonusItemsAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3467,9 +3467,9 @@ public final class OmGetCampaignBonusItemsAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
@@ -3479,14 +3479,14 @@ public final class OmGetCampaignBonusItemsAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
@@ -3494,14 +3494,14 @@ public final class OmGetCampaignBonusItemsAd {
          * Bestimmt die Reihenfolge von "ItemSetID" innerhalb aller "BenefitID" zugeordneten Sets
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -4971,26 +4971,26 @@ public final class OmGetCampaignBonusItemsAd {
       "etCampaignBonusItems_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\375\001\n\nPar" +
       "ameters\0220\n\013campaign_id\030\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\031\n\020campaign_id_null\030\351\007" +
+      "lues.IntegerValue\022\031\n\020campaign_id_null\030\351\007" +
       " \001(\010\022/\n\nbenefit_id\030\002 \001(\0132\033.dstore.values" +
-      ".integerValue\022\030\n\017benefit_id_null\030\352\007 \001(\010\022" +
+      ".IntegerValue\022\030\n\017benefit_id_null\030\352\007 \001(\010\022" +
       "6\n\021get_assigned_sets\030\003 \001(\0132\033.dstore.valu" +
-      "es.booleanValue\022\037\n\026get_assigned_sets_nul",
+      "es.BooleanValue\022\037\n\026get_assigned_sets_nul",
       "l\030\353\007 \001(\010\"\322\004\n\010Response\0228\n\020meta_informatio" +
       "n\030\002 \003(\0132\036.dstore.engine.MetaInformation\022" +
       "\'\n\007message\030\003 \003(\0132\026.dstore.engine.Message" +
       "\022D\n\003row\030\004 \003(\01327.dstore.engine.om_GetCamp" +
       "aignBonusItems_Ad.Response.Row\032\234\003\n\003Row\022\017" +
       "\n\006row_id\030\220N \001(\005\0220\n\nbenefit_id\030\221N \001(\0132\033.d" +
-      "store.values.integerValue\022=\n\027bonus_from_" +
-      "one_set_only\030\222N \001(\0132\033.dstore.values.bool" +
+      "store.values.IntegerValue\022=\n\027bonus_from_" +
+      "one_set_only\030\222N \001(\0132\033.dstore.values.Bool" +
       "eanValue\0228\n\021item_condition_id\030\241\234\001 \001(\0132\033." +
-      "dstore.values.integerValue\0222\n\013item_set_i",
-      "d\030\243\234\001 \001(\0132\033.dstore.values.integerValue\0223" +
-      "\n\014max_quantity\030\245\234\001 \001(\0132\033.dstore.values.i" +
+      "dstore.values.IntegerValue\0222\n\013item_set_i",
+      "d\030\243\234\001 \001(\0132\033.dstore.values.IntegerValue\0223" +
+      "\n\014max_quantity\030\245\234\001 \001(\0132\033.dstore.values.I" +
       "ntegerValue\022@\n\032item_condition_descriptio" +
-      "n\030\246\234\001 \001(\0132\032.dstore.values.stringValue\022.\n" +
-      "\007sort_no\030\247\234\001 \001(\0132\033.dstore.values.integer" +
+      "n\030\246\234\001 \001(\0132\032.dstore.values.StringValue\022.\n" +
+      "\007sort_no\030\247\234\001 \001(\0132\033.dstore.values.Integer" +
       "ValueB\\\n\033io.dstore.engine.proceduresZ=go" +
       "sdk.dstore.de/engine/procedures/om_GetCa" +
       "mpaignBonusItems_Adb\006proto3"
@@ -5006,7 +5006,7 @@ public final class OmGetCampaignBonusItemsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetCampaignBonusItems_Ad_Parameters_descriptor =
@@ -5027,7 +5027,7 @@ public final class OmGetCampaignBonusItemsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignBonusItems_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BenefitId", "BonusFromOneSetOnly", "ItemConditionId", "ItemSetId", "MaxQuantity", "ItemConditionDescription", "SortNo", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

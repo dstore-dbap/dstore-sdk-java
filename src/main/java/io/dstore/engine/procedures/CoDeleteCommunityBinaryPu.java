@@ -19,17 +19,17 @@ public final class CoDeleteCommunityBinaryPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class CoDeleteCommunityBinaryPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class CoDeleteCommunityBinaryPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class CoDeleteCommunityBinaryPu {
     boolean getCommunityIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
      */
     boolean hasBinaryId();
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
      */
-    io.dstore.Values.integerValue getBinaryId();
+    io.dstore.values.IntegerValue getBinaryId();
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder();
 
     /**
      * <code>optional bool binary_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class CoDeleteCommunityBinaryPu {
     boolean getBinaryIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
     boolean hasCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
-    io.dstore.Values.integerValue getCommunityBinaryCategoryId();
+    io.dstore.values.IntegerValue getCommunityBinaryCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
 
     /**
      * <code>optional bool community_binary_category_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class CoDeleteCommunityBinaryPu {
     boolean getCommunityBinaryCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class CoDeleteCommunityBinaryPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class CoDeleteCommunityBinaryPu {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class CoDeleteCommunityBinaryPu {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class CoDeleteCommunityBinaryPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binaryId_ != null) {
                 subBuilder = binaryId_.toBuilder();
               }
-              binaryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binaryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryId_);
                 binaryId_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class CoDeleteCommunityBinaryPu {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityBinaryCategoryId_ != null) {
                 subBuilder = communityBinaryCategoryId_.toBuilder();
               }
-              communityBinaryCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityBinaryCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityBinaryCategoryId_);
                 communityBinaryCategoryId_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class CoDeleteCommunityBinaryPu {
               break;
             }
             case 50: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class CoDeleteCommunityBinaryPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -333,23 +333,23 @@ public final class CoDeleteCommunityBinaryPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -363,23 +363,23 @@ public final class CoDeleteCommunityBinaryPu {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -393,23 +393,23 @@ public final class CoDeleteCommunityBinaryPu {
     }
 
     public static final int BINARY_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue binaryId_;
+    private io.dstore.values.IntegerValue binaryId_;
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
      */
     public boolean hasBinaryId() {
       return binaryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getBinaryId() {
-      return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
+    public io.dstore.values.IntegerValue getBinaryId() {
+      return binaryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder() {
       return getBinaryId();
     }
 
@@ -423,23 +423,23 @@ public final class CoDeleteCommunityBinaryPu {
     }
 
     public static final int COMMUNITY_BINARY_CATEGORY_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue communityBinaryCategoryId_;
+    private io.dstore.values.IntegerValue communityBinaryCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
     public boolean hasCommunityBinaryCategoryId() {
       return communityBinaryCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
-      return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+    public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
+      return communityBinaryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
       return getCommunityBinaryCategoryId();
     }
 
@@ -453,23 +453,23 @@ public final class CoDeleteCommunityBinaryPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 6;
-    private io.dstore.Values.stringValue separatorInIdentVals_;
+    private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.values.StringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1022,29 +1022,29 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue binaryId_ = null;
+      private io.dstore.values.IntegerValue binaryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
        */
       public boolean hasBinaryId() {
         return binaryIdBuilder_ != null || binaryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getBinaryId() {
+      public io.dstore.values.IntegerValue getBinaryId() {
         if (binaryIdBuilder_ == null) {
-          return binaryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
+          return binaryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryId_;
         } else {
           return binaryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
        */
-      public Builder setBinaryId(io.dstore.Values.integerValue value) {
+      public Builder setBinaryId(io.dstore.values.IntegerValue value) {
         if (binaryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
        */
       public Builder setBinaryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binaryIdBuilder_ == null) {
           binaryId_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
        */
-      public Builder mergeBinaryId(io.dstore.Values.integerValue value) {
+      public Builder mergeBinaryId(io.dstore.values.IntegerValue value) {
         if (binaryIdBuilder_ == null) {
           if (binaryId_ != null) {
             binaryId_ =
-              io.dstore.Values.integerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binaryId_).mergeFrom(value).buildPartial();
           } else {
             binaryId_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
        */
       public Builder clearBinaryId() {
         if (binaryIdBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinaryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinaryIdBuilder() {
         
         onChanged();
         return getBinaryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryIdOrBuilder() {
         if (binaryIdBuilder_ != null) {
           return binaryIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binaryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binaryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue binary_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinaryIdFieldBuilder() {
         if (binaryIdBuilder_ == null) {
           binaryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinaryId(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityBinaryCategoryId_ = null;
+      private io.dstore.values.IntegerValue communityBinaryCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityBinaryCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityBinaryCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public boolean hasCommunityBinaryCategoryId() {
         return communityBinaryCategoryIdBuilder_ != null || communityBinaryCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
+      public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
-          return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+          return communityBinaryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
         } else {
           return communityBinaryCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
-      public Builder setCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public Builder setCommunityBinaryCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryId_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
-      public Builder mergeCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
         if (communityBinaryCategoryIdBuilder_ == null) {
           if (communityBinaryCategoryId_ != null) {
             communityBinaryCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
           } else {
             communityBinaryCategoryId_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       public Builder clearCommunityBinaryCategoryId() {
         if (communityBinaryCategoryIdBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityBinaryCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityBinaryCategoryIdBuilder() {
         
         onChanged();
         return getCommunityBinaryCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
         if (communityBinaryCategoryIdBuilder_ != null) {
           return communityBinaryCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return communityBinaryCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityBinaryCategoryIdFieldBuilder() {
         if (communityBinaryCategoryIdBuilder_ == null) {
           communityBinaryCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityBinaryCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.values.StringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class CoDeleteCommunityBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -3967,18 +3967,18 @@ public final class CoDeleteCommunityBinaryPu {
       "eleteCommunityBinary_Pu\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\255\004\n\nPar" +
       "ameters\022-\n\tunique_id\030\001 \001(\0132\032.dstore.valu" +
-      "es.stringValue\022\027\n\016unique_id_null\030\351\007 \001(\010\022" +
+      "es.StringValue\022\027\n\016unique_id_null\030\351\007 \001(\010\022" +
       "@\n\034person_identification_values\030\002 \001(\0132\032." +
-      "dstore.values.stringValue\022*\n!person_iden" +
+      "dstore.values.StringValue\022*\n!person_iden" +
       "tification_values_null\030\352\007 \001(\010\0221\n\014communi" +
-      "ty_id\030\003 \001(\0132\033.dstore.values.integerValue",
+      "ty_id\030\003 \001(\0132\033.dstore.values.IntegerValue",
       "\022\032\n\021community_id_null\030\353\007 \001(\010\022.\n\tbinary_i" +
-      "d\030\004 \001(\0132\033.dstore.values.integerValue\022\027\n\016" +
+      "d\030\004 \001(\0132\033.dstore.values.IntegerValue\022\027\n\016" +
       "binary_id_null\030\354\007 \001(\010\022A\n\034community_binar" +
-      "y_category_id\030\005 \001(\0132\033.dstore.values.inte" +
+      "y_category_id\030\005 \001(\0132\033.dstore.values.Inte" +
       "gerValue\022*\n!community_binary_category_id" +
       "_null\030\355\007 \001(\010\022;\n\027separator_in_ident_vals\030" +
-      "\006 \001(\0132\032.dstore.values.stringValue\022%\n\034sep" +
+      "\006 \001(\0132\032.dstore.values.StringValue\022%\n\034sep" +
       "arator_in_ident_vals_null\030\356\007 \001(\010\"\313\001\n\010Res" +
       "ponse\0228\n\020meta_information\030\002 \003(\0132\036.dstore" +
       ".engine.MetaInformation\022\'\n\007message\030\003 \003(\013",
@@ -4000,7 +4000,7 @@ public final class CoDeleteCommunityBinaryPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_DeleteCommunityBinary_Pu_Parameters_descriptor =
@@ -4021,7 +4021,7 @@ public final class CoDeleteCommunityBinaryPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_DeleteCommunityBinary_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

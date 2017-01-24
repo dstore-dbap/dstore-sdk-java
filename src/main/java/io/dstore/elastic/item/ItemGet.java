@@ -6273,11 +6273,11 @@ public final class ItemGet {
         /**
          * <code>optional .dstore.values.Value value = 1;</code>
          */
-        io.dstore.Values.Value getValue();
+        io.dstore.values.Value getValue();
         /**
          * <code>optional .dstore.values.Value value = 1;</code>
          */
-        io.dstore.Values.ValueOrBuilder getValueOrBuilder();
+        io.dstore.values.ValueOrBuilder getValueOrBuilder();
 
         /**
          * <code>optional int32 total_item_count = 2;</code>
@@ -6361,11 +6361,11 @@ public final class ItemGet {
                   break;
                 }
                 case 10: {
-                  io.dstore.Values.Value.Builder subBuilder = null;
+                  io.dstore.values.Value.Builder subBuilder = null;
                   if (value_ != null) {
                     subBuilder = value_.toBuilder();
                   }
-                  value_ = input.readMessage(io.dstore.Values.Value.parser(), extensionRegistry);
+                  value_ = input.readMessage(io.dstore.values.Value.parser(), extensionRegistry);
                   if (subBuilder != null) {
                     subBuilder.mergeFrom(value_);
                     value_ = subBuilder.buildPartial();
@@ -6422,7 +6422,7 @@ public final class ItemGet {
         }
 
         public static final int VALUE_FIELD_NUMBER = 1;
-        private io.dstore.Values.Value value_;
+        private io.dstore.values.Value value_;
         /**
          * <code>optional .dstore.values.Value value = 1;</code>
          */
@@ -6432,13 +6432,13 @@ public final class ItemGet {
         /**
          * <code>optional .dstore.values.Value value = 1;</code>
          */
-        public io.dstore.Values.Value getValue() {
-          return value_ == null ? io.dstore.Values.Value.getDefaultInstance() : value_;
+        public io.dstore.values.Value getValue() {
+          return value_ == null ? io.dstore.values.Value.getDefaultInstance() : value_;
         }
         /**
          * <code>optional .dstore.values.Value value = 1;</code>
          */
-        public io.dstore.Values.ValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.ValueOrBuilder getValueOrBuilder() {
           return getValue();
         }
 
@@ -6873,9 +6873,9 @@ public final class ItemGet {
             return this;
           }
 
-          private io.dstore.Values.Value value_ = null;
+          private io.dstore.values.Value value_ = null;
           private com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder> valueBuilder_;
+              io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder> valueBuilder_;
           /**
            * <code>optional .dstore.values.Value value = 1;</code>
            */
@@ -6885,9 +6885,9 @@ public final class ItemGet {
           /**
            * <code>optional .dstore.values.Value value = 1;</code>
            */
-          public io.dstore.Values.Value getValue() {
+          public io.dstore.values.Value getValue() {
             if (valueBuilder_ == null) {
-              return value_ == null ? io.dstore.Values.Value.getDefaultInstance() : value_;
+              return value_ == null ? io.dstore.values.Value.getDefaultInstance() : value_;
             } else {
               return valueBuilder_.getMessage();
             }
@@ -6895,7 +6895,7 @@ public final class ItemGet {
           /**
            * <code>optional .dstore.values.Value value = 1;</code>
            */
-          public Builder setValue(io.dstore.Values.Value value) {
+          public Builder setValue(io.dstore.values.Value value) {
             if (valueBuilder_ == null) {
               if (value == null) {
                 throw new NullPointerException();
@@ -6912,7 +6912,7 @@ public final class ItemGet {
            * <code>optional .dstore.values.Value value = 1;</code>
            */
           public Builder setValue(
-              io.dstore.Values.Value.Builder builderForValue) {
+              io.dstore.values.Value.Builder builderForValue) {
             if (valueBuilder_ == null) {
               value_ = builderForValue.build();
               onChanged();
@@ -6925,11 +6925,11 @@ public final class ItemGet {
           /**
            * <code>optional .dstore.values.Value value = 1;</code>
            */
-          public Builder mergeValue(io.dstore.Values.Value value) {
+          public Builder mergeValue(io.dstore.values.Value value) {
             if (valueBuilder_ == null) {
               if (value_ != null) {
                 value_ =
-                  io.dstore.Values.Value.newBuilder(value_).mergeFrom(value).buildPartial();
+                  io.dstore.values.Value.newBuilder(value_).mergeFrom(value).buildPartial();
               } else {
                 value_ = value;
               }
@@ -6957,7 +6957,7 @@ public final class ItemGet {
           /**
            * <code>optional .dstore.values.Value value = 1;</code>
            */
-          public io.dstore.Values.Value.Builder getValueBuilder() {
+          public io.dstore.values.Value.Builder getValueBuilder() {
             
             onChanged();
             return getValueFieldBuilder().getBuilder();
@@ -6965,23 +6965,23 @@ public final class ItemGet {
           /**
            * <code>optional .dstore.values.Value value = 1;</code>
            */
-          public io.dstore.Values.ValueOrBuilder getValueOrBuilder() {
+          public io.dstore.values.ValueOrBuilder getValueOrBuilder() {
             if (valueBuilder_ != null) {
               return valueBuilder_.getMessageOrBuilder();
             } else {
               return value_ == null ?
-                  io.dstore.Values.Value.getDefaultInstance() : value_;
+                  io.dstore.values.Value.getDefaultInstance() : value_;
             }
           }
           /**
            * <code>optional .dstore.values.Value value = 1;</code>
            */
           private com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder> 
+              io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder> 
               getValueFieldBuilder() {
             if (valueBuilder_ == null) {
               valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                  io.dstore.Values.Value, io.dstore.Values.Value.Builder, io.dstore.Values.ValueOrBuilder>(
+                  io.dstore.values.Value, io.dstore.values.Value.Builder, io.dstore.values.ValueOrBuilder>(
                       getValue(),
                       getParentForChildren(),
                       isClean());
@@ -9342,7 +9342,7 @@ public final class ItemGet {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.elastic.ElasticOuterClass.getDescriptor(),
           io.dstore.elastic.item.ItemOuterClass.getDescriptor(),
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_item_item_get_Request_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -9394,7 +9394,7 @@ public final class ItemGet {
         new java.lang.String[] { "Value", "TotalItemCount", "MatchingItemCount", "Active", "MinValue", "MaxValue", });
     io.dstore.elastic.ElasticOuterClass.getDescriptor();
     io.dstore.elastic.item.ItemOuterClass.getDescriptor();
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

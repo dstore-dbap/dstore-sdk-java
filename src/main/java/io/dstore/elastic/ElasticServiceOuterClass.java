@@ -27,14 +27,17 @@ public final class ElasticServiceOuterClass {
       "dstore.elastic\032\"dstore/elastic/item/item" +
       "_get.proto\032&dstore/elastic/item/item_sug" +
       "gest.proto\032%dstore/elastic/item/item_exp" +
-      "ort.proto2\317\001\n\007Elastic\022\\\n\007itemGet\022%.dstor" +
+      "ort.proto2\266\002\n\007Elastic\022\\\n\007ItemGet\022%.dstor" +
       "e.elastic.item.item_get.Request\032&.dstore" +
-      ".elastic.item.item_get.Response\"\0000\001\022f\n\013i" +
+      ".elastic.item.item_get.Response\"\0000\001\022f\n\013I" +
       "temSuggest\022).dstore.elastic.item.item_su" +
       "ggest.Request\032*.dstore.elastic.item.item" +
-      "_suggest.Response\"\000BV\n\021io.dstore.elastic",
-      "B\030ElasticServiceOuterClassZ\'gosdk.dstore" +
-      ".de/elastic/elastic_serviceb\006proto3"
+      "_suggest.Response\"\000\022e\n\nItemExport\022(.dsto",
+      "re.elastic.item.item_export.Request\032).ds" +
+      "tore.elastic.item.item_export.Response\"\000" +
+      "0\001BV\n\021io.dstore.elasticB\030ElasticServiceO" +
+      "uterClassZ\'gosdk.dstore.de/elastic/elast" +
+      "ic_serviceb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

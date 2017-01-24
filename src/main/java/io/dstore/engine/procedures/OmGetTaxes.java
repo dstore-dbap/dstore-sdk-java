@@ -19,17 +19,17 @@ public final class OmGetTaxes {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
      */
     boolean hasTaxTypeId();
     /**
-     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTaxTypeId();
+    io.dstore.values.IntegerValue getTaxTypeId();
     /**
-     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTaxTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTaxTypeIdOrBuilder();
 
     /**
      * <code>optional bool tax_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetTaxes {
     boolean getTaxTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue date = 2;</code>
      */
     boolean hasDate();
     /**
-     * <code>optional .dstore.values.timestampValue date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue date = 2;</code>
      */
-    io.dstore.Values.timestampValue getDate();
+    io.dstore.values.TimestampValue getDate();
     /**
-     * <code>optional .dstore.values.timestampValue date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue date = 2;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getDateOrBuilder();
 
     /**
      * <code>optional bool date_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class OmGetTaxes {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (taxTypeId_ != null) {
                 subBuilder = taxTypeId_.toBuilder();
               }
-              taxTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              taxTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(taxTypeId_);
                 taxTypeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class OmGetTaxes {
               break;
             }
             case 18: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (date_ != null) {
                 subBuilder = date_.toBuilder();
               }
-              date_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              date_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(date_);
                 date_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class OmGetTaxes {
     }
 
     public static final int TAX_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue taxTypeId_;
+    private io.dstore.values.IntegerValue taxTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
      */
     public boolean hasTaxTypeId() {
       return taxTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTaxTypeId() {
-      return taxTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : taxTypeId_;
+    public io.dstore.values.IntegerValue getTaxTypeId() {
+      return taxTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTaxTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTaxTypeIdOrBuilder() {
       return getTaxTypeId();
     }
 
@@ -185,23 +185,23 @@ public final class OmGetTaxes {
     }
 
     public static final int DATE_FIELD_NUMBER = 2;
-    private io.dstore.Values.timestampValue date_;
+    private io.dstore.values.TimestampValue date_;
     /**
-     * <code>optional .dstore.values.timestampValue date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue date = 2;</code>
      */
     public boolean hasDate() {
       return date_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue date = 2;</code>
      */
-    public io.dstore.Values.timestampValue getDate() {
-      return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
+    public io.dstore.values.TimestampValue getDate() {
+      return date_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : date_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue date = 2;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
       return getDate();
     }
 
@@ -562,29 +562,29 @@ public final class OmGetTaxes {
         return this;
       }
 
-      private io.dstore.Values.integerValue taxTypeId_ = null;
+      private io.dstore.values.IntegerValue taxTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> taxTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> taxTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public boolean hasTaxTypeId() {
         return taxTypeIdBuilder_ != null || taxTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTaxTypeId() {
+      public io.dstore.values.IntegerValue getTaxTypeId() {
         if (taxTypeIdBuilder_ == null) {
-          return taxTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : taxTypeId_;
+          return taxTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxTypeId_;
         } else {
           return taxTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
        */
-      public Builder setTaxTypeId(io.dstore.Values.integerValue value) {
+      public Builder setTaxTypeId(io.dstore.values.IntegerValue value) {
         if (taxTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class OmGetTaxes {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public Builder setTaxTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (taxTypeIdBuilder_ == null) {
           taxTypeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class OmGetTaxes {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
        */
-      public Builder mergeTaxTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeTaxTypeId(io.dstore.values.IntegerValue value) {
         if (taxTypeIdBuilder_ == null) {
           if (taxTypeId_ != null) {
             taxTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(taxTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(taxTypeId_).mergeFrom(value).buildPartial();
           } else {
             taxTypeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class OmGetTaxes {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       public Builder clearTaxTypeId() {
         if (taxTypeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class OmGetTaxes {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTaxTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTaxTypeIdBuilder() {
         
         onChanged();
         return getTaxTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTaxTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTaxTypeIdOrBuilder() {
         if (taxTypeIdBuilder_ != null) {
           return taxTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return taxTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : taxTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : taxTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue tax_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTaxTypeIdFieldBuilder() {
         if (taxTypeIdBuilder_ == null) {
           taxTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTaxTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class OmGetTaxes {
         return this;
       }
 
-      private io.dstore.Values.timestampValue date_ = null;
+      private io.dstore.values.TimestampValue date_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue date = 2;</code>
        */
       public boolean hasDate() {
         return dateBuilder_ != null || date_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue date = 2;</code>
        */
-      public io.dstore.Values.timestampValue getDate() {
+      public io.dstore.values.TimestampValue getDate() {
         if (dateBuilder_ == null) {
-          return date_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : date_;
+          return date_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : date_;
         } else {
           return dateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue date = 2;</code>
        */
-      public Builder setDate(io.dstore.Values.timestampValue value) {
+      public Builder setDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class OmGetTaxes {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue date = 2;</code>
        */
       public Builder setDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (dateBuilder_ == null) {
           date_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class OmGetTaxes {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue date = 2;</code>
        */
-      public Builder mergeDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeDate(io.dstore.values.TimestampValue value) {
         if (dateBuilder_ == null) {
           if (date_ != null) {
             date_ =
-              io.dstore.Values.timestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(date_).mergeFrom(value).buildPartial();
           } else {
             date_ = value;
           }
@@ -773,7 +773,7 @@ public final class OmGetTaxes {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue date = 2;</code>
        */
       public Builder clearDate() {
         if (dateBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class OmGetTaxes {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue date = 2;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getDateBuilder() {
         
         onChanged();
         return getDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue date = 2;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getDateOrBuilder() {
         if (dateBuilder_ != null) {
           return dateBuilder_.getMessageOrBuilder();
         } else {
           return date_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : date_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : date_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getDateFieldBuilder() {
         if (dateBuilder_ == null) {
           dateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getDate(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class OmGetTaxes {
        * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
        */
       boolean hasTaxType();
       /**
@@ -1115,24 +1115,24 @@ public final class OmGetTaxes {
        * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
        */
-      io.dstore.Values.stringValue getTaxType();
+      io.dstore.values.StringValue getTaxType();
       /**
        * <pre>
        * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getTaxTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getTaxTypeOrBuilder();
 
       /**
        * <pre>
        * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
        */
       boolean hasTaxTypeId();
       /**
@@ -1140,24 +1140,24 @@ public final class OmGetTaxes {
        * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getTaxTypeId();
+      io.dstore.values.IntegerValue getTaxTypeId();
       /**
        * <pre>
        * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTaxTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTaxTypeIdOrBuilder();
 
       /**
        * <pre>
        * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
        */
       boolean hasValidTo();
       /**
@@ -1165,24 +1165,24 @@ public final class OmGetTaxes {
        * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
        */
-      io.dstore.Values.timestampValue getValidTo();
+      io.dstore.values.TimestampValue getValidTo();
       /**
        * <pre>
        * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder();
 
       /**
        * <pre>
        * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
        */
       boolean hasTaxRate();
       /**
@@ -1190,24 +1190,24 @@ public final class OmGetTaxes {
        * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
        */
-      io.dstore.Values.decimalValue getTaxRate();
+      io.dstore.values.DecimalValue getTaxRate();
       /**
        * <pre>
        * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getTaxRateOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getTaxRateOrBuilder();
 
       /**
        * <pre>
        * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
        */
       boolean hasValidFrom();
       /**
@@ -1215,24 +1215,24 @@ public final class OmGetTaxes {
        * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
        */
-      io.dstore.Values.timestampValue getValidFrom();
+      io.dstore.values.TimestampValue getValidFrom();
       /**
        * <pre>
        * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder();
 
       /**
        * <pre>
        * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
        */
       boolean hasSurchargeTypeId();
       /**
@@ -1240,24 +1240,24 @@ public final class OmGetTaxes {
        * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
        */
-      io.dstore.Values.integerValue getSurchargeTypeId();
+      io.dstore.values.IntegerValue getSurchargeTypeId();
       /**
        * <pre>
        * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder();
 
       /**
        * <pre>
        * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
        */
       boolean hasSurchargeTypeCategoryId();
       /**
@@ -1265,17 +1265,17 @@ public final class OmGetTaxes {
        * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
        */
-      io.dstore.Values.integerValue getSurchargeTypeCategoryId();
+      io.dstore.values.IntegerValue getSurchargeTypeCategoryId();
       /**
        * <pre>
        * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetTaxes.Response.Row}
@@ -1323,11 +1323,11 @@ public final class OmGetTaxes {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (taxType_ != null) {
                   subBuilder = taxType_.toBuilder();
                 }
-                taxType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                taxType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(taxType_);
                   taxType_ = subBuilder.buildPartial();
@@ -1336,11 +1336,11 @@ public final class OmGetTaxes {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (taxTypeId_ != null) {
                   subBuilder = taxTypeId_.toBuilder();
                 }
-                taxTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                taxTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(taxTypeId_);
                   taxTypeId_ = subBuilder.buildPartial();
@@ -1349,11 +1349,11 @@ public final class OmGetTaxes {
                 break;
               }
               case 80026: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (validTo_ != null) {
                   subBuilder = validTo_.toBuilder();
                 }
-                validTo_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                validTo_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validTo_);
                   validTo_ = subBuilder.buildPartial();
@@ -1362,11 +1362,11 @@ public final class OmGetTaxes {
                 break;
               }
               case 80034: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (taxRate_ != null) {
                   subBuilder = taxRate_.toBuilder();
                 }
-                taxRate_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                taxRate_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(taxRate_);
                   taxRate_ = subBuilder.buildPartial();
@@ -1375,11 +1375,11 @@ public final class OmGetTaxes {
                 break;
               }
               case 80042: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (validFrom_ != null) {
                   subBuilder = validFrom_.toBuilder();
                 }
-                validFrom_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                validFrom_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validFrom_);
                   validFrom_ = subBuilder.buildPartial();
@@ -1388,11 +1388,11 @@ public final class OmGetTaxes {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -1401,11 +1401,11 @@ public final class OmGetTaxes {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (surchargeTypeCategoryId_ != null) {
                   subBuilder = surchargeTypeCategoryId_.toBuilder();
                 }
-                surchargeTypeCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                surchargeTypeCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeCategoryId_);
                   surchargeTypeCategoryId_ = subBuilder.buildPartial();
@@ -1446,13 +1446,13 @@ public final class OmGetTaxes {
       }
 
       public static final int TAX_TYPE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue taxType_;
+      private io.dstore.values.StringValue taxType_;
       /**
        * <pre>
        * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
        */
       public boolean hasTaxType() {
         return taxType_ != null;
@@ -1462,30 +1462,30 @@ public final class OmGetTaxes {
        * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
        */
-      public io.dstore.Values.stringValue getTaxType() {
-        return taxType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : taxType_;
+      public io.dstore.values.StringValue getTaxType() {
+        return taxType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : taxType_;
       }
       /**
        * <pre>
        * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTaxTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTaxTypeOrBuilder() {
         return getTaxType();
       }
 
       public static final int TAX_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue taxTypeId_;
+      private io.dstore.values.IntegerValue taxTypeId_;
       /**
        * <pre>
        * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
        */
       public boolean hasTaxTypeId() {
         return taxTypeId_ != null;
@@ -1495,30 +1495,30 @@ public final class OmGetTaxes {
        * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getTaxTypeId() {
-        return taxTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : taxTypeId_;
+      public io.dstore.values.IntegerValue getTaxTypeId() {
+        return taxTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxTypeId_;
       }
       /**
        * <pre>
        * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTaxTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTaxTypeIdOrBuilder() {
         return getTaxTypeId();
       }
 
       public static final int VALID_TO_FIELD_NUMBER = 10003;
-      private io.dstore.Values.timestampValue validTo_;
+      private io.dstore.values.TimestampValue validTo_;
       /**
        * <pre>
        * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
        */
       public boolean hasValidTo() {
         return validTo_ != null;
@@ -1528,30 +1528,30 @@ public final class OmGetTaxes {
        * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
        */
-      public io.dstore.Values.timestampValue getValidTo() {
-        return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
+      public io.dstore.values.TimestampValue getValidTo() {
+        return validTo_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
       }
       /**
        * <pre>
        * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder() {
         return getValidTo();
       }
 
       public static final int TAX_RATE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.decimalValue taxRate_;
+      private io.dstore.values.DecimalValue taxRate_;
       /**
        * <pre>
        * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
        */
       public boolean hasTaxRate() {
         return taxRate_ != null;
@@ -1561,30 +1561,30 @@ public final class OmGetTaxes {
        * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
        */
-      public io.dstore.Values.decimalValue getTaxRate() {
-        return taxRate_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : taxRate_;
+      public io.dstore.values.DecimalValue getTaxRate() {
+        return taxRate_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : taxRate_;
       }
       /**
        * <pre>
        * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getTaxRateOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getTaxRateOrBuilder() {
         return getTaxRate();
       }
 
       public static final int VALID_FROM_FIELD_NUMBER = 10005;
-      private io.dstore.Values.timestampValue validFrom_;
+      private io.dstore.values.TimestampValue validFrom_;
       /**
        * <pre>
        * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
        */
       public boolean hasValidFrom() {
         return validFrom_ != null;
@@ -1594,30 +1594,30 @@ public final class OmGetTaxes {
        * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
        */
-      public io.dstore.Values.timestampValue getValidFrom() {
-        return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+      public io.dstore.values.TimestampValue getValidFrom() {
+        return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
       }
       /**
        * <pre>
        * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
         return getValidFrom();
       }
 
       public static final int SURCHARGE_TYPE_ID_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue surchargeTypeId_;
+      private io.dstore.values.IntegerValue surchargeTypeId_;
       /**
        * <pre>
        * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
        */
       public boolean hasSurchargeTypeId() {
         return surchargeTypeId_ != null;
@@ -1627,30 +1627,30 @@ public final class OmGetTaxes {
        * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
        */
-      public io.dstore.Values.integerValue getSurchargeTypeId() {
-        return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+      public io.dstore.values.IntegerValue getSurchargeTypeId() {
+        return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
       }
       /**
        * <pre>
        * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
         return getSurchargeTypeId();
       }
 
       public static final int SURCHARGE_TYPE_CATEGORY_ID_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue surchargeTypeCategoryId_;
+      private io.dstore.values.IntegerValue surchargeTypeCategoryId_;
       /**
        * <pre>
        * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
        */
       public boolean hasSurchargeTypeCategoryId() {
         return surchargeTypeCategoryId_ != null;
@@ -1660,19 +1660,19 @@ public final class OmGetTaxes {
        * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
        */
-      public io.dstore.Values.integerValue getSurchargeTypeCategoryId() {
-        return surchargeTypeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeCategoryId_;
+      public io.dstore.values.IntegerValue getSurchargeTypeCategoryId() {
+        return surchargeTypeCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeCategoryId_;
       }
       /**
        * <pre>
        * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
         return getSurchargeTypeCategoryId();
       }
 
@@ -2181,15 +2181,15 @@ public final class OmGetTaxes {
           return this;
         }
 
-        private io.dstore.Values.stringValue taxType_ = null;
+        private io.dstore.values.StringValue taxType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> taxTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> taxTypeBuilder_;
         /**
          * <pre>
          * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
          */
         public boolean hasTaxType() {
           return taxTypeBuilder_ != null || taxType_ != null;
@@ -2199,11 +2199,11 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue getTaxType() {
+        public io.dstore.values.StringValue getTaxType() {
           if (taxTypeBuilder_ == null) {
-            return taxType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : taxType_;
+            return taxType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : taxType_;
           } else {
             return taxTypeBuilder_.getMessage();
           }
@@ -2213,9 +2213,9 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
          */
-        public Builder setTaxType(io.dstore.Values.stringValue value) {
+        public Builder setTaxType(io.dstore.values.StringValue value) {
           if (taxTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2233,10 +2233,10 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
          */
         public Builder setTaxType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (taxTypeBuilder_ == null) {
             taxType_ = builderForValue.build();
             onChanged();
@@ -2251,13 +2251,13 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
          */
-        public Builder mergeTaxType(io.dstore.Values.stringValue value) {
+        public Builder mergeTaxType(io.dstore.values.StringValue value) {
           if (taxTypeBuilder_ == null) {
             if (taxType_ != null) {
               taxType_ =
-                io.dstore.Values.stringValue.newBuilder(taxType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(taxType_).mergeFrom(value).buildPartial();
             } else {
               taxType_ = value;
             }
@@ -2273,7 +2273,7 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
          */
         public Builder clearTaxType() {
           if (taxTypeBuilder_ == null) {
@@ -2291,9 +2291,9 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getTaxTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getTaxTypeBuilder() {
           
           onChanged();
           return getTaxTypeFieldBuilder().getBuilder();
@@ -2303,14 +2303,14 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getTaxTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getTaxTypeOrBuilder() {
           if (taxTypeBuilder_ != null) {
             return taxTypeBuilder_.getMessageOrBuilder();
           } else {
             return taxType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : taxType_;
+                io.dstore.values.StringValue.getDefaultInstance() : taxType_;
           }
         }
         /**
@@ -2318,14 +2318,14 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "PaymentTax" ("TaxTypeID = 1"), "ShippingTax" ("TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue tax_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue tax_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getTaxTypeFieldBuilder() {
           if (taxTypeBuilder_ == null) {
             taxTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getTaxType(),
                     getParentForChildren(),
                     isClean());
@@ -2334,15 +2334,15 @@ public final class OmGetTaxes {
           return taxTypeBuilder_;
         }
 
-        private io.dstore.Values.integerValue taxTypeId_ = null;
+        private io.dstore.values.IntegerValue taxTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> taxTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> taxTypeIdBuilder_;
         /**
          * <pre>
          * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
          */
         public boolean hasTaxTypeId() {
           return taxTypeIdBuilder_ != null || taxTypeId_ != null;
@@ -2352,11 +2352,11 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getTaxTypeId() {
+        public io.dstore.values.IntegerValue getTaxTypeId() {
           if (taxTypeIdBuilder_ == null) {
-            return taxTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : taxTypeId_;
+            return taxTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : taxTypeId_;
           } else {
             return taxTypeIdBuilder_.getMessage();
           }
@@ -2366,9 +2366,9 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
          */
-        public Builder setTaxTypeId(io.dstore.Values.integerValue value) {
+        public Builder setTaxTypeId(io.dstore.values.IntegerValue value) {
           if (taxTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2386,10 +2386,10 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
          */
         public Builder setTaxTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (taxTypeIdBuilder_ == null) {
             taxTypeId_ = builderForValue.build();
             onChanged();
@@ -2404,13 +2404,13 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
          */
-        public Builder mergeTaxTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeTaxTypeId(io.dstore.values.IntegerValue value) {
           if (taxTypeIdBuilder_ == null) {
             if (taxTypeId_ != null) {
               taxTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(taxTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(taxTypeId_).mergeFrom(value).buildPartial();
             } else {
               taxTypeId_ = value;
             }
@@ -2426,7 +2426,7 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
          */
         public Builder clearTaxTypeId() {
           if (taxTypeIdBuilder_ == null) {
@@ -2444,9 +2444,9 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTaxTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTaxTypeIdBuilder() {
           
           onChanged();
           return getTaxTypeIdFieldBuilder().getBuilder();
@@ -2456,14 +2456,14 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTaxTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTaxTypeIdOrBuilder() {
           if (taxTypeIdBuilder_ != null) {
             return taxTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return taxTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : taxTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : taxTypeId_;
           }
         }
         /**
@@ -2471,14 +2471,14 @@ public final class OmGetTaxes {
          * Fest codierte Werte : "1" für Steuern für Zahlungskosten, "2" für Versandkosten
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tax_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue tax_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTaxTypeIdFieldBuilder() {
           if (taxTypeIdBuilder_ == null) {
             taxTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTaxTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2487,15 +2487,15 @@ public final class OmGetTaxes {
           return taxTypeIdBuilder_;
         }
 
-        private io.dstore.Values.timestampValue validTo_ = null;
+        private io.dstore.values.TimestampValue validTo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> validToBuilder_;
         /**
          * <pre>
          * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
          */
         public boolean hasValidTo() {
           return validToBuilder_ != null || validTo_ != null;
@@ -2505,11 +2505,11 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
          */
-        public io.dstore.Values.timestampValue getValidTo() {
+        public io.dstore.values.TimestampValue getValidTo() {
           if (validToBuilder_ == null) {
-            return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
+            return validTo_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
           } else {
             return validToBuilder_.getMessage();
           }
@@ -2519,9 +2519,9 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
          */
-        public Builder setValidTo(io.dstore.Values.timestampValue value) {
+        public Builder setValidTo(io.dstore.values.TimestampValue value) {
           if (validToBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2539,10 +2539,10 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
          */
         public Builder setValidTo(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (validToBuilder_ == null) {
             validTo_ = builderForValue.build();
             onChanged();
@@ -2557,13 +2557,13 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
          */
-        public Builder mergeValidTo(io.dstore.Values.timestampValue value) {
+        public Builder mergeValidTo(io.dstore.values.TimestampValue value) {
           if (validToBuilder_ == null) {
             if (validTo_ != null) {
               validTo_ =
-                io.dstore.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
             } else {
               validTo_ = value;
             }
@@ -2579,7 +2579,7 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
          */
         public Builder clearValidTo() {
           if (validToBuilder_ == null) {
@@ -2597,9 +2597,9 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getValidToBuilder() {
+        public io.dstore.values.TimestampValue.Builder getValidToBuilder() {
           
           onChanged();
           return getValidToFieldBuilder().getBuilder();
@@ -2609,14 +2609,14 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder() {
           if (validToBuilder_ != null) {
             return validToBuilder_.getMessageOrBuilder();
           } else {
             return validTo_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
           }
         }
         /**
@@ -2624,14 +2624,14 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt BIS zu diesem Zeitpunkt ("&gt; &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_to = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue valid_to = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getValidToFieldBuilder() {
           if (validToBuilder_ == null) {
             validToBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getValidTo(),
                     getParentForChildren(),
                     isClean());
@@ -2640,15 +2640,15 @@ public final class OmGetTaxes {
           return validToBuilder_;
         }
 
-        private io.dstore.Values.decimalValue taxRate_ = null;
+        private io.dstore.values.DecimalValue taxRate_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> taxRateBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> taxRateBuilder_;
         /**
          * <pre>
          * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public boolean hasTaxRate() {
           return taxRateBuilder_ != null || taxRate_ != null;
@@ -2658,11 +2658,11 @@ public final class OmGetTaxes {
          * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
          */
-        public io.dstore.Values.decimalValue getTaxRate() {
+        public io.dstore.values.DecimalValue getTaxRate() {
           if (taxRateBuilder_ == null) {
-            return taxRate_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : taxRate_;
+            return taxRate_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : taxRate_;
           } else {
             return taxRateBuilder_.getMessage();
           }
@@ -2672,9 +2672,9 @@ public final class OmGetTaxes {
          * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
          */
-        public Builder setTaxRate(io.dstore.Values.decimalValue value) {
+        public Builder setTaxRate(io.dstore.values.DecimalValue value) {
           if (taxRateBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2692,10 +2692,10 @@ public final class OmGetTaxes {
          * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public Builder setTaxRate(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (taxRateBuilder_ == null) {
             taxRate_ = builderForValue.build();
             onChanged();
@@ -2710,13 +2710,13 @@ public final class OmGetTaxes {
          * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
          */
-        public Builder mergeTaxRate(io.dstore.Values.decimalValue value) {
+        public Builder mergeTaxRate(io.dstore.values.DecimalValue value) {
           if (taxRateBuilder_ == null) {
             if (taxRate_ != null) {
               taxRate_ =
-                io.dstore.Values.decimalValue.newBuilder(taxRate_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(taxRate_).mergeFrom(value).buildPartial();
             } else {
               taxRate_ = value;
             }
@@ -2732,7 +2732,7 @@ public final class OmGetTaxes {
          * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         public Builder clearTaxRate() {
           if (taxRateBuilder_ == null) {
@@ -2750,9 +2750,9 @@ public final class OmGetTaxes {
          * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getTaxRateBuilder() {
+        public io.dstore.values.DecimalValue.Builder getTaxRateBuilder() {
           
           onChanged();
           return getTaxRateFieldBuilder().getBuilder();
@@ -2762,14 +2762,14 @@ public final class OmGetTaxes {
          * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getTaxRateOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getTaxRateOrBuilder() {
           if (taxRateBuilder_ != null) {
             return taxRateBuilder_.getMessageOrBuilder();
           } else {
             return taxRate_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : taxRate_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : taxRate_;
           }
         }
         /**
@@ -2777,14 +2777,14 @@ public final class OmGetTaxes {
          * Der Steuersatz zur Steuerart "TaxTypeID", der im Zeitraum "ValidFrom" bis "ValidTo" für die Aufschlagsart "SurchargeTypeID" gültig ist - es handelt sich immer um eine Prozent-Angabe
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue tax_rate = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue tax_rate = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getTaxRateFieldBuilder() {
           if (taxRateBuilder_ == null) {
             taxRateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getTaxRate(),
                     getParentForChildren(),
                     isClean());
@@ -2793,15 +2793,15 @@ public final class OmGetTaxes {
           return taxRateBuilder_;
         }
 
-        private io.dstore.Values.timestampValue validFrom_ = null;
+        private io.dstore.values.TimestampValue validFrom_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> validFromBuilder_;
         /**
          * <pre>
          * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
          */
         public boolean hasValidFrom() {
           return validFromBuilder_ != null || validFrom_ != null;
@@ -2811,11 +2811,11 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
          */
-        public io.dstore.Values.timestampValue getValidFrom() {
+        public io.dstore.values.TimestampValue getValidFrom() {
           if (validFromBuilder_ == null) {
-            return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+            return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
           } else {
             return validFromBuilder_.getMessage();
           }
@@ -2825,9 +2825,9 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
          */
-        public Builder setValidFrom(io.dstore.Values.timestampValue value) {
+        public Builder setValidFrom(io.dstore.values.TimestampValue value) {
           if (validFromBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2845,10 +2845,10 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
          */
         public Builder setValidFrom(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (validFromBuilder_ == null) {
             validFrom_ = builderForValue.build();
             onChanged();
@@ -2863,13 +2863,13 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
          */
-        public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
+        public Builder mergeValidFrom(io.dstore.values.TimestampValue value) {
           if (validFromBuilder_ == null) {
             if (validFrom_ != null) {
               validFrom_ =
-                io.dstore.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
             } else {
               validFrom_ = value;
             }
@@ -2885,7 +2885,7 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
          */
         public Builder clearValidFrom() {
           if (validFromBuilder_ == null) {
@@ -2903,9 +2903,9 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
+        public io.dstore.values.TimestampValue.Builder getValidFromBuilder() {
           
           onChanged();
           return getValidFromFieldBuilder().getBuilder();
@@ -2915,14 +2915,14 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
           if (validFromBuilder_ != null) {
             return validFromBuilder_.getMessageOrBuilder();
           } else {
             return validFrom_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
           }
         }
         /**
@@ -2930,14 +2930,14 @@ public final class OmGetTaxes {
          * Der Steuersatz "TaxRate" gilt AB diesem Zeitpunkt ("&lt;= &#64;Date" falls angegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue valid_from = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue valid_from = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getValidFromFieldBuilder() {
           if (validFromBuilder_ == null) {
             validFromBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getValidFrom(),
                     getParentForChildren(),
                     isClean());
@@ -2946,15 +2946,15 @@ public final class OmGetTaxes {
           return validFromBuilder_;
         }
 
-        private io.dstore.Values.integerValue surchargeTypeId_ = null;
+        private io.dstore.values.IntegerValue surchargeTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeIdBuilder_;
         /**
          * <pre>
          * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
          */
         public boolean hasSurchargeTypeId() {
           return surchargeTypeIdBuilder_ != null || surchargeTypeId_ != null;
@@ -2964,11 +2964,11 @@ public final class OmGetTaxes {
          * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue getSurchargeTypeId() {
+        public io.dstore.values.IntegerValue getSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
-            return surchargeTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+            return surchargeTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
           } else {
             return surchargeTypeIdBuilder_.getMessage();
           }
@@ -2978,9 +2978,9 @@ public final class OmGetTaxes {
          * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
          */
-        public Builder setSurchargeTypeId(io.dstore.Values.integerValue value) {
+        public Builder setSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2998,10 +2998,10 @@ public final class OmGetTaxes {
          * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
          */
         public Builder setSurchargeTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (surchargeTypeIdBuilder_ == null) {
             surchargeTypeId_ = builderForValue.build();
             onChanged();
@@ -3016,13 +3016,13 @@ public final class OmGetTaxes {
          * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
          */
-        public Builder mergeSurchargeTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeSurchargeTypeId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeIdBuilder_ == null) {
             if (surchargeTypeId_ != null) {
               surchargeTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(surchargeTypeId_).mergeFrom(value).buildPartial();
             } else {
               surchargeTypeId_ = value;
             }
@@ -3038,7 +3038,7 @@ public final class OmGetTaxes {
          * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
          */
         public Builder clearSurchargeTypeId() {
           if (surchargeTypeIdBuilder_ == null) {
@@ -3056,9 +3056,9 @@ public final class OmGetTaxes {
          * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSurchargeTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSurchargeTypeIdBuilder() {
           
           onChanged();
           return getSurchargeTypeIdFieldBuilder().getBuilder();
@@ -3068,14 +3068,14 @@ public final class OmGetTaxes {
          * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSurchargeTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeIdOrBuilder() {
           if (surchargeTypeIdBuilder_ != null) {
             return surchargeTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return surchargeTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeId_;
           }
         }
         /**
@@ -3083,14 +3083,14 @@ public final class OmGetTaxes {
          * ID einer Aufschlagsart, zu dem der Steuersatz "TaxRate" im Zeitraum "ValidFrom" bis "ValidTo" hinterlegt ist/war
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSurchargeTypeIdFieldBuilder() {
           if (surchargeTypeIdBuilder_ == null) {
             surchargeTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSurchargeTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3099,15 +3099,15 @@ public final class OmGetTaxes {
           return surchargeTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue surchargeTypeCategoryId_ = null;
+        private io.dstore.values.IntegerValue surchargeTypeCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> surchargeTypeCategoryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> surchargeTypeCategoryIdBuilder_;
         /**
          * <pre>
          * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
          */
         public boolean hasSurchargeTypeCategoryId() {
           return surchargeTypeCategoryIdBuilder_ != null || surchargeTypeCategoryId_ != null;
@@ -3117,11 +3117,11 @@ public final class OmGetTaxes {
          * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue getSurchargeTypeCategoryId() {
+        public io.dstore.values.IntegerValue getSurchargeTypeCategoryId() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
-            return surchargeTypeCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeCategoryId_;
+            return surchargeTypeCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeCategoryId_;
           } else {
             return surchargeTypeCategoryIdBuilder_.getMessage();
           }
@@ -3131,9 +3131,9 @@ public final class OmGetTaxes {
          * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
          */
-        public Builder setSurchargeTypeCategoryId(io.dstore.Values.integerValue value) {
+        public Builder setSurchargeTypeCategoryId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3151,10 +3151,10 @@ public final class OmGetTaxes {
          * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
          */
         public Builder setSurchargeTypeCategoryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
             surchargeTypeCategoryId_ = builderForValue.build();
             onChanged();
@@ -3169,13 +3169,13 @@ public final class OmGetTaxes {
          * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
          */
-        public Builder mergeSurchargeTypeCategoryId(io.dstore.Values.integerValue value) {
+        public Builder mergeSurchargeTypeCategoryId(io.dstore.values.IntegerValue value) {
           if (surchargeTypeCategoryIdBuilder_ == null) {
             if (surchargeTypeCategoryId_ != null) {
               surchargeTypeCategoryId_ =
-                io.dstore.Values.integerValue.newBuilder(surchargeTypeCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(surchargeTypeCategoryId_).mergeFrom(value).buildPartial();
             } else {
               surchargeTypeCategoryId_ = value;
             }
@@ -3191,7 +3191,7 @@ public final class OmGetTaxes {
          * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
          */
         public Builder clearSurchargeTypeCategoryId() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
@@ -3209,9 +3209,9 @@ public final class OmGetTaxes {
          * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSurchargeTypeCategoryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSurchargeTypeCategoryIdBuilder() {
           
           onChanged();
           return getSurchargeTypeCategoryIdFieldBuilder().getBuilder();
@@ -3221,14 +3221,14 @@ public final class OmGetTaxes {
          * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSurchargeTypeCategoryIdOrBuilder() {
           if (surchargeTypeCategoryIdBuilder_ != null) {
             return surchargeTypeCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return surchargeTypeCategoryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : surchargeTypeCategoryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : surchargeTypeCategoryId_;
           }
         }
         /**
@@ -3236,14 +3236,14 @@ public final class OmGetTaxes {
          * ID einer Kategorie für Aufschlagsarten ("4" für "Zahlungskosten" wenn "TaxTypeID = 1", "3" für "Versandkosten" wenn "TaxTypeID = 2")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue surcharge_type_category_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue surcharge_type_category_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSurchargeTypeCategoryIdFieldBuilder() {
           if (surchargeTypeCategoryIdBuilder_ == null) {
             surchargeTypeCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSurchargeTypeCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -4712,23 +4712,23 @@ public final class OmGetTaxes {
       "roto\022\031dstore.engine.om_GetTaxes\032\023dstore/" +
       "values.proto\032\032dstore/engine/engine.proto" +
       "\"\232\001\n\nParameters\0220\n\013tax_type_id\030\001 \001(\0132\033.d" +
-      "store.values.integerValue\022\031\n\020tax_type_id" +
+      "store.values.IntegerValue\022\031\n\020tax_type_id" +
       "_null\030\351\007 \001(\010\022+\n\004date\030\002 \001(\0132\035.dstore.valu" +
-      "es.timestampValue\022\022\n\tdate_null\030\352\007 \001(\010\"\257\004" +
+      "es.TimestampValue\022\022\n\tdate_null\030\352\007 \001(\010\"\257\004" +
       "\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036.d" +
       "store.engine.MetaInformation\022\'\n\007message\030" +
       "\003 \003(\0132\026.dstore.engine.Message\0224\n\003row\030\004 \003",
       "(\0132\'.dstore.engine.om_GetTaxes.Response." +
       "Row\032\211\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022-\n\010tax_type" +
-      "\030\221N \001(\0132\032.dstore.values.stringValue\0221\n\013t" +
-      "ax_type_id\030\222N \001(\0132\033.dstore.values.intege" +
+      "\030\221N \001(\0132\032.dstore.values.StringValue\0221\n\013t" +
+      "ax_type_id\030\222N \001(\0132\033.dstore.values.Intege" +
       "rValue\0220\n\010valid_to\030\223N \001(\0132\035.dstore.value" +
-      "s.timestampValue\022.\n\010tax_rate\030\224N \001(\0132\033.ds" +
-      "tore.values.decimalValue\0222\n\nvalid_from\030\225" +
-      "N \001(\0132\035.dstore.values.timestampValue\0227\n\021" +
+      "s.TimestampValue\022.\n\010tax_rate\030\224N \001(\0132\033.ds" +
+      "tore.values.DecimalValue\0222\n\nvalid_from\030\225" +
+      "N \001(\0132\035.dstore.values.TimestampValue\0227\n\021" +
       "surcharge_type_id\030\226N \001(\0132\033.dstore.values" +
-      ".integerValue\022@\n\032surcharge_type_category",
-      "_id\030\227N \001(\0132\033.dstore.values.integerValueB" +
+      ".IntegerValue\022@\n\032surcharge_type_category",
+      "_id\030\227N \001(\0132\033.dstore.values.IntegerValueB" +
       "L\n\033io.dstore.engine.proceduresZ-gosdk.ds" +
       "tore.de/engine/procedures/om_GetTaxesb\006p" +
       "roto3"
@@ -4744,7 +4744,7 @@ public final class OmGetTaxes {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetTaxes_Parameters_descriptor =
@@ -4765,7 +4765,7 @@ public final class OmGetTaxes {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTaxes_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TaxType", "TaxTypeId", "ValidTo", "TaxRate", "ValidFrom", "SurchargeTypeId", "SurchargeTypeCategoryId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

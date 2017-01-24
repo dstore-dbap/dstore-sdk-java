@@ -19,17 +19,17 @@ public final class MiModifyLocalesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
     boolean hasCountryId();
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCountryId();
+    io.dstore.values.IntegerValue getCountryId();
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder();
 
     /**
      * <code>optional bool country_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyLocalesAd {
     boolean getCountryIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyLocalesAd {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
      */
     boolean hasDeleteLocaleId();
     /**
-     * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
      */
-    io.dstore.Values.integerValue getDeleteLocaleId();
+    io.dstore.values.IntegerValue getDeleteLocaleId();
     /**
-     * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getDeleteLocaleIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getDeleteLocaleIdOrBuilder();
 
     /**
      * <code>optional bool delete_locale_id_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiModifyLocalesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (countryId_ != null) {
                 subBuilder = countryId_.toBuilder();
               }
-              countryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              countryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(countryId_);
                 countryId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiModifyLocalesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiModifyLocalesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (deleteLocaleId_ != null) {
                 subBuilder = deleteLocaleId_.toBuilder();
               }
-              deleteLocaleId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              deleteLocaleId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteLocaleId_);
                 deleteLocaleId_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiModifyLocalesAd {
     }
 
     public static final int COUNTRY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue countryId_;
+    private io.dstore.values.IntegerValue countryId_;
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
     public boolean hasCountryId() {
       return countryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCountryId() {
-      return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+    public io.dstore.values.IntegerValue getCountryId() {
+      return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue country_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
       return getCountryId();
     }
 
@@ -222,23 +222,23 @@ public final class MiModifyLocalesAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -252,23 +252,23 @@ public final class MiModifyLocalesAd {
     }
 
     public static final int DELETE_LOCALE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue deleteLocaleId_;
+    private io.dstore.values.IntegerValue deleteLocaleId_;
     /**
-     * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
      */
     public boolean hasDeleteLocaleId() {
       return deleteLocaleId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getDeleteLocaleId() {
-      return deleteLocaleId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteLocaleId_;
+    public io.dstore.values.IntegerValue getDeleteLocaleId() {
+      return deleteLocaleId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deleteLocaleId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getDeleteLocaleIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getDeleteLocaleIdOrBuilder() {
       return getDeleteLocaleId();
     }
 
@@ -677,29 +677,29 @@ public final class MiModifyLocalesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue countryId_ = null;
+      private io.dstore.values.IntegerValue countryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> countryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
       public boolean hasCountryId() {
         return countryIdBuilder_ != null || countryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCountryId() {
+      public io.dstore.values.IntegerValue getCountryId() {
         if (countryIdBuilder_ == null) {
-          return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+          return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
         } else {
           return countryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public Builder setCountryId(io.dstore.Values.integerValue value) {
+      public Builder setCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder setCountryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (countryIdBuilder_ == null) {
           countryId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public Builder mergeCountryId(io.dstore.Values.integerValue value) {
+      public Builder mergeCountryId(io.dstore.values.IntegerValue value) {
         if (countryIdBuilder_ == null) {
           if (countryId_ != null) {
             countryId_ =
-              io.dstore.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
           } else {
             countryId_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
       public Builder clearCountryId() {
         if (countryIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCountryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCountryIdBuilder() {
         
         onChanged();
         return getCountryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
         if (countryIdBuilder_ != null) {
           return countryIdBuilder_.getMessageOrBuilder();
         } else {
           return countryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue country_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCountryIdFieldBuilder() {
         if (countryIdBuilder_ == null) {
           countryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCountryId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiModifyLocalesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiModifyLocalesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue deleteLocaleId_ = null;
+      private io.dstore.values.IntegerValue deleteLocaleId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> deleteLocaleIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> deleteLocaleIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
        */
       public boolean hasDeleteLocaleId() {
         return deleteLocaleIdBuilder_ != null || deleteLocaleId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getDeleteLocaleId() {
+      public io.dstore.values.IntegerValue getDeleteLocaleId() {
         if (deleteLocaleIdBuilder_ == null) {
-          return deleteLocaleId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : deleteLocaleId_;
+          return deleteLocaleId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : deleteLocaleId_;
         } else {
           return deleteLocaleIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
        */
-      public Builder setDeleteLocaleId(io.dstore.Values.integerValue value) {
+      public Builder setDeleteLocaleId(io.dstore.values.IntegerValue value) {
         if (deleteLocaleIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
        */
       public Builder setDeleteLocaleId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (deleteLocaleIdBuilder_ == null) {
           deleteLocaleId_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
        */
-      public Builder mergeDeleteLocaleId(io.dstore.Values.integerValue value) {
+      public Builder mergeDeleteLocaleId(io.dstore.values.IntegerValue value) {
         if (deleteLocaleIdBuilder_ == null) {
           if (deleteLocaleId_ != null) {
             deleteLocaleId_ =
-              io.dstore.Values.integerValue.newBuilder(deleteLocaleId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(deleteLocaleId_).mergeFrom(value).buildPartial();
           } else {
             deleteLocaleId_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
        */
       public Builder clearDeleteLocaleId() {
         if (deleteLocaleIdBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiModifyLocalesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getDeleteLocaleIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getDeleteLocaleIdBuilder() {
         
         onChanged();
         return getDeleteLocaleIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDeleteLocaleIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDeleteLocaleIdOrBuilder() {
         if (deleteLocaleIdBuilder_ != null) {
           return deleteLocaleIdBuilder_.getMessageOrBuilder();
         } else {
           return deleteLocaleId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : deleteLocaleId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : deleteLocaleId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue delete_locale_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue delete_locale_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getDeleteLocaleIdFieldBuilder() {
         if (deleteLocaleIdBuilder_ == null) {
           deleteLocaleIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getDeleteLocaleId(),
                   getParentForChildren(),
                   isClean());
@@ -3192,11 +3192,11 @@ public final class MiModifyLocalesAd {
       "les_Ad.proto\022!dstore.engine.mi_ModifyLoc" +
       "ales_Ad\032\023dstore/values.proto\032\032dstore/eng" +
       "ine/engine.proto\"\373\001\n\nParameters\022/\n\ncount" +
-      "ry_id\030\001 \001(\0132\033.dstore.values.integerValue" +
+      "ry_id\030\001 \001(\0132\033.dstore.values.IntegerValue" +
       "\022\030\n\017country_id_null\030\351\007 \001(\010\0220\n\013language_i" +
-      "d\030\002 \001(\0132\033.dstore.values.integerValue\022\031\n\020" +
+      "d\030\002 \001(\0132\033.dstore.values.IntegerValue\022\031\n\020" +
       "language_id_null\030\352\007 \001(\010\0225\n\020delete_locale" +
-      "_id\030\003 \001(\0132\033.dstore.values.integerValue\022\036" +
+      "_id\030\003 \001(\0132\033.dstore.values.IntegerValue\022\036" +
       "\n\025delete_locale_id_null\030\353\007 \001(\010\"\303\001\n\010Respo",
       "nse\0228\n\020meta_information\030\002 \003(\0132\036.dstore.e" +
       "ngine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026" +
@@ -3218,7 +3218,7 @@ public final class MiModifyLocalesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyLocales_Ad_Parameters_descriptor =
@@ -3239,7 +3239,7 @@ public final class MiModifyLocalesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyLocales_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

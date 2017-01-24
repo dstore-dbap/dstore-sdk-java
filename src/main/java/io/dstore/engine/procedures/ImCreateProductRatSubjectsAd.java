@@ -19,17 +19,17 @@ public final class ImCreateProductRatSubjectsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue description = 1;</code>
+     * <code>optional .dstore.values.StringValue description = 1;</code>
      */
     boolean hasDescription();
     /**
-     * <code>optional .dstore.values.stringValue description = 1;</code>
+     * <code>optional .dstore.values.StringValue description = 1;</code>
      */
-    io.dstore.Values.stringValue getDescription();
+    io.dstore.values.StringValue getDescription();
     /**
-     * <code>optional .dstore.values.stringValue description = 1;</code>
+     * <code>optional .dstore.values.StringValue description = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
     /**
      * <code>optional bool description_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImCreateProductRatSubjectsAd {
     boolean getDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+     * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
      */
     boolean hasKeepRatingsInHours();
     /**
-     * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+     * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
      */
-    io.dstore.Values.integerValue getKeepRatingsInHours();
+    io.dstore.values.IntegerValue getKeepRatingsInHours();
     /**
-     * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+     * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getKeepRatingsInHoursOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getKeepRatingsInHoursOrBuilder();
 
     /**
      * <code>optional bool keep_ratings_in_hours_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImCreateProductRatSubjectsAd {
     boolean getKeepRatingsInHoursNull();
 
     /**
-     * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
      */
     boolean hasKeepRatingStatisticsInDays();
     /**
-     * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
      */
-    io.dstore.Values.integerValue getKeepRatingStatisticsInDays();
+    io.dstore.values.IntegerValue getKeepRatingStatisticsInDays();
     /**
-     * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getKeepRatingStatisticsInDaysOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getKeepRatingStatisticsInDaysOrBuilder();
 
     /**
      * <code>optional bool keep_rating_statistics_in_days_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImCreateProductRatSubjectsAd {
     boolean getKeepRatingStatisticsInDaysNull();
 
     /**
-     * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+     * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
      */
     boolean hasLockCriteria();
     /**
-     * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+     * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
      */
-    io.dstore.Values.integerValue getLockCriteria();
+    io.dstore.values.IntegerValue getLockCriteria();
     /**
-     * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+     * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLockCriteriaOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLockCriteriaOrBuilder();
 
     /**
      * <code>optional bool lock_criteria_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class ImCreateProductRatSubjectsAd {
     boolean getLockCriteriaNull();
 
     /**
-     * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
      */
     boolean hasLockPeriodInMinutes();
     /**
-     * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
      */
-    io.dstore.Values.integerValue getLockPeriodInMinutes();
+    io.dstore.values.IntegerValue getLockPeriodInMinutes();
     /**
-     * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLockPeriodInMinutesOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLockPeriodInMinutesOrBuilder();
 
     /**
      * <code>optional bool lock_period_in_minutes_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class ImCreateProductRatSubjectsAd {
     boolean getLockPeriodInMinutesNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+     * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
      */
     boolean hasCreateForAllProducts();
     /**
-     * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+     * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
      */
-    io.dstore.Values.booleanValue getCreateForAllProducts();
+    io.dstore.values.BooleanValue getCreateForAllProducts();
     /**
-     * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+     * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCreateForAllProductsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCreateForAllProductsOrBuilder();
 
     /**
      * <code>optional bool create_for_all_products_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class ImCreateProductRatSubjectsAd {
     boolean getCreateForAllProductsNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+     * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
      */
     boolean hasOnlyActiveProducts();
     /**
-     * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+     * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
      */
-    io.dstore.Values.booleanValue getOnlyActiveProducts();
+    io.dstore.values.BooleanValue getOnlyActiveProducts();
     /**
-     * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+     * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOnlyActiveProductsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOnlyActiveProductsOrBuilder();
 
     /**
      * <code>optional bool only_active_products_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class ImCreateProductRatSubjectsAd {
     boolean getOnlyActiveProductsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
      */
     boolean hasRatingSubjectSetId();
     /**
-     * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
      */
-    io.dstore.Values.integerValue getRatingSubjectSetId();
+    io.dstore.values.IntegerValue getRatingSubjectSetId();
     /**
-     * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRatingSubjectSetIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRatingSubjectSetIdOrBuilder();
 
     /**
      * <code>optional bool rating_subject_set_id_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class ImCreateProductRatSubjectsAd {
     boolean getRatingSubjectSetIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+     * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
      */
     boolean hasNodeCharacIdForRatingValues();
     /**
-     * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+     * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacIdForRatingValues();
+    io.dstore.values.IntegerValue getNodeCharacIdForRatingValues();
     /**
-     * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+     * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacIdForRatingValuesOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacIdForRatingValuesOrBuilder();
 
     /**
      * <code>optional bool node_charac_id_for_rating_values_null = 1009;</code>
@@ -229,11 +229,11 @@ public final class ImCreateProductRatSubjectsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (description_ != null) {
                 subBuilder = description_.toBuilder();
               }
-              description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(description_);
                 description_ = subBuilder.buildPartial();
@@ -242,11 +242,11 @@ public final class ImCreateProductRatSubjectsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (keepRatingsInHours_ != null) {
                 subBuilder = keepRatingsInHours_.toBuilder();
               }
-              keepRatingsInHours_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              keepRatingsInHours_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keepRatingsInHours_);
                 keepRatingsInHours_ = subBuilder.buildPartial();
@@ -255,11 +255,11 @@ public final class ImCreateProductRatSubjectsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (keepRatingStatisticsInDays_ != null) {
                 subBuilder = keepRatingStatisticsInDays_.toBuilder();
               }
-              keepRatingStatisticsInDays_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              keepRatingStatisticsInDays_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keepRatingStatisticsInDays_);
                 keepRatingStatisticsInDays_ = subBuilder.buildPartial();
@@ -268,11 +268,11 @@ public final class ImCreateProductRatSubjectsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (lockCriteria_ != null) {
                 subBuilder = lockCriteria_.toBuilder();
               }
-              lockCriteria_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              lockCriteria_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lockCriteria_);
                 lockCriteria_ = subBuilder.buildPartial();
@@ -281,11 +281,11 @@ public final class ImCreateProductRatSubjectsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (lockPeriodInMinutes_ != null) {
                 subBuilder = lockPeriodInMinutes_.toBuilder();
               }
-              lockPeriodInMinutes_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              lockPeriodInMinutes_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lockPeriodInMinutes_);
                 lockPeriodInMinutes_ = subBuilder.buildPartial();
@@ -294,11 +294,11 @@ public final class ImCreateProductRatSubjectsAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (createForAllProducts_ != null) {
                 subBuilder = createForAllProducts_.toBuilder();
               }
-              createForAllProducts_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              createForAllProducts_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(createForAllProducts_);
                 createForAllProducts_ = subBuilder.buildPartial();
@@ -307,11 +307,11 @@ public final class ImCreateProductRatSubjectsAd {
               break;
             }
             case 58: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (onlyActiveProducts_ != null) {
                 subBuilder = onlyActiveProducts_.toBuilder();
               }
-              onlyActiveProducts_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              onlyActiveProducts_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyActiveProducts_);
                 onlyActiveProducts_ = subBuilder.buildPartial();
@@ -320,11 +320,11 @@ public final class ImCreateProductRatSubjectsAd {
               break;
             }
             case 66: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (ratingSubjectSetId_ != null) {
                 subBuilder = ratingSubjectSetId_.toBuilder();
               }
-              ratingSubjectSetId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              ratingSubjectSetId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(ratingSubjectSetId_);
                 ratingSubjectSetId_ = subBuilder.buildPartial();
@@ -333,11 +333,11 @@ public final class ImCreateProductRatSubjectsAd {
               break;
             }
             case 74: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacIdForRatingValues_ != null) {
                 subBuilder = nodeCharacIdForRatingValues_.toBuilder();
               }
-              nodeCharacIdForRatingValues_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacIdForRatingValues_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacIdForRatingValues_);
                 nodeCharacIdForRatingValues_ = subBuilder.buildPartial();
@@ -414,23 +414,23 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     public static final int DESCRIPTION_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue description_;
+    private io.dstore.values.StringValue description_;
     /**
-     * <code>optional .dstore.values.stringValue description = 1;</code>
+     * <code>optional .dstore.values.StringValue description = 1;</code>
      */
     public boolean hasDescription() {
       return description_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue description = 1;</code>
+     * <code>optional .dstore.values.StringValue description = 1;</code>
      */
-    public io.dstore.Values.stringValue getDescription() {
-      return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+    public io.dstore.values.StringValue getDescription() {
+      return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
     }
     /**
-     * <code>optional .dstore.values.stringValue description = 1;</code>
+     * <code>optional .dstore.values.StringValue description = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
       return getDescription();
     }
 
@@ -444,23 +444,23 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     public static final int KEEP_RATINGS_IN_HOURS_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue keepRatingsInHours_;
+    private io.dstore.values.IntegerValue keepRatingsInHours_;
     /**
-     * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+     * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
      */
     public boolean hasKeepRatingsInHours() {
       return keepRatingsInHours_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+     * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
      */
-    public io.dstore.Values.integerValue getKeepRatingsInHours() {
-      return keepRatingsInHours_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepRatingsInHours_;
+    public io.dstore.values.IntegerValue getKeepRatingsInHours() {
+      return keepRatingsInHours_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepRatingsInHours_;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+     * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getKeepRatingsInHoursOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getKeepRatingsInHoursOrBuilder() {
       return getKeepRatingsInHours();
     }
 
@@ -474,23 +474,23 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     public static final int KEEP_RATING_STATISTICS_IN_DAYS_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue keepRatingStatisticsInDays_;
+    private io.dstore.values.IntegerValue keepRatingStatisticsInDays_;
     /**
-     * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
      */
     public boolean hasKeepRatingStatisticsInDays() {
       return keepRatingStatisticsInDays_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
      */
-    public io.dstore.Values.integerValue getKeepRatingStatisticsInDays() {
-      return keepRatingStatisticsInDays_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepRatingStatisticsInDays_;
+    public io.dstore.values.IntegerValue getKeepRatingStatisticsInDays() {
+      return keepRatingStatisticsInDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepRatingStatisticsInDays_;
     }
     /**
-     * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+     * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getKeepRatingStatisticsInDaysOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getKeepRatingStatisticsInDaysOrBuilder() {
       return getKeepRatingStatisticsInDays();
     }
 
@@ -504,23 +504,23 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     public static final int LOCK_CRITERIA_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue lockCriteria_;
+    private io.dstore.values.IntegerValue lockCriteria_;
     /**
-     * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+     * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
      */
     public boolean hasLockCriteria() {
       return lockCriteria_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+     * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
      */
-    public io.dstore.Values.integerValue getLockCriteria() {
-      return lockCriteria_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockCriteria_;
+    public io.dstore.values.IntegerValue getLockCriteria() {
+      return lockCriteria_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lockCriteria_;
     }
     /**
-     * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+     * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLockCriteriaOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLockCriteriaOrBuilder() {
       return getLockCriteria();
     }
 
@@ -534,23 +534,23 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     public static final int LOCK_PERIOD_IN_MINUTES_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue lockPeriodInMinutes_;
+    private io.dstore.values.IntegerValue lockPeriodInMinutes_;
     /**
-     * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
      */
     public boolean hasLockPeriodInMinutes() {
       return lockPeriodInMinutes_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
      */
-    public io.dstore.Values.integerValue getLockPeriodInMinutes() {
-      return lockPeriodInMinutes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockPeriodInMinutes_;
+    public io.dstore.values.IntegerValue getLockPeriodInMinutes() {
+      return lockPeriodInMinutes_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lockPeriodInMinutes_;
     }
     /**
-     * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLockPeriodInMinutesOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLockPeriodInMinutesOrBuilder() {
       return getLockPeriodInMinutes();
     }
 
@@ -564,23 +564,23 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     public static final int CREATE_FOR_ALL_PRODUCTS_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue createForAllProducts_;
+    private io.dstore.values.BooleanValue createForAllProducts_;
     /**
-     * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+     * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
      */
     public boolean hasCreateForAllProducts() {
       return createForAllProducts_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+     * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
      */
-    public io.dstore.Values.booleanValue getCreateForAllProducts() {
-      return createForAllProducts_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : createForAllProducts_;
+    public io.dstore.values.BooleanValue getCreateForAllProducts() {
+      return createForAllProducts_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : createForAllProducts_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+     * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCreateForAllProductsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCreateForAllProductsOrBuilder() {
       return getCreateForAllProducts();
     }
 
@@ -594,23 +594,23 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     public static final int ONLY_ACTIVE_PRODUCTS_FIELD_NUMBER = 7;
-    private io.dstore.Values.booleanValue onlyActiveProducts_;
+    private io.dstore.values.BooleanValue onlyActiveProducts_;
     /**
-     * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+     * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
      */
     public boolean hasOnlyActiveProducts() {
       return onlyActiveProducts_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+     * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
      */
-    public io.dstore.Values.booleanValue getOnlyActiveProducts() {
-      return onlyActiveProducts_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyActiveProducts_;
+    public io.dstore.values.BooleanValue getOnlyActiveProducts() {
+      return onlyActiveProducts_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyActiveProducts_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+     * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOnlyActiveProductsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOnlyActiveProductsOrBuilder() {
       return getOnlyActiveProducts();
     }
 
@@ -624,23 +624,23 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     public static final int RATING_SUBJECT_SET_ID_FIELD_NUMBER = 8;
-    private io.dstore.Values.integerValue ratingSubjectSetId_;
+    private io.dstore.values.IntegerValue ratingSubjectSetId_;
     /**
-     * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
      */
     public boolean hasRatingSubjectSetId() {
       return ratingSubjectSetId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
      */
-    public io.dstore.Values.integerValue getRatingSubjectSetId() {
-      return ratingSubjectSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : ratingSubjectSetId_;
+    public io.dstore.values.IntegerValue getRatingSubjectSetId() {
+      return ratingSubjectSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : ratingSubjectSetId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+     * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRatingSubjectSetIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRatingSubjectSetIdOrBuilder() {
       return getRatingSubjectSetId();
     }
 
@@ -654,23 +654,23 @@ public final class ImCreateProductRatSubjectsAd {
     }
 
     public static final int NODE_CHARAC_ID_FOR_RATING_VALUES_FIELD_NUMBER = 9;
-    private io.dstore.Values.integerValue nodeCharacIdForRatingValues_;
+    private io.dstore.values.IntegerValue nodeCharacIdForRatingValues_;
     /**
-     * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+     * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
      */
     public boolean hasNodeCharacIdForRatingValues() {
       return nodeCharacIdForRatingValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+     * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacIdForRatingValues() {
-      return nodeCharacIdForRatingValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacIdForRatingValues_;
+    public io.dstore.values.IntegerValue getNodeCharacIdForRatingValues() {
+      return nodeCharacIdForRatingValues_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacIdForRatingValues_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+     * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacIdForRatingValuesOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacIdForRatingValuesOrBuilder() {
       return getNodeCharacIdForRatingValues();
     }
 
@@ -1367,29 +1367,29 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue description_ = null;
+      private io.dstore.values.StringValue description_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue description = 1;</code>
+       * <code>optional .dstore.values.StringValue description = 1;</code>
        */
       public boolean hasDescription() {
         return descriptionBuilder_ != null || description_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 1;</code>
+       * <code>optional .dstore.values.StringValue description = 1;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
+      public io.dstore.values.StringValue getDescription() {
         if (descriptionBuilder_ == null) {
-          return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+          return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
         } else {
           return descriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 1;</code>
+       * <code>optional .dstore.values.StringValue description = 1;</code>
        */
-      public Builder setDescription(io.dstore.Values.stringValue value) {
+      public Builder setDescription(io.dstore.values.StringValue value) {
         if (descriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1403,10 +1403,10 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 1;</code>
+       * <code>optional .dstore.values.StringValue description = 1;</code>
        */
       public Builder setDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (descriptionBuilder_ == null) {
           description_ = builderForValue.build();
           onChanged();
@@ -1417,13 +1417,13 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 1;</code>
+       * <code>optional .dstore.values.StringValue description = 1;</code>
        */
-      public Builder mergeDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeDescription(io.dstore.values.StringValue value) {
         if (descriptionBuilder_ == null) {
           if (description_ != null) {
             description_ =
-              io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
           } else {
             description_ = value;
           }
@@ -1435,7 +1435,7 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 1;</code>
+       * <code>optional .dstore.values.StringValue description = 1;</code>
        */
       public Builder clearDescription() {
         if (descriptionBuilder_ == null) {
@@ -1449,33 +1449,33 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 1;</code>
+       * <code>optional .dstore.values.StringValue description = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
         
         onChanged();
         return getDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 1;</code>
+       * <code>optional .dstore.values.StringValue description = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         if (descriptionBuilder_ != null) {
           return descriptionBuilder_.getMessageOrBuilder();
         } else {
           return description_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : description_;
+              io.dstore.values.StringValue.getDefaultInstance() : description_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue description = 1;</code>
+       * <code>optional .dstore.values.StringValue description = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDescriptionFieldBuilder() {
         if (descriptionBuilder_ == null) {
           descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1510,29 +1510,29 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue keepRatingsInHours_ = null;
+      private io.dstore.values.IntegerValue keepRatingsInHours_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> keepRatingsInHoursBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> keepRatingsInHoursBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+       * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
        */
       public boolean hasKeepRatingsInHours() {
         return keepRatingsInHoursBuilder_ != null || keepRatingsInHours_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+       * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
        */
-      public io.dstore.Values.integerValue getKeepRatingsInHours() {
+      public io.dstore.values.IntegerValue getKeepRatingsInHours() {
         if (keepRatingsInHoursBuilder_ == null) {
-          return keepRatingsInHours_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepRatingsInHours_;
+          return keepRatingsInHours_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepRatingsInHours_;
         } else {
           return keepRatingsInHoursBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+       * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
        */
-      public Builder setKeepRatingsInHours(io.dstore.Values.integerValue value) {
+      public Builder setKeepRatingsInHours(io.dstore.values.IntegerValue value) {
         if (keepRatingsInHoursBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1546,10 +1546,10 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+       * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
        */
       public Builder setKeepRatingsInHours(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (keepRatingsInHoursBuilder_ == null) {
           keepRatingsInHours_ = builderForValue.build();
           onChanged();
@@ -1560,13 +1560,13 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+       * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
        */
-      public Builder mergeKeepRatingsInHours(io.dstore.Values.integerValue value) {
+      public Builder mergeKeepRatingsInHours(io.dstore.values.IntegerValue value) {
         if (keepRatingsInHoursBuilder_ == null) {
           if (keepRatingsInHours_ != null) {
             keepRatingsInHours_ =
-              io.dstore.Values.integerValue.newBuilder(keepRatingsInHours_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(keepRatingsInHours_).mergeFrom(value).buildPartial();
           } else {
             keepRatingsInHours_ = value;
           }
@@ -1578,7 +1578,7 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+       * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
        */
       public Builder clearKeepRatingsInHours() {
         if (keepRatingsInHoursBuilder_ == null) {
@@ -1592,33 +1592,33 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+       * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getKeepRatingsInHoursBuilder() {
+      public io.dstore.values.IntegerValue.Builder getKeepRatingsInHoursBuilder() {
         
         onChanged();
         return getKeepRatingsInHoursFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+       * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getKeepRatingsInHoursOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getKeepRatingsInHoursOrBuilder() {
         if (keepRatingsInHoursBuilder_ != null) {
           return keepRatingsInHoursBuilder_.getMessageOrBuilder();
         } else {
           return keepRatingsInHours_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : keepRatingsInHours_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : keepRatingsInHours_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_ratings_in_hours = 2;</code>
+       * <code>optional .dstore.values.IntegerValue keep_ratings_in_hours = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getKeepRatingsInHoursFieldBuilder() {
         if (keepRatingsInHoursBuilder_ == null) {
           keepRatingsInHoursBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getKeepRatingsInHours(),
                   getParentForChildren(),
                   isClean());
@@ -1653,29 +1653,29 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue keepRatingStatisticsInDays_ = null;
+      private io.dstore.values.IntegerValue keepRatingStatisticsInDays_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> keepRatingStatisticsInDaysBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> keepRatingStatisticsInDaysBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
        */
       public boolean hasKeepRatingStatisticsInDays() {
         return keepRatingStatisticsInDaysBuilder_ != null || keepRatingStatisticsInDays_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
        */
-      public io.dstore.Values.integerValue getKeepRatingStatisticsInDays() {
+      public io.dstore.values.IntegerValue getKeepRatingStatisticsInDays() {
         if (keepRatingStatisticsInDaysBuilder_ == null) {
-          return keepRatingStatisticsInDays_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : keepRatingStatisticsInDays_;
+          return keepRatingStatisticsInDays_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : keepRatingStatisticsInDays_;
         } else {
           return keepRatingStatisticsInDaysBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
        */
-      public Builder setKeepRatingStatisticsInDays(io.dstore.Values.integerValue value) {
+      public Builder setKeepRatingStatisticsInDays(io.dstore.values.IntegerValue value) {
         if (keepRatingStatisticsInDaysBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1689,10 +1689,10 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
        */
       public Builder setKeepRatingStatisticsInDays(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (keepRatingStatisticsInDaysBuilder_ == null) {
           keepRatingStatisticsInDays_ = builderForValue.build();
           onChanged();
@@ -1703,13 +1703,13 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
        */
-      public Builder mergeKeepRatingStatisticsInDays(io.dstore.Values.integerValue value) {
+      public Builder mergeKeepRatingStatisticsInDays(io.dstore.values.IntegerValue value) {
         if (keepRatingStatisticsInDaysBuilder_ == null) {
           if (keepRatingStatisticsInDays_ != null) {
             keepRatingStatisticsInDays_ =
-              io.dstore.Values.integerValue.newBuilder(keepRatingStatisticsInDays_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(keepRatingStatisticsInDays_).mergeFrom(value).buildPartial();
           } else {
             keepRatingStatisticsInDays_ = value;
           }
@@ -1721,7 +1721,7 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
        */
       public Builder clearKeepRatingStatisticsInDays() {
         if (keepRatingStatisticsInDaysBuilder_ == null) {
@@ -1735,33 +1735,33 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getKeepRatingStatisticsInDaysBuilder() {
+      public io.dstore.values.IntegerValue.Builder getKeepRatingStatisticsInDaysBuilder() {
         
         onChanged();
         return getKeepRatingStatisticsInDaysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getKeepRatingStatisticsInDaysOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getKeepRatingStatisticsInDaysOrBuilder() {
         if (keepRatingStatisticsInDaysBuilder_ != null) {
           return keepRatingStatisticsInDaysBuilder_.getMessageOrBuilder();
         } else {
           return keepRatingStatisticsInDays_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : keepRatingStatisticsInDays_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : keepRatingStatisticsInDays_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue keep_rating_statistics_in_days = 3;</code>
+       * <code>optional .dstore.values.IntegerValue keep_rating_statistics_in_days = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getKeepRatingStatisticsInDaysFieldBuilder() {
         if (keepRatingStatisticsInDaysBuilder_ == null) {
           keepRatingStatisticsInDaysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getKeepRatingStatisticsInDays(),
                   getParentForChildren(),
                   isClean());
@@ -1796,29 +1796,29 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue lockCriteria_ = null;
+      private io.dstore.values.IntegerValue lockCriteria_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lockCriteriaBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> lockCriteriaBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+       * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
        */
       public boolean hasLockCriteria() {
         return lockCriteriaBuilder_ != null || lockCriteria_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+       * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
        */
-      public io.dstore.Values.integerValue getLockCriteria() {
+      public io.dstore.values.IntegerValue getLockCriteria() {
         if (lockCriteriaBuilder_ == null) {
-          return lockCriteria_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockCriteria_;
+          return lockCriteria_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lockCriteria_;
         } else {
           return lockCriteriaBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+       * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
        */
-      public Builder setLockCriteria(io.dstore.Values.integerValue value) {
+      public Builder setLockCriteria(io.dstore.values.IntegerValue value) {
         if (lockCriteriaBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1832,10 +1832,10 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+       * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
        */
       public Builder setLockCriteria(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (lockCriteriaBuilder_ == null) {
           lockCriteria_ = builderForValue.build();
           onChanged();
@@ -1846,13 +1846,13 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+       * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
        */
-      public Builder mergeLockCriteria(io.dstore.Values.integerValue value) {
+      public Builder mergeLockCriteria(io.dstore.values.IntegerValue value) {
         if (lockCriteriaBuilder_ == null) {
           if (lockCriteria_ != null) {
             lockCriteria_ =
-              io.dstore.Values.integerValue.newBuilder(lockCriteria_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(lockCriteria_).mergeFrom(value).buildPartial();
           } else {
             lockCriteria_ = value;
           }
@@ -1864,7 +1864,7 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+       * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
        */
       public Builder clearLockCriteria() {
         if (lockCriteriaBuilder_ == null) {
@@ -1878,33 +1878,33 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+       * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLockCriteriaBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLockCriteriaBuilder() {
         
         onChanged();
         return getLockCriteriaFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+       * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLockCriteriaOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLockCriteriaOrBuilder() {
         if (lockCriteriaBuilder_ != null) {
           return lockCriteriaBuilder_.getMessageOrBuilder();
         } else {
           return lockCriteria_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : lockCriteria_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : lockCriteria_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_criteria = 4;</code>
+       * <code>optional .dstore.values.IntegerValue lock_criteria = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLockCriteriaFieldBuilder() {
         if (lockCriteriaBuilder_ == null) {
           lockCriteriaBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLockCriteria(),
                   getParentForChildren(),
                   isClean());
@@ -1939,29 +1939,29 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue lockPeriodInMinutes_ = null;
+      private io.dstore.values.IntegerValue lockPeriodInMinutes_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lockPeriodInMinutesBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> lockPeriodInMinutesBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
        */
       public boolean hasLockPeriodInMinutes() {
         return lockPeriodInMinutesBuilder_ != null || lockPeriodInMinutes_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
        */
-      public io.dstore.Values.integerValue getLockPeriodInMinutes() {
+      public io.dstore.values.IntegerValue getLockPeriodInMinutes() {
         if (lockPeriodInMinutesBuilder_ == null) {
-          return lockPeriodInMinutes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : lockPeriodInMinutes_;
+          return lockPeriodInMinutes_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : lockPeriodInMinutes_;
         } else {
           return lockPeriodInMinutesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
        */
-      public Builder setLockPeriodInMinutes(io.dstore.Values.integerValue value) {
+      public Builder setLockPeriodInMinutes(io.dstore.values.IntegerValue value) {
         if (lockPeriodInMinutesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1975,10 +1975,10 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
        */
       public Builder setLockPeriodInMinutes(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (lockPeriodInMinutesBuilder_ == null) {
           lockPeriodInMinutes_ = builderForValue.build();
           onChanged();
@@ -1989,13 +1989,13 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
        */
-      public Builder mergeLockPeriodInMinutes(io.dstore.Values.integerValue value) {
+      public Builder mergeLockPeriodInMinutes(io.dstore.values.IntegerValue value) {
         if (lockPeriodInMinutesBuilder_ == null) {
           if (lockPeriodInMinutes_ != null) {
             lockPeriodInMinutes_ =
-              io.dstore.Values.integerValue.newBuilder(lockPeriodInMinutes_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(lockPeriodInMinutes_).mergeFrom(value).buildPartial();
           } else {
             lockPeriodInMinutes_ = value;
           }
@@ -2007,7 +2007,7 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
        */
       public Builder clearLockPeriodInMinutes() {
         if (lockPeriodInMinutesBuilder_ == null) {
@@ -2021,33 +2021,33 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLockPeriodInMinutesBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLockPeriodInMinutesBuilder() {
         
         onChanged();
         return getLockPeriodInMinutesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLockPeriodInMinutesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLockPeriodInMinutesOrBuilder() {
         if (lockPeriodInMinutesBuilder_ != null) {
           return lockPeriodInMinutesBuilder_.getMessageOrBuilder();
         } else {
           return lockPeriodInMinutes_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : lockPeriodInMinutes_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : lockPeriodInMinutes_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue lock_period_in_minutes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue lock_period_in_minutes = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLockPeriodInMinutesFieldBuilder() {
         if (lockPeriodInMinutesBuilder_ == null) {
           lockPeriodInMinutesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLockPeriodInMinutes(),
                   getParentForChildren(),
                   isClean());
@@ -2082,29 +2082,29 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue createForAllProducts_ = null;
+      private io.dstore.values.BooleanValue createForAllProducts_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> createForAllProductsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> createForAllProductsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+       * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
        */
       public boolean hasCreateForAllProducts() {
         return createForAllProductsBuilder_ != null || createForAllProducts_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+       * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
        */
-      public io.dstore.Values.booleanValue getCreateForAllProducts() {
+      public io.dstore.values.BooleanValue getCreateForAllProducts() {
         if (createForAllProductsBuilder_ == null) {
-          return createForAllProducts_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : createForAllProducts_;
+          return createForAllProducts_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : createForAllProducts_;
         } else {
           return createForAllProductsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+       * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
        */
-      public Builder setCreateForAllProducts(io.dstore.Values.booleanValue value) {
+      public Builder setCreateForAllProducts(io.dstore.values.BooleanValue value) {
         if (createForAllProductsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2118,10 +2118,10 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+       * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
        */
       public Builder setCreateForAllProducts(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (createForAllProductsBuilder_ == null) {
           createForAllProducts_ = builderForValue.build();
           onChanged();
@@ -2132,13 +2132,13 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+       * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
        */
-      public Builder mergeCreateForAllProducts(io.dstore.Values.booleanValue value) {
+      public Builder mergeCreateForAllProducts(io.dstore.values.BooleanValue value) {
         if (createForAllProductsBuilder_ == null) {
           if (createForAllProducts_ != null) {
             createForAllProducts_ =
-              io.dstore.Values.booleanValue.newBuilder(createForAllProducts_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(createForAllProducts_).mergeFrom(value).buildPartial();
           } else {
             createForAllProducts_ = value;
           }
@@ -2150,7 +2150,7 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+       * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
        */
       public Builder clearCreateForAllProducts() {
         if (createForAllProductsBuilder_ == null) {
@@ -2164,33 +2164,33 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+       * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCreateForAllProductsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCreateForAllProductsBuilder() {
         
         onChanged();
         return getCreateForAllProductsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+       * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCreateForAllProductsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCreateForAllProductsOrBuilder() {
         if (createForAllProductsBuilder_ != null) {
           return createForAllProductsBuilder_.getMessageOrBuilder();
         } else {
           return createForAllProducts_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : createForAllProducts_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : createForAllProducts_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_for_all_products = 6;</code>
+       * <code>optional .dstore.values.BooleanValue create_for_all_products = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCreateForAllProductsFieldBuilder() {
         if (createForAllProductsBuilder_ == null) {
           createForAllProductsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCreateForAllProducts(),
                   getParentForChildren(),
                   isClean());
@@ -2225,29 +2225,29 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue onlyActiveProducts_ = null;
+      private io.dstore.values.BooleanValue onlyActiveProducts_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyActiveProductsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyActiveProductsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+       * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
        */
       public boolean hasOnlyActiveProducts() {
         return onlyActiveProductsBuilder_ != null || onlyActiveProducts_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+       * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
        */
-      public io.dstore.Values.booleanValue getOnlyActiveProducts() {
+      public io.dstore.values.BooleanValue getOnlyActiveProducts() {
         if (onlyActiveProductsBuilder_ == null) {
-          return onlyActiveProducts_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyActiveProducts_;
+          return onlyActiveProducts_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyActiveProducts_;
         } else {
           return onlyActiveProductsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+       * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
        */
-      public Builder setOnlyActiveProducts(io.dstore.Values.booleanValue value) {
+      public Builder setOnlyActiveProducts(io.dstore.values.BooleanValue value) {
         if (onlyActiveProductsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2261,10 +2261,10 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+       * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
        */
       public Builder setOnlyActiveProducts(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (onlyActiveProductsBuilder_ == null) {
           onlyActiveProducts_ = builderForValue.build();
           onChanged();
@@ -2275,13 +2275,13 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+       * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
        */
-      public Builder mergeOnlyActiveProducts(io.dstore.Values.booleanValue value) {
+      public Builder mergeOnlyActiveProducts(io.dstore.values.BooleanValue value) {
         if (onlyActiveProductsBuilder_ == null) {
           if (onlyActiveProducts_ != null) {
             onlyActiveProducts_ =
-              io.dstore.Values.booleanValue.newBuilder(onlyActiveProducts_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(onlyActiveProducts_).mergeFrom(value).buildPartial();
           } else {
             onlyActiveProducts_ = value;
           }
@@ -2293,7 +2293,7 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+       * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
        */
       public Builder clearOnlyActiveProducts() {
         if (onlyActiveProductsBuilder_ == null) {
@@ -2307,33 +2307,33 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+       * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOnlyActiveProductsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOnlyActiveProductsBuilder() {
         
         onChanged();
         return getOnlyActiveProductsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+       * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOnlyActiveProductsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOnlyActiveProductsOrBuilder() {
         if (onlyActiveProductsBuilder_ != null) {
           return onlyActiveProductsBuilder_.getMessageOrBuilder();
         } else {
           return onlyActiveProducts_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : onlyActiveProducts_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : onlyActiveProducts_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_active_products = 7;</code>
+       * <code>optional .dstore.values.BooleanValue only_active_products = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOnlyActiveProductsFieldBuilder() {
         if (onlyActiveProductsBuilder_ == null) {
           onlyActiveProductsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOnlyActiveProducts(),
                   getParentForChildren(),
                   isClean());
@@ -2368,29 +2368,29 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue ratingSubjectSetId_ = null;
+      private io.dstore.values.IntegerValue ratingSubjectSetId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> ratingSubjectSetIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> ratingSubjectSetIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
        */
       public boolean hasRatingSubjectSetId() {
         return ratingSubjectSetIdBuilder_ != null || ratingSubjectSetId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
        */
-      public io.dstore.Values.integerValue getRatingSubjectSetId() {
+      public io.dstore.values.IntegerValue getRatingSubjectSetId() {
         if (ratingSubjectSetIdBuilder_ == null) {
-          return ratingSubjectSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : ratingSubjectSetId_;
+          return ratingSubjectSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : ratingSubjectSetId_;
         } else {
           return ratingSubjectSetIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
        */
-      public Builder setRatingSubjectSetId(io.dstore.Values.integerValue value) {
+      public Builder setRatingSubjectSetId(io.dstore.values.IntegerValue value) {
         if (ratingSubjectSetIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2404,10 +2404,10 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
        */
       public Builder setRatingSubjectSetId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (ratingSubjectSetIdBuilder_ == null) {
           ratingSubjectSetId_ = builderForValue.build();
           onChanged();
@@ -2418,13 +2418,13 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
        */
-      public Builder mergeRatingSubjectSetId(io.dstore.Values.integerValue value) {
+      public Builder mergeRatingSubjectSetId(io.dstore.values.IntegerValue value) {
         if (ratingSubjectSetIdBuilder_ == null) {
           if (ratingSubjectSetId_ != null) {
             ratingSubjectSetId_ =
-              io.dstore.Values.integerValue.newBuilder(ratingSubjectSetId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(ratingSubjectSetId_).mergeFrom(value).buildPartial();
           } else {
             ratingSubjectSetId_ = value;
           }
@@ -2436,7 +2436,7 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
        */
       public Builder clearRatingSubjectSetId() {
         if (ratingSubjectSetIdBuilder_ == null) {
@@ -2450,33 +2450,33 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRatingSubjectSetIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRatingSubjectSetIdBuilder() {
         
         onChanged();
         return getRatingSubjectSetIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRatingSubjectSetIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRatingSubjectSetIdOrBuilder() {
         if (ratingSubjectSetIdBuilder_ != null) {
           return ratingSubjectSetIdBuilder_.getMessageOrBuilder();
         } else {
           return ratingSubjectSetId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : ratingSubjectSetId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : ratingSubjectSetId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue rating_subject_set_id = 8;</code>
+       * <code>optional .dstore.values.IntegerValue rating_subject_set_id = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRatingSubjectSetIdFieldBuilder() {
         if (ratingSubjectSetIdBuilder_ == null) {
           ratingSubjectSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRatingSubjectSetId(),
                   getParentForChildren(),
                   isClean());
@@ -2511,29 +2511,29 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacIdForRatingValues_ = null;
+      private io.dstore.values.IntegerValue nodeCharacIdForRatingValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacIdForRatingValuesBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacIdForRatingValuesBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
        */
       public boolean hasNodeCharacIdForRatingValues() {
         return nodeCharacIdForRatingValuesBuilder_ != null || nodeCharacIdForRatingValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacIdForRatingValues() {
+      public io.dstore.values.IntegerValue getNodeCharacIdForRatingValues() {
         if (nodeCharacIdForRatingValuesBuilder_ == null) {
-          return nodeCharacIdForRatingValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacIdForRatingValues_;
+          return nodeCharacIdForRatingValues_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacIdForRatingValues_;
         } else {
           return nodeCharacIdForRatingValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
        */
-      public Builder setNodeCharacIdForRatingValues(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacIdForRatingValues(io.dstore.values.IntegerValue value) {
         if (nodeCharacIdForRatingValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2547,10 +2547,10 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
        */
       public Builder setNodeCharacIdForRatingValues(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacIdForRatingValuesBuilder_ == null) {
           nodeCharacIdForRatingValues_ = builderForValue.build();
           onChanged();
@@ -2561,13 +2561,13 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
        */
-      public Builder mergeNodeCharacIdForRatingValues(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacIdForRatingValues(io.dstore.values.IntegerValue value) {
         if (nodeCharacIdForRatingValuesBuilder_ == null) {
           if (nodeCharacIdForRatingValues_ != null) {
             nodeCharacIdForRatingValues_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacIdForRatingValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacIdForRatingValues_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacIdForRatingValues_ = value;
           }
@@ -2579,7 +2579,7 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
        */
       public Builder clearNodeCharacIdForRatingValues() {
         if (nodeCharacIdForRatingValuesBuilder_ == null) {
@@ -2593,33 +2593,33 @@ public final class ImCreateProductRatSubjectsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacIdForRatingValuesBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacIdForRatingValuesBuilder() {
         
         onChanged();
         return getNodeCharacIdForRatingValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacIdForRatingValuesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacIdForRatingValuesOrBuilder() {
         if (nodeCharacIdForRatingValuesBuilder_ != null) {
           return nodeCharacIdForRatingValuesBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacIdForRatingValues_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacIdForRatingValues_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacIdForRatingValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_charac_id_for_rating_values = 9;</code>
+       * <code>optional .dstore.values.IntegerValue node_charac_id_for_rating_values = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacIdForRatingValuesFieldBuilder() {
         if (nodeCharacIdForRatingValuesBuilder_ == null) {
           nodeCharacIdForRatingValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacIdForRatingValues(),
                   getParentForChildren(),
                   isClean());
@@ -4741,26 +4741,26 @@ public final class ImCreateProductRatSubjectsAd {
       "m_CreateProductRatSubjects_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\374" +
       "\006\n\nParameters\022/\n\013description\030\001 \001(\0132\032.dst" +
-      "ore.values.stringValue\022\031\n\020description_nu" +
+      "ore.values.StringValue\022\031\n\020description_nu" +
       "ll\030\351\007 \001(\010\022:\n\025keep_ratings_in_hours\030\002 \001(\013" +
-      "2\033.dstore.values.integerValue\022#\n\032keep_ra" +
+      "2\033.dstore.values.IntegerValue\022#\n\032keep_ra" +
       "tings_in_hours_null\030\352\007 \001(\010\022C\n\036keep_ratin" +
       "g_statistics_in_days\030\003 \001(\0132\033.dstore.valu",
-      "es.integerValue\022,\n#keep_rating_statistic" +
+      "es.IntegerValue\022,\n#keep_rating_statistic" +
       "s_in_days_null\030\353\007 \001(\010\0222\n\rlock_criteria\030\004" +
-      " \001(\0132\033.dstore.values.integerValue\022\033\n\022loc" +
+      " \001(\0132\033.dstore.values.IntegerValue\022\033\n\022loc" +
       "k_criteria_null\030\354\007 \001(\010\022;\n\026lock_period_in" +
-      "_minutes\030\005 \001(\0132\033.dstore.values.integerVa" +
+      "_minutes\030\005 \001(\0132\033.dstore.values.IntegerVa" +
       "lue\022$\n\033lock_period_in_minutes_null\030\355\007 \001(" +
       "\010\022<\n\027create_for_all_products\030\006 \001(\0132\033.dst" +
-      "ore.values.booleanValue\022%\n\034create_for_al" +
+      "ore.values.BooleanValue\022%\n\034create_for_al" +
       "l_products_null\030\356\007 \001(\010\0229\n\024only_active_pr" +
-      "oducts\030\007 \001(\0132\033.dstore.values.booleanValu",
+      "oducts\030\007 \001(\0132\033.dstore.values.BooleanValu",
       "e\022\"\n\031only_active_products_null\030\357\007 \001(\010\022:\n" +
       "\025rating_subject_set_id\030\010 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022#\n\032rating_subject_set_" +
+      "lues.IntegerValue\022#\n\032rating_subject_set_" +
       "id_null\030\360\007 \001(\010\022E\n node_charac_id_for_rat" +
-      "ing_values\030\t \001(\0132\033.dstore.values.integer" +
+      "ing_values\030\t \001(\0132\033.dstore.values.Integer" +
       "Value\022.\n%node_charac_id_for_rating_value" +
       "s_null\030\361\007 \001(\010\"\316\001\n\010Response\0228\n\020meta_infor" +
       "mation\030\002 \003(\0132\036.dstore.engine.MetaInforma" +
@@ -4783,7 +4783,7 @@ public final class ImCreateProductRatSubjectsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Parameters_descriptor =
@@ -4804,7 +4804,7 @@ public final class ImCreateProductRatSubjectsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_CreateProductRatSubjects_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

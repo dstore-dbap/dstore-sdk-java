@@ -19,17 +19,17 @@ public final class OmGetCampaignTypeRulesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
     boolean hasCampaignTypeId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCampaignTypeId();
+    io.dstore.values.IntegerValue getCampaignTypeId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCampaignTypeIdOrBuilder();
 
     /**
      * <code>optional bool campaign_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetCampaignTypeRulesAd {
     boolean getCampaignTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
      */
-    io.dstore.Values.integerValue getUserId();
+    io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class OmGetCampaignTypeRulesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (campaignTypeId_ != null) {
                 subBuilder = campaignTypeId_.toBuilder();
               }
-              campaignTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              campaignTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignTypeId_);
                 campaignTypeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class OmGetCampaignTypeRulesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class OmGetCampaignTypeRulesAd {
     }
 
     public static final int CAMPAIGN_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue campaignTypeId_;
+    private io.dstore.values.IntegerValue campaignTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
     public boolean hasCampaignTypeId() {
       return campaignTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCampaignTypeId() {
-      return campaignTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+    public io.dstore.values.IntegerValue getCampaignTypeId() {
+      return campaignTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCampaignTypeIdOrBuilder() {
       return getCampaignTypeId();
     }
 
@@ -185,23 +185,23 @@ public final class OmGetCampaignTypeRulesAd {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue userId_;
+    private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.values.IntegerValue getUserId() {
+      return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -562,29 +562,29 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue campaignTypeId_ = null;
+      private io.dstore.values.IntegerValue campaignTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public boolean hasCampaignTypeId() {
         return campaignTypeIdBuilder_ != null || campaignTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCampaignTypeId() {
+      public io.dstore.values.IntegerValue getCampaignTypeId() {
         if (campaignTypeIdBuilder_ == null) {
-          return campaignTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+          return campaignTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignTypeId_;
         } else {
           return campaignTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
-      public Builder setCampaignTypeId(io.dstore.Values.integerValue value) {
+      public Builder setCampaignTypeId(io.dstore.values.IntegerValue value) {
         if (campaignTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public Builder setCampaignTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (campaignTypeIdBuilder_ == null) {
           campaignTypeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
-      public Builder mergeCampaignTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeCampaignTypeId(io.dstore.values.IntegerValue value) {
         if (campaignTypeIdBuilder_ == null) {
           if (campaignTypeId_ != null) {
             campaignTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(campaignTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(campaignTypeId_).mergeFrom(value).buildPartial();
           } else {
             campaignTypeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       public Builder clearCampaignTypeId() {
         if (campaignTypeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCampaignTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCampaignTypeIdBuilder() {
         
         onChanged();
         return getCampaignTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCampaignTypeIdOrBuilder() {
         if (campaignTypeIdBuilder_ != null) {
           return campaignTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : campaignTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCampaignTypeIdFieldBuilder() {
         if (campaignTypeIdBuilder_ == null) {
           campaignTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCampaignTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userId_ = null;
+      private io.dstore.values.IntegerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
+      public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
        */
-      public Builder setUserId(io.dstore.Values.integerValue value) {
+      public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder setUserId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
        */
-      public Builder mergeUserId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -773,7 +773,7 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class OmGetCampaignTypeRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class OmGetCampaignTypeRulesAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
       boolean hasUserName();
       /**
@@ -1115,24 +1115,24 @@ public final class OmGetCampaignTypeRulesAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
-      io.dstore.Values.stringValue getUserName();
+      io.dstore.values.StringValue getUserName();
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
       /**
        * <pre>
        * ID eines "Typs" (von Verkaufs-Aktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
        */
       boolean hasCampaignTypeId();
       /**
@@ -1140,24 +1140,24 @@ public final class OmGetCampaignTypeRulesAd {
        * ID eines "Typs" (von Verkaufs-Aktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getCampaignTypeId();
+      io.dstore.values.IntegerValue getCampaignTypeId();
       /**
        * <pre>
        * ID eines "Typs" (von Verkaufs-Aktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCampaignTypeIdOrBuilder();
 
       /**
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
       boolean hasUserId();
       /**
@@ -1165,24 +1165,24 @@ public final class OmGetCampaignTypeRulesAd {
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getUserId();
+      io.dstore.values.IntegerValue getUserId();
       /**
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
       /**
        * <pre>
        * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
        */
       boolean hasAllowed();
       /**
@@ -1190,24 +1190,24 @@ public final class OmGetCampaignTypeRulesAd {
        * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
        */
-      io.dstore.Values.booleanValue getAllowed();
+      io.dstore.values.BooleanValue getAllowed();
       /**
        * <pre>
        * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getAllowedOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getAllowedOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
        */
       boolean hasCampaignType();
       /**
@@ -1215,17 +1215,17 @@ public final class OmGetCampaignTypeRulesAd {
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
        */
-      io.dstore.Values.stringValue getCampaignType();
+      io.dstore.values.StringValue getCampaignType();
       /**
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCampaignTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCampaignTypeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampaignTypeRules_Ad.Response.Row}
@@ -1273,11 +1273,11 @@ public final class OmGetCampaignTypeRulesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (userName_ != null) {
                   subBuilder = userName_.toBuilder();
                 }
-                userName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                userName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userName_);
                   userName_ = subBuilder.buildPartial();
@@ -1286,11 +1286,11 @@ public final class OmGetCampaignTypeRulesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (campaignTypeId_ != null) {
                   subBuilder = campaignTypeId_.toBuilder();
                 }
-                campaignTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                campaignTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignTypeId_);
                   campaignTypeId_ = subBuilder.buildPartial();
@@ -1299,11 +1299,11 @@ public final class OmGetCampaignTypeRulesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (userId_ != null) {
                   subBuilder = userId_.toBuilder();
                 }
-                userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userId_);
                   userId_ = subBuilder.buildPartial();
@@ -1312,11 +1312,11 @@ public final class OmGetCampaignTypeRulesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (allowed_ != null) {
                   subBuilder = allowed_.toBuilder();
                 }
-                allowed_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                allowed_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(allowed_);
                   allowed_ = subBuilder.buildPartial();
@@ -1325,11 +1325,11 @@ public final class OmGetCampaignTypeRulesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (campaignType_ != null) {
                   subBuilder = campaignType_.toBuilder();
                 }
-                campaignType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                campaignType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignType_);
                   campaignType_ = subBuilder.buildPartial();
@@ -1370,13 +1370,13 @@ public final class OmGetCampaignTypeRulesAd {
       }
 
       public static final int USER_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue userName_;
+      private io.dstore.values.StringValue userName_;
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
@@ -1386,30 +1386,30 @@ public final class OmGetCampaignTypeRulesAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
-      public io.dstore.Values.stringValue getUserName() {
-        return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+      public io.dstore.values.StringValue getUserName() {
+        return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
       }
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
       }
 
       public static final int CAMPAIGN_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue campaignTypeId_;
+      private io.dstore.values.IntegerValue campaignTypeId_;
       /**
        * <pre>
        * ID eines "Typs" (von Verkaufs-Aktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
        */
       public boolean hasCampaignTypeId() {
         return campaignTypeId_ != null;
@@ -1419,30 +1419,30 @@ public final class OmGetCampaignTypeRulesAd {
        * ID eines "Typs" (von Verkaufs-Aktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getCampaignTypeId() {
-        return campaignTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+      public io.dstore.values.IntegerValue getCampaignTypeId() {
+        return campaignTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignTypeId_;
       }
       /**
        * <pre>
        * ID eines "Typs" (von Verkaufs-Aktionen)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCampaignTypeIdOrBuilder() {
         return getCampaignTypeId();
       }
 
       public static final int USER_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue userId_;
+      private io.dstore.values.IntegerValue userId_;
       /**
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
@@ -1452,30 +1452,30 @@ public final class OmGetCampaignTypeRulesAd {
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
-        return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+      public io.dstore.values.IntegerValue getUserId() {
+        return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
       }
       /**
        * <pre>
        * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
       }
 
       public static final int ALLOWED_FIELD_NUMBER = 10004;
-      private io.dstore.Values.booleanValue allowed_;
+      private io.dstore.values.BooleanValue allowed_;
       /**
        * <pre>
        * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
        */
       public boolean hasAllowed() {
         return allowed_ != null;
@@ -1485,30 +1485,30 @@ public final class OmGetCampaignTypeRulesAd {
        * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
        */
-      public io.dstore.Values.booleanValue getAllowed() {
-        return allowed_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : allowed_;
+      public io.dstore.values.BooleanValue getAllowed() {
+        return allowed_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : allowed_;
       }
       /**
        * <pre>
        * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getAllowedOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getAllowedOrBuilder() {
         return getAllowed();
       }
 
       public static final int CAMPAIGN_TYPE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue campaignType_;
+      private io.dstore.values.StringValue campaignType_;
       /**
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
        */
       public boolean hasCampaignType() {
         return campaignType_ != null;
@@ -1518,19 +1518,19 @@ public final class OmGetCampaignTypeRulesAd {
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
        */
-      public io.dstore.Values.stringValue getCampaignType() {
-        return campaignType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : campaignType_;
+      public io.dstore.values.StringValue getCampaignType() {
+        return campaignType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : campaignType_;
       }
       /**
        * <pre>
        * Bezeichnung des Typs "CampaignTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCampaignTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCampaignTypeOrBuilder() {
         return getCampaignType();
       }
 
@@ -1979,15 +1979,15 @@ public final class OmGetCampaignTypeRulesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue userName_ = null;
+        private io.dstore.values.StringValue userName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> userNameBuilder_;
         /**
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
@@ -1997,11 +1997,11 @@ public final class OmGetCampaignTypeRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue getUserName() {
+        public io.dstore.values.StringValue getUserName() {
           if (userNameBuilder_ == null) {
-            return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+            return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
           } else {
             return userNameBuilder_.getMessage();
           }
@@ -2011,9 +2011,9 @@ public final class OmGetCampaignTypeRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public Builder setUserName(io.dstore.Values.stringValue value) {
+        public Builder setUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class OmGetCampaignTypeRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder setUserName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (userNameBuilder_ == null) {
             userName_ = builderForValue.build();
             onChanged();
@@ -2049,13 +2049,13 @@ public final class OmGetCampaignTypeRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public Builder mergeUserName(io.dstore.Values.stringValue value) {
+        public Builder mergeUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
             if (userName_ != null) {
               userName_ =
-                io.dstore.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
             } else {
               userName_ = value;
             }
@@ -2071,7 +2071,7 @@ public final class OmGetCampaignTypeRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -2089,9 +2089,9 @@ public final class OmGetCampaignTypeRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
+        public io.dstore.values.StringValue.Builder getUserNameBuilder() {
           
           onChanged();
           return getUserNameFieldBuilder().getBuilder();
@@ -2101,14 +2101,14 @@ public final class OmGetCampaignTypeRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
             return userNameBuilder_.getMessageOrBuilder();
           } else {
             return userName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+                io.dstore.values.StringValue.getDefaultInstance() : userName_;
           }
         }
         /**
@@ -2116,14 +2116,14 @@ public final class OmGetCampaignTypeRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUserNameFieldBuilder() {
           if (userNameBuilder_ == null) {
             userNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUserName(),
                     getParentForChildren(),
                     isClean());
@@ -2132,15 +2132,15 @@ public final class OmGetCampaignTypeRulesAd {
           return userNameBuilder_;
         }
 
-        private io.dstore.Values.integerValue campaignTypeId_ = null;
+        private io.dstore.values.IntegerValue campaignTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignTypeIdBuilder_;
         /**
          * <pre>
          * ID eines "Typs" (von Verkaufs-Aktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
          */
         public boolean hasCampaignTypeId() {
           return campaignTypeIdBuilder_ != null || campaignTypeId_ != null;
@@ -2150,11 +2150,11 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "Typs" (von Verkaufs-Aktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getCampaignTypeId() {
+        public io.dstore.values.IntegerValue getCampaignTypeId() {
           if (campaignTypeIdBuilder_ == null) {
-            return campaignTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+            return campaignTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignTypeId_;
           } else {
             return campaignTypeIdBuilder_.getMessage();
           }
@@ -2164,9 +2164,9 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "Typs" (von Verkaufs-Aktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
          */
-        public Builder setCampaignTypeId(io.dstore.Values.integerValue value) {
+        public Builder setCampaignTypeId(io.dstore.values.IntegerValue value) {
           if (campaignTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2184,10 +2184,10 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "Typs" (von Verkaufs-Aktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
          */
         public Builder setCampaignTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (campaignTypeIdBuilder_ == null) {
             campaignTypeId_ = builderForValue.build();
             onChanged();
@@ -2202,13 +2202,13 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "Typs" (von Verkaufs-Aktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
          */
-        public Builder mergeCampaignTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeCampaignTypeId(io.dstore.values.IntegerValue value) {
           if (campaignTypeIdBuilder_ == null) {
             if (campaignTypeId_ != null) {
               campaignTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(campaignTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(campaignTypeId_).mergeFrom(value).buildPartial();
             } else {
               campaignTypeId_ = value;
             }
@@ -2224,7 +2224,7 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "Typs" (von Verkaufs-Aktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
          */
         public Builder clearCampaignTypeId() {
           if (campaignTypeIdBuilder_ == null) {
@@ -2242,9 +2242,9 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "Typs" (von Verkaufs-Aktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCampaignTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCampaignTypeIdBuilder() {
           
           onChanged();
           return getCampaignTypeIdFieldBuilder().getBuilder();
@@ -2254,14 +2254,14 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "Typs" (von Verkaufs-Aktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCampaignTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCampaignTypeIdOrBuilder() {
           if (campaignTypeIdBuilder_ != null) {
             return campaignTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return campaignTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : campaignTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : campaignTypeId_;
           }
         }
         /**
@@ -2269,14 +2269,14 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "Typs" (von Verkaufs-Aktionen)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue campaign_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue campaign_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCampaignTypeIdFieldBuilder() {
           if (campaignTypeIdBuilder_ == null) {
             campaignTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCampaignTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2285,15 +2285,15 @@ public final class OmGetCampaignTypeRulesAd {
           return campaignTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue userId_ = null;
+        private io.dstore.values.IntegerValue userId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
         /**
          * <pre>
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
@@ -2303,11 +2303,11 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getUserId() {
+        public io.dstore.values.IntegerValue getUserId() {
           if (userIdBuilder_ == null) {
-            return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+            return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           } else {
             return userIdBuilder_.getMessage();
           }
@@ -2317,9 +2317,9 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public Builder setUserId(io.dstore.Values.integerValue value) {
+        public Builder setUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2337,10 +2337,10 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
         public Builder setUserId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (userIdBuilder_ == null) {
             userId_ = builderForValue.build();
             onChanged();
@@ -2355,13 +2355,13 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public Builder mergeUserId(io.dstore.Values.integerValue value) {
+        public Builder mergeUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (userId_ != null) {
               userId_ =
-                io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
             } else {
               userId_ = value;
             }
@@ -2377,7 +2377,7 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -2395,9 +2395,9 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
           
           onChanged();
           return getUserIdFieldBuilder().getBuilder();
@@ -2407,14 +2407,14 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
             return userIdBuilder_.getMessageOrBuilder();
           } else {
             return userId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           }
         }
         /**
@@ -2422,14 +2422,14 @@ public final class OmGetCampaignTypeRulesAd {
          * ID eines "dStore"-Benutzers (der in "UserInfo" registriert ist). Dieser kann je nach "Allowed" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen oder nicht.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUserIdFieldBuilder() {
           if (userIdBuilder_ == null) {
             userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUserId(),
                     getParentForChildren(),
                     isClean());
@@ -2438,15 +2438,15 @@ public final class OmGetCampaignTypeRulesAd {
           return userIdBuilder_;
         }
 
-        private io.dstore.Values.booleanValue allowed_ = null;
+        private io.dstore.values.BooleanValue allowed_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> allowedBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> allowedBuilder_;
         /**
          * <pre>
          * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
          */
         public boolean hasAllowed() {
           return allowedBuilder_ != null || allowed_ != null;
@@ -2456,11 +2456,11 @@ public final class OmGetCampaignTypeRulesAd {
          * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
          */
-        public io.dstore.Values.booleanValue getAllowed() {
+        public io.dstore.values.BooleanValue getAllowed() {
           if (allowedBuilder_ == null) {
-            return allowed_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : allowed_;
+            return allowed_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : allowed_;
           } else {
             return allowedBuilder_.getMessage();
           }
@@ -2470,9 +2470,9 @@ public final class OmGetCampaignTypeRulesAd {
          * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
          */
-        public Builder setAllowed(io.dstore.Values.booleanValue value) {
+        public Builder setAllowed(io.dstore.values.BooleanValue value) {
           if (allowedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2490,10 +2490,10 @@ public final class OmGetCampaignTypeRulesAd {
          * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
          */
         public Builder setAllowed(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (allowedBuilder_ == null) {
             allowed_ = builderForValue.build();
             onChanged();
@@ -2508,13 +2508,13 @@ public final class OmGetCampaignTypeRulesAd {
          * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
          */
-        public Builder mergeAllowed(io.dstore.Values.booleanValue value) {
+        public Builder mergeAllowed(io.dstore.values.BooleanValue value) {
           if (allowedBuilder_ == null) {
             if (allowed_ != null) {
               allowed_ =
-                io.dstore.Values.booleanValue.newBuilder(allowed_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(allowed_).mergeFrom(value).buildPartial();
             } else {
               allowed_ = value;
             }
@@ -2530,7 +2530,7 @@ public final class OmGetCampaignTypeRulesAd {
          * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
          */
         public Builder clearAllowed() {
           if (allowedBuilder_ == null) {
@@ -2548,9 +2548,9 @@ public final class OmGetCampaignTypeRulesAd {
          * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getAllowedBuilder() {
+        public io.dstore.values.BooleanValue.Builder getAllowedBuilder() {
           
           onChanged();
           return getAllowedFieldBuilder().getBuilder();
@@ -2560,14 +2560,14 @@ public final class OmGetCampaignTypeRulesAd {
          * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getAllowedOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getAllowedOrBuilder() {
           if (allowedBuilder_ != null) {
             return allowedBuilder_.getMessageOrBuilder();
           } else {
             return allowed_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : allowed_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : allowed_;
           }
         }
         /**
@@ -2575,14 +2575,14 @@ public final class OmGetCampaignTypeRulesAd {
          * Gibt an, ob der Benutzer "UserID" Verkaufs-Aktionen des Typs "CampaignTypeID" nutzen kann ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue allowed = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue allowed = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getAllowedFieldBuilder() {
           if (allowedBuilder_ == null) {
             allowedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getAllowed(),
                     getParentForChildren(),
                     isClean());
@@ -2591,15 +2591,15 @@ public final class OmGetCampaignTypeRulesAd {
           return allowedBuilder_;
         }
 
-        private io.dstore.Values.stringValue campaignType_ = null;
+        private io.dstore.values.StringValue campaignType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> campaignTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> campaignTypeBuilder_;
         /**
          * <pre>
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
          */
         public boolean hasCampaignType() {
           return campaignTypeBuilder_ != null || campaignType_ != null;
@@ -2609,11 +2609,11 @@ public final class OmGetCampaignTypeRulesAd {
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
          */
-        public io.dstore.Values.stringValue getCampaignType() {
+        public io.dstore.values.StringValue getCampaignType() {
           if (campaignTypeBuilder_ == null) {
-            return campaignType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : campaignType_;
+            return campaignType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : campaignType_;
           } else {
             return campaignTypeBuilder_.getMessage();
           }
@@ -2623,9 +2623,9 @@ public final class OmGetCampaignTypeRulesAd {
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
          */
-        public Builder setCampaignType(io.dstore.Values.stringValue value) {
+        public Builder setCampaignType(io.dstore.values.StringValue value) {
           if (campaignTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2643,10 +2643,10 @@ public final class OmGetCampaignTypeRulesAd {
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
          */
         public Builder setCampaignType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (campaignTypeBuilder_ == null) {
             campaignType_ = builderForValue.build();
             onChanged();
@@ -2661,13 +2661,13 @@ public final class OmGetCampaignTypeRulesAd {
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
          */
-        public Builder mergeCampaignType(io.dstore.Values.stringValue value) {
+        public Builder mergeCampaignType(io.dstore.values.StringValue value) {
           if (campaignTypeBuilder_ == null) {
             if (campaignType_ != null) {
               campaignType_ =
-                io.dstore.Values.stringValue.newBuilder(campaignType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(campaignType_).mergeFrom(value).buildPartial();
             } else {
               campaignType_ = value;
             }
@@ -2683,7 +2683,7 @@ public final class OmGetCampaignTypeRulesAd {
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
          */
         public Builder clearCampaignType() {
           if (campaignTypeBuilder_ == null) {
@@ -2701,9 +2701,9 @@ public final class OmGetCampaignTypeRulesAd {
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCampaignTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getCampaignTypeBuilder() {
           
           onChanged();
           return getCampaignTypeFieldBuilder().getBuilder();
@@ -2713,14 +2713,14 @@ public final class OmGetCampaignTypeRulesAd {
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCampaignTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCampaignTypeOrBuilder() {
           if (campaignTypeBuilder_ != null) {
             return campaignTypeBuilder_.getMessageOrBuilder();
           } else {
             return campaignType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : campaignType_;
+                io.dstore.values.StringValue.getDefaultInstance() : campaignType_;
           }
         }
         /**
@@ -2728,14 +2728,14 @@ public final class OmGetCampaignTypeRulesAd {
          * Bezeichnung des Typs "CampaignTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue campaign_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue campaign_type = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCampaignTypeFieldBuilder() {
           if (campaignTypeBuilder_ == null) {
             campaignTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCampaignType(),
                     getParentForChildren(),
                     isClean());
@@ -4205,21 +4205,21 @@ public final class OmGetCampaignTypeRulesAd {
       "tCampaignTypeRules_Ad\032\023dstore/values.pro" +
       "to\032\032dstore/engine/engine.proto\"\250\001\n\nParam" +
       "eters\0225\n\020campaign_type_id\030\001 \001(\0132\033.dstore" +
-      ".values.integerValue\022\036\n\025campaign_type_id" +
+      ".values.IntegerValue\022\036\n\025campaign_type_id" +
       "_null\030\351\007 \001(\010\022,\n\007user_id\030\002 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\025\n\014user_id_null\030\352\007 \001(" +
+      "alues.IntegerValue\022\025\n\014user_id_null\030\352\007 \001(" +
       "\010\"\305\003\n\010Response\0228\n\020meta_information\030\002 \003(\013" +
       "2\036.dstore.engine.MetaInformation\022\'\n\007mess",
       "age\030\003 \003(\0132\026.dstore.engine.Message\022C\n\003row" +
       "\030\004 \003(\01326.dstore.engine.om_GetCampaignTyp" +
       "eRules_Ad.Response.Row\032\220\002\n\003Row\022\017\n\006row_id" +
       "\030\220N \001(\005\022.\n\tuser_name\030\221N \001(\0132\032.dstore.val" +
-      "ues.stringValue\0226\n\020campaign_type_id\030\222N \001" +
-      "(\0132\033.dstore.values.integerValue\022-\n\007user_" +
-      "id\030\223N \001(\0132\033.dstore.values.integerValue\022-" +
-      "\n\007allowed\030\224N \001(\0132\033.dstore.values.boolean" +
+      "ues.StringValue\0226\n\020campaign_type_id\030\222N \001" +
+      "(\0132\033.dstore.values.IntegerValue\022-\n\007user_" +
+      "id\030\223N \001(\0132\033.dstore.values.IntegerValue\022-" +
+      "\n\007allowed\030\224N \001(\0132\033.dstore.values.Boolean" +
       "Value\0222\n\rcampaign_type\030\225N \001(\0132\032.dstore.v" +
-      "alues.stringValueB[\n\033io.dstore.engine.pr",
+      "alues.StringValueB[\n\033io.dstore.engine.pr",
       "oceduresZ<gosdk.dstore.de/engine/procedu" +
       "res/om_GetCampaignTypeRules_Adb\006proto3"
     };
@@ -4234,7 +4234,7 @@ public final class OmGetCampaignTypeRulesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetCampaignTypeRules_Ad_Parameters_descriptor =
@@ -4255,7 +4255,7 @@ public final class OmGetCampaignTypeRulesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignTypeRules_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "UserName", "CampaignTypeId", "UserId", "Allowed", "CampaignType", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

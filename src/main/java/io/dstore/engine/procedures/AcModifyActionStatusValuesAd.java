@@ -19,17 +19,17 @@ public final class AcModifyActionStatusValuesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
     boolean hasCommandId();
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommandId();
+    io.dstore.values.IntegerValue getCommandId();
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder();
 
     /**
      * <code>optional bool command_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class AcModifyActionStatusValuesAd {
     boolean getCommandIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
     boolean hasStatus();
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
-    io.dstore.Values.integerValue getStatus();
+    io.dstore.values.IntegerValue getStatus();
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getStatusOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder();
 
     /**
      * <code>optional bool status_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class AcModifyActionStatusValuesAd {
     boolean getStatusNull();
 
     /**
-     * <code>optional .dstore.values.stringValue status_description = 3;</code>
+     * <code>optional .dstore.values.StringValue status_description = 3;</code>
      */
     boolean hasStatusDescription();
     /**
-     * <code>optional .dstore.values.stringValue status_description = 3;</code>
+     * <code>optional .dstore.values.StringValue status_description = 3;</code>
      */
-    io.dstore.Values.stringValue getStatusDescription();
+    io.dstore.values.StringValue getStatusDescription();
     /**
-     * <code>optional .dstore.values.stringValue status_description = 3;</code>
+     * <code>optional .dstore.values.StringValue status_description = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getStatusDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getStatusDescriptionOrBuilder();
 
     /**
      * <code>optional bool status_description_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class AcModifyActionStatusValuesAd {
     boolean getStatusDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
-    io.dstore.Values.integerValue getSortNo();
+    io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
      * <code>optional bool sort_no_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class AcModifyActionStatusValuesAd {
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+     * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
      */
     boolean hasDetailedDescription();
     /**
-     * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+     * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
      */
-    io.dstore.Values.stringValue getDetailedDescription();
+    io.dstore.values.StringValue getDetailedDescription();
     /**
-     * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+     * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDetailedDescriptionOrBuilder();
 
     /**
      * <code>optional bool detailed_description_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class AcModifyActionStatusValuesAd {
     boolean getDetailedDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
      */
     boolean hasStatusCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
      */
-    io.dstore.Values.integerValue getStatusCategoryId();
+    io.dstore.values.IntegerValue getStatusCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getStatusCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getStatusCategoryIdOrBuilder();
 
     /**
      * <code>optional bool status_category_id_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class AcModifyActionStatusValuesAd {
     boolean getStatusCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+     * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
      */
     boolean hasDeleteStatus();
     /**
-     * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+     * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
      */
-    io.dstore.Values.booleanValue getDeleteStatus();
+    io.dstore.values.BooleanValue getDeleteStatus();
     /**
-     * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+     * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteStatusOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteStatusOrBuilder();
 
     /**
      * <code>optional bool delete_status_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class AcModifyActionStatusValuesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (commandId_ != null) {
                 subBuilder = commandId_.toBuilder();
               }
-              commandId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              commandId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(commandId_);
                 commandId_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class AcModifyActionStatusValuesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (status_ != null) {
                 subBuilder = status_.toBuilder();
               }
-              status_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              status_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(status_);
                 status_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class AcModifyActionStatusValuesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (statusDescription_ != null) {
                 subBuilder = statusDescription_.toBuilder();
               }
-              statusDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              statusDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(statusDescription_);
                 statusDescription_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class AcModifyActionStatusValuesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
               }
-              sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNo_);
                 sortNo_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class AcModifyActionStatusValuesAd {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (detailedDescription_ != null) {
                 subBuilder = detailedDescription_.toBuilder();
               }
-              detailedDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              detailedDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(detailedDescription_);
                 detailedDescription_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class AcModifyActionStatusValuesAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (statusCategoryId_ != null) {
                 subBuilder = statusCategoryId_.toBuilder();
               }
-              statusCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              statusCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(statusCategoryId_);
                 statusCategoryId_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class AcModifyActionStatusValuesAd {
               break;
             }
             case 58: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteStatus_ != null) {
                 subBuilder = deleteStatus_.toBuilder();
               }
-              deleteStatus_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteStatus_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteStatus_);
                 deleteStatus_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class AcModifyActionStatusValuesAd {
     }
 
     public static final int COMMAND_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue commandId_;
+    private io.dstore.values.IntegerValue commandId_;
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
     public boolean hasCommandId() {
       return commandId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommandId() {
-      return commandId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+    public io.dstore.values.IntegerValue getCommandId() {
+      return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue command_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
       return getCommandId();
     }
 
@@ -370,23 +370,23 @@ public final class AcModifyActionStatusValuesAd {
     }
 
     public static final int STATUS_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue status_;
+    private io.dstore.values.IntegerValue status_;
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
     public boolean hasStatus() {
       return status_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
-    public io.dstore.Values.integerValue getStatus() {
-      return status_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : status_;
+    public io.dstore.values.IntegerValue getStatus() {
+      return status_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : status_;
     }
     /**
-     * <code>optional .dstore.values.integerValue status = 2;</code>
+     * <code>optional .dstore.values.IntegerValue status = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getStatusOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
       return getStatus();
     }
 
@@ -400,23 +400,23 @@ public final class AcModifyActionStatusValuesAd {
     }
 
     public static final int STATUS_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue statusDescription_;
+    private io.dstore.values.StringValue statusDescription_;
     /**
-     * <code>optional .dstore.values.stringValue status_description = 3;</code>
+     * <code>optional .dstore.values.StringValue status_description = 3;</code>
      */
     public boolean hasStatusDescription() {
       return statusDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue status_description = 3;</code>
+     * <code>optional .dstore.values.StringValue status_description = 3;</code>
      */
-    public io.dstore.Values.stringValue getStatusDescription() {
-      return statusDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : statusDescription_;
+    public io.dstore.values.StringValue getStatusDescription() {
+      return statusDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : statusDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue status_description = 3;</code>
+     * <code>optional .dstore.values.StringValue status_description = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getStatusDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getStatusDescriptionOrBuilder() {
       return getStatusDescription();
     }
 
@@ -430,23 +430,23 @@ public final class AcModifyActionStatusValuesAd {
     }
 
     public static final int SORT_NO_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue sortNo_;
+    private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
-    public io.dstore.Values.integerValue getSortNo() {
-      return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+    public io.dstore.values.IntegerValue getSortNo() {
+      return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
     }
 
@@ -460,23 +460,23 @@ public final class AcModifyActionStatusValuesAd {
     }
 
     public static final int DETAILED_DESCRIPTION_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue detailedDescription_;
+    private io.dstore.values.StringValue detailedDescription_;
     /**
-     * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+     * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
      */
     public boolean hasDetailedDescription() {
       return detailedDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+     * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
      */
-    public io.dstore.Values.stringValue getDetailedDescription() {
-      return detailedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
+    public io.dstore.values.StringValue getDetailedDescription() {
+      return detailedDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : detailedDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+     * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDetailedDescriptionOrBuilder() {
       return getDetailedDescription();
     }
 
@@ -490,23 +490,23 @@ public final class AcModifyActionStatusValuesAd {
     }
 
     public static final int STATUS_CATEGORY_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue statusCategoryId_;
+    private io.dstore.values.IntegerValue statusCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
      */
     public boolean hasStatusCategoryId() {
       return statusCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getStatusCategoryId() {
-      return statusCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : statusCategoryId_;
+    public io.dstore.values.IntegerValue getStatusCategoryId() {
+      return statusCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : statusCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getStatusCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getStatusCategoryIdOrBuilder() {
       return getStatusCategoryId();
     }
 
@@ -520,23 +520,23 @@ public final class AcModifyActionStatusValuesAd {
     }
 
     public static final int DELETE_STATUS_FIELD_NUMBER = 7;
-    private io.dstore.Values.booleanValue deleteStatus_;
+    private io.dstore.values.BooleanValue deleteStatus_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+     * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
      */
     public boolean hasDeleteStatus() {
       return deleteStatus_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+     * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteStatus() {
-      return deleteStatus_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteStatus_;
+    public io.dstore.values.BooleanValue getDeleteStatus() {
+      return deleteStatus_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteStatus_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+     * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteStatusOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteStatusOrBuilder() {
       return getDeleteStatus();
     }
 
@@ -1137,29 +1137,29 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue commandId_ = null;
+      private io.dstore.values.IntegerValue commandId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> commandIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> commandIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       public boolean hasCommandId() {
         return commandIdBuilder_ != null || commandId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommandId() {
+      public io.dstore.values.IntegerValue getCommandId() {
         if (commandIdBuilder_ == null) {
-          return commandId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+          return commandId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
         } else {
           return commandIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public Builder setCommandId(io.dstore.Values.integerValue value) {
+      public Builder setCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder setCommandId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (commandIdBuilder_ == null) {
           commandId_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public Builder mergeCommandId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommandId(io.dstore.values.IntegerValue value) {
         if (commandIdBuilder_ == null) {
           if (commandId_ != null) {
             commandId_ =
-              io.dstore.Values.integerValue.newBuilder(commandId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(commandId_).mergeFrom(value).buildPartial();
           } else {
             commandId_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       public Builder clearCommandId() {
         if (commandIdBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommandIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommandIdBuilder() {
         
         onChanged();
         return getCommandIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommandIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommandIdOrBuilder() {
         if (commandIdBuilder_ != null) {
           return commandIdBuilder_.getMessageOrBuilder();
         } else {
           return commandId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : commandId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : commandId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue command_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue command_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommandIdFieldBuilder() {
         if (commandIdBuilder_ == null) {
           commandIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommandId(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue status_ = null;
+      private io.dstore.values.IntegerValue status_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> statusBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> statusBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
       public boolean hasStatus() {
         return statusBuilder_ != null || status_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public io.dstore.Values.integerValue getStatus() {
+      public io.dstore.values.IntegerValue getStatus() {
         if (statusBuilder_ == null) {
-          return status_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : status_;
+          return status_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : status_;
         } else {
           return statusBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public Builder setStatus(io.dstore.Values.integerValue value) {
+      public Builder setStatus(io.dstore.values.IntegerValue value) {
         if (statusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
       public Builder setStatus(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (statusBuilder_ == null) {
           status_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public Builder mergeStatus(io.dstore.Values.integerValue value) {
+      public Builder mergeStatus(io.dstore.values.IntegerValue value) {
         if (statusBuilder_ == null) {
           if (status_ != null) {
             status_ =
-              io.dstore.Values.integerValue.newBuilder(status_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(status_).mergeFrom(value).buildPartial();
           } else {
             status_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
       public Builder clearStatus() {
         if (statusBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getStatusBuilder() {
+      public io.dstore.values.IntegerValue.Builder getStatusBuilder() {
         
         onChanged();
         return getStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getStatusOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getStatusOrBuilder() {
         if (statusBuilder_ != null) {
           return statusBuilder_.getMessageOrBuilder();
         } else {
           return status_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : status_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : status_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue status = 2;</code>
+       * <code>optional .dstore.values.IntegerValue status = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getStatusFieldBuilder() {
         if (statusBuilder_ == null) {
           statusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getStatus(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue statusDescription_ = null;
+      private io.dstore.values.StringValue statusDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> statusDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> statusDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue status_description = 3;</code>
+       * <code>optional .dstore.values.StringValue status_description = 3;</code>
        */
       public boolean hasStatusDescription() {
         return statusDescriptionBuilder_ != null || statusDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue status_description = 3;</code>
+       * <code>optional .dstore.values.StringValue status_description = 3;</code>
        */
-      public io.dstore.Values.stringValue getStatusDescription() {
+      public io.dstore.values.StringValue getStatusDescription() {
         if (statusDescriptionBuilder_ == null) {
-          return statusDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : statusDescription_;
+          return statusDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : statusDescription_;
         } else {
           return statusDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue status_description = 3;</code>
+       * <code>optional .dstore.values.StringValue status_description = 3;</code>
        */
-      public Builder setStatusDescription(io.dstore.Values.stringValue value) {
+      public Builder setStatusDescription(io.dstore.values.StringValue value) {
         if (statusDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue status_description = 3;</code>
+       * <code>optional .dstore.values.StringValue status_description = 3;</code>
        */
       public Builder setStatusDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (statusDescriptionBuilder_ == null) {
           statusDescription_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue status_description = 3;</code>
+       * <code>optional .dstore.values.StringValue status_description = 3;</code>
        */
-      public Builder mergeStatusDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeStatusDescription(io.dstore.values.StringValue value) {
         if (statusDescriptionBuilder_ == null) {
           if (statusDescription_ != null) {
             statusDescription_ =
-              io.dstore.Values.stringValue.newBuilder(statusDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(statusDescription_).mergeFrom(value).buildPartial();
           } else {
             statusDescription_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue status_description = 3;</code>
+       * <code>optional .dstore.values.StringValue status_description = 3;</code>
        */
       public Builder clearStatusDescription() {
         if (statusDescriptionBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue status_description = 3;</code>
+       * <code>optional .dstore.values.StringValue status_description = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getStatusDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getStatusDescriptionBuilder() {
         
         onChanged();
         return getStatusDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue status_description = 3;</code>
+       * <code>optional .dstore.values.StringValue status_description = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getStatusDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getStatusDescriptionOrBuilder() {
         if (statusDescriptionBuilder_ != null) {
           return statusDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return statusDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : statusDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : statusDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue status_description = 3;</code>
+       * <code>optional .dstore.values.StringValue status_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getStatusDescriptionFieldBuilder() {
         if (statusDescriptionBuilder_ == null) {
           statusDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getStatusDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortNo_ = null;
+      private io.dstore.values.IntegerValue sortNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
+      public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
-          return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+          return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         } else {
           return sortNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public Builder setSortNo(io.dstore.Values.integerValue value) {
+      public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder setSortNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortNoBuilder_ == null) {
           sortNo_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+      public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (sortNo_ != null) {
             sortNo_ =
-              io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
           } else {
             sortNo_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
         onChanged();
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
           return sortNoBuilder_.getMessageOrBuilder();
         } else {
           return sortNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortNoFieldBuilder() {
         if (sortNoBuilder_ == null) {
           sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortNo(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue detailedDescription_ = null;
+      private io.dstore.values.StringValue detailedDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> detailedDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> detailedDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
        */
       public boolean hasDetailedDescription() {
         return detailedDescriptionBuilder_ != null || detailedDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
        */
-      public io.dstore.Values.stringValue getDetailedDescription() {
+      public io.dstore.values.StringValue getDetailedDescription() {
         if (detailedDescriptionBuilder_ == null) {
-          return detailedDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
+          return detailedDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : detailedDescription_;
         } else {
           return detailedDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
        */
-      public Builder setDetailedDescription(io.dstore.Values.stringValue value) {
+      public Builder setDetailedDescription(io.dstore.values.StringValue value) {
         if (detailedDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
        */
       public Builder setDetailedDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (detailedDescriptionBuilder_ == null) {
           detailedDescription_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
        */
-      public Builder mergeDetailedDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeDetailedDescription(io.dstore.values.StringValue value) {
         if (detailedDescriptionBuilder_ == null) {
           if (detailedDescription_ != null) {
             detailedDescription_ =
-              io.dstore.Values.stringValue.newBuilder(detailedDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(detailedDescription_).mergeFrom(value).buildPartial();
           } else {
             detailedDescription_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
        */
       public Builder clearDetailedDescription() {
         if (detailedDescriptionBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDetailedDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getDetailedDescriptionBuilder() {
         
         onChanged();
         return getDetailedDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDetailedDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDetailedDescriptionOrBuilder() {
         if (detailedDescriptionBuilder_ != null) {
           return detailedDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return detailedDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : detailedDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : detailedDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue detailed_description = 5;</code>
+       * <code>optional .dstore.values.StringValue detailed_description = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDetailedDescriptionFieldBuilder() {
         if (detailedDescriptionBuilder_ == null) {
           detailedDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDetailedDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue statusCategoryId_ = null;
+      private io.dstore.values.IntegerValue statusCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> statusCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> statusCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
        */
       public boolean hasStatusCategoryId() {
         return statusCategoryIdBuilder_ != null || statusCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getStatusCategoryId() {
+      public io.dstore.values.IntegerValue getStatusCategoryId() {
         if (statusCategoryIdBuilder_ == null) {
-          return statusCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : statusCategoryId_;
+          return statusCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : statusCategoryId_;
         } else {
           return statusCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
        */
-      public Builder setStatusCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setStatusCategoryId(io.dstore.values.IntegerValue value) {
         if (statusCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
        */
       public Builder setStatusCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (statusCategoryIdBuilder_ == null) {
           statusCategoryId_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
        */
-      public Builder mergeStatusCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergeStatusCategoryId(io.dstore.values.IntegerValue value) {
         if (statusCategoryIdBuilder_ == null) {
           if (statusCategoryId_ != null) {
             statusCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(statusCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(statusCategoryId_).mergeFrom(value).buildPartial();
           } else {
             statusCategoryId_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
        */
       public Builder clearStatusCategoryId() {
         if (statusCategoryIdBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getStatusCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getStatusCategoryIdBuilder() {
         
         onChanged();
         return getStatusCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getStatusCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getStatusCategoryIdOrBuilder() {
         if (statusCategoryIdBuilder_ != null) {
           return statusCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return statusCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : statusCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : statusCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue status_category_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue status_category_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getStatusCategoryIdFieldBuilder() {
         if (statusCategoryIdBuilder_ == null) {
           statusCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getStatusCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteStatus_ = null;
+      private io.dstore.values.BooleanValue deleteStatus_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteStatusBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteStatusBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+       * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
        */
       public boolean hasDeleteStatus() {
         return deleteStatusBuilder_ != null || deleteStatus_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+       * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteStatus() {
+      public io.dstore.values.BooleanValue getDeleteStatus() {
         if (deleteStatusBuilder_ == null) {
-          return deleteStatus_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteStatus_;
+          return deleteStatus_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteStatus_;
         } else {
           return deleteStatusBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+       * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
        */
-      public Builder setDeleteStatus(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteStatus(io.dstore.values.BooleanValue value) {
         if (deleteStatusBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+       * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
        */
       public Builder setDeleteStatus(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteStatusBuilder_ == null) {
           deleteStatus_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+       * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
        */
-      public Builder mergeDeleteStatus(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteStatus(io.dstore.values.BooleanValue value) {
         if (deleteStatusBuilder_ == null) {
           if (deleteStatus_ != null) {
             deleteStatus_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteStatus_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteStatus_).mergeFrom(value).buildPartial();
           } else {
             deleteStatus_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+       * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
        */
       public Builder clearDeleteStatus() {
         if (deleteStatusBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class AcModifyActionStatusValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+       * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteStatusBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteStatusBuilder() {
         
         onChanged();
         return getDeleteStatusFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+       * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteStatusOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteStatusOrBuilder() {
         if (deleteStatusBuilder_ != null) {
           return deleteStatusBuilder_.getMessageOrBuilder();
         } else {
           return deleteStatus_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteStatus_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteStatus_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_status = 7;</code>
+       * <code>optional .dstore.values.BooleanValue delete_status = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteStatusFieldBuilder() {
         if (deleteStatusBuilder_ == null) {
           deleteStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteStatus(),
                   getParentForChildren(),
                   isClean());
@@ -4225,19 +4225,19 @@ public final class AcModifyActionStatusValuesAd {
       "c_ModifyActionStatusValues_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\303" +
       "\004\n\nParameters\022/\n\ncommand_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\030\n\017command_id_nul" +
+      "re.values.IntegerValue\022\030\n\017command_id_nul" +
       "l\030\351\007 \001(\010\022+\n\006status\030\002 \001(\0132\033.dstore.values" +
-      ".integerValue\022\024\n\013status_null\030\352\007 \001(\010\0226\n\022s" +
+      ".IntegerValue\022\024\n\013status_null\030\352\007 \001(\010\0226\n\022s" +
       "tatus_description\030\003 \001(\0132\032.dstore.values." +
-      "stringValue\022 \n\027status_description_null\030\353",
-      "\007 \001(\010\022,\n\007sort_no\030\004 \001(\0132\033.dstore.values.i" +
+      "StringValue\022 \n\027status_description_null\030\353",
+      "\007 \001(\010\022,\n\007sort_no\030\004 \001(\0132\033.dstore.values.I" +
       "ntegerValue\022\025\n\014sort_no_null\030\354\007 \001(\010\0228\n\024de" +
       "tailed_description\030\005 \001(\0132\032.dstore.values" +
-      ".stringValue\022\"\n\031detailed_description_nul" +
+      ".StringValue\022\"\n\031detailed_description_nul" +
       "l\030\355\007 \001(\010\0227\n\022status_category_id\030\006 \001(\0132\033.d" +
-      "store.values.integerValue\022 \n\027status_cate" +
+      "store.values.IntegerValue\022 \n\027status_cate" +
       "gory_id_null\030\356\007 \001(\010\0222\n\rdelete_status\030\007 \001" +
-      "(\0132\033.dstore.values.booleanValue\022\033\n\022delet" +
+      "(\0132\033.dstore.values.BooleanValue\022\033\n\022delet" +
       "e_status_null\030\357\007 \001(\010\"\316\001\n\010Response\0228\n\020met" +
       "a_information\030\002 \003(\0132\036.dstore.engine.Meta",
       "Information\022\'\n\007message\030\003 \003(\0132\026.dstore.en" +
@@ -4259,7 +4259,7 @@ public final class AcModifyActionStatusValuesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_ac_ModifyActionStatusValues_Ad_Parameters_descriptor =
@@ -4280,7 +4280,7 @@ public final class AcModifyActionStatusValuesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_ac_ModifyActionStatusValues_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

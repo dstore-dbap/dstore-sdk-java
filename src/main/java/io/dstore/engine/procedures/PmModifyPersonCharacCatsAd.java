@@ -19,17 +19,17 @@ public final class PmModifyPersonCharacCatsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
     boolean hasPersonCharacCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonCharacCategoryId();
+    io.dstore.values.IntegerValue getPersonCharacCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonCharacCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder();
 
     /**
      * <code>optional bool person_charac_category_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmModifyPersonCharacCatsAd {
     boolean getPersonCharacCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue category_description = 2;</code>
+     * <code>optional .dstore.values.StringValue category_description = 2;</code>
      */
     boolean hasCategoryDescription();
     /**
-     * <code>optional .dstore.values.stringValue category_description = 2;</code>
+     * <code>optional .dstore.values.StringValue category_description = 2;</code>
      */
-    io.dstore.Values.stringValue getCategoryDescription();
+    io.dstore.values.StringValue getCategoryDescription();
     /**
-     * <code>optional .dstore.values.stringValue category_description = 2;</code>
+     * <code>optional .dstore.values.StringValue category_description = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder();
 
     /**
      * <code>optional bool category_description_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmModifyPersonCharacCatsAd {
     boolean getCategoryDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class PmModifyPersonCharacCatsAd {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
      */
     boolean hasDeletePersonCharacCategory();
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
      */
-    io.dstore.Values.booleanValue getDeletePersonCharacCategory();
+    io.dstore.values.BooleanValue getDeletePersonCharacCategory();
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeletePersonCharacCategoryOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeletePersonCharacCategoryOrBuilder();
 
     /**
      * <code>optional bool delete_person_charac_category_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class PmModifyPersonCharacCatsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personCharacCategoryId_ != null) {
                 subBuilder = personCharacCategoryId_.toBuilder();
               }
-              personCharacCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personCharacCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personCharacCategoryId_);
                 personCharacCategoryId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class PmModifyPersonCharacCatsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (categoryDescription_ != null) {
                 subBuilder = categoryDescription_.toBuilder();
               }
-              categoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              categoryDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(categoryDescription_);
                 categoryDescription_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class PmModifyPersonCharacCatsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class PmModifyPersonCharacCatsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deletePersonCharacCategory_ != null) {
                 subBuilder = deletePersonCharacCategory_.toBuilder();
               }
-              deletePersonCharacCategory_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deletePersonCharacCategory_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deletePersonCharacCategory_);
                 deletePersonCharacCategory_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class PmModifyPersonCharacCatsAd {
     }
 
     public static final int PERSON_CHARAC_CATEGORY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personCharacCategoryId_;
+    private io.dstore.values.IntegerValue personCharacCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
     public boolean hasPersonCharacCategoryId() {
       return personCharacCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonCharacCategoryId() {
-      return personCharacCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacCategoryId_;
+    public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
+      return personCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
       return getPersonCharacCategoryId();
     }
 
@@ -259,23 +259,23 @@ public final class PmModifyPersonCharacCatsAd {
     }
 
     public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue categoryDescription_;
+    private io.dstore.values.StringValue categoryDescription_;
     /**
-     * <code>optional .dstore.values.stringValue category_description = 2;</code>
+     * <code>optional .dstore.values.StringValue category_description = 2;</code>
      */
     public boolean hasCategoryDescription() {
       return categoryDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue category_description = 2;</code>
+     * <code>optional .dstore.values.StringValue category_description = 2;</code>
      */
-    public io.dstore.Values.stringValue getCategoryDescription() {
-      return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+    public io.dstore.values.StringValue getCategoryDescription() {
+      return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue category_description = 2;</code>
+     * <code>optional .dstore.values.StringValue category_description = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
       return getCategoryDescription();
     }
 
@@ -289,23 +289,23 @@ public final class PmModifyPersonCharacCatsAd {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -319,23 +319,23 @@ public final class PmModifyPersonCharacCatsAd {
     }
 
     public static final int DELETE_PERSON_CHARAC_CATEGORY_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue deletePersonCharacCategory_;
+    private io.dstore.values.BooleanValue deletePersonCharacCategory_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
      */
     public boolean hasDeletePersonCharacCategory() {
       return deletePersonCharacCategory_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDeletePersonCharacCategory() {
-      return deletePersonCharacCategory_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deletePersonCharacCategory_;
+    public io.dstore.values.BooleanValue getDeletePersonCharacCategory() {
+      return deletePersonCharacCategory_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deletePersonCharacCategory_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeletePersonCharacCategoryOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeletePersonCharacCategoryOrBuilder() {
       return getDeletePersonCharacCategory();
     }
 
@@ -792,29 +792,29 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personCharacCategoryId_ = null;
+      private io.dstore.values.IntegerValue personCharacCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public boolean hasPersonCharacCategoryId() {
         return personCharacCategoryIdBuilder_ != null || personCharacCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonCharacCategoryId() {
+      public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
         if (personCharacCategoryIdBuilder_ == null) {
-          return personCharacCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacCategoryId_;
+          return personCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
         } else {
           return personCharacCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
-      public Builder setPersonCharacCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setPersonCharacCategoryId(io.dstore.values.IntegerValue value) {
         if (personCharacCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public Builder setPersonCharacCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personCharacCategoryIdBuilder_ == null) {
           personCharacCategoryId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
-      public Builder mergePersonCharacCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonCharacCategoryId(io.dstore.values.IntegerValue value) {
         if (personCharacCategoryIdBuilder_ == null) {
           if (personCharacCategoryId_ != null) {
             personCharacCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(personCharacCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personCharacCategoryId_).mergeFrom(value).buildPartial();
           } else {
             personCharacCategoryId_ = value;
           }
@@ -860,7 +860,7 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       public Builder clearPersonCharacCategoryId() {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonCharacCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonCharacCategoryIdBuilder() {
         
         onChanged();
         return getPersonCharacCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
         if (personCharacCategoryIdBuilder_ != null) {
           return personCharacCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return personCharacCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personCharacCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonCharacCategoryIdFieldBuilder() {
         if (personCharacCategoryIdBuilder_ == null) {
           personCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonCharacCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue categoryDescription_ = null;
+      private io.dstore.values.StringValue categoryDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> categoryDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue category_description = 2;</code>
+       * <code>optional .dstore.values.StringValue category_description = 2;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 2;</code>
+       * <code>optional .dstore.values.StringValue category_description = 2;</code>
        */
-      public io.dstore.Values.stringValue getCategoryDescription() {
+      public io.dstore.values.StringValue getCategoryDescription() {
         if (categoryDescriptionBuilder_ == null) {
-          return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+          return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
         } else {
           return categoryDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 2;</code>
+       * <code>optional .dstore.values.StringValue category_description = 2;</code>
        */
-      public Builder setCategoryDescription(io.dstore.Values.stringValue value) {
+      public Builder setCategoryDescription(io.dstore.values.StringValue value) {
         if (categoryDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 2;</code>
+       * <code>optional .dstore.values.StringValue category_description = 2;</code>
        */
       public Builder setCategoryDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (categoryDescriptionBuilder_ == null) {
           categoryDescription_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 2;</code>
+       * <code>optional .dstore.values.StringValue category_description = 2;</code>
        */
-      public Builder mergeCategoryDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeCategoryDescription(io.dstore.values.StringValue value) {
         if (categoryDescriptionBuilder_ == null) {
           if (categoryDescription_ != null) {
             categoryDescription_ =
-              io.dstore.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
           } else {
             categoryDescription_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 2;</code>
+       * <code>optional .dstore.values.StringValue category_description = 2;</code>
        */
       public Builder clearCategoryDescription() {
         if (categoryDescriptionBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 2;</code>
+       * <code>optional .dstore.values.StringValue category_description = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCategoryDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getCategoryDescriptionBuilder() {
         
         onChanged();
         return getCategoryDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 2;</code>
+       * <code>optional .dstore.values.StringValue category_description = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
         if (categoryDescriptionBuilder_ != null) {
           return categoryDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return categoryDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue category_description = 2;</code>
+       * <code>optional .dstore.values.StringValue category_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCategoryDescriptionFieldBuilder() {
         if (categoryDescriptionBuilder_ == null) {
           categoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCategoryDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deletePersonCharacCategory_ = null;
+      private io.dstore.values.BooleanValue deletePersonCharacCategory_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deletePersonCharacCategoryBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deletePersonCharacCategoryBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
        */
       public boolean hasDeletePersonCharacCategory() {
         return deletePersonCharacCategoryBuilder_ != null || deletePersonCharacCategory_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDeletePersonCharacCategory() {
+      public io.dstore.values.BooleanValue getDeletePersonCharacCategory() {
         if (deletePersonCharacCategoryBuilder_ == null) {
-          return deletePersonCharacCategory_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deletePersonCharacCategory_;
+          return deletePersonCharacCategory_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deletePersonCharacCategory_;
         } else {
           return deletePersonCharacCategoryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
        */
-      public Builder setDeletePersonCharacCategory(io.dstore.Values.booleanValue value) {
+      public Builder setDeletePersonCharacCategory(io.dstore.values.BooleanValue value) {
         if (deletePersonCharacCategoryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
        */
       public Builder setDeletePersonCharacCategory(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deletePersonCharacCategoryBuilder_ == null) {
           deletePersonCharacCategory_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
        */
-      public Builder mergeDeletePersonCharacCategory(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeletePersonCharacCategory(io.dstore.values.BooleanValue value) {
         if (deletePersonCharacCategoryBuilder_ == null) {
           if (deletePersonCharacCategory_ != null) {
             deletePersonCharacCategory_ =
-              io.dstore.Values.booleanValue.newBuilder(deletePersonCharacCategory_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deletePersonCharacCategory_).mergeFrom(value).buildPartial();
           } else {
             deletePersonCharacCategory_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
        */
       public Builder clearDeletePersonCharacCategory() {
         if (deletePersonCharacCategoryBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class PmModifyPersonCharacCatsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeletePersonCharacCategoryBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeletePersonCharacCategoryBuilder() {
         
         onChanged();
         return getDeletePersonCharacCategoryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeletePersonCharacCategoryOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeletePersonCharacCategoryOrBuilder() {
         if (deletePersonCharacCategoryBuilder_ != null) {
           return deletePersonCharacCategoryBuilder_.getMessageOrBuilder();
         } else {
           return deletePersonCharacCategory_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deletePersonCharacCategory_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deletePersonCharacCategory_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_charac_category = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_charac_category = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeletePersonCharacCategoryFieldBuilder() {
         if (deletePersonCharacCategoryBuilder_ == null) {
           deletePersonCharacCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeletePersonCharacCategory(),
                   getParentForChildren(),
                   isClean());
@@ -3451,14 +3451,14 @@ public final class PmModifyPersonCharacCatsAd {
       "ModifyPersonCharacCats_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\227\003\n\nP" +
       "arameters\022>\n\031person_charac_category_id\030\001" +
-      " \001(\0132\033.dstore.values.integerValue\022\'\n\036per" +
+      " \001(\0132\033.dstore.values.IntegerValue\022\'\n\036per" +
       "son_charac_category_id_null\030\351\007 \001(\010\0228\n\024ca" +
       "tegory_description\030\002 \001(\0132\032.dstore.values" +
-      ".stringValue\022\"\n\031category_description_nul" +
+      ".StringValue\022\"\n\031category_description_nul" +
       "l\030\352\007 \001(\010\0223\n\016person_type_id\030\003 \001(\0132\033.dstor",
-      "e.values.integerValue\022\034\n\023person_type_id_" +
+      "e.values.IntegerValue\022\034\n\023person_type_id_" +
       "null\030\353\007 \001(\010\022B\n\035delete_person_charac_cate" +
-      "gory\030\004 \001(\0132\033.dstore.values.booleanValue\022" +
+      "gory\030\004 \001(\0132\033.dstore.values.BooleanValue\022" +
       "+\n\"delete_person_charac_category_null\030\354\007" +
       " \001(\010\"\314\001\n\010Response\0228\n\020meta_information\030\002 " +
       "\003(\0132\036.dstore.engine.MetaInformation\022\'\n\007m" +
@@ -3480,7 +3480,7 @@ public final class PmModifyPersonCharacCatsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_ModifyPersonCharacCats_Ad_Parameters_descriptor =
@@ -3501,7 +3501,7 @@ public final class PmModifyPersonCharacCatsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_ModifyPersonCharacCats_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class MiModifyUnitsInCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
     boolean hasUnitId();
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUnitId();
+    io.dstore.values.IntegerValue getUnitId();
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder();
 
     /**
      * <code>optional bool unit_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyUnitsInCategoriesAd {
     boolean getUnitIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     boolean hasUnitCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
-    io.dstore.Values.integerValue getUnitCategoryId();
+    io.dstore.values.IntegerValue getUnitCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder();
 
     /**
      * <code>optional bool unit_category_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyUnitsInCategoriesAd {
     boolean getUnitCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
     boolean hasDeleteUnitInCategory();
     /**
-     * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
-    io.dstore.Values.booleanValue getDeleteUnitInCategory();
+    io.dstore.values.BooleanValue getDeleteUnitInCategory();
     /**
-     * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteUnitInCategoryOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteUnitInCategoryOrBuilder();
 
     /**
      * <code>optional bool delete_unit_in_category_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiModifyUnitsInCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (unitId_ != null) {
                 subBuilder = unitId_.toBuilder();
               }
-              unitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              unitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(unitId_);
                 unitId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiModifyUnitsInCategoriesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (unitCategoryId_ != null) {
                 subBuilder = unitCategoryId_.toBuilder();
               }
-              unitCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              unitCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(unitCategoryId_);
                 unitCategoryId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiModifyUnitsInCategoriesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteUnitInCategory_ != null) {
                 subBuilder = deleteUnitInCategory_.toBuilder();
               }
-              deleteUnitInCategory_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteUnitInCategory_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteUnitInCategory_);
                 deleteUnitInCategory_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiModifyUnitsInCategoriesAd {
     }
 
     public static final int UNIT_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue unitId_;
+    private io.dstore.values.IntegerValue unitId_;
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
     public boolean hasUnitId() {
       return unitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUnitId() {
-      return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+    public io.dstore.values.IntegerValue getUnitId() {
+      return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
       return getUnitId();
     }
 
@@ -222,23 +222,23 @@ public final class MiModifyUnitsInCategoriesAd {
     }
 
     public static final int UNIT_CATEGORY_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue unitCategoryId_;
+    private io.dstore.values.IntegerValue unitCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
     public boolean hasUnitCategoryId() {
       return unitCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getUnitCategoryId() {
-      return unitCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
+    public io.dstore.values.IntegerValue getUnitCategoryId() {
+      return unitCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
       return getUnitCategoryId();
     }
 
@@ -252,23 +252,23 @@ public final class MiModifyUnitsInCategoriesAd {
     }
 
     public static final int DELETE_UNIT_IN_CATEGORY_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue deleteUnitInCategory_;
+    private io.dstore.values.BooleanValue deleteUnitInCategory_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
     public boolean hasDeleteUnitInCategory() {
       return deleteUnitInCategory_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteUnitInCategory() {
-      return deleteUnitInCategory_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteUnitInCategory_;
+    public io.dstore.values.BooleanValue getDeleteUnitInCategory() {
+      return deleteUnitInCategory_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteUnitInCategory_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteUnitInCategoryOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteUnitInCategoryOrBuilder() {
       return getDeleteUnitInCategory();
     }
 
@@ -677,29 +677,29 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue unitId_ = null;
+      private io.dstore.values.IntegerValue unitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
       public boolean hasUnitId() {
         return unitIdBuilder_ != null || unitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUnitId() {
+      public io.dstore.values.IntegerValue getUnitId() {
         if (unitIdBuilder_ == null) {
-          return unitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+          return unitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
         } else {
           return unitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public Builder setUnitId(io.dstore.Values.integerValue value) {
+      public Builder setUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder setUnitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (unitIdBuilder_ == null) {
           unitId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public Builder mergeUnitId(io.dstore.Values.integerValue value) {
+      public Builder mergeUnitId(io.dstore.values.IntegerValue value) {
         if (unitIdBuilder_ == null) {
           if (unitId_ != null) {
             unitId_ =
-              io.dstore.Values.integerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(unitId_).mergeFrom(value).buildPartial();
           } else {
             unitId_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
       public Builder clearUnitId() {
         if (unitIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUnitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUnitIdBuilder() {
         
         onChanged();
         return getUnitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUnitIdOrBuilder() {
         if (unitIdBuilder_ != null) {
           return unitIdBuilder_.getMessageOrBuilder();
         } else {
           return unitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : unitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : unitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue unit_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUnitIdFieldBuilder() {
         if (unitIdBuilder_ == null) {
           unitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUnitId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue unitCategoryId_ = null;
+      private io.dstore.values.IntegerValue unitCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> unitCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> unitCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public boolean hasUnitCategoryId() {
         return unitCategoryIdBuilder_ != null || unitCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getUnitCategoryId() {
+      public io.dstore.values.IntegerValue getUnitCategoryId() {
         if (unitCategoryIdBuilder_ == null) {
-          return unitCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
+          return unitCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
         } else {
           return unitCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public Builder setUnitCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setUnitCategoryId(io.dstore.values.IntegerValue value) {
         if (unitCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public Builder setUnitCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (unitCategoryIdBuilder_ == null) {
           unitCategoryId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public Builder mergeUnitCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergeUnitCategoryId(io.dstore.values.IntegerValue value) {
         if (unitCategoryIdBuilder_ == null) {
           if (unitCategoryId_ != null) {
             unitCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(unitCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(unitCategoryId_).mergeFrom(value).buildPartial();
           } else {
             unitCategoryId_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       public Builder clearUnitCategoryId() {
         if (unitCategoryIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUnitCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUnitCategoryIdBuilder() {
         
         onChanged();
         return getUnitCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUnitCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUnitCategoryIdOrBuilder() {
         if (unitCategoryIdBuilder_ != null) {
           return unitCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return unitCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : unitCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : unitCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue unit_category_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue unit_category_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUnitCategoryIdFieldBuilder() {
         if (unitCategoryIdBuilder_ == null) {
           unitCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUnitCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteUnitInCategory_ = null;
+      private io.dstore.values.BooleanValue deleteUnitInCategory_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteUnitInCategoryBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteUnitInCategoryBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public boolean hasDeleteUnitInCategory() {
         return deleteUnitInCategoryBuilder_ != null || deleteUnitInCategory_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteUnitInCategory() {
+      public io.dstore.values.BooleanValue getDeleteUnitInCategory() {
         if (deleteUnitInCategoryBuilder_ == null) {
-          return deleteUnitInCategory_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteUnitInCategory_;
+          return deleteUnitInCategory_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteUnitInCategory_;
         } else {
           return deleteUnitInCategoryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
-      public Builder setDeleteUnitInCategory(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteUnitInCategory(io.dstore.values.BooleanValue value) {
         if (deleteUnitInCategoryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public Builder setDeleteUnitInCategory(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteUnitInCategoryBuilder_ == null) {
           deleteUnitInCategory_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
-      public Builder mergeDeleteUnitInCategory(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteUnitInCategory(io.dstore.values.BooleanValue value) {
         if (deleteUnitInCategoryBuilder_ == null) {
           if (deleteUnitInCategory_ != null) {
             deleteUnitInCategory_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteUnitInCategory_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteUnitInCategory_).mergeFrom(value).buildPartial();
           } else {
             deleteUnitInCategory_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       public Builder clearDeleteUnitInCategory() {
         if (deleteUnitInCategoryBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiModifyUnitsInCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteUnitInCategoryBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteUnitInCategoryBuilder() {
         
         onChanged();
         return getDeleteUnitInCategoryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteUnitInCategoryOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteUnitInCategoryOrBuilder() {
         if (deleteUnitInCategoryBuilder_ != null) {
           return deleteUnitInCategoryBuilder_.getMessageOrBuilder();
         } else {
           return deleteUnitInCategory_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteUnitInCategory_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteUnitInCategory_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_unit_in_category = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_unit_in_category = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteUnitInCategoryFieldBuilder() {
         if (deleteUnitInCategoryBuilder_ == null) {
           deleteUnitInCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteUnitInCategory(),
                   getParentForChildren(),
                   isClean());
@@ -3193,11 +3193,11 @@ public final class MiModifyUnitsInCategoriesAd {
       "_ModifyUnitsInCategories_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\215\002\n" +
       "\nParameters\022,\n\007unit_id\030\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\025\n\014unit_id_null\030\351\007 \001(\010" +
+      "lues.IntegerValue\022\025\n\014unit_id_null\030\351\007 \001(\010" +
       "\0225\n\020unit_category_id\030\002 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\036\n\025unit_category_id_null" +
+      "es.IntegerValue\022\036\n\025unit_category_id_null" +
       "\030\352\007 \001(\010\022<\n\027delete_unit_in_category\030\003 \001(\013" +
-      "2\033.dstore.values.booleanValue\022%\n\034delete_",
+      "2\033.dstore.values.BooleanValue\022%\n\034delete_",
       "unit_in_category_null\030\353\007 \001(\010\"\315\001\n\010Respons" +
       "e\0228\n\020meta_information\030\002 \003(\0132\036.dstore.eng" +
       "ine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.d" +
@@ -3219,7 +3219,7 @@ public final class MiModifyUnitsInCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyUnitsInCategories_Ad_Parameters_descriptor =
@@ -3240,7 +3240,7 @@ public final class MiModifyUnitsInCategoriesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyUnitsInCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

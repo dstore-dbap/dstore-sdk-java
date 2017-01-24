@@ -19,17 +19,17 @@ public final class OmGetSupplierConfigurationAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
      */
     boolean hasSupplierId();
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
      */
-    io.dstore.Values.integerValue getSupplierId();
+    io.dstore.values.IntegerValue getSupplierId();
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSupplierIdOrBuilder();
 
     /**
      * <code>optional bool supplier_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class OmGetSupplierConfigurationAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (supplierId_ != null) {
                 subBuilder = supplierId_.toBuilder();
               }
-              supplierId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              supplierId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(supplierId_);
                 supplierId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class OmGetSupplierConfigurationAd {
     }
 
     public static final int SUPPLIER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue supplierId_;
+    private io.dstore.values.IntegerValue supplierId_;
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
      */
     public boolean hasSupplierId() {
       return supplierId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getSupplierId() {
-      return supplierId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
+    public io.dstore.values.IntegerValue getSupplierId() {
+      return supplierId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : supplierId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSupplierIdOrBuilder() {
       return getSupplierId();
     }
 
@@ -447,29 +447,29 @@ public final class OmGetSupplierConfigurationAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue supplierId_ = null;
+      private io.dstore.values.IntegerValue supplierId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> supplierIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> supplierIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
        */
       public boolean hasSupplierId() {
         return supplierIdBuilder_ != null || supplierId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getSupplierId() {
+      public io.dstore.values.IntegerValue getSupplierId() {
         if (supplierIdBuilder_ == null) {
-          return supplierId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
+          return supplierId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : supplierId_;
         } else {
           return supplierIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
        */
-      public Builder setSupplierId(io.dstore.Values.integerValue value) {
+      public Builder setSupplierId(io.dstore.values.IntegerValue value) {
         if (supplierIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class OmGetSupplierConfigurationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
        */
       public Builder setSupplierId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (supplierIdBuilder_ == null) {
           supplierId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class OmGetSupplierConfigurationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
        */
-      public Builder mergeSupplierId(io.dstore.Values.integerValue value) {
+      public Builder mergeSupplierId(io.dstore.values.IntegerValue value) {
         if (supplierIdBuilder_ == null) {
           if (supplierId_ != null) {
             supplierId_ =
-              io.dstore.Values.integerValue.newBuilder(supplierId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(supplierId_).mergeFrom(value).buildPartial();
           } else {
             supplierId_ = value;
           }
@@ -515,7 +515,7 @@ public final class OmGetSupplierConfigurationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
        */
       public Builder clearSupplierId() {
         if (supplierIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class OmGetSupplierConfigurationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSupplierIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSupplierIdBuilder() {
         
         onChanged();
         return getSupplierIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSupplierIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSupplierIdOrBuilder() {
         if (supplierIdBuilder_ != null) {
           return supplierIdBuilder_.getMessageOrBuilder();
         } else {
           return supplierId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : supplierId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : supplierId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue supplier_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue supplier_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSupplierIdFieldBuilder() {
         if (supplierIdBuilder_ == null) {
           supplierIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSupplierId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class OmGetSupplierConfigurationAd {
        * Bezeichnung der "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
        */
       boolean hasPaymentTypeDescription();
       /**
@@ -857,24 +857,24 @@ public final class OmGetSupplierConfigurationAd {
        * Bezeichnung der "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
        */
-      io.dstore.Values.stringValue getPaymentTypeDescription();
+      io.dstore.values.StringValue getPaymentTypeDescription();
       /**
        * <pre>
        * Bezeichnung der "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPaymentTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
        */
       boolean hasShippingTypeDescription();
       /**
@@ -882,24 +882,24 @@ public final class OmGetSupplierConfigurationAd {
        * Bezeichnung der "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
        */
-      io.dstore.Values.stringValue getShippingTypeDescription();
+      io.dstore.values.StringValue getShippingTypeDescription();
       /**
        * <pre>
        * Bezeichnung der "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
        */
       boolean hasPurchasePriceCurrencyId();
       /**
@@ -907,24 +907,24 @@ public final class OmGetSupplierConfigurationAd {
        * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getPurchasePriceCurrencyId();
+      io.dstore.values.IntegerValue getPurchasePriceCurrencyId();
       /**
        * <pre>
        * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPurchasePriceCurrencyIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPurchasePriceCurrencyIdOrBuilder();
 
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
        */
       boolean hasPurchasePriceCurrencySymbol();
       /**
@@ -932,24 +932,24 @@ public final class OmGetSupplierConfigurationAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
        */
-      io.dstore.Values.stringValue getPurchasePriceCurrencySymbol();
+      io.dstore.values.StringValue getPurchasePriceCurrencySymbol();
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPurchasePriceCurrencySymbolOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPurchasePriceCurrencySymbolOrBuilder();
 
       /**
        * <pre>
        * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
        */
       boolean hasPurchasePriceCharacteristicId();
       /**
@@ -957,24 +957,24 @@ public final class OmGetSupplierConfigurationAd {
        * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
        */
-      io.dstore.Values.integerValue getPurchasePriceCharacteristicId();
+      io.dstore.values.IntegerValue getPurchasePriceCharacteristicId();
       /**
        * <pre>
        * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPurchasePriceCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPurchasePriceCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
        */
       boolean hasShippingTypeId();
       /**
@@ -982,24 +982,24 @@ public final class OmGetSupplierConfigurationAd {
        * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
        */
-      io.dstore.Values.integerValue getShippingTypeId();
+      io.dstore.values.IntegerValue getShippingTypeId();
       /**
        * <pre>
        * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder();
 
       /**
        * <pre>
        * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
        */
       boolean hasPaymentTypeId();
       /**
@@ -1007,24 +1007,24 @@ public final class OmGetSupplierConfigurationAd {
        * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
        */
-      io.dstore.Values.integerValue getPaymentTypeId();
+      io.dstore.values.IntegerValue getPaymentTypeId();
       /**
        * <pre>
        * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "PurchasePriceCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
        */
       boolean hasPurchasePriceCharacDescription();
       /**
@@ -1032,17 +1032,17 @@ public final class OmGetSupplierConfigurationAd {
        * Bezeichnung der "PurchasePriceCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
        */
-      io.dstore.Values.stringValue getPurchasePriceCharacDescription();
+      io.dstore.values.StringValue getPurchasePriceCharacDescription();
       /**
        * <pre>
        * Bezeichnung der "PurchasePriceCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPurchasePriceCharacDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPurchasePriceCharacDescriptionOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetSupplierConfiguration_Ad.Response.Row}
@@ -1090,11 +1090,11 @@ public final class OmGetSupplierConfigurationAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (paymentTypeDescription_ != null) {
                   subBuilder = paymentTypeDescription_.toBuilder();
                 }
-                paymentTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                paymentTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentTypeDescription_);
                   paymentTypeDescription_ = subBuilder.buildPartial();
@@ -1103,11 +1103,11 @@ public final class OmGetSupplierConfigurationAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (shippingTypeDescription_ != null) {
                   subBuilder = shippingTypeDescription_.toBuilder();
                 }
-                shippingTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                shippingTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingTypeDescription_);
                   shippingTypeDescription_ = subBuilder.buildPartial();
@@ -1116,11 +1116,11 @@ public final class OmGetSupplierConfigurationAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (purchasePriceCurrencyId_ != null) {
                   subBuilder = purchasePriceCurrencyId_.toBuilder();
                 }
-                purchasePriceCurrencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                purchasePriceCurrencyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(purchasePriceCurrencyId_);
                   purchasePriceCurrencyId_ = subBuilder.buildPartial();
@@ -1129,11 +1129,11 @@ public final class OmGetSupplierConfigurationAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (purchasePriceCurrencySymbol_ != null) {
                   subBuilder = purchasePriceCurrencySymbol_.toBuilder();
                 }
-                purchasePriceCurrencySymbol_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                purchasePriceCurrencySymbol_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(purchasePriceCurrencySymbol_);
                   purchasePriceCurrencySymbol_ = subBuilder.buildPartial();
@@ -1142,11 +1142,11 @@ public final class OmGetSupplierConfigurationAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (purchasePriceCharacteristicId_ != null) {
                   subBuilder = purchasePriceCharacteristicId_.toBuilder();
                 }
-                purchasePriceCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                purchasePriceCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(purchasePriceCharacteristicId_);
                   purchasePriceCharacteristicId_ = subBuilder.buildPartial();
@@ -1155,11 +1155,11 @@ public final class OmGetSupplierConfigurationAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (shippingTypeId_ != null) {
                   subBuilder = shippingTypeId_.toBuilder();
                 }
-                shippingTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                shippingTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingTypeId_);
                   shippingTypeId_ = subBuilder.buildPartial();
@@ -1168,11 +1168,11 @@ public final class OmGetSupplierConfigurationAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (paymentTypeId_ != null) {
                   subBuilder = paymentTypeId_.toBuilder();
                 }
-                paymentTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                paymentTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentTypeId_);
                   paymentTypeId_ = subBuilder.buildPartial();
@@ -1181,11 +1181,11 @@ public final class OmGetSupplierConfigurationAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (purchasePriceCharacDescription_ != null) {
                   subBuilder = purchasePriceCharacDescription_.toBuilder();
                 }
-                purchasePriceCharacDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                purchasePriceCharacDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(purchasePriceCharacDescription_);
                   purchasePriceCharacDescription_ = subBuilder.buildPartial();
@@ -1226,13 +1226,13 @@ public final class OmGetSupplierConfigurationAd {
       }
 
       public static final int PAYMENT_TYPE_DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue paymentTypeDescription_;
+      private io.dstore.values.StringValue paymentTypeDescription_;
       /**
        * <pre>
        * Bezeichnung der "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
        */
       public boolean hasPaymentTypeDescription() {
         return paymentTypeDescription_ != null;
@@ -1242,30 +1242,30 @@ public final class OmGetSupplierConfigurationAd {
        * Bezeichnung der "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getPaymentTypeDescription() {
-        return paymentTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+      public io.dstore.values.StringValue getPaymentTypeDescription() {
+        return paymentTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der "PaymentTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
         return getPaymentTypeDescription();
       }
 
       public static final int SHIPPING_TYPE_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue shippingTypeDescription_;
+      private io.dstore.values.StringValue shippingTypeDescription_;
       /**
        * <pre>
        * Bezeichnung der "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
        */
       public boolean hasShippingTypeDescription() {
         return shippingTypeDescription_ != null;
@@ -1275,30 +1275,30 @@ public final class OmGetSupplierConfigurationAd {
        * Bezeichnung der "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getShippingTypeDescription() {
-        return shippingTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
+      public io.dstore.values.StringValue getShippingTypeDescription() {
+        return shippingTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der "ShippingTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
         return getShippingTypeDescription();
       }
 
       public static final int PURCHASE_PRICE_CURRENCY_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue purchasePriceCurrencyId_;
+      private io.dstore.values.IntegerValue purchasePriceCurrencyId_;
       /**
        * <pre>
        * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
        */
       public boolean hasPurchasePriceCurrencyId() {
         return purchasePriceCurrencyId_ != null;
@@ -1308,30 +1308,30 @@ public final class OmGetSupplierConfigurationAd {
        * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getPurchasePriceCurrencyId() {
-        return purchasePriceCurrencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : purchasePriceCurrencyId_;
+      public io.dstore.values.IntegerValue getPurchasePriceCurrencyId() {
+        return purchasePriceCurrencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : purchasePriceCurrencyId_;
       }
       /**
        * <pre>
        * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPurchasePriceCurrencyIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPurchasePriceCurrencyIdOrBuilder() {
         return getPurchasePriceCurrencyId();
       }
 
       public static final int PURCHASE_PRICE_CURRENCY_SYMBOL_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue purchasePriceCurrencySymbol_;
+      private io.dstore.values.StringValue purchasePriceCurrencySymbol_;
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
        */
       public boolean hasPurchasePriceCurrencySymbol() {
         return purchasePriceCurrencySymbol_ != null;
@@ -1341,30 +1341,30 @@ public final class OmGetSupplierConfigurationAd {
        * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
        */
-      public io.dstore.Values.stringValue getPurchasePriceCurrencySymbol() {
-        return purchasePriceCurrencySymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : purchasePriceCurrencySymbol_;
+      public io.dstore.values.StringValue getPurchasePriceCurrencySymbol() {
+        return purchasePriceCurrencySymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : purchasePriceCurrencySymbol_;
       }
       /**
        * <pre>
        * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPurchasePriceCurrencySymbolOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPurchasePriceCurrencySymbolOrBuilder() {
         return getPurchasePriceCurrencySymbol();
       }
 
       public static final int PURCHASE_PRICE_CHARACTERISTIC_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue purchasePriceCharacteristicId_;
+      private io.dstore.values.IntegerValue purchasePriceCharacteristicId_;
       /**
        * <pre>
        * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
        */
       public boolean hasPurchasePriceCharacteristicId() {
         return purchasePriceCharacteristicId_ != null;
@@ -1374,30 +1374,30 @@ public final class OmGetSupplierConfigurationAd {
        * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
        */
-      public io.dstore.Values.integerValue getPurchasePriceCharacteristicId() {
-        return purchasePriceCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : purchasePriceCharacteristicId_;
+      public io.dstore.values.IntegerValue getPurchasePriceCharacteristicId() {
+        return purchasePriceCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : purchasePriceCharacteristicId_;
       }
       /**
        * <pre>
        * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPurchasePriceCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPurchasePriceCharacteristicIdOrBuilder() {
         return getPurchasePriceCharacteristicId();
       }
 
       public static final int SHIPPING_TYPE_ID_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue shippingTypeId_;
+      private io.dstore.values.IntegerValue shippingTypeId_;
       /**
        * <pre>
        * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
        */
       public boolean hasShippingTypeId() {
         return shippingTypeId_ != null;
@@ -1407,30 +1407,30 @@ public final class OmGetSupplierConfigurationAd {
        * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
        */
-      public io.dstore.Values.integerValue getShippingTypeId() {
-        return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+      public io.dstore.values.IntegerValue getShippingTypeId() {
+        return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
       }
       /**
        * <pre>
        * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
         return getShippingTypeId();
       }
 
       public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue paymentTypeId_;
+      private io.dstore.values.IntegerValue paymentTypeId_;
       /**
        * <pre>
        * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeId_ != null;
@@ -1440,30 +1440,30 @@ public final class OmGetSupplierConfigurationAd {
        * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
        */
-      public io.dstore.Values.integerValue getPaymentTypeId() {
-        return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+      public io.dstore.values.IntegerValue getPaymentTypeId() {
+        return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
       }
       /**
        * <pre>
        * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
         return getPaymentTypeId();
       }
 
       public static final int PURCHASE_PRICE_CHARAC_DESCRIPTION_FIELD_NUMBER = 10008;
-      private io.dstore.Values.stringValue purchasePriceCharacDescription_;
+      private io.dstore.values.StringValue purchasePriceCharacDescription_;
       /**
        * <pre>
        * Bezeichnung der "PurchasePriceCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
        */
       public boolean hasPurchasePriceCharacDescription() {
         return purchasePriceCharacDescription_ != null;
@@ -1473,19 +1473,19 @@ public final class OmGetSupplierConfigurationAd {
        * Bezeichnung der "PurchasePriceCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
        */
-      public io.dstore.Values.stringValue getPurchasePriceCharacDescription() {
-        return purchasePriceCharacDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : purchasePriceCharacDescription_;
+      public io.dstore.values.StringValue getPurchasePriceCharacDescription() {
+        return purchasePriceCharacDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : purchasePriceCharacDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der "PurchasePriceCharacteristicID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+       * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPurchasePriceCharacDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPurchasePriceCharacDescriptionOrBuilder() {
         return getPurchasePriceCharacDescription();
       }
 
@@ -2024,15 +2024,15 @@ public final class OmGetSupplierConfigurationAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue paymentTypeDescription_ = null;
+        private io.dstore.values.StringValue paymentTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> paymentTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
          */
         public boolean hasPaymentTypeDescription() {
           return paymentTypeDescriptionBuilder_ != null || paymentTypeDescription_ != null;
@@ -2042,11 +2042,11 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getPaymentTypeDescription() {
+        public io.dstore.values.StringValue getPaymentTypeDescription() {
           if (paymentTypeDescriptionBuilder_ == null) {
-            return paymentTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+            return paymentTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentTypeDescription_;
           } else {
             return paymentTypeDescriptionBuilder_.getMessage();
           }
@@ -2056,9 +2056,9 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
          */
-        public Builder setPaymentTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setPaymentTypeDescription(io.dstore.values.StringValue value) {
           if (paymentTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2076,10 +2076,10 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
          */
         public Builder setPaymentTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (paymentTypeDescriptionBuilder_ == null) {
             paymentTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2094,13 +2094,13 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
          */
-        public Builder mergePaymentTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergePaymentTypeDescription(io.dstore.values.StringValue value) {
           if (paymentTypeDescriptionBuilder_ == null) {
             if (paymentTypeDescription_ != null) {
               paymentTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(paymentTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(paymentTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               paymentTypeDescription_ = value;
             }
@@ -2116,7 +2116,7 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
          */
         public Builder clearPaymentTypeDescription() {
           if (paymentTypeDescriptionBuilder_ == null) {
@@ -2134,9 +2134,9 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPaymentTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getPaymentTypeDescriptionBuilder() {
           
           onChanged();
           return getPaymentTypeDescriptionFieldBuilder().getBuilder();
@@ -2146,14 +2146,14 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
           if (paymentTypeDescriptionBuilder_ != null) {
             return paymentTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return paymentTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : paymentTypeDescription_;
           }
         }
         /**
@@ -2161,14 +2161,14 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PaymentTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10001;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPaymentTypeDescriptionFieldBuilder() {
           if (paymentTypeDescriptionBuilder_ == null) {
             paymentTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPaymentTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2177,15 +2177,15 @@ public final class OmGetSupplierConfigurationAd {
           return paymentTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue shippingTypeDescription_ = null;
+        private io.dstore.values.StringValue shippingTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> shippingTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> shippingTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
          */
         public boolean hasShippingTypeDescription() {
           return shippingTypeDescriptionBuilder_ != null || shippingTypeDescription_ != null;
@@ -2195,11 +2195,11 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getShippingTypeDescription() {
+        public io.dstore.values.StringValue getShippingTypeDescription() {
           if (shippingTypeDescriptionBuilder_ == null) {
-            return shippingTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
+            return shippingTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
           } else {
             return shippingTypeDescriptionBuilder_.getMessage();
           }
@@ -2209,9 +2209,9 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
          */
-        public Builder setShippingTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setShippingTypeDescription(io.dstore.values.StringValue value) {
           if (shippingTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2229,10 +2229,10 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
          */
         public Builder setShippingTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (shippingTypeDescriptionBuilder_ == null) {
             shippingTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2247,13 +2247,13 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
          */
-        public Builder mergeShippingTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeShippingTypeDescription(io.dstore.values.StringValue value) {
           if (shippingTypeDescriptionBuilder_ == null) {
             if (shippingTypeDescription_ != null) {
               shippingTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(shippingTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(shippingTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               shippingTypeDescription_ = value;
             }
@@ -2269,7 +2269,7 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
          */
         public Builder clearShippingTypeDescription() {
           if (shippingTypeDescriptionBuilder_ == null) {
@@ -2287,9 +2287,9 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getShippingTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getShippingTypeDescriptionBuilder() {
           
           onChanged();
           return getShippingTypeDescriptionFieldBuilder().getBuilder();
@@ -2299,14 +2299,14 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getShippingTypeDescriptionOrBuilder() {
           if (shippingTypeDescriptionBuilder_ != null) {
             return shippingTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return shippingTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : shippingTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : shippingTypeDescription_;
           }
         }
         /**
@@ -2314,14 +2314,14 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "ShippingTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue shipping_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue shipping_type_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getShippingTypeDescriptionFieldBuilder() {
           if (shippingTypeDescriptionBuilder_ == null) {
             shippingTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getShippingTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2330,15 +2330,15 @@ public final class OmGetSupplierConfigurationAd {
           return shippingTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue purchasePriceCurrencyId_ = null;
+        private io.dstore.values.IntegerValue purchasePriceCurrencyId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> purchasePriceCurrencyIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> purchasePriceCurrencyIdBuilder_;
         /**
          * <pre>
          * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
          */
         public boolean hasPurchasePriceCurrencyId() {
           return purchasePriceCurrencyIdBuilder_ != null || purchasePriceCurrencyId_ != null;
@@ -2348,11 +2348,11 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getPurchasePriceCurrencyId() {
+        public io.dstore.values.IntegerValue getPurchasePriceCurrencyId() {
           if (purchasePriceCurrencyIdBuilder_ == null) {
-            return purchasePriceCurrencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : purchasePriceCurrencyId_;
+            return purchasePriceCurrencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : purchasePriceCurrencyId_;
           } else {
             return purchasePriceCurrencyIdBuilder_.getMessage();
           }
@@ -2362,9 +2362,9 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
          */
-        public Builder setPurchasePriceCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder setPurchasePriceCurrencyId(io.dstore.values.IntegerValue value) {
           if (purchasePriceCurrencyIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2382,10 +2382,10 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
          */
         public Builder setPurchasePriceCurrencyId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (purchasePriceCurrencyIdBuilder_ == null) {
             purchasePriceCurrencyId_ = builderForValue.build();
             onChanged();
@@ -2400,13 +2400,13 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
          */
-        public Builder mergePurchasePriceCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder mergePurchasePriceCurrencyId(io.dstore.values.IntegerValue value) {
           if (purchasePriceCurrencyIdBuilder_ == null) {
             if (purchasePriceCurrencyId_ != null) {
               purchasePriceCurrencyId_ =
-                io.dstore.Values.integerValue.newBuilder(purchasePriceCurrencyId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(purchasePriceCurrencyId_).mergeFrom(value).buildPartial();
             } else {
               purchasePriceCurrencyId_ = value;
             }
@@ -2422,7 +2422,7 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
          */
         public Builder clearPurchasePriceCurrencyId() {
           if (purchasePriceCurrencyIdBuilder_ == null) {
@@ -2440,9 +2440,9 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPurchasePriceCurrencyIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPurchasePriceCurrencyIdBuilder() {
           
           onChanged();
           return getPurchasePriceCurrencyIdFieldBuilder().getBuilder();
@@ -2452,14 +2452,14 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPurchasePriceCurrencyIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPurchasePriceCurrencyIdOrBuilder() {
           if (purchasePriceCurrencyIdBuilder_ != null) {
             return purchasePriceCurrencyIdBuilder_.getMessageOrBuilder();
           } else {
             return purchasePriceCurrencyId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : purchasePriceCurrencyId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : purchasePriceCurrencyId_;
           }
         }
         /**
@@ -2467,14 +2467,14 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Währung in der die Einkaufs-Preise zu verstehen sind (das ist die zur "PurchasePriceCharacteristicID" konfigurierte "UnitID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_currency_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPurchasePriceCurrencyIdFieldBuilder() {
           if (purchasePriceCurrencyIdBuilder_ == null) {
             purchasePriceCurrencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPurchasePriceCurrencyId(),
                     getParentForChildren(),
                     isClean());
@@ -2483,15 +2483,15 @@ public final class OmGetSupplierConfigurationAd {
           return purchasePriceCurrencyIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue purchasePriceCurrencySymbol_ = null;
+        private io.dstore.values.StringValue purchasePriceCurrencySymbol_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> purchasePriceCurrencySymbolBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> purchasePriceCurrencySymbolBuilder_;
         /**
          * <pre>
          * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
          */
         public boolean hasPurchasePriceCurrencySymbol() {
           return purchasePriceCurrencySymbolBuilder_ != null || purchasePriceCurrencySymbol_ != null;
@@ -2501,11 +2501,11 @@ public final class OmGetSupplierConfigurationAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
          */
-        public io.dstore.Values.stringValue getPurchasePriceCurrencySymbol() {
+        public io.dstore.values.StringValue getPurchasePriceCurrencySymbol() {
           if (purchasePriceCurrencySymbolBuilder_ == null) {
-            return purchasePriceCurrencySymbol_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : purchasePriceCurrencySymbol_;
+            return purchasePriceCurrencySymbol_ == null ? io.dstore.values.StringValue.getDefaultInstance() : purchasePriceCurrencySymbol_;
           } else {
             return purchasePriceCurrencySymbolBuilder_.getMessage();
           }
@@ -2515,9 +2515,9 @@ public final class OmGetSupplierConfigurationAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
          */
-        public Builder setPurchasePriceCurrencySymbol(io.dstore.Values.stringValue value) {
+        public Builder setPurchasePriceCurrencySymbol(io.dstore.values.StringValue value) {
           if (purchasePriceCurrencySymbolBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2535,10 +2535,10 @@ public final class OmGetSupplierConfigurationAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
          */
         public Builder setPurchasePriceCurrencySymbol(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (purchasePriceCurrencySymbolBuilder_ == null) {
             purchasePriceCurrencySymbol_ = builderForValue.build();
             onChanged();
@@ -2553,13 +2553,13 @@ public final class OmGetSupplierConfigurationAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
          */
-        public Builder mergePurchasePriceCurrencySymbol(io.dstore.Values.stringValue value) {
+        public Builder mergePurchasePriceCurrencySymbol(io.dstore.values.StringValue value) {
           if (purchasePriceCurrencySymbolBuilder_ == null) {
             if (purchasePriceCurrencySymbol_ != null) {
               purchasePriceCurrencySymbol_ =
-                io.dstore.Values.stringValue.newBuilder(purchasePriceCurrencySymbol_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(purchasePriceCurrencySymbol_).mergeFrom(value).buildPartial();
             } else {
               purchasePriceCurrencySymbol_ = value;
             }
@@ -2575,7 +2575,7 @@ public final class OmGetSupplierConfigurationAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
          */
         public Builder clearPurchasePriceCurrencySymbol() {
           if (purchasePriceCurrencySymbolBuilder_ == null) {
@@ -2593,9 +2593,9 @@ public final class OmGetSupplierConfigurationAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPurchasePriceCurrencySymbolBuilder() {
+        public io.dstore.values.StringValue.Builder getPurchasePriceCurrencySymbolBuilder() {
           
           onChanged();
           return getPurchasePriceCurrencySymbolFieldBuilder().getBuilder();
@@ -2605,14 +2605,14 @@ public final class OmGetSupplierConfigurationAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPurchasePriceCurrencySymbolOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPurchasePriceCurrencySymbolOrBuilder() {
           if (purchasePriceCurrencySymbolBuilder_ != null) {
             return purchasePriceCurrencySymbolBuilder_.getMessageOrBuilder();
           } else {
             return purchasePriceCurrencySymbol_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : purchasePriceCurrencySymbol_;
+                io.dstore.values.StringValue.getDefaultInstance() : purchasePriceCurrencySymbol_;
           }
         }
         /**
@@ -2620,14 +2620,14 @@ public final class OmGetSupplierConfigurationAd {
          * Symbol (im Regelfall der ISO-Code) der Einheit "PurchasePriceCurrencyID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_currency_symbol = 10004;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_currency_symbol = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPurchasePriceCurrencySymbolFieldBuilder() {
           if (purchasePriceCurrencySymbolBuilder_ == null) {
             purchasePriceCurrencySymbolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPurchasePriceCurrencySymbol(),
                     getParentForChildren(),
                     isClean());
@@ -2636,15 +2636,15 @@ public final class OmGetSupplierConfigurationAd {
           return purchasePriceCurrencySymbolBuilder_;
         }
 
-        private io.dstore.Values.integerValue purchasePriceCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue purchasePriceCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> purchasePriceCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> purchasePriceCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
          */
         public boolean hasPurchasePriceCharacteristicId() {
           return purchasePriceCharacteristicIdBuilder_ != null || purchasePriceCharacteristicId_ != null;
@@ -2654,11 +2654,11 @@ public final class OmGetSupplierConfigurationAd {
          * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue getPurchasePriceCharacteristicId() {
+        public io.dstore.values.IntegerValue getPurchasePriceCharacteristicId() {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
-            return purchasePriceCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : purchasePriceCharacteristicId_;
+            return purchasePriceCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : purchasePriceCharacteristicId_;
           } else {
             return purchasePriceCharacteristicIdBuilder_.getMessage();
           }
@@ -2668,9 +2668,9 @@ public final class OmGetSupplierConfigurationAd {
          * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
          */
-        public Builder setPurchasePriceCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setPurchasePriceCharacteristicId(io.dstore.values.IntegerValue value) {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2688,10 +2688,10 @@ public final class OmGetSupplierConfigurationAd {
          * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
          */
         public Builder setPurchasePriceCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
             purchasePriceCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -2706,13 +2706,13 @@ public final class OmGetSupplierConfigurationAd {
          * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
          */
-        public Builder mergePurchasePriceCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergePurchasePriceCharacteristicId(io.dstore.values.IntegerValue value) {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
             if (purchasePriceCharacteristicId_ != null) {
               purchasePriceCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(purchasePriceCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(purchasePriceCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               purchasePriceCharacteristicId_ = value;
             }
@@ -2728,7 +2728,7 @@ public final class OmGetSupplierConfigurationAd {
          * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
          */
         public Builder clearPurchasePriceCharacteristicId() {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
@@ -2746,9 +2746,9 @@ public final class OmGetSupplierConfigurationAd {
          * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPurchasePriceCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPurchasePriceCharacteristicIdBuilder() {
           
           onChanged();
           return getPurchasePriceCharacteristicIdFieldBuilder().getBuilder();
@@ -2758,14 +2758,14 @@ public final class OmGetSupplierConfigurationAd {
          * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPurchasePriceCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPurchasePriceCharacteristicIdOrBuilder() {
           if (purchasePriceCharacteristicIdBuilder_ != null) {
             return purchasePriceCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return purchasePriceCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : purchasePriceCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : purchasePriceCharacteristicId_;
           }
         }
         /**
@@ -2773,14 +2773,14 @@ public final class OmGetSupplierConfigurationAd {
          * ID des Merkmals, zu dem zu Artikel-Elementen die Einkaufs-Preise des Lieferanten "&#64;SupplierID" hinterlegt sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue purchase_price_characteristic_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue purchase_price_characteristic_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPurchasePriceCharacteristicIdFieldBuilder() {
           if (purchasePriceCharacteristicIdBuilder_ == null) {
             purchasePriceCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPurchasePriceCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -2789,15 +2789,15 @@ public final class OmGetSupplierConfigurationAd {
           return purchasePriceCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue shippingTypeId_ = null;
+        private io.dstore.values.IntegerValue shippingTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> shippingTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> shippingTypeIdBuilder_;
         /**
          * <pre>
          * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
          */
         public boolean hasShippingTypeId() {
           return shippingTypeIdBuilder_ != null || shippingTypeId_ != null;
@@ -2807,11 +2807,11 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue getShippingTypeId() {
+        public io.dstore.values.IntegerValue getShippingTypeId() {
           if (shippingTypeIdBuilder_ == null) {
-            return shippingTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+            return shippingTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
           } else {
             return shippingTypeIdBuilder_.getMessage();
           }
@@ -2821,9 +2821,9 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
          */
-        public Builder setShippingTypeId(io.dstore.Values.integerValue value) {
+        public Builder setShippingTypeId(io.dstore.values.IntegerValue value) {
           if (shippingTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2841,10 +2841,10 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
          */
         public Builder setShippingTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (shippingTypeIdBuilder_ == null) {
             shippingTypeId_ = builderForValue.build();
             onChanged();
@@ -2859,13 +2859,13 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
          */
-        public Builder mergeShippingTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeShippingTypeId(io.dstore.values.IntegerValue value) {
           if (shippingTypeIdBuilder_ == null) {
             if (shippingTypeId_ != null) {
               shippingTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(shippingTypeId_).mergeFrom(value).buildPartial();
             } else {
               shippingTypeId_ = value;
             }
@@ -2881,7 +2881,7 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
          */
         public Builder clearShippingTypeId() {
           if (shippingTypeIdBuilder_ == null) {
@@ -2899,9 +2899,9 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getShippingTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getShippingTypeIdBuilder() {
           
           onChanged();
           return getShippingTypeIdFieldBuilder().getBuilder();
@@ -2911,14 +2911,14 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getShippingTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getShippingTypeIdOrBuilder() {
           if (shippingTypeIdBuilder_ != null) {
             return shippingTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return shippingTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : shippingTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : shippingTypeId_;
           }
         }
         /**
@@ -2926,14 +2926,14 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Versandart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue shipping_type_id = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue shipping_type_id = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getShippingTypeIdFieldBuilder() {
           if (shippingTypeIdBuilder_ == null) {
             shippingTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getShippingTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2942,15 +2942,15 @@ public final class OmGetSupplierConfigurationAd {
           return shippingTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue paymentTypeId_ = null;
+        private io.dstore.values.IntegerValue paymentTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentTypeIdBuilder_;
         /**
          * <pre>
          * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
          */
         public boolean hasPaymentTypeId() {
           return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
@@ -2960,11 +2960,11 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue getPaymentTypeId() {
+        public io.dstore.values.IntegerValue getPaymentTypeId() {
           if (paymentTypeIdBuilder_ == null) {
-            return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+            return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
           } else {
             return paymentTypeIdBuilder_.getMessage();
           }
@@ -2974,9 +2974,9 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
          */
-        public Builder setPaymentTypeId(io.dstore.Values.integerValue value) {
+        public Builder setPaymentTypeId(io.dstore.values.IntegerValue value) {
           if (paymentTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2994,10 +2994,10 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
          */
         public Builder setPaymentTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (paymentTypeIdBuilder_ == null) {
             paymentTypeId_ = builderForValue.build();
             onChanged();
@@ -3012,13 +3012,13 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
          */
-        public Builder mergePaymentTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergePaymentTypeId(io.dstore.values.IntegerValue value) {
           if (paymentTypeIdBuilder_ == null) {
             if (paymentTypeId_ != null) {
               paymentTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
             } else {
               paymentTypeId_ = value;
             }
@@ -3034,7 +3034,7 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
          */
         public Builder clearPaymentTypeId() {
           if (paymentTypeIdBuilder_ == null) {
@@ -3052,9 +3052,9 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPaymentTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPaymentTypeIdBuilder() {
           
           onChanged();
           return getPaymentTypeIdFieldBuilder().getBuilder();
@@ -3064,14 +3064,14 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
           if (paymentTypeIdBuilder_ != null) {
             return paymentTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return paymentTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
           }
         }
         /**
@@ -3079,14 +3079,14 @@ public final class OmGetSupplierConfigurationAd {
          * ID der Standard-Zahlungsart für "Einkaufs-Aufträge" beim Lieferanten "&#64;SupplierID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue payment_type_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue payment_type_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPaymentTypeIdFieldBuilder() {
           if (paymentTypeIdBuilder_ == null) {
             paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPaymentTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3095,15 +3095,15 @@ public final class OmGetSupplierConfigurationAd {
           return paymentTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue purchasePriceCharacDescription_ = null;
+        private io.dstore.values.StringValue purchasePriceCharacDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> purchasePriceCharacDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> purchasePriceCharacDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der "PurchasePriceCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
          */
         public boolean hasPurchasePriceCharacDescription() {
           return purchasePriceCharacDescriptionBuilder_ != null || purchasePriceCharacDescription_ != null;
@@ -3113,11 +3113,11 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PurchasePriceCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
          */
-        public io.dstore.Values.stringValue getPurchasePriceCharacDescription() {
+        public io.dstore.values.StringValue getPurchasePriceCharacDescription() {
           if (purchasePriceCharacDescriptionBuilder_ == null) {
-            return purchasePriceCharacDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : purchasePriceCharacDescription_;
+            return purchasePriceCharacDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : purchasePriceCharacDescription_;
           } else {
             return purchasePriceCharacDescriptionBuilder_.getMessage();
           }
@@ -3127,9 +3127,9 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PurchasePriceCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
          */
-        public Builder setPurchasePriceCharacDescription(io.dstore.Values.stringValue value) {
+        public Builder setPurchasePriceCharacDescription(io.dstore.values.StringValue value) {
           if (purchasePriceCharacDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3147,10 +3147,10 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PurchasePriceCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
          */
         public Builder setPurchasePriceCharacDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (purchasePriceCharacDescriptionBuilder_ == null) {
             purchasePriceCharacDescription_ = builderForValue.build();
             onChanged();
@@ -3165,13 +3165,13 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PurchasePriceCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
          */
-        public Builder mergePurchasePriceCharacDescription(io.dstore.Values.stringValue value) {
+        public Builder mergePurchasePriceCharacDescription(io.dstore.values.StringValue value) {
           if (purchasePriceCharacDescriptionBuilder_ == null) {
             if (purchasePriceCharacDescription_ != null) {
               purchasePriceCharacDescription_ =
-                io.dstore.Values.stringValue.newBuilder(purchasePriceCharacDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(purchasePriceCharacDescription_).mergeFrom(value).buildPartial();
             } else {
               purchasePriceCharacDescription_ = value;
             }
@@ -3187,7 +3187,7 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PurchasePriceCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
          */
         public Builder clearPurchasePriceCharacDescription() {
           if (purchasePriceCharacDescriptionBuilder_ == null) {
@@ -3205,9 +3205,9 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PurchasePriceCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPurchasePriceCharacDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getPurchasePriceCharacDescriptionBuilder() {
           
           onChanged();
           return getPurchasePriceCharacDescriptionFieldBuilder().getBuilder();
@@ -3217,14 +3217,14 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PurchasePriceCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPurchasePriceCharacDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPurchasePriceCharacDescriptionOrBuilder() {
           if (purchasePriceCharacDescriptionBuilder_ != null) {
             return purchasePriceCharacDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return purchasePriceCharacDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : purchasePriceCharacDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : purchasePriceCharacDescription_;
           }
         }
         /**
@@ -3232,14 +3232,14 @@ public final class OmGetSupplierConfigurationAd {
          * Bezeichnung der "PurchasePriceCharacteristicID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue purchase_price_charac_description = 10008;</code>
+         * <code>optional .dstore.values.StringValue purchase_price_charac_description = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPurchasePriceCharacDescriptionFieldBuilder() {
           if (purchasePriceCharacDescriptionBuilder_ == null) {
             purchasePriceCharacDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPurchasePriceCharacDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4709,26 +4709,26 @@ public final class OmGetSupplierConfigurationAd {
       "m_GetSupplierConfiguration_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"Y" +
       "\n\nParameters\0220\n\013supplier_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\031\n\020supplier_id_nu" +
+      "re.values.IntegerValue\022\031\n\020supplier_id_nu" +
       "ll\030\351\007 \001(\010\"\324\005\n\010Response\0228\n\020meta_informati" +
       "on\030\002 \003(\0132\036.dstore.engine.MetaInformation" +
       "\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Messag" +
       "e\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_GetSup",
       "plierConfiguration_Ad.Response.Row\032\233\004\n\003R" +
       "ow\022\017\n\006row_id\030\220N \001(\005\022=\n\030payment_type_desc" +
-      "ription\030\221N \001(\0132\032.dstore.values.stringVal" +
+      "ription\030\221N \001(\0132\032.dstore.values.StringVal" +
       "ue\022>\n\031shipping_type_description\030\222N \001(\0132\032" +
-      ".dstore.values.stringValue\022@\n\032purchase_p" +
+      ".dstore.values.StringValue\022@\n\032purchase_p" +
       "rice_currency_id\030\223N \001(\0132\033.dstore.values." +
-      "integerValue\022C\n\036purchase_price_currency_" +
-      "symbol\030\224N \001(\0132\032.dstore.values.stringValu" +
+      "IntegerValue\022C\n\036purchase_price_currency_" +
+      "symbol\030\224N \001(\0132\032.dstore.values.StringValu" +
       "e\022F\n purchase_price_characteristic_id\030\225N" +
-      " \001(\0132\033.dstore.values.integerValue\0226\n\020shi",
-      "pping_type_id\030\226N \001(\0132\033.dstore.values.int" +
+      " \001(\0132\033.dstore.values.IntegerValue\0226\n\020shi",
+      "pping_type_id\030\226N \001(\0132\033.dstore.values.Int" +
       "egerValue\0225\n\017payment_type_id\030\227N \001(\0132\033.ds" +
-      "tore.values.integerValue\022F\n!purchase_pri" +
+      "tore.values.IntegerValue\022F\n!purchase_pri" +
       "ce_charac_description\030\230N \001(\0132\032.dstore.va" +
-      "lues.stringValueB_\n\033io.dstore.engine.pro" +
+      "lues.StringValueB_\n\033io.dstore.engine.pro" +
       "ceduresZ@gosdk.dstore.de/engine/procedur" +
       "es/om_GetSupplierConfiguration_Adb\006proto" +
       "3"
@@ -4744,7 +4744,7 @@ public final class OmGetSupplierConfigurationAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetSupplierConfiguration_Ad_Parameters_descriptor =
@@ -4765,7 +4765,7 @@ public final class OmGetSupplierConfigurationAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetSupplierConfiguration_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PaymentTypeDescription", "ShippingTypeDescription", "PurchasePriceCurrencyId", "PurchasePriceCurrencySymbol", "PurchasePriceCharacteristicId", "ShippingTypeId", "PaymentTypeId", "PurchasePriceCharacDescription", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

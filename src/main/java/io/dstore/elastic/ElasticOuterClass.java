@@ -131,7 +131,7 @@ public final class ElasticOuterClass {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_Field_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -199,7 +199,7 @@ public final class ElasticOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_elastic_Sort_FieldSort_descriptor,
         new java.lang.String[] { "FieldName", "SortOrder", "MissingTreatment", "SortMode", "NestedFilter", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

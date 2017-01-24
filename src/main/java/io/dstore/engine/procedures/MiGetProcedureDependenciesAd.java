@@ -19,17 +19,17 @@ public final class MiGetProcedureDependenciesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
-    io.dstore.Values.stringValue getProcedureName();
+    io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
      * <code>optional bool procedure_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetProcedureDependenciesAd {
     boolean getProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
      */
     boolean hasMaxLevelOfDependence();
     /**
-     * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
      */
-    io.dstore.Values.integerValue getMaxLevelOfDependence();
+    io.dstore.values.IntegerValue getMaxLevelOfDependence();
     /**
-     * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMaxLevelOfDependenceOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMaxLevelOfDependenceOrBuilder();
 
     /**
      * <code>optional bool max_level_of_dependence_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetProcedureDependenciesAd {
     boolean getMaxLevelOfDependenceNull();
 
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
      */
     boolean hasMaxNumberOfRows();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
      */
-    io.dstore.Values.integerValue getMaxNumberOfRows();
+    io.dstore.values.IntegerValue getMaxNumberOfRows();
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMaxNumberOfRowsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMaxNumberOfRowsOrBuilder();
 
     /**
      * <code>optional bool max_number_of_rows_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiGetProcedureDependenciesAd {
     boolean getMaxNumberOfRowsNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+     * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
      */
     boolean hasSiblingSortByName();
     /**
-     * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+     * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
      */
-    io.dstore.Values.booleanValue getSiblingSortByName();
+    io.dstore.values.BooleanValue getSiblingSortByName();
     /**
-     * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+     * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getSiblingSortByNameOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getSiblingSortByNameOrBuilder();
 
     /**
      * <code>optional bool sibling_sort_by_name_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class MiGetProcedureDependenciesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (procedureName_ != null) {
                 subBuilder = procedureName_.toBuilder();
               }
-              procedureName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              procedureName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureName_);
                 procedureName_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class MiGetProcedureDependenciesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (maxLevelOfDependence_ != null) {
                 subBuilder = maxLevelOfDependence_.toBuilder();
               }
-              maxLevelOfDependence_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              maxLevelOfDependence_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxLevelOfDependence_);
                 maxLevelOfDependence_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class MiGetProcedureDependenciesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (maxNumberOfRows_ != null) {
                 subBuilder = maxNumberOfRows_.toBuilder();
               }
-              maxNumberOfRows_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              maxNumberOfRows_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfRows_);
                 maxNumberOfRows_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class MiGetProcedureDependenciesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (siblingSortByName_ != null) {
                 subBuilder = siblingSortByName_.toBuilder();
               }
-              siblingSortByName_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              siblingSortByName_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(siblingSortByName_);
                 siblingSortByName_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class MiGetProcedureDependenciesAd {
     }
 
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue procedureName_;
+    private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getProcedureName() {
-      return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+    public io.dstore.values.StringValue getProcedureName() {
+      return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
     }
 
@@ -259,23 +259,23 @@ public final class MiGetProcedureDependenciesAd {
     }
 
     public static final int MAX_LEVEL_OF_DEPENDENCE_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue maxLevelOfDependence_;
+    private io.dstore.values.IntegerValue maxLevelOfDependence_;
     /**
-     * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
      */
     public boolean hasMaxLevelOfDependence() {
       return maxLevelOfDependence_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
      */
-    public io.dstore.Values.integerValue getMaxLevelOfDependence() {
-      return maxLevelOfDependence_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxLevelOfDependence_;
+    public io.dstore.values.IntegerValue getMaxLevelOfDependence() {
+      return maxLevelOfDependence_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxLevelOfDependence_;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMaxLevelOfDependenceOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMaxLevelOfDependenceOrBuilder() {
       return getMaxLevelOfDependence();
     }
 
@@ -289,23 +289,23 @@ public final class MiGetProcedureDependenciesAd {
     }
 
     public static final int MAX_NUMBER_OF_ROWS_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue maxNumberOfRows_;
+    private io.dstore.values.IntegerValue maxNumberOfRows_;
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
      */
     public boolean hasMaxNumberOfRows() {
       return maxNumberOfRows_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
      */
-    public io.dstore.Values.integerValue getMaxNumberOfRows() {
-      return maxNumberOfRows_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfRows_;
+    public io.dstore.values.IntegerValue getMaxNumberOfRows() {
+      return maxNumberOfRows_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfRows_;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+     * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
       return getMaxNumberOfRows();
     }
 
@@ -319,23 +319,23 @@ public final class MiGetProcedureDependenciesAd {
     }
 
     public static final int SIBLING_SORT_BY_NAME_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue siblingSortByName_;
+    private io.dstore.values.BooleanValue siblingSortByName_;
     /**
-     * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+     * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
      */
     public boolean hasSiblingSortByName() {
       return siblingSortByName_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+     * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
      */
-    public io.dstore.Values.booleanValue getSiblingSortByName() {
-      return siblingSortByName_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : siblingSortByName_;
+    public io.dstore.values.BooleanValue getSiblingSortByName() {
+      return siblingSortByName_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : siblingSortByName_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+     * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getSiblingSortByNameOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getSiblingSortByNameOrBuilder() {
       return getSiblingSortByName();
     }
 
@@ -792,29 +792,29 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue procedureName_ = null;
+      private io.dstore.values.StringValue procedureName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getProcedureName() {
+      public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
-          return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+          return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
         } else {
           return procedureNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public Builder setProcedureName(io.dstore.Values.stringValue value) {
+      public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (procedureNameBuilder_ == null) {
           procedureName_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
+      public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
           if (procedureName_ != null) {
             procedureName_ =
-              io.dstore.Values.stringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
           } else {
             procedureName_ = value;
           }
@@ -860,7 +860,7 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
+      public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
         onChanged();
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
           return procedureNameBuilder_.getMessageOrBuilder();
         } else {
           return procedureName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+              io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getProcedureNameFieldBuilder() {
         if (procedureNameBuilder_ == null) {
           procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getProcedureName(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue maxLevelOfDependence_ = null;
+      private io.dstore.values.IntegerValue maxLevelOfDependence_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxLevelOfDependenceBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxLevelOfDependenceBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
        */
       public boolean hasMaxLevelOfDependence() {
         return maxLevelOfDependenceBuilder_ != null || maxLevelOfDependence_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
        */
-      public io.dstore.Values.integerValue getMaxLevelOfDependence() {
+      public io.dstore.values.IntegerValue getMaxLevelOfDependence() {
         if (maxLevelOfDependenceBuilder_ == null) {
-          return maxLevelOfDependence_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxLevelOfDependence_;
+          return maxLevelOfDependence_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxLevelOfDependence_;
         } else {
           return maxLevelOfDependenceBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
        */
-      public Builder setMaxLevelOfDependence(io.dstore.Values.integerValue value) {
+      public Builder setMaxLevelOfDependence(io.dstore.values.IntegerValue value) {
         if (maxLevelOfDependenceBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
        */
       public Builder setMaxLevelOfDependence(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (maxLevelOfDependenceBuilder_ == null) {
           maxLevelOfDependence_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
        */
-      public Builder mergeMaxLevelOfDependence(io.dstore.Values.integerValue value) {
+      public Builder mergeMaxLevelOfDependence(io.dstore.values.IntegerValue value) {
         if (maxLevelOfDependenceBuilder_ == null) {
           if (maxLevelOfDependence_ != null) {
             maxLevelOfDependence_ =
-              io.dstore.Values.integerValue.newBuilder(maxLevelOfDependence_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(maxLevelOfDependence_).mergeFrom(value).buildPartial();
           } else {
             maxLevelOfDependence_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
        */
       public Builder clearMaxLevelOfDependence() {
         if (maxLevelOfDependenceBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMaxLevelOfDependenceBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMaxLevelOfDependenceBuilder() {
         
         onChanged();
         return getMaxLevelOfDependenceFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxLevelOfDependenceOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxLevelOfDependenceOrBuilder() {
         if (maxLevelOfDependenceBuilder_ != null) {
           return maxLevelOfDependenceBuilder_.getMessageOrBuilder();
         } else {
           return maxLevelOfDependence_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : maxLevelOfDependence_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : maxLevelOfDependence_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_level_of_dependence = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_level_of_dependence = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMaxLevelOfDependenceFieldBuilder() {
         if (maxLevelOfDependenceBuilder_ == null) {
           maxLevelOfDependenceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMaxLevelOfDependence(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue maxNumberOfRows_ = null;
+      private io.dstore.values.IntegerValue maxNumberOfRows_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxNumberOfRowsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxNumberOfRowsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
        */
       public boolean hasMaxNumberOfRows() {
         return maxNumberOfRowsBuilder_ != null || maxNumberOfRows_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
        */
-      public io.dstore.Values.integerValue getMaxNumberOfRows() {
+      public io.dstore.values.IntegerValue getMaxNumberOfRows() {
         if (maxNumberOfRowsBuilder_ == null) {
-          return maxNumberOfRows_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfRows_;
+          return maxNumberOfRows_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfRows_;
         } else {
           return maxNumberOfRowsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
        */
-      public Builder setMaxNumberOfRows(io.dstore.Values.integerValue value) {
+      public Builder setMaxNumberOfRows(io.dstore.values.IntegerValue value) {
         if (maxNumberOfRowsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
        */
       public Builder setMaxNumberOfRows(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (maxNumberOfRowsBuilder_ == null) {
           maxNumberOfRows_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
        */
-      public Builder mergeMaxNumberOfRows(io.dstore.Values.integerValue value) {
+      public Builder mergeMaxNumberOfRows(io.dstore.values.IntegerValue value) {
         if (maxNumberOfRowsBuilder_ == null) {
           if (maxNumberOfRows_ != null) {
             maxNumberOfRows_ =
-              io.dstore.Values.integerValue.newBuilder(maxNumberOfRows_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(maxNumberOfRows_).mergeFrom(value).buildPartial();
           } else {
             maxNumberOfRows_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
        */
       public Builder clearMaxNumberOfRows() {
         if (maxNumberOfRowsBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMaxNumberOfRowsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMaxNumberOfRowsBuilder() {
         
         onChanged();
         return getMaxNumberOfRowsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxNumberOfRowsOrBuilder() {
         if (maxNumberOfRowsBuilder_ != null) {
           return maxNumberOfRowsBuilder_.getMessageOrBuilder();
         } else {
           return maxNumberOfRows_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : maxNumberOfRows_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : maxNumberOfRows_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_number_of_rows = 3;</code>
+       * <code>optional .dstore.values.IntegerValue max_number_of_rows = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMaxNumberOfRowsFieldBuilder() {
         if (maxNumberOfRowsBuilder_ == null) {
           maxNumberOfRowsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMaxNumberOfRows(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue siblingSortByName_ = null;
+      private io.dstore.values.BooleanValue siblingSortByName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> siblingSortByNameBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> siblingSortByNameBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+       * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
        */
       public boolean hasSiblingSortByName() {
         return siblingSortByNameBuilder_ != null || siblingSortByName_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+       * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
        */
-      public io.dstore.Values.booleanValue getSiblingSortByName() {
+      public io.dstore.values.BooleanValue getSiblingSortByName() {
         if (siblingSortByNameBuilder_ == null) {
-          return siblingSortByName_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : siblingSortByName_;
+          return siblingSortByName_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : siblingSortByName_;
         } else {
           return siblingSortByNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+       * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
        */
-      public Builder setSiblingSortByName(io.dstore.Values.booleanValue value) {
+      public Builder setSiblingSortByName(io.dstore.values.BooleanValue value) {
         if (siblingSortByNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+       * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
        */
       public Builder setSiblingSortByName(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (siblingSortByNameBuilder_ == null) {
           siblingSortByName_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+       * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
        */
-      public Builder mergeSiblingSortByName(io.dstore.Values.booleanValue value) {
+      public Builder mergeSiblingSortByName(io.dstore.values.BooleanValue value) {
         if (siblingSortByNameBuilder_ == null) {
           if (siblingSortByName_ != null) {
             siblingSortByName_ =
-              io.dstore.Values.booleanValue.newBuilder(siblingSortByName_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(siblingSortByName_).mergeFrom(value).buildPartial();
           } else {
             siblingSortByName_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+       * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
        */
       public Builder clearSiblingSortByName() {
         if (siblingSortByNameBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class MiGetProcedureDependenciesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+       * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getSiblingSortByNameBuilder() {
+      public io.dstore.values.BooleanValue.Builder getSiblingSortByNameBuilder() {
         
         onChanged();
         return getSiblingSortByNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+       * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getSiblingSortByNameOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getSiblingSortByNameOrBuilder() {
         if (siblingSortByNameBuilder_ != null) {
           return siblingSortByNameBuilder_.getMessageOrBuilder();
         } else {
           return siblingSortByName_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : siblingSortByName_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : siblingSortByName_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue sibling_sort_by_name = 4;</code>
+       * <code>optional .dstore.values.BooleanValue sibling_sort_by_name = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getSiblingSortByNameFieldBuilder() {
         if (siblingSortByNameBuilder_ == null) {
           siblingSortByNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getSiblingSortByName(),
                   getParentForChildren(),
                   isClean());
@@ -1623,7 +1623,7 @@ public final class MiGetProcedureDependenciesAd {
        * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
        */
       boolean hasCalledInProcedureName();
       /**
@@ -1631,24 +1631,24 @@ public final class MiGetProcedureDependenciesAd {
        * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
        */
-      io.dstore.Values.stringValue getCalledInProcedureName();
+      io.dstore.values.StringValue getCalledInProcedureName();
       /**
        * <pre>
        * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCalledInProcedureNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCalledInProcedureNameOrBuilder();
 
       /**
        * <pre>
        * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+       * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
        */
       boolean hasCodeLineNumbers();
       /**
@@ -1656,24 +1656,24 @@ public final class MiGetProcedureDependenciesAd {
        * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+       * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
        */
-      io.dstore.Values.stringValue getCodeLineNumbers();
+      io.dstore.values.StringValue getCodeLineNumbers();
       /**
        * <pre>
        * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+       * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCodeLineNumbersOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCodeLineNumbersOrBuilder();
 
       /**
        * <pre>
        * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
        */
       boolean hasLevelOfDependence();
       /**
@@ -1681,24 +1681,24 @@ public final class MiGetProcedureDependenciesAd {
        * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
        */
-      io.dstore.Values.integerValue getLevelOfDependence();
+      io.dstore.values.IntegerValue getLevelOfDependence();
       /**
        * <pre>
        * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getLevelOfDependenceOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getLevelOfDependenceOrBuilder();
 
       /**
        * <pre>
        * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
       boolean hasProcedureName();
       /**
@@ -1706,24 +1706,24 @@ public final class MiGetProcedureDependenciesAd {
        * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
-      io.dstore.Values.stringValue getProcedureName();
+      io.dstore.values.StringValue getProcedureName();
       /**
        * <pre>
        * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
       /**
        * <pre>
        * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
        */
       boolean hasStatusCode();
       /**
@@ -1731,17 +1731,17 @@ public final class MiGetProcedureDependenciesAd {
        * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
        */
-      io.dstore.Values.integerValue getStatusCode();
+      io.dstore.values.IntegerValue getStatusCode();
       /**
        * <pre>
        * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getStatusCodeOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getStatusCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetProcedureDependencies_Ad.Response.Row}
@@ -1789,11 +1789,11 @@ public final class MiGetProcedureDependenciesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (calledInProcedureName_ != null) {
                   subBuilder = calledInProcedureName_.toBuilder();
                 }
-                calledInProcedureName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                calledInProcedureName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(calledInProcedureName_);
                   calledInProcedureName_ = subBuilder.buildPartial();
@@ -1802,11 +1802,11 @@ public final class MiGetProcedureDependenciesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (codeLineNumbers_ != null) {
                   subBuilder = codeLineNumbers_.toBuilder();
                 }
-                codeLineNumbers_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                codeLineNumbers_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLineNumbers_);
                   codeLineNumbers_ = subBuilder.buildPartial();
@@ -1815,11 +1815,11 @@ public final class MiGetProcedureDependenciesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (levelOfDependence_ != null) {
                   subBuilder = levelOfDependence_.toBuilder();
                 }
-                levelOfDependence_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                levelOfDependence_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelOfDependence_);
                   levelOfDependence_ = subBuilder.buildPartial();
@@ -1828,11 +1828,11 @@ public final class MiGetProcedureDependenciesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (procedureName_ != null) {
                   subBuilder = procedureName_.toBuilder();
                 }
-                procedureName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                procedureName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureName_);
                   procedureName_ = subBuilder.buildPartial();
@@ -1841,11 +1841,11 @@ public final class MiGetProcedureDependenciesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (statusCode_ != null) {
                   subBuilder = statusCode_.toBuilder();
                 }
-                statusCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                statusCode_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(statusCode_);
                   statusCode_ = subBuilder.buildPartial();
@@ -1886,13 +1886,13 @@ public final class MiGetProcedureDependenciesAd {
       }
 
       public static final int CALLED_IN_PROCEDURE_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue calledInProcedureName_;
+      private io.dstore.values.StringValue calledInProcedureName_;
       /**
        * <pre>
        * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
        */
       public boolean hasCalledInProcedureName() {
         return calledInProcedureName_ != null;
@@ -1902,30 +1902,30 @@ public final class MiGetProcedureDependenciesAd {
        * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
        */
-      public io.dstore.Values.stringValue getCalledInProcedureName() {
-        return calledInProcedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : calledInProcedureName_;
+      public io.dstore.values.StringValue getCalledInProcedureName() {
+        return calledInProcedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : calledInProcedureName_;
       }
       /**
        * <pre>
        * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCalledInProcedureNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCalledInProcedureNameOrBuilder() {
         return getCalledInProcedureName();
       }
 
       public static final int CODE_LINE_NUMBERS_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue codeLineNumbers_;
+      private io.dstore.values.StringValue codeLineNumbers_;
       /**
        * <pre>
        * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+       * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
        */
       public boolean hasCodeLineNumbers() {
         return codeLineNumbers_ != null;
@@ -1935,30 +1935,30 @@ public final class MiGetProcedureDependenciesAd {
        * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+       * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
        */
-      public io.dstore.Values.stringValue getCodeLineNumbers() {
-        return codeLineNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLineNumbers_;
+      public io.dstore.values.StringValue getCodeLineNumbers() {
+        return codeLineNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codeLineNumbers_;
       }
       /**
        * <pre>
        * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+       * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCodeLineNumbersOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCodeLineNumbersOrBuilder() {
         return getCodeLineNumbers();
       }
 
       public static final int LEVEL_OF_DEPENDENCE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue levelOfDependence_;
+      private io.dstore.values.IntegerValue levelOfDependence_;
       /**
        * <pre>
        * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
        */
       public boolean hasLevelOfDependence() {
         return levelOfDependence_ != null;
@@ -1968,30 +1968,30 @@ public final class MiGetProcedureDependenciesAd {
        * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
        */
-      public io.dstore.Values.integerValue getLevelOfDependence() {
-        return levelOfDependence_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelOfDependence_;
+      public io.dstore.values.IntegerValue getLevelOfDependence() {
+        return levelOfDependence_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelOfDependence_;
       }
       /**
        * <pre>
        * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLevelOfDependenceOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLevelOfDependenceOrBuilder() {
         return getLevelOfDependence();
       }
 
       public static final int PROCEDURE_NAME_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue procedureName_;
+      private io.dstore.values.StringValue procedureName_;
       /**
        * <pre>
        * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
@@ -2001,30 +2001,30 @@ public final class MiGetProcedureDependenciesAd {
        * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
-      public io.dstore.Values.stringValue getProcedureName() {
-        return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+      public io.dstore.values.StringValue getProcedureName() {
+        return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
       }
       /**
        * <pre>
        * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
       }
 
       public static final int STATUS_CODE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue statusCode_;
+      private io.dstore.values.IntegerValue statusCode_;
       /**
        * <pre>
        * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
        */
       public boolean hasStatusCode() {
         return statusCode_ != null;
@@ -2034,19 +2034,19 @@ public final class MiGetProcedureDependenciesAd {
        * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
        */
-      public io.dstore.Values.integerValue getStatusCode() {
-        return statusCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : statusCode_;
+      public io.dstore.values.IntegerValue getStatusCode() {
+        return statusCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : statusCode_;
       }
       /**
        * <pre>
        * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getStatusCodeOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getStatusCodeOrBuilder() {
         return getStatusCode();
       }
 
@@ -2495,15 +2495,15 @@ public final class MiGetProcedureDependenciesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue calledInProcedureName_ = null;
+        private io.dstore.values.StringValue calledInProcedureName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> calledInProcedureNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> calledInProcedureNameBuilder_;
         /**
          * <pre>
          * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
          */
         public boolean hasCalledInProcedureName() {
           return calledInProcedureNameBuilder_ != null || calledInProcedureName_ != null;
@@ -2513,11 +2513,11 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue getCalledInProcedureName() {
+        public io.dstore.values.StringValue getCalledInProcedureName() {
           if (calledInProcedureNameBuilder_ == null) {
-            return calledInProcedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : calledInProcedureName_;
+            return calledInProcedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : calledInProcedureName_;
           } else {
             return calledInProcedureNameBuilder_.getMessage();
           }
@@ -2527,9 +2527,9 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
          */
-        public Builder setCalledInProcedureName(io.dstore.Values.stringValue value) {
+        public Builder setCalledInProcedureName(io.dstore.values.StringValue value) {
           if (calledInProcedureNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2547,10 +2547,10 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
          */
         public Builder setCalledInProcedureName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (calledInProcedureNameBuilder_ == null) {
             calledInProcedureName_ = builderForValue.build();
             onChanged();
@@ -2565,13 +2565,13 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
          */
-        public Builder mergeCalledInProcedureName(io.dstore.Values.stringValue value) {
+        public Builder mergeCalledInProcedureName(io.dstore.values.StringValue value) {
           if (calledInProcedureNameBuilder_ == null) {
             if (calledInProcedureName_ != null) {
               calledInProcedureName_ =
-                io.dstore.Values.stringValue.newBuilder(calledInProcedureName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(calledInProcedureName_).mergeFrom(value).buildPartial();
             } else {
               calledInProcedureName_ = value;
             }
@@ -2587,7 +2587,7 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
          */
         public Builder clearCalledInProcedureName() {
           if (calledInProcedureNameBuilder_ == null) {
@@ -2605,9 +2605,9 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCalledInProcedureNameBuilder() {
+        public io.dstore.values.StringValue.Builder getCalledInProcedureNameBuilder() {
           
           onChanged();
           return getCalledInProcedureNameFieldBuilder().getBuilder();
@@ -2617,14 +2617,14 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCalledInProcedureNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCalledInProcedureNameOrBuilder() {
           if (calledInProcedureNameBuilder_ != null) {
             return calledInProcedureNameBuilder_.getMessageOrBuilder();
           } else {
             return calledInProcedureName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : calledInProcedureName_;
+                io.dstore.values.StringValue.getDefaultInstance() : calledInProcedureName_;
           }
         }
         /**
@@ -2632,14 +2632,14 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die "ProcedureName" aufruft. Falls "LevelOfDependence = 1" ist, handelt es sich immer um "&#64;ProcedureName" (sonst eine Prozedur, die in "&#64;ProcedureName" aufgerufen wird und selbst wiederum eine Prozedur aufruft oder ... usw.).
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue called_in_procedure_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue called_in_procedure_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCalledInProcedureNameFieldBuilder() {
           if (calledInProcedureNameBuilder_ == null) {
             calledInProcedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCalledInProcedureName(),
                     getParentForChildren(),
                     isClean());
@@ -2648,15 +2648,15 @@ public final class MiGetProcedureDependenciesAd {
           return calledInProcedureNameBuilder_;
         }
 
-        private io.dstore.Values.stringValue codeLineNumbers_ = null;
+        private io.dstore.values.StringValue codeLineNumbers_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> codeLineNumbersBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> codeLineNumbersBuilder_;
         /**
          * <pre>
          * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+         * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
          */
         public boolean hasCodeLineNumbers() {
           return codeLineNumbersBuilder_ != null || codeLineNumbers_ != null;
@@ -2666,11 +2666,11 @@ public final class MiGetProcedureDependenciesAd {
          * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+         * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
          */
-        public io.dstore.Values.stringValue getCodeLineNumbers() {
+        public io.dstore.values.StringValue getCodeLineNumbers() {
           if (codeLineNumbersBuilder_ == null) {
-            return codeLineNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLineNumbers_;
+            return codeLineNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codeLineNumbers_;
           } else {
             return codeLineNumbersBuilder_.getMessage();
           }
@@ -2680,9 +2680,9 @@ public final class MiGetProcedureDependenciesAd {
          * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+         * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
          */
-        public Builder setCodeLineNumbers(io.dstore.Values.stringValue value) {
+        public Builder setCodeLineNumbers(io.dstore.values.StringValue value) {
           if (codeLineNumbersBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2700,10 +2700,10 @@ public final class MiGetProcedureDependenciesAd {
          * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+         * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
          */
         public Builder setCodeLineNumbers(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (codeLineNumbersBuilder_ == null) {
             codeLineNumbers_ = builderForValue.build();
             onChanged();
@@ -2718,13 +2718,13 @@ public final class MiGetProcedureDependenciesAd {
          * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+         * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
          */
-        public Builder mergeCodeLineNumbers(io.dstore.Values.stringValue value) {
+        public Builder mergeCodeLineNumbers(io.dstore.values.StringValue value) {
           if (codeLineNumbersBuilder_ == null) {
             if (codeLineNumbers_ != null) {
               codeLineNumbers_ =
-                io.dstore.Values.stringValue.newBuilder(codeLineNumbers_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(codeLineNumbers_).mergeFrom(value).buildPartial();
             } else {
               codeLineNumbers_ = value;
             }
@@ -2740,7 +2740,7 @@ public final class MiGetProcedureDependenciesAd {
          * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+         * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
          */
         public Builder clearCodeLineNumbers() {
           if (codeLineNumbersBuilder_ == null) {
@@ -2758,9 +2758,9 @@ public final class MiGetProcedureDependenciesAd {
          * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+         * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCodeLineNumbersBuilder() {
+        public io.dstore.values.StringValue.Builder getCodeLineNumbersBuilder() {
           
           onChanged();
           return getCodeLineNumbersFieldBuilder().getBuilder();
@@ -2770,14 +2770,14 @@ public final class MiGetProcedureDependenciesAd {
          * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+         * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCodeLineNumbersOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCodeLineNumbersOrBuilder() {
           if (codeLineNumbersBuilder_ != null) {
             return codeLineNumbersBuilder_.getMessageOrBuilder();
           } else {
             return codeLineNumbers_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : codeLineNumbers_;
+                io.dstore.values.StringValue.getDefaultInstance() : codeLineNumbers_;
           }
         }
         /**
@@ -2785,14 +2785,14 @@ public final class MiGetProcedureDependenciesAd {
          * In welchen Code-Zeilen (durch "," getrennt) von "CalledInProcedureName" (Anmerkung : INKLUSIVE Beachtung von Kommentar-Zeilen) sich ein Aufruf von "ProcedureName" befindet
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line_numbers = 10002;</code>
+         * <code>optional .dstore.values.StringValue code_line_numbers = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCodeLineNumbersFieldBuilder() {
           if (codeLineNumbersBuilder_ == null) {
             codeLineNumbersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCodeLineNumbers(),
                     getParentForChildren(),
                     isClean());
@@ -2801,15 +2801,15 @@ public final class MiGetProcedureDependenciesAd {
           return codeLineNumbersBuilder_;
         }
 
-        private io.dstore.Values.integerValue levelOfDependence_ = null;
+        private io.dstore.values.IntegerValue levelOfDependence_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelOfDependenceBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelOfDependenceBuilder_;
         /**
          * <pre>
          * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
          */
         public boolean hasLevelOfDependence() {
           return levelOfDependenceBuilder_ != null || levelOfDependence_ != null;
@@ -2819,11 +2819,11 @@ public final class MiGetProcedureDependenciesAd {
          * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
          */
-        public io.dstore.Values.integerValue getLevelOfDependence() {
+        public io.dstore.values.IntegerValue getLevelOfDependence() {
           if (levelOfDependenceBuilder_ == null) {
-            return levelOfDependence_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelOfDependence_;
+            return levelOfDependence_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelOfDependence_;
           } else {
             return levelOfDependenceBuilder_.getMessage();
           }
@@ -2833,9 +2833,9 @@ public final class MiGetProcedureDependenciesAd {
          * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
          */
-        public Builder setLevelOfDependence(io.dstore.Values.integerValue value) {
+        public Builder setLevelOfDependence(io.dstore.values.IntegerValue value) {
           if (levelOfDependenceBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2853,10 +2853,10 @@ public final class MiGetProcedureDependenciesAd {
          * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
          */
         public Builder setLevelOfDependence(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (levelOfDependenceBuilder_ == null) {
             levelOfDependence_ = builderForValue.build();
             onChanged();
@@ -2871,13 +2871,13 @@ public final class MiGetProcedureDependenciesAd {
          * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
          */
-        public Builder mergeLevelOfDependence(io.dstore.Values.integerValue value) {
+        public Builder mergeLevelOfDependence(io.dstore.values.IntegerValue value) {
           if (levelOfDependenceBuilder_ == null) {
             if (levelOfDependence_ != null) {
               levelOfDependence_ =
-                io.dstore.Values.integerValue.newBuilder(levelOfDependence_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(levelOfDependence_).mergeFrom(value).buildPartial();
             } else {
               levelOfDependence_ = value;
             }
@@ -2893,7 +2893,7 @@ public final class MiGetProcedureDependenciesAd {
          * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
          */
         public Builder clearLevelOfDependence() {
           if (levelOfDependenceBuilder_ == null) {
@@ -2911,9 +2911,9 @@ public final class MiGetProcedureDependenciesAd {
          * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getLevelOfDependenceBuilder() {
+        public io.dstore.values.IntegerValue.Builder getLevelOfDependenceBuilder() {
           
           onChanged();
           return getLevelOfDependenceFieldBuilder().getBuilder();
@@ -2923,14 +2923,14 @@ public final class MiGetProcedureDependenciesAd {
          * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getLevelOfDependenceOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getLevelOfDependenceOrBuilder() {
           if (levelOfDependenceBuilder_ != null) {
             return levelOfDependenceBuilder_.getMessageOrBuilder();
           } else {
             return levelOfDependence_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : levelOfDependence_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : levelOfDependence_;
           }
         }
         /**
@@ -2938,14 +2938,14 @@ public final class MiGetProcedureDependenciesAd {
          * Grad der Abhängigkeit bzw. eine Art "TreeLevel" (oder "Baumtiefe") :- "1" : Direkter Aufruf ("CalledInProcedureName = &#64;ProcedureName")- "2" : Indirekter Aufruf "2. Grades" (Aufruf in einer Prozedur, die in "&#64;ProcedureName" aufgerufen wird)usw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue level_of_dependence = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue level_of_dependence = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getLevelOfDependenceFieldBuilder() {
           if (levelOfDependenceBuilder_ == null) {
             levelOfDependenceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getLevelOfDependence(),
                     getParentForChildren(),
                     isClean());
@@ -2954,15 +2954,15 @@ public final class MiGetProcedureDependenciesAd {
           return levelOfDependenceBuilder_;
         }
 
-        private io.dstore.Values.stringValue procedureName_ = null;
+        private io.dstore.values.StringValue procedureName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
         /**
          * <pre>
          * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
@@ -2972,11 +2972,11 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public io.dstore.Values.stringValue getProcedureName() {
+        public io.dstore.values.StringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
-            return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+            return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
           } else {
             return procedureNameBuilder_.getMessage();
           }
@@ -2986,9 +2986,9 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public Builder setProcedureName(io.dstore.Values.stringValue value) {
+        public Builder setProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3006,10 +3006,10 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (procedureNameBuilder_ == null) {
             procedureName_ = builderForValue.build();
             onChanged();
@@ -3024,13 +3024,13 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
+        public Builder mergeProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
             if (procedureName_ != null) {
               procedureName_ =
-                io.dstore.Values.stringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
             } else {
               procedureName_ = value;
             }
@@ -3046,7 +3046,7 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -3064,9 +3064,9 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
+        public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
           
           onChanged();
           return getProcedureNameFieldBuilder().getBuilder();
@@ -3076,14 +3076,14 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
             return procedureNameBuilder_.getMessageOrBuilder();
           } else {
             return procedureName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+                io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
           }
         }
         /**
@@ -3091,14 +3091,14 @@ public final class MiGetProcedureDependenciesAd {
          * Name einer Prozedur, die IN "CalledInProcedureName" aufgerufen wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getProcedureNameFieldBuilder() {
           if (procedureNameBuilder_ == null) {
             procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getProcedureName(),
                     getParentForChildren(),
                     isClean());
@@ -3107,15 +3107,15 @@ public final class MiGetProcedureDependenciesAd {
           return procedureNameBuilder_;
         }
 
-        private io.dstore.Values.integerValue statusCode_ = null;
+        private io.dstore.values.IntegerValue statusCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> statusCodeBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> statusCodeBuilder_;
         /**
          * <pre>
          * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
          */
         public boolean hasStatusCode() {
           return statusCodeBuilder_ != null || statusCode_ != null;
@@ -3125,11 +3125,11 @@ public final class MiGetProcedureDependenciesAd {
          * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
          */
-        public io.dstore.Values.integerValue getStatusCode() {
+        public io.dstore.values.IntegerValue getStatusCode() {
           if (statusCodeBuilder_ == null) {
-            return statusCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : statusCode_;
+            return statusCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : statusCode_;
           } else {
             return statusCodeBuilder_.getMessage();
           }
@@ -3139,9 +3139,9 @@ public final class MiGetProcedureDependenciesAd {
          * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
          */
-        public Builder setStatusCode(io.dstore.Values.integerValue value) {
+        public Builder setStatusCode(io.dstore.values.IntegerValue value) {
           if (statusCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3159,10 +3159,10 @@ public final class MiGetProcedureDependenciesAd {
          * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
          */
         public Builder setStatusCode(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (statusCodeBuilder_ == null) {
             statusCode_ = builderForValue.build();
             onChanged();
@@ -3177,13 +3177,13 @@ public final class MiGetProcedureDependenciesAd {
          * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
          */
-        public Builder mergeStatusCode(io.dstore.Values.integerValue value) {
+        public Builder mergeStatusCode(io.dstore.values.IntegerValue value) {
           if (statusCodeBuilder_ == null) {
             if (statusCode_ != null) {
               statusCode_ =
-                io.dstore.Values.integerValue.newBuilder(statusCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(statusCode_).mergeFrom(value).buildPartial();
             } else {
               statusCode_ = value;
             }
@@ -3199,7 +3199,7 @@ public final class MiGetProcedureDependenciesAd {
          * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
          */
         public Builder clearStatusCode() {
           if (statusCodeBuilder_ == null) {
@@ -3217,9 +3217,9 @@ public final class MiGetProcedureDependenciesAd {
          * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getStatusCodeBuilder() {
+        public io.dstore.values.IntegerValue.Builder getStatusCodeBuilder() {
           
           onChanged();
           return getStatusCodeFieldBuilder().getBuilder();
@@ -3229,14 +3229,14 @@ public final class MiGetProcedureDependenciesAd {
          * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getStatusCodeOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getStatusCodeOrBuilder() {
           if (statusCodeBuilder_ != null) {
             return statusCodeBuilder_.getMessageOrBuilder();
           } else {
             return statusCode_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : statusCode_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : statusCode_;
           }
         }
         /**
@@ -3244,14 +3244,14 @@ public final class MiGetProcedureDependenciesAd {
          * Wert "&lt;&gt; 0" heißt "Traversierung an dieser Stelle abge-/unterbrochen". Mögliche Gründe:- "1" : Zirkel-Bezug- "2" : Analyse nicht möglicht- "3" : Quellcode nicht vorhanden- "4" : "&#64;MaxNumberOfRows" erreicht- "5" : "&#64;MaxLevelOfDependence" erreicht
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue status_code = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue status_code = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getStatusCodeFieldBuilder() {
           if (statusCodeBuilder_ == null) {
             statusCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getStatusCode(),
                     getParentForChildren(),
                     isClean());
@@ -4721,14 +4721,14 @@ public final class MiGetProcedureDependenciesAd {
       "i_GetProcedureDependencies_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\375" +
       "\002\n\nParameters\0222\n\016procedure_name\030\001 \001(\0132\032." +
-      "dstore.values.stringValue\022\034\n\023procedure_n" +
+      "dstore.values.StringValue\022\034\n\023procedure_n" +
       "ame_null\030\351\007 \001(\010\022<\n\027max_level_of_dependen" +
-      "ce\030\002 \001(\0132\033.dstore.values.integerValue\022%\n" +
+      "ce\030\002 \001(\0132\033.dstore.values.IntegerValue\022%\n" +
       "\034max_level_of_dependence_null\030\352\007 \001(\010\0227\n\022" +
       "max_number_of_rows\030\003 \001(\0132\033.dstore.values",
-      ".integerValue\022 \n\027max_number_of_rows_null" +
+      ".IntegerValue\022 \n\027max_number_of_rows_null" +
       "\030\353\007 \001(\010\0229\n\024sibling_sort_by_name\030\004 \001(\0132\033." +
-      "dstore.values.booleanValue\022\"\n\031sibling_so" +
+      "dstore.values.BooleanValue\022\"\n\031sibling_so" +
       "rt_by_name_null\030\354\007 \001(\010\"\351\003\n\010Response\0228\n\020m" +
       "eta_information\030\002 \003(\0132\036.dstore.engine.Me" +
       "taInformation\022\'\n\007message\030\003 \003(\0132\026.dstore." +
@@ -4736,12 +4736,12 @@ public final class MiGetProcedureDependenciesAd {
       "ine.mi_GetProcedureDependencies_Ad.Respo" +
       "nse.Row\032\260\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\022=\n\030call" +
       "ed_in_procedure_name\030\221N \001(\0132\032.dstore.val",
-      "ues.stringValue\0226\n\021code_line_numbers\030\222N " +
-      "\001(\0132\032.dstore.values.stringValue\0229\n\023level" +
-      "_of_dependence\030\223N \001(\0132\033.dstore.values.in" +
+      "ues.StringValue\0226\n\021code_line_numbers\030\222N " +
+      "\001(\0132\032.dstore.values.StringValue\0229\n\023level" +
+      "_of_dependence\030\223N \001(\0132\033.dstore.values.In" +
       "tegerValue\0223\n\016procedure_name\030\224N \001(\0132\032.ds" +
-      "tore.values.stringValue\0221\n\013status_code\030\225" +
-      "N \001(\0132\033.dstore.values.integerValueB_\n\033io" +
+      "tore.values.StringValue\0221\n\013status_code\030\225" +
+      "N \001(\0132\033.dstore.values.IntegerValueB_\n\033io" +
       ".dstore.engine.proceduresZ@gosdk.dstore." +
       "de/engine/procedures/mi_GetProcedureDepe" +
       "ndencies_Adb\006proto3"
@@ -4757,7 +4757,7 @@ public final class MiGetProcedureDependenciesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetProcedureDependencies_Ad_Parameters_descriptor =
@@ -4778,7 +4778,7 @@ public final class MiGetProcedureDependenciesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetProcedureDependencies_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CalledInProcedureName", "CodeLineNumbers", "LevelOfDependence", "ProcedureName", "StatusCode", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

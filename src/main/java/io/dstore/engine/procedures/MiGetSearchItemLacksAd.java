@@ -19,17 +19,17 @@ public final class MiGetSearchItemLacksAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
     boolean hasTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTableId();
+    io.dstore.values.IntegerValue getTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder();
 
     /**
      * <code>optional bool table_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetSearchItemLacksAd {
     boolean getTableIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
     boolean hasCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValue getCharacteristicId();
+    io.dstore.values.IntegerValue getCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool characteristic_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetSearchItemLacksAd {
     boolean getCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
     boolean hasSearchValue();
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
-    io.dstore.Values.stringValue getSearchValue();
+    io.dstore.values.StringValue getSearchValue();
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder();
 
     /**
      * <code>optional bool search_value_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiGetSearchItemLacksAd {
     boolean getSearchValueNull();
 
     /**
-     * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+     * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
      */
     boolean hasMinimalRequestCounter();
     /**
-     * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+     * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
      */
-    io.dstore.Values.integerValue getMinimalRequestCounter();
+    io.dstore.values.IntegerValue getMinimalRequestCounter();
     /**
-     * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+     * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMinimalRequestCounterOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMinimalRequestCounterOrBuilder();
 
     /**
      * <code>optional bool minimal_request_counter_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiGetSearchItemLacksAd {
     boolean getMinimalRequestCounterNull();
 
     /**
-     * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+     * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
      */
     boolean hasRowcount();
     /**
-     * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+     * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
      */
-    io.dstore.Values.integerValue getRowcount();
+    io.dstore.values.IntegerValue getRowcount();
     /**
-     * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+     * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRowcountOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRowcountOrBuilder();
 
     /**
      * <code>optional bool rowcount_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiGetSearchItemLacksAd {
     boolean getRowcountNull();
 
     /**
-     * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+     * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
      */
     boolean hasMaxRequestCounter();
     /**
-     * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+     * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
      */
-    io.dstore.Values.integerValue getMaxRequestCounter();
+    io.dstore.values.IntegerValue getMaxRequestCounter();
     /**
-     * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+     * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMaxRequestCounterOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMaxRequestCounterOrBuilder();
 
     /**
      * <code>optional bool max_request_counter_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class MiGetSearchItemLacksAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (tableId_ != null) {
                 subBuilder = tableId_.toBuilder();
               }
-              tableId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              tableId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableId_);
                 tableId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class MiGetSearchItemLacksAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (characteristicId_ != null) {
                 subBuilder = characteristicId_.toBuilder();
               }
-              characteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              characteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicId_);
                 characteristicId_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class MiGetSearchItemLacksAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (searchValue_ != null) {
                 subBuilder = searchValue_.toBuilder();
               }
-              searchValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              searchValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchValue_);
                 searchValue_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class MiGetSearchItemLacksAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (minimalRequestCounter_ != null) {
                 subBuilder = minimalRequestCounter_.toBuilder();
               }
-              minimalRequestCounter_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              minimalRequestCounter_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(minimalRequestCounter_);
                 minimalRequestCounter_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class MiGetSearchItemLacksAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (rowcount_ != null) {
                 subBuilder = rowcount_.toBuilder();
               }
-              rowcount_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              rowcount_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowcount_);
                 rowcount_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class MiGetSearchItemLacksAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (maxRequestCounter_ != null) {
                 subBuilder = maxRequestCounter_.toBuilder();
               }
-              maxRequestCounter_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              maxRequestCounter_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxRequestCounter_);
                 maxRequestCounter_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class MiGetSearchItemLacksAd {
     }
 
     public static final int TABLE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue tableId_;
+    private io.dstore.values.IntegerValue tableId_;
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
     public boolean hasTableId() {
       return tableId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTableId() {
-      return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+    public io.dstore.values.IntegerValue getTableId() {
+      return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
       return getTableId();
     }
 
@@ -333,23 +333,23 @@ public final class MiGetSearchItemLacksAd {
     }
 
     public static final int CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue characteristicId_;
+    private io.dstore.values.IntegerValue characteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
     public boolean hasCharacteristicId() {
       return characteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getCharacteristicId() {
-      return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
+    public io.dstore.values.IntegerValue getCharacteristicId() {
+      return characteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCharacteristicIdOrBuilder() {
       return getCharacteristicId();
     }
 
@@ -363,23 +363,23 @@ public final class MiGetSearchItemLacksAd {
     }
 
     public static final int SEARCH_VALUE_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue searchValue_;
+    private io.dstore.values.StringValue searchValue_;
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
     public boolean hasSearchValue() {
       return searchValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
-    public io.dstore.Values.stringValue getSearchValue() {
-      return searchValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+    public io.dstore.values.StringValue getSearchValue() {
+      return searchValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue search_value = 3;</code>
+     * <code>optional .dstore.values.StringValue search_value = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder() {
       return getSearchValue();
     }
 
@@ -393,23 +393,23 @@ public final class MiGetSearchItemLacksAd {
     }
 
     public static final int MINIMAL_REQUEST_COUNTER_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue minimalRequestCounter_;
+    private io.dstore.values.IntegerValue minimalRequestCounter_;
     /**
-     * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+     * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
      */
     public boolean hasMinimalRequestCounter() {
       return minimalRequestCounter_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+     * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
      */
-    public io.dstore.Values.integerValue getMinimalRequestCounter() {
-      return minimalRequestCounter_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : minimalRequestCounter_;
+    public io.dstore.values.IntegerValue getMinimalRequestCounter() {
+      return minimalRequestCounter_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : minimalRequestCounter_;
     }
     /**
-     * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+     * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMinimalRequestCounterOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMinimalRequestCounterOrBuilder() {
       return getMinimalRequestCounter();
     }
 
@@ -423,23 +423,23 @@ public final class MiGetSearchItemLacksAd {
     }
 
     public static final int ROWCOUNT_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue rowcount_;
+    private io.dstore.values.IntegerValue rowcount_;
     /**
-     * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+     * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
      */
     public boolean hasRowcount() {
       return rowcount_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+     * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
      */
-    public io.dstore.Values.integerValue getRowcount() {
-      return rowcount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowcount_;
+    public io.dstore.values.IntegerValue getRowcount() {
+      return rowcount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowcount_;
     }
     /**
-     * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+     * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRowcountOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRowcountOrBuilder() {
       return getRowcount();
     }
 
@@ -453,23 +453,23 @@ public final class MiGetSearchItemLacksAd {
     }
 
     public static final int MAX_REQUEST_COUNTER_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue maxRequestCounter_;
+    private io.dstore.values.IntegerValue maxRequestCounter_;
     /**
-     * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+     * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
      */
     public boolean hasMaxRequestCounter() {
       return maxRequestCounter_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+     * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
      */
-    public io.dstore.Values.integerValue getMaxRequestCounter() {
-      return maxRequestCounter_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxRequestCounter_;
+    public io.dstore.values.IntegerValue getMaxRequestCounter() {
+      return maxRequestCounter_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxRequestCounter_;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+     * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMaxRequestCounterOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMaxRequestCounterOrBuilder() {
       return getMaxRequestCounter();
     }
 
@@ -1022,29 +1022,29 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue tableId_ = null;
+      private io.dstore.values.IntegerValue tableId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public boolean hasTableId() {
         return tableIdBuilder_ != null || tableId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTableId() {
+      public io.dstore.values.IntegerValue getTableId() {
         if (tableIdBuilder_ == null) {
-          return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+          return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         } else {
           return tableIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public Builder setTableId(io.dstore.Values.integerValue value) {
+      public Builder setTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public Builder setTableId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (tableIdBuilder_ == null) {
           tableId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public Builder mergeTableId(io.dstore.Values.integerValue value) {
+      public Builder mergeTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (tableId_ != null) {
             tableId_ =
-              io.dstore.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
           } else {
             tableId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       public Builder clearTableId() {
         if (tableIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTableIdBuilder() {
         
         onChanged();
         return getTableIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
         if (tableIdBuilder_ != null) {
           return tableIdBuilder_.getMessageOrBuilder();
         } else {
           return tableId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTableIdFieldBuilder() {
         if (tableIdBuilder_ == null) {
           tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTableId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue characteristicId_ = null;
+      private io.dstore.values.IntegerValue characteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> characteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
       public boolean hasCharacteristicId() {
         return characteristicIdBuilder_ != null || characteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getCharacteristicId() {
+      public io.dstore.values.IntegerValue getCharacteristicId() {
         if (characteristicIdBuilder_ == null) {
-          return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
+          return characteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characteristicId_;
         } else {
           return characteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public Builder setCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setCharacteristicId(io.dstore.values.IntegerValue value) {
         if (characteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
       public Builder setCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (characteristicIdBuilder_ == null) {
           characteristicId_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public Builder mergeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (characteristicIdBuilder_ == null) {
           if (characteristicId_ != null) {
             characteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(characteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(characteristicId_).mergeFrom(value).buildPartial();
           } else {
             characteristicId_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
       public Builder clearCharacteristicId() {
         if (characteristicIdBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCharacteristicIdBuilder() {
         
         onChanged();
         return getCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCharacteristicIdOrBuilder() {
         if (characteristicIdBuilder_ != null) {
           return characteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return characteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : characteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCharacteristicIdFieldBuilder() {
         if (characteristicIdBuilder_ == null) {
           characteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue searchValue_ = null;
+      private io.dstore.values.StringValue searchValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> searchValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
       public boolean hasSearchValue() {
         return searchValueBuilder_ != null || searchValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public io.dstore.Values.stringValue getSearchValue() {
+      public io.dstore.values.StringValue getSearchValue() {
         if (searchValueBuilder_ == null) {
-          return searchValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+          return searchValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
         } else {
           return searchValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public Builder setSearchValue(io.dstore.Values.stringValue value) {
+      public Builder setSearchValue(io.dstore.values.StringValue value) {
         if (searchValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
       public Builder setSearchValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (searchValueBuilder_ == null) {
           searchValue_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public Builder mergeSearchValue(io.dstore.Values.stringValue value) {
+      public Builder mergeSearchValue(io.dstore.values.StringValue value) {
         if (searchValueBuilder_ == null) {
           if (searchValue_ != null) {
             searchValue_ =
-              io.dstore.Values.stringValue.newBuilder(searchValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(searchValue_).mergeFrom(value).buildPartial();
           } else {
             searchValue_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
       public Builder clearSearchValue() {
         if (searchValueBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSearchValueBuilder() {
+      public io.dstore.values.StringValue.Builder getSearchValueBuilder() {
         
         onChanged();
         return getSearchValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder() {
         if (searchValueBuilder_ != null) {
           return searchValueBuilder_.getMessageOrBuilder();
         } else {
           return searchValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue search_value = 3;</code>
+       * <code>optional .dstore.values.StringValue search_value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSearchValueFieldBuilder() {
         if (searchValueBuilder_ == null) {
           searchValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSearchValue(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue minimalRequestCounter_ = null;
+      private io.dstore.values.IntegerValue minimalRequestCounter_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> minimalRequestCounterBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> minimalRequestCounterBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+       * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
        */
       public boolean hasMinimalRequestCounter() {
         return minimalRequestCounterBuilder_ != null || minimalRequestCounter_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+       * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
        */
-      public io.dstore.Values.integerValue getMinimalRequestCounter() {
+      public io.dstore.values.IntegerValue getMinimalRequestCounter() {
         if (minimalRequestCounterBuilder_ == null) {
-          return minimalRequestCounter_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : minimalRequestCounter_;
+          return minimalRequestCounter_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : minimalRequestCounter_;
         } else {
           return minimalRequestCounterBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+       * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
        */
-      public Builder setMinimalRequestCounter(io.dstore.Values.integerValue value) {
+      public Builder setMinimalRequestCounter(io.dstore.values.IntegerValue value) {
         if (minimalRequestCounterBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+       * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
        */
       public Builder setMinimalRequestCounter(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (minimalRequestCounterBuilder_ == null) {
           minimalRequestCounter_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+       * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
        */
-      public Builder mergeMinimalRequestCounter(io.dstore.Values.integerValue value) {
+      public Builder mergeMinimalRequestCounter(io.dstore.values.IntegerValue value) {
         if (minimalRequestCounterBuilder_ == null) {
           if (minimalRequestCounter_ != null) {
             minimalRequestCounter_ =
-              io.dstore.Values.integerValue.newBuilder(minimalRequestCounter_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(minimalRequestCounter_).mergeFrom(value).buildPartial();
           } else {
             minimalRequestCounter_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+       * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
        */
       public Builder clearMinimalRequestCounter() {
         if (minimalRequestCounterBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+       * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMinimalRequestCounterBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMinimalRequestCounterBuilder() {
         
         onChanged();
         return getMinimalRequestCounterFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+       * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMinimalRequestCounterOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMinimalRequestCounterOrBuilder() {
         if (minimalRequestCounterBuilder_ != null) {
           return minimalRequestCounterBuilder_.getMessageOrBuilder();
         } else {
           return minimalRequestCounter_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : minimalRequestCounter_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : minimalRequestCounter_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue minimal_request_counter = 4;</code>
+       * <code>optional .dstore.values.IntegerValue minimal_request_counter = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMinimalRequestCounterFieldBuilder() {
         if (minimalRequestCounterBuilder_ == null) {
           minimalRequestCounterBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMinimalRequestCounter(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue rowcount_ = null;
+      private io.dstore.values.IntegerValue rowcount_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowcountBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> rowcountBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+       * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
        */
       public boolean hasRowcount() {
         return rowcountBuilder_ != null || rowcount_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+       * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
        */
-      public io.dstore.Values.integerValue getRowcount() {
+      public io.dstore.values.IntegerValue getRowcount() {
         if (rowcountBuilder_ == null) {
-          return rowcount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowcount_;
+          return rowcount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowcount_;
         } else {
           return rowcountBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+       * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
        */
-      public Builder setRowcount(io.dstore.Values.integerValue value) {
+      public Builder setRowcount(io.dstore.values.IntegerValue value) {
         if (rowcountBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+       * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
        */
       public Builder setRowcount(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (rowcountBuilder_ == null) {
           rowcount_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+       * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
        */
-      public Builder mergeRowcount(io.dstore.Values.integerValue value) {
+      public Builder mergeRowcount(io.dstore.values.IntegerValue value) {
         if (rowcountBuilder_ == null) {
           if (rowcount_ != null) {
             rowcount_ =
-              io.dstore.Values.integerValue.newBuilder(rowcount_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(rowcount_).mergeFrom(value).buildPartial();
           } else {
             rowcount_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+       * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
        */
       public Builder clearRowcount() {
         if (rowcountBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+       * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRowcountBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRowcountBuilder() {
         
         onChanged();
         return getRowcountFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+       * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRowcountOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRowcountOrBuilder() {
         if (rowcountBuilder_ != null) {
           return rowcountBuilder_.getMessageOrBuilder();
         } else {
           return rowcount_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : rowcount_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : rowcount_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue rowcount = 5;</code>
+       * <code>optional .dstore.values.IntegerValue rowcount = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRowcountFieldBuilder() {
         if (rowcountBuilder_ == null) {
           rowcountBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRowcount(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue maxRequestCounter_ = null;
+      private io.dstore.values.IntegerValue maxRequestCounter_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxRequestCounterBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxRequestCounterBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+       * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
        */
       public boolean hasMaxRequestCounter() {
         return maxRequestCounterBuilder_ != null || maxRequestCounter_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+       * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
        */
-      public io.dstore.Values.integerValue getMaxRequestCounter() {
+      public io.dstore.values.IntegerValue getMaxRequestCounter() {
         if (maxRequestCounterBuilder_ == null) {
-          return maxRequestCounter_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxRequestCounter_;
+          return maxRequestCounter_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxRequestCounter_;
         } else {
           return maxRequestCounterBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+       * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
        */
-      public Builder setMaxRequestCounter(io.dstore.Values.integerValue value) {
+      public Builder setMaxRequestCounter(io.dstore.values.IntegerValue value) {
         if (maxRequestCounterBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+       * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
        */
       public Builder setMaxRequestCounter(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (maxRequestCounterBuilder_ == null) {
           maxRequestCounter_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+       * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
        */
-      public Builder mergeMaxRequestCounter(io.dstore.Values.integerValue value) {
+      public Builder mergeMaxRequestCounter(io.dstore.values.IntegerValue value) {
         if (maxRequestCounterBuilder_ == null) {
           if (maxRequestCounter_ != null) {
             maxRequestCounter_ =
-              io.dstore.Values.integerValue.newBuilder(maxRequestCounter_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(maxRequestCounter_).mergeFrom(value).buildPartial();
           } else {
             maxRequestCounter_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+       * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
        */
       public Builder clearMaxRequestCounter() {
         if (maxRequestCounterBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class MiGetSearchItemLacksAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+       * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMaxRequestCounterBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMaxRequestCounterBuilder() {
         
         onChanged();
         return getMaxRequestCounterFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+       * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxRequestCounterOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxRequestCounterOrBuilder() {
         if (maxRequestCounterBuilder_ != null) {
           return maxRequestCounterBuilder_.getMessageOrBuilder();
         } else {
           return maxRequestCounter_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : maxRequestCounter_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : maxRequestCounter_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_request_counter = 6;</code>
+       * <code>optional .dstore.values.IntegerValue max_request_counter = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMaxRequestCounterFieldBuilder() {
         if (maxRequestCounterBuilder_ == null) {
           maxRequestCounterBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMaxRequestCounter(),
                   getParentForChildren(),
                   isClean());
@@ -2139,7 +2139,7 @@ public final class MiGetSearchItemLacksAd {
        * So oft wurde "SearchValue" verwendet
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
        */
       boolean hasRequestCounter();
       /**
@@ -2147,24 +2147,24 @@ public final class MiGetSearchItemLacksAd {
        * So oft wurde "SearchValue" verwendet
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
        */
-      io.dstore.Values.integerValue getRequestCounter();
+      io.dstore.values.IntegerValue getRequestCounter();
       /**
        * <pre>
        * So oft wurde "SearchValue" verwendet
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getRequestCounterOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getRequestCounterOrBuilder();
 
       /**
        * <pre>
        * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue search_value = 10002;</code>
        */
       boolean hasSearchValue();
       /**
@@ -2172,24 +2172,24 @@ public final class MiGetSearchItemLacksAd {
        * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue search_value = 10002;</code>
        */
-      io.dstore.Values.stringValue getSearchValue();
+      io.dstore.values.StringValue getSearchValue();
       /**
        * <pre>
        * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue search_value = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder();
 
       /**
        * <pre>
        * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
        */
       boolean hasCharacteristicId();
       /**
@@ -2197,17 +2197,17 @@ public final class MiGetSearchItemLacksAd {
        * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getCharacteristicId();
+      io.dstore.values.IntegerValue getCharacteristicId();
       /**
        * <pre>
        * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCharacteristicIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetSearchItemLacks_Ad.Response.Row}
@@ -2255,11 +2255,11 @@ public final class MiGetSearchItemLacksAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (requestCounter_ != null) {
                   subBuilder = requestCounter_.toBuilder();
                 }
-                requestCounter_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                requestCounter_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(requestCounter_);
                   requestCounter_ = subBuilder.buildPartial();
@@ -2268,11 +2268,11 @@ public final class MiGetSearchItemLacksAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (searchValue_ != null) {
                   subBuilder = searchValue_.toBuilder();
                 }
-                searchValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                searchValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(searchValue_);
                   searchValue_ = subBuilder.buildPartial();
@@ -2281,11 +2281,11 @@ public final class MiGetSearchItemLacksAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (characteristicId_ != null) {
                   subBuilder = characteristicId_.toBuilder();
                 }
-                characteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                characteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicId_);
                   characteristicId_ = subBuilder.buildPartial();
@@ -2326,13 +2326,13 @@ public final class MiGetSearchItemLacksAd {
       }
 
       public static final int REQUEST_COUNTER_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue requestCounter_;
+      private io.dstore.values.IntegerValue requestCounter_;
       /**
        * <pre>
        * So oft wurde "SearchValue" verwendet
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
        */
       public boolean hasRequestCounter() {
         return requestCounter_ != null;
@@ -2342,30 +2342,30 @@ public final class MiGetSearchItemLacksAd {
        * So oft wurde "SearchValue" verwendet
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
        */
-      public io.dstore.Values.integerValue getRequestCounter() {
-        return requestCounter_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : requestCounter_;
+      public io.dstore.values.IntegerValue getRequestCounter() {
+        return requestCounter_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : requestCounter_;
       }
       /**
        * <pre>
        * So oft wurde "SearchValue" verwendet
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRequestCounterOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRequestCounterOrBuilder() {
         return getRequestCounter();
       }
 
       public static final int SEARCH_VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue searchValue_;
+      private io.dstore.values.StringValue searchValue_;
       /**
        * <pre>
        * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue search_value = 10002;</code>
        */
       public boolean hasSearchValue() {
         return searchValue_ != null;
@@ -2375,30 +2375,30 @@ public final class MiGetSearchItemLacksAd {
        * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue search_value = 10002;</code>
        */
-      public io.dstore.Values.stringValue getSearchValue() {
-        return searchValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+      public io.dstore.values.StringValue getSearchValue() {
+        return searchValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
       }
       /**
        * <pre>
        * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue search_value = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder() {
         return getSearchValue();
       }
 
       public static final int CHARACTERISTIC_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue characteristicId_;
+      private io.dstore.values.IntegerValue characteristicId_;
       /**
        * <pre>
        * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
        */
       public boolean hasCharacteristicId() {
         return characteristicId_ != null;
@@ -2408,19 +2408,19 @@ public final class MiGetSearchItemLacksAd {
        * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getCharacteristicId() {
-        return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
+      public io.dstore.values.IntegerValue getCharacteristicId() {
+        return characteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characteristicId_;
       }
       /**
        * <pre>
        * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCharacteristicIdOrBuilder() {
         return getCharacteristicId();
       }
 
@@ -2809,15 +2809,15 @@ public final class MiGetSearchItemLacksAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue requestCounter_ = null;
+        private io.dstore.values.IntegerValue requestCounter_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> requestCounterBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> requestCounterBuilder_;
         /**
          * <pre>
          * So oft wurde "SearchValue" verwendet
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
          */
         public boolean hasRequestCounter() {
           return requestCounterBuilder_ != null || requestCounter_ != null;
@@ -2827,11 +2827,11 @@ public final class MiGetSearchItemLacksAd {
          * So oft wurde "SearchValue" verwendet
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
          */
-        public io.dstore.Values.integerValue getRequestCounter() {
+        public io.dstore.values.IntegerValue getRequestCounter() {
           if (requestCounterBuilder_ == null) {
-            return requestCounter_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : requestCounter_;
+            return requestCounter_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : requestCounter_;
           } else {
             return requestCounterBuilder_.getMessage();
           }
@@ -2841,9 +2841,9 @@ public final class MiGetSearchItemLacksAd {
          * So oft wurde "SearchValue" verwendet
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
          */
-        public Builder setRequestCounter(io.dstore.Values.integerValue value) {
+        public Builder setRequestCounter(io.dstore.values.IntegerValue value) {
           if (requestCounterBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2861,10 +2861,10 @@ public final class MiGetSearchItemLacksAd {
          * So oft wurde "SearchValue" verwendet
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
          */
         public Builder setRequestCounter(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (requestCounterBuilder_ == null) {
             requestCounter_ = builderForValue.build();
             onChanged();
@@ -2879,13 +2879,13 @@ public final class MiGetSearchItemLacksAd {
          * So oft wurde "SearchValue" verwendet
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
          */
-        public Builder mergeRequestCounter(io.dstore.Values.integerValue value) {
+        public Builder mergeRequestCounter(io.dstore.values.IntegerValue value) {
           if (requestCounterBuilder_ == null) {
             if (requestCounter_ != null) {
               requestCounter_ =
-                io.dstore.Values.integerValue.newBuilder(requestCounter_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(requestCounter_).mergeFrom(value).buildPartial();
             } else {
               requestCounter_ = value;
             }
@@ -2901,7 +2901,7 @@ public final class MiGetSearchItemLacksAd {
          * So oft wurde "SearchValue" verwendet
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
          */
         public Builder clearRequestCounter() {
           if (requestCounterBuilder_ == null) {
@@ -2919,9 +2919,9 @@ public final class MiGetSearchItemLacksAd {
          * So oft wurde "SearchValue" verwendet
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getRequestCounterBuilder() {
+        public io.dstore.values.IntegerValue.Builder getRequestCounterBuilder() {
           
           onChanged();
           return getRequestCounterFieldBuilder().getBuilder();
@@ -2931,14 +2931,14 @@ public final class MiGetSearchItemLacksAd {
          * So oft wurde "SearchValue" verwendet
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getRequestCounterOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getRequestCounterOrBuilder() {
           if (requestCounterBuilder_ != null) {
             return requestCounterBuilder_.getMessageOrBuilder();
           } else {
             return requestCounter_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : requestCounter_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : requestCounter_;
           }
         }
         /**
@@ -2946,14 +2946,14 @@ public final class MiGetSearchItemLacksAd {
          * So oft wurde "SearchValue" verwendet
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue request_counter = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue request_counter = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getRequestCounterFieldBuilder() {
           if (requestCounterBuilder_ == null) {
             requestCounterBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getRequestCounter(),
                     getParentForChildren(),
                     isClean());
@@ -2962,15 +2962,15 @@ public final class MiGetSearchItemLacksAd {
           return requestCounterBuilder_;
         }
 
-        private io.dstore.Values.stringValue searchValue_ = null;
+        private io.dstore.values.StringValue searchValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> searchValueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> searchValueBuilder_;
         /**
          * <pre>
          * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue search_value = 10002;</code>
          */
         public boolean hasSearchValue() {
           return searchValueBuilder_ != null || searchValue_ != null;
@@ -2980,11 +2980,11 @@ public final class MiGetSearchItemLacksAd {
          * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue search_value = 10002;</code>
          */
-        public io.dstore.Values.stringValue getSearchValue() {
+        public io.dstore.values.StringValue getSearchValue() {
           if (searchValueBuilder_ == null) {
-            return searchValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+            return searchValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
           } else {
             return searchValueBuilder_.getMessage();
           }
@@ -2994,9 +2994,9 @@ public final class MiGetSearchItemLacksAd {
          * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue search_value = 10002;</code>
          */
-        public Builder setSearchValue(io.dstore.Values.stringValue value) {
+        public Builder setSearchValue(io.dstore.values.StringValue value) {
           if (searchValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3014,10 +3014,10 @@ public final class MiGetSearchItemLacksAd {
          * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue search_value = 10002;</code>
          */
         public Builder setSearchValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (searchValueBuilder_ == null) {
             searchValue_ = builderForValue.build();
             onChanged();
@@ -3032,13 +3032,13 @@ public final class MiGetSearchItemLacksAd {
          * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue search_value = 10002;</code>
          */
-        public Builder mergeSearchValue(io.dstore.Values.stringValue value) {
+        public Builder mergeSearchValue(io.dstore.values.StringValue value) {
           if (searchValueBuilder_ == null) {
             if (searchValue_ != null) {
               searchValue_ =
-                io.dstore.Values.stringValue.newBuilder(searchValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(searchValue_).mergeFrom(value).buildPartial();
             } else {
               searchValue_ = value;
             }
@@ -3054,7 +3054,7 @@ public final class MiGetSearchItemLacksAd {
          * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue search_value = 10002;</code>
          */
         public Builder clearSearchValue() {
           if (searchValueBuilder_ == null) {
@@ -3072,9 +3072,9 @@ public final class MiGetSearchItemLacksAd {
          * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue search_value = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getSearchValueBuilder() {
+        public io.dstore.values.StringValue.Builder getSearchValueBuilder() {
           
           onChanged();
           return getSearchValueFieldBuilder().getBuilder();
@@ -3084,14 +3084,14 @@ public final class MiGetSearchItemLacksAd {
          * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue search_value = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getSearchValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getSearchValueOrBuilder() {
           if (searchValueBuilder_ != null) {
             return searchValueBuilder_.getMessageOrBuilder();
           } else {
             return searchValue_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : searchValue_;
+                io.dstore.values.StringValue.getDefaultInstance() : searchValue_;
           }
         }
         /**
@@ -3099,14 +3099,14 @@ public final class MiGetSearchItemLacksAd {
          * Ein Suchbegriff, der zu einem leeren Suchergebnis führte
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue search_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue search_value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getSearchValueFieldBuilder() {
           if (searchValueBuilder_ == null) {
             searchValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getSearchValue(),
                     getParentForChildren(),
                     isClean());
@@ -3115,15 +3115,15 @@ public final class MiGetSearchItemLacksAd {
           return searchValueBuilder_;
         }
 
-        private io.dstore.Values.integerValue characteristicId_ = null;
+        private io.dstore.values.IntegerValue characteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> characteristicIdBuilder_;
         /**
          * <pre>
          * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
          */
         public boolean hasCharacteristicId() {
           return characteristicIdBuilder_ != null || characteristicId_ != null;
@@ -3133,11 +3133,11 @@ public final class MiGetSearchItemLacksAd {
          * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getCharacteristicId() {
+        public io.dstore.values.IntegerValue getCharacteristicId() {
           if (characteristicIdBuilder_ == null) {
-            return characteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
+            return characteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characteristicId_;
           } else {
             return characteristicIdBuilder_.getMessage();
           }
@@ -3147,9 +3147,9 @@ public final class MiGetSearchItemLacksAd {
          * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
          */
-        public Builder setCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setCharacteristicId(io.dstore.values.IntegerValue value) {
           if (characteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3167,10 +3167,10 @@ public final class MiGetSearchItemLacksAd {
          * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
          */
         public Builder setCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (characteristicIdBuilder_ == null) {
             characteristicId_ = builderForValue.build();
             onChanged();
@@ -3185,13 +3185,13 @@ public final class MiGetSearchItemLacksAd {
          * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
          */
-        public Builder mergeCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergeCharacteristicId(io.dstore.values.IntegerValue value) {
           if (characteristicIdBuilder_ == null) {
             if (characteristicId_ != null) {
               characteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(characteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(characteristicId_).mergeFrom(value).buildPartial();
             } else {
               characteristicId_ = value;
             }
@@ -3207,7 +3207,7 @@ public final class MiGetSearchItemLacksAd {
          * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
          */
         public Builder clearCharacteristicId() {
           if (characteristicIdBuilder_ == null) {
@@ -3225,9 +3225,9 @@ public final class MiGetSearchItemLacksAd {
          * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCharacteristicIdBuilder() {
           
           onChanged();
           return getCharacteristicIdFieldBuilder().getBuilder();
@@ -3237,14 +3237,14 @@ public final class MiGetSearchItemLacksAd {
          * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCharacteristicIdOrBuilder() {
           if (characteristicIdBuilder_ != null) {
             return characteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return characteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : characteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : characteristicId_;
           }
         }
         /**
@@ -3252,14 +3252,14 @@ public final class MiGetSearchItemLacksAd {
          * ID eines Merkmals (zu dem in der durch "&#64;TableID" symbolisierten Tabelle Eigenschaften hinterlegt sind), in dem nach "SearchValue" erfolglos gesucht wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue characteristic_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCharacteristicIdFieldBuilder() {
           if (characteristicIdBuilder_ == null) {
             characteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -4728,28 +4728,28 @@ public final class MiGetSearchItemLacksAd {
       "temLacks_Ad.proto\022&dstore.engine.mi_GetS" +
       "earchItemLacks_Ad\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\203\004\n\nParameter" +
-      "s\022-\n\010table_id\030\001 \001(\0132\033.dstore.values.inte" +
+      "s\022-\n\010table_id\030\001 \001(\0132\033.dstore.values.Inte" +
       "gerValue\022\026\n\rtable_id_null\030\351\007 \001(\010\0226\n\021char" +
-      "acteristic_id\030\002 \001(\0132\033.dstore.values.inte" +
+      "acteristic_id\030\002 \001(\0132\033.dstore.values.Inte" +
       "gerValue\022\037\n\026characteristic_id_null\030\352\007 \001(" +
       "\010\0220\n\014search_value\030\003 \001(\0132\032.dstore.values." +
-      "stringValue\022\032\n\021search_value_null\030\353\007 \001(\010\022",
+      "StringValue\022\032\n\021search_value_null\030\353\007 \001(\010\022",
       "<\n\027minimal_request_counter\030\004 \001(\0132\033.dstor" +
-      "e.values.integerValue\022%\n\034minimal_request" +
+      "e.values.IntegerValue\022%\n\034minimal_request" +
       "_counter_null\030\354\007 \001(\010\022-\n\010rowcount\030\005 \001(\0132\033" +
-      ".dstore.values.integerValue\022\026\n\rrowcount_" +
+      ".dstore.values.IntegerValue\022\026\n\rrowcount_" +
       "null\030\355\007 \001(\010\0228\n\023max_request_counter\030\006 \001(\013" +
-      "2\033.dstore.values.integerValue\022!\n\030max_req" +
+      "2\033.dstore.values.IntegerValue\022!\n\030max_req" +
       "uest_counter_null\030\356\007 \001(\010\"\354\002\n\010Response\0228\n" +
       "\020meta_information\030\002 \003(\0132\036.dstore.engine." +
       "MetaInformation\022\'\n\007message\030\003 \003(\0132\026.dstor" +
       "e.engine.Message\022A\n\003row\030\004 \003(\01324.dstore.e",
       "ngine.mi_GetSearchItemLacks_Ad.Response." +
       "Row\032\271\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0225\n\017request_" +
-      "counter\030\221N \001(\0132\033.dstore.values.integerVa" +
+      "counter\030\221N \001(\0132\033.dstore.values.IntegerVa" +
       "lue\0221\n\014search_value\030\222N \001(\0132\032.dstore.valu" +
-      "es.stringValue\0227\n\021characteristic_id\030\223N \001" +
-      "(\0132\033.dstore.values.integerValueBY\n\033io.ds" +
+      "es.StringValue\0227\n\021characteristic_id\030\223N \001" +
+      "(\0132\033.dstore.values.IntegerValueBY\n\033io.ds" +
       "tore.engine.proceduresZ:gosdk.dstore.de/" +
       "engine/procedures/mi_GetSearchItemLacks_" +
       "Adb\006proto3"
@@ -4765,7 +4765,7 @@ public final class MiGetSearchItemLacksAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetSearchItemLacks_Ad_Parameters_descriptor =
@@ -4786,7 +4786,7 @@ public final class MiGetSearchItemLacksAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetSearchItemLacks_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "RequestCounter", "SearchValue", "CharacteristicId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmGetBillInformationAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
      */
     boolean hasBillId();
     /**
-     * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
      */
-    io.dstore.Values.integerValue getBillId();
+    io.dstore.values.IntegerValue getBillId();
     /**
-     * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBillIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBillIdOrBuilder();
 
     /**
      * <code>optional bool bill_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetBillInformationAd {
     boolean getBillIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
      */
     boolean hasInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
      */
-    io.dstore.Values.stringValue getInformationTypeIdList();
+    io.dstore.values.StringValue getInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getInformationTypeIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder();
 
     /**
      * <code>optional bool information_type_id_list_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class OmGetBillInformationAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (billId_ != null) {
                 subBuilder = billId_.toBuilder();
               }
-              billId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              billId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(billId_);
                 billId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class OmGetBillInformationAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (informationTypeIdList_ != null) {
                 subBuilder = informationTypeIdList_.toBuilder();
               }
-              informationTypeIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              informationTypeIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeIdList_);
                 informationTypeIdList_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class OmGetBillInformationAd {
     }
 
     public static final int BILL_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue billId_;
+    private io.dstore.values.IntegerValue billId_;
     /**
-     * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
      */
     public boolean hasBillId() {
       return billId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getBillId() {
-      return billId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : billId_;
+    public io.dstore.values.IntegerValue getBillId() {
+      return billId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBillIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBillIdOrBuilder() {
       return getBillId();
     }
 
@@ -185,23 +185,23 @@ public final class OmGetBillInformationAd {
     }
 
     public static final int INFORMATION_TYPE_ID_LIST_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue informationTypeIdList_;
+    private io.dstore.values.StringValue informationTypeIdList_;
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
      */
     public boolean hasInformationTypeIdList() {
       return informationTypeIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
      */
-    public io.dstore.Values.stringValue getInformationTypeIdList() {
-      return informationTypeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationTypeIdList_;
+    public io.dstore.values.StringValue getInformationTypeIdList() {
+      return informationTypeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationTypeIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getInformationTypeIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder() {
       return getInformationTypeIdList();
     }
 
@@ -562,29 +562,29 @@ public final class OmGetBillInformationAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue billId_ = null;
+      private io.dstore.values.IntegerValue billId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> billIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> billIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
        */
       public boolean hasBillId() {
         return billIdBuilder_ != null || billId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getBillId() {
+      public io.dstore.values.IntegerValue getBillId() {
         if (billIdBuilder_ == null) {
-          return billId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : billId_;
+          return billId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billId_;
         } else {
           return billIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
        */
-      public Builder setBillId(io.dstore.Values.integerValue value) {
+      public Builder setBillId(io.dstore.values.IntegerValue value) {
         if (billIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class OmGetBillInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
        */
       public Builder setBillId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (billIdBuilder_ == null) {
           billId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class OmGetBillInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
        */
-      public Builder mergeBillId(io.dstore.Values.integerValue value) {
+      public Builder mergeBillId(io.dstore.values.IntegerValue value) {
         if (billIdBuilder_ == null) {
           if (billId_ != null) {
             billId_ =
-              io.dstore.Values.integerValue.newBuilder(billId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(billId_).mergeFrom(value).buildPartial();
           } else {
             billId_ = value;
           }
@@ -630,7 +630,7 @@ public final class OmGetBillInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
        */
       public Builder clearBillId() {
         if (billIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class OmGetBillInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBillIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBillIdBuilder() {
         
         onChanged();
         return getBillIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBillIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBillIdOrBuilder() {
         if (billIdBuilder_ != null) {
           return billIdBuilder_.getMessageOrBuilder();
         } else {
           return billId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : billId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : billId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBillIdFieldBuilder() {
         if (billIdBuilder_ == null) {
           billIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBillId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class OmGetBillInformationAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue informationTypeIdList_ = null;
+      private io.dstore.values.StringValue informationTypeIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationTypeIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public boolean hasInformationTypeIdList() {
         return informationTypeIdListBuilder_ != null || informationTypeIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValue getInformationTypeIdList() {
+      public io.dstore.values.StringValue getInformationTypeIdList() {
         if (informationTypeIdListBuilder_ == null) {
-          return informationTypeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationTypeIdList_;
+          return informationTypeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationTypeIdList_;
         } else {
           return informationTypeIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
        */
-      public Builder setInformationTypeIdList(io.dstore.Values.stringValue value) {
+      public Builder setInformationTypeIdList(io.dstore.values.StringValue value) {
         if (informationTypeIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class OmGetBillInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public Builder setInformationTypeIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (informationTypeIdListBuilder_ == null) {
           informationTypeIdList_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class OmGetBillInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
        */
-      public Builder mergeInformationTypeIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeInformationTypeIdList(io.dstore.values.StringValue value) {
         if (informationTypeIdListBuilder_ == null) {
           if (informationTypeIdList_ != null) {
             informationTypeIdList_ =
-              io.dstore.Values.stringValue.newBuilder(informationTypeIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(informationTypeIdList_).mergeFrom(value).buildPartial();
           } else {
             informationTypeIdList_ = value;
           }
@@ -773,7 +773,7 @@ public final class OmGetBillInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
        */
       public Builder clearInformationTypeIdList() {
         if (informationTypeIdListBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class OmGetBillInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getInformationTypeIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getInformationTypeIdListBuilder() {
         
         onChanged();
         return getInformationTypeIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationTypeIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder() {
         if (informationTypeIdListBuilder_ != null) {
           return informationTypeIdListBuilder_.getMessageOrBuilder();
         } else {
           return informationTypeIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : informationTypeIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : informationTypeIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getInformationTypeIdListFieldBuilder() {
         if (informationTypeIdListBuilder_ == null) {
           informationTypeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getInformationTypeIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class OmGetBillInformationAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       boolean hasCreatedByUserId();
       /**
@@ -1115,24 +1115,24 @@ public final class OmGetBillInformationAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getCreatedByUserId();
+      io.dstore.values.IntegerValue getCreatedByUserId();
       /**
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCreatedByUserIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       boolean hasInformationTypeId();
       /**
@@ -1140,24 +1140,24 @@ public final class OmGetBillInformationAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getInformationTypeId();
+      io.dstore.values.IntegerValue getInformationTypeId();
       /**
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
       /**
        * <pre>
        * ID einer Rechnung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
        */
       boolean hasBillId();
       /**
@@ -1165,24 +1165,24 @@ public final class OmGetBillInformationAd {
        * ID einer Rechnung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getBillId();
+      io.dstore.values.IntegerValue getBillId();
       /**
        * <pre>
        * ID einer Rechnung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBillIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBillIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
        */
       boolean hasInformationType();
       /**
@@ -1190,24 +1190,24 @@ public final class OmGetBillInformationAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
        */
-      io.dstore.Values.stringValue getInformationType();
+      io.dstore.values.StringValue getInformationType();
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder();
 
       /**
        * <pre>
        * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10005;</code>
+       * <code>optional .dstore.values.StringValue information = 10005;</code>
        */
       boolean hasInformation();
       /**
@@ -1215,24 +1215,24 @@ public final class OmGetBillInformationAd {
        * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10005;</code>
+       * <code>optional .dstore.values.StringValue information = 10005;</code>
        */
-      io.dstore.Values.stringValue getInformation();
+      io.dstore.values.StringValue getInformation();
       /**
        * <pre>
        * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10005;</code>
+       * <code>optional .dstore.values.StringValue information = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
+      io.dstore.values.StringValueOrBuilder getInformationOrBuilder();
 
       /**
        * <pre>
        * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
       boolean hasCreatedAtDateAndTime();
       /**
@@ -1240,17 +1240,17 @@ public final class OmGetBillInformationAd {
        * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
-      io.dstore.Values.timestampValue getCreatedAtDateAndTime();
+      io.dstore.values.TimestampValue getCreatedAtDateAndTime();
       /**
        * <pre>
        * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetBillInformation_Ad.Response.Row}
@@ -1298,11 +1298,11 @@ public final class OmGetBillInformationAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (createdByUserId_ != null) {
                   subBuilder = createdByUserId_.toBuilder();
                 }
-                createdByUserId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                createdByUserId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdByUserId_);
                   createdByUserId_ = subBuilder.buildPartial();
@@ -1311,11 +1311,11 @@ public final class OmGetBillInformationAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -1324,11 +1324,11 @@ public final class OmGetBillInformationAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (billId_ != null) {
                   subBuilder = billId_.toBuilder();
                 }
-                billId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                billId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(billId_);
                   billId_ = subBuilder.buildPartial();
@@ -1337,11 +1337,11 @@ public final class OmGetBillInformationAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (informationType_ != null) {
                   subBuilder = informationType_.toBuilder();
                 }
-                informationType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                informationType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationType_);
                   informationType_ = subBuilder.buildPartial();
@@ -1350,11 +1350,11 @@ public final class OmGetBillInformationAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (information_ != null) {
                   subBuilder = information_.toBuilder();
                 }
-                information_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                information_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(information_);
                   information_ = subBuilder.buildPartial();
@@ -1363,11 +1363,11 @@ public final class OmGetBillInformationAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (createdAtDateAndTime_ != null) {
                   subBuilder = createdAtDateAndTime_.toBuilder();
                 }
-                createdAtDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                createdAtDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdAtDateAndTime_);
                   createdAtDateAndTime_ = subBuilder.buildPartial();
@@ -1408,13 +1408,13 @@ public final class OmGetBillInformationAd {
       }
 
       public static final int CREATED_BY_USER_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue createdByUserId_;
+      private io.dstore.values.IntegerValue createdByUserId_;
       /**
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       public boolean hasCreatedByUserId() {
         return createdByUserId_ != null;
@@ -1424,30 +1424,30 @@ public final class OmGetBillInformationAd {
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getCreatedByUserId() {
-        return createdByUserId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : createdByUserId_;
+      public io.dstore.values.IntegerValue getCreatedByUserId() {
+        return createdByUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : createdByUserId_;
       }
       /**
        * <pre>
        * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCreatedByUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder() {
         return getCreatedByUserId();
       }
 
       public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue informationTypeId_;
+      private io.dstore.values.IntegerValue informationTypeId_;
       /**
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
@@ -1457,30 +1457,30 @@ public final class OmGetBillInformationAd {
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getInformationTypeId() {
-        return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+      public io.dstore.values.IntegerValue getInformationTypeId() {
+        return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
       }
       /**
        * <pre>
        * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
       }
 
       public static final int BILL_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue billId_;
+      private io.dstore.values.IntegerValue billId_;
       /**
        * <pre>
        * ID einer Rechnung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
        */
       public boolean hasBillId() {
         return billId_ != null;
@@ -1490,30 +1490,30 @@ public final class OmGetBillInformationAd {
        * ID einer Rechnung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getBillId() {
-        return billId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : billId_;
+      public io.dstore.values.IntegerValue getBillId() {
+        return billId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billId_;
       }
       /**
        * <pre>
        * ID einer Rechnung
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBillIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBillIdOrBuilder() {
         return getBillId();
       }
 
       public static final int INFORMATION_TYPE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue informationType_;
+      private io.dstore.values.StringValue informationType_;
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
@@ -1523,30 +1523,30 @@ public final class OmGetBillInformationAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
        */
-      public io.dstore.Values.stringValue getInformationType() {
-        return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
+      public io.dstore.values.StringValue getInformationType() {
+        return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
       }
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
       }
 
       public static final int INFORMATION_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue information_;
+      private io.dstore.values.StringValue information_;
       /**
        * <pre>
        * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10005;</code>
+       * <code>optional .dstore.values.StringValue information = 10005;</code>
        */
       public boolean hasInformation() {
         return information_ != null;
@@ -1556,30 +1556,30 @@ public final class OmGetBillInformationAd {
        * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10005;</code>
+       * <code>optional .dstore.values.StringValue information = 10005;</code>
        */
-      public io.dstore.Values.stringValue getInformation() {
-        return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+      public io.dstore.values.StringValue getInformation() {
+        return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
       }
       /**
        * <pre>
        * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10005;</code>
+       * <code>optional .dstore.values.StringValue information = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
       }
 
       public static final int CREATED_AT_DATE_AND_TIME_FIELD_NUMBER = 10006;
-      private io.dstore.Values.timestampValue createdAtDateAndTime_;
+      private io.dstore.values.TimestampValue createdAtDateAndTime_;
       /**
        * <pre>
        * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
       public boolean hasCreatedAtDateAndTime() {
         return createdAtDateAndTime_ != null;
@@ -1589,19 +1589,19 @@ public final class OmGetBillInformationAd {
        * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
-      public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
-        return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+      public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
+        return createdAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
       }
       /**
        * <pre>
        * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
         return getCreatedAtDateAndTime();
       }
 
@@ -2080,15 +2080,15 @@ public final class OmGetBillInformationAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue createdByUserId_ = null;
+        private io.dstore.values.IntegerValue createdByUserId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> createdByUserIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> createdByUserIdBuilder_;
         /**
          * <pre>
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public boolean hasCreatedByUserId() {
           return createdByUserIdBuilder_ != null || createdByUserId_ != null;
@@ -2098,11 +2098,11 @@ public final class OmGetBillInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getCreatedByUserId() {
+        public io.dstore.values.IntegerValue getCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
-            return createdByUserId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : createdByUserId_;
+            return createdByUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : createdByUserId_;
           } else {
             return createdByUserIdBuilder_.getMessage();
           }
@@ -2112,9 +2112,9 @@ public final class OmGetBillInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public Builder setCreatedByUserId(io.dstore.Values.integerValue value) {
+        public Builder setCreatedByUserId(io.dstore.values.IntegerValue value) {
           if (createdByUserIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2132,10 +2132,10 @@ public final class OmGetBillInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder setCreatedByUserId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (createdByUserIdBuilder_ == null) {
             createdByUserId_ = builderForValue.build();
             onChanged();
@@ -2150,13 +2150,13 @@ public final class OmGetBillInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public Builder mergeCreatedByUserId(io.dstore.Values.integerValue value) {
+        public Builder mergeCreatedByUserId(io.dstore.values.IntegerValue value) {
           if (createdByUserIdBuilder_ == null) {
             if (createdByUserId_ != null) {
               createdByUserId_ =
-                io.dstore.Values.integerValue.newBuilder(createdByUserId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(createdByUserId_).mergeFrom(value).buildPartial();
             } else {
               createdByUserId_ = value;
             }
@@ -2172,7 +2172,7 @@ public final class OmGetBillInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder clearCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
@@ -2190,9 +2190,9 @@ public final class OmGetBillInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCreatedByUserIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCreatedByUserIdBuilder() {
           
           onChanged();
           return getCreatedByUserIdFieldBuilder().getBuilder();
@@ -2202,14 +2202,14 @@ public final class OmGetBillInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCreatedByUserIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder() {
           if (createdByUserIdBuilder_ != null) {
             return createdByUserIdBuilder_.getMessageOrBuilder();
           } else {
             return createdByUserId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : createdByUserId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : createdByUserId_;
           }
         }
         /**
@@ -2217,14 +2217,14 @@ public final class OmGetBillInformationAd {
          * ID des "dStore"-Benutzers (der in "UserInfo" registriert ist) der die Information hinterlegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCreatedByUserIdFieldBuilder() {
           if (createdByUserIdBuilder_ == null) {
             createdByUserIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCreatedByUserId(),
                     getParentForChildren(),
                     isClean());
@@ -2233,15 +2233,15 @@ public final class OmGetBillInformationAd {
           return createdByUserIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue informationTypeId_ = null;
+        private io.dstore.values.IntegerValue informationTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
         /**
          * <pre>
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
@@ -2251,11 +2251,11 @@ public final class OmGetBillInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getInformationTypeId() {
+        public io.dstore.values.IntegerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
-            return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+            return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
           } else {
             return informationTypeIdBuilder_.getMessage();
           }
@@ -2265,9 +2265,9 @@ public final class OmGetBillInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
          */
-        public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2285,10 +2285,10 @@ public final class OmGetBillInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder setInformationTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (informationTypeIdBuilder_ == null) {
             informationTypeId_ = builderForValue.build();
             onChanged();
@@ -2303,13 +2303,13 @@ public final class OmGetBillInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
          */
-        public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (informationTypeId_ != null) {
               informationTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
             } else {
               informationTypeId_ = value;
             }
@@ -2325,7 +2325,7 @@ public final class OmGetBillInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2343,9 +2343,9 @@ public final class OmGetBillInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
           
           onChanged();
           return getInformationTypeIdFieldBuilder().getBuilder();
@@ -2355,14 +2355,14 @@ public final class OmGetBillInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
             return informationTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return informationTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
           }
         }
         /**
@@ -2370,14 +2370,14 @@ public final class OmGetBillInformationAd {
          * ID eines Informationstyps, also um was es sich bei der Zusatz-Information "Information" handelt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getInformationTypeIdFieldBuilder() {
           if (informationTypeIdBuilder_ == null) {
             informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getInformationTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2386,15 +2386,15 @@ public final class OmGetBillInformationAd {
           return informationTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue billId_ = null;
+        private io.dstore.values.IntegerValue billId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> billIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> billIdBuilder_;
         /**
          * <pre>
          * ID einer Rechnung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
          */
         public boolean hasBillId() {
           return billIdBuilder_ != null || billId_ != null;
@@ -2404,11 +2404,11 @@ public final class OmGetBillInformationAd {
          * ID einer Rechnung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getBillId() {
+        public io.dstore.values.IntegerValue getBillId() {
           if (billIdBuilder_ == null) {
-            return billId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : billId_;
+            return billId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billId_;
           } else {
             return billIdBuilder_.getMessage();
           }
@@ -2418,9 +2418,9 @@ public final class OmGetBillInformationAd {
          * ID einer Rechnung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
          */
-        public Builder setBillId(io.dstore.Values.integerValue value) {
+        public Builder setBillId(io.dstore.values.IntegerValue value) {
           if (billIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2438,10 +2438,10 @@ public final class OmGetBillInformationAd {
          * ID einer Rechnung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
          */
         public Builder setBillId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (billIdBuilder_ == null) {
             billId_ = builderForValue.build();
             onChanged();
@@ -2456,13 +2456,13 @@ public final class OmGetBillInformationAd {
          * ID einer Rechnung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
          */
-        public Builder mergeBillId(io.dstore.Values.integerValue value) {
+        public Builder mergeBillId(io.dstore.values.IntegerValue value) {
           if (billIdBuilder_ == null) {
             if (billId_ != null) {
               billId_ =
-                io.dstore.Values.integerValue.newBuilder(billId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(billId_).mergeFrom(value).buildPartial();
             } else {
               billId_ = value;
             }
@@ -2478,7 +2478,7 @@ public final class OmGetBillInformationAd {
          * ID einer Rechnung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
          */
         public Builder clearBillId() {
           if (billIdBuilder_ == null) {
@@ -2496,9 +2496,9 @@ public final class OmGetBillInformationAd {
          * ID einer Rechnung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBillIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBillIdBuilder() {
           
           onChanged();
           return getBillIdFieldBuilder().getBuilder();
@@ -2508,14 +2508,14 @@ public final class OmGetBillInformationAd {
          * ID einer Rechnung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBillIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBillIdOrBuilder() {
           if (billIdBuilder_ != null) {
             return billIdBuilder_.getMessageOrBuilder();
           } else {
             return billId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : billId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : billId_;
           }
         }
         /**
@@ -2523,14 +2523,14 @@ public final class OmGetBillInformationAd {
          * ID einer Rechnung
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue bill_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBillIdFieldBuilder() {
           if (billIdBuilder_ == null) {
             billIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBillId(),
                     getParentForChildren(),
                     isClean());
@@ -2539,15 +2539,15 @@ public final class OmGetBillInformationAd {
           return billIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue informationType_ = null;
+        private io.dstore.values.StringValue informationType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationTypeBuilder_;
         /**
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
@@ -2557,11 +2557,11 @@ public final class OmGetBillInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
          */
-        public io.dstore.Values.stringValue getInformationType() {
+        public io.dstore.values.StringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
-            return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
+            return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
           } else {
             return informationTypeBuilder_.getMessage();
           }
@@ -2571,9 +2571,9 @@ public final class OmGetBillInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
          */
-        public Builder setInformationType(io.dstore.Values.stringValue value) {
+        public Builder setInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2591,10 +2591,10 @@ public final class OmGetBillInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder setInformationType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (informationTypeBuilder_ == null) {
             informationType_ = builderForValue.build();
             onChanged();
@@ -2609,13 +2609,13 @@ public final class OmGetBillInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
          */
-        public Builder mergeInformationType(io.dstore.Values.stringValue value) {
+        public Builder mergeInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
             if (informationType_ != null) {
               informationType_ =
-                io.dstore.Values.stringValue.newBuilder(informationType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(informationType_).mergeFrom(value).buildPartial();
             } else {
               informationType_ = value;
             }
@@ -2631,7 +2631,7 @@ public final class OmGetBillInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -2649,9 +2649,9 @@ public final class OmGetBillInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getInformationTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getInformationTypeBuilder() {
           
           onChanged();
           return getInformationTypeFieldBuilder().getBuilder();
@@ -2661,14 +2661,14 @@ public final class OmGetBillInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
             return informationTypeBuilder_.getMessageOrBuilder();
           } else {
             return informationType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
+                io.dstore.values.StringValue.getDefaultInstance() : informationType_;
           }
         }
         /**
@@ -2676,14 +2676,14 @@ public final class OmGetBillInformationAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10004;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getInformationTypeFieldBuilder() {
           if (informationTypeBuilder_ == null) {
             informationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getInformationType(),
                     getParentForChildren(),
                     isClean());
@@ -2692,15 +2692,15 @@ public final class OmGetBillInformationAd {
           return informationTypeBuilder_;
         }
 
-        private io.dstore.Values.stringValue information_ = null;
+        private io.dstore.values.StringValue information_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationBuilder_;
         /**
          * <pre>
          * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10005;</code>
+         * <code>optional .dstore.values.StringValue information = 10005;</code>
          */
         public boolean hasInformation() {
           return informationBuilder_ != null || information_ != null;
@@ -2710,11 +2710,11 @@ public final class OmGetBillInformationAd {
          * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10005;</code>
+         * <code>optional .dstore.values.StringValue information = 10005;</code>
          */
-        public io.dstore.Values.stringValue getInformation() {
+        public io.dstore.values.StringValue getInformation() {
           if (informationBuilder_ == null) {
-            return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+            return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
           } else {
             return informationBuilder_.getMessage();
           }
@@ -2724,9 +2724,9 @@ public final class OmGetBillInformationAd {
          * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10005;</code>
+         * <code>optional .dstore.values.StringValue information = 10005;</code>
          */
-        public Builder setInformation(io.dstore.Values.stringValue value) {
+        public Builder setInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2744,10 +2744,10 @@ public final class OmGetBillInformationAd {
          * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10005;</code>
+         * <code>optional .dstore.values.StringValue information = 10005;</code>
          */
         public Builder setInformation(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (informationBuilder_ == null) {
             information_ = builderForValue.build();
             onChanged();
@@ -2762,13 +2762,13 @@ public final class OmGetBillInformationAd {
          * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10005;</code>
+         * <code>optional .dstore.values.StringValue information = 10005;</code>
          */
-        public Builder mergeInformation(io.dstore.Values.stringValue value) {
+        public Builder mergeInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
             if (information_ != null) {
               information_ =
-                io.dstore.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(information_).mergeFrom(value).buildPartial();
             } else {
               information_ = value;
             }
@@ -2784,7 +2784,7 @@ public final class OmGetBillInformationAd {
          * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10005;</code>
+         * <code>optional .dstore.values.StringValue information = 10005;</code>
          */
         public Builder clearInformation() {
           if (informationBuilder_ == null) {
@@ -2802,9 +2802,9 @@ public final class OmGetBillInformationAd {
          * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10005;</code>
+         * <code>optional .dstore.values.StringValue information = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getInformationBuilder() {
+        public io.dstore.values.StringValue.Builder getInformationBuilder() {
           
           onChanged();
           return getInformationFieldBuilder().getBuilder();
@@ -2814,14 +2814,14 @@ public final class OmGetBillInformationAd {
          * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10005;</code>
+         * <code>optional .dstore.values.StringValue information = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
             return informationBuilder_.getMessageOrBuilder();
           } else {
             return information_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : information_;
+                io.dstore.values.StringValue.getDefaultInstance() : information_;
           }
         }
         /**
@@ -2829,14 +2829,14 @@ public final class OmGetBillInformationAd {
          * Die zur Rechnung "BillID" hinterlegt Information des Typs "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10005;</code>
+         * <code>optional .dstore.values.StringValue information = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getInformationFieldBuilder() {
           if (informationBuilder_ == null) {
             informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getInformation(),
                     getParentForChildren(),
                     isClean());
@@ -2845,15 +2845,15 @@ public final class OmGetBillInformationAd {
           return informationBuilder_;
         }
 
-        private io.dstore.Values.timestampValue createdAtDateAndTime_ = null;
+        private io.dstore.values.TimestampValue createdAtDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> createdAtDateAndTimeBuilder_;
         /**
          * <pre>
          * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public boolean hasCreatedAtDateAndTime() {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
@@ -2863,11 +2863,11 @@ public final class OmGetBillInformationAd {
          * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
+        public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
-            return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+            return createdAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
           } else {
             return createdAtDateAndTimeBuilder_.getMessage();
           }
@@ -2877,9 +2877,9 @@ public final class OmGetBillInformationAd {
          * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
-        public Builder setCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2897,10 +2897,10 @@ public final class OmGetBillInformationAd {
          * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public Builder setCreatedAtDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (createdAtDateAndTimeBuilder_ == null) {
             createdAtDateAndTime_ = builderForValue.build();
             onChanged();
@@ -2915,13 +2915,13 @@ public final class OmGetBillInformationAd {
          * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
-        public Builder mergeCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
             if (createdAtDateAndTime_ != null) {
               createdAtDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(createdAtDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(createdAtDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               createdAtDateAndTime_ = value;
             }
@@ -2937,7 +2937,7 @@ public final class OmGetBillInformationAd {
          * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         public Builder clearCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -2955,9 +2955,9 @@ public final class OmGetBillInformationAd {
          * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getCreatedAtDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getCreatedAtDateAndTimeBuilder() {
           
           onChanged();
           return getCreatedAtDateAndTimeFieldBuilder().getBuilder();
@@ -2967,14 +2967,14 @@ public final class OmGetBillInformationAd {
          * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
           if (createdAtDateAndTimeBuilder_ != null) {
             return createdAtDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return createdAtDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
           }
         }
         /**
@@ -2982,14 +2982,14 @@ public final class OmGetBillInformationAd {
          * Wann wurde die Information "Information" zur "BillID" hinterlegt ?
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getCreatedAtDateAndTimeFieldBuilder() {
           if (createdAtDateAndTimeBuilder_ == null) {
             createdAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getCreatedAtDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -4458,24 +4458,24 @@ public final class OmGetBillInformationAd {
       "ormation_Ad.proto\022&dstore.engine.om_GetB" +
       "illInformation_Ad\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\267\001\n\nParameter" +
-      "s\022,\n\007bill_id\030\001 \001(\0132\033.dstore.values.integ" +
+      "s\022,\n\007bill_id\030\001 \001(\0132\033.dstore.values.Integ" +
       "erValue\022\025\n\014bill_id_null\030\351\007 \001(\010\022<\n\030inform" +
       "ation_type_id_list\030\002 \001(\0132\032.dstore.values" +
-      ".stringValue\022&\n\035information_type_id_list" +
+      ".StringValue\022&\n\035information_type_id_list" +
       "_null\030\352\007 \001(\010\"\230\004\n\010Response\0228\n\020meta_inform" +
       "ation\030\002 \003(\0132\036.dstore.engine.MetaInformat",
       "ion\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Mes" +
       "sage\022A\n\003row\030\004 \003(\01324.dstore.engine.om_Get" +
       "BillInformation_Ad.Response.Row\032\345\002\n\003Row\022" +
       "\017\n\006row_id\030\220N \001(\005\0228\n\022created_by_user_id\030\221" +
-      "N \001(\0132\033.dstore.values.integerValue\0229\n\023in" +
+      "N \001(\0132\033.dstore.values.IntegerValue\0229\n\023in" +
       "formation_type_id\030\222N \001(\0132\033.dstore.values" +
-      ".integerValue\022-\n\007bill_id\030\223N \001(\0132\033.dstore" +
-      ".values.integerValue\0225\n\020information_type" +
-      "\030\224N \001(\0132\032.dstore.values.stringValue\0220\n\013i" +
-      "nformation\030\225N \001(\0132\032.dstore.values.string",
+      ".IntegerValue\022-\n\007bill_id\030\223N \001(\0132\033.dstore" +
+      ".values.IntegerValue\0225\n\020information_type" +
+      "\030\224N \001(\0132\032.dstore.values.StringValue\0220\n\013i" +
+      "nformation\030\225N \001(\0132\032.dstore.values.String",
       "Value\022@\n\030created_at_date_and_time\030\226N \001(\013" +
-      "2\035.dstore.values.timestampValueBY\n\033io.ds" +
+      "2\035.dstore.values.TimestampValueBY\n\033io.ds" +
       "tore.engine.proceduresZ:gosdk.dstore.de/" +
       "engine/procedures/om_GetBillInformation_" +
       "Adb\006proto3"
@@ -4491,7 +4491,7 @@ public final class OmGetBillInformationAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetBillInformation_Ad_Parameters_descriptor =
@@ -4512,7 +4512,7 @@ public final class OmGetBillInformationAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetBillInformation_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CreatedByUserId", "InformationTypeId", "BillId", "InformationType", "Information", "CreatedAtDateAndTime", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

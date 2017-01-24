@@ -19,17 +19,17 @@ public final class ImModifyBinaryCharacValuesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
      */
     boolean hasBinaryCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
      */
-    io.dstore.Values.integerValue getBinaryCharacteristicId();
+    io.dstore.values.IntegerValue getBinaryCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool binary_characteristic_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImModifyBinaryCharacValuesAd {
     boolean getBinaryCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.StringValue value = 2;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.StringValue value = 2;</code>
      */
-    io.dstore.Values.stringValue getValue();
+    io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.StringValue value = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
      * <code>optional bool value_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImModifyBinaryCharacValuesAd {
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
      */
     boolean hasDeleteValue();
     /**
-     * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
      */
-    io.dstore.Values.booleanValue getDeleteValue();
+    io.dstore.values.BooleanValue getDeleteValue();
     /**
-     * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteValueOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteValueOrBuilder();
 
     /**
      * <code>optional bool delete_value_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class ImModifyBinaryCharacValuesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binaryCharacteristicId_ != null) {
                 subBuilder = binaryCharacteristicId_.toBuilder();
               }
-              binaryCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binaryCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCharacteristicId_);
                 binaryCharacteristicId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class ImModifyBinaryCharacValuesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class ImModifyBinaryCharacValuesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteValue_ != null) {
                 subBuilder = deleteValue_.toBuilder();
               }
-              deleteValue_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteValue_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteValue_);
                 deleteValue_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class ImModifyBinaryCharacValuesAd {
     }
 
     public static final int BINARY_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue binaryCharacteristicId_;
+    private io.dstore.values.IntegerValue binaryCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
      */
     public boolean hasBinaryCharacteristicId() {
       return binaryCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getBinaryCharacteristicId() {
-      return binaryCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicId_;
+    public io.dstore.values.IntegerValue getBinaryCharacteristicId() {
+      return binaryCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
       return getBinaryCharacteristicId();
     }
 
@@ -222,23 +222,23 @@ public final class ImModifyBinaryCharacValuesAd {
     }
 
     public static final int VALUE_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue value_;
+    private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.StringValue value = 2;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.StringValue value = 2;</code>
      */
-    public io.dstore.Values.stringValue getValue() {
-      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    public io.dstore.values.StringValue getValue() {
+      return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 2;</code>
+     * <code>optional .dstore.values.StringValue value = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -252,23 +252,23 @@ public final class ImModifyBinaryCharacValuesAd {
     }
 
     public static final int DELETE_VALUE_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue deleteValue_;
+    private io.dstore.values.BooleanValue deleteValue_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
      */
     public boolean hasDeleteValue() {
       return deleteValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteValue() {
-      return deleteValue_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteValue_;
+    public io.dstore.values.BooleanValue getDeleteValue() {
+      return deleteValue_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteValue_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteValueOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteValueOrBuilder() {
       return getDeleteValue();
     }
 
@@ -677,29 +677,29 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue binaryCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue binaryCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
        */
       public boolean hasBinaryCharacteristicId() {
         return binaryCharacteristicIdBuilder_ != null || binaryCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCharacteristicId() {
+      public io.dstore.values.IntegerValue getBinaryCharacteristicId() {
         if (binaryCharacteristicIdBuilder_ == null) {
-          return binaryCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicId_;
+          return binaryCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicId_;
         } else {
           return binaryCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
        */
-      public Builder setBinaryCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setBinaryCharacteristicId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
        */
       public Builder setBinaryCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binaryCharacteristicIdBuilder_ == null) {
           binaryCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
        */
-      public Builder mergeBinaryCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeBinaryCharacteristicId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicIdBuilder_ == null) {
           if (binaryCharacteristicId_ != null) {
             binaryCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(binaryCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binaryCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             binaryCharacteristicId_ = value;
           }
@@ -745,7 +745,7 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
        */
       public Builder clearBinaryCharacteristicId() {
         if (binaryCharacteristicIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinaryCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinaryCharacteristicIdBuilder() {
         
         onChanged();
         return getBinaryCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
         if (binaryCharacteristicIdBuilder_ != null) {
           return binaryCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinaryCharacteristicIdFieldBuilder() {
         if (binaryCharacteristicIdBuilder_ == null) {
           binaryCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinaryCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue value_ = null;
+      private io.dstore.values.StringValue value_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.StringValue value = 2;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.StringValue value = 2;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
+      public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.StringValue value = 2;</code>
        */
-      public Builder setValue(io.dstore.Values.stringValue value) {
+      public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.StringValue value = 2;</code>
        */
       public Builder setValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.StringValue value = 2;</code>
        */
-      public Builder mergeValue(io.dstore.Values.stringValue value) {
+      public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -888,7 +888,7 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.StringValue value = 2;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.StringValue value = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+      public io.dstore.values.StringValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.StringValue value = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+              io.dstore.values.StringValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 2;</code>
+       * <code>optional .dstore.values.StringValue value = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteValue_ = null;
+      private io.dstore.values.BooleanValue deleteValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteValueBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteValueBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
        */
       public boolean hasDeleteValue() {
         return deleteValueBuilder_ != null || deleteValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteValue() {
+      public io.dstore.values.BooleanValue getDeleteValue() {
         if (deleteValueBuilder_ == null) {
-          return deleteValue_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteValue_;
+          return deleteValue_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteValue_;
         } else {
           return deleteValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
        */
-      public Builder setDeleteValue(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteValue(io.dstore.values.BooleanValue value) {
         if (deleteValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
        */
       public Builder setDeleteValue(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteValueBuilder_ == null) {
           deleteValue_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
        */
-      public Builder mergeDeleteValue(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteValue(io.dstore.values.BooleanValue value) {
         if (deleteValueBuilder_ == null) {
           if (deleteValue_ != null) {
             deleteValue_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteValue_).mergeFrom(value).buildPartial();
           } else {
             deleteValue_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
        */
       public Builder clearDeleteValue() {
         if (deleteValueBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class ImModifyBinaryCharacValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteValueBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteValueBuilder() {
         
         onChanged();
         return getDeleteValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteValueOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteValueOrBuilder() {
         if (deleteValueBuilder_ != null) {
           return deleteValueBuilder_.getMessageOrBuilder();
         } else {
           return deleteValue_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteValue_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_value = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteValueFieldBuilder() {
         if (deleteValueBuilder_ == null) {
           deleteValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteValue(),
                   getParentForChildren(),
                   isClean());
@@ -3193,11 +3193,11 @@ public final class ImModifyBinaryCharacValuesAd {
       "m_ModifyBinaryCharacValues_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\202" +
       "\002\n\nParameters\022=\n\030binary_characteristic_i" +
-      "d\030\001 \001(\0132\033.dstore.values.integerValue\022&\n\035" +
+      "d\030\001 \001(\0132\033.dstore.values.IntegerValue\022&\n\035" +
       "binary_characteristic_id_null\030\351\007 \001(\010\022)\n\005" +
-      "value\030\002 \001(\0132\032.dstore.values.stringValue\022" +
+      "value\030\002 \001(\0132\032.dstore.values.StringValue\022" +
       "\023\n\nvalue_null\030\352\007 \001(\010\0221\n\014delete_value\030\003 \001" +
-      "(\0132\033.dstore.values.booleanValue\022\032\n\021delet",
+      "(\0132\033.dstore.values.BooleanValue\022\032\n\021delet",
       "e_value_null\030\353\007 \001(\010\"\316\001\n\010Response\0228\n\020meta" +
       "_information\030\002 \003(\0132\036.dstore.engine.MetaI" +
       "nformation\022\'\n\007message\030\003 \003(\0132\026.dstore.eng" +
@@ -3219,7 +3219,7 @@ public final class ImModifyBinaryCharacValuesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_ModifyBinaryCharacValues_Ad_Parameters_descriptor =
@@ -3240,7 +3240,7 @@ public final class ImModifyBinaryCharacValuesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyBinaryCharacValues_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

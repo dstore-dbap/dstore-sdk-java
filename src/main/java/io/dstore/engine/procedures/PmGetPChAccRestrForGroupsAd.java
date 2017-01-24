@@ -19,17 +19,17 @@ public final class PmGetPChAccRestrForGroupsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
     boolean hasUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUserGroupId();
+    io.dstore.values.IntegerValue getUserGroupId();
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder();
 
     /**
      * <code>optional bool user_group_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetPChAccRestrForGroupsAd {
     boolean getUserGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
      */
     boolean hasPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonCharacteristicId();
+    io.dstore.values.IntegerValue getPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool person_characteristic_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class PmGetPChAccRestrForGroupsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userGroupId_ != null) {
                 subBuilder = userGroupId_.toBuilder();
               }
-              userGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userGroupId_);
                 userGroupId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class PmGetPChAccRestrForGroupsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personCharacteristicId_ != null) {
                 subBuilder = personCharacteristicId_.toBuilder();
               }
-              personCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personCharacteristicId_);
                 personCharacteristicId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class PmGetPChAccRestrForGroupsAd {
     }
 
     public static final int USER_GROUP_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue userGroupId_;
+    private io.dstore.values.IntegerValue userGroupId_;
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
     public boolean hasUserGroupId() {
       return userGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUserGroupId() {
-      return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+    public io.dstore.values.IntegerValue getUserGroupId() {
+      return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
       return getUserGroupId();
     }
 
@@ -185,23 +185,23 @@ public final class PmGetPChAccRestrForGroupsAd {
     }
 
     public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personCharacteristicId_;
+    private io.dstore.values.IntegerValue personCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
      */
     public boolean hasPersonCharacteristicId() {
       return personCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonCharacteristicId() {
-      return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+    public io.dstore.values.IntegerValue getPersonCharacteristicId() {
+      return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
       return getPersonCharacteristicId();
     }
 
@@ -562,29 +562,29 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userGroupId_ = null;
+      private io.dstore.values.IntegerValue userGroupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userGroupIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public boolean hasUserGroupId() {
         return userGroupIdBuilder_ != null || userGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUserGroupId() {
+      public io.dstore.values.IntegerValue getUserGroupId() {
         if (userGroupIdBuilder_ == null) {
-          return userGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+          return userGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         } else {
           return userGroupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public Builder setUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder setUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public Builder setUserGroupId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userGroupIdBuilder_ == null) {
           userGroupId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public Builder mergeUserGroupId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserGroupId(io.dstore.values.IntegerValue value) {
         if (userGroupIdBuilder_ == null) {
           if (userGroupId_ != null) {
             userGroupId_ =
-              io.dstore.Values.integerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userGroupId_).mergeFrom(value).buildPartial();
           } else {
             userGroupId_ = value;
           }
@@ -630,7 +630,7 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
       public Builder clearUserGroupId() {
         if (userGroupIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserGroupIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserGroupIdBuilder() {
         
         onChanged();
         return getUserGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserGroupIdOrBuilder() {
         if (userGroupIdBuilder_ != null) {
           return userGroupIdBuilder_.getMessageOrBuilder();
         } else {
           return userGroupId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userGroupId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userGroupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_group_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_group_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserGroupIdFieldBuilder() {
         if (userGroupIdBuilder_ == null) {
           userGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue personCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonCharacteristicId() {
+      public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
-          return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+          return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
         } else {
           return personCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
        */
-      public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
        */
       public Builder setPersonCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personCharacteristicIdBuilder_ == null) {
           personCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
        */
-      public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
           if (personCharacteristicId_ != null) {
             personCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             personCharacteristicId_ = value;
           }
@@ -773,7 +773,7 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
        */
       public Builder clearPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class PmGetPChAccRestrForGroupsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
         
         onChanged();
         return getPersonCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         if (personCharacteristicIdBuilder_ != null) {
           return personCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return personCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonCharacteristicIdFieldBuilder() {
         if (personCharacteristicIdBuilder_ == null) {
           personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class PmGetPChAccRestrForGroupsAd {
        * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
        */
       boolean hasReadAccessRestrictionPattern();
       /**
@@ -1115,24 +1115,24 @@ public final class PmGetPChAccRestrForGroupsAd {
        * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
        */
-      io.dstore.Values.stringValue getReadAccessRestrictionPattern();
+      io.dstore.values.StringValue getReadAccessRestrictionPattern();
       /**
        * <pre>
        * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getReadAccessRestrictionPatternOrBuilder();
+      io.dstore.values.StringValueOrBuilder getReadAccessRestrictionPatternOrBuilder();
 
       /**
        * <pre>
        * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
        */
       boolean hasAccessRestriction();
       /**
@@ -1140,24 +1140,24 @@ public final class PmGetPChAccRestrForGroupsAd {
        * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
        */
-      io.dstore.Values.integerValue getAccessRestriction();
+      io.dstore.values.IntegerValue getAccessRestriction();
       /**
        * <pre>
        * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getAccessRestrictionOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getAccessRestrictionOrBuilder();
 
       /**
        * <pre>
        * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
@@ -1165,24 +1165,24 @@ public final class PmGetPChAccRestrForGroupsAd {
        * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getPersonCharacteristicId();
+      io.dstore.values.IntegerValue getPersonCharacteristicId();
       /**
        * <pre>
        * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
        */
       boolean hasRestrictionForUserGroupId();
       /**
@@ -1190,17 +1190,17 @@ public final class PmGetPChAccRestrForGroupsAd {
        * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
        */
-      io.dstore.Values.integerValue getRestrictionForUserGroupId();
+      io.dstore.values.IntegerValue getRestrictionForUserGroupId();
       /**
        * <pre>
        * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getRestrictionForUserGroupIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getRestrictionForUserGroupIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetPChAccRestrForGroups_Ad.Response.Row}
@@ -1248,11 +1248,11 @@ public final class PmGetPChAccRestrForGroupsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (readAccessRestrictionPattern_ != null) {
                   subBuilder = readAccessRestrictionPattern_.toBuilder();
                 }
-                readAccessRestrictionPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                readAccessRestrictionPattern_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(readAccessRestrictionPattern_);
                   readAccessRestrictionPattern_ = subBuilder.buildPartial();
@@ -1261,11 +1261,11 @@ public final class PmGetPChAccRestrForGroupsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (accessRestriction_ != null) {
                   subBuilder = accessRestriction_.toBuilder();
                 }
-                accessRestriction_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                accessRestriction_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accessRestriction_);
                   accessRestriction_ = subBuilder.buildPartial();
@@ -1274,11 +1274,11 @@ public final class PmGetPChAccRestrForGroupsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personCharacteristicId_ != null) {
                   subBuilder = personCharacteristicId_.toBuilder();
                 }
-                personCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personCharacteristicId_);
                   personCharacteristicId_ = subBuilder.buildPartial();
@@ -1287,11 +1287,11 @@ public final class PmGetPChAccRestrForGroupsAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (restrictionForUserGroupId_ != null) {
                   subBuilder = restrictionForUserGroupId_.toBuilder();
                 }
-                restrictionForUserGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                restrictionForUserGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(restrictionForUserGroupId_);
                   restrictionForUserGroupId_ = subBuilder.buildPartial();
@@ -1332,13 +1332,13 @@ public final class PmGetPChAccRestrForGroupsAd {
       }
 
       public static final int READ_ACCESS_RESTRICTION_PATTERN_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue readAccessRestrictionPattern_;
+      private io.dstore.values.StringValue readAccessRestrictionPattern_;
       /**
        * <pre>
        * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
        */
       public boolean hasReadAccessRestrictionPattern() {
         return readAccessRestrictionPattern_ != null;
@@ -1348,30 +1348,30 @@ public final class PmGetPChAccRestrForGroupsAd {
        * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
        */
-      public io.dstore.Values.stringValue getReadAccessRestrictionPattern() {
-        return readAccessRestrictionPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : readAccessRestrictionPattern_;
+      public io.dstore.values.StringValue getReadAccessRestrictionPattern() {
+        return readAccessRestrictionPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : readAccessRestrictionPattern_;
       }
       /**
        * <pre>
        * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+       * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getReadAccessRestrictionPatternOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getReadAccessRestrictionPatternOrBuilder() {
         return getReadAccessRestrictionPattern();
       }
 
       public static final int ACCESS_RESTRICTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue accessRestriction_;
+      private io.dstore.values.IntegerValue accessRestriction_;
       /**
        * <pre>
        * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
        */
       public boolean hasAccessRestriction() {
         return accessRestriction_ != null;
@@ -1381,30 +1381,30 @@ public final class PmGetPChAccRestrForGroupsAd {
        * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
        */
-      public io.dstore.Values.integerValue getAccessRestriction() {
-        return accessRestriction_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessRestriction_;
+      public io.dstore.values.IntegerValue getAccessRestriction() {
+        return accessRestriction_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessRestriction_;
       }
       /**
        * <pre>
        * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getAccessRestrictionOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getAccessRestrictionOrBuilder() {
         return getAccessRestriction();
       }
 
       public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue personCharacteristicId_;
+      private io.dstore.values.IntegerValue personCharacteristicId_;
       /**
        * <pre>
        * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
@@ -1414,30 +1414,30 @@ public final class PmGetPChAccRestrForGroupsAd {
        * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getPersonCharacteristicId() {
-        return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+      public io.dstore.values.IntegerValue getPersonCharacteristicId() {
+        return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
       }
       /**
        * <pre>
        * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
       }
 
       public static final int RESTRICTION_FOR_USER_GROUP_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue restrictionForUserGroupId_;
+      private io.dstore.values.IntegerValue restrictionForUserGroupId_;
       /**
        * <pre>
        * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
        */
       public boolean hasRestrictionForUserGroupId() {
         return restrictionForUserGroupId_ != null;
@@ -1447,19 +1447,19 @@ public final class PmGetPChAccRestrForGroupsAd {
        * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
        */
-      public io.dstore.Values.integerValue getRestrictionForUserGroupId() {
-        return restrictionForUserGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : restrictionForUserGroupId_;
+      public io.dstore.values.IntegerValue getRestrictionForUserGroupId() {
+        return restrictionForUserGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : restrictionForUserGroupId_;
       }
       /**
        * <pre>
        * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRestrictionForUserGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRestrictionForUserGroupIdOrBuilder() {
         return getRestrictionForUserGroupId();
       }
 
@@ -1878,15 +1878,15 @@ public final class PmGetPChAccRestrForGroupsAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue readAccessRestrictionPattern_ = null;
+        private io.dstore.values.StringValue readAccessRestrictionPattern_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> readAccessRestrictionPatternBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> readAccessRestrictionPatternBuilder_;
         /**
          * <pre>
          * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
          */
         public boolean hasReadAccessRestrictionPattern() {
           return readAccessRestrictionPatternBuilder_ != null || readAccessRestrictionPattern_ != null;
@@ -1896,11 +1896,11 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
          */
-        public io.dstore.Values.stringValue getReadAccessRestrictionPattern() {
+        public io.dstore.values.StringValue getReadAccessRestrictionPattern() {
           if (readAccessRestrictionPatternBuilder_ == null) {
-            return readAccessRestrictionPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : readAccessRestrictionPattern_;
+            return readAccessRestrictionPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : readAccessRestrictionPattern_;
           } else {
             return readAccessRestrictionPatternBuilder_.getMessage();
           }
@@ -1910,9 +1910,9 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
          */
-        public Builder setReadAccessRestrictionPattern(io.dstore.Values.stringValue value) {
+        public Builder setReadAccessRestrictionPattern(io.dstore.values.StringValue value) {
           if (readAccessRestrictionPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1930,10 +1930,10 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
          */
         public Builder setReadAccessRestrictionPattern(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (readAccessRestrictionPatternBuilder_ == null) {
             readAccessRestrictionPattern_ = builderForValue.build();
             onChanged();
@@ -1948,13 +1948,13 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
          */
-        public Builder mergeReadAccessRestrictionPattern(io.dstore.Values.stringValue value) {
+        public Builder mergeReadAccessRestrictionPattern(io.dstore.values.StringValue value) {
           if (readAccessRestrictionPatternBuilder_ == null) {
             if (readAccessRestrictionPattern_ != null) {
               readAccessRestrictionPattern_ =
-                io.dstore.Values.stringValue.newBuilder(readAccessRestrictionPattern_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(readAccessRestrictionPattern_).mergeFrom(value).buildPartial();
             } else {
               readAccessRestrictionPattern_ = value;
             }
@@ -1970,7 +1970,7 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
          */
         public Builder clearReadAccessRestrictionPattern() {
           if (readAccessRestrictionPatternBuilder_ == null) {
@@ -1988,9 +1988,9 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getReadAccessRestrictionPatternBuilder() {
+        public io.dstore.values.StringValue.Builder getReadAccessRestrictionPatternBuilder() {
           
           onChanged();
           return getReadAccessRestrictionPatternFieldBuilder().getBuilder();
@@ -2000,14 +2000,14 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getReadAccessRestrictionPatternOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getReadAccessRestrictionPatternOrBuilder() {
           if (readAccessRestrictionPatternBuilder_ != null) {
             return readAccessRestrictionPatternBuilder_.getMessageOrBuilder();
           } else {
             return readAccessRestrictionPattern_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : readAccessRestrictionPattern_;
+                io.dstore.values.StringValue.getDefaultInstance() : readAccessRestrictionPattern_;
           }
         }
         /**
@@ -2015,14 +2015,14 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welcher Teil der Eigensch. (wenn "AccessRestriction &amp; 8 = 8") zurückgeg. wird:- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen ("n = 0" mögl.)- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen ("n = 0" mögl.)- NULL : Datensätze zu "PersonCharacteristicID" fehlen ganz
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue read_access_restriction_pattern = 10001;</code>
+         * <code>optional .dstore.values.StringValue read_access_restriction_pattern = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getReadAccessRestrictionPatternFieldBuilder() {
           if (readAccessRestrictionPatternBuilder_ == null) {
             readAccessRestrictionPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getReadAccessRestrictionPattern(),
                     getParentForChildren(),
                     isClean());
@@ -2031,15 +2031,15 @@ public final class PmGetPChAccRestrForGroupsAd {
           return readAccessRestrictionPatternBuilder_;
         }
 
-        private io.dstore.Values.integerValue accessRestriction_ = null;
+        private io.dstore.values.IntegerValue accessRestriction_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accessRestrictionBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> accessRestrictionBuilder_;
         /**
          * <pre>
          * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
          */
         public boolean hasAccessRestriction() {
           return accessRestrictionBuilder_ != null || accessRestriction_ != null;
@@ -2049,11 +2049,11 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
          */
-        public io.dstore.Values.integerValue getAccessRestriction() {
+        public io.dstore.values.IntegerValue getAccessRestriction() {
           if (accessRestrictionBuilder_ == null) {
-            return accessRestriction_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessRestriction_;
+            return accessRestriction_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessRestriction_;
           } else {
             return accessRestrictionBuilder_.getMessage();
           }
@@ -2063,9 +2063,9 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
          */
-        public Builder setAccessRestriction(io.dstore.Values.integerValue value) {
+        public Builder setAccessRestriction(io.dstore.values.IntegerValue value) {
           if (accessRestrictionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2083,10 +2083,10 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
          */
         public Builder setAccessRestriction(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (accessRestrictionBuilder_ == null) {
             accessRestriction_ = builderForValue.build();
             onChanged();
@@ -2101,13 +2101,13 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
          */
-        public Builder mergeAccessRestriction(io.dstore.Values.integerValue value) {
+        public Builder mergeAccessRestriction(io.dstore.values.IntegerValue value) {
           if (accessRestrictionBuilder_ == null) {
             if (accessRestriction_ != null) {
               accessRestriction_ =
-                io.dstore.Values.integerValue.newBuilder(accessRestriction_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(accessRestriction_).mergeFrom(value).buildPartial();
             } else {
               accessRestriction_ = value;
             }
@@ -2123,7 +2123,7 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
          */
         public Builder clearAccessRestriction() {
           if (accessRestrictionBuilder_ == null) {
@@ -2141,9 +2141,9 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getAccessRestrictionBuilder() {
+        public io.dstore.values.IntegerValue.Builder getAccessRestrictionBuilder() {
           
           onChanged();
           return getAccessRestrictionFieldBuilder().getBuilder();
@@ -2153,14 +2153,14 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getAccessRestrictionOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getAccessRestrictionOrBuilder() {
           if (accessRestrictionBuilder_ != null) {
             return accessRestrictionBuilder_.getMessageOrBuilder();
           } else {
             return accessRestriction_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : accessRestriction_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : accessRestriction_;
           }
         }
         /**
@@ -2168,14 +2168,14 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Welche Beschr. gelten. Summe folg. mögl. Werte :- "1" : Neu-Anlage v. Eigensch./Details verb.- "2" : Ändern v. Eigensch./Details verb.- "4" : Löschen v. Eigensch./Details verb.- "8" : Lesen v. Eigensch. verb./eingeschr. UND Lesen v. Details verb.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_restriction = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue access_restriction = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getAccessRestrictionFieldBuilder() {
           if (accessRestrictionBuilder_ == null) {
             accessRestrictionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getAccessRestriction(),
                     getParentForChildren(),
                     isClean());
@@ -2184,15 +2184,15 @@ public final class PmGetPChAccRestrForGroupsAd {
           return accessRestrictionBuilder_;
         }
 
-        private io.dstore.Values.integerValue personCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue personCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
          * <pre>
          * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
@@ -2202,11 +2202,11 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getPersonCharacteristicId() {
+        public io.dstore.values.IntegerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
-            return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+            return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           } else {
             return personCharacteristicIdBuilder_.getMessage();
           }
@@ -2216,9 +2216,9 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
-        public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2236,10 +2236,10 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder setPersonCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -2254,13 +2254,13 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
-        public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (personCharacteristicId_ != null) {
               personCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               personCharacteristicId_ = value;
             }
@@ -2276,7 +2276,7 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -2294,9 +2294,9 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
           
           onChanged();
           return getPersonCharacteristicIdFieldBuilder().getBuilder();
@@ -2306,14 +2306,14 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
             return personCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return personCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           }
         }
         /**
@@ -2321,14 +2321,14 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID des Merkmals für dessen Eigenschaften/Details die Beschränkung gilt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonCharacteristicIdFieldBuilder() {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -2337,15 +2337,15 @@ public final class PmGetPChAccRestrForGroupsAd {
           return personCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue restrictionForUserGroupId_ = null;
+        private io.dstore.values.IntegerValue restrictionForUserGroupId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> restrictionForUserGroupIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> restrictionForUserGroupIdBuilder_;
         /**
          * <pre>
          * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
          */
         public boolean hasRestrictionForUserGroupId() {
           return restrictionForUserGroupIdBuilder_ != null || restrictionForUserGroupId_ != null;
@@ -2355,11 +2355,11 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue getRestrictionForUserGroupId() {
+        public io.dstore.values.IntegerValue getRestrictionForUserGroupId() {
           if (restrictionForUserGroupIdBuilder_ == null) {
-            return restrictionForUserGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : restrictionForUserGroupId_;
+            return restrictionForUserGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : restrictionForUserGroupId_;
           } else {
             return restrictionForUserGroupIdBuilder_.getMessage();
           }
@@ -2369,9 +2369,9 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
          */
-        public Builder setRestrictionForUserGroupId(io.dstore.Values.integerValue value) {
+        public Builder setRestrictionForUserGroupId(io.dstore.values.IntegerValue value) {
           if (restrictionForUserGroupIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2389,10 +2389,10 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
          */
         public Builder setRestrictionForUserGroupId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (restrictionForUserGroupIdBuilder_ == null) {
             restrictionForUserGroupId_ = builderForValue.build();
             onChanged();
@@ -2407,13 +2407,13 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
          */
-        public Builder mergeRestrictionForUserGroupId(io.dstore.Values.integerValue value) {
+        public Builder mergeRestrictionForUserGroupId(io.dstore.values.IntegerValue value) {
           if (restrictionForUserGroupIdBuilder_ == null) {
             if (restrictionForUserGroupId_ != null) {
               restrictionForUserGroupId_ =
-                io.dstore.Values.integerValue.newBuilder(restrictionForUserGroupId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(restrictionForUserGroupId_).mergeFrom(value).buildPartial();
             } else {
               restrictionForUserGroupId_ = value;
             }
@@ -2429,7 +2429,7 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
          */
         public Builder clearRestrictionForUserGroupId() {
           if (restrictionForUserGroupIdBuilder_ == null) {
@@ -2447,9 +2447,9 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getRestrictionForUserGroupIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getRestrictionForUserGroupIdBuilder() {
           
           onChanged();
           return getRestrictionForUserGroupIdFieldBuilder().getBuilder();
@@ -2459,14 +2459,14 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getRestrictionForUserGroupIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getRestrictionForUserGroupIdOrBuilder() {
           if (restrictionForUserGroupIdBuilder_ != null) {
             return restrictionForUserGroupIdBuilder_.getMessageOrBuilder();
           } else {
             return restrictionForUserGroupId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : restrictionForUserGroupId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : restrictionForUserGroupId_;
           }
         }
         /**
@@ -2474,14 +2474,14 @@ public final class PmGetPChAccRestrForGroupsAd {
          * Die ID einer "dStore"-Benutzer-Gruppe (s. "mi_GetUserGroups_Ad") für die die Beschränkung gilt. Entspricht natürlich "&#64;UserGroupID" wenn angegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue restriction_for_user_group_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue restriction_for_user_group_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getRestrictionForUserGroupIdFieldBuilder() {
           if (restrictionForUserGroupIdBuilder_ == null) {
             restrictionForUserGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getRestrictionForUserGroupId(),
                     getParentForChildren(),
                     isClean());
@@ -3951,9 +3951,9 @@ public final class PmGetPChAccRestrForGroupsAd {
       "_GetPChAccRestrForGroups_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\304\001\n" +
       "\nParameters\0222\n\ruser_group_id\030\001 \001(\0132\033.dst" +
-      "ore.values.integerValue\022\033\n\022user_group_id" +
+      "ore.values.IntegerValue\022\033\n\022user_group_id" +
       "_null\030\351\007 \001(\010\022=\n\030person_characteristic_id" +
-      "\030\002 \001(\0132\033.dstore.values.integerValue\022&\n\035p" +
+      "\030\002 \001(\0132\033.dstore.values.IntegerValue\022&\n\035p" +
       "erson_characteristic_id_null\030\352\007 \001(\010\"\323\003\n\010" +
       "Response\0228\n\020meta_information\030\002 \003(\0132\036.dst",
       "ore.engine.MetaInformation\022\'\n\007message\030\003 " +
@@ -3961,12 +3961,12 @@ public final class PmGetPChAccRestrForGroupsAd {
       "29.dstore.engine.pm_GetPChAccRestrForGro" +
       "ups_Ad.Response.Row\032\233\002\n\003Row\022\017\n\006row_id\030\220N" +
       " \001(\005\022D\n\037read_access_restriction_pattern\030" +
-      "\221N \001(\0132\032.dstore.values.stringValue\0228\n\022ac" +
+      "\221N \001(\0132\032.dstore.values.StringValue\0228\n\022ac" +
       "cess_restriction\030\222N \001(\0132\033.dstore.values." +
-      "integerValue\022>\n\030person_characteristic_id" +
-      "\030\223N \001(\0132\033.dstore.values.integerValue\022C\n\035" +
+      "IntegerValue\022>\n\030person_characteristic_id" +
+      "\030\223N \001(\0132\033.dstore.values.IntegerValue\022C\n\035" +
       "restriction_for_user_group_id\030\224N \001(\0132\033.d",
-      "store.values.integerValueB^\n\033io.dstore.e" +
+      "store.values.IntegerValueB^\n\033io.dstore.e" +
       "ngine.proceduresZ?gosdk.dstore.de/engine" +
       "/procedures/pm_GetPChAccRestrForGroups_A" +
       "db\006proto3"
@@ -3982,7 +3982,7 @@ public final class PmGetPChAccRestrForGroupsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetPChAccRestrForGroups_Ad_Parameters_descriptor =
@@ -4003,7 +4003,7 @@ public final class PmGetPChAccRestrForGroupsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPChAccRestrForGroups_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ReadAccessRestrictionPattern", "AccessRestriction", "PersonCharacteristicId", "RestrictionForUserGroupId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -590,7 +590,7 @@ public final class OmGetTimeUnitsForCPeriodsAd {
        * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
        */
       boolean hasTimeUnitId();
       /**
@@ -598,24 +598,24 @@ public final class OmGetTimeUnitsForCPeriodsAd {
        * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getTimeUnitId();
+      io.dstore.values.IntegerValue getTimeUnitId();
       /**
        * <pre>
        * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTimeUnitIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTimeUnitIdOrBuilder();
 
       /**
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
        */
       boolean hasTimeUnit();
       /**
@@ -623,17 +623,17 @@ public final class OmGetTimeUnitsForCPeriodsAd {
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
        */
-      io.dstore.Values.stringValue getTimeUnit();
+      io.dstore.values.StringValue getTimeUnit();
       /**
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getTimeUnitOrBuilder();
+      io.dstore.values.StringValueOrBuilder getTimeUnitOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetTimeUnitsForCPeriods_Ad.Response.Row}
@@ -681,11 +681,11 @@ public final class OmGetTimeUnitsForCPeriodsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (timeUnitId_ != null) {
                   subBuilder = timeUnitId_.toBuilder();
                 }
-                timeUnitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                timeUnitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(timeUnitId_);
                   timeUnitId_ = subBuilder.buildPartial();
@@ -694,11 +694,11 @@ public final class OmGetTimeUnitsForCPeriodsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (timeUnit_ != null) {
                   subBuilder = timeUnit_.toBuilder();
                 }
-                timeUnit_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                timeUnit_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(timeUnit_);
                   timeUnit_ = subBuilder.buildPartial();
@@ -739,13 +739,13 @@ public final class OmGetTimeUnitsForCPeriodsAd {
       }
 
       public static final int TIME_UNIT_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue timeUnitId_;
+      private io.dstore.values.IntegerValue timeUnitId_;
       /**
        * <pre>
        * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
        */
       public boolean hasTimeUnitId() {
         return timeUnitId_ != null;
@@ -755,30 +755,30 @@ public final class OmGetTimeUnitsForCPeriodsAd {
        * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getTimeUnitId() {
-        return timeUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : timeUnitId_;
+      public io.dstore.values.IntegerValue getTimeUnitId() {
+        return timeUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : timeUnitId_;
       }
       /**
        * <pre>
        * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTimeUnitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTimeUnitIdOrBuilder() {
         return getTimeUnitId();
       }
 
       public static final int TIME_UNIT_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue timeUnit_;
+      private io.dstore.values.StringValue timeUnit_;
       /**
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
        */
       public boolean hasTimeUnit() {
         return timeUnit_ != null;
@@ -788,19 +788,19 @@ public final class OmGetTimeUnitsForCPeriodsAd {
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
        */
-      public io.dstore.Values.stringValue getTimeUnit() {
-        return timeUnit_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : timeUnit_;
+      public io.dstore.values.StringValue getTimeUnit() {
+        return timeUnit_ == null ? io.dstore.values.StringValue.getDefaultInstance() : timeUnit_;
       }
       /**
        * <pre>
        * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+       * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTimeUnitOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTimeUnitOrBuilder() {
         return getTimeUnit();
       }
 
@@ -1159,15 +1159,15 @@ public final class OmGetTimeUnitsForCPeriodsAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue timeUnitId_ = null;
+        private io.dstore.values.IntegerValue timeUnitId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> timeUnitIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> timeUnitIdBuilder_;
         /**
          * <pre>
          * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
          */
         public boolean hasTimeUnitId() {
           return timeUnitIdBuilder_ != null || timeUnitId_ != null;
@@ -1177,11 +1177,11 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getTimeUnitId() {
+        public io.dstore.values.IntegerValue getTimeUnitId() {
           if (timeUnitIdBuilder_ == null) {
-            return timeUnitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : timeUnitId_;
+            return timeUnitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : timeUnitId_;
           } else {
             return timeUnitIdBuilder_.getMessage();
           }
@@ -1191,9 +1191,9 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
          */
-        public Builder setTimeUnitId(io.dstore.Values.integerValue value) {
+        public Builder setTimeUnitId(io.dstore.values.IntegerValue value) {
           if (timeUnitIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1211,10 +1211,10 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
          */
         public Builder setTimeUnitId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (timeUnitIdBuilder_ == null) {
             timeUnitId_ = builderForValue.build();
             onChanged();
@@ -1229,13 +1229,13 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
          */
-        public Builder mergeTimeUnitId(io.dstore.Values.integerValue value) {
+        public Builder mergeTimeUnitId(io.dstore.values.IntegerValue value) {
           if (timeUnitIdBuilder_ == null) {
             if (timeUnitId_ != null) {
               timeUnitId_ =
-                io.dstore.Values.integerValue.newBuilder(timeUnitId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(timeUnitId_).mergeFrom(value).buildPartial();
             } else {
               timeUnitId_ = value;
             }
@@ -1251,7 +1251,7 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
          */
         public Builder clearTimeUnitId() {
           if (timeUnitIdBuilder_ == null) {
@@ -1269,9 +1269,9 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTimeUnitIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTimeUnitIdBuilder() {
           
           onChanged();
           return getTimeUnitIdFieldBuilder().getBuilder();
@@ -1281,14 +1281,14 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTimeUnitIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTimeUnitIdOrBuilder() {
           if (timeUnitIdBuilder_ != null) {
             return timeUnitIdBuilder_.getMessageOrBuilder();
           } else {
             return timeUnitId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : timeUnitId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : timeUnitId_;
           }
         }
         /**
@@ -1296,14 +1296,14 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * ID einer Zeiteinheit, die bei der Definition von Gültigkeitszeiträumen von Verkaufs-Aktionen durch "om_ModifyCampaignPeriodDefs_Ad" verwendet werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_unit_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_unit_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTimeUnitIdFieldBuilder() {
           if (timeUnitIdBuilder_ == null) {
             timeUnitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTimeUnitId(),
                     getParentForChildren(),
                     isClean());
@@ -1312,15 +1312,15 @@ public final class OmGetTimeUnitsForCPeriodsAd {
           return timeUnitIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue timeUnit_ = null;
+        private io.dstore.values.StringValue timeUnit_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> timeUnitBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> timeUnitBuilder_;
         /**
          * <pre>
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+         * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
          */
         public boolean hasTimeUnit() {
           return timeUnitBuilder_ != null || timeUnit_ != null;
@@ -1330,11 +1330,11 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+         * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
          */
-        public io.dstore.Values.stringValue getTimeUnit() {
+        public io.dstore.values.StringValue getTimeUnit() {
           if (timeUnitBuilder_ == null) {
-            return timeUnit_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : timeUnit_;
+            return timeUnit_ == null ? io.dstore.values.StringValue.getDefaultInstance() : timeUnit_;
           } else {
             return timeUnitBuilder_.getMessage();
           }
@@ -1344,9 +1344,9 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+         * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
          */
-        public Builder setTimeUnit(io.dstore.Values.stringValue value) {
+        public Builder setTimeUnit(io.dstore.values.StringValue value) {
           if (timeUnitBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1364,10 +1364,10 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+         * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
          */
         public Builder setTimeUnit(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (timeUnitBuilder_ == null) {
             timeUnit_ = builderForValue.build();
             onChanged();
@@ -1382,13 +1382,13 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+         * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
          */
-        public Builder mergeTimeUnit(io.dstore.Values.stringValue value) {
+        public Builder mergeTimeUnit(io.dstore.values.StringValue value) {
           if (timeUnitBuilder_ == null) {
             if (timeUnit_ != null) {
               timeUnit_ =
-                io.dstore.Values.stringValue.newBuilder(timeUnit_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(timeUnit_).mergeFrom(value).buildPartial();
             } else {
               timeUnit_ = value;
             }
@@ -1404,7 +1404,7 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+         * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
          */
         public Builder clearTimeUnit() {
           if (timeUnitBuilder_ == null) {
@@ -1422,9 +1422,9 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+         * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getTimeUnitBuilder() {
+        public io.dstore.values.StringValue.Builder getTimeUnitBuilder() {
           
           onChanged();
           return getTimeUnitFieldBuilder().getBuilder();
@@ -1434,14 +1434,14 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+         * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getTimeUnitOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getTimeUnitOrBuilder() {
           if (timeUnitBuilder_ != null) {
             return timeUnitBuilder_.getMessageOrBuilder();
           } else {
             return timeUnit_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : timeUnit_;
+                io.dstore.values.StringValue.getDefaultInstance() : timeUnit_;
           }
         }
         /**
@@ -1449,14 +1449,14 @@ public final class OmGetTimeUnitsForCPeriodsAd {
          * Klartext der Zeiteinheit "TimeUnitID" (z.B. "Tag")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue time_unit = 10002;</code>
+         * <code>optional .dstore.values.StringValue time_unit = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getTimeUnitFieldBuilder() {
           if (timeUnitBuilder_ == null) {
             timeUnitBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getTimeUnit(),
                     getParentForChildren(),
                     isClean());
@@ -2931,8 +2931,8 @@ public final class OmGetTimeUnitsForCPeriodsAd {
       "ge\022F\n\003row\030\004 \003(\01329.dstore.engine.om_GetTi" +
       "meUnitsForCPeriods_Ad.Response.Row\032z\n\003Ro" +
       "w\022\017\n\006row_id\030\220N \001(\005\0222\n\014time_unit_id\030\221N \001(",
-      "\0132\033.dstore.values.integerValue\022.\n\ttime_u" +
-      "nit\030\222N \001(\0132\032.dstore.values.stringValueB^" +
+      "\0132\033.dstore.values.IntegerValue\022.\n\ttime_u" +
+      "nit\030\222N \001(\0132\032.dstore.values.StringValueB^" +
       "\n\033io.dstore.engine.proceduresZ?gosdk.dst" +
       "ore.de/engine/procedures/om_GetTimeUnits" +
       "ForCPeriods_Adb\006proto3"
@@ -2948,7 +2948,7 @@ public final class OmGetTimeUnitsForCPeriodsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetTimeUnitsForCPeriods_Ad_Parameters_descriptor =
@@ -2969,7 +2969,7 @@ public final class OmGetTimeUnitsForCPeriodsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTimeUnitsForCPeriods_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TimeUnitId", "TimeUnit", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

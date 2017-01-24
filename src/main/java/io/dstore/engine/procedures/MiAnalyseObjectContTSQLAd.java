@@ -19,17 +19,17 @@ public final class MiAnalyseObjectContTSQLAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
      */
     boolean hasObjectNameContainingTSQL();
     /**
-     * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
      */
-    io.dstore.Values.stringValue getObjectNameContainingTSQL();
+    io.dstore.values.StringValue getObjectNameContainingTSQL();
     /**
-     * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getObjectNameContainingTSQLOrBuilder();
+    io.dstore.values.StringValueOrBuilder getObjectNameContainingTSQLOrBuilder();
 
     /**
      * <code>optional bool object_name_containing_t_s_q_l_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiAnalyseObjectContTSQLAd {
     boolean getObjectNameContainingTSQLNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+     * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
      */
     boolean hasForceAnalysis();
     /**
-     * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+     * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
      */
-    io.dstore.Values.booleanValue getForceAnalysis();
+    io.dstore.values.BooleanValue getForceAnalysis();
     /**
-     * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+     * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getForceAnalysisOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getForceAnalysisOrBuilder();
 
     /**
      * <code>optional bool force_analysis_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class MiAnalyseObjectContTSQLAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (objectNameContainingTSQL_ != null) {
                 subBuilder = objectNameContainingTSQL_.toBuilder();
               }
-              objectNameContainingTSQL_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              objectNameContainingTSQL_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(objectNameContainingTSQL_);
                 objectNameContainingTSQL_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class MiAnalyseObjectContTSQLAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (forceAnalysis_ != null) {
                 subBuilder = forceAnalysis_.toBuilder();
               }
-              forceAnalysis_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              forceAnalysis_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forceAnalysis_);
                 forceAnalysis_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class MiAnalyseObjectContTSQLAd {
     }
 
     public static final int OBJECT_NAME_CONTAINING_T_S_Q_L_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue objectNameContainingTSQL_;
+    private io.dstore.values.StringValue objectNameContainingTSQL_;
     /**
-     * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
      */
     public boolean hasObjectNameContainingTSQL() {
       return objectNameContainingTSQL_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
      */
-    public io.dstore.Values.stringValue getObjectNameContainingTSQL() {
-      return objectNameContainingTSQL_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectNameContainingTSQL_;
+    public io.dstore.values.StringValue getObjectNameContainingTSQL() {
+      return objectNameContainingTSQL_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectNameContainingTSQL_;
     }
     /**
-     * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getObjectNameContainingTSQLOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getObjectNameContainingTSQLOrBuilder() {
       return getObjectNameContainingTSQL();
     }
 
@@ -185,23 +185,23 @@ public final class MiAnalyseObjectContTSQLAd {
     }
 
     public static final int FORCE_ANALYSIS_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue forceAnalysis_;
+    private io.dstore.values.BooleanValue forceAnalysis_;
     /**
-     * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+     * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
      */
     public boolean hasForceAnalysis() {
       return forceAnalysis_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+     * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
      */
-    public io.dstore.Values.booleanValue getForceAnalysis() {
-      return forceAnalysis_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : forceAnalysis_;
+    public io.dstore.values.BooleanValue getForceAnalysis() {
+      return forceAnalysis_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : forceAnalysis_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+     * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getForceAnalysisOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getForceAnalysisOrBuilder() {
       return getForceAnalysis();
     }
 
@@ -562,29 +562,29 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue objectNameContainingTSQL_ = null;
+      private io.dstore.values.StringValue objectNameContainingTSQL_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectNameContainingTSQLBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> objectNameContainingTSQLBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
        */
       public boolean hasObjectNameContainingTSQL() {
         return objectNameContainingTSQLBuilder_ != null || objectNameContainingTSQL_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
        */
-      public io.dstore.Values.stringValue getObjectNameContainingTSQL() {
+      public io.dstore.values.StringValue getObjectNameContainingTSQL() {
         if (objectNameContainingTSQLBuilder_ == null) {
-          return objectNameContainingTSQL_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectNameContainingTSQL_;
+          return objectNameContainingTSQL_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectNameContainingTSQL_;
         } else {
           return objectNameContainingTSQLBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
        */
-      public Builder setObjectNameContainingTSQL(io.dstore.Values.stringValue value) {
+      public Builder setObjectNameContainingTSQL(io.dstore.values.StringValue value) {
         if (objectNameContainingTSQLBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
        */
       public Builder setObjectNameContainingTSQL(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (objectNameContainingTSQLBuilder_ == null) {
           objectNameContainingTSQL_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
        */
-      public Builder mergeObjectNameContainingTSQL(io.dstore.Values.stringValue value) {
+      public Builder mergeObjectNameContainingTSQL(io.dstore.values.StringValue value) {
         if (objectNameContainingTSQLBuilder_ == null) {
           if (objectNameContainingTSQL_ != null) {
             objectNameContainingTSQL_ =
-              io.dstore.Values.stringValue.newBuilder(objectNameContainingTSQL_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(objectNameContainingTSQL_).mergeFrom(value).buildPartial();
           } else {
             objectNameContainingTSQL_ = value;
           }
@@ -630,7 +630,7 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
        */
       public Builder clearObjectNameContainingTSQL() {
         if (objectNameContainingTSQLBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getObjectNameContainingTSQLBuilder() {
+      public io.dstore.values.StringValue.Builder getObjectNameContainingTSQLBuilder() {
         
         onChanged();
         return getObjectNameContainingTSQLFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getObjectNameContainingTSQLOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getObjectNameContainingTSQLOrBuilder() {
         if (objectNameContainingTSQLBuilder_ != null) {
           return objectNameContainingTSQLBuilder_.getMessageOrBuilder();
         } else {
           return objectNameContainingTSQL_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : objectNameContainingTSQL_;
+              io.dstore.values.StringValue.getDefaultInstance() : objectNameContainingTSQL_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name_containing_t_s_q_l = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name_containing_t_s_q_l = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getObjectNameContainingTSQLFieldBuilder() {
         if (objectNameContainingTSQLBuilder_ == null) {
           objectNameContainingTSQLBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getObjectNameContainingTSQL(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue forceAnalysis_ = null;
+      private io.dstore.values.BooleanValue forceAnalysis_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> forceAnalysisBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> forceAnalysisBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+       * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
        */
       public boolean hasForceAnalysis() {
         return forceAnalysisBuilder_ != null || forceAnalysis_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+       * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
        */
-      public io.dstore.Values.booleanValue getForceAnalysis() {
+      public io.dstore.values.BooleanValue getForceAnalysis() {
         if (forceAnalysisBuilder_ == null) {
-          return forceAnalysis_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : forceAnalysis_;
+          return forceAnalysis_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : forceAnalysis_;
         } else {
           return forceAnalysisBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+       * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
        */
-      public Builder setForceAnalysis(io.dstore.Values.booleanValue value) {
+      public Builder setForceAnalysis(io.dstore.values.BooleanValue value) {
         if (forceAnalysisBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+       * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
        */
       public Builder setForceAnalysis(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (forceAnalysisBuilder_ == null) {
           forceAnalysis_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+       * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
        */
-      public Builder mergeForceAnalysis(io.dstore.Values.booleanValue value) {
+      public Builder mergeForceAnalysis(io.dstore.values.BooleanValue value) {
         if (forceAnalysisBuilder_ == null) {
           if (forceAnalysis_ != null) {
             forceAnalysis_ =
-              io.dstore.Values.booleanValue.newBuilder(forceAnalysis_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(forceAnalysis_).mergeFrom(value).buildPartial();
           } else {
             forceAnalysis_ = value;
           }
@@ -773,7 +773,7 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+       * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
        */
       public Builder clearForceAnalysis() {
         if (forceAnalysisBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class MiAnalyseObjectContTSQLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+       * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getForceAnalysisBuilder() {
+      public io.dstore.values.BooleanValue.Builder getForceAnalysisBuilder() {
         
         onChanged();
         return getForceAnalysisFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+       * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getForceAnalysisOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getForceAnalysisOrBuilder() {
         if (forceAnalysisBuilder_ != null) {
           return forceAnalysisBuilder_.getMessageOrBuilder();
         } else {
           return forceAnalysis_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : forceAnalysis_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : forceAnalysis_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue force_analysis = 2;</code>
+       * <code>optional .dstore.values.BooleanValue force_analysis = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getForceAnalysisFieldBuilder() {
         if (forceAnalysisBuilder_ == null) {
           forceAnalysisBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getForceAnalysis(),
                   getParentForChildren(),
                   isClean());
@@ -2935,10 +2935,10 @@ public final class MiAnalyseObjectContTSQLAd {
       "nalyseObjectContTSQL_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\321\001\n\nPar" +
       "ameters\022B\n\036object_name_containing_t_s_q_" +
-      "l\030\001 \001(\0132\032.dstore.values.stringValue\022,\n#o" +
+      "l\030\001 \001(\0132\032.dstore.values.StringValue\022,\n#o" +
       "bject_name_containing_t_s_q_l_null\030\351\007 \001(" +
       "\010\0223\n\016force_analysis\030\002 \001(\0132\033.dstore.value" +
-      "s.booleanValue\022\034\n\023force_analysis_null\030\352\007" +
+      "s.BooleanValue\022\034\n\023force_analysis_null\030\352\007" +
       " \001(\010\"\313\001\n\010Response\0228\n\020meta_information\030\002 ",
       "\003(\0132\036.dstore.engine.MetaInformation\022\'\n\007m" +
       "essage\030\003 \003(\0132\026.dstore.engine.Message\022D\n\003" +
@@ -2959,7 +2959,7 @@ public final class MiAnalyseObjectContTSQLAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_AnalyseObjectContTSQL_Ad_Parameters_descriptor =
@@ -2980,7 +2980,7 @@ public final class MiAnalyseObjectContTSQLAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_AnalyseObjectContTSQL_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

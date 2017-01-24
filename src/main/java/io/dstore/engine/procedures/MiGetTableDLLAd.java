@@ -19,17 +19,17 @@ public final class MiGetTableDLLAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
     boolean hasOnlyTableName();
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
-    io.dstore.Values.stringValue getOnlyTableName();
+    io.dstore.values.StringValue getOnlyTableName();
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getOnlyTableNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getOnlyTableNameOrBuilder();
 
     /**
      * <code>optional bool only_table_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetTableDLLAd {
     boolean getOnlyTableNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
     boolean hasDatabaseName();
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
-    io.dstore.Values.stringValue getDatabaseName();
+    io.dstore.values.StringValue getDatabaseName();
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder();
 
     /**
      * <code>optional bool database_name_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class MiGetTableDLLAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (onlyTableName_ != null) {
                 subBuilder = onlyTableName_.toBuilder();
               }
-              onlyTableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              onlyTableName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyTableName_);
                 onlyTableName_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class MiGetTableDLLAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (databaseName_ != null) {
                 subBuilder = databaseName_.toBuilder();
               }
-              databaseName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              databaseName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(databaseName_);
                 databaseName_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class MiGetTableDLLAd {
     }
 
     public static final int ONLY_TABLE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue onlyTableName_;
+    private io.dstore.values.StringValue onlyTableName_;
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
     public boolean hasOnlyTableName() {
       return onlyTableName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getOnlyTableName() {
-      return onlyTableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : onlyTableName_;
+    public io.dstore.values.StringValue getOnlyTableName() {
+      return onlyTableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : onlyTableName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+     * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getOnlyTableNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getOnlyTableNameOrBuilder() {
       return getOnlyTableName();
     }
 
@@ -185,23 +185,23 @@ public final class MiGetTableDLLAd {
     }
 
     public static final int DATABASE_NAME_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue databaseName_;
+    private io.dstore.values.StringValue databaseName_;
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
     public boolean hasDatabaseName() {
       return databaseName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
-    public io.dstore.Values.stringValue getDatabaseName() {
-      return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+    public io.dstore.values.StringValue getDatabaseName() {
+      return databaseName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue database_name = 2;</code>
+     * <code>optional .dstore.values.StringValue database_name = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
       return getDatabaseName();
     }
 
@@ -562,29 +562,29 @@ public final class MiGetTableDLLAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue onlyTableName_ = null;
+      private io.dstore.values.StringValue onlyTableName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> onlyTableNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> onlyTableNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
       public boolean hasOnlyTableName() {
         return onlyTableNameBuilder_ != null || onlyTableName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getOnlyTableName() {
+      public io.dstore.values.StringValue getOnlyTableName() {
         if (onlyTableNameBuilder_ == null) {
-          return onlyTableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : onlyTableName_;
+          return onlyTableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : onlyTableName_;
         } else {
           return onlyTableNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public Builder setOnlyTableName(io.dstore.Values.stringValue value) {
+      public Builder setOnlyTableName(io.dstore.values.StringValue value) {
         if (onlyTableNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class MiGetTableDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
       public Builder setOnlyTableName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (onlyTableNameBuilder_ == null) {
           onlyTableName_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class MiGetTableDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public Builder mergeOnlyTableName(io.dstore.Values.stringValue value) {
+      public Builder mergeOnlyTableName(io.dstore.values.StringValue value) {
         if (onlyTableNameBuilder_ == null) {
           if (onlyTableName_ != null) {
             onlyTableName_ =
-              io.dstore.Values.stringValue.newBuilder(onlyTableName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(onlyTableName_).mergeFrom(value).buildPartial();
           } else {
             onlyTableName_ = value;
           }
@@ -630,7 +630,7 @@ public final class MiGetTableDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
       public Builder clearOnlyTableName() {
         if (onlyTableNameBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class MiGetTableDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getOnlyTableNameBuilder() {
+      public io.dstore.values.StringValue.Builder getOnlyTableNameBuilder() {
         
         onChanged();
         return getOnlyTableNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOnlyTableNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOnlyTableNameOrBuilder() {
         if (onlyTableNameBuilder_ != null) {
           return onlyTableNameBuilder_.getMessageOrBuilder();
         } else {
           return onlyTableName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : onlyTableName_;
+              io.dstore.values.StringValue.getDefaultInstance() : onlyTableName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue only_table_name = 1;</code>
+       * <code>optional .dstore.values.StringValue only_table_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getOnlyTableNameFieldBuilder() {
         if (onlyTableNameBuilder_ == null) {
           onlyTableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getOnlyTableName(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class MiGetTableDLLAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue databaseName_ = null;
+      private io.dstore.values.StringValue databaseName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> databaseNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> databaseNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
       public boolean hasDatabaseName() {
         return databaseNameBuilder_ != null || databaseName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public io.dstore.Values.stringValue getDatabaseName() {
+      public io.dstore.values.StringValue getDatabaseName() {
         if (databaseNameBuilder_ == null) {
-          return databaseName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+          return databaseName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
         } else {
           return databaseNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public Builder setDatabaseName(io.dstore.Values.stringValue value) {
+      public Builder setDatabaseName(io.dstore.values.StringValue value) {
         if (databaseNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class MiGetTableDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
       public Builder setDatabaseName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (databaseNameBuilder_ == null) {
           databaseName_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class MiGetTableDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public Builder mergeDatabaseName(io.dstore.Values.stringValue value) {
+      public Builder mergeDatabaseName(io.dstore.values.StringValue value) {
         if (databaseNameBuilder_ == null) {
           if (databaseName_ != null) {
             databaseName_ =
-              io.dstore.Values.stringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(databaseName_).mergeFrom(value).buildPartial();
           } else {
             databaseName_ = value;
           }
@@ -773,7 +773,7 @@ public final class MiGetTableDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
       public Builder clearDatabaseName() {
         if (databaseNameBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class MiGetTableDLLAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDatabaseNameBuilder() {
+      public io.dstore.values.StringValue.Builder getDatabaseNameBuilder() {
         
         onChanged();
         return getDatabaseNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDatabaseNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDatabaseNameOrBuilder() {
         if (databaseNameBuilder_ != null) {
           return databaseNameBuilder_.getMessageOrBuilder();
         } else {
           return databaseName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : databaseName_;
+              io.dstore.values.StringValue.getDefaultInstance() : databaseName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue database_name = 2;</code>
+       * <code>optional .dstore.values.StringValue database_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDatabaseNameFieldBuilder() {
         if (databaseNameBuilder_ == null) {
           databaseNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDatabaseName(),
                   getParentForChildren(),
                   isClean());
@@ -2934,9 +2934,9 @@ public final class MiGetTableDLLAd {
       "L_Ad.proto\022\037dstore.engine.mi_GetTableDLL" +
       "_Ad\032\023dstore/values.proto\032\032dstore/engine/" +
       "engine.proto\"\260\001\n\nParameters\0223\n\017only_tabl" +
-      "e_name\030\001 \001(\0132\032.dstore.values.stringValue" +
+      "e_name\030\001 \001(\0132\032.dstore.values.StringValue" +
       "\022\035\n\024only_table_name_null\030\351\007 \001(\010\0221\n\rdatab" +
-      "ase_name\030\002 \001(\0132\032.dstore.values.stringVal" +
+      "ase_name\030\002 \001(\0132\032.dstore.values.StringVal" +
       "ue\022\033\n\022database_name_null\030\352\007 \001(\010\"\301\001\n\010Resp" +
       "onse\0228\n\020meta_information\030\002 \003(\0132\036.dstore." +
       "engine.MetaInformation\022\'\n\007message\030\003 \003(\0132",
@@ -2957,7 +2957,7 @@ public final class MiGetTableDLLAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetTableDLL_Ad_Parameters_descriptor =
@@ -2978,7 +2978,7 @@ public final class MiGetTableDLLAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTableDLL_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

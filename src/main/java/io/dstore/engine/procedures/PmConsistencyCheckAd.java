@@ -19,17 +19,17 @@ public final class PmConsistencyCheckAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     boolean hasPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonCharacteristicId();
+    io.dstore.values.IntegerValue getPersonCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool person_characteristic_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmConsistencyCheckAd {
     boolean getPersonCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+     * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
      */
     boolean hasWhatToCheck();
     /**
-     * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+     * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
      */
-    io.dstore.Values.integerValue getWhatToCheck();
+    io.dstore.values.IntegerValue getWhatToCheck();
     /**
-     * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+     * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getWhatToCheckOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getWhatToCheckOrBuilder();
 
     /**
      * <code>optional bool what_to_check_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class PmConsistencyCheckAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personCharacteristicId_ != null) {
                 subBuilder = personCharacteristicId_.toBuilder();
               }
-              personCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personCharacteristicId_);
                 personCharacteristicId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class PmConsistencyCheckAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (whatToCheck_ != null) {
                 subBuilder = whatToCheck_.toBuilder();
               }
-              whatToCheck_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              whatToCheck_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(whatToCheck_);
                 whatToCheck_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class PmConsistencyCheckAd {
     }
 
     public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personCharacteristicId_;
+    private io.dstore.values.IntegerValue personCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
     public boolean hasPersonCharacteristicId() {
       return personCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonCharacteristicId() {
-      return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+    public io.dstore.values.IntegerValue getPersonCharacteristicId() {
+      return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
       return getPersonCharacteristicId();
     }
 
@@ -185,23 +185,23 @@ public final class PmConsistencyCheckAd {
     }
 
     public static final int WHAT_TO_CHECK_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue whatToCheck_;
+    private io.dstore.values.IntegerValue whatToCheck_;
     /**
-     * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+     * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
      */
     public boolean hasWhatToCheck() {
       return whatToCheck_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+     * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
      */
-    public io.dstore.Values.integerValue getWhatToCheck() {
-      return whatToCheck_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : whatToCheck_;
+    public io.dstore.values.IntegerValue getWhatToCheck() {
+      return whatToCheck_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : whatToCheck_;
     }
     /**
-     * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+     * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getWhatToCheckOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getWhatToCheckOrBuilder() {
       return getWhatToCheck();
     }
 
@@ -562,29 +562,29 @@ public final class PmConsistencyCheckAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue personCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonCharacteristicId() {
+      public io.dstore.values.IntegerValue getPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
-          return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+          return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
         } else {
           return personCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
-      public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class PmConsistencyCheckAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder setPersonCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personCharacteristicIdBuilder_ == null) {
           personCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class PmConsistencyCheckAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
-      public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
         if (personCharacteristicIdBuilder_ == null) {
           if (personCharacteristicId_ != null) {
             personCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             personCharacteristicId_ = value;
           }
@@ -630,7 +630,7 @@ public final class PmConsistencyCheckAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       public Builder clearPersonCharacteristicId() {
         if (personCharacteristicIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class PmConsistencyCheckAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
         
         onChanged();
         return getPersonCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         if (personCharacteristicIdBuilder_ != null) {
           return personCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return personCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonCharacteristicIdFieldBuilder() {
         if (personCharacteristicIdBuilder_ == null) {
           personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class PmConsistencyCheckAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue whatToCheck_ = null;
+      private io.dstore.values.IntegerValue whatToCheck_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> whatToCheckBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> whatToCheckBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+       * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
        */
       public boolean hasWhatToCheck() {
         return whatToCheckBuilder_ != null || whatToCheck_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+       * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
        */
-      public io.dstore.Values.integerValue getWhatToCheck() {
+      public io.dstore.values.IntegerValue getWhatToCheck() {
         if (whatToCheckBuilder_ == null) {
-          return whatToCheck_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : whatToCheck_;
+          return whatToCheck_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : whatToCheck_;
         } else {
           return whatToCheckBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+       * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
        */
-      public Builder setWhatToCheck(io.dstore.Values.integerValue value) {
+      public Builder setWhatToCheck(io.dstore.values.IntegerValue value) {
         if (whatToCheckBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class PmConsistencyCheckAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+       * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
        */
       public Builder setWhatToCheck(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (whatToCheckBuilder_ == null) {
           whatToCheck_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class PmConsistencyCheckAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+       * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
        */
-      public Builder mergeWhatToCheck(io.dstore.Values.integerValue value) {
+      public Builder mergeWhatToCheck(io.dstore.values.IntegerValue value) {
         if (whatToCheckBuilder_ == null) {
           if (whatToCheck_ != null) {
             whatToCheck_ =
-              io.dstore.Values.integerValue.newBuilder(whatToCheck_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(whatToCheck_).mergeFrom(value).buildPartial();
           } else {
             whatToCheck_ = value;
           }
@@ -773,7 +773,7 @@ public final class PmConsistencyCheckAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+       * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
        */
       public Builder clearWhatToCheck() {
         if (whatToCheckBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class PmConsistencyCheckAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+       * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getWhatToCheckBuilder() {
+      public io.dstore.values.IntegerValue.Builder getWhatToCheckBuilder() {
         
         onChanged();
         return getWhatToCheckFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+       * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getWhatToCheckOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getWhatToCheckOrBuilder() {
         if (whatToCheckBuilder_ != null) {
           return whatToCheckBuilder_.getMessageOrBuilder();
         } else {
           return whatToCheck_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : whatToCheck_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : whatToCheck_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue what_to_check = 2;</code>
+       * <code>optional .dstore.values.IntegerValue what_to_check = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getWhatToCheckFieldBuilder() {
         if (whatToCheckBuilder_ == null) {
           whatToCheckBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getWhatToCheck(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class PmConsistencyCheckAd {
        * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
@@ -1115,24 +1115,24 @@ public final class PmConsistencyCheckAd {
        * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getPersonCharacteristicId();
+      io.dstore.values.IntegerValue getPersonCharacteristicId();
       /**
        * <pre>
        * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * Die Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -1140,24 +1140,24 @@ public final class PmConsistencyCheckAd {
        * Die Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Die Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * ID der Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
       boolean hasValueId();
       /**
@@ -1165,24 +1165,24 @@ public final class PmConsistencyCheckAd {
        * ID der Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getValueId();
+      io.dstore.values.IntegerValue getValueId();
       /**
        * <pre>
        * ID der Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder();
 
       /**
        * <pre>
        * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
        */
       boolean hasUsedByPersonTypeBitmap();
       /**
@@ -1190,24 +1190,24 @@ public final class PmConsistencyCheckAd {
        * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
        */
-      io.dstore.Values.integerValue getUsedByPersonTypeBitmap();
+      io.dstore.values.IntegerValue getUsedByPersonTypeBitmap();
       /**
        * <pre>
        * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUsedByPersonTypeBitmapOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUsedByPersonTypeBitmapOrBuilder();
 
       /**
        * <pre>
        * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
        */
       boolean hasSortNo();
       /**
@@ -1215,24 +1215,24 @@ public final class PmConsistencyCheckAd {
        * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
        */
-      io.dstore.Values.integerValue getSortNo();
+      io.dstore.values.IntegerValue getSortNo();
       /**
        * <pre>
        * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
       /**
        * <pre>
        * Richtiger Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
        */
       boolean hasCorrectUsedByPersonTypeBtmp();
       /**
@@ -1240,24 +1240,24 @@ public final class PmConsistencyCheckAd {
        * Richtiger Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
        */
-      io.dstore.Values.integerValue getCorrectUsedByPersonTypeBtmp();
+      io.dstore.values.IntegerValue getCorrectUsedByPersonTypeBtmp();
       /**
        * <pre>
        * Richtiger Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCorrectUsedByPersonTypeBtmpOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCorrectUsedByPersonTypeBtmpOrBuilder();
 
       /**
        * <pre>
        * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
        */
       boolean hasWrongUsedByPersonTypeBtmp();
       /**
@@ -1265,24 +1265,24 @@ public final class PmConsistencyCheckAd {
        * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
        */
-      io.dstore.Values.integerValue getWrongUsedByPersonTypeBtmp();
+      io.dstore.values.IntegerValue getWrongUsedByPersonTypeBtmp();
       /**
        * <pre>
        * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getWrongUsedByPersonTypeBtmpOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getWrongUsedByPersonTypeBtmpOrBuilder();
 
       /**
        * <pre>
        * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
        */
       boolean hasWrongCountValues();
       /**
@@ -1290,24 +1290,24 @@ public final class PmConsistencyCheckAd {
        * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
        */
-      io.dstore.Values.integerValue getWrongCountValues();
+      io.dstore.values.IntegerValue getWrongCountValues();
       /**
        * <pre>
        * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getWrongCountValuesOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getWrongCountValuesOrBuilder();
 
       /**
        * <pre>
        * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+       * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
        */
       boolean hasFirstFourCharactersLowerCase();
       /**
@@ -1315,24 +1315,24 @@ public final class PmConsistencyCheckAd {
        * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+       * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
        */
-      io.dstore.Values.stringValue getFirstFourCharactersLowerCase();
+      io.dstore.values.StringValue getFirstFourCharactersLowerCase();
       /**
        * <pre>
        * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+       * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getFirstFourCharactersLowerCaseOrBuilder();
+      io.dstore.values.StringValueOrBuilder getFirstFourCharactersLowerCaseOrBuilder();
 
       /**
        * <pre>
        * Richtiger Wert für "CountValues"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
        */
       boolean hasCorrectCountValues();
       /**
@@ -1340,24 +1340,24 @@ public final class PmConsistencyCheckAd {
        * Richtiger Wert für "CountValues"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
        */
-      io.dstore.Values.integerValue getCorrectCountValues();
+      io.dstore.values.IntegerValue getCorrectCountValues();
       /**
        * <pre>
        * Richtiger Wert für "CountValues"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCorrectCountValuesOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCorrectCountValuesOrBuilder();
 
       /**
        * <pre>
        * Richtiger Wert für "CountPersons"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
        */
       boolean hasCorrectCountPersons();
       /**
@@ -1365,24 +1365,24 @@ public final class PmConsistencyCheckAd {
        * Richtiger Wert für "CountPersons"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
        */
-      io.dstore.Values.integerValue getCorrectCountPersons();
+      io.dstore.values.IntegerValue getCorrectCountPersons();
       /**
        * <pre>
        * Richtiger Wert für "CountPersons"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCorrectCountPersonsOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCorrectCountPersonsOrBuilder();
 
       /**
        * <pre>
        * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+       * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
        */
       boolean hasInconsistenceType();
       /**
@@ -1390,24 +1390,24 @@ public final class PmConsistencyCheckAd {
        * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+       * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
        */
-      io.dstore.Values.integerValue getInconsistenceType();
+      io.dstore.values.IntegerValue getInconsistenceType();
       /**
        * <pre>
        * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+       * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getInconsistenceTypeOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getInconsistenceTypeOrBuilder();
 
       /**
        * <pre>
        * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
        */
       boolean hasWrongCountPersons();
       /**
@@ -1415,24 +1415,24 @@ public final class PmConsistencyCheckAd {
        * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
        */
-      io.dstore.Values.integerValue getWrongCountPersons();
+      io.dstore.values.IntegerValue getWrongCountPersons();
       /**
        * <pre>
        * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getWrongCountPersonsOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getWrongCountPersonsOrBuilder();
 
       /**
        * <pre>
        * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
        */
       boolean hasPersonTypeId();
       /**
@@ -1440,24 +1440,24 @@ public final class PmConsistencyCheckAd {
        * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
        */
-      io.dstore.Values.integerValue getPersonTypeId();
+      io.dstore.values.IntegerValue getPersonTypeId();
       /**
        * <pre>
        * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+       * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
        */
       boolean hasValuelowercase();
       /**
@@ -1465,24 +1465,24 @@ public final class PmConsistencyCheckAd {
        * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+       * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
        */
-      io.dstore.Values.stringValue getValuelowercase();
+      io.dstore.values.StringValue getValuelowercase();
       /**
        * <pre>
        * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+       * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValuelowercaseOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValuelowercaseOrBuilder();
 
       /**
        * <pre>
        * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
        */
       boolean hasPersonId();
       /**
@@ -1490,17 +1490,17 @@ public final class PmConsistencyCheckAd {
        * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
        */
-      io.dstore.Values.integerValue getPersonId();
+      io.dstore.values.IntegerValue getPersonId();
       /**
        * <pre>
        * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_ConsistencyCheck_Ad.Response.Row}
@@ -1548,11 +1548,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personCharacteristicId_ != null) {
                   subBuilder = personCharacteristicId_.toBuilder();
                 }
-                personCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personCharacteristicId_);
                   personCharacteristicId_ = subBuilder.buildPartial();
@@ -1561,11 +1561,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1574,11 +1574,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -1587,11 +1587,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (usedByPersonTypeBitmap_ != null) {
                   subBuilder = usedByPersonTypeBitmap_.toBuilder();
                 }
-                usedByPersonTypeBitmap_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                usedByPersonTypeBitmap_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedByPersonTypeBitmap_);
                   usedByPersonTypeBitmap_ = subBuilder.buildPartial();
@@ -1600,11 +1600,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1613,11 +1613,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 160010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (correctUsedByPersonTypeBtmp_ != null) {
                   subBuilder = correctUsedByPersonTypeBtmp_.toBuilder();
                 }
-                correctUsedByPersonTypeBtmp_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                correctUsedByPersonTypeBtmp_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(correctUsedByPersonTypeBtmp_);
                   correctUsedByPersonTypeBtmp_ = subBuilder.buildPartial();
@@ -1626,11 +1626,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 160042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (wrongUsedByPersonTypeBtmp_ != null) {
                   subBuilder = wrongUsedByPersonTypeBtmp_.toBuilder();
                 }
-                wrongUsedByPersonTypeBtmp_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                wrongUsedByPersonTypeBtmp_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(wrongUsedByPersonTypeBtmp_);
                   wrongUsedByPersonTypeBtmp_ = subBuilder.buildPartial();
@@ -1639,11 +1639,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 240010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (wrongCountValues_ != null) {
                   subBuilder = wrongCountValues_.toBuilder();
                 }
-                wrongCountValues_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                wrongCountValues_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(wrongCountValues_);
                   wrongCountValues_ = subBuilder.buildPartial();
@@ -1652,11 +1652,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 240018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (firstFourCharactersLowerCase_ != null) {
                   subBuilder = firstFourCharactersLowerCase_.toBuilder();
                 }
-                firstFourCharactersLowerCase_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                firstFourCharactersLowerCase_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(firstFourCharactersLowerCase_);
                   firstFourCharactersLowerCase_ = subBuilder.buildPartial();
@@ -1665,11 +1665,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 240034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (correctCountValues_ != null) {
                   subBuilder = correctCountValues_.toBuilder();
                 }
-                correctCountValues_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                correctCountValues_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(correctCountValues_);
                   correctCountValues_ = subBuilder.buildPartial();
@@ -1678,11 +1678,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 240042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (correctCountPersons_ != null) {
                   subBuilder = correctCountPersons_.toBuilder();
                 }
-                correctCountPersons_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                correctCountPersons_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(correctCountPersons_);
                   correctCountPersons_ = subBuilder.buildPartial();
@@ -1691,11 +1691,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 240050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (inconsistenceType_ != null) {
                   subBuilder = inconsistenceType_.toBuilder();
                 }
-                inconsistenceType_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                inconsistenceType_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inconsistenceType_);
                   inconsistenceType_ = subBuilder.buildPartial();
@@ -1704,11 +1704,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 240058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (wrongCountPersons_ != null) {
                   subBuilder = wrongCountPersons_.toBuilder();
                 }
-                wrongCountPersons_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                wrongCountPersons_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(wrongCountPersons_);
                   wrongCountPersons_ = subBuilder.buildPartial();
@@ -1717,11 +1717,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 240066: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personTypeId_ != null) {
                   subBuilder = personTypeId_.toBuilder();
                 }
-                personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personTypeId_);
                   personTypeId_ = subBuilder.buildPartial();
@@ -1730,11 +1730,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 320010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (valuelowercase_ != null) {
                   subBuilder = valuelowercase_.toBuilder();
                 }
-                valuelowercase_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                valuelowercase_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valuelowercase_);
                   valuelowercase_ = subBuilder.buildPartial();
@@ -1743,11 +1743,11 @@ public final class PmConsistencyCheckAd {
                 break;
               }
               case 320018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -1788,13 +1788,13 @@ public final class PmConsistencyCheckAd {
       }
 
       public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue personCharacteristicId_;
+      private io.dstore.values.IntegerValue personCharacteristicId_;
       /**
        * <pre>
        * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
@@ -1804,30 +1804,30 @@ public final class PmConsistencyCheckAd {
        * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getPersonCharacteristicId() {
-        return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+      public io.dstore.values.IntegerValue getPersonCharacteristicId() {
+        return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
       }
       /**
        * <pre>
        * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Die Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1837,30 +1837,30 @@ public final class PmConsistencyCheckAd {
        * Die Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Die Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int VALUE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue valueId_;
+      private io.dstore.values.IntegerValue valueId_;
       /**
        * <pre>
        * ID der Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
       public boolean hasValueId() {
         return valueId_ != null;
@@ -1870,30 +1870,30 @@ public final class PmConsistencyCheckAd {
        * ID der Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getValueId() {
-        return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+      public io.dstore.values.IntegerValue getValueId() {
+        return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
       }
       /**
        * <pre>
        * ID der Eigenschaft, die nicht mehr referenziert wird
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
         return getValueId();
       }
 
       public static final int USED_BY_PERSON_TYPE_BITMAP_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue usedByPersonTypeBitmap_;
+      private io.dstore.values.IntegerValue usedByPersonTypeBitmap_;
       /**
        * <pre>
        * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
        */
       public boolean hasUsedByPersonTypeBitmap() {
         return usedByPersonTypeBitmap_ != null;
@@ -1903,30 +1903,30 @@ public final class PmConsistencyCheckAd {
        * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
        */
-      public io.dstore.Values.integerValue getUsedByPersonTypeBitmap() {
-        return usedByPersonTypeBitmap_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedByPersonTypeBitmap_;
+      public io.dstore.values.IntegerValue getUsedByPersonTypeBitmap() {
+        return usedByPersonTypeBitmap_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedByPersonTypeBitmap_;
       }
       /**
        * <pre>
        * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedByPersonTypeBitmapOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedByPersonTypeBitmapOrBuilder() {
         return getUsedByPersonTypeBitmap();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue sortNo_;
+      private io.dstore.values.IntegerValue sortNo_;
       /**
        * <pre>
        * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1936,30 +1936,30 @@ public final class PmConsistencyCheckAd {
        * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.values.IntegerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
       }
       /**
        * <pre>
        * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
       public static final int CORRECT_USED_BY_PERSON_TYPE_BTMP_FIELD_NUMBER = 20001;
-      private io.dstore.Values.integerValue correctUsedByPersonTypeBtmp_;
+      private io.dstore.values.IntegerValue correctUsedByPersonTypeBtmp_;
       /**
        * <pre>
        * Richtiger Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
        */
       public boolean hasCorrectUsedByPersonTypeBtmp() {
         return correctUsedByPersonTypeBtmp_ != null;
@@ -1969,30 +1969,30 @@ public final class PmConsistencyCheckAd {
        * Richtiger Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
        */
-      public io.dstore.Values.integerValue getCorrectUsedByPersonTypeBtmp() {
-        return correctUsedByPersonTypeBtmp_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correctUsedByPersonTypeBtmp_;
+      public io.dstore.values.IntegerValue getCorrectUsedByPersonTypeBtmp() {
+        return correctUsedByPersonTypeBtmp_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correctUsedByPersonTypeBtmp_;
       }
       /**
        * <pre>
        * Richtiger Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+       * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCorrectUsedByPersonTypeBtmpOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCorrectUsedByPersonTypeBtmpOrBuilder() {
         return getCorrectUsedByPersonTypeBtmp();
       }
 
       public static final int WRONG_USED_BY_PERSON_TYPE_BTMP_FIELD_NUMBER = 20005;
-      private io.dstore.Values.integerValue wrongUsedByPersonTypeBtmp_;
+      private io.dstore.values.IntegerValue wrongUsedByPersonTypeBtmp_;
       /**
        * <pre>
        * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
        */
       public boolean hasWrongUsedByPersonTypeBtmp() {
         return wrongUsedByPersonTypeBtmp_ != null;
@@ -2002,30 +2002,30 @@ public final class PmConsistencyCheckAd {
        * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
        */
-      public io.dstore.Values.integerValue getWrongUsedByPersonTypeBtmp() {
-        return wrongUsedByPersonTypeBtmp_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : wrongUsedByPersonTypeBtmp_;
+      public io.dstore.values.IntegerValue getWrongUsedByPersonTypeBtmp() {
+        return wrongUsedByPersonTypeBtmp_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : wrongUsedByPersonTypeBtmp_;
       }
       /**
        * <pre>
        * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getWrongUsedByPersonTypeBtmpOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getWrongUsedByPersonTypeBtmpOrBuilder() {
         return getWrongUsedByPersonTypeBtmp();
       }
 
       public static final int WRONG_COUNT_VALUES_FIELD_NUMBER = 30001;
-      private io.dstore.Values.integerValue wrongCountValues_;
+      private io.dstore.values.IntegerValue wrongCountValues_;
       /**
        * <pre>
        * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
        */
       public boolean hasWrongCountValues() {
         return wrongCountValues_ != null;
@@ -2035,30 +2035,30 @@ public final class PmConsistencyCheckAd {
        * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
        */
-      public io.dstore.Values.integerValue getWrongCountValues() {
-        return wrongCountValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : wrongCountValues_;
+      public io.dstore.values.IntegerValue getWrongCountValues() {
+        return wrongCountValues_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : wrongCountValues_;
       }
       /**
        * <pre>
        * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getWrongCountValuesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getWrongCountValuesOrBuilder() {
         return getWrongCountValues();
       }
 
       public static final int FIRST_FOUR_CHARACTERS_LOWER_CASE_FIELD_NUMBER = 30002;
-      private io.dstore.Values.stringValue firstFourCharactersLowerCase_;
+      private io.dstore.values.StringValue firstFourCharactersLowerCase_;
       /**
        * <pre>
        * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+       * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
        */
       public boolean hasFirstFourCharactersLowerCase() {
         return firstFourCharactersLowerCase_ != null;
@@ -2068,30 +2068,30 @@ public final class PmConsistencyCheckAd {
        * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+       * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
        */
-      public io.dstore.Values.stringValue getFirstFourCharactersLowerCase() {
-        return firstFourCharactersLowerCase_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : firstFourCharactersLowerCase_;
+      public io.dstore.values.StringValue getFirstFourCharactersLowerCase() {
+        return firstFourCharactersLowerCase_ == null ? io.dstore.values.StringValue.getDefaultInstance() : firstFourCharactersLowerCase_;
       }
       /**
        * <pre>
        * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+       * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getFirstFourCharactersLowerCaseOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getFirstFourCharactersLowerCaseOrBuilder() {
         return getFirstFourCharactersLowerCase();
       }
 
       public static final int CORRECT_COUNT_VALUES_FIELD_NUMBER = 30004;
-      private io.dstore.Values.integerValue correctCountValues_;
+      private io.dstore.values.IntegerValue correctCountValues_;
       /**
        * <pre>
        * Richtiger Wert für "CountValues"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
        */
       public boolean hasCorrectCountValues() {
         return correctCountValues_ != null;
@@ -2101,30 +2101,30 @@ public final class PmConsistencyCheckAd {
        * Richtiger Wert für "CountValues"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
        */
-      public io.dstore.Values.integerValue getCorrectCountValues() {
-        return correctCountValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correctCountValues_;
+      public io.dstore.values.IntegerValue getCorrectCountValues() {
+        return correctCountValues_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correctCountValues_;
       }
       /**
        * <pre>
        * Richtiger Wert für "CountValues"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCorrectCountValuesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCorrectCountValuesOrBuilder() {
         return getCorrectCountValues();
       }
 
       public static final int CORRECT_COUNT_PERSONS_FIELD_NUMBER = 30005;
-      private io.dstore.Values.integerValue correctCountPersons_;
+      private io.dstore.values.IntegerValue correctCountPersons_;
       /**
        * <pre>
        * Richtiger Wert für "CountPersons"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
        */
       public boolean hasCorrectCountPersons() {
         return correctCountPersons_ != null;
@@ -2134,30 +2134,30 @@ public final class PmConsistencyCheckAd {
        * Richtiger Wert für "CountPersons"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
        */
-      public io.dstore.Values.integerValue getCorrectCountPersons() {
-        return correctCountPersons_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correctCountPersons_;
+      public io.dstore.values.IntegerValue getCorrectCountPersons() {
+        return correctCountPersons_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correctCountPersons_;
       }
       /**
        * <pre>
        * Richtiger Wert für "CountPersons"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+       * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCorrectCountPersonsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCorrectCountPersonsOrBuilder() {
         return getCorrectCountPersons();
       }
 
       public static final int INCONSISTENCE_TYPE_FIELD_NUMBER = 30006;
-      private io.dstore.Values.integerValue inconsistenceType_;
+      private io.dstore.values.IntegerValue inconsistenceType_;
       /**
        * <pre>
        * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+       * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
        */
       public boolean hasInconsistenceType() {
         return inconsistenceType_ != null;
@@ -2167,30 +2167,30 @@ public final class PmConsistencyCheckAd {
        * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+       * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
        */
-      public io.dstore.Values.integerValue getInconsistenceType() {
-        return inconsistenceType_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inconsistenceType_;
+      public io.dstore.values.IntegerValue getInconsistenceType() {
+        return inconsistenceType_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inconsistenceType_;
       }
       /**
        * <pre>
        * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+       * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInconsistenceTypeOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInconsistenceTypeOrBuilder() {
         return getInconsistenceType();
       }
 
       public static final int WRONG_COUNT_PERSONS_FIELD_NUMBER = 30007;
-      private io.dstore.Values.integerValue wrongCountPersons_;
+      private io.dstore.values.IntegerValue wrongCountPersons_;
       /**
        * <pre>
        * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
        */
       public boolean hasWrongCountPersons() {
         return wrongCountPersons_ != null;
@@ -2200,30 +2200,30 @@ public final class PmConsistencyCheckAd {
        * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
        */
-      public io.dstore.Values.integerValue getWrongCountPersons() {
-        return wrongCountPersons_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : wrongCountPersons_;
+      public io.dstore.values.IntegerValue getWrongCountPersons() {
+        return wrongCountPersons_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : wrongCountPersons_;
       }
       /**
        * <pre>
        * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+       * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getWrongCountPersonsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getWrongCountPersonsOrBuilder() {
         return getWrongCountPersons();
       }
 
       public static final int PERSON_TYPE_ID_FIELD_NUMBER = 30008;
-      private io.dstore.Values.integerValue personTypeId_;
+      private io.dstore.values.IntegerValue personTypeId_;
       /**
        * <pre>
        * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeId_ != null;
@@ -2233,30 +2233,30 @@ public final class PmConsistencyCheckAd {
        * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
-        return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+      public io.dstore.values.IntegerValue getPersonTypeId() {
+        return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
       }
       /**
        * <pre>
        * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         return getPersonTypeId();
       }
 
       public static final int VALUELOWERCASE_FIELD_NUMBER = 40001;
-      private io.dstore.Values.stringValue valuelowercase_;
+      private io.dstore.values.StringValue valuelowercase_;
       /**
        * <pre>
        * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+       * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
        */
       public boolean hasValuelowercase() {
         return valuelowercase_ != null;
@@ -2266,30 +2266,30 @@ public final class PmConsistencyCheckAd {
        * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+       * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
        */
-      public io.dstore.Values.stringValue getValuelowercase() {
-        return valuelowercase_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valuelowercase_;
+      public io.dstore.values.StringValue getValuelowercase() {
+        return valuelowercase_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valuelowercase_;
       }
       /**
        * <pre>
        * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+       * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValuelowercaseOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValuelowercaseOrBuilder() {
         return getValuelowercase();
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 40002;
-      private io.dstore.Values.integerValue personId_;
+      private io.dstore.values.IntegerValue personId_;
       /**
        * <pre>
        * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -2299,19 +2299,19 @@ public final class PmConsistencyCheckAd {
        * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.values.IntegerValue getPersonId() {
+        return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
       }
       /**
        * <pre>
        * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
@@ -3090,15 +3090,15 @@ public final class PmConsistencyCheckAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue personCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue personCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
@@ -3108,11 +3108,11 @@ public final class PmConsistencyCheckAd {
          * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getPersonCharacteristicId() {
+        public io.dstore.values.IntegerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
-            return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+            return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           } else {
             return personCharacteristicIdBuilder_.getMessage();
           }
@@ -3122,9 +3122,9 @@ public final class PmConsistencyCheckAd {
          * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3142,10 +3142,10 @@ public final class PmConsistencyCheckAd {
          * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder setPersonCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -3160,13 +3160,13 @@ public final class PmConsistencyCheckAd {
          * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (personCharacteristicId_ != null) {
               personCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               personCharacteristicId_ = value;
             }
@@ -3182,7 +3182,7 @@ public final class PmConsistencyCheckAd {
          * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -3200,9 +3200,9 @@ public final class PmConsistencyCheckAd {
          * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
           
           onChanged();
           return getPersonCharacteristicIdFieldBuilder().getBuilder();
@@ -3212,14 +3212,14 @@ public final class PmConsistencyCheckAd {
          * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
             return personCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return personCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           }
         }
         /**
@@ -3227,14 +3227,14 @@ public final class PmConsistencyCheckAd {
          * ID des Merkmals zu dem die nicht referenzierte Eigenschaft gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonCharacteristicIdFieldBuilder() {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -3243,15 +3243,15 @@ public final class PmConsistencyCheckAd {
           return personCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Die Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -3261,11 +3261,11 @@ public final class PmConsistencyCheckAd {
          * Die Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -3275,9 +3275,9 @@ public final class PmConsistencyCheckAd {
          * Die Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3295,10 +3295,10 @@ public final class PmConsistencyCheckAd {
          * Die Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -3313,13 +3313,13 @@ public final class PmConsistencyCheckAd {
          * Die Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -3335,7 +3335,7 @@ public final class PmConsistencyCheckAd {
          * Die Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -3353,9 +3353,9 @@ public final class PmConsistencyCheckAd {
          * Die Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -3365,14 +3365,14 @@ public final class PmConsistencyCheckAd {
          * Die Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -3380,14 +3380,14 @@ public final class PmConsistencyCheckAd {
          * Die Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -3396,15 +3396,15 @@ public final class PmConsistencyCheckAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.integerValue valueId_ = null;
+        private io.dstore.values.IntegerValue valueId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> valueIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> valueIdBuilder_;
         /**
          * <pre>
          * ID der Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
         public boolean hasValueId() {
           return valueIdBuilder_ != null || valueId_ != null;
@@ -3414,11 +3414,11 @@ public final class PmConsistencyCheckAd {
          * ID der Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getValueId() {
+        public io.dstore.values.IntegerValue getValueId() {
           if (valueIdBuilder_ == null) {
-            return valueId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+            return valueId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
           } else {
             return valueIdBuilder_.getMessage();
           }
@@ -3428,9 +3428,9 @@ public final class PmConsistencyCheckAd {
          * ID der Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public Builder setValueId(io.dstore.Values.integerValue value) {
+        public Builder setValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3448,10 +3448,10 @@ public final class PmConsistencyCheckAd {
          * ID der Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
         public Builder setValueId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (valueIdBuilder_ == null) {
             valueId_ = builderForValue.build();
             onChanged();
@@ -3466,13 +3466,13 @@ public final class PmConsistencyCheckAd {
          * ID der Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public Builder mergeValueId(io.dstore.Values.integerValue value) {
+        public Builder mergeValueId(io.dstore.values.IntegerValue value) {
           if (valueIdBuilder_ == null) {
             if (valueId_ != null) {
               valueId_ =
-                io.dstore.Values.integerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(valueId_).mergeFrom(value).buildPartial();
             } else {
               valueId_ = value;
             }
@@ -3488,7 +3488,7 @@ public final class PmConsistencyCheckAd {
          * ID der Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
         public Builder clearValueId() {
           if (valueIdBuilder_ == null) {
@@ -3506,9 +3506,9 @@ public final class PmConsistencyCheckAd {
          * ID der Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getValueIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getValueIdBuilder() {
           
           onChanged();
           return getValueIdFieldBuilder().getBuilder();
@@ -3518,14 +3518,14 @@ public final class PmConsistencyCheckAd {
          * ID der Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getValueIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getValueIdOrBuilder() {
           if (valueIdBuilder_ != null) {
             return valueIdBuilder_.getMessageOrBuilder();
           } else {
             return valueId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : valueId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : valueId_;
           }
         }
         /**
@@ -3533,14 +3533,14 @@ public final class PmConsistencyCheckAd {
          * ID der Eigenschaft, die nicht mehr referenziert wird
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue value_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue value_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getValueIdFieldBuilder() {
           if (valueIdBuilder_ == null) {
             valueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getValueId(),
                     getParentForChildren(),
                     isClean());
@@ -3549,15 +3549,15 @@ public final class PmConsistencyCheckAd {
           return valueIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue usedByPersonTypeBitmap_ = null;
+        private io.dstore.values.IntegerValue usedByPersonTypeBitmap_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedByPersonTypeBitmapBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedByPersonTypeBitmapBuilder_;
         /**
          * <pre>
          * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
          */
         public boolean hasUsedByPersonTypeBitmap() {
           return usedByPersonTypeBitmapBuilder_ != null || usedByPersonTypeBitmap_ != null;
@@ -3567,11 +3567,11 @@ public final class PmConsistencyCheckAd {
          * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
          */
-        public io.dstore.Values.integerValue getUsedByPersonTypeBitmap() {
+        public io.dstore.values.IntegerValue getUsedByPersonTypeBitmap() {
           if (usedByPersonTypeBitmapBuilder_ == null) {
-            return usedByPersonTypeBitmap_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedByPersonTypeBitmap_;
+            return usedByPersonTypeBitmap_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedByPersonTypeBitmap_;
           } else {
             return usedByPersonTypeBitmapBuilder_.getMessage();
           }
@@ -3581,9 +3581,9 @@ public final class PmConsistencyCheckAd {
          * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
          */
-        public Builder setUsedByPersonTypeBitmap(io.dstore.Values.integerValue value) {
+        public Builder setUsedByPersonTypeBitmap(io.dstore.values.IntegerValue value) {
           if (usedByPersonTypeBitmapBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3601,10 +3601,10 @@ public final class PmConsistencyCheckAd {
          * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
          */
         public Builder setUsedByPersonTypeBitmap(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (usedByPersonTypeBitmapBuilder_ == null) {
             usedByPersonTypeBitmap_ = builderForValue.build();
             onChanged();
@@ -3619,13 +3619,13 @@ public final class PmConsistencyCheckAd {
          * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
          */
-        public Builder mergeUsedByPersonTypeBitmap(io.dstore.Values.integerValue value) {
+        public Builder mergeUsedByPersonTypeBitmap(io.dstore.values.IntegerValue value) {
           if (usedByPersonTypeBitmapBuilder_ == null) {
             if (usedByPersonTypeBitmap_ != null) {
               usedByPersonTypeBitmap_ =
-                io.dstore.Values.integerValue.newBuilder(usedByPersonTypeBitmap_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(usedByPersonTypeBitmap_).mergeFrom(value).buildPartial();
             } else {
               usedByPersonTypeBitmap_ = value;
             }
@@ -3641,7 +3641,7 @@ public final class PmConsistencyCheckAd {
          * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
          */
         public Builder clearUsedByPersonTypeBitmap() {
           if (usedByPersonTypeBitmapBuilder_ == null) {
@@ -3659,9 +3659,9 @@ public final class PmConsistencyCheckAd {
          * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUsedByPersonTypeBitmapBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUsedByPersonTypeBitmapBuilder() {
           
           onChanged();
           return getUsedByPersonTypeBitmapFieldBuilder().getBuilder();
@@ -3671,14 +3671,14 @@ public final class PmConsistencyCheckAd {
          * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUsedByPersonTypeBitmapOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUsedByPersonTypeBitmapOrBuilder() {
           if (usedByPersonTypeBitmapBuilder_ != null) {
             return usedByPersonTypeBitmapBuilder_.getMessageOrBuilder();
           } else {
             return usedByPersonTypeBitmap_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : usedByPersonTypeBitmap_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : usedByPersonTypeBitmap_;
           }
         }
         /**
@@ -3686,14 +3686,14 @@ public final class PmConsistencyCheckAd {
          * Bit-Muster, durch das angegeben ist, welche Personentypen die Eigenschaft verwenden (ist also falsch, wenn nicht "NULL" oder "0")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_by_person_type_bitmap = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue used_by_person_type_bitmap = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUsedByPersonTypeBitmapFieldBuilder() {
           if (usedByPersonTypeBitmapBuilder_ == null) {
             usedByPersonTypeBitmapBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUsedByPersonTypeBitmap(),
                     getParentForChildren(),
                     isClean());
@@ -3702,15 +3702,15 @@ public final class PmConsistencyCheckAd {
           return usedByPersonTypeBitmapBuilder_;
         }
 
-        private io.dstore.Values.integerValue sortNo_ = null;
+        private io.dstore.values.IntegerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
          * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -3720,11 +3720,11 @@ public final class PmConsistencyCheckAd {
          * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
          */
-        public io.dstore.Values.integerValue getSortNo() {
+        public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
@@ -3734,9 +3734,9 @@ public final class PmConsistencyCheckAd {
          * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
          */
-        public Builder setSortNo(io.dstore.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3754,10 +3754,10 @@ public final class PmConsistencyCheckAd {
          * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
          */
         public Builder setSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -3772,13 +3772,13 @@ public final class PmConsistencyCheckAd {
          * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
          */
-        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -3794,7 +3794,7 @@ public final class PmConsistencyCheckAd {
          * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3812,9 +3812,9 @@ public final class PmConsistencyCheckAd {
          * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
@@ -3824,14 +3824,14 @@ public final class PmConsistencyCheckAd {
          * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
@@ -3839,14 +3839,14 @@ public final class PmConsistencyCheckAd {
          * Reihenfolge in der Sortierung ALLER Eigenschaften zu dem Merkmal
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -3855,15 +3855,15 @@ public final class PmConsistencyCheckAd {
           return sortNoBuilder_;
         }
 
-        private io.dstore.Values.integerValue correctUsedByPersonTypeBtmp_ = null;
+        private io.dstore.values.IntegerValue correctUsedByPersonTypeBtmp_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> correctUsedByPersonTypeBtmpBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> correctUsedByPersonTypeBtmpBuilder_;
         /**
          * <pre>
          * Richtiger Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
          */
         public boolean hasCorrectUsedByPersonTypeBtmp() {
           return correctUsedByPersonTypeBtmpBuilder_ != null || correctUsedByPersonTypeBtmp_ != null;
@@ -3873,11 +3873,11 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
          */
-        public io.dstore.Values.integerValue getCorrectUsedByPersonTypeBtmp() {
+        public io.dstore.values.IntegerValue getCorrectUsedByPersonTypeBtmp() {
           if (correctUsedByPersonTypeBtmpBuilder_ == null) {
-            return correctUsedByPersonTypeBtmp_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correctUsedByPersonTypeBtmp_;
+            return correctUsedByPersonTypeBtmp_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correctUsedByPersonTypeBtmp_;
           } else {
             return correctUsedByPersonTypeBtmpBuilder_.getMessage();
           }
@@ -3887,9 +3887,9 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
          */
-        public Builder setCorrectUsedByPersonTypeBtmp(io.dstore.Values.integerValue value) {
+        public Builder setCorrectUsedByPersonTypeBtmp(io.dstore.values.IntegerValue value) {
           if (correctUsedByPersonTypeBtmpBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3907,10 +3907,10 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
          */
         public Builder setCorrectUsedByPersonTypeBtmp(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (correctUsedByPersonTypeBtmpBuilder_ == null) {
             correctUsedByPersonTypeBtmp_ = builderForValue.build();
             onChanged();
@@ -3925,13 +3925,13 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
          */
-        public Builder mergeCorrectUsedByPersonTypeBtmp(io.dstore.Values.integerValue value) {
+        public Builder mergeCorrectUsedByPersonTypeBtmp(io.dstore.values.IntegerValue value) {
           if (correctUsedByPersonTypeBtmpBuilder_ == null) {
             if (correctUsedByPersonTypeBtmp_ != null) {
               correctUsedByPersonTypeBtmp_ =
-                io.dstore.Values.integerValue.newBuilder(correctUsedByPersonTypeBtmp_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(correctUsedByPersonTypeBtmp_).mergeFrom(value).buildPartial();
             } else {
               correctUsedByPersonTypeBtmp_ = value;
             }
@@ -3947,7 +3947,7 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
          */
         public Builder clearCorrectUsedByPersonTypeBtmp() {
           if (correctUsedByPersonTypeBtmpBuilder_ == null) {
@@ -3965,9 +3965,9 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCorrectUsedByPersonTypeBtmpBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCorrectUsedByPersonTypeBtmpBuilder() {
           
           onChanged();
           return getCorrectUsedByPersonTypeBtmpFieldBuilder().getBuilder();
@@ -3977,14 +3977,14 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCorrectUsedByPersonTypeBtmpOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCorrectUsedByPersonTypeBtmpOrBuilder() {
           if (correctUsedByPersonTypeBtmpBuilder_ != null) {
             return correctUsedByPersonTypeBtmpBuilder_.getMessageOrBuilder();
           } else {
             return correctUsedByPersonTypeBtmp_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : correctUsedByPersonTypeBtmp_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : correctUsedByPersonTypeBtmp_;
           }
         }
         /**
@@ -3992,14 +3992,14 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_used_by_person_type_btmp = 20001;</code>
+         * <code>optional .dstore.values.IntegerValue correct_used_by_person_type_btmp = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCorrectUsedByPersonTypeBtmpFieldBuilder() {
           if (correctUsedByPersonTypeBtmpBuilder_ == null) {
             correctUsedByPersonTypeBtmpBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCorrectUsedByPersonTypeBtmp(),
                     getParentForChildren(),
                     isClean());
@@ -4008,15 +4008,15 @@ public final class PmConsistencyCheckAd {
           return correctUsedByPersonTypeBtmpBuilder_;
         }
 
-        private io.dstore.Values.integerValue wrongUsedByPersonTypeBtmp_ = null;
+        private io.dstore.values.IntegerValue wrongUsedByPersonTypeBtmp_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> wrongUsedByPersonTypeBtmpBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> wrongUsedByPersonTypeBtmpBuilder_;
         /**
          * <pre>
          * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
          */
         public boolean hasWrongUsedByPersonTypeBtmp() {
           return wrongUsedByPersonTypeBtmpBuilder_ != null || wrongUsedByPersonTypeBtmp_ != null;
@@ -4026,11 +4026,11 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
          */
-        public io.dstore.Values.integerValue getWrongUsedByPersonTypeBtmp() {
+        public io.dstore.values.IntegerValue getWrongUsedByPersonTypeBtmp() {
           if (wrongUsedByPersonTypeBtmpBuilder_ == null) {
-            return wrongUsedByPersonTypeBtmp_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : wrongUsedByPersonTypeBtmp_;
+            return wrongUsedByPersonTypeBtmp_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : wrongUsedByPersonTypeBtmp_;
           } else {
             return wrongUsedByPersonTypeBtmpBuilder_.getMessage();
           }
@@ -4040,9 +4040,9 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
          */
-        public Builder setWrongUsedByPersonTypeBtmp(io.dstore.Values.integerValue value) {
+        public Builder setWrongUsedByPersonTypeBtmp(io.dstore.values.IntegerValue value) {
           if (wrongUsedByPersonTypeBtmpBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4060,10 +4060,10 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
          */
         public Builder setWrongUsedByPersonTypeBtmp(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (wrongUsedByPersonTypeBtmpBuilder_ == null) {
             wrongUsedByPersonTypeBtmp_ = builderForValue.build();
             onChanged();
@@ -4078,13 +4078,13 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
          */
-        public Builder mergeWrongUsedByPersonTypeBtmp(io.dstore.Values.integerValue value) {
+        public Builder mergeWrongUsedByPersonTypeBtmp(io.dstore.values.IntegerValue value) {
           if (wrongUsedByPersonTypeBtmpBuilder_ == null) {
             if (wrongUsedByPersonTypeBtmp_ != null) {
               wrongUsedByPersonTypeBtmp_ =
-                io.dstore.Values.integerValue.newBuilder(wrongUsedByPersonTypeBtmp_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(wrongUsedByPersonTypeBtmp_).mergeFrom(value).buildPartial();
             } else {
               wrongUsedByPersonTypeBtmp_ = value;
             }
@@ -4100,7 +4100,7 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
          */
         public Builder clearWrongUsedByPersonTypeBtmp() {
           if (wrongUsedByPersonTypeBtmpBuilder_ == null) {
@@ -4118,9 +4118,9 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getWrongUsedByPersonTypeBtmpBuilder() {
+        public io.dstore.values.IntegerValue.Builder getWrongUsedByPersonTypeBtmpBuilder() {
           
           onChanged();
           return getWrongUsedByPersonTypeBtmpFieldBuilder().getBuilder();
@@ -4130,14 +4130,14 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getWrongUsedByPersonTypeBtmpOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getWrongUsedByPersonTypeBtmpOrBuilder() {
           if (wrongUsedByPersonTypeBtmpBuilder_ != null) {
             return wrongUsedByPersonTypeBtmpBuilder_.getMessageOrBuilder();
           } else {
             return wrongUsedByPersonTypeBtmp_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : wrongUsedByPersonTypeBtmp_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : wrongUsedByPersonTypeBtmp_;
           }
         }
         /**
@@ -4145,14 +4145,14 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher) Wert von "UsedByPersonType_Bitmap"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_used_by_person_type_btmp = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_used_by_person_type_btmp = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getWrongUsedByPersonTypeBtmpFieldBuilder() {
           if (wrongUsedByPersonTypeBtmpBuilder_ == null) {
             wrongUsedByPersonTypeBtmpBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getWrongUsedByPersonTypeBtmp(),
                     getParentForChildren(),
                     isClean());
@@ -4161,15 +4161,15 @@ public final class PmConsistencyCheckAd {
           return wrongUsedByPersonTypeBtmpBuilder_;
         }
 
-        private io.dstore.Values.integerValue wrongCountValues_ = null;
+        private io.dstore.values.IntegerValue wrongCountValues_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> wrongCountValuesBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> wrongCountValuesBuilder_;
         /**
          * <pre>
          * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
          */
         public boolean hasWrongCountValues() {
           return wrongCountValuesBuilder_ != null || wrongCountValues_ != null;
@@ -4179,11 +4179,11 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
          */
-        public io.dstore.Values.integerValue getWrongCountValues() {
+        public io.dstore.values.IntegerValue getWrongCountValues() {
           if (wrongCountValuesBuilder_ == null) {
-            return wrongCountValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : wrongCountValues_;
+            return wrongCountValues_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : wrongCountValues_;
           } else {
             return wrongCountValuesBuilder_.getMessage();
           }
@@ -4193,9 +4193,9 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
          */
-        public Builder setWrongCountValues(io.dstore.Values.integerValue value) {
+        public Builder setWrongCountValues(io.dstore.values.IntegerValue value) {
           if (wrongCountValuesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4213,10 +4213,10 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
          */
         public Builder setWrongCountValues(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (wrongCountValuesBuilder_ == null) {
             wrongCountValues_ = builderForValue.build();
             onChanged();
@@ -4231,13 +4231,13 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
          */
-        public Builder mergeWrongCountValues(io.dstore.Values.integerValue value) {
+        public Builder mergeWrongCountValues(io.dstore.values.IntegerValue value) {
           if (wrongCountValuesBuilder_ == null) {
             if (wrongCountValues_ != null) {
               wrongCountValues_ =
-                io.dstore.Values.integerValue.newBuilder(wrongCountValues_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(wrongCountValues_).mergeFrom(value).buildPartial();
             } else {
               wrongCountValues_ = value;
             }
@@ -4253,7 +4253,7 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
          */
         public Builder clearWrongCountValues() {
           if (wrongCountValuesBuilder_ == null) {
@@ -4271,9 +4271,9 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getWrongCountValuesBuilder() {
+        public io.dstore.values.IntegerValue.Builder getWrongCountValuesBuilder() {
           
           onChanged();
           return getWrongCountValuesFieldBuilder().getBuilder();
@@ -4283,14 +4283,14 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getWrongCountValuesOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getWrongCountValuesOrBuilder() {
           if (wrongCountValuesBuilder_ != null) {
             return wrongCountValuesBuilder_.getMessageOrBuilder();
           } else {
             return wrongCountValues_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : wrongCountValues_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : wrongCountValues_;
           }
         }
         /**
@@ -4298,14 +4298,14 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert für "CountValues"; das ist die Anzahl verschiedener Eigenschaften, die von dem Personentyp verwendet werden und in den ersten vier Buchstaben (case-insensitiv) mit "FirstFourCharactersLowerCase" übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_values = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_values = 30001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getWrongCountValuesFieldBuilder() {
           if (wrongCountValuesBuilder_ == null) {
             wrongCountValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getWrongCountValues(),
                     getParentForChildren(),
                     isClean());
@@ -4314,15 +4314,15 @@ public final class PmConsistencyCheckAd {
           return wrongCountValuesBuilder_;
         }
 
-        private io.dstore.Values.stringValue firstFourCharactersLowerCase_ = null;
+        private io.dstore.values.StringValue firstFourCharactersLowerCase_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> firstFourCharactersLowerCaseBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> firstFourCharactersLowerCaseBuilder_;
         /**
          * <pre>
          * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+         * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
          */
         public boolean hasFirstFourCharactersLowerCase() {
           return firstFourCharactersLowerCaseBuilder_ != null || firstFourCharactersLowerCase_ != null;
@@ -4332,11 +4332,11 @@ public final class PmConsistencyCheckAd {
          * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+         * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
          */
-        public io.dstore.Values.stringValue getFirstFourCharactersLowerCase() {
+        public io.dstore.values.StringValue getFirstFourCharactersLowerCase() {
           if (firstFourCharactersLowerCaseBuilder_ == null) {
-            return firstFourCharactersLowerCase_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : firstFourCharactersLowerCase_;
+            return firstFourCharactersLowerCase_ == null ? io.dstore.values.StringValue.getDefaultInstance() : firstFourCharactersLowerCase_;
           } else {
             return firstFourCharactersLowerCaseBuilder_.getMessage();
           }
@@ -4346,9 +4346,9 @@ public final class PmConsistencyCheckAd {
          * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+         * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
          */
-        public Builder setFirstFourCharactersLowerCase(io.dstore.Values.stringValue value) {
+        public Builder setFirstFourCharactersLowerCase(io.dstore.values.StringValue value) {
           if (firstFourCharactersLowerCaseBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4366,10 +4366,10 @@ public final class PmConsistencyCheckAd {
          * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+         * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
          */
         public Builder setFirstFourCharactersLowerCase(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (firstFourCharactersLowerCaseBuilder_ == null) {
             firstFourCharactersLowerCase_ = builderForValue.build();
             onChanged();
@@ -4384,13 +4384,13 @@ public final class PmConsistencyCheckAd {
          * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+         * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
          */
-        public Builder mergeFirstFourCharactersLowerCase(io.dstore.Values.stringValue value) {
+        public Builder mergeFirstFourCharactersLowerCase(io.dstore.values.StringValue value) {
           if (firstFourCharactersLowerCaseBuilder_ == null) {
             if (firstFourCharactersLowerCase_ != null) {
               firstFourCharactersLowerCase_ =
-                io.dstore.Values.stringValue.newBuilder(firstFourCharactersLowerCase_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(firstFourCharactersLowerCase_).mergeFrom(value).buildPartial();
             } else {
               firstFourCharactersLowerCase_ = value;
             }
@@ -4406,7 +4406,7 @@ public final class PmConsistencyCheckAd {
          * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+         * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
          */
         public Builder clearFirstFourCharactersLowerCase() {
           if (firstFourCharactersLowerCaseBuilder_ == null) {
@@ -4424,9 +4424,9 @@ public final class PmConsistencyCheckAd {
          * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+         * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getFirstFourCharactersLowerCaseBuilder() {
+        public io.dstore.values.StringValue.Builder getFirstFourCharactersLowerCaseBuilder() {
           
           onChanged();
           return getFirstFourCharactersLowerCaseFieldBuilder().getBuilder();
@@ -4436,14 +4436,14 @@ public final class PmConsistencyCheckAd {
          * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+         * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getFirstFourCharactersLowerCaseOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getFirstFourCharactersLowerCaseOrBuilder() {
           if (firstFourCharactersLowerCaseBuilder_ != null) {
             return firstFourCharactersLowerCaseBuilder_.getMessageOrBuilder();
           } else {
             return firstFourCharactersLowerCase_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : firstFourCharactersLowerCase_;
+                io.dstore.values.StringValue.getDefaultInstance() : firstFourCharactersLowerCase_;
           }
         }
         /**
@@ -4451,14 +4451,14 @@ public final class PmConsistencyCheckAd {
          * Repräsentiert alle Eigenschaften zu dem Merkmal, die von dem Personentyp verwendet werden, die in den ersten vier Buchstaben (case-insensitiv) mit diesem Wert übereinstimmen.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue first_four_characters_lower_case = 30002;</code>
+         * <code>optional .dstore.values.StringValue first_four_characters_lower_case = 30002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getFirstFourCharactersLowerCaseFieldBuilder() {
           if (firstFourCharactersLowerCaseBuilder_ == null) {
             firstFourCharactersLowerCaseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getFirstFourCharactersLowerCase(),
                     getParentForChildren(),
                     isClean());
@@ -4467,15 +4467,15 @@ public final class PmConsistencyCheckAd {
           return firstFourCharactersLowerCaseBuilder_;
         }
 
-        private io.dstore.Values.integerValue correctCountValues_ = null;
+        private io.dstore.values.IntegerValue correctCountValues_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> correctCountValuesBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> correctCountValuesBuilder_;
         /**
          * <pre>
          * Richtiger Wert für "CountValues"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
          */
         public boolean hasCorrectCountValues() {
           return correctCountValuesBuilder_ != null || correctCountValues_ != null;
@@ -4485,11 +4485,11 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountValues"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
          */
-        public io.dstore.Values.integerValue getCorrectCountValues() {
+        public io.dstore.values.IntegerValue getCorrectCountValues() {
           if (correctCountValuesBuilder_ == null) {
-            return correctCountValues_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correctCountValues_;
+            return correctCountValues_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correctCountValues_;
           } else {
             return correctCountValuesBuilder_.getMessage();
           }
@@ -4499,9 +4499,9 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountValues"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
          */
-        public Builder setCorrectCountValues(io.dstore.Values.integerValue value) {
+        public Builder setCorrectCountValues(io.dstore.values.IntegerValue value) {
           if (correctCountValuesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4519,10 +4519,10 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountValues"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
          */
         public Builder setCorrectCountValues(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (correctCountValuesBuilder_ == null) {
             correctCountValues_ = builderForValue.build();
             onChanged();
@@ -4537,13 +4537,13 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountValues"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
          */
-        public Builder mergeCorrectCountValues(io.dstore.Values.integerValue value) {
+        public Builder mergeCorrectCountValues(io.dstore.values.IntegerValue value) {
           if (correctCountValuesBuilder_ == null) {
             if (correctCountValues_ != null) {
               correctCountValues_ =
-                io.dstore.Values.integerValue.newBuilder(correctCountValues_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(correctCountValues_).mergeFrom(value).buildPartial();
             } else {
               correctCountValues_ = value;
             }
@@ -4559,7 +4559,7 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountValues"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
          */
         public Builder clearCorrectCountValues() {
           if (correctCountValuesBuilder_ == null) {
@@ -4577,9 +4577,9 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountValues"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCorrectCountValuesBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCorrectCountValuesBuilder() {
           
           onChanged();
           return getCorrectCountValuesFieldBuilder().getBuilder();
@@ -4589,14 +4589,14 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountValues"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCorrectCountValuesOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCorrectCountValuesOrBuilder() {
           if (correctCountValuesBuilder_ != null) {
             return correctCountValuesBuilder_.getMessageOrBuilder();
           } else {
             return correctCountValues_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : correctCountValues_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : correctCountValues_;
           }
         }
         /**
@@ -4604,14 +4604,14 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountValues"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_values = 30004;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_values = 30004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCorrectCountValuesFieldBuilder() {
           if (correctCountValuesBuilder_ == null) {
             correctCountValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCorrectCountValues(),
                     getParentForChildren(),
                     isClean());
@@ -4620,15 +4620,15 @@ public final class PmConsistencyCheckAd {
           return correctCountValuesBuilder_;
         }
 
-        private io.dstore.Values.integerValue correctCountPersons_ = null;
+        private io.dstore.values.IntegerValue correctCountPersons_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> correctCountPersonsBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> correctCountPersonsBuilder_;
         /**
          * <pre>
          * Richtiger Wert für "CountPersons"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
          */
         public boolean hasCorrectCountPersons() {
           return correctCountPersonsBuilder_ != null || correctCountPersons_ != null;
@@ -4638,11 +4638,11 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountPersons"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
          */
-        public io.dstore.Values.integerValue getCorrectCountPersons() {
+        public io.dstore.values.IntegerValue getCorrectCountPersons() {
           if (correctCountPersonsBuilder_ == null) {
-            return correctCountPersons_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : correctCountPersons_;
+            return correctCountPersons_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : correctCountPersons_;
           } else {
             return correctCountPersonsBuilder_.getMessage();
           }
@@ -4652,9 +4652,9 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountPersons"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
          */
-        public Builder setCorrectCountPersons(io.dstore.Values.integerValue value) {
+        public Builder setCorrectCountPersons(io.dstore.values.IntegerValue value) {
           if (correctCountPersonsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4672,10 +4672,10 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountPersons"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
          */
         public Builder setCorrectCountPersons(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (correctCountPersonsBuilder_ == null) {
             correctCountPersons_ = builderForValue.build();
             onChanged();
@@ -4690,13 +4690,13 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountPersons"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
          */
-        public Builder mergeCorrectCountPersons(io.dstore.Values.integerValue value) {
+        public Builder mergeCorrectCountPersons(io.dstore.values.IntegerValue value) {
           if (correctCountPersonsBuilder_ == null) {
             if (correctCountPersons_ != null) {
               correctCountPersons_ =
-                io.dstore.Values.integerValue.newBuilder(correctCountPersons_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(correctCountPersons_).mergeFrom(value).buildPartial();
             } else {
               correctCountPersons_ = value;
             }
@@ -4712,7 +4712,7 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountPersons"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
          */
         public Builder clearCorrectCountPersons() {
           if (correctCountPersonsBuilder_ == null) {
@@ -4730,9 +4730,9 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountPersons"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCorrectCountPersonsBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCorrectCountPersonsBuilder() {
           
           onChanged();
           return getCorrectCountPersonsFieldBuilder().getBuilder();
@@ -4742,14 +4742,14 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountPersons"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCorrectCountPersonsOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCorrectCountPersonsOrBuilder() {
           if (correctCountPersonsBuilder_ != null) {
             return correctCountPersonsBuilder_.getMessageOrBuilder();
           } else {
             return correctCountPersons_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : correctCountPersons_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : correctCountPersons_;
           }
         }
         /**
@@ -4757,14 +4757,14 @@ public final class PmConsistencyCheckAd {
          * Richtiger Wert für "CountPersons"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue correct_count_persons = 30005;</code>
+         * <code>optional .dstore.values.IntegerValue correct_count_persons = 30005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCorrectCountPersonsFieldBuilder() {
           if (correctCountPersonsBuilder_ == null) {
             correctCountPersonsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCorrectCountPersons(),
                     getParentForChildren(),
                     isClean());
@@ -4773,15 +4773,15 @@ public final class PmConsistencyCheckAd {
           return correctCountPersonsBuilder_;
         }
 
-        private io.dstore.Values.integerValue inconsistenceType_ = null;
+        private io.dstore.values.IntegerValue inconsistenceType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inconsistenceTypeBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> inconsistenceTypeBuilder_;
         /**
          * <pre>
          * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+         * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
          */
         public boolean hasInconsistenceType() {
           return inconsistenceTypeBuilder_ != null || inconsistenceType_ != null;
@@ -4791,11 +4791,11 @@ public final class PmConsistencyCheckAd {
          * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+         * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
          */
-        public io.dstore.Values.integerValue getInconsistenceType() {
+        public io.dstore.values.IntegerValue getInconsistenceType() {
           if (inconsistenceTypeBuilder_ == null) {
-            return inconsistenceType_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inconsistenceType_;
+            return inconsistenceType_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inconsistenceType_;
           } else {
             return inconsistenceTypeBuilder_.getMessage();
           }
@@ -4805,9 +4805,9 @@ public final class PmConsistencyCheckAd {
          * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+         * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
          */
-        public Builder setInconsistenceType(io.dstore.Values.integerValue value) {
+        public Builder setInconsistenceType(io.dstore.values.IntegerValue value) {
           if (inconsistenceTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4825,10 +4825,10 @@ public final class PmConsistencyCheckAd {
          * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+         * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
          */
         public Builder setInconsistenceType(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (inconsistenceTypeBuilder_ == null) {
             inconsistenceType_ = builderForValue.build();
             onChanged();
@@ -4843,13 +4843,13 @@ public final class PmConsistencyCheckAd {
          * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+         * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
          */
-        public Builder mergeInconsistenceType(io.dstore.Values.integerValue value) {
+        public Builder mergeInconsistenceType(io.dstore.values.IntegerValue value) {
           if (inconsistenceTypeBuilder_ == null) {
             if (inconsistenceType_ != null) {
               inconsistenceType_ =
-                io.dstore.Values.integerValue.newBuilder(inconsistenceType_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(inconsistenceType_).mergeFrom(value).buildPartial();
             } else {
               inconsistenceType_ = value;
             }
@@ -4865,7 +4865,7 @@ public final class PmConsistencyCheckAd {
          * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+         * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
          */
         public Builder clearInconsistenceType() {
           if (inconsistenceTypeBuilder_ == null) {
@@ -4883,9 +4883,9 @@ public final class PmConsistencyCheckAd {
          * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+         * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getInconsistenceTypeBuilder() {
+        public io.dstore.values.IntegerValue.Builder getInconsistenceTypeBuilder() {
           
           onChanged();
           return getInconsistenceTypeFieldBuilder().getBuilder();
@@ -4895,14 +4895,14 @@ public final class PmConsistencyCheckAd {
          * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+         * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getInconsistenceTypeOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getInconsistenceTypeOrBuilder() {
           if (inconsistenceTypeBuilder_ != null) {
             return inconsistenceTypeBuilder_.getMessageOrBuilder();
           } else {
             return inconsistenceType_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : inconsistenceType_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : inconsistenceType_;
           }
         }
         /**
@@ -4910,14 +4910,14 @@ public final class PmConsistencyCheckAd {
          * Gibt die Art des Fehlers des Datensatzes an:"1" : falscher Wert"2" : fehlender Wert"3" : überfüssiger Wert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue inconsistence_type = 30006;</code>
+         * <code>optional .dstore.values.IntegerValue inconsistence_type = 30006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getInconsistenceTypeFieldBuilder() {
           if (inconsistenceTypeBuilder_ == null) {
             inconsistenceTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getInconsistenceType(),
                     getParentForChildren(),
                     isClean());
@@ -4926,15 +4926,15 @@ public final class PmConsistencyCheckAd {
           return inconsistenceTypeBuilder_;
         }
 
-        private io.dstore.Values.integerValue wrongCountPersons_ = null;
+        private io.dstore.values.IntegerValue wrongCountPersons_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> wrongCountPersonsBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> wrongCountPersonsBuilder_;
         /**
          * <pre>
          * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
          */
         public boolean hasWrongCountPersons() {
           return wrongCountPersonsBuilder_ != null || wrongCountPersons_ != null;
@@ -4944,11 +4944,11 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
          */
-        public io.dstore.Values.integerValue getWrongCountPersons() {
+        public io.dstore.values.IntegerValue getWrongCountPersons() {
           if (wrongCountPersonsBuilder_ == null) {
-            return wrongCountPersons_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : wrongCountPersons_;
+            return wrongCountPersons_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : wrongCountPersons_;
           } else {
             return wrongCountPersonsBuilder_.getMessage();
           }
@@ -4958,9 +4958,9 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
          */
-        public Builder setWrongCountPersons(io.dstore.Values.integerValue value) {
+        public Builder setWrongCountPersons(io.dstore.values.IntegerValue value) {
           if (wrongCountPersonsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4978,10 +4978,10 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
          */
         public Builder setWrongCountPersons(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (wrongCountPersonsBuilder_ == null) {
             wrongCountPersons_ = builderForValue.build();
             onChanged();
@@ -4996,13 +4996,13 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
          */
-        public Builder mergeWrongCountPersons(io.dstore.Values.integerValue value) {
+        public Builder mergeWrongCountPersons(io.dstore.values.IntegerValue value) {
           if (wrongCountPersonsBuilder_ == null) {
             if (wrongCountPersons_ != null) {
               wrongCountPersons_ =
-                io.dstore.Values.integerValue.newBuilder(wrongCountPersons_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(wrongCountPersons_).mergeFrom(value).buildPartial();
             } else {
               wrongCountPersons_ = value;
             }
@@ -5018,7 +5018,7 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
          */
         public Builder clearWrongCountPersons() {
           if (wrongCountPersonsBuilder_ == null) {
@@ -5036,9 +5036,9 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getWrongCountPersonsBuilder() {
+        public io.dstore.values.IntegerValue.Builder getWrongCountPersonsBuilder() {
           
           onChanged();
           return getWrongCountPersonsFieldBuilder().getBuilder();
@@ -5048,14 +5048,14 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getWrongCountPersonsOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getWrongCountPersonsOrBuilder() {
           if (wrongCountPersonsBuilder_ != null) {
             return wrongCountPersonsBuilder_.getMessageOrBuilder();
           } else {
             return wrongCountPersons_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : wrongCountPersons_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : wrongCountPersons_;
           }
         }
         /**
@@ -5063,14 +5063,14 @@ public final class PmConsistencyCheckAd {
          * Alter (falscher bzw. nicht vorhandener) Wert von "CountPersons", also der Anzahl Personen, die eine Eigenschaft haben, die durch "FirstFourCharactersLowerCase" repräsentiert wird.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue wrong_count_persons = 30007;</code>
+         * <code>optional .dstore.values.IntegerValue wrong_count_persons = 30007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getWrongCountPersonsFieldBuilder() {
           if (wrongCountPersonsBuilder_ == null) {
             wrongCountPersonsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getWrongCountPersons(),
                     getParentForChildren(),
                     isClean());
@@ -5079,15 +5079,15 @@ public final class PmConsistencyCheckAd {
           return wrongCountPersonsBuilder_;
         }
 
-        private io.dstore.Values.integerValue personTypeId_ = null;
+        private io.dstore.values.IntegerValue personTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
         /**
          * <pre>
          * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
          */
         public boolean hasPersonTypeId() {
           return personTypeIdBuilder_ != null || personTypeId_ != null;
@@ -5097,11 +5097,11 @@ public final class PmConsistencyCheckAd {
          * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
          */
-        public io.dstore.Values.integerValue getPersonTypeId() {
+        public io.dstore.values.IntegerValue getPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
-            return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+            return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
           } else {
             return personTypeIdBuilder_.getMessage();
           }
@@ -5111,9 +5111,9 @@ public final class PmConsistencyCheckAd {
          * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
          */
-        public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+        public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5131,10 +5131,10 @@ public final class PmConsistencyCheckAd {
          * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
          */
         public Builder setPersonTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personTypeIdBuilder_ == null) {
             personTypeId_ = builderForValue.build();
             onChanged();
@@ -5149,13 +5149,13 @@ public final class PmConsistencyCheckAd {
          * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
          */
-        public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
             if (personTypeId_ != null) {
               personTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
             } else {
               personTypeId_ = value;
             }
@@ -5171,7 +5171,7 @@ public final class PmConsistencyCheckAd {
          * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
          */
         public Builder clearPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -5189,9 +5189,9 @@ public final class PmConsistencyCheckAd {
          * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
           
           onChanged();
           return getPersonTypeIdFieldBuilder().getBuilder();
@@ -5201,14 +5201,14 @@ public final class PmConsistencyCheckAd {
          * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
           if (personTypeIdBuilder_ != null) {
             return personTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return personTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
           }
         }
         /**
@@ -5216,14 +5216,14 @@ public final class PmConsistencyCheckAd {
          * ID des Personentyps zu dem der fehlerhafte Datensatz gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 30008;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 30008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonTypeIdFieldBuilder() {
           if (personTypeIdBuilder_ == null) {
             personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -5232,15 +5232,15 @@ public final class PmConsistencyCheckAd {
           return personTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue valuelowercase_ = null;
+        private io.dstore.values.StringValue valuelowercase_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valuelowercaseBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valuelowercaseBuilder_;
         /**
          * <pre>
          * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+         * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
          */
         public boolean hasValuelowercase() {
           return valuelowercaseBuilder_ != null || valuelowercase_ != null;
@@ -5250,11 +5250,11 @@ public final class PmConsistencyCheckAd {
          * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+         * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
          */
-        public io.dstore.Values.stringValue getValuelowercase() {
+        public io.dstore.values.StringValue getValuelowercase() {
           if (valuelowercaseBuilder_ == null) {
-            return valuelowercase_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valuelowercase_;
+            return valuelowercase_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valuelowercase_;
           } else {
             return valuelowercaseBuilder_.getMessage();
           }
@@ -5264,9 +5264,9 @@ public final class PmConsistencyCheckAd {
          * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+         * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
          */
-        public Builder setValuelowercase(io.dstore.Values.stringValue value) {
+        public Builder setValuelowercase(io.dstore.values.StringValue value) {
           if (valuelowercaseBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5284,10 +5284,10 @@ public final class PmConsistencyCheckAd {
          * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+         * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
          */
         public Builder setValuelowercase(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valuelowercaseBuilder_ == null) {
             valuelowercase_ = builderForValue.build();
             onChanged();
@@ -5302,13 +5302,13 @@ public final class PmConsistencyCheckAd {
          * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+         * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
          */
-        public Builder mergeValuelowercase(io.dstore.Values.stringValue value) {
+        public Builder mergeValuelowercase(io.dstore.values.StringValue value) {
           if (valuelowercaseBuilder_ == null) {
             if (valuelowercase_ != null) {
               valuelowercase_ =
-                io.dstore.Values.stringValue.newBuilder(valuelowercase_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(valuelowercase_).mergeFrom(value).buildPartial();
             } else {
               valuelowercase_ = value;
             }
@@ -5324,7 +5324,7 @@ public final class PmConsistencyCheckAd {
          * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+         * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
          */
         public Builder clearValuelowercase() {
           if (valuelowercaseBuilder_ == null) {
@@ -5342,9 +5342,9 @@ public final class PmConsistencyCheckAd {
          * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+         * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValuelowercaseBuilder() {
+        public io.dstore.values.StringValue.Builder getValuelowercaseBuilder() {
           
           onChanged();
           return getValuelowercaseFieldBuilder().getBuilder();
@@ -5354,14 +5354,14 @@ public final class PmConsistencyCheckAd {
          * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+         * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValuelowercaseOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValuelowercaseOrBuilder() {
           if (valuelowercaseBuilder_ != null) {
             return valuelowercaseBuilder_.getMessageOrBuilder();
           } else {
             return valuelowercase_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : valuelowercase_;
+                io.dstore.values.StringValue.getDefaultInstance() : valuelowercase_;
           }
         }
         /**
@@ -5369,14 +5369,14 @@ public final class PmConsistencyCheckAd {
          * Eigenschaft (lowercase) zum "unique"-Merkmal "PersonCharacteristicID", die mehrfache verwendet wird oder für die der zugehörige Datensatz in "UniquePersonProperties" fehlt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue valuelowercase = 40001;</code>
+         * <code>optional .dstore.values.StringValue valuelowercase = 40001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValuelowercaseFieldBuilder() {
           if (valuelowercaseBuilder_ == null) {
             valuelowercaseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValuelowercase(),
                     getParentForChildren(),
                     isClean());
@@ -5385,15 +5385,15 @@ public final class PmConsistencyCheckAd {
           return valuelowercaseBuilder_;
         }
 
-        private io.dstore.Values.integerValue personId_ = null;
+        private io.dstore.values.IntegerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
          * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -5403,11 +5403,11 @@ public final class PmConsistencyCheckAd {
          * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
          */
-        public io.dstore.Values.integerValue getPersonId() {
+        public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
@@ -5417,9 +5417,9 @@ public final class PmConsistencyCheckAd {
          * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
          */
-        public Builder setPersonId(io.dstore.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -5437,10 +5437,10 @@ public final class PmConsistencyCheckAd {
          * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
          */
         public Builder setPersonId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -5455,13 +5455,13 @@ public final class PmConsistencyCheckAd {
          * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
          */
-        public Builder mergePersonId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -5477,7 +5477,7 @@ public final class PmConsistencyCheckAd {
          * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -5495,9 +5495,9 @@ public final class PmConsistencyCheckAd {
          * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
@@ -5507,14 +5507,14 @@ public final class PmConsistencyCheckAd {
          * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           }
         }
         /**
@@ -5522,14 +5522,14 @@ public final class PmConsistencyCheckAd {
          * ID der Person, der "Value" als Eigenschaft zugeord. ist, und es gilt : Entweder gibt es in der Ergebnismenge eine ANDERE "PersonID", der eine Eigensch. mit ident. "Value_lowercase" zugeord. ist oder es fehlt der zugehör. Datensatz in "UniquePersonProperti
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 40002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 40002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -6999,38 +6999,38 @@ public final class PmConsistencyCheckAd {
       "tencyCheck_Ad\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\304\001\n\nParameters\022=\n" +
       "\030person_characteristic_id\030\001 \001(\0132\033.dstore" +
-      ".values.integerValue\022&\n\035person_character" +
+      ".values.IntegerValue\022&\n\035person_character" +
       "istic_id_null\030\351\007 \001(\010\0222\n\rwhat_to_check\030\002 " +
-      "\001(\0132\033.dstore.values.integerValue\022\033\n\022what" +
+      "\001(\0132\033.dstore.values.IntegerValue\022\033\n\022what" +
       "_to_check_null\030\352\007 \001(\010\"\370\010\n\010Response\0228\n\020me" +
       "ta_information\030\002 \003(\0132\036.dstore.engine.Met",
       "aInformation\022\'\n\007message\030\003 \003(\0132\026.dstore.e" +
       "ngine.Message\022?\n\003row\030\004 \003(\01322.dstore.engi" +
       "ne.pm_ConsistencyCheck_Ad.Response.Row\032\307" +
       "\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\030person_charac" +
-      "teristic_id\030\221N \001(\0132\033.dstore.values.integ" +
+      "teristic_id\030\221N \001(\0132\033.dstore.values.Integ" +
       "erValue\022*\n\005value\030\222N \001(\0132\032.dstore.values." +
-      "stringValue\022.\n\010value_id\030\223N \001(\0132\033.dstore." +
-      "values.integerValue\022@\n\032used_by_person_ty" +
-      "pe_bitmap\030\224N \001(\0132\033.dstore.values.integer" +
+      "StringValue\022.\n\010value_id\030\223N \001(\0132\033.dstore." +
+      "values.IntegerValue\022@\n\032used_by_person_ty" +
+      "pe_bitmap\030\224N \001(\0132\033.dstore.values.Integer" +
       "Value\022-\n\007sort_no\030\225N \001(\0132\033.dstore.values.",
-      "integerValue\022G\n correct_used_by_person_t" +
-      "ype_btmp\030\241\234\001 \001(\0132\033.dstore.values.integer" +
+      "IntegerValue\022G\n correct_used_by_person_t" +
+      "ype_btmp\030\241\234\001 \001(\0132\033.dstore.values.Integer" +
       "Value\022E\n\036wrong_used_by_person_type_btmp\030" +
-      "\245\234\001 \001(\0132\033.dstore.values.integerValue\0229\n\022" +
+      "\245\234\001 \001(\0132\033.dstore.values.IntegerValue\0229\n\022" +
       "wrong_count_values\030\261\352\001 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022F\n first_four_characters" +
-      "_lower_case\030\262\352\001 \001(\0132\032.dstore.values.stri" +
+      "es.IntegerValue\022F\n first_four_characters" +
+      "_lower_case\030\262\352\001 \001(\0132\032.dstore.values.Stri" +
       "ngValue\022;\n\024correct_count_values\030\264\352\001 \001(\0132" +
-      "\033.dstore.values.integerValue\022<\n\025correct_" +
-      "count_persons\030\265\352\001 \001(\0132\033.dstore.values.in",
+      "\033.dstore.values.IntegerValue\022<\n\025correct_" +
+      "count_persons\030\265\352\001 \001(\0132\033.dstore.values.In",
       "tegerValue\0229\n\022inconsistence_type\030\266\352\001 \001(\013" +
-      "2\033.dstore.values.integerValue\022:\n\023wrong_c" +
-      "ount_persons\030\267\352\001 \001(\0132\033.dstore.values.int" +
+      "2\033.dstore.values.IntegerValue\022:\n\023wrong_c" +
+      "ount_persons\030\267\352\001 \001(\0132\033.dstore.values.Int" +
       "egerValue\0225\n\016person_type_id\030\270\352\001 \001(\0132\033.ds" +
-      "tore.values.integerValue\0224\n\016valuelowerca" +
-      "se\030\301\270\002 \001(\0132\032.dstore.values.stringValue\0220" +
-      "\n\tperson_id\030\302\270\002 \001(\0132\033.dstore.values.inte" +
+      "tore.values.IntegerValue\0224\n\016valuelowerca" +
+      "se\030\301\270\002 \001(\0132\032.dstore.values.StringValue\0220" +
+      "\n\tperson_id\030\302\270\002 \001(\0132\033.dstore.values.Inte" +
       "gerValueBW\n\033io.dstore.engine.proceduresZ" +
       "8gosdk.dstore.de/engine/procedures/pm_Co" +
       "nsistencyCheck_Adb\006proto3"
@@ -7046,7 +7046,7 @@ public final class PmConsistencyCheckAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_ConsistencyCheck_Ad_Parameters_descriptor =
@@ -7067,7 +7067,7 @@ public final class PmConsistencyCheckAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_ConsistencyCheck_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PersonCharacteristicId", "Value", "ValueId", "UsedByPersonTypeBitmap", "SortNo", "CorrectUsedByPersonTypeBtmp", "WrongUsedByPersonTypeBtmp", "WrongCountValues", "FirstFourCharactersLowerCase", "CorrectCountValues", "CorrectCountPersons", "InconsistenceType", "WrongCountPersons", "PersonTypeId", "Valuelowercase", "PersonId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

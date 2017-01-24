@@ -19,17 +19,17 @@ public final class ImModifyConditionPartsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
      */
     boolean hasConditionPartId();
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
      */
-    io.dstore.Values.integerValue getConditionPartId();
+    io.dstore.values.IntegerValue getConditionPartId();
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionPartIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder();
 
     /**
      * <code>optional bool condition_part_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImModifyConditionPartsAd {
     boolean getConditionPartIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+     * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
      */
     boolean hasConditionPartDescription();
     /**
-     * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+     * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
      */
-    io.dstore.Values.stringValue getConditionPartDescription();
+    io.dstore.values.StringValue getConditionPartDescription();
     /**
-     * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+     * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getConditionPartDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getConditionPartDescriptionOrBuilder();
 
     /**
      * <code>optional bool condition_part_description_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImModifyConditionPartsAd {
     boolean getConditionPartDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+     * <code>optional .dstore.values.StringValue level_ids = 3;</code>
      */
     boolean hasLevelIds();
     /**
-     * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+     * <code>optional .dstore.values.StringValue level_ids = 3;</code>
      */
-    io.dstore.Values.stringValue getLevelIds();
+    io.dstore.values.StringValue getLevelIds();
     /**
-     * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+     * <code>optional .dstore.values.StringValue level_ids = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getLevelIdsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder();
 
     /**
      * <code>optional bool level_ids_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImModifyConditionPartsAd {
     boolean getLevelIdsNull();
 
     /**
-     * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
      */
     boolean hasDomainTreeNodeIds();
     /**
-     * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
      */
-    io.dstore.Values.stringValue getDomainTreeNodeIds();
+    io.dstore.values.StringValue getDomainTreeNodeIds();
     /**
-     * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDomainTreeNodeIdsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder();
 
     /**
      * <code>optional bool domain_tree_node_ids_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class ImModifyConditionPartsAd {
     boolean getDomainTreeNodeIdsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId();
+    io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class ImModifyConditionPartsAd {
     boolean getNodeCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+     * <code>optional .dstore.values.StringValue operator1 = 6;</code>
      */
     boolean hasOperator1();
     /**
-     * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+     * <code>optional .dstore.values.StringValue operator1 = 6;</code>
      */
-    io.dstore.Values.stringValue getOperator1();
+    io.dstore.values.StringValue getOperator1();
     /**
-     * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+     * <code>optional .dstore.values.StringValue operator1 = 6;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getOperator1OrBuilder();
+    io.dstore.values.StringValueOrBuilder getOperator1OrBuilder();
 
     /**
      * <code>optional bool operator1_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class ImModifyConditionPartsAd {
     boolean getOperator1Null();
 
     /**
-     * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+     * <code>optional .dstore.values.StringValue condition1 = 7;</code>
      */
     boolean hasCondition1();
     /**
-     * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+     * <code>optional .dstore.values.StringValue condition1 = 7;</code>
      */
-    io.dstore.Values.stringValue getCondition1();
+    io.dstore.values.StringValue getCondition1();
     /**
-     * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+     * <code>optional .dstore.values.StringValue condition1 = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCondition1OrBuilder();
+    io.dstore.values.StringValueOrBuilder getCondition1OrBuilder();
 
     /**
      * <code>optional bool condition1_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class ImModifyConditionPartsAd {
     boolean getCondition1Null();
 
     /**
-     * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+     * <code>optional .dstore.values.StringValue operator2 = 8;</code>
      */
     boolean hasOperator2();
     /**
-     * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+     * <code>optional .dstore.values.StringValue operator2 = 8;</code>
      */
-    io.dstore.Values.stringValue getOperator2();
+    io.dstore.values.StringValue getOperator2();
     /**
-     * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+     * <code>optional .dstore.values.StringValue operator2 = 8;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getOperator2OrBuilder();
+    io.dstore.values.StringValueOrBuilder getOperator2OrBuilder();
 
     /**
      * <code>optional bool operator2_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class ImModifyConditionPartsAd {
     boolean getOperator2Null();
 
     /**
-     * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+     * <code>optional .dstore.values.StringValue condition2 = 9;</code>
      */
     boolean hasCondition2();
     /**
-     * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+     * <code>optional .dstore.values.StringValue condition2 = 9;</code>
      */
-    io.dstore.Values.stringValue getCondition2();
+    io.dstore.values.StringValue getCondition2();
     /**
-     * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+     * <code>optional .dstore.values.StringValue condition2 = 9;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCondition2OrBuilder();
+    io.dstore.values.StringValueOrBuilder getCondition2OrBuilder();
 
     /**
      * <code>optional bool condition2_null = 1009;</code>
@@ -181,17 +181,17 @@ public final class ImModifyConditionPartsAd {
     boolean getCondition2Null();
 
     /**
-     * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+     * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
      */
     boolean hasInheritDepth();
     /**
-     * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+     * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
      */
-    io.dstore.Values.integerValue getInheritDepth();
+    io.dstore.values.IntegerValue getInheritDepth();
     /**
-     * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+     * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getInheritDepthOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder();
 
     /**
      * <code>optional bool inherit_depth_null = 1010;</code>
@@ -199,17 +199,17 @@ public final class ImModifyConditionPartsAd {
     boolean getInheritDepthNull();
 
     /**
-     * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
      */
     boolean hasRecursiveEvaluation();
     /**
-     * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
      */
-    io.dstore.Values.integerValue getRecursiveEvaluation();
+    io.dstore.values.IntegerValue getRecursiveEvaluation();
     /**
-     * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRecursiveEvaluationOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder();
 
     /**
      * <code>optional bool recursive_evaluation_null = 1011;</code>
@@ -217,17 +217,17 @@ public final class ImModifyConditionPartsAd {
     boolean getRecursiveEvaluationNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+     * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
      */
     boolean hasDeleteConditionPart();
     /**
-     * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+     * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
      */
-    io.dstore.Values.booleanValue getDeleteConditionPart();
+    io.dstore.values.BooleanValue getDeleteConditionPart();
     /**
-     * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+     * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteConditionPartOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteConditionPartOrBuilder();
 
     /**
      * <code>optional bool delete_condition_part_null = 1012;</code>
@@ -235,17 +235,17 @@ public final class ImModifyConditionPartsAd {
     boolean getDeleteConditionPartNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
-    io.dstore.Values.stringValue getCountry();
+    io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
      * <code>optional bool country_null = 1013;</code>
@@ -253,17 +253,17 @@ public final class ImModifyConditionPartsAd {
     boolean getCountryNull();
 
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
      */
     boolean hasConditionPartIdWithSameConfig();
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
      */
-    io.dstore.Values.integerValue getConditionPartIdWithSameConfig();
+    io.dstore.values.IntegerValue getConditionPartIdWithSameConfig();
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder();
 
     /**
      * <code>optional bool condition_part_id_with_same_config_null = 1014;</code>
@@ -324,11 +324,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionPartId_ != null) {
                 subBuilder = conditionPartId_.toBuilder();
               }
-              conditionPartId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionPartId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionPartId_);
                 conditionPartId_ = subBuilder.buildPartial();
@@ -337,11 +337,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (conditionPartDescription_ != null) {
                 subBuilder = conditionPartDescription_.toBuilder();
               }
-              conditionPartDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              conditionPartDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionPartDescription_);
                 conditionPartDescription_ = subBuilder.buildPartial();
@@ -350,11 +350,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (levelIds_ != null) {
                 subBuilder = levelIds_.toBuilder();
               }
-              levelIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              levelIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(levelIds_);
                 levelIds_ = subBuilder.buildPartial();
@@ -363,11 +363,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (domainTreeNodeIds_ != null) {
                 subBuilder = domainTreeNodeIds_.toBuilder();
               }
-              domainTreeNodeIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              domainTreeNodeIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(domainTreeNodeIds_);
                 domainTreeNodeIds_ = subBuilder.buildPartial();
@@ -376,11 +376,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -389,11 +389,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 50: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (operator1_ != null) {
                 subBuilder = operator1_.toBuilder();
               }
-              operator1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              operator1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(operator1_);
                 operator1_ = subBuilder.buildPartial();
@@ -402,11 +402,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (condition1_ != null) {
                 subBuilder = condition1_.toBuilder();
               }
-              condition1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              condition1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(condition1_);
                 condition1_ = subBuilder.buildPartial();
@@ -415,11 +415,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 66: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (operator2_ != null) {
                 subBuilder = operator2_.toBuilder();
               }
-              operator2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              operator2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(operator2_);
                 operator2_ = subBuilder.buildPartial();
@@ -428,11 +428,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 74: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (condition2_ != null) {
                 subBuilder = condition2_.toBuilder();
               }
-              condition2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              condition2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(condition2_);
                 condition2_ = subBuilder.buildPartial();
@@ -441,11 +441,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 82: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (inheritDepth_ != null) {
                 subBuilder = inheritDepth_.toBuilder();
               }
-              inheritDepth_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              inheritDepth_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inheritDepth_);
                 inheritDepth_ = subBuilder.buildPartial();
@@ -454,11 +454,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 90: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (recursiveEvaluation_ != null) {
                 subBuilder = recursiveEvaluation_.toBuilder();
               }
-              recursiveEvaluation_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              recursiveEvaluation_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(recursiveEvaluation_);
                 recursiveEvaluation_ = subBuilder.buildPartial();
@@ -467,11 +467,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 98: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteConditionPart_ != null) {
                 subBuilder = deleteConditionPart_.toBuilder();
               }
-              deleteConditionPart_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteConditionPart_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteConditionPart_);
                 deleteConditionPart_ = subBuilder.buildPartial();
@@ -480,11 +480,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 106: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              country_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -493,11 +493,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 114: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionPartIdWithSameConfig_ != null) {
                 subBuilder = conditionPartIdWithSameConfig_.toBuilder();
               }
-              conditionPartIdWithSameConfig_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionPartIdWithSameConfig_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionPartIdWithSameConfig_);
                 conditionPartIdWithSameConfig_ = subBuilder.buildPartial();
@@ -599,23 +599,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int CONDITION_PART_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue conditionPartId_;
+    private io.dstore.values.IntegerValue conditionPartId_;
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
      */
     public boolean hasConditionPartId() {
       return conditionPartId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getConditionPartId() {
-      return conditionPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPartId_;
+    public io.dstore.values.IntegerValue getConditionPartId() {
+      return conditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionPartIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder() {
       return getConditionPartId();
     }
 
@@ -629,23 +629,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int CONDITION_PART_DESCRIPTION_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue conditionPartDescription_;
+    private io.dstore.values.StringValue conditionPartDescription_;
     /**
-     * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+     * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
      */
     public boolean hasConditionPartDescription() {
       return conditionPartDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+     * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
      */
-    public io.dstore.Values.stringValue getConditionPartDescription() {
-      return conditionPartDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : conditionPartDescription_;
+    public io.dstore.values.StringValue getConditionPartDescription() {
+      return conditionPartDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionPartDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+     * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getConditionPartDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getConditionPartDescriptionOrBuilder() {
       return getConditionPartDescription();
     }
 
@@ -659,23 +659,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int LEVEL_IDS_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue levelIds_;
+    private io.dstore.values.StringValue levelIds_;
     /**
-     * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+     * <code>optional .dstore.values.StringValue level_ids = 3;</code>
      */
     public boolean hasLevelIds() {
       return levelIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+     * <code>optional .dstore.values.StringValue level_ids = 3;</code>
      */
-    public io.dstore.Values.stringValue getLevelIds() {
-      return levelIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : levelIds_;
+    public io.dstore.values.StringValue getLevelIds() {
+      return levelIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+     * <code>optional .dstore.values.StringValue level_ids = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getLevelIdsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
       return getLevelIds();
     }
 
@@ -689,23 +689,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int DOMAIN_TREE_NODE_IDS_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue domainTreeNodeIds_;
+    private io.dstore.values.StringValue domainTreeNodeIds_;
     /**
-     * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
      */
     public boolean hasDomainTreeNodeIds() {
       return domainTreeNodeIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
      */
-    public io.dstore.Values.stringValue getDomainTreeNodeIds() {
-      return domainTreeNodeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : domainTreeNodeIds_;
+    public io.dstore.values.StringValue getDomainTreeNodeIds() {
+      return domainTreeNodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : domainTreeNodeIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+     * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
       return getDomainTreeNodeIds();
     }
 
@@ -719,23 +719,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -749,23 +749,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int OPERATOR1_FIELD_NUMBER = 6;
-    private io.dstore.Values.stringValue operator1_;
+    private io.dstore.values.StringValue operator1_;
     /**
-     * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+     * <code>optional .dstore.values.StringValue operator1 = 6;</code>
      */
     public boolean hasOperator1() {
       return operator1_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+     * <code>optional .dstore.values.StringValue operator1 = 6;</code>
      */
-    public io.dstore.Values.stringValue getOperator1() {
-      return operator1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator1_;
+    public io.dstore.values.StringValue getOperator1() {
+      return operator1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator1_;
     }
     /**
-     * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+     * <code>optional .dstore.values.StringValue operator1 = 6;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getOperator1OrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
       return getOperator1();
     }
 
@@ -779,23 +779,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int CONDITION1_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue condition1_;
+    private io.dstore.values.StringValue condition1_;
     /**
-     * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+     * <code>optional .dstore.values.StringValue condition1 = 7;</code>
      */
     public boolean hasCondition1() {
       return condition1_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+     * <code>optional .dstore.values.StringValue condition1 = 7;</code>
      */
-    public io.dstore.Values.stringValue getCondition1() {
-      return condition1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition1_;
+    public io.dstore.values.StringValue getCondition1() {
+      return condition1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition1_;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+     * <code>optional .dstore.values.StringValue condition1 = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCondition1OrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
       return getCondition1();
     }
 
@@ -809,23 +809,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int OPERATOR2_FIELD_NUMBER = 8;
-    private io.dstore.Values.stringValue operator2_;
+    private io.dstore.values.StringValue operator2_;
     /**
-     * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+     * <code>optional .dstore.values.StringValue operator2 = 8;</code>
      */
     public boolean hasOperator2() {
       return operator2_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+     * <code>optional .dstore.values.StringValue operator2 = 8;</code>
      */
-    public io.dstore.Values.stringValue getOperator2() {
-      return operator2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator2_;
+    public io.dstore.values.StringValue getOperator2() {
+      return operator2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator2_;
     }
     /**
-     * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+     * <code>optional .dstore.values.StringValue operator2 = 8;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getOperator2OrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
       return getOperator2();
     }
 
@@ -839,23 +839,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int CONDITION2_FIELD_NUMBER = 9;
-    private io.dstore.Values.stringValue condition2_;
+    private io.dstore.values.StringValue condition2_;
     /**
-     * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+     * <code>optional .dstore.values.StringValue condition2 = 9;</code>
      */
     public boolean hasCondition2() {
       return condition2_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+     * <code>optional .dstore.values.StringValue condition2 = 9;</code>
      */
-    public io.dstore.Values.stringValue getCondition2() {
-      return condition2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition2_;
+    public io.dstore.values.StringValue getCondition2() {
+      return condition2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition2_;
     }
     /**
-     * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+     * <code>optional .dstore.values.StringValue condition2 = 9;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCondition2OrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
       return getCondition2();
     }
 
@@ -869,23 +869,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int INHERIT_DEPTH_FIELD_NUMBER = 10;
-    private io.dstore.Values.integerValue inheritDepth_;
+    private io.dstore.values.IntegerValue inheritDepth_;
     /**
-     * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+     * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
      */
     public boolean hasInheritDepth() {
       return inheritDepth_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+     * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
      */
-    public io.dstore.Values.integerValue getInheritDepth() {
-      return inheritDepth_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritDepth_;
+    public io.dstore.values.IntegerValue getInheritDepth() {
+      return inheritDepth_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inheritDepth_;
     }
     /**
-     * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+     * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getInheritDepthOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
       return getInheritDepth();
     }
 
@@ -899,23 +899,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int RECURSIVE_EVALUATION_FIELD_NUMBER = 11;
-    private io.dstore.Values.integerValue recursiveEvaluation_;
+    private io.dstore.values.IntegerValue recursiveEvaluation_;
     /**
-     * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
      */
     public boolean hasRecursiveEvaluation() {
       return recursiveEvaluation_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
      */
-    public io.dstore.Values.integerValue getRecursiveEvaluation() {
-      return recursiveEvaluation_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : recursiveEvaluation_;
+    public io.dstore.values.IntegerValue getRecursiveEvaluation() {
+      return recursiveEvaluation_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : recursiveEvaluation_;
     }
     /**
-     * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+     * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRecursiveEvaluationOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
       return getRecursiveEvaluation();
     }
 
@@ -929,23 +929,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int DELETE_CONDITION_PART_FIELD_NUMBER = 12;
-    private io.dstore.Values.booleanValue deleteConditionPart_;
+    private io.dstore.values.BooleanValue deleteConditionPart_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+     * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
      */
     public boolean hasDeleteConditionPart() {
       return deleteConditionPart_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+     * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteConditionPart() {
-      return deleteConditionPart_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteConditionPart_;
+    public io.dstore.values.BooleanValue getDeleteConditionPart() {
+      return deleteConditionPart_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteConditionPart_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+     * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteConditionPartOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteConditionPartOrBuilder() {
       return getDeleteConditionPart();
     }
 
@@ -959,23 +959,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int COUNTRY_FIELD_NUMBER = 13;
-    private io.dstore.Values.stringValue country_;
+    private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
-    public io.dstore.Values.stringValue getCountry() {
-      return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+    public io.dstore.values.StringValue getCountry() {
+      return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
@@ -989,23 +989,23 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int CONDITION_PART_ID_WITH_SAME_CONFIG_FIELD_NUMBER = 14;
-    private io.dstore.Values.integerValue conditionPartIdWithSameConfig_;
+    private io.dstore.values.IntegerValue conditionPartIdWithSameConfig_;
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
      */
     public boolean hasConditionPartIdWithSameConfig() {
       return conditionPartIdWithSameConfig_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
      */
-    public io.dstore.Values.integerValue getConditionPartIdWithSameConfig() {
-      return conditionPartIdWithSameConfig_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
+    public io.dstore.values.IntegerValue getConditionPartIdWithSameConfig() {
+      return conditionPartIdWithSameConfig_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder() {
       return getConditionPartIdWithSameConfig();
     }
 
@@ -1942,29 +1942,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue conditionPartId_ = null;
+      private io.dstore.values.IntegerValue conditionPartId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionPartIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionPartIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public boolean hasConditionPartId() {
         return conditionPartIdBuilder_ != null || conditionPartId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getConditionPartId() {
+      public io.dstore.values.IntegerValue getConditionPartId() {
         if (conditionPartIdBuilder_ == null) {
-          return conditionPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPartId_;
+          return conditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartId_;
         } else {
           return conditionPartIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
        */
-      public Builder setConditionPartId(io.dstore.Values.integerValue value) {
+      public Builder setConditionPartId(io.dstore.values.IntegerValue value) {
         if (conditionPartIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1978,10 +1978,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public Builder setConditionPartId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionPartIdBuilder_ == null) {
           conditionPartId_ = builderForValue.build();
           onChanged();
@@ -1992,13 +1992,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
        */
-      public Builder mergeConditionPartId(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionPartId(io.dstore.values.IntegerValue value) {
         if (conditionPartIdBuilder_ == null) {
           if (conditionPartId_ != null) {
             conditionPartId_ =
-              io.dstore.Values.integerValue.newBuilder(conditionPartId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionPartId_).mergeFrom(value).buildPartial();
           } else {
             conditionPartId_ = value;
           }
@@ -2010,7 +2010,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       public Builder clearConditionPartId() {
         if (conditionPartIdBuilder_ == null) {
@@ -2024,33 +2024,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionPartIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionPartIdBuilder() {
         
         onChanged();
         return getConditionPartIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionPartIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder() {
         if (conditionPartIdBuilder_ != null) {
           return conditionPartIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionPartId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionPartId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionPartIdFieldBuilder() {
         if (conditionPartIdBuilder_ == null) {
           conditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionPartId(),
                   getParentForChildren(),
                   isClean());
@@ -2085,29 +2085,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue conditionPartDescription_ = null;
+      private io.dstore.values.StringValue conditionPartDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> conditionPartDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> conditionPartDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+       * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
        */
       public boolean hasConditionPartDescription() {
         return conditionPartDescriptionBuilder_ != null || conditionPartDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+       * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
        */
-      public io.dstore.Values.stringValue getConditionPartDescription() {
+      public io.dstore.values.StringValue getConditionPartDescription() {
         if (conditionPartDescriptionBuilder_ == null) {
-          return conditionPartDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : conditionPartDescription_;
+          return conditionPartDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : conditionPartDescription_;
         } else {
           return conditionPartDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+       * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
        */
-      public Builder setConditionPartDescription(io.dstore.Values.stringValue value) {
+      public Builder setConditionPartDescription(io.dstore.values.StringValue value) {
         if (conditionPartDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2121,10 +2121,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+       * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
        */
       public Builder setConditionPartDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (conditionPartDescriptionBuilder_ == null) {
           conditionPartDescription_ = builderForValue.build();
           onChanged();
@@ -2135,13 +2135,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+       * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
        */
-      public Builder mergeConditionPartDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeConditionPartDescription(io.dstore.values.StringValue value) {
         if (conditionPartDescriptionBuilder_ == null) {
           if (conditionPartDescription_ != null) {
             conditionPartDescription_ =
-              io.dstore.Values.stringValue.newBuilder(conditionPartDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(conditionPartDescription_).mergeFrom(value).buildPartial();
           } else {
             conditionPartDescription_ = value;
           }
@@ -2153,7 +2153,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+       * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
        */
       public Builder clearConditionPartDescription() {
         if (conditionPartDescriptionBuilder_ == null) {
@@ -2167,33 +2167,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+       * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getConditionPartDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getConditionPartDescriptionBuilder() {
         
         onChanged();
         return getConditionPartDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+       * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getConditionPartDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getConditionPartDescriptionOrBuilder() {
         if (conditionPartDescriptionBuilder_ != null) {
           return conditionPartDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return conditionPartDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : conditionPartDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : conditionPartDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition_part_description = 2;</code>
+       * <code>optional .dstore.values.StringValue condition_part_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getConditionPartDescriptionFieldBuilder() {
         if (conditionPartDescriptionBuilder_ == null) {
           conditionPartDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getConditionPartDescription(),
                   getParentForChildren(),
                   isClean());
@@ -2228,29 +2228,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue levelIds_ = null;
+      private io.dstore.values.StringValue levelIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> levelIdsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> levelIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 3;</code>
        */
       public boolean hasLevelIds() {
         return levelIdsBuilder_ != null || levelIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 3;</code>
        */
-      public io.dstore.Values.stringValue getLevelIds() {
+      public io.dstore.values.StringValue getLevelIds() {
         if (levelIdsBuilder_ == null) {
-          return levelIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : levelIds_;
+          return levelIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelIds_;
         } else {
           return levelIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 3;</code>
        */
-      public Builder setLevelIds(io.dstore.Values.stringValue value) {
+      public Builder setLevelIds(io.dstore.values.StringValue value) {
         if (levelIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2264,10 +2264,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 3;</code>
        */
       public Builder setLevelIds(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (levelIdsBuilder_ == null) {
           levelIds_ = builderForValue.build();
           onChanged();
@@ -2278,13 +2278,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 3;</code>
        */
-      public Builder mergeLevelIds(io.dstore.Values.stringValue value) {
+      public Builder mergeLevelIds(io.dstore.values.StringValue value) {
         if (levelIdsBuilder_ == null) {
           if (levelIds_ != null) {
             levelIds_ =
-              io.dstore.Values.stringValue.newBuilder(levelIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(levelIds_).mergeFrom(value).buildPartial();
           } else {
             levelIds_ = value;
           }
@@ -2296,7 +2296,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 3;</code>
        */
       public Builder clearLevelIds() {
         if (levelIdsBuilder_ == null) {
@@ -2310,33 +2310,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getLevelIdsBuilder() {
+      public io.dstore.values.StringValue.Builder getLevelIdsBuilder() {
         
         onChanged();
         return getLevelIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getLevelIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getLevelIdsOrBuilder() {
         if (levelIdsBuilder_ != null) {
           return levelIdsBuilder_.getMessageOrBuilder();
         } else {
           return levelIds_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : levelIds_;
+              io.dstore.values.StringValue.getDefaultInstance() : levelIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue level_ids = 3;</code>
+       * <code>optional .dstore.values.StringValue level_ids = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getLevelIdsFieldBuilder() {
         if (levelIdsBuilder_ == null) {
           levelIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getLevelIds(),
                   getParentForChildren(),
                   isClean());
@@ -2371,29 +2371,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue domainTreeNodeIds_ = null;
+      private io.dstore.values.StringValue domainTreeNodeIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> domainTreeNodeIdsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> domainTreeNodeIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
        */
       public boolean hasDomainTreeNodeIds() {
         return domainTreeNodeIdsBuilder_ != null || domainTreeNodeIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
        */
-      public io.dstore.Values.stringValue getDomainTreeNodeIds() {
+      public io.dstore.values.StringValue getDomainTreeNodeIds() {
         if (domainTreeNodeIdsBuilder_ == null) {
-          return domainTreeNodeIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : domainTreeNodeIds_;
+          return domainTreeNodeIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : domainTreeNodeIds_;
         } else {
           return domainTreeNodeIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
        */
-      public Builder setDomainTreeNodeIds(io.dstore.Values.stringValue value) {
+      public Builder setDomainTreeNodeIds(io.dstore.values.StringValue value) {
         if (domainTreeNodeIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2407,10 +2407,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
        */
       public Builder setDomainTreeNodeIds(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (domainTreeNodeIdsBuilder_ == null) {
           domainTreeNodeIds_ = builderForValue.build();
           onChanged();
@@ -2421,13 +2421,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
        */
-      public Builder mergeDomainTreeNodeIds(io.dstore.Values.stringValue value) {
+      public Builder mergeDomainTreeNodeIds(io.dstore.values.StringValue value) {
         if (domainTreeNodeIdsBuilder_ == null) {
           if (domainTreeNodeIds_ != null) {
             domainTreeNodeIds_ =
-              io.dstore.Values.stringValue.newBuilder(domainTreeNodeIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(domainTreeNodeIds_).mergeFrom(value).buildPartial();
           } else {
             domainTreeNodeIds_ = value;
           }
@@ -2439,7 +2439,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
        */
       public Builder clearDomainTreeNodeIds() {
         if (domainTreeNodeIdsBuilder_ == null) {
@@ -2453,33 +2453,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDomainTreeNodeIdsBuilder() {
+      public io.dstore.values.StringValue.Builder getDomainTreeNodeIdsBuilder() {
         
         onChanged();
         return getDomainTreeNodeIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDomainTreeNodeIdsOrBuilder() {
         if (domainTreeNodeIdsBuilder_ != null) {
           return domainTreeNodeIdsBuilder_.getMessageOrBuilder();
         } else {
           return domainTreeNodeIds_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : domainTreeNodeIds_;
+              io.dstore.values.StringValue.getDefaultInstance() : domainTreeNodeIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue domain_tree_node_ids = 4;</code>
+       * <code>optional .dstore.values.StringValue domain_tree_node_ids = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDomainTreeNodeIdsFieldBuilder() {
         if (domainTreeNodeIdsBuilder_ == null) {
           domainTreeNodeIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDomainTreeNodeIds(),
                   getParentForChildren(),
                   isClean());
@@ -2514,29 +2514,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2550,10 +2550,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2564,13 +2564,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -2582,7 +2582,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -2596,33 +2596,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2657,29 +2657,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue operator1_ = null;
+      private io.dstore.values.StringValue operator1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator1Builder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> operator1Builder_;
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 6;</code>
        */
       public boolean hasOperator1() {
         return operator1Builder_ != null || operator1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 6;</code>
        */
-      public io.dstore.Values.stringValue getOperator1() {
+      public io.dstore.values.StringValue getOperator1() {
         if (operator1Builder_ == null) {
-          return operator1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator1_;
+          return operator1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator1_;
         } else {
           return operator1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 6;</code>
        */
-      public Builder setOperator1(io.dstore.Values.stringValue value) {
+      public Builder setOperator1(io.dstore.values.StringValue value) {
         if (operator1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2693,10 +2693,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 6;</code>
        */
       public Builder setOperator1(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (operator1Builder_ == null) {
           operator1_ = builderForValue.build();
           onChanged();
@@ -2707,13 +2707,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 6;</code>
        */
-      public Builder mergeOperator1(io.dstore.Values.stringValue value) {
+      public Builder mergeOperator1(io.dstore.values.StringValue value) {
         if (operator1Builder_ == null) {
           if (operator1_ != null) {
             operator1_ =
-              io.dstore.Values.stringValue.newBuilder(operator1_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(operator1_).mergeFrom(value).buildPartial();
           } else {
             operator1_ = value;
           }
@@ -2725,7 +2725,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 6;</code>
        */
       public Builder clearOperator1() {
         if (operator1Builder_ == null) {
@@ -2739,33 +2739,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 6;</code>
        */
-      public io.dstore.Values.stringValue.Builder getOperator1Builder() {
+      public io.dstore.values.StringValue.Builder getOperator1Builder() {
         
         onChanged();
         return getOperator1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 6;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOperator1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOperator1OrBuilder() {
         if (operator1Builder_ != null) {
           return operator1Builder_.getMessageOrBuilder();
         } else {
           return operator1_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : operator1_;
+              io.dstore.values.StringValue.getDefaultInstance() : operator1_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue operator1 = 6;</code>
+       * <code>optional .dstore.values.StringValue operator1 = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getOperator1FieldBuilder() {
         if (operator1Builder_ == null) {
           operator1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getOperator1(),
                   getParentForChildren(),
                   isClean());
@@ -2800,29 +2800,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue condition1_ = null;
+      private io.dstore.values.StringValue condition1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition1Builder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> condition1Builder_;
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 7;</code>
        */
       public boolean hasCondition1() {
         return condition1Builder_ != null || condition1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 7;</code>
        */
-      public io.dstore.Values.stringValue getCondition1() {
+      public io.dstore.values.StringValue getCondition1() {
         if (condition1Builder_ == null) {
-          return condition1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition1_;
+          return condition1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition1_;
         } else {
           return condition1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 7;</code>
        */
-      public Builder setCondition1(io.dstore.Values.stringValue value) {
+      public Builder setCondition1(io.dstore.values.StringValue value) {
         if (condition1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2836,10 +2836,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 7;</code>
        */
       public Builder setCondition1(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (condition1Builder_ == null) {
           condition1_ = builderForValue.build();
           onChanged();
@@ -2850,13 +2850,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 7;</code>
        */
-      public Builder mergeCondition1(io.dstore.Values.stringValue value) {
+      public Builder mergeCondition1(io.dstore.values.StringValue value) {
         if (condition1Builder_ == null) {
           if (condition1_ != null) {
             condition1_ =
-              io.dstore.Values.stringValue.newBuilder(condition1_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(condition1_).mergeFrom(value).buildPartial();
           } else {
             condition1_ = value;
           }
@@ -2868,7 +2868,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 7;</code>
        */
       public Builder clearCondition1() {
         if (condition1Builder_ == null) {
@@ -2882,33 +2882,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCondition1Builder() {
+      public io.dstore.values.StringValue.Builder getCondition1Builder() {
         
         onChanged();
         return getCondition1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCondition1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCondition1OrBuilder() {
         if (condition1Builder_ != null) {
           return condition1Builder_.getMessageOrBuilder();
         } else {
           return condition1_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : condition1_;
+              io.dstore.values.StringValue.getDefaultInstance() : condition1_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition1 = 7;</code>
+       * <code>optional .dstore.values.StringValue condition1 = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCondition1FieldBuilder() {
         if (condition1Builder_ == null) {
           condition1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCondition1(),
                   getParentForChildren(),
                   isClean());
@@ -2943,29 +2943,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue operator2_ = null;
+      private io.dstore.values.StringValue operator2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> operator2Builder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> operator2Builder_;
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 8;</code>
        */
       public boolean hasOperator2() {
         return operator2Builder_ != null || operator2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 8;</code>
        */
-      public io.dstore.Values.stringValue getOperator2() {
+      public io.dstore.values.StringValue getOperator2() {
         if (operator2Builder_ == null) {
-          return operator2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : operator2_;
+          return operator2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : operator2_;
         } else {
           return operator2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 8;</code>
        */
-      public Builder setOperator2(io.dstore.Values.stringValue value) {
+      public Builder setOperator2(io.dstore.values.StringValue value) {
         if (operator2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2979,10 +2979,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 8;</code>
        */
       public Builder setOperator2(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (operator2Builder_ == null) {
           operator2_ = builderForValue.build();
           onChanged();
@@ -2993,13 +2993,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 8;</code>
        */
-      public Builder mergeOperator2(io.dstore.Values.stringValue value) {
+      public Builder mergeOperator2(io.dstore.values.StringValue value) {
         if (operator2Builder_ == null) {
           if (operator2_ != null) {
             operator2_ =
-              io.dstore.Values.stringValue.newBuilder(operator2_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(operator2_).mergeFrom(value).buildPartial();
           } else {
             operator2_ = value;
           }
@@ -3011,7 +3011,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 8;</code>
        */
       public Builder clearOperator2() {
         if (operator2Builder_ == null) {
@@ -3025,33 +3025,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 8;</code>
        */
-      public io.dstore.Values.stringValue.Builder getOperator2Builder() {
+      public io.dstore.values.StringValue.Builder getOperator2Builder() {
         
         onChanged();
         return getOperator2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 8;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOperator2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOperator2OrBuilder() {
         if (operator2Builder_ != null) {
           return operator2Builder_.getMessageOrBuilder();
         } else {
           return operator2_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : operator2_;
+              io.dstore.values.StringValue.getDefaultInstance() : operator2_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue operator2 = 8;</code>
+       * <code>optional .dstore.values.StringValue operator2 = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getOperator2FieldBuilder() {
         if (operator2Builder_ == null) {
           operator2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getOperator2(),
                   getParentForChildren(),
                   isClean());
@@ -3086,29 +3086,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue condition2_ = null;
+      private io.dstore.values.StringValue condition2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> condition2Builder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> condition2Builder_;
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 9;</code>
        */
       public boolean hasCondition2() {
         return condition2Builder_ != null || condition2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 9;</code>
        */
-      public io.dstore.Values.stringValue getCondition2() {
+      public io.dstore.values.StringValue getCondition2() {
         if (condition2Builder_ == null) {
-          return condition2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : condition2_;
+          return condition2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : condition2_;
         } else {
           return condition2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 9;</code>
        */
-      public Builder setCondition2(io.dstore.Values.stringValue value) {
+      public Builder setCondition2(io.dstore.values.StringValue value) {
         if (condition2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3122,10 +3122,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 9;</code>
        */
       public Builder setCondition2(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (condition2Builder_ == null) {
           condition2_ = builderForValue.build();
           onChanged();
@@ -3136,13 +3136,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 9;</code>
        */
-      public Builder mergeCondition2(io.dstore.Values.stringValue value) {
+      public Builder mergeCondition2(io.dstore.values.StringValue value) {
         if (condition2Builder_ == null) {
           if (condition2_ != null) {
             condition2_ =
-              io.dstore.Values.stringValue.newBuilder(condition2_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(condition2_).mergeFrom(value).buildPartial();
           } else {
             condition2_ = value;
           }
@@ -3154,7 +3154,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 9;</code>
        */
       public Builder clearCondition2() {
         if (condition2Builder_ == null) {
@@ -3168,33 +3168,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 9;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCondition2Builder() {
+      public io.dstore.values.StringValue.Builder getCondition2Builder() {
         
         onChanged();
         return getCondition2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 9;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCondition2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCondition2OrBuilder() {
         if (condition2Builder_ != null) {
           return condition2Builder_.getMessageOrBuilder();
         } else {
           return condition2_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : condition2_;
+              io.dstore.values.StringValue.getDefaultInstance() : condition2_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue condition2 = 9;</code>
+       * <code>optional .dstore.values.StringValue condition2 = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCondition2FieldBuilder() {
         if (condition2Builder_ == null) {
           condition2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCondition2(),
                   getParentForChildren(),
                   isClean());
@@ -3229,29 +3229,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue inheritDepth_ = null;
+      private io.dstore.values.IntegerValue inheritDepth_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> inheritDepthBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> inheritDepthBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
        */
       public boolean hasInheritDepth() {
         return inheritDepthBuilder_ != null || inheritDepth_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
        */
-      public io.dstore.Values.integerValue getInheritDepth() {
+      public io.dstore.values.IntegerValue getInheritDepth() {
         if (inheritDepthBuilder_ == null) {
-          return inheritDepth_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : inheritDepth_;
+          return inheritDepth_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : inheritDepth_;
         } else {
           return inheritDepthBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
        */
-      public Builder setInheritDepth(io.dstore.Values.integerValue value) {
+      public Builder setInheritDepth(io.dstore.values.IntegerValue value) {
         if (inheritDepthBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3265,10 +3265,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
        */
       public Builder setInheritDepth(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (inheritDepthBuilder_ == null) {
           inheritDepth_ = builderForValue.build();
           onChanged();
@@ -3279,13 +3279,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
        */
-      public Builder mergeInheritDepth(io.dstore.Values.integerValue value) {
+      public Builder mergeInheritDepth(io.dstore.values.IntegerValue value) {
         if (inheritDepthBuilder_ == null) {
           if (inheritDepth_ != null) {
             inheritDepth_ =
-              io.dstore.Values.integerValue.newBuilder(inheritDepth_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(inheritDepth_).mergeFrom(value).buildPartial();
           } else {
             inheritDepth_ = value;
           }
@@ -3297,7 +3297,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
        */
       public Builder clearInheritDepth() {
         if (inheritDepthBuilder_ == null) {
@@ -3311,33 +3311,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
        */
-      public io.dstore.Values.integerValue.Builder getInheritDepthBuilder() {
+      public io.dstore.values.IntegerValue.Builder getInheritDepthBuilder() {
         
         onChanged();
         return getInheritDepthFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInheritDepthOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInheritDepthOrBuilder() {
         if (inheritDepthBuilder_ != null) {
           return inheritDepthBuilder_.getMessageOrBuilder();
         } else {
           return inheritDepth_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : inheritDepth_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : inheritDepth_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue inherit_depth = 10;</code>
+       * <code>optional .dstore.values.IntegerValue inherit_depth = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getInheritDepthFieldBuilder() {
         if (inheritDepthBuilder_ == null) {
           inheritDepthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getInheritDepth(),
                   getParentForChildren(),
                   isClean());
@@ -3372,29 +3372,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue recursiveEvaluation_ = null;
+      private io.dstore.values.IntegerValue recursiveEvaluation_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> recursiveEvaluationBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> recursiveEvaluationBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
        */
       public boolean hasRecursiveEvaluation() {
         return recursiveEvaluationBuilder_ != null || recursiveEvaluation_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
        */
-      public io.dstore.Values.integerValue getRecursiveEvaluation() {
+      public io.dstore.values.IntegerValue getRecursiveEvaluation() {
         if (recursiveEvaluationBuilder_ == null) {
-          return recursiveEvaluation_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : recursiveEvaluation_;
+          return recursiveEvaluation_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : recursiveEvaluation_;
         } else {
           return recursiveEvaluationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
        */
-      public Builder setRecursiveEvaluation(io.dstore.Values.integerValue value) {
+      public Builder setRecursiveEvaluation(io.dstore.values.IntegerValue value) {
         if (recursiveEvaluationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3408,10 +3408,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
        */
       public Builder setRecursiveEvaluation(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (recursiveEvaluationBuilder_ == null) {
           recursiveEvaluation_ = builderForValue.build();
           onChanged();
@@ -3422,13 +3422,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
        */
-      public Builder mergeRecursiveEvaluation(io.dstore.Values.integerValue value) {
+      public Builder mergeRecursiveEvaluation(io.dstore.values.IntegerValue value) {
         if (recursiveEvaluationBuilder_ == null) {
           if (recursiveEvaluation_ != null) {
             recursiveEvaluation_ =
-              io.dstore.Values.integerValue.newBuilder(recursiveEvaluation_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(recursiveEvaluation_).mergeFrom(value).buildPartial();
           } else {
             recursiveEvaluation_ = value;
           }
@@ -3440,7 +3440,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
        */
       public Builder clearRecursiveEvaluation() {
         if (recursiveEvaluationBuilder_ == null) {
@@ -3454,33 +3454,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRecursiveEvaluationBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRecursiveEvaluationBuilder() {
         
         onChanged();
         return getRecursiveEvaluationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRecursiveEvaluationOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRecursiveEvaluationOrBuilder() {
         if (recursiveEvaluationBuilder_ != null) {
           return recursiveEvaluationBuilder_.getMessageOrBuilder();
         } else {
           return recursiveEvaluation_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : recursiveEvaluation_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : recursiveEvaluation_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue recursive_evaluation = 11;</code>
+       * <code>optional .dstore.values.IntegerValue recursive_evaluation = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRecursiveEvaluationFieldBuilder() {
         if (recursiveEvaluationBuilder_ == null) {
           recursiveEvaluationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRecursiveEvaluation(),
                   getParentForChildren(),
                   isClean());
@@ -3515,29 +3515,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteConditionPart_ = null;
+      private io.dstore.values.BooleanValue deleteConditionPart_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteConditionPartBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteConditionPartBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+       * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
        */
       public boolean hasDeleteConditionPart() {
         return deleteConditionPartBuilder_ != null || deleteConditionPart_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+       * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteConditionPart() {
+      public io.dstore.values.BooleanValue getDeleteConditionPart() {
         if (deleteConditionPartBuilder_ == null) {
-          return deleteConditionPart_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteConditionPart_;
+          return deleteConditionPart_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteConditionPart_;
         } else {
           return deleteConditionPartBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+       * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
        */
-      public Builder setDeleteConditionPart(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteConditionPart(io.dstore.values.BooleanValue value) {
         if (deleteConditionPartBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3551,10 +3551,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+       * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
        */
       public Builder setDeleteConditionPart(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteConditionPartBuilder_ == null) {
           deleteConditionPart_ = builderForValue.build();
           onChanged();
@@ -3565,13 +3565,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+       * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
        */
-      public Builder mergeDeleteConditionPart(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteConditionPart(io.dstore.values.BooleanValue value) {
         if (deleteConditionPartBuilder_ == null) {
           if (deleteConditionPart_ != null) {
             deleteConditionPart_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteConditionPart_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteConditionPart_).mergeFrom(value).buildPartial();
           } else {
             deleteConditionPart_ = value;
           }
@@ -3583,7 +3583,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+       * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
        */
       public Builder clearDeleteConditionPart() {
         if (deleteConditionPartBuilder_ == null) {
@@ -3597,33 +3597,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+       * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteConditionPartBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteConditionPartBuilder() {
         
         onChanged();
         return getDeleteConditionPartFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+       * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteConditionPartOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteConditionPartOrBuilder() {
         if (deleteConditionPartBuilder_ != null) {
           return deleteConditionPartBuilder_.getMessageOrBuilder();
         } else {
           return deleteConditionPart_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteConditionPart_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteConditionPart_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_condition_part = 12;</code>
+       * <code>optional .dstore.values.BooleanValue delete_condition_part = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteConditionPartFieldBuilder() {
         if (deleteConditionPartBuilder_ == null) {
           deleteConditionPartBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteConditionPart(),
                   getParentForChildren(),
                   isClean());
@@ -3658,29 +3658,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue country_ = null;
+      private io.dstore.values.StringValue country_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public io.dstore.Values.stringValue getCountry() {
+      public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
-          return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+          return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
         } else {
           return countryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public Builder setCountry(io.dstore.Values.stringValue value) {
+      public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3694,10 +3694,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
       public Builder setCountry(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (countryBuilder_ == null) {
           country_ = builderForValue.build();
           onChanged();
@@ -3708,13 +3708,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public Builder mergeCountry(io.dstore.Values.stringValue value) {
+      public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (country_ != null) {
             country_ =
-              io.dstore.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(country_).mergeFrom(value).buildPartial();
           } else {
             country_ = value;
           }
@@ -3726,7 +3726,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -3740,33 +3740,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCountryBuilder() {
+      public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
         onChanged();
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
           return countryBuilder_.getMessageOrBuilder();
         } else {
           return country_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : country_;
+              io.dstore.values.StringValue.getDefaultInstance() : country_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
           countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
                   isClean());
@@ -3801,29 +3801,29 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue conditionPartIdWithSameConfig_ = null;
+      private io.dstore.values.IntegerValue conditionPartIdWithSameConfig_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionPartIdWithSameConfigBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionPartIdWithSameConfigBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
        */
       public boolean hasConditionPartIdWithSameConfig() {
         return conditionPartIdWithSameConfigBuilder_ != null || conditionPartIdWithSameConfig_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
        */
-      public io.dstore.Values.integerValue getConditionPartIdWithSameConfig() {
+      public io.dstore.values.IntegerValue getConditionPartIdWithSameConfig() {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
-          return conditionPartIdWithSameConfig_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
+          return conditionPartIdWithSameConfig_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
         } else {
           return conditionPartIdWithSameConfigBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
        */
-      public Builder setConditionPartIdWithSameConfig(io.dstore.Values.integerValue value) {
+      public Builder setConditionPartIdWithSameConfig(io.dstore.values.IntegerValue value) {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3837,10 +3837,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
        */
       public Builder setConditionPartIdWithSameConfig(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
           conditionPartIdWithSameConfig_ = builderForValue.build();
           onChanged();
@@ -3851,13 +3851,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
        */
-      public Builder mergeConditionPartIdWithSameConfig(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionPartIdWithSameConfig(io.dstore.values.IntegerValue value) {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
           if (conditionPartIdWithSameConfig_ != null) {
             conditionPartIdWithSameConfig_ =
-              io.dstore.Values.integerValue.newBuilder(conditionPartIdWithSameConfig_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionPartIdWithSameConfig_).mergeFrom(value).buildPartial();
           } else {
             conditionPartIdWithSameConfig_ = value;
           }
@@ -3869,7 +3869,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
        */
       public Builder clearConditionPartIdWithSameConfig() {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
@@ -3883,33 +3883,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionPartIdWithSameConfigBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionPartIdWithSameConfigBuilder() {
         
         onChanged();
         return getConditionPartIdWithSameConfigFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder() {
         if (conditionPartIdWithSameConfigBuilder_ != null) {
           return conditionPartIdWithSameConfigBuilder_.getMessageOrBuilder();
         } else {
           return conditionPartIdWithSameConfig_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 14;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionPartIdWithSameConfigFieldBuilder() {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
           conditionPartIdWithSameConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionPartIdWithSameConfig(),
                   getParentForChildren(),
                   isClean());
@@ -4069,30 +4069,30 @@ public final class ImModifyConditionPartsAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
      */
     boolean hasConditionPartId();
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
      */
-    io.dstore.Values.integerValue getConditionPartId();
+    io.dstore.values.IntegerValue getConditionPartId();
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionPartIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder();
 
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
      */
     boolean hasConditionPartIdWithSameConfig();
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
      */
-    io.dstore.Values.integerValue getConditionPartIdWithSameConfig();
+    io.dstore.values.IntegerValue getConditionPartIdWithSameConfig();
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.im_ModifyConditionParts_Ad.Response}
@@ -4164,11 +4164,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 810: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionPartId_ != null) {
                 subBuilder = conditionPartId_.toBuilder();
               }
-              conditionPartId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionPartId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionPartId_);
                 conditionPartId_ = subBuilder.buildPartial();
@@ -4177,11 +4177,11 @@ public final class ImModifyConditionPartsAd {
               break;
             }
             case 818: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (conditionPartIdWithSameConfig_ != null) {
                 subBuilder = conditionPartIdWithSameConfig_.toBuilder();
               }
-              conditionPartIdWithSameConfig_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              conditionPartIdWithSameConfig_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionPartIdWithSameConfig_);
                 conditionPartIdWithSameConfig_ = subBuilder.buildPartial();
@@ -4757,44 +4757,44 @@ public final class ImModifyConditionPartsAd {
     }
 
     public static final int CONDITION_PART_ID_FIELD_NUMBER = 101;
-    private io.dstore.Values.integerValue conditionPartId_;
+    private io.dstore.values.IntegerValue conditionPartId_;
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
      */
     public boolean hasConditionPartId() {
       return conditionPartId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
      */
-    public io.dstore.Values.integerValue getConditionPartId() {
-      return conditionPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPartId_;
+    public io.dstore.values.IntegerValue getConditionPartId() {
+      return conditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionPartIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder() {
       return getConditionPartId();
     }
 
     public static final int CONDITION_PART_ID_WITH_SAME_CONFIG_FIELD_NUMBER = 102;
-    private io.dstore.Values.integerValue conditionPartIdWithSameConfig_;
+    private io.dstore.values.IntegerValue conditionPartIdWithSameConfig_;
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
      */
     public boolean hasConditionPartIdWithSameConfig() {
       return conditionPartIdWithSameConfig_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
      */
-    public io.dstore.Values.integerValue getConditionPartIdWithSameConfig() {
-      return conditionPartIdWithSameConfig_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
+    public io.dstore.values.IntegerValue getConditionPartIdWithSameConfig() {
+      return conditionPartIdWithSameConfig_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
     }
     /**
-     * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+     * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder() {
       return getConditionPartIdWithSameConfig();
     }
 
@@ -5999,29 +5999,29 @@ public final class ImModifyConditionPartsAd {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.integerValue conditionPartId_ = null;
+      private io.dstore.values.IntegerValue conditionPartId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionPartIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionPartIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
        */
       public boolean hasConditionPartId() {
         return conditionPartIdBuilder_ != null || conditionPartId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
        */
-      public io.dstore.Values.integerValue getConditionPartId() {
+      public io.dstore.values.IntegerValue getConditionPartId() {
         if (conditionPartIdBuilder_ == null) {
-          return conditionPartId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPartId_;
+          return conditionPartId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartId_;
         } else {
           return conditionPartIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
        */
-      public Builder setConditionPartId(io.dstore.Values.integerValue value) {
+      public Builder setConditionPartId(io.dstore.values.IntegerValue value) {
         if (conditionPartIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6035,10 +6035,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
        */
       public Builder setConditionPartId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionPartIdBuilder_ == null) {
           conditionPartId_ = builderForValue.build();
           onChanged();
@@ -6049,13 +6049,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
        */
-      public Builder mergeConditionPartId(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionPartId(io.dstore.values.IntegerValue value) {
         if (conditionPartIdBuilder_ == null) {
           if (conditionPartId_ != null) {
             conditionPartId_ =
-              io.dstore.Values.integerValue.newBuilder(conditionPartId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionPartId_).mergeFrom(value).buildPartial();
           } else {
             conditionPartId_ = value;
           }
@@ -6067,7 +6067,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
        */
       public Builder clearConditionPartId() {
         if (conditionPartIdBuilder_ == null) {
@@ -6081,33 +6081,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionPartIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionPartIdBuilder() {
         
         onChanged();
         return getConditionPartIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionPartIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionPartIdOrBuilder() {
         if (conditionPartIdBuilder_ != null) {
           return conditionPartIdBuilder_.getMessageOrBuilder();
         } else {
           return conditionPartId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionPartId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionPartIdFieldBuilder() {
         if (conditionPartIdBuilder_ == null) {
           conditionPartIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionPartId(),
                   getParentForChildren(),
                   isClean());
@@ -6116,29 +6116,29 @@ public final class ImModifyConditionPartsAd {
         return conditionPartIdBuilder_;
       }
 
-      private io.dstore.Values.integerValue conditionPartIdWithSameConfig_ = null;
+      private io.dstore.values.IntegerValue conditionPartIdWithSameConfig_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionPartIdWithSameConfigBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionPartIdWithSameConfigBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
        */
       public boolean hasConditionPartIdWithSameConfig() {
         return conditionPartIdWithSameConfigBuilder_ != null || conditionPartIdWithSameConfig_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
        */
-      public io.dstore.Values.integerValue getConditionPartIdWithSameConfig() {
+      public io.dstore.values.IntegerValue getConditionPartIdWithSameConfig() {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
-          return conditionPartIdWithSameConfig_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
+          return conditionPartIdWithSameConfig_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
         } else {
           return conditionPartIdWithSameConfigBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
        */
-      public Builder setConditionPartIdWithSameConfig(io.dstore.Values.integerValue value) {
+      public Builder setConditionPartIdWithSameConfig(io.dstore.values.IntegerValue value) {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6152,10 +6152,10 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
        */
       public Builder setConditionPartIdWithSameConfig(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
           conditionPartIdWithSameConfig_ = builderForValue.build();
           onChanged();
@@ -6166,13 +6166,13 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
        */
-      public Builder mergeConditionPartIdWithSameConfig(io.dstore.Values.integerValue value) {
+      public Builder mergeConditionPartIdWithSameConfig(io.dstore.values.IntegerValue value) {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
           if (conditionPartIdWithSameConfig_ != null) {
             conditionPartIdWithSameConfig_ =
-              io.dstore.Values.integerValue.newBuilder(conditionPartIdWithSameConfig_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(conditionPartIdWithSameConfig_).mergeFrom(value).buildPartial();
           } else {
             conditionPartIdWithSameConfig_ = value;
           }
@@ -6184,7 +6184,7 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
        */
       public Builder clearConditionPartIdWithSameConfig() {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
@@ -6198,33 +6198,33 @@ public final class ImModifyConditionPartsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
        */
-      public io.dstore.Values.integerValue.Builder getConditionPartIdWithSameConfigBuilder() {
+      public io.dstore.values.IntegerValue.Builder getConditionPartIdWithSameConfigBuilder() {
         
         onChanged();
         return getConditionPartIdWithSameConfigFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionPartIdWithSameConfigOrBuilder() {
         if (conditionPartIdWithSameConfigBuilder_ != null) {
           return conditionPartIdWithSameConfigBuilder_.getMessageOrBuilder();
         } else {
           return conditionPartIdWithSameConfig_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : conditionPartIdWithSameConfig_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue condition_part_id_with_same_config = 102;</code>
+       * <code>optional .dstore.values.IntegerValue condition_part_id_with_same_config = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getConditionPartIdWithSameConfigFieldBuilder() {
         if (conditionPartIdWithSameConfigBuilder_ == null) {
           conditionPartIdWithSameConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getConditionPartIdWithSameConfig(),
                   getParentForChildren(),
                   isClean());
@@ -6310,34 +6310,34 @@ public final class ImModifyConditionPartsAd {
       "difyConditionParts_Ad\032\023dstore/values.pro" +
       "to\032\032dstore/engine/engine.proto\"\314\t\n\nParam" +
       "eters\0226\n\021condition_part_id\030\001 \001(\0132\033.dstor" +
-      "e.values.integerValue\022\037\n\026condition_part_" +
+      "e.values.IntegerValue\022\037\n\026condition_part_" +
       "id_null\030\351\007 \001(\010\022>\n\032condition_part_descrip" +
-      "tion\030\002 \001(\0132\032.dstore.values.stringValue\022(" +
+      "tion\030\002 \001(\0132\032.dstore.values.StringValue\022(" +
       "\n\037condition_part_description_null\030\352\007 \001(\010" +
-      "\022-\n\tlevel_ids\030\003 \001(\0132\032.dstore.values.stri",
+      "\022-\n\tlevel_ids\030\003 \001(\0132\032.dstore.values.Stri",
       "ngValue\022\027\n\016level_ids_null\030\353\007 \001(\010\0228\n\024doma" +
-      "in_tree_node_ids\030\004 \001(\0132\032.dstore.values.s" +
+      "in_tree_node_ids\030\004 \001(\0132\032.dstore.values.S" +
       "tringValue\022\"\n\031domain_tree_node_ids_null\030" +
       "\354\007 \001(\010\022;\n\026node_characteristic_id\030\005 \001(\0132\033" +
-      ".dstore.values.integerValue\022$\n\033node_char" +
+      ".dstore.values.IntegerValue\022$\n\033node_char" +
       "acteristic_id_null\030\355\007 \001(\010\022-\n\toperator1\030\006" +
-      " \001(\0132\032.dstore.values.stringValue\022\027\n\016oper" +
+      " \001(\0132\032.dstore.values.StringValue\022\027\n\016oper" +
       "ator1_null\030\356\007 \001(\010\022.\n\ncondition1\030\007 \001(\0132\032." +
-      "dstore.values.stringValue\022\030\n\017condition1_" +
+      "dstore.values.StringValue\022\030\n\017condition1_" +
       "null\030\357\007 \001(\010\022-\n\toperator2\030\010 \001(\0132\032.dstore.",
-      "values.stringValue\022\027\n\016operator2_null\030\360\007 " +
+      "values.StringValue\022\027\n\016operator2_null\030\360\007 " +
       "\001(\010\022.\n\ncondition2\030\t \001(\0132\032.dstore.values." +
-      "stringValue\022\030\n\017condition2_null\030\361\007 \001(\010\0222\n" +
-      "\rinherit_depth\030\n \001(\0132\033.dstore.values.int" +
+      "StringValue\022\030\n\017condition2_null\030\361\007 \001(\010\0222\n" +
+      "\rinherit_depth\030\n \001(\0132\033.dstore.values.Int" +
       "egerValue\022\033\n\022inherit_depth_null\030\362\007 \001(\010\0229" +
       "\n\024recursive_evaluation\030\013 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\"\n\031recursive_evaluatio" +
+      "lues.IntegerValue\022\"\n\031recursive_evaluatio" +
       "n_null\030\363\007 \001(\010\022:\n\025delete_condition_part\030\014" +
-      " \001(\0132\033.dstore.values.booleanValue\022#\n\032del" +
+      " \001(\0132\033.dstore.values.BooleanValue\022#\n\032del" +
       "ete_condition_part_null\030\364\007 \001(\010\022+\n\007countr",
-      "y\030\r \001(\0132\032.dstore.values.stringValue\022\025\n\014c" +
+      "y\030\r \001(\0132\032.dstore.values.StringValue\022\025\n\014c" +
       "ountry_null\030\365\007 \001(\010\022G\n\"condition_part_id_" +
-      "with_same_config\030\016 \001(\0132\033.dstore.values.i" +
+      "with_same_config\030\016 \001(\0132\033.dstore.values.I" +
       "ntegerValue\0220\n\'condition_part_id_with_sa" +
       "me_config_null\030\366\007 \001(\010\"\313\002\n\010Response\0228\n\020me" +
       "ta_information\030\002 \003(\0132\036.dstore.engine.Met" +
@@ -6345,8 +6345,8 @@ public final class ImModifyConditionPartsAd {
       "ngine.Message\022C\n\003row\030\004 \003(\01326.dstore.engi" +
       "ne.im_ModifyConditionParts_Ad.Response.R" +
       "ow\0226\n\021condition_part_id\030e \001(\0132\033.dstore.v",
-      "alues.integerValue\022G\n\"condition_part_id_" +
-      "with_same_config\030f \001(\0132\033.dstore.values.i" +
+      "alues.IntegerValue\022G\n\"condition_part_id_" +
+      "with_same_config\030f \001(\0132\033.dstore.values.I" +
       "ntegerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B[\n\033i" +
       "o.dstore.engine.proceduresZ<gosdk.dstore" +
       ".de/engine/procedures/im_ModifyCondition" +
@@ -6363,7 +6363,7 @@ public final class ImModifyConditionPartsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_ModifyConditionParts_Ad_Parameters_descriptor =
@@ -6384,7 +6384,7 @@ public final class ImModifyConditionPartsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyConditionParts_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

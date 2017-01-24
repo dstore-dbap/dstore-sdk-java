@@ -19,17 +19,17 @@ public final class StGetPHStatisticsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     boolean hasFromDateAndTime();
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
-    io.dstore.Values.timestampValue getFromDateAndTime();
+    io.dstore.values.TimestampValue getFromDateAndTime();
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateAndTimeOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateAndTimeOrBuilder();
 
     /**
      * <code>optional bool from_date_and_time_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class StGetPHStatisticsAd {
     boolean getFromDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     boolean hasToDateAndTime();
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
-    io.dstore.Values.timestampValue getToDateAndTime();
+    io.dstore.values.TimestampValue getToDateAndTime();
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToDateAndTimeOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToDateAndTimeOrBuilder();
 
     /**
      * <code>optional bool to_date_and_time_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class StGetPHStatisticsAd {
     boolean getToDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
     boolean hasBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
-    io.dstore.Values.stringValue getBasicCharacteristicNumbers();
+    io.dstore.values.StringValue getBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
+    io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
 
     /**
      * <code>optional bool basic_characteristic_numbers_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class StGetPHStatisticsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDateAndTime_ != null) {
                 subBuilder = fromDateAndTime_.toBuilder();
               }
-              fromDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDateAndTime_);
                 fromDateAndTime_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class StGetPHStatisticsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toDateAndTime_ != null) {
                 subBuilder = toDateAndTime_.toBuilder();
               }
-              toDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDateAndTime_);
                 toDateAndTime_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class StGetPHStatisticsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (basicCharacteristicNumbers_ != null) {
                 subBuilder = basicCharacteristicNumbers_.toBuilder();
               }
-              basicCharacteristicNumbers_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              basicCharacteristicNumbers_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNumbers_);
                 basicCharacteristicNumbers_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class StGetPHStatisticsAd {
     }
 
     public static final int FROM_DATE_AND_TIME_FIELD_NUMBER = 1;
-    private io.dstore.Values.timestampValue fromDateAndTime_;
+    private io.dstore.values.TimestampValue fromDateAndTime_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     public boolean hasFromDateAndTime() {
       return fromDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
-    public io.dstore.Values.timestampValue getFromDateAndTime() {
-      return fromDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDateAndTime_;
+    public io.dstore.values.TimestampValue getFromDateAndTime() {
+      return fromDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateAndTimeOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateAndTimeOrBuilder() {
       return getFromDateAndTime();
     }
 
@@ -222,23 +222,23 @@ public final class StGetPHStatisticsAd {
     }
 
     public static final int TO_DATE_AND_TIME_FIELD_NUMBER = 2;
-    private io.dstore.Values.timestampValue toDateAndTime_;
+    private io.dstore.values.TimestampValue toDateAndTime_;
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     public boolean hasToDateAndTime() {
       return toDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
-    public io.dstore.Values.timestampValue getToDateAndTime() {
-      return toDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDateAndTime_;
+    public io.dstore.values.TimestampValue getToDateAndTime() {
+      return toDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToDateAndTimeOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToDateAndTimeOrBuilder() {
       return getToDateAndTime();
     }
 
@@ -252,23 +252,23 @@ public final class StGetPHStatisticsAd {
     }
 
     public static final int BASIC_CHARACTERISTIC_NUMBERS_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue basicCharacteristicNumbers_;
+    private io.dstore.values.StringValue basicCharacteristicNumbers_;
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
     public boolean hasBasicCharacteristicNumbers() {
       return basicCharacteristicNumbers_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
-    public io.dstore.Values.stringValue getBasicCharacteristicNumbers() {
-      return basicCharacteristicNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+    public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
+      return basicCharacteristicNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
     }
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
       return getBasicCharacteristicNumbers();
     }
 
@@ -677,29 +677,29 @@ public final class StGetPHStatisticsAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDateAndTime_ = null;
+      private io.dstore.values.TimestampValue fromDateAndTime_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateAndTimeBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public boolean hasFromDateAndTime() {
         return fromDateAndTimeBuilder_ != null || fromDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public io.dstore.Values.timestampValue getFromDateAndTime() {
+      public io.dstore.values.TimestampValue getFromDateAndTime() {
         if (fromDateAndTimeBuilder_ == null) {
-          return fromDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDateAndTime_;
+          return fromDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDateAndTime_;
         } else {
           return fromDateAndTimeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public Builder setFromDateAndTime(io.dstore.Values.timestampValue value) {
+      public Builder setFromDateAndTime(io.dstore.values.TimestampValue value) {
         if (fromDateAndTimeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public Builder setFromDateAndTime(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateAndTimeBuilder_ == null) {
           fromDateAndTime_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public Builder mergeFromDateAndTime(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDateAndTime(io.dstore.values.TimestampValue value) {
         if (fromDateAndTimeBuilder_ == null) {
           if (fromDateAndTime_ != null) {
             fromDateAndTime_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDateAndTime_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDateAndTime_).mergeFrom(value).buildPartial();
           } else {
             fromDateAndTime_ = value;
           }
@@ -745,7 +745,7 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public Builder clearFromDateAndTime() {
         if (fromDateAndTimeBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateAndTimeBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateAndTimeBuilder() {
         
         onChanged();
         return getFromDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateAndTimeOrBuilder() {
         if (fromDateAndTimeBuilder_ != null) {
           return fromDateAndTimeBuilder_.getMessageOrBuilder();
         } else {
           return fromDateAndTime_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDateAndTime_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDateAndTime_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateAndTimeFieldBuilder() {
         if (fromDateAndTimeBuilder_ == null) {
           fromDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDateAndTime(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class StGetPHStatisticsAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toDateAndTime_ = null;
+      private io.dstore.values.TimestampValue toDateAndTime_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateAndTimeBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public boolean hasToDateAndTime() {
         return toDateAndTimeBuilder_ != null || toDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public io.dstore.Values.timestampValue getToDateAndTime() {
+      public io.dstore.values.TimestampValue getToDateAndTime() {
         if (toDateAndTimeBuilder_ == null) {
-          return toDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDateAndTime_;
+          return toDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDateAndTime_;
         } else {
           return toDateAndTimeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public Builder setToDateAndTime(io.dstore.Values.timestampValue value) {
+      public Builder setToDateAndTime(io.dstore.values.TimestampValue value) {
         if (toDateAndTimeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public Builder setToDateAndTime(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toDateAndTimeBuilder_ == null) {
           toDateAndTime_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public Builder mergeToDateAndTime(io.dstore.Values.timestampValue value) {
+      public Builder mergeToDateAndTime(io.dstore.values.TimestampValue value) {
         if (toDateAndTimeBuilder_ == null) {
           if (toDateAndTime_ != null) {
             toDateAndTime_ =
-              io.dstore.Values.timestampValue.newBuilder(toDateAndTime_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toDateAndTime_).mergeFrom(value).buildPartial();
           } else {
             toDateAndTime_ = value;
           }
@@ -888,7 +888,7 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public Builder clearToDateAndTime() {
         if (toDateAndTimeBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToDateAndTimeBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToDateAndTimeBuilder() {
         
         onChanged();
         return getToDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToDateAndTimeOrBuilder() {
         if (toDateAndTimeBuilder_ != null) {
           return toDateAndTimeBuilder_.getMessageOrBuilder();
         } else {
           return toDateAndTime_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toDateAndTime_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toDateAndTime_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToDateAndTimeFieldBuilder() {
         if (toDateAndTimeBuilder_ == null) {
           toDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToDateAndTime(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class StGetPHStatisticsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue basicCharacteristicNumbers_ = null;
+      private io.dstore.values.StringValue basicCharacteristicNumbers_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicNumbersBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> basicCharacteristicNumbersBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public boolean hasBasicCharacteristicNumbers() {
         return basicCharacteristicNumbersBuilder_ != null || basicCharacteristicNumbers_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
-      public io.dstore.Values.stringValue getBasicCharacteristicNumbers() {
+      public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
-          return basicCharacteristicNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+          return basicCharacteristicNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
         } else {
           return basicCharacteristicNumbersBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
-      public Builder setBasicCharacteristicNumbers(io.dstore.Values.stringValue value) {
+      public Builder setBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public Builder setBasicCharacteristicNumbers(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           basicCharacteristicNumbers_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
-      public Builder mergeBasicCharacteristicNumbers(io.dstore.Values.stringValue value) {
+      public Builder mergeBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           if (basicCharacteristicNumbers_ != null) {
             basicCharacteristicNumbers_ =
-              io.dstore.Values.stringValue.newBuilder(basicCharacteristicNumbers_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(basicCharacteristicNumbers_).mergeFrom(value).buildPartial();
           } else {
             basicCharacteristicNumbers_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       public Builder clearBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class StGetPHStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getBasicCharacteristicNumbersBuilder() {
+      public io.dstore.values.StringValue.Builder getBasicCharacteristicNumbersBuilder() {
         
         onChanged();
         return getBasicCharacteristicNumbersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
         if (basicCharacteristicNumbersBuilder_ != null) {
           return basicCharacteristicNumbersBuilder_.getMessageOrBuilder();
         } else {
           return basicCharacteristicNumbers_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+              io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 3;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getBasicCharacteristicNumbersFieldBuilder() {
         if (basicCharacteristicNumbersBuilder_ == null) {
           basicCharacteristicNumbersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getBasicCharacteristicNumbers(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class StGetPHStatisticsAd {
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
       boolean hasDescription();
       /**
@@ -1373,24 +1373,24 @@ public final class StGetPHStatisticsAd {
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
-      io.dstore.Values.stringValue getDescription();
+      io.dstore.values.StringValue getDescription();
       /**
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
        */
       boolean hasBasicCharacteristic();
       /**
@@ -1398,24 +1398,24 @@ public final class StGetPHStatisticsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
        */
-      io.dstore.Values.stringValue getBasicCharacteristic();
+      io.dstore.values.StringValue getBasicCharacteristic();
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder();
+      io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder();
 
       /**
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10003;</code>
        */
       boolean hasValue();
       /**
@@ -1423,24 +1423,24 @@ public final class StGetPHStatisticsAd {
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10003;</code>
        */
-      io.dstore.Values.decimalValue getValue();
+      io.dstore.values.DecimalValue getValue();
       /**
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10003;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getValueOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
        */
       boolean hasDateAndTime();
       /**
@@ -1448,24 +1448,24 @@ public final class StGetPHStatisticsAd {
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
        */
-      io.dstore.Values.timestampValue getDateAndTime();
+      io.dstore.values.TimestampValue getDateAndTime();
       /**
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
       boolean hasBasicCharacteristicNumber();
       /**
@@ -1473,17 +1473,17 @@ public final class StGetPHStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
-      io.dstore.Values.integerValue getBasicCharacteristicNumber();
+      io.dstore.values.IntegerValue getBasicCharacteristicNumber();
       /**
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.st_GetPHStatistics_Ad.Response.Row}
@@ -1531,11 +1531,11 @@ public final class StGetPHStatisticsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1544,11 +1544,11 @@ public final class StGetPHStatisticsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (basicCharacteristic_ != null) {
                   subBuilder = basicCharacteristic_.toBuilder();
                 }
-                basicCharacteristic_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                basicCharacteristic_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristic_);
                   basicCharacteristic_ = subBuilder.buildPartial();
@@ -1557,11 +1557,11 @@ public final class StGetPHStatisticsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1570,11 +1570,11 @@ public final class StGetPHStatisticsAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (dateAndTime_ != null) {
                   subBuilder = dateAndTime_.toBuilder();
                 }
-                dateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                dateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dateAndTime_);
                   dateAndTime_ = subBuilder.buildPartial();
@@ -1583,11 +1583,11 @@ public final class StGetPHStatisticsAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (basicCharacteristicNumber_ != null) {
                   subBuilder = basicCharacteristicNumber_.toBuilder();
                 }
-                basicCharacteristicNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                basicCharacteristicNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristicNumber_);
                   basicCharacteristicNumber_ = subBuilder.buildPartial();
@@ -1628,13 +1628,13 @@ public final class StGetPHStatisticsAd {
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue description_;
+      private io.dstore.values.StringValue description_;
       /**
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -1644,30 +1644,30 @@ public final class StGetPHStatisticsAd {
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.values.StringValue getDescription() {
+        return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
       }
       /**
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10001;</code>
+       * <code>optional .dstore.values.StringValue description = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int BASIC_CHARACTERISTIC_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue basicCharacteristic_;
+      private io.dstore.values.StringValue basicCharacteristic_;
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
        */
       public boolean hasBasicCharacteristic() {
         return basicCharacteristic_ != null;
@@ -1677,30 +1677,30 @@ public final class StGetPHStatisticsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
        */
-      public io.dstore.Values.stringValue getBasicCharacteristic() {
-        return basicCharacteristic_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+      public io.dstore.values.StringValue getBasicCharacteristic() {
+        return basicCharacteristic_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
       }
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder() {
         return getBasicCharacteristic();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10003;
-      private io.dstore.Values.decimalValue value_;
+      private io.dstore.values.DecimalValue value_;
       /**
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10003;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -1710,30 +1710,30 @@ public final class StGetPHStatisticsAd {
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10003;</code>
        */
-      public io.dstore.Values.decimalValue getValue() {
-        return value_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : value_;
+      public io.dstore.values.DecimalValue getValue() {
+        return value_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue value = 10003;</code>
+       * <code>optional .dstore.values.DecimalValue value = 10003;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int DATE_AND_TIME_FIELD_NUMBER = 10004;
-      private io.dstore.Values.timestampValue dateAndTime_;
+      private io.dstore.values.TimestampValue dateAndTime_;
       /**
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
        */
       public boolean hasDateAndTime() {
         return dateAndTime_ != null;
@@ -1743,30 +1743,30 @@ public final class StGetPHStatisticsAd {
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
        */
-      public io.dstore.Values.timestampValue getDateAndTime() {
-        return dateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
+      public io.dstore.values.TimestampValue getDateAndTime() {
+        return dateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : dateAndTime_;
       }
       /**
        * <pre>
        * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
         return getDateAndTime();
       }
 
       public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue basicCharacteristicNumber_;
+      private io.dstore.values.IntegerValue basicCharacteristicNumber_;
       /**
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ != null;
@@ -1776,19 +1776,19 @@ public final class StGetPHStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
-      public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
-        return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+      public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
+        return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
       }
       /**
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
       }
 
@@ -2237,15 +2237,15 @@ public final class StGetPHStatisticsAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue description_ = null;
+        private io.dstore.values.StringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -2255,11 +2255,11 @@ public final class StGetPHStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public io.dstore.Values.stringValue getDescription() {
+        public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
@@ -2269,9 +2269,9 @@ public final class StGetPHStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public Builder setDescription(io.dstore.Values.stringValue value) {
+        public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2289,10 +2289,10 @@ public final class StGetPHStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
         public Builder setDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -2307,13 +2307,13 @@ public final class StGetPHStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public Builder mergeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -2329,7 +2329,7 @@ public final class StGetPHStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -2347,9 +2347,9 @@ public final class StGetPHStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
@@ -2359,14 +2359,14 @@ public final class StGetPHStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.values.StringValue.getDefaultInstance() : description_;
           }
         }
         /**
@@ -2374,14 +2374,14 @@ public final class StGetPHStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10001;</code>
+         * <code>optional .dstore.values.StringValue description = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2390,15 +2390,15 @@ public final class StGetPHStatisticsAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue basicCharacteristic_ = null;
+        private io.dstore.values.StringValue basicCharacteristic_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> basicCharacteristicBuilder_;
         /**
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
          */
         public boolean hasBasicCharacteristic() {
           return basicCharacteristicBuilder_ != null || basicCharacteristic_ != null;
@@ -2408,11 +2408,11 @@ public final class StGetPHStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
          */
-        public io.dstore.Values.stringValue getBasicCharacteristic() {
+        public io.dstore.values.StringValue getBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
-            return basicCharacteristic_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+            return basicCharacteristic_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
           } else {
             return basicCharacteristicBuilder_.getMessage();
           }
@@ -2422,9 +2422,9 @@ public final class StGetPHStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
          */
-        public Builder setBasicCharacteristic(io.dstore.Values.stringValue value) {
+        public Builder setBasicCharacteristic(io.dstore.values.StringValue value) {
           if (basicCharacteristicBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2442,10 +2442,10 @@ public final class StGetPHStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
          */
         public Builder setBasicCharacteristic(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (basicCharacteristicBuilder_ == null) {
             basicCharacteristic_ = builderForValue.build();
             onChanged();
@@ -2460,13 +2460,13 @@ public final class StGetPHStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
          */
-        public Builder mergeBasicCharacteristic(io.dstore.Values.stringValue value) {
+        public Builder mergeBasicCharacteristic(io.dstore.values.StringValue value) {
           if (basicCharacteristicBuilder_ == null) {
             if (basicCharacteristic_ != null) {
               basicCharacteristic_ =
-                io.dstore.Values.stringValue.newBuilder(basicCharacteristic_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(basicCharacteristic_).mergeFrom(value).buildPartial();
             } else {
               basicCharacteristic_ = value;
             }
@@ -2482,7 +2482,7 @@ public final class StGetPHStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
          */
         public Builder clearBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
@@ -2500,9 +2500,9 @@ public final class StGetPHStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBasicCharacteristicBuilder() {
+        public io.dstore.values.StringValue.Builder getBasicCharacteristicBuilder() {
           
           onChanged();
           return getBasicCharacteristicFieldBuilder().getBuilder();
@@ -2512,14 +2512,14 @@ public final class StGetPHStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder() {
           if (basicCharacteristicBuilder_ != null) {
             return basicCharacteristicBuilder_.getMessageOrBuilder();
           } else {
             return basicCharacteristic_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+                io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
           }
         }
         /**
@@ -2527,14 +2527,14 @@ public final class StGetPHStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10002;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBasicCharacteristicFieldBuilder() {
           if (basicCharacteristicBuilder_ == null) {
             basicCharacteristicBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBasicCharacteristic(),
                     getParentForChildren(),
                     isClean());
@@ -2543,15 +2543,15 @@ public final class StGetPHStatisticsAd {
           return basicCharacteristicBuilder_;
         }
 
-        private io.dstore.Values.decimalValue value_ = null;
+        private io.dstore.values.DecimalValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> valueBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10003;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2561,11 +2561,11 @@ public final class StGetPHStatisticsAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10003;</code>
          */
-        public io.dstore.Values.decimalValue getValue() {
+        public io.dstore.values.DecimalValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -2575,9 +2575,9 @@ public final class StGetPHStatisticsAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10003;</code>
          */
-        public Builder setValue(io.dstore.Values.decimalValue value) {
+        public Builder setValue(io.dstore.values.DecimalValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2595,10 +2595,10 @@ public final class StGetPHStatisticsAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10003;</code>
          */
         public Builder setValue(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2613,13 +2613,13 @@ public final class StGetPHStatisticsAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10003;</code>
          */
-        public Builder mergeValue(io.dstore.Values.decimalValue value) {
+        public Builder mergeValue(io.dstore.values.DecimalValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.decimalValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2635,7 +2635,7 @@ public final class StGetPHStatisticsAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10003;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2653,9 +2653,9 @@ public final class StGetPHStatisticsAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10003;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getValueBuilder() {
+        public io.dstore.values.DecimalValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -2665,14 +2665,14 @@ public final class StGetPHStatisticsAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10003;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : value_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -2680,14 +2680,14 @@ public final class StGetPHStatisticsAd {
          * Die gespeicherte statistische Information zur Basis-Kennzahl "BasicCharacteristicNumber"; z.Zt. entweder eine Anzahl (für die Basis-Kennzahl "Views" z.B.) oder ein Betrag in der Standardwährung (für die Basis-Kennzahl "Bestellumsatz")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue value = 10003;</code>
+         * <code>optional .dstore.values.DecimalValue value = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2696,15 +2696,15 @@ public final class StGetPHStatisticsAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.timestampValue dateAndTime_ = null;
+        private io.dstore.values.TimestampValue dateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> dateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> dateAndTimeBuilder_;
         /**
          * <pre>
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public boolean hasDateAndTime() {
           return dateAndTimeBuilder_ != null || dateAndTime_ != null;
@@ -2714,11 +2714,11 @@ public final class StGetPHStatisticsAd {
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
          */
-        public io.dstore.Values.timestampValue getDateAndTime() {
+        public io.dstore.values.TimestampValue getDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
-            return dateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
+            return dateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : dateAndTime_;
           } else {
             return dateAndTimeBuilder_.getMessage();
           }
@@ -2728,9 +2728,9 @@ public final class StGetPHStatisticsAd {
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
          */
-        public Builder setDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setDateAndTime(io.dstore.values.TimestampValue value) {
           if (dateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2748,10 +2748,10 @@ public final class StGetPHStatisticsAd {
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public Builder setDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (dateAndTimeBuilder_ == null) {
             dateAndTime_ = builderForValue.build();
             onChanged();
@@ -2766,13 +2766,13 @@ public final class StGetPHStatisticsAd {
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
          */
-        public Builder mergeDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeDateAndTime(io.dstore.values.TimestampValue value) {
           if (dateAndTimeBuilder_ == null) {
             if (dateAndTime_ != null) {
               dateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(dateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(dateAndTime_).mergeFrom(value).buildPartial();
             } else {
               dateAndTime_ = value;
             }
@@ -2788,7 +2788,7 @@ public final class StGetPHStatisticsAd {
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         public Builder clearDateAndTime() {
           if (dateAndTimeBuilder_ == null) {
@@ -2806,9 +2806,9 @@ public final class StGetPHStatisticsAd {
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getDateAndTimeBuilder() {
           
           onChanged();
           return getDateAndTimeFieldBuilder().getBuilder();
@@ -2818,14 +2818,14 @@ public final class StGetPHStatisticsAd {
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getDateAndTimeOrBuilder() {
           if (dateAndTimeBuilder_ != null) {
             return dateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return dateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : dateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : dateAndTime_;
           }
         }
         /**
@@ -2833,14 +2833,14 @@ public final class StGetPHStatisticsAd {
          * Ein (stundengenauer) Zeitpunkt im angegebenen Zeitraum "&#64;FromDate" bis "&#64;ToDate"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue date_and_time = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getDateAndTimeFieldBuilder() {
           if (dateAndTimeBuilder_ == null) {
             dateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -2849,15 +2849,15 @@ public final class StGetPHStatisticsAd {
           return dateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue basicCharacteristicNumber_ = null;
+        private io.dstore.values.IntegerValue basicCharacteristicNumber_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicCharacteristicNumberBuilder_;
         /**
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public boolean hasBasicCharacteristicNumber() {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
@@ -2867,11 +2867,11 @@ public final class StGetPHStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
-        public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
+        public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
-            return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+            return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
           } else {
             return basicCharacteristicNumberBuilder_.getMessage();
           }
@@ -2881,9 +2881,9 @@ public final class StGetPHStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
-        public Builder setBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
+        public Builder setBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2901,10 +2901,10 @@ public final class StGetPHStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public Builder setBasicCharacteristicNumber(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumber_ = builderForValue.build();
             onChanged();
@@ -2919,13 +2919,13 @@ public final class StGetPHStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
-        public Builder mergeBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
+        public Builder mergeBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (basicCharacteristicNumber_ != null) {
               basicCharacteristicNumber_ =
-                io.dstore.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
             } else {
               basicCharacteristicNumber_ = value;
             }
@@ -2941,7 +2941,7 @@ public final class StGetPHStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         public Builder clearBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -2959,9 +2959,9 @@ public final class StGetPHStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNumberBuilder() {
           
           onChanged();
           return getBasicCharacteristicNumberFieldBuilder().getBuilder();
@@ -2971,14 +2971,14 @@ public final class StGetPHStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
             return basicCharacteristicNumberBuilder_.getMessageOrBuilder();
           } else {
             return basicCharacteristicNumber_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
           }
         }
         /**
@@ -2986,14 +2986,14 @@ public final class StGetPHStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBasicCharacteristicNumberFieldBuilder() {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBasicCharacteristicNumber(),
                     getParentForChildren(),
                     isClean());
@@ -4463,11 +4463,11 @@ public final class StGetPHStatisticsAd {
       "atistics_Ad\032\023dstore/values.proto\032\032dstore" +
       "/engine/engine.proto\"\260\002\n\nParameters\0229\n\022f" +
       "rom_date_and_time\030\001 \001(\0132\035.dstore.values." +
-      "timestampValue\022 \n\027from_date_and_time_nul" +
+      "TimestampValue\022 \n\027from_date_and_time_nul" +
       "l\030\351\007 \001(\010\0227\n\020to_date_and_time\030\002 \001(\0132\035.dst" +
-      "ore.values.timestampValue\022\036\n\025to_date_and" +
+      "ore.values.TimestampValue\022\036\n\025to_date_and" +
       "_time_null\030\352\007 \001(\010\022@\n\034basic_characteristi" +
-      "c_numbers\030\003 \001(\0132\032.dstore.values.stringVa",
+      "c_numbers\030\003 \001(\0132\032.dstore.values.StringVa",
       "lue\022*\n!basic_characteristic_numbers_null" +
       "\030\353\007 \001(\010\"\332\003\n\010Response\0228\n\020meta_information" +
       "\030\002 \003(\0132\036.dstore.engine.MetaInformation\022\'" +
@@ -4475,12 +4475,12 @@ public final class StGetPHStatisticsAd {
       ">\n\003row\030\004 \003(\01321.dstore.engine.st_GetPHSta" +
       "tistics_Ad.Response.Row\032\252\002\n\003Row\022\017\n\006row_i" +
       "d\030\220N \001(\005\0220\n\013description\030\221N \001(\0132\032.dstore." +
-      "values.stringValue\0229\n\024basic_characterist" +
-      "ic\030\222N \001(\0132\032.dstore.values.stringValue\022+\n" +
-      "\005value\030\223N \001(\0132\033.dstore.values.decimalVal",
+      "values.StringValue\0229\n\024basic_characterist" +
+      "ic\030\222N \001(\0132\032.dstore.values.StringValue\022+\n" +
+      "\005value\030\223N \001(\0132\033.dstore.values.DecimalVal",
       "ue\0225\n\rdate_and_time\030\224N \001(\0132\035.dstore.valu" +
-      "es.timestampValue\022A\n\033basic_characteristi" +
-      "c_number\030\225N \001(\0132\033.dstore.values.integerV" +
+      "es.TimestampValue\022A\n\033basic_characteristi" +
+      "c_number\030\225N \001(\0132\033.dstore.values.IntegerV" +
       "alueBV\n\033io.dstore.engine.proceduresZ7gos" +
       "dk.dstore.de/engine/procedures/st_GetPHS" +
       "tatistics_Adb\006proto3"
@@ -4496,7 +4496,7 @@ public final class StGetPHStatisticsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_st_GetPHStatistics_Ad_Parameters_descriptor =
@@ -4517,7 +4517,7 @@ public final class StGetPHStatisticsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetPHStatistics_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Description", "BasicCharacteristic", "Value", "DateAndTime", "BasicCharacteristicNumber", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

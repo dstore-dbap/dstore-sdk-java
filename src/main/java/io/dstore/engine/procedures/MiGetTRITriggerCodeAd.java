@@ -19,17 +19,17 @@ public final class MiGetTRITriggerCodeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
     boolean hasTriggerId();
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    io.dstore.Values.integerValue getTriggerId();
+    io.dstore.values.IntegerValue getTriggerId();
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder();
 
     /**
      * <code>optional bool trigger_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetTRITriggerCodeAd {
     boolean getTriggerIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
      */
     boolean hasMaxCharsPerCodeLine();
     /**
-     * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
      */
-    io.dstore.Values.integerValue getMaxCharsPerCodeLine();
+    io.dstore.values.IntegerValue getMaxCharsPerCodeLine();
     /**
-     * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMaxCharsPerCodeLineOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMaxCharsPerCodeLineOrBuilder();
 
     /**
      * <code>optional bool max_chars_per_code_line_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class MiGetTRITriggerCodeAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (triggerId_ != null) {
                 subBuilder = triggerId_.toBuilder();
               }
-              triggerId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              triggerId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(triggerId_);
                 triggerId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class MiGetTRITriggerCodeAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (maxCharsPerCodeLine_ != null) {
                 subBuilder = maxCharsPerCodeLine_.toBuilder();
               }
-              maxCharsPerCodeLine_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              maxCharsPerCodeLine_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxCharsPerCodeLine_);
                 maxCharsPerCodeLine_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class MiGetTRITriggerCodeAd {
     }
 
     public static final int TRIGGER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue triggerId_;
+    private io.dstore.values.IntegerValue triggerId_;
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
     public boolean hasTriggerId() {
       return triggerId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getTriggerId() {
-      return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+    public io.dstore.values.IntegerValue getTriggerId() {
+      return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
       return getTriggerId();
     }
 
@@ -185,23 +185,23 @@ public final class MiGetTRITriggerCodeAd {
     }
 
     public static final int MAX_CHARS_PER_CODE_LINE_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue maxCharsPerCodeLine_;
+    private io.dstore.values.IntegerValue maxCharsPerCodeLine_;
     /**
-     * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
      */
     public boolean hasMaxCharsPerCodeLine() {
       return maxCharsPerCodeLine_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
      */
-    public io.dstore.Values.integerValue getMaxCharsPerCodeLine() {
-      return maxCharsPerCodeLine_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxCharsPerCodeLine_;
+    public io.dstore.values.IntegerValue getMaxCharsPerCodeLine() {
+      return maxCharsPerCodeLine_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxCharsPerCodeLine_;
     }
     /**
-     * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+     * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMaxCharsPerCodeLineOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMaxCharsPerCodeLineOrBuilder() {
       return getMaxCharsPerCodeLine();
     }
 
@@ -562,29 +562,29 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue triggerId_ = null;
+      private io.dstore.values.IntegerValue triggerId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> triggerIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> triggerIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public boolean hasTriggerId() {
         return triggerIdBuilder_ != null || triggerId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getTriggerId() {
+      public io.dstore.values.IntegerValue getTriggerId() {
         if (triggerIdBuilder_ == null) {
-          return triggerId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+          return triggerId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
         } else {
           return triggerIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public Builder setTriggerId(io.dstore.Values.integerValue value) {
+      public Builder setTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder setTriggerId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (triggerIdBuilder_ == null) {
           triggerId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public Builder mergeTriggerId(io.dstore.Values.integerValue value) {
+      public Builder mergeTriggerId(io.dstore.values.IntegerValue value) {
         if (triggerIdBuilder_ == null) {
           if (triggerId_ != null) {
             triggerId_ =
-              io.dstore.Values.integerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(triggerId_).mergeFrom(value).buildPartial();
           } else {
             triggerId_ = value;
           }
@@ -630,7 +630,7 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       public Builder clearTriggerId() {
         if (triggerIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTriggerIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTriggerIdBuilder() {
         
         onChanged();
         return getTriggerIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTriggerIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTriggerIdOrBuilder() {
         if (triggerIdBuilder_ != null) {
           return triggerIdBuilder_.getMessageOrBuilder();
         } else {
           return triggerId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : triggerId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : triggerId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue trigger_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue trigger_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTriggerIdFieldBuilder() {
         if (triggerIdBuilder_ == null) {
           triggerIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTriggerId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue maxCharsPerCodeLine_ = null;
+      private io.dstore.values.IntegerValue maxCharsPerCodeLine_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> maxCharsPerCodeLineBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> maxCharsPerCodeLineBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
        */
       public boolean hasMaxCharsPerCodeLine() {
         return maxCharsPerCodeLineBuilder_ != null || maxCharsPerCodeLine_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
        */
-      public io.dstore.Values.integerValue getMaxCharsPerCodeLine() {
+      public io.dstore.values.IntegerValue getMaxCharsPerCodeLine() {
         if (maxCharsPerCodeLineBuilder_ == null) {
-          return maxCharsPerCodeLine_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : maxCharsPerCodeLine_;
+          return maxCharsPerCodeLine_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : maxCharsPerCodeLine_;
         } else {
           return maxCharsPerCodeLineBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
        */
-      public Builder setMaxCharsPerCodeLine(io.dstore.Values.integerValue value) {
+      public Builder setMaxCharsPerCodeLine(io.dstore.values.IntegerValue value) {
         if (maxCharsPerCodeLineBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
        */
       public Builder setMaxCharsPerCodeLine(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (maxCharsPerCodeLineBuilder_ == null) {
           maxCharsPerCodeLine_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
        */
-      public Builder mergeMaxCharsPerCodeLine(io.dstore.Values.integerValue value) {
+      public Builder mergeMaxCharsPerCodeLine(io.dstore.values.IntegerValue value) {
         if (maxCharsPerCodeLineBuilder_ == null) {
           if (maxCharsPerCodeLine_ != null) {
             maxCharsPerCodeLine_ =
-              io.dstore.Values.integerValue.newBuilder(maxCharsPerCodeLine_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(maxCharsPerCodeLine_).mergeFrom(value).buildPartial();
           } else {
             maxCharsPerCodeLine_ = value;
           }
@@ -773,7 +773,7 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
        */
       public Builder clearMaxCharsPerCodeLine() {
         if (maxCharsPerCodeLineBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class MiGetTRITriggerCodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMaxCharsPerCodeLineBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMaxCharsPerCodeLineBuilder() {
         
         onChanged();
         return getMaxCharsPerCodeLineFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMaxCharsPerCodeLineOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMaxCharsPerCodeLineOrBuilder() {
         if (maxCharsPerCodeLineBuilder_ != null) {
           return maxCharsPerCodeLineBuilder_.getMessageOrBuilder();
         } else {
           return maxCharsPerCodeLine_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : maxCharsPerCodeLine_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : maxCharsPerCodeLine_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue max_chars_per_code_line = 2;</code>
+       * <code>optional .dstore.values.IntegerValue max_chars_per_code_line = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMaxCharsPerCodeLineFieldBuilder() {
         if (maxCharsPerCodeLineBuilder_ == null) {
           maxCharsPerCodeLineBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMaxCharsPerCodeLine(),
                   getParentForChildren(),
                   isClean());
@@ -2934,10 +2934,10 @@ public final class MiGetTRITriggerCodeAd {
       "gerCode_Ad.proto\022%dstore.engine.mi_GetTR" +
       "ITriggerCode_Ad\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\274\001\n\nParameters\022" +
-      "/\n\ntrigger_id\030\001 \001(\0132\033.dstore.values.inte" +
+      "/\n\ntrigger_id\030\001 \001(\0132\033.dstore.values.Inte" +
       "gerValue\022\030\n\017trigger_id_null\030\351\007 \001(\010\022<\n\027ma" +
       "x_chars_per_code_line\030\002 \001(\0132\033.dstore.val" +
-      "ues.integerValue\022%\n\034max_chars_per_code_l" +
+      "ues.IntegerValue\022%\n\034max_chars_per_code_l" +
       "ine_null\030\352\007 \001(\010\"\307\001\n\010Response\0228\n\020meta_inf" +
       "ormation\030\002 \003(\0132\036.dstore.engine.MetaInfor",
       "mation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine." +
@@ -2958,7 +2958,7 @@ public final class MiGetTRITriggerCodeAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetTRITriggerCode_Ad_Parameters_descriptor =
@@ -2979,7 +2979,7 @@ public final class MiGetTRITriggerCodeAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetTRITriggerCode_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

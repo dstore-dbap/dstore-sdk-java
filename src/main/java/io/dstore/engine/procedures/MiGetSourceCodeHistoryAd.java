@@ -19,17 +19,17 @@ public final class MiGetSourceCodeHistoryAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue object_name = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name = 1;</code>
      */
     boolean hasObjectName();
     /**
-     * <code>optional .dstore.values.stringValue object_name = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name = 1;</code>
      */
-    io.dstore.Values.stringValue getObjectName();
+    io.dstore.values.StringValue getObjectName();
     /**
-     * <code>optional .dstore.values.stringValue object_name = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getObjectNameOrBuilder();
 
     /**
      * <code>optional bool object_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetSourceCodeHistoryAd {
     boolean getObjectNameNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    io.dstore.Values.timestampValue getFromDate();
+    io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetSourceCodeHistoryAd {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    io.dstore.Values.timestampValue getToDate();
+    io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiGetSourceCodeHistoryAd {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.integerValue history_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
      */
     boolean hasHistoryId();
     /**
-     * <code>optional .dstore.values.integerValue history_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
      */
-    io.dstore.Values.integerValue getHistoryId();
+    io.dstore.values.IntegerValue getHistoryId();
     /**
-     * <code>optional .dstore.values.integerValue history_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getHistoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getHistoryIdOrBuilder();
 
     /**
      * <code>optional bool history_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiGetSourceCodeHistoryAd {
     boolean getHistoryIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+     * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
      */
     boolean hasIncludeComment();
     /**
-     * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+     * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
      */
-    io.dstore.Values.booleanValue getIncludeComment();
+    io.dstore.values.BooleanValue getIncludeComment();
     /**
-     * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+     * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIncludeCommentOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIncludeCommentOrBuilder();
 
     /**
      * <code>optional bool include_comment_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class MiGetSourceCodeHistoryAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (objectName_ != null) {
                 subBuilder = objectName_.toBuilder();
               }
-              objectName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              objectName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(objectName_);
                 objectName_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class MiGetSourceCodeHistoryAd {
               break;
             }
             case 18: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class MiGetSourceCodeHistoryAd {
               break;
             }
             case 26: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class MiGetSourceCodeHistoryAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (historyId_ != null) {
                 subBuilder = historyId_.toBuilder();
               }
-              historyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              historyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(historyId_);
                 historyId_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class MiGetSourceCodeHistoryAd {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (includeComment_ != null) {
                 subBuilder = includeComment_.toBuilder();
               }
-              includeComment_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              includeComment_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeComment_);
                 includeComment_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class MiGetSourceCodeHistoryAd {
     }
 
     public static final int OBJECT_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue objectName_;
+    private io.dstore.values.StringValue objectName_;
     /**
-     * <code>optional .dstore.values.stringValue object_name = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name = 1;</code>
      */
     public boolean hasObjectName() {
       return objectName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue object_name = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getObjectName() {
-      return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
+    public io.dstore.values.StringValue getObjectName() {
+      return objectName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue object_name = 1;</code>
+     * <code>optional .dstore.values.StringValue object_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getObjectNameOrBuilder() {
       return getObjectName();
     }
 
@@ -296,23 +296,23 @@ public final class MiGetSourceCodeHistoryAd {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 2;
-    private io.dstore.Values.timestampValue fromDate_;
+    private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    public io.dstore.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.values.TimestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -326,23 +326,23 @@ public final class MiGetSourceCodeHistoryAd {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 3;
-    private io.dstore.Values.timestampValue toDate_;
+    private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    public io.dstore.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.values.TimestampValue getToDate() {
+      return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -356,23 +356,23 @@ public final class MiGetSourceCodeHistoryAd {
     }
 
     public static final int HISTORY_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue historyId_;
+    private io.dstore.values.IntegerValue historyId_;
     /**
-     * <code>optional .dstore.values.integerValue history_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
      */
     public boolean hasHistoryId() {
       return historyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue history_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getHistoryId() {
-      return historyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : historyId_;
+    public io.dstore.values.IntegerValue getHistoryId() {
+      return historyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : historyId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue history_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getHistoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getHistoryIdOrBuilder() {
       return getHistoryId();
     }
 
@@ -386,23 +386,23 @@ public final class MiGetSourceCodeHistoryAd {
     }
 
     public static final int INCLUDE_COMMENT_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue includeComment_;
+    private io.dstore.values.BooleanValue includeComment_;
     /**
-     * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+     * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
      */
     public boolean hasIncludeComment() {
       return includeComment_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+     * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
      */
-    public io.dstore.Values.booleanValue getIncludeComment() {
-      return includeComment_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeComment_;
+    public io.dstore.values.BooleanValue getIncludeComment() {
+      return includeComment_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeComment_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+     * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIncludeCommentOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIncludeCommentOrBuilder() {
       return getIncludeComment();
     }
 
@@ -907,29 +907,29 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue objectName_ = null;
+      private io.dstore.values.StringValue objectName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> objectNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue object_name = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name = 1;</code>
        */
       public boolean hasObjectName() {
         return objectNameBuilder_ != null || objectName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getObjectName() {
+      public io.dstore.values.StringValue getObjectName() {
         if (objectNameBuilder_ == null) {
-          return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
+          return objectName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectName_;
         } else {
           return objectNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name = 1;</code>
        */
-      public Builder setObjectName(io.dstore.Values.stringValue value) {
+      public Builder setObjectName(io.dstore.values.StringValue value) {
         if (objectNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name = 1;</code>
        */
       public Builder setObjectName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (objectNameBuilder_ == null) {
           objectName_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name = 1;</code>
        */
-      public Builder mergeObjectName(io.dstore.Values.stringValue value) {
+      public Builder mergeObjectName(io.dstore.values.StringValue value) {
         if (objectNameBuilder_ == null) {
           if (objectName_ != null) {
             objectName_ =
-              io.dstore.Values.stringValue.newBuilder(objectName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(objectName_).mergeFrom(value).buildPartial();
           } else {
             objectName_ = value;
           }
@@ -975,7 +975,7 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name = 1;</code>
        */
       public Builder clearObjectName() {
         if (objectNameBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getObjectNameBuilder() {
+      public io.dstore.values.StringValue.Builder getObjectNameBuilder() {
         
         onChanged();
         return getObjectNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getObjectNameOrBuilder() {
         if (objectNameBuilder_ != null) {
           return objectNameBuilder_.getMessageOrBuilder();
         } else {
           return objectName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
+              io.dstore.values.StringValue.getDefaultInstance() : objectName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue object_name = 1;</code>
+       * <code>optional .dstore.values.StringValue object_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getObjectNameFieldBuilder() {
         if (objectNameBuilder_ == null) {
           objectNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getObjectName(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDate_ = null;
+      private io.dstore.values.TimestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue getFromDate() {
+      public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public Builder setFromDate(io.dstore.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder setFromDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toDate_ = null;
+      private io.dstore.values.TimestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue getToDate() {
+      public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public Builder setToDate(io.dstore.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder setToDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1275,33 +1275,33 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue historyId_ = null;
+      private io.dstore.values.IntegerValue historyId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> historyIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> historyIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue history_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
        */
       public boolean hasHistoryId() {
         return historyIdBuilder_ != null || historyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getHistoryId() {
+      public io.dstore.values.IntegerValue getHistoryId() {
         if (historyIdBuilder_ == null) {
-          return historyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : historyId_;
+          return historyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : historyId_;
         } else {
           return historyIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
        */
-      public Builder setHistoryId(io.dstore.Values.integerValue value) {
+      public Builder setHistoryId(io.dstore.values.IntegerValue value) {
         if (historyIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
        */
       public Builder setHistoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (historyIdBuilder_ == null) {
           historyId_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
        */
-      public Builder mergeHistoryId(io.dstore.Values.integerValue value) {
+      public Builder mergeHistoryId(io.dstore.values.IntegerValue value) {
         if (historyIdBuilder_ == null) {
           if (historyId_ != null) {
             historyId_ =
-              io.dstore.Values.integerValue.newBuilder(historyId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(historyId_).mergeFrom(value).buildPartial();
           } else {
             historyId_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
        */
       public Builder clearHistoryId() {
         if (historyIdBuilder_ == null) {
@@ -1418,33 +1418,33 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getHistoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getHistoryIdBuilder() {
         
         onChanged();
         return getHistoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getHistoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getHistoryIdOrBuilder() {
         if (historyIdBuilder_ != null) {
           return historyIdBuilder_.getMessageOrBuilder();
         } else {
           return historyId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : historyId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : historyId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue history_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getHistoryIdFieldBuilder() {
         if (historyIdBuilder_ == null) {
           historyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getHistoryId(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue includeComment_ = null;
+      private io.dstore.values.BooleanValue includeComment_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeCommentBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeCommentBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+       * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
        */
       public boolean hasIncludeComment() {
         return includeCommentBuilder_ != null || includeComment_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+       * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
        */
-      public io.dstore.Values.booleanValue getIncludeComment() {
+      public io.dstore.values.BooleanValue getIncludeComment() {
         if (includeCommentBuilder_ == null) {
-          return includeComment_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeComment_;
+          return includeComment_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeComment_;
         } else {
           return includeCommentBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+       * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
        */
-      public Builder setIncludeComment(io.dstore.Values.booleanValue value) {
+      public Builder setIncludeComment(io.dstore.values.BooleanValue value) {
         if (includeCommentBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+       * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
        */
       public Builder setIncludeComment(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (includeCommentBuilder_ == null) {
           includeComment_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+       * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
        */
-      public Builder mergeIncludeComment(io.dstore.Values.booleanValue value) {
+      public Builder mergeIncludeComment(io.dstore.values.BooleanValue value) {
         if (includeCommentBuilder_ == null) {
           if (includeComment_ != null) {
             includeComment_ =
-              io.dstore.Values.booleanValue.newBuilder(includeComment_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(includeComment_).mergeFrom(value).buildPartial();
           } else {
             includeComment_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+       * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
        */
       public Builder clearIncludeComment() {
         if (includeCommentBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class MiGetSourceCodeHistoryAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+       * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIncludeCommentBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIncludeCommentBuilder() {
         
         onChanged();
         return getIncludeCommentFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+       * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIncludeCommentOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIncludeCommentOrBuilder() {
         if (includeCommentBuilder_ != null) {
           return includeCommentBuilder_.getMessageOrBuilder();
         } else {
           return includeComment_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : includeComment_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : includeComment_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_comment = 5;</code>
+       * <code>optional .dstore.values.BooleanValue include_comment = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIncludeCommentFieldBuilder() {
         if (includeCommentBuilder_ == null) {
           includeCommentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIncludeComment(),
                   getParentForChildren(),
                   isClean());
@@ -1881,7 +1881,7 @@ public final class MiGetSourceCodeHistoryAd {
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
       boolean hasObjectType();
       /**
@@ -1889,24 +1889,24 @@ public final class MiGetSourceCodeHistoryAd {
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
-      io.dstore.Values.stringValue getObjectType();
+      io.dstore.values.StringValue getObjectType();
       /**
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getObjectTypeOrBuilder();
 
       /**
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
        */
       boolean hasHistoryId();
       /**
@@ -1914,24 +1914,24 @@ public final class MiGetSourceCodeHistoryAd {
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getHistoryId();
+      io.dstore.values.IntegerValue getHistoryId();
       /**
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getHistoryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getHistoryIdOrBuilder();
 
       /**
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
        */
       boolean hasCreatedAtDateAndTime();
       /**
@@ -1939,24 +1939,24 @@ public final class MiGetSourceCodeHistoryAd {
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
        */
-      io.dstore.Values.timestampValue getCreatedAtDateAndTime();
+      io.dstore.values.TimestampValue getCreatedAtDateAndTime();
       /**
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
       boolean hasObjectName();
       /**
@@ -1964,24 +1964,24 @@ public final class MiGetSourceCodeHistoryAd {
        * Name eines Datenbankobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
-      io.dstore.Values.stringValue getObjectName();
+      io.dstore.values.StringValue getObjectName();
       /**
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getObjectNameOrBuilder();
 
       /**
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
+       * <code>optional .dstore.values.StringValue comment = 20002;</code>
        */
       boolean hasComment();
       /**
@@ -1989,24 +1989,24 @@ public final class MiGetSourceCodeHistoryAd {
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
+       * <code>optional .dstore.values.StringValue comment = 20002;</code>
        */
-      io.dstore.Values.stringValue getComment();
+      io.dstore.values.StringValue getComment();
       /**
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
+       * <code>optional .dstore.values.StringValue comment = 20002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCommentOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCommentOrBuilder();
 
       /**
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
        */
       boolean hasRowNo();
       /**
@@ -2014,24 +2014,24 @@ public final class MiGetSourceCodeHistoryAd {
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
        */
-      io.dstore.Values.integerValue getRowNo();
+      io.dstore.values.IntegerValue getRowNo();
       /**
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getRowNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getRowNoOrBuilder();
 
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
        */
       boolean hasCodeLineNumber();
       /**
@@ -2039,24 +2039,24 @@ public final class MiGetSourceCodeHistoryAd {
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
        */
-      io.dstore.Values.integerValue getCodeLineNumber();
+      io.dstore.values.IntegerValue getCodeLineNumber();
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder();
 
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+       * <code>optional .dstore.values.StringValue code_line = 30002;</code>
        */
       boolean hasCodeLine();
       /**
@@ -2064,17 +2064,17 @@ public final class MiGetSourceCodeHistoryAd {
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+       * <code>optional .dstore.values.StringValue code_line = 30002;</code>
        */
-      io.dstore.Values.stringValue getCodeLine();
+      io.dstore.values.StringValue getCodeLine();
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+       * <code>optional .dstore.values.StringValue code_line = 30002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCodeLineOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetSourceCodeHistory_Ad.Response.Row}
@@ -2122,11 +2122,11 @@ public final class MiGetSourceCodeHistoryAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (objectType_ != null) {
                   subBuilder = objectType_.toBuilder();
                 }
-                objectType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                objectType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectType_);
                   objectType_ = subBuilder.buildPartial();
@@ -2135,11 +2135,11 @@ public final class MiGetSourceCodeHistoryAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (historyId_ != null) {
                   subBuilder = historyId_.toBuilder();
                 }
-                historyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                historyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(historyId_);
                   historyId_ = subBuilder.buildPartial();
@@ -2148,11 +2148,11 @@ public final class MiGetSourceCodeHistoryAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (createdAtDateAndTime_ != null) {
                   subBuilder = createdAtDateAndTime_.toBuilder();
                 }
-                createdAtDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                createdAtDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdAtDateAndTime_);
                   createdAtDateAndTime_ = subBuilder.buildPartial();
@@ -2161,11 +2161,11 @@ public final class MiGetSourceCodeHistoryAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (objectName_ != null) {
                   subBuilder = objectName_.toBuilder();
                 }
-                objectName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                objectName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectName_);
                   objectName_ = subBuilder.buildPartial();
@@ -2174,11 +2174,11 @@ public final class MiGetSourceCodeHistoryAd {
                 break;
               }
               case 160018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (comment_ != null) {
                   subBuilder = comment_.toBuilder();
                 }
-                comment_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                comment_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(comment_);
                   comment_ = subBuilder.buildPartial();
@@ -2187,11 +2187,11 @@ public final class MiGetSourceCodeHistoryAd {
                 break;
               }
               case 160034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (rowNo_ != null) {
                   subBuilder = rowNo_.toBuilder();
                 }
-                rowNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                rowNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(rowNo_);
                   rowNo_ = subBuilder.buildPartial();
@@ -2200,11 +2200,11 @@ public final class MiGetSourceCodeHistoryAd {
                 break;
               }
               case 240010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (codeLineNumber_ != null) {
                   subBuilder = codeLineNumber_.toBuilder();
                 }
-                codeLineNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                codeLineNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLineNumber_);
                   codeLineNumber_ = subBuilder.buildPartial();
@@ -2213,11 +2213,11 @@ public final class MiGetSourceCodeHistoryAd {
                 break;
               }
               case 240018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (codeLine_ != null) {
                   subBuilder = codeLine_.toBuilder();
                 }
-                codeLine_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                codeLine_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLine_);
                   codeLine_ = subBuilder.buildPartial();
@@ -2258,13 +2258,13 @@ public final class MiGetSourceCodeHistoryAd {
       }
 
       public static final int OBJECT_TYPE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue objectType_;
+      private io.dstore.values.StringValue objectType_;
       /**
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
       public boolean hasObjectType() {
         return objectType_ != null;
@@ -2274,30 +2274,30 @@ public final class MiGetSourceCodeHistoryAd {
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
-      public io.dstore.Values.stringValue getObjectType() {
-        return objectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
+      public io.dstore.values.StringValue getObjectType() {
+        return objectType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectType_;
       }
       /**
        * <pre>
        * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue object_type = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getObjectTypeOrBuilder() {
         return getObjectType();
       }
 
       public static final int HISTORY_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue historyId_;
+      private io.dstore.values.IntegerValue historyId_;
       /**
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
        */
       public boolean hasHistoryId() {
         return historyId_ != null;
@@ -2307,30 +2307,30 @@ public final class MiGetSourceCodeHistoryAd {
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getHistoryId() {
-        return historyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : historyId_;
+      public io.dstore.values.IntegerValue getHistoryId() {
+        return historyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : historyId_;
       }
       /**
        * <pre>
        * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getHistoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getHistoryIdOrBuilder() {
         return getHistoryId();
       }
 
       public static final int CREATED_AT_DATE_AND_TIME_FIELD_NUMBER = 10003;
-      private io.dstore.Values.timestampValue createdAtDateAndTime_;
+      private io.dstore.values.TimestampValue createdAtDateAndTime_;
       /**
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
        */
       public boolean hasCreatedAtDateAndTime() {
         return createdAtDateAndTime_ != null;
@@ -2340,30 +2340,30 @@ public final class MiGetSourceCodeHistoryAd {
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
        */
-      public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
-        return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+      public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
+        return createdAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
       }
       /**
        * <pre>
        * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
         return getCreatedAtDateAndTime();
       }
 
       public static final int OBJECT_NAME_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue objectName_;
+      private io.dstore.values.StringValue objectName_;
       /**
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
       public boolean hasObjectName() {
         return objectName_ != null;
@@ -2373,30 +2373,30 @@ public final class MiGetSourceCodeHistoryAd {
        * Name eines Datenbankobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
-      public io.dstore.Values.stringValue getObjectName() {
-        return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
+      public io.dstore.values.StringValue getObjectName() {
+        return objectName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectName_;
       }
       /**
        * <pre>
        * Name eines Datenbankobjektes
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue object_name = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getObjectNameOrBuilder() {
         return getObjectName();
       }
 
       public static final int COMMENT_FIELD_NUMBER = 20002;
-      private io.dstore.Values.stringValue comment_;
+      private io.dstore.values.StringValue comment_;
       /**
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
+       * <code>optional .dstore.values.StringValue comment = 20002;</code>
        */
       public boolean hasComment() {
         return comment_ != null;
@@ -2406,30 +2406,30 @@ public final class MiGetSourceCodeHistoryAd {
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
+       * <code>optional .dstore.values.StringValue comment = 20002;</code>
        */
-      public io.dstore.Values.stringValue getComment() {
-        return comment_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : comment_;
+      public io.dstore.values.StringValue getComment() {
+        return comment_ == null ? io.dstore.values.StringValue.getDefaultInstance() : comment_;
       }
       /**
        * <pre>
        * Kommentar(zeile) zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue comment = 20002;</code>
+       * <code>optional .dstore.values.StringValue comment = 20002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCommentOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCommentOrBuilder() {
         return getComment();
       }
 
       public static final int ROW_NO_FIELD_NUMBER = 20004;
-      private io.dstore.Values.integerValue rowNo_;
+      private io.dstore.values.IntegerValue rowNo_;
       /**
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
        */
       public boolean hasRowNo() {
         return rowNo_ != null;
@@ -2439,30 +2439,30 @@ public final class MiGetSourceCodeHistoryAd {
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
        */
-      public io.dstore.Values.integerValue getRowNo() {
-        return rowNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowNo_;
+      public io.dstore.values.IntegerValue getRowNo() {
+        return rowNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowNo_;
       }
       /**
        * <pre>
        * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+       * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRowNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRowNoOrBuilder() {
         return getRowNo();
       }
 
       public static final int CODE_LINE_NUMBER_FIELD_NUMBER = 30001;
-      private io.dstore.Values.integerValue codeLineNumber_;
+      private io.dstore.values.IntegerValue codeLineNumber_;
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
        */
       public boolean hasCodeLineNumber() {
         return codeLineNumber_ != null;
@@ -2472,30 +2472,30 @@ public final class MiGetSourceCodeHistoryAd {
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
        */
-      public io.dstore.Values.integerValue getCodeLineNumber() {
-        return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+      public io.dstore.values.IntegerValue getCodeLineNumber() {
+        return codeLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
       }
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder() {
         return getCodeLineNumber();
       }
 
       public static final int CODE_LINE_FIELD_NUMBER = 30002;
-      private io.dstore.Values.stringValue codeLine_;
+      private io.dstore.values.StringValue codeLine_;
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+       * <code>optional .dstore.values.StringValue code_line = 30002;</code>
        */
       public boolean hasCodeLine() {
         return codeLine_ != null;
@@ -2505,19 +2505,19 @@ public final class MiGetSourceCodeHistoryAd {
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+       * <code>optional .dstore.values.StringValue code_line = 30002;</code>
        */
-      public io.dstore.Values.stringValue getCodeLine() {
-        return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
+      public io.dstore.values.StringValue getCodeLine() {
+        return codeLine_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codeLine_;
       }
       /**
        * <pre>
        * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+       * <code>optional .dstore.values.StringValue code_line = 30002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCodeLineOrBuilder() {
         return getCodeLine();
       }
 
@@ -3056,15 +3056,15 @@ public final class MiGetSourceCodeHistoryAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue objectType_ = null;
+        private io.dstore.values.StringValue objectType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> objectTypeBuilder_;
         /**
          * <pre>
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
         public boolean hasObjectType() {
           return objectTypeBuilder_ != null || objectType_ != null;
@@ -3074,11 +3074,11 @@ public final class MiGetSourceCodeHistoryAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue getObjectType() {
+        public io.dstore.values.StringValue getObjectType() {
           if (objectTypeBuilder_ == null) {
-            return objectType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
+            return objectType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectType_;
           } else {
             return objectTypeBuilder_.getMessage();
           }
@@ -3088,9 +3088,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public Builder setObjectType(io.dstore.Values.stringValue value) {
+        public Builder setObjectType(io.dstore.values.StringValue value) {
           if (objectTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3108,10 +3108,10 @@ public final class MiGetSourceCodeHistoryAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
         public Builder setObjectType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (objectTypeBuilder_ == null) {
             objectType_ = builderForValue.build();
             onChanged();
@@ -3126,13 +3126,13 @@ public final class MiGetSourceCodeHistoryAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public Builder mergeObjectType(io.dstore.Values.stringValue value) {
+        public Builder mergeObjectType(io.dstore.values.StringValue value) {
           if (objectTypeBuilder_ == null) {
             if (objectType_ != null) {
               objectType_ =
-                io.dstore.Values.stringValue.newBuilder(objectType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(objectType_).mergeFrom(value).buildPartial();
             } else {
               objectType_ = value;
             }
@@ -3148,7 +3148,7 @@ public final class MiGetSourceCodeHistoryAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
         public Builder clearObjectType() {
           if (objectTypeBuilder_ == null) {
@@ -3166,9 +3166,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getObjectTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getObjectTypeBuilder() {
           
           onChanged();
           return getObjectTypeFieldBuilder().getBuilder();
@@ -3178,14 +3178,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getObjectTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getObjectTypeOrBuilder() {
           if (objectTypeBuilder_ != null) {
             return objectTypeBuilder_.getMessageOrBuilder();
           } else {
             return objectType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : objectType_;
+                io.dstore.values.StringValue.getDefaultInstance() : objectType_;
           }
         }
         /**
@@ -3193,14 +3193,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Gibt an, um was für einen Typ es sich bei dem Objekt "ObjectName" handelt. Mögliche Werte :* "StoredProc" (für Prozeduren)* "Trigger"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue object_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getObjectTypeFieldBuilder() {
           if (objectTypeBuilder_ == null) {
             objectTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getObjectType(),
                     getParentForChildren(),
                     isClean());
@@ -3209,15 +3209,15 @@ public final class MiGetSourceCodeHistoryAd {
           return objectTypeBuilder_;
         }
 
-        private io.dstore.Values.integerValue historyId_ = null;
+        private io.dstore.values.IntegerValue historyId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> historyIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> historyIdBuilder_;
         /**
          * <pre>
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
          */
         public boolean hasHistoryId() {
           return historyIdBuilder_ != null || historyId_ != null;
@@ -3227,11 +3227,11 @@ public final class MiGetSourceCodeHistoryAd {
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getHistoryId() {
+        public io.dstore.values.IntegerValue getHistoryId() {
           if (historyIdBuilder_ == null) {
-            return historyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : historyId_;
+            return historyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : historyId_;
           } else {
             return historyIdBuilder_.getMessage();
           }
@@ -3241,9 +3241,9 @@ public final class MiGetSourceCodeHistoryAd {
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
          */
-        public Builder setHistoryId(io.dstore.Values.integerValue value) {
+        public Builder setHistoryId(io.dstore.values.IntegerValue value) {
           if (historyIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3261,10 +3261,10 @@ public final class MiGetSourceCodeHistoryAd {
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
          */
         public Builder setHistoryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (historyIdBuilder_ == null) {
             historyId_ = builderForValue.build();
             onChanged();
@@ -3279,13 +3279,13 @@ public final class MiGetSourceCodeHistoryAd {
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
          */
-        public Builder mergeHistoryId(io.dstore.Values.integerValue value) {
+        public Builder mergeHistoryId(io.dstore.values.IntegerValue value) {
           if (historyIdBuilder_ == null) {
             if (historyId_ != null) {
               historyId_ =
-                io.dstore.Values.integerValue.newBuilder(historyId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(historyId_).mergeFrom(value).buildPartial();
             } else {
               historyId_ = value;
             }
@@ -3301,7 +3301,7 @@ public final class MiGetSourceCodeHistoryAd {
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
          */
         public Builder clearHistoryId() {
           if (historyIdBuilder_ == null) {
@@ -3319,9 +3319,9 @@ public final class MiGetSourceCodeHistoryAd {
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getHistoryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getHistoryIdBuilder() {
           
           onChanged();
           return getHistoryIdFieldBuilder().getBuilder();
@@ -3331,14 +3331,14 @@ public final class MiGetSourceCodeHistoryAd {
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getHistoryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getHistoryIdOrBuilder() {
           if (historyIdBuilder_ != null) {
             return historyIdBuilder_.getMessageOrBuilder();
           } else {
             return historyId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : historyId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : historyId_;
           }
         }
         /**
@@ -3346,14 +3346,14 @@ public final class MiGetSourceCodeHistoryAd {
          * ID einer "historischen Quellcode-Version" des Objekte "ObjectName" (vom Typ "ObjectType")Anmerkung : Da auch der aktuelle SourceCode-Datensatz zurückgegeben wird, steht in diesen Fällen hier eine "-1".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue history_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue history_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getHistoryIdFieldBuilder() {
           if (historyIdBuilder_ == null) {
             historyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getHistoryId(),
                     getParentForChildren(),
                     isClean());
@@ -3362,15 +3362,15 @@ public final class MiGetSourceCodeHistoryAd {
           return historyIdBuilder_;
         }
 
-        private io.dstore.Values.timestampValue createdAtDateAndTime_ = null;
+        private io.dstore.values.TimestampValue createdAtDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> createdAtDateAndTimeBuilder_;
         /**
          * <pre>
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
          */
         public boolean hasCreatedAtDateAndTime() {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
@@ -3380,11 +3380,11 @@ public final class MiGetSourceCodeHistoryAd {
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
          */
-        public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
+        public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
-            return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+            return createdAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
           } else {
             return createdAtDateAndTimeBuilder_.getMessage();
           }
@@ -3394,9 +3394,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
          */
-        public Builder setCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3414,10 +3414,10 @@ public final class MiGetSourceCodeHistoryAd {
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
          */
         public Builder setCreatedAtDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (createdAtDateAndTimeBuilder_ == null) {
             createdAtDateAndTime_ = builderForValue.build();
             onChanged();
@@ -3432,13 +3432,13 @@ public final class MiGetSourceCodeHistoryAd {
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
          */
-        public Builder mergeCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
             if (createdAtDateAndTime_ != null) {
               createdAtDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(createdAtDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(createdAtDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               createdAtDateAndTime_ = value;
             }
@@ -3454,7 +3454,7 @@ public final class MiGetSourceCodeHistoryAd {
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
          */
         public Builder clearCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -3472,9 +3472,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getCreatedAtDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getCreatedAtDateAndTimeBuilder() {
           
           onChanged();
           return getCreatedAtDateAndTimeFieldBuilder().getBuilder();
@@ -3484,14 +3484,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
           if (createdAtDateAndTimeBuilder_ != null) {
             return createdAtDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return createdAtDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
           }
         }
         /**
@@ -3499,14 +3499,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Zeitpunkt, an dem die Version "HistoryID" des Objektes "ObjectName"  erstellt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10003;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getCreatedAtDateAndTimeFieldBuilder() {
           if (createdAtDateAndTimeBuilder_ == null) {
             createdAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getCreatedAtDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -3515,15 +3515,15 @@ public final class MiGetSourceCodeHistoryAd {
           return createdAtDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.stringValue objectName_ = null;
+        private io.dstore.values.StringValue objectName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> objectNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> objectNameBuilder_;
         /**
          * <pre>
          * Name eines Datenbankobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
         public boolean hasObjectName() {
           return objectNameBuilder_ != null || objectName_ != null;
@@ -3533,11 +3533,11 @@ public final class MiGetSourceCodeHistoryAd {
          * Name eines Datenbankobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public io.dstore.Values.stringValue getObjectName() {
+        public io.dstore.values.StringValue getObjectName() {
           if (objectNameBuilder_ == null) {
-            return objectName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
+            return objectName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : objectName_;
           } else {
             return objectNameBuilder_.getMessage();
           }
@@ -3547,9 +3547,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Name eines Datenbankobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public Builder setObjectName(io.dstore.Values.stringValue value) {
+        public Builder setObjectName(io.dstore.values.StringValue value) {
           if (objectNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3567,10 +3567,10 @@ public final class MiGetSourceCodeHistoryAd {
          * Name eines Datenbankobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
         public Builder setObjectName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (objectNameBuilder_ == null) {
             objectName_ = builderForValue.build();
             onChanged();
@@ -3585,13 +3585,13 @@ public final class MiGetSourceCodeHistoryAd {
          * Name eines Datenbankobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public Builder mergeObjectName(io.dstore.Values.stringValue value) {
+        public Builder mergeObjectName(io.dstore.values.StringValue value) {
           if (objectNameBuilder_ == null) {
             if (objectName_ != null) {
               objectName_ =
-                io.dstore.Values.stringValue.newBuilder(objectName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(objectName_).mergeFrom(value).buildPartial();
             } else {
               objectName_ = value;
             }
@@ -3607,7 +3607,7 @@ public final class MiGetSourceCodeHistoryAd {
          * Name eines Datenbankobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
         public Builder clearObjectName() {
           if (objectNameBuilder_ == null) {
@@ -3625,9 +3625,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Name eines Datenbankobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getObjectNameBuilder() {
+        public io.dstore.values.StringValue.Builder getObjectNameBuilder() {
           
           onChanged();
           return getObjectNameFieldBuilder().getBuilder();
@@ -3637,14 +3637,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Name eines Datenbankobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getObjectNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getObjectNameOrBuilder() {
           if (objectNameBuilder_ != null) {
             return objectNameBuilder_.getMessageOrBuilder();
           } else {
             return objectName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : objectName_;
+                io.dstore.values.StringValue.getDefaultInstance() : objectName_;
           }
         }
         /**
@@ -3652,14 +3652,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Name eines Datenbankobjektes
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue object_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue object_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getObjectNameFieldBuilder() {
           if (objectNameBuilder_ == null) {
             objectNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getObjectName(),
                     getParentForChildren(),
                     isClean());
@@ -3668,15 +3668,15 @@ public final class MiGetSourceCodeHistoryAd {
           return objectNameBuilder_;
         }
 
-        private io.dstore.Values.stringValue comment_ = null;
+        private io.dstore.values.StringValue comment_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> commentBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> commentBuilder_;
         /**
          * <pre>
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
+         * <code>optional .dstore.values.StringValue comment = 20002;</code>
          */
         public boolean hasComment() {
           return commentBuilder_ != null || comment_ != null;
@@ -3686,11 +3686,11 @@ public final class MiGetSourceCodeHistoryAd {
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
+         * <code>optional .dstore.values.StringValue comment = 20002;</code>
          */
-        public io.dstore.Values.stringValue getComment() {
+        public io.dstore.values.StringValue getComment() {
           if (commentBuilder_ == null) {
-            return comment_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : comment_;
+            return comment_ == null ? io.dstore.values.StringValue.getDefaultInstance() : comment_;
           } else {
             return commentBuilder_.getMessage();
           }
@@ -3700,9 +3700,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
+         * <code>optional .dstore.values.StringValue comment = 20002;</code>
          */
-        public Builder setComment(io.dstore.Values.stringValue value) {
+        public Builder setComment(io.dstore.values.StringValue value) {
           if (commentBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3720,10 +3720,10 @@ public final class MiGetSourceCodeHistoryAd {
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
+         * <code>optional .dstore.values.StringValue comment = 20002;</code>
          */
         public Builder setComment(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (commentBuilder_ == null) {
             comment_ = builderForValue.build();
             onChanged();
@@ -3738,13 +3738,13 @@ public final class MiGetSourceCodeHistoryAd {
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
+         * <code>optional .dstore.values.StringValue comment = 20002;</code>
          */
-        public Builder mergeComment(io.dstore.Values.stringValue value) {
+        public Builder mergeComment(io.dstore.values.StringValue value) {
           if (commentBuilder_ == null) {
             if (comment_ != null) {
               comment_ =
-                io.dstore.Values.stringValue.newBuilder(comment_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(comment_).mergeFrom(value).buildPartial();
             } else {
               comment_ = value;
             }
@@ -3760,7 +3760,7 @@ public final class MiGetSourceCodeHistoryAd {
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
+         * <code>optional .dstore.values.StringValue comment = 20002;</code>
          */
         public Builder clearComment() {
           if (commentBuilder_ == null) {
@@ -3778,9 +3778,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
+         * <code>optional .dstore.values.StringValue comment = 20002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCommentBuilder() {
+        public io.dstore.values.StringValue.Builder getCommentBuilder() {
           
           onChanged();
           return getCommentFieldBuilder().getBuilder();
@@ -3790,14 +3790,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
+         * <code>optional .dstore.values.StringValue comment = 20002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCommentOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCommentOrBuilder() {
           if (commentBuilder_ != null) {
             return commentBuilder_.getMessageOrBuilder();
           } else {
             return comment_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : comment_;
+                io.dstore.values.StringValue.getDefaultInstance() : comment_;
           }
         }
         /**
@@ -3805,14 +3805,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Kommentar(zeile) zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue comment = 20002;</code>
+         * <code>optional .dstore.values.StringValue comment = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCommentFieldBuilder() {
           if (commentBuilder_ == null) {
             commentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getComment(),
                     getParentForChildren(),
                     isClean());
@@ -3821,15 +3821,15 @@ public final class MiGetSourceCodeHistoryAd {
           return commentBuilder_;
         }
 
-        private io.dstore.Values.integerValue rowNo_ = null;
+        private io.dstore.values.IntegerValue rowNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> rowNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> rowNoBuilder_;
         /**
          * <pre>
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
          */
         public boolean hasRowNo() {
           return rowNoBuilder_ != null || rowNo_ != null;
@@ -3839,11 +3839,11 @@ public final class MiGetSourceCodeHistoryAd {
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
          */
-        public io.dstore.Values.integerValue getRowNo() {
+        public io.dstore.values.IntegerValue getRowNo() {
           if (rowNoBuilder_ == null) {
-            return rowNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : rowNo_;
+            return rowNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : rowNo_;
           } else {
             return rowNoBuilder_.getMessage();
           }
@@ -3853,9 +3853,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
          */
-        public Builder setRowNo(io.dstore.Values.integerValue value) {
+        public Builder setRowNo(io.dstore.values.IntegerValue value) {
           if (rowNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3873,10 +3873,10 @@ public final class MiGetSourceCodeHistoryAd {
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
          */
         public Builder setRowNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (rowNoBuilder_ == null) {
             rowNo_ = builderForValue.build();
             onChanged();
@@ -3891,13 +3891,13 @@ public final class MiGetSourceCodeHistoryAd {
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
          */
-        public Builder mergeRowNo(io.dstore.Values.integerValue value) {
+        public Builder mergeRowNo(io.dstore.values.IntegerValue value) {
           if (rowNoBuilder_ == null) {
             if (rowNo_ != null) {
               rowNo_ =
-                io.dstore.Values.integerValue.newBuilder(rowNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(rowNo_).mergeFrom(value).buildPartial();
             } else {
               rowNo_ = value;
             }
@@ -3913,7 +3913,7 @@ public final class MiGetSourceCodeHistoryAd {
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
          */
         public Builder clearRowNo() {
           if (rowNoBuilder_ == null) {
@@ -3931,9 +3931,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getRowNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getRowNoBuilder() {
           
           onChanged();
           return getRowNoFieldBuilder().getBuilder();
@@ -3943,14 +3943,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getRowNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getRowNoOrBuilder() {
           if (rowNoBuilder_ != null) {
             return rowNoBuilder_.getMessageOrBuilder();
           } else {
             return rowNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : rowNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : rowNo_;
           }
         }
         /**
@@ -3958,14 +3958,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Bei mehrzeiligem Kommentar relevant. Bestimmt die Reihenfolge der Kommentarzeile "Comment" innerhalb aller Kommentarzeilen zur "HistoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue row_no = 20004;</code>
+         * <code>optional .dstore.values.IntegerValue row_no = 20004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getRowNoFieldBuilder() {
           if (rowNoBuilder_ == null) {
             rowNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getRowNo(),
                     getParentForChildren(),
                     isClean());
@@ -3974,15 +3974,15 @@ public final class MiGetSourceCodeHistoryAd {
           return rowNoBuilder_;
         }
 
-        private io.dstore.Values.integerValue codeLineNumber_ = null;
+        private io.dstore.values.IntegerValue codeLineNumber_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> codeLineNumberBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> codeLineNumberBuilder_;
         /**
          * <pre>
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
          */
         public boolean hasCodeLineNumber() {
           return codeLineNumberBuilder_ != null || codeLineNumber_ != null;
@@ -3992,11 +3992,11 @@ public final class MiGetSourceCodeHistoryAd {
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
          */
-        public io.dstore.Values.integerValue getCodeLineNumber() {
+        public io.dstore.values.IntegerValue getCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
-            return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+            return codeLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
           } else {
             return codeLineNumberBuilder_.getMessage();
           }
@@ -4006,9 +4006,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
          */
-        public Builder setCodeLineNumber(io.dstore.Values.integerValue value) {
+        public Builder setCodeLineNumber(io.dstore.values.IntegerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4026,10 +4026,10 @@ public final class MiGetSourceCodeHistoryAd {
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
          */
         public Builder setCodeLineNumber(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumber_ = builderForValue.build();
             onChanged();
@@ -4044,13 +4044,13 @@ public final class MiGetSourceCodeHistoryAd {
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
          */
-        public Builder mergeCodeLineNumber(io.dstore.Values.integerValue value) {
+        public Builder mergeCodeLineNumber(io.dstore.values.IntegerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (codeLineNumber_ != null) {
               codeLineNumber_ =
-                io.dstore.Values.integerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
             } else {
               codeLineNumber_ = value;
             }
@@ -4066,7 +4066,7 @@ public final class MiGetSourceCodeHistoryAd {
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
          */
         public Builder clearCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
@@ -4084,9 +4084,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCodeLineNumberBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCodeLineNumberBuilder() {
           
           onChanged();
           return getCodeLineNumberFieldBuilder().getBuilder();
@@ -4096,14 +4096,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder() {
           if (codeLineNumberBuilder_ != null) {
             return codeLineNumberBuilder_.getMessageOrBuilder();
           } else {
             return codeLineNumber_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
           }
         }
         /**
@@ -4111,14 +4111,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Eindeutige Nummer der Zeile im Source-Code der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 30001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 30001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCodeLineNumberFieldBuilder() {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCodeLineNumber(),
                     getParentForChildren(),
                     isClean());
@@ -4127,15 +4127,15 @@ public final class MiGetSourceCodeHistoryAd {
           return codeLineNumberBuilder_;
         }
 
-        private io.dstore.Values.stringValue codeLine_ = null;
+        private io.dstore.values.StringValue codeLine_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> codeLineBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> codeLineBuilder_;
         /**
          * <pre>
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+         * <code>optional .dstore.values.StringValue code_line = 30002;</code>
          */
         public boolean hasCodeLine() {
           return codeLineBuilder_ != null || codeLine_ != null;
@@ -4145,11 +4145,11 @@ public final class MiGetSourceCodeHistoryAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+         * <code>optional .dstore.values.StringValue code_line = 30002;</code>
          */
-        public io.dstore.Values.stringValue getCodeLine() {
+        public io.dstore.values.StringValue getCodeLine() {
           if (codeLineBuilder_ == null) {
-            return codeLine_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
+            return codeLine_ == null ? io.dstore.values.StringValue.getDefaultInstance() : codeLine_;
           } else {
             return codeLineBuilder_.getMessage();
           }
@@ -4159,9 +4159,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+         * <code>optional .dstore.values.StringValue code_line = 30002;</code>
          */
-        public Builder setCodeLine(io.dstore.Values.stringValue value) {
+        public Builder setCodeLine(io.dstore.values.StringValue value) {
           if (codeLineBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4179,10 +4179,10 @@ public final class MiGetSourceCodeHistoryAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+         * <code>optional .dstore.values.StringValue code_line = 30002;</code>
          */
         public Builder setCodeLine(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (codeLineBuilder_ == null) {
             codeLine_ = builderForValue.build();
             onChanged();
@@ -4197,13 +4197,13 @@ public final class MiGetSourceCodeHistoryAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+         * <code>optional .dstore.values.StringValue code_line = 30002;</code>
          */
-        public Builder mergeCodeLine(io.dstore.Values.stringValue value) {
+        public Builder mergeCodeLine(io.dstore.values.StringValue value) {
           if (codeLineBuilder_ == null) {
             if (codeLine_ != null) {
               codeLine_ =
-                io.dstore.Values.stringValue.newBuilder(codeLine_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(codeLine_).mergeFrom(value).buildPartial();
             } else {
               codeLine_ = value;
             }
@@ -4219,7 +4219,7 @@ public final class MiGetSourceCodeHistoryAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+         * <code>optional .dstore.values.StringValue code_line = 30002;</code>
          */
         public Builder clearCodeLine() {
           if (codeLineBuilder_ == null) {
@@ -4237,9 +4237,9 @@ public final class MiGetSourceCodeHistoryAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+         * <code>optional .dstore.values.StringValue code_line = 30002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCodeLineBuilder() {
+        public io.dstore.values.StringValue.Builder getCodeLineBuilder() {
           
           onChanged();
           return getCodeLineFieldBuilder().getBuilder();
@@ -4249,14 +4249,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+         * <code>optional .dstore.values.StringValue code_line = 30002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCodeLineOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCodeLineOrBuilder() {
           if (codeLineBuilder_ != null) {
             return codeLineBuilder_.getMessageOrBuilder();
           } else {
             return codeLine_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : codeLine_;
+                io.dstore.values.StringValue.getDefaultInstance() : codeLine_;
           }
         }
         /**
@@ -4264,14 +4264,14 @@ public final class MiGetSourceCodeHistoryAd {
          * Der komplette Code, der in Zeile "CodeLineNumber" der durch "&#64;HistoryID" angegebenen "historischen Quellcode-Version"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue code_line = 30002;</code>
+         * <code>optional .dstore.values.StringValue code_line = 30002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCodeLineFieldBuilder() {
           if (codeLineBuilder_ == null) {
             codeLineBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCodeLine(),
                     getParentForChildren(),
                     isClean());
@@ -5741,30 +5741,30 @@ public final class MiGetSourceCodeHistoryAd {
       "tSourceCodeHistory_Ad\032\023dstore/values.pro" +
       "to\032\032dstore/engine/engine.proto\"\212\003\n\nParam" +
       "eters\022/\n\013object_name\030\001 \001(\0132\032.dstore.valu" +
-      "es.stringValue\022\031\n\020object_name_null\030\351\007 \001(" +
-      "\010\0220\n\tfrom_date\030\002 \001(\0132\035.dstore.values.tim" +
+      "es.StringValue\022\031\n\020object_name_null\030\351\007 \001(" +
+      "\010\0220\n\tfrom_date\030\002 \001(\0132\035.dstore.values.Tim" +
       "estampValue\022\027\n\016from_date_null\030\352\007 \001(\010\022.\n\007" +
-      "to_date\030\003 \001(\0132\035.dstore.values.timestampV" +
+      "to_date\030\003 \001(\0132\035.dstore.values.TimestampV" +
       "alue\022\025\n\014to_date_null\030\353\007 \001(\010\022/\n\nhistory_i",
-      "d\030\004 \001(\0132\033.dstore.values.integerValue\022\030\n\017" +
+      "d\030\004 \001(\0132\033.dstore.values.IntegerValue\022\030\n\017" +
       "history_id_null\030\354\007 \001(\010\0224\n\017include_commen" +
-      "t\030\005 \001(\0132\033.dstore.values.booleanValue\022\035\n\024" +
+      "t\030\005 \001(\0132\033.dstore.values.BooleanValue\022\035\n\024" +
       "include_comment_null\030\355\007 \001(\010\"\353\004\n\010Response" +
       "\0228\n\020meta_information\030\002 \003(\0132\036.dstore.engi" +
       "ne.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.ds" +
       "tore.engine.Message\022C\n\003row\030\004 \003(\01326.dstor" +
       "e.engine.mi_GetSourceCodeHistory_Ad.Resp" +
       "onse.Row\032\266\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\013obj" +
-      "ect_type\030\221N \001(\0132\032.dstore.values.stringVa",
+      "ect_type\030\221N \001(\0132\032.dstore.values.StringVa",
       "lue\0220\n\nhistory_id\030\222N \001(\0132\033.dstore.values" +
-      ".integerValue\022@\n\030created_at_date_and_tim" +
-      "e\030\223N \001(\0132\035.dstore.values.timestampValue\022" +
-      "0\n\013object_name\030\224N \001(\0132\032.dstore.values.st" +
+      ".IntegerValue\022@\n\030created_at_date_and_tim" +
+      "e\030\223N \001(\0132\035.dstore.values.TimestampValue\022" +
+      "0\n\013object_name\030\224N \001(\0132\032.dstore.values.St" +
       "ringValue\022-\n\007comment\030\242\234\001 \001(\0132\032.dstore.va" +
-      "lues.stringValue\022-\n\006row_no\030\244\234\001 \001(\0132\033.dst" +
-      "ore.values.integerValue\0227\n\020code_line_num" +
-      "ber\030\261\352\001 \001(\0132\033.dstore.values.integerValue" +
-      "\022/\n\tcode_line\030\262\352\001 \001(\0132\032.dstore.values.st" +
+      "lues.StringValue\022-\n\006row_no\030\244\234\001 \001(\0132\033.dst" +
+      "ore.values.IntegerValue\0227\n\020code_line_num" +
+      "ber\030\261\352\001 \001(\0132\033.dstore.values.IntegerValue" +
+      "\022/\n\tcode_line\030\262\352\001 \001(\0132\032.dstore.values.St" +
       "ringValueB[\n\033io.dstore.engine.procedures",
       "Z<gosdk.dstore.de/engine/procedures/mi_G" +
       "etSourceCodeHistory_Adb\006proto3"
@@ -5780,7 +5780,7 @@ public final class MiGetSourceCodeHistoryAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetSourceCodeHistory_Ad_Parameters_descriptor =
@@ -5801,7 +5801,7 @@ public final class MiGetSourceCodeHistoryAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetSourceCodeHistory_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ObjectType", "HistoryId", "CreatedAtDateAndTime", "ObjectName", "Comment", "RowNo", "CodeLineNumber", "CodeLine", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

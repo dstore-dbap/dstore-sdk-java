@@ -19,17 +19,17 @@ public final class FoModifyCharacsForForumsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    io.dstore.Values.integerValue getForumId();
+    io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class FoModifyCharacsForForumsAd {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
     boolean hasPostingCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPostingCharacteristicId();
+    io.dstore.values.IntegerValue getPostingCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool posting_characteristic_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class FoModifyCharacsForForumsAd {
     boolean getPostingCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
      */
     boolean hasDeleteRelation();
     /**
-     * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
      */
-    io.dstore.Values.booleanValue getDeleteRelation();
+    io.dstore.values.BooleanValue getDeleteRelation();
     /**
-     * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteRelationOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteRelationOrBuilder();
 
     /**
      * <code>optional bool delete_relation_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class FoModifyCharacsForForumsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class FoModifyCharacsForForumsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (postingCharacteristicId_ != null) {
                 subBuilder = postingCharacteristicId_.toBuilder();
               }
-              postingCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              postingCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(postingCharacteristicId_);
                 postingCharacteristicId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class FoModifyCharacsForForumsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteRelation_ != null) {
                 subBuilder = deleteRelation_.toBuilder();
               }
-              deleteRelation_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteRelation_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteRelation_);
                 deleteRelation_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class FoModifyCharacsForForumsAd {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue forumId_;
+    private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.values.IntegerValue getForumId() {
+      return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -222,23 +222,23 @@ public final class FoModifyCharacsForForumsAd {
     }
 
     public static final int POSTING_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue postingCharacteristicId_;
+    private io.dstore.values.IntegerValue postingCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
     public boolean hasPostingCharacteristicId() {
       return postingCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPostingCharacteristicId() {
-      return postingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+    public io.dstore.values.IntegerValue getPostingCharacteristicId() {
+      return postingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
       return getPostingCharacteristicId();
     }
 
@@ -252,23 +252,23 @@ public final class FoModifyCharacsForForumsAd {
     }
 
     public static final int DELETE_RELATION_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue deleteRelation_;
+    private io.dstore.values.BooleanValue deleteRelation_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
      */
     public boolean hasDeleteRelation() {
       return deleteRelation_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteRelation() {
-      return deleteRelation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteRelation_;
+    public io.dstore.values.BooleanValue getDeleteRelation() {
+      return deleteRelation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteRelation_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteRelationOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteRelationOrBuilder() {
       return getDeleteRelation();
     }
 
@@ -677,29 +677,29 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue forumId_ = null;
+      private io.dstore.values.IntegerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getForumId() {
+      public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public Builder setForumId(io.dstore.Values.integerValue value) {
+      public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder setForumId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public Builder mergeForumId(io.dstore.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -745,7 +745,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue postingCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue postingCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> postingCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public boolean hasPostingCharacteristicId() {
         return postingCharacteristicIdBuilder_ != null || postingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPostingCharacteristicId() {
+      public io.dstore.values.IntegerValue getPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
-          return postingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+          return postingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingCharacteristicId_;
         } else {
           return postingCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
-      public Builder setPostingCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setPostingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public Builder setPostingCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (postingCharacteristicIdBuilder_ == null) {
           postingCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
-      public Builder mergePostingCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergePostingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (postingCharacteristicIdBuilder_ == null) {
           if (postingCharacteristicId_ != null) {
             postingCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(postingCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(postingCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             postingCharacteristicId_ = value;
           }
@@ -888,7 +888,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       public Builder clearPostingCharacteristicId() {
         if (postingCharacteristicIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPostingCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPostingCharacteristicIdBuilder() {
         
         onChanged();
         return getPostingCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPostingCharacteristicIdOrBuilder() {
         if (postingCharacteristicIdBuilder_ != null) {
           return postingCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return postingCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : postingCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : postingCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue posting_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPostingCharacteristicIdFieldBuilder() {
         if (postingCharacteristicIdBuilder_ == null) {
           postingCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPostingCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteRelation_ = null;
+      private io.dstore.values.BooleanValue deleteRelation_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteRelationBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteRelationBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public boolean hasDeleteRelation() {
         return deleteRelationBuilder_ != null || deleteRelation_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteRelation() {
+      public io.dstore.values.BooleanValue getDeleteRelation() {
         if (deleteRelationBuilder_ == null) {
-          return deleteRelation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteRelation_;
+          return deleteRelation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteRelation_;
         } else {
           return deleteRelationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
        */
-      public Builder setDeleteRelation(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteRelation(io.dstore.values.BooleanValue value) {
         if (deleteRelationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public Builder setDeleteRelation(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteRelationBuilder_ == null) {
           deleteRelation_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
        */
-      public Builder mergeDeleteRelation(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteRelation(io.dstore.values.BooleanValue value) {
         if (deleteRelationBuilder_ == null) {
           if (deleteRelation_ != null) {
             deleteRelation_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteRelation_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteRelation_).mergeFrom(value).buildPartial();
           } else {
             deleteRelation_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
        */
       public Builder clearDeleteRelation() {
         if (deleteRelationBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class FoModifyCharacsForForumsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteRelationBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteRelationBuilder() {
         
         onChanged();
         return getDeleteRelationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteRelationOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteRelationOrBuilder() {
         if (deleteRelationBuilder_ != null) {
           return deleteRelationBuilder_.getMessageOrBuilder();
         } else {
           return deleteRelation_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteRelation_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteRelation_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_relation = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_relation = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteRelationFieldBuilder() {
         if (deleteRelationBuilder_ == null) {
           deleteRelationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteRelation(),
                   getParentForChildren(),
                   isClean());
@@ -3193,11 +3193,11 @@ public final class FoModifyCharacsForForumsAd {
       "ModifyCharacsForForums_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\221\002\n\nP" +
       "arameters\022-\n\010forum_id\030\001 \001(\0132\033.dstore.val" +
-      "ues.integerValue\022\026\n\rforum_id_null\030\351\007 \001(\010" +
+      "ues.IntegerValue\022\026\n\rforum_id_null\030\351\007 \001(\010" +
       "\022>\n\031posting_characteristic_id\030\002 \001(\0132\033.ds" +
-      "tore.values.integerValue\022\'\n\036posting_char" +
+      "tore.values.IntegerValue\022\'\n\036posting_char" +
       "acteristic_id_null\030\352\007 \001(\010\0224\n\017delete_rela" +
-      "tion\030\003 \001(\0132\033.dstore.values.booleanValue\022",
+      "tion\030\003 \001(\0132\033.dstore.values.BooleanValue\022",
       "\035\n\024delete_relation_null\030\353\007 \001(\010\"\314\001\n\010Respo" +
       "nse\0228\n\020meta_information\030\002 \003(\0132\036.dstore.e" +
       "ngine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026" +
@@ -3219,7 +3219,7 @@ public final class FoModifyCharacsForForumsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_fo_ModifyCharacsForForums_Ad_Parameters_descriptor =
@@ -3240,7 +3240,7 @@ public final class FoModifyCharacsForForumsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_ModifyCharacsForForums_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

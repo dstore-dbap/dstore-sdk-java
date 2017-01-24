@@ -19,17 +19,17 @@ public final class MiInsertTempdbAdditionalInfo {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
      */
     boolean hasTableIdList();
     /**
-     * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
      */
-    io.dstore.Values.stringValue getTableIdList();
+    io.dstore.values.StringValue getTableIdList();
     /**
-     * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTableIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTableIdListOrBuilder();
 
     /**
      * <code>optional bool table_id_list_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiInsertTempdbAdditionalInfo {
     boolean getTableIdListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
      */
     boolean hasTableKeyIdList();
     /**
-     * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
      */
-    io.dstore.Values.stringValue getTableKeyIdList();
+    io.dstore.values.StringValue getTableKeyIdList();
     /**
-     * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTableKeyIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTableKeyIdListOrBuilder();
 
     /**
      * <code>optional bool table_key_id_list_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiInsertTempdbAdditionalInfo {
     boolean getTableKeyIdListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
      */
     boolean hasInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
      */
-    io.dstore.Values.stringValue getInformationTypeIdList();
+    io.dstore.values.StringValue getInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getInformationTypeIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder();
 
     /**
      * <code>optional bool information_type_id_list_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiInsertTempdbAdditionalInfo {
     boolean getInformationTypeIdListNull();
 
     /**
-     * <code>optional .dstore.values.stringValue information_list = 4;</code>
+     * <code>optional .dstore.values.StringValue information_list = 4;</code>
      */
     boolean hasInformationList();
     /**
-     * <code>optional .dstore.values.stringValue information_list = 4;</code>
+     * <code>optional .dstore.values.StringValue information_list = 4;</code>
      */
-    io.dstore.Values.stringValue getInformationList();
+    io.dstore.values.StringValue getInformationList();
     /**
-     * <code>optional .dstore.values.stringValue information_list = 4;</code>
+     * <code>optional .dstore.values.StringValue information_list = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getInformationListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getInformationListOrBuilder();
 
     /**
      * <code>optional bool information_list_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiInsertTempdbAdditionalInfo {
     boolean getInformationListNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
      */
-    io.dstore.Values.booleanValue getDelete();
+    io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class MiInsertTempdbAdditionalInfo {
     boolean getDeleteNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator = 6;</code>
+     * <code>optional .dstore.values.StringValue separator = 6;</code>
      */
     boolean hasSeparator();
     /**
-     * <code>optional .dstore.values.stringValue separator = 6;</code>
+     * <code>optional .dstore.values.StringValue separator = 6;</code>
      */
-    io.dstore.Values.stringValue getSeparator();
+    io.dstore.values.StringValue getSeparator();
     /**
-     * <code>optional .dstore.values.stringValue separator = 6;</code>
+     * <code>optional .dstore.values.StringValue separator = 6;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorOrBuilder();
 
     /**
      * <code>optional bool separator_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class MiInsertTempdbAdditionalInfo {
     boolean getSeparatorNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
      */
     boolean hasCheckByteLengthForStrings();
     /**
-     * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
      */
-    io.dstore.Values.booleanValue getCheckByteLengthForStrings();
+    io.dstore.values.BooleanValue getCheckByteLengthForStrings();
     /**
-     * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCheckByteLengthForStringsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCheckByteLengthForStringsOrBuilder();
 
     /**
      * <code>optional bool check_byte_length_for_strings_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class MiInsertTempdbAdditionalInfo {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (tableIdList_ != null) {
                 subBuilder = tableIdList_.toBuilder();
               }
-              tableIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              tableIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableIdList_);
                 tableIdList_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class MiInsertTempdbAdditionalInfo {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (tableKeyIdList_ != null) {
                 subBuilder = tableKeyIdList_.toBuilder();
               }
-              tableKeyIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              tableKeyIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableKeyIdList_);
                 tableKeyIdList_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class MiInsertTempdbAdditionalInfo {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (informationTypeIdList_ != null) {
                 subBuilder = informationTypeIdList_.toBuilder();
               }
-              informationTypeIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              informationTypeIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeIdList_);
                 informationTypeIdList_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class MiInsertTempdbAdditionalInfo {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (informationList_ != null) {
                 subBuilder = informationList_.toBuilder();
               }
-              informationList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              informationList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationList_);
                 informationList_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class MiInsertTempdbAdditionalInfo {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class MiInsertTempdbAdditionalInfo {
               break;
             }
             case 50: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separator_ != null) {
                 subBuilder = separator_.toBuilder();
               }
-              separator_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separator_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separator_);
                 separator_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class MiInsertTempdbAdditionalInfo {
               break;
             }
             case 58: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (checkByteLengthForStrings_ != null) {
                 subBuilder = checkByteLengthForStrings_.toBuilder();
               }
-              checkByteLengthForStrings_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              checkByteLengthForStrings_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkByteLengthForStrings_);
                 checkByteLengthForStrings_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class MiInsertTempdbAdditionalInfo {
     }
 
     public static final int TABLE_ID_LIST_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue tableIdList_;
+    private io.dstore.values.StringValue tableIdList_;
     /**
-     * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
      */
     public boolean hasTableIdList() {
       return tableIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
      */
-    public io.dstore.Values.stringValue getTableIdList() {
-      return tableIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableIdList_;
+    public io.dstore.values.StringValue getTableIdList() {
+      return tableIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTableIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTableIdListOrBuilder() {
       return getTableIdList();
     }
 
@@ -370,23 +370,23 @@ public final class MiInsertTempdbAdditionalInfo {
     }
 
     public static final int TABLE_KEY_ID_LIST_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue tableKeyIdList_;
+    private io.dstore.values.StringValue tableKeyIdList_;
     /**
-     * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
      */
     public boolean hasTableKeyIdList() {
       return tableKeyIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
      */
-    public io.dstore.Values.stringValue getTableKeyIdList() {
-      return tableKeyIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableKeyIdList_;
+    public io.dstore.values.StringValue getTableKeyIdList() {
+      return tableKeyIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableKeyIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTableKeyIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTableKeyIdListOrBuilder() {
       return getTableKeyIdList();
     }
 
@@ -400,23 +400,23 @@ public final class MiInsertTempdbAdditionalInfo {
     }
 
     public static final int INFORMATION_TYPE_ID_LIST_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue informationTypeIdList_;
+    private io.dstore.values.StringValue informationTypeIdList_;
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
      */
     public boolean hasInformationTypeIdList() {
       return informationTypeIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
      */
-    public io.dstore.Values.stringValue getInformationTypeIdList() {
-      return informationTypeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationTypeIdList_;
+    public io.dstore.values.StringValue getInformationTypeIdList() {
+      return informationTypeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationTypeIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+     * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getInformationTypeIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder() {
       return getInformationTypeIdList();
     }
 
@@ -430,23 +430,23 @@ public final class MiInsertTempdbAdditionalInfo {
     }
 
     public static final int INFORMATION_LIST_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue informationList_;
+    private io.dstore.values.StringValue informationList_;
     /**
-     * <code>optional .dstore.values.stringValue information_list = 4;</code>
+     * <code>optional .dstore.values.StringValue information_list = 4;</code>
      */
     public boolean hasInformationList() {
       return informationList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue information_list = 4;</code>
+     * <code>optional .dstore.values.StringValue information_list = 4;</code>
      */
-    public io.dstore.Values.stringValue getInformationList() {
-      return informationList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationList_;
+    public io.dstore.values.StringValue getInformationList() {
+      return informationList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue information_list = 4;</code>
+     * <code>optional .dstore.values.StringValue information_list = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getInformationListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getInformationListOrBuilder() {
       return getInformationList();
     }
 
@@ -460,23 +460,23 @@ public final class MiInsertTempdbAdditionalInfo {
     }
 
     public static final int DELETE_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue delete_;
+    private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.booleanValue delete = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
      */
-    public io.dstore.Values.booleanValue getDelete() {
-      return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+    public io.dstore.values.BooleanValue getDelete() {
+      return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 5;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -490,23 +490,23 @@ public final class MiInsertTempdbAdditionalInfo {
     }
 
     public static final int SEPARATOR_FIELD_NUMBER = 6;
-    private io.dstore.Values.stringValue separator_;
+    private io.dstore.values.StringValue separator_;
     /**
-     * <code>optional .dstore.values.stringValue separator = 6;</code>
+     * <code>optional .dstore.values.StringValue separator = 6;</code>
      */
     public boolean hasSeparator() {
       return separator_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator = 6;</code>
+     * <code>optional .dstore.values.StringValue separator = 6;</code>
      */
-    public io.dstore.Values.stringValue getSeparator() {
-      return separator_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separator_;
+    public io.dstore.values.StringValue getSeparator() {
+      return separator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separator_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator = 6;</code>
+     * <code>optional .dstore.values.StringValue separator = 6;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorOrBuilder() {
       return getSeparator();
     }
 
@@ -520,23 +520,23 @@ public final class MiInsertTempdbAdditionalInfo {
     }
 
     public static final int CHECK_BYTE_LENGTH_FOR_STRINGS_FIELD_NUMBER = 7;
-    private io.dstore.Values.booleanValue checkByteLengthForStrings_;
+    private io.dstore.values.BooleanValue checkByteLengthForStrings_;
     /**
-     * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
      */
     public boolean hasCheckByteLengthForStrings() {
       return checkByteLengthForStrings_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
      */
-    public io.dstore.Values.booleanValue getCheckByteLengthForStrings() {
-      return checkByteLengthForStrings_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkByteLengthForStrings_;
+    public io.dstore.values.BooleanValue getCheckByteLengthForStrings() {
+      return checkByteLengthForStrings_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkByteLengthForStrings_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+     * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCheckByteLengthForStringsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCheckByteLengthForStringsOrBuilder() {
       return getCheckByteLengthForStrings();
     }
 
@@ -1137,29 +1137,29 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
 
-      private io.dstore.Values.stringValue tableIdList_ = null;
+      private io.dstore.values.StringValue tableIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tableIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
        */
       public boolean hasTableIdList() {
         return tableIdListBuilder_ != null || tableIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
        */
-      public io.dstore.Values.stringValue getTableIdList() {
+      public io.dstore.values.StringValue getTableIdList() {
         if (tableIdListBuilder_ == null) {
-          return tableIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableIdList_;
+          return tableIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableIdList_;
         } else {
           return tableIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
        */
-      public Builder setTableIdList(io.dstore.Values.stringValue value) {
+      public Builder setTableIdList(io.dstore.values.StringValue value) {
         if (tableIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
        */
       public Builder setTableIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (tableIdListBuilder_ == null) {
           tableIdList_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
        */
-      public Builder mergeTableIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeTableIdList(io.dstore.values.StringValue value) {
         if (tableIdListBuilder_ == null) {
           if (tableIdList_ != null) {
             tableIdList_ =
-              io.dstore.Values.stringValue.newBuilder(tableIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(tableIdList_).mergeFrom(value).buildPartial();
           } else {
             tableIdList_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
        */
       public Builder clearTableIdList() {
         if (tableIdListBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTableIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getTableIdListBuilder() {
         
         onChanged();
         return getTableIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTableIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTableIdListOrBuilder() {
         if (tableIdListBuilder_ != null) {
           return tableIdListBuilder_.getMessageOrBuilder();
         } else {
           return tableIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : tableIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : tableIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue table_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue table_id_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTableIdListFieldBuilder() {
         if (tableIdListBuilder_ == null) {
           tableIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTableIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
 
-      private io.dstore.Values.stringValue tableKeyIdList_ = null;
+      private io.dstore.values.StringValue tableKeyIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> tableKeyIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> tableKeyIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
        */
       public boolean hasTableKeyIdList() {
         return tableKeyIdListBuilder_ != null || tableKeyIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValue getTableKeyIdList() {
+      public io.dstore.values.StringValue getTableKeyIdList() {
         if (tableKeyIdListBuilder_ == null) {
-          return tableKeyIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : tableKeyIdList_;
+          return tableKeyIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : tableKeyIdList_;
         } else {
           return tableKeyIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
        */
-      public Builder setTableKeyIdList(io.dstore.Values.stringValue value) {
+      public Builder setTableKeyIdList(io.dstore.values.StringValue value) {
         if (tableKeyIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
        */
       public Builder setTableKeyIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (tableKeyIdListBuilder_ == null) {
           tableKeyIdList_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
        */
-      public Builder mergeTableKeyIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeTableKeyIdList(io.dstore.values.StringValue value) {
         if (tableKeyIdListBuilder_ == null) {
           if (tableKeyIdList_ != null) {
             tableKeyIdList_ =
-              io.dstore.Values.stringValue.newBuilder(tableKeyIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(tableKeyIdList_).mergeFrom(value).buildPartial();
           } else {
             tableKeyIdList_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
        */
       public Builder clearTableKeyIdList() {
         if (tableKeyIdListBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTableKeyIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getTableKeyIdListBuilder() {
         
         onChanged();
         return getTableKeyIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTableKeyIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTableKeyIdListOrBuilder() {
         if (tableKeyIdListBuilder_ != null) {
           return tableKeyIdListBuilder_.getMessageOrBuilder();
         } else {
           return tableKeyIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : tableKeyIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : tableKeyIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue table_key_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue table_key_id_list = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTableKeyIdListFieldBuilder() {
         if (tableKeyIdListBuilder_ == null) {
           tableKeyIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTableKeyIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
 
-      private io.dstore.Values.stringValue informationTypeIdList_ = null;
+      private io.dstore.values.StringValue informationTypeIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationTypeIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
        */
       public boolean hasInformationTypeIdList() {
         return informationTypeIdListBuilder_ != null || informationTypeIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
        */
-      public io.dstore.Values.stringValue getInformationTypeIdList() {
+      public io.dstore.values.StringValue getInformationTypeIdList() {
         if (informationTypeIdListBuilder_ == null) {
-          return informationTypeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationTypeIdList_;
+          return informationTypeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationTypeIdList_;
         } else {
           return informationTypeIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
        */
-      public Builder setInformationTypeIdList(io.dstore.Values.stringValue value) {
+      public Builder setInformationTypeIdList(io.dstore.values.StringValue value) {
         if (informationTypeIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
        */
       public Builder setInformationTypeIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (informationTypeIdListBuilder_ == null) {
           informationTypeIdList_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
        */
-      public Builder mergeInformationTypeIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeInformationTypeIdList(io.dstore.values.StringValue value) {
         if (informationTypeIdListBuilder_ == null) {
           if (informationTypeIdList_ != null) {
             informationTypeIdList_ =
-              io.dstore.Values.stringValue.newBuilder(informationTypeIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(informationTypeIdList_).mergeFrom(value).buildPartial();
           } else {
             informationTypeIdList_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
        */
       public Builder clearInformationTypeIdList() {
         if (informationTypeIdListBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getInformationTypeIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getInformationTypeIdListBuilder() {
         
         onChanged();
         return getInformationTypeIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationTypeIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationTypeIdListOrBuilder() {
         if (informationTypeIdListBuilder_ != null) {
           return informationTypeIdListBuilder_.getMessageOrBuilder();
         } else {
           return informationTypeIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : informationTypeIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : informationTypeIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue information_type_id_list = 3;</code>
+       * <code>optional .dstore.values.StringValue information_type_id_list = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getInformationTypeIdListFieldBuilder() {
         if (informationTypeIdListBuilder_ == null) {
           informationTypeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getInformationTypeIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
 
-      private io.dstore.Values.stringValue informationList_ = null;
+      private io.dstore.values.StringValue informationList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue information_list = 4;</code>
+       * <code>optional .dstore.values.StringValue information_list = 4;</code>
        */
       public boolean hasInformationList() {
         return informationListBuilder_ != null || informationList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_list = 4;</code>
+       * <code>optional .dstore.values.StringValue information_list = 4;</code>
        */
-      public io.dstore.Values.stringValue getInformationList() {
+      public io.dstore.values.StringValue getInformationList() {
         if (informationListBuilder_ == null) {
-          return informationList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationList_;
+          return informationList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationList_;
         } else {
           return informationListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue information_list = 4;</code>
+       * <code>optional .dstore.values.StringValue information_list = 4;</code>
        */
-      public Builder setInformationList(io.dstore.Values.stringValue value) {
+      public Builder setInformationList(io.dstore.values.StringValue value) {
         if (informationListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_list = 4;</code>
+       * <code>optional .dstore.values.StringValue information_list = 4;</code>
        */
       public Builder setInformationList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (informationListBuilder_ == null) {
           informationList_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_list = 4;</code>
+       * <code>optional .dstore.values.StringValue information_list = 4;</code>
        */
-      public Builder mergeInformationList(io.dstore.Values.stringValue value) {
+      public Builder mergeInformationList(io.dstore.values.StringValue value) {
         if (informationListBuilder_ == null) {
           if (informationList_ != null) {
             informationList_ =
-              io.dstore.Values.stringValue.newBuilder(informationList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(informationList_).mergeFrom(value).buildPartial();
           } else {
             informationList_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_list = 4;</code>
+       * <code>optional .dstore.values.StringValue information_list = 4;</code>
        */
       public Builder clearInformationList() {
         if (informationListBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information_list = 4;</code>
+       * <code>optional .dstore.values.StringValue information_list = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getInformationListBuilder() {
+      public io.dstore.values.StringValue.Builder getInformationListBuilder() {
         
         onChanged();
         return getInformationListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue information_list = 4;</code>
+       * <code>optional .dstore.values.StringValue information_list = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationListOrBuilder() {
         if (informationListBuilder_ != null) {
           return informationListBuilder_.getMessageOrBuilder();
         } else {
           return informationList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : informationList_;
+              io.dstore.values.StringValue.getDefaultInstance() : informationList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue information_list = 4;</code>
+       * <code>optional .dstore.values.StringValue information_list = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getInformationListFieldBuilder() {
         if (informationListBuilder_ == null) {
           informationListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getInformationList(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
 
-      private io.dstore.Values.booleanValue delete_ = null;
+      private io.dstore.values.BooleanValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
        */
-      public io.dstore.Values.booleanValue getDelete() {
+      public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
        */
-      public Builder setDelete(io.dstore.Values.booleanValue value) {
+      public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
        */
       public Builder setDelete(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
        */
-      public Builder mergeDelete(io.dstore.Values.booleanValue value) {
+      public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 5;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
 
-      private io.dstore.Values.stringValue separator_ = null;
+      private io.dstore.values.StringValue separator_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator = 6;</code>
+       * <code>optional .dstore.values.StringValue separator = 6;</code>
        */
       public boolean hasSeparator() {
         return separatorBuilder_ != null || separator_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator = 6;</code>
+       * <code>optional .dstore.values.StringValue separator = 6;</code>
        */
-      public io.dstore.Values.stringValue getSeparator() {
+      public io.dstore.values.StringValue getSeparator() {
         if (separatorBuilder_ == null) {
-          return separator_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separator_;
+          return separator_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separator_;
         } else {
           return separatorBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator = 6;</code>
+       * <code>optional .dstore.values.StringValue separator = 6;</code>
        */
-      public Builder setSeparator(io.dstore.Values.stringValue value) {
+      public Builder setSeparator(io.dstore.values.StringValue value) {
         if (separatorBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator = 6;</code>
+       * <code>optional .dstore.values.StringValue separator = 6;</code>
        */
       public Builder setSeparator(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorBuilder_ == null) {
           separator_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator = 6;</code>
+       * <code>optional .dstore.values.StringValue separator = 6;</code>
        */
-      public Builder mergeSeparator(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparator(io.dstore.values.StringValue value) {
         if (separatorBuilder_ == null) {
           if (separator_ != null) {
             separator_ =
-              io.dstore.Values.stringValue.newBuilder(separator_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separator_).mergeFrom(value).buildPartial();
           } else {
             separator_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator = 6;</code>
+       * <code>optional .dstore.values.StringValue separator = 6;</code>
        */
       public Builder clearSeparator() {
         if (separatorBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator = 6;</code>
+       * <code>optional .dstore.values.StringValue separator = 6;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorBuilder() {
         
         onChanged();
         return getSeparatorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator = 6;</code>
+       * <code>optional .dstore.values.StringValue separator = 6;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorOrBuilder() {
         if (separatorBuilder_ != null) {
           return separatorBuilder_.getMessageOrBuilder();
         } else {
           return separator_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separator_;
+              io.dstore.values.StringValue.getDefaultInstance() : separator_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator = 6;</code>
+       * <code>optional .dstore.values.StringValue separator = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorFieldBuilder() {
         if (separatorBuilder_ == null) {
           separatorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparator(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
 
-      private io.dstore.Values.booleanValue checkByteLengthForStrings_ = null;
+      private io.dstore.values.BooleanValue checkByteLengthForStrings_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> checkByteLengthForStringsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> checkByteLengthForStringsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
        */
       public boolean hasCheckByteLengthForStrings() {
         return checkByteLengthForStringsBuilder_ != null || checkByteLengthForStrings_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
        */
-      public io.dstore.Values.booleanValue getCheckByteLengthForStrings() {
+      public io.dstore.values.BooleanValue getCheckByteLengthForStrings() {
         if (checkByteLengthForStringsBuilder_ == null) {
-          return checkByteLengthForStrings_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : checkByteLengthForStrings_;
+          return checkByteLengthForStrings_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : checkByteLengthForStrings_;
         } else {
           return checkByteLengthForStringsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
        */
-      public Builder setCheckByteLengthForStrings(io.dstore.Values.booleanValue value) {
+      public Builder setCheckByteLengthForStrings(io.dstore.values.BooleanValue value) {
         if (checkByteLengthForStringsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
        */
       public Builder setCheckByteLengthForStrings(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (checkByteLengthForStringsBuilder_ == null) {
           checkByteLengthForStrings_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
        */
-      public Builder mergeCheckByteLengthForStrings(io.dstore.Values.booleanValue value) {
+      public Builder mergeCheckByteLengthForStrings(io.dstore.values.BooleanValue value) {
         if (checkByteLengthForStringsBuilder_ == null) {
           if (checkByteLengthForStrings_ != null) {
             checkByteLengthForStrings_ =
-              io.dstore.Values.booleanValue.newBuilder(checkByteLengthForStrings_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(checkByteLengthForStrings_).mergeFrom(value).buildPartial();
           } else {
             checkByteLengthForStrings_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
        */
       public Builder clearCheckByteLengthForStrings() {
         if (checkByteLengthForStringsBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class MiInsertTempdbAdditionalInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCheckByteLengthForStringsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCheckByteLengthForStringsBuilder() {
         
         onChanged();
         return getCheckByteLengthForStringsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCheckByteLengthForStringsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCheckByteLengthForStringsOrBuilder() {
         if (checkByteLengthForStringsBuilder_ != null) {
           return checkByteLengthForStringsBuilder_.getMessageOrBuilder();
         } else {
           return checkByteLengthForStrings_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : checkByteLengthForStrings_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : checkByteLengthForStrings_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue check_byte_length_for_strings = 7;</code>
+       * <code>optional .dstore.values.BooleanValue check_byte_length_for_strings = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCheckByteLengthForStringsFieldBuilder() {
         if (checkByteLengthForStringsBuilder_ == null) {
           checkByteLengthForStringsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCheckByteLengthForStrings(),
                   getParentForChildren(),
                   isClean());
@@ -4225,20 +4225,20 @@ public final class MiInsertTempdbAdditionalInfo {
       "i_InsertTempdb_AdditionalInfo\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\354" +
       "\004\n\nParameters\0221\n\rtable_id_list\030\001 \001(\0132\032.d" +
-      "store.values.stringValue\022\033\n\022table_id_lis" +
+      "store.values.StringValue\022\033\n\022table_id_lis" +
       "t_null\030\351\007 \001(\010\0225\n\021table_key_id_list\030\002 \001(\013" +
-      "2\032.dstore.values.stringValue\022\037\n\026table_ke" +
+      "2\032.dstore.values.StringValue\022\037\n\026table_ke" +
       "y_id_list_null\030\352\007 \001(\010\022<\n\030information_typ" +
-      "e_id_list\030\003 \001(\0132\032.dstore.values.stringVa",
+      "e_id_list\030\003 \001(\0132\032.dstore.values.StringVa",
       "lue\022&\n\035information_type_id_list_null\030\353\007 " +
       "\001(\010\0224\n\020information_list\030\004 \001(\0132\032.dstore.v" +
-      "alues.stringValue\022\036\n\025information_list_nu" +
+      "alues.StringValue\022\036\n\025information_list_nu" +
       "ll\030\354\007 \001(\010\022+\n\006delete\030\005 \001(\0132\033.dstore.value" +
-      "s.booleanValue\022\024\n\013delete_null\030\355\007 \001(\010\022-\n\t" +
-      "separator\030\006 \001(\0132\032.dstore.values.stringVa" +
+      "s.BooleanValue\022\024\n\013delete_null\030\355\007 \001(\010\022-\n\t" +
+      "separator\030\006 \001(\0132\032.dstore.values.StringVa" +
       "lue\022\027\n\016separator_null\030\356\007 \001(\010\022B\n\035check_by" +
       "te_length_for_strings\030\007 \001(\0132\033.dstore.val" +
-      "ues.booleanValue\022+\n\"check_byte_length_fo" +
+      "ues.BooleanValue\022+\n\"check_byte_length_fo" +
       "r_strings_null\030\357\007 \001(\010\"\316\001\n\010Response\0228\n\020me",
       "ta_information\030\002 \003(\0132\036.dstore.engine.Met" +
       "aInformation\022\'\n\007message\030\003 \003(\0132\026.dstore.e" +
@@ -4260,7 +4260,7 @@ public final class MiInsertTempdbAdditionalInfo {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_InsertTempdb_AdditionalInfo_Parameters_descriptor =
@@ -4281,7 +4281,7 @@ public final class MiInsertTempdbAdditionalInfo {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_InsertTempdb_AdditionalInfo_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

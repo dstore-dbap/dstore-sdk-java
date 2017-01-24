@@ -19,17 +19,17 @@ public final class PmGetLockedPersonTypesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUserId();
+    io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetLockedPersonTypesAd {
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class PmGetLockedPersonTypesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class PmGetLockedPersonTypesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class PmGetLockedPersonTypesAd {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue userId_;
+    private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.values.IntegerValue getUserId() {
+      return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -185,23 +185,23 @@ public final class PmGetLockedPersonTypesAd {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -562,29 +562,29 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userId_ = null;
+      private io.dstore.values.IntegerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
+      public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder setUserId(io.dstore.Values.integerValue value) {
+      public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder mergeUserId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -630,7 +630,7 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -773,7 +773,7 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class PmGetLockedPersonTypesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class PmGetLockedPersonTypesAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
       boolean hasUserName();
       /**
@@ -1115,24 +1115,24 @@ public final class PmGetLockedPersonTypesAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
-      io.dstore.Values.stringValue getUserName();
+      io.dstore.values.StringValue getUserName();
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
        */
       boolean hasPersonTypeDescription();
       /**
@@ -1140,24 +1140,24 @@ public final class PmGetLockedPersonTypesAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
        */
-      io.dstore.Values.stringValue getPersonTypeDescription();
+      io.dstore.values.StringValue getPersonTypeDescription();
       /**
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPersonTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPersonTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
       boolean hasUserId();
       /**
@@ -1165,24 +1165,24 @@ public final class PmGetLockedPersonTypesAd {
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getUserId();
+      io.dstore.values.IntegerValue getUserId();
       /**
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       boolean hasPersonTypeId();
       /**
@@ -1190,17 +1190,17 @@ public final class PmGetLockedPersonTypesAd {
        * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
-      io.dstore.Values.integerValue getPersonTypeId();
+      io.dstore.values.IntegerValue getPersonTypeId();
       /**
        * <pre>
        * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetLockedPersonTypes_Ad.Response.Row}
@@ -1248,11 +1248,11 @@ public final class PmGetLockedPersonTypesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (userName_ != null) {
                   subBuilder = userName_.toBuilder();
                 }
-                userName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                userName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userName_);
                   userName_ = subBuilder.buildPartial();
@@ -1261,11 +1261,11 @@ public final class PmGetLockedPersonTypesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (personTypeDescription_ != null) {
                   subBuilder = personTypeDescription_.toBuilder();
                 }
-                personTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                personTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personTypeDescription_);
                   personTypeDescription_ = subBuilder.buildPartial();
@@ -1274,11 +1274,11 @@ public final class PmGetLockedPersonTypesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (userId_ != null) {
                   subBuilder = userId_.toBuilder();
                 }
-                userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userId_);
                   userId_ = subBuilder.buildPartial();
@@ -1287,11 +1287,11 @@ public final class PmGetLockedPersonTypesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personTypeId_ != null) {
                   subBuilder = personTypeId_.toBuilder();
                 }
-                personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personTypeId_);
                   personTypeId_ = subBuilder.buildPartial();
@@ -1332,13 +1332,13 @@ public final class PmGetLockedPersonTypesAd {
       }
 
       public static final int USER_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue userName_;
+      private io.dstore.values.StringValue userName_;
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
@@ -1348,30 +1348,30 @@ public final class PmGetLockedPersonTypesAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
-      public io.dstore.Values.stringValue getUserName() {
-        return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+      public io.dstore.values.StringValue getUserName() {
+        return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
       }
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
       }
 
       public static final int PERSON_TYPE_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue personTypeDescription_;
+      private io.dstore.values.StringValue personTypeDescription_;
       /**
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
        */
       public boolean hasPersonTypeDescription() {
         return personTypeDescription_ != null;
@@ -1381,30 +1381,30 @@ public final class PmGetLockedPersonTypesAd {
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getPersonTypeDescription() {
-        return personTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personTypeDescription_;
+      public io.dstore.values.StringValue getPersonTypeDescription() {
+        return personTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung des Personen-Typs "PersonTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
         return getPersonTypeDescription();
       }
 
       public static final int USER_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue userId_;
+      private io.dstore.values.IntegerValue userId_;
       /**
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
@@ -1414,30 +1414,30 @@ public final class PmGetLockedPersonTypesAd {
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
-        return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+      public io.dstore.values.IntegerValue getUserId() {
+        return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
       }
       /**
        * <pre>
        * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
       }
 
       public static final int PERSON_TYPE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue personTypeId_;
+      private io.dstore.values.IntegerValue personTypeId_;
       /**
        * <pre>
        * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeId_ != null;
@@ -1447,19 +1447,19 @@ public final class PmGetLockedPersonTypesAd {
        * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
-        return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+      public io.dstore.values.IntegerValue getPersonTypeId() {
+        return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
       }
       /**
        * <pre>
        * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         return getPersonTypeId();
       }
 
@@ -1878,15 +1878,15 @@ public final class PmGetLockedPersonTypesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue userName_ = null;
+        private io.dstore.values.StringValue userName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> userNameBuilder_;
         /**
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
@@ -1896,11 +1896,11 @@ public final class PmGetLockedPersonTypesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue getUserName() {
+        public io.dstore.values.StringValue getUserName() {
           if (userNameBuilder_ == null) {
-            return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+            return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
           } else {
             return userNameBuilder_.getMessage();
           }
@@ -1910,9 +1910,9 @@ public final class PmGetLockedPersonTypesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public Builder setUserName(io.dstore.Values.stringValue value) {
+        public Builder setUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1930,10 +1930,10 @@ public final class PmGetLockedPersonTypesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder setUserName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (userNameBuilder_ == null) {
             userName_ = builderForValue.build();
             onChanged();
@@ -1948,13 +1948,13 @@ public final class PmGetLockedPersonTypesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public Builder mergeUserName(io.dstore.Values.stringValue value) {
+        public Builder mergeUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
             if (userName_ != null) {
               userName_ =
-                io.dstore.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
             } else {
               userName_ = value;
             }
@@ -1970,7 +1970,7 @@ public final class PmGetLockedPersonTypesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -1988,9 +1988,9 @@ public final class PmGetLockedPersonTypesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
+        public io.dstore.values.StringValue.Builder getUserNameBuilder() {
           
           onChanged();
           return getUserNameFieldBuilder().getBuilder();
@@ -2000,14 +2000,14 @@ public final class PmGetLockedPersonTypesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
             return userNameBuilder_.getMessageOrBuilder();
           } else {
             return userName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+                io.dstore.values.StringValue.getDefaultInstance() : userName_;
           }
         }
         /**
@@ -2015,14 +2015,14 @@ public final class PmGetLockedPersonTypesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUserNameFieldBuilder() {
           if (userNameBuilder_ == null) {
             userNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUserName(),
                     getParentForChildren(),
                     isClean());
@@ -2031,15 +2031,15 @@ public final class PmGetLockedPersonTypesAd {
           return userNameBuilder_;
         }
 
-        private io.dstore.Values.stringValue personTypeDescription_ = null;
+        private io.dstore.values.StringValue personTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
          */
         public boolean hasPersonTypeDescription() {
           return personTypeDescriptionBuilder_ != null || personTypeDescription_ != null;
@@ -2049,11 +2049,11 @@ public final class PmGetLockedPersonTypesAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getPersonTypeDescription() {
+        public io.dstore.values.StringValue getPersonTypeDescription() {
           if (personTypeDescriptionBuilder_ == null) {
-            return personTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personTypeDescription_;
+            return personTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personTypeDescription_;
           } else {
             return personTypeDescriptionBuilder_.getMessage();
           }
@@ -2063,9 +2063,9 @@ public final class PmGetLockedPersonTypesAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
          */
-        public Builder setPersonTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setPersonTypeDescription(io.dstore.values.StringValue value) {
           if (personTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2083,10 +2083,10 @@ public final class PmGetLockedPersonTypesAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
          */
         public Builder setPersonTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (personTypeDescriptionBuilder_ == null) {
             personTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2101,13 +2101,13 @@ public final class PmGetLockedPersonTypesAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
          */
-        public Builder mergePersonTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergePersonTypeDescription(io.dstore.values.StringValue value) {
           if (personTypeDescriptionBuilder_ == null) {
             if (personTypeDescription_ != null) {
               personTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(personTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(personTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               personTypeDescription_ = value;
             }
@@ -2123,7 +2123,7 @@ public final class PmGetLockedPersonTypesAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
          */
         public Builder clearPersonTypeDescription() {
           if (personTypeDescriptionBuilder_ == null) {
@@ -2141,9 +2141,9 @@ public final class PmGetLockedPersonTypesAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPersonTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getPersonTypeDescriptionBuilder() {
           
           onChanged();
           return getPersonTypeDescriptionFieldBuilder().getBuilder();
@@ -2153,14 +2153,14 @@ public final class PmGetLockedPersonTypesAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPersonTypeDescriptionOrBuilder() {
           if (personTypeDescriptionBuilder_ != null) {
             return personTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return personTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : personTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : personTypeDescription_;
           }
         }
         /**
@@ -2168,14 +2168,14 @@ public final class PmGetLockedPersonTypesAd {
          * Bezeichnung des Personen-Typs "PersonTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue person_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue person_type_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPersonTypeDescriptionFieldBuilder() {
           if (personTypeDescriptionBuilder_ == null) {
             personTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPersonTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2184,15 +2184,15 @@ public final class PmGetLockedPersonTypesAd {
           return personTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue userId_ = null;
+        private io.dstore.values.IntegerValue userId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
         /**
          * <pre>
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
@@ -2202,11 +2202,11 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getUserId() {
+        public io.dstore.values.IntegerValue getUserId() {
           if (userIdBuilder_ == null) {
-            return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+            return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           } else {
             return userIdBuilder_.getMessage();
           }
@@ -2216,9 +2216,9 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public Builder setUserId(io.dstore.Values.integerValue value) {
+        public Builder setUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2236,10 +2236,10 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
         public Builder setUserId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (userIdBuilder_ == null) {
             userId_ = builderForValue.build();
             onChanged();
@@ -2254,13 +2254,13 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public Builder mergeUserId(io.dstore.Values.integerValue value) {
+        public Builder mergeUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (userId_ != null) {
               userId_ =
-                io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
             } else {
               userId_ = value;
             }
@@ -2276,7 +2276,7 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -2294,9 +2294,9 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
           
           onChanged();
           return getUserIdFieldBuilder().getBuilder();
@@ -2306,14 +2306,14 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
             return userIdBuilder_.getMessageOrBuilder();
           } else {
             return userId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           }
         }
         /**
@@ -2321,14 +2321,14 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), der keinen Zugriff auf Daten von Personen des Typs "PersonTypeID" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUserIdFieldBuilder() {
           if (userIdBuilder_ == null) {
             userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUserId(),
                     getParentForChildren(),
                     isClean());
@@ -2337,15 +2337,15 @@ public final class PmGetLockedPersonTypesAd {
           return userIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue personTypeId_ = null;
+        private io.dstore.values.IntegerValue personTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
         /**
          * <pre>
          * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public boolean hasPersonTypeId() {
           return personTypeIdBuilder_ != null || personTypeId_ != null;
@@ -2355,11 +2355,11 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue getPersonTypeId() {
+        public io.dstore.values.IntegerValue getPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
-            return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+            return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
           } else {
             return personTypeIdBuilder_.getMessage();
           }
@@ -2369,9 +2369,9 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+        public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2389,10 +2389,10 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder setPersonTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personTypeIdBuilder_ == null) {
             personTypeId_ = builderForValue.build();
             onChanged();
@@ -2407,13 +2407,13 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
           if (personTypeIdBuilder_ == null) {
             if (personTypeId_ != null) {
               personTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
             } else {
               personTypeId_ = value;
             }
@@ -2429,7 +2429,7 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         public Builder clearPersonTypeId() {
           if (personTypeIdBuilder_ == null) {
@@ -2447,9 +2447,9 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
           
           onChanged();
           return getPersonTypeIdFieldBuilder().getBuilder();
@@ -2459,14 +2459,14 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
           if (personTypeIdBuilder_ != null) {
             return personTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return personTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
           }
         }
         /**
@@ -2474,14 +2474,14 @@ public final class PmGetLockedPersonTypesAd {
          * ID eines Personen-Typs, auf den der Benutzer "UserID" keinen Zugriff besitzt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_type_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue person_type_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonTypeIdFieldBuilder() {
           if (personTypeIdBuilder_ == null) {
             personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3950,9 +3950,9 @@ public final class PmGetLockedPersonTypesAd {
       "ersonTypes_Ad.proto\022(dstore.engine.pm_Ge" +
       "tLockedPersonTypes_Ad\032\023dstore/values.pro" +
       "to\032\032dstore/engine/engine.proto\"\244\001\n\nParam" +
-      "eters\022,\n\007user_id\030\001 \001(\0132\033.dstore.values.i" +
+      "eters\022,\n\007user_id\030\001 \001(\0132\033.dstore.values.I" +
       "ntegerValue\022\025\n\014user_id_null\030\351\007 \001(\010\0223\n\016pe" +
-      "rson_type_id\030\002 \001(\0132\033.dstore.values.integ" +
+      "rson_type_id\030\002 \001(\0132\033.dstore.values.Integ" +
       "erValue\022\034\n\023person_type_id_null\030\352\007 \001(\010\"\236\003" +
       "\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036.d" +
       "store.engine.MetaInformation\022\'\n\007message\030",
@@ -3960,11 +3960,11 @@ public final class PmGetLockedPersonTypesAd {
       "(\01326.dstore.engine.pm_GetLockedPersonTyp" +
       "es_Ad.Response.Row\032\351\001\n\003Row\022\017\n\006row_id\030\220N " +
       "\001(\005\022.\n\tuser_name\030\221N \001(\0132\032.dstore.values." +
-      "stringValue\022<\n\027person_type_description\030\222" +
-      "N \001(\0132\032.dstore.values.stringValue\022-\n\007use" +
-      "r_id\030\223N \001(\0132\033.dstore.values.integerValue" +
+      "StringValue\022<\n\027person_type_description\030\222" +
+      "N \001(\0132\032.dstore.values.StringValue\022-\n\007use" +
+      "r_id\030\223N \001(\0132\033.dstore.values.IntegerValue" +
       "\0224\n\016person_type_id\030\224N \001(\0132\033.dstore.value" +
-      "s.integerValueB[\n\033io.dstore.engine.proce" +
+      "s.IntegerValueB[\n\033io.dstore.engine.proce" +
       "duresZ<gosdk.dstore.de/engine/procedures",
       "/pm_GetLockedPersonTypes_Adb\006proto3"
     };
@@ -3979,7 +3979,7 @@ public final class PmGetLockedPersonTypesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetLockedPersonTypes_Ad_Parameters_descriptor =
@@ -4000,7 +4000,7 @@ public final class PmGetLockedPersonTypesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetLockedPersonTypes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "UserName", "PersonTypeDescription", "UserId", "PersonTypeId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

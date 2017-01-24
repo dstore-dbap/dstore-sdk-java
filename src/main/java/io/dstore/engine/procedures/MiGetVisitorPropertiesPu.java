@@ -19,17 +19,17 @@ public final class MiGetVisitorPropertiesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class MiGetVisitorPropertiesPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class MiGetVisitorPropertiesPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -447,29 +447,29 @@ public final class MiGetVisitorPropertiesPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class MiGetVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class MiGetVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -515,7 +515,7 @@ public final class MiGetVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class MiGetVisitorPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class MiGetVisitorPropertiesPu {
        * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
       boolean hasCountryId();
       /**
@@ -857,24 +857,24 @@ public final class MiGetVisitorPropertiesPu {
        * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getCountryId();
+      io.dstore.values.IntegerValue getCountryId();
       /**
        * <pre>
        * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder();
 
       /**
        * <pre>
        * ID einer Sprache, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
        */
       boolean hasLanguageId();
       /**
@@ -882,24 +882,24 @@ public final class MiGetVisitorPropertiesPu {
        * ID einer Sprache, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getLanguageId();
+      io.dstore.values.IntegerValue getLanguageId();
       /**
        * <pre>
        * ID einer Sprache, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
       /**
        * <pre>
        * ID der Währung, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
        */
       boolean hasCurrencyId();
       /**
@@ -907,17 +907,17 @@ public final class MiGetVisitorPropertiesPu {
        * ID der Währung, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getCurrencyId();
+      io.dstore.values.IntegerValue getCurrencyId();
       /**
        * <pre>
        * ID der Währung, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetVisitorProperties_Pu.Response.Row}
@@ -965,11 +965,11 @@ public final class MiGetVisitorPropertiesPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (countryId_ != null) {
                   subBuilder = countryId_.toBuilder();
                 }
-                countryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                countryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryId_);
                   countryId_ = subBuilder.buildPartial();
@@ -978,11 +978,11 @@ public final class MiGetVisitorPropertiesPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (languageId_ != null) {
                   subBuilder = languageId_.toBuilder();
                 }
-                languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageId_);
                   languageId_ = subBuilder.buildPartial();
@@ -991,11 +991,11 @@ public final class MiGetVisitorPropertiesPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -1036,13 +1036,13 @@ public final class MiGetVisitorPropertiesPu {
       }
 
       public static final int COUNTRY_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue countryId_;
+      private io.dstore.values.IntegerValue countryId_;
       /**
        * <pre>
        * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
       public boolean hasCountryId() {
         return countryId_ != null;
@@ -1052,30 +1052,30 @@ public final class MiGetVisitorPropertiesPu {
        * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getCountryId() {
-        return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+      public io.dstore.values.IntegerValue getCountryId() {
+        return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
       }
       /**
        * <pre>
        * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
         return getCountryId();
       }
 
       public static final int LANGUAGE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue languageId_;
+      private io.dstore.values.IntegerValue languageId_;
       /**
        * <pre>
        * ID einer Sprache, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
        */
       public boolean hasLanguageId() {
         return languageId_ != null;
@@ -1085,30 +1085,30 @@ public final class MiGetVisitorPropertiesPu {
        * ID einer Sprache, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
-        return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+      public io.dstore.values.IntegerValue getLanguageId() {
+        return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
       }
       /**
        * <pre>
        * ID einer Sprache, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
       }
 
       public static final int CURRENCY_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue currencyId_;
+      private io.dstore.values.IntegerValue currencyId_;
       /**
        * <pre>
        * ID der Währung, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
        */
       public boolean hasCurrencyId() {
         return currencyId_ != null;
@@ -1118,19 +1118,19 @@ public final class MiGetVisitorPropertiesPu {
        * ID der Währung, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getCurrencyId() {
-        return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+      public io.dstore.values.IntegerValue getCurrencyId() {
+        return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
       }
       /**
        * <pre>
        * ID der Währung, die der Besucher bevorzugt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         return getCurrencyId();
       }
 
@@ -1519,15 +1519,15 @@ public final class MiGetVisitorPropertiesPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue countryId_ = null;
+        private io.dstore.values.IntegerValue countryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> countryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> countryIdBuilder_;
         /**
          * <pre>
          * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
         public boolean hasCountryId() {
           return countryIdBuilder_ != null || countryId_ != null;
@@ -1537,11 +1537,11 @@ public final class MiGetVisitorPropertiesPu {
          * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getCountryId() {
+        public io.dstore.values.IntegerValue getCountryId() {
           if (countryIdBuilder_ == null) {
-            return countryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+            return countryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
           } else {
             return countryIdBuilder_.getMessage();
           }
@@ -1551,9 +1551,9 @@ public final class MiGetVisitorPropertiesPu {
          * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public Builder setCountryId(io.dstore.Values.integerValue value) {
+        public Builder setCountryId(io.dstore.values.IntegerValue value) {
           if (countryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1571,10 +1571,10 @@ public final class MiGetVisitorPropertiesPu {
          * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
         public Builder setCountryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (countryIdBuilder_ == null) {
             countryId_ = builderForValue.build();
             onChanged();
@@ -1589,13 +1589,13 @@ public final class MiGetVisitorPropertiesPu {
          * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public Builder mergeCountryId(io.dstore.Values.integerValue value) {
+        public Builder mergeCountryId(io.dstore.values.IntegerValue value) {
           if (countryIdBuilder_ == null) {
             if (countryId_ != null) {
               countryId_ =
-                io.dstore.Values.integerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(countryId_).mergeFrom(value).buildPartial();
             } else {
               countryId_ = value;
             }
@@ -1611,7 +1611,7 @@ public final class MiGetVisitorPropertiesPu {
          * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
         public Builder clearCountryId() {
           if (countryIdBuilder_ == null) {
@@ -1629,9 +1629,9 @@ public final class MiGetVisitorPropertiesPu {
          * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCountryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCountryIdBuilder() {
           
           onChanged();
           return getCountryIdFieldBuilder().getBuilder();
@@ -1641,14 +1641,14 @@ public final class MiGetVisitorPropertiesPu {
          * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCountryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCountryIdOrBuilder() {
           if (countryIdBuilder_ != null) {
             return countryIdBuilder_.getMessageOrBuilder();
           } else {
             return countryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : countryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : countryId_;
           }
         }
         /**
@@ -1656,14 +1656,14 @@ public final class MiGetVisitorPropertiesPu {
          * ID des Landes aus dem der Besucher kommt (zumindest hat er das vorgegeben)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue country_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue country_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCountryIdFieldBuilder() {
           if (countryIdBuilder_ == null) {
             countryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCountryId(),
                     getParentForChildren(),
                     isClean());
@@ -1672,15 +1672,15 @@ public final class MiGetVisitorPropertiesPu {
           return countryIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue languageId_ = null;
+        private io.dstore.values.IntegerValue languageId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
         /**
          * <pre>
          * ID einer Sprache, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
          */
         public boolean hasLanguageId() {
           return languageIdBuilder_ != null || languageId_ != null;
@@ -1690,11 +1690,11 @@ public final class MiGetVisitorPropertiesPu {
          * ID einer Sprache, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getLanguageId() {
+        public io.dstore.values.IntegerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
-            return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+            return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
           } else {
             return languageIdBuilder_.getMessage();
           }
@@ -1704,9 +1704,9 @@ public final class MiGetVisitorPropertiesPu {
          * ID einer Sprache, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
          */
-        public Builder setLanguageId(io.dstore.Values.integerValue value) {
+        public Builder setLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1724,10 +1724,10 @@ public final class MiGetVisitorPropertiesPu {
          * ID einer Sprache, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
          */
         public Builder setLanguageId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (languageIdBuilder_ == null) {
             languageId_ = builderForValue.build();
             onChanged();
@@ -1742,13 +1742,13 @@ public final class MiGetVisitorPropertiesPu {
          * ID einer Sprache, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
          */
-        public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+        public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
             if (languageId_ != null) {
               languageId_ =
-                io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
             } else {
               languageId_ = value;
             }
@@ -1764,7 +1764,7 @@ public final class MiGetVisitorPropertiesPu {
          * ID einer Sprache, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
          */
         public Builder clearLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -1782,9 +1782,9 @@ public final class MiGetVisitorPropertiesPu {
          * ID einer Sprache, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
           
           onChanged();
           return getLanguageIdFieldBuilder().getBuilder();
@@ -1794,14 +1794,14 @@ public final class MiGetVisitorPropertiesPu {
          * ID einer Sprache, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
             return languageIdBuilder_.getMessageOrBuilder();
           } else {
             return languageId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
           }
         }
         /**
@@ -1809,14 +1809,14 @@ public final class MiGetVisitorPropertiesPu {
          * ID einer Sprache, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getLanguageIdFieldBuilder() {
           if (languageIdBuilder_ == null) {
             languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getLanguageId(),
                     getParentForChildren(),
                     isClean());
@@ -1825,15 +1825,15 @@ public final class MiGetVisitorPropertiesPu {
           return languageIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue currencyId_ = null;
+        private io.dstore.values.IntegerValue currencyId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
         /**
          * <pre>
          * ID der Währung, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
          */
         public boolean hasCurrencyId() {
           return currencyIdBuilder_ != null || currencyId_ != null;
@@ -1843,11 +1843,11 @@ public final class MiGetVisitorPropertiesPu {
          * ID der Währung, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getCurrencyId() {
+        public io.dstore.values.IntegerValue getCurrencyId() {
           if (currencyIdBuilder_ == null) {
-            return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+            return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
           } else {
             return currencyIdBuilder_.getMessage();
           }
@@ -1857,9 +1857,9 @@ public final class MiGetVisitorPropertiesPu {
          * ID der Währung, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
          */
-        public Builder setCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
           if (currencyIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1877,10 +1877,10 @@ public final class MiGetVisitorPropertiesPu {
          * ID der Währung, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
          */
         public Builder setCurrencyId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (currencyIdBuilder_ == null) {
             currencyId_ = builderForValue.build();
             onChanged();
@@ -1895,13 +1895,13 @@ public final class MiGetVisitorPropertiesPu {
          * ID der Währung, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
          */
-        public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
           if (currencyIdBuilder_ == null) {
             if (currencyId_ != null) {
               currencyId_ =
-                io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
             } else {
               currencyId_ = value;
             }
@@ -1917,7 +1917,7 @@ public final class MiGetVisitorPropertiesPu {
          * ID der Währung, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
          */
         public Builder clearCurrencyId() {
           if (currencyIdBuilder_ == null) {
@@ -1935,9 +1935,9 @@ public final class MiGetVisitorPropertiesPu {
          * ID der Währung, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
           
           onChanged();
           return getCurrencyIdFieldBuilder().getBuilder();
@@ -1947,14 +1947,14 @@ public final class MiGetVisitorPropertiesPu {
          * ID der Währung, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
           if (currencyIdBuilder_ != null) {
             return currencyIdBuilder_.getMessageOrBuilder();
           } else {
             return currencyId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
           }
         }
         /**
@@ -1962,14 +1962,14 @@ public final class MiGetVisitorPropertiesPu {
          * ID der Währung, die der Besucher bevorzugt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCurrencyIdFieldBuilder() {
           if (currencyIdBuilder_ == null) {
             currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCurrencyId(),
                     getParentForChildren(),
                     isClean());
@@ -3439,16 +3439,16 @@ public final class MiGetVisitorPropertiesPu {
       "tVisitorProperties_Pu\032\023dstore/values.pro" +
       "to\032\032dstore/engine/engine.proto\"T\n\nParame" +
       "ters\022-\n\tunique_id\030\001 \001(\0132\032.dstore.values." +
-      "stringValue\022\027\n\016unique_id_null\030\351\007 \001(\010\"\343\002\n" +
+      "StringValue\022\027\n\016unique_id_null\030\351\007 \001(\010\"\343\002\n" +
       "\010Response\0228\n\020meta_information\030\002 \003(\0132\036.ds" +
       "tore.engine.MetaInformation\022\'\n\007message\030\003" +
       " \003(\0132\026.dstore.engine.Message\022C\n\003row\030\004 \003(" +
       "\01326.dstore.engine.mi_GetVisitorPropertie",
       "s_Pu.Response.Row\032\256\001\n\003Row\022\017\n\006row_id\030\220N \001" +
       "(\005\0220\n\ncountry_id\030\221N \001(\0132\033.dstore.values." +
-      "integerValue\0221\n\013language_id\030\222N \001(\0132\033.dst" +
-      "ore.values.integerValue\0221\n\013currency_id\030\223" +
-      "N \001(\0132\033.dstore.values.integerValueB[\n\033io" +
+      "IntegerValue\0221\n\013language_id\030\222N \001(\0132\033.dst" +
+      "ore.values.IntegerValue\0221\n\013currency_id\030\223" +
+      "N \001(\0132\033.dstore.values.IntegerValueB[\n\033io" +
       ".dstore.engine.proceduresZ<gosdk.dstore." +
       "de/engine/procedures/mi_GetVisitorProper" +
       "ties_Pub\006proto3"
@@ -3464,7 +3464,7 @@ public final class MiGetVisitorPropertiesPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetVisitorProperties_Pu_Parameters_descriptor =
@@ -3485,7 +3485,7 @@ public final class MiGetVisitorPropertiesPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetVisitorProperties_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CountryId", "LanguageId", "CurrencyId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmModifySetsForBunBenefitsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
      */
     boolean hasBenefitId();
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
      */
-    io.dstore.Values.integerValue getBenefitId();
+    io.dstore.values.IntegerValue getBenefitId();
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder();
 
     /**
      * <code>optional bool benefit_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifySetsForBunBenefitsAd {
     boolean getBenefitIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
      */
     boolean hasItemSetId();
     /**
-     * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
      */
-    io.dstore.Values.integerValue getItemSetId();
+    io.dstore.values.IntegerValue getItemSetId();
     /**
-     * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder();
 
     /**
      * <code>optional bool item_set_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifySetsForBunBenefitsAd {
     boolean getItemSetIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    io.dstore.Values.integerValue getSortNo();
+    io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
      * <code>optional bool sort_no_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmModifySetsForBunBenefitsAd {
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
      */
     boolean hasDeleteCombination();
     /**
-     * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
      */
-    io.dstore.Values.booleanValue getDeleteCombination();
+    io.dstore.values.BooleanValue getDeleteCombination();
     /**
-     * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteCombinationOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteCombinationOrBuilder();
 
     /**
      * <code>optional bool delete_combination_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class OmModifySetsForBunBenefitsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (benefitId_ != null) {
                 subBuilder = benefitId_.toBuilder();
               }
-              benefitId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              benefitId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(benefitId_);
                 benefitId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class OmModifySetsForBunBenefitsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (itemSetId_ != null) {
                 subBuilder = itemSetId_.toBuilder();
               }
-              itemSetId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              itemSetId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemSetId_);
                 itemSetId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class OmModifySetsForBunBenefitsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
               }
-              sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNo_);
                 sortNo_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class OmModifySetsForBunBenefitsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteCombination_ != null) {
                 subBuilder = deleteCombination_.toBuilder();
               }
-              deleteCombination_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteCombination_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteCombination_);
                 deleteCombination_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class OmModifySetsForBunBenefitsAd {
     }
 
     public static final int BENEFIT_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue benefitId_;
+    private io.dstore.values.IntegerValue benefitId_;
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
      */
     public boolean hasBenefitId() {
       return benefitId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getBenefitId() {
-      return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+    public io.dstore.values.IntegerValue getBenefitId() {
+      return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
       return getBenefitId();
     }
 
@@ -259,23 +259,23 @@ public final class OmModifySetsForBunBenefitsAd {
     }
 
     public static final int ITEM_SET_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue itemSetId_;
+    private io.dstore.values.IntegerValue itemSetId_;
     /**
-     * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
      */
     public boolean hasItemSetId() {
       return itemSetId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getItemSetId() {
-      return itemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
+    public io.dstore.values.IntegerValue getItemSetId() {
+      return itemSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemSetId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder() {
       return getItemSetId();
     }
 
@@ -289,23 +289,23 @@ public final class OmModifySetsForBunBenefitsAd {
     }
 
     public static final int SORT_NO_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue sortNo_;
+    private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    public io.dstore.Values.integerValue getSortNo() {
-      return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+    public io.dstore.values.IntegerValue getSortNo() {
+      return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
     }
 
@@ -319,23 +319,23 @@ public final class OmModifySetsForBunBenefitsAd {
     }
 
     public static final int DELETE_COMBINATION_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue deleteCombination_;
+    private io.dstore.values.BooleanValue deleteCombination_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
      */
     public boolean hasDeleteCombination() {
       return deleteCombination_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteCombination() {
-      return deleteCombination_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCombination_;
+    public io.dstore.values.BooleanValue getDeleteCombination() {
+      return deleteCombination_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCombination_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+     * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteCombinationOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteCombinationOrBuilder() {
       return getDeleteCombination();
     }
 
@@ -792,29 +792,29 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue benefitId_ = null;
+      private io.dstore.values.IntegerValue benefitId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> benefitIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> benefitIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public boolean hasBenefitId() {
         return benefitIdBuilder_ != null || benefitId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getBenefitId() {
+      public io.dstore.values.IntegerValue getBenefitId() {
         if (benefitIdBuilder_ == null) {
-          return benefitId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+          return benefitId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
         } else {
           return benefitIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
        */
-      public Builder setBenefitId(io.dstore.Values.integerValue value) {
+      public Builder setBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder setBenefitId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (benefitIdBuilder_ == null) {
           benefitId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
        */
-      public Builder mergeBenefitId(io.dstore.Values.integerValue value) {
+      public Builder mergeBenefitId(io.dstore.values.IntegerValue value) {
         if (benefitIdBuilder_ == null) {
           if (benefitId_ != null) {
             benefitId_ =
-              io.dstore.Values.integerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(benefitId_).mergeFrom(value).buildPartial();
           } else {
             benefitId_ = value;
           }
@@ -860,7 +860,7 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
        */
       public Builder clearBenefitId() {
         if (benefitIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBenefitIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBenefitIdBuilder() {
         
         onChanged();
         return getBenefitIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBenefitIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBenefitIdOrBuilder() {
         if (benefitIdBuilder_ != null) {
           return benefitIdBuilder_.getMessageOrBuilder();
         } else {
           return benefitId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : benefitId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : benefitId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue benefit_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue benefit_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBenefitIdFieldBuilder() {
         if (benefitIdBuilder_ == null) {
           benefitIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBenefitId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue itemSetId_ = null;
+      private io.dstore.values.IntegerValue itemSetId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> itemSetIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> itemSetIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
        */
       public boolean hasItemSetId() {
         return itemSetIdBuilder_ != null || itemSetId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getItemSetId() {
+      public io.dstore.values.IntegerValue getItemSetId() {
         if (itemSetIdBuilder_ == null) {
-          return itemSetId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
+          return itemSetId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : itemSetId_;
         } else {
           return itemSetIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
        */
-      public Builder setItemSetId(io.dstore.Values.integerValue value) {
+      public Builder setItemSetId(io.dstore.values.IntegerValue value) {
         if (itemSetIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
        */
       public Builder setItemSetId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (itemSetIdBuilder_ == null) {
           itemSetId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
        */
-      public Builder mergeItemSetId(io.dstore.Values.integerValue value) {
+      public Builder mergeItemSetId(io.dstore.values.IntegerValue value) {
         if (itemSetIdBuilder_ == null) {
           if (itemSetId_ != null) {
             itemSetId_ =
-              io.dstore.Values.integerValue.newBuilder(itemSetId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(itemSetId_).mergeFrom(value).buildPartial();
           } else {
             itemSetId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
        */
       public Builder clearItemSetId() {
         if (itemSetIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getItemSetIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getItemSetIdBuilder() {
         
         onChanged();
         return getItemSetIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getItemSetIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getItemSetIdOrBuilder() {
         if (itemSetIdBuilder_ != null) {
           return itemSetIdBuilder_.getMessageOrBuilder();
         } else {
           return itemSetId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : itemSetId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : itemSetId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue item_set_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue item_set_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getItemSetIdFieldBuilder() {
         if (itemSetIdBuilder_ == null) {
           itemSetIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getItemSetId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortNo_ = null;
+      private io.dstore.values.IntegerValue sortNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
+      public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
-          return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+          return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         } else {
           return sortNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public Builder setSortNo(io.dstore.Values.integerValue value) {
+      public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder setSortNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortNoBuilder_ == null) {
           sortNo_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+      public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (sortNo_ != null) {
             sortNo_ =
-              io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
           } else {
             sortNo_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
         onChanged();
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
           return sortNoBuilder_.getMessageOrBuilder();
         } else {
           return sortNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 3;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortNoFieldBuilder() {
         if (sortNoBuilder_ == null) {
           sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortNo(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteCombination_ = null;
+      private io.dstore.values.BooleanValue deleteCombination_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteCombinationBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteCombinationBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
        */
       public boolean hasDeleteCombination() {
         return deleteCombinationBuilder_ != null || deleteCombination_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteCombination() {
+      public io.dstore.values.BooleanValue getDeleteCombination() {
         if (deleteCombinationBuilder_ == null) {
-          return deleteCombination_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteCombination_;
+          return deleteCombination_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteCombination_;
         } else {
           return deleteCombinationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
        */
-      public Builder setDeleteCombination(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteCombination(io.dstore.values.BooleanValue value) {
         if (deleteCombinationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
        */
       public Builder setDeleteCombination(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteCombinationBuilder_ == null) {
           deleteCombination_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
        */
-      public Builder mergeDeleteCombination(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteCombination(io.dstore.values.BooleanValue value) {
         if (deleteCombinationBuilder_ == null) {
           if (deleteCombination_ != null) {
             deleteCombination_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteCombination_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteCombination_).mergeFrom(value).buildPartial();
           } else {
             deleteCombination_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
        */
       public Builder clearDeleteCombination() {
         if (deleteCombinationBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class OmModifySetsForBunBenefitsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteCombinationBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteCombinationBuilder() {
         
         onChanged();
         return getDeleteCombinationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteCombinationOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteCombinationOrBuilder() {
         if (deleteCombinationBuilder_ != null) {
           return deleteCombinationBuilder_.getMessageOrBuilder();
         } else {
           return deleteCombination_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteCombination_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteCombination_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_combination = 4;</code>
+       * <code>optional .dstore.values.BooleanValue delete_combination = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteCombinationFieldBuilder() {
         if (deleteCombinationBuilder_ == null) {
           deleteCombinationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteCombination(),
                   getParentForChildren(),
                   isClean());
@@ -3451,12 +3451,12 @@ public final class OmModifySetsForBunBenefitsAd {
       "m_ModifySetsForBunBenefits_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\304" +
       "\002\n\nParameters\022/\n\nbenefit_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\030\n\017benefit_id_nul" +
+      "re.values.IntegerValue\022\030\n\017benefit_id_nul" +
       "l\030\351\007 \001(\010\0220\n\013item_set_id\030\002 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\031\n\020item_set_id_null\030\352" +
-      "\007 \001(\010\022,\n\007sort_no\030\003 \001(\0132\033.dstore.values.i" +
+      "alues.IntegerValue\022\031\n\020item_set_id_null\030\352" +
+      "\007 \001(\010\022,\n\007sort_no\030\003 \001(\0132\033.dstore.values.I" +
       "ntegerValue\022\025\n\014sort_no_null\030\353\007 \001(\010\0227\n\022de",
-      "lete_combination\030\004 \001(\0132\033.dstore.values.b" +
+      "lete_combination\030\004 \001(\0132\033.dstore.values.B" +
       "ooleanValue\022 \n\027delete_combination_null\030\354" +
       "\007 \001(\010\"\316\001\n\010Response\0228\n\020meta_information\030\002" +
       " \003(\0132\036.dstore.engine.MetaInformation\022\'\n\007" +
@@ -3478,7 +3478,7 @@ public final class OmModifySetsForBunBenefitsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifySetsForBunBenefits_Ad_Parameters_descriptor =
@@ -3499,7 +3499,7 @@ public final class OmModifySetsForBunBenefitsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifySetsForBunBenefits_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

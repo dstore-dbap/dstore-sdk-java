@@ -19,17 +19,17 @@ public final class ImSynchronizeItemBinariesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
      */
     boolean hasCharacIdForSynchronization();
     /**
-     * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
      */
-    io.dstore.Values.integerValue getCharacIdForSynchronization();
+    io.dstore.values.IntegerValue getCharacIdForSynchronization();
     /**
-     * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCharacIdForSynchronizationOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCharacIdForSynchronizationOrBuilder();
 
     /**
      * <code>optional bool charac_id_for_synchronization_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImSynchronizeItemBinariesAd {
     boolean getCharacIdForSynchronizationNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+     * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
      */
     boolean hasReportOnly();
     /**
-     * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+     * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
      */
-    io.dstore.Values.booleanValue getReportOnly();
+    io.dstore.values.BooleanValue getReportOnly();
     /**
-     * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+     * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getReportOnlyOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getReportOnlyOrBuilder();
 
     /**
      * <code>optional bool report_only_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImSynchronizeItemBinariesAd {
     boolean getReportOnlyNull();
 
     /**
-     * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
      */
     boolean hasOnlyDirectSuccessorsOfId();
     /**
-     * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
      */
-    io.dstore.Values.integerValue getOnlyDirectSuccessorsOfId();
+    io.dstore.values.IntegerValue getOnlyDirectSuccessorsOfId();
     /**
-     * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getOnlyDirectSuccessorsOfIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getOnlyDirectSuccessorsOfIdOrBuilder();
 
     /**
      * <code>optional bool only_direct_successors_of_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImSynchronizeItemBinariesAd {
     boolean getOnlyDirectSuccessorsOfIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+     * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
      */
     boolean hasProcessValuesInChunksWithSize();
     /**
-     * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+     * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
      */
-    io.dstore.Values.integerValue getProcessValuesInChunksWithSize();
+    io.dstore.values.IntegerValue getProcessValuesInChunksWithSize();
     /**
-     * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+     * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getProcessValuesInChunksWithSizeOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getProcessValuesInChunksWithSizeOrBuilder();
 
     /**
      * <code>optional bool process_values_in_chunks_with_size_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class ImSynchronizeItemBinariesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (characIdForSynchronization_ != null) {
                 subBuilder = characIdForSynchronization_.toBuilder();
               }
-              characIdForSynchronization_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              characIdForSynchronization_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characIdForSynchronization_);
                 characIdForSynchronization_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class ImSynchronizeItemBinariesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (reportOnly_ != null) {
                 subBuilder = reportOnly_.toBuilder();
               }
-              reportOnly_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              reportOnly_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(reportOnly_);
                 reportOnly_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class ImSynchronizeItemBinariesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (onlyDirectSuccessorsOfId_ != null) {
                 subBuilder = onlyDirectSuccessorsOfId_.toBuilder();
               }
-              onlyDirectSuccessorsOfId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              onlyDirectSuccessorsOfId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyDirectSuccessorsOfId_);
                 onlyDirectSuccessorsOfId_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class ImSynchronizeItemBinariesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (processValuesInChunksWithSize_ != null) {
                 subBuilder = processValuesInChunksWithSize_.toBuilder();
               }
-              processValuesInChunksWithSize_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              processValuesInChunksWithSize_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(processValuesInChunksWithSize_);
                 processValuesInChunksWithSize_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class ImSynchronizeItemBinariesAd {
     }
 
     public static final int CHARAC_ID_FOR_SYNCHRONIZATION_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue characIdForSynchronization_;
+    private io.dstore.values.IntegerValue characIdForSynchronization_;
     /**
-     * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
      */
     public boolean hasCharacIdForSynchronization() {
       return characIdForSynchronization_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
      */
-    public io.dstore.Values.integerValue getCharacIdForSynchronization() {
-      return characIdForSynchronization_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characIdForSynchronization_;
+    public io.dstore.values.IntegerValue getCharacIdForSynchronization() {
+      return characIdForSynchronization_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characIdForSynchronization_;
     }
     /**
-     * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+     * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCharacIdForSynchronizationOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCharacIdForSynchronizationOrBuilder() {
       return getCharacIdForSynchronization();
     }
 
@@ -259,23 +259,23 @@ public final class ImSynchronizeItemBinariesAd {
     }
 
     public static final int REPORT_ONLY_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue reportOnly_;
+    private io.dstore.values.BooleanValue reportOnly_;
     /**
-     * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+     * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
      */
     public boolean hasReportOnly() {
       return reportOnly_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+     * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
      */
-    public io.dstore.Values.booleanValue getReportOnly() {
-      return reportOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : reportOnly_;
+    public io.dstore.values.BooleanValue getReportOnly() {
+      return reportOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : reportOnly_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+     * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getReportOnlyOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getReportOnlyOrBuilder() {
       return getReportOnly();
     }
 
@@ -289,23 +289,23 @@ public final class ImSynchronizeItemBinariesAd {
     }
 
     public static final int ONLY_DIRECT_SUCCESSORS_OF_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue onlyDirectSuccessorsOfId_;
+    private io.dstore.values.IntegerValue onlyDirectSuccessorsOfId_;
     /**
-     * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
      */
     public boolean hasOnlyDirectSuccessorsOfId() {
       return onlyDirectSuccessorsOfId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getOnlyDirectSuccessorsOfId() {
-      return onlyDirectSuccessorsOfId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlyDirectSuccessorsOfId_;
+    public io.dstore.values.IntegerValue getOnlyDirectSuccessorsOfId() {
+      return onlyDirectSuccessorsOfId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : onlyDirectSuccessorsOfId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getOnlyDirectSuccessorsOfIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getOnlyDirectSuccessorsOfIdOrBuilder() {
       return getOnlyDirectSuccessorsOfId();
     }
 
@@ -319,23 +319,23 @@ public final class ImSynchronizeItemBinariesAd {
     }
 
     public static final int PROCESS_VALUES_IN_CHUNKS_WITH_SIZE_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue processValuesInChunksWithSize_;
+    private io.dstore.values.IntegerValue processValuesInChunksWithSize_;
     /**
-     * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+     * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
      */
     public boolean hasProcessValuesInChunksWithSize() {
       return processValuesInChunksWithSize_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+     * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
      */
-    public io.dstore.Values.integerValue getProcessValuesInChunksWithSize() {
-      return processValuesInChunksWithSize_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : processValuesInChunksWithSize_;
+    public io.dstore.values.IntegerValue getProcessValuesInChunksWithSize() {
+      return processValuesInChunksWithSize_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : processValuesInChunksWithSize_;
     }
     /**
-     * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+     * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getProcessValuesInChunksWithSizeOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getProcessValuesInChunksWithSizeOrBuilder() {
       return getProcessValuesInChunksWithSize();
     }
 
@@ -792,29 +792,29 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue characIdForSynchronization_ = null;
+      private io.dstore.values.IntegerValue characIdForSynchronization_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> characIdForSynchronizationBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> characIdForSynchronizationBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
        */
       public boolean hasCharacIdForSynchronization() {
         return characIdForSynchronizationBuilder_ != null || characIdForSynchronization_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
        */
-      public io.dstore.Values.integerValue getCharacIdForSynchronization() {
+      public io.dstore.values.IntegerValue getCharacIdForSynchronization() {
         if (characIdForSynchronizationBuilder_ == null) {
-          return characIdForSynchronization_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : characIdForSynchronization_;
+          return characIdForSynchronization_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : characIdForSynchronization_;
         } else {
           return characIdForSynchronizationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
        */
-      public Builder setCharacIdForSynchronization(io.dstore.Values.integerValue value) {
+      public Builder setCharacIdForSynchronization(io.dstore.values.IntegerValue value) {
         if (characIdForSynchronizationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
        */
       public Builder setCharacIdForSynchronization(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (characIdForSynchronizationBuilder_ == null) {
           characIdForSynchronization_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
        */
-      public Builder mergeCharacIdForSynchronization(io.dstore.Values.integerValue value) {
+      public Builder mergeCharacIdForSynchronization(io.dstore.values.IntegerValue value) {
         if (characIdForSynchronizationBuilder_ == null) {
           if (characIdForSynchronization_ != null) {
             characIdForSynchronization_ =
-              io.dstore.Values.integerValue.newBuilder(characIdForSynchronization_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(characIdForSynchronization_).mergeFrom(value).buildPartial();
           } else {
             characIdForSynchronization_ = value;
           }
@@ -860,7 +860,7 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
        */
       public Builder clearCharacIdForSynchronization() {
         if (characIdForSynchronizationBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCharacIdForSynchronizationBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCharacIdForSynchronizationBuilder() {
         
         onChanged();
         return getCharacIdForSynchronizationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCharacIdForSynchronizationOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCharacIdForSynchronizationOrBuilder() {
         if (characIdForSynchronizationBuilder_ != null) {
           return characIdForSynchronizationBuilder_.getMessageOrBuilder();
         } else {
           return characIdForSynchronization_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : characIdForSynchronization_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : characIdForSynchronization_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue charac_id_for_synchronization = 1;</code>
+       * <code>optional .dstore.values.IntegerValue charac_id_for_synchronization = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCharacIdForSynchronizationFieldBuilder() {
         if (characIdForSynchronizationBuilder_ == null) {
           characIdForSynchronizationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCharacIdForSynchronization(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue reportOnly_ = null;
+      private io.dstore.values.BooleanValue reportOnly_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> reportOnlyBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> reportOnlyBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+       * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
        */
       public boolean hasReportOnly() {
         return reportOnlyBuilder_ != null || reportOnly_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+       * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
        */
-      public io.dstore.Values.booleanValue getReportOnly() {
+      public io.dstore.values.BooleanValue getReportOnly() {
         if (reportOnlyBuilder_ == null) {
-          return reportOnly_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : reportOnly_;
+          return reportOnly_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : reportOnly_;
         } else {
           return reportOnlyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+       * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
        */
-      public Builder setReportOnly(io.dstore.Values.booleanValue value) {
+      public Builder setReportOnly(io.dstore.values.BooleanValue value) {
         if (reportOnlyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+       * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
        */
       public Builder setReportOnly(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (reportOnlyBuilder_ == null) {
           reportOnly_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+       * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
        */
-      public Builder mergeReportOnly(io.dstore.Values.booleanValue value) {
+      public Builder mergeReportOnly(io.dstore.values.BooleanValue value) {
         if (reportOnlyBuilder_ == null) {
           if (reportOnly_ != null) {
             reportOnly_ =
-              io.dstore.Values.booleanValue.newBuilder(reportOnly_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(reportOnly_).mergeFrom(value).buildPartial();
           } else {
             reportOnly_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+       * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
        */
       public Builder clearReportOnly() {
         if (reportOnlyBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+       * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getReportOnlyBuilder() {
+      public io.dstore.values.BooleanValue.Builder getReportOnlyBuilder() {
         
         onChanged();
         return getReportOnlyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+       * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getReportOnlyOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getReportOnlyOrBuilder() {
         if (reportOnlyBuilder_ != null) {
           return reportOnlyBuilder_.getMessageOrBuilder();
         } else {
           return reportOnly_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : reportOnly_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : reportOnly_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue report_only = 2;</code>
+       * <code>optional .dstore.values.BooleanValue report_only = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getReportOnlyFieldBuilder() {
         if (reportOnlyBuilder_ == null) {
           reportOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getReportOnly(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue onlyDirectSuccessorsOfId_ = null;
+      private io.dstore.values.IntegerValue onlyDirectSuccessorsOfId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> onlyDirectSuccessorsOfIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> onlyDirectSuccessorsOfIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
        */
       public boolean hasOnlyDirectSuccessorsOfId() {
         return onlyDirectSuccessorsOfIdBuilder_ != null || onlyDirectSuccessorsOfId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getOnlyDirectSuccessorsOfId() {
+      public io.dstore.values.IntegerValue getOnlyDirectSuccessorsOfId() {
         if (onlyDirectSuccessorsOfIdBuilder_ == null) {
-          return onlyDirectSuccessorsOfId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : onlyDirectSuccessorsOfId_;
+          return onlyDirectSuccessorsOfId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : onlyDirectSuccessorsOfId_;
         } else {
           return onlyDirectSuccessorsOfIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
        */
-      public Builder setOnlyDirectSuccessorsOfId(io.dstore.Values.integerValue value) {
+      public Builder setOnlyDirectSuccessorsOfId(io.dstore.values.IntegerValue value) {
         if (onlyDirectSuccessorsOfIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
        */
       public Builder setOnlyDirectSuccessorsOfId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (onlyDirectSuccessorsOfIdBuilder_ == null) {
           onlyDirectSuccessorsOfId_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
        */
-      public Builder mergeOnlyDirectSuccessorsOfId(io.dstore.Values.integerValue value) {
+      public Builder mergeOnlyDirectSuccessorsOfId(io.dstore.values.IntegerValue value) {
         if (onlyDirectSuccessorsOfIdBuilder_ == null) {
           if (onlyDirectSuccessorsOfId_ != null) {
             onlyDirectSuccessorsOfId_ =
-              io.dstore.Values.integerValue.newBuilder(onlyDirectSuccessorsOfId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(onlyDirectSuccessorsOfId_).mergeFrom(value).buildPartial();
           } else {
             onlyDirectSuccessorsOfId_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
        */
       public Builder clearOnlyDirectSuccessorsOfId() {
         if (onlyDirectSuccessorsOfIdBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getOnlyDirectSuccessorsOfIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getOnlyDirectSuccessorsOfIdBuilder() {
         
         onChanged();
         return getOnlyDirectSuccessorsOfIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOnlyDirectSuccessorsOfIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOnlyDirectSuccessorsOfIdOrBuilder() {
         if (onlyDirectSuccessorsOfIdBuilder_ != null) {
           return onlyDirectSuccessorsOfIdBuilder_.getMessageOrBuilder();
         } else {
           return onlyDirectSuccessorsOfId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : onlyDirectSuccessorsOfId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : onlyDirectSuccessorsOfId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue only_direct_successors_of_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue only_direct_successors_of_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getOnlyDirectSuccessorsOfIdFieldBuilder() {
         if (onlyDirectSuccessorsOfIdBuilder_ == null) {
           onlyDirectSuccessorsOfIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getOnlyDirectSuccessorsOfId(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue processValuesInChunksWithSize_ = null;
+      private io.dstore.values.IntegerValue processValuesInChunksWithSize_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> processValuesInChunksWithSizeBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> processValuesInChunksWithSizeBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+       * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
        */
       public boolean hasProcessValuesInChunksWithSize() {
         return processValuesInChunksWithSizeBuilder_ != null || processValuesInChunksWithSize_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+       * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
        */
-      public io.dstore.Values.integerValue getProcessValuesInChunksWithSize() {
+      public io.dstore.values.IntegerValue getProcessValuesInChunksWithSize() {
         if (processValuesInChunksWithSizeBuilder_ == null) {
-          return processValuesInChunksWithSize_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : processValuesInChunksWithSize_;
+          return processValuesInChunksWithSize_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : processValuesInChunksWithSize_;
         } else {
           return processValuesInChunksWithSizeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+       * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
        */
-      public Builder setProcessValuesInChunksWithSize(io.dstore.Values.integerValue value) {
+      public Builder setProcessValuesInChunksWithSize(io.dstore.values.IntegerValue value) {
         if (processValuesInChunksWithSizeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+       * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
        */
       public Builder setProcessValuesInChunksWithSize(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (processValuesInChunksWithSizeBuilder_ == null) {
           processValuesInChunksWithSize_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+       * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
        */
-      public Builder mergeProcessValuesInChunksWithSize(io.dstore.Values.integerValue value) {
+      public Builder mergeProcessValuesInChunksWithSize(io.dstore.values.IntegerValue value) {
         if (processValuesInChunksWithSizeBuilder_ == null) {
           if (processValuesInChunksWithSize_ != null) {
             processValuesInChunksWithSize_ =
-              io.dstore.Values.integerValue.newBuilder(processValuesInChunksWithSize_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(processValuesInChunksWithSize_).mergeFrom(value).buildPartial();
           } else {
             processValuesInChunksWithSize_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+       * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
        */
       public Builder clearProcessValuesInChunksWithSize() {
         if (processValuesInChunksWithSizeBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class ImSynchronizeItemBinariesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+       * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getProcessValuesInChunksWithSizeBuilder() {
+      public io.dstore.values.IntegerValue.Builder getProcessValuesInChunksWithSizeBuilder() {
         
         onChanged();
         return getProcessValuesInChunksWithSizeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+       * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getProcessValuesInChunksWithSizeOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getProcessValuesInChunksWithSizeOrBuilder() {
         if (processValuesInChunksWithSizeBuilder_ != null) {
           return processValuesInChunksWithSizeBuilder_.getMessageOrBuilder();
         } else {
           return processValuesInChunksWithSize_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : processValuesInChunksWithSize_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : processValuesInChunksWithSize_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue process_values_in_chunks_with_size = 4;</code>
+       * <code>optional .dstore.values.IntegerValue process_values_in_chunks_with_size = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getProcessValuesInChunksWithSizeFieldBuilder() {
         if (processValuesInChunksWithSizeBuilder_ == null) {
           processValuesInChunksWithSizeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getProcessValuesInChunksWithSize(),
                   getParentForChildren(),
                   isClean());
@@ -1623,7 +1623,7 @@ public final class ImSynchronizeItemBinariesAd {
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
        */
       boolean hasTimeIntervallId();
       /**
@@ -1631,24 +1631,24 @@ public final class ImSynchronizeItemBinariesAd {
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getTimeIntervallId();
+      io.dstore.values.IntegerValue getTimeIntervallId();
       /**
        * <pre>
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTimeIntervallIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTimeIntervallIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
        */
       boolean hasDateIntervallId();
       /**
@@ -1656,24 +1656,24 @@ public final class ImSynchronizeItemBinariesAd {
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getDateIntervallId();
+      io.dstore.values.IntegerValue getDateIntervallId();
       /**
        * <pre>
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getDateIntervallIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getDateIntervallIdOrBuilder();
 
       /**
        * <pre>
        * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
       boolean hasBinaryCodeId();
       /**
@@ -1681,24 +1681,24 @@ public final class ImSynchronizeItemBinariesAd {
        * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getBinaryCodeId();
+      io.dstore.values.IntegerValue getBinaryCodeId();
       /**
        * <pre>
        * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.StringValue value = 10004;</code>
        */
       boolean hasValue();
       /**
@@ -1706,24 +1706,24 @@ public final class ImSynchronizeItemBinariesAd {
        * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.StringValue value = 10004;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.StringValue value = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * ID eines Arikel-Elementes, das synchronisiert werden muß
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
        */
       boolean hasNodeId();
       /**
@@ -1731,24 +1731,24 @@ public final class ImSynchronizeItemBinariesAd {
        * ID eines Arikel-Elementes, das synchronisiert werden muß
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID eines Arikel-Elementes, das synchronisiert werden muß
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
       boolean hasSortNo();
       /**
@@ -1756,17 +1756,17 @@ public final class ImSynchronizeItemBinariesAd {
        * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
-      io.dstore.Values.integerValue getSortNo();
+      io.dstore.values.IntegerValue getSortNo();
       /**
        * <pre>
        * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_SynchronizeItemBinaries_Ad.Response.Row}
@@ -1814,11 +1814,11 @@ public final class ImSynchronizeItemBinariesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (timeIntervallId_ != null) {
                   subBuilder = timeIntervallId_.toBuilder();
                 }
-                timeIntervallId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                timeIntervallId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(timeIntervallId_);
                   timeIntervallId_ = subBuilder.buildPartial();
@@ -1827,11 +1827,11 @@ public final class ImSynchronizeItemBinariesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (dateIntervallId_ != null) {
                   subBuilder = dateIntervallId_.toBuilder();
                 }
-                dateIntervallId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                dateIntervallId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dateIntervallId_);
                   dateIntervallId_ = subBuilder.buildPartial();
@@ -1840,11 +1840,11 @@ public final class ImSynchronizeItemBinariesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (binaryCodeId_ != null) {
                   subBuilder = binaryCodeId_.toBuilder();
                 }
-                binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                binaryCodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCodeId_);
                   binaryCodeId_ = subBuilder.buildPartial();
@@ -1853,11 +1853,11 @@ public final class ImSynchronizeItemBinariesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1866,11 +1866,11 @@ public final class ImSynchronizeItemBinariesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -1879,11 +1879,11 @@ public final class ImSynchronizeItemBinariesAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1924,13 +1924,13 @@ public final class ImSynchronizeItemBinariesAd {
       }
 
       public static final int TIME_INTERVALL_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue timeIntervallId_;
+      private io.dstore.values.IntegerValue timeIntervallId_;
       /**
        * <pre>
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
        */
       public boolean hasTimeIntervallId() {
         return timeIntervallId_ != null;
@@ -1940,30 +1940,30 @@ public final class ImSynchronizeItemBinariesAd {
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getTimeIntervallId() {
-        return timeIntervallId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : timeIntervallId_;
+      public io.dstore.values.IntegerValue getTimeIntervallId() {
+        return timeIntervallId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : timeIntervallId_;
       }
       /**
        * <pre>
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTimeIntervallIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTimeIntervallIdOrBuilder() {
         return getTimeIntervallId();
       }
 
       public static final int DATE_INTERVALL_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue dateIntervallId_;
+      private io.dstore.values.IntegerValue dateIntervallId_;
       /**
        * <pre>
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
        */
       public boolean hasDateIntervallId() {
         return dateIntervallId_ != null;
@@ -1973,30 +1973,30 @@ public final class ImSynchronizeItemBinariesAd {
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getDateIntervallId() {
-        return dateIntervallId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : dateIntervallId_;
+      public io.dstore.values.IntegerValue getDateIntervallId() {
+        return dateIntervallId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : dateIntervallId_;
       }
       /**
        * <pre>
        * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDateIntervallIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDateIntervallIdOrBuilder() {
         return getDateIntervallId();
       }
 
       public static final int BINARY_CODE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue binaryCodeId_;
+      private io.dstore.values.IntegerValue binaryCodeId_;
       /**
        * <pre>
        * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeId_ != null;
@@ -2006,30 +2006,30 @@ public final class ImSynchronizeItemBinariesAd {
        * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCodeId() {
-        return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+      public io.dstore.values.IntegerValue getBinaryCodeId() {
+        return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
       }
       /**
        * <pre>
        * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.StringValue value = 10004;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -2039,30 +2039,30 @@ public final class ImSynchronizeItemBinariesAd {
        * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.StringValue value = 10004;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10004;</code>
+       * <code>optional .dstore.values.StringValue value = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID eines Arikel-Elementes, das synchronisiert werden muß
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -2072,30 +2072,30 @@ public final class ImSynchronizeItemBinariesAd {
        * ID eines Arikel-Elementes, das synchronisiert werden muß
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID eines Arikel-Elementes, das synchronisiert werden muß
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue sortNo_;
+      private io.dstore.values.IntegerValue sortNo_;
       /**
        * <pre>
        * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -2105,19 +2105,19 @@ public final class ImSynchronizeItemBinariesAd {
        * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.values.IntegerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
       }
       /**
        * <pre>
        * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
@@ -2596,15 +2596,15 @@ public final class ImSynchronizeItemBinariesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue timeIntervallId_ = null;
+        private io.dstore.values.IntegerValue timeIntervallId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> timeIntervallIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> timeIntervallIdBuilder_;
         /**
          * <pre>
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
          */
         public boolean hasTimeIntervallId() {
           return timeIntervallIdBuilder_ != null || timeIntervallId_ != null;
@@ -2614,11 +2614,11 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getTimeIntervallId() {
+        public io.dstore.values.IntegerValue getTimeIntervallId() {
           if (timeIntervallIdBuilder_ == null) {
-            return timeIntervallId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : timeIntervallId_;
+            return timeIntervallId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : timeIntervallId_;
           } else {
             return timeIntervallIdBuilder_.getMessage();
           }
@@ -2628,9 +2628,9 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
          */
-        public Builder setTimeIntervallId(io.dstore.Values.integerValue value) {
+        public Builder setTimeIntervallId(io.dstore.values.IntegerValue value) {
           if (timeIntervallIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2648,10 +2648,10 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
          */
         public Builder setTimeIntervallId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (timeIntervallIdBuilder_ == null) {
             timeIntervallId_ = builderForValue.build();
             onChanged();
@@ -2666,13 +2666,13 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
          */
-        public Builder mergeTimeIntervallId(io.dstore.Values.integerValue value) {
+        public Builder mergeTimeIntervallId(io.dstore.values.IntegerValue value) {
           if (timeIntervallIdBuilder_ == null) {
             if (timeIntervallId_ != null) {
               timeIntervallId_ =
-                io.dstore.Values.integerValue.newBuilder(timeIntervallId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(timeIntervallId_).mergeFrom(value).buildPartial();
             } else {
               timeIntervallId_ = value;
             }
@@ -2688,7 +2688,7 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
          */
         public Builder clearTimeIntervallId() {
           if (timeIntervallIdBuilder_ == null) {
@@ -2706,9 +2706,9 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTimeIntervallIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTimeIntervallIdBuilder() {
           
           onChanged();
           return getTimeIntervallIdFieldBuilder().getBuilder();
@@ -2718,14 +2718,14 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTimeIntervallIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTimeIntervallIdOrBuilder() {
           if (timeIntervallIdBuilder_ != null) {
             return timeIntervallIdBuilder_.getMessageOrBuilder();
           } else {
             return timeIntervallId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : timeIntervallId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : timeIntervallId_;
           }
         }
         /**
@@ -2733,14 +2733,14 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID". Im Unterschied zu "DateIntervallID" jedoch nur eine Uhrzeit-Angabe; der Grund hierfür ist, daß es keinen expliziten Datentyp "Time" im ASE gibt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue time_intervall_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue time_intervall_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTimeIntervallIdFieldBuilder() {
           if (timeIntervallIdBuilder_ == null) {
             timeIntervallIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTimeIntervallId(),
                     getParentForChildren(),
                     isClean());
@@ -2749,15 +2749,15 @@ public final class ImSynchronizeItemBinariesAd {
           return timeIntervallIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue dateIntervallId_ = null;
+        private io.dstore.values.IntegerValue dateIntervallId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> dateIntervallIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> dateIntervallIdBuilder_;
         /**
          * <pre>
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
          */
         public boolean hasDateIntervallId() {
           return dateIntervallIdBuilder_ != null || dateIntervallId_ != null;
@@ -2767,11 +2767,11 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getDateIntervallId() {
+        public io.dstore.values.IntegerValue getDateIntervallId() {
           if (dateIntervallIdBuilder_ == null) {
-            return dateIntervallId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : dateIntervallId_;
+            return dateIntervallId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : dateIntervallId_;
           } else {
             return dateIntervallIdBuilder_.getMessage();
           }
@@ -2781,9 +2781,9 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
          */
-        public Builder setDateIntervallId(io.dstore.Values.integerValue value) {
+        public Builder setDateIntervallId(io.dstore.values.IntegerValue value) {
           if (dateIntervallIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2801,10 +2801,10 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
          */
         public Builder setDateIntervallId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (dateIntervallIdBuilder_ == null) {
             dateIntervallId_ = builderForValue.build();
             onChanged();
@@ -2819,13 +2819,13 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
          */
-        public Builder mergeDateIntervallId(io.dstore.Values.integerValue value) {
+        public Builder mergeDateIntervallId(io.dstore.values.IntegerValue value) {
           if (dateIntervallIdBuilder_ == null) {
             if (dateIntervallId_ != null) {
               dateIntervallId_ =
-                io.dstore.Values.integerValue.newBuilder(dateIntervallId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(dateIntervallId_).mergeFrom(value).buildPartial();
             } else {
               dateIntervallId_ = value;
             }
@@ -2841,7 +2841,7 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
          */
         public Builder clearDateIntervallId() {
           if (dateIntervallIdBuilder_ == null) {
@@ -2859,9 +2859,9 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getDateIntervallIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getDateIntervallIdBuilder() {
           
           onChanged();
           return getDateIntervallIdFieldBuilder().getBuilder();
@@ -2871,14 +2871,14 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getDateIntervallIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getDateIntervallIdOrBuilder() {
           if (dateIntervallIdBuilder_ != null) {
             return dateIntervallIdBuilder_.getMessageOrBuilder();
           } else {
             return dateIntervallId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : dateIntervallId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : dateIntervallId_;
           }
         }
         /**
@@ -2886,14 +2886,14 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Gültigkeitszeitraums der "BinaryCodeID" für das Element "NodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue date_intervall_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue date_intervall_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getDateIntervallIdFieldBuilder() {
           if (dateIntervallIdBuilder_ == null) {
             dateIntervallIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getDateIntervallId(),
                     getParentForChildren(),
                     isClean());
@@ -2902,15 +2902,15 @@ public final class ImSynchronizeItemBinariesAd {
           return dateIntervallIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue binaryCodeId_ = null;
+        private io.dstore.values.IntegerValue binaryCodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
         /**
          * <pre>
          * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
         public boolean hasBinaryCodeId() {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
@@ -2920,11 +2920,11 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getBinaryCodeId() {
+        public io.dstore.values.IntegerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
-            return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+            return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           } else {
             return binaryCodeIdBuilder_.getMessage();
           }
@@ -2934,9 +2934,9 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2954,10 +2954,10 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
         public Builder setBinaryCodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeId_ = builderForValue.build();
             onChanged();
@@ -2972,13 +2972,13 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (binaryCodeId_ != null) {
               binaryCodeId_ =
-                io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
             } else {
               binaryCodeId_ = value;
             }
@@ -2994,7 +2994,7 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
         public Builder clearBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -3012,9 +3012,9 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
           
           onChanged();
           return getBinaryCodeIdFieldBuilder().getBuilder();
@@ -3024,14 +3024,14 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
             return binaryCodeIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryCodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           }
         }
         /**
@@ -3039,14 +3039,14 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Binärobjektes, das dem Element "NodeID" noch nicht (oder mit anderer "DateIntervallID"/"TimeIntervallID"/"SortNo") zugewiesen ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3055,15 +3055,15 @@ public final class ImSynchronizeItemBinariesAd {
           return binaryCodeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.StringValue value = 10004;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -3073,11 +3073,11 @@ public final class ImSynchronizeItemBinariesAd {
          * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.StringValue value = 10004;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -3087,9 +3087,9 @@ public final class ImSynchronizeItemBinariesAd {
          * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.StringValue value = 10004;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3107,10 +3107,10 @@ public final class ImSynchronizeItemBinariesAd {
          * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.StringValue value = 10004;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -3125,13 +3125,13 @@ public final class ImSynchronizeItemBinariesAd {
          * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.StringValue value = 10004;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -3147,7 +3147,7 @@ public final class ImSynchronizeItemBinariesAd {
          * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.StringValue value = 10004;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -3165,9 +3165,9 @@ public final class ImSynchronizeItemBinariesAd {
          * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.StringValue value = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -3177,14 +3177,14 @@ public final class ImSynchronizeItemBinariesAd {
          * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.StringValue value = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -3192,14 +3192,14 @@ public final class ImSynchronizeItemBinariesAd {
          * Eigenschaft der "NodeID" zum Merkmal "&#64;CharacIDForSynchronization"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10004;</code>
+         * <code>optional .dstore.values.StringValue value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -3208,15 +3208,15 @@ public final class ImSynchronizeItemBinariesAd {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID eines Arikel-Elementes, das synchronisiert werden muß
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -3226,11 +3226,11 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Arikel-Elementes, das synchronisiert werden muß
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -3240,9 +3240,9 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Arikel-Elementes, das synchronisiert werden muß
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3260,10 +3260,10 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Arikel-Elementes, das synchronisiert werden muß
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -3278,13 +3278,13 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Arikel-Elementes, das synchronisiert werden muß
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -3300,7 +3300,7 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Arikel-Elementes, das synchronisiert werden muß
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -3318,9 +3318,9 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Arikel-Elementes, das synchronisiert werden muß
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -3330,14 +3330,14 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Arikel-Elementes, das synchronisiert werden muß
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -3345,14 +3345,14 @@ public final class ImSynchronizeItemBinariesAd {
          * ID eines Arikel-Elementes, das synchronisiert werden muß
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3361,15 +3361,15 @@ public final class ImSynchronizeItemBinariesAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue sortNo_ = null;
+        private io.dstore.values.IntegerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
          * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -3379,11 +3379,11 @@ public final class ImSynchronizeItemBinariesAd {
          * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public io.dstore.Values.integerValue getSortNo() {
+        public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
@@ -3393,9 +3393,9 @@ public final class ImSynchronizeItemBinariesAd {
          * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public Builder setSortNo(io.dstore.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3413,10 +3413,10 @@ public final class ImSynchronizeItemBinariesAd {
          * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public Builder setSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -3431,13 +3431,13 @@ public final class ImSynchronizeItemBinariesAd {
          * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -3453,7 +3453,7 @@ public final class ImSynchronizeItemBinariesAd {
          * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -3471,9 +3471,9 @@ public final class ImSynchronizeItemBinariesAd {
          * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
@@ -3483,14 +3483,14 @@ public final class ImSynchronizeItemBinariesAd {
          * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
@@ -3498,14 +3498,14 @@ public final class ImSynchronizeItemBinariesAd {
          * Bestimmt die Reihenfolge der "BinaryCodeID" innerhalb ALLER Binärobjekte, die "NodeID" zugewiesen sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -4975,15 +4975,15 @@ public final class ImSynchronizeItemBinariesAd {
       "_SynchronizeItemBinaries_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\264\003\n" +
       "\nParameters\022B\n\035charac_id_for_synchroniza" +
-      "tion\030\001 \001(\0132\033.dstore.values.integerValue\022" +
+      "tion\030\001 \001(\0132\033.dstore.values.IntegerValue\022" +
       "+\n\"charac_id_for_synchronization_null\030\351\007" +
       " \001(\010\0220\n\013report_only\030\002 \001(\0132\033.dstore.value" +
-      "s.booleanValue\022\031\n\020report_only_null\030\352\007 \001(" +
+      "s.BooleanValue\022\031\n\020report_only_null\030\352\007 \001(" +
       "\010\022A\n\034only_direct_successors_of_id\030\003 \001(\0132",
-      "\033.dstore.values.integerValue\022*\n!only_dir" +
+      "\033.dstore.values.IntegerValue\022*\n!only_dir" +
       "ect_successors_of_id_null\030\353\007 \001(\010\022G\n\"proc" +
       "ess_values_in_chunks_with_size\030\004 \001(\0132\033.d" +
-      "store.values.integerValue\0220\n\'process_val" +
+      "store.values.IntegerValue\0220\n\'process_val" +
       "ues_in_chunks_with_size_null\030\354\007 \001(\010\"\200\004\n\010" +
       "Response\0228\n\020meta_information\030\002 \003(\0132\036.dst" +
       "ore.engine.MetaInformation\022\'\n\007message\030\003 " +
@@ -4991,13 +4991,13 @@ public final class ImSynchronizeItemBinariesAd {
       "29.dstore.engine.im_SynchronizeItemBinar" +
       "ies_Ad.Response.Row\032\310\002\n\003Row\022\017\n\006row_id\030\220N",
       " \001(\005\0227\n\021time_intervall_id\030\221N \001(\0132\033.dstor" +
-      "e.values.integerValue\0227\n\021date_intervall_" +
-      "id\030\222N \001(\0132\033.dstore.values.integerValue\0224" +
+      "e.values.IntegerValue\0227\n\021date_intervall_" +
+      "id\030\222N \001(\0132\033.dstore.values.IntegerValue\0224" +
       "\n\016binary_code_id\030\223N \001(\0132\033.dstore.values." +
-      "integerValue\022*\n\005value\030\224N \001(\0132\032.dstore.va" +
-      "lues.stringValue\022-\n\007node_id\030\225N \001(\0132\033.dst" +
-      "ore.values.integerValue\022-\n\007sort_no\030\226N \001(" +
-      "\0132\033.dstore.values.integerValueB^\n\033io.dst" +
+      "IntegerValue\022*\n\005value\030\224N \001(\0132\032.dstore.va" +
+      "lues.StringValue\022-\n\007node_id\030\225N \001(\0132\033.dst" +
+      "ore.values.IntegerValue\022-\n\007sort_no\030\226N \001(" +
+      "\0132\033.dstore.values.IntegerValueB^\n\033io.dst" +
       "ore.engine.proceduresZ?gosdk.dstore.de/e" +
       "ngine/procedures/im_SynchronizeItemBinar",
       "ies_Adb\006proto3"
@@ -5013,7 +5013,7 @@ public final class ImSynchronizeItemBinariesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Parameters_descriptor =
@@ -5034,7 +5034,7 @@ public final class ImSynchronizeItemBinariesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_SynchronizeItemBinaries_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TimeIntervallId", "DateIntervallId", "BinaryCodeId", "Value", "NodeId", "SortNo", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

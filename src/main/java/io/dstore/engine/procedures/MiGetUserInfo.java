@@ -19,17 +19,17 @@ public final class MiGetUserInfo {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUserId();
+    io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetUserInfo {
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
      */
-    io.dstore.Values.booleanValue getSelectResult();
+    io.dstore.values.BooleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
      * <code>optional bool select_result_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class MiGetUserInfo {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class MiGetUserInfo {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
               }
-              selectResult_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              selectResult_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectResult_);
                 selectResult_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class MiGetUserInfo {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue userId_;
+    private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.values.IntegerValue getUserId() {
+      return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -185,23 +185,23 @@ public final class MiGetUserInfo {
     }
 
     public static final int SELECT_RESULT_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue selectResult_;
+    private io.dstore.values.BooleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
      */
-    public io.dstore.Values.booleanValue getSelectResult() {
-      return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+    public io.dstore.values.BooleanValue getSelectResult() {
+      return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
@@ -562,29 +562,29 @@ public final class MiGetUserInfo {
         return this;
       }
 
-      private io.dstore.Values.integerValue userId_ = null;
+      private io.dstore.values.IntegerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
+      public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder setUserId(io.dstore.Values.integerValue value) {
+      public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder mergeUserId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -630,7 +630,7 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class MiGetUserInfo {
         return this;
       }
 
-      private io.dstore.Values.booleanValue selectResult_ = null;
+      private io.dstore.values.BooleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
        */
-      public io.dstore.Values.booleanValue getSelectResult() {
+      public io.dstore.values.BooleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
-          return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+          return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
         } else {
           return selectResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
        */
-      public Builder setSelectResult(io.dstore.Values.booleanValue value) {
+      public Builder setSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
        */
       public Builder setSelectResult(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (selectResultBuilder_ == null) {
           selectResult_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
        */
-      public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
+      public Builder mergeSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
           if (selectResult_ != null) {
             selectResult_ =
-              io.dstore.Values.booleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
           } else {
             selectResult_ = value;
           }
@@ -773,7 +773,7 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
+      public io.dstore.values.BooleanValue.Builder getSelectResultBuilder() {
         
         onChanged();
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
           return selectResultBuilder_.getMessageOrBuilder();
         } else {
           return selectResult_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 2;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getSelectResultFieldBuilder() {
         if (selectResultBuilder_ == null) {
           selectResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getSelectResult(),
                   getParentForChildren(),
                   isClean());
@@ -973,17 +973,17 @@ public final class MiGetUserInfo {
         int index);
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
      */
-    io.dstore.Values.integerValue getUserId();
+    io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.mi_GetUserInfo.Response}
@@ -1055,11 +1055,11 @@ public final class MiGetUserInfo {
               break;
             }
             case 810: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -1113,7 +1113,7 @@ public final class MiGetUserInfo {
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
        */
       boolean hasUserId();
       /**
@@ -1121,17 +1121,17 @@ public final class MiGetUserInfo {
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getUserId();
+      io.dstore.values.IntegerValue getUserId();
       /**
        * <pre>
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetUserInfo.Response.Row}
@@ -1179,11 +1179,11 @@ public final class MiGetUserInfo {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (userId_ != null) {
                   subBuilder = userId_.toBuilder();
                 }
-                userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userId_);
                   userId_ = subBuilder.buildPartial();
@@ -1224,13 +1224,13 @@ public final class MiGetUserInfo {
       }
 
       public static final int USER_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue userId_;
+      private io.dstore.values.IntegerValue userId_;
       /**
        * <pre>
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
@@ -1240,19 +1240,19 @@ public final class MiGetUserInfo {
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
-        return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+      public io.dstore.values.IntegerValue getUserId() {
+        return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
       }
       /**
        * <pre>
        * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
       }
 
@@ -1581,15 +1581,15 @@ public final class MiGetUserInfo {
           return this;
         }
 
-        private io.dstore.Values.integerValue userId_ = null;
+        private io.dstore.values.IntegerValue userId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
         /**
          * <pre>
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
@@ -1599,11 +1599,11 @@ public final class MiGetUserInfo {
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getUserId() {
+        public io.dstore.values.IntegerValue getUserId() {
           if (userIdBuilder_ == null) {
-            return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+            return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           } else {
             return userIdBuilder_.getMessage();
           }
@@ -1613,9 +1613,9 @@ public final class MiGetUserInfo {
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
          */
-        public Builder setUserId(io.dstore.Values.integerValue value) {
+        public Builder setUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1633,10 +1633,10 @@ public final class MiGetUserInfo {
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
          */
         public Builder setUserId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (userIdBuilder_ == null) {
             userId_ = builderForValue.build();
             onChanged();
@@ -1651,13 +1651,13 @@ public final class MiGetUserInfo {
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
          */
-        public Builder mergeUserId(io.dstore.Values.integerValue value) {
+        public Builder mergeUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (userId_ != null) {
               userId_ =
-                io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
             } else {
               userId_ = value;
             }
@@ -1673,7 +1673,7 @@ public final class MiGetUserInfo {
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -1691,9 +1691,9 @@ public final class MiGetUserInfo {
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
           
           onChanged();
           return getUserIdFieldBuilder().getBuilder();
@@ -1703,14 +1703,14 @@ public final class MiGetUserInfo {
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
             return userIdBuilder_.getMessageOrBuilder();
           } else {
             return userId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           }
         }
         /**
@@ -1718,14 +1718,14 @@ public final class MiGetUserInfo {
          * ID des im "dStore" registrierten Benutzers (aus der Tabelle "UserInfo"), dessen Name mit dem Datenbank-Benutzernamen desjenigen, der diese Prozedur aufruft, übereinstimmt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUserIdFieldBuilder() {
           if (userIdBuilder_ == null) {
             userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUserId(),
                     getParentForChildren(),
                     isClean());
@@ -1889,23 +1889,23 @@ public final class MiGetUserInfo {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 101;
-    private io.dstore.Values.integerValue userId_;
+    private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
      */
-    public io.dstore.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.values.IntegerValue getUserId() {
+      return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -3080,29 +3080,29 @@ public final class MiGetUserInfo {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.integerValue userId_ = null;
+      private io.dstore.values.IntegerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
+      public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
        */
-      public Builder setUserId(io.dstore.Values.integerValue value) {
+      public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3116,10 +3116,10 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
        */
       public Builder setUserId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -3130,13 +3130,13 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
        */
-      public Builder mergeUserId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -3148,7 +3148,7 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -3162,33 +3162,33 @@ public final class MiGetUserInfo {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -3273,17 +3273,17 @@ public final class MiGetUserInfo {
       "o.proto\022\034dstore.engine.mi_GetUserInfo\032\023d" +
       "store/values.proto\032\032dstore/engine/engine" +
       ".proto\"\242\001\n\nParameters\022,\n\007user_id\030\001 \001(\0132\033" +
-      ".dstore.values.integerValue\022\025\n\014user_id_n" +
+      ".dstore.values.IntegerValue\022\025\n\014user_id_n" +
       "ull\030\351\007 \001(\010\0222\n\rselect_result\030\002 \001(\0132\033.dsto" +
-      "re.values.booleanValue\022\033\n\022select_result_" +
+      "re.values.BooleanValue\022\033\n\022select_result_" +
       "null\030\352\007 \001(\010\"\233\002\n\010Response\0228\n\020meta_informa" +
       "tion\030\002 \003(\0132\036.dstore.engine.MetaInformati" +
       "on\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Mess",
       "age\0227\n\003row\030\004 \003(\0132*.dstore.engine.mi_GetU" +
       "serInfo.Response.Row\022,\n\007user_id\030e \001(\0132\033." +
-      "dstore.values.integerValue\032E\n\003Row\022\017\n\006row" +
+      "dstore.values.IntegerValue\032E\n\003Row\022\017\n\006row" +
       "_id\030\220N \001(\005\022-\n\007user_id\030\221N \001(\0132\033.dstore.va" +
-      "lues.integerValueBO\n\033io.dstore.engine.pr" +
+      "lues.IntegerValueBO\n\033io.dstore.engine.pr" +
       "oceduresZ0gosdk.dstore.de/engine/procedu" +
       "res/mi_GetUserInfob\006proto3"
     };
@@ -3298,7 +3298,7 @@ public final class MiGetUserInfo {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetUserInfo_Parameters_descriptor =
@@ -3319,7 +3319,7 @@ public final class MiGetUserInfo {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetUserInfo_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "UserId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

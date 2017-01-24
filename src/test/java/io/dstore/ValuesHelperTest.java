@@ -2,6 +2,7 @@ package io.dstore;
 
 import com.google.protobuf.util.Timestamps;
 import io.dstore.helper.ValuesHelper;
+import io.dstore.values.Value;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -31,7 +32,7 @@ public class ValuesHelperTest {
 
     @Test
     public void testConvertToObject() {
-        Assert.assertTrue((Boolean)ValuesHelper.convertToObject(Values.Value.newBuilder().setBooleanValue(ValuesHelper.value(true)))) ;
+        Assert.assertTrue((Boolean)ValuesHelper.convertToObject(Value.newBuilder().setBooleanValue(ValuesHelper.value(true)))) ;
     }
 
     @Test

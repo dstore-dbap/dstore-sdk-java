@@ -19,17 +19,17 @@ public final class StGetHTreeNodeStatisticsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
     boolean hasHTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getHTreeNodeId();
+    io.dstore.values.IntegerValue getHTreeNodeId();
     /**
-     * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder();
 
     /**
      * <code>optional bool h_tree_node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class StGetHTreeNodeStatisticsAd {
     boolean getHTreeNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    io.dstore.Values.timestampValue getFromDate();
+    io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class StGetHTreeNodeStatisticsAd {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    io.dstore.Values.timestampValue getToDate();
+    io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class StGetHTreeNodeStatisticsAd {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.integerValue source_table = 4;</code>
+     * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
      */
     boolean hasSourceTable();
     /**
-     * <code>optional .dstore.values.integerValue source_table = 4;</code>
+     * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
      */
-    io.dstore.Values.integerValue getSourceTable();
+    io.dstore.values.IntegerValue getSourceTable();
     /**
-     * <code>optional .dstore.values.integerValue source_table = 4;</code>
+     * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSourceTableOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSourceTableOrBuilder();
 
     /**
      * <code>optional bool source_table_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class StGetHTreeNodeStatisticsAd {
     boolean getSourceTableNull();
 
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
      */
     boolean hasBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
      */
-    io.dstore.Values.stringValue getBasicCharacteristicNumbers();
+    io.dstore.values.StringValue getBasicCharacteristicNumbers();
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
+    io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder();
 
     /**
      * <code>optional bool basic_characteristic_numbers_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class StGetHTreeNodeStatisticsAd {
     boolean getBasicCharacteristicNumbersNull();
 
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
     boolean hasNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValue getNodeCharacteristicId();
+    io.dstore.values.IntegerValue getNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool node_characteristic_id_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class StGetHTreeNodeStatisticsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (hTreeNodeId_ != null) {
                 subBuilder = hTreeNodeId_.toBuilder();
               }
-              hTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              hTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hTreeNodeId_);
                 hTreeNodeId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class StGetHTreeNodeStatisticsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class StGetHTreeNodeStatisticsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class StGetHTreeNodeStatisticsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sourceTable_ != null) {
                 subBuilder = sourceTable_.toBuilder();
               }
-              sourceTable_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sourceTable_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sourceTable_);
                 sourceTable_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class StGetHTreeNodeStatisticsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (basicCharacteristicNumbers_ != null) {
                 subBuilder = basicCharacteristicNumbers_.toBuilder();
               }
-              basicCharacteristicNumbers_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              basicCharacteristicNumbers_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNumbers_);
                 basicCharacteristicNumbers_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class StGetHTreeNodeStatisticsAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class StGetHTreeNodeStatisticsAd {
     }
 
     public static final int H_TREE_NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue hTreeNodeId_;
+    private io.dstore.values.IntegerValue hTreeNodeId_;
     /**
-     * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
     public boolean hasHTreeNodeId() {
       return hTreeNodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getHTreeNodeId() {
-      return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+    public io.dstore.values.IntegerValue getHTreeNodeId() {
+      return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
       return getHTreeNodeId();
     }
 
@@ -333,23 +333,23 @@ public final class StGetHTreeNodeStatisticsAd {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 2;
-    private io.dstore.Values.timestampValue fromDate_;
+    private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    public io.dstore.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.values.TimestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -363,23 +363,23 @@ public final class StGetHTreeNodeStatisticsAd {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 3;
-    private io.dstore.Values.timestampValue toDate_;
+    private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    public io.dstore.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.values.TimestampValue getToDate() {
+      return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -393,23 +393,23 @@ public final class StGetHTreeNodeStatisticsAd {
     }
 
     public static final int SOURCE_TABLE_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue sourceTable_;
+    private io.dstore.values.IntegerValue sourceTable_;
     /**
-     * <code>optional .dstore.values.integerValue source_table = 4;</code>
+     * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
      */
     public boolean hasSourceTable() {
       return sourceTable_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue source_table = 4;</code>
+     * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
      */
-    public io.dstore.Values.integerValue getSourceTable() {
-      return sourceTable_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sourceTable_;
+    public io.dstore.values.IntegerValue getSourceTable() {
+      return sourceTable_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sourceTable_;
     }
     /**
-     * <code>optional .dstore.values.integerValue source_table = 4;</code>
+     * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSourceTableOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSourceTableOrBuilder() {
       return getSourceTable();
     }
 
@@ -423,23 +423,23 @@ public final class StGetHTreeNodeStatisticsAd {
     }
 
     public static final int BASIC_CHARACTERISTIC_NUMBERS_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue basicCharacteristicNumbers_;
+    private io.dstore.values.StringValue basicCharacteristicNumbers_;
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
      */
     public boolean hasBasicCharacteristicNumbers() {
       return basicCharacteristicNumbers_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
      */
-    public io.dstore.Values.stringValue getBasicCharacteristicNumbers() {
-      return basicCharacteristicNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+    public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
+      return basicCharacteristicNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
     }
     /**
-     * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+     * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
       return getBasicCharacteristicNumbers();
     }
 
@@ -453,23 +453,23 @@ public final class StGetHTreeNodeStatisticsAd {
     }
 
     public static final int NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue nodeCharacteristicId_;
+    private io.dstore.values.IntegerValue nodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
     public boolean hasNodeCharacteristicId() {
       return nodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getNodeCharacteristicId() {
-      return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getNodeCharacteristicId() {
+      return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
       return getNodeCharacteristicId();
     }
 
@@ -1022,29 +1022,29 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue hTreeNodeId_ = null;
+      private io.dstore.values.IntegerValue hTreeNodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> hTreeNodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getHTreeNodeId() {
+      public io.dstore.values.IntegerValue getHTreeNodeId() {
         if (hTreeNodeIdBuilder_ == null) {
-          return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+          return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
         } else {
           return hTreeNodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
-      public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder setHTreeNodeId(io.dstore.values.IntegerValue value) {
         if (hTreeNodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public Builder setHTreeNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (hTreeNodeIdBuilder_ == null) {
           hTreeNodeId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
-      public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeHTreeNodeId(io.dstore.values.IntegerValue value) {
         if (hTreeNodeIdBuilder_ == null) {
           if (hTreeNodeId_ != null) {
             hTreeNodeId_ =
-              io.dstore.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
           } else {
             hTreeNodeId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       public Builder clearHTreeNodeId() {
         if (hTreeNodeIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getHTreeNodeIdBuilder() {
         
         onChanged();
         return getHTreeNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
         if (hTreeNodeIdBuilder_ != null) {
           return hTreeNodeIdBuilder_.getMessageOrBuilder();
         } else {
           return hTreeNodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getHTreeNodeIdFieldBuilder() {
         if (hTreeNodeIdBuilder_ == null) {
           hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getHTreeNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDate_ = null;
+      private io.dstore.values.TimestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue getFromDate() {
+      public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public Builder setFromDate(io.dstore.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder setFromDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toDate_ = null;
+      private io.dstore.values.TimestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue getToDate() {
+      public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public Builder setToDate(io.dstore.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder setToDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sourceTable_ = null;
+      private io.dstore.values.IntegerValue sourceTable_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sourceTableBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sourceTableBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue source_table = 4;</code>
+       * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
        */
       public boolean hasSourceTable() {
         return sourceTableBuilder_ != null || sourceTable_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_table = 4;</code>
+       * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
        */
-      public io.dstore.Values.integerValue getSourceTable() {
+      public io.dstore.values.IntegerValue getSourceTable() {
         if (sourceTableBuilder_ == null) {
-          return sourceTable_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sourceTable_;
+          return sourceTable_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sourceTable_;
         } else {
           return sourceTableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue source_table = 4;</code>
+       * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
        */
-      public Builder setSourceTable(io.dstore.Values.integerValue value) {
+      public Builder setSourceTable(io.dstore.values.IntegerValue value) {
         if (sourceTableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_table = 4;</code>
+       * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
        */
       public Builder setSourceTable(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sourceTableBuilder_ == null) {
           sourceTable_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_table = 4;</code>
+       * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
        */
-      public Builder mergeSourceTable(io.dstore.Values.integerValue value) {
+      public Builder mergeSourceTable(io.dstore.values.IntegerValue value) {
         if (sourceTableBuilder_ == null) {
           if (sourceTable_ != null) {
             sourceTable_ =
-              io.dstore.Values.integerValue.newBuilder(sourceTable_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sourceTable_).mergeFrom(value).buildPartial();
           } else {
             sourceTable_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_table = 4;</code>
+       * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
        */
       public Builder clearSourceTable() {
         if (sourceTableBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue source_table = 4;</code>
+       * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSourceTableBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSourceTableBuilder() {
         
         onChanged();
         return getSourceTableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue source_table = 4;</code>
+       * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSourceTableOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSourceTableOrBuilder() {
         if (sourceTableBuilder_ != null) {
           return sourceTableBuilder_.getMessageOrBuilder();
         } else {
           return sourceTable_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sourceTable_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sourceTable_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue source_table = 4;</code>
+       * <code>optional .dstore.values.IntegerValue source_table = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSourceTableFieldBuilder() {
         if (sourceTableBuilder_ == null) {
           sourceTableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSourceTable(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue basicCharacteristicNumbers_ = null;
+      private io.dstore.values.StringValue basicCharacteristicNumbers_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicNumbersBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> basicCharacteristicNumbersBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
        */
       public boolean hasBasicCharacteristicNumbers() {
         return basicCharacteristicNumbersBuilder_ != null || basicCharacteristicNumbers_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
        */
-      public io.dstore.Values.stringValue getBasicCharacteristicNumbers() {
+      public io.dstore.values.StringValue getBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
-          return basicCharacteristicNumbers_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+          return basicCharacteristicNumbers_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
         } else {
           return basicCharacteristicNumbersBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
        */
-      public Builder setBasicCharacteristicNumbers(io.dstore.Values.stringValue value) {
+      public Builder setBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
        */
       public Builder setBasicCharacteristicNumbers(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           basicCharacteristicNumbers_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
        */
-      public Builder mergeBasicCharacteristicNumbers(io.dstore.Values.stringValue value) {
+      public Builder mergeBasicCharacteristicNumbers(io.dstore.values.StringValue value) {
         if (basicCharacteristicNumbersBuilder_ == null) {
           if (basicCharacteristicNumbers_ != null) {
             basicCharacteristicNumbers_ =
-              io.dstore.Values.stringValue.newBuilder(basicCharacteristicNumbers_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(basicCharacteristicNumbers_).mergeFrom(value).buildPartial();
           } else {
             basicCharacteristicNumbers_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
        */
       public Builder clearBasicCharacteristicNumbers() {
         if (basicCharacteristicNumbersBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getBasicCharacteristicNumbersBuilder() {
+      public io.dstore.values.StringValue.Builder getBasicCharacteristicNumbersBuilder() {
         
         onChanged();
         return getBasicCharacteristicNumbersFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBasicCharacteristicNumbersOrBuilder() {
         if (basicCharacteristicNumbersBuilder_ != null) {
           return basicCharacteristicNumbersBuilder_.getMessageOrBuilder();
         } else {
           return basicCharacteristicNumbers_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristicNumbers_;
+              io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristicNumbers_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue basic_characteristic_numbers = 5;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic_numbers = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getBasicCharacteristicNumbersFieldBuilder() {
         if (basicCharacteristicNumbersBuilder_ == null) {
           basicCharacteristicNumbersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getBasicCharacteristicNumbers(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue nodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
       public boolean hasNodeCharacteristicId() {
         return nodeCharacteristicIdBuilder_ != null || nodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
-          return nodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+          return nodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         } else {
           return nodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public Builder setNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
       public Builder setNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public Builder mergeNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (nodeCharacteristicIdBuilder_ == null) {
           if (nodeCharacteristicId_ != null) {
             nodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             nodeCharacteristicId_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
       public Builder clearNodeCharacteristicId() {
         if (nodeCharacteristicIdBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class StGetHTreeNodeStatisticsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeCharacteristicIdOrBuilder() {
         if (nodeCharacteristicIdBuilder_ != null) {
           return nodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue node_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeCharacteristicIdFieldBuilder() {
         if (nodeCharacteristicIdBuilder_ == null) {
           nodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2139,7 +2139,7 @@ public final class StGetHTreeNodeStatisticsAd {
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
        */
       boolean hasPercentageOfAllItems();
       /**
@@ -2147,24 +2147,24 @@ public final class StGetHTreeNodeStatisticsAd {
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
        */
-      io.dstore.Values.decimalValue getPercentageOfAllItems();
+      io.dstore.values.DecimalValue getPercentageOfAllItems();
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPercentageOfAllItemsOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPercentageOfAllItemsOrBuilder();
 
       /**
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
       boolean hasDescription();
       /**
@@ -2172,24 +2172,24 @@ public final class StGetHTreeNodeStatisticsAd {
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      io.dstore.Values.stringValue getDescription();
+      io.dstore.values.StringValue getDescription();
       /**
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
        */
       boolean hasBasicCharacteristic();
       /**
@@ -2197,24 +2197,24 @@ public final class StGetHTreeNodeStatisticsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
        */
-      io.dstore.Values.stringValue getBasicCharacteristic();
+      io.dstore.values.StringValue getBasicCharacteristic();
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder();
+      io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder();
 
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
        */
       boolean hasPercentageOfItemTree();
       /**
@@ -2222,24 +2222,24 @@ public final class StGetHTreeNodeStatisticsAd {
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
        */
-      io.dstore.Values.decimalValue getPercentageOfItemTree();
+      io.dstore.values.DecimalValue getPercentageOfItemTree();
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPercentageOfItemTreeOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPercentageOfItemTreeOrBuilder();
 
       /**
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
        */
       boolean hasTotalValueHTreeNodeId();
       /**
@@ -2247,24 +2247,24 @@ public final class StGetHTreeNodeStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
        */
-      io.dstore.Values.decimalValue getTotalValueHTreeNodeId();
+      io.dstore.values.DecimalValue getTotalValueHTreeNodeId();
       /**
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getTotalValueHTreeNodeIdOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getTotalValueHTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
        */
       boolean hasDirectValueSimilarNodes();
       /**
@@ -2272,24 +2272,24 @@ public final class StGetHTreeNodeStatisticsAd {
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
        */
-      io.dstore.Values.decimalValue getDirectValueSimilarNodes();
+      io.dstore.values.DecimalValue getDirectValueSimilarNodes();
       /**
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getDirectValueSimilarNodesOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getDirectValueSimilarNodesOrBuilder();
 
       /**
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
        */
       boolean hasTotalValueSimilarNodes();
       /**
@@ -2297,24 +2297,24 @@ public final class StGetHTreeNodeStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
        */
-      io.dstore.Values.decimalValue getTotalValueSimilarNodes();
+      io.dstore.values.DecimalValue getTotalValueSimilarNodes();
       /**
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getTotalValueSimilarNodesOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getTotalValueSimilarNodesOrBuilder();
 
       /**
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
        */
       boolean hasBasicCharacteristicNumber();
       /**
@@ -2322,24 +2322,24 @@ public final class StGetHTreeNodeStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
        */
-      io.dstore.Values.integerValue getBasicCharacteristicNumber();
+      io.dstore.values.IntegerValue getBasicCharacteristicNumber();
       /**
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder();
 
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
        */
       boolean hasPercentageOfPredecessor();
       /**
@@ -2347,24 +2347,24 @@ public final class StGetHTreeNodeStatisticsAd {
        * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
        */
-      io.dstore.Values.decimalValue getPercentageOfPredecessor();
+      io.dstore.values.DecimalValue getPercentageOfPredecessor();
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPercentageOfPredecessorOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPercentageOfPredecessorOrBuilder();
 
       /**
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
        */
       boolean hasDirectValueHTreeNodeId();
       /**
@@ -2372,17 +2372,17 @@ public final class StGetHTreeNodeStatisticsAd {
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
        */
-      io.dstore.Values.decimalValue getDirectValueHTreeNodeId();
+      io.dstore.values.DecimalValue getDirectValueHTreeNodeId();
       /**
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getDirectValueHTreeNodeIdOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getDirectValueHTreeNodeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.st_GetHTreeNodeStatistics_Ad.Response.Row}
@@ -2430,11 +2430,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (percentageOfAllItems_ != null) {
                   subBuilder = percentageOfAllItems_.toBuilder();
                 }
-                percentageOfAllItems_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                percentageOfAllItems_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(percentageOfAllItems_);
                   percentageOfAllItems_ = subBuilder.buildPartial();
@@ -2443,11 +2443,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -2456,11 +2456,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (basicCharacteristic_ != null) {
                   subBuilder = basicCharacteristic_.toBuilder();
                 }
-                basicCharacteristic_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                basicCharacteristic_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristic_);
                   basicCharacteristic_ = subBuilder.buildPartial();
@@ -2469,11 +2469,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (percentageOfItemTree_ != null) {
                   subBuilder = percentageOfItemTree_.toBuilder();
                 }
-                percentageOfItemTree_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                percentageOfItemTree_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(percentageOfItemTree_);
                   percentageOfItemTree_ = subBuilder.buildPartial();
@@ -2482,11 +2482,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (totalValueHTreeNodeId_ != null) {
                   subBuilder = totalValueHTreeNodeId_.toBuilder();
                 }
-                totalValueHTreeNodeId_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                totalValueHTreeNodeId_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalValueHTreeNodeId_);
                   totalValueHTreeNodeId_ = subBuilder.buildPartial();
@@ -2495,11 +2495,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (directValueSimilarNodes_ != null) {
                   subBuilder = directValueSimilarNodes_.toBuilder();
                 }
-                directValueSimilarNodes_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                directValueSimilarNodes_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(directValueSimilarNodes_);
                   directValueSimilarNodes_ = subBuilder.buildPartial();
@@ -2508,11 +2508,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (totalValueSimilarNodes_ != null) {
                   subBuilder = totalValueSimilarNodes_.toBuilder();
                 }
-                totalValueSimilarNodes_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                totalValueSimilarNodes_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalValueSimilarNodes_);
                   totalValueSimilarNodes_ = subBuilder.buildPartial();
@@ -2521,11 +2521,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (basicCharacteristicNumber_ != null) {
                   subBuilder = basicCharacteristicNumber_.toBuilder();
                 }
-                basicCharacteristicNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                basicCharacteristicNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristicNumber_);
                   basicCharacteristicNumber_ = subBuilder.buildPartial();
@@ -2534,11 +2534,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80074: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (percentageOfPredecessor_ != null) {
                   subBuilder = percentageOfPredecessor_.toBuilder();
                 }
-                percentageOfPredecessor_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                percentageOfPredecessor_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(percentageOfPredecessor_);
                   percentageOfPredecessor_ = subBuilder.buildPartial();
@@ -2547,11 +2547,11 @@ public final class StGetHTreeNodeStatisticsAd {
                 break;
               }
               case 80082: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (directValueHTreeNodeId_ != null) {
                   subBuilder = directValueHTreeNodeId_.toBuilder();
                 }
-                directValueHTreeNodeId_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                directValueHTreeNodeId_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(directValueHTreeNodeId_);
                   directValueHTreeNodeId_ = subBuilder.buildPartial();
@@ -2592,13 +2592,13 @@ public final class StGetHTreeNodeStatisticsAd {
       }
 
       public static final int PERCENTAGE_OF_ALL_ITEMS_FIELD_NUMBER = 10001;
-      private io.dstore.Values.decimalValue percentageOfAllItems_;
+      private io.dstore.values.DecimalValue percentageOfAllItems_;
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
        */
       public boolean hasPercentageOfAllItems() {
         return percentageOfAllItems_ != null;
@@ -2608,30 +2608,30 @@ public final class StGetHTreeNodeStatisticsAd {
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
        */
-      public io.dstore.Values.decimalValue getPercentageOfAllItems() {
-        return percentageOfAllItems_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : percentageOfAllItems_;
+      public io.dstore.values.DecimalValue getPercentageOfAllItems() {
+        return percentageOfAllItems_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : percentageOfAllItems_;
       }
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPercentageOfAllItemsOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPercentageOfAllItemsOrBuilder() {
         return getPercentageOfAllItems();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue description_;
+      private io.dstore.values.StringValue description_;
       /**
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -2641,30 +2641,30 @@ public final class StGetHTreeNodeStatisticsAd {
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.values.StringValue getDescription() {
+        return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
       }
       /**
        * <pre>
        * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10002;</code>
+       * <code>optional .dstore.values.StringValue description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int BASIC_CHARACTERISTIC_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue basicCharacteristic_;
+      private io.dstore.values.StringValue basicCharacteristic_;
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
        */
       public boolean hasBasicCharacteristic() {
         return basicCharacteristic_ != null;
@@ -2674,30 +2674,30 @@ public final class StGetHTreeNodeStatisticsAd {
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
        */
-      public io.dstore.Values.stringValue getBasicCharacteristic() {
-        return basicCharacteristic_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+      public io.dstore.values.StringValue getBasicCharacteristic() {
+        return basicCharacteristic_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
       }
       /**
        * <pre>
        * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+       * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder() {
         return getBasicCharacteristic();
       }
 
       public static final int PERCENTAGE_OF_ITEM_TREE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.decimalValue percentageOfItemTree_;
+      private io.dstore.values.DecimalValue percentageOfItemTree_;
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
        */
       public boolean hasPercentageOfItemTree() {
         return percentageOfItemTree_ != null;
@@ -2707,30 +2707,30 @@ public final class StGetHTreeNodeStatisticsAd {
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
        */
-      public io.dstore.Values.decimalValue getPercentageOfItemTree() {
-        return percentageOfItemTree_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : percentageOfItemTree_;
+      public io.dstore.values.DecimalValue getPercentageOfItemTree() {
+        return percentageOfItemTree_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : percentageOfItemTree_;
       }
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPercentageOfItemTreeOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPercentageOfItemTreeOrBuilder() {
         return getPercentageOfItemTree();
       }
 
       public static final int TOTAL_VALUE_H_TREE_NODE_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.decimalValue totalValueHTreeNodeId_;
+      private io.dstore.values.DecimalValue totalValueHTreeNodeId_;
       /**
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
        */
       public boolean hasTotalValueHTreeNodeId() {
         return totalValueHTreeNodeId_ != null;
@@ -2740,30 +2740,30 @@ public final class StGetHTreeNodeStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
        */
-      public io.dstore.Values.decimalValue getTotalValueHTreeNodeId() {
-        return totalValueHTreeNodeId_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalValueHTreeNodeId_;
+      public io.dstore.values.DecimalValue getTotalValueHTreeNodeId() {
+        return totalValueHTreeNodeId_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValueHTreeNodeId_;
       }
       /**
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getTotalValueHTreeNodeIdOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getTotalValueHTreeNodeIdOrBuilder() {
         return getTotalValueHTreeNodeId();
       }
 
       public static final int DIRECT_VALUE_SIMILAR_NODES_FIELD_NUMBER = 10006;
-      private io.dstore.Values.decimalValue directValueSimilarNodes_;
+      private io.dstore.values.DecimalValue directValueSimilarNodes_;
       /**
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
        */
       public boolean hasDirectValueSimilarNodes() {
         return directValueSimilarNodes_ != null;
@@ -2773,30 +2773,30 @@ public final class StGetHTreeNodeStatisticsAd {
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
        */
-      public io.dstore.Values.decimalValue getDirectValueSimilarNodes() {
-        return directValueSimilarNodes_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : directValueSimilarNodes_;
+      public io.dstore.values.DecimalValue getDirectValueSimilarNodes() {
+        return directValueSimilarNodes_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : directValueSimilarNodes_;
       }
       /**
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getDirectValueSimilarNodesOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getDirectValueSimilarNodesOrBuilder() {
         return getDirectValueSimilarNodes();
       }
 
       public static final int TOTAL_VALUE_SIMILAR_NODES_FIELD_NUMBER = 10007;
-      private io.dstore.Values.decimalValue totalValueSimilarNodes_;
+      private io.dstore.values.DecimalValue totalValueSimilarNodes_;
       /**
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
        */
       public boolean hasTotalValueSimilarNodes() {
         return totalValueSimilarNodes_ != null;
@@ -2806,30 +2806,30 @@ public final class StGetHTreeNodeStatisticsAd {
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
        */
-      public io.dstore.Values.decimalValue getTotalValueSimilarNodes() {
-        return totalValueSimilarNodes_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalValueSimilarNodes_;
+      public io.dstore.values.DecimalValue getTotalValueSimilarNodes() {
+        return totalValueSimilarNodes_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValueSimilarNodes_;
       }
       /**
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+       * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getTotalValueSimilarNodesOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getTotalValueSimilarNodesOrBuilder() {
         return getTotalValueSimilarNodes();
       }
 
       public static final int BASIC_CHARACTERISTIC_NUMBER_FIELD_NUMBER = 10008;
-      private io.dstore.Values.integerValue basicCharacteristicNumber_;
+      private io.dstore.values.IntegerValue basicCharacteristicNumber_;
       /**
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
        */
       public boolean hasBasicCharacteristicNumber() {
         return basicCharacteristicNumber_ != null;
@@ -2839,30 +2839,30 @@ public final class StGetHTreeNodeStatisticsAd {
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
        */
-      public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
-        return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+      public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
+        return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
       }
       /**
        * <pre>
        * Nummer einer Basis-Kennzahl
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
         return getBasicCharacteristicNumber();
       }
 
       public static final int PERCENTAGE_OF_PREDECESSOR_FIELD_NUMBER = 10009;
-      private io.dstore.Values.decimalValue percentageOfPredecessor_;
+      private io.dstore.values.DecimalValue percentageOfPredecessor_;
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
        */
       public boolean hasPercentageOfPredecessor() {
         return percentageOfPredecessor_ != null;
@@ -2872,30 +2872,30 @@ public final class StGetHTreeNodeStatisticsAd {
        * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
        */
-      public io.dstore.Values.decimalValue getPercentageOfPredecessor() {
-        return percentageOfPredecessor_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : percentageOfPredecessor_;
+      public io.dstore.values.DecimalValue getPercentageOfPredecessor() {
+        return percentageOfPredecessor_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : percentageOfPredecessor_;
       }
       /**
        * <pre>
        * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+       * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPercentageOfPredecessorOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPercentageOfPredecessorOrBuilder() {
         return getPercentageOfPredecessor();
       }
 
       public static final int DIRECT_VALUE_H_TREE_NODE_ID_FIELD_NUMBER = 10010;
-      private io.dstore.Values.decimalValue directValueHTreeNodeId_;
+      private io.dstore.values.DecimalValue directValueHTreeNodeId_;
       /**
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
        */
       public boolean hasDirectValueHTreeNodeId() {
         return directValueHTreeNodeId_ != null;
@@ -2905,19 +2905,19 @@ public final class StGetHTreeNodeStatisticsAd {
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
        */
-      public io.dstore.Values.decimalValue getDirectValueHTreeNodeId() {
-        return directValueHTreeNodeId_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : directValueHTreeNodeId_;
+      public io.dstore.values.DecimalValue getDirectValueHTreeNodeId() {
+        return directValueHTreeNodeId_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : directValueHTreeNodeId_;
       }
       /**
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getDirectValueHTreeNodeIdOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getDirectValueHTreeNodeIdOrBuilder() {
         return getDirectValueHTreeNodeId();
       }
 
@@ -3516,15 +3516,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
 
-        private io.dstore.Values.decimalValue percentageOfAllItems_ = null;
+        private io.dstore.values.DecimalValue percentageOfAllItems_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> percentageOfAllItemsBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> percentageOfAllItemsBuilder_;
         /**
          * <pre>
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
          */
         public boolean hasPercentageOfAllItems() {
           return percentageOfAllItemsBuilder_ != null || percentageOfAllItems_ != null;
@@ -3534,11 +3534,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
          */
-        public io.dstore.Values.decimalValue getPercentageOfAllItems() {
+        public io.dstore.values.DecimalValue getPercentageOfAllItems() {
           if (percentageOfAllItemsBuilder_ == null) {
-            return percentageOfAllItems_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : percentageOfAllItems_;
+            return percentageOfAllItems_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : percentageOfAllItems_;
           } else {
             return percentageOfAllItemsBuilder_.getMessage();
           }
@@ -3548,9 +3548,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
          */
-        public Builder setPercentageOfAllItems(io.dstore.Values.decimalValue value) {
+        public Builder setPercentageOfAllItems(io.dstore.values.DecimalValue value) {
           if (percentageOfAllItemsBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3568,10 +3568,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
          */
         public Builder setPercentageOfAllItems(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (percentageOfAllItemsBuilder_ == null) {
             percentageOfAllItems_ = builderForValue.build();
             onChanged();
@@ -3586,13 +3586,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
          */
-        public Builder mergePercentageOfAllItems(io.dstore.Values.decimalValue value) {
+        public Builder mergePercentageOfAllItems(io.dstore.values.DecimalValue value) {
           if (percentageOfAllItemsBuilder_ == null) {
             if (percentageOfAllItems_ != null) {
               percentageOfAllItems_ =
-                io.dstore.Values.decimalValue.newBuilder(percentageOfAllItems_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(percentageOfAllItems_).mergeFrom(value).buildPartial();
             } else {
               percentageOfAllItems_ = value;
             }
@@ -3608,7 +3608,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
          */
         public Builder clearPercentageOfAllItems() {
           if (percentageOfAllItemsBuilder_ == null) {
@@ -3626,9 +3626,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPercentageOfAllItemsBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPercentageOfAllItemsBuilder() {
           
           onChanged();
           return getPercentageOfAllItemsFieldBuilder().getBuilder();
@@ -3638,14 +3638,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPercentageOfAllItemsOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPercentageOfAllItemsOrBuilder() {
           if (percentageOfAllItemsBuilder_ != null) {
             return percentageOfAllItemsBuilder_.getMessageOrBuilder();
           } else {
             return percentageOfAllItems_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : percentageOfAllItems_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : percentageOfAllItems_;
           }
         }
         /**
@@ -3653,14 +3653,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente (also auch inkl. der "HTreeNodeID"s mit "TreeNodeID = 0")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_all_items = 10001;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_all_items = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPercentageOfAllItemsFieldBuilder() {
           if (percentageOfAllItemsBuilder_ == null) {
             percentageOfAllItemsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPercentageOfAllItems(),
                     getParentForChildren(),
                     isClean());
@@ -3669,15 +3669,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return percentageOfAllItemsBuilder_;
         }
 
-        private io.dstore.Values.stringValue description_ = null;
+        private io.dstore.values.StringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -3687,11 +3687,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getDescription() {
+        public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
@@ -3701,9 +3701,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public Builder setDescription(io.dstore.Values.stringValue value) {
+        public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3721,10 +3721,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         public Builder setDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -3739,13 +3739,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public Builder mergeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -3761,7 +3761,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -3779,9 +3779,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
@@ -3791,14 +3791,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.values.StringValue.getDefaultInstance() : description_;
           }
         }
         /**
@@ -3806,14 +3806,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Beschreibung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10002;</code>
+         * <code>optional .dstore.values.StringValue description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3822,15 +3822,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.Values.stringValue basicCharacteristic_ = null;
+        private io.dstore.values.StringValue basicCharacteristic_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> basicCharacteristicBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> basicCharacteristicBuilder_;
         /**
          * <pre>
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
          */
         public boolean hasBasicCharacteristic() {
           return basicCharacteristicBuilder_ != null || basicCharacteristic_ != null;
@@ -3840,11 +3840,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
          */
-        public io.dstore.Values.stringValue getBasicCharacteristic() {
+        public io.dstore.values.StringValue getBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
-            return basicCharacteristic_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+            return basicCharacteristic_ == null ? io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
           } else {
             return basicCharacteristicBuilder_.getMessage();
           }
@@ -3854,9 +3854,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
          */
-        public Builder setBasicCharacteristic(io.dstore.Values.stringValue value) {
+        public Builder setBasicCharacteristic(io.dstore.values.StringValue value) {
           if (basicCharacteristicBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3874,10 +3874,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
          */
         public Builder setBasicCharacteristic(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (basicCharacteristicBuilder_ == null) {
             basicCharacteristic_ = builderForValue.build();
             onChanged();
@@ -3892,13 +3892,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
          */
-        public Builder mergeBasicCharacteristic(io.dstore.Values.stringValue value) {
+        public Builder mergeBasicCharacteristic(io.dstore.values.StringValue value) {
           if (basicCharacteristicBuilder_ == null) {
             if (basicCharacteristic_ != null) {
               basicCharacteristic_ =
-                io.dstore.Values.stringValue.newBuilder(basicCharacteristic_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(basicCharacteristic_).mergeFrom(value).buildPartial();
             } else {
               basicCharacteristic_ = value;
             }
@@ -3914,7 +3914,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
          */
         public Builder clearBasicCharacteristic() {
           if (basicCharacteristicBuilder_ == null) {
@@ -3932,9 +3932,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBasicCharacteristicBuilder() {
+        public io.dstore.values.StringValue.Builder getBasicCharacteristicBuilder() {
           
           onChanged();
           return getBasicCharacteristicFieldBuilder().getBuilder();
@@ -3944,14 +3944,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBasicCharacteristicOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBasicCharacteristicOrBuilder() {
           if (basicCharacteristicBuilder_ != null) {
             return basicCharacteristicBuilder_.getMessageOrBuilder();
           } else {
             return basicCharacteristic_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : basicCharacteristic_;
+                io.dstore.values.StringValue.getDefaultInstance() : basicCharacteristic_;
           }
         }
         /**
@@ -3959,14 +3959,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Kurzbezeichnung der Basis-Kennzahl "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue basic_characteristic = 10003;</code>
+         * <code>optional .dstore.values.StringValue basic_characteristic = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBasicCharacteristicFieldBuilder() {
           if (basicCharacteristicBuilder_ == null) {
             basicCharacteristicBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBasicCharacteristic(),
                     getParentForChildren(),
                     isClean());
@@ -3975,15 +3975,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return basicCharacteristicBuilder_;
         }
 
-        private io.dstore.Values.decimalValue percentageOfItemTree_ = null;
+        private io.dstore.values.DecimalValue percentageOfItemTree_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> percentageOfItemTreeBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> percentageOfItemTreeBuilder_;
         /**
          * <pre>
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
          */
         public boolean hasPercentageOfItemTree() {
           return percentageOfItemTreeBuilder_ != null || percentageOfItemTree_ != null;
@@ -3993,11 +3993,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
          */
-        public io.dstore.Values.decimalValue getPercentageOfItemTree() {
+        public io.dstore.values.DecimalValue getPercentageOfItemTree() {
           if (percentageOfItemTreeBuilder_ == null) {
-            return percentageOfItemTree_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : percentageOfItemTree_;
+            return percentageOfItemTree_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : percentageOfItemTree_;
           } else {
             return percentageOfItemTreeBuilder_.getMessage();
           }
@@ -4007,9 +4007,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
          */
-        public Builder setPercentageOfItemTree(io.dstore.Values.decimalValue value) {
+        public Builder setPercentageOfItemTree(io.dstore.values.DecimalValue value) {
           if (percentageOfItemTreeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4027,10 +4027,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
          */
         public Builder setPercentageOfItemTree(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (percentageOfItemTreeBuilder_ == null) {
             percentageOfItemTree_ = builderForValue.build();
             onChanged();
@@ -4045,13 +4045,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
          */
-        public Builder mergePercentageOfItemTree(io.dstore.Values.decimalValue value) {
+        public Builder mergePercentageOfItemTree(io.dstore.values.DecimalValue value) {
           if (percentageOfItemTreeBuilder_ == null) {
             if (percentageOfItemTree_ != null) {
               percentageOfItemTree_ =
-                io.dstore.Values.decimalValue.newBuilder(percentageOfItemTree_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(percentageOfItemTree_).mergeFrom(value).buildPartial();
             } else {
               percentageOfItemTree_ = value;
             }
@@ -4067,7 +4067,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
          */
         public Builder clearPercentageOfItemTree() {
           if (percentageOfItemTreeBuilder_ == null) {
@@ -4085,9 +4085,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPercentageOfItemTreeBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPercentageOfItemTreeBuilder() {
           
           onChanged();
           return getPercentageOfItemTreeFieldBuilder().getBuilder();
@@ -4097,14 +4097,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPercentageOfItemTreeOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPercentageOfItemTreeOrBuilder() {
           if (percentageOfItemTreeBuilder_ != null) {
             return percentageOfItemTreeBuilder_.getMessageOrBuilder();
           } else {
             return percentageOfItemTree_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : percentageOfItemTree_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : percentageOfItemTree_;
           }
         }
         /**
@@ -4112,14 +4112,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" an der Summe der Werte zur Basis-Kennzahl "BasicCharacteristicNumber" aller Elemente des Artikelbaums
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_item_tree = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_item_tree = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPercentageOfItemTreeFieldBuilder() {
           if (percentageOfItemTreeBuilder_ == null) {
             percentageOfItemTreeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPercentageOfItemTree(),
                     getParentForChildren(),
                     isClean());
@@ -4128,15 +4128,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return percentageOfItemTreeBuilder_;
         }
 
-        private io.dstore.Values.decimalValue totalValueHTreeNodeId_ = null;
+        private io.dstore.values.DecimalValue totalValueHTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalValueHTreeNodeIdBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> totalValueHTreeNodeIdBuilder_;
         /**
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
          */
         public boolean hasTotalValueHTreeNodeId() {
           return totalValueHTreeNodeIdBuilder_ != null || totalValueHTreeNodeId_ != null;
@@ -4146,11 +4146,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.decimalValue getTotalValueHTreeNodeId() {
+        public io.dstore.values.DecimalValue getTotalValueHTreeNodeId() {
           if (totalValueHTreeNodeIdBuilder_ == null) {
-            return totalValueHTreeNodeId_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalValueHTreeNodeId_;
+            return totalValueHTreeNodeId_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValueHTreeNodeId_;
           } else {
             return totalValueHTreeNodeIdBuilder_.getMessage();
           }
@@ -4160,9 +4160,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
          */
-        public Builder setTotalValueHTreeNodeId(io.dstore.Values.decimalValue value) {
+        public Builder setTotalValueHTreeNodeId(io.dstore.values.DecimalValue value) {
           if (totalValueHTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4180,10 +4180,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
          */
         public Builder setTotalValueHTreeNodeId(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (totalValueHTreeNodeIdBuilder_ == null) {
             totalValueHTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -4198,13 +4198,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
          */
-        public Builder mergeTotalValueHTreeNodeId(io.dstore.Values.decimalValue value) {
+        public Builder mergeTotalValueHTreeNodeId(io.dstore.values.DecimalValue value) {
           if (totalValueHTreeNodeIdBuilder_ == null) {
             if (totalValueHTreeNodeId_ != null) {
               totalValueHTreeNodeId_ =
-                io.dstore.Values.decimalValue.newBuilder(totalValueHTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(totalValueHTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               totalValueHTreeNodeId_ = value;
             }
@@ -4220,7 +4220,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
          */
         public Builder clearTotalValueHTreeNodeId() {
           if (totalValueHTreeNodeIdBuilder_ == null) {
@@ -4238,9 +4238,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getTotalValueHTreeNodeIdBuilder() {
+        public io.dstore.values.DecimalValue.Builder getTotalValueHTreeNodeIdBuilder() {
           
           onChanged();
           return getTotalValueHTreeNodeIdFieldBuilder().getBuilder();
@@ -4250,14 +4250,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getTotalValueHTreeNodeIdOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getTotalValueHTreeNodeIdOrBuilder() {
           if (totalValueHTreeNodeIdBuilder_ != null) {
             return totalValueHTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return totalValueHTreeNodeId_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : totalValueHTreeNodeId_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : totalValueHTreeNodeId_;
           }
         }
         /**
@@ -4265,14 +4265,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_h_tree_node_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getTotalValueHTreeNodeIdFieldBuilder() {
           if (totalValueHTreeNodeIdBuilder_ == null) {
             totalValueHTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getTotalValueHTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -4281,15 +4281,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return totalValueHTreeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue directValueSimilarNodes_ = null;
+        private io.dstore.values.DecimalValue directValueSimilarNodes_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> directValueSimilarNodesBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> directValueSimilarNodesBuilder_;
         /**
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
          */
         public boolean hasDirectValueSimilarNodes() {
           return directValueSimilarNodesBuilder_ != null || directValueSimilarNodes_ != null;
@@ -4299,11 +4299,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
          */
-        public io.dstore.Values.decimalValue getDirectValueSimilarNodes() {
+        public io.dstore.values.DecimalValue getDirectValueSimilarNodes() {
           if (directValueSimilarNodesBuilder_ == null) {
-            return directValueSimilarNodes_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : directValueSimilarNodes_;
+            return directValueSimilarNodes_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : directValueSimilarNodes_;
           } else {
             return directValueSimilarNodesBuilder_.getMessage();
           }
@@ -4313,9 +4313,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
          */
-        public Builder setDirectValueSimilarNodes(io.dstore.Values.decimalValue value) {
+        public Builder setDirectValueSimilarNodes(io.dstore.values.DecimalValue value) {
           if (directValueSimilarNodesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4333,10 +4333,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
          */
         public Builder setDirectValueSimilarNodes(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (directValueSimilarNodesBuilder_ == null) {
             directValueSimilarNodes_ = builderForValue.build();
             onChanged();
@@ -4351,13 +4351,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
          */
-        public Builder mergeDirectValueSimilarNodes(io.dstore.Values.decimalValue value) {
+        public Builder mergeDirectValueSimilarNodes(io.dstore.values.DecimalValue value) {
           if (directValueSimilarNodesBuilder_ == null) {
             if (directValueSimilarNodes_ != null) {
               directValueSimilarNodes_ =
-                io.dstore.Values.decimalValue.newBuilder(directValueSimilarNodes_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(directValueSimilarNodes_).mergeFrom(value).buildPartial();
             } else {
               directValueSimilarNodes_ = value;
             }
@@ -4373,7 +4373,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
          */
         public Builder clearDirectValueSimilarNodes() {
           if (directValueSimilarNodesBuilder_ == null) {
@@ -4391,9 +4391,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getDirectValueSimilarNodesBuilder() {
+        public io.dstore.values.DecimalValue.Builder getDirectValueSimilarNodesBuilder() {
           
           onChanged();
           return getDirectValueSimilarNodesFieldBuilder().getBuilder();
@@ -4403,14 +4403,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getDirectValueSimilarNodesOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getDirectValueSimilarNodesOrBuilder() {
           if (directValueSimilarNodesBuilder_ != null) {
             return directValueSimilarNodesBuilder_.getMessageOrBuilder();
           } else {
             return directValueSimilarNodes_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : directValueSimilarNodes_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : directValueSimilarNodes_;
           }
         }
         /**
@@ -4418,14 +4418,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_similar_nodes = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_similar_nodes = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getDirectValueSimilarNodesFieldBuilder() {
           if (directValueSimilarNodesBuilder_ == null) {
             directValueSimilarNodesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getDirectValueSimilarNodes(),
                     getParentForChildren(),
                     isClean());
@@ -4434,15 +4434,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return directValueSimilarNodesBuilder_;
         }
 
-        private io.dstore.Values.decimalValue totalValueSimilarNodes_ = null;
+        private io.dstore.values.DecimalValue totalValueSimilarNodes_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> totalValueSimilarNodesBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> totalValueSimilarNodesBuilder_;
         /**
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
          */
         public boolean hasTotalValueSimilarNodes() {
           return totalValueSimilarNodesBuilder_ != null || totalValueSimilarNodes_ != null;
@@ -4452,11 +4452,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
          */
-        public io.dstore.Values.decimalValue getTotalValueSimilarNodes() {
+        public io.dstore.values.DecimalValue getTotalValueSimilarNodes() {
           if (totalValueSimilarNodesBuilder_ == null) {
-            return totalValueSimilarNodes_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : totalValueSimilarNodes_;
+            return totalValueSimilarNodes_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : totalValueSimilarNodes_;
           } else {
             return totalValueSimilarNodesBuilder_.getMessage();
           }
@@ -4466,9 +4466,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
          */
-        public Builder setTotalValueSimilarNodes(io.dstore.Values.decimalValue value) {
+        public Builder setTotalValueSimilarNodes(io.dstore.values.DecimalValue value) {
           if (totalValueSimilarNodesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4486,10 +4486,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
          */
         public Builder setTotalValueSimilarNodes(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (totalValueSimilarNodesBuilder_ == null) {
             totalValueSimilarNodes_ = builderForValue.build();
             onChanged();
@@ -4504,13 +4504,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
          */
-        public Builder mergeTotalValueSimilarNodes(io.dstore.Values.decimalValue value) {
+        public Builder mergeTotalValueSimilarNodes(io.dstore.values.DecimalValue value) {
           if (totalValueSimilarNodesBuilder_ == null) {
             if (totalValueSimilarNodes_ != null) {
               totalValueSimilarNodes_ =
-                io.dstore.Values.decimalValue.newBuilder(totalValueSimilarNodes_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(totalValueSimilarNodes_).mergeFrom(value).buildPartial();
             } else {
               totalValueSimilarNodes_ = value;
             }
@@ -4526,7 +4526,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
          */
         public Builder clearTotalValueSimilarNodes() {
           if (totalValueSimilarNodesBuilder_ == null) {
@@ -4544,9 +4544,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getTotalValueSimilarNodesBuilder() {
+        public io.dstore.values.DecimalValue.Builder getTotalValueSimilarNodesBuilder() {
           
           onChanged();
           return getTotalValueSimilarNodesFieldBuilder().getBuilder();
@@ -4556,14 +4556,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getTotalValueSimilarNodesOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getTotalValueSimilarNodesOrBuilder() {
           if (totalValueSimilarNodesBuilder_ != null) {
             return totalValueSimilarNodesBuilder_.getMessageOrBuilder();
           } else {
             return totalValueSimilarNodes_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : totalValueSimilarNodes_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : totalValueSimilarNodes_;
           }
         }
         /**
@@ -4571,14 +4571,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue total_value_similar_nodes = 10007;</code>
+         * <code>optional .dstore.values.DecimalValue total_value_similar_nodes = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getTotalValueSimilarNodesFieldBuilder() {
           if (totalValueSimilarNodesBuilder_ == null) {
             totalValueSimilarNodesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getTotalValueSimilarNodes(),
                     getParentForChildren(),
                     isClean());
@@ -4587,15 +4587,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return totalValueSimilarNodesBuilder_;
         }
 
-        private io.dstore.Values.integerValue basicCharacteristicNumber_ = null;
+        private io.dstore.values.IntegerValue basicCharacteristicNumber_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> basicCharacteristicNumberBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> basicCharacteristicNumberBuilder_;
         /**
          * <pre>
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
          */
         public boolean hasBasicCharacteristicNumber() {
           return basicCharacteristicNumberBuilder_ != null || basicCharacteristicNumber_ != null;
@@ -4605,11 +4605,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
          */
-        public io.dstore.Values.integerValue getBasicCharacteristicNumber() {
+        public io.dstore.values.IntegerValue getBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
-            return basicCharacteristicNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+            return basicCharacteristicNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
           } else {
             return basicCharacteristicNumberBuilder_.getMessage();
           }
@@ -4619,9 +4619,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
          */
-        public Builder setBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
+        public Builder setBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4639,10 +4639,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
          */
         public Builder setBasicCharacteristicNumber(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumber_ = builderForValue.build();
             onChanged();
@@ -4657,13 +4657,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
          */
-        public Builder mergeBasicCharacteristicNumber(io.dstore.Values.integerValue value) {
+        public Builder mergeBasicCharacteristicNumber(io.dstore.values.IntegerValue value) {
           if (basicCharacteristicNumberBuilder_ == null) {
             if (basicCharacteristicNumber_ != null) {
               basicCharacteristicNumber_ =
-                io.dstore.Values.integerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(basicCharacteristicNumber_).mergeFrom(value).buildPartial();
             } else {
               basicCharacteristicNumber_ = value;
             }
@@ -4679,7 +4679,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
          */
         public Builder clearBasicCharacteristicNumber() {
           if (basicCharacteristicNumberBuilder_ == null) {
@@ -4697,9 +4697,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBasicCharacteristicNumberBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBasicCharacteristicNumberBuilder() {
           
           onChanged();
           return getBasicCharacteristicNumberFieldBuilder().getBuilder();
@@ -4709,14 +4709,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBasicCharacteristicNumberOrBuilder() {
           if (basicCharacteristicNumberBuilder_ != null) {
             return basicCharacteristicNumberBuilder_.getMessageOrBuilder();
           } else {
             return basicCharacteristicNumber_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : basicCharacteristicNumber_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : basicCharacteristicNumber_;
           }
         }
         /**
@@ -4724,14 +4724,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Nummer einer Basis-Kennzahl
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue basic_characteristic_number = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue basic_characteristic_number = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBasicCharacteristicNumberFieldBuilder() {
           if (basicCharacteristicNumberBuilder_ == null) {
             basicCharacteristicNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBasicCharacteristicNumber(),
                     getParentForChildren(),
                     isClean());
@@ -4740,15 +4740,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return basicCharacteristicNumberBuilder_;
         }
 
-        private io.dstore.Values.decimalValue percentageOfPredecessor_ = null;
+        private io.dstore.values.DecimalValue percentageOfPredecessor_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> percentageOfPredecessorBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> percentageOfPredecessorBuilder_;
         /**
          * <pre>
          * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
          */
         public boolean hasPercentageOfPredecessor() {
           return percentageOfPredecessorBuilder_ != null || percentageOfPredecessor_ != null;
@@ -4758,11 +4758,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
          */
-        public io.dstore.Values.decimalValue getPercentageOfPredecessor() {
+        public io.dstore.values.DecimalValue getPercentageOfPredecessor() {
           if (percentageOfPredecessorBuilder_ == null) {
-            return percentageOfPredecessor_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : percentageOfPredecessor_;
+            return percentageOfPredecessor_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : percentageOfPredecessor_;
           } else {
             return percentageOfPredecessorBuilder_.getMessage();
           }
@@ -4772,9 +4772,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
          */
-        public Builder setPercentageOfPredecessor(io.dstore.Values.decimalValue value) {
+        public Builder setPercentageOfPredecessor(io.dstore.values.DecimalValue value) {
           if (percentageOfPredecessorBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4792,10 +4792,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
          */
         public Builder setPercentageOfPredecessor(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (percentageOfPredecessorBuilder_ == null) {
             percentageOfPredecessor_ = builderForValue.build();
             onChanged();
@@ -4810,13 +4810,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
          */
-        public Builder mergePercentageOfPredecessor(io.dstore.Values.decimalValue value) {
+        public Builder mergePercentageOfPredecessor(io.dstore.values.DecimalValue value) {
           if (percentageOfPredecessorBuilder_ == null) {
             if (percentageOfPredecessor_ != null) {
               percentageOfPredecessor_ =
-                io.dstore.Values.decimalValue.newBuilder(percentageOfPredecessor_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(percentageOfPredecessor_).mergeFrom(value).buildPartial();
             } else {
               percentageOfPredecessor_ = value;
             }
@@ -4832,7 +4832,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
          */
         public Builder clearPercentageOfPredecessor() {
           if (percentageOfPredecessorBuilder_ == null) {
@@ -4850,9 +4850,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPercentageOfPredecessorBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPercentageOfPredecessorBuilder() {
           
           onChanged();
           return getPercentageOfPredecessorFieldBuilder().getBuilder();
@@ -4862,14 +4862,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPercentageOfPredecessorOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPercentageOfPredecessorOrBuilder() {
           if (percentageOfPredecessorBuilder_ != null) {
             return percentageOfPredecessorBuilder_.getMessageOrBuilder();
           } else {
             return percentageOfPredecessor_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : percentageOfPredecessor_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : percentageOfPredecessor_;
           }
         }
         /**
@@ -4877,14 +4877,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Prozentanteil von "TotalValue_HTreeNodeID" am Wert des Vorgängers von "&#64;HTreeNodeID" (zur Basis-Kennzahl "BasicCharacteristicNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue percentage_of_predecessor = 10009;</code>
+         * <code>optional .dstore.values.DecimalValue percentage_of_predecessor = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPercentageOfPredecessorFieldBuilder() {
           if (percentageOfPredecessorBuilder_ == null) {
             percentageOfPredecessorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPercentageOfPredecessor(),
                     getParentForChildren(),
                     isClean());
@@ -4893,15 +4893,15 @@ public final class StGetHTreeNodeStatisticsAd {
           return percentageOfPredecessorBuilder_;
         }
 
-        private io.dstore.Values.decimalValue directValueHTreeNodeId_ = null;
+        private io.dstore.values.DecimalValue directValueHTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> directValueHTreeNodeIdBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> directValueHTreeNodeIdBuilder_;
         /**
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
          */
         public boolean hasDirectValueHTreeNodeId() {
           return directValueHTreeNodeIdBuilder_ != null || directValueHTreeNodeId_ != null;
@@ -4911,11 +4911,11 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
          */
-        public io.dstore.Values.decimalValue getDirectValueHTreeNodeId() {
+        public io.dstore.values.DecimalValue getDirectValueHTreeNodeId() {
           if (directValueHTreeNodeIdBuilder_ == null) {
-            return directValueHTreeNodeId_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : directValueHTreeNodeId_;
+            return directValueHTreeNodeId_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : directValueHTreeNodeId_;
           } else {
             return directValueHTreeNodeIdBuilder_.getMessage();
           }
@@ -4925,9 +4925,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
          */
-        public Builder setDirectValueHTreeNodeId(io.dstore.Values.decimalValue value) {
+        public Builder setDirectValueHTreeNodeId(io.dstore.values.DecimalValue value) {
           if (directValueHTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4945,10 +4945,10 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
          */
         public Builder setDirectValueHTreeNodeId(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (directValueHTreeNodeIdBuilder_ == null) {
             directValueHTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -4963,13 +4963,13 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
          */
-        public Builder mergeDirectValueHTreeNodeId(io.dstore.Values.decimalValue value) {
+        public Builder mergeDirectValueHTreeNodeId(io.dstore.values.DecimalValue value) {
           if (directValueHTreeNodeIdBuilder_ == null) {
             if (directValueHTreeNodeId_ != null) {
               directValueHTreeNodeId_ =
-                io.dstore.Values.decimalValue.newBuilder(directValueHTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(directValueHTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               directValueHTreeNodeId_ = value;
             }
@@ -4985,7 +4985,7 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
          */
         public Builder clearDirectValueHTreeNodeId() {
           if (directValueHTreeNodeIdBuilder_ == null) {
@@ -5003,9 +5003,9 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getDirectValueHTreeNodeIdBuilder() {
+        public io.dstore.values.DecimalValue.Builder getDirectValueHTreeNodeIdBuilder() {
           
           onChanged();
           return getDirectValueHTreeNodeIdFieldBuilder().getBuilder();
@@ -5015,14 +5015,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getDirectValueHTreeNodeIdOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getDirectValueHTreeNodeIdOrBuilder() {
           if (directValueHTreeNodeIdBuilder_ != null) {
             return directValueHTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return directValueHTreeNodeId_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : directValueHTreeNodeId_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : directValueHTreeNodeId_;
           }
         }
         /**
@@ -5030,14 +5030,14 @@ public final class StGetHTreeNodeStatisticsAd {
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.values.DecimalValue direct_value_h_tree_node_id = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getDirectValueHTreeNodeIdFieldBuilder() {
           if (directValueHTreeNodeIdBuilder_ == null) {
             directValueHTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getDirectValueHTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -6507,17 +6507,17 @@ public final class StGetHTreeNodeStatisticsAd {
       "GetHTreeNodeStatistics_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\221\004\n\nP" +
       "arameters\0223\n\016h_tree_node_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\034\n\023h_tree_node_id" +
+      "re.values.IntegerValue\022\034\n\023h_tree_node_id" +
       "_null\030\351\007 \001(\010\0220\n\tfrom_date\030\002 \001(\0132\035.dstore" +
-      ".values.timestampValue\022\027\n\016from_date_null" +
+      ".values.TimestampValue\022\027\n\016from_date_null" +
       "\030\352\007 \001(\010\022.\n\007to_date\030\003 \001(\0132\035.dstore.values" +
-      ".timestampValue\022\025\n\014to_date_null\030\353\007 \001(\010\0221",
-      "\n\014source_table\030\004 \001(\0132\033.dstore.values.int" +
+      ".TimestampValue\022\025\n\014to_date_null\030\353\007 \001(\010\0221",
+      "\n\014source_table\030\004 \001(\0132\033.dstore.values.Int" +
       "egerValue\022\032\n\021source_table_null\030\354\007 \001(\010\022@\n" +
       "\034basic_characteristic_numbers\030\005 \001(\0132\032.ds" +
-      "tore.values.stringValue\022*\n!basic_charact" +
+      "tore.values.StringValue\022*\n!basic_charact" +
       "eristic_numbers_null\030\355\007 \001(\010\022;\n\026node_char" +
-      "acteristic_id\030\006 \001(\0132\033.dstore.values.inte" +
+      "acteristic_id\030\006 \001(\0132\033.dstore.values.Inte" +
       "gerValue\022$\n\033node_characteristic_id_null\030" +
       "\356\007 \001(\010\"\304\006\n\010Response\0228\n\020meta_information\030" +
       "\002 \003(\0132\036.dstore.engine.MetaInformation\022\'\n" +
@@ -6525,21 +6525,21 @@ public final class StGetHTreeNodeStatisticsAd {
       "\n\003row\030\004 \003(\01328.dstore.engine.st_GetHTreeN" +
       "odeStatistics_Ad.Response.Row\032\215\005\n\003Row\022\017\n" +
       "\006row_id\030\220N \001(\005\022=\n\027percentage_of_all_item" +
-      "s\030\221N \001(\0132\033.dstore.values.decimalValue\0220\n" +
-      "\013description\030\222N \001(\0132\032.dstore.values.stri" +
+      "s\030\221N \001(\0132\033.dstore.values.DecimalValue\0220\n" +
+      "\013description\030\222N \001(\0132\032.dstore.values.Stri" +
       "ngValue\0229\n\024basic_characteristic\030\223N \001(\0132\032" +
-      ".dstore.values.stringValue\022=\n\027percentage" +
-      "_of_item_tree\030\224N \001(\0132\033.dstore.values.dec" +
+      ".dstore.values.StringValue\022=\n\027percentage" +
+      "_of_item_tree\030\224N \001(\0132\033.dstore.values.Dec" +
       "imalValue\022@\n\032total_value_h_tree_node_id\030" +
-      "\225N \001(\0132\033.dstore.values.decimalValue\022@\n\032d",
+      "\225N \001(\0132\033.dstore.values.DecimalValue\022@\n\032d",
       "irect_value_similar_nodes\030\226N \001(\0132\033.dstor" +
-      "e.values.decimalValue\022?\n\031total_value_sim" +
-      "ilar_nodes\030\227N \001(\0132\033.dstore.values.decima" +
+      "e.values.DecimalValue\022?\n\031total_value_sim" +
+      "ilar_nodes\030\227N \001(\0132\033.dstore.values.Decima" +
       "lValue\022A\n\033basic_characteristic_number\030\230N" +
-      " \001(\0132\033.dstore.values.integerValue\022?\n\031per" +
+      " \001(\0132\033.dstore.values.IntegerValue\022?\n\031per" +
       "centage_of_predecessor\030\231N \001(\0132\033.dstore.v" +
-      "alues.decimalValue\022A\n\033direct_value_h_tre" +
-      "e_node_id\030\232N \001(\0132\033.dstore.values.decimal" +
+      "alues.DecimalValue\022A\n\033direct_value_h_tre" +
+      "e_node_id\030\232N \001(\0132\033.dstore.values.Decimal" +
       "ValueB]\n\033io.dstore.engine.proceduresZ>go" +
       "sdk.dstore.de/engine/procedures/st_GetHT",
       "reeNodeStatistics_Adb\006proto3"
@@ -6555,7 +6555,7 @@ public final class StGetHTreeNodeStatisticsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_st_GetHTreeNodeStatistics_Ad_Parameters_descriptor =
@@ -6576,7 +6576,7 @@ public final class StGetHTreeNodeStatisticsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetHTreeNodeStatistics_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PercentageOfAllItems", "Description", "BasicCharacteristic", "PercentageOfItemTree", "TotalValueHTreeNodeId", "DirectValueSimilarNodes", "TotalValueSimilarNodes", "BasicCharacteristicNumber", "PercentageOfPredecessor", "DirectValueHTreeNodeId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

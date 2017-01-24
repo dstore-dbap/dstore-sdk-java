@@ -19,17 +19,17 @@ public final class OmGetTrolleysAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     boolean hasFromDateAndTime();
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
-    io.dstore.Values.timestampValue getFromDateAndTime();
+    io.dstore.values.TimestampValue getFromDateAndTime();
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateAndTimeOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateAndTimeOrBuilder();
 
     /**
      * <code>optional bool from_date_and_time_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetTrolleysAd {
     boolean getFromDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     boolean hasToDateAndTime();
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
-    io.dstore.Values.timestampValue getToDateAndTime();
+    io.dstore.values.TimestampValue getToDateAndTime();
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToDateAndTimeOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToDateAndTimeOrBuilder();
 
     /**
      * <code>optional bool to_date_and_time_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetTrolleysAd {
     boolean getToDateAndTimeNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
      */
     boolean hasOnlyForIdentifiedPersons();
     /**
-     * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
      */
-    io.dstore.Values.booleanValue getOnlyForIdentifiedPersons();
+    io.dstore.values.BooleanValue getOnlyForIdentifiedPersons();
     /**
-     * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOnlyForIdentifiedPersonsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOnlyForIdentifiedPersonsOrBuilder();
 
     /**
      * <code>optional bool only_for_identified_persons_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmGetTrolleysAd {
     boolean getOnlyForIdentifiedPersonsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
      */
     boolean hasNumberOfTrolleys();
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
      */
-    io.dstore.Values.integerValue getNumberOfTrolleys();
+    io.dstore.values.IntegerValue getNumberOfTrolleys();
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNumberOfTrolleysOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNumberOfTrolleysOrBuilder();
 
     /**
      * <code>optional bool number_of_trolleys_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class OmGetTrolleysAd {
               break;
             }
             case 10: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDateAndTime_ != null) {
                 subBuilder = fromDateAndTime_.toBuilder();
               }
-              fromDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDateAndTime_);
                 fromDateAndTime_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class OmGetTrolleysAd {
               break;
             }
             case 18: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toDateAndTime_ != null) {
                 subBuilder = toDateAndTime_.toBuilder();
               }
-              toDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDateAndTime_);
                 toDateAndTime_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class OmGetTrolleysAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (onlyForIdentifiedPersons_ != null) {
                 subBuilder = onlyForIdentifiedPersons_.toBuilder();
               }
-              onlyForIdentifiedPersons_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              onlyForIdentifiedPersons_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyForIdentifiedPersons_);
                 onlyForIdentifiedPersons_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class OmGetTrolleysAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (numberOfTrolleys_ != null) {
                 subBuilder = numberOfTrolleys_.toBuilder();
               }
-              numberOfTrolleys_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              numberOfTrolleys_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfTrolleys_);
                 numberOfTrolleys_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class OmGetTrolleysAd {
     }
 
     public static final int FROM_DATE_AND_TIME_FIELD_NUMBER = 1;
-    private io.dstore.Values.timestampValue fromDateAndTime_;
+    private io.dstore.values.TimestampValue fromDateAndTime_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
     public boolean hasFromDateAndTime() {
       return fromDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
-    public io.dstore.Values.timestampValue getFromDateAndTime() {
-      return fromDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDateAndTime_;
+    public io.dstore.values.TimestampValue getFromDateAndTime() {
+      return fromDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateAndTimeOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateAndTimeOrBuilder() {
       return getFromDateAndTime();
     }
 
@@ -259,23 +259,23 @@ public final class OmGetTrolleysAd {
     }
 
     public static final int TO_DATE_AND_TIME_FIELD_NUMBER = 2;
-    private io.dstore.Values.timestampValue toDateAndTime_;
+    private io.dstore.values.TimestampValue toDateAndTime_;
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
     public boolean hasToDateAndTime() {
       return toDateAndTime_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
-    public io.dstore.Values.timestampValue getToDateAndTime() {
-      return toDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDateAndTime_;
+    public io.dstore.values.TimestampValue getToDateAndTime() {
+      return toDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDateAndTime_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToDateAndTimeOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToDateAndTimeOrBuilder() {
       return getToDateAndTime();
     }
 
@@ -289,23 +289,23 @@ public final class OmGetTrolleysAd {
     }
 
     public static final int ONLY_FOR_IDENTIFIED_PERSONS_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue onlyForIdentifiedPersons_;
+    private io.dstore.values.BooleanValue onlyForIdentifiedPersons_;
     /**
-     * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
      */
     public boolean hasOnlyForIdentifiedPersons() {
       return onlyForIdentifiedPersons_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
      */
-    public io.dstore.Values.booleanValue getOnlyForIdentifiedPersons() {
-      return onlyForIdentifiedPersons_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyForIdentifiedPersons_;
+    public io.dstore.values.BooleanValue getOnlyForIdentifiedPersons() {
+      return onlyForIdentifiedPersons_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyForIdentifiedPersons_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOnlyForIdentifiedPersonsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOnlyForIdentifiedPersonsOrBuilder() {
       return getOnlyForIdentifiedPersons();
     }
 
@@ -319,23 +319,23 @@ public final class OmGetTrolleysAd {
     }
 
     public static final int NUMBER_OF_TROLLEYS_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue numberOfTrolleys_;
+    private io.dstore.values.IntegerValue numberOfTrolleys_;
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
      */
     public boolean hasNumberOfTrolleys() {
       return numberOfTrolleys_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
      */
-    public io.dstore.Values.integerValue getNumberOfTrolleys() {
-      return numberOfTrolleys_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfTrolleys_;
+    public io.dstore.values.IntegerValue getNumberOfTrolleys() {
+      return numberOfTrolleys_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfTrolleys_;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNumberOfTrolleysOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNumberOfTrolleysOrBuilder() {
       return getNumberOfTrolleys();
     }
 
@@ -792,29 +792,29 @@ public final class OmGetTrolleysAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDateAndTime_ = null;
+      private io.dstore.values.TimestampValue fromDateAndTime_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateAndTimeBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public boolean hasFromDateAndTime() {
         return fromDateAndTimeBuilder_ != null || fromDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public io.dstore.Values.timestampValue getFromDateAndTime() {
+      public io.dstore.values.TimestampValue getFromDateAndTime() {
         if (fromDateAndTimeBuilder_ == null) {
-          return fromDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDateAndTime_;
+          return fromDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDateAndTime_;
         } else {
           return fromDateAndTimeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public Builder setFromDateAndTime(io.dstore.Values.timestampValue value) {
+      public Builder setFromDateAndTime(io.dstore.values.TimestampValue value) {
         if (fromDateAndTimeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public Builder setFromDateAndTime(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateAndTimeBuilder_ == null) {
           fromDateAndTime_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public Builder mergeFromDateAndTime(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDateAndTime(io.dstore.values.TimestampValue value) {
         if (fromDateAndTimeBuilder_ == null) {
           if (fromDateAndTime_ != null) {
             fromDateAndTime_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDateAndTime_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDateAndTime_).mergeFrom(value).buildPartial();
           } else {
             fromDateAndTime_ = value;
           }
@@ -860,7 +860,7 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       public Builder clearFromDateAndTime() {
         if (fromDateAndTimeBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateAndTimeBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateAndTimeBuilder() {
         
         onChanged();
         return getFromDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateAndTimeOrBuilder() {
         if (fromDateAndTimeBuilder_ != null) {
           return fromDateAndTimeBuilder_.getMessageOrBuilder();
         } else {
           return fromDateAndTime_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDateAndTime_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDateAndTime_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date_and_time = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date_and_time = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateAndTimeFieldBuilder() {
         if (fromDateAndTimeBuilder_ == null) {
           fromDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDateAndTime(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class OmGetTrolleysAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toDateAndTime_ = null;
+      private io.dstore.values.TimestampValue toDateAndTime_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateAndTimeBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateAndTimeBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public boolean hasToDateAndTime() {
         return toDateAndTimeBuilder_ != null || toDateAndTime_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public io.dstore.Values.timestampValue getToDateAndTime() {
+      public io.dstore.values.TimestampValue getToDateAndTime() {
         if (toDateAndTimeBuilder_ == null) {
-          return toDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDateAndTime_;
+          return toDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDateAndTime_;
         } else {
           return toDateAndTimeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public Builder setToDateAndTime(io.dstore.Values.timestampValue value) {
+      public Builder setToDateAndTime(io.dstore.values.TimestampValue value) {
         if (toDateAndTimeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public Builder setToDateAndTime(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toDateAndTimeBuilder_ == null) {
           toDateAndTime_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public Builder mergeToDateAndTime(io.dstore.Values.timestampValue value) {
+      public Builder mergeToDateAndTime(io.dstore.values.TimestampValue value) {
         if (toDateAndTimeBuilder_ == null) {
           if (toDateAndTime_ != null) {
             toDateAndTime_ =
-              io.dstore.Values.timestampValue.newBuilder(toDateAndTime_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toDateAndTime_).mergeFrom(value).buildPartial();
           } else {
             toDateAndTime_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       public Builder clearToDateAndTime() {
         if (toDateAndTimeBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToDateAndTimeBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToDateAndTimeBuilder() {
         
         onChanged();
         return getToDateAndTimeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToDateAndTimeOrBuilder() {
         if (toDateAndTimeBuilder_ != null) {
           return toDateAndTimeBuilder_.getMessageOrBuilder();
         } else {
           return toDateAndTime_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toDateAndTime_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toDateAndTime_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date_and_time = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date_and_time = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToDateAndTimeFieldBuilder() {
         if (toDateAndTimeBuilder_ == null) {
           toDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToDateAndTime(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class OmGetTrolleysAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue onlyForIdentifiedPersons_ = null;
+      private io.dstore.values.BooleanValue onlyForIdentifiedPersons_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyForIdentifiedPersonsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyForIdentifiedPersonsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
        */
       public boolean hasOnlyForIdentifiedPersons() {
         return onlyForIdentifiedPersonsBuilder_ != null || onlyForIdentifiedPersons_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
        */
-      public io.dstore.Values.booleanValue getOnlyForIdentifiedPersons() {
+      public io.dstore.values.BooleanValue getOnlyForIdentifiedPersons() {
         if (onlyForIdentifiedPersonsBuilder_ == null) {
-          return onlyForIdentifiedPersons_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyForIdentifiedPersons_;
+          return onlyForIdentifiedPersons_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyForIdentifiedPersons_;
         } else {
           return onlyForIdentifiedPersonsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
        */
-      public Builder setOnlyForIdentifiedPersons(io.dstore.Values.booleanValue value) {
+      public Builder setOnlyForIdentifiedPersons(io.dstore.values.BooleanValue value) {
         if (onlyForIdentifiedPersonsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
        */
       public Builder setOnlyForIdentifiedPersons(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (onlyForIdentifiedPersonsBuilder_ == null) {
           onlyForIdentifiedPersons_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
        */
-      public Builder mergeOnlyForIdentifiedPersons(io.dstore.Values.booleanValue value) {
+      public Builder mergeOnlyForIdentifiedPersons(io.dstore.values.BooleanValue value) {
         if (onlyForIdentifiedPersonsBuilder_ == null) {
           if (onlyForIdentifiedPersons_ != null) {
             onlyForIdentifiedPersons_ =
-              io.dstore.Values.booleanValue.newBuilder(onlyForIdentifiedPersons_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(onlyForIdentifiedPersons_).mergeFrom(value).buildPartial();
           } else {
             onlyForIdentifiedPersons_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
        */
       public Builder clearOnlyForIdentifiedPersons() {
         if (onlyForIdentifiedPersonsBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOnlyForIdentifiedPersonsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOnlyForIdentifiedPersonsBuilder() {
         
         onChanged();
         return getOnlyForIdentifiedPersonsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOnlyForIdentifiedPersonsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOnlyForIdentifiedPersonsOrBuilder() {
         if (onlyForIdentifiedPersonsBuilder_ != null) {
           return onlyForIdentifiedPersonsBuilder_.getMessageOrBuilder();
         } else {
           return onlyForIdentifiedPersons_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : onlyForIdentifiedPersons_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : onlyForIdentifiedPersons_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_for_identified_persons = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_for_identified_persons = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOnlyForIdentifiedPersonsFieldBuilder() {
         if (onlyForIdentifiedPersonsBuilder_ == null) {
           onlyForIdentifiedPersonsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOnlyForIdentifiedPersons(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class OmGetTrolleysAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue numberOfTrolleys_ = null;
+      private io.dstore.values.IntegerValue numberOfTrolleys_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfTrolleysBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfTrolleysBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
        */
       public boolean hasNumberOfTrolleys() {
         return numberOfTrolleysBuilder_ != null || numberOfTrolleys_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
        */
-      public io.dstore.Values.integerValue getNumberOfTrolleys() {
+      public io.dstore.values.IntegerValue getNumberOfTrolleys() {
         if (numberOfTrolleysBuilder_ == null) {
-          return numberOfTrolleys_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfTrolleys_;
+          return numberOfTrolleys_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfTrolleys_;
         } else {
           return numberOfTrolleysBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
        */
-      public Builder setNumberOfTrolleys(io.dstore.Values.integerValue value) {
+      public Builder setNumberOfTrolleys(io.dstore.values.IntegerValue value) {
         if (numberOfTrolleysBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
        */
       public Builder setNumberOfTrolleys(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (numberOfTrolleysBuilder_ == null) {
           numberOfTrolleys_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
        */
-      public Builder mergeNumberOfTrolleys(io.dstore.Values.integerValue value) {
+      public Builder mergeNumberOfTrolleys(io.dstore.values.IntegerValue value) {
         if (numberOfTrolleysBuilder_ == null) {
           if (numberOfTrolleys_ != null) {
             numberOfTrolleys_ =
-              io.dstore.Values.integerValue.newBuilder(numberOfTrolleys_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(numberOfTrolleys_).mergeFrom(value).buildPartial();
           } else {
             numberOfTrolleys_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
        */
       public Builder clearNumberOfTrolleys() {
         if (numberOfTrolleysBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNumberOfTrolleysBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNumberOfTrolleysBuilder() {
         
         onChanged();
         return getNumberOfTrolleysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNumberOfTrolleysOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNumberOfTrolleysOrBuilder() {
         if (numberOfTrolleysBuilder_ != null) {
           return numberOfTrolleysBuilder_.getMessageOrBuilder();
         } else {
           return numberOfTrolleys_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : numberOfTrolleys_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : numberOfTrolleys_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 4;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNumberOfTrolleysFieldBuilder() {
         if (numberOfTrolleysBuilder_ == null) {
           numberOfTrolleysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNumberOfTrolleys(),
                   getParentForChildren(),
                   isClean());
@@ -1489,17 +1489,17 @@ public final class OmGetTrolleysAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
      */
     boolean hasNumberOfTrolleys();
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
      */
-    io.dstore.Values.integerValue getNumberOfTrolleys();
+    io.dstore.values.IntegerValue getNumberOfTrolleys();
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNumberOfTrolleysOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNumberOfTrolleysOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.om_GetTrolleys_Ad.Response}
@@ -1571,11 +1571,11 @@ public final class OmGetTrolleysAd {
               break;
             }
             case 810: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (numberOfTrolleys_ != null) {
                 subBuilder = numberOfTrolleys_.toBuilder();
               }
-              numberOfTrolleys_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              numberOfTrolleys_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfTrolleys_);
                 numberOfTrolleys_ = subBuilder.buildPartial();
@@ -1629,7 +1629,7 @@ public final class OmGetTrolleysAd {
        * Die ID des Besuchers, dem der Warenkorb "gehört"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
       boolean hasVisitorId();
       /**
@@ -1637,24 +1637,24 @@ public final class OmGetTrolleysAd {
        * Die ID des Besuchers, dem der Warenkorb "gehört"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getVisitorId();
+      io.dstore.values.IntegerValue getVisitorId();
       /**
        * <pre>
        * Die ID des Besuchers, dem der Warenkorb "gehört"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getVisitorIdOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
        */
       boolean hasIdentifyingValue();
       /**
@@ -1662,24 +1662,24 @@ public final class OmGetTrolleysAd {
        * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
        */
-      io.dstore.Values.stringValue getIdentifyingValue();
+      io.dstore.values.StringValue getIdentifyingValue();
       /**
        * <pre>
        * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder();
 
       /**
        * <pre>
        * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
       boolean hasPersonId();
       /**
@@ -1687,24 +1687,24 @@ public final class OmGetTrolleysAd {
        * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getPersonId();
+      io.dstore.values.IntegerValue getPersonId();
       /**
        * <pre>
        * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
       /**
        * <pre>
        * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
        */
       boolean hasInputDateAndTime();
       /**
@@ -1712,24 +1712,24 @@ public final class OmGetTrolleysAd {
        * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
        */
-      io.dstore.Values.timestampValue getInputDateAndTime();
+      io.dstore.values.TimestampValue getInputDateAndTime();
       /**
        * <pre>
        * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getInputDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
       boolean hasHTreeNodeId();
       /**
@@ -1737,24 +1737,24 @@ public final class OmGetTrolleysAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
-      io.dstore.Values.integerValue getHTreeNodeId();
+      io.dstore.values.IntegerValue getHTreeNodeId();
       /**
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10006;</code>
        */
       boolean hasItemNo();
       /**
@@ -1762,24 +1762,24 @@ public final class OmGetTrolleysAd {
        * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10006;</code>
        */
-      io.dstore.Values.stringValue getItemNo();
+      io.dstore.values.StringValue getItemNo();
       /**
        * <pre>
        * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder();
+      io.dstore.values.StringValueOrBuilder getItemNoOrBuilder();
 
       /**
        * <pre>
        * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -1787,24 +1787,24 @@ public final class OmGetTrolleysAd {
        * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
-      io.dstore.Values.integerValue getTreeNodeId();
+      io.dstore.values.IntegerValue getTreeNodeId();
       /**
        * <pre>
        * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
 
       /**
        * <pre>
        * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+       * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
        */
       boolean hasIdentValRestrByPattern();
       /**
@@ -1812,24 +1812,24 @@ public final class OmGetTrolleysAd {
        * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+       * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
        */
-      io.dstore.Values.stringValue getIdentValRestrByPattern();
+      io.dstore.values.StringValue getIdentValRestrByPattern();
       /**
        * <pre>
        * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+       * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getIdentValRestrByPatternOrBuilder();
+      io.dstore.values.StringValueOrBuilder getIdentValRestrByPatternOrBuilder();
 
       /**
        * <pre>
        * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
       boolean hasQuantity();
       /**
@@ -1837,17 +1837,17 @@ public final class OmGetTrolleysAd {
        * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
-      io.dstore.Values.integerValue getQuantity();
+      io.dstore.values.IntegerValue getQuantity();
       /**
        * <pre>
        * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetTrolleys_Ad.Response.Row}
@@ -1895,11 +1895,11 @@ public final class OmGetTrolleysAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (visitorId_ != null) {
                   subBuilder = visitorId_.toBuilder();
                 }
-                visitorId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                visitorId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visitorId_);
                   visitorId_ = subBuilder.buildPartial();
@@ -1908,11 +1908,11 @@ public final class OmGetTrolleysAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (identifyingValue_ != null) {
                   subBuilder = identifyingValue_.toBuilder();
                 }
-                identifyingValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                identifyingValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(identifyingValue_);
                   identifyingValue_ = subBuilder.buildPartial();
@@ -1921,11 +1921,11 @@ public final class OmGetTrolleysAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -1934,11 +1934,11 @@ public final class OmGetTrolleysAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (inputDateAndTime_ != null) {
                   subBuilder = inputDateAndTime_.toBuilder();
                 }
-                inputDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                inputDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inputDateAndTime_);
                   inputDateAndTime_ = subBuilder.buildPartial();
@@ -1947,11 +1947,11 @@ public final class OmGetTrolleysAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -1960,11 +1960,11 @@ public final class OmGetTrolleysAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (itemNo_ != null) {
                   subBuilder = itemNo_.toBuilder();
                 }
-                itemNo_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                itemNo_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemNo_);
                   itemNo_ = subBuilder.buildPartial();
@@ -1973,11 +1973,11 @@ public final class OmGetTrolleysAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -1986,11 +1986,11 @@ public final class OmGetTrolleysAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (identValRestrByPattern_ != null) {
                   subBuilder = identValRestrByPattern_.toBuilder();
                 }
-                identValRestrByPattern_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                identValRestrByPattern_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(identValRestrByPattern_);
                   identValRestrByPattern_ = subBuilder.buildPartial();
@@ -1999,11 +1999,11 @@ public final class OmGetTrolleysAd {
                 break;
               }
               case 80074: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -2044,13 +2044,13 @@ public final class OmGetTrolleysAd {
       }
 
       public static final int VISITOR_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue visitorId_;
+      private io.dstore.values.IntegerValue visitorId_;
       /**
        * <pre>
        * Die ID des Besuchers, dem der Warenkorb "gehört"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
       public boolean hasVisitorId() {
         return visitorId_ != null;
@@ -2060,30 +2060,30 @@ public final class OmGetTrolleysAd {
        * Die ID des Besuchers, dem der Warenkorb "gehört"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getVisitorId() {
-        return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
+      public io.dstore.values.IntegerValue getVisitorId() {
+        return visitorId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorId_;
       }
       /**
        * <pre>
        * Die ID des Besuchers, dem der Warenkorb "gehört"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVisitorIdOrBuilder() {
         return getVisitorId();
       }
 
       public static final int IDENTIFYING_VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue identifyingValue_;
+      private io.dstore.values.StringValue identifyingValue_;
       /**
        * <pre>
        * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
        */
       public boolean hasIdentifyingValue() {
         return identifyingValue_ != null;
@@ -2093,30 +2093,30 @@ public final class OmGetTrolleysAd {
        * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
        */
-      public io.dstore.Values.stringValue getIdentifyingValue() {
-        return identifyingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+      public io.dstore.values.StringValue getIdentifyingValue() {
+        return identifyingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
       }
       /**
        * <pre>
        * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder() {
         return getIdentifyingValue();
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue personId_;
+      private io.dstore.values.IntegerValue personId_;
       /**
        * <pre>
        * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -2126,30 +2126,30 @@ public final class OmGetTrolleysAd {
        * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.values.IntegerValue getPersonId() {
+        return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
       }
       /**
        * <pre>
        * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
       public static final int INPUT_DATE_AND_TIME_FIELD_NUMBER = 10004;
-      private io.dstore.Values.timestampValue inputDateAndTime_;
+      private io.dstore.values.TimestampValue inputDateAndTime_;
       /**
        * <pre>
        * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
        */
       public boolean hasInputDateAndTime() {
         return inputDateAndTime_ != null;
@@ -2159,30 +2159,30 @@ public final class OmGetTrolleysAd {
        * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
        */
-      public io.dstore.Values.timestampValue getInputDateAndTime() {
-        return inputDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
+      public io.dstore.values.TimestampValue getInputDateAndTime() {
+        return inputDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : inputDateAndTime_;
       }
       /**
        * <pre>
        * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+       * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getInputDateAndTimeOrBuilder() {
         return getInputDateAndTime();
       }
 
       public static final int H_TREE_NODE_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue hTreeNodeId_;
+      private io.dstore.values.IntegerValue hTreeNodeId_;
       /**
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
       public boolean hasHTreeNodeId() {
         return hTreeNodeId_ != null;
@@ -2192,30 +2192,30 @@ public final class OmGetTrolleysAd {
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
-      public io.dstore.Values.integerValue getHTreeNodeId() {
-        return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+      public io.dstore.values.IntegerValue getHTreeNodeId() {
+        return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
       }
       /**
        * <pre>
        * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
         return getHTreeNodeId();
       }
 
       public static final int ITEM_NO_FIELD_NUMBER = 10006;
-      private io.dstore.Values.stringValue itemNo_;
+      private io.dstore.values.StringValue itemNo_;
       /**
        * <pre>
        * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10006;</code>
        */
       public boolean hasItemNo() {
         return itemNo_ != null;
@@ -2225,30 +2225,30 @@ public final class OmGetTrolleysAd {
        * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10006;</code>
        */
-      public io.dstore.Values.stringValue getItemNo() {
-        return itemNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
+      public io.dstore.values.StringValue getItemNo() {
+        return itemNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemNo_;
       }
       /**
        * <pre>
        * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+       * <code>optional .dstore.values.StringValue item_no = 10006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getItemNoOrBuilder() {
         return getItemNo();
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue treeNodeId_;
+      private io.dstore.values.IntegerValue treeNodeId_;
       /**
        * <pre>
        * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -2258,30 +2258,30 @@ public final class OmGetTrolleysAd {
        * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.values.IntegerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
        * <pre>
        * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
       public static final int IDENT_VAL_RESTR_BY_PATTERN_FIELD_NUMBER = 10008;
-      private io.dstore.Values.stringValue identValRestrByPattern_;
+      private io.dstore.values.StringValue identValRestrByPattern_;
       /**
        * <pre>
        * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+       * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
        */
       public boolean hasIdentValRestrByPattern() {
         return identValRestrByPattern_ != null;
@@ -2291,30 +2291,30 @@ public final class OmGetTrolleysAd {
        * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+       * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
        */
-      public io.dstore.Values.stringValue getIdentValRestrByPattern() {
-        return identValRestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identValRestrByPattern_;
+      public io.dstore.values.StringValue getIdentValRestrByPattern() {
+        return identValRestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identValRestrByPattern_;
       }
       /**
        * <pre>
        * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+       * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getIdentValRestrByPatternOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getIdentValRestrByPatternOrBuilder() {
         return getIdentValRestrByPattern();
       }
 
       public static final int QUANTITY_FIELD_NUMBER = 10009;
-      private io.dstore.Values.integerValue quantity_;
+      private io.dstore.values.IntegerValue quantity_;
       /**
        * <pre>
        * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
       public boolean hasQuantity() {
         return quantity_ != null;
@@ -2324,19 +2324,19 @@ public final class OmGetTrolleysAd {
        * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
-      public io.dstore.Values.integerValue getQuantity() {
-        return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+      public io.dstore.values.IntegerValue getQuantity() {
+        return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
       }
       /**
        * <pre>
        * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
         return getQuantity();
       }
 
@@ -2905,15 +2905,15 @@ public final class OmGetTrolleysAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue visitorId_ = null;
+        private io.dstore.values.IntegerValue visitorId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visitorIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> visitorIdBuilder_;
         /**
          * <pre>
          * Die ID des Besuchers, dem der Warenkorb "gehört"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
         public boolean hasVisitorId() {
           return visitorIdBuilder_ != null || visitorId_ != null;
@@ -2923,11 +2923,11 @@ public final class OmGetTrolleysAd {
          * Die ID des Besuchers, dem der Warenkorb "gehört"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getVisitorId() {
+        public io.dstore.values.IntegerValue getVisitorId() {
           if (visitorIdBuilder_ == null) {
-            return visitorId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
+            return visitorId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visitorId_;
           } else {
             return visitorIdBuilder_.getMessage();
           }
@@ -2937,9 +2937,9 @@ public final class OmGetTrolleysAd {
          * Die ID des Besuchers, dem der Warenkorb "gehört"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public Builder setVisitorId(io.dstore.Values.integerValue value) {
+        public Builder setVisitorId(io.dstore.values.IntegerValue value) {
           if (visitorIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2957,10 +2957,10 @@ public final class OmGetTrolleysAd {
          * Die ID des Besuchers, dem der Warenkorb "gehört"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
         public Builder setVisitorId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (visitorIdBuilder_ == null) {
             visitorId_ = builderForValue.build();
             onChanged();
@@ -2975,13 +2975,13 @@ public final class OmGetTrolleysAd {
          * Die ID des Besuchers, dem der Warenkorb "gehört"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public Builder mergeVisitorId(io.dstore.Values.integerValue value) {
+        public Builder mergeVisitorId(io.dstore.values.IntegerValue value) {
           if (visitorIdBuilder_ == null) {
             if (visitorId_ != null) {
               visitorId_ =
-                io.dstore.Values.integerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(visitorId_).mergeFrom(value).buildPartial();
             } else {
               visitorId_ = value;
             }
@@ -2997,7 +2997,7 @@ public final class OmGetTrolleysAd {
          * Die ID des Besuchers, dem der Warenkorb "gehört"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
         public Builder clearVisitorId() {
           if (visitorIdBuilder_ == null) {
@@ -3015,9 +3015,9 @@ public final class OmGetTrolleysAd {
          * Die ID des Besuchers, dem der Warenkorb "gehört"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getVisitorIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getVisitorIdBuilder() {
           
           onChanged();
           return getVisitorIdFieldBuilder().getBuilder();
@@ -3027,14 +3027,14 @@ public final class OmGetTrolleysAd {
          * Die ID des Besuchers, dem der Warenkorb "gehört"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getVisitorIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getVisitorIdOrBuilder() {
           if (visitorIdBuilder_ != null) {
             return visitorIdBuilder_.getMessageOrBuilder();
           } else {
             return visitorId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : visitorId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : visitorId_;
           }
         }
         /**
@@ -3042,14 +3042,14 @@ public final class OmGetTrolleysAd {
          * Die ID des Besuchers, dem der Warenkorb "gehört"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue visitor_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue visitor_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getVisitorIdFieldBuilder() {
           if (visitorIdBuilder_ == null) {
             visitorIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getVisitorId(),
                     getParentForChildren(),
                     isClean());
@@ -3058,15 +3058,15 @@ public final class OmGetTrolleysAd {
           return visitorIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue identifyingValue_ = null;
+        private io.dstore.values.StringValue identifyingValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> identifyingValueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> identifyingValueBuilder_;
         /**
          * <pre>
          * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
          */
         public boolean hasIdentifyingValue() {
           return identifyingValueBuilder_ != null || identifyingValue_ != null;
@@ -3076,11 +3076,11 @@ public final class OmGetTrolleysAd {
          * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
          */
-        public io.dstore.Values.stringValue getIdentifyingValue() {
+        public io.dstore.values.StringValue getIdentifyingValue() {
           if (identifyingValueBuilder_ == null) {
-            return identifyingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+            return identifyingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
           } else {
             return identifyingValueBuilder_.getMessage();
           }
@@ -3090,9 +3090,9 @@ public final class OmGetTrolleysAd {
          * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
          */
-        public Builder setIdentifyingValue(io.dstore.Values.stringValue value) {
+        public Builder setIdentifyingValue(io.dstore.values.StringValue value) {
           if (identifyingValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3110,10 +3110,10 @@ public final class OmGetTrolleysAd {
          * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
          */
         public Builder setIdentifyingValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (identifyingValueBuilder_ == null) {
             identifyingValue_ = builderForValue.build();
             onChanged();
@@ -3128,13 +3128,13 @@ public final class OmGetTrolleysAd {
          * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
          */
-        public Builder mergeIdentifyingValue(io.dstore.Values.stringValue value) {
+        public Builder mergeIdentifyingValue(io.dstore.values.StringValue value) {
           if (identifyingValueBuilder_ == null) {
             if (identifyingValue_ != null) {
               identifyingValue_ =
-                io.dstore.Values.stringValue.newBuilder(identifyingValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(identifyingValue_).mergeFrom(value).buildPartial();
             } else {
               identifyingValue_ = value;
             }
@@ -3150,7 +3150,7 @@ public final class OmGetTrolleysAd {
          * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
          */
         public Builder clearIdentifyingValue() {
           if (identifyingValueBuilder_ == null) {
@@ -3168,9 +3168,9 @@ public final class OmGetTrolleysAd {
          * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getIdentifyingValueBuilder() {
+        public io.dstore.values.StringValue.Builder getIdentifyingValueBuilder() {
           
           onChanged();
           return getIdentifyingValueFieldBuilder().getBuilder();
@@ -3180,14 +3180,14 @@ public final class OmGetTrolleysAd {
          * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder() {
           if (identifyingValueBuilder_ != null) {
             return identifyingValueBuilder_.getMessageOrBuilder();
           } else {
             return identifyingValue_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+                io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
           }
         }
         /**
@@ -3195,14 +3195,14 @@ public final class OmGetTrolleysAd {
          * Eigenschaft von "PersonID" zum 1. (willkürlich gewählt) Merkmal des Personentyps von "PersonID", welches ein Pflichtmerkmal UND eindeutig ist. "NULL" wenn dieses Merkmal komplett lesend für den Aufrufer gesperrt ist (s. "pm_GetPChAccRestrForUsers_Ad").
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue identifying_value = 10002;</code>
+         * <code>optional .dstore.values.StringValue identifying_value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getIdentifyingValueFieldBuilder() {
           if (identifyingValueBuilder_ == null) {
             identifyingValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getIdentifyingValue(),
                     getParentForChildren(),
                     isClean());
@@ -3211,15 +3211,15 @@ public final class OmGetTrolleysAd {
           return identifyingValueBuilder_;
         }
 
-        private io.dstore.Values.integerValue personId_ = null;
+        private io.dstore.values.IntegerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
          * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -3229,11 +3229,11 @@ public final class OmGetTrolleysAd {
          * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getPersonId() {
+        public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
@@ -3243,9 +3243,9 @@ public final class OmGetTrolleysAd {
          * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public Builder setPersonId(io.dstore.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3263,10 +3263,10 @@ public final class OmGetTrolleysAd {
          * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
         public Builder setPersonId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -3281,13 +3281,13 @@ public final class OmGetTrolleysAd {
          * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public Builder mergePersonId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -3303,7 +3303,7 @@ public final class OmGetTrolleysAd {
          * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -3321,9 +3321,9 @@ public final class OmGetTrolleysAd {
          * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
@@ -3333,14 +3333,14 @@ public final class OmGetTrolleysAd {
          * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           }
         }
         /**
@@ -3348,14 +3348,14 @@ public final class OmGetTrolleysAd {
          * Die ID der Person, der "VisitorID" (und damit der Warenkorb) zugeordnet ist. Gibt es keine Zuordnung zu einer Person, wird hier "NULL" zurückgegeben (kann nur im Fall "&#64;OnlyForIdentifiedPersons = 0" vorkommen).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -3364,15 +3364,15 @@ public final class OmGetTrolleysAd {
           return personIdBuilder_;
         }
 
-        private io.dstore.Values.timestampValue inputDateAndTime_ = null;
+        private io.dstore.values.TimestampValue inputDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> inputDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> inputDateAndTimeBuilder_;
         /**
          * <pre>
          * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
          */
         public boolean hasInputDateAndTime() {
           return inputDateAndTimeBuilder_ != null || inputDateAndTime_ != null;
@@ -3382,11 +3382,11 @@ public final class OmGetTrolleysAd {
          * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
          */
-        public io.dstore.Values.timestampValue getInputDateAndTime() {
+        public io.dstore.values.TimestampValue getInputDateAndTime() {
           if (inputDateAndTimeBuilder_ == null) {
-            return inputDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
+            return inputDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : inputDateAndTime_;
           } else {
             return inputDateAndTimeBuilder_.getMessage();
           }
@@ -3396,9 +3396,9 @@ public final class OmGetTrolleysAd {
          * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
          */
-        public Builder setInputDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setInputDateAndTime(io.dstore.values.TimestampValue value) {
           if (inputDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3416,10 +3416,10 @@ public final class OmGetTrolleysAd {
          * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
          */
         public Builder setInputDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (inputDateAndTimeBuilder_ == null) {
             inputDateAndTime_ = builderForValue.build();
             onChanged();
@@ -3434,13 +3434,13 @@ public final class OmGetTrolleysAd {
          * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
          */
-        public Builder mergeInputDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeInputDateAndTime(io.dstore.values.TimestampValue value) {
           if (inputDateAndTimeBuilder_ == null) {
             if (inputDateAndTime_ != null) {
               inputDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(inputDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(inputDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               inputDateAndTime_ = value;
             }
@@ -3456,7 +3456,7 @@ public final class OmGetTrolleysAd {
          * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
          */
         public Builder clearInputDateAndTime() {
           if (inputDateAndTimeBuilder_ == null) {
@@ -3474,9 +3474,9 @@ public final class OmGetTrolleysAd {
          * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getInputDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getInputDateAndTimeBuilder() {
           
           onChanged();
           return getInputDateAndTimeFieldBuilder().getBuilder();
@@ -3486,14 +3486,14 @@ public final class OmGetTrolleysAd {
          * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getInputDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getInputDateAndTimeOrBuilder() {
           if (inputDateAndTimeBuilder_ != null) {
             return inputDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return inputDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : inputDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : inputDateAndTime_;
           }
         }
         /**
@@ -3501,14 +3501,14 @@ public final class OmGetTrolleysAd {
          * Zeitpunkt, zu dem der Besucher "VisitorID" das Element "HTreeNodeID" in den Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue input_date_and_time = 10004;</code>
+         * <code>optional .dstore.values.TimestampValue input_date_and_time = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getInputDateAndTimeFieldBuilder() {
           if (inputDateAndTimeBuilder_ == null) {
             inputDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getInputDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -3517,15 +3517,15 @@ public final class OmGetTrolleysAd {
           return inputDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue hTreeNodeId_ = null;
+        private io.dstore.values.IntegerValue hTreeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> hTreeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> hTreeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public boolean hasHTreeNodeId() {
           return hTreeNodeIdBuilder_ != null || hTreeNodeId_ != null;
@@ -3535,11 +3535,11 @@ public final class OmGetTrolleysAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue getHTreeNodeId() {
+        public io.dstore.values.IntegerValue getHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
-            return hTreeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+            return hTreeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
           } else {
             return hTreeNodeIdBuilder_.getMessage();
           }
@@ -3549,9 +3549,9 @@ public final class OmGetTrolleysAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
-        public Builder setHTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3569,10 +3569,10 @@ public final class OmGetTrolleysAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public Builder setHTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeId_ = builderForValue.build();
             onChanged();
@@ -3587,13 +3587,13 @@ public final class OmGetTrolleysAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
-        public Builder mergeHTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeHTreeNodeId(io.dstore.values.IntegerValue value) {
           if (hTreeNodeIdBuilder_ == null) {
             if (hTreeNodeId_ != null) {
               hTreeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(hTreeNodeId_).mergeFrom(value).buildPartial();
             } else {
               hTreeNodeId_ = value;
             }
@@ -3609,7 +3609,7 @@ public final class OmGetTrolleysAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         public Builder clearHTreeNodeId() {
           if (hTreeNodeIdBuilder_ == null) {
@@ -3627,9 +3627,9 @@ public final class OmGetTrolleysAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getHTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getHTreeNodeIdBuilder() {
           
           onChanged();
           return getHTreeNodeIdFieldBuilder().getBuilder();
@@ -3639,14 +3639,14 @@ public final class OmGetTrolleysAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getHTreeNodeIdOrBuilder() {
           if (hTreeNodeIdBuilder_ != null) {
             return hTreeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return hTreeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : hTreeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : hTreeNodeId_;
           }
         }
         /**
@@ -3654,14 +3654,14 @@ public final class OmGetTrolleysAd {
          * ID eines Elementes aus "HistoryTreeView" (in dieser ist die Historie des gesamten Artikelbaums abgebildet), das der Besucher "VisitorID" in seinen Warenkorb gelegt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue h_tree_node_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getHTreeNodeIdFieldBuilder() {
           if (hTreeNodeIdBuilder_ == null) {
             hTreeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getHTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3670,15 +3670,15 @@ public final class OmGetTrolleysAd {
           return hTreeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue itemNo_ = null;
+        private io.dstore.values.StringValue itemNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> itemNoBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> itemNoBuilder_;
         /**
          * <pre>
          * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10006;</code>
          */
         public boolean hasItemNo() {
           return itemNoBuilder_ != null || itemNo_ != null;
@@ -3688,11 +3688,11 @@ public final class OmGetTrolleysAd {
          * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10006;</code>
          */
-        public io.dstore.Values.stringValue getItemNo() {
+        public io.dstore.values.StringValue getItemNo() {
           if (itemNoBuilder_ == null) {
-            return itemNo_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
+            return itemNo_ == null ? io.dstore.values.StringValue.getDefaultInstance() : itemNo_;
           } else {
             return itemNoBuilder_.getMessage();
           }
@@ -3702,9 +3702,9 @@ public final class OmGetTrolleysAd {
          * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10006;</code>
          */
-        public Builder setItemNo(io.dstore.Values.stringValue value) {
+        public Builder setItemNo(io.dstore.values.StringValue value) {
           if (itemNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3722,10 +3722,10 @@ public final class OmGetTrolleysAd {
          * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10006;</code>
          */
         public Builder setItemNo(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (itemNoBuilder_ == null) {
             itemNo_ = builderForValue.build();
             onChanged();
@@ -3740,13 +3740,13 @@ public final class OmGetTrolleysAd {
          * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10006;</code>
          */
-        public Builder mergeItemNo(io.dstore.Values.stringValue value) {
+        public Builder mergeItemNo(io.dstore.values.StringValue value) {
           if (itemNoBuilder_ == null) {
             if (itemNo_ != null) {
               itemNo_ =
-                io.dstore.Values.stringValue.newBuilder(itemNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(itemNo_).mergeFrom(value).buildPartial();
             } else {
               itemNo_ = value;
             }
@@ -3762,7 +3762,7 @@ public final class OmGetTrolleysAd {
          * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10006;</code>
          */
         public Builder clearItemNo() {
           if (itemNoBuilder_ == null) {
@@ -3780,9 +3780,9 @@ public final class OmGetTrolleysAd {
          * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getItemNoBuilder() {
+        public io.dstore.values.StringValue.Builder getItemNoBuilder() {
           
           onChanged();
           return getItemNoFieldBuilder().getBuilder();
@@ -3792,14 +3792,14 @@ public final class OmGetTrolleysAd {
          * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getItemNoOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getItemNoOrBuilder() {
           if (itemNoBuilder_ != null) {
             return itemNoBuilder_.getMessageOrBuilder();
           } else {
             return itemNo_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : itemNo_;
+                io.dstore.values.StringValue.getDefaultInstance() : itemNo_;
           }
         }
         /**
@@ -3807,14 +3807,14 @@ public final class OmGetTrolleysAd {
          * Eigenschaft des zu "HTreeNodeID" zugehörigen Artikel-Elementes ("NodeID") zum Merkmal mit der ID "6" (also die Artikelnummer). Existiert zum Artikel keine Eigenschaft oder ist "&#64;IncludeItemNo = 0", wird "NULL" zurückgegeben.
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue item_no = 10006;</code>
+         * <code>optional .dstore.values.StringValue item_no = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getItemNoFieldBuilder() {
           if (itemNoBuilder_ == null) {
             itemNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getItemNo(),
                     getParentForChildren(),
                     isClean());
@@ -3823,15 +3823,15 @@ public final class OmGetTrolleysAd {
           return itemNoBuilder_;
         }
 
-        private io.dstore.Values.integerValue treeNodeId_ = null;
+        private io.dstore.values.IntegerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
          * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -3841,11 +3841,11 @@ public final class OmGetTrolleysAd {
          * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue getTreeNodeId() {
+        public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
@@ -3855,9 +3855,9 @@ public final class OmGetTrolleysAd {
          * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
-        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3875,10 +3875,10 @@ public final class OmGetTrolleysAd {
          * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public Builder setTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -3893,13 +3893,13 @@ public final class OmGetTrolleysAd {
          * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
-        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -3915,7 +3915,7 @@ public final class OmGetTrolleysAd {
          * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -3933,9 +3933,9 @@ public final class OmGetTrolleysAd {
          * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
@@ -3945,14 +3945,14 @@ public final class OmGetTrolleysAd {
          * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
@@ -3960,14 +3960,14 @@ public final class OmGetTrolleysAd {
          * Enthält entweder die (zum Zeitpunkt "InputDateAndTime") zur "HTreeNodeID" korrespondierende ID eines Elementes im Artikelbaum oder (falls diese "0" ist) ein zur "NodeID" (die zu "HTreeNodeID" gehört) zugehör. aber willkürlich gewähl. Element (s. Beschr.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3976,15 +3976,15 @@ public final class OmGetTrolleysAd {
           return treeNodeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue identValRestrByPattern_ = null;
+        private io.dstore.values.StringValue identValRestrByPattern_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> identValRestrByPatternBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> identValRestrByPatternBuilder_;
         /**
          * <pre>
          * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+         * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
          */
         public boolean hasIdentValRestrByPattern() {
           return identValRestrByPatternBuilder_ != null || identValRestrByPattern_ != null;
@@ -3994,11 +3994,11 @@ public final class OmGetTrolleysAd {
          * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+         * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
          */
-        public io.dstore.Values.stringValue getIdentValRestrByPattern() {
+        public io.dstore.values.StringValue getIdentValRestrByPattern() {
           if (identValRestrByPatternBuilder_ == null) {
-            return identValRestrByPattern_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identValRestrByPattern_;
+            return identValRestrByPattern_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identValRestrByPattern_;
           } else {
             return identValRestrByPatternBuilder_.getMessage();
           }
@@ -4008,9 +4008,9 @@ public final class OmGetTrolleysAd {
          * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+         * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
          */
-        public Builder setIdentValRestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder setIdentValRestrByPattern(io.dstore.values.StringValue value) {
           if (identValRestrByPatternBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4028,10 +4028,10 @@ public final class OmGetTrolleysAd {
          * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+         * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
          */
         public Builder setIdentValRestrByPattern(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (identValRestrByPatternBuilder_ == null) {
             identValRestrByPattern_ = builderForValue.build();
             onChanged();
@@ -4046,13 +4046,13 @@ public final class OmGetTrolleysAd {
          * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+         * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
          */
-        public Builder mergeIdentValRestrByPattern(io.dstore.Values.stringValue value) {
+        public Builder mergeIdentValRestrByPattern(io.dstore.values.StringValue value) {
           if (identValRestrByPatternBuilder_ == null) {
             if (identValRestrByPattern_ != null) {
               identValRestrByPattern_ =
-                io.dstore.Values.stringValue.newBuilder(identValRestrByPattern_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(identValRestrByPattern_).mergeFrom(value).buildPartial();
             } else {
               identValRestrByPattern_ = value;
             }
@@ -4068,7 +4068,7 @@ public final class OmGetTrolleysAd {
          * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+         * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
          */
         public Builder clearIdentValRestrByPattern() {
           if (identValRestrByPatternBuilder_ == null) {
@@ -4086,9 +4086,9 @@ public final class OmGetTrolleysAd {
          * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+         * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
          */
-        public io.dstore.Values.stringValue.Builder getIdentValRestrByPatternBuilder() {
+        public io.dstore.values.StringValue.Builder getIdentValRestrByPatternBuilder() {
           
           onChanged();
           return getIdentValRestrByPatternFieldBuilder().getBuilder();
@@ -4098,14 +4098,14 @@ public final class OmGetTrolleysAd {
          * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+         * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getIdentValRestrByPatternOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getIdentValRestrByPatternOrBuilder() {
           if (identValRestrByPatternBuilder_ != null) {
             return identValRestrByPatternBuilder_.getMessageOrBuilder();
           } else {
             return identValRestrByPattern_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : identValRestrByPattern_;
+                io.dstore.values.StringValue.getDefaultInstance() : identValRestrByPattern_;
           }
         }
         /**
@@ -4113,14 +4113,14 @@ public final class OmGetTrolleysAd {
          * Was enthält "IdentifyingValue" (womöglich wegen Zugriffsbeschränkungen nur einen Teil) ?- NULL : den vollständigen Wert- "#left(&lt;n&gt;)#" : die ERSTEN n Zeichen- "#right(&lt;n&gt;)#" : die LETZTEN n Zeichen("n = 0" =&gt; "IdentifyingValue" dann "NULL")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue ident_val_restr_by_pattern = 10008;</code>
+         * <code>optional .dstore.values.StringValue ident_val_restr_by_pattern = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getIdentValRestrByPatternFieldBuilder() {
           if (identValRestrByPatternBuilder_ == null) {
             identValRestrByPatternBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getIdentValRestrByPattern(),
                     getParentForChildren(),
                     isClean());
@@ -4129,15 +4129,15 @@ public final class OmGetTrolleysAd {
           return identValRestrByPatternBuilder_;
         }
 
-        private io.dstore.Values.integerValue quantity_ = null;
+        private io.dstore.values.IntegerValue quantity_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> quantityBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> quantityBuilder_;
         /**
          * <pre>
          * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
         public boolean hasQuantity() {
           return quantityBuilder_ != null || quantity_ != null;
@@ -4147,11 +4147,11 @@ public final class OmGetTrolleysAd {
          * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public io.dstore.Values.integerValue getQuantity() {
+        public io.dstore.values.IntegerValue getQuantity() {
           if (quantityBuilder_ == null) {
-            return quantity_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+            return quantity_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
           } else {
             return quantityBuilder_.getMessage();
           }
@@ -4161,9 +4161,9 @@ public final class OmGetTrolleysAd {
          * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public Builder setQuantity(io.dstore.Values.integerValue value) {
+        public Builder setQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4181,10 +4181,10 @@ public final class OmGetTrolleysAd {
          * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
         public Builder setQuantity(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (quantityBuilder_ == null) {
             quantity_ = builderForValue.build();
             onChanged();
@@ -4199,13 +4199,13 @@ public final class OmGetTrolleysAd {
          * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public Builder mergeQuantity(io.dstore.Values.integerValue value) {
+        public Builder mergeQuantity(io.dstore.values.IntegerValue value) {
           if (quantityBuilder_ == null) {
             if (quantity_ != null) {
               quantity_ =
-                io.dstore.Values.integerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(quantity_).mergeFrom(value).buildPartial();
             } else {
               quantity_ = value;
             }
@@ -4221,7 +4221,7 @@ public final class OmGetTrolleysAd {
          * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
         public Builder clearQuantity() {
           if (quantityBuilder_ == null) {
@@ -4239,9 +4239,9 @@ public final class OmGetTrolleysAd {
          * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public io.dstore.Values.integerValue.Builder getQuantityBuilder() {
+        public io.dstore.values.IntegerValue.Builder getQuantityBuilder() {
           
           onChanged();
           return getQuantityFieldBuilder().getBuilder();
@@ -4251,14 +4251,14 @@ public final class OmGetTrolleysAd {
          * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getQuantityOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getQuantityOrBuilder() {
           if (quantityBuilder_ != null) {
             return quantityBuilder_.getMessageOrBuilder();
           } else {
             return quantity_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : quantity_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : quantity_;
           }
         }
         /**
@@ -4266,14 +4266,14 @@ public final class OmGetTrolleysAd {
          * Anzahl des Artikels ("TreeNodeID" bzw. "HTreeNodeID"), die der Besucher "VisitorID" in seinen "Warenkorb gelegt" hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue quantity = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue quantity = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getQuantityFieldBuilder() {
           if (quantityBuilder_ == null) {
             quantityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getQuantity(),
                     getParentForChildren(),
                     isClean());
@@ -4437,23 +4437,23 @@ public final class OmGetTrolleysAd {
     }
 
     public static final int NUMBER_OF_TROLLEYS_FIELD_NUMBER = 101;
-    private io.dstore.Values.integerValue numberOfTrolleys_;
+    private io.dstore.values.IntegerValue numberOfTrolleys_;
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
      */
     public boolean hasNumberOfTrolleys() {
       return numberOfTrolleys_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
      */
-    public io.dstore.Values.integerValue getNumberOfTrolleys() {
-      return numberOfTrolleys_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfTrolleys_;
+    public io.dstore.values.IntegerValue getNumberOfTrolleys() {
+      return numberOfTrolleys_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfTrolleys_;
     }
     /**
-     * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+     * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNumberOfTrolleysOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNumberOfTrolleysOrBuilder() {
       return getNumberOfTrolleys();
     }
 
@@ -5628,29 +5628,29 @@ public final class OmGetTrolleysAd {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.integerValue numberOfTrolleys_ = null;
+      private io.dstore.values.IntegerValue numberOfTrolleys_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfTrolleysBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfTrolleysBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
        */
       public boolean hasNumberOfTrolleys() {
         return numberOfTrolleysBuilder_ != null || numberOfTrolleys_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
        */
-      public io.dstore.Values.integerValue getNumberOfTrolleys() {
+      public io.dstore.values.IntegerValue getNumberOfTrolleys() {
         if (numberOfTrolleysBuilder_ == null) {
-          return numberOfTrolleys_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfTrolleys_;
+          return numberOfTrolleys_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfTrolleys_;
         } else {
           return numberOfTrolleysBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
        */
-      public Builder setNumberOfTrolleys(io.dstore.Values.integerValue value) {
+      public Builder setNumberOfTrolleys(io.dstore.values.IntegerValue value) {
         if (numberOfTrolleysBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -5664,10 +5664,10 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
        */
       public Builder setNumberOfTrolleys(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (numberOfTrolleysBuilder_ == null) {
           numberOfTrolleys_ = builderForValue.build();
           onChanged();
@@ -5678,13 +5678,13 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
        */
-      public Builder mergeNumberOfTrolleys(io.dstore.Values.integerValue value) {
+      public Builder mergeNumberOfTrolleys(io.dstore.values.IntegerValue value) {
         if (numberOfTrolleysBuilder_ == null) {
           if (numberOfTrolleys_ != null) {
             numberOfTrolleys_ =
-              io.dstore.Values.integerValue.newBuilder(numberOfTrolleys_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(numberOfTrolleys_).mergeFrom(value).buildPartial();
           } else {
             numberOfTrolleys_ = value;
           }
@@ -5696,7 +5696,7 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
        */
       public Builder clearNumberOfTrolleys() {
         if (numberOfTrolleysBuilder_ == null) {
@@ -5710,33 +5710,33 @@ public final class OmGetTrolleysAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNumberOfTrolleysBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNumberOfTrolleysBuilder() {
         
         onChanged();
         return getNumberOfTrolleysFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNumberOfTrolleysOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNumberOfTrolleysOrBuilder() {
         if (numberOfTrolleysBuilder_ != null) {
           return numberOfTrolleysBuilder_.getMessageOrBuilder();
         } else {
           return numberOfTrolleys_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : numberOfTrolleys_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : numberOfTrolleys_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue number_of_trolleys = 101;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_trolleys = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNumberOfTrolleysFieldBuilder() {
         if (numberOfTrolleysBuilder_ == null) {
           numberOfTrolleysBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNumberOfTrolleys(),
                   getParentForChildren(),
                   isClean());
@@ -5821,34 +5821,34 @@ public final class OmGetTrolleysAd {
       "s_Ad.proto\022\037dstore.engine.om_GetTrolleys" +
       "_Ad\032\023dstore/values.proto\032\032dstore/engine/" +
       "engine.proto\"\212\003\n\nParameters\0229\n\022from_date" +
-      "_and_time\030\001 \001(\0132\035.dstore.values.timestam" +
+      "_and_time\030\001 \001(\0132\035.dstore.values.Timestam" +
       "pValue\022 \n\027from_date_and_time_null\030\351\007 \001(\010" +
       "\0227\n\020to_date_and_time\030\002 \001(\0132\035.dstore.valu" +
-      "es.timestampValue\022\036\n\025to_date_and_time_nu" +
+      "es.TimestampValue\022\036\n\025to_date_and_time_nu" +
       "ll\030\352\007 \001(\010\022@\n\033only_for_identified_persons" +
-      "\030\003 \001(\0132\033.dstore.values.booleanValue\022)\n o",
+      "\030\003 \001(\0132\033.dstore.values.BooleanValue\022)\n o",
       "nly_for_identified_persons_null\030\353\007 \001(\010\0227" +
       "\n\022number_of_trolleys\030\004 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022 \n\027number_of_trolleys_nu" +
+      "es.IntegerValue\022 \n\027number_of_trolleys_nu" +
       "ll\030\354\007 \001(\010\"\334\005\n\010Response\0228\n\020meta_informati" +
       "on\030\002 \003(\0132\036.dstore.engine.MetaInformation" +
       "\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.Messag" +
       "e\022:\n\003row\030\004 \003(\0132-.dstore.engine.om_GetTro" +
       "lleys_Ad.Response.Row\0227\n\022number_of_troll" +
-      "eys\030e \001(\0132\033.dstore.values.integerValue\032\367" +
+      "eys\030e \001(\0132\033.dstore.values.IntegerValue\032\367" +
       "\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\nvisitor_id\030\221N",
-      " \001(\0132\033.dstore.values.integerValue\0226\n\021ide" +
-      "ntifying_value\030\222N \001(\0132\032.dstore.values.st" +
+      " \001(\0132\033.dstore.values.IntegerValue\0226\n\021ide" +
+      "ntifying_value\030\222N \001(\0132\032.dstore.values.St" +
       "ringValue\022/\n\tperson_id\030\223N \001(\0132\033.dstore.v" +
-      "alues.integerValue\022;\n\023input_date_and_tim" +
-      "e\030\224N \001(\0132\035.dstore.values.timestampValue\022" +
+      "alues.IntegerValue\022;\n\023input_date_and_tim" +
+      "e\030\224N \001(\0132\035.dstore.values.TimestampValue\022" +
       "4\n\016h_tree_node_id\030\225N \001(\0132\033.dstore.values" +
-      ".integerValue\022,\n\007item_no\030\226N \001(\0132\032.dstore" +
-      ".values.stringValue\0222\n\014tree_node_id\030\227N \001" +
-      "(\0132\033.dstore.values.integerValue\022?\n\032ident" +
+      ".IntegerValue\022,\n\007item_no\030\226N \001(\0132\032.dstore" +
+      ".values.StringValue\0222\n\014tree_node_id\030\227N \001" +
+      "(\0132\033.dstore.values.IntegerValue\022?\n\032ident" +
       "_val_restr_by_pattern\030\230N \001(\0132\032.dstore.va",
-      "lues.stringValue\022.\n\010quantity\030\231N \001(\0132\033.ds" +
-      "tore.values.integerValueBR\n\033io.dstore.en" +
+      "lues.StringValue\022.\n\010quantity\030\231N \001(\0132\033.ds" +
+      "tore.values.IntegerValueBR\n\033io.dstore.en" +
       "gine.proceduresZ3gosdk.dstore.de/engine/" +
       "procedures/om_GetTrolleys_Adb\006proto3"
     };
@@ -5863,7 +5863,7 @@ public final class OmGetTrolleysAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetTrolleys_Ad_Parameters_descriptor =
@@ -5884,7 +5884,7 @@ public final class OmGetTrolleysAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetTrolleys_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "VisitorId", "IdentifyingValue", "PersonId", "InputDateAndTime", "HTreeNodeId", "ItemNo", "TreeNodeId", "IdentValRestrByPattern", "Quantity", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

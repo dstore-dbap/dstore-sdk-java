@@ -19,17 +19,17 @@ public final class DoGetProcedureParametersAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
-    io.dstore.Values.stringValue getProcedureName();
+    io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
      * <code>optional bool procedure_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class DoGetProcedureParametersAd {
     boolean getProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
      */
     boolean hasParameterNameLike();
     /**
-     * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
      */
-    io.dstore.Values.stringValue getParameterNameLike();
+    io.dstore.values.StringValue getParameterNameLike();
     /**
-     * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getParameterNameLikeOrBuilder();
+    io.dstore.values.StringValueOrBuilder getParameterNameLikeOrBuilder();
 
     /**
      * <code>optional bool parameter_name_like_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class DoGetProcedureParametersAd {
     boolean getParameterNameLikeNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+     * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
      */
     boolean hasFilterRowsWithEmptyDescr();
     /**
-     * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+     * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
      */
-    io.dstore.Values.booleanValue getFilterRowsWithEmptyDescr();
+    io.dstore.values.BooleanValue getFilterRowsWithEmptyDescr();
     /**
-     * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+     * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getFilterRowsWithEmptyDescrOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getFilterRowsWithEmptyDescrOrBuilder();
 
     /**
      * <code>optional bool filter_rows_with_empty_descr_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class DoGetProcedureParametersAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (procedureName_ != null) {
                 subBuilder = procedureName_.toBuilder();
               }
-              procedureName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              procedureName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureName_);
                 procedureName_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class DoGetProcedureParametersAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (parameterNameLike_ != null) {
                 subBuilder = parameterNameLike_.toBuilder();
               }
-              parameterNameLike_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              parameterNameLike_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(parameterNameLike_);
                 parameterNameLike_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class DoGetProcedureParametersAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (filterRowsWithEmptyDescr_ != null) {
                 subBuilder = filterRowsWithEmptyDescr_.toBuilder();
               }
-              filterRowsWithEmptyDescr_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              filterRowsWithEmptyDescr_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterRowsWithEmptyDescr_);
                 filterRowsWithEmptyDescr_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class DoGetProcedureParametersAd {
     }
 
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue procedureName_;
+    private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getProcedureName() {
-      return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+    public io.dstore.values.StringValue getProcedureName() {
+      return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
     }
 
@@ -222,23 +222,23 @@ public final class DoGetProcedureParametersAd {
     }
 
     public static final int PARAMETER_NAME_LIKE_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue parameterNameLike_;
+    private io.dstore.values.StringValue parameterNameLike_;
     /**
-     * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
      */
     public boolean hasParameterNameLike() {
       return parameterNameLike_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
      */
-    public io.dstore.Values.stringValue getParameterNameLike() {
-      return parameterNameLike_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterNameLike_;
+    public io.dstore.values.StringValue getParameterNameLike() {
+      return parameterNameLike_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterNameLike_;
     }
     /**
-     * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+     * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getParameterNameLikeOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getParameterNameLikeOrBuilder() {
       return getParameterNameLike();
     }
 
@@ -252,23 +252,23 @@ public final class DoGetProcedureParametersAd {
     }
 
     public static final int FILTER_ROWS_WITH_EMPTY_DESCR_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue filterRowsWithEmptyDescr_;
+    private io.dstore.values.BooleanValue filterRowsWithEmptyDescr_;
     /**
-     * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+     * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
      */
     public boolean hasFilterRowsWithEmptyDescr() {
       return filterRowsWithEmptyDescr_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+     * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
      */
-    public io.dstore.Values.booleanValue getFilterRowsWithEmptyDescr() {
-      return filterRowsWithEmptyDescr_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : filterRowsWithEmptyDescr_;
+    public io.dstore.values.BooleanValue getFilterRowsWithEmptyDescr() {
+      return filterRowsWithEmptyDescr_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : filterRowsWithEmptyDescr_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+     * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getFilterRowsWithEmptyDescrOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getFilterRowsWithEmptyDescrOrBuilder() {
       return getFilterRowsWithEmptyDescr();
     }
 
@@ -677,29 +677,29 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue procedureName_ = null;
+      private io.dstore.values.StringValue procedureName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getProcedureName() {
+      public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
-          return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+          return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
         } else {
           return procedureNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public Builder setProcedureName(io.dstore.Values.stringValue value) {
+      public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder setProcedureName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (procedureNameBuilder_ == null) {
           procedureName_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
+      public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
           if (procedureName_ != null) {
             procedureName_ =
-              io.dstore.Values.stringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
           } else {
             procedureName_ = value;
           }
@@ -745,7 +745,7 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
+      public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
         onChanged();
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
           return procedureNameBuilder_.getMessageOrBuilder();
         } else {
           return procedureName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+              io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 1;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getProcedureNameFieldBuilder() {
         if (procedureNameBuilder_ == null) {
           procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getProcedureName(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue parameterNameLike_ = null;
+      private io.dstore.values.StringValue parameterNameLike_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> parameterNameLikeBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> parameterNameLikeBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
        */
       public boolean hasParameterNameLike() {
         return parameterNameLikeBuilder_ != null || parameterNameLike_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
        */
-      public io.dstore.Values.stringValue getParameterNameLike() {
+      public io.dstore.values.StringValue getParameterNameLike() {
         if (parameterNameLikeBuilder_ == null) {
-          return parameterNameLike_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterNameLike_;
+          return parameterNameLike_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterNameLike_;
         } else {
           return parameterNameLikeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
        */
-      public Builder setParameterNameLike(io.dstore.Values.stringValue value) {
+      public Builder setParameterNameLike(io.dstore.values.StringValue value) {
         if (parameterNameLikeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
        */
       public Builder setParameterNameLike(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (parameterNameLikeBuilder_ == null) {
           parameterNameLike_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
        */
-      public Builder mergeParameterNameLike(io.dstore.Values.stringValue value) {
+      public Builder mergeParameterNameLike(io.dstore.values.StringValue value) {
         if (parameterNameLikeBuilder_ == null) {
           if (parameterNameLike_ != null) {
             parameterNameLike_ =
-              io.dstore.Values.stringValue.newBuilder(parameterNameLike_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(parameterNameLike_).mergeFrom(value).buildPartial();
           } else {
             parameterNameLike_ = value;
           }
@@ -888,7 +888,7 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
        */
       public Builder clearParameterNameLike() {
         if (parameterNameLikeBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getParameterNameLikeBuilder() {
+      public io.dstore.values.StringValue.Builder getParameterNameLikeBuilder() {
         
         onChanged();
         return getParameterNameLikeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getParameterNameLikeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getParameterNameLikeOrBuilder() {
         if (parameterNameLikeBuilder_ != null) {
           return parameterNameLikeBuilder_.getMessageOrBuilder();
         } else {
           return parameterNameLike_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : parameterNameLike_;
+              io.dstore.values.StringValue.getDefaultInstance() : parameterNameLike_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue parameter_name_like = 2;</code>
+       * <code>optional .dstore.values.StringValue parameter_name_like = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getParameterNameLikeFieldBuilder() {
         if (parameterNameLikeBuilder_ == null) {
           parameterNameLikeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getParameterNameLike(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue filterRowsWithEmptyDescr_ = null;
+      private io.dstore.values.BooleanValue filterRowsWithEmptyDescr_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> filterRowsWithEmptyDescrBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> filterRowsWithEmptyDescrBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+       * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
        */
       public boolean hasFilterRowsWithEmptyDescr() {
         return filterRowsWithEmptyDescrBuilder_ != null || filterRowsWithEmptyDescr_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+       * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
        */
-      public io.dstore.Values.booleanValue getFilterRowsWithEmptyDescr() {
+      public io.dstore.values.BooleanValue getFilterRowsWithEmptyDescr() {
         if (filterRowsWithEmptyDescrBuilder_ == null) {
-          return filterRowsWithEmptyDescr_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : filterRowsWithEmptyDescr_;
+          return filterRowsWithEmptyDescr_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : filterRowsWithEmptyDescr_;
         } else {
           return filterRowsWithEmptyDescrBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+       * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
        */
-      public Builder setFilterRowsWithEmptyDescr(io.dstore.Values.booleanValue value) {
+      public Builder setFilterRowsWithEmptyDescr(io.dstore.values.BooleanValue value) {
         if (filterRowsWithEmptyDescrBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+       * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
        */
       public Builder setFilterRowsWithEmptyDescr(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (filterRowsWithEmptyDescrBuilder_ == null) {
           filterRowsWithEmptyDescr_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+       * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
        */
-      public Builder mergeFilterRowsWithEmptyDescr(io.dstore.Values.booleanValue value) {
+      public Builder mergeFilterRowsWithEmptyDescr(io.dstore.values.BooleanValue value) {
         if (filterRowsWithEmptyDescrBuilder_ == null) {
           if (filterRowsWithEmptyDescr_ != null) {
             filterRowsWithEmptyDescr_ =
-              io.dstore.Values.booleanValue.newBuilder(filterRowsWithEmptyDescr_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(filterRowsWithEmptyDescr_).mergeFrom(value).buildPartial();
           } else {
             filterRowsWithEmptyDescr_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+       * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
        */
       public Builder clearFilterRowsWithEmptyDescr() {
         if (filterRowsWithEmptyDescrBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class DoGetProcedureParametersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+       * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getFilterRowsWithEmptyDescrBuilder() {
+      public io.dstore.values.BooleanValue.Builder getFilterRowsWithEmptyDescrBuilder() {
         
         onChanged();
         return getFilterRowsWithEmptyDescrFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+       * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getFilterRowsWithEmptyDescrOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getFilterRowsWithEmptyDescrOrBuilder() {
         if (filterRowsWithEmptyDescrBuilder_ != null) {
           return filterRowsWithEmptyDescrBuilder_.getMessageOrBuilder();
         } else {
           return filterRowsWithEmptyDescr_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : filterRowsWithEmptyDescr_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : filterRowsWithEmptyDescr_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue filter_rows_with_empty_descr = 3;</code>
+       * <code>optional .dstore.values.BooleanValue filter_rows_with_empty_descr = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getFilterRowsWithEmptyDescrFieldBuilder() {
         if (filterRowsWithEmptyDescrBuilder_ == null) {
           filterRowsWithEmptyDescrBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getFilterRowsWithEmptyDescr(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class DoGetProcedureParametersAd {
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
        */
       boolean hasIsOutputParameter();
       /**
@@ -1373,24 +1373,24 @@ public final class DoGetProcedureParametersAd {
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
        */
-      io.dstore.Values.booleanValue getIsOutputParameter();
+      io.dstore.values.BooleanValue getIsOutputParameter();
       /**
        * <pre>
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getIsOutputParameterOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getIsOutputParameterOrBuilder();
 
       /**
        * <pre>
        * Seit welcher dStore-Version die Beschreibung "Description" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+       * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
        */
       boolean hasDescriptionValidSinceVersion();
       /**
@@ -1398,24 +1398,24 @@ public final class DoGetProcedureParametersAd {
        * Seit welcher dStore-Version die Beschreibung "Description" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+       * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
        */
-      io.dstore.Values.stringValue getDescriptionValidSinceVersion();
+      io.dstore.values.StringValue getDescriptionValidSinceVersion();
       /**
        * <pre>
        * Seit welcher dStore-Version die Beschreibung "Description" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+       * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionValidSinceVersionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionValidSinceVersionOrBuilder();
 
       /**
        * <pre>
        * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
       boolean hasDescription();
       /**
@@ -1423,24 +1423,24 @@ public final class DoGetProcedureParametersAd {
        * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
-      io.dstore.Values.stringValue getDescription();
+      io.dstore.values.StringValue getDescription();
       /**
        * <pre>
        * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder();
 
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
       boolean hasPrecisionValue();
       /**
@@ -1448,24 +1448,24 @@ public final class DoGetProcedureParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      io.dstore.Values.integerValue getPrecisionValue();
+      io.dstore.values.IntegerValue getPrecisionValue();
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder();
 
       /**
        * <pre>
        * Parameter der Prozedur "ProcedureName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
        */
       boolean hasParameterName();
       /**
@@ -1473,24 +1473,24 @@ public final class DoGetProcedureParametersAd {
        * Parameter der Prozedur "ProcedureName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
        */
-      io.dstore.Values.stringValue getParameterName();
+      io.dstore.values.StringValue getParameterName();
       /**
        * <pre>
        * Parameter der Prozedur "ProcedureName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder();
 
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
        */
       boolean hasScale();
       /**
@@ -1498,24 +1498,24 @@ public final class DoGetProcedureParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
        */
-      io.dstore.Values.integerValue getScale();
+      io.dstore.values.IntegerValue getScale();
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getScaleOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder();
 
       /**
        * <pre>
        * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
        */
       boolean hasSortNo();
       /**
@@ -1523,24 +1523,24 @@ public final class DoGetProcedureParametersAd {
        * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
        */
-      io.dstore.Values.integerValue getSortNo();
+      io.dstore.values.IntegerValue getSortNo();
       /**
        * <pre>
        * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
       /**
        * <pre>
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+       * <code>optional .dstore.values.StringValue default_value = 10008;</code>
        */
       boolean hasDefaultValue();
       /**
@@ -1548,24 +1548,24 @@ public final class DoGetProcedureParametersAd {
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+       * <code>optional .dstore.values.StringValue default_value = 10008;</code>
        */
-      io.dstore.Values.stringValue getDefaultValue();
+      io.dstore.values.StringValue getDefaultValue();
       /**
        * <pre>
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+       * <code>optional .dstore.values.StringValue default_value = 10008;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDefaultValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDefaultValueOrBuilder();
 
       /**
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10009;</code>
        */
       boolean hasLength();
       /**
@@ -1573,24 +1573,24 @@ public final class DoGetProcedureParametersAd {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10009;</code>
        */
-      io.dstore.Values.integerValue getLength();
+      io.dstore.values.IntegerValue getLength();
       /**
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10009;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getLengthOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder();
 
       /**
        * <pre>
        * Wann die Beschreibung "Description" zuletzt geändert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
        */
       boolean hasDescriptionLastEdited();
       /**
@@ -1598,24 +1598,24 @@ public final class DoGetProcedureParametersAd {
        * Wann die Beschreibung "Description" zuletzt geändert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
        */
-      io.dstore.Values.timestampValue getDescriptionLastEdited();
+      io.dstore.values.TimestampValue getDescriptionLastEdited();
       /**
        * <pre>
        * Wann die Beschreibung "Description" zuletzt geändert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getDescriptionLastEditedOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getDescriptionLastEditedOrBuilder();
 
       /**
        * <pre>
        * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
        */
       boolean hasProcedureName();
       /**
@@ -1623,24 +1623,24 @@ public final class DoGetProcedureParametersAd {
        * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
        */
-      io.dstore.Values.stringValue getProcedureName();
+      io.dstore.values.StringValue getProcedureName();
       /**
        * <pre>
        * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
       /**
        * <pre>
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
       boolean hasIntroducedIndstoreVersion();
       /**
@@ -1648,24 +1648,24 @@ public final class DoGetProcedureParametersAd {
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
-      io.dstore.Values.stringValue getIntroducedIndstoreVersion();
+      io.dstore.values.StringValue getIntroducedIndstoreVersion();
       /**
        * <pre>
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getIntroducedIndstoreVersionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getIntroducedIndstoreVersionOrBuilder();
 
       /**
        * <pre>
        * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
        */
       boolean hasDataType();
       /**
@@ -1673,17 +1673,17 @@ public final class DoGetProcedureParametersAd {
        * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
        */
-      io.dstore.Values.stringValue getDataType();
+      io.dstore.values.StringValue getDataType();
       /**
        * <pre>
        * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getDataTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.do_GetProcedureParameters_Ad.Response.Row}
@@ -1731,11 +1731,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (isOutputParameter_ != null) {
                   subBuilder = isOutputParameter_.toBuilder();
                 }
-                isOutputParameter_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                isOutputParameter_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(isOutputParameter_);
                   isOutputParameter_ = subBuilder.buildPartial();
@@ -1744,11 +1744,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (descriptionValidSinceVersion_ != null) {
                   subBuilder = descriptionValidSinceVersion_.toBuilder();
                 }
-                descriptionValidSinceVersion_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                descriptionValidSinceVersion_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(descriptionValidSinceVersion_);
                   descriptionValidSinceVersion_ = subBuilder.buildPartial();
@@ -1757,11 +1757,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                description_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1770,11 +1770,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (precisionValue_ != null) {
                   subBuilder = precisionValue_.toBuilder();
                 }
-                precisionValue_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                precisionValue_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(precisionValue_);
                   precisionValue_ = subBuilder.buildPartial();
@@ -1783,11 +1783,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (parameterName_ != null) {
                   subBuilder = parameterName_.toBuilder();
                 }
-                parameterName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                parameterName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(parameterName_);
                   parameterName_ = subBuilder.buildPartial();
@@ -1796,11 +1796,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (scale_ != null) {
                   subBuilder = scale_.toBuilder();
                 }
-                scale_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                scale_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(scale_);
                   scale_ = subBuilder.buildPartial();
@@ -1809,11 +1809,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1822,11 +1822,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (defaultValue_ != null) {
                   subBuilder = defaultValue_.toBuilder();
                 }
-                defaultValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                defaultValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(defaultValue_);
                   defaultValue_ = subBuilder.buildPartial();
@@ -1835,11 +1835,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80074: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (length_ != null) {
                   subBuilder = length_.toBuilder();
                 }
-                length_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                length_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(length_);
                   length_ = subBuilder.buildPartial();
@@ -1848,11 +1848,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80082: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (descriptionLastEdited_ != null) {
                   subBuilder = descriptionLastEdited_.toBuilder();
                 }
-                descriptionLastEdited_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                descriptionLastEdited_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(descriptionLastEdited_);
                   descriptionLastEdited_ = subBuilder.buildPartial();
@@ -1861,11 +1861,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80090: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (procedureName_ != null) {
                   subBuilder = procedureName_.toBuilder();
                 }
-                procedureName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                procedureName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureName_);
                   procedureName_ = subBuilder.buildPartial();
@@ -1874,11 +1874,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80098: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (introducedIndstoreVersion_ != null) {
                   subBuilder = introducedIndstoreVersion_.toBuilder();
                 }
-                introducedIndstoreVersion_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                introducedIndstoreVersion_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(introducedIndstoreVersion_);
                   introducedIndstoreVersion_ = subBuilder.buildPartial();
@@ -1887,11 +1887,11 @@ public final class DoGetProcedureParametersAd {
                 break;
               }
               case 80106: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (dataType_ != null) {
                   subBuilder = dataType_.toBuilder();
                 }
-                dataType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                dataType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dataType_);
                   dataType_ = subBuilder.buildPartial();
@@ -1932,13 +1932,13 @@ public final class DoGetProcedureParametersAd {
       }
 
       public static final int IS_OUTPUT_PARAMETER_FIELD_NUMBER = 10001;
-      private io.dstore.Values.booleanValue isOutputParameter_;
+      private io.dstore.values.BooleanValue isOutputParameter_;
       /**
        * <pre>
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
        */
       public boolean hasIsOutputParameter() {
         return isOutputParameter_ != null;
@@ -1948,30 +1948,30 @@ public final class DoGetProcedureParametersAd {
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
        */
-      public io.dstore.Values.booleanValue getIsOutputParameter() {
-        return isOutputParameter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isOutputParameter_;
+      public io.dstore.values.BooleanValue getIsOutputParameter() {
+        return isOutputParameter_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isOutputParameter_;
       }
       /**
        * <pre>
        * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+       * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIsOutputParameterOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIsOutputParameterOrBuilder() {
         return getIsOutputParameter();
       }
 
       public static final int DESCRIPTION_VALID_SINCE_VERSION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue descriptionValidSinceVersion_;
+      private io.dstore.values.StringValue descriptionValidSinceVersion_;
       /**
        * <pre>
        * Seit welcher dStore-Version die Beschreibung "Description" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+       * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
        */
       public boolean hasDescriptionValidSinceVersion() {
         return descriptionValidSinceVersion_ != null;
@@ -1981,30 +1981,30 @@ public final class DoGetProcedureParametersAd {
        * Seit welcher dStore-Version die Beschreibung "Description" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+       * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
        */
-      public io.dstore.Values.stringValue getDescriptionValidSinceVersion() {
-        return descriptionValidSinceVersion_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : descriptionValidSinceVersion_;
+      public io.dstore.values.StringValue getDescriptionValidSinceVersion() {
+        return descriptionValidSinceVersion_ == null ? io.dstore.values.StringValue.getDefaultInstance() : descriptionValidSinceVersion_;
       }
       /**
        * <pre>
        * Seit welcher dStore-Version die Beschreibung "Description" gilt
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+       * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionValidSinceVersionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionValidSinceVersionOrBuilder() {
         return getDescriptionValidSinceVersion();
       }
 
       public static final int DESCRIPTION_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue description_;
+      private io.dstore.values.StringValue description_;
       /**
        * <pre>
        * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
       public boolean hasDescription() {
         return description_ != null;
@@ -2014,30 +2014,30 @@ public final class DoGetProcedureParametersAd {
        * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
-      public io.dstore.Values.stringValue getDescription() {
-        return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+      public io.dstore.values.StringValue getDescription() {
+        return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
       }
       /**
        * <pre>
        * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue description = 10003;</code>
+       * <code>optional .dstore.values.StringValue description = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
         return getDescription();
       }
 
       public static final int PRECISION_VALUE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue precisionValue_;
+      private io.dstore.values.IntegerValue precisionValue_;
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
       public boolean hasPrecisionValue() {
         return precisionValue_ != null;
@@ -2047,30 +2047,30 @@ public final class DoGetProcedureParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      public io.dstore.Values.integerValue getPrecisionValue() {
-        return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+      public io.dstore.values.IntegerValue getPrecisionValue() {
+        return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
       }
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
         return getPrecisionValue();
       }
 
       public static final int PARAMETER_NAME_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue parameterName_;
+      private io.dstore.values.StringValue parameterName_;
       /**
        * <pre>
        * Parameter der Prozedur "ProcedureName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
        */
       public boolean hasParameterName() {
         return parameterName_ != null;
@@ -2080,30 +2080,30 @@ public final class DoGetProcedureParametersAd {
        * Parameter der Prozedur "ProcedureName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
        */
-      public io.dstore.Values.stringValue getParameterName() {
-        return parameterName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+      public io.dstore.values.StringValue getParameterName() {
+        return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
       }
       /**
        * <pre>
        * Parameter der Prozedur "ProcedureName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+       * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
         return getParameterName();
       }
 
       public static final int SCALE_FIELD_NUMBER = 10006;
-      private io.dstore.Values.integerValue scale_;
+      private io.dstore.values.IntegerValue scale_;
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
        */
       public boolean hasScale() {
         return scale_ != null;
@@ -2113,30 +2113,30 @@ public final class DoGetProcedureParametersAd {
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
        */
-      public io.dstore.Values.integerValue getScale() {
-        return scale_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : scale_;
+      public io.dstore.values.IntegerValue getScale() {
+        return scale_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
       }
       /**
        * <pre>
        * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue scale = 10006;</code>
+       * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
         return getScale();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue sortNo_;
+      private io.dstore.values.IntegerValue sortNo_;
       /**
        * <pre>
        * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -2146,30 +2146,30 @@ public final class DoGetProcedureParametersAd {
        * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.values.IntegerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
       }
       /**
        * <pre>
        * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
       public static final int DEFAULT_VALUE_FIELD_NUMBER = 10008;
-      private io.dstore.Values.stringValue defaultValue_;
+      private io.dstore.values.StringValue defaultValue_;
       /**
        * <pre>
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+       * <code>optional .dstore.values.StringValue default_value = 10008;</code>
        */
       public boolean hasDefaultValue() {
         return defaultValue_ != null;
@@ -2179,30 +2179,30 @@ public final class DoGetProcedureParametersAd {
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+       * <code>optional .dstore.values.StringValue default_value = 10008;</code>
        */
-      public io.dstore.Values.stringValue getDefaultValue() {
-        return defaultValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : defaultValue_;
+      public io.dstore.values.StringValue getDefaultValue() {
+        return defaultValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : defaultValue_;
       }
       /**
        * <pre>
        * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+       * <code>optional .dstore.values.StringValue default_value = 10008;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDefaultValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDefaultValueOrBuilder() {
         return getDefaultValue();
       }
 
       public static final int LENGTH_FIELD_NUMBER = 10009;
-      private io.dstore.Values.integerValue length_;
+      private io.dstore.values.IntegerValue length_;
       /**
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10009;</code>
        */
       public boolean hasLength() {
         return length_ != null;
@@ -2212,30 +2212,30 @@ public final class DoGetProcedureParametersAd {
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10009;</code>
        */
-      public io.dstore.Values.integerValue getLength() {
-        return length_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : length_;
+      public io.dstore.values.IntegerValue getLength() {
+        return length_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : length_;
       }
       /**
        * <pre>
        * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue length = 10009;</code>
+       * <code>optional .dstore.values.IntegerValue length = 10009;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
         return getLength();
       }
 
       public static final int DESCRIPTION_LAST_EDITED_FIELD_NUMBER = 10010;
-      private io.dstore.Values.timestampValue descriptionLastEdited_;
+      private io.dstore.values.TimestampValue descriptionLastEdited_;
       /**
        * <pre>
        * Wann die Beschreibung "Description" zuletzt geändert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
        */
       public boolean hasDescriptionLastEdited() {
         return descriptionLastEdited_ != null;
@@ -2245,30 +2245,30 @@ public final class DoGetProcedureParametersAd {
        * Wann die Beschreibung "Description" zuletzt geändert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
        */
-      public io.dstore.Values.timestampValue getDescriptionLastEdited() {
-        return descriptionLastEdited_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : descriptionLastEdited_;
+      public io.dstore.values.TimestampValue getDescriptionLastEdited() {
+        return descriptionLastEdited_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : descriptionLastEdited_;
       }
       /**
        * <pre>
        * Wann die Beschreibung "Description" zuletzt geändert wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+       * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getDescriptionLastEditedOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getDescriptionLastEditedOrBuilder() {
         return getDescriptionLastEdited();
       }
 
       public static final int PROCEDURE_NAME_FIELD_NUMBER = 10011;
-      private io.dstore.Values.stringValue procedureName_;
+      private io.dstore.values.StringValue procedureName_;
       /**
        * <pre>
        * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
@@ -2278,30 +2278,30 @@ public final class DoGetProcedureParametersAd {
        * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
        */
-      public io.dstore.Values.stringValue getProcedureName() {
-        return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+      public io.dstore.values.StringValue getProcedureName() {
+        return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
       }
       /**
        * <pre>
        * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
       }
 
       public static final int INTRODUCED_INDSTORE_VERSION_FIELD_NUMBER = 10012;
-      private io.dstore.Values.stringValue introducedIndstoreVersion_;
+      private io.dstore.values.StringValue introducedIndstoreVersion_;
       /**
        * <pre>
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
       public boolean hasIntroducedIndstoreVersion() {
         return introducedIndstoreVersion_ != null;
@@ -2311,30 +2311,30 @@ public final class DoGetProcedureParametersAd {
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
-      public io.dstore.Values.stringValue getIntroducedIndstoreVersion() {
-        return introducedIndstoreVersion_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : introducedIndstoreVersion_;
+      public io.dstore.values.StringValue getIntroducedIndstoreVersion() {
+        return introducedIndstoreVersion_ == null ? io.dstore.values.StringValue.getDefaultInstance() : introducedIndstoreVersion_;
       }
       /**
        * <pre>
        * Seit welcher Version gibt es den Parameter "ParameterName"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+       * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getIntroducedIndstoreVersionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getIntroducedIndstoreVersionOrBuilder() {
         return getIntroducedIndstoreVersion();
       }
 
       public static final int DATA_TYPE_FIELD_NUMBER = 10013;
-      private io.dstore.Values.stringValue dataType_;
+      private io.dstore.values.StringValue dataType_;
       /**
        * <pre>
        * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
        */
       public boolean hasDataType() {
         return dataType_ != null;
@@ -2344,19 +2344,19 @@ public final class DoGetProcedureParametersAd {
        * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
        */
-      public io.dstore.Values.stringValue getDataType() {
-        return dataType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dataType_;
+      public io.dstore.values.StringValue getDataType() {
+        return dataType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dataType_;
       }
       /**
        * <pre>
        * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+       * <code>optional .dstore.values.StringValue data_type = 10013;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDataTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder() {
         return getDataType();
       }
 
@@ -3045,15 +3045,15 @@ public final class DoGetProcedureParametersAd {
           return this;
         }
 
-        private io.dstore.Values.booleanValue isOutputParameter_ = null;
+        private io.dstore.values.BooleanValue isOutputParameter_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isOutputParameterBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isOutputParameterBuilder_;
         /**
          * <pre>
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
          */
         public boolean hasIsOutputParameter() {
           return isOutputParameterBuilder_ != null || isOutputParameter_ != null;
@@ -3063,11 +3063,11 @@ public final class DoGetProcedureParametersAd {
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
          */
-        public io.dstore.Values.booleanValue getIsOutputParameter() {
+        public io.dstore.values.BooleanValue getIsOutputParameter() {
           if (isOutputParameterBuilder_ == null) {
-            return isOutputParameter_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isOutputParameter_;
+            return isOutputParameter_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isOutputParameter_;
           } else {
             return isOutputParameterBuilder_.getMessage();
           }
@@ -3077,9 +3077,9 @@ public final class DoGetProcedureParametersAd {
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
          */
-        public Builder setIsOutputParameter(io.dstore.Values.booleanValue value) {
+        public Builder setIsOutputParameter(io.dstore.values.BooleanValue value) {
           if (isOutputParameterBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3097,10 +3097,10 @@ public final class DoGetProcedureParametersAd {
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
          */
         public Builder setIsOutputParameter(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (isOutputParameterBuilder_ == null) {
             isOutputParameter_ = builderForValue.build();
             onChanged();
@@ -3115,13 +3115,13 @@ public final class DoGetProcedureParametersAd {
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
          */
-        public Builder mergeIsOutputParameter(io.dstore.Values.booleanValue value) {
+        public Builder mergeIsOutputParameter(io.dstore.values.BooleanValue value) {
           if (isOutputParameterBuilder_ == null) {
             if (isOutputParameter_ != null) {
               isOutputParameter_ =
-                io.dstore.Values.booleanValue.newBuilder(isOutputParameter_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(isOutputParameter_).mergeFrom(value).buildPartial();
             } else {
               isOutputParameter_ = value;
             }
@@ -3137,7 +3137,7 @@ public final class DoGetProcedureParametersAd {
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
          */
         public Builder clearIsOutputParameter() {
           if (isOutputParameterBuilder_ == null) {
@@ -3155,9 +3155,9 @@ public final class DoGetProcedureParametersAd {
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getIsOutputParameterBuilder() {
+        public io.dstore.values.BooleanValue.Builder getIsOutputParameterBuilder() {
           
           onChanged();
           return getIsOutputParameterFieldBuilder().getBuilder();
@@ -3167,14 +3167,14 @@ public final class DoGetProcedureParametersAd {
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getIsOutputParameterOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getIsOutputParameterOrBuilder() {
           if (isOutputParameterBuilder_ != null) {
             return isOutputParameterBuilder_.getMessageOrBuilder();
           } else {
             return isOutputParameter_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : isOutputParameter_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : isOutputParameter_;
           }
         }
         /**
@@ -3182,14 +3182,14 @@ public final class DoGetProcedureParametersAd {
          * Handelt es sich bei dem Parameter "ParameterName" um einen Ausgabeparameter ("0" : Nein, "1" : Ja) ?
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue is_output_parameter = 10001;</code>
+         * <code>optional .dstore.values.BooleanValue is_output_parameter = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getIsOutputParameterFieldBuilder() {
           if (isOutputParameterBuilder_ == null) {
             isOutputParameterBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getIsOutputParameter(),
                     getParentForChildren(),
                     isClean());
@@ -3198,15 +3198,15 @@ public final class DoGetProcedureParametersAd {
           return isOutputParameterBuilder_;
         }
 
-        private io.dstore.Values.stringValue descriptionValidSinceVersion_ = null;
+        private io.dstore.values.StringValue descriptionValidSinceVersion_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionValidSinceVersionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionValidSinceVersionBuilder_;
         /**
          * <pre>
          * Seit welcher dStore-Version die Beschreibung "Description" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+         * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
          */
         public boolean hasDescriptionValidSinceVersion() {
           return descriptionValidSinceVersionBuilder_ != null || descriptionValidSinceVersion_ != null;
@@ -3216,11 +3216,11 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher dStore-Version die Beschreibung "Description" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+         * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
          */
-        public io.dstore.Values.stringValue getDescriptionValidSinceVersion() {
+        public io.dstore.values.StringValue getDescriptionValidSinceVersion() {
           if (descriptionValidSinceVersionBuilder_ == null) {
-            return descriptionValidSinceVersion_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : descriptionValidSinceVersion_;
+            return descriptionValidSinceVersion_ == null ? io.dstore.values.StringValue.getDefaultInstance() : descriptionValidSinceVersion_;
           } else {
             return descriptionValidSinceVersionBuilder_.getMessage();
           }
@@ -3230,9 +3230,9 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher dStore-Version die Beschreibung "Description" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+         * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
          */
-        public Builder setDescriptionValidSinceVersion(io.dstore.Values.stringValue value) {
+        public Builder setDescriptionValidSinceVersion(io.dstore.values.StringValue value) {
           if (descriptionValidSinceVersionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3250,10 +3250,10 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher dStore-Version die Beschreibung "Description" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+         * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
          */
         public Builder setDescriptionValidSinceVersion(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionValidSinceVersionBuilder_ == null) {
             descriptionValidSinceVersion_ = builderForValue.build();
             onChanged();
@@ -3268,13 +3268,13 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher dStore-Version die Beschreibung "Description" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+         * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
          */
-        public Builder mergeDescriptionValidSinceVersion(io.dstore.Values.stringValue value) {
+        public Builder mergeDescriptionValidSinceVersion(io.dstore.values.StringValue value) {
           if (descriptionValidSinceVersionBuilder_ == null) {
             if (descriptionValidSinceVersion_ != null) {
               descriptionValidSinceVersion_ =
-                io.dstore.Values.stringValue.newBuilder(descriptionValidSinceVersion_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(descriptionValidSinceVersion_).mergeFrom(value).buildPartial();
             } else {
               descriptionValidSinceVersion_ = value;
             }
@@ -3290,7 +3290,7 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher dStore-Version die Beschreibung "Description" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+         * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
          */
         public Builder clearDescriptionValidSinceVersion() {
           if (descriptionValidSinceVersionBuilder_ == null) {
@@ -3308,9 +3308,9 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher dStore-Version die Beschreibung "Description" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+         * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionValidSinceVersionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionValidSinceVersionBuilder() {
           
           onChanged();
           return getDescriptionValidSinceVersionFieldBuilder().getBuilder();
@@ -3320,14 +3320,14 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher dStore-Version die Beschreibung "Description" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+         * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionValidSinceVersionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionValidSinceVersionOrBuilder() {
           if (descriptionValidSinceVersionBuilder_ != null) {
             return descriptionValidSinceVersionBuilder_.getMessageOrBuilder();
           } else {
             return descriptionValidSinceVersion_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : descriptionValidSinceVersion_;
+                io.dstore.values.StringValue.getDefaultInstance() : descriptionValidSinceVersion_;
           }
         }
         /**
@@ -3335,14 +3335,14 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher dStore-Version die Beschreibung "Description" gilt
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description_valid_since_version = 10002;</code>
+         * <code>optional .dstore.values.StringValue description_valid_since_version = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionValidSinceVersionFieldBuilder() {
           if (descriptionValidSinceVersionBuilder_ == null) {
             descriptionValidSinceVersionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescriptionValidSinceVersion(),
                     getParentForChildren(),
                     isClean());
@@ -3351,15 +3351,15 @@ public final class DoGetProcedureParametersAd {
           return descriptionValidSinceVersionBuilder_;
         }
 
-        private io.dstore.Values.stringValue description_ = null;
+        private io.dstore.values.StringValue description_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> descriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> descriptionBuilder_;
         /**
          * <pre>
          * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
         public boolean hasDescription() {
           return descriptionBuilder_ != null || description_ != null;
@@ -3369,11 +3369,11 @@ public final class DoGetProcedureParametersAd {
          * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public io.dstore.Values.stringValue getDescription() {
+        public io.dstore.values.StringValue getDescription() {
           if (descriptionBuilder_ == null) {
-            return description_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : description_;
+            return description_ == null ? io.dstore.values.StringValue.getDefaultInstance() : description_;
           } else {
             return descriptionBuilder_.getMessage();
           }
@@ -3383,9 +3383,9 @@ public final class DoGetProcedureParametersAd {
          * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public Builder setDescription(io.dstore.Values.stringValue value) {
+        public Builder setDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3403,10 +3403,10 @@ public final class DoGetProcedureParametersAd {
          * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
         public Builder setDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (descriptionBuilder_ == null) {
             description_ = builderForValue.build();
             onChanged();
@@ -3421,13 +3421,13 @@ public final class DoGetProcedureParametersAd {
          * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public Builder mergeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeDescription(io.dstore.values.StringValue value) {
           if (descriptionBuilder_ == null) {
             if (description_ != null) {
               description_ =
-                io.dstore.Values.stringValue.newBuilder(description_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(description_).mergeFrom(value).buildPartial();
             } else {
               description_ = value;
             }
@@ -3443,7 +3443,7 @@ public final class DoGetProcedureParametersAd {
          * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
         public Builder clearDescription() {
           if (descriptionBuilder_ == null) {
@@ -3461,9 +3461,9 @@ public final class DoGetProcedureParametersAd {
          * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getDescriptionBuilder() {
           
           onChanged();
           return getDescriptionFieldBuilder().getBuilder();
@@ -3473,14 +3473,14 @@ public final class DoGetProcedureParametersAd {
          * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDescriptionOrBuilder() {
           if (descriptionBuilder_ != null) {
             return descriptionBuilder_.getMessageOrBuilder();
           } else {
             return description_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : description_;
+                io.dstore.values.StringValue.getDefaultInstance() : description_;
           }
         }
         /**
@@ -3488,14 +3488,14 @@ public final class DoGetProcedureParametersAd {
          * Beschreibung der Bedeutung und Funktionsweise des Parameters "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue description = 10003;</code>
+         * <code>optional .dstore.values.StringValue description = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDescriptionFieldBuilder() {
           if (descriptionBuilder_ == null) {
             descriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3504,15 +3504,15 @@ public final class DoGetProcedureParametersAd {
           return descriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue precisionValue_ = null;
+        private io.dstore.values.IntegerValue precisionValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> precisionValueBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> precisionValueBuilder_;
         /**
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         public boolean hasPrecisionValue() {
           return precisionValueBuilder_ != null || precisionValue_ != null;
@@ -3522,11 +3522,11 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public io.dstore.Values.integerValue getPrecisionValue() {
+        public io.dstore.values.IntegerValue getPrecisionValue() {
           if (precisionValueBuilder_ == null) {
-            return precisionValue_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+            return precisionValue_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
           } else {
             return precisionValueBuilder_.getMessage();
           }
@@ -3536,9 +3536,9 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public Builder setPrecisionValue(io.dstore.Values.integerValue value) {
+        public Builder setPrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3556,10 +3556,10 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         public Builder setPrecisionValue(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (precisionValueBuilder_ == null) {
             precisionValue_ = builderForValue.build();
             onChanged();
@@ -3574,13 +3574,13 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public Builder mergePrecisionValue(io.dstore.Values.integerValue value) {
+        public Builder mergePrecisionValue(io.dstore.values.IntegerValue value) {
           if (precisionValueBuilder_ == null) {
             if (precisionValue_ != null) {
               precisionValue_ =
-                io.dstore.Values.integerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(precisionValue_).mergeFrom(value).buildPartial();
             } else {
               precisionValue_ = value;
             }
@@ -3596,7 +3596,7 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         public Builder clearPrecisionValue() {
           if (precisionValueBuilder_ == null) {
@@ -3614,9 +3614,9 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPrecisionValueBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPrecisionValueBuilder() {
           
           onChanged();
           return getPrecisionValueFieldBuilder().getBuilder();
@@ -3626,14 +3626,14 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPrecisionValueOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPrecisionValueOrBuilder() {
           if (precisionValueBuilder_ != null) {
             return precisionValueBuilder_.getMessageOrBuilder();
           } else {
             return precisionValue_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : precisionValue_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : precisionValue_;
           }
         }
         /**
@@ -3641,14 +3641,14 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die maximale Anzahl Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue precision_value = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue precision_value = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPrecisionValueFieldBuilder() {
           if (precisionValueBuilder_ == null) {
             precisionValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPrecisionValue(),
                     getParentForChildren(),
                     isClean());
@@ -3657,15 +3657,15 @@ public final class DoGetProcedureParametersAd {
           return precisionValueBuilder_;
         }
 
-        private io.dstore.Values.stringValue parameterName_ = null;
+        private io.dstore.values.StringValue parameterName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> parameterNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> parameterNameBuilder_;
         /**
          * <pre>
          * Parameter der Prozedur "ProcedureName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
          */
         public boolean hasParameterName() {
           return parameterNameBuilder_ != null || parameterName_ != null;
@@ -3675,11 +3675,11 @@ public final class DoGetProcedureParametersAd {
          * Parameter der Prozedur "ProcedureName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
          */
-        public io.dstore.Values.stringValue getParameterName() {
+        public io.dstore.values.StringValue getParameterName() {
           if (parameterNameBuilder_ == null) {
-            return parameterName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+            return parameterName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
           } else {
             return parameterNameBuilder_.getMessage();
           }
@@ -3689,9 +3689,9 @@ public final class DoGetProcedureParametersAd {
          * Parameter der Prozedur "ProcedureName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
          */
-        public Builder setParameterName(io.dstore.Values.stringValue value) {
+        public Builder setParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3709,10 +3709,10 @@ public final class DoGetProcedureParametersAd {
          * Parameter der Prozedur "ProcedureName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
          */
         public Builder setParameterName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (parameterNameBuilder_ == null) {
             parameterName_ = builderForValue.build();
             onChanged();
@@ -3727,13 +3727,13 @@ public final class DoGetProcedureParametersAd {
          * Parameter der Prozedur "ProcedureName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
          */
-        public Builder mergeParameterName(io.dstore.Values.stringValue value) {
+        public Builder mergeParameterName(io.dstore.values.StringValue value) {
           if (parameterNameBuilder_ == null) {
             if (parameterName_ != null) {
               parameterName_ =
-                io.dstore.Values.stringValue.newBuilder(parameterName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(parameterName_).mergeFrom(value).buildPartial();
             } else {
               parameterName_ = value;
             }
@@ -3749,7 +3749,7 @@ public final class DoGetProcedureParametersAd {
          * Parameter der Prozedur "ProcedureName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
          */
         public Builder clearParameterName() {
           if (parameterNameBuilder_ == null) {
@@ -3767,9 +3767,9 @@ public final class DoGetProcedureParametersAd {
          * Parameter der Prozedur "ProcedureName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getParameterNameBuilder() {
+        public io.dstore.values.StringValue.Builder getParameterNameBuilder() {
           
           onChanged();
           return getParameterNameFieldBuilder().getBuilder();
@@ -3779,14 +3779,14 @@ public final class DoGetProcedureParametersAd {
          * Parameter der Prozedur "ProcedureName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getParameterNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getParameterNameOrBuilder() {
           if (parameterNameBuilder_ != null) {
             return parameterNameBuilder_.getMessageOrBuilder();
           } else {
             return parameterName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : parameterName_;
+                io.dstore.values.StringValue.getDefaultInstance() : parameterName_;
           }
         }
         /**
@@ -3794,14 +3794,14 @@ public final class DoGetProcedureParametersAd {
          * Parameter der Prozedur "ProcedureName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue parameter_name = 10005;</code>
+         * <code>optional .dstore.values.StringValue parameter_name = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getParameterNameFieldBuilder() {
           if (parameterNameBuilder_ == null) {
             parameterNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getParameterName(),
                     getParentForChildren(),
                     isClean());
@@ -3810,15 +3810,15 @@ public final class DoGetProcedureParametersAd {
           return parameterNameBuilder_;
         }
 
-        private io.dstore.Values.integerValue scale_ = null;
+        private io.dstore.values.IntegerValue scale_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> scaleBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> scaleBuilder_;
         /**
          * <pre>
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
          */
         public boolean hasScale() {
           return scaleBuilder_ != null || scale_ != null;
@@ -3828,11 +3828,11 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
          */
-        public io.dstore.Values.integerValue getScale() {
+        public io.dstore.values.IntegerValue getScale() {
           if (scaleBuilder_ == null) {
-            return scale_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : scale_;
+            return scale_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
           } else {
             return scaleBuilder_.getMessage();
           }
@@ -3842,9 +3842,9 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
          */
-        public Builder setScale(io.dstore.Values.integerValue value) {
+        public Builder setScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3862,10 +3862,10 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
          */
         public Builder setScale(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (scaleBuilder_ == null) {
             scale_ = builderForValue.build();
             onChanged();
@@ -3880,13 +3880,13 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
          */
-        public Builder mergeScale(io.dstore.Values.integerValue value) {
+        public Builder mergeScale(io.dstore.values.IntegerValue value) {
           if (scaleBuilder_ == null) {
             if (scale_ != null) {
               scale_ =
-                io.dstore.Values.integerValue.newBuilder(scale_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(scale_).mergeFrom(value).buildPartial();
             } else {
               scale_ = value;
             }
@@ -3902,7 +3902,7 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
          */
         public Builder clearScale() {
           if (scaleBuilder_ == null) {
@@ -3920,9 +3920,9 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
          */
-        public io.dstore.Values.integerValue.Builder getScaleBuilder() {
+        public io.dstore.values.IntegerValue.Builder getScaleBuilder() {
           
           onChanged();
           return getScaleFieldBuilder().getBuilder();
@@ -3932,14 +3932,14 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getScaleOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getScaleOrBuilder() {
           if (scaleBuilder_ != null) {
             return scaleBuilder_.getMessageOrBuilder();
           } else {
             return scale_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : scale_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : scale_;
           }
         }
         /**
@@ -3947,14 +3947,14 @@ public final class DoGetProcedureParametersAd {
          * Gilt nur für einige numerische Daten-Typen (z.B. "decimal") und gibt die Genauigkeit, sprich die maximale Anzahl an Nachkomma-Stellen an, die ein Wert für den Parameter "ParameterName" enthalten kann
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue scale = 10006;</code>
+         * <code>optional .dstore.values.IntegerValue scale = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getScaleFieldBuilder() {
           if (scaleBuilder_ == null) {
             scaleBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getScale(),
                     getParentForChildren(),
                     isClean());
@@ -3963,15 +3963,15 @@ public final class DoGetProcedureParametersAd {
           return scaleBuilder_;
         }
 
-        private io.dstore.Values.integerValue sortNo_ = null;
+        private io.dstore.values.IntegerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
          * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -3981,11 +3981,11 @@ public final class DoGetProcedureParametersAd {
          * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
          */
-        public io.dstore.Values.integerValue getSortNo() {
+        public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
@@ -3995,9 +3995,9 @@ public final class DoGetProcedureParametersAd {
          * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
          */
-        public Builder setSortNo(io.dstore.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4015,10 +4015,10 @@ public final class DoGetProcedureParametersAd {
          * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder setSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -4033,13 +4033,13 @@ public final class DoGetProcedureParametersAd {
          * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
          */
-        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -4055,7 +4055,7 @@ public final class DoGetProcedureParametersAd {
          * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -4073,9 +4073,9 @@ public final class DoGetProcedureParametersAd {
          * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
@@ -4085,14 +4085,14 @@ public final class DoGetProcedureParametersAd {
          * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
@@ -4100,14 +4100,14 @@ public final class DoGetProcedureParametersAd {
          * Bestimmt die Reihenfolge des Parameters "ParameterName" innerhalb aller Parameter der Prozedur "ProcedureName". "0" bedeutet, daß der Parameter nicht verwendet wird, also zwar in einer älteren Version vorhanden war, aber aktuell nicht mehr gültig ist.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -4116,15 +4116,15 @@ public final class DoGetProcedureParametersAd {
           return sortNoBuilder_;
         }
 
-        private io.dstore.Values.stringValue defaultValue_ = null;
+        private io.dstore.values.StringValue defaultValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> defaultValueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> defaultValueBuilder_;
         /**
          * <pre>
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+         * <code>optional .dstore.values.StringValue default_value = 10008;</code>
          */
         public boolean hasDefaultValue() {
           return defaultValueBuilder_ != null || defaultValue_ != null;
@@ -4134,11 +4134,11 @@ public final class DoGetProcedureParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+         * <code>optional .dstore.values.StringValue default_value = 10008;</code>
          */
-        public io.dstore.Values.stringValue getDefaultValue() {
+        public io.dstore.values.StringValue getDefaultValue() {
           if (defaultValueBuilder_ == null) {
-            return defaultValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : defaultValue_;
+            return defaultValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : defaultValue_;
           } else {
             return defaultValueBuilder_.getMessage();
           }
@@ -4148,9 +4148,9 @@ public final class DoGetProcedureParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+         * <code>optional .dstore.values.StringValue default_value = 10008;</code>
          */
-        public Builder setDefaultValue(io.dstore.Values.stringValue value) {
+        public Builder setDefaultValue(io.dstore.values.StringValue value) {
           if (defaultValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4168,10 +4168,10 @@ public final class DoGetProcedureParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+         * <code>optional .dstore.values.StringValue default_value = 10008;</code>
          */
         public Builder setDefaultValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (defaultValueBuilder_ == null) {
             defaultValue_ = builderForValue.build();
             onChanged();
@@ -4186,13 +4186,13 @@ public final class DoGetProcedureParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+         * <code>optional .dstore.values.StringValue default_value = 10008;</code>
          */
-        public Builder mergeDefaultValue(io.dstore.Values.stringValue value) {
+        public Builder mergeDefaultValue(io.dstore.values.StringValue value) {
           if (defaultValueBuilder_ == null) {
             if (defaultValue_ != null) {
               defaultValue_ =
-                io.dstore.Values.stringValue.newBuilder(defaultValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(defaultValue_).mergeFrom(value).buildPartial();
             } else {
               defaultValue_ = value;
             }
@@ -4208,7 +4208,7 @@ public final class DoGetProcedureParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+         * <code>optional .dstore.values.StringValue default_value = 10008;</code>
          */
         public Builder clearDefaultValue() {
           if (defaultValueBuilder_ == null) {
@@ -4226,9 +4226,9 @@ public final class DoGetProcedureParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+         * <code>optional .dstore.values.StringValue default_value = 10008;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDefaultValueBuilder() {
+        public io.dstore.values.StringValue.Builder getDefaultValueBuilder() {
           
           onChanged();
           return getDefaultValueFieldBuilder().getBuilder();
@@ -4238,14 +4238,14 @@ public final class DoGetProcedureParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+         * <code>optional .dstore.values.StringValue default_value = 10008;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDefaultValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDefaultValueOrBuilder() {
           if (defaultValueBuilder_ != null) {
             return defaultValueBuilder_.getMessageOrBuilder();
           } else {
             return defaultValue_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : defaultValue_;
+                io.dstore.values.StringValue.getDefaultInstance() : defaultValue_;
           }
         }
         /**
@@ -4253,14 +4253,14 @@ public final class DoGetProcedureParametersAd {
          * Der Wert, mit dem der Parameter "ParameterName" vorbelegt ist
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue default_value = 10008;</code>
+         * <code>optional .dstore.values.StringValue default_value = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDefaultValueFieldBuilder() {
           if (defaultValueBuilder_ == null) {
             defaultValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDefaultValue(),
                     getParentForChildren(),
                     isClean());
@@ -4269,15 +4269,15 @@ public final class DoGetProcedureParametersAd {
           return defaultValueBuilder_;
         }
 
-        private io.dstore.Values.integerValue length_ = null;
+        private io.dstore.values.IntegerValue length_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> lengthBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> lengthBuilder_;
         /**
          * <pre>
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10009;</code>
          */
         public boolean hasLength() {
           return lengthBuilder_ != null || length_ != null;
@@ -4287,11 +4287,11 @@ public final class DoGetProcedureParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10009;</code>
          */
-        public io.dstore.Values.integerValue getLength() {
+        public io.dstore.values.IntegerValue getLength() {
           if (lengthBuilder_ == null) {
-            return length_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : length_;
+            return length_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : length_;
           } else {
             return lengthBuilder_.getMessage();
           }
@@ -4301,9 +4301,9 @@ public final class DoGetProcedureParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10009;</code>
          */
-        public Builder setLength(io.dstore.Values.integerValue value) {
+        public Builder setLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4321,10 +4321,10 @@ public final class DoGetProcedureParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10009;</code>
          */
         public Builder setLength(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (lengthBuilder_ == null) {
             length_ = builderForValue.build();
             onChanged();
@@ -4339,13 +4339,13 @@ public final class DoGetProcedureParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10009;</code>
          */
-        public Builder mergeLength(io.dstore.Values.integerValue value) {
+        public Builder mergeLength(io.dstore.values.IntegerValue value) {
           if (lengthBuilder_ == null) {
             if (length_ != null) {
               length_ =
-                io.dstore.Values.integerValue.newBuilder(length_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(length_).mergeFrom(value).buildPartial();
             } else {
               length_ = value;
             }
@@ -4361,7 +4361,7 @@ public final class DoGetProcedureParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10009;</code>
          */
         public Builder clearLength() {
           if (lengthBuilder_ == null) {
@@ -4379,9 +4379,9 @@ public final class DoGetProcedureParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10009;</code>
          */
-        public io.dstore.Values.integerValue.Builder getLengthBuilder() {
+        public io.dstore.values.IntegerValue.Builder getLengthBuilder() {
           
           onChanged();
           return getLengthFieldBuilder().getBuilder();
@@ -4391,14 +4391,14 @@ public final class DoGetProcedureParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10009;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getLengthOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getLengthOrBuilder() {
           if (lengthBuilder_ != null) {
             return lengthBuilder_.getMessageOrBuilder();
           } else {
             return length_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : length_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : length_;
           }
         }
         /**
@@ -4406,14 +4406,14 @@ public final class DoGetProcedureParametersAd {
          * Wieviel Byte können Werte, die für den Parameter "ParameterName" übergeben werden, maximal enthalten. Bei vielen Daten-Typen ist die Speicherbelegung immer so groß wie dieser Wert (bei numerischen Daten-Typen z.B.).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue length = 10009;</code>
+         * <code>optional .dstore.values.IntegerValue length = 10009;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getLengthFieldBuilder() {
           if (lengthBuilder_ == null) {
             lengthBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getLength(),
                     getParentForChildren(),
                     isClean());
@@ -4422,15 +4422,15 @@ public final class DoGetProcedureParametersAd {
           return lengthBuilder_;
         }
 
-        private io.dstore.Values.timestampValue descriptionLastEdited_ = null;
+        private io.dstore.values.TimestampValue descriptionLastEdited_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> descriptionLastEditedBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> descriptionLastEditedBuilder_;
         /**
          * <pre>
          * Wann die Beschreibung "Description" zuletzt geändert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
          */
         public boolean hasDescriptionLastEdited() {
           return descriptionLastEditedBuilder_ != null || descriptionLastEdited_ != null;
@@ -4440,11 +4440,11 @@ public final class DoGetProcedureParametersAd {
          * Wann die Beschreibung "Description" zuletzt geändert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
          */
-        public io.dstore.Values.timestampValue getDescriptionLastEdited() {
+        public io.dstore.values.TimestampValue getDescriptionLastEdited() {
           if (descriptionLastEditedBuilder_ == null) {
-            return descriptionLastEdited_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : descriptionLastEdited_;
+            return descriptionLastEdited_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : descriptionLastEdited_;
           } else {
             return descriptionLastEditedBuilder_.getMessage();
           }
@@ -4454,9 +4454,9 @@ public final class DoGetProcedureParametersAd {
          * Wann die Beschreibung "Description" zuletzt geändert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
          */
-        public Builder setDescriptionLastEdited(io.dstore.Values.timestampValue value) {
+        public Builder setDescriptionLastEdited(io.dstore.values.TimestampValue value) {
           if (descriptionLastEditedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4474,10 +4474,10 @@ public final class DoGetProcedureParametersAd {
          * Wann die Beschreibung "Description" zuletzt geändert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
          */
         public Builder setDescriptionLastEdited(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (descriptionLastEditedBuilder_ == null) {
             descriptionLastEdited_ = builderForValue.build();
             onChanged();
@@ -4492,13 +4492,13 @@ public final class DoGetProcedureParametersAd {
          * Wann die Beschreibung "Description" zuletzt geändert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
          */
-        public Builder mergeDescriptionLastEdited(io.dstore.Values.timestampValue value) {
+        public Builder mergeDescriptionLastEdited(io.dstore.values.TimestampValue value) {
           if (descriptionLastEditedBuilder_ == null) {
             if (descriptionLastEdited_ != null) {
               descriptionLastEdited_ =
-                io.dstore.Values.timestampValue.newBuilder(descriptionLastEdited_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(descriptionLastEdited_).mergeFrom(value).buildPartial();
             } else {
               descriptionLastEdited_ = value;
             }
@@ -4514,7 +4514,7 @@ public final class DoGetProcedureParametersAd {
          * Wann die Beschreibung "Description" zuletzt geändert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
          */
         public Builder clearDescriptionLastEdited() {
           if (descriptionLastEditedBuilder_ == null) {
@@ -4532,9 +4532,9 @@ public final class DoGetProcedureParametersAd {
          * Wann die Beschreibung "Description" zuletzt geändert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getDescriptionLastEditedBuilder() {
+        public io.dstore.values.TimestampValue.Builder getDescriptionLastEditedBuilder() {
           
           onChanged();
           return getDescriptionLastEditedFieldBuilder().getBuilder();
@@ -4544,14 +4544,14 @@ public final class DoGetProcedureParametersAd {
          * Wann die Beschreibung "Description" zuletzt geändert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getDescriptionLastEditedOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getDescriptionLastEditedOrBuilder() {
           if (descriptionLastEditedBuilder_ != null) {
             return descriptionLastEditedBuilder_.getMessageOrBuilder();
           } else {
             return descriptionLastEdited_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : descriptionLastEdited_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : descriptionLastEdited_;
           }
         }
         /**
@@ -4559,14 +4559,14 @@ public final class DoGetProcedureParametersAd {
          * Wann die Beschreibung "Description" zuletzt geändert wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue description_last_edited = 10010;</code>
+         * <code>optional .dstore.values.TimestampValue description_last_edited = 10010;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getDescriptionLastEditedFieldBuilder() {
           if (descriptionLastEditedBuilder_ == null) {
             descriptionLastEditedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getDescriptionLastEdited(),
                     getParentForChildren(),
                     isClean());
@@ -4575,15 +4575,15 @@ public final class DoGetProcedureParametersAd {
           return descriptionLastEditedBuilder_;
         }
 
-        private io.dstore.Values.stringValue procedureName_ = null;
+        private io.dstore.values.StringValue procedureName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
         /**
          * <pre>
          * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
@@ -4593,11 +4593,11 @@ public final class DoGetProcedureParametersAd {
          * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
          */
-        public io.dstore.Values.stringValue getProcedureName() {
+        public io.dstore.values.StringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
-            return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+            return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
           } else {
             return procedureNameBuilder_.getMessage();
           }
@@ -4607,9 +4607,9 @@ public final class DoGetProcedureParametersAd {
          * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
          */
-        public Builder setProcedureName(io.dstore.Values.stringValue value) {
+        public Builder setProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4627,10 +4627,10 @@ public final class DoGetProcedureParametersAd {
          * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
          */
         public Builder setProcedureName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (procedureNameBuilder_ == null) {
             procedureName_ = builderForValue.build();
             onChanged();
@@ -4645,13 +4645,13 @@ public final class DoGetProcedureParametersAd {
          * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
          */
-        public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
+        public Builder mergeProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
             if (procedureName_ != null) {
               procedureName_ =
-                io.dstore.Values.stringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
             } else {
               procedureName_ = value;
             }
@@ -4667,7 +4667,7 @@ public final class DoGetProcedureParametersAd {
          * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -4685,9 +4685,9 @@ public final class DoGetProcedureParametersAd {
          * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
          */
-        public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
+        public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
           
           onChanged();
           return getProcedureNameFieldBuilder().getBuilder();
@@ -4697,14 +4697,14 @@ public final class DoGetProcedureParametersAd {
          * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
             return procedureNameBuilder_.getMessageOrBuilder();
           } else {
             return procedureName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+                io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
           }
         }
         /**
@@ -4712,14 +4712,14 @@ public final class DoGetProcedureParametersAd {
          * Name einer Prozedur (derzeit gleich "&#64;ProcedureName", aber evtl. ist es in einer späteren Version möglich, die Parameter für mehrere Prozeduren auszugeben...)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10011;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10011;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getProcedureNameFieldBuilder() {
           if (procedureNameBuilder_ == null) {
             procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getProcedureName(),
                     getParentForChildren(),
                     isClean());
@@ -4728,15 +4728,15 @@ public final class DoGetProcedureParametersAd {
           return procedureNameBuilder_;
         }
 
-        private io.dstore.Values.stringValue introducedIndstoreVersion_ = null;
+        private io.dstore.values.StringValue introducedIndstoreVersion_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> introducedIndstoreVersionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> introducedIndstoreVersionBuilder_;
         /**
          * <pre>
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public boolean hasIntroducedIndstoreVersion() {
           return introducedIndstoreVersionBuilder_ != null || introducedIndstoreVersion_ != null;
@@ -4746,11 +4746,11 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
-        public io.dstore.Values.stringValue getIntroducedIndstoreVersion() {
+        public io.dstore.values.StringValue getIntroducedIndstoreVersion() {
           if (introducedIndstoreVersionBuilder_ == null) {
-            return introducedIndstoreVersion_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : introducedIndstoreVersion_;
+            return introducedIndstoreVersion_ == null ? io.dstore.values.StringValue.getDefaultInstance() : introducedIndstoreVersion_;
           } else {
             return introducedIndstoreVersionBuilder_.getMessage();
           }
@@ -4760,9 +4760,9 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
-        public Builder setIntroducedIndstoreVersion(io.dstore.Values.stringValue value) {
+        public Builder setIntroducedIndstoreVersion(io.dstore.values.StringValue value) {
           if (introducedIndstoreVersionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4780,10 +4780,10 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public Builder setIntroducedIndstoreVersion(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (introducedIndstoreVersionBuilder_ == null) {
             introducedIndstoreVersion_ = builderForValue.build();
             onChanged();
@@ -4798,13 +4798,13 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
-        public Builder mergeIntroducedIndstoreVersion(io.dstore.Values.stringValue value) {
+        public Builder mergeIntroducedIndstoreVersion(io.dstore.values.StringValue value) {
           if (introducedIndstoreVersionBuilder_ == null) {
             if (introducedIndstoreVersion_ != null) {
               introducedIndstoreVersion_ =
-                io.dstore.Values.stringValue.newBuilder(introducedIndstoreVersion_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(introducedIndstoreVersion_).mergeFrom(value).buildPartial();
             } else {
               introducedIndstoreVersion_ = value;
             }
@@ -4820,7 +4820,7 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         public Builder clearIntroducedIndstoreVersion() {
           if (introducedIndstoreVersionBuilder_ == null) {
@@ -4838,9 +4838,9 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
-        public io.dstore.Values.stringValue.Builder getIntroducedIndstoreVersionBuilder() {
+        public io.dstore.values.StringValue.Builder getIntroducedIndstoreVersionBuilder() {
           
           onChanged();
           return getIntroducedIndstoreVersionFieldBuilder().getBuilder();
@@ -4850,14 +4850,14 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getIntroducedIndstoreVersionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getIntroducedIndstoreVersionOrBuilder() {
           if (introducedIndstoreVersionBuilder_ != null) {
             return introducedIndstoreVersionBuilder_.getMessageOrBuilder();
           } else {
             return introducedIndstoreVersion_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : introducedIndstoreVersion_;
+                io.dstore.values.StringValue.getDefaultInstance() : introducedIndstoreVersion_;
           }
         }
         /**
@@ -4865,14 +4865,14 @@ public final class DoGetProcedureParametersAd {
          * Seit welcher Version gibt es den Parameter "ParameterName"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue introduced_indstore_version = 10012;</code>
+         * <code>optional .dstore.values.StringValue introduced_indstore_version = 10012;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getIntroducedIndstoreVersionFieldBuilder() {
           if (introducedIndstoreVersionBuilder_ == null) {
             introducedIndstoreVersionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getIntroducedIndstoreVersion(),
                     getParentForChildren(),
                     isClean());
@@ -4881,15 +4881,15 @@ public final class DoGetProcedureParametersAd {
           return introducedIndstoreVersionBuilder_;
         }
 
-        private io.dstore.Values.stringValue dataType_ = null;
+        private io.dstore.values.StringValue dataType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dataTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> dataTypeBuilder_;
         /**
          * <pre>
          * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
          */
         public boolean hasDataType() {
           return dataTypeBuilder_ != null || dataType_ != null;
@@ -4899,11 +4899,11 @@ public final class DoGetProcedureParametersAd {
          * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
          */
-        public io.dstore.Values.stringValue getDataType() {
+        public io.dstore.values.StringValue getDataType() {
           if (dataTypeBuilder_ == null) {
-            return dataType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dataType_;
+            return dataType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dataType_;
           } else {
             return dataTypeBuilder_.getMessage();
           }
@@ -4913,9 +4913,9 @@ public final class DoGetProcedureParametersAd {
          * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
          */
-        public Builder setDataType(io.dstore.Values.stringValue value) {
+        public Builder setDataType(io.dstore.values.StringValue value) {
           if (dataTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4933,10 +4933,10 @@ public final class DoGetProcedureParametersAd {
          * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
          */
         public Builder setDataType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (dataTypeBuilder_ == null) {
             dataType_ = builderForValue.build();
             onChanged();
@@ -4951,13 +4951,13 @@ public final class DoGetProcedureParametersAd {
          * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
          */
-        public Builder mergeDataType(io.dstore.Values.stringValue value) {
+        public Builder mergeDataType(io.dstore.values.StringValue value) {
           if (dataTypeBuilder_ == null) {
             if (dataType_ != null) {
               dataType_ =
-                io.dstore.Values.stringValue.newBuilder(dataType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(dataType_).mergeFrom(value).buildPartial();
             } else {
               dataType_ = value;
             }
@@ -4973,7 +4973,7 @@ public final class DoGetProcedureParametersAd {
          * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
          */
         public Builder clearDataType() {
           if (dataTypeBuilder_ == null) {
@@ -4991,9 +4991,9 @@ public final class DoGetProcedureParametersAd {
          * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
          */
-        public io.dstore.Values.stringValue.Builder getDataTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getDataTypeBuilder() {
           
           onChanged();
           return getDataTypeFieldBuilder().getBuilder();
@@ -5003,14 +5003,14 @@ public final class DoGetProcedureParametersAd {
          * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getDataTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getDataTypeOrBuilder() {
           if (dataTypeBuilder_ != null) {
             return dataTypeBuilder_.getMessageOrBuilder();
           } else {
             return dataType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : dataType_;
+                io.dstore.values.StringValue.getDefaultInstance() : dataType_;
           }
         }
         /**
@@ -5018,14 +5018,14 @@ public final class DoGetProcedureParametersAd {
          * Gibt den Daten-Typ des Parameters "ParameterName" an ("varchar", "tinyint", etc.)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue data_type = 10013;</code>
+         * <code>optional .dstore.values.StringValue data_type = 10013;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getDataTypeFieldBuilder() {
           if (dataTypeBuilder_ == null) {
             dataTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getDataType(),
                     getParentForChildren(),
                     isClean());
@@ -6495,11 +6495,11 @@ public final class DoGetProcedureParametersAd {
       "GetProcedureParameters_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\251\002\n\nP" +
       "arameters\0222\n\016procedure_name\030\001 \001(\0132\032.dsto" +
-      "re.values.stringValue\022\034\n\023procedure_name_" +
+      "re.values.StringValue\022\034\n\023procedure_name_" +
       "null\030\351\007 \001(\010\0227\n\023parameter_name_like\030\002 \001(\013" +
-      "2\032.dstore.values.stringValue\022!\n\030paramete" +
+      "2\032.dstore.values.StringValue\022!\n\030paramete" +
       "r_name_like_null\030\352\007 \001(\010\022A\n\034filter_rows_w" +
-      "ith_empty_descr\030\003 \001(\0132\033.dstore.values.bo",
+      "ith_empty_descr\030\003 \001(\0132\033.dstore.values.Bo",
       "oleanValue\022*\n!filter_rows_with_empty_des" +
       "cr_null\030\353\007 \001(\010\"\222\007\n\010Response\0228\n\020meta_info" +
       "rmation\030\002 \003(\0132\036.dstore.engine.MetaInform" +
@@ -6507,24 +6507,24 @@ public final class DoGetProcedureParametersAd {
       "essage\022E\n\003row\030\004 \003(\01328.dstore.engine.do_G" +
       "etProcedureParameters_Ad.Response.Row\032\333\005" +
       "\n\003Row\022\017\n\006row_id\030\220N \001(\005\0229\n\023is_output_para" +
-      "meter\030\221N \001(\0132\033.dstore.values.booleanValu" +
+      "meter\030\221N \001(\0132\033.dstore.values.BooleanValu" +
       "e\022D\n\037description_valid_since_version\030\222N " +
-      "\001(\0132\032.dstore.values.stringValue\0220\n\013descr",
-      "iption\030\223N \001(\0132\032.dstore.values.stringValu" +
+      "\001(\0132\032.dstore.values.StringValue\0220\n\013descr",
+      "iption\030\223N \001(\0132\032.dstore.values.StringValu" +
       "e\0225\n\017precision_value\030\224N \001(\0132\033.dstore.val" +
-      "ues.integerValue\0223\n\016parameter_name\030\225N \001(" +
-      "\0132\032.dstore.values.stringValue\022+\n\005scale\030\226" +
-      "N \001(\0132\033.dstore.values.integerValue\022-\n\007so" +
-      "rt_no\030\227N \001(\0132\033.dstore.values.integerValu" +
+      "ues.IntegerValue\0223\n\016parameter_name\030\225N \001(" +
+      "\0132\032.dstore.values.StringValue\022+\n\005scale\030\226" +
+      "N \001(\0132\033.dstore.values.IntegerValue\022-\n\007so" +
+      "rt_no\030\227N \001(\0132\033.dstore.values.IntegerValu" +
       "e\0222\n\rdefault_value\030\230N \001(\0132\032.dstore.value" +
-      "s.stringValue\022,\n\006length\030\231N \001(\0132\033.dstore." +
-      "values.integerValue\022?\n\027description_last_" +
-      "edited\030\232N \001(\0132\035.dstore.values.timestampV",
+      "s.StringValue\022,\n\006length\030\231N \001(\0132\033.dstore." +
+      "values.IntegerValue\022?\n\027description_last_" +
+      "edited\030\232N \001(\0132\035.dstore.values.TimestampV",
       "alue\0223\n\016procedure_name\030\233N \001(\0132\032.dstore.v" +
-      "alues.stringValue\022@\n\033introduced_indstore" +
-      "_version\030\234N \001(\0132\032.dstore.values.stringVa" +
+      "alues.StringValue\022@\n\033introduced_indstore" +
+      "_version\030\234N \001(\0132\032.dstore.values.StringVa" +
       "lue\022.\n\tdata_type\030\235N \001(\0132\032.dstore.values." +
-      "stringValueB]\n\033io.dstore.engine.procedur" +
+      "StringValueB]\n\033io.dstore.engine.procedur" +
       "esZ>gosdk.dstore.de/engine/procedures/do" +
       "_GetProcedureParameters_Adb\006proto3"
     };
@@ -6539,7 +6539,7 @@ public final class DoGetProcedureParametersAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_do_GetProcedureParameters_Ad_Parameters_descriptor =
@@ -6560,7 +6560,7 @@ public final class DoGetProcedureParametersAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_do_GetProcedureParameters_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "IsOutputParameter", "DescriptionValidSinceVersion", "Description", "PrecisionValue", "ParameterName", "Scale", "SortNo", "DefaultValue", "Length", "DescriptionLastEdited", "ProcedureName", "IntroducedIndstoreVersion", "DataType", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

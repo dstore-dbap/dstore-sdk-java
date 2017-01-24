@@ -19,17 +19,17 @@ public final class FoModifyPostingBinaryPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class FoModifyPostingBinaryPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class FoModifyPostingBinaryPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class FoModifyPostingBinaryPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
      */
     boolean hasPostingId();
     /**
-     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
      */
-    io.dstore.Values.integerValue getPostingId();
+    io.dstore.values.IntegerValue getPostingId();
     /**
-     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder();
 
     /**
      * <code>optional bool posting_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class FoModifyPostingBinaryPu {
     boolean getPostingIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
      */
     boolean hasSortNoOfBinaryToModify();
     /**
-     * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
      */
-    io.dstore.Values.integerValue getSortNoOfBinaryToModify();
+    io.dstore.values.IntegerValue getSortNoOfBinaryToModify();
     /**
-     * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortNoOfBinaryToModifyOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortNoOfBinaryToModifyOrBuilder();
 
     /**
      * <code>optional bool sort_no_of_binary_to_modify_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class FoModifyPostingBinaryPu {
     boolean getSortNoOfBinaryToModifyNull();
 
     /**
-     * <code>optional .dstore.values.stringValue new_description = 6;</code>
+     * <code>optional .dstore.values.StringValue new_description = 6;</code>
      */
     boolean hasNewDescription();
     /**
-     * <code>optional .dstore.values.stringValue new_description = 6;</code>
+     * <code>optional .dstore.values.StringValue new_description = 6;</code>
      */
-    io.dstore.Values.stringValue getNewDescription();
+    io.dstore.values.StringValue getNewDescription();
     /**
-     * <code>optional .dstore.values.stringValue new_description = 6;</code>
+     * <code>optional .dstore.values.StringValue new_description = 6;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getNewDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getNewDescriptionOrBuilder();
 
     /**
      * <code>optional bool new_description_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class FoModifyPostingBinaryPu {
     boolean getNewDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+     * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
      */
     boolean hasMoveSortNo();
     /**
-     * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+     * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
      */
-    io.dstore.Values.integerValue getMoveSortNo();
+    io.dstore.values.IntegerValue getMoveSortNo();
     /**
-     * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+     * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getMoveSortNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getMoveSortNoOrBuilder();
 
     /**
      * <code>optional bool move_sort_no_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class FoModifyPostingBinaryPu {
     boolean getMoveSortNoNull();
 
     /**
-     * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+     * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
      */
     boolean hasPostingBinaryIdentifier();
     /**
-     * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+     * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
      */
-    io.dstore.Values.stringValue getPostingBinaryIdentifier();
+    io.dstore.values.StringValue getPostingBinaryIdentifier();
     /**
-     * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+     * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPostingBinaryIdentifierOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPostingBinaryIdentifierOrBuilder();
 
     /**
      * <code>optional bool posting_binary_identifier_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class FoModifyPostingBinaryPu {
     boolean getPostingBinaryIdentifierNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1009;</code>
@@ -229,11 +229,11 @@ public final class FoModifyPostingBinaryPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -242,11 +242,11 @@ public final class FoModifyPostingBinaryPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -255,11 +255,11 @@ public final class FoModifyPostingBinaryPu {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -268,11 +268,11 @@ public final class FoModifyPostingBinaryPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (postingId_ != null) {
                 subBuilder = postingId_.toBuilder();
               }
-              postingId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              postingId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(postingId_);
                 postingId_ = subBuilder.buildPartial();
@@ -281,11 +281,11 @@ public final class FoModifyPostingBinaryPu {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortNoOfBinaryToModify_ != null) {
                 subBuilder = sortNoOfBinaryToModify_.toBuilder();
               }
-              sortNoOfBinaryToModify_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortNoOfBinaryToModify_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNoOfBinaryToModify_);
                 sortNoOfBinaryToModify_ = subBuilder.buildPartial();
@@ -294,11 +294,11 @@ public final class FoModifyPostingBinaryPu {
               break;
             }
             case 50: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (newDescription_ != null) {
                 subBuilder = newDescription_.toBuilder();
               }
-              newDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              newDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newDescription_);
                 newDescription_ = subBuilder.buildPartial();
@@ -307,11 +307,11 @@ public final class FoModifyPostingBinaryPu {
               break;
             }
             case 58: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (moveSortNo_ != null) {
                 subBuilder = moveSortNo_.toBuilder();
               }
-              moveSortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              moveSortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(moveSortNo_);
                 moveSortNo_ = subBuilder.buildPartial();
@@ -320,11 +320,11 @@ public final class FoModifyPostingBinaryPu {
               break;
             }
             case 66: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (postingBinaryIdentifier_ != null) {
                 subBuilder = postingBinaryIdentifier_.toBuilder();
               }
-              postingBinaryIdentifier_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              postingBinaryIdentifier_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(postingBinaryIdentifier_);
                 postingBinaryIdentifier_ = subBuilder.buildPartial();
@@ -333,11 +333,11 @@ public final class FoModifyPostingBinaryPu {
               break;
             }
             case 74: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -414,23 +414,23 @@ public final class FoModifyPostingBinaryPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -444,23 +444,23 @@ public final class FoModifyPostingBinaryPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -474,23 +474,23 @@ public final class FoModifyPostingBinaryPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -504,23 +504,23 @@ public final class FoModifyPostingBinaryPu {
     }
 
     public static final int POSTING_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue postingId_;
+    private io.dstore.values.IntegerValue postingId_;
     /**
-     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
      */
     public boolean hasPostingId() {
       return postingId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getPostingId() {
-      return postingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
+    public io.dstore.values.IntegerValue getPostingId() {
+      return postingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
       return getPostingId();
     }
 
@@ -534,23 +534,23 @@ public final class FoModifyPostingBinaryPu {
     }
 
     public static final int SORT_NO_OF_BINARY_TO_MODIFY_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue sortNoOfBinaryToModify_;
+    private io.dstore.values.IntegerValue sortNoOfBinaryToModify_;
     /**
-     * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
      */
     public boolean hasSortNoOfBinaryToModify() {
       return sortNoOfBinaryToModify_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
      */
-    public io.dstore.Values.integerValue getSortNoOfBinaryToModify() {
-      return sortNoOfBinaryToModify_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNoOfBinaryToModify_;
+    public io.dstore.values.IntegerValue getSortNoOfBinaryToModify() {
+      return sortNoOfBinaryToModify_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNoOfBinaryToModify_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortNoOfBinaryToModifyOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortNoOfBinaryToModifyOrBuilder() {
       return getSortNoOfBinaryToModify();
     }
 
@@ -564,23 +564,23 @@ public final class FoModifyPostingBinaryPu {
     }
 
     public static final int NEW_DESCRIPTION_FIELD_NUMBER = 6;
-    private io.dstore.Values.stringValue newDescription_;
+    private io.dstore.values.StringValue newDescription_;
     /**
-     * <code>optional .dstore.values.stringValue new_description = 6;</code>
+     * <code>optional .dstore.values.StringValue new_description = 6;</code>
      */
     public boolean hasNewDescription() {
       return newDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue new_description = 6;</code>
+     * <code>optional .dstore.values.StringValue new_description = 6;</code>
      */
-    public io.dstore.Values.stringValue getNewDescription() {
-      return newDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newDescription_;
+    public io.dstore.values.StringValue getNewDescription() {
+      return newDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue new_description = 6;</code>
+     * <code>optional .dstore.values.StringValue new_description = 6;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getNewDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getNewDescriptionOrBuilder() {
       return getNewDescription();
     }
 
@@ -594,23 +594,23 @@ public final class FoModifyPostingBinaryPu {
     }
 
     public static final int MOVE_SORT_NO_FIELD_NUMBER = 7;
-    private io.dstore.Values.integerValue moveSortNo_;
+    private io.dstore.values.IntegerValue moveSortNo_;
     /**
-     * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+     * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
      */
     public boolean hasMoveSortNo() {
       return moveSortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+     * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
      */
-    public io.dstore.Values.integerValue getMoveSortNo() {
-      return moveSortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : moveSortNo_;
+    public io.dstore.values.IntegerValue getMoveSortNo() {
+      return moveSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : moveSortNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+     * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getMoveSortNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getMoveSortNoOrBuilder() {
       return getMoveSortNo();
     }
 
@@ -624,23 +624,23 @@ public final class FoModifyPostingBinaryPu {
     }
 
     public static final int POSTING_BINARY_IDENTIFIER_FIELD_NUMBER = 8;
-    private io.dstore.Values.stringValue postingBinaryIdentifier_;
+    private io.dstore.values.StringValue postingBinaryIdentifier_;
     /**
-     * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+     * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
      */
     public boolean hasPostingBinaryIdentifier() {
       return postingBinaryIdentifier_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+     * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
      */
-    public io.dstore.Values.stringValue getPostingBinaryIdentifier() {
-      return postingBinaryIdentifier_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : postingBinaryIdentifier_;
+    public io.dstore.values.StringValue getPostingBinaryIdentifier() {
+      return postingBinaryIdentifier_ == null ? io.dstore.values.StringValue.getDefaultInstance() : postingBinaryIdentifier_;
     }
     /**
-     * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+     * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPostingBinaryIdentifierOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPostingBinaryIdentifierOrBuilder() {
       return getPostingBinaryIdentifier();
     }
 
@@ -654,23 +654,23 @@ public final class FoModifyPostingBinaryPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 9;
-    private io.dstore.Values.stringValue separatorInIdentVals_;
+    private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.values.StringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1367,29 +1367,29 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1403,10 +1403,10 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1417,13 +1417,13 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1435,7 +1435,7 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1449,33 +1449,33 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1510,29 +1510,29 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1546,10 +1546,10 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1560,13 +1560,13 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1578,7 +1578,7 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1592,33 +1592,33 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1653,29 +1653,29 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1689,10 +1689,10 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1703,13 +1703,13 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1721,7 +1721,7 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1735,33 +1735,33 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1796,29 +1796,29 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue postingId_ = null;
+      private io.dstore.values.IntegerValue postingId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> postingIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> postingIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
        */
       public boolean hasPostingId() {
         return postingIdBuilder_ != null || postingId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getPostingId() {
+      public io.dstore.values.IntegerValue getPostingId() {
         if (postingIdBuilder_ == null) {
-          return postingId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
+          return postingId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : postingId_;
         } else {
           return postingIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
        */
-      public Builder setPostingId(io.dstore.Values.integerValue value) {
+      public Builder setPostingId(io.dstore.values.IntegerValue value) {
         if (postingIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1832,10 +1832,10 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder setPostingId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (postingIdBuilder_ == null) {
           postingId_ = builderForValue.build();
           onChanged();
@@ -1846,13 +1846,13 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
        */
-      public Builder mergePostingId(io.dstore.Values.integerValue value) {
+      public Builder mergePostingId(io.dstore.values.IntegerValue value) {
         if (postingIdBuilder_ == null) {
           if (postingId_ != null) {
             postingId_ =
-              io.dstore.Values.integerValue.newBuilder(postingId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(postingId_).mergeFrom(value).buildPartial();
           } else {
             postingId_ = value;
           }
@@ -1864,7 +1864,7 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
        */
       public Builder clearPostingId() {
         if (postingIdBuilder_ == null) {
@@ -1878,33 +1878,33 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPostingIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPostingIdBuilder() {
         
         onChanged();
         return getPostingIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPostingIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPostingIdOrBuilder() {
         if (postingIdBuilder_ != null) {
           return postingIdBuilder_.getMessageOrBuilder();
         } else {
           return postingId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : postingId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : postingId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue posting_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue posting_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPostingIdFieldBuilder() {
         if (postingIdBuilder_ == null) {
           postingIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPostingId(),
                   getParentForChildren(),
                   isClean());
@@ -1939,29 +1939,29 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortNoOfBinaryToModify_ = null;
+      private io.dstore.values.IntegerValue sortNoOfBinaryToModify_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoOfBinaryToModifyBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoOfBinaryToModifyBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
        */
       public boolean hasSortNoOfBinaryToModify() {
         return sortNoOfBinaryToModifyBuilder_ != null || sortNoOfBinaryToModify_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
        */
-      public io.dstore.Values.integerValue getSortNoOfBinaryToModify() {
+      public io.dstore.values.IntegerValue getSortNoOfBinaryToModify() {
         if (sortNoOfBinaryToModifyBuilder_ == null) {
-          return sortNoOfBinaryToModify_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNoOfBinaryToModify_;
+          return sortNoOfBinaryToModify_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNoOfBinaryToModify_;
         } else {
           return sortNoOfBinaryToModifyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
        */
-      public Builder setSortNoOfBinaryToModify(io.dstore.Values.integerValue value) {
+      public Builder setSortNoOfBinaryToModify(io.dstore.values.IntegerValue value) {
         if (sortNoOfBinaryToModifyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1975,10 +1975,10 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
        */
       public Builder setSortNoOfBinaryToModify(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortNoOfBinaryToModifyBuilder_ == null) {
           sortNoOfBinaryToModify_ = builderForValue.build();
           onChanged();
@@ -1989,13 +1989,13 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
        */
-      public Builder mergeSortNoOfBinaryToModify(io.dstore.Values.integerValue value) {
+      public Builder mergeSortNoOfBinaryToModify(io.dstore.values.IntegerValue value) {
         if (sortNoOfBinaryToModifyBuilder_ == null) {
           if (sortNoOfBinaryToModify_ != null) {
             sortNoOfBinaryToModify_ =
-              io.dstore.Values.integerValue.newBuilder(sortNoOfBinaryToModify_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortNoOfBinaryToModify_).mergeFrom(value).buildPartial();
           } else {
             sortNoOfBinaryToModify_ = value;
           }
@@ -2007,7 +2007,7 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
        */
       public Builder clearSortNoOfBinaryToModify() {
         if (sortNoOfBinaryToModifyBuilder_ == null) {
@@ -2021,33 +2021,33 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortNoOfBinaryToModifyBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortNoOfBinaryToModifyBuilder() {
         
         onChanged();
         return getSortNoOfBinaryToModifyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOfBinaryToModifyOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOfBinaryToModifyOrBuilder() {
         if (sortNoOfBinaryToModifyBuilder_ != null) {
           return sortNoOfBinaryToModifyBuilder_.getMessageOrBuilder();
         } else {
           return sortNoOfBinaryToModify_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortNoOfBinaryToModify_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortNoOfBinaryToModify_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no_of_binary_to_modify = 5;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no_of_binary_to_modify = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortNoOfBinaryToModifyFieldBuilder() {
         if (sortNoOfBinaryToModifyBuilder_ == null) {
           sortNoOfBinaryToModifyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortNoOfBinaryToModify(),
                   getParentForChildren(),
                   isClean());
@@ -2082,29 +2082,29 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue newDescription_ = null;
+      private io.dstore.values.StringValue newDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> newDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> newDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue new_description = 6;</code>
+       * <code>optional .dstore.values.StringValue new_description = 6;</code>
        */
       public boolean hasNewDescription() {
         return newDescriptionBuilder_ != null || newDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_description = 6;</code>
+       * <code>optional .dstore.values.StringValue new_description = 6;</code>
        */
-      public io.dstore.Values.stringValue getNewDescription() {
+      public io.dstore.values.StringValue getNewDescription() {
         if (newDescriptionBuilder_ == null) {
-          return newDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newDescription_;
+          return newDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newDescription_;
         } else {
           return newDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue new_description = 6;</code>
+       * <code>optional .dstore.values.StringValue new_description = 6;</code>
        */
-      public Builder setNewDescription(io.dstore.Values.stringValue value) {
+      public Builder setNewDescription(io.dstore.values.StringValue value) {
         if (newDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2118,10 +2118,10 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_description = 6;</code>
+       * <code>optional .dstore.values.StringValue new_description = 6;</code>
        */
       public Builder setNewDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (newDescriptionBuilder_ == null) {
           newDescription_ = builderForValue.build();
           onChanged();
@@ -2132,13 +2132,13 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_description = 6;</code>
+       * <code>optional .dstore.values.StringValue new_description = 6;</code>
        */
-      public Builder mergeNewDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeNewDescription(io.dstore.values.StringValue value) {
         if (newDescriptionBuilder_ == null) {
           if (newDescription_ != null) {
             newDescription_ =
-              io.dstore.Values.stringValue.newBuilder(newDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(newDescription_).mergeFrom(value).buildPartial();
           } else {
             newDescription_ = value;
           }
@@ -2150,7 +2150,7 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_description = 6;</code>
+       * <code>optional .dstore.values.StringValue new_description = 6;</code>
        */
       public Builder clearNewDescription() {
         if (newDescriptionBuilder_ == null) {
@@ -2164,33 +2164,33 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_description = 6;</code>
+       * <code>optional .dstore.values.StringValue new_description = 6;</code>
        */
-      public io.dstore.Values.stringValue.Builder getNewDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getNewDescriptionBuilder() {
         
         onChanged();
         return getNewDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue new_description = 6;</code>
+       * <code>optional .dstore.values.StringValue new_description = 6;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNewDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNewDescriptionOrBuilder() {
         if (newDescriptionBuilder_ != null) {
           return newDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return newDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : newDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : newDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue new_description = 6;</code>
+       * <code>optional .dstore.values.StringValue new_description = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getNewDescriptionFieldBuilder() {
         if (newDescriptionBuilder_ == null) {
           newDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getNewDescription(),
                   getParentForChildren(),
                   isClean());
@@ -2225,29 +2225,29 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue moveSortNo_ = null;
+      private io.dstore.values.IntegerValue moveSortNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> moveSortNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> moveSortNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+       * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
        */
       public boolean hasMoveSortNo() {
         return moveSortNoBuilder_ != null || moveSortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+       * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
        */
-      public io.dstore.Values.integerValue getMoveSortNo() {
+      public io.dstore.values.IntegerValue getMoveSortNo() {
         if (moveSortNoBuilder_ == null) {
-          return moveSortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : moveSortNo_;
+          return moveSortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : moveSortNo_;
         } else {
           return moveSortNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+       * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
        */
-      public Builder setMoveSortNo(io.dstore.Values.integerValue value) {
+      public Builder setMoveSortNo(io.dstore.values.IntegerValue value) {
         if (moveSortNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2261,10 +2261,10 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+       * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
        */
       public Builder setMoveSortNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (moveSortNoBuilder_ == null) {
           moveSortNo_ = builderForValue.build();
           onChanged();
@@ -2275,13 +2275,13 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+       * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
        */
-      public Builder mergeMoveSortNo(io.dstore.Values.integerValue value) {
+      public Builder mergeMoveSortNo(io.dstore.values.IntegerValue value) {
         if (moveSortNoBuilder_ == null) {
           if (moveSortNo_ != null) {
             moveSortNo_ =
-              io.dstore.Values.integerValue.newBuilder(moveSortNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(moveSortNo_).mergeFrom(value).buildPartial();
           } else {
             moveSortNo_ = value;
           }
@@ -2293,7 +2293,7 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+       * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
        */
       public Builder clearMoveSortNo() {
         if (moveSortNoBuilder_ == null) {
@@ -2307,33 +2307,33 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+       * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
        */
-      public io.dstore.Values.integerValue.Builder getMoveSortNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getMoveSortNoBuilder() {
         
         onChanged();
         return getMoveSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+       * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMoveSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMoveSortNoOrBuilder() {
         if (moveSortNoBuilder_ != null) {
           return moveSortNoBuilder_.getMessageOrBuilder();
         } else {
           return moveSortNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : moveSortNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : moveSortNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue move_sort_no = 7;</code>
+       * <code>optional .dstore.values.IntegerValue move_sort_no = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getMoveSortNoFieldBuilder() {
         if (moveSortNoBuilder_ == null) {
           moveSortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getMoveSortNo(),
                   getParentForChildren(),
                   isClean());
@@ -2368,29 +2368,29 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue postingBinaryIdentifier_ = null;
+      private io.dstore.values.StringValue postingBinaryIdentifier_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> postingBinaryIdentifierBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> postingBinaryIdentifierBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+       * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
        */
       public boolean hasPostingBinaryIdentifier() {
         return postingBinaryIdentifierBuilder_ != null || postingBinaryIdentifier_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+       * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
        */
-      public io.dstore.Values.stringValue getPostingBinaryIdentifier() {
+      public io.dstore.values.StringValue getPostingBinaryIdentifier() {
         if (postingBinaryIdentifierBuilder_ == null) {
-          return postingBinaryIdentifier_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : postingBinaryIdentifier_;
+          return postingBinaryIdentifier_ == null ? io.dstore.values.StringValue.getDefaultInstance() : postingBinaryIdentifier_;
         } else {
           return postingBinaryIdentifierBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+       * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
        */
-      public Builder setPostingBinaryIdentifier(io.dstore.Values.stringValue value) {
+      public Builder setPostingBinaryIdentifier(io.dstore.values.StringValue value) {
         if (postingBinaryIdentifierBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2404,10 +2404,10 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+       * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
        */
       public Builder setPostingBinaryIdentifier(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (postingBinaryIdentifierBuilder_ == null) {
           postingBinaryIdentifier_ = builderForValue.build();
           onChanged();
@@ -2418,13 +2418,13 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+       * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
        */
-      public Builder mergePostingBinaryIdentifier(io.dstore.Values.stringValue value) {
+      public Builder mergePostingBinaryIdentifier(io.dstore.values.StringValue value) {
         if (postingBinaryIdentifierBuilder_ == null) {
           if (postingBinaryIdentifier_ != null) {
             postingBinaryIdentifier_ =
-              io.dstore.Values.stringValue.newBuilder(postingBinaryIdentifier_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(postingBinaryIdentifier_).mergeFrom(value).buildPartial();
           } else {
             postingBinaryIdentifier_ = value;
           }
@@ -2436,7 +2436,7 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+       * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
        */
       public Builder clearPostingBinaryIdentifier() {
         if (postingBinaryIdentifierBuilder_ == null) {
@@ -2450,33 +2450,33 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+       * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPostingBinaryIdentifierBuilder() {
+      public io.dstore.values.StringValue.Builder getPostingBinaryIdentifierBuilder() {
         
         onChanged();
         return getPostingBinaryIdentifierFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+       * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPostingBinaryIdentifierOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPostingBinaryIdentifierOrBuilder() {
         if (postingBinaryIdentifierBuilder_ != null) {
           return postingBinaryIdentifierBuilder_.getMessageOrBuilder();
         } else {
           return postingBinaryIdentifier_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : postingBinaryIdentifier_;
+              io.dstore.values.StringValue.getDefaultInstance() : postingBinaryIdentifier_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue posting_binary_identifier = 8;</code>
+       * <code>optional .dstore.values.StringValue posting_binary_identifier = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPostingBinaryIdentifierFieldBuilder() {
         if (postingBinaryIdentifierBuilder_ == null) {
           postingBinaryIdentifierBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPostingBinaryIdentifier(),
                   getParentForChildren(),
                   isClean());
@@ -2511,29 +2511,29 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.values.StringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2547,10 +2547,10 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -2561,13 +2561,13 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -2579,7 +2579,7 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2593,33 +2593,33 @@ public final class FoModifyPostingBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 9;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -4741,25 +4741,25 @@ public final class FoModifyPostingBinaryPu {
       "ifyPostingBinary_Pu\032\023dstore/values.proto" +
       "\032\032dstore/engine/engine.proto\"\274\006\n\nParamet" +
       "ers\022@\n\034person_identification_values\030\001 \001(" +
-      "\0132\032.dstore.values.stringValue\022*\n!person_" +
+      "\0132\032.dstore.values.StringValue\022*\n!person_" +
       "identification_values_null\030\351\007 \001(\010\0223\n\016per" +
-      "son_type_id\030\002 \001(\0132\033.dstore.values.intege" +
+      "son_type_id\030\002 \001(\0132\033.dstore.values.Intege" +
       "rValue\022\034\n\023person_type_id_null\030\352\007 \001(\010\022-\n\t" +
-      "unique_id\030\003 \001(\0132\032.dstore.values.stringVa",
+      "unique_id\030\003 \001(\0132\032.dstore.values.StringVa",
       "lue\022\027\n\016unique_id_null\030\353\007 \001(\010\022/\n\nposting_" +
-      "id\030\004 \001(\0132\033.dstore.values.integerValue\022\030\n" +
+      "id\030\004 \001(\0132\033.dstore.values.IntegerValue\022\030\n" +
       "\017posting_id_null\030\354\007 \001(\010\022@\n\033sort_no_of_bi" +
-      "nary_to_modify\030\005 \001(\0132\033.dstore.values.int" +
+      "nary_to_modify\030\005 \001(\0132\033.dstore.values.Int" +
       "egerValue\022)\n sort_no_of_binary_to_modify" +
       "_null\030\355\007 \001(\010\0223\n\017new_description\030\006 \001(\0132\032." +
-      "dstore.values.stringValue\022\035\n\024new_descrip" +
+      "dstore.values.StringValue\022\035\n\024new_descrip" +
       "tion_null\030\356\007 \001(\010\0221\n\014move_sort_no\030\007 \001(\0132\033" +
-      ".dstore.values.integerValue\022\032\n\021move_sort" +
+      ".dstore.values.IntegerValue\022\032\n\021move_sort" +
       "_no_null\030\357\007 \001(\010\022=\n\031posting_binary_identi",
-      "fier\030\010 \001(\0132\032.dstore.values.stringValue\022\'" +
+      "fier\030\010 \001(\0132\032.dstore.values.StringValue\022\'" +
       "\n\036posting_binary_identifier_null\030\360\007 \001(\010\022" +
       ";\n\027separator_in_ident_vals\030\t \001(\0132\032.dstor" +
-      "e.values.stringValue\022%\n\034separator_in_ide" +
+      "e.values.StringValue\022%\n\034separator_in_ide" +
       "nt_vals_null\030\361\007 \001(\010\"\311\001\n\010Response\0228\n\020meta" +
       "_information\030\002 \003(\0132\036.dstore.engine.MetaI" +
       "nformation\022\'\n\007message\030\003 \003(\0132\026.dstore.eng" +
@@ -4781,7 +4781,7 @@ public final class FoModifyPostingBinaryPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_fo_ModifyPostingBinary_Pu_Parameters_descriptor =
@@ -4802,7 +4802,7 @@ public final class FoModifyPostingBinaryPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_ModifyPostingBinary_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

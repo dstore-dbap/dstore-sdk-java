@@ -19,17 +19,17 @@ public final class ImDeleteInterfaceTablesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
      */
     boolean hasInterfacesForBinaries();
     /**
-     * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
      */
-    io.dstore.Values.integerValue getInterfacesForBinaries();
+    io.dstore.values.IntegerValue getInterfacesForBinaries();
     /**
-     * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getInterfacesForBinariesOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getInterfacesForBinariesOrBuilder();
 
     /**
      * <code>optional bool interfaces_for_binaries_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImDeleteInterfaceTablesAd {
     boolean getInterfacesForBinariesNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+     * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
      */
     boolean hasCreateImportTable();
     /**
-     * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+     * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
      */
-    io.dstore.Values.booleanValue getCreateImportTable();
+    io.dstore.values.BooleanValue getCreateImportTable();
     /**
-     * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+     * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCreateImportTableOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCreateImportTableOrBuilder();
 
     /**
      * <code>optional bool create_import_table_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImDeleteInterfaceTablesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (interfacesForBinaries_ != null) {
                 subBuilder = interfacesForBinaries_.toBuilder();
               }
-              interfacesForBinaries_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              interfacesForBinaries_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(interfacesForBinaries_);
                 interfacesForBinaries_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImDeleteInterfaceTablesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (createImportTable_ != null) {
                 subBuilder = createImportTable_.toBuilder();
               }
-              createImportTable_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              createImportTable_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(createImportTable_);
                 createImportTable_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImDeleteInterfaceTablesAd {
     }
 
     public static final int INTERFACES_FOR_BINARIES_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue interfacesForBinaries_;
+    private io.dstore.values.IntegerValue interfacesForBinaries_;
     /**
-     * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
      */
     public boolean hasInterfacesForBinaries() {
       return interfacesForBinaries_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
      */
-    public io.dstore.Values.integerValue getInterfacesForBinaries() {
-      return interfacesForBinaries_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : interfacesForBinaries_;
+    public io.dstore.values.IntegerValue getInterfacesForBinaries() {
+      return interfacesForBinaries_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : interfacesForBinaries_;
     }
     /**
-     * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+     * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getInterfacesForBinariesOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getInterfacesForBinariesOrBuilder() {
       return getInterfacesForBinaries();
     }
 
@@ -185,23 +185,23 @@ public final class ImDeleteInterfaceTablesAd {
     }
 
     public static final int CREATE_IMPORT_TABLE_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue createImportTable_;
+    private io.dstore.values.BooleanValue createImportTable_;
     /**
-     * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+     * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
      */
     public boolean hasCreateImportTable() {
       return createImportTable_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+     * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
      */
-    public io.dstore.Values.booleanValue getCreateImportTable() {
-      return createImportTable_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : createImportTable_;
+    public io.dstore.values.BooleanValue getCreateImportTable() {
+      return createImportTable_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : createImportTable_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+     * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCreateImportTableOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCreateImportTableOrBuilder() {
       return getCreateImportTable();
     }
 
@@ -562,29 +562,29 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue interfacesForBinaries_ = null;
+      private io.dstore.values.IntegerValue interfacesForBinaries_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> interfacesForBinariesBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> interfacesForBinariesBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
        */
       public boolean hasInterfacesForBinaries() {
         return interfacesForBinariesBuilder_ != null || interfacesForBinaries_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
        */
-      public io.dstore.Values.integerValue getInterfacesForBinaries() {
+      public io.dstore.values.IntegerValue getInterfacesForBinaries() {
         if (interfacesForBinariesBuilder_ == null) {
-          return interfacesForBinaries_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : interfacesForBinaries_;
+          return interfacesForBinaries_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : interfacesForBinaries_;
         } else {
           return interfacesForBinariesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
        */
-      public Builder setInterfacesForBinaries(io.dstore.Values.integerValue value) {
+      public Builder setInterfacesForBinaries(io.dstore.values.IntegerValue value) {
         if (interfacesForBinariesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
        */
       public Builder setInterfacesForBinaries(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (interfacesForBinariesBuilder_ == null) {
           interfacesForBinaries_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
        */
-      public Builder mergeInterfacesForBinaries(io.dstore.Values.integerValue value) {
+      public Builder mergeInterfacesForBinaries(io.dstore.values.IntegerValue value) {
         if (interfacesForBinariesBuilder_ == null) {
           if (interfacesForBinaries_ != null) {
             interfacesForBinaries_ =
-              io.dstore.Values.integerValue.newBuilder(interfacesForBinaries_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(interfacesForBinaries_).mergeFrom(value).buildPartial();
           } else {
             interfacesForBinaries_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
        */
       public Builder clearInterfacesForBinaries() {
         if (interfacesForBinariesBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getInterfacesForBinariesBuilder() {
+      public io.dstore.values.IntegerValue.Builder getInterfacesForBinariesBuilder() {
         
         onChanged();
         return getInterfacesForBinariesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInterfacesForBinariesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInterfacesForBinariesOrBuilder() {
         if (interfacesForBinariesBuilder_ != null) {
           return interfacesForBinariesBuilder_.getMessageOrBuilder();
         } else {
           return interfacesForBinaries_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : interfacesForBinaries_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : interfacesForBinaries_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue interfaces_for_binaries = 1;</code>
+       * <code>optional .dstore.values.IntegerValue interfaces_for_binaries = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getInterfacesForBinariesFieldBuilder() {
         if (interfacesForBinariesBuilder_ == null) {
           interfacesForBinariesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getInterfacesForBinaries(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue createImportTable_ = null;
+      private io.dstore.values.BooleanValue createImportTable_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> createImportTableBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> createImportTableBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+       * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
        */
       public boolean hasCreateImportTable() {
         return createImportTableBuilder_ != null || createImportTable_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+       * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
        */
-      public io.dstore.Values.booleanValue getCreateImportTable() {
+      public io.dstore.values.BooleanValue getCreateImportTable() {
         if (createImportTableBuilder_ == null) {
-          return createImportTable_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : createImportTable_;
+          return createImportTable_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : createImportTable_;
         } else {
           return createImportTableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+       * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
        */
-      public Builder setCreateImportTable(io.dstore.Values.booleanValue value) {
+      public Builder setCreateImportTable(io.dstore.values.BooleanValue value) {
         if (createImportTableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+       * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
        */
       public Builder setCreateImportTable(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (createImportTableBuilder_ == null) {
           createImportTable_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+       * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
        */
-      public Builder mergeCreateImportTable(io.dstore.Values.booleanValue value) {
+      public Builder mergeCreateImportTable(io.dstore.values.BooleanValue value) {
         if (createImportTableBuilder_ == null) {
           if (createImportTable_ != null) {
             createImportTable_ =
-              io.dstore.Values.booleanValue.newBuilder(createImportTable_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(createImportTable_).mergeFrom(value).buildPartial();
           } else {
             createImportTable_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+       * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
        */
       public Builder clearCreateImportTable() {
         if (createImportTableBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImDeleteInterfaceTablesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+       * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCreateImportTableBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCreateImportTableBuilder() {
         
         onChanged();
         return getCreateImportTableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+       * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCreateImportTableOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCreateImportTableOrBuilder() {
         if (createImportTableBuilder_ != null) {
           return createImportTableBuilder_.getMessageOrBuilder();
         } else {
           return createImportTable_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : createImportTable_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : createImportTable_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue create_import_table = 2;</code>
+       * <code>optional .dstore.values.BooleanValue create_import_table = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCreateImportTableFieldBuilder() {
         if (createImportTableBuilder_ == null) {
           createImportTableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCreateImportTable(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class ImDeleteInterfaceTablesAd {
        * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
        */
       boolean hasCreatedTableName();
       /**
@@ -1115,17 +1115,17 @@ public final class ImDeleteInterfaceTablesAd {
        * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
        */
-      io.dstore.Values.stringValue getCreatedTableName();
+      io.dstore.values.StringValue getCreatedTableName();
       /**
        * <pre>
        * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCreatedTableNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCreatedTableNameOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_DeleteInterfaceTables_Ad.Response.Row}
@@ -1173,11 +1173,11 @@ public final class ImDeleteInterfaceTablesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (createdTableName_ != null) {
                   subBuilder = createdTableName_.toBuilder();
                 }
-                createdTableName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                createdTableName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdTableName_);
                   createdTableName_ = subBuilder.buildPartial();
@@ -1218,13 +1218,13 @@ public final class ImDeleteInterfaceTablesAd {
       }
 
       public static final int CREATED_TABLE_NAME_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue createdTableName_;
+      private io.dstore.values.StringValue createdTableName_;
       /**
        * <pre>
        * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
        */
       public boolean hasCreatedTableName() {
         return createdTableName_ != null;
@@ -1234,19 +1234,19 @@ public final class ImDeleteInterfaceTablesAd {
        * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
        */
-      public io.dstore.Values.stringValue getCreatedTableName() {
-        return createdTableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : createdTableName_;
+      public io.dstore.values.StringValue getCreatedTableName() {
+        return createdTableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : createdTableName_;
       }
       /**
        * <pre>
        * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+       * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCreatedTableNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCreatedTableNameOrBuilder() {
         return getCreatedTableName();
       }
 
@@ -1575,15 +1575,15 @@ public final class ImDeleteInterfaceTablesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue createdTableName_ = null;
+        private io.dstore.values.StringValue createdTableName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> createdTableNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> createdTableNameBuilder_;
         /**
          * <pre>
          * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
          */
         public boolean hasCreatedTableName() {
           return createdTableNameBuilder_ != null || createdTableName_ != null;
@@ -1593,11 +1593,11 @@ public final class ImDeleteInterfaceTablesAd {
          * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue getCreatedTableName() {
+        public io.dstore.values.StringValue getCreatedTableName() {
           if (createdTableNameBuilder_ == null) {
-            return createdTableName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : createdTableName_;
+            return createdTableName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : createdTableName_;
           } else {
             return createdTableNameBuilder_.getMessage();
           }
@@ -1607,9 +1607,9 @@ public final class ImDeleteInterfaceTablesAd {
          * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
          */
-        public Builder setCreatedTableName(io.dstore.Values.stringValue value) {
+        public Builder setCreatedTableName(io.dstore.values.StringValue value) {
           if (createdTableNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1627,10 +1627,10 @@ public final class ImDeleteInterfaceTablesAd {
          * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
          */
         public Builder setCreatedTableName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (createdTableNameBuilder_ == null) {
             createdTableName_ = builderForValue.build();
             onChanged();
@@ -1645,13 +1645,13 @@ public final class ImDeleteInterfaceTablesAd {
          * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
          */
-        public Builder mergeCreatedTableName(io.dstore.Values.stringValue value) {
+        public Builder mergeCreatedTableName(io.dstore.values.StringValue value) {
           if (createdTableNameBuilder_ == null) {
             if (createdTableName_ != null) {
               createdTableName_ =
-                io.dstore.Values.stringValue.newBuilder(createdTableName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(createdTableName_).mergeFrom(value).buildPartial();
             } else {
               createdTableName_ = value;
             }
@@ -1667,7 +1667,7 @@ public final class ImDeleteInterfaceTablesAd {
          * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
          */
         public Builder clearCreatedTableName() {
           if (createdTableNameBuilder_ == null) {
@@ -1685,9 +1685,9 @@ public final class ImDeleteInterfaceTablesAd {
          * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCreatedTableNameBuilder() {
+        public io.dstore.values.StringValue.Builder getCreatedTableNameBuilder() {
           
           onChanged();
           return getCreatedTableNameFieldBuilder().getBuilder();
@@ -1697,14 +1697,14 @@ public final class ImDeleteInterfaceTablesAd {
          * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCreatedTableNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCreatedTableNameOrBuilder() {
           if (createdTableNameBuilder_ != null) {
             return createdTableNameBuilder_.getMessageOrBuilder();
           } else {
             return createdTableName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : createdTableName_;
+                io.dstore.values.StringValue.getDefaultInstance() : createdTableName_;
           }
         }
         /**
@@ -1712,14 +1712,14 @@ public final class ImDeleteInterfaceTablesAd {
          * Name der erzeugten Tabelle inkl. Datenbank- und Owner-Information falls nötig (wenn sie also nicht in der Datenbank, in der diese Prozedur hier gespeichert ist, existiert)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue created_table_name = 10001;</code>
+         * <code>optional .dstore.values.StringValue created_table_name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCreatedTableNameFieldBuilder() {
           if (createdTableNameBuilder_ == null) {
             createdTableNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCreatedTableName(),
                     getParentForChildren(),
                     isClean());
@@ -3189,9 +3189,9 @@ public final class ImDeleteInterfaceTablesAd {
       "eleteInterfaceTables_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\316\001\n\nPar" +
       "ameters\022<\n\027interfaces_for_binaries\030\001 \001(\013" +
-      "2\033.dstore.values.integerValue\022%\n\034interfa" +
+      "2\033.dstore.values.IntegerValue\022%\n\034interfa" +
       "ces_for_binaries_null\030\351\007 \001(\010\0228\n\023create_i" +
-      "mport_table\030\002 \001(\0132\033.dstore.values.boolea" +
+      "mport_table\030\002 \001(\0132\033.dstore.values.Boolea" +
       "nValue\022!\n\030create_import_table_null\030\352\007 \001(" +
       "\010\"\204\002\n\010Response\0228\n\020meta_information\030\002 \003(\013",
       "2\036.dstore.engine.MetaInformation\022\'\n\007mess" +
@@ -3199,7 +3199,7 @@ public final class ImDeleteInterfaceTablesAd {
       "\030\004 \003(\01327.dstore.engine.im_DeleteInterfac" +
       "eTables_Ad.Response.Row\032O\n\003Row\022\017\n\006row_id" +
       "\030\220N \001(\005\0227\n\022created_table_name\030\221N \001(\0132\032.d" +
-      "store.values.stringValueB\\\n\033io.dstore.en" +
+      "store.values.StringValueB\\\n\033io.dstore.en" +
       "gine.proceduresZ=gosdk.dstore.de/engine/" +
       "procedures/im_DeleteInterfaceTables_Adb\006" +
       "proto3"
@@ -3215,7 +3215,7 @@ public final class ImDeleteInterfaceTablesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_DeleteInterfaceTables_Ad_Parameters_descriptor =
@@ -3236,7 +3236,7 @@ public final class ImDeleteInterfaceTablesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_DeleteInterfaceTables_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CreatedTableName", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

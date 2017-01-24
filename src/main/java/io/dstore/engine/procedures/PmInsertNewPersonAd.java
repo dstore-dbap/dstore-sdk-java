@@ -19,17 +19,17 @@ public final class PmInsertNewPersonAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
      */
     boolean hasCharacteristicIdList1();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
      */
-    io.dstore.Values.stringValue getCharacteristicIdList1();
+    io.dstore.values.StringValue getCharacteristicIdList1();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCharacteristicIdList1OrBuilder();
+    io.dstore.values.StringValueOrBuilder getCharacteristicIdList1OrBuilder();
 
     /**
      * <code>optional bool characteristic_id_list1_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmInsertNewPersonAd {
     boolean getCharacteristicIdList1Null();
 
     /**
-     * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+     * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
      */
     boolean hasValueList1();
     /**
-     * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+     * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
      */
-    io.dstore.Values.stringValue getValueList1();
+    io.dstore.values.StringValue getValueList1();
     /**
-     * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+     * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueList1OrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueList1OrBuilder();
 
     /**
      * <code>optional bool value_list1_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmInsertNewPersonAd {
     boolean getValueList1Null();
 
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
      */
     boolean hasCharacteristicIdList2();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
      */
-    io.dstore.Values.stringValue getCharacteristicIdList2();
+    io.dstore.values.StringValue getCharacteristicIdList2();
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCharacteristicIdList2OrBuilder();
+    io.dstore.values.StringValueOrBuilder getCharacteristicIdList2OrBuilder();
 
     /**
      * <code>optional bool characteristic_id_list2_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class PmInsertNewPersonAd {
     boolean getCharacteristicIdList2Null();
 
     /**
-     * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+     * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
      */
     boolean hasValueList2();
     /**
-     * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+     * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
      */
-    io.dstore.Values.stringValue getValueList2();
+    io.dstore.values.StringValue getValueList2();
     /**
-     * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+     * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueList2OrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueList2OrBuilder();
 
     /**
      * <code>optional bool value_list2_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class PmInsertNewPersonAd {
     boolean getValueList2Null();
 
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
      */
     boolean hasPersonCharacCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
      */
-    io.dstore.Values.integerValue getPersonCharacCategoryId();
+    io.dstore.values.IntegerValue getPersonCharacCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonCharacCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder();
 
     /**
      * <code>optional bool person_charac_category_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class PmInsertNewPersonAd {
     boolean getPersonCharacCategoryIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class PmInsertNewPersonAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
      */
     boolean hasErrorIdList();
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
      */
-    io.dstore.Values.stringValue getErrorIdList();
+    io.dstore.values.StringValue getErrorIdList();
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getErrorIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getErrorIdListOrBuilder();
 
     /**
      * <code>optional bool error_id_list_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class PmInsertNewPersonAd {
     boolean getErrorIdListNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+     * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
      */
     boolean hasResultInErrorIdList();
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+     * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
      */
-    io.dstore.Values.booleanValue getResultInErrorIdList();
+    io.dstore.values.BooleanValue getResultInErrorIdList();
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+     * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getResultInErrorIdListOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getResultInErrorIdListOrBuilder();
 
     /**
      * <code>optional bool result_in_error_id_list_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class PmInsertNewPersonAd {
     boolean getResultInErrorIdListNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+     * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
      */
     boolean hasValueIdsForPredefinedCharacs();
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+     * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
      */
-    io.dstore.Values.booleanValue getValueIdsForPredefinedCharacs();
+    io.dstore.values.BooleanValue getValueIdsForPredefinedCharacs();
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+     * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getValueIdsForPredefinedCharacsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getValueIdsForPredefinedCharacsOrBuilder();
 
     /**
      * <code>optional bool value_ids_for_predefined_characs_null = 1009;</code>
@@ -181,17 +181,17 @@ public final class PmInsertNewPersonAd {
     boolean getValueIdsForPredefinedCharacsNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+     * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
      */
     boolean hasCancelOnError();
     /**
-     * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+     * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
      */
-    io.dstore.Values.booleanValue getCancelOnError();
+    io.dstore.values.BooleanValue getCancelOnError();
     /**
-     * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+     * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCancelOnErrorOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCancelOnErrorOrBuilder();
 
     /**
      * <code>optional bool cancel_on_error_null = 1010;</code>
@@ -199,17 +199,17 @@ public final class PmInsertNewPersonAd {
     boolean getCancelOnErrorNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+     * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
      */
     boolean hasSeparatorInLists();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+     * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInLists();
+    io.dstore.values.StringValue getSeparatorInLists();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+     * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInListsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInListsOrBuilder();
 
     /**
      * <code>optional bool separator_in_lists_null = 1011;</code>
@@ -217,17 +217,17 @@ public final class PmInsertNewPersonAd {
     boolean getSeparatorInListsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1012;</code>
@@ -235,17 +235,17 @@ public final class PmInsertNewPersonAd {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
-    io.dstore.Values.stringValue getCountry();
+    io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
      * <code>optional bool country_null = 1013;</code>
@@ -305,11 +305,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (characteristicIdList1_ != null) {
                 subBuilder = characteristicIdList1_.toBuilder();
               }
-              characteristicIdList1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              characteristicIdList1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicIdList1_);
                 characteristicIdList1_ = subBuilder.buildPartial();
@@ -318,11 +318,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (valueList1_ != null) {
                 subBuilder = valueList1_.toBuilder();
               }
-              valueList1_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              valueList1_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueList1_);
                 valueList1_ = subBuilder.buildPartial();
@@ -331,11 +331,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (characteristicIdList2_ != null) {
                 subBuilder = characteristicIdList2_.toBuilder();
               }
-              characteristicIdList2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              characteristicIdList2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicIdList2_);
                 characteristicIdList2_ = subBuilder.buildPartial();
@@ -344,11 +344,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (valueList2_ != null) {
                 subBuilder = valueList2_.toBuilder();
               }
-              valueList2_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              valueList2_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueList2_);
                 valueList2_ = subBuilder.buildPartial();
@@ -357,11 +357,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personCharacCategoryId_ != null) {
                 subBuilder = personCharacCategoryId_.toBuilder();
               }
-              personCharacCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personCharacCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personCharacCategoryId_);
                 personCharacCategoryId_ = subBuilder.buildPartial();
@@ -370,11 +370,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -383,11 +383,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (errorIdList_ != null) {
                 subBuilder = errorIdList_.toBuilder();
               }
-              errorIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              errorIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(errorIdList_);
                 errorIdList_ = subBuilder.buildPartial();
@@ -396,11 +396,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 66: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (resultInErrorIdList_ != null) {
                 subBuilder = resultInErrorIdList_.toBuilder();
               }
-              resultInErrorIdList_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              resultInErrorIdList_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(resultInErrorIdList_);
                 resultInErrorIdList_ = subBuilder.buildPartial();
@@ -409,11 +409,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 74: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (valueIdsForPredefinedCharacs_ != null) {
                 subBuilder = valueIdsForPredefinedCharacs_.toBuilder();
               }
-              valueIdsForPredefinedCharacs_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              valueIdsForPredefinedCharacs_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueIdsForPredefinedCharacs_);
                 valueIdsForPredefinedCharacs_ = subBuilder.buildPartial();
@@ -422,11 +422,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 82: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (cancelOnError_ != null) {
                 subBuilder = cancelOnError_.toBuilder();
               }
-              cancelOnError_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              cancelOnError_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cancelOnError_);
                 cancelOnError_ = subBuilder.buildPartial();
@@ -435,11 +435,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 90: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInLists_ != null) {
                 subBuilder = separatorInLists_.toBuilder();
               }
-              separatorInLists_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInLists_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInLists_);
                 separatorInLists_ = subBuilder.buildPartial();
@@ -448,11 +448,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 98: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -461,11 +461,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 106: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              country_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -562,23 +562,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int CHARACTERISTIC_ID_LIST1_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue characteristicIdList1_;
+    private io.dstore.values.StringValue characteristicIdList1_;
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
      */
     public boolean hasCharacteristicIdList1() {
       return characteristicIdList1_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
      */
-    public io.dstore.Values.stringValue getCharacteristicIdList1() {
-      return characteristicIdList1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList1_;
+    public io.dstore.values.StringValue getCharacteristicIdList1() {
+      return characteristicIdList1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicIdList1_;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCharacteristicIdList1OrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCharacteristicIdList1OrBuilder() {
       return getCharacteristicIdList1();
     }
 
@@ -592,23 +592,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int VALUE_LIST1_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue valueList1_;
+    private io.dstore.values.StringValue valueList1_;
     /**
-     * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+     * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
      */
     public boolean hasValueList1() {
       return valueList1_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+     * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
      */
-    public io.dstore.Values.stringValue getValueList1() {
-      return valueList1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueList1_;
+    public io.dstore.values.StringValue getValueList1() {
+      return valueList1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueList1_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+     * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueList1OrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueList1OrBuilder() {
       return getValueList1();
     }
 
@@ -622,23 +622,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int CHARACTERISTIC_ID_LIST2_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue characteristicIdList2_;
+    private io.dstore.values.StringValue characteristicIdList2_;
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
      */
     public boolean hasCharacteristicIdList2() {
       return characteristicIdList2_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
      */
-    public io.dstore.Values.stringValue getCharacteristicIdList2() {
-      return characteristicIdList2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList2_;
+    public io.dstore.values.StringValue getCharacteristicIdList2() {
+      return characteristicIdList2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicIdList2_;
     }
     /**
-     * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+     * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCharacteristicIdList2OrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCharacteristicIdList2OrBuilder() {
       return getCharacteristicIdList2();
     }
 
@@ -652,23 +652,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int VALUE_LIST2_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue valueList2_;
+    private io.dstore.values.StringValue valueList2_;
     /**
-     * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+     * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
      */
     public boolean hasValueList2() {
       return valueList2_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+     * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
      */
-    public io.dstore.Values.stringValue getValueList2() {
-      return valueList2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueList2_;
+    public io.dstore.values.StringValue getValueList2() {
+      return valueList2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueList2_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+     * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueList2OrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueList2OrBuilder() {
       return getValueList2();
     }
 
@@ -682,23 +682,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int PERSON_CHARAC_CATEGORY_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue personCharacCategoryId_;
+    private io.dstore.values.IntegerValue personCharacCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
      */
     public boolean hasPersonCharacCategoryId() {
       return personCharacCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getPersonCharacCategoryId() {
-      return personCharacCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacCategoryId_;
+    public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
+      return personCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
       return getPersonCharacCategoryId();
     }
 
@@ -712,23 +712,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -742,23 +742,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int ERROR_ID_LIST_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue errorIdList_;
+    private io.dstore.values.StringValue errorIdList_;
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
      */
     public boolean hasErrorIdList() {
       return errorIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
      */
-    public io.dstore.Values.stringValue getErrorIdList() {
-      return errorIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : errorIdList_;
+    public io.dstore.values.StringValue getErrorIdList() {
+      return errorIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : errorIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getErrorIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getErrorIdListOrBuilder() {
       return getErrorIdList();
     }
 
@@ -772,23 +772,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int RESULT_IN_ERROR_ID_LIST_FIELD_NUMBER = 8;
-    private io.dstore.Values.booleanValue resultInErrorIdList_;
+    private io.dstore.values.BooleanValue resultInErrorIdList_;
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+     * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
      */
     public boolean hasResultInErrorIdList() {
       return resultInErrorIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+     * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
      */
-    public io.dstore.Values.booleanValue getResultInErrorIdList() {
-      return resultInErrorIdList_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : resultInErrorIdList_;
+    public io.dstore.values.BooleanValue getResultInErrorIdList() {
+      return resultInErrorIdList_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : resultInErrorIdList_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+     * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getResultInErrorIdListOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getResultInErrorIdListOrBuilder() {
       return getResultInErrorIdList();
     }
 
@@ -802,23 +802,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int VALUE_IDS_FOR_PREDEFINED_CHARACS_FIELD_NUMBER = 9;
-    private io.dstore.Values.booleanValue valueIdsForPredefinedCharacs_;
+    private io.dstore.values.BooleanValue valueIdsForPredefinedCharacs_;
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+     * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
      */
     public boolean hasValueIdsForPredefinedCharacs() {
       return valueIdsForPredefinedCharacs_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+     * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
      */
-    public io.dstore.Values.booleanValue getValueIdsForPredefinedCharacs() {
-      return valueIdsForPredefinedCharacs_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueIdsForPredefinedCharacs_;
+    public io.dstore.values.BooleanValue getValueIdsForPredefinedCharacs() {
+      return valueIdsForPredefinedCharacs_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : valueIdsForPredefinedCharacs_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+     * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getValueIdsForPredefinedCharacsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getValueIdsForPredefinedCharacsOrBuilder() {
       return getValueIdsForPredefinedCharacs();
     }
 
@@ -832,23 +832,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int CANCEL_ON_ERROR_FIELD_NUMBER = 10;
-    private io.dstore.Values.booleanValue cancelOnError_;
+    private io.dstore.values.BooleanValue cancelOnError_;
     /**
-     * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+     * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
      */
     public boolean hasCancelOnError() {
       return cancelOnError_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+     * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
      */
-    public io.dstore.Values.booleanValue getCancelOnError() {
-      return cancelOnError_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : cancelOnError_;
+    public io.dstore.values.BooleanValue getCancelOnError() {
+      return cancelOnError_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : cancelOnError_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+     * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCancelOnErrorOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCancelOnErrorOrBuilder() {
       return getCancelOnError();
     }
 
@@ -862,23 +862,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int SEPARATOR_IN_LISTS_FIELD_NUMBER = 11;
-    private io.dstore.Values.stringValue separatorInLists_;
+    private io.dstore.values.StringValue separatorInLists_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+     * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
      */
     public boolean hasSeparatorInLists() {
       return separatorInLists_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+     * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInLists() {
-      return separatorInLists_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInLists_;
+    public io.dstore.values.StringValue getSeparatorInLists() {
+      return separatorInLists_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInLists_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+     * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInListsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInListsOrBuilder() {
       return getSeparatorInLists();
     }
 
@@ -892,23 +892,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 12;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -922,23 +922,23 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int COUNTRY_FIELD_NUMBER = 13;
-    private io.dstore.Values.stringValue country_;
+    private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
-    public io.dstore.Values.stringValue getCountry() {
-      return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+    public io.dstore.values.StringValue getCountry() {
+      return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 13;</code>
+     * <code>optional .dstore.values.StringValue country = 13;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
@@ -1827,29 +1827,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue characteristicIdList1_ = null;
+      private io.dstore.values.StringValue characteristicIdList1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicIdList1Builder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characteristicIdList1Builder_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
        */
       public boolean hasCharacteristicIdList1() {
         return characteristicIdList1Builder_ != null || characteristicIdList1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
        */
-      public io.dstore.Values.stringValue getCharacteristicIdList1() {
+      public io.dstore.values.StringValue getCharacteristicIdList1() {
         if (characteristicIdList1Builder_ == null) {
-          return characteristicIdList1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList1_;
+          return characteristicIdList1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicIdList1_;
         } else {
           return characteristicIdList1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
        */
-      public Builder setCharacteristicIdList1(io.dstore.Values.stringValue value) {
+      public Builder setCharacteristicIdList1(io.dstore.values.StringValue value) {
         if (characteristicIdList1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1863,10 +1863,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
        */
       public Builder setCharacteristicIdList1(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (characteristicIdList1Builder_ == null) {
           characteristicIdList1_ = builderForValue.build();
           onChanged();
@@ -1877,13 +1877,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
        */
-      public Builder mergeCharacteristicIdList1(io.dstore.Values.stringValue value) {
+      public Builder mergeCharacteristicIdList1(io.dstore.values.StringValue value) {
         if (characteristicIdList1Builder_ == null) {
           if (characteristicIdList1_ != null) {
             characteristicIdList1_ =
-              io.dstore.Values.stringValue.newBuilder(characteristicIdList1_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(characteristicIdList1_).mergeFrom(value).buildPartial();
           } else {
             characteristicIdList1_ = value;
           }
@@ -1895,7 +1895,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
        */
       public Builder clearCharacteristicIdList1() {
         if (characteristicIdList1Builder_ == null) {
@@ -1909,33 +1909,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCharacteristicIdList1Builder() {
+      public io.dstore.values.StringValue.Builder getCharacteristicIdList1Builder() {
         
         onChanged();
         return getCharacteristicIdList1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCharacteristicIdList1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCharacteristicIdList1OrBuilder() {
         if (characteristicIdList1Builder_ != null) {
           return characteristicIdList1Builder_.getMessageOrBuilder();
         } else {
           return characteristicIdList1_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList1_;
+              io.dstore.values.StringValue.getDefaultInstance() : characteristicIdList1_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list1 = 1;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list1 = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCharacteristicIdList1FieldBuilder() {
         if (characteristicIdList1Builder_ == null) {
           characteristicIdList1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCharacteristicIdList1(),
                   getParentForChildren(),
                   isClean());
@@ -1970,29 +1970,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue valueList1_ = null;
+      private io.dstore.values.StringValue valueList1_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueList1Builder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueList1Builder_;
       /**
-       * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+       * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
        */
       public boolean hasValueList1() {
         return valueList1Builder_ != null || valueList1_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+       * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
        */
-      public io.dstore.Values.stringValue getValueList1() {
+      public io.dstore.values.StringValue getValueList1() {
         if (valueList1Builder_ == null) {
-          return valueList1_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueList1_;
+          return valueList1_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueList1_;
         } else {
           return valueList1Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+       * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
        */
-      public Builder setValueList1(io.dstore.Values.stringValue value) {
+      public Builder setValueList1(io.dstore.values.StringValue value) {
         if (valueList1Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2006,10 +2006,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+       * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
        */
       public Builder setValueList1(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueList1Builder_ == null) {
           valueList1_ = builderForValue.build();
           onChanged();
@@ -2020,13 +2020,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+       * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
        */
-      public Builder mergeValueList1(io.dstore.Values.stringValue value) {
+      public Builder mergeValueList1(io.dstore.values.StringValue value) {
         if (valueList1Builder_ == null) {
           if (valueList1_ != null) {
             valueList1_ =
-              io.dstore.Values.stringValue.newBuilder(valueList1_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(valueList1_).mergeFrom(value).buildPartial();
           } else {
             valueList1_ = value;
           }
@@ -2038,7 +2038,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+       * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
        */
       public Builder clearValueList1() {
         if (valueList1Builder_ == null) {
@@ -2052,33 +2052,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+       * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueList1Builder() {
+      public io.dstore.values.StringValue.Builder getValueList1Builder() {
         
         onChanged();
         return getValueList1FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+       * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueList1OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueList1OrBuilder() {
         if (valueList1Builder_ != null) {
           return valueList1Builder_.getMessageOrBuilder();
         } else {
           return valueList1_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : valueList1_;
+              io.dstore.values.StringValue.getDefaultInstance() : valueList1_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list1 = 2;</code>
+       * <code>optional .dstore.values.StringValue value_list1 = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueList1FieldBuilder() {
         if (valueList1Builder_ == null) {
           valueList1Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValueList1(),
                   getParentForChildren(),
                   isClean());
@@ -2113,29 +2113,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue characteristicIdList2_ = null;
+      private io.dstore.values.StringValue characteristicIdList2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> characteristicIdList2Builder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> characteristicIdList2Builder_;
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
        */
       public boolean hasCharacteristicIdList2() {
         return characteristicIdList2Builder_ != null || characteristicIdList2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
        */
-      public io.dstore.Values.stringValue getCharacteristicIdList2() {
+      public io.dstore.values.StringValue getCharacteristicIdList2() {
         if (characteristicIdList2Builder_ == null) {
-          return characteristicIdList2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList2_;
+          return characteristicIdList2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : characteristicIdList2_;
         } else {
           return characteristicIdList2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
        */
-      public Builder setCharacteristicIdList2(io.dstore.Values.stringValue value) {
+      public Builder setCharacteristicIdList2(io.dstore.values.StringValue value) {
         if (characteristicIdList2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2149,10 +2149,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
        */
       public Builder setCharacteristicIdList2(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (characteristicIdList2Builder_ == null) {
           characteristicIdList2_ = builderForValue.build();
           onChanged();
@@ -2163,13 +2163,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
        */
-      public Builder mergeCharacteristicIdList2(io.dstore.Values.stringValue value) {
+      public Builder mergeCharacteristicIdList2(io.dstore.values.StringValue value) {
         if (characteristicIdList2Builder_ == null) {
           if (characteristicIdList2_ != null) {
             characteristicIdList2_ =
-              io.dstore.Values.stringValue.newBuilder(characteristicIdList2_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(characteristicIdList2_).mergeFrom(value).buildPartial();
           } else {
             characteristicIdList2_ = value;
           }
@@ -2181,7 +2181,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
        */
       public Builder clearCharacteristicIdList2() {
         if (characteristicIdList2Builder_ == null) {
@@ -2195,33 +2195,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCharacteristicIdList2Builder() {
+      public io.dstore.values.StringValue.Builder getCharacteristicIdList2Builder() {
         
         onChanged();
         return getCharacteristicIdList2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCharacteristicIdList2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCharacteristicIdList2OrBuilder() {
         if (characteristicIdList2Builder_ != null) {
           return characteristicIdList2Builder_.getMessageOrBuilder();
         } else {
           return characteristicIdList2_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : characteristicIdList2_;
+              io.dstore.values.StringValue.getDefaultInstance() : characteristicIdList2_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue characteristic_id_list2 = 3;</code>
+       * <code>optional .dstore.values.StringValue characteristic_id_list2 = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCharacteristicIdList2FieldBuilder() {
         if (characteristicIdList2Builder_ == null) {
           characteristicIdList2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCharacteristicIdList2(),
                   getParentForChildren(),
                   isClean());
@@ -2256,29 +2256,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue valueList2_ = null;
+      private io.dstore.values.StringValue valueList2_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueList2Builder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueList2Builder_;
       /**
-       * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+       * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
        */
       public boolean hasValueList2() {
         return valueList2Builder_ != null || valueList2_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+       * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
        */
-      public io.dstore.Values.stringValue getValueList2() {
+      public io.dstore.values.StringValue getValueList2() {
         if (valueList2Builder_ == null) {
-          return valueList2_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueList2_;
+          return valueList2_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueList2_;
         } else {
           return valueList2Builder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+       * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
        */
-      public Builder setValueList2(io.dstore.Values.stringValue value) {
+      public Builder setValueList2(io.dstore.values.StringValue value) {
         if (valueList2Builder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2292,10 +2292,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+       * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
        */
       public Builder setValueList2(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueList2Builder_ == null) {
           valueList2_ = builderForValue.build();
           onChanged();
@@ -2306,13 +2306,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+       * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
        */
-      public Builder mergeValueList2(io.dstore.Values.stringValue value) {
+      public Builder mergeValueList2(io.dstore.values.StringValue value) {
         if (valueList2Builder_ == null) {
           if (valueList2_ != null) {
             valueList2_ =
-              io.dstore.Values.stringValue.newBuilder(valueList2_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(valueList2_).mergeFrom(value).buildPartial();
           } else {
             valueList2_ = value;
           }
@@ -2324,7 +2324,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+       * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
        */
       public Builder clearValueList2() {
         if (valueList2Builder_ == null) {
@@ -2338,33 +2338,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+       * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueList2Builder() {
+      public io.dstore.values.StringValue.Builder getValueList2Builder() {
         
         onChanged();
         return getValueList2FieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+       * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueList2OrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueList2OrBuilder() {
         if (valueList2Builder_ != null) {
           return valueList2Builder_.getMessageOrBuilder();
         } else {
           return valueList2_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : valueList2_;
+              io.dstore.values.StringValue.getDefaultInstance() : valueList2_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value_list2 = 4;</code>
+       * <code>optional .dstore.values.StringValue value_list2 = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueList2FieldBuilder() {
         if (valueList2Builder_ == null) {
           valueList2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValueList2(),
                   getParentForChildren(),
                   isClean());
@@ -2399,29 +2399,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personCharacCategoryId_ = null;
+      private io.dstore.values.IntegerValue personCharacCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
        */
       public boolean hasPersonCharacCategoryId() {
         return personCharacCategoryIdBuilder_ != null || personCharacCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getPersonCharacCategoryId() {
+      public io.dstore.values.IntegerValue getPersonCharacCategoryId() {
         if (personCharacCategoryIdBuilder_ == null) {
-          return personCharacCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacCategoryId_;
+          return personCharacCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
         } else {
           return personCharacCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
        */
-      public Builder setPersonCharacCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setPersonCharacCategoryId(io.dstore.values.IntegerValue value) {
         if (personCharacCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2435,10 +2435,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
        */
       public Builder setPersonCharacCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personCharacCategoryIdBuilder_ == null) {
           personCharacCategoryId_ = builderForValue.build();
           onChanged();
@@ -2449,13 +2449,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
        */
-      public Builder mergePersonCharacCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonCharacCategoryId(io.dstore.values.IntegerValue value) {
         if (personCharacCategoryIdBuilder_ == null) {
           if (personCharacCategoryId_ != null) {
             personCharacCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(personCharacCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personCharacCategoryId_).mergeFrom(value).buildPartial();
           } else {
             personCharacCategoryId_ = value;
           }
@@ -2467,7 +2467,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
        */
       public Builder clearPersonCharacCategoryId() {
         if (personCharacCategoryIdBuilder_ == null) {
@@ -2481,33 +2481,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonCharacCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonCharacCategoryIdBuilder() {
         
         onChanged();
         return getPersonCharacCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonCharacCategoryIdOrBuilder() {
         if (personCharacCategoryIdBuilder_ != null) {
           return personCharacCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return personCharacCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personCharacCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personCharacCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_charac_category_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue person_charac_category_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonCharacCategoryIdFieldBuilder() {
         if (personCharacCategoryIdBuilder_ == null) {
           personCharacCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonCharacCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -2542,29 +2542,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2578,10 +2578,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -2592,13 +2592,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -2610,7 +2610,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -2624,33 +2624,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -2685,29 +2685,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue errorIdList_ = null;
+      private io.dstore.values.StringValue errorIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> errorIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> errorIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
        */
       public boolean hasErrorIdList() {
         return errorIdListBuilder_ != null || errorIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
        */
-      public io.dstore.Values.stringValue getErrorIdList() {
+      public io.dstore.values.StringValue getErrorIdList() {
         if (errorIdListBuilder_ == null) {
-          return errorIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : errorIdList_;
+          return errorIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : errorIdList_;
         } else {
           return errorIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
        */
-      public Builder setErrorIdList(io.dstore.Values.stringValue value) {
+      public Builder setErrorIdList(io.dstore.values.StringValue value) {
         if (errorIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2721,10 +2721,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
        */
       public Builder setErrorIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (errorIdListBuilder_ == null) {
           errorIdList_ = builderForValue.build();
           onChanged();
@@ -2735,13 +2735,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
        */
-      public Builder mergeErrorIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeErrorIdList(io.dstore.values.StringValue value) {
         if (errorIdListBuilder_ == null) {
           if (errorIdList_ != null) {
             errorIdList_ =
-              io.dstore.Values.stringValue.newBuilder(errorIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(errorIdList_).mergeFrom(value).buildPartial();
           } else {
             errorIdList_ = value;
           }
@@ -2753,7 +2753,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
        */
       public Builder clearErrorIdList() {
         if (errorIdListBuilder_ == null) {
@@ -2767,33 +2767,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getErrorIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getErrorIdListBuilder() {
         
         onChanged();
         return getErrorIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getErrorIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getErrorIdListOrBuilder() {
         if (errorIdListBuilder_ != null) {
           return errorIdListBuilder_.getMessageOrBuilder();
         } else {
           return errorIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : errorIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : errorIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 7;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getErrorIdListFieldBuilder() {
         if (errorIdListBuilder_ == null) {
           errorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getErrorIdList(),
                   getParentForChildren(),
                   isClean());
@@ -2828,29 +2828,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue resultInErrorIdList_ = null;
+      private io.dstore.values.BooleanValue resultInErrorIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> resultInErrorIdListBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> resultInErrorIdListBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+       * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
        */
       public boolean hasResultInErrorIdList() {
         return resultInErrorIdListBuilder_ != null || resultInErrorIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+       * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
        */
-      public io.dstore.Values.booleanValue getResultInErrorIdList() {
+      public io.dstore.values.BooleanValue getResultInErrorIdList() {
         if (resultInErrorIdListBuilder_ == null) {
-          return resultInErrorIdList_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : resultInErrorIdList_;
+          return resultInErrorIdList_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : resultInErrorIdList_;
         } else {
           return resultInErrorIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+       * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
        */
-      public Builder setResultInErrorIdList(io.dstore.Values.booleanValue value) {
+      public Builder setResultInErrorIdList(io.dstore.values.BooleanValue value) {
         if (resultInErrorIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2864,10 +2864,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+       * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
        */
       public Builder setResultInErrorIdList(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (resultInErrorIdListBuilder_ == null) {
           resultInErrorIdList_ = builderForValue.build();
           onChanged();
@@ -2878,13 +2878,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+       * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
        */
-      public Builder mergeResultInErrorIdList(io.dstore.Values.booleanValue value) {
+      public Builder mergeResultInErrorIdList(io.dstore.values.BooleanValue value) {
         if (resultInErrorIdListBuilder_ == null) {
           if (resultInErrorIdList_ != null) {
             resultInErrorIdList_ =
-              io.dstore.Values.booleanValue.newBuilder(resultInErrorIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(resultInErrorIdList_).mergeFrom(value).buildPartial();
           } else {
             resultInErrorIdList_ = value;
           }
@@ -2896,7 +2896,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+       * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
        */
       public Builder clearResultInErrorIdList() {
         if (resultInErrorIdListBuilder_ == null) {
@@ -2910,33 +2910,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+       * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getResultInErrorIdListBuilder() {
+      public io.dstore.values.BooleanValue.Builder getResultInErrorIdListBuilder() {
         
         onChanged();
         return getResultInErrorIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+       * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getResultInErrorIdListOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getResultInErrorIdListOrBuilder() {
         if (resultInErrorIdListBuilder_ != null) {
           return resultInErrorIdListBuilder_.getMessageOrBuilder();
         } else {
           return resultInErrorIdList_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : resultInErrorIdList_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : resultInErrorIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue result_in_error_id_list = 8;</code>
+       * <code>optional .dstore.values.BooleanValue result_in_error_id_list = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getResultInErrorIdListFieldBuilder() {
         if (resultInErrorIdListBuilder_ == null) {
           resultInErrorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getResultInErrorIdList(),
                   getParentForChildren(),
                   isClean());
@@ -2971,29 +2971,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue valueIdsForPredefinedCharacs_ = null;
+      private io.dstore.values.BooleanValue valueIdsForPredefinedCharacs_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> valueIdsForPredefinedCharacsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> valueIdsForPredefinedCharacsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+       * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
        */
       public boolean hasValueIdsForPredefinedCharacs() {
         return valueIdsForPredefinedCharacsBuilder_ != null || valueIdsForPredefinedCharacs_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+       * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
        */
-      public io.dstore.Values.booleanValue getValueIdsForPredefinedCharacs() {
+      public io.dstore.values.BooleanValue getValueIdsForPredefinedCharacs() {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
-          return valueIdsForPredefinedCharacs_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : valueIdsForPredefinedCharacs_;
+          return valueIdsForPredefinedCharacs_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : valueIdsForPredefinedCharacs_;
         } else {
           return valueIdsForPredefinedCharacsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+       * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
        */
-      public Builder setValueIdsForPredefinedCharacs(io.dstore.Values.booleanValue value) {
+      public Builder setValueIdsForPredefinedCharacs(io.dstore.values.BooleanValue value) {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3007,10 +3007,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+       * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
        */
       public Builder setValueIdsForPredefinedCharacs(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
           valueIdsForPredefinedCharacs_ = builderForValue.build();
           onChanged();
@@ -3021,13 +3021,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+       * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
        */
-      public Builder mergeValueIdsForPredefinedCharacs(io.dstore.Values.booleanValue value) {
+      public Builder mergeValueIdsForPredefinedCharacs(io.dstore.values.BooleanValue value) {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
           if (valueIdsForPredefinedCharacs_ != null) {
             valueIdsForPredefinedCharacs_ =
-              io.dstore.Values.booleanValue.newBuilder(valueIdsForPredefinedCharacs_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(valueIdsForPredefinedCharacs_).mergeFrom(value).buildPartial();
           } else {
             valueIdsForPredefinedCharacs_ = value;
           }
@@ -3039,7 +3039,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+       * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
        */
       public Builder clearValueIdsForPredefinedCharacs() {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
@@ -3053,33 +3053,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+       * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getValueIdsForPredefinedCharacsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getValueIdsForPredefinedCharacsBuilder() {
         
         onChanged();
         return getValueIdsForPredefinedCharacsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+       * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getValueIdsForPredefinedCharacsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getValueIdsForPredefinedCharacsOrBuilder() {
         if (valueIdsForPredefinedCharacsBuilder_ != null) {
           return valueIdsForPredefinedCharacsBuilder_.getMessageOrBuilder();
         } else {
           return valueIdsForPredefinedCharacs_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : valueIdsForPredefinedCharacs_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : valueIdsForPredefinedCharacs_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue value_ids_for_predefined_characs = 9;</code>
+       * <code>optional .dstore.values.BooleanValue value_ids_for_predefined_characs = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getValueIdsForPredefinedCharacsFieldBuilder() {
         if (valueIdsForPredefinedCharacsBuilder_ == null) {
           valueIdsForPredefinedCharacsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getValueIdsForPredefinedCharacs(),
                   getParentForChildren(),
                   isClean());
@@ -3114,29 +3114,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue cancelOnError_ = null;
+      private io.dstore.values.BooleanValue cancelOnError_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> cancelOnErrorBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> cancelOnErrorBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+       * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
        */
       public boolean hasCancelOnError() {
         return cancelOnErrorBuilder_ != null || cancelOnError_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+       * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
        */
-      public io.dstore.Values.booleanValue getCancelOnError() {
+      public io.dstore.values.BooleanValue getCancelOnError() {
         if (cancelOnErrorBuilder_ == null) {
-          return cancelOnError_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : cancelOnError_;
+          return cancelOnError_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : cancelOnError_;
         } else {
           return cancelOnErrorBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+       * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
        */
-      public Builder setCancelOnError(io.dstore.Values.booleanValue value) {
+      public Builder setCancelOnError(io.dstore.values.BooleanValue value) {
         if (cancelOnErrorBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3150,10 +3150,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+       * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
        */
       public Builder setCancelOnError(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (cancelOnErrorBuilder_ == null) {
           cancelOnError_ = builderForValue.build();
           onChanged();
@@ -3164,13 +3164,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+       * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
        */
-      public Builder mergeCancelOnError(io.dstore.Values.booleanValue value) {
+      public Builder mergeCancelOnError(io.dstore.values.BooleanValue value) {
         if (cancelOnErrorBuilder_ == null) {
           if (cancelOnError_ != null) {
             cancelOnError_ =
-              io.dstore.Values.booleanValue.newBuilder(cancelOnError_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(cancelOnError_).mergeFrom(value).buildPartial();
           } else {
             cancelOnError_ = value;
           }
@@ -3182,7 +3182,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+       * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
        */
       public Builder clearCancelOnError() {
         if (cancelOnErrorBuilder_ == null) {
@@ -3196,33 +3196,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+       * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCancelOnErrorBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCancelOnErrorBuilder() {
         
         onChanged();
         return getCancelOnErrorFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+       * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCancelOnErrorOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCancelOnErrorOrBuilder() {
         if (cancelOnErrorBuilder_ != null) {
           return cancelOnErrorBuilder_.getMessageOrBuilder();
         } else {
           return cancelOnError_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : cancelOnError_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : cancelOnError_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue cancel_on_error = 10;</code>
+       * <code>optional .dstore.values.BooleanValue cancel_on_error = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCancelOnErrorFieldBuilder() {
         if (cancelOnErrorBuilder_ == null) {
           cancelOnErrorBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCancelOnError(),
                   getParentForChildren(),
                   isClean());
@@ -3257,29 +3257,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInLists_ = null;
+      private io.dstore.values.StringValue separatorInLists_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInListsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInListsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+       * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
        */
       public boolean hasSeparatorInLists() {
         return separatorInListsBuilder_ != null || separatorInLists_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+       * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInLists() {
+      public io.dstore.values.StringValue getSeparatorInLists() {
         if (separatorInListsBuilder_ == null) {
-          return separatorInLists_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInLists_;
+          return separatorInLists_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInLists_;
         } else {
           return separatorInListsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+       * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
        */
-      public Builder setSeparatorInLists(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInLists(io.dstore.values.StringValue value) {
         if (separatorInListsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3293,10 +3293,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+       * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
        */
       public Builder setSeparatorInLists(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInListsBuilder_ == null) {
           separatorInLists_ = builderForValue.build();
           onChanged();
@@ -3307,13 +3307,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+       * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
        */
-      public Builder mergeSeparatorInLists(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInLists(io.dstore.values.StringValue value) {
         if (separatorInListsBuilder_ == null) {
           if (separatorInLists_ != null) {
             separatorInLists_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInLists_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInLists_).mergeFrom(value).buildPartial();
           } else {
             separatorInLists_ = value;
           }
@@ -3325,7 +3325,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+       * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
        */
       public Builder clearSeparatorInLists() {
         if (separatorInListsBuilder_ == null) {
@@ -3339,33 +3339,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+       * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInListsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInListsBuilder() {
         
         onChanged();
         return getSeparatorInListsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+       * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInListsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInListsOrBuilder() {
         if (separatorInListsBuilder_ != null) {
           return separatorInListsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInLists_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInLists_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInLists_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_lists = 11;</code>
+       * <code>optional .dstore.values.StringValue separator_in_lists = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInListsFieldBuilder() {
         if (separatorInListsBuilder_ == null) {
           separatorInListsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInLists(),
                   getParentForChildren(),
                   isClean());
@@ -3400,29 +3400,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3436,10 +3436,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -3450,13 +3450,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -3468,7 +3468,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -3482,33 +3482,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 12;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -3543,29 +3543,29 @@ public final class PmInsertNewPersonAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue country_ = null;
+      private io.dstore.values.StringValue country_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public io.dstore.Values.stringValue getCountry() {
+      public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
-          return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+          return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
         } else {
           return countryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public Builder setCountry(io.dstore.Values.stringValue value) {
+      public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3579,10 +3579,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
       public Builder setCountry(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (countryBuilder_ == null) {
           country_ = builderForValue.build();
           onChanged();
@@ -3593,13 +3593,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public Builder mergeCountry(io.dstore.Values.stringValue value) {
+      public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (country_ != null) {
             country_ =
-              io.dstore.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(country_).mergeFrom(value).buildPartial();
           } else {
             country_ = value;
           }
@@ -3611,7 +3611,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -3625,33 +3625,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCountryBuilder() {
+      public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
         onChanged();
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
           return countryBuilder_.getMessageOrBuilder();
         } else {
           return country_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : country_;
+              io.dstore.values.StringValue.getDefaultInstance() : country_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 13;</code>
+       * <code>optional .dstore.values.StringValue country = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
           countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
                   isClean());
@@ -3811,30 +3811,30 @@ public final class PmInsertNewPersonAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
      */
     boolean hasErrorIdList();
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
      */
-    io.dstore.Values.stringValue getErrorIdList();
+    io.dstore.values.StringValue getErrorIdList();
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getErrorIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getErrorIdListOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.pm_InsertNewPerson_Ad.Response}
@@ -3906,11 +3906,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 810: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -3919,11 +3919,11 @@ public final class PmInsertNewPersonAd {
               break;
             }
             case 818: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (errorIdList_ != null) {
                 subBuilder = errorIdList_.toBuilder();
               }
-              errorIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              errorIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(errorIdList_);
                 errorIdList_ = subBuilder.buildPartial();
@@ -3977,7 +3977,7 @@ public final class PmInsertNewPersonAd {
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       boolean hasPersonCharacteristicId();
       /**
@@ -3985,24 +3985,24 @@ public final class PmInsertNewPersonAd {
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getPersonCharacteristicId();
+      io.dstore.values.IntegerValue getPersonCharacteristicId();
       /**
        * <pre>
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder();
 
       /**
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
        */
       boolean hasResultCode();
       /**
@@ -4010,17 +4010,17 @@ public final class PmInsertNewPersonAd {
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
        */
-      io.dstore.Values.integerValue getResultCode();
+      io.dstore.values.IntegerValue getResultCode();
       /**
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getResultCodeOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getResultCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_InsertNewPerson_Ad.Response.Row}
@@ -4068,11 +4068,11 @@ public final class PmInsertNewPersonAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personCharacteristicId_ != null) {
                   subBuilder = personCharacteristicId_.toBuilder();
                 }
-                personCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personCharacteristicId_);
                   personCharacteristicId_ = subBuilder.buildPartial();
@@ -4081,11 +4081,11 @@ public final class PmInsertNewPersonAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (resultCode_ != null) {
                   subBuilder = resultCode_.toBuilder();
                 }
-                resultCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                resultCode_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(resultCode_);
                   resultCode_ = subBuilder.buildPartial();
@@ -4126,13 +4126,13 @@ public final class PmInsertNewPersonAd {
       }
 
       public static final int PERSON_CHARACTERISTIC_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue personCharacteristicId_;
+      private io.dstore.values.IntegerValue personCharacteristicId_;
       /**
        * <pre>
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
       public boolean hasPersonCharacteristicId() {
         return personCharacteristicId_ != null;
@@ -4142,30 +4142,30 @@ public final class PmInsertNewPersonAd {
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getPersonCharacteristicId() {
-        return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+      public io.dstore.values.IntegerValue getPersonCharacteristicId() {
+        return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
       }
       /**
        * <pre>
        * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
         return getPersonCharacteristicId();
       }
 
       public static final int RESULT_CODE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue resultCode_;
+      private io.dstore.values.IntegerValue resultCode_;
       /**
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
        */
       public boolean hasResultCode() {
         return resultCode_ != null;
@@ -4175,19 +4175,19 @@ public final class PmInsertNewPersonAd {
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
        */
-      public io.dstore.Values.integerValue getResultCode() {
-        return resultCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : resultCode_;
+      public io.dstore.values.IntegerValue getResultCode() {
+        return resultCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : resultCode_;
       }
       /**
        * <pre>
        * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getResultCodeOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getResultCodeOrBuilder() {
         return getResultCode();
       }
 
@@ -4546,15 +4546,15 @@ public final class PmInsertNewPersonAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue personCharacteristicId_ = null;
+        private io.dstore.values.IntegerValue personCharacteristicId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personCharacteristicIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personCharacteristicIdBuilder_;
         /**
          * <pre>
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public boolean hasPersonCharacteristicId() {
           return personCharacteristicIdBuilder_ != null || personCharacteristicId_ != null;
@@ -4564,11 +4564,11 @@ public final class PmInsertNewPersonAd {
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getPersonCharacteristicId() {
+        public io.dstore.values.IntegerValue getPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
-            return personCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+            return personCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           } else {
             return personCharacteristicIdBuilder_.getMessage();
           }
@@ -4578,9 +4578,9 @@ public final class PmInsertNewPersonAd {
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public Builder setPersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder setPersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4598,10 +4598,10 @@ public final class PmInsertNewPersonAd {
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder setPersonCharacteristicId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicId_ = builderForValue.build();
             onChanged();
@@ -4616,13 +4616,13 @@ public final class PmInsertNewPersonAd {
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public Builder mergePersonCharacteristicId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonCharacteristicId(io.dstore.values.IntegerValue value) {
           if (personCharacteristicIdBuilder_ == null) {
             if (personCharacteristicId_ != null) {
               personCharacteristicId_ =
-                io.dstore.Values.integerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personCharacteristicId_).mergeFrom(value).buildPartial();
             } else {
               personCharacteristicId_ = value;
             }
@@ -4638,7 +4638,7 @@ public final class PmInsertNewPersonAd {
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         public Builder clearPersonCharacteristicId() {
           if (personCharacteristicIdBuilder_ == null) {
@@ -4656,9 +4656,9 @@ public final class PmInsertNewPersonAd {
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonCharacteristicIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonCharacteristicIdBuilder() {
           
           onChanged();
           return getPersonCharacteristicIdFieldBuilder().getBuilder();
@@ -4668,14 +4668,14 @@ public final class PmInsertNewPersonAd {
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonCharacteristicIdOrBuilder() {
           if (personCharacteristicIdBuilder_ != null) {
             return personCharacteristicIdBuilder_.getMessageOrBuilder();
           } else {
             return personCharacteristicId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personCharacteristicId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personCharacteristicId_;
           }
         }
         /**
@@ -4683,14 +4683,14 @@ public final class PmInsertNewPersonAd {
          * ID eines Merkmals zu dem ein Fehler bzgl. der anzulegenden Eigenschaft auftrat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_characteristic_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_characteristic_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonCharacteristicIdFieldBuilder() {
           if (personCharacteristicIdBuilder_ == null) {
             personCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonCharacteristicId(),
                     getParentForChildren(),
                     isClean());
@@ -4699,15 +4699,15 @@ public final class PmInsertNewPersonAd {
           return personCharacteristicIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue resultCode_ = null;
+        private io.dstore.values.IntegerValue resultCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> resultCodeBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> resultCodeBuilder_;
         /**
          * <pre>
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
          */
         public boolean hasResultCode() {
           return resultCodeBuilder_ != null || resultCode_ != null;
@@ -4717,11 +4717,11 @@ public final class PmInsertNewPersonAd {
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
          */
-        public io.dstore.Values.integerValue getResultCode() {
+        public io.dstore.values.IntegerValue getResultCode() {
           if (resultCodeBuilder_ == null) {
-            return resultCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : resultCode_;
+            return resultCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : resultCode_;
           } else {
             return resultCodeBuilder_.getMessage();
           }
@@ -4731,9 +4731,9 @@ public final class PmInsertNewPersonAd {
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
          */
-        public Builder setResultCode(io.dstore.Values.integerValue value) {
+        public Builder setResultCode(io.dstore.values.IntegerValue value) {
           if (resultCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4751,10 +4751,10 @@ public final class PmInsertNewPersonAd {
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
          */
         public Builder setResultCode(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (resultCodeBuilder_ == null) {
             resultCode_ = builderForValue.build();
             onChanged();
@@ -4769,13 +4769,13 @@ public final class PmInsertNewPersonAd {
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
          */
-        public Builder mergeResultCode(io.dstore.Values.integerValue value) {
+        public Builder mergeResultCode(io.dstore.values.IntegerValue value) {
           if (resultCodeBuilder_ == null) {
             if (resultCode_ != null) {
               resultCode_ =
-                io.dstore.Values.integerValue.newBuilder(resultCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(resultCode_).mergeFrom(value).buildPartial();
             } else {
               resultCode_ = value;
             }
@@ -4791,7 +4791,7 @@ public final class PmInsertNewPersonAd {
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
          */
         public Builder clearResultCode() {
           if (resultCodeBuilder_ == null) {
@@ -4809,9 +4809,9 @@ public final class PmInsertNewPersonAd {
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getResultCodeBuilder() {
+        public io.dstore.values.IntegerValue.Builder getResultCodeBuilder() {
           
           onChanged();
           return getResultCodeFieldBuilder().getBuilder();
@@ -4821,14 +4821,14 @@ public final class PmInsertNewPersonAd {
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getResultCodeOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getResultCodeOrBuilder() {
           if (resultCodeBuilder_ != null) {
             return resultCodeBuilder_.getMessageOrBuilder();
           } else {
             return resultCode_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : resultCode_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : resultCode_;
           }
         }
         /**
@@ -4836,14 +4836,14 @@ public final class PmInsertNewPersonAd {
          * Ein Code, der die Art bzw. Ursache des aufgetrenen Fehlers angibt (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue result_code = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue result_code = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getResultCodeFieldBuilder() {
           if (resultCodeBuilder_ == null) {
             resultCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getResultCode(),
                     getParentForChildren(),
                     isClean());
@@ -5007,44 +5007,44 @@ public final class PmInsertNewPersonAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 101;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
     public static final int ERROR_ID_LIST_FIELD_NUMBER = 102;
-    private io.dstore.Values.stringValue errorIdList_;
+    private io.dstore.values.StringValue errorIdList_;
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
      */
     public boolean hasErrorIdList() {
       return errorIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
      */
-    public io.dstore.Values.stringValue getErrorIdList() {
-      return errorIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : errorIdList_;
+    public io.dstore.values.StringValue getErrorIdList() {
+      return errorIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : errorIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+     * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getErrorIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getErrorIdListOrBuilder() {
       return getErrorIdList();
     }
 
@@ -6249,29 +6249,29 @@ public final class PmInsertNewPersonAd {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6285,10 +6285,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -6299,13 +6299,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -6317,7 +6317,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -6331,33 +6331,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -6366,29 +6366,29 @@ public final class PmInsertNewPersonAd {
         return personIdBuilder_;
       }
 
-      private io.dstore.Values.stringValue errorIdList_ = null;
+      private io.dstore.values.StringValue errorIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> errorIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> errorIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
        */
       public boolean hasErrorIdList() {
         return errorIdListBuilder_ != null || errorIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
        */
-      public io.dstore.Values.stringValue getErrorIdList() {
+      public io.dstore.values.StringValue getErrorIdList() {
         if (errorIdListBuilder_ == null) {
-          return errorIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : errorIdList_;
+          return errorIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : errorIdList_;
         } else {
           return errorIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
        */
-      public Builder setErrorIdList(io.dstore.Values.stringValue value) {
+      public Builder setErrorIdList(io.dstore.values.StringValue value) {
         if (errorIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6402,10 +6402,10 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
        */
       public Builder setErrorIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (errorIdListBuilder_ == null) {
           errorIdList_ = builderForValue.build();
           onChanged();
@@ -6416,13 +6416,13 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
        */
-      public Builder mergeErrorIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeErrorIdList(io.dstore.values.StringValue value) {
         if (errorIdListBuilder_ == null) {
           if (errorIdList_ != null) {
             errorIdList_ =
-              io.dstore.Values.stringValue.newBuilder(errorIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(errorIdList_).mergeFrom(value).buildPartial();
           } else {
             errorIdList_ = value;
           }
@@ -6434,7 +6434,7 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
        */
       public Builder clearErrorIdList() {
         if (errorIdListBuilder_ == null) {
@@ -6448,33 +6448,33 @@ public final class PmInsertNewPersonAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
        */
-      public io.dstore.Values.stringValue.Builder getErrorIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getErrorIdListBuilder() {
         
         onChanged();
         return getErrorIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getErrorIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getErrorIdListOrBuilder() {
         if (errorIdListBuilder_ != null) {
           return errorIdListBuilder_.getMessageOrBuilder();
         } else {
           return errorIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : errorIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : errorIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue error_id_list = 102;</code>
+       * <code>optional .dstore.values.StringValue error_id_list = 102;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getErrorIdListFieldBuilder() {
         if (errorIdListBuilder_ == null) {
           errorIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getErrorIdList(),
                   getParentForChildren(),
                   isClean());
@@ -6560,44 +6560,44 @@ public final class PmInsertNewPersonAd {
       "ewPerson_Ad\032\023dstore/values.proto\032\032dstore" +
       "/engine/engine.proto\"\220\t\n\nParameters\022;\n\027c" +
       "haracteristic_id_list1\030\001 \001(\0132\032.dstore.va" +
-      "lues.stringValue\022%\n\034characteristic_id_li" +
+      "lues.StringValue\022%\n\034characteristic_id_li" +
       "st1_null\030\351\007 \001(\010\022/\n\013value_list1\030\002 \001(\0132\032.d" +
-      "store.values.stringValue\022\031\n\020value_list1_" +
+      "store.values.StringValue\022\031\n\020value_list1_" +
       "null\030\352\007 \001(\010\022;\n\027characteristic_id_list2\030\003" +
-      " \001(\0132\032.dstore.values.stringValue\022%\n\034char",
+      " \001(\0132\032.dstore.values.StringValue\022%\n\034char",
       "acteristic_id_list2_null\030\353\007 \001(\010\022/\n\013value" +
-      "_list2\030\004 \001(\0132\032.dstore.values.stringValue" +
+      "_list2\030\004 \001(\0132\032.dstore.values.StringValue" +
       "\022\031\n\020value_list2_null\030\354\007 \001(\010\022>\n\031person_ch" +
-      "arac_category_id\030\005 \001(\0132\033.dstore.values.i" +
+      "arac_category_id\030\005 \001(\0132\033.dstore.values.I" +
       "ntegerValue\022\'\n\036person_charac_category_id" +
       "_null\030\355\007 \001(\010\022.\n\tperson_id\030\006 \001(\0132\033.dstore" +
-      ".values.integerValue\022\027\n\016person_id_null\030\356" +
+      ".values.IntegerValue\022\027\n\016person_id_null\030\356" +
       "\007 \001(\010\0221\n\rerror_id_list\030\007 \001(\0132\032.dstore.va" +
-      "lues.stringValue\022\033\n\022error_id_list_null\030\357" +
+      "lues.StringValue\022\033\n\022error_id_list_null\030\357" +
       "\007 \001(\010\022<\n\027result_in_error_id_list\030\010 \001(\0132\033",
-      ".dstore.values.booleanValue\022%\n\034result_in" +
+      ".dstore.values.BooleanValue\022%\n\034result_in" +
       "_error_id_list_null\030\360\007 \001(\010\022E\n value_ids_" +
       "for_predefined_characs\030\t \001(\0132\033.dstore.va" +
-      "lues.booleanValue\022.\n%value_ids_for_prede" +
+      "lues.BooleanValue\022.\n%value_ids_for_prede" +
       "fined_characs_null\030\361\007 \001(\010\0224\n\017cancel_on_e" +
-      "rror\030\n \001(\0132\033.dstore.values.booleanValue\022" +
+      "rror\030\n \001(\0132\033.dstore.values.BooleanValue\022" +
       "\035\n\024cancel_on_error_null\030\362\007 \001(\010\0226\n\022separa" +
-      "tor_in_lists\030\013 \001(\0132\032.dstore.values.strin" +
+      "tor_in_lists\030\013 \001(\0132\032.dstore.values.Strin" +
       "gValue\022 \n\027separator_in_lists_null\030\363\007 \001(\010" +
       "\0223\n\016person_type_id\030\014 \001(\0132\033.dstore.values",
-      ".integerValue\022\034\n\023person_type_id_null\030\364\007 " +
-      "\001(\010\022+\n\007country\030\r \001(\0132\032.dstore.values.str" +
+      ".IntegerValue\022\034\n\023person_type_id_null\030\364\007 " +
+      "\001(\010\022+\n\007country\030\r \001(\0132\032.dstore.values.Str" +
       "ingValue\022\025\n\014country_null\030\365\007 \001(\010\"\234\003\n\010Resp" +
       "onse\0228\n\020meta_information\030\002 \003(\0132\036.dstore." +
       "engine.MetaInformation\022\'\n\007message\030\003 \003(\0132" +
       "\026.dstore.engine.Message\022>\n\003row\030\004 \003(\01321.d" +
       "store.engine.pm_InsertNewPerson_Ad.Respo" +
       "nse.Row\022.\n\tperson_id\030e \001(\0132\033.dstore.valu" +
-      "es.integerValue\0221\n\rerror_id_list\030f \001(\0132\032" +
-      ".dstore.values.stringValue\032\211\001\n\003Row\022\017\n\006ro",
+      "es.IntegerValue\0221\n\rerror_id_list\030f \001(\0132\032" +
+      ".dstore.values.StringValue\032\211\001\n\003Row\022\017\n\006ro",
       "w_id\030\220N \001(\005\022>\n\030person_characteristic_id\030" +
-      "\221N \001(\0132\033.dstore.values.integerValue\0221\n\013r" +
-      "esult_code\030\222N \001(\0132\033.dstore.values.intege" +
+      "\221N \001(\0132\033.dstore.values.IntegerValue\0221\n\013r" +
+      "esult_code\030\222N \001(\0132\033.dstore.values.Intege" +
       "rValueBV\n\033io.dstore.engine.proceduresZ7g" +
       "osdk.dstore.de/engine/procedures/pm_Inse" +
       "rtNewPerson_Adb\006proto3"
@@ -6613,7 +6613,7 @@ public final class PmInsertNewPersonAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_InsertNewPerson_Ad_Parameters_descriptor =
@@ -6634,7 +6634,7 @@ public final class PmInsertNewPersonAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_InsertNewPerson_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PersonCharacteristicId", "ResultCode", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

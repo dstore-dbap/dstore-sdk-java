@@ -19,17 +19,17 @@ public final class ImGetNumberOfNodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
      */
     boolean hasIncludeDeleted();
     /**
-     * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
      */
-    io.dstore.Values.booleanValue getIncludeDeleted();
+    io.dstore.values.BooleanValue getIncludeDeleted();
     /**
-     * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIncludeDeletedOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIncludeDeletedOrBuilder();
 
     /**
      * <code>optional bool include_deleted_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImGetNumberOfNodesAd {
     boolean getIncludeDeletedNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
      */
     boolean hasIncludeDeActivated();
     /**
-     * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
      */
-    io.dstore.Values.booleanValue getIncludeDeActivated();
+    io.dstore.values.BooleanValue getIncludeDeActivated();
     /**
-     * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIncludeDeActivatedOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIncludeDeActivatedOrBuilder();
 
     /**
      * <code>optional bool include_de_activated_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImGetNumberOfNodesAd {
     boolean getIncludeDeActivatedNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
      */
     boolean hasOnlyItemNodes();
     /**
-     * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
      */
-    io.dstore.Values.booleanValue getOnlyItemNodes();
+    io.dstore.values.BooleanValue getOnlyItemNodes();
     /**
-     * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOnlyItemNodesOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOnlyItemNodesOrBuilder();
 
     /**
      * <code>optional bool only_item_nodes_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class ImGetNumberOfNodesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (includeDeleted_ != null) {
                 subBuilder = includeDeleted_.toBuilder();
               }
-              includeDeleted_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              includeDeleted_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeDeleted_);
                 includeDeleted_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class ImGetNumberOfNodesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (includeDeActivated_ != null) {
                 subBuilder = includeDeActivated_.toBuilder();
               }
-              includeDeActivated_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              includeDeActivated_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeDeActivated_);
                 includeDeActivated_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class ImGetNumberOfNodesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (onlyItemNodes_ != null) {
                 subBuilder = onlyItemNodes_.toBuilder();
               }
-              onlyItemNodes_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              onlyItemNodes_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyItemNodes_);
                 onlyItemNodes_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class ImGetNumberOfNodesAd {
     }
 
     public static final int INCLUDE_DELETED_FIELD_NUMBER = 1;
-    private io.dstore.Values.booleanValue includeDeleted_;
+    private io.dstore.values.BooleanValue includeDeleted_;
     /**
-     * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
      */
     public boolean hasIncludeDeleted() {
       return includeDeleted_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
      */
-    public io.dstore.Values.booleanValue getIncludeDeleted() {
-      return includeDeleted_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeDeleted_;
+    public io.dstore.values.BooleanValue getIncludeDeleted() {
+      return includeDeleted_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeDeleted_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIncludeDeletedOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIncludeDeletedOrBuilder() {
       return getIncludeDeleted();
     }
 
@@ -222,23 +222,23 @@ public final class ImGetNumberOfNodesAd {
     }
 
     public static final int INCLUDE_DE_ACTIVATED_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue includeDeActivated_;
+    private io.dstore.values.BooleanValue includeDeActivated_;
     /**
-     * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
      */
     public boolean hasIncludeDeActivated() {
       return includeDeActivated_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
      */
-    public io.dstore.Values.booleanValue getIncludeDeActivated() {
-      return includeDeActivated_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeDeActivated_;
+    public io.dstore.values.BooleanValue getIncludeDeActivated() {
+      return includeDeActivated_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeDeActivated_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+     * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIncludeDeActivatedOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIncludeDeActivatedOrBuilder() {
       return getIncludeDeActivated();
     }
 
@@ -252,23 +252,23 @@ public final class ImGetNumberOfNodesAd {
     }
 
     public static final int ONLY_ITEM_NODES_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue onlyItemNodes_;
+    private io.dstore.values.BooleanValue onlyItemNodes_;
     /**
-     * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
      */
     public boolean hasOnlyItemNodes() {
       return onlyItemNodes_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
      */
-    public io.dstore.Values.booleanValue getOnlyItemNodes() {
-      return onlyItemNodes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyItemNodes_;
+    public io.dstore.values.BooleanValue getOnlyItemNodes() {
+      return onlyItemNodes_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyItemNodes_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+     * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOnlyItemNodesOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOnlyItemNodesOrBuilder() {
       return getOnlyItemNodes();
     }
 
@@ -677,29 +677,29 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue includeDeleted_ = null;
+      private io.dstore.values.BooleanValue includeDeleted_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeDeletedBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeDeletedBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
        */
       public boolean hasIncludeDeleted() {
         return includeDeletedBuilder_ != null || includeDeleted_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
        */
-      public io.dstore.Values.booleanValue getIncludeDeleted() {
+      public io.dstore.values.BooleanValue getIncludeDeleted() {
         if (includeDeletedBuilder_ == null) {
-          return includeDeleted_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeDeleted_;
+          return includeDeleted_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeDeleted_;
         } else {
           return includeDeletedBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
        */
-      public Builder setIncludeDeleted(io.dstore.Values.booleanValue value) {
+      public Builder setIncludeDeleted(io.dstore.values.BooleanValue value) {
         if (includeDeletedBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
        */
       public Builder setIncludeDeleted(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (includeDeletedBuilder_ == null) {
           includeDeleted_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
        */
-      public Builder mergeIncludeDeleted(io.dstore.Values.booleanValue value) {
+      public Builder mergeIncludeDeleted(io.dstore.values.BooleanValue value) {
         if (includeDeletedBuilder_ == null) {
           if (includeDeleted_ != null) {
             includeDeleted_ =
-              io.dstore.Values.booleanValue.newBuilder(includeDeleted_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(includeDeleted_).mergeFrom(value).buildPartial();
           } else {
             includeDeleted_ = value;
           }
@@ -745,7 +745,7 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
        */
       public Builder clearIncludeDeleted() {
         if (includeDeletedBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIncludeDeletedBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIncludeDeletedBuilder() {
         
         onChanged();
         return getIncludeDeletedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIncludeDeletedOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIncludeDeletedOrBuilder() {
         if (includeDeletedBuilder_ != null) {
           return includeDeletedBuilder_.getMessageOrBuilder();
         } else {
           return includeDeleted_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : includeDeleted_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : includeDeleted_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_deleted = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_deleted = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIncludeDeletedFieldBuilder() {
         if (includeDeletedBuilder_ == null) {
           includeDeletedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIncludeDeleted(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue includeDeActivated_ = null;
+      private io.dstore.values.BooleanValue includeDeActivated_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeDeActivatedBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeDeActivatedBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
        */
       public boolean hasIncludeDeActivated() {
         return includeDeActivatedBuilder_ != null || includeDeActivated_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
        */
-      public io.dstore.Values.booleanValue getIncludeDeActivated() {
+      public io.dstore.values.BooleanValue getIncludeDeActivated() {
         if (includeDeActivatedBuilder_ == null) {
-          return includeDeActivated_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeDeActivated_;
+          return includeDeActivated_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeDeActivated_;
         } else {
           return includeDeActivatedBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
        */
-      public Builder setIncludeDeActivated(io.dstore.Values.booleanValue value) {
+      public Builder setIncludeDeActivated(io.dstore.values.BooleanValue value) {
         if (includeDeActivatedBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
        */
       public Builder setIncludeDeActivated(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (includeDeActivatedBuilder_ == null) {
           includeDeActivated_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
        */
-      public Builder mergeIncludeDeActivated(io.dstore.Values.booleanValue value) {
+      public Builder mergeIncludeDeActivated(io.dstore.values.BooleanValue value) {
         if (includeDeActivatedBuilder_ == null) {
           if (includeDeActivated_ != null) {
             includeDeActivated_ =
-              io.dstore.Values.booleanValue.newBuilder(includeDeActivated_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(includeDeActivated_).mergeFrom(value).buildPartial();
           } else {
             includeDeActivated_ = value;
           }
@@ -888,7 +888,7 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
        */
       public Builder clearIncludeDeActivated() {
         if (includeDeActivatedBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIncludeDeActivatedBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIncludeDeActivatedBuilder() {
         
         onChanged();
         return getIncludeDeActivatedFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIncludeDeActivatedOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIncludeDeActivatedOrBuilder() {
         if (includeDeActivatedBuilder_ != null) {
           return includeDeActivatedBuilder_.getMessageOrBuilder();
         } else {
           return includeDeActivated_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : includeDeActivated_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : includeDeActivated_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_de_activated = 2;</code>
+       * <code>optional .dstore.values.BooleanValue include_de_activated = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIncludeDeActivatedFieldBuilder() {
         if (includeDeActivatedBuilder_ == null) {
           includeDeActivatedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIncludeDeActivated(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue onlyItemNodes_ = null;
+      private io.dstore.values.BooleanValue onlyItemNodes_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> onlyItemNodesBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> onlyItemNodesBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
        */
       public boolean hasOnlyItemNodes() {
         return onlyItemNodesBuilder_ != null || onlyItemNodes_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
        */
-      public io.dstore.Values.booleanValue getOnlyItemNodes() {
+      public io.dstore.values.BooleanValue getOnlyItemNodes() {
         if (onlyItemNodesBuilder_ == null) {
-          return onlyItemNodes_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : onlyItemNodes_;
+          return onlyItemNodes_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : onlyItemNodes_;
         } else {
           return onlyItemNodesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
        */
-      public Builder setOnlyItemNodes(io.dstore.Values.booleanValue value) {
+      public Builder setOnlyItemNodes(io.dstore.values.BooleanValue value) {
         if (onlyItemNodesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
        */
       public Builder setOnlyItemNodes(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (onlyItemNodesBuilder_ == null) {
           onlyItemNodes_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
        */
-      public Builder mergeOnlyItemNodes(io.dstore.Values.booleanValue value) {
+      public Builder mergeOnlyItemNodes(io.dstore.values.BooleanValue value) {
         if (onlyItemNodesBuilder_ == null) {
           if (onlyItemNodes_ != null) {
             onlyItemNodes_ =
-              io.dstore.Values.booleanValue.newBuilder(onlyItemNodes_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(onlyItemNodes_).mergeFrom(value).buildPartial();
           } else {
             onlyItemNodes_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
        */
       public Builder clearOnlyItemNodes() {
         if (onlyItemNodesBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class ImGetNumberOfNodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOnlyItemNodesBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOnlyItemNodesBuilder() {
         
         onChanged();
         return getOnlyItemNodesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOnlyItemNodesOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOnlyItemNodesOrBuilder() {
         if (onlyItemNodesBuilder_ != null) {
           return onlyItemNodesBuilder_.getMessageOrBuilder();
         } else {
           return onlyItemNodes_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : onlyItemNodes_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : onlyItemNodes_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue only_item_nodes = 3;</code>
+       * <code>optional .dstore.values.BooleanValue only_item_nodes = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOnlyItemNodesFieldBuilder() {
         if (onlyItemNodesBuilder_ == null) {
           onlyItemNodesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOnlyItemNodes(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class ImGetNumberOfNodesAd {
        * Anzahl der gezählten Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
        */
       boolean hasNumberOfNodes();
       /**
@@ -1373,17 +1373,17 @@ public final class ImGetNumberOfNodesAd {
        * Anzahl der gezählten Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
        */
-      io.dstore.Values.integerValue getNumberOfNodes();
+      io.dstore.values.IntegerValue getNumberOfNodes();
       /**
        * <pre>
        * Anzahl der gezählten Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNumberOfNodesOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNumberOfNodesOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetNumberOfNodes_Ad.Response.Row}
@@ -1431,11 +1431,11 @@ public final class ImGetNumberOfNodesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (numberOfNodes_ != null) {
                   subBuilder = numberOfNodes_.toBuilder();
                 }
-                numberOfNodes_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                numberOfNodes_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfNodes_);
                   numberOfNodes_ = subBuilder.buildPartial();
@@ -1476,13 +1476,13 @@ public final class ImGetNumberOfNodesAd {
       }
 
       public static final int NUMBER_OF_NODES_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue numberOfNodes_;
+      private io.dstore.values.IntegerValue numberOfNodes_;
       /**
        * <pre>
        * Anzahl der gezählten Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
        */
       public boolean hasNumberOfNodes() {
         return numberOfNodes_ != null;
@@ -1492,19 +1492,19 @@ public final class ImGetNumberOfNodesAd {
        * Anzahl der gezählten Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
        */
-      public io.dstore.Values.integerValue getNumberOfNodes() {
-        return numberOfNodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfNodes_;
+      public io.dstore.values.IntegerValue getNumberOfNodes() {
+        return numberOfNodes_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfNodes_;
       }
       /**
        * <pre>
        * Anzahl der gezählten Elemente
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNumberOfNodesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNumberOfNodesOrBuilder() {
         return getNumberOfNodes();
       }
 
@@ -1833,15 +1833,15 @@ public final class ImGetNumberOfNodesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue numberOfNodes_ = null;
+        private io.dstore.values.IntegerValue numberOfNodes_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> numberOfNodesBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> numberOfNodesBuilder_;
         /**
          * <pre>
          * Anzahl der gezählten Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
          */
         public boolean hasNumberOfNodes() {
           return numberOfNodesBuilder_ != null || numberOfNodes_ != null;
@@ -1851,11 +1851,11 @@ public final class ImGetNumberOfNodesAd {
          * Anzahl der gezählten Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
          */
-        public io.dstore.Values.integerValue getNumberOfNodes() {
+        public io.dstore.values.IntegerValue getNumberOfNodes() {
           if (numberOfNodesBuilder_ == null) {
-            return numberOfNodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : numberOfNodes_;
+            return numberOfNodes_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : numberOfNodes_;
           } else {
             return numberOfNodesBuilder_.getMessage();
           }
@@ -1865,9 +1865,9 @@ public final class ImGetNumberOfNodesAd {
          * Anzahl der gezählten Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
          */
-        public Builder setNumberOfNodes(io.dstore.Values.integerValue value) {
+        public Builder setNumberOfNodes(io.dstore.values.IntegerValue value) {
           if (numberOfNodesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1885,10 +1885,10 @@ public final class ImGetNumberOfNodesAd {
          * Anzahl der gezählten Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
          */
         public Builder setNumberOfNodes(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (numberOfNodesBuilder_ == null) {
             numberOfNodes_ = builderForValue.build();
             onChanged();
@@ -1903,13 +1903,13 @@ public final class ImGetNumberOfNodesAd {
          * Anzahl der gezählten Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
          */
-        public Builder mergeNumberOfNodes(io.dstore.Values.integerValue value) {
+        public Builder mergeNumberOfNodes(io.dstore.values.IntegerValue value) {
           if (numberOfNodesBuilder_ == null) {
             if (numberOfNodes_ != null) {
               numberOfNodes_ =
-                io.dstore.Values.integerValue.newBuilder(numberOfNodes_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(numberOfNodes_).mergeFrom(value).buildPartial();
             } else {
               numberOfNodes_ = value;
             }
@@ -1925,7 +1925,7 @@ public final class ImGetNumberOfNodesAd {
          * Anzahl der gezählten Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
          */
         public Builder clearNumberOfNodes() {
           if (numberOfNodesBuilder_ == null) {
@@ -1943,9 +1943,9 @@ public final class ImGetNumberOfNodesAd {
          * Anzahl der gezählten Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNumberOfNodesBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNumberOfNodesBuilder() {
           
           onChanged();
           return getNumberOfNodesFieldBuilder().getBuilder();
@@ -1955,14 +1955,14 @@ public final class ImGetNumberOfNodesAd {
          * Anzahl der gezählten Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNumberOfNodesOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNumberOfNodesOrBuilder() {
           if (numberOfNodesBuilder_ != null) {
             return numberOfNodesBuilder_.getMessageOrBuilder();
           } else {
             return numberOfNodes_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : numberOfNodes_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : numberOfNodes_;
           }
         }
         /**
@@ -1970,14 +1970,14 @@ public final class ImGetNumberOfNodesAd {
          * Anzahl der gezählten Elemente
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue number_of_nodes = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue number_of_nodes = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNumberOfNodesFieldBuilder() {
           if (numberOfNodesBuilder_ == null) {
             numberOfNodesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNumberOfNodes(),
                     getParentForChildren(),
                     isClean());
@@ -3446,19 +3446,19 @@ public final class ImGetNumberOfNodesAd {
       "fNodes_Ad.proto\022$dstore.engine.im_GetNum" +
       "berOfNodes_Ad\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"\225\002\n\nParameters\0224\n" +
-      "\017include_deleted\030\001 \001(\0132\033.dstore.values.b" +
+      "\017include_deleted\030\001 \001(\0132\033.dstore.values.B" +
       "ooleanValue\022\035\n\024include_deleted_null\030\351\007 \001" +
       "(\010\0229\n\024include_de_activated\030\002 \001(\0132\033.dstor" +
-      "e.values.booleanValue\022\"\n\031include_de_acti" +
+      "e.values.BooleanValue\022\"\n\031include_de_acti" +
       "vated_null\030\352\007 \001(\010\0224\n\017only_item_nodes\030\003 \001" +
-      "(\0132\033.dstore.values.booleanValue\022\035\n\024only_",
+      "(\0132\033.dstore.values.BooleanValue\022\035\n\024only_",
       "item_nodes_null\030\353\007 \001(\010\"\375\001\n\010Response\0228\n\020m" +
       "eta_information\030\002 \003(\0132\036.dstore.engine.Me" +
       "taInformation\022\'\n\007message\030\003 \003(\0132\026.dstore." +
       "engine.Message\022?\n\003row\030\004 \003(\01322.dstore.eng" +
       "ine.im_GetNumberOfNodes_Ad.Response.Row\032" +
       "M\n\003Row\022\017\n\006row_id\030\220N \001(\005\0225\n\017number_of_nod" +
-      "es\030\221N \001(\0132\033.dstore.values.integerValueBW" +
+      "es\030\221N \001(\0132\033.dstore.values.IntegerValueBW" +
       "\n\033io.dstore.engine.proceduresZ8gosdk.dst" +
       "ore.de/engine/procedures/im_GetNumberOfN" +
       "odes_Adb\006proto3"
@@ -3474,7 +3474,7 @@ public final class ImGetNumberOfNodesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetNumberOfNodes_Ad_Parameters_descriptor =
@@ -3495,7 +3495,7 @@ public final class ImGetNumberOfNodesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNumberOfNodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "NumberOfNodes", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

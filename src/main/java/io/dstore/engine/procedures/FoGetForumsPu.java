@@ -19,17 +19,17 @@ public final class FoGetForumsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class FoGetForumsPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class FoGetForumsPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class FoGetForumsPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    io.dstore.Values.integerValue getForumId();
+    io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class FoGetForumsPu {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class FoGetForumsPu {
     boolean getLanguageIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+     * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
      */
     boolean hasForumCategoryIdList();
     /**
-     * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+     * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
      */
-    io.dstore.Values.stringValue getForumCategoryIdList();
+    io.dstore.values.StringValue getForumCategoryIdList();
     /**
-     * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+     * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getForumCategoryIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getForumCategoryIdListOrBuilder();
 
     /**
      * <code>optional bool forum_category_id_list_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class FoGetForumsPu {
     boolean getForumCategoryIdListNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
      */
     boolean hasGetCategoryInformation();
     /**
-     * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
      */
-    io.dstore.Values.booleanValue getGetCategoryInformation();
+    io.dstore.values.BooleanValue getGetCategoryInformation();
     /**
-     * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getGetCategoryInformationOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getGetCategoryInformationOrBuilder();
 
     /**
      * <code>optional bool get_category_information_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class FoGetForumsPu {
     boolean getGetCategoryInformationNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1008;</code>
@@ -210,11 +210,11 @@ public final class FoGetForumsPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -223,11 +223,11 @@ public final class FoGetForumsPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -236,11 +236,11 @@ public final class FoGetForumsPu {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -249,11 +249,11 @@ public final class FoGetForumsPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -262,11 +262,11 @@ public final class FoGetForumsPu {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -275,11 +275,11 @@ public final class FoGetForumsPu {
               break;
             }
             case 50: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (forumCategoryIdList_ != null) {
                 subBuilder = forumCategoryIdList_.toBuilder();
               }
-              forumCategoryIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              forumCategoryIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumCategoryIdList_);
                 forumCategoryIdList_ = subBuilder.buildPartial();
@@ -288,11 +288,11 @@ public final class FoGetForumsPu {
               break;
             }
             case 58: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (getCategoryInformation_ != null) {
                 subBuilder = getCategoryInformation_.toBuilder();
               }
-              getCategoryInformation_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              getCategoryInformation_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getCategoryInformation_);
                 getCategoryInformation_ = subBuilder.buildPartial();
@@ -301,11 +301,11 @@ public final class FoGetForumsPu {
               break;
             }
             case 66: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -377,23 +377,23 @@ public final class FoGetForumsPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -407,23 +407,23 @@ public final class FoGetForumsPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -437,23 +437,23 @@ public final class FoGetForumsPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -467,23 +467,23 @@ public final class FoGetForumsPu {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue forumId_;
+    private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.values.IntegerValue getForumId() {
+      return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -497,23 +497,23 @@ public final class FoGetForumsPu {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -527,23 +527,23 @@ public final class FoGetForumsPu {
     }
 
     public static final int FORUM_CATEGORY_ID_LIST_FIELD_NUMBER = 6;
-    private io.dstore.Values.stringValue forumCategoryIdList_;
+    private io.dstore.values.StringValue forumCategoryIdList_;
     /**
-     * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+     * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
      */
     public boolean hasForumCategoryIdList() {
       return forumCategoryIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+     * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
      */
-    public io.dstore.Values.stringValue getForumCategoryIdList() {
-      return forumCategoryIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : forumCategoryIdList_;
+    public io.dstore.values.StringValue getForumCategoryIdList() {
+      return forumCategoryIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : forumCategoryIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+     * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getForumCategoryIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getForumCategoryIdListOrBuilder() {
       return getForumCategoryIdList();
     }
 
@@ -557,23 +557,23 @@ public final class FoGetForumsPu {
     }
 
     public static final int GET_CATEGORY_INFORMATION_FIELD_NUMBER = 7;
-    private io.dstore.Values.booleanValue getCategoryInformation_;
+    private io.dstore.values.BooleanValue getCategoryInformation_;
     /**
-     * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
      */
     public boolean hasGetCategoryInformation() {
       return getCategoryInformation_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
      */
-    public io.dstore.Values.booleanValue getGetCategoryInformation() {
-      return getCategoryInformation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getCategoryInformation_;
+    public io.dstore.values.BooleanValue getGetCategoryInformation() {
+      return getCategoryInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getCategoryInformation_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+     * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getGetCategoryInformationOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getGetCategoryInformationOrBuilder() {
       return getGetCategoryInformation();
     }
 
@@ -587,23 +587,23 @@ public final class FoGetForumsPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 8;
-    private io.dstore.Values.stringValue separatorInIdentVals_;
+    private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.values.StringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1252,29 +1252,29 @@ public final class FoGetForumsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1288,10 +1288,10 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1302,13 +1302,13 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1320,7 +1320,7 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1334,33 +1334,33 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1395,29 +1395,29 @@ public final class FoGetForumsPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1431,10 +1431,10 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1445,13 +1445,13 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1463,7 +1463,7 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1477,33 +1477,33 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1538,29 +1538,29 @@ public final class FoGetForumsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1574,10 +1574,10 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1588,13 +1588,13 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1606,7 +1606,7 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1620,33 +1620,33 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1681,29 +1681,29 @@ public final class FoGetForumsPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue forumId_ = null;
+      private io.dstore.values.IntegerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getForumId() {
+      public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public Builder setForumId(io.dstore.Values.integerValue value) {
+      public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1717,10 +1717,10 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       public Builder setForumId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -1731,13 +1731,13 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public Builder mergeForumId(io.dstore.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -1749,7 +1749,7 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -1763,33 +1763,33 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -1824,29 +1824,29 @@ public final class FoGetForumsPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1860,10 +1860,10 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -1874,13 +1874,13 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -1892,7 +1892,7 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -1906,33 +1906,33 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1967,29 +1967,29 @@ public final class FoGetForumsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue forumCategoryIdList_ = null;
+      private io.dstore.values.StringValue forumCategoryIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> forumCategoryIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> forumCategoryIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+       * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
        */
       public boolean hasForumCategoryIdList() {
         return forumCategoryIdListBuilder_ != null || forumCategoryIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+       * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
        */
-      public io.dstore.Values.stringValue getForumCategoryIdList() {
+      public io.dstore.values.StringValue getForumCategoryIdList() {
         if (forumCategoryIdListBuilder_ == null) {
-          return forumCategoryIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : forumCategoryIdList_;
+          return forumCategoryIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : forumCategoryIdList_;
         } else {
           return forumCategoryIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+       * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
        */
-      public Builder setForumCategoryIdList(io.dstore.Values.stringValue value) {
+      public Builder setForumCategoryIdList(io.dstore.values.StringValue value) {
         if (forumCategoryIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2003,10 +2003,10 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+       * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
        */
       public Builder setForumCategoryIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (forumCategoryIdListBuilder_ == null) {
           forumCategoryIdList_ = builderForValue.build();
           onChanged();
@@ -2017,13 +2017,13 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+       * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
        */
-      public Builder mergeForumCategoryIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeForumCategoryIdList(io.dstore.values.StringValue value) {
         if (forumCategoryIdListBuilder_ == null) {
           if (forumCategoryIdList_ != null) {
             forumCategoryIdList_ =
-              io.dstore.Values.stringValue.newBuilder(forumCategoryIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(forumCategoryIdList_).mergeFrom(value).buildPartial();
           } else {
             forumCategoryIdList_ = value;
           }
@@ -2035,7 +2035,7 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+       * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
        */
       public Builder clearForumCategoryIdList() {
         if (forumCategoryIdListBuilder_ == null) {
@@ -2049,33 +2049,33 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+       * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
        */
-      public io.dstore.Values.stringValue.Builder getForumCategoryIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getForumCategoryIdListBuilder() {
         
         onChanged();
         return getForumCategoryIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+       * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getForumCategoryIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getForumCategoryIdListOrBuilder() {
         if (forumCategoryIdListBuilder_ != null) {
           return forumCategoryIdListBuilder_.getMessageOrBuilder();
         } else {
           return forumCategoryIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : forumCategoryIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : forumCategoryIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue forum_category_id_list = 6;</code>
+       * <code>optional .dstore.values.StringValue forum_category_id_list = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getForumCategoryIdListFieldBuilder() {
         if (forumCategoryIdListBuilder_ == null) {
           forumCategoryIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getForumCategoryIdList(),
                   getParentForChildren(),
                   isClean());
@@ -2110,29 +2110,29 @@ public final class FoGetForumsPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue getCategoryInformation_ = null;
+      private io.dstore.values.BooleanValue getCategoryInformation_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> getCategoryInformationBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> getCategoryInformationBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
        */
       public boolean hasGetCategoryInformation() {
         return getCategoryInformationBuilder_ != null || getCategoryInformation_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
        */
-      public io.dstore.Values.booleanValue getGetCategoryInformation() {
+      public io.dstore.values.BooleanValue getGetCategoryInformation() {
         if (getCategoryInformationBuilder_ == null) {
-          return getCategoryInformation_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : getCategoryInformation_;
+          return getCategoryInformation_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : getCategoryInformation_;
         } else {
           return getCategoryInformationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
        */
-      public Builder setGetCategoryInformation(io.dstore.Values.booleanValue value) {
+      public Builder setGetCategoryInformation(io.dstore.values.BooleanValue value) {
         if (getCategoryInformationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2146,10 +2146,10 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
        */
       public Builder setGetCategoryInformation(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (getCategoryInformationBuilder_ == null) {
           getCategoryInformation_ = builderForValue.build();
           onChanged();
@@ -2160,13 +2160,13 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
        */
-      public Builder mergeGetCategoryInformation(io.dstore.Values.booleanValue value) {
+      public Builder mergeGetCategoryInformation(io.dstore.values.BooleanValue value) {
         if (getCategoryInformationBuilder_ == null) {
           if (getCategoryInformation_ != null) {
             getCategoryInformation_ =
-              io.dstore.Values.booleanValue.newBuilder(getCategoryInformation_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(getCategoryInformation_).mergeFrom(value).buildPartial();
           } else {
             getCategoryInformation_ = value;
           }
@@ -2178,7 +2178,7 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
        */
       public Builder clearGetCategoryInformation() {
         if (getCategoryInformationBuilder_ == null) {
@@ -2192,33 +2192,33 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getGetCategoryInformationBuilder() {
+      public io.dstore.values.BooleanValue.Builder getGetCategoryInformationBuilder() {
         
         onChanged();
         return getGetCategoryInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getGetCategoryInformationOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getGetCategoryInformationOrBuilder() {
         if (getCategoryInformationBuilder_ != null) {
           return getCategoryInformationBuilder_.getMessageOrBuilder();
         } else {
           return getCategoryInformation_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : getCategoryInformation_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : getCategoryInformation_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue get_category_information = 7;</code>
+       * <code>optional .dstore.values.BooleanValue get_category_information = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getGetCategoryInformationFieldBuilder() {
         if (getCategoryInformationBuilder_ == null) {
           getCategoryInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getGetCategoryInformation(),
                   getParentForChildren(),
                   isClean());
@@ -2253,29 +2253,29 @@ public final class FoGetForumsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.values.StringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2289,10 +2289,10 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -2303,13 +2303,13 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -2321,7 +2321,7 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2335,33 +2335,33 @@ public final class FoGetForumsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 8;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -2655,7 +2655,7 @@ public final class FoGetForumsPu {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
       boolean hasLanguage();
       /**
@@ -2663,24 +2663,24 @@ public final class FoGetForumsPu {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
-      io.dstore.Values.stringValue getLanguage();
+      io.dstore.values.StringValue getLanguage();
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder();
+      io.dstore.values.StringValueOrBuilder getLanguageOrBuilder();
 
       /**
        * <pre>
        * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
        */
       boolean hasForumId();
       /**
@@ -2688,24 +2688,24 @@ public final class FoGetForumsPu {
        * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getForumId();
+      io.dstore.values.IntegerValue getForumId();
       /**
        * <pre>
        * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
       /**
        * <pre>
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
        */
       boolean hasForumName();
       /**
@@ -2713,24 +2713,24 @@ public final class FoGetForumsPu {
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
        */
-      io.dstore.Values.stringValue getForumName();
+      io.dstore.values.StringValue getForumName();
       /**
        * <pre>
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getForumNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getForumNameOrBuilder();
 
       /**
        * <pre>
        * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
        */
       boolean hasLanguageId();
       /**
@@ -2738,24 +2738,24 @@ public final class FoGetForumsPu {
        * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
        */
-      io.dstore.Values.integerValue getLanguageId();
+      io.dstore.values.IntegerValue getLanguageId();
       /**
        * <pre>
        * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
       /**
        * <pre>
        * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
        */
       boolean hasPredecessorCategoryId();
       /**
@@ -2763,24 +2763,24 @@ public final class FoGetForumsPu {
        * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
        */
-      io.dstore.Values.integerValue getPredecessorCategoryId();
+      io.dstore.values.IntegerValue getPredecessorCategoryId();
       /**
        * <pre>
        * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPredecessorCategoryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPredecessorCategoryIdOrBuilder();
 
       /**
        * <pre>
        * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
        */
       boolean hasForumCategoryId();
       /**
@@ -2788,24 +2788,24 @@ public final class FoGetForumsPu {
        * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
        */
-      io.dstore.Values.integerValue getForumCategoryId();
+      io.dstore.values.IntegerValue getForumCategoryId();
       /**
        * <pre>
        * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getForumCategoryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getForumCategoryIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue category_description = 20006;</code>
        */
       boolean hasCategoryDescription();
       /**
@@ -2813,24 +2813,24 @@ public final class FoGetForumsPu {
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue category_description = 20006;</code>
        */
-      io.dstore.Values.stringValue getCategoryDescription();
+      io.dstore.values.StringValue getCategoryDescription();
       /**
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue category_description = 20006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder();
 
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
       boolean hasSortNo();
       /**
@@ -2838,17 +2838,17 @@ public final class FoGetForumsPu {
        * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
-      io.dstore.Values.integerValue getSortNo();
+      io.dstore.values.IntegerValue getSortNo();
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetForums_Pu.Response.Row}
@@ -2896,11 +2896,11 @@ public final class FoGetForumsPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (language_ != null) {
                   subBuilder = language_.toBuilder();
                 }
-                language_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                language_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(language_);
                   language_ = subBuilder.buildPartial();
@@ -2909,11 +2909,11 @@ public final class FoGetForumsPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (forumId_ != null) {
                   subBuilder = forumId_.toBuilder();
                 }
-                forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                forumId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumId_);
                   forumId_ = subBuilder.buildPartial();
@@ -2922,11 +2922,11 @@ public final class FoGetForumsPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (forumName_ != null) {
                   subBuilder = forumName_.toBuilder();
                 }
-                forumName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                forumName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumName_);
                   forumName_ = subBuilder.buildPartial();
@@ -2935,11 +2935,11 @@ public final class FoGetForumsPu {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (languageId_ != null) {
                   subBuilder = languageId_.toBuilder();
                 }
-                languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageId_);
                   languageId_ = subBuilder.buildPartial();
@@ -2948,11 +2948,11 @@ public final class FoGetForumsPu {
                 break;
               }
               case 160018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (predecessorCategoryId_ != null) {
                   subBuilder = predecessorCategoryId_.toBuilder();
                 }
-                predecessorCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                predecessorCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorCategoryId_);
                   predecessorCategoryId_ = subBuilder.buildPartial();
@@ -2961,11 +2961,11 @@ public final class FoGetForumsPu {
                 break;
               }
               case 160026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (forumCategoryId_ != null) {
                   subBuilder = forumCategoryId_.toBuilder();
                 }
-                forumCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                forumCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumCategoryId_);
                   forumCategoryId_ = subBuilder.buildPartial();
@@ -2974,11 +2974,11 @@ public final class FoGetForumsPu {
                 break;
               }
               case 160050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (categoryDescription_ != null) {
                   subBuilder = categoryDescription_.toBuilder();
                 }
-                categoryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                categoryDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(categoryDescription_);
                   categoryDescription_ = subBuilder.buildPartial();
@@ -2987,11 +2987,11 @@ public final class FoGetForumsPu {
                 break;
               }
               case 160058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -3032,13 +3032,13 @@ public final class FoGetForumsPu {
       }
 
       public static final int LANGUAGE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue language_;
+      private io.dstore.values.StringValue language_;
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
       public boolean hasLanguage() {
         return language_ != null;
@@ -3048,30 +3048,30 @@ public final class FoGetForumsPu {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
-      public io.dstore.Values.stringValue getLanguage() {
-        return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
+      public io.dstore.values.StringValue getLanguage() {
+        return language_ == null ? io.dstore.values.StringValue.getDefaultInstance() : language_;
       }
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getLanguageOrBuilder() {
         return getLanguage();
       }
 
       public static final int FORUM_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue forumId_;
+      private io.dstore.values.IntegerValue forumId_;
       /**
        * <pre>
        * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
        */
       public boolean hasForumId() {
         return forumId_ != null;
@@ -3081,30 +3081,30 @@ public final class FoGetForumsPu {
        * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getForumId() {
-        return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+      public io.dstore.values.IntegerValue getForumId() {
+        return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
       }
       /**
        * <pre>
        * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         return getForumId();
       }
 
       public static final int FORUM_NAME_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue forumName_;
+      private io.dstore.values.StringValue forumName_;
       /**
        * <pre>
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
        */
       public boolean hasForumName() {
         return forumName_ != null;
@@ -3114,30 +3114,30 @@ public final class FoGetForumsPu {
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
        */
-      public io.dstore.Values.stringValue getForumName() {
-        return forumName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : forumName_;
+      public io.dstore.values.StringValue getForumName() {
+        return forumName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : forumName_;
       }
       /**
        * <pre>
        * Name des Forums "ForumID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getForumNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getForumNameOrBuilder() {
         return getForumName();
       }
 
       public static final int LANGUAGE_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue languageId_;
+      private io.dstore.values.IntegerValue languageId_;
       /**
        * <pre>
        * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
        */
       public boolean hasLanguageId() {
         return languageId_ != null;
@@ -3147,30 +3147,30 @@ public final class FoGetForumsPu {
        * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
-        return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+      public io.dstore.values.IntegerValue getLanguageId() {
+        return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
       }
       /**
        * <pre>
        * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
       }
 
       public static final int PREDECESSOR_CATEGORY_ID_FIELD_NUMBER = 20002;
-      private io.dstore.Values.integerValue predecessorCategoryId_;
+      private io.dstore.values.IntegerValue predecessorCategoryId_;
       /**
        * <pre>
        * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
        */
       public boolean hasPredecessorCategoryId() {
         return predecessorCategoryId_ != null;
@@ -3180,30 +3180,30 @@ public final class FoGetForumsPu {
        * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
        */
-      public io.dstore.Values.integerValue getPredecessorCategoryId() {
-        return predecessorCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorCategoryId_;
+      public io.dstore.values.IntegerValue getPredecessorCategoryId() {
+        return predecessorCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessorCategoryId_;
       }
       /**
        * <pre>
        * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPredecessorCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPredecessorCategoryIdOrBuilder() {
         return getPredecessorCategoryId();
       }
 
       public static final int FORUM_CATEGORY_ID_FIELD_NUMBER = 20003;
-      private io.dstore.Values.integerValue forumCategoryId_;
+      private io.dstore.values.IntegerValue forumCategoryId_;
       /**
        * <pre>
        * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
        */
       public boolean hasForumCategoryId() {
         return forumCategoryId_ != null;
@@ -3213,30 +3213,30 @@ public final class FoGetForumsPu {
        * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
        */
-      public io.dstore.Values.integerValue getForumCategoryId() {
-        return forumCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumCategoryId_;
+      public io.dstore.values.IntegerValue getForumCategoryId() {
+        return forumCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumCategoryId_;
       }
       /**
        * <pre>
        * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+       * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumCategoryIdOrBuilder() {
         return getForumCategoryId();
       }
 
       public static final int CATEGORY_DESCRIPTION_FIELD_NUMBER = 20006;
-      private io.dstore.Values.stringValue categoryDescription_;
+      private io.dstore.values.StringValue categoryDescription_;
       /**
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue category_description = 20006;</code>
        */
       public boolean hasCategoryDescription() {
         return categoryDescription_ != null;
@@ -3246,30 +3246,30 @@ public final class FoGetForumsPu {
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue category_description = 20006;</code>
        */
-      public io.dstore.Values.stringValue getCategoryDescription() {
-        return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+      public io.dstore.values.StringValue getCategoryDescription() {
+        return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Kategorie "ForumCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+       * <code>optional .dstore.values.StringValue category_description = 20006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
         return getCategoryDescription();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 20007;
-      private io.dstore.Values.integerValue sortNo_;
+      private io.dstore.values.IntegerValue sortNo_;
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -3279,19 +3279,19 @@ public final class FoGetForumsPu {
        * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.values.IntegerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
       }
       /**
        * <pre>
        * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
@@ -3830,15 +3830,15 @@ public final class FoGetForumsPu {
           return this;
         }
 
-        private io.dstore.Values.stringValue language_ = null;
+        private io.dstore.values.StringValue language_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> languageBuilder_;
         /**
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
         public boolean hasLanguage() {
           return languageBuilder_ != null || language_ != null;
@@ -3848,11 +3848,11 @@ public final class FoGetForumsPu {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public io.dstore.Values.stringValue getLanguage() {
+        public io.dstore.values.StringValue getLanguage() {
           if (languageBuilder_ == null) {
-            return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
+            return language_ == null ? io.dstore.values.StringValue.getDefaultInstance() : language_;
           } else {
             return languageBuilder_.getMessage();
           }
@@ -3862,9 +3862,9 @@ public final class FoGetForumsPu {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public Builder setLanguage(io.dstore.Values.stringValue value) {
+        public Builder setLanguage(io.dstore.values.StringValue value) {
           if (languageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3882,10 +3882,10 @@ public final class FoGetForumsPu {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
         public Builder setLanguage(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (languageBuilder_ == null) {
             language_ = builderForValue.build();
             onChanged();
@@ -3900,13 +3900,13 @@ public final class FoGetForumsPu {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public Builder mergeLanguage(io.dstore.Values.stringValue value) {
+        public Builder mergeLanguage(io.dstore.values.StringValue value) {
           if (languageBuilder_ == null) {
             if (language_ != null) {
               language_ =
-                io.dstore.Values.stringValue.newBuilder(language_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(language_).mergeFrom(value).buildPartial();
             } else {
               language_ = value;
             }
@@ -3922,7 +3922,7 @@ public final class FoGetForumsPu {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
         public Builder clearLanguage() {
           if (languageBuilder_ == null) {
@@ -3940,9 +3940,9 @@ public final class FoGetForumsPu {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getLanguageBuilder() {
+        public io.dstore.values.StringValue.Builder getLanguageBuilder() {
           
           onChanged();
           return getLanguageFieldBuilder().getBuilder();
@@ -3952,14 +3952,14 @@ public final class FoGetForumsPu {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getLanguageOrBuilder() {
           if (languageBuilder_ != null) {
             return languageBuilder_.getMessageOrBuilder();
           } else {
             return language_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : language_;
+                io.dstore.values.StringValue.getDefaultInstance() : language_;
           }
         }
         /**
@@ -3967,14 +3967,14 @@ public final class FoGetForumsPu {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getLanguageFieldBuilder() {
           if (languageBuilder_ == null) {
             languageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getLanguage(),
                     getParentForChildren(),
                     isClean());
@@ -3983,15 +3983,15 @@ public final class FoGetForumsPu {
           return languageBuilder_;
         }
 
-        private io.dstore.Values.integerValue forumId_ = null;
+        private io.dstore.values.IntegerValue forumId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
         /**
          * <pre>
          * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public boolean hasForumId() {
           return forumIdBuilder_ != null || forumId_ != null;
@@ -4001,11 +4001,11 @@ public final class FoGetForumsPu {
          * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getForumId() {
+        public io.dstore.values.IntegerValue getForumId() {
           if (forumIdBuilder_ == null) {
-            return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+            return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
           } else {
             return forumIdBuilder_.getMessage();
           }
@@ -4015,9 +4015,9 @@ public final class FoGetForumsPu {
          * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
          */
-        public Builder setForumId(io.dstore.Values.integerValue value) {
+        public Builder setForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4035,10 +4035,10 @@ public final class FoGetForumsPu {
          * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder setForumId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (forumIdBuilder_ == null) {
             forumId_ = builderForValue.build();
             onChanged();
@@ -4053,13 +4053,13 @@ public final class FoGetForumsPu {
          * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
          */
-        public Builder mergeForumId(io.dstore.Values.integerValue value) {
+        public Builder mergeForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
             if (forumId_ != null) {
               forumId_ =
-                io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
             } else {
               forumId_ = value;
             }
@@ -4075,7 +4075,7 @@ public final class FoGetForumsPu {
          * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
          */
         public Builder clearForumId() {
           if (forumIdBuilder_ == null) {
@@ -4093,9 +4093,9 @@ public final class FoGetForumsPu {
          * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
           
           onChanged();
           return getForumIdFieldBuilder().getBuilder();
@@ -4105,14 +4105,14 @@ public final class FoGetForumsPu {
          * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
           if (forumIdBuilder_ != null) {
             return forumIdBuilder_.getMessageOrBuilder();
           } else {
             return forumId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
           }
         }
         /**
@@ -4120,14 +4120,14 @@ public final class FoGetForumsPu {
          * ID eines vorhandenen Forums (bzw. gleich der "&#64;ForumID"), auf das die identifizierte Person (mindestens) lesenden Zugriff hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getForumIdFieldBuilder() {
           if (forumIdBuilder_ == null) {
             forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getForumId(),
                     getParentForChildren(),
                     isClean());
@@ -4136,15 +4136,15 @@ public final class FoGetForumsPu {
           return forumIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue forumName_ = null;
+        private io.dstore.values.StringValue forumName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> forumNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> forumNameBuilder_;
         /**
          * <pre>
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
          */
         public boolean hasForumName() {
           return forumNameBuilder_ != null || forumName_ != null;
@@ -4154,11 +4154,11 @@ public final class FoGetForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
          */
-        public io.dstore.Values.stringValue getForumName() {
+        public io.dstore.values.StringValue getForumName() {
           if (forumNameBuilder_ == null) {
-            return forumName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : forumName_;
+            return forumName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : forumName_;
           } else {
             return forumNameBuilder_.getMessage();
           }
@@ -4168,9 +4168,9 @@ public final class FoGetForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
          */
-        public Builder setForumName(io.dstore.Values.stringValue value) {
+        public Builder setForumName(io.dstore.values.StringValue value) {
           if (forumNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4188,10 +4188,10 @@ public final class FoGetForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
          */
         public Builder setForumName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (forumNameBuilder_ == null) {
             forumName_ = builderForValue.build();
             onChanged();
@@ -4206,13 +4206,13 @@ public final class FoGetForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
          */
-        public Builder mergeForumName(io.dstore.Values.stringValue value) {
+        public Builder mergeForumName(io.dstore.values.StringValue value) {
           if (forumNameBuilder_ == null) {
             if (forumName_ != null) {
               forumName_ =
-                io.dstore.Values.stringValue.newBuilder(forumName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(forumName_).mergeFrom(value).buildPartial();
             } else {
               forumName_ = value;
             }
@@ -4228,7 +4228,7 @@ public final class FoGetForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
          */
         public Builder clearForumName() {
           if (forumNameBuilder_ == null) {
@@ -4246,9 +4246,9 @@ public final class FoGetForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getForumNameBuilder() {
+        public io.dstore.values.StringValue.Builder getForumNameBuilder() {
           
           onChanged();
           return getForumNameFieldBuilder().getBuilder();
@@ -4258,14 +4258,14 @@ public final class FoGetForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getForumNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getForumNameOrBuilder() {
           if (forumNameBuilder_ != null) {
             return forumNameBuilder_.getMessageOrBuilder();
           } else {
             return forumName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : forumName_;
+                io.dstore.values.StringValue.getDefaultInstance() : forumName_;
           }
         }
         /**
@@ -4273,14 +4273,14 @@ public final class FoGetForumsPu {
          * Name des Forums "ForumID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue forum_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue forum_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getForumNameFieldBuilder() {
           if (forumNameBuilder_ == null) {
             forumNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getForumName(),
                     getParentForChildren(),
                     isClean());
@@ -4289,15 +4289,15 @@ public final class FoGetForumsPu {
           return forumNameBuilder_;
         }
 
-        private io.dstore.Values.integerValue languageId_ = null;
+        private io.dstore.values.IntegerValue languageId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
         /**
          * <pre>
          * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
          */
         public boolean hasLanguageId() {
           return languageIdBuilder_ != null || languageId_ != null;
@@ -4307,11 +4307,11 @@ public final class FoGetForumsPu {
          * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue getLanguageId() {
+        public io.dstore.values.IntegerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
-            return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+            return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
           } else {
             return languageIdBuilder_.getMessage();
           }
@@ -4321,9 +4321,9 @@ public final class FoGetForumsPu {
          * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
          */
-        public Builder setLanguageId(io.dstore.Values.integerValue value) {
+        public Builder setLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4341,10 +4341,10 @@ public final class FoGetForumsPu {
          * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
          */
         public Builder setLanguageId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (languageIdBuilder_ == null) {
             languageId_ = builderForValue.build();
             onChanged();
@@ -4359,13 +4359,13 @@ public final class FoGetForumsPu {
          * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
          */
-        public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+        public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
             if (languageId_ != null) {
               languageId_ =
-                io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
             } else {
               languageId_ = value;
             }
@@ -4381,7 +4381,7 @@ public final class FoGetForumsPu {
          * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
          */
         public Builder clearLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -4399,9 +4399,9 @@ public final class FoGetForumsPu {
          * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
           
           onChanged();
           return getLanguageIdFieldBuilder().getBuilder();
@@ -4411,14 +4411,14 @@ public final class FoGetForumsPu {
          * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
             return languageIdBuilder_.getMessageOrBuilder();
           } else {
             return languageId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
           }
         }
         /**
@@ -4426,14 +4426,14 @@ public final class FoGetForumsPu {
          * ID einer Sprache, die für das Forum "ForumID" hinterlegt ist. Sie gibt an, in welcher Sprache die Beiträge dieses Forums verfaßt sind (bzw. verfaßt sein sollten...).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getLanguageIdFieldBuilder() {
           if (languageIdBuilder_ == null) {
             languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getLanguageId(),
                     getParentForChildren(),
                     isClean());
@@ -4442,15 +4442,15 @@ public final class FoGetForumsPu {
           return languageIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue predecessorCategoryId_ = null;
+        private io.dstore.values.IntegerValue predecessorCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predecessorCategoryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> predecessorCategoryIdBuilder_;
         /**
          * <pre>
          * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
          */
         public boolean hasPredecessorCategoryId() {
           return predecessorCategoryIdBuilder_ != null || predecessorCategoryId_ != null;
@@ -4460,11 +4460,11 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
          */
-        public io.dstore.Values.integerValue getPredecessorCategoryId() {
+        public io.dstore.values.IntegerValue getPredecessorCategoryId() {
           if (predecessorCategoryIdBuilder_ == null) {
-            return predecessorCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predecessorCategoryId_;
+            return predecessorCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predecessorCategoryId_;
           } else {
             return predecessorCategoryIdBuilder_.getMessage();
           }
@@ -4474,9 +4474,9 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
          */
-        public Builder setPredecessorCategoryId(io.dstore.Values.integerValue value) {
+        public Builder setPredecessorCategoryId(io.dstore.values.IntegerValue value) {
           if (predecessorCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4494,10 +4494,10 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
          */
         public Builder setPredecessorCategoryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (predecessorCategoryIdBuilder_ == null) {
             predecessorCategoryId_ = builderForValue.build();
             onChanged();
@@ -4512,13 +4512,13 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
          */
-        public Builder mergePredecessorCategoryId(io.dstore.Values.integerValue value) {
+        public Builder mergePredecessorCategoryId(io.dstore.values.IntegerValue value) {
           if (predecessorCategoryIdBuilder_ == null) {
             if (predecessorCategoryId_ != null) {
               predecessorCategoryId_ =
-                io.dstore.Values.integerValue.newBuilder(predecessorCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(predecessorCategoryId_).mergeFrom(value).buildPartial();
             } else {
               predecessorCategoryId_ = value;
             }
@@ -4534,7 +4534,7 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
          */
         public Builder clearPredecessorCategoryId() {
           if (predecessorCategoryIdBuilder_ == null) {
@@ -4552,9 +4552,9 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPredecessorCategoryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPredecessorCategoryIdBuilder() {
           
           onChanged();
           return getPredecessorCategoryIdFieldBuilder().getBuilder();
@@ -4564,14 +4564,14 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPredecessorCategoryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPredecessorCategoryIdOrBuilder() {
           if (predecessorCategoryIdBuilder_ != null) {
             return predecessorCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return predecessorCategoryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : predecessorCategoryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : predecessorCategoryId_;
           }
         }
         /**
@@ -4579,14 +4579,14 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, die "ForumCategoryID" übergeordnet ist. Es kann hier der gleiche Wert wie "ForumCategoryID" stehen, dann handelt es sich um eine sogenannte "Hauptkategorie" (der keine Kategorie übergeordnet ist).
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue predecessor_category_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue predecessor_category_id = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPredecessorCategoryIdFieldBuilder() {
           if (predecessorCategoryIdBuilder_ == null) {
             predecessorCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPredecessorCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -4595,15 +4595,15 @@ public final class FoGetForumsPu {
           return predecessorCategoryIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue forumCategoryId_ = null;
+        private io.dstore.values.IntegerValue forumCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumCategoryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumCategoryIdBuilder_;
         /**
          * <pre>
          * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
          */
         public boolean hasForumCategoryId() {
           return forumCategoryIdBuilder_ != null || forumCategoryId_ != null;
@@ -4613,11 +4613,11 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
          */
-        public io.dstore.Values.integerValue getForumCategoryId() {
+        public io.dstore.values.IntegerValue getForumCategoryId() {
           if (forumCategoryIdBuilder_ == null) {
-            return forumCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumCategoryId_;
+            return forumCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumCategoryId_;
           } else {
             return forumCategoryIdBuilder_.getMessage();
           }
@@ -4627,9 +4627,9 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
          */
-        public Builder setForumCategoryId(io.dstore.Values.integerValue value) {
+        public Builder setForumCategoryId(io.dstore.values.IntegerValue value) {
           if (forumCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4647,10 +4647,10 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
          */
         public Builder setForumCategoryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (forumCategoryIdBuilder_ == null) {
             forumCategoryId_ = builderForValue.build();
             onChanged();
@@ -4665,13 +4665,13 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
          */
-        public Builder mergeForumCategoryId(io.dstore.Values.integerValue value) {
+        public Builder mergeForumCategoryId(io.dstore.values.IntegerValue value) {
           if (forumCategoryIdBuilder_ == null) {
             if (forumCategoryId_ != null) {
               forumCategoryId_ =
-                io.dstore.Values.integerValue.newBuilder(forumCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(forumCategoryId_).mergeFrom(value).buildPartial();
             } else {
               forumCategoryId_ = value;
             }
@@ -4687,7 +4687,7 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
          */
         public Builder clearForumCategoryId() {
           if (forumCategoryIdBuilder_ == null) {
@@ -4705,9 +4705,9 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getForumCategoryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getForumCategoryIdBuilder() {
           
           onChanged();
           return getForumCategoryIdFieldBuilder().getBuilder();
@@ -4717,14 +4717,14 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getForumCategoryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getForumCategoryIdOrBuilder() {
           if (forumCategoryIdBuilder_ != null) {
             return forumCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return forumCategoryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : forumCategoryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : forumCategoryId_;
           }
         }
         /**
@@ -4732,14 +4732,14 @@ public final class FoGetForumsPu {
          * ID einer Forum-Kategorie, der "ForumID" zugeordnet ist. Wurde "&#64;ForumCategoryIDList" angegeben, steht hier "NULL" oder eine übergebene ID. (Hinweis : Ein Forum kann theoretisch in mehreren Kategorien sein !)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_category_id = 20003;</code>
+         * <code>optional .dstore.values.IntegerValue forum_category_id = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getForumCategoryIdFieldBuilder() {
           if (forumCategoryIdBuilder_ == null) {
             forumCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getForumCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -4748,15 +4748,15 @@ public final class FoGetForumsPu {
           return forumCategoryIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue categoryDescription_ = null;
+        private io.dstore.values.StringValue categoryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> categoryDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> categoryDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue category_description = 20006;</code>
          */
         public boolean hasCategoryDescription() {
           return categoryDescriptionBuilder_ != null || categoryDescription_ != null;
@@ -4766,11 +4766,11 @@ public final class FoGetForumsPu {
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue category_description = 20006;</code>
          */
-        public io.dstore.Values.stringValue getCategoryDescription() {
+        public io.dstore.values.StringValue getCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
-            return categoryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+            return categoryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
           } else {
             return categoryDescriptionBuilder_.getMessage();
           }
@@ -4780,9 +4780,9 @@ public final class FoGetForumsPu {
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue category_description = 20006;</code>
          */
-        public Builder setCategoryDescription(io.dstore.Values.stringValue value) {
+        public Builder setCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4800,10 +4800,10 @@ public final class FoGetForumsPu {
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue category_description = 20006;</code>
          */
         public Builder setCategoryDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescription_ = builderForValue.build();
             onChanged();
@@ -4818,13 +4818,13 @@ public final class FoGetForumsPu {
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue category_description = 20006;</code>
          */
-        public Builder mergeCategoryDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeCategoryDescription(io.dstore.values.StringValue value) {
           if (categoryDescriptionBuilder_ == null) {
             if (categoryDescription_ != null) {
               categoryDescription_ =
-                io.dstore.Values.stringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(categoryDescription_).mergeFrom(value).buildPartial();
             } else {
               categoryDescription_ = value;
             }
@@ -4840,7 +4840,7 @@ public final class FoGetForumsPu {
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue category_description = 20006;</code>
          */
         public Builder clearCategoryDescription() {
           if (categoryDescriptionBuilder_ == null) {
@@ -4858,9 +4858,9 @@ public final class FoGetForumsPu {
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue category_description = 20006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCategoryDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getCategoryDescriptionBuilder() {
           
           onChanged();
           return getCategoryDescriptionFieldBuilder().getBuilder();
@@ -4870,14 +4870,14 @@ public final class FoGetForumsPu {
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue category_description = 20006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCategoryDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCategoryDescriptionOrBuilder() {
           if (categoryDescriptionBuilder_ != null) {
             return categoryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return categoryDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : categoryDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : categoryDescription_;
           }
         }
         /**
@@ -4885,14 +4885,14 @@ public final class FoGetForumsPu {
          * Bezeichnung der Kategorie "ForumCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue category_description = 20006;</code>
+         * <code>optional .dstore.values.StringValue category_description = 20006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCategoryDescriptionFieldBuilder() {
           if (categoryDescriptionBuilder_ == null) {
             categoryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCategoryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -4901,15 +4901,15 @@ public final class FoGetForumsPu {
           return categoryDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue sortNo_ = null;
+        private io.dstore.values.IntegerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
          * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -4919,11 +4919,11 @@ public final class FoGetForumsPu {
          * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public io.dstore.Values.integerValue getSortNo() {
+        public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
@@ -4933,9 +4933,9 @@ public final class FoGetForumsPu {
          * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public Builder setSortNo(io.dstore.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4953,10 +4953,10 @@ public final class FoGetForumsPu {
          * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
         public Builder setSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -4971,13 +4971,13 @@ public final class FoGetForumsPu {
          * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -4993,7 +4993,7 @@ public final class FoGetForumsPu {
          * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -5011,9 +5011,9 @@ public final class FoGetForumsPu {
          * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
@@ -5023,14 +5023,14 @@ public final class FoGetForumsPu {
          * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
@@ -5038,14 +5038,14 @@ public final class FoGetForumsPu {
          * Bestimmt die Reihenfolge von "ForumID" innerhalb aller Foren, die "ForumCategoryID" zugeordnet sind
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 20007;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 20007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -6514,39 +6514,39 @@ public final class FoGetForumsPu {
       "Pu.proto\022\035dstore.engine.fo_GetForums_Pu\032" +
       "\023dstore/values.proto\032\032dstore/engine/engi" +
       "ne.proto\"\326\005\n\nParameters\022@\n\034person_identi" +
-      "fication_values\030\001 \001(\0132\032.dstore.values.st" +
+      "fication_values\030\001 \001(\0132\032.dstore.values.St" +
       "ringValue\022*\n!person_identification_value" +
       "s_null\030\351\007 \001(\010\0223\n\016person_type_id\030\002 \001(\0132\033." +
-      "dstore.values.integerValue\022\034\n\023person_typ" +
+      "dstore.values.IntegerValue\022\034\n\023person_typ" +
       "e_id_null\030\352\007 \001(\010\022-\n\tunique_id\030\003 \001(\0132\032.ds" +
-      "tore.values.stringValue\022\027\n\016unique_id_nul",
+      "tore.values.StringValue\022\027\n\016unique_id_nul",
       "l\030\353\007 \001(\010\022-\n\010forum_id\030\004 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\026\n\rforum_id_null\030\354\007 \001(\010\022" +
-      "0\n\013language_id\030\005 \001(\0132\033.dstore.values.int" +
+      "es.IntegerValue\022\026\n\rforum_id_null\030\354\007 \001(\010\022" +
+      "0\n\013language_id\030\005 \001(\0132\033.dstore.values.Int" +
       "egerValue\022\031\n\020language_id_null\030\355\007 \001(\010\022:\n\026" +
       "forum_category_id_list\030\006 \001(\0132\032.dstore.va" +
-      "lues.stringValue\022$\n\033forum_category_id_li" +
+      "lues.StringValue\022$\n\033forum_category_id_li" +
       "st_null\030\356\007 \001(\010\022=\n\030get_category_informati" +
-      "on\030\007 \001(\0132\033.dstore.values.booleanValue\022&\n" +
+      "on\030\007 \001(\0132\033.dstore.values.BooleanValue\022&\n" +
       "\035get_category_information_null\030\357\007 \001(\010\022;\n" +
       "\027separator_in_ident_vals\030\010 \001(\0132\032.dstore.",
-      "values.stringValue\022%\n\034separator_in_ident" +
+      "values.StringValue\022%\n\034separator_in_ident" +
       "_vals_null\030\360\007 \001(\010\"\351\004\n\010Response\0228\n\020meta_i" +
       "nformation\030\002 \003(\0132\036.dstore.engine.MetaInf" +
       "ormation\022\'\n\007message\030\003 \003(\0132\026.dstore.engin" +
       "e.Message\0228\n\003row\030\004 \003(\0132+.dstore.engine.f" +
       "o_GetForums_Pu.Response.Row\032\277\003\n\003Row\022\017\n\006r" +
       "ow_id\030\220N \001(\005\022-\n\010language\030\221N \001(\0132\032.dstore" +
-      ".values.stringValue\022.\n\010forum_id\030\222N \001(\0132\033" +
-      ".dstore.values.integerValue\022/\n\nforum_nam" +
-      "e\030\223N \001(\0132\032.dstore.values.stringValue\0221\n\013",
-      "language_id\030\224N \001(\0132\033.dstore.values.integ" +
+      ".values.StringValue\022.\n\010forum_id\030\222N \001(\0132\033" +
+      ".dstore.values.IntegerValue\022/\n\nforum_nam" +
+      "e\030\223N \001(\0132\032.dstore.values.StringValue\0221\n\013",
+      "language_id\030\224N \001(\0132\033.dstore.values.Integ" +
       "erValue\022>\n\027predecessor_category_id\030\242\234\001 \001" +
-      "(\0132\033.dstore.values.integerValue\0228\n\021forum" +
-      "_category_id\030\243\234\001 \001(\0132\033.dstore.values.int" +
+      "(\0132\033.dstore.values.IntegerValue\0228\n\021forum" +
+      "_category_id\030\243\234\001 \001(\0132\033.dstore.values.Int" +
       "egerValue\022:\n\024category_description\030\246\234\001 \001(" +
-      "\0132\032.dstore.values.stringValue\022.\n\007sort_no" +
-      "\030\247\234\001 \001(\0132\033.dstore.values.integerValueBP\n" +
+      "\0132\032.dstore.values.StringValue\022.\n\007sort_no" +
+      "\030\247\234\001 \001(\0132\033.dstore.values.IntegerValueBP\n" +
       "\033io.dstore.engine.proceduresZ1gosdk.dsto" +
       "re.de/engine/procedures/fo_GetForums_Pub" +
       "\006proto3"
@@ -6562,7 +6562,7 @@ public final class FoGetForumsPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_fo_GetForums_Pu_Parameters_descriptor =
@@ -6583,7 +6583,7 @@ public final class FoGetForumsPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetForums_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Language", "ForumId", "ForumName", "LanguageId", "PredecessorCategoryId", "ForumCategoryId", "CategoryDescription", "SortNo", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

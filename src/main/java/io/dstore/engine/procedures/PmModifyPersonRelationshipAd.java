@@ -19,17 +19,17 @@ public final class PmModifyPersonRelationshipAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmModifyPersonRelationshipAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
      */
     boolean hasRelatedPersonId();
     /**
-     * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
      */
-    io.dstore.Values.integerValue getRelatedPersonId();
+    io.dstore.values.IntegerValue getRelatedPersonId();
     /**
-     * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRelatedPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRelatedPersonIdOrBuilder();
 
     /**
      * <code>optional bool related_person_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmModifyPersonRelationshipAd {
     boolean getRelatedPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
      */
     boolean hasRelationshipId();
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
      */
-    io.dstore.Values.integerValue getRelationshipId();
+    io.dstore.values.IntegerValue getRelationshipId();
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder();
 
     /**
      * <code>optional bool relationship_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class PmModifyPersonRelationshipAd {
     boolean getRelationshipIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
     boolean hasSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
-    io.dstore.Values.integerValue getSortNo();
+    io.dstore.values.IntegerValue getSortNo();
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
     /**
      * <code>optional bool sort_no_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class PmModifyPersonRelationshipAd {
     boolean getSortNoNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
      */
     boolean hasValidFrom();
     /**
-     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
      */
-    io.dstore.Values.timestampValue getValidFrom();
+    io.dstore.values.TimestampValue getValidFrom();
     /**
-     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder();
 
     /**
      * <code>optional bool valid_from_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class PmModifyPersonRelationshipAd {
     boolean getValidFromNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
      */
     boolean hasValidTo();
     /**
-     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
      */
-    io.dstore.Values.timestampValue getValidTo();
+    io.dstore.values.TimestampValue getValidTo();
     /**
-     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder();
 
     /**
      * <code>optional bool valid_to_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class PmModifyPersonRelationshipAd {
     boolean getValidToNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+     * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
      */
     boolean hasOldValidFrom();
     /**
-     * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+     * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
      */
-    io.dstore.Values.timestampValue getOldValidFrom();
+    io.dstore.values.TimestampValue getOldValidFrom();
     /**
-     * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+     * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getOldValidFromOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getOldValidFromOrBuilder();
 
     /**
      * <code>optional bool old_valid_from_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class PmModifyPersonRelationshipAd {
     boolean getOldValidFromNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
      */
     boolean hasDeletePersonRelationship();
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
      */
-    io.dstore.Values.booleanValue getDeletePersonRelationship();
+    io.dstore.values.BooleanValue getDeletePersonRelationship();
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeletePersonRelationshipOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeletePersonRelationshipOrBuilder();
 
     /**
      * <code>optional bool delete_person_relationship_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class PmModifyPersonRelationshipAd {
     boolean getDeletePersonRelationshipNull();
 
     /**
-     * <code>optional .dstore.values.integerValue access_level = 9;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
      */
     boolean hasAccessLevel();
     /**
-     * <code>optional .dstore.values.integerValue access_level = 9;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
      */
-    io.dstore.Values.integerValue getAccessLevel();
+    io.dstore.values.IntegerValue getAccessLevel();
     /**
-     * <code>optional .dstore.values.integerValue access_level = 9;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder();
 
     /**
      * <code>optional bool access_level_null = 1009;</code>
@@ -229,11 +229,11 @@ public final class PmModifyPersonRelationshipAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -242,11 +242,11 @@ public final class PmModifyPersonRelationshipAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (relatedPersonId_ != null) {
                 subBuilder = relatedPersonId_.toBuilder();
               }
-              relatedPersonId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              relatedPersonId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(relatedPersonId_);
                 relatedPersonId_ = subBuilder.buildPartial();
@@ -255,11 +255,11 @@ public final class PmModifyPersonRelationshipAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (relationshipId_ != null) {
                 subBuilder = relationshipId_.toBuilder();
               }
-              relationshipId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              relationshipId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(relationshipId_);
                 relationshipId_ = subBuilder.buildPartial();
@@ -268,11 +268,11 @@ public final class PmModifyPersonRelationshipAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
               }
-              sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNo_);
                 sortNo_ = subBuilder.buildPartial();
@@ -281,11 +281,11 @@ public final class PmModifyPersonRelationshipAd {
               break;
             }
             case 42: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (validFrom_ != null) {
                 subBuilder = validFrom_.toBuilder();
               }
-              validFrom_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              validFrom_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validFrom_);
                 validFrom_ = subBuilder.buildPartial();
@@ -294,11 +294,11 @@ public final class PmModifyPersonRelationshipAd {
               break;
             }
             case 50: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (validTo_ != null) {
                 subBuilder = validTo_.toBuilder();
               }
-              validTo_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              validTo_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validTo_);
                 validTo_ = subBuilder.buildPartial();
@@ -307,11 +307,11 @@ public final class PmModifyPersonRelationshipAd {
               break;
             }
             case 58: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (oldValidFrom_ != null) {
                 subBuilder = oldValidFrom_.toBuilder();
               }
-              oldValidFrom_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              oldValidFrom_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(oldValidFrom_);
                 oldValidFrom_ = subBuilder.buildPartial();
@@ -320,11 +320,11 @@ public final class PmModifyPersonRelationshipAd {
               break;
             }
             case 66: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deletePersonRelationship_ != null) {
                 subBuilder = deletePersonRelationship_.toBuilder();
               }
-              deletePersonRelationship_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deletePersonRelationship_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deletePersonRelationship_);
                 deletePersonRelationship_ = subBuilder.buildPartial();
@@ -333,11 +333,11 @@ public final class PmModifyPersonRelationshipAd {
               break;
             }
             case 74: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (accessLevel_ != null) {
                 subBuilder = accessLevel_.toBuilder();
               }
-              accessLevel_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              accessLevel_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(accessLevel_);
                 accessLevel_ = subBuilder.buildPartial();
@@ -414,23 +414,23 @@ public final class PmModifyPersonRelationshipAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -444,23 +444,23 @@ public final class PmModifyPersonRelationshipAd {
     }
 
     public static final int RELATED_PERSON_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue relatedPersonId_;
+    private io.dstore.values.IntegerValue relatedPersonId_;
     /**
-     * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
      */
     public boolean hasRelatedPersonId() {
       return relatedPersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getRelatedPersonId() {
-      return relatedPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relatedPersonId_;
+    public io.dstore.values.IntegerValue getRelatedPersonId() {
+      return relatedPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relatedPersonId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRelatedPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRelatedPersonIdOrBuilder() {
       return getRelatedPersonId();
     }
 
@@ -474,23 +474,23 @@ public final class PmModifyPersonRelationshipAd {
     }
 
     public static final int RELATIONSHIP_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue relationshipId_;
+    private io.dstore.values.IntegerValue relationshipId_;
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
      */
     public boolean hasRelationshipId() {
       return relationshipId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getRelationshipId() {
-      return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
+    public io.dstore.values.IntegerValue getRelationshipId() {
+      return relationshipId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder() {
       return getRelationshipId();
     }
 
@@ -504,23 +504,23 @@ public final class PmModifyPersonRelationshipAd {
     }
 
     public static final int SORT_NO_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue sortNo_;
+    private io.dstore.values.IntegerValue sortNo_;
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
     public boolean hasSortNo() {
       return sortNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
-    public io.dstore.Values.integerValue getSortNo() {
-      return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+    public io.dstore.values.IntegerValue getSortNo() {
+      return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+     * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
       return getSortNo();
     }
 
@@ -534,23 +534,23 @@ public final class PmModifyPersonRelationshipAd {
     }
 
     public static final int VALID_FROM_FIELD_NUMBER = 5;
-    private io.dstore.Values.timestampValue validFrom_;
+    private io.dstore.values.TimestampValue validFrom_;
     /**
-     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
      */
     public boolean hasValidFrom() {
       return validFrom_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
      */
-    public io.dstore.Values.timestampValue getValidFrom() {
-      return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+    public io.dstore.values.TimestampValue getValidFrom() {
+      return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+     * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
       return getValidFrom();
     }
 
@@ -564,23 +564,23 @@ public final class PmModifyPersonRelationshipAd {
     }
 
     public static final int VALID_TO_FIELD_NUMBER = 6;
-    private io.dstore.Values.timestampValue validTo_;
+    private io.dstore.values.TimestampValue validTo_;
     /**
-     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
      */
     public boolean hasValidTo() {
       return validTo_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
      */
-    public io.dstore.Values.timestampValue getValidTo() {
-      return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
+    public io.dstore.values.TimestampValue getValidTo() {
+      return validTo_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+     * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder() {
       return getValidTo();
     }
 
@@ -594,23 +594,23 @@ public final class PmModifyPersonRelationshipAd {
     }
 
     public static final int OLD_VALID_FROM_FIELD_NUMBER = 7;
-    private io.dstore.Values.timestampValue oldValidFrom_;
+    private io.dstore.values.TimestampValue oldValidFrom_;
     /**
-     * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+     * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
      */
     public boolean hasOldValidFrom() {
       return oldValidFrom_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+     * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
      */
-    public io.dstore.Values.timestampValue getOldValidFrom() {
-      return oldValidFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : oldValidFrom_;
+    public io.dstore.values.TimestampValue getOldValidFrom() {
+      return oldValidFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : oldValidFrom_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+     * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getOldValidFromOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getOldValidFromOrBuilder() {
       return getOldValidFrom();
     }
 
@@ -624,23 +624,23 @@ public final class PmModifyPersonRelationshipAd {
     }
 
     public static final int DELETE_PERSON_RELATIONSHIP_FIELD_NUMBER = 8;
-    private io.dstore.Values.booleanValue deletePersonRelationship_;
+    private io.dstore.values.BooleanValue deletePersonRelationship_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
      */
     public boolean hasDeletePersonRelationship() {
       return deletePersonRelationship_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
      */
-    public io.dstore.Values.booleanValue getDeletePersonRelationship() {
-      return deletePersonRelationship_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deletePersonRelationship_;
+    public io.dstore.values.BooleanValue getDeletePersonRelationship() {
+      return deletePersonRelationship_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deletePersonRelationship_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+     * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeletePersonRelationshipOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeletePersonRelationshipOrBuilder() {
       return getDeletePersonRelationship();
     }
 
@@ -654,23 +654,23 @@ public final class PmModifyPersonRelationshipAd {
     }
 
     public static final int ACCESS_LEVEL_FIELD_NUMBER = 9;
-    private io.dstore.Values.integerValue accessLevel_;
+    private io.dstore.values.IntegerValue accessLevel_;
     /**
-     * <code>optional .dstore.values.integerValue access_level = 9;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
      */
     public boolean hasAccessLevel() {
       return accessLevel_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue access_level = 9;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
      */
-    public io.dstore.Values.integerValue getAccessLevel() {
-      return accessLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
+    public io.dstore.values.IntegerValue getAccessLevel() {
+      return accessLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
     }
     /**
-     * <code>optional .dstore.values.integerValue access_level = 9;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
       return getAccessLevel();
     }
 
@@ -1367,29 +1367,29 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1403,10 +1403,10 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -1417,13 +1417,13 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -1435,7 +1435,7 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1449,33 +1449,33 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1510,29 +1510,29 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue relatedPersonId_ = null;
+      private io.dstore.values.IntegerValue relatedPersonId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relatedPersonIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> relatedPersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
        */
       public boolean hasRelatedPersonId() {
         return relatedPersonIdBuilder_ != null || relatedPersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getRelatedPersonId() {
+      public io.dstore.values.IntegerValue getRelatedPersonId() {
         if (relatedPersonIdBuilder_ == null) {
-          return relatedPersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relatedPersonId_;
+          return relatedPersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relatedPersonId_;
         } else {
           return relatedPersonIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
        */
-      public Builder setRelatedPersonId(io.dstore.Values.integerValue value) {
+      public Builder setRelatedPersonId(io.dstore.values.IntegerValue value) {
         if (relatedPersonIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1546,10 +1546,10 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
        */
       public Builder setRelatedPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (relatedPersonIdBuilder_ == null) {
           relatedPersonId_ = builderForValue.build();
           onChanged();
@@ -1560,13 +1560,13 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
        */
-      public Builder mergeRelatedPersonId(io.dstore.Values.integerValue value) {
+      public Builder mergeRelatedPersonId(io.dstore.values.IntegerValue value) {
         if (relatedPersonIdBuilder_ == null) {
           if (relatedPersonId_ != null) {
             relatedPersonId_ =
-              io.dstore.Values.integerValue.newBuilder(relatedPersonId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(relatedPersonId_).mergeFrom(value).buildPartial();
           } else {
             relatedPersonId_ = value;
           }
@@ -1578,7 +1578,7 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
        */
       public Builder clearRelatedPersonId() {
         if (relatedPersonIdBuilder_ == null) {
@@ -1592,33 +1592,33 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRelatedPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRelatedPersonIdBuilder() {
         
         onChanged();
         return getRelatedPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRelatedPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRelatedPersonIdOrBuilder() {
         if (relatedPersonIdBuilder_ != null) {
           return relatedPersonIdBuilder_.getMessageOrBuilder();
         } else {
           return relatedPersonId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : relatedPersonId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : relatedPersonId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue related_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue related_person_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRelatedPersonIdFieldBuilder() {
         if (relatedPersonIdBuilder_ == null) {
           relatedPersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRelatedPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1653,29 +1653,29 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue relationshipId_ = null;
+      private io.dstore.values.IntegerValue relationshipId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> relationshipIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> relationshipIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
        */
       public boolean hasRelationshipId() {
         return relationshipIdBuilder_ != null || relationshipId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getRelationshipId() {
+      public io.dstore.values.IntegerValue getRelationshipId() {
         if (relationshipIdBuilder_ == null) {
-          return relationshipId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
+          return relationshipId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
         } else {
           return relationshipIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
        */
-      public Builder setRelationshipId(io.dstore.Values.integerValue value) {
+      public Builder setRelationshipId(io.dstore.values.IntegerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1689,10 +1689,10 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
        */
       public Builder setRelationshipId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (relationshipIdBuilder_ == null) {
           relationshipId_ = builderForValue.build();
           onChanged();
@@ -1703,13 +1703,13 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
        */
-      public Builder mergeRelationshipId(io.dstore.Values.integerValue value) {
+      public Builder mergeRelationshipId(io.dstore.values.IntegerValue value) {
         if (relationshipIdBuilder_ == null) {
           if (relationshipId_ != null) {
             relationshipId_ =
-              io.dstore.Values.integerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(relationshipId_).mergeFrom(value).buildPartial();
           } else {
             relationshipId_ = value;
           }
@@ -1721,7 +1721,7 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
        */
       public Builder clearRelationshipId() {
         if (relationshipIdBuilder_ == null) {
@@ -1735,33 +1735,33 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getRelationshipIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getRelationshipIdBuilder() {
         
         onChanged();
         return getRelationshipIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getRelationshipIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getRelationshipIdOrBuilder() {
         if (relationshipIdBuilder_ != null) {
           return relationshipIdBuilder_.getMessageOrBuilder();
         } else {
           return relationshipId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : relationshipId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : relationshipId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue relationship_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue relationship_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getRelationshipIdFieldBuilder() {
         if (relationshipIdBuilder_ == null) {
           relationshipIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getRelationshipId(),
                   getParentForChildren(),
                   isClean());
@@ -1796,29 +1796,29 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue sortNo_ = null;
+      private io.dstore.values.IntegerValue sortNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
       public boolean hasSortNo() {
         return sortNoBuilder_ != null || sortNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
+      public io.dstore.values.IntegerValue getSortNo() {
         if (sortNoBuilder_ == null) {
-          return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+          return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         } else {
           return sortNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public Builder setSortNo(io.dstore.Values.integerValue value) {
+      public Builder setSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1832,10 +1832,10 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder setSortNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (sortNoBuilder_ == null) {
           sortNo_ = builderForValue.build();
           onChanged();
@@ -1846,13 +1846,13 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+      public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
         if (sortNoBuilder_ == null) {
           if (sortNo_ != null) {
             sortNo_ =
-              io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
           } else {
             sortNo_ = value;
           }
@@ -1864,7 +1864,7 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
       public Builder clearSortNo() {
         if (sortNoBuilder_ == null) {
@@ -1878,33 +1878,33 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
         
         onChanged();
         return getSortNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         if (sortNoBuilder_ != null) {
           return sortNoBuilder_.getMessageOrBuilder();
         } else {
           return sortNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue sort_no = 4;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSortNoFieldBuilder() {
         if (sortNoBuilder_ == null) {
           sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSortNo(),
                   getParentForChildren(),
                   isClean());
@@ -1939,29 +1939,29 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue validFrom_ = null;
+      private io.dstore.values.TimestampValue validFrom_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validFromBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> validFromBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
        */
       public boolean hasValidFrom() {
         return validFromBuilder_ != null || validFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
        */
-      public io.dstore.Values.timestampValue getValidFrom() {
+      public io.dstore.values.TimestampValue getValidFrom() {
         if (validFromBuilder_ == null) {
-          return validFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+          return validFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
         } else {
           return validFromBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
        */
-      public Builder setValidFrom(io.dstore.Values.timestampValue value) {
+      public Builder setValidFrom(io.dstore.values.TimestampValue value) {
         if (validFromBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1975,10 +1975,10 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
        */
       public Builder setValidFrom(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (validFromBuilder_ == null) {
           validFrom_ = builderForValue.build();
           onChanged();
@@ -1989,13 +1989,13 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
        */
-      public Builder mergeValidFrom(io.dstore.Values.timestampValue value) {
+      public Builder mergeValidFrom(io.dstore.values.TimestampValue value) {
         if (validFromBuilder_ == null) {
           if (validFrom_ != null) {
             validFrom_ =
-              io.dstore.Values.timestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(validFrom_).mergeFrom(value).buildPartial();
           } else {
             validFrom_ = value;
           }
@@ -2007,7 +2007,7 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
        */
       public Builder clearValidFrom() {
         if (validFromBuilder_ == null) {
@@ -2021,33 +2021,33 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getValidFromBuilder() {
+      public io.dstore.values.TimestampValue.Builder getValidFromBuilder() {
         
         onChanged();
         return getValidFromFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getValidFromOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getValidFromOrBuilder() {
         if (validFromBuilder_ != null) {
           return validFromBuilder_.getMessageOrBuilder();
         } else {
           return validFrom_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : validFrom_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : validFrom_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_from = 5;</code>
+       * <code>optional .dstore.values.TimestampValue valid_from = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getValidFromFieldBuilder() {
         if (validFromBuilder_ == null) {
           validFromBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getValidFrom(),
                   getParentForChildren(),
                   isClean());
@@ -2082,29 +2082,29 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue validTo_ = null;
+      private io.dstore.values.TimestampValue validTo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> validToBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> validToBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
        */
       public boolean hasValidTo() {
         return validToBuilder_ != null || validTo_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
        */
-      public io.dstore.Values.timestampValue getValidTo() {
+      public io.dstore.values.TimestampValue getValidTo() {
         if (validToBuilder_ == null) {
-          return validTo_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
+          return validTo_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
         } else {
           return validToBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
        */
-      public Builder setValidTo(io.dstore.Values.timestampValue value) {
+      public Builder setValidTo(io.dstore.values.TimestampValue value) {
         if (validToBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2118,10 +2118,10 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
        */
       public Builder setValidTo(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (validToBuilder_ == null) {
           validTo_ = builderForValue.build();
           onChanged();
@@ -2132,13 +2132,13 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
        */
-      public Builder mergeValidTo(io.dstore.Values.timestampValue value) {
+      public Builder mergeValidTo(io.dstore.values.TimestampValue value) {
         if (validToBuilder_ == null) {
           if (validTo_ != null) {
             validTo_ =
-              io.dstore.Values.timestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(validTo_).mergeFrom(value).buildPartial();
           } else {
             validTo_ = value;
           }
@@ -2150,7 +2150,7 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
        */
       public Builder clearValidTo() {
         if (validToBuilder_ == null) {
@@ -2164,33 +2164,33 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getValidToBuilder() {
+      public io.dstore.values.TimestampValue.Builder getValidToBuilder() {
         
         onChanged();
         return getValidToFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getValidToOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getValidToOrBuilder() {
         if (validToBuilder_ != null) {
           return validToBuilder_.getMessageOrBuilder();
         } else {
           return validTo_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : validTo_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : validTo_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue valid_to = 6;</code>
+       * <code>optional .dstore.values.TimestampValue valid_to = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getValidToFieldBuilder() {
         if (validToBuilder_ == null) {
           validToBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getValidTo(),
                   getParentForChildren(),
                   isClean());
@@ -2225,29 +2225,29 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue oldValidFrom_ = null;
+      private io.dstore.values.TimestampValue oldValidFrom_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> oldValidFromBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> oldValidFromBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+       * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
        */
       public boolean hasOldValidFrom() {
         return oldValidFromBuilder_ != null || oldValidFrom_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+       * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
        */
-      public io.dstore.Values.timestampValue getOldValidFrom() {
+      public io.dstore.values.TimestampValue getOldValidFrom() {
         if (oldValidFromBuilder_ == null) {
-          return oldValidFrom_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : oldValidFrom_;
+          return oldValidFrom_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : oldValidFrom_;
         } else {
           return oldValidFromBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+       * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
        */
-      public Builder setOldValidFrom(io.dstore.Values.timestampValue value) {
+      public Builder setOldValidFrom(io.dstore.values.TimestampValue value) {
         if (oldValidFromBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2261,10 +2261,10 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+       * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
        */
       public Builder setOldValidFrom(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (oldValidFromBuilder_ == null) {
           oldValidFrom_ = builderForValue.build();
           onChanged();
@@ -2275,13 +2275,13 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+       * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
        */
-      public Builder mergeOldValidFrom(io.dstore.Values.timestampValue value) {
+      public Builder mergeOldValidFrom(io.dstore.values.TimestampValue value) {
         if (oldValidFromBuilder_ == null) {
           if (oldValidFrom_ != null) {
             oldValidFrom_ =
-              io.dstore.Values.timestampValue.newBuilder(oldValidFrom_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(oldValidFrom_).mergeFrom(value).buildPartial();
           } else {
             oldValidFrom_ = value;
           }
@@ -2293,7 +2293,7 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+       * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
        */
       public Builder clearOldValidFrom() {
         if (oldValidFromBuilder_ == null) {
@@ -2307,33 +2307,33 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+       * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getOldValidFromBuilder() {
+      public io.dstore.values.TimestampValue.Builder getOldValidFromBuilder() {
         
         onChanged();
         return getOldValidFromFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+       * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getOldValidFromOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getOldValidFromOrBuilder() {
         if (oldValidFromBuilder_ != null) {
           return oldValidFromBuilder_.getMessageOrBuilder();
         } else {
           return oldValidFrom_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : oldValidFrom_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : oldValidFrom_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue old_valid_from = 7;</code>
+       * <code>optional .dstore.values.TimestampValue old_valid_from = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getOldValidFromFieldBuilder() {
         if (oldValidFromBuilder_ == null) {
           oldValidFromBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getOldValidFrom(),
                   getParentForChildren(),
                   isClean());
@@ -2368,29 +2368,29 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deletePersonRelationship_ = null;
+      private io.dstore.values.BooleanValue deletePersonRelationship_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deletePersonRelationshipBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deletePersonRelationshipBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
        */
       public boolean hasDeletePersonRelationship() {
         return deletePersonRelationshipBuilder_ != null || deletePersonRelationship_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
        */
-      public io.dstore.Values.booleanValue getDeletePersonRelationship() {
+      public io.dstore.values.BooleanValue getDeletePersonRelationship() {
         if (deletePersonRelationshipBuilder_ == null) {
-          return deletePersonRelationship_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deletePersonRelationship_;
+          return deletePersonRelationship_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deletePersonRelationship_;
         } else {
           return deletePersonRelationshipBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
        */
-      public Builder setDeletePersonRelationship(io.dstore.Values.booleanValue value) {
+      public Builder setDeletePersonRelationship(io.dstore.values.BooleanValue value) {
         if (deletePersonRelationshipBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2404,10 +2404,10 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
        */
       public Builder setDeletePersonRelationship(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deletePersonRelationshipBuilder_ == null) {
           deletePersonRelationship_ = builderForValue.build();
           onChanged();
@@ -2418,13 +2418,13 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
        */
-      public Builder mergeDeletePersonRelationship(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeletePersonRelationship(io.dstore.values.BooleanValue value) {
         if (deletePersonRelationshipBuilder_ == null) {
           if (deletePersonRelationship_ != null) {
             deletePersonRelationship_ =
-              io.dstore.Values.booleanValue.newBuilder(deletePersonRelationship_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deletePersonRelationship_).mergeFrom(value).buildPartial();
           } else {
             deletePersonRelationship_ = value;
           }
@@ -2436,7 +2436,7 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
        */
       public Builder clearDeletePersonRelationship() {
         if (deletePersonRelationshipBuilder_ == null) {
@@ -2450,33 +2450,33 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeletePersonRelationshipBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeletePersonRelationshipBuilder() {
         
         onChanged();
         return getDeletePersonRelationshipFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeletePersonRelationshipOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeletePersonRelationshipOrBuilder() {
         if (deletePersonRelationshipBuilder_ != null) {
           return deletePersonRelationshipBuilder_.getMessageOrBuilder();
         } else {
           return deletePersonRelationship_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deletePersonRelationship_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deletePersonRelationship_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_person_relationship = 8;</code>
+       * <code>optional .dstore.values.BooleanValue delete_person_relationship = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeletePersonRelationshipFieldBuilder() {
         if (deletePersonRelationshipBuilder_ == null) {
           deletePersonRelationshipBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeletePersonRelationship(),
                   getParentForChildren(),
                   isClean());
@@ -2511,29 +2511,29 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue accessLevel_ = null;
+      private io.dstore.values.IntegerValue accessLevel_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accessLevelBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> accessLevelBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue access_level = 9;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
        */
       public boolean hasAccessLevel() {
         return accessLevelBuilder_ != null || accessLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 9;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
        */
-      public io.dstore.Values.integerValue getAccessLevel() {
+      public io.dstore.values.IntegerValue getAccessLevel() {
         if (accessLevelBuilder_ == null) {
-          return accessLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
+          return accessLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
         } else {
           return accessLevelBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 9;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
        */
-      public Builder setAccessLevel(io.dstore.Values.integerValue value) {
+      public Builder setAccessLevel(io.dstore.values.IntegerValue value) {
         if (accessLevelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2547,10 +2547,10 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 9;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
        */
       public Builder setAccessLevel(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (accessLevelBuilder_ == null) {
           accessLevel_ = builderForValue.build();
           onChanged();
@@ -2561,13 +2561,13 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 9;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
        */
-      public Builder mergeAccessLevel(io.dstore.Values.integerValue value) {
+      public Builder mergeAccessLevel(io.dstore.values.IntegerValue value) {
         if (accessLevelBuilder_ == null) {
           if (accessLevel_ != null) {
             accessLevel_ =
-              io.dstore.Values.integerValue.newBuilder(accessLevel_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(accessLevel_).mergeFrom(value).buildPartial();
           } else {
             accessLevel_ = value;
           }
@@ -2579,7 +2579,7 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 9;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
        */
       public Builder clearAccessLevel() {
         if (accessLevelBuilder_ == null) {
@@ -2593,33 +2593,33 @@ public final class PmModifyPersonRelationshipAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 9;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
        */
-      public io.dstore.Values.integerValue.Builder getAccessLevelBuilder() {
+      public io.dstore.values.IntegerValue.Builder getAccessLevelBuilder() {
         
         onChanged();
         return getAccessLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 9;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
         if (accessLevelBuilder_ != null) {
           return accessLevelBuilder_.getMessageOrBuilder();
         } else {
           return accessLevel_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 9;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getAccessLevelFieldBuilder() {
         if (accessLevelBuilder_ == null) {
           accessLevelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getAccessLevel(),
                   getParentForChildren(),
                   isClean());
@@ -4741,23 +4741,23 @@ public final class PmModifyPersonRelationshipAd {
       "m_ModifyPersonRelationship_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\355" +
       "\005\n\nParameters\022.\n\tperson_id\030\001 \001(\0132\033.dstor" +
-      "e.values.integerValue\022\027\n\016person_id_null\030" +
+      "e.values.IntegerValue\022\027\n\016person_id_null\030" +
       "\351\007 \001(\010\0226\n\021related_person_id\030\002 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\037\n\026related_person" +
+      "re.values.IntegerValue\022\037\n\026related_person" +
       "_id_null\030\352\007 \001(\010\0224\n\017relationship_id\030\003 \001(\013" +
-      "2\033.dstore.values.integerValue\022\035\n\024relatio",
+      "2\033.dstore.values.IntegerValue\022\035\n\024relatio",
       "nship_id_null\030\353\007 \001(\010\022,\n\007sort_no\030\004 \001(\0132\033." +
-      "dstore.values.integerValue\022\025\n\014sort_no_nu" +
+      "dstore.values.IntegerValue\022\025\n\014sort_no_nu" +
       "ll\030\354\007 \001(\010\0221\n\nvalid_from\030\005 \001(\0132\035.dstore.v" +
-      "alues.timestampValue\022\030\n\017valid_from_null\030" +
+      "alues.TimestampValue\022\030\n\017valid_from_null\030" +
       "\355\007 \001(\010\022/\n\010valid_to\030\006 \001(\0132\035.dstore.values" +
-      ".timestampValue\022\026\n\rvalid_to_null\030\356\007 \001(\010\022" +
+      ".TimestampValue\022\026\n\rvalid_to_null\030\356\007 \001(\010\022" +
       "5\n\016old_valid_from\030\007 \001(\0132\035.dstore.values." +
-      "timestampValue\022\034\n\023old_valid_from_null\030\357\007" +
+      "TimestampValue\022\034\n\023old_valid_from_null\030\357\007" +
       " \001(\010\022?\n\032delete_person_relationship\030\010 \001(\013" +
-      "2\033.dstore.values.booleanValue\022(\n\037delete_",
+      "2\033.dstore.values.BooleanValue\022(\n\037delete_",
       "person_relationship_null\030\360\007 \001(\010\0221\n\014acces" +
-      "s_level\030\t \001(\0132\033.dstore.values.integerVal" +
+      "s_level\030\t \001(\0132\033.dstore.values.IntegerVal" +
       "ue\022\032\n\021access_level_null\030\361\007 \001(\010\"\316\001\n\010Respo" +
       "nse\0228\n\020meta_information\030\002 \003(\0132\036.dstore.e" +
       "ngine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026" +
@@ -4779,7 +4779,7 @@ public final class PmModifyPersonRelationshipAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_ModifyPersonRelationship_Ad_Parameters_descriptor =
@@ -4800,7 +4800,7 @@ public final class PmModifyPersonRelationshipAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_ModifyPersonRelationship_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

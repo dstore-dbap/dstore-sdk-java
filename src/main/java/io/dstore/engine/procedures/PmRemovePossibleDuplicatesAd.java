@@ -19,17 +19,17 @@ public final class PmRemovePossibleDuplicatesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmRemovePossibleDuplicatesAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
      */
     boolean hasPossibleDuplicatePersonId();
     /**
-     * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPossibleDuplicatePersonId();
+    io.dstore.values.IntegerValue getPossibleDuplicatePersonId();
     /**
-     * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPossibleDuplicatePersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPossibleDuplicatePersonIdOrBuilder();
 
     /**
      * <code>optional bool possible_duplicate_person_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class PmRemovePossibleDuplicatesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class PmRemovePossibleDuplicatesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (possibleDuplicatePersonId_ != null) {
                 subBuilder = possibleDuplicatePersonId_.toBuilder();
               }
-              possibleDuplicatePersonId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              possibleDuplicatePersonId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(possibleDuplicatePersonId_);
                 possibleDuplicatePersonId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class PmRemovePossibleDuplicatesAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -185,23 +185,23 @@ public final class PmRemovePossibleDuplicatesAd {
     }
 
     public static final int POSSIBLE_DUPLICATE_PERSON_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue possibleDuplicatePersonId_;
+    private io.dstore.values.IntegerValue possibleDuplicatePersonId_;
     /**
-     * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
      */
     public boolean hasPossibleDuplicatePersonId() {
       return possibleDuplicatePersonId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPossibleDuplicatePersonId() {
-      return possibleDuplicatePersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : possibleDuplicatePersonId_;
+    public io.dstore.values.IntegerValue getPossibleDuplicatePersonId() {
+      return possibleDuplicatePersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : possibleDuplicatePersonId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPossibleDuplicatePersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPossibleDuplicatePersonIdOrBuilder() {
       return getPossibleDuplicatePersonId();
     }
 
@@ -562,29 +562,29 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -630,7 +630,7 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue possibleDuplicatePersonId_ = null;
+      private io.dstore.values.IntegerValue possibleDuplicatePersonId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> possibleDuplicatePersonIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> possibleDuplicatePersonIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
        */
       public boolean hasPossibleDuplicatePersonId() {
         return possibleDuplicatePersonIdBuilder_ != null || possibleDuplicatePersonId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPossibleDuplicatePersonId() {
+      public io.dstore.values.IntegerValue getPossibleDuplicatePersonId() {
         if (possibleDuplicatePersonIdBuilder_ == null) {
-          return possibleDuplicatePersonId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : possibleDuplicatePersonId_;
+          return possibleDuplicatePersonId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : possibleDuplicatePersonId_;
         } else {
           return possibleDuplicatePersonIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
        */
-      public Builder setPossibleDuplicatePersonId(io.dstore.Values.integerValue value) {
+      public Builder setPossibleDuplicatePersonId(io.dstore.values.IntegerValue value) {
         if (possibleDuplicatePersonIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
        */
       public Builder setPossibleDuplicatePersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (possibleDuplicatePersonIdBuilder_ == null) {
           possibleDuplicatePersonId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
        */
-      public Builder mergePossibleDuplicatePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePossibleDuplicatePersonId(io.dstore.values.IntegerValue value) {
         if (possibleDuplicatePersonIdBuilder_ == null) {
           if (possibleDuplicatePersonId_ != null) {
             possibleDuplicatePersonId_ =
-              io.dstore.Values.integerValue.newBuilder(possibleDuplicatePersonId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(possibleDuplicatePersonId_).mergeFrom(value).buildPartial();
           } else {
             possibleDuplicatePersonId_ = value;
           }
@@ -773,7 +773,7 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
        */
       public Builder clearPossibleDuplicatePersonId() {
         if (possibleDuplicatePersonIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class PmRemovePossibleDuplicatesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPossibleDuplicatePersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPossibleDuplicatePersonIdBuilder() {
         
         onChanged();
         return getPossibleDuplicatePersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPossibleDuplicatePersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPossibleDuplicatePersonIdOrBuilder() {
         if (possibleDuplicatePersonIdBuilder_ != null) {
           return possibleDuplicatePersonIdBuilder_.getMessageOrBuilder();
         } else {
           return possibleDuplicatePersonId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : possibleDuplicatePersonId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : possibleDuplicatePersonId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue possible_duplicate_person_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue possible_duplicate_person_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPossibleDuplicatePersonIdFieldBuilder() {
         if (possibleDuplicatePersonIdBuilder_ == null) {
           possibleDuplicatePersonIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPossibleDuplicatePersonId(),
                   getParentForChildren(),
                   isClean());
@@ -2935,9 +2935,9 @@ public final class PmRemovePossibleDuplicatesAd {
       "m_RemovePossibleDuplicates_Ad\032\023dstore/va" +
       "lues.proto\032\032dstore/engine/engine.proto\"\304" +
       "\001\n\nParameters\022.\n\tperson_id\030\001 \001(\0132\033.dstor" +
-      "e.values.integerValue\022\027\n\016person_id_null\030" +
+      "e.values.IntegerValue\022\027\n\016person_id_null\030" +
       "\351\007 \001(\010\022A\n\034possible_duplicate_person_id\030\002" +
-      " \001(\0132\033.dstore.values.integerValue\022*\n!pos" +
+      " \001(\0132\033.dstore.values.IntegerValue\022*\n!pos" +
       "sible_duplicate_person_id_null\030\352\007 \001(\010\"\316\001" +
       "\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036.d",
       "store.engine.MetaInformation\022\'\n\007message\030" +
@@ -2959,7 +2959,7 @@ public final class PmRemovePossibleDuplicatesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_RemovePossibleDuplicates_Ad_Parameters_descriptor =
@@ -2980,7 +2980,7 @@ public final class PmRemovePossibleDuplicatesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_RemovePossibleDuplicates_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

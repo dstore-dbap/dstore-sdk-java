@@ -19,17 +19,17 @@ public final class ImModifyLevelsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue level_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
      */
     boolean hasLevelId();
     /**
-     * <code>optional .dstore.values.integerValue level_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
      */
-    io.dstore.Values.integerValue getLevelId();
+    io.dstore.values.IntegerValue getLevelId();
     /**
-     * <code>optional .dstore.values.integerValue level_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder();
 
     /**
      * <code>optional bool level_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImModifyLevelsAd {
     boolean getLevelIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
     boolean hasLevelNo();
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
-    io.dstore.Values.integerValue getLevelNo();
+    io.dstore.values.IntegerValue getLevelNo();
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder();
 
     /**
      * <code>optional bool level_no_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class ImModifyLevelsAd {
     boolean getLevelNoNull();
 
     /**
-     * <code>optional .dstore.values.stringValue level_description = 3;</code>
+     * <code>optional .dstore.values.StringValue level_description = 3;</code>
      */
     boolean hasLevelDescription();
     /**
-     * <code>optional .dstore.values.stringValue level_description = 3;</code>
+     * <code>optional .dstore.values.StringValue level_description = 3;</code>
      */
-    io.dstore.Values.stringValue getLevelDescription();
+    io.dstore.values.StringValue getLevelDescription();
     /**
-     * <code>optional .dstore.values.stringValue level_description = 3;</code>
+     * <code>optional .dstore.values.StringValue level_description = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getLevelDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder();
 
     /**
      * <code>optional bool level_description_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class ImModifyLevelsAd {
     boolean getLevelDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
      */
     boolean hasDefaultSymbolId();
     /**
-     * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
      */
-    io.dstore.Values.integerValue getDefaultSymbolId();
+    io.dstore.values.IntegerValue getDefaultSymbolId();
     /**
-     * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getDefaultSymbolIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getDefaultSymbolIdOrBuilder();
 
     /**
      * <code>optional bool default_symbol_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class ImModifyLevelsAd {
     boolean getDefaultSymbolIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
      */
     boolean hasDefaultTemplateId();
     /**
-     * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
      */
-    io.dstore.Values.integerValue getDefaultTemplateId();
+    io.dstore.values.IntegerValue getDefaultTemplateId();
     /**
-     * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getDefaultTemplateIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getDefaultTemplateIdOrBuilder();
 
     /**
      * <code>optional bool default_template_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class ImModifyLevelsAd {
     boolean getDefaultTemplateIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
      */
     boolean hasDeleteLevel();
     /**
-     * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
      */
-    io.dstore.Values.booleanValue getDeleteLevel();
+    io.dstore.values.BooleanValue getDeleteLevel();
     /**
-     * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteLevelOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteLevelOrBuilder();
 
     /**
      * <code>optional bool delete_level_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class ImModifyLevelsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (levelId_ != null) {
                 subBuilder = levelId_.toBuilder();
               }
-              levelId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              levelId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(levelId_);
                 levelId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class ImModifyLevelsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (levelNo_ != null) {
                 subBuilder = levelNo_.toBuilder();
               }
-              levelNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              levelNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(levelNo_);
                 levelNo_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class ImModifyLevelsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (levelDescription_ != null) {
                 subBuilder = levelDescription_.toBuilder();
               }
-              levelDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              levelDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(levelDescription_);
                 levelDescription_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class ImModifyLevelsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (defaultSymbolId_ != null) {
                 subBuilder = defaultSymbolId_.toBuilder();
               }
-              defaultSymbolId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              defaultSymbolId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(defaultSymbolId_);
                 defaultSymbolId_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class ImModifyLevelsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (defaultTemplateId_ != null) {
                 subBuilder = defaultTemplateId_.toBuilder();
               }
-              defaultTemplateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              defaultTemplateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(defaultTemplateId_);
                 defaultTemplateId_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class ImModifyLevelsAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteLevel_ != null) {
                 subBuilder = deleteLevel_.toBuilder();
               }
-              deleteLevel_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteLevel_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteLevel_);
                 deleteLevel_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class ImModifyLevelsAd {
     }
 
     public static final int LEVEL_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue levelId_;
+    private io.dstore.values.IntegerValue levelId_;
     /**
-     * <code>optional .dstore.values.integerValue level_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
      */
     public boolean hasLevelId() {
       return levelId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue level_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getLevelId() {
-      return levelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
+    public io.dstore.values.IntegerValue getLevelId() {
+      return levelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue level_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
       return getLevelId();
     }
 
@@ -333,23 +333,23 @@ public final class ImModifyLevelsAd {
     }
 
     public static final int LEVEL_NO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue levelNo_;
+    private io.dstore.values.IntegerValue levelNo_;
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
     public boolean hasLevelNo() {
       return levelNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
-    public io.dstore.Values.integerValue getLevelNo() {
-      return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
+    public io.dstore.values.IntegerValue getLevelNo() {
+      return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue level_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
       return getLevelNo();
     }
 
@@ -363,23 +363,23 @@ public final class ImModifyLevelsAd {
     }
 
     public static final int LEVEL_DESCRIPTION_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue levelDescription_;
+    private io.dstore.values.StringValue levelDescription_;
     /**
-     * <code>optional .dstore.values.stringValue level_description = 3;</code>
+     * <code>optional .dstore.values.StringValue level_description = 3;</code>
      */
     public boolean hasLevelDescription() {
       return levelDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue level_description = 3;</code>
+     * <code>optional .dstore.values.StringValue level_description = 3;</code>
      */
-    public io.dstore.Values.stringValue getLevelDescription() {
-      return levelDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : levelDescription_;
+    public io.dstore.values.StringValue getLevelDescription() {
+      return levelDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue level_description = 3;</code>
+     * <code>optional .dstore.values.StringValue level_description = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getLevelDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder() {
       return getLevelDescription();
     }
 
@@ -393,23 +393,23 @@ public final class ImModifyLevelsAd {
     }
 
     public static final int DEFAULT_SYMBOL_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue defaultSymbolId_;
+    private io.dstore.values.IntegerValue defaultSymbolId_;
     /**
-     * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
      */
     public boolean hasDefaultSymbolId() {
       return defaultSymbolId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getDefaultSymbolId() {
-      return defaultSymbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : defaultSymbolId_;
+    public io.dstore.values.IntegerValue getDefaultSymbolId() {
+      return defaultSymbolId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : defaultSymbolId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getDefaultSymbolIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getDefaultSymbolIdOrBuilder() {
       return getDefaultSymbolId();
     }
 
@@ -423,23 +423,23 @@ public final class ImModifyLevelsAd {
     }
 
     public static final int DEFAULT_TEMPLATE_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue defaultTemplateId_;
+    private io.dstore.values.IntegerValue defaultTemplateId_;
     /**
-     * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
      */
     public boolean hasDefaultTemplateId() {
       return defaultTemplateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getDefaultTemplateId() {
-      return defaultTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : defaultTemplateId_;
+    public io.dstore.values.IntegerValue getDefaultTemplateId() {
+      return defaultTemplateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : defaultTemplateId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getDefaultTemplateIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getDefaultTemplateIdOrBuilder() {
       return getDefaultTemplateId();
     }
 
@@ -453,23 +453,23 @@ public final class ImModifyLevelsAd {
     }
 
     public static final int DELETE_LEVEL_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue deleteLevel_;
+    private io.dstore.values.BooleanValue deleteLevel_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
      */
     public boolean hasDeleteLevel() {
       return deleteLevel_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteLevel() {
-      return deleteLevel_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteLevel_;
+    public io.dstore.values.BooleanValue getDeleteLevel() {
+      return deleteLevel_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteLevel_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteLevelOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteLevelOrBuilder() {
       return getDeleteLevel();
     }
 
@@ -1022,29 +1022,29 @@ public final class ImModifyLevelsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue levelId_ = null;
+      private io.dstore.values.IntegerValue levelId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue level_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
        */
       public boolean hasLevelId() {
         return levelIdBuilder_ != null || levelId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getLevelId() {
+      public io.dstore.values.IntegerValue getLevelId() {
         if (levelIdBuilder_ == null) {
-          return levelId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
+          return levelId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
         } else {
           return levelIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue level_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
        */
-      public Builder setLevelId(io.dstore.Values.integerValue value) {
+      public Builder setLevelId(io.dstore.values.IntegerValue value) {
         if (levelIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
        */
       public Builder setLevelId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (levelIdBuilder_ == null) {
           levelId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
        */
-      public Builder mergeLevelId(io.dstore.Values.integerValue value) {
+      public Builder mergeLevelId(io.dstore.values.IntegerValue value) {
         if (levelIdBuilder_ == null) {
           if (levelId_ != null) {
             levelId_ =
-              io.dstore.Values.integerValue.newBuilder(levelId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(levelId_).mergeFrom(value).buildPartial();
           } else {
             levelId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
        */
       public Builder clearLevelId() {
         if (levelIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLevelIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLevelIdBuilder() {
         
         onChanged();
         return getLevelIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue level_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLevelIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLevelIdOrBuilder() {
         if (levelIdBuilder_ != null) {
           return levelIdBuilder_.getMessageOrBuilder();
         } else {
           return levelId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : levelId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : levelId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue level_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue level_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLevelIdFieldBuilder() {
         if (levelIdBuilder_ == null) {
           levelIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLevelId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class ImModifyLevelsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue levelNo_ = null;
+      private io.dstore.values.IntegerValue levelNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> levelNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> levelNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
       public boolean hasLevelNo() {
         return levelNoBuilder_ != null || levelNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public io.dstore.Values.integerValue getLevelNo() {
+      public io.dstore.values.IntegerValue getLevelNo() {
         if (levelNoBuilder_ == null) {
-          return levelNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
+          return levelNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
         } else {
           return levelNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public Builder setLevelNo(io.dstore.Values.integerValue value) {
+      public Builder setLevelNo(io.dstore.values.IntegerValue value) {
         if (levelNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
       public Builder setLevelNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (levelNoBuilder_ == null) {
           levelNo_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public Builder mergeLevelNo(io.dstore.Values.integerValue value) {
+      public Builder mergeLevelNo(io.dstore.values.IntegerValue value) {
         if (levelNoBuilder_ == null) {
           if (levelNo_ != null) {
             levelNo_ =
-              io.dstore.Values.integerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(levelNo_).mergeFrom(value).buildPartial();
           } else {
             levelNo_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
       public Builder clearLevelNo() {
         if (levelNoBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLevelNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLevelNoBuilder() {
         
         onChanged();
         return getLevelNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLevelNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLevelNoOrBuilder() {
         if (levelNoBuilder_ != null) {
           return levelNoBuilder_.getMessageOrBuilder();
         } else {
           return levelNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : levelNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : levelNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue level_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue level_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLevelNoFieldBuilder() {
         if (levelNoBuilder_ == null) {
           levelNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLevelNo(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class ImModifyLevelsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue levelDescription_ = null;
+      private io.dstore.values.StringValue levelDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> levelDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> levelDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue level_description = 3;</code>
+       * <code>optional .dstore.values.StringValue level_description = 3;</code>
        */
       public boolean hasLevelDescription() {
         return levelDescriptionBuilder_ != null || levelDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_description = 3;</code>
+       * <code>optional .dstore.values.StringValue level_description = 3;</code>
        */
-      public io.dstore.Values.stringValue getLevelDescription() {
+      public io.dstore.values.StringValue getLevelDescription() {
         if (levelDescriptionBuilder_ == null) {
-          return levelDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : levelDescription_;
+          return levelDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : levelDescription_;
         } else {
           return levelDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue level_description = 3;</code>
+       * <code>optional .dstore.values.StringValue level_description = 3;</code>
        */
-      public Builder setLevelDescription(io.dstore.Values.stringValue value) {
+      public Builder setLevelDescription(io.dstore.values.StringValue value) {
         if (levelDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_description = 3;</code>
+       * <code>optional .dstore.values.StringValue level_description = 3;</code>
        */
       public Builder setLevelDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (levelDescriptionBuilder_ == null) {
           levelDescription_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_description = 3;</code>
+       * <code>optional .dstore.values.StringValue level_description = 3;</code>
        */
-      public Builder mergeLevelDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeLevelDescription(io.dstore.values.StringValue value) {
         if (levelDescriptionBuilder_ == null) {
           if (levelDescription_ != null) {
             levelDescription_ =
-              io.dstore.Values.stringValue.newBuilder(levelDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(levelDescription_).mergeFrom(value).buildPartial();
           } else {
             levelDescription_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_description = 3;</code>
+       * <code>optional .dstore.values.StringValue level_description = 3;</code>
        */
       public Builder clearLevelDescription() {
         if (levelDescriptionBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue level_description = 3;</code>
+       * <code>optional .dstore.values.StringValue level_description = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getLevelDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getLevelDescriptionBuilder() {
         
         onChanged();
         return getLevelDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue level_description = 3;</code>
+       * <code>optional .dstore.values.StringValue level_description = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getLevelDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getLevelDescriptionOrBuilder() {
         if (levelDescriptionBuilder_ != null) {
           return levelDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return levelDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : levelDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : levelDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue level_description = 3;</code>
+       * <code>optional .dstore.values.StringValue level_description = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getLevelDescriptionFieldBuilder() {
         if (levelDescriptionBuilder_ == null) {
           levelDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getLevelDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class ImModifyLevelsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue defaultSymbolId_ = null;
+      private io.dstore.values.IntegerValue defaultSymbolId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> defaultSymbolIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> defaultSymbolIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
        */
       public boolean hasDefaultSymbolId() {
         return defaultSymbolIdBuilder_ != null || defaultSymbolId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getDefaultSymbolId() {
+      public io.dstore.values.IntegerValue getDefaultSymbolId() {
         if (defaultSymbolIdBuilder_ == null) {
-          return defaultSymbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : defaultSymbolId_;
+          return defaultSymbolId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : defaultSymbolId_;
         } else {
           return defaultSymbolIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
        */
-      public Builder setDefaultSymbolId(io.dstore.Values.integerValue value) {
+      public Builder setDefaultSymbolId(io.dstore.values.IntegerValue value) {
         if (defaultSymbolIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
        */
       public Builder setDefaultSymbolId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (defaultSymbolIdBuilder_ == null) {
           defaultSymbolId_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
        */
-      public Builder mergeDefaultSymbolId(io.dstore.Values.integerValue value) {
+      public Builder mergeDefaultSymbolId(io.dstore.values.IntegerValue value) {
         if (defaultSymbolIdBuilder_ == null) {
           if (defaultSymbolId_ != null) {
             defaultSymbolId_ =
-              io.dstore.Values.integerValue.newBuilder(defaultSymbolId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(defaultSymbolId_).mergeFrom(value).buildPartial();
           } else {
             defaultSymbolId_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
        */
       public Builder clearDefaultSymbolId() {
         if (defaultSymbolIdBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getDefaultSymbolIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getDefaultSymbolIdBuilder() {
         
         onChanged();
         return getDefaultSymbolIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDefaultSymbolIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDefaultSymbolIdOrBuilder() {
         if (defaultSymbolIdBuilder_ != null) {
           return defaultSymbolIdBuilder_.getMessageOrBuilder();
         } else {
           return defaultSymbolId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : defaultSymbolId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : defaultSymbolId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue default_symbol_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue default_symbol_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getDefaultSymbolIdFieldBuilder() {
         if (defaultSymbolIdBuilder_ == null) {
           defaultSymbolIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getDefaultSymbolId(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class ImModifyLevelsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue defaultTemplateId_ = null;
+      private io.dstore.values.IntegerValue defaultTemplateId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> defaultTemplateIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> defaultTemplateIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
        */
       public boolean hasDefaultTemplateId() {
         return defaultTemplateIdBuilder_ != null || defaultTemplateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getDefaultTemplateId() {
+      public io.dstore.values.IntegerValue getDefaultTemplateId() {
         if (defaultTemplateIdBuilder_ == null) {
-          return defaultTemplateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : defaultTemplateId_;
+          return defaultTemplateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : defaultTemplateId_;
         } else {
           return defaultTemplateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
        */
-      public Builder setDefaultTemplateId(io.dstore.Values.integerValue value) {
+      public Builder setDefaultTemplateId(io.dstore.values.IntegerValue value) {
         if (defaultTemplateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
        */
       public Builder setDefaultTemplateId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (defaultTemplateIdBuilder_ == null) {
           defaultTemplateId_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
        */
-      public Builder mergeDefaultTemplateId(io.dstore.Values.integerValue value) {
+      public Builder mergeDefaultTemplateId(io.dstore.values.IntegerValue value) {
         if (defaultTemplateIdBuilder_ == null) {
           if (defaultTemplateId_ != null) {
             defaultTemplateId_ =
-              io.dstore.Values.integerValue.newBuilder(defaultTemplateId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(defaultTemplateId_).mergeFrom(value).buildPartial();
           } else {
             defaultTemplateId_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
        */
       public Builder clearDefaultTemplateId() {
         if (defaultTemplateIdBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getDefaultTemplateIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getDefaultTemplateIdBuilder() {
         
         onChanged();
         return getDefaultTemplateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getDefaultTemplateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getDefaultTemplateIdOrBuilder() {
         if (defaultTemplateIdBuilder_ != null) {
           return defaultTemplateIdBuilder_.getMessageOrBuilder();
         } else {
           return defaultTemplateId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : defaultTemplateId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : defaultTemplateId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue default_template_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue default_template_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getDefaultTemplateIdFieldBuilder() {
         if (defaultTemplateIdBuilder_ == null) {
           defaultTemplateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getDefaultTemplateId(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class ImModifyLevelsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteLevel_ = null;
+      private io.dstore.values.BooleanValue deleteLevel_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteLevelBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteLevelBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
        */
       public boolean hasDeleteLevel() {
         return deleteLevelBuilder_ != null || deleteLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteLevel() {
+      public io.dstore.values.BooleanValue getDeleteLevel() {
         if (deleteLevelBuilder_ == null) {
-          return deleteLevel_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteLevel_;
+          return deleteLevel_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteLevel_;
         } else {
           return deleteLevelBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
        */
-      public Builder setDeleteLevel(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteLevel(io.dstore.values.BooleanValue value) {
         if (deleteLevelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
        */
       public Builder setDeleteLevel(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteLevelBuilder_ == null) {
           deleteLevel_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
        */
-      public Builder mergeDeleteLevel(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteLevel(io.dstore.values.BooleanValue value) {
         if (deleteLevelBuilder_ == null) {
           if (deleteLevel_ != null) {
             deleteLevel_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteLevel_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteLevel_).mergeFrom(value).buildPartial();
           } else {
             deleteLevel_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
        */
       public Builder clearDeleteLevel() {
         if (deleteLevelBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class ImModifyLevelsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteLevelBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteLevelBuilder() {
         
         onChanged();
         return getDeleteLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteLevelOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteLevelOrBuilder() {
         if (deleteLevelBuilder_ != null) {
           return deleteLevelBuilder_.getMessageOrBuilder();
         } else {
           return deleteLevel_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteLevel_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteLevel_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_level = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete_level = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteLevelFieldBuilder() {
         if (deleteLevelBuilder_ == null) {
           deleteLevelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteLevel(),
                   getParentForChildren(),
                   isClean());
@@ -3966,18 +3966,18 @@ public final class ImModifyLevelsAd {
       "ls_Ad.proto\022 dstore.engine.im_ModifyLeve" +
       "ls_Ad\032\023dstore/values.proto\032\032dstore/engin" +
       "e/engine.proto\"\367\003\n\nParameters\022-\n\010level_i" +
-      "d\030\001 \001(\0132\033.dstore.values.integerValue\022\026\n\r" +
+      "d\030\001 \001(\0132\033.dstore.values.IntegerValue\022\026\n\r" +
       "level_id_null\030\351\007 \001(\010\022-\n\010level_no\030\002 \001(\0132\033" +
-      ".dstore.values.integerValue\022\026\n\rlevel_no_" +
+      ".dstore.values.IntegerValue\022\026\n\rlevel_no_" +
       "null\030\352\007 \001(\010\0225\n\021level_description\030\003 \001(\0132\032" +
-      ".dstore.values.stringValue\022\037\n\026level_desc" +
+      ".dstore.values.StringValue\022\037\n\026level_desc" +
       "ription_null\030\353\007 \001(\010\0226\n\021default_symbol_id",
-      "\030\004 \001(\0132\033.dstore.values.integerValue\022\037\n\026d" +
+      "\030\004 \001(\0132\033.dstore.values.IntegerValue\022\037\n\026d" +
       "efault_symbol_id_null\030\354\007 \001(\010\0228\n\023default_" +
-      "template_id\030\005 \001(\0132\033.dstore.values.intege" +
+      "template_id\030\005 \001(\0132\033.dstore.values.Intege" +
       "rValue\022!\n\030default_template_id_null\030\355\007 \001(" +
       "\010\0221\n\014delete_level\030\006 \001(\0132\033.dstore.values." +
-      "booleanValue\022\032\n\021delete_level_null\030\356\007 \001(\010" +
+      "BooleanValue\022\032\n\021delete_level_null\030\356\007 \001(\010" +
       "\"\302\001\n\010Response\0228\n\020meta_information\030\002 \003(\0132" +
       "\036.dstore.engine.MetaInformation\022\'\n\007messa" +
       "ge\030\003 \003(\0132\026.dstore.engine.Message\022;\n\003row\030" +
@@ -3998,7 +3998,7 @@ public final class ImModifyLevelsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_ModifyLevels_Ad_Parameters_descriptor =
@@ -4019,7 +4019,7 @@ public final class ImModifyLevelsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_ModifyLevels_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class OmGetCampaignConditionsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCampaignId();
+    io.dstore.values.IntegerValue getCampaignId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
      * <code>optional bool campaign_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class OmGetCampaignConditionsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class OmGetCampaignConditionsAd {
     }
 
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue campaignId_;
+    private io.dstore.values.IntegerValue campaignId_;
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCampaignId() {
-      return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+    public io.dstore.values.IntegerValue getCampaignId() {
+      return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
     }
 
@@ -447,29 +447,29 @@ public final class OmGetCampaignConditionsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue campaignId_ = null;
+      private io.dstore.values.IntegerValue campaignId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCampaignId() {
+      public io.dstore.values.IntegerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
-          return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+          return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
         } else {
           return campaignIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public Builder setCampaignId(io.dstore.Values.integerValue value) {
+      public Builder setCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class OmGetCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder setCampaignId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (campaignIdBuilder_ == null) {
           campaignId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class OmGetCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
+      public Builder mergeCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
           if (campaignId_ != null) {
             campaignId_ =
-              io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
           } else {
             campaignId_ = value;
           }
@@ -515,7 +515,7 @@ public final class OmGetCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class OmGetCampaignConditionsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCampaignIdBuilder() {
         
         onChanged();
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
           return campaignIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCampaignIdFieldBuilder() {
         if (campaignIdBuilder_ == null) {
           campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCampaignId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class OmGetCampaignConditionsAd {
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
        */
       boolean hasCriteriaTypeId();
       /**
@@ -857,24 +857,24 @@ public final class OmGetCampaignConditionsAd {
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getCriteriaTypeId();
+      io.dstore.values.IntegerValue getCriteriaTypeId();
       /**
        * <pre>
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCriteriaTypeIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
        */
       boolean hasCriteriaType();
       /**
@@ -882,24 +882,24 @@ public final class OmGetCampaignConditionsAd {
        * Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
        */
-      io.dstore.Values.stringValue getCriteriaType();
+      io.dstore.values.StringValue getCriteriaType();
       /**
        * <pre>
        * Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCriteriaTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCriteriaTypeOrBuilder();
 
       /**
        * <pre>
        * Die ID einer Bedingung zur "&#64;CampaignID".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
        */
       boolean hasConditionId();
       /**
@@ -907,17 +907,17 @@ public final class OmGetCampaignConditionsAd {
        * Die ID einer Bedingung zur "&#64;CampaignID".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getConditionId();
+      io.dstore.values.IntegerValue getConditionId();
       /**
        * <pre>
        * Die ID einer Bedingung zur "&#64;CampaignID".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetCampaignConditions_Ad.Response.Row}
@@ -965,11 +965,11 @@ public final class OmGetCampaignConditionsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (criteriaTypeId_ != null) {
                   subBuilder = criteriaTypeId_.toBuilder();
                 }
-                criteriaTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                criteriaTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(criteriaTypeId_);
                   criteriaTypeId_ = subBuilder.buildPartial();
@@ -978,11 +978,11 @@ public final class OmGetCampaignConditionsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (criteriaType_ != null) {
                   subBuilder = criteriaType_.toBuilder();
                 }
-                criteriaType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                criteriaType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(criteriaType_);
                   criteriaType_ = subBuilder.buildPartial();
@@ -991,11 +991,11 @@ public final class OmGetCampaignConditionsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (conditionId_ != null) {
                   subBuilder = conditionId_.toBuilder();
                 }
-                conditionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                conditionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionId_);
                   conditionId_ = subBuilder.buildPartial();
@@ -1036,13 +1036,13 @@ public final class OmGetCampaignConditionsAd {
       }
 
       public static final int CRITERIA_TYPE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue criteriaTypeId_;
+      private io.dstore.values.IntegerValue criteriaTypeId_;
       /**
        * <pre>
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
        */
       public boolean hasCriteriaTypeId() {
         return criteriaTypeId_ != null;
@@ -1052,30 +1052,30 @@ public final class OmGetCampaignConditionsAd {
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getCriteriaTypeId() {
-        return criteriaTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+      public io.dstore.values.IntegerValue getCriteriaTypeId() {
+        return criteriaTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : criteriaTypeId_;
       }
       /**
        * <pre>
        * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCriteriaTypeIdOrBuilder() {
         return getCriteriaTypeId();
       }
 
       public static final int CRITERIA_TYPE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue criteriaType_;
+      private io.dstore.values.StringValue criteriaType_;
       /**
        * <pre>
        * Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
        */
       public boolean hasCriteriaType() {
         return criteriaType_ != null;
@@ -1085,30 +1085,30 @@ public final class OmGetCampaignConditionsAd {
        * Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
        */
-      public io.dstore.Values.stringValue getCriteriaType() {
-        return criteriaType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : criteriaType_;
+      public io.dstore.values.StringValue getCriteriaType() {
+        return criteriaType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : criteriaType_;
       }
       /**
        * <pre>
        * Bezeichnung der Kriteriumsart
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCriteriaTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCriteriaTypeOrBuilder() {
         return getCriteriaType();
       }
 
       public static final int CONDITION_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue conditionId_;
+      private io.dstore.values.IntegerValue conditionId_;
       /**
        * <pre>
        * Die ID einer Bedingung zur "&#64;CampaignID".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
        */
       public boolean hasConditionId() {
         return conditionId_ != null;
@@ -1118,19 +1118,19 @@ public final class OmGetCampaignConditionsAd {
        * Die ID einer Bedingung zur "&#64;CampaignID".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getConditionId() {
-        return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+      public io.dstore.values.IntegerValue getConditionId() {
+        return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
       }
       /**
        * <pre>
        * Die ID einer Bedingung zur "&#64;CampaignID".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
         return getConditionId();
       }
 
@@ -1519,15 +1519,15 @@ public final class OmGetCampaignConditionsAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue criteriaTypeId_ = null;
+        private io.dstore.values.IntegerValue criteriaTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> criteriaTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> criteriaTypeIdBuilder_;
         /**
          * <pre>
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
          */
         public boolean hasCriteriaTypeId() {
           return criteriaTypeIdBuilder_ != null || criteriaTypeId_ != null;
@@ -1537,11 +1537,11 @@ public final class OmGetCampaignConditionsAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getCriteriaTypeId() {
+        public io.dstore.values.IntegerValue getCriteriaTypeId() {
           if (criteriaTypeIdBuilder_ == null) {
-            return criteriaTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+            return criteriaTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : criteriaTypeId_;
           } else {
             return criteriaTypeIdBuilder_.getMessage();
           }
@@ -1551,9 +1551,9 @@ public final class OmGetCampaignConditionsAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
          */
-        public Builder setCriteriaTypeId(io.dstore.Values.integerValue value) {
+        public Builder setCriteriaTypeId(io.dstore.values.IntegerValue value) {
           if (criteriaTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1571,10 +1571,10 @@ public final class OmGetCampaignConditionsAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
          */
         public Builder setCriteriaTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (criteriaTypeIdBuilder_ == null) {
             criteriaTypeId_ = builderForValue.build();
             onChanged();
@@ -1589,13 +1589,13 @@ public final class OmGetCampaignConditionsAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
          */
-        public Builder mergeCriteriaTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeCriteriaTypeId(io.dstore.values.IntegerValue value) {
           if (criteriaTypeIdBuilder_ == null) {
             if (criteriaTypeId_ != null) {
               criteriaTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(criteriaTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(criteriaTypeId_).mergeFrom(value).buildPartial();
             } else {
               criteriaTypeId_ = value;
             }
@@ -1611,7 +1611,7 @@ public final class OmGetCampaignConditionsAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
          */
         public Builder clearCriteriaTypeId() {
           if (criteriaTypeIdBuilder_ == null) {
@@ -1629,9 +1629,9 @@ public final class OmGetCampaignConditionsAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCriteriaTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCriteriaTypeIdBuilder() {
           
           onChanged();
           return getCriteriaTypeIdFieldBuilder().getBuilder();
@@ -1641,14 +1641,14 @@ public final class OmGetCampaignConditionsAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCriteriaTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCriteriaTypeIdOrBuilder() {
           if (criteriaTypeIdBuilder_ != null) {
             return criteriaTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return criteriaTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : criteriaTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : criteriaTypeId_;
           }
         }
         /**
@@ -1656,14 +1656,14 @@ public final class OmGetCampaignConditionsAd {
          * ID der Kriteriumsart der Bedingung (wie z.B. "erweiterte Artikel-Bedingung")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue criteria_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue criteria_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCriteriaTypeIdFieldBuilder() {
           if (criteriaTypeIdBuilder_ == null) {
             criteriaTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCriteriaTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -1672,15 +1672,15 @@ public final class OmGetCampaignConditionsAd {
           return criteriaTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue criteriaType_ = null;
+        private io.dstore.values.StringValue criteriaType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> criteriaTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> criteriaTypeBuilder_;
         /**
          * <pre>
          * Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
          */
         public boolean hasCriteriaType() {
           return criteriaTypeBuilder_ != null || criteriaType_ != null;
@@ -1690,11 +1690,11 @@ public final class OmGetCampaignConditionsAd {
          * Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
          */
-        public io.dstore.Values.stringValue getCriteriaType() {
+        public io.dstore.values.StringValue getCriteriaType() {
           if (criteriaTypeBuilder_ == null) {
-            return criteriaType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : criteriaType_;
+            return criteriaType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : criteriaType_;
           } else {
             return criteriaTypeBuilder_.getMessage();
           }
@@ -1704,9 +1704,9 @@ public final class OmGetCampaignConditionsAd {
          * Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
          */
-        public Builder setCriteriaType(io.dstore.Values.stringValue value) {
+        public Builder setCriteriaType(io.dstore.values.StringValue value) {
           if (criteriaTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1724,10 +1724,10 @@ public final class OmGetCampaignConditionsAd {
          * Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
          */
         public Builder setCriteriaType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (criteriaTypeBuilder_ == null) {
             criteriaType_ = builderForValue.build();
             onChanged();
@@ -1742,13 +1742,13 @@ public final class OmGetCampaignConditionsAd {
          * Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
          */
-        public Builder mergeCriteriaType(io.dstore.Values.stringValue value) {
+        public Builder mergeCriteriaType(io.dstore.values.StringValue value) {
           if (criteriaTypeBuilder_ == null) {
             if (criteriaType_ != null) {
               criteriaType_ =
-                io.dstore.Values.stringValue.newBuilder(criteriaType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(criteriaType_).mergeFrom(value).buildPartial();
             } else {
               criteriaType_ = value;
             }
@@ -1764,7 +1764,7 @@ public final class OmGetCampaignConditionsAd {
          * Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
          */
         public Builder clearCriteriaType() {
           if (criteriaTypeBuilder_ == null) {
@@ -1782,9 +1782,9 @@ public final class OmGetCampaignConditionsAd {
          * Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCriteriaTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getCriteriaTypeBuilder() {
           
           onChanged();
           return getCriteriaTypeFieldBuilder().getBuilder();
@@ -1794,14 +1794,14 @@ public final class OmGetCampaignConditionsAd {
          * Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCriteriaTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCriteriaTypeOrBuilder() {
           if (criteriaTypeBuilder_ != null) {
             return criteriaTypeBuilder_.getMessageOrBuilder();
           } else {
             return criteriaType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : criteriaType_;
+                io.dstore.values.StringValue.getDefaultInstance() : criteriaType_;
           }
         }
         /**
@@ -1809,14 +1809,14 @@ public final class OmGetCampaignConditionsAd {
          * Bezeichnung der Kriteriumsart
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue criteria_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue criteria_type = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCriteriaTypeFieldBuilder() {
           if (criteriaTypeBuilder_ == null) {
             criteriaTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCriteriaType(),
                     getParentForChildren(),
                     isClean());
@@ -1825,15 +1825,15 @@ public final class OmGetCampaignConditionsAd {
           return criteriaTypeBuilder_;
         }
 
-        private io.dstore.Values.integerValue conditionId_ = null;
+        private io.dstore.values.IntegerValue conditionId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> conditionIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> conditionIdBuilder_;
         /**
          * <pre>
          * Die ID einer Bedingung zur "&#64;CampaignID".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public boolean hasConditionId() {
           return conditionIdBuilder_ != null || conditionId_ != null;
@@ -1843,11 +1843,11 @@ public final class OmGetCampaignConditionsAd {
          * Die ID einer Bedingung zur "&#64;CampaignID".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getConditionId() {
+        public io.dstore.values.IntegerValue getConditionId() {
           if (conditionIdBuilder_ == null) {
-            return conditionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+            return conditionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
           } else {
             return conditionIdBuilder_.getMessage();
           }
@@ -1857,9 +1857,9 @@ public final class OmGetCampaignConditionsAd {
          * Die ID einer Bedingung zur "&#64;CampaignID".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
          */
-        public Builder setConditionId(io.dstore.Values.integerValue value) {
+        public Builder setConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1877,10 +1877,10 @@ public final class OmGetCampaignConditionsAd {
          * Die ID einer Bedingung zur "&#64;CampaignID".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public Builder setConditionId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (conditionIdBuilder_ == null) {
             conditionId_ = builderForValue.build();
             onChanged();
@@ -1895,13 +1895,13 @@ public final class OmGetCampaignConditionsAd {
          * Die ID einer Bedingung zur "&#64;CampaignID".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
          */
-        public Builder mergeConditionId(io.dstore.Values.integerValue value) {
+        public Builder mergeConditionId(io.dstore.values.IntegerValue value) {
           if (conditionIdBuilder_ == null) {
             if (conditionId_ != null) {
               conditionId_ =
-                io.dstore.Values.integerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(conditionId_).mergeFrom(value).buildPartial();
             } else {
               conditionId_ = value;
             }
@@ -1917,7 +1917,7 @@ public final class OmGetCampaignConditionsAd {
          * Die ID einer Bedingung zur "&#64;CampaignID".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
          */
         public Builder clearConditionId() {
           if (conditionIdBuilder_ == null) {
@@ -1935,9 +1935,9 @@ public final class OmGetCampaignConditionsAd {
          * Die ID einer Bedingung zur "&#64;CampaignID".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getConditionIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getConditionIdBuilder() {
           
           onChanged();
           return getConditionIdFieldBuilder().getBuilder();
@@ -1947,14 +1947,14 @@ public final class OmGetCampaignConditionsAd {
          * Die ID einer Bedingung zur "&#64;CampaignID".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getConditionIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getConditionIdOrBuilder() {
           if (conditionIdBuilder_ != null) {
             return conditionIdBuilder_.getMessageOrBuilder();
           } else {
             return conditionId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : conditionId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : conditionId_;
           }
         }
         /**
@@ -1962,14 +1962,14 @@ public final class OmGetCampaignConditionsAd {
          * Die ID einer Bedingung zur "&#64;CampaignID".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue condition_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue condition_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getConditionIdFieldBuilder() {
           if (conditionIdBuilder_ == null) {
             conditionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getConditionId(),
                     getParentForChildren(),
                     isClean());
@@ -3439,16 +3439,16 @@ public final class OmGetCampaignConditionsAd {
       "etCampaignConditions_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"Y\n\nPara" +
       "meters\0220\n\013campaign_id\030\001 \001(\0132\033.dstore.val" +
-      "ues.integerValue\022\031\n\020campaign_id_null\030\351\007 " +
+      "ues.IntegerValue\022\031\n\020campaign_id_null\030\351\007 " +
       "\001(\010\"\354\002\n\010Response\0228\n\020meta_information\030\002 \003" +
       "(\0132\036.dstore.engine.MetaInformation\022\'\n\007me" +
       "ssage\030\003 \003(\0132\026.dstore.engine.Message\022D\n\003r" +
       "ow\030\004 \003(\01327.dstore.engine.om_GetCampaignC",
       "onditions_Ad.Response.Row\032\266\001\n\003Row\022\017\n\006row" +
       "_id\030\220N \001(\005\0226\n\020criteria_type_id\030\221N \001(\0132\033." +
-      "dstore.values.integerValue\0222\n\rcriteria_t" +
-      "ype\030\222N \001(\0132\032.dstore.values.stringValue\0222" +
-      "\n\014condition_id\030\223N \001(\0132\033.dstore.values.in" +
+      "dstore.values.IntegerValue\0222\n\rcriteria_t" +
+      "ype\030\222N \001(\0132\032.dstore.values.StringValue\0222" +
+      "\n\014condition_id\030\223N \001(\0132\033.dstore.values.In" +
       "tegerValueB\\\n\033io.dstore.engine.procedure" +
       "sZ=gosdk.dstore.de/engine/procedures/om_" +
       "GetCampaignConditions_Adb\006proto3"
@@ -3464,7 +3464,7 @@ public final class OmGetCampaignConditionsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetCampaignConditions_Ad_Parameters_descriptor =
@@ -3485,7 +3485,7 @@ public final class OmGetCampaignConditionsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetCampaignConditions_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CriteriaTypeId", "CriteriaType", "ConditionId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

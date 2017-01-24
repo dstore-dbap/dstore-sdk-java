@@ -19,17 +19,17 @@ public final class StGetSalesByInformationAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
      */
-    io.dstore.Values.timestampValue getFromDate();
+    io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class StGetSalesByInformationAd {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
      */
-    io.dstore.Values.timestampValue getToDate();
+    io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class StGetSalesByInformationAd {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
-    io.dstore.Values.integerValue getInformationTypeId();
+    io.dstore.values.IntegerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
      * <code>optional bool information_type_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class StGetSalesByInformationAd {
     boolean getInformationTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+     * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
      */
     boolean hasInformationIsValidInHours();
     /**
-     * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+     * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
      */
-    io.dstore.Values.integerValue getInformationIsValidInHours();
+    io.dstore.values.IntegerValue getInformationIsValidInHours();
     /**
-     * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+     * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getInformationIsValidInHoursOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getInformationIsValidInHoursOrBuilder();
 
     /**
      * <code>optional bool information_is_valid_in_hours_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class StGetSalesByInformationAd {
     boolean getInformationIsValidInHoursNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+     * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
      */
     boolean hasSelectAffectedOrderIds();
     /**
-     * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+     * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
      */
-    io.dstore.Values.booleanValue getSelectAffectedOrderIds();
+    io.dstore.values.BooleanValue getSelectAffectedOrderIds();
     /**
-     * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+     * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getSelectAffectedOrderIdsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getSelectAffectedOrderIdsOrBuilder();
 
     /**
      * <code>optional bool select_affected_order_ids_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class StGetSalesByInformationAd {
     boolean getSelectAffectedOrderIdsNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+     * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
      */
     boolean hasOrderDesc();
     /**
-     * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+     * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
      */
-    io.dstore.Values.booleanValue getOrderDesc();
+    io.dstore.values.BooleanValue getOrderDesc();
     /**
-     * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+     * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getOrderDescOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getOrderDescOrBuilder();
 
     /**
      * <code>optional bool order_desc_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class StGetSalesByInformationAd {
     boolean getOrderDescNull();
 
     /**
-     * <code>optional .dstore.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.StringValue information = 7;</code>
      */
     boolean hasInformation();
     /**
-     * <code>optional .dstore.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.StringValue information = 7;</code>
      */
-    io.dstore.Values.stringValue getInformation();
+    io.dstore.values.StringValue getInformation();
     /**
-     * <code>optional .dstore.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.StringValue information = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
+    io.dstore.values.StringValueOrBuilder getInformationOrBuilder();
 
     /**
      * <code>optional bool information_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class StGetSalesByInformationAd {
     boolean getInformationNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
      */
     boolean hasPurchaseOrder();
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
      */
-    io.dstore.Values.booleanValue getPurchaseOrder();
+    io.dstore.values.BooleanValue getPurchaseOrder();
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getPurchaseOrderOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getPurchaseOrderOrBuilder();
 
     /**
      * <code>optional bool purchase_order_null = 1008;</code>
@@ -210,11 +210,11 @@ public final class StGetSalesByInformationAd {
               break;
             }
             case 10: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -223,11 +223,11 @@ public final class StGetSalesByInformationAd {
               break;
             }
             case 18: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -236,11 +236,11 @@ public final class StGetSalesByInformationAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -249,11 +249,11 @@ public final class StGetSalesByInformationAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (informationIsValidInHours_ != null) {
                 subBuilder = informationIsValidInHours_.toBuilder();
               }
-              informationIsValidInHours_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              informationIsValidInHours_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationIsValidInHours_);
                 informationIsValidInHours_ = subBuilder.buildPartial();
@@ -262,11 +262,11 @@ public final class StGetSalesByInformationAd {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (selectAffectedOrderIds_ != null) {
                 subBuilder = selectAffectedOrderIds_.toBuilder();
               }
-              selectAffectedOrderIds_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              selectAffectedOrderIds_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectAffectedOrderIds_);
                 selectAffectedOrderIds_ = subBuilder.buildPartial();
@@ -275,11 +275,11 @@ public final class StGetSalesByInformationAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (orderDesc_ != null) {
                 subBuilder = orderDesc_.toBuilder();
               }
-              orderDesc_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              orderDesc_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderDesc_);
                 orderDesc_ = subBuilder.buildPartial();
@@ -288,11 +288,11 @@ public final class StGetSalesByInformationAd {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (information_ != null) {
                 subBuilder = information_.toBuilder();
               }
-              information_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              information_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(information_);
                 information_ = subBuilder.buildPartial();
@@ -301,11 +301,11 @@ public final class StGetSalesByInformationAd {
               break;
             }
             case 66: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (purchaseOrder_ != null) {
                 subBuilder = purchaseOrder_.toBuilder();
               }
-              purchaseOrder_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              purchaseOrder_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(purchaseOrder_);
                 purchaseOrder_ = subBuilder.buildPartial();
@@ -377,23 +377,23 @@ public final class StGetSalesByInformationAd {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 1;
-    private io.dstore.Values.timestampValue fromDate_;
+    private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
      */
-    public io.dstore.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.values.TimestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -407,23 +407,23 @@ public final class StGetSalesByInformationAd {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 2;
-    private io.dstore.Values.timestampValue toDate_;
+    private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
      */
-    public io.dstore.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.values.TimestampValue getToDate() {
+      return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -437,23 +437,23 @@ public final class StGetSalesByInformationAd {
     }
 
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue informationTypeId_;
+    private io.dstore.values.IntegerValue informationTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getInformationTypeId() {
-      return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+    public io.dstore.values.IntegerValue getInformationTypeId() {
+      return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
     }
 
@@ -467,23 +467,23 @@ public final class StGetSalesByInformationAd {
     }
 
     public static final int INFORMATION_IS_VALID_IN_HOURS_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue informationIsValidInHours_;
+    private io.dstore.values.IntegerValue informationIsValidInHours_;
     /**
-     * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+     * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
      */
     public boolean hasInformationIsValidInHours() {
       return informationIsValidInHours_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+     * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
      */
-    public io.dstore.Values.integerValue getInformationIsValidInHours() {
-      return informationIsValidInHours_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationIsValidInHours_;
+    public io.dstore.values.IntegerValue getInformationIsValidInHours() {
+      return informationIsValidInHours_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationIsValidInHours_;
     }
     /**
-     * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+     * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getInformationIsValidInHoursOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getInformationIsValidInHoursOrBuilder() {
       return getInformationIsValidInHours();
     }
 
@@ -497,23 +497,23 @@ public final class StGetSalesByInformationAd {
     }
 
     public static final int SELECT_AFFECTED_ORDER_IDS_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue selectAffectedOrderIds_;
+    private io.dstore.values.BooleanValue selectAffectedOrderIds_;
     /**
-     * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+     * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
      */
     public boolean hasSelectAffectedOrderIds() {
       return selectAffectedOrderIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+     * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
      */
-    public io.dstore.Values.booleanValue getSelectAffectedOrderIds() {
-      return selectAffectedOrderIds_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectAffectedOrderIds_;
+    public io.dstore.values.BooleanValue getSelectAffectedOrderIds() {
+      return selectAffectedOrderIds_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectAffectedOrderIds_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+     * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getSelectAffectedOrderIdsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getSelectAffectedOrderIdsOrBuilder() {
       return getSelectAffectedOrderIds();
     }
 
@@ -527,23 +527,23 @@ public final class StGetSalesByInformationAd {
     }
 
     public static final int ORDER_DESC_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue orderDesc_;
+    private io.dstore.values.BooleanValue orderDesc_;
     /**
-     * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+     * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
      */
     public boolean hasOrderDesc() {
       return orderDesc_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+     * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
      */
-    public io.dstore.Values.booleanValue getOrderDesc() {
-      return orderDesc_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderDesc_;
+    public io.dstore.values.BooleanValue getOrderDesc() {
+      return orderDesc_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderDesc_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+     * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getOrderDescOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getOrderDescOrBuilder() {
       return getOrderDesc();
     }
 
@@ -557,23 +557,23 @@ public final class StGetSalesByInformationAd {
     }
 
     public static final int INFORMATION_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue information_;
+    private io.dstore.values.StringValue information_;
     /**
-     * <code>optional .dstore.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.StringValue information = 7;</code>
      */
     public boolean hasInformation() {
       return information_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.StringValue information = 7;</code>
      */
-    public io.dstore.Values.stringValue getInformation() {
-      return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+    public io.dstore.values.StringValue getInformation() {
+      return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
     }
     /**
-     * <code>optional .dstore.values.stringValue information = 7;</code>
+     * <code>optional .dstore.values.StringValue information = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
       return getInformation();
     }
 
@@ -587,23 +587,23 @@ public final class StGetSalesByInformationAd {
     }
 
     public static final int PURCHASE_ORDER_FIELD_NUMBER = 8;
-    private io.dstore.Values.booleanValue purchaseOrder_;
+    private io.dstore.values.BooleanValue purchaseOrder_;
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
      */
     public boolean hasPurchaseOrder() {
       return purchaseOrder_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
      */
-    public io.dstore.Values.booleanValue getPurchaseOrder() {
-      return purchaseOrder_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : purchaseOrder_;
+    public io.dstore.values.BooleanValue getPurchaseOrder() {
+      return purchaseOrder_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : purchaseOrder_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+     * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getPurchaseOrderOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getPurchaseOrderOrBuilder() {
       return getPurchaseOrder();
     }
 
@@ -1252,29 +1252,29 @@ public final class StGetSalesByInformationAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDate_ = null;
+      private io.dstore.values.TimestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
        */
-      public io.dstore.Values.timestampValue getFromDate() {
+      public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
        */
-      public Builder setFromDate(io.dstore.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1288,10 +1288,10 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder setFromDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -1302,13 +1302,13 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
        */
-      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -1320,7 +1320,7 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -1334,33 +1334,33 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -1395,29 +1395,29 @@ public final class StGetSalesByInformationAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toDate_ = null;
+      private io.dstore.values.TimestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue getToDate() {
+      public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
        */
-      public Builder setToDate(io.dstore.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1431,10 +1431,10 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder setToDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -1445,13 +1445,13 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
        */
-      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -1463,7 +1463,7 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -1477,33 +1477,33 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -1538,29 +1538,29 @@ public final class StGetSalesByInformationAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue informationTypeId_ = null;
+      private io.dstore.values.IntegerValue informationTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getInformationTypeId() {
+      public io.dstore.values.IntegerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
-          return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+          return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
         } else {
           return informationTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
+      public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1574,10 +1574,10 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
       public Builder setInformationTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (informationTypeIdBuilder_ == null) {
           informationTypeId_ = builderForValue.build();
           onChanged();
@@ -1588,13 +1588,13 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (informationTypeId_ != null) {
             informationTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
           } else {
             informationTypeId_ = value;
           }
@@ -1606,7 +1606,7 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -1620,33 +1620,33 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
         
         onChanged();
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
           return informationTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return informationTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
           informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1681,29 +1681,29 @@ public final class StGetSalesByInformationAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue informationIsValidInHours_ = null;
+      private io.dstore.values.IntegerValue informationIsValidInHours_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationIsValidInHoursBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationIsValidInHoursBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+       * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
        */
       public boolean hasInformationIsValidInHours() {
         return informationIsValidInHoursBuilder_ != null || informationIsValidInHours_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+       * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
        */
-      public io.dstore.Values.integerValue getInformationIsValidInHours() {
+      public io.dstore.values.IntegerValue getInformationIsValidInHours() {
         if (informationIsValidInHoursBuilder_ == null) {
-          return informationIsValidInHours_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationIsValidInHours_;
+          return informationIsValidInHours_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationIsValidInHours_;
         } else {
           return informationIsValidInHoursBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+       * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
        */
-      public Builder setInformationIsValidInHours(io.dstore.Values.integerValue value) {
+      public Builder setInformationIsValidInHours(io.dstore.values.IntegerValue value) {
         if (informationIsValidInHoursBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1717,10 +1717,10 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+       * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
        */
       public Builder setInformationIsValidInHours(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (informationIsValidInHoursBuilder_ == null) {
           informationIsValidInHours_ = builderForValue.build();
           onChanged();
@@ -1731,13 +1731,13 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+       * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
        */
-      public Builder mergeInformationIsValidInHours(io.dstore.Values.integerValue value) {
+      public Builder mergeInformationIsValidInHours(io.dstore.values.IntegerValue value) {
         if (informationIsValidInHoursBuilder_ == null) {
           if (informationIsValidInHours_ != null) {
             informationIsValidInHours_ =
-              io.dstore.Values.integerValue.newBuilder(informationIsValidInHours_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(informationIsValidInHours_).mergeFrom(value).buildPartial();
           } else {
             informationIsValidInHours_ = value;
           }
@@ -1749,7 +1749,7 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+       * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
        */
       public Builder clearInformationIsValidInHours() {
         if (informationIsValidInHoursBuilder_ == null) {
@@ -1763,33 +1763,33 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+       * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getInformationIsValidInHoursBuilder() {
+      public io.dstore.values.IntegerValue.Builder getInformationIsValidInHoursBuilder() {
         
         onChanged();
         return getInformationIsValidInHoursFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+       * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInformationIsValidInHoursOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInformationIsValidInHoursOrBuilder() {
         if (informationIsValidInHoursBuilder_ != null) {
           return informationIsValidInHoursBuilder_.getMessageOrBuilder();
         } else {
           return informationIsValidInHours_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : informationIsValidInHours_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : informationIsValidInHours_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue information_is_valid_in_hours = 4;</code>
+       * <code>optional .dstore.values.IntegerValue information_is_valid_in_hours = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getInformationIsValidInHoursFieldBuilder() {
         if (informationIsValidInHoursBuilder_ == null) {
           informationIsValidInHoursBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getInformationIsValidInHours(),
                   getParentForChildren(),
                   isClean());
@@ -1824,29 +1824,29 @@ public final class StGetSalesByInformationAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue selectAffectedOrderIds_ = null;
+      private io.dstore.values.BooleanValue selectAffectedOrderIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectAffectedOrderIdsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> selectAffectedOrderIdsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+       * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
        */
       public boolean hasSelectAffectedOrderIds() {
         return selectAffectedOrderIdsBuilder_ != null || selectAffectedOrderIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+       * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
        */
-      public io.dstore.Values.booleanValue getSelectAffectedOrderIds() {
+      public io.dstore.values.BooleanValue getSelectAffectedOrderIds() {
         if (selectAffectedOrderIdsBuilder_ == null) {
-          return selectAffectedOrderIds_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectAffectedOrderIds_;
+          return selectAffectedOrderIds_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectAffectedOrderIds_;
         } else {
           return selectAffectedOrderIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+       * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
        */
-      public Builder setSelectAffectedOrderIds(io.dstore.Values.booleanValue value) {
+      public Builder setSelectAffectedOrderIds(io.dstore.values.BooleanValue value) {
         if (selectAffectedOrderIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1860,10 +1860,10 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+       * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
        */
       public Builder setSelectAffectedOrderIds(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (selectAffectedOrderIdsBuilder_ == null) {
           selectAffectedOrderIds_ = builderForValue.build();
           onChanged();
@@ -1874,13 +1874,13 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+       * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
        */
-      public Builder mergeSelectAffectedOrderIds(io.dstore.Values.booleanValue value) {
+      public Builder mergeSelectAffectedOrderIds(io.dstore.values.BooleanValue value) {
         if (selectAffectedOrderIdsBuilder_ == null) {
           if (selectAffectedOrderIds_ != null) {
             selectAffectedOrderIds_ =
-              io.dstore.Values.booleanValue.newBuilder(selectAffectedOrderIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(selectAffectedOrderIds_).mergeFrom(value).buildPartial();
           } else {
             selectAffectedOrderIds_ = value;
           }
@@ -1892,7 +1892,7 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+       * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
        */
       public Builder clearSelectAffectedOrderIds() {
         if (selectAffectedOrderIdsBuilder_ == null) {
@@ -1906,33 +1906,33 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+       * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getSelectAffectedOrderIdsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getSelectAffectedOrderIdsBuilder() {
         
         onChanged();
         return getSelectAffectedOrderIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+       * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getSelectAffectedOrderIdsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getSelectAffectedOrderIdsOrBuilder() {
         if (selectAffectedOrderIdsBuilder_ != null) {
           return selectAffectedOrderIdsBuilder_.getMessageOrBuilder();
         } else {
           return selectAffectedOrderIds_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : selectAffectedOrderIds_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : selectAffectedOrderIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_affected_order_ids = 5;</code>
+       * <code>optional .dstore.values.BooleanValue select_affected_order_ids = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getSelectAffectedOrderIdsFieldBuilder() {
         if (selectAffectedOrderIdsBuilder_ == null) {
           selectAffectedOrderIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getSelectAffectedOrderIds(),
                   getParentForChildren(),
                   isClean());
@@ -1967,29 +1967,29 @@ public final class StGetSalesByInformationAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue orderDesc_ = null;
+      private io.dstore.values.BooleanValue orderDesc_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> orderDescBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> orderDescBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+       * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
        */
       public boolean hasOrderDesc() {
         return orderDescBuilder_ != null || orderDesc_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+       * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
        */
-      public io.dstore.Values.booleanValue getOrderDesc() {
+      public io.dstore.values.BooleanValue getOrderDesc() {
         if (orderDescBuilder_ == null) {
-          return orderDesc_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : orderDesc_;
+          return orderDesc_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : orderDesc_;
         } else {
           return orderDescBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+       * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
        */
-      public Builder setOrderDesc(io.dstore.Values.booleanValue value) {
+      public Builder setOrderDesc(io.dstore.values.BooleanValue value) {
         if (orderDescBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2003,10 +2003,10 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+       * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
        */
       public Builder setOrderDesc(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (orderDescBuilder_ == null) {
           orderDesc_ = builderForValue.build();
           onChanged();
@@ -2017,13 +2017,13 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+       * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
        */
-      public Builder mergeOrderDesc(io.dstore.Values.booleanValue value) {
+      public Builder mergeOrderDesc(io.dstore.values.BooleanValue value) {
         if (orderDescBuilder_ == null) {
           if (orderDesc_ != null) {
             orderDesc_ =
-              io.dstore.Values.booleanValue.newBuilder(orderDesc_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(orderDesc_).mergeFrom(value).buildPartial();
           } else {
             orderDesc_ = value;
           }
@@ -2035,7 +2035,7 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+       * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
        */
       public Builder clearOrderDesc() {
         if (orderDescBuilder_ == null) {
@@ -2049,33 +2049,33 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+       * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getOrderDescBuilder() {
+      public io.dstore.values.BooleanValue.Builder getOrderDescBuilder() {
         
         onChanged();
         return getOrderDescFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+       * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getOrderDescOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getOrderDescOrBuilder() {
         if (orderDescBuilder_ != null) {
           return orderDescBuilder_.getMessageOrBuilder();
         } else {
           return orderDesc_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : orderDesc_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : orderDesc_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue order_desc = 6;</code>
+       * <code>optional .dstore.values.BooleanValue order_desc = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getOrderDescFieldBuilder() {
         if (orderDescBuilder_ == null) {
           orderDescBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getOrderDesc(),
                   getParentForChildren(),
                   isClean());
@@ -2110,29 +2110,29 @@ public final class StGetSalesByInformationAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue information_ = null;
+      private io.dstore.values.StringValue information_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.StringValue information = 7;</code>
        */
       public boolean hasInformation() {
         return informationBuilder_ != null || information_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.StringValue information = 7;</code>
        */
-      public io.dstore.Values.stringValue getInformation() {
+      public io.dstore.values.StringValue getInformation() {
         if (informationBuilder_ == null) {
-          return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+          return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
         } else {
           return informationBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.StringValue information = 7;</code>
        */
-      public Builder setInformation(io.dstore.Values.stringValue value) {
+      public Builder setInformation(io.dstore.values.StringValue value) {
         if (informationBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2146,10 +2146,10 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.StringValue information = 7;</code>
        */
       public Builder setInformation(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (informationBuilder_ == null) {
           information_ = builderForValue.build();
           onChanged();
@@ -2160,13 +2160,13 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.StringValue information = 7;</code>
        */
-      public Builder mergeInformation(io.dstore.Values.stringValue value) {
+      public Builder mergeInformation(io.dstore.values.StringValue value) {
         if (informationBuilder_ == null) {
           if (information_ != null) {
             information_ =
-              io.dstore.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(information_).mergeFrom(value).buildPartial();
           } else {
             information_ = value;
           }
@@ -2178,7 +2178,7 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.StringValue information = 7;</code>
        */
       public Builder clearInformation() {
         if (informationBuilder_ == null) {
@@ -2192,33 +2192,33 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.StringValue information = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getInformationBuilder() {
+      public io.dstore.values.StringValue.Builder getInformationBuilder() {
         
         onChanged();
         return getInformationFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.StringValue information = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
         if (informationBuilder_ != null) {
           return informationBuilder_.getMessageOrBuilder();
         } else {
           return information_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : information_;
+              io.dstore.values.StringValue.getDefaultInstance() : information_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue information = 7;</code>
+       * <code>optional .dstore.values.StringValue information = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getInformationFieldBuilder() {
         if (informationBuilder_ == null) {
           informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getInformation(),
                   getParentForChildren(),
                   isClean());
@@ -2253,29 +2253,29 @@ public final class StGetSalesByInformationAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue purchaseOrder_ = null;
+      private io.dstore.values.BooleanValue purchaseOrder_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> purchaseOrderBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> purchaseOrderBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
        */
       public boolean hasPurchaseOrder() {
         return purchaseOrderBuilder_ != null || purchaseOrder_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
        */
-      public io.dstore.Values.booleanValue getPurchaseOrder() {
+      public io.dstore.values.BooleanValue getPurchaseOrder() {
         if (purchaseOrderBuilder_ == null) {
-          return purchaseOrder_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : purchaseOrder_;
+          return purchaseOrder_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : purchaseOrder_;
         } else {
           return purchaseOrderBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
        */
-      public Builder setPurchaseOrder(io.dstore.Values.booleanValue value) {
+      public Builder setPurchaseOrder(io.dstore.values.BooleanValue value) {
         if (purchaseOrderBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2289,10 +2289,10 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
        */
       public Builder setPurchaseOrder(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (purchaseOrderBuilder_ == null) {
           purchaseOrder_ = builderForValue.build();
           onChanged();
@@ -2303,13 +2303,13 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
        */
-      public Builder mergePurchaseOrder(io.dstore.Values.booleanValue value) {
+      public Builder mergePurchaseOrder(io.dstore.values.BooleanValue value) {
         if (purchaseOrderBuilder_ == null) {
           if (purchaseOrder_ != null) {
             purchaseOrder_ =
-              io.dstore.Values.booleanValue.newBuilder(purchaseOrder_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(purchaseOrder_).mergeFrom(value).buildPartial();
           } else {
             purchaseOrder_ = value;
           }
@@ -2321,7 +2321,7 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
        */
       public Builder clearPurchaseOrder() {
         if (purchaseOrderBuilder_ == null) {
@@ -2335,33 +2335,33 @@ public final class StGetSalesByInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getPurchaseOrderBuilder() {
+      public io.dstore.values.BooleanValue.Builder getPurchaseOrderBuilder() {
         
         onChanged();
         return getPurchaseOrderFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getPurchaseOrderOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getPurchaseOrderOrBuilder() {
         if (purchaseOrderBuilder_ != null) {
           return purchaseOrderBuilder_.getMessageOrBuilder();
         } else {
           return purchaseOrder_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : purchaseOrder_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : purchaseOrder_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue purchase_order = 8;</code>
+       * <code>optional .dstore.values.BooleanValue purchase_order = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getPurchaseOrderFieldBuilder() {
         if (purchaseOrderBuilder_ == null) {
           purchaseOrderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getPurchaseOrder(),
                   getParentForChildren(),
                   isClean());
@@ -2655,7 +2655,7 @@ public final class StGetSalesByInformationAd {
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
+       * <code>optional .dstore.values.StringValue information = 10001;</code>
        */
       boolean hasInformation();
       /**
@@ -2663,24 +2663,24 @@ public final class StGetSalesByInformationAd {
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
+       * <code>optional .dstore.values.StringValue information = 10001;</code>
        */
-      io.dstore.Values.stringValue getInformation();
+      io.dstore.values.StringValue getInformation();
       /**
        * <pre>
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
+       * <code>optional .dstore.values.StringValue information = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
+      io.dstore.values.StringValueOrBuilder getInformationOrBuilder();
 
       /**
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
        */
       boolean hasNettoOrderSales();
       /**
@@ -2688,24 +2688,24 @@ public final class StGetSalesByInformationAd {
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
        */
-      io.dstore.Values.decimalValue getNettoOrderSales();
+      io.dstore.values.DecimalValue getNettoOrderSales();
       /**
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNettoOrderSalesOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNettoOrderSalesOrBuilder();
 
       /**
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+       * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
        */
       boolean hasOrderDateAndTime();
       /**
@@ -2713,24 +2713,24 @@ public final class StGetSalesByInformationAd {
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+       * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
        */
-      io.dstore.Values.timestampValue getOrderDateAndTime();
+      io.dstore.values.TimestampValue getOrderDateAndTime();
       /**
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+       * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getOrderDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getOrderDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
        */
       boolean hasPersonId();
       /**
@@ -2738,24 +2738,24 @@ public final class StGetSalesByInformationAd {
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
        */
-      io.dstore.Values.integerValue getPersonId();
+      io.dstore.values.IntegerValue getPersonId();
       /**
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
       /**
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
        */
       boolean hasNettoSum();
       /**
@@ -2763,24 +2763,24 @@ public final class StGetSalesByInformationAd {
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
        */
-      io.dstore.Values.decimalValue getNettoSum();
+      io.dstore.values.DecimalValue getNettoSum();
       /**
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getNettoSumOrBuilder();
 
       /**
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
        */
       boolean hasOrderId();
       /**
@@ -2788,17 +2788,17 @@ public final class StGetSalesByInformationAd {
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
        */
-      io.dstore.Values.integerValue getOrderId();
+      io.dstore.values.IntegerValue getOrderId();
       /**
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.st_GetSales_ByInformation_Ad.Response.Row}
@@ -2846,11 +2846,11 @@ public final class StGetSalesByInformationAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (information_ != null) {
                   subBuilder = information_.toBuilder();
                 }
-                information_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                information_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(information_);
                   information_ = subBuilder.buildPartial();
@@ -2859,11 +2859,11 @@ public final class StGetSalesByInformationAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (nettoOrderSales_ != null) {
                   subBuilder = nettoOrderSales_.toBuilder();
                 }
-                nettoOrderSales_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                nettoOrderSales_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nettoOrderSales_);
                   nettoOrderSales_ = subBuilder.buildPartial();
@@ -2872,11 +2872,11 @@ public final class StGetSalesByInformationAd {
                 break;
               }
               case 160010: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (orderDateAndTime_ != null) {
                   subBuilder = orderDateAndTime_.toBuilder();
                 }
-                orderDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                orderDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderDateAndTime_);
                   orderDateAndTime_ = subBuilder.buildPartial();
@@ -2885,11 +2885,11 @@ public final class StGetSalesByInformationAd {
                 break;
               }
               case 160018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -2898,11 +2898,11 @@ public final class StGetSalesByInformationAd {
                 break;
               }
               case 160026: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (nettoSum_ != null) {
                   subBuilder = nettoSum_.toBuilder();
                 }
-                nettoSum_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                nettoSum_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nettoSum_);
                   nettoSum_ = subBuilder.buildPartial();
@@ -2911,11 +2911,11 @@ public final class StGetSalesByInformationAd {
                 break;
               }
               case 160042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (orderId_ != null) {
                   subBuilder = orderId_.toBuilder();
                 }
-                orderId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                orderId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderId_);
                   orderId_ = subBuilder.buildPartial();
@@ -2956,13 +2956,13 @@ public final class StGetSalesByInformationAd {
       }
 
       public static final int INFORMATION_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue information_;
+      private io.dstore.values.StringValue information_;
       /**
        * <pre>
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
+       * <code>optional .dstore.values.StringValue information = 10001;</code>
        */
       public boolean hasInformation() {
         return information_ != null;
@@ -2972,30 +2972,30 @@ public final class StGetSalesByInformationAd {
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
+       * <code>optional .dstore.values.StringValue information = 10001;</code>
        */
-      public io.dstore.Values.stringValue getInformation() {
-        return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+      public io.dstore.values.StringValue getInformation() {
+        return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
       }
       /**
        * <pre>
        * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10001;</code>
+       * <code>optional .dstore.values.StringValue information = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
       }
 
       public static final int NETTO_ORDER_SALES_FIELD_NUMBER = 10002;
-      private io.dstore.Values.decimalValue nettoOrderSales_;
+      private io.dstore.values.DecimalValue nettoOrderSales_;
       /**
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
        */
       public boolean hasNettoOrderSales() {
         return nettoOrderSales_ != null;
@@ -3005,30 +3005,30 @@ public final class StGetSalesByInformationAd {
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
        */
-      public io.dstore.Values.decimalValue getNettoOrderSales() {
-        return nettoOrderSales_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSales_;
+      public io.dstore.values.DecimalValue getNettoOrderSales() {
+        return nettoOrderSales_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoOrderSales_;
       }
       /**
        * <pre>
        * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+       * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNettoOrderSalesOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNettoOrderSalesOrBuilder() {
         return getNettoOrderSales();
       }
 
       public static final int ORDER_DATE_AND_TIME_FIELD_NUMBER = 20001;
-      private io.dstore.Values.timestampValue orderDateAndTime_;
+      private io.dstore.values.TimestampValue orderDateAndTime_;
       /**
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+       * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
        */
       public boolean hasOrderDateAndTime() {
         return orderDateAndTime_ != null;
@@ -3038,30 +3038,30 @@ public final class StGetSalesByInformationAd {
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+       * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
        */
-      public io.dstore.Values.timestampValue getOrderDateAndTime() {
-        return orderDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : orderDateAndTime_;
+      public io.dstore.values.TimestampValue getOrderDateAndTime() {
+        return orderDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : orderDateAndTime_;
       }
       /**
        * <pre>
        * Eingangsdatum des Auftrags "OrderID"
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+       * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getOrderDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getOrderDateAndTimeOrBuilder() {
         return getOrderDateAndTime();
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 20002;
-      private io.dstore.Values.integerValue personId_;
+      private io.dstore.values.IntegerValue personId_;
       /**
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -3071,30 +3071,30 @@ public final class StGetSalesByInformationAd {
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.values.IntegerValue getPersonId() {
+        return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
       }
       /**
        * <pre>
        * ID des Auftraggebers (des Auftrags "OrderID")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
       public static final int NETTO_SUM_FIELD_NUMBER = 20003;
-      private io.dstore.Values.decimalValue nettoSum_;
+      private io.dstore.values.DecimalValue nettoSum_;
       /**
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
        */
       public boolean hasNettoSum() {
         return nettoSum_ != null;
@@ -3104,30 +3104,30 @@ public final class StGetSalesByInformationAd {
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
        */
-      public io.dstore.Values.decimalValue getNettoSum() {
-        return nettoSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
+      public io.dstore.values.DecimalValue getNettoSum() {
+        return nettoSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoSum_;
       }
       /**
        * <pre>
        * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+       * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getNettoSumOrBuilder() {
         return getNettoSum();
       }
 
       public static final int ORDER_ID_FIELD_NUMBER = 20005;
-      private io.dstore.Values.integerValue orderId_;
+      private io.dstore.values.IntegerValue orderId_;
       /**
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
        */
       public boolean hasOrderId() {
         return orderId_ != null;
@@ -3137,19 +3137,19 @@ public final class StGetSalesByInformationAd {
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
        */
-      public io.dstore.Values.integerValue getOrderId() {
-        return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
+      public io.dstore.values.IntegerValue getOrderId() {
+        return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
       }
       /**
        * <pre>
        * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+       * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
         return getOrderId();
       }
 
@@ -3628,15 +3628,15 @@ public final class StGetSalesByInformationAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue information_ = null;
+        private io.dstore.values.StringValue information_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationBuilder_;
         /**
          * <pre>
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
+         * <code>optional .dstore.values.StringValue information = 10001;</code>
          */
         public boolean hasInformation() {
           return informationBuilder_ != null || information_ != null;
@@ -3646,11 +3646,11 @@ public final class StGetSalesByInformationAd {
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
+         * <code>optional .dstore.values.StringValue information = 10001;</code>
          */
-        public io.dstore.Values.stringValue getInformation() {
+        public io.dstore.values.StringValue getInformation() {
           if (informationBuilder_ == null) {
-            return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+            return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
           } else {
             return informationBuilder_.getMessage();
           }
@@ -3660,9 +3660,9 @@ public final class StGetSalesByInformationAd {
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
+         * <code>optional .dstore.values.StringValue information = 10001;</code>
          */
-        public Builder setInformation(io.dstore.Values.stringValue value) {
+        public Builder setInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3680,10 +3680,10 @@ public final class StGetSalesByInformationAd {
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
+         * <code>optional .dstore.values.StringValue information = 10001;</code>
          */
         public Builder setInformation(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (informationBuilder_ == null) {
             information_ = builderForValue.build();
             onChanged();
@@ -3698,13 +3698,13 @@ public final class StGetSalesByInformationAd {
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
+         * <code>optional .dstore.values.StringValue information = 10001;</code>
          */
-        public Builder mergeInformation(io.dstore.Values.stringValue value) {
+        public Builder mergeInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
             if (information_ != null) {
               information_ =
-                io.dstore.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(information_).mergeFrom(value).buildPartial();
             } else {
               information_ = value;
             }
@@ -3720,7 +3720,7 @@ public final class StGetSalesByInformationAd {
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
+         * <code>optional .dstore.values.StringValue information = 10001;</code>
          */
         public Builder clearInformation() {
           if (informationBuilder_ == null) {
@@ -3738,9 +3738,9 @@ public final class StGetSalesByInformationAd {
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
+         * <code>optional .dstore.values.StringValue information = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getInformationBuilder() {
+        public io.dstore.values.StringValue.Builder getInformationBuilder() {
           
           onChanged();
           return getInformationFieldBuilder().getBuilder();
@@ -3750,14 +3750,14 @@ public final class StGetSalesByInformationAd {
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
+         * <code>optional .dstore.values.StringValue information = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
             return informationBuilder_.getMessageOrBuilder();
           } else {
             return information_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : information_;
+                io.dstore.values.StringValue.getDefaultInstance() : information_;
           }
         }
         /**
@@ -3765,14 +3765,14 @@ public final class StGetSalesByInformationAd {
          * Eine (Besucher-)Information des Typs "&#64;InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10001;</code>
+         * <code>optional .dstore.values.StringValue information = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getInformationFieldBuilder() {
           if (informationBuilder_ == null) {
             informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getInformation(),
                     getParentForChildren(),
                     isClean());
@@ -3781,15 +3781,15 @@ public final class StGetSalesByInformationAd {
           return informationBuilder_;
         }
 
-        private io.dstore.Values.decimalValue nettoOrderSales_ = null;
+        private io.dstore.values.DecimalValue nettoOrderSales_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoOrderSalesBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> nettoOrderSalesBuilder_;
         /**
          * <pre>
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
          */
         public boolean hasNettoOrderSales() {
           return nettoOrderSalesBuilder_ != null || nettoOrderSales_ != null;
@@ -3799,11 +3799,11 @@ public final class StGetSalesByInformationAd {
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
          */
-        public io.dstore.Values.decimalValue getNettoOrderSales() {
+        public io.dstore.values.DecimalValue getNettoOrderSales() {
           if (nettoOrderSalesBuilder_ == null) {
-            return nettoOrderSales_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSales_;
+            return nettoOrderSales_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoOrderSales_;
           } else {
             return nettoOrderSalesBuilder_.getMessage();
           }
@@ -3813,9 +3813,9 @@ public final class StGetSalesByInformationAd {
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
          */
-        public Builder setNettoOrderSales(io.dstore.Values.decimalValue value) {
+        public Builder setNettoOrderSales(io.dstore.values.DecimalValue value) {
           if (nettoOrderSalesBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3833,10 +3833,10 @@ public final class StGetSalesByInformationAd {
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
          */
         public Builder setNettoOrderSales(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (nettoOrderSalesBuilder_ == null) {
             nettoOrderSales_ = builderForValue.build();
             onChanged();
@@ -3851,13 +3851,13 @@ public final class StGetSalesByInformationAd {
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
          */
-        public Builder mergeNettoOrderSales(io.dstore.Values.decimalValue value) {
+        public Builder mergeNettoOrderSales(io.dstore.values.DecimalValue value) {
           if (nettoOrderSalesBuilder_ == null) {
             if (nettoOrderSales_ != null) {
               nettoOrderSales_ =
-                io.dstore.Values.decimalValue.newBuilder(nettoOrderSales_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(nettoOrderSales_).mergeFrom(value).buildPartial();
             } else {
               nettoOrderSales_ = value;
             }
@@ -3873,7 +3873,7 @@ public final class StGetSalesByInformationAd {
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
          */
         public Builder clearNettoOrderSales() {
           if (nettoOrderSalesBuilder_ == null) {
@@ -3891,9 +3891,9 @@ public final class StGetSalesByInformationAd {
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNettoOrderSalesBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNettoOrderSalesBuilder() {
           
           onChanged();
           return getNettoOrderSalesFieldBuilder().getBuilder();
@@ -3903,14 +3903,14 @@ public final class StGetSalesByInformationAd {
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNettoOrderSalesOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNettoOrderSalesOrBuilder() {
           if (nettoOrderSalesBuilder_ != null) {
             return nettoOrderSalesBuilder_.getMessageOrBuilder();
           } else {
             return nettoOrderSales_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : nettoOrderSales_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : nettoOrderSales_;
           }
         }
         /**
@@ -3918,14 +3918,14 @@ public final class StGetSalesByInformationAd {
          * Netto-Umsatz in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID"), der mit Personen gemacht wurde, denen die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_order_sales = 10002;</code>
+         * <code>optional .dstore.values.DecimalValue netto_order_sales = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNettoOrderSalesFieldBuilder() {
           if (nettoOrderSalesBuilder_ == null) {
             nettoOrderSalesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNettoOrderSales(),
                     getParentForChildren(),
                     isClean());
@@ -3934,15 +3934,15 @@ public final class StGetSalesByInformationAd {
           return nettoOrderSalesBuilder_;
         }
 
-        private io.dstore.Values.timestampValue orderDateAndTime_ = null;
+        private io.dstore.values.TimestampValue orderDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> orderDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> orderDateAndTimeBuilder_;
         /**
          * <pre>
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+         * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
          */
         public boolean hasOrderDateAndTime() {
           return orderDateAndTimeBuilder_ != null || orderDateAndTime_ != null;
@@ -3952,11 +3952,11 @@ public final class StGetSalesByInformationAd {
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+         * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
          */
-        public io.dstore.Values.timestampValue getOrderDateAndTime() {
+        public io.dstore.values.TimestampValue getOrderDateAndTime() {
           if (orderDateAndTimeBuilder_ == null) {
-            return orderDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : orderDateAndTime_;
+            return orderDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : orderDateAndTime_;
           } else {
             return orderDateAndTimeBuilder_.getMessage();
           }
@@ -3966,9 +3966,9 @@ public final class StGetSalesByInformationAd {
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+         * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
          */
-        public Builder setOrderDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setOrderDateAndTime(io.dstore.values.TimestampValue value) {
           if (orderDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3986,10 +3986,10 @@ public final class StGetSalesByInformationAd {
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+         * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
          */
         public Builder setOrderDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (orderDateAndTimeBuilder_ == null) {
             orderDateAndTime_ = builderForValue.build();
             onChanged();
@@ -4004,13 +4004,13 @@ public final class StGetSalesByInformationAd {
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+         * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
          */
-        public Builder mergeOrderDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeOrderDateAndTime(io.dstore.values.TimestampValue value) {
           if (orderDateAndTimeBuilder_ == null) {
             if (orderDateAndTime_ != null) {
               orderDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(orderDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(orderDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               orderDateAndTime_ = value;
             }
@@ -4026,7 +4026,7 @@ public final class StGetSalesByInformationAd {
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+         * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
          */
         public Builder clearOrderDateAndTime() {
           if (orderDateAndTimeBuilder_ == null) {
@@ -4044,9 +4044,9 @@ public final class StGetSalesByInformationAd {
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+         * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getOrderDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getOrderDateAndTimeBuilder() {
           
           onChanged();
           return getOrderDateAndTimeFieldBuilder().getBuilder();
@@ -4056,14 +4056,14 @@ public final class StGetSalesByInformationAd {
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+         * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getOrderDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getOrderDateAndTimeOrBuilder() {
           if (orderDateAndTimeBuilder_ != null) {
             return orderDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return orderDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : orderDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : orderDateAndTime_;
           }
         }
         /**
@@ -4071,14 +4071,14 @@ public final class StGetSalesByInformationAd {
          * Eingangsdatum des Auftrags "OrderID"
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue order_date_and_time = 20001;</code>
+         * <code>optional .dstore.values.TimestampValue order_date_and_time = 20001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getOrderDateAndTimeFieldBuilder() {
           if (orderDateAndTimeBuilder_ == null) {
             orderDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getOrderDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -4087,15 +4087,15 @@ public final class StGetSalesByInformationAd {
           return orderDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue personId_ = null;
+        private io.dstore.values.IntegerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -4105,11 +4105,11 @@ public final class StGetSalesByInformationAd {
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
          */
-        public io.dstore.Values.integerValue getPersonId() {
+        public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
@@ -4119,9 +4119,9 @@ public final class StGetSalesByInformationAd {
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
          */
-        public Builder setPersonId(io.dstore.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4139,10 +4139,10 @@ public final class StGetSalesByInformationAd {
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
          */
         public Builder setPersonId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -4157,13 +4157,13 @@ public final class StGetSalesByInformationAd {
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
          */
-        public Builder mergePersonId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -4179,7 +4179,7 @@ public final class StGetSalesByInformationAd {
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -4197,9 +4197,9 @@ public final class StGetSalesByInformationAd {
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
@@ -4209,14 +4209,14 @@ public final class StGetSalesByInformationAd {
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           }
         }
         /**
@@ -4224,14 +4224,14 @@ public final class StGetSalesByInformationAd {
          * ID des Auftraggebers (des Auftrags "OrderID")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 20002;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 20002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -4240,15 +4240,15 @@ public final class StGetSalesByInformationAd {
           return personIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue nettoSum_ = null;
+        private io.dstore.values.DecimalValue nettoSum_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> nettoSumBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> nettoSumBuilder_;
         /**
          * <pre>
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
          */
         public boolean hasNettoSum() {
           return nettoSumBuilder_ != null || nettoSum_ != null;
@@ -4258,11 +4258,11 @@ public final class StGetSalesByInformationAd {
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
          */
-        public io.dstore.Values.decimalValue getNettoSum() {
+        public io.dstore.values.DecimalValue getNettoSum() {
           if (nettoSumBuilder_ == null) {
-            return nettoSum_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
+            return nettoSum_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : nettoSum_;
           } else {
             return nettoSumBuilder_.getMessage();
           }
@@ -4272,9 +4272,9 @@ public final class StGetSalesByInformationAd {
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
          */
-        public Builder setNettoSum(io.dstore.Values.decimalValue value) {
+        public Builder setNettoSum(io.dstore.values.DecimalValue value) {
           if (nettoSumBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4292,10 +4292,10 @@ public final class StGetSalesByInformationAd {
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
          */
         public Builder setNettoSum(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (nettoSumBuilder_ == null) {
             nettoSum_ = builderForValue.build();
             onChanged();
@@ -4310,13 +4310,13 @@ public final class StGetSalesByInformationAd {
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
          */
-        public Builder mergeNettoSum(io.dstore.Values.decimalValue value) {
+        public Builder mergeNettoSum(io.dstore.values.DecimalValue value) {
           if (nettoSumBuilder_ == null) {
             if (nettoSum_ != null) {
               nettoSum_ =
-                io.dstore.Values.decimalValue.newBuilder(nettoSum_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(nettoSum_).mergeFrom(value).buildPartial();
             } else {
               nettoSum_ = value;
             }
@@ -4332,7 +4332,7 @@ public final class StGetSalesByInformationAd {
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
          */
         public Builder clearNettoSum() {
           if (nettoSumBuilder_ == null) {
@@ -4350,9 +4350,9 @@ public final class StGetSalesByInformationAd {
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getNettoSumBuilder() {
+        public io.dstore.values.DecimalValue.Builder getNettoSumBuilder() {
           
           onChanged();
           return getNettoSumFieldBuilder().getBuilder();
@@ -4362,14 +4362,14 @@ public final class StGetSalesByInformationAd {
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getNettoSumOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getNettoSumOrBuilder() {
           if (nettoSumBuilder_ != null) {
             return nettoSumBuilder_.getMessageOrBuilder();
           } else {
             return nettoSum_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : nettoSum_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : nettoSum_;
           }
         }
         /**
@@ -4377,14 +4377,14 @@ public final class StGetSalesByInformationAd {
          * Netto-Betrag des Auftrags "OrderID" in der Standardwährung ("Settings"-Eintrag zum Schlüssel "DefaultCurrencyID")
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue netto_sum = 20003;</code>
+         * <code>optional .dstore.values.DecimalValue netto_sum = 20003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getNettoSumFieldBuilder() {
           if (nettoSumBuilder_ == null) {
             nettoSumBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getNettoSum(),
                     getParentForChildren(),
                     isClean());
@@ -4393,15 +4393,15 @@ public final class StGetSalesByInformationAd {
           return nettoSumBuilder_;
         }
 
-        private io.dstore.Values.integerValue orderId_ = null;
+        private io.dstore.values.IntegerValue orderId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> orderIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> orderIdBuilder_;
         /**
          * <pre>
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
          */
         public boolean hasOrderId() {
           return orderIdBuilder_ != null || orderId_ != null;
@@ -4411,11 +4411,11 @@ public final class StGetSalesByInformationAd {
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
          */
-        public io.dstore.Values.integerValue getOrderId() {
+        public io.dstore.values.IntegerValue getOrderId() {
           if (orderIdBuilder_ == null) {
-            return orderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
+            return orderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
           } else {
             return orderIdBuilder_.getMessage();
           }
@@ -4425,9 +4425,9 @@ public final class StGetSalesByInformationAd {
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
          */
-        public Builder setOrderId(io.dstore.Values.integerValue value) {
+        public Builder setOrderId(io.dstore.values.IntegerValue value) {
           if (orderIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4445,10 +4445,10 @@ public final class StGetSalesByInformationAd {
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
          */
         public Builder setOrderId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (orderIdBuilder_ == null) {
             orderId_ = builderForValue.build();
             onChanged();
@@ -4463,13 +4463,13 @@ public final class StGetSalesByInformationAd {
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
          */
-        public Builder mergeOrderId(io.dstore.Values.integerValue value) {
+        public Builder mergeOrderId(io.dstore.values.IntegerValue value) {
           if (orderIdBuilder_ == null) {
             if (orderId_ != null) {
               orderId_ =
-                io.dstore.Values.integerValue.newBuilder(orderId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(orderId_).mergeFrom(value).buildPartial();
             } else {
               orderId_ = value;
             }
@@ -4485,7 +4485,7 @@ public final class StGetSalesByInformationAd {
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
          */
         public Builder clearOrderId() {
           if (orderIdBuilder_ == null) {
@@ -4503,9 +4503,9 @@ public final class StGetSalesByInformationAd {
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getOrderIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getOrderIdBuilder() {
           
           onChanged();
           return getOrderIdFieldBuilder().getBuilder();
@@ -4515,14 +4515,14 @@ public final class StGetSalesByInformationAd {
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getOrderIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getOrderIdOrBuilder() {
           if (orderIdBuilder_ != null) {
             return orderIdBuilder_.getMessageOrBuilder();
           } else {
             return orderId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : orderId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : orderId_;
           }
         }
         /**
@@ -4530,14 +4530,14 @@ public final class StGetSalesByInformationAd {
          * ID eines Auftrags einer Person ("PersonID"), der die Besucher-Information "Information" zugeordnet werden kann (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue order_id = 20005;</code>
+         * <code>optional .dstore.values.IntegerValue order_id = 20005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getOrderIdFieldBuilder() {
           if (orderIdBuilder_ == null) {
             orderIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getOrderId(),
                     getParentForChildren(),
                     isClean());
@@ -6007,36 +6007,36 @@ public final class StGetSalesByInformationAd {
       "GetSales_ByInformation_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\277\005\n\nP" +
       "arameters\0220\n\tfrom_date\030\001 \001(\0132\035.dstore.va" +
-      "lues.timestampValue\022\027\n\016from_date_null\030\351\007" +
-      " \001(\010\022.\n\007to_date\030\002 \001(\0132\035.dstore.values.ti" +
+      "lues.TimestampValue\022\027\n\016from_date_null\030\351\007" +
+      " \001(\010\022.\n\007to_date\030\002 \001(\0132\035.dstore.values.Ti" +
       "mestampValue\022\025\n\014to_date_null\030\352\007 \001(\010\0228\n\023i" +
       "nformation_type_id\030\003 \001(\0132\033.dstore.values" +
-      ".integerValue\022!\n\030information_type_id_nul",
+      ".IntegerValue\022!\n\030information_type_id_nul",
       "l\030\353\007 \001(\010\022B\n\035information_is_valid_in_hour" +
-      "s\030\004 \001(\0132\033.dstore.values.integerValue\022+\n\"" +
+      "s\030\004 \001(\0132\033.dstore.values.IntegerValue\022+\n\"" +
       "information_is_valid_in_hours_null\030\354\007 \001(" +
       "\010\022>\n\031select_affected_order_ids\030\005 \001(\0132\033.d" +
-      "store.values.booleanValue\022\'\n\036select_affe" +
+      "store.values.BooleanValue\022\'\n\036select_affe" +
       "cted_order_ids_null\030\355\007 \001(\010\022/\n\norder_desc" +
-      "\030\006 \001(\0132\033.dstore.values.booleanValue\022\030\n\017o" +
+      "\030\006 \001(\0132\033.dstore.values.BooleanValue\022\030\n\017o" +
       "rder_desc_null\030\356\007 \001(\010\022/\n\013information\030\007 \001" +
-      "(\0132\032.dstore.values.stringValue\022\031\n\020inform" +
+      "(\0132\032.dstore.values.StringValue\022\031\n\020inform" +
       "ation_null\030\357\007 \001(\010\0223\n\016purchase_order\030\010 \001(",
-      "\0132\033.dstore.values.booleanValue\022\034\n\023purcha" +
+      "\0132\033.dstore.values.BooleanValue\022\034\n\023purcha" +
       "se_order_null\030\360\007 \001(\010\"\213\004\n\010Response\0228\n\020met" +
       "a_information\030\002 \003(\0132\036.dstore.engine.Meta" +
       "Information\022\'\n\007message\030\003 \003(\0132\026.dstore.en" +
       "gine.Message\022E\n\003row\030\004 \003(\01328.dstore.engin" +
       "e.st_GetSales_ByInformation_Ad.Response." +
       "Row\032\324\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n\013informat" +
-      "ion\030\221N \001(\0132\032.dstore.values.stringValue\0227" +
+      "ion\030\221N \001(\0132\032.dstore.values.StringValue\0227" +
       "\n\021netto_order_sales\030\222N \001(\0132\033.dstore.valu" +
-      "es.decimalValue\022<\n\023order_date_and_time\030\241",
-      "\234\001 \001(\0132\035.dstore.values.timestampValue\0220\n" +
-      "\tperson_id\030\242\234\001 \001(\0132\033.dstore.values.integ" +
+      "es.DecimalValue\022<\n\023order_date_and_time\030\241",
+      "\234\001 \001(\0132\035.dstore.values.TimestampValue\0220\n" +
+      "\tperson_id\030\242\234\001 \001(\0132\033.dstore.values.Integ" +
       "erValue\0220\n\tnetto_sum\030\243\234\001 \001(\0132\033.dstore.va" +
-      "lues.decimalValue\022/\n\010order_id\030\245\234\001 \001(\0132\033." +
-      "dstore.values.integerValueB]\n\033io.dstore." +
+      "lues.DecimalValue\022/\n\010order_id\030\245\234\001 \001(\0132\033." +
+      "dstore.values.IntegerValueB]\n\033io.dstore." +
       "engine.proceduresZ>gosdk.dstore.de/engin" +
       "e/procedures/st_GetSales_ByInformation_A" +
       "db\006proto3"
@@ -6052,7 +6052,7 @@ public final class StGetSalesByInformationAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Parameters_descriptor =
@@ -6073,7 +6073,7 @@ public final class StGetSalesByInformationAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_st_GetSales_ByInformation_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Information", "NettoOrderSales", "OrderDateAndTime", "PersonId", "NettoSum", "OrderId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class ImAddBinaryToValuesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     boolean hasBinaryCodeId();
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    io.dstore.Values.integerValue getBinaryCodeId();
+    io.dstore.values.IntegerValue getBinaryCodeId();
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
     /**
      * <code>optional bool binary_code_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImAddBinaryToValuesAd {
     boolean getBinaryCodeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
      */
     boolean hasValueIds();
     /**
-     * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
      */
-    io.dstore.Values.stringValue getValueIds();
+    io.dstore.values.StringValue getValueIds();
     /**
-     * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueIdsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueIdsOrBuilder();
 
     /**
      * <code>optional bool value_ids_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImAddBinaryToValuesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binaryCodeId_ != null) {
                 subBuilder = binaryCodeId_.toBuilder();
               }
-              binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binaryCodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCodeId_);
                 binaryCodeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImAddBinaryToValuesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (valueIds_ != null) {
                 subBuilder = valueIds_.toBuilder();
               }
-              valueIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              valueIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueIds_);
                 valueIds_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImAddBinaryToValuesAd {
     }
 
     public static final int BINARY_CODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue binaryCodeId_;
+    private io.dstore.values.IntegerValue binaryCodeId_;
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public boolean hasBinaryCodeId() {
       return binaryCodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getBinaryCodeId() {
-      return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+    public io.dstore.values.IntegerValue getBinaryCodeId() {
+      return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
       return getBinaryCodeId();
     }
 
@@ -185,23 +185,23 @@ public final class ImAddBinaryToValuesAd {
     }
 
     public static final int VALUE_IDS_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue valueIds_;
+    private io.dstore.values.StringValue valueIds_;
     /**
-     * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
      */
     public boolean hasValueIds() {
       return valueIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
      */
-    public io.dstore.Values.stringValue getValueIds() {
-      return valueIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueIds_;
+    public io.dstore.values.StringValue getValueIds() {
+      return valueIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+     * <code>optional .dstore.values.StringValue value_ids = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueIdsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueIdsOrBuilder() {
       return getValueIds();
     }
 
@@ -562,29 +562,29 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue binaryCodeId_ = null;
+      private io.dstore.values.IntegerValue binaryCodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCodeId() {
+      public io.dstore.values.IntegerValue getBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
-          return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+          return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
         } else {
           return binaryCodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
+      public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder setBinaryCodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binaryCodeIdBuilder_ == null) {
           binaryCodeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
           if (binaryCodeId_ != null) {
             binaryCodeId_ =
-              io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
           } else {
             binaryCodeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder clearBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
         
         onChanged();
         return getBinaryCodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         if (binaryCodeIdBuilder_ != null) {
           return binaryCodeIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryCodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinaryCodeIdFieldBuilder() {
         if (binaryCodeIdBuilder_ == null) {
           binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinaryCodeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue valueIds_ = null;
+      private io.dstore.values.StringValue valueIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueIdsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
        */
       public boolean hasValueIds() {
         return valueIdsBuilder_ != null || valueIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
        */
-      public io.dstore.Values.stringValue getValueIds() {
+      public io.dstore.values.StringValue getValueIds() {
         if (valueIdsBuilder_ == null) {
-          return valueIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : valueIds_;
+          return valueIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : valueIds_;
         } else {
           return valueIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
        */
-      public Builder setValueIds(io.dstore.Values.stringValue value) {
+      public Builder setValueIds(io.dstore.values.StringValue value) {
         if (valueIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
        */
       public Builder setValueIds(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueIdsBuilder_ == null) {
           valueIds_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
        */
-      public Builder mergeValueIds(io.dstore.Values.stringValue value) {
+      public Builder mergeValueIds(io.dstore.values.StringValue value) {
         if (valueIdsBuilder_ == null) {
           if (valueIds_ != null) {
             valueIds_ =
-              io.dstore.Values.stringValue.newBuilder(valueIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(valueIds_).mergeFrom(value).buildPartial();
           } else {
             valueIds_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
        */
       public Builder clearValueIds() {
         if (valueIdsBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImAddBinaryToValuesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueIdsBuilder() {
+      public io.dstore.values.StringValue.Builder getValueIdsBuilder() {
         
         onChanged();
         return getValueIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueIdsOrBuilder() {
         if (valueIdsBuilder_ != null) {
           return valueIdsBuilder_.getMessageOrBuilder();
         } else {
           return valueIds_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : valueIds_;
+              io.dstore.values.StringValue.getDefaultInstance() : valueIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value_ids = 2;</code>
+       * <code>optional .dstore.values.StringValue value_ids = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueIdsFieldBuilder() {
         if (valueIdsBuilder_ == null) {
           valueIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValueIds(),
                   getParentForChildren(),
                   isClean());
@@ -2935,8 +2935,8 @@ public final class ImAddBinaryToValuesAd {
       "naryToValues_Ad\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\247\001\n\nParameters\022" +
       "3\n\016binary_code_id\030\001 \001(\0132\033.dstore.values." +
-      "integerValue\022\034\n\023binary_code_id_null\030\351\007 \001" +
-      "(\010\022-\n\tvalue_ids\030\002 \001(\0132\032.dstore.values.st" +
+      "IntegerValue\022\034\n\023binary_code_id_null\030\351\007 \001" +
+      "(\010\022-\n\tvalue_ids\030\002 \001(\0132\032.dstore.values.St" +
       "ringValue\022\027\n\016value_ids_null\030\352\007 \001(\010\"\307\001\n\010R" +
       "esponse\0228\n\020meta_information\030\002 \003(\0132\036.dsto" +
       "re.engine.MetaInformation\022\'\n\007message\030\003 \003",
@@ -2958,7 +2958,7 @@ public final class ImAddBinaryToValuesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_AddBinaryToValues_Ad_Parameters_descriptor =
@@ -2979,7 +2979,7 @@ public final class ImAddBinaryToValuesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_AddBinaryToValues_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

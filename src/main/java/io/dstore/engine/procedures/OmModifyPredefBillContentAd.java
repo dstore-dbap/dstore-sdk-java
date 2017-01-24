@@ -19,17 +19,17 @@ public final class OmModifyPredefBillContentAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
     boolean hasPredefinedBillContentId();
     /**
-     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPredefinedBillContentId();
+    io.dstore.values.IntegerValue getPredefinedBillContentId();
     /**
-     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPredefinedBillContentIdOrBuilder();
 
     /**
      * <code>optional bool predefined_bill_content_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmModifyPredefBillContentAd {
     boolean getPredefinedBillContentIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue content_description = 2;</code>
+     * <code>optional .dstore.values.StringValue content_description = 2;</code>
      */
     boolean hasContentDescription();
     /**
-     * <code>optional .dstore.values.stringValue content_description = 2;</code>
+     * <code>optional .dstore.values.StringValue content_description = 2;</code>
      */
-    io.dstore.Values.stringValue getContentDescription();
+    io.dstore.values.StringValue getContentDescription();
     /**
-     * <code>optional .dstore.values.stringValue content_description = 2;</code>
+     * <code>optional .dstore.values.StringValue content_description = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getContentDescriptionOrBuilder();
+    io.dstore.values.StringValueOrBuilder getContentDescriptionOrBuilder();
 
     /**
      * <code>optional bool content_description_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmModifyPredefBillContentAd {
     boolean getContentDescriptionNull();
 
     /**
-     * <code>optional .dstore.values.integerValue table_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
      */
     boolean hasTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
      */
-    io.dstore.Values.integerValue getTableId();
+    io.dstore.values.IntegerValue getTableId();
     /**
-     * <code>optional .dstore.values.integerValue table_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder();
 
     /**
      * <code>optional bool table_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmModifyPredefBillContentAd {
     boolean getTableIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
      */
     boolean hasTableKeyId();
     /**
-     * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
      */
-    io.dstore.Values.integerValue getTableKeyId();
+    io.dstore.values.IntegerValue getTableKeyId();
     /**
-     * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getTableKeyIdOrBuilder();
 
     /**
      * <code>optional bool table_key_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmModifyPredefBillContentAd {
     boolean getTableKeyIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
     boolean hasActive();
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
-    io.dstore.Values.booleanValue getActive();
+    io.dstore.values.BooleanValue getActive();
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder();
 
     /**
      * <code>optional bool active_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmModifyPredefBillContentAd {
     boolean getActiveNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
     boolean hasDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    io.dstore.Values.booleanValue getDelete();
+    io.dstore.values.BooleanValue getDelete();
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder();
 
     /**
      * <code>optional bool delete_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class OmModifyPredefBillContentAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (predefinedBillContentId_ != null) {
                 subBuilder = predefinedBillContentId_.toBuilder();
               }
-              predefinedBillContentId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              predefinedBillContentId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(predefinedBillContentId_);
                 predefinedBillContentId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class OmModifyPredefBillContentAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (contentDescription_ != null) {
                 subBuilder = contentDescription_.toBuilder();
               }
-              contentDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              contentDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(contentDescription_);
                 contentDescription_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class OmModifyPredefBillContentAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (tableId_ != null) {
                 subBuilder = tableId_.toBuilder();
               }
-              tableId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              tableId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableId_);
                 tableId_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class OmModifyPredefBillContentAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (tableKeyId_ != null) {
                 subBuilder = tableKeyId_.toBuilder();
               }
-              tableKeyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              tableKeyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableKeyId_);
                 tableKeyId_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class OmModifyPredefBillContentAd {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (active_ != null) {
                 subBuilder = active_.toBuilder();
               }
-              active_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              active_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(active_);
                 active_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class OmModifyPredefBillContentAd {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              delete_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class OmModifyPredefBillContentAd {
     }
 
     public static final int PREDEFINED_BILL_CONTENT_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue predefinedBillContentId_;
+    private io.dstore.values.IntegerValue predefinedBillContentId_;
     /**
-     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
     public boolean hasPredefinedBillContentId() {
       return predefinedBillContentId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPredefinedBillContentId() {
-      return predefinedBillContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
+    public io.dstore.values.IntegerValue getPredefinedBillContentId() {
+      return predefinedBillContentId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predefinedBillContentId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
       return getPredefinedBillContentId();
     }
 
@@ -333,23 +333,23 @@ public final class OmModifyPredefBillContentAd {
     }
 
     public static final int CONTENT_DESCRIPTION_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue contentDescription_;
+    private io.dstore.values.StringValue contentDescription_;
     /**
-     * <code>optional .dstore.values.stringValue content_description = 2;</code>
+     * <code>optional .dstore.values.StringValue content_description = 2;</code>
      */
     public boolean hasContentDescription() {
       return contentDescription_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue content_description = 2;</code>
+     * <code>optional .dstore.values.StringValue content_description = 2;</code>
      */
-    public io.dstore.Values.stringValue getContentDescription() {
-      return contentDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : contentDescription_;
+    public io.dstore.values.StringValue getContentDescription() {
+      return contentDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : contentDescription_;
     }
     /**
-     * <code>optional .dstore.values.stringValue content_description = 2;</code>
+     * <code>optional .dstore.values.StringValue content_description = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getContentDescriptionOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getContentDescriptionOrBuilder() {
       return getContentDescription();
     }
 
@@ -363,23 +363,23 @@ public final class OmModifyPredefBillContentAd {
     }
 
     public static final int TABLE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue tableId_;
+    private io.dstore.values.IntegerValue tableId_;
     /**
-     * <code>optional .dstore.values.integerValue table_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
      */
     public boolean hasTableId() {
       return tableId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getTableId() {
-      return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+    public io.dstore.values.IntegerValue getTableId() {
+      return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
       return getTableId();
     }
 
@@ -393,23 +393,23 @@ public final class OmModifyPredefBillContentAd {
     }
 
     public static final int TABLE_KEY_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue tableKeyId_;
+    private io.dstore.values.IntegerValue tableKeyId_;
     /**
-     * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
      */
     public boolean hasTableKeyId() {
       return tableKeyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getTableKeyId() {
-      return tableKeyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
+    public io.dstore.values.IntegerValue getTableKeyId() {
+      return tableKeyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableKeyId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getTableKeyIdOrBuilder() {
       return getTableKeyId();
     }
 
@@ -423,23 +423,23 @@ public final class OmModifyPredefBillContentAd {
     }
 
     public static final int ACTIVE_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue active_;
+    private io.dstore.values.BooleanValue active_;
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
     public boolean hasActive() {
       return active_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
-    public io.dstore.Values.booleanValue getActive() {
-      return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
+    public io.dstore.values.BooleanValue getActive() {
+      return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue active = 5;</code>
+     * <code>optional .dstore.values.BooleanValue active = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
       return getActive();
     }
 
@@ -453,23 +453,23 @@ public final class OmModifyPredefBillContentAd {
     }
 
     public static final int DELETE_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue delete_;
+    private io.dstore.values.BooleanValue delete_;
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
     public boolean hasDelete() {
       return delete_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    public io.dstore.Values.booleanValue getDelete() {
-      return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+    public io.dstore.values.BooleanValue getDelete() {
+      return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete = 6;</code>
+     * <code>optional .dstore.values.BooleanValue delete = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
       return getDelete();
     }
 
@@ -1022,29 +1022,29 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue predefinedBillContentId_ = null;
+      private io.dstore.values.IntegerValue predefinedBillContentId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> predefinedBillContentIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> predefinedBillContentIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public boolean hasPredefinedBillContentId() {
         return predefinedBillContentIdBuilder_ != null || predefinedBillContentId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPredefinedBillContentId() {
+      public io.dstore.values.IntegerValue getPredefinedBillContentId() {
         if (predefinedBillContentIdBuilder_ == null) {
-          return predefinedBillContentId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
+          return predefinedBillContentId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : predefinedBillContentId_;
         } else {
           return predefinedBillContentIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
-      public Builder setPredefinedBillContentId(io.dstore.Values.integerValue value) {
+      public Builder setPredefinedBillContentId(io.dstore.values.IntegerValue value) {
         if (predefinedBillContentIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public Builder setPredefinedBillContentId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (predefinedBillContentIdBuilder_ == null) {
           predefinedBillContentId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
-      public Builder mergePredefinedBillContentId(io.dstore.Values.integerValue value) {
+      public Builder mergePredefinedBillContentId(io.dstore.values.IntegerValue value) {
         if (predefinedBillContentIdBuilder_ == null) {
           if (predefinedBillContentId_ != null) {
             predefinedBillContentId_ =
-              io.dstore.Values.integerValue.newBuilder(predefinedBillContentId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(predefinedBillContentId_).mergeFrom(value).buildPartial();
           } else {
             predefinedBillContentId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       public Builder clearPredefinedBillContentId() {
         if (predefinedBillContentIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPredefinedBillContentIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPredefinedBillContentIdBuilder() {
         
         onChanged();
         return getPredefinedBillContentIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPredefinedBillContentIdOrBuilder() {
         if (predefinedBillContentIdBuilder_ != null) {
           return predefinedBillContentIdBuilder_.getMessageOrBuilder();
         } else {
           return predefinedBillContentId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : predefinedBillContentId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : predefinedBillContentId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue predefined_bill_content_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue predefined_bill_content_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPredefinedBillContentIdFieldBuilder() {
         if (predefinedBillContentIdBuilder_ == null) {
           predefinedBillContentIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPredefinedBillContentId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue contentDescription_ = null;
+      private io.dstore.values.StringValue contentDescription_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> contentDescriptionBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> contentDescriptionBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue content_description = 2;</code>
+       * <code>optional .dstore.values.StringValue content_description = 2;</code>
        */
       public boolean hasContentDescription() {
         return contentDescriptionBuilder_ != null || contentDescription_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue content_description = 2;</code>
+       * <code>optional .dstore.values.StringValue content_description = 2;</code>
        */
-      public io.dstore.Values.stringValue getContentDescription() {
+      public io.dstore.values.StringValue getContentDescription() {
         if (contentDescriptionBuilder_ == null) {
-          return contentDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : contentDescription_;
+          return contentDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : contentDescription_;
         } else {
           return contentDescriptionBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue content_description = 2;</code>
+       * <code>optional .dstore.values.StringValue content_description = 2;</code>
        */
-      public Builder setContentDescription(io.dstore.Values.stringValue value) {
+      public Builder setContentDescription(io.dstore.values.StringValue value) {
         if (contentDescriptionBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue content_description = 2;</code>
+       * <code>optional .dstore.values.StringValue content_description = 2;</code>
        */
       public Builder setContentDescription(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (contentDescriptionBuilder_ == null) {
           contentDescription_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue content_description = 2;</code>
+       * <code>optional .dstore.values.StringValue content_description = 2;</code>
        */
-      public Builder mergeContentDescription(io.dstore.Values.stringValue value) {
+      public Builder mergeContentDescription(io.dstore.values.StringValue value) {
         if (contentDescriptionBuilder_ == null) {
           if (contentDescription_ != null) {
             contentDescription_ =
-              io.dstore.Values.stringValue.newBuilder(contentDescription_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(contentDescription_).mergeFrom(value).buildPartial();
           } else {
             contentDescription_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue content_description = 2;</code>
+       * <code>optional .dstore.values.StringValue content_description = 2;</code>
        */
       public Builder clearContentDescription() {
         if (contentDescriptionBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue content_description = 2;</code>
+       * <code>optional .dstore.values.StringValue content_description = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getContentDescriptionBuilder() {
+      public io.dstore.values.StringValue.Builder getContentDescriptionBuilder() {
         
         onChanged();
         return getContentDescriptionFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue content_description = 2;</code>
+       * <code>optional .dstore.values.StringValue content_description = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getContentDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getContentDescriptionOrBuilder() {
         if (contentDescriptionBuilder_ != null) {
           return contentDescriptionBuilder_.getMessageOrBuilder();
         } else {
           return contentDescription_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : contentDescription_;
+              io.dstore.values.StringValue.getDefaultInstance() : contentDescription_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue content_description = 2;</code>
+       * <code>optional .dstore.values.StringValue content_description = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getContentDescriptionFieldBuilder() {
         if (contentDescriptionBuilder_ == null) {
           contentDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getContentDescription(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue tableId_ = null;
+      private io.dstore.values.IntegerValue tableId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue table_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
        */
       public boolean hasTableId() {
         return tableIdBuilder_ != null || tableId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getTableId() {
+      public io.dstore.values.IntegerValue getTableId() {
         if (tableIdBuilder_ == null) {
-          return tableId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+          return tableId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         } else {
           return tableIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
        */
-      public Builder setTableId(io.dstore.Values.integerValue value) {
+      public Builder setTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
        */
       public Builder setTableId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (tableIdBuilder_ == null) {
           tableId_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
        */
-      public Builder mergeTableId(io.dstore.Values.integerValue value) {
+      public Builder mergeTableId(io.dstore.values.IntegerValue value) {
         if (tableIdBuilder_ == null) {
           if (tableId_ != null) {
             tableId_ =
-              io.dstore.Values.integerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(tableId_).mergeFrom(value).buildPartial();
           } else {
             tableId_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
        */
       public Builder clearTableId() {
         if (tableIdBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTableIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTableIdBuilder() {
         
         onChanged();
         return getTableIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTableIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTableIdOrBuilder() {
         if (tableIdBuilder_ != null) {
           return tableIdBuilder_.getMessageOrBuilder();
         } else {
           return tableId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : tableId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : tableId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue table_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTableIdFieldBuilder() {
         if (tableIdBuilder_ == null) {
           tableIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTableId(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue tableKeyId_ = null;
+      private io.dstore.values.IntegerValue tableKeyId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> tableKeyIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> tableKeyIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public boolean hasTableKeyId() {
         return tableKeyIdBuilder_ != null || tableKeyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getTableKeyId() {
+      public io.dstore.values.IntegerValue getTableKeyId() {
         if (tableKeyIdBuilder_ == null) {
-          return tableKeyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
+          return tableKeyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : tableKeyId_;
         } else {
           return tableKeyIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
        */
-      public Builder setTableKeyId(io.dstore.Values.integerValue value) {
+      public Builder setTableKeyId(io.dstore.values.IntegerValue value) {
         if (tableKeyIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public Builder setTableKeyId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (tableKeyIdBuilder_ == null) {
           tableKeyId_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
        */
-      public Builder mergeTableKeyId(io.dstore.Values.integerValue value) {
+      public Builder mergeTableKeyId(io.dstore.values.IntegerValue value) {
         if (tableKeyIdBuilder_ == null) {
           if (tableKeyId_ != null) {
             tableKeyId_ =
-              io.dstore.Values.integerValue.newBuilder(tableKeyId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(tableKeyId_).mergeFrom(value).buildPartial();
           } else {
             tableKeyId_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
        */
       public Builder clearTableKeyId() {
         if (tableKeyIdBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getTableKeyIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getTableKeyIdBuilder() {
         
         onChanged();
         return getTableKeyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTableKeyIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTableKeyIdOrBuilder() {
         if (tableKeyIdBuilder_ != null) {
           return tableKeyIdBuilder_.getMessageOrBuilder();
         } else {
           return tableKeyId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : tableKeyId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : tableKeyId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue table_key_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue table_key_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getTableKeyIdFieldBuilder() {
         if (tableKeyIdBuilder_ == null) {
           tableKeyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getTableKeyId(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue active_ = null;
+      private io.dstore.values.BooleanValue active_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> activeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> activeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
       public boolean hasActive() {
         return activeBuilder_ != null || active_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public io.dstore.Values.booleanValue getActive() {
+      public io.dstore.values.BooleanValue getActive() {
         if (activeBuilder_ == null) {
-          return active_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : active_;
+          return active_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : active_;
         } else {
           return activeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public Builder setActive(io.dstore.Values.booleanValue value) {
+      public Builder setActive(io.dstore.values.BooleanValue value) {
         if (activeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
       public Builder setActive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (activeBuilder_ == null) {
           active_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public Builder mergeActive(io.dstore.Values.booleanValue value) {
+      public Builder mergeActive(io.dstore.values.BooleanValue value) {
         if (activeBuilder_ == null) {
           if (active_ != null) {
             active_ =
-              io.dstore.Values.booleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(active_).mergeFrom(value).buildPartial();
           } else {
             active_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
       public Builder clearActive() {
         if (activeBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getActiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getActiveBuilder() {
         
         onChanged();
         return getActiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getActiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getActiveOrBuilder() {
         if (activeBuilder_ != null) {
           return activeBuilder_.getMessageOrBuilder();
         } else {
           return active_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : active_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : active_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue active = 5;</code>
+       * <code>optional .dstore.values.BooleanValue active = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getActiveFieldBuilder() {
         if (activeBuilder_ == null) {
           activeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getActive(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue delete_ = null;
+      private io.dstore.values.BooleanValue delete_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public boolean hasDelete() {
         return deleteBuilder_ != null || delete_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValue getDelete() {
+      public io.dstore.values.BooleanValue getDelete() {
         if (deleteBuilder_ == null) {
-          return delete_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+          return delete_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         } else {
           return deleteBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public Builder setDelete(io.dstore.Values.booleanValue value) {
+      public Builder setDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder setDelete(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteBuilder_ == null) {
           delete_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public Builder mergeDelete(io.dstore.Values.booleanValue value) {
+      public Builder mergeDelete(io.dstore.values.BooleanValue value) {
         if (deleteBuilder_ == null) {
           if (delete_ != null) {
             delete_ =
-              io.dstore.Values.booleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(delete_).mergeFrom(value).buildPartial();
           } else {
             delete_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       public Builder clearDelete() {
         if (deleteBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class OmModifyPredefBillContentAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteBuilder() {
         
         onChanged();
         return getDeleteFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteOrBuilder() {
         if (deleteBuilder_ != null) {
           return deleteBuilder_.getMessageOrBuilder();
         } else {
           return delete_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : delete_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : delete_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete = 6;</code>
+       * <code>optional .dstore.values.BooleanValue delete = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteFieldBuilder() {
         if (deleteBuilder_ == null) {
           deleteBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDelete(),
                   getParentForChildren(),
                   isClean());
@@ -3967,17 +3967,17 @@ public final class OmModifyPredefBillContentAd {
       "_ModifyPredefBillContent_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\357\003\n" +
       "\nParameters\022?\n\032predefined_bill_content_i" +
-      "d\030\001 \001(\0132\033.dstore.values.integerValue\022(\n\037" +
+      "d\030\001 \001(\0132\033.dstore.values.IntegerValue\022(\n\037" +
       "predefined_bill_content_id_null\030\351\007 \001(\010\0227" +
       "\n\023content_description\030\002 \001(\0132\032.dstore.val" +
-      "ues.stringValue\022!\n\030content_description_n" +
+      "ues.StringValue\022!\n\030content_description_n" +
       "ull\030\352\007 \001(\010\022-\n\010table_id\030\003 \001(\0132\033.dstore.va",
-      "lues.integerValue\022\026\n\rtable_id_null\030\353\007 \001(" +
+      "lues.IntegerValue\022\026\n\rtable_id_null\030\353\007 \001(" +
       "\010\0221\n\014table_key_id\030\004 \001(\0132\033.dstore.values." +
-      "integerValue\022\032\n\021table_key_id_null\030\354\007 \001(\010" +
-      "\022+\n\006active\030\005 \001(\0132\033.dstore.values.boolean" +
+      "IntegerValue\022\032\n\021table_key_id_null\030\354\007 \001(\010" +
+      "\022+\n\006active\030\005 \001(\0132\033.dstore.values.Boolean" +
       "Value\022\024\n\013active_null\030\355\007 \001(\010\022+\n\006delete\030\006 " +
-      "\001(\0132\033.dstore.values.booleanValue\022\024\n\013dele" +
+      "\001(\0132\033.dstore.values.BooleanValue\022\024\n\013dele" +
       "te_null\030\356\007 \001(\010\"\315\001\n\010Response\0228\n\020meta_info" +
       "rmation\030\002 \003(\0132\036.dstore.engine.MetaInform" +
       "ation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.M" +
@@ -3999,7 +3999,7 @@ public final class OmModifyPredefBillContentAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ModifyPredefBillContent_Ad_Parameters_descriptor =
@@ -4020,7 +4020,7 @@ public final class OmModifyPredefBillContentAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyPredefBillContent_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

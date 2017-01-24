@@ -19,17 +19,17 @@ public final class ImGetBinaryPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     boolean hasBinaryCodeId();
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    io.dstore.Values.integerValue getBinaryCodeId();
+    io.dstore.values.IntegerValue getBinaryCodeId();
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
     /**
      * <code>optional bool binary_code_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImGetBinaryPu {
     boolean getBinaryCodeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+     * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
      */
     boolean hasReturnThumbnailCode();
     /**
-     * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+     * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
      */
-    io.dstore.Values.booleanValue getReturnThumbnailCode();
+    io.dstore.values.BooleanValue getReturnThumbnailCode();
     /**
-     * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+     * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getReturnThumbnailCodeOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getReturnThumbnailCodeOrBuilder();
 
     /**
      * <code>optional bool return_thumbnail_code_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImGetBinaryPu {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binaryCodeId_ != null) {
                 subBuilder = binaryCodeId_.toBuilder();
               }
-              binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binaryCodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCodeId_);
                 binaryCodeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImGetBinaryPu {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (returnThumbnailCode_ != null) {
                 subBuilder = returnThumbnailCode_.toBuilder();
               }
-              returnThumbnailCode_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              returnThumbnailCode_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnThumbnailCode_);
                 returnThumbnailCode_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImGetBinaryPu {
     }
 
     public static final int BINARY_CODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue binaryCodeId_;
+    private io.dstore.values.IntegerValue binaryCodeId_;
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
     public boolean hasBinaryCodeId() {
       return binaryCodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getBinaryCodeId() {
-      return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+    public io.dstore.values.IntegerValue getBinaryCodeId() {
+      return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
       return getBinaryCodeId();
     }
 
@@ -185,23 +185,23 @@ public final class ImGetBinaryPu {
     }
 
     public static final int RETURN_THUMBNAIL_CODE_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue returnThumbnailCode_;
+    private io.dstore.values.BooleanValue returnThumbnailCode_;
     /**
-     * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+     * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
      */
     public boolean hasReturnThumbnailCode() {
       return returnThumbnailCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+     * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
      */
-    public io.dstore.Values.booleanValue getReturnThumbnailCode() {
-      return returnThumbnailCode_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : returnThumbnailCode_;
+    public io.dstore.values.BooleanValue getReturnThumbnailCode() {
+      return returnThumbnailCode_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : returnThumbnailCode_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+     * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getReturnThumbnailCodeOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getReturnThumbnailCodeOrBuilder() {
       return getReturnThumbnailCode();
     }
 
@@ -562,29 +562,29 @@ public final class ImGetBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue binaryCodeId_ = null;
+      private io.dstore.values.IntegerValue binaryCodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCodeId() {
+      public io.dstore.values.IntegerValue getBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
-          return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+          return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
         } else {
           return binaryCodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
+      public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImGetBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder setBinaryCodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binaryCodeIdBuilder_ == null) {
           binaryCodeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImGetBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
         if (binaryCodeIdBuilder_ == null) {
           if (binaryCodeId_ != null) {
             binaryCodeId_ =
-              io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
           } else {
             binaryCodeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImGetBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       public Builder clearBinaryCodeId() {
         if (binaryCodeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImGetBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
         
         onChanged();
         return getBinaryCodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         if (binaryCodeIdBuilder_ != null) {
           return binaryCodeIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryCodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_code_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinaryCodeIdFieldBuilder() {
         if (binaryCodeIdBuilder_ == null) {
           binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinaryCodeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImGetBinaryPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue returnThumbnailCode_ = null;
+      private io.dstore.values.BooleanValue returnThumbnailCode_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> returnThumbnailCodeBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> returnThumbnailCodeBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+       * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
        */
       public boolean hasReturnThumbnailCode() {
         return returnThumbnailCodeBuilder_ != null || returnThumbnailCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+       * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
        */
-      public io.dstore.Values.booleanValue getReturnThumbnailCode() {
+      public io.dstore.values.BooleanValue getReturnThumbnailCode() {
         if (returnThumbnailCodeBuilder_ == null) {
-          return returnThumbnailCode_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : returnThumbnailCode_;
+          return returnThumbnailCode_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : returnThumbnailCode_;
         } else {
           return returnThumbnailCodeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+       * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
        */
-      public Builder setReturnThumbnailCode(io.dstore.Values.booleanValue value) {
+      public Builder setReturnThumbnailCode(io.dstore.values.BooleanValue value) {
         if (returnThumbnailCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImGetBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+       * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
        */
       public Builder setReturnThumbnailCode(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (returnThumbnailCodeBuilder_ == null) {
           returnThumbnailCode_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImGetBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+       * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
        */
-      public Builder mergeReturnThumbnailCode(io.dstore.Values.booleanValue value) {
+      public Builder mergeReturnThumbnailCode(io.dstore.values.BooleanValue value) {
         if (returnThumbnailCodeBuilder_ == null) {
           if (returnThumbnailCode_ != null) {
             returnThumbnailCode_ =
-              io.dstore.Values.booleanValue.newBuilder(returnThumbnailCode_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(returnThumbnailCode_).mergeFrom(value).buildPartial();
           } else {
             returnThumbnailCode_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImGetBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+       * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
        */
       public Builder clearReturnThumbnailCode() {
         if (returnThumbnailCodeBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImGetBinaryPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+       * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getReturnThumbnailCodeBuilder() {
+      public io.dstore.values.BooleanValue.Builder getReturnThumbnailCodeBuilder() {
         
         onChanged();
         return getReturnThumbnailCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+       * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getReturnThumbnailCodeOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getReturnThumbnailCodeOrBuilder() {
         if (returnThumbnailCodeBuilder_ != null) {
           return returnThumbnailCodeBuilder_.getMessageOrBuilder();
         } else {
           return returnThumbnailCode_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : returnThumbnailCode_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : returnThumbnailCode_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue return_thumbnail_code = 2;</code>
+       * <code>optional .dstore.values.BooleanValue return_thumbnail_code = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getReturnThumbnailCodeFieldBuilder() {
         if (returnThumbnailCodeBuilder_ == null) {
           returnThumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getReturnThumbnailCode(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class ImGetBinaryPu {
        * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
        */
       boolean hasBinaryType();
       /**
@@ -1115,24 +1115,24 @@ public final class ImGetBinaryPu {
        * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
        */
-      io.dstore.Values.stringValue getBinaryType();
+      io.dstore.values.StringValue getBinaryType();
       /**
        * <pre>
        * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBinaryTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getBinaryTypeOrBuilder();
 
       /**
        * <pre>
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
        */
       boolean hasBinaryCode();
       /**
@@ -1140,17 +1140,17 @@ public final class ImGetBinaryPu {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
        */
-      io.dstore.Values.bytesValue getBinaryCode();
+      io.dstore.values.BytesValue getBinaryCode();
       /**
        * <pre>
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
        */
-      io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder();
+      io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetBinary_Pu.Response.Row}
@@ -1198,11 +1198,11 @@ public final class ImGetBinaryPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (binaryType_ != null) {
                   subBuilder = binaryType_.toBuilder();
                 }
-                binaryType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                binaryType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryType_);
                   binaryType_ = subBuilder.buildPartial();
@@ -1211,11 +1211,11 @@ public final class ImGetBinaryPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.bytesValue.Builder subBuilder = null;
+                io.dstore.values.BytesValue.Builder subBuilder = null;
                 if (binaryCode_ != null) {
                   subBuilder = binaryCode_.toBuilder();
                 }
-                binaryCode_ = input.readMessage(io.dstore.Values.bytesValue.parser(), extensionRegistry);
+                binaryCode_ = input.readMessage(io.dstore.values.BytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCode_);
                   binaryCode_ = subBuilder.buildPartial();
@@ -1256,13 +1256,13 @@ public final class ImGetBinaryPu {
       }
 
       public static final int BINARY_TYPE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue binaryType_;
+      private io.dstore.values.StringValue binaryType_;
       /**
        * <pre>
        * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
        */
       public boolean hasBinaryType() {
         return binaryType_ != null;
@@ -1272,30 +1272,30 @@ public final class ImGetBinaryPu {
        * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
        */
-      public io.dstore.Values.stringValue getBinaryType() {
-        return binaryType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryType_;
+      public io.dstore.values.StringValue getBinaryType() {
+        return binaryType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryType_;
       }
       /**
        * <pre>
        * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+       * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBinaryTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBinaryTypeOrBuilder() {
         return getBinaryType();
       }
 
       public static final int BINARY_CODE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.bytesValue binaryCode_;
+      private io.dstore.values.BytesValue binaryCode_;
       /**
        * <pre>
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
        */
       public boolean hasBinaryCode() {
         return binaryCode_ != null;
@@ -1305,19 +1305,19 @@ public final class ImGetBinaryPu {
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
        */
-      public io.dstore.Values.bytesValue getBinaryCode() {
-        return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+      public io.dstore.values.BytesValue getBinaryCode() {
+        return binaryCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
       }
       /**
        * <pre>
        * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
        */
-      public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
+      public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
       }
 
@@ -1676,15 +1676,15 @@ public final class ImGetBinaryPu {
           return this;
         }
 
-        private io.dstore.Values.stringValue binaryType_ = null;
+        private io.dstore.values.StringValue binaryType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> binaryTypeBuilder_;
         /**
          * <pre>
          * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
          */
         public boolean hasBinaryType() {
           return binaryTypeBuilder_ != null || binaryType_ != null;
@@ -1694,11 +1694,11 @@ public final class ImGetBinaryPu {
          * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue getBinaryType() {
+        public io.dstore.values.StringValue getBinaryType() {
           if (binaryTypeBuilder_ == null) {
-            return binaryType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryType_;
+            return binaryType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryType_;
           } else {
             return binaryTypeBuilder_.getMessage();
           }
@@ -1708,9 +1708,9 @@ public final class ImGetBinaryPu {
          * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
          */
-        public Builder setBinaryType(io.dstore.Values.stringValue value) {
+        public Builder setBinaryType(io.dstore.values.StringValue value) {
           if (binaryTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1728,10 +1728,10 @@ public final class ImGetBinaryPu {
          * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
          */
         public Builder setBinaryType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (binaryTypeBuilder_ == null) {
             binaryType_ = builderForValue.build();
             onChanged();
@@ -1746,13 +1746,13 @@ public final class ImGetBinaryPu {
          * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
          */
-        public Builder mergeBinaryType(io.dstore.Values.stringValue value) {
+        public Builder mergeBinaryType(io.dstore.values.StringValue value) {
           if (binaryTypeBuilder_ == null) {
             if (binaryType_ != null) {
               binaryType_ =
-                io.dstore.Values.stringValue.newBuilder(binaryType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(binaryType_).mergeFrom(value).buildPartial();
             } else {
               binaryType_ = value;
             }
@@ -1768,7 +1768,7 @@ public final class ImGetBinaryPu {
          * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
          */
         public Builder clearBinaryType() {
           if (binaryTypeBuilder_ == null) {
@@ -1786,9 +1786,9 @@ public final class ImGetBinaryPu {
          * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBinaryTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getBinaryTypeBuilder() {
           
           onChanged();
           return getBinaryTypeFieldBuilder().getBuilder();
@@ -1798,14 +1798,14 @@ public final class ImGetBinaryPu {
          * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBinaryTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBinaryTypeOrBuilder() {
           if (binaryTypeBuilder_ != null) {
             return binaryTypeBuilder_.getMessageOrBuilder();
           } else {
             return binaryType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : binaryType_;
+                io.dstore.values.StringValue.getDefaultInstance() : binaryType_;
           }
         }
         /**
@@ -1813,14 +1813,14 @@ public final class ImGetBinaryPu {
          * Eigenschaft von "&#64;BinaryCodeID" zum Merkmal mit der ID "1" (aktuelle Bezeichnung : "MIME-Type"). Hinweis : Die Engine kann nicht SICHERSTELLEN, daß der Wert wirklich den Typ des "Binaries" darstellt (s. Beschreibung) !
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_type = 10001;</code>
+         * <code>optional .dstore.values.StringValue binary_type = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBinaryTypeFieldBuilder() {
           if (binaryTypeBuilder_ == null) {
             binaryTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBinaryType(),
                     getParentForChildren(),
                     isClean());
@@ -1829,15 +1829,15 @@ public final class ImGetBinaryPu {
           return binaryTypeBuilder_;
         }
 
-        private io.dstore.Values.bytesValue binaryCode_ = null;
+        private io.dstore.values.BytesValue binaryCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> binaryCodeBuilder_;
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> binaryCodeBuilder_;
         /**
          * <pre>
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
          */
         public boolean hasBinaryCode() {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
@@ -1847,11 +1847,11 @@ public final class ImGetBinaryPu {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
          */
-        public io.dstore.Values.bytesValue getBinaryCode() {
+        public io.dstore.values.BytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
-            return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+            return binaryCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
           } else {
             return binaryCodeBuilder_.getMessage();
           }
@@ -1861,9 +1861,9 @@ public final class ImGetBinaryPu {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
          */
-        public Builder setBinaryCode(io.dstore.Values.bytesValue value) {
+        public Builder setBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1881,10 +1881,10 @@ public final class ImGetBinaryPu {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
          */
         public Builder setBinaryCode(
-            io.dstore.Values.bytesValue.Builder builderForValue) {
+            io.dstore.values.BytesValue.Builder builderForValue) {
           if (binaryCodeBuilder_ == null) {
             binaryCode_ = builderForValue.build();
             onChanged();
@@ -1899,13 +1899,13 @@ public final class ImGetBinaryPu {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
          */
-        public Builder mergeBinaryCode(io.dstore.Values.bytesValue value) {
+        public Builder mergeBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (binaryCode_ != null) {
               binaryCode_ =
-                io.dstore.Values.bytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.BytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
             } else {
               binaryCode_ = value;
             }
@@ -1921,7 +1921,7 @@ public final class ImGetBinaryPu {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
          */
         public Builder clearBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -1939,9 +1939,9 @@ public final class ImGetBinaryPu {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
          */
-        public io.dstore.Values.bytesValue.Builder getBinaryCodeBuilder() {
+        public io.dstore.values.BytesValue.Builder getBinaryCodeBuilder() {
           
           onChanged();
           return getBinaryCodeFieldBuilder().getBuilder();
@@ -1951,14 +1951,14 @@ public final class ImGetBinaryPu {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
          */
-        public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
+        public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
             return binaryCodeBuilder_.getMessageOrBuilder();
           } else {
             return binaryCode_ == null ?
-                io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+                io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
           }
         }
         /**
@@ -1966,14 +1966,14 @@ public final class ImGetBinaryPu {
          * Der zur "&#64;BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst - oder das zugehörige "Thumbnail"
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
             getBinaryCodeFieldBuilder() {
           if (binaryCodeBuilder_ == null) {
             binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
+                io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder>(
                     getBinaryCode(),
                     getParentForChildren(),
                     isClean());
@@ -3442,18 +3442,18 @@ public final class ImGetBinaryPu {
       "Pu.proto\022\035dstore.engine.im_GetBinary_Pu\032" +
       "\023dstore/values.proto\032\032dstore/engine/engi" +
       "ne.proto\"\300\001\n\nParameters\0223\n\016binary_code_i" +
-      "d\030\001 \001(\0132\033.dstore.values.integerValue\022\034\n\023" +
+      "d\030\001 \001(\0132\033.dstore.values.IntegerValue\022\034\n\023" +
       "binary_code_id_null\030\351\007 \001(\010\022:\n\025return_thu" +
-      "mbnail_code\030\002 \001(\0132\033.dstore.values.boolea" +
+      "mbnail_code\030\002 \001(\0132\033.dstore.values.Boolea" +
       "nValue\022#\n\032return_thumbnail_code_null\030\352\007 " +
       "\001(\010\"\242\002\n\010Response\0228\n\020meta_information\030\002 \003" +
       "(\0132\036.dstore.engine.MetaInformation\022\'\n\007me",
       "ssage\030\003 \003(\0132\026.dstore.engine.Message\0228\n\003r" +
       "ow\030\004 \003(\0132+.dstore.engine.im_GetBinary_Pu" +
       ".Response.Row\032y\n\003Row\022\017\n\006row_id\030\220N \001(\005\0220\n" +
-      "\013binary_type\030\221N \001(\0132\032.dstore.values.stri" +
+      "\013binary_type\030\221N \001(\0132\032.dstore.values.Stri" +
       "ngValue\022/\n\013binary_code\030\222N \001(\0132\031.dstore.v" +
-      "alues.bytesValueBP\n\033io.dstore.engine.pro" +
+      "alues.BytesValueBP\n\033io.dstore.engine.pro" +
       "ceduresZ1gosdk.dstore.de/engine/procedur" +
       "es/im_GetBinary_Pub\006proto3"
     };
@@ -3468,7 +3468,7 @@ public final class ImGetBinaryPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetBinary_Pu_Parameters_descriptor =
@@ -3489,7 +3489,7 @@ public final class ImGetBinaryPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetBinary_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BinaryType", "BinaryCode", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

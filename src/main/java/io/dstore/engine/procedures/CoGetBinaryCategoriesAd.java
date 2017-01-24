@@ -19,17 +19,17 @@ public final class CoGetBinaryCategoriesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     boolean hasCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValue getCommunityId();
+    io.dstore.values.IntegerValue getCommunityId();
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
     /**
      * <code>optional bool community_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class CoGetBinaryCategoriesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class CoGetBinaryCategoriesAd {
     }
 
     public static final int COMMUNITY_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue communityId_;
+    private io.dstore.values.IntegerValue communityId_;
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
     public boolean hasCommunityId() {
       return communityId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getCommunityId() {
-      return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+    public io.dstore.values.IntegerValue getCommunityId() {
+      return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue community_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
       return getCommunityId();
     }
 
@@ -447,29 +447,29 @@ public final class CoGetBinaryCategoriesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue communityId_ = null;
+      private io.dstore.values.IntegerValue communityId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public boolean hasCommunityId() {
         return communityIdBuilder_ != null || communityId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
+      public io.dstore.values.IntegerValue getCommunityId() {
         if (communityIdBuilder_ == null) {
-          return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+          return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         } else {
           return communityIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder setCommunityId(io.dstore.Values.integerValue value) {
+      public Builder setCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class CoGetBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder setCommunityId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (communityIdBuilder_ == null) {
           communityId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class CoGetBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+      public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
         if (communityIdBuilder_ == null) {
           if (communityId_ != null) {
             communityId_ =
-              io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
           } else {
             communityId_ = value;
           }
@@ -515,7 +515,7 @@ public final class CoGetBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       public Builder clearCommunityId() {
         if (communityIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class CoGetBinaryCategoriesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
         
         onChanged();
         return getCommunityIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         if (communityIdBuilder_ != null) {
           return communityIdBuilder_.getMessageOrBuilder();
         } else {
           return communityId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue community_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCommunityIdFieldBuilder() {
         if (communityIdBuilder_ == null) {
           communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCommunityId(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class CoGetBinaryCategoriesAd {
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+       * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
        */
       boolean hasCommunityBinaryCategory();
       /**
@@ -857,24 +857,24 @@ public final class CoGetBinaryCategoriesAd {
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+       * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
        */
-      io.dstore.Values.stringValue getCommunityBinaryCategory();
+      io.dstore.values.StringValue getCommunityBinaryCategory();
       /**
        * <pre>
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+       * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getCommunityBinaryCategoryOrBuilder();
+      io.dstore.values.StringValueOrBuilder getCommunityBinaryCategoryOrBuilder();
 
       /**
        * <pre>
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
        */
       boolean hasCommunityBinaryCategoryId();
       /**
@@ -882,24 +882,24 @@ public final class CoGetBinaryCategoriesAd {
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getCommunityBinaryCategoryId();
+      io.dstore.values.IntegerValue getCommunityBinaryCategoryId();
       /**
        * <pre>
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder();
 
       /**
        * <pre>
        * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
        */
       boolean hasCommunityId();
       /**
@@ -907,24 +907,24 @@ public final class CoGetBinaryCategoriesAd {
        * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getCommunityId();
+      io.dstore.values.IntegerValue getCommunityId();
       /**
        * <pre>
        * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder();
 
       /**
        * <pre>
        * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
        */
       boolean hasSortNo();
       /**
@@ -932,24 +932,24 @@ public final class CoGetBinaryCategoriesAd {
        * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
        */
-      io.dstore.Values.integerValue getSortNo();
+      io.dstore.values.IntegerValue getSortNo();
       /**
        * <pre>
        * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder();
 
       /**
        * <pre>
        * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
        */
       boolean hasAccessLevel();
       /**
@@ -957,17 +957,17 @@ public final class CoGetBinaryCategoriesAd {
        * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
        */
-      io.dstore.Values.integerValue getAccessLevel();
+      io.dstore.values.IntegerValue getAccessLevel();
       /**
        * <pre>
        * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.co_GetBinaryCategories_Ad.Response.Row}
@@ -1015,11 +1015,11 @@ public final class CoGetBinaryCategoriesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (communityBinaryCategory_ != null) {
                   subBuilder = communityBinaryCategory_.toBuilder();
                 }
-                communityBinaryCategory_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                communityBinaryCategory_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityBinaryCategory_);
                   communityBinaryCategory_ = subBuilder.buildPartial();
@@ -1028,11 +1028,11 @@ public final class CoGetBinaryCategoriesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (communityBinaryCategoryId_ != null) {
                   subBuilder = communityBinaryCategoryId_.toBuilder();
                 }
-                communityBinaryCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                communityBinaryCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityBinaryCategoryId_);
                   communityBinaryCategoryId_ = subBuilder.buildPartial();
@@ -1041,11 +1041,11 @@ public final class CoGetBinaryCategoriesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (communityId_ != null) {
                   subBuilder = communityId_.toBuilder();
                 }
-                communityId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                communityId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityId_);
                   communityId_ = subBuilder.buildPartial();
@@ -1054,11 +1054,11 @@ public final class CoGetBinaryCategoriesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1067,11 +1067,11 @@ public final class CoGetBinaryCategoriesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (accessLevel_ != null) {
                   subBuilder = accessLevel_.toBuilder();
                 }
-                accessLevel_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                accessLevel_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accessLevel_);
                   accessLevel_ = subBuilder.buildPartial();
@@ -1112,13 +1112,13 @@ public final class CoGetBinaryCategoriesAd {
       }
 
       public static final int COMMUNITY_BINARY_CATEGORY_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue communityBinaryCategory_;
+      private io.dstore.values.StringValue communityBinaryCategory_;
       /**
        * <pre>
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+       * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
        */
       public boolean hasCommunityBinaryCategory() {
         return communityBinaryCategory_ != null;
@@ -1128,30 +1128,30 @@ public final class CoGetBinaryCategoriesAd {
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+       * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
        */
-      public io.dstore.Values.stringValue getCommunityBinaryCategory() {
-        return communityBinaryCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityBinaryCategory_;
+      public io.dstore.values.StringValue getCommunityBinaryCategory() {
+        return communityBinaryCategory_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityBinaryCategory_;
       }
       /**
        * <pre>
        * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+       * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCommunityBinaryCategoryOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCommunityBinaryCategoryOrBuilder() {
         return getCommunityBinaryCategory();
       }
 
       public static final int COMMUNITY_BINARY_CATEGORY_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue communityBinaryCategoryId_;
+      private io.dstore.values.IntegerValue communityBinaryCategoryId_;
       /**
        * <pre>
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
        */
       public boolean hasCommunityBinaryCategoryId() {
         return communityBinaryCategoryId_ != null;
@@ -1161,30 +1161,30 @@ public final class CoGetBinaryCategoriesAd {
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
-        return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+      public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
+        return communityBinaryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
       }
       /**
        * <pre>
        * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
         return getCommunityBinaryCategoryId();
       }
 
       public static final int COMMUNITY_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue communityId_;
+      private io.dstore.values.IntegerValue communityId_;
       /**
        * <pre>
        * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
        */
       public boolean hasCommunityId() {
         return communityId_ != null;
@@ -1194,30 +1194,30 @@ public final class CoGetBinaryCategoriesAd {
        * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getCommunityId() {
-        return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+      public io.dstore.values.IntegerValue getCommunityId() {
+        return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
       }
       /**
        * <pre>
        * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
         return getCommunityId();
       }
 
       public static final int SORT_NO_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue sortNo_;
+      private io.dstore.values.IntegerValue sortNo_;
       /**
        * <pre>
        * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
        */
       public boolean hasSortNo() {
         return sortNo_ != null;
@@ -1227,30 +1227,30 @@ public final class CoGetBinaryCategoriesAd {
        * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
        */
-      public io.dstore.Values.integerValue getSortNo() {
-        return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+      public io.dstore.values.IntegerValue getSortNo() {
+        return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
       }
       /**
        * <pre>
        * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
         return getSortNo();
       }
 
       public static final int ACCESS_LEVEL_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue accessLevel_;
+      private io.dstore.values.IntegerValue accessLevel_;
       /**
        * <pre>
        * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
        */
       public boolean hasAccessLevel() {
         return accessLevel_ != null;
@@ -1260,19 +1260,19 @@ public final class CoGetBinaryCategoriesAd {
        * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
        */
-      public io.dstore.Values.integerValue getAccessLevel() {
-        return accessLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
+      public io.dstore.values.IntegerValue getAccessLevel() {
+        return accessLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
       }
       /**
        * <pre>
        * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
         return getAccessLevel();
       }
 
@@ -1721,15 +1721,15 @@ public final class CoGetBinaryCategoriesAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue communityBinaryCategory_ = null;
+        private io.dstore.values.StringValue communityBinaryCategory_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> communityBinaryCategoryBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> communityBinaryCategoryBuilder_;
         /**
          * <pre>
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+         * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
          */
         public boolean hasCommunityBinaryCategory() {
           return communityBinaryCategoryBuilder_ != null || communityBinaryCategory_ != null;
@@ -1739,11 +1739,11 @@ public final class CoGetBinaryCategoriesAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+         * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
          */
-        public io.dstore.Values.stringValue getCommunityBinaryCategory() {
+        public io.dstore.values.StringValue getCommunityBinaryCategory() {
           if (communityBinaryCategoryBuilder_ == null) {
-            return communityBinaryCategory_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : communityBinaryCategory_;
+            return communityBinaryCategory_ == null ? io.dstore.values.StringValue.getDefaultInstance() : communityBinaryCategory_;
           } else {
             return communityBinaryCategoryBuilder_.getMessage();
           }
@@ -1753,9 +1753,9 @@ public final class CoGetBinaryCategoriesAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+         * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
          */
-        public Builder setCommunityBinaryCategory(io.dstore.Values.stringValue value) {
+        public Builder setCommunityBinaryCategory(io.dstore.values.StringValue value) {
           if (communityBinaryCategoryBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class CoGetBinaryCategoriesAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+         * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
          */
         public Builder setCommunityBinaryCategory(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (communityBinaryCategoryBuilder_ == null) {
             communityBinaryCategory_ = builderForValue.build();
             onChanged();
@@ -1791,13 +1791,13 @@ public final class CoGetBinaryCategoriesAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+         * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
          */
-        public Builder mergeCommunityBinaryCategory(io.dstore.Values.stringValue value) {
+        public Builder mergeCommunityBinaryCategory(io.dstore.values.StringValue value) {
           if (communityBinaryCategoryBuilder_ == null) {
             if (communityBinaryCategory_ != null) {
               communityBinaryCategory_ =
-                io.dstore.Values.stringValue.newBuilder(communityBinaryCategory_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(communityBinaryCategory_).mergeFrom(value).buildPartial();
             } else {
               communityBinaryCategory_ = value;
             }
@@ -1813,7 +1813,7 @@ public final class CoGetBinaryCategoriesAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+         * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
          */
         public Builder clearCommunityBinaryCategory() {
           if (communityBinaryCategoryBuilder_ == null) {
@@ -1831,9 +1831,9 @@ public final class CoGetBinaryCategoriesAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+         * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getCommunityBinaryCategoryBuilder() {
+        public io.dstore.values.StringValue.Builder getCommunityBinaryCategoryBuilder() {
           
           onChanged();
           return getCommunityBinaryCategoryFieldBuilder().getBuilder();
@@ -1843,14 +1843,14 @@ public final class CoGetBinaryCategoriesAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+         * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getCommunityBinaryCategoryOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getCommunityBinaryCategoryOrBuilder() {
           if (communityBinaryCategoryBuilder_ != null) {
             return communityBinaryCategoryBuilder_.getMessageOrBuilder();
           } else {
             return communityBinaryCategory_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : communityBinaryCategory_;
+                io.dstore.values.StringValue.getDefaultInstance() : communityBinaryCategory_;
           }
         }
         /**
@@ -1858,14 +1858,14 @@ public final class CoGetBinaryCategoriesAd {
          * Bezeichnung der Kategorie "CommunityBinaryCategoryID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue community_binary_category = 10001;</code>
+         * <code>optional .dstore.values.StringValue community_binary_category = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getCommunityBinaryCategoryFieldBuilder() {
           if (communityBinaryCategoryBuilder_ == null) {
             communityBinaryCategoryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getCommunityBinaryCategory(),
                     getParentForChildren(),
                     isClean());
@@ -1874,15 +1874,15 @@ public final class CoGetBinaryCategoriesAd {
           return communityBinaryCategoryBuilder_;
         }
 
-        private io.dstore.Values.integerValue communityBinaryCategoryId_ = null;
+        private io.dstore.values.IntegerValue communityBinaryCategoryId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityBinaryCategoryIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityBinaryCategoryIdBuilder_;
         /**
          * <pre>
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
          */
         public boolean hasCommunityBinaryCategoryId() {
           return communityBinaryCategoryIdBuilder_ != null || communityBinaryCategoryId_ != null;
@@ -1892,11 +1892,11 @@ public final class CoGetBinaryCategoriesAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getCommunityBinaryCategoryId() {
+        public io.dstore.values.IntegerValue getCommunityBinaryCategoryId() {
           if (communityBinaryCategoryIdBuilder_ == null) {
-            return communityBinaryCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+            return communityBinaryCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
           } else {
             return communityBinaryCategoryIdBuilder_.getMessage();
           }
@@ -1906,9 +1906,9 @@ public final class CoGetBinaryCategoriesAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
          */
-        public Builder setCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
+        public Builder setCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
           if (communityBinaryCategoryIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1926,10 +1926,10 @@ public final class CoGetBinaryCategoriesAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
          */
         public Builder setCommunityBinaryCategoryId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (communityBinaryCategoryIdBuilder_ == null) {
             communityBinaryCategoryId_ = builderForValue.build();
             onChanged();
@@ -1944,13 +1944,13 @@ public final class CoGetBinaryCategoriesAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
          */
-        public Builder mergeCommunityBinaryCategoryId(io.dstore.Values.integerValue value) {
+        public Builder mergeCommunityBinaryCategoryId(io.dstore.values.IntegerValue value) {
           if (communityBinaryCategoryIdBuilder_ == null) {
             if (communityBinaryCategoryId_ != null) {
               communityBinaryCategoryId_ =
-                io.dstore.Values.integerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(communityBinaryCategoryId_).mergeFrom(value).buildPartial();
             } else {
               communityBinaryCategoryId_ = value;
             }
@@ -1966,7 +1966,7 @@ public final class CoGetBinaryCategoriesAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
          */
         public Builder clearCommunityBinaryCategoryId() {
           if (communityBinaryCategoryIdBuilder_ == null) {
@@ -1984,9 +1984,9 @@ public final class CoGetBinaryCategoriesAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCommunityBinaryCategoryIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCommunityBinaryCategoryIdBuilder() {
           
           onChanged();
           return getCommunityBinaryCategoryIdFieldBuilder().getBuilder();
@@ -1996,14 +1996,14 @@ public final class CoGetBinaryCategoriesAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCommunityBinaryCategoryIdOrBuilder() {
           if (communityBinaryCategoryIdBuilder_ != null) {
             return communityBinaryCategoryIdBuilder_.getMessageOrBuilder();
           } else {
             return communityBinaryCategoryId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : communityBinaryCategoryId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : communityBinaryCategoryId_;
           }
         }
         /**
@@ -2011,14 +2011,14 @@ public final class CoGetBinaryCategoriesAd {
          * ID einer Kategorie von Binärdateien (z.B. für den "Steckbrief" eines Mitglieds)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_binary_category_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue community_binary_category_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCommunityBinaryCategoryIdFieldBuilder() {
           if (communityBinaryCategoryIdBuilder_ == null) {
             communityBinaryCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCommunityBinaryCategoryId(),
                     getParentForChildren(),
                     isClean());
@@ -2027,15 +2027,15 @@ public final class CoGetBinaryCategoriesAd {
           return communityBinaryCategoryIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue communityId_ = null;
+        private io.dstore.values.IntegerValue communityId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> communityIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> communityIdBuilder_;
         /**
          * <pre>
          * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
          */
         public boolean hasCommunityId() {
           return communityIdBuilder_ != null || communityId_ != null;
@@ -2045,11 +2045,11 @@ public final class CoGetBinaryCategoriesAd {
          * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getCommunityId() {
+        public io.dstore.values.IntegerValue getCommunityId() {
           if (communityIdBuilder_ == null) {
-            return communityId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+            return communityId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
           } else {
             return communityIdBuilder_.getMessage();
           }
@@ -2059,9 +2059,9 @@ public final class CoGetBinaryCategoriesAd {
          * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
          */
-        public Builder setCommunityId(io.dstore.Values.integerValue value) {
+        public Builder setCommunityId(io.dstore.values.IntegerValue value) {
           if (communityIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2079,10 +2079,10 @@ public final class CoGetBinaryCategoriesAd {
          * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
          */
         public Builder setCommunityId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (communityIdBuilder_ == null) {
             communityId_ = builderForValue.build();
             onChanged();
@@ -2097,13 +2097,13 @@ public final class CoGetBinaryCategoriesAd {
          * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
          */
-        public Builder mergeCommunityId(io.dstore.Values.integerValue value) {
+        public Builder mergeCommunityId(io.dstore.values.IntegerValue value) {
           if (communityIdBuilder_ == null) {
             if (communityId_ != null) {
               communityId_ =
-                io.dstore.Values.integerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(communityId_).mergeFrom(value).buildPartial();
             } else {
               communityId_ = value;
             }
@@ -2119,7 +2119,7 @@ public final class CoGetBinaryCategoriesAd {
          * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
          */
         public Builder clearCommunityId() {
           if (communityIdBuilder_ == null) {
@@ -2137,9 +2137,9 @@ public final class CoGetBinaryCategoriesAd {
          * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCommunityIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCommunityIdBuilder() {
           
           onChanged();
           return getCommunityIdFieldBuilder().getBuilder();
@@ -2149,14 +2149,14 @@ public final class CoGetBinaryCategoriesAd {
          * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCommunityIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCommunityIdOrBuilder() {
           if (communityIdBuilder_ != null) {
             return communityIdBuilder_.getMessageOrBuilder();
           } else {
             return communityId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : communityId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : communityId_;
           }
         }
         /**
@@ -2164,14 +2164,14 @@ public final class CoGetBinaryCategoriesAd {
          * ID der Community, in der die Kategorie "CommunityBinaryCategoryID" existiert
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue community_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue community_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCommunityIdFieldBuilder() {
           if (communityIdBuilder_ == null) {
             communityIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCommunityId(),
                     getParentForChildren(),
                     isClean());
@@ -2180,15 +2180,15 @@ public final class CoGetBinaryCategoriesAd {
           return communityIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue sortNo_ = null;
+        private io.dstore.values.IntegerValue sortNo_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> sortNoBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> sortNoBuilder_;
         /**
          * <pre>
          * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
          */
         public boolean hasSortNo() {
           return sortNoBuilder_ != null || sortNo_ != null;
@@ -2198,11 +2198,11 @@ public final class CoGetBinaryCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
          */
-        public io.dstore.Values.integerValue getSortNo() {
+        public io.dstore.values.IntegerValue getSortNo() {
           if (sortNoBuilder_ == null) {
-            return sortNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+            return sortNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           } else {
             return sortNoBuilder_.getMessage();
           }
@@ -2212,9 +2212,9 @@ public final class CoGetBinaryCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
          */
-        public Builder setSortNo(io.dstore.Values.integerValue value) {
+        public Builder setSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2232,10 +2232,10 @@ public final class CoGetBinaryCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
          */
         public Builder setSortNo(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (sortNoBuilder_ == null) {
             sortNo_ = builderForValue.build();
             onChanged();
@@ -2250,13 +2250,13 @@ public final class CoGetBinaryCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
          */
-        public Builder mergeSortNo(io.dstore.Values.integerValue value) {
+        public Builder mergeSortNo(io.dstore.values.IntegerValue value) {
           if (sortNoBuilder_ == null) {
             if (sortNo_ != null) {
               sortNo_ =
-                io.dstore.Values.integerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(sortNo_).mergeFrom(value).buildPartial();
             } else {
               sortNo_ = value;
             }
@@ -2272,7 +2272,7 @@ public final class CoGetBinaryCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
          */
         public Builder clearSortNo() {
           if (sortNoBuilder_ == null) {
@@ -2290,9 +2290,9 @@ public final class CoGetBinaryCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getSortNoBuilder() {
+        public io.dstore.values.IntegerValue.Builder getSortNoBuilder() {
           
           onChanged();
           return getSortNoFieldBuilder().getBuilder();
@@ -2302,14 +2302,14 @@ public final class CoGetBinaryCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getSortNoOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getSortNoOrBuilder() {
           if (sortNoBuilder_ != null) {
             return sortNoBuilder_.getMessageOrBuilder();
           } else {
             return sortNo_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : sortNo_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : sortNo_;
           }
         }
         /**
@@ -2317,14 +2317,14 @@ public final class CoGetBinaryCategoriesAd {
          * Bestimmt die Reihenfolge der Kategorie "CommunityBinaryCategoryID" innerhalb aller Kategorien der Community "CommunityID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue sort_no = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue sort_no = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getSortNoFieldBuilder() {
           if (sortNoBuilder_ == null) {
             sortNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getSortNo(),
                     getParentForChildren(),
                     isClean());
@@ -2333,15 +2333,15 @@ public final class CoGetBinaryCategoriesAd {
           return sortNoBuilder_;
         }
 
-        private io.dstore.Values.integerValue accessLevel_ = null;
+        private io.dstore.values.IntegerValue accessLevel_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accessLevelBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> accessLevelBuilder_;
         /**
          * <pre>
          * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
          */
         public boolean hasAccessLevel() {
           return accessLevelBuilder_ != null || accessLevel_ != null;
@@ -2351,11 +2351,11 @@ public final class CoGetBinaryCategoriesAd {
          * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
          */
-        public io.dstore.Values.integerValue getAccessLevel() {
+        public io.dstore.values.IntegerValue getAccessLevel() {
           if (accessLevelBuilder_ == null) {
-            return accessLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
+            return accessLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
           } else {
             return accessLevelBuilder_.getMessage();
           }
@@ -2365,9 +2365,9 @@ public final class CoGetBinaryCategoriesAd {
          * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
          */
-        public Builder setAccessLevel(io.dstore.Values.integerValue value) {
+        public Builder setAccessLevel(io.dstore.values.IntegerValue value) {
           if (accessLevelBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2385,10 +2385,10 @@ public final class CoGetBinaryCategoriesAd {
          * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
          */
         public Builder setAccessLevel(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (accessLevelBuilder_ == null) {
             accessLevel_ = builderForValue.build();
             onChanged();
@@ -2403,13 +2403,13 @@ public final class CoGetBinaryCategoriesAd {
          * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
          */
-        public Builder mergeAccessLevel(io.dstore.Values.integerValue value) {
+        public Builder mergeAccessLevel(io.dstore.values.IntegerValue value) {
           if (accessLevelBuilder_ == null) {
             if (accessLevel_ != null) {
               accessLevel_ =
-                io.dstore.Values.integerValue.newBuilder(accessLevel_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(accessLevel_).mergeFrom(value).buildPartial();
             } else {
               accessLevel_ = value;
             }
@@ -2425,7 +2425,7 @@ public final class CoGetBinaryCategoriesAd {
          * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
          */
         public Builder clearAccessLevel() {
           if (accessLevelBuilder_ == null) {
@@ -2443,9 +2443,9 @@ public final class CoGetBinaryCategoriesAd {
          * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getAccessLevelBuilder() {
+        public io.dstore.values.IntegerValue.Builder getAccessLevelBuilder() {
           
           onChanged();
           return getAccessLevelFieldBuilder().getBuilder();
@@ -2455,14 +2455,14 @@ public final class CoGetBinaryCategoriesAd {
          * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
           if (accessLevelBuilder_ != null) {
             return accessLevelBuilder_.getMessageOrBuilder();
           } else {
             return accessLevel_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
           }
         }
         /**
@@ -2470,14 +2470,14 @@ public final class CoGetBinaryCategoriesAd {
          * Zugriffsrechte für die Kategorie - enthält eine Summe von "AccessLevelID"s (siehe "co_GetBinaryCatAccessLevels")
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue access_level = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue access_level = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getAccessLevelFieldBuilder() {
           if (accessLevelBuilder_ == null) {
             accessLevelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getAccessLevel(),
                     getParentForChildren(),
                     isClean());
@@ -3947,19 +3947,19 @@ public final class CoGetBinaryCategoriesAd {
       "BinaryCategories_Ad\032\023dstore/values.proto" +
       "\032\032dstore/engine/engine.proto\"[\n\nParamete" +
       "rs\0221\n\014community_id\030\001 \001(\0132\033.dstore.values" +
-      ".integerValue\022\032\n\021community_id_null\030\351\007 \001(" +
+      ".IntegerValue\022\032\n\021community_id_null\030\351\007 \001(" +
       "\010\"\345\003\n\010Response\0228\n\020meta_information\030\002 \003(\013" +
       "2\036.dstore.engine.MetaInformation\022\'\n\007mess" +
       "age\030\003 \003(\0132\026.dstore.engine.Message\022B\n\003row" +
       "\030\004 \003(\01325.dstore.engine.co_GetBinaryCateg",
       "ories_Ad.Response.Row\032\261\002\n\003Row\022\017\n\006row_id\030" +
       "\220N \001(\005\022>\n\031community_binary_category\030\221N \001" +
-      "(\0132\032.dstore.values.stringValue\022B\n\034commun" +
+      "(\0132\032.dstore.values.StringValue\022B\n\034commun" +
       "ity_binary_category_id\030\222N \001(\0132\033.dstore.v" +
-      "alues.integerValue\0222\n\014community_id\030\223N \001(" +
-      "\0132\033.dstore.values.integerValue\022-\n\007sort_n" +
-      "o\030\224N \001(\0132\033.dstore.values.integerValue\0222\n" +
-      "\014access_level\030\225N \001(\0132\033.dstore.values.int" +
+      "alues.IntegerValue\0222\n\014community_id\030\223N \001(" +
+      "\0132\033.dstore.values.IntegerValue\022-\n\007sort_n" +
+      "o\030\224N \001(\0132\033.dstore.values.IntegerValue\0222\n" +
+      "\014access_level\030\225N \001(\0132\033.dstore.values.Int" +
       "egerValueBZ\n\033io.dstore.engine.procedures" +
       "Z;gosdk.dstore.de/engine/procedures/co_G",
       "etBinaryCategories_Adb\006proto3"
@@ -3975,7 +3975,7 @@ public final class CoGetBinaryCategoriesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_co_GetBinaryCategories_Ad_Parameters_descriptor =
@@ -3996,7 +3996,7 @@ public final class CoGetBinaryCategoriesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_co_GetBinaryCategories_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CommunityBinaryCategory", "CommunityBinaryCategoryId", "CommunityId", "SortNo", "AccessLevel", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

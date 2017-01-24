@@ -19,17 +19,17 @@ public final class ImGetThumbnailForNodeAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
     boolean hasNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getNodeId();
+    io.dstore.values.IntegerValue getNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
     /**
      * <code>optional bool node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImGetThumbnailForNodeAd {
     boolean getNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
      */
     boolean hasBinNo();
     /**
-     * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
      */
-    io.dstore.Values.integerValue getBinNo();
+    io.dstore.values.IntegerValue getBinNo();
     /**
-     * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinNoOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinNoOrBuilder();
 
     /**
      * <code>optional bool bin_no_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImGetThumbnailForNodeAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeId_ != null) {
                 subBuilder = nodeId_.toBuilder();
               }
-              nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeId_);
                 nodeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImGetThumbnailForNodeAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binNo_ != null) {
                 subBuilder = binNo_.toBuilder();
               }
-              binNo_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binNo_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binNo_);
                 binNo_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImGetThumbnailForNodeAd {
     }
 
     public static final int NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue nodeId_;
+    private io.dstore.values.IntegerValue nodeId_;
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
     public boolean hasNodeId() {
       return nodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getNodeId() {
-      return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+    public io.dstore.values.IntegerValue getNodeId() {
+      return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
       return getNodeId();
     }
 
@@ -185,23 +185,23 @@ public final class ImGetThumbnailForNodeAd {
     }
 
     public static final int BIN_NO_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue binNo_;
+    private io.dstore.values.IntegerValue binNo_;
     /**
-     * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
      */
     public boolean hasBinNo() {
       return binNo_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
      */
-    public io.dstore.Values.integerValue getBinNo() {
-      return binNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binNo_;
+    public io.dstore.values.IntegerValue getBinNo() {
+      return binNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binNo_;
     }
     /**
-     * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+     * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinNoOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinNoOrBuilder() {
       return getBinNo();
     }
 
@@ -562,29 +562,29 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeId_ = null;
+      private io.dstore.values.IntegerValue nodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public boolean hasNodeId() {
         return nodeIdBuilder_ != null || nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
+      public io.dstore.values.IntegerValue getNodeId() {
         if (nodeIdBuilder_ == null) {
-          return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+          return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         } else {
           return nodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public Builder setNodeId(io.dstore.Values.integerValue value) {
+      public Builder setNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder setNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeIdBuilder_ == null) {
           nodeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (nodeId_ != null) {
             nodeId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
           } else {
             nodeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder clearNodeId() {
         if (nodeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
         
         onChanged();
         return getNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         if (nodeIdBuilder_ != null) {
           return nodeIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeIdFieldBuilder() {
         if (nodeIdBuilder_ == null) {
           nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue binNo_ = null;
+      private io.dstore.values.IntegerValue binNo_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binNoBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binNoBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
        */
       public boolean hasBinNo() {
         return binNoBuilder_ != null || binNo_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
        */
-      public io.dstore.Values.integerValue getBinNo() {
+      public io.dstore.values.IntegerValue getBinNo() {
         if (binNoBuilder_ == null) {
-          return binNo_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binNo_;
+          return binNo_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binNo_;
         } else {
           return binNoBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
        */
-      public Builder setBinNo(io.dstore.Values.integerValue value) {
+      public Builder setBinNo(io.dstore.values.IntegerValue value) {
         if (binNoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
        */
       public Builder setBinNo(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binNoBuilder_ == null) {
           binNo_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
        */
-      public Builder mergeBinNo(io.dstore.Values.integerValue value) {
+      public Builder mergeBinNo(io.dstore.values.IntegerValue value) {
         if (binNoBuilder_ == null) {
           if (binNo_ != null) {
             binNo_ =
-              io.dstore.Values.integerValue.newBuilder(binNo_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binNo_).mergeFrom(value).buildPartial();
           } else {
             binNo_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
        */
       public Builder clearBinNo() {
         if (binNoBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImGetThumbnailForNodeAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinNoBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinNoBuilder() {
         
         onChanged();
         return getBinNoFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinNoOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinNoOrBuilder() {
         if (binNoBuilder_ != null) {
           return binNoBuilder_.getMessageOrBuilder();
         } else {
           return binNo_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binNo_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binNo_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bin_no = 2;</code>
+       * <code>optional .dstore.values.IntegerValue bin_no = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinNoFieldBuilder() {
         if (binNoBuilder_ == null) {
           binNoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinNo(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class ImGetThumbnailForNodeAd {
        * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       boolean hasBinaryCodeId();
       /**
@@ -1115,24 +1115,24 @@ public final class ImGetThumbnailForNodeAd {
        * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getBinaryCodeId();
+      io.dstore.values.IntegerValue getBinaryCodeId();
       /**
        * <pre>
        * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
        */
       boolean hasThumbnailCode();
       /**
@@ -1140,17 +1140,17 @@ public final class ImGetThumbnailForNodeAd {
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
        */
-      io.dstore.Values.bytesValue getThumbnailCode();
+      io.dstore.values.BytesValue getThumbnailCode();
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
        */
-      io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder();
+      io.dstore.values.BytesValueOrBuilder getThumbnailCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetThumbnailForNode_Ad.Response.Row}
@@ -1198,11 +1198,11 @@ public final class ImGetThumbnailForNodeAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (binaryCodeId_ != null) {
                   subBuilder = binaryCodeId_.toBuilder();
                 }
-                binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                binaryCodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCodeId_);
                   binaryCodeId_ = subBuilder.buildPartial();
@@ -1211,11 +1211,11 @@ public final class ImGetThumbnailForNodeAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.bytesValue.Builder subBuilder = null;
+                io.dstore.values.BytesValue.Builder subBuilder = null;
                 if (thumbnailCode_ != null) {
                   subBuilder = thumbnailCode_.toBuilder();
                 }
-                thumbnailCode_ = input.readMessage(io.dstore.Values.bytesValue.parser(), extensionRegistry);
+                thumbnailCode_ = input.readMessage(io.dstore.values.BytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(thumbnailCode_);
                   thumbnailCode_ = subBuilder.buildPartial();
@@ -1256,13 +1256,13 @@ public final class ImGetThumbnailForNodeAd {
       }
 
       public static final int BINARY_CODE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue binaryCodeId_;
+      private io.dstore.values.IntegerValue binaryCodeId_;
       /**
        * <pre>
        * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeId_ != null;
@@ -1272,30 +1272,30 @@ public final class ImGetThumbnailForNodeAd {
        * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCodeId() {
-        return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+      public io.dstore.values.IntegerValue getBinaryCodeId() {
+        return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
       }
       /**
        * <pre>
        * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
       }
 
       public static final int THUMBNAIL_CODE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.bytesValue thumbnailCode_;
+      private io.dstore.values.BytesValue thumbnailCode_;
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
        */
       public boolean hasThumbnailCode() {
         return thumbnailCode_ != null;
@@ -1305,19 +1305,19 @@ public final class ImGetThumbnailForNodeAd {
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
        */
-      public io.dstore.Values.bytesValue getThumbnailCode() {
-        return thumbnailCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
+      public io.dstore.values.BytesValue getThumbnailCode() {
+        return thumbnailCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : thumbnailCode_;
       }
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
        */
-      public io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
+      public io.dstore.values.BytesValueOrBuilder getThumbnailCodeOrBuilder() {
         return getThumbnailCode();
       }
 
@@ -1676,15 +1676,15 @@ public final class ImGetThumbnailForNodeAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue binaryCodeId_ = null;
+        private io.dstore.values.IntegerValue binaryCodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
         /**
          * <pre>
          * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public boolean hasBinaryCodeId() {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
@@ -1694,11 +1694,11 @@ public final class ImGetThumbnailForNodeAd {
          * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getBinaryCodeId() {
+        public io.dstore.values.IntegerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
-            return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+            return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           } else {
             return binaryCodeIdBuilder_.getMessage();
           }
@@ -1708,9 +1708,9 @@ public final class ImGetThumbnailForNodeAd {
          * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1728,10 +1728,10 @@ public final class ImGetThumbnailForNodeAd {
          * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder setBinaryCodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeId_ = builderForValue.build();
             onChanged();
@@ -1746,13 +1746,13 @@ public final class ImGetThumbnailForNodeAd {
          * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (binaryCodeId_ != null) {
               binaryCodeId_ =
-                io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
             } else {
               binaryCodeId_ = value;
             }
@@ -1768,7 +1768,7 @@ public final class ImGetThumbnailForNodeAd {
          * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         public Builder clearBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -1786,9 +1786,9 @@ public final class ImGetThumbnailForNodeAd {
          * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
           
           onChanged();
           return getBinaryCodeIdFieldBuilder().getBuilder();
@@ -1798,14 +1798,14 @@ public final class ImGetThumbnailForNodeAd {
          * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
             return binaryCodeIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryCodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           }
         }
         /**
@@ -1813,14 +1813,14 @@ public final class ImGetThumbnailForNodeAd {
          * ID des "&#64;BinNo"ten "Binaries", das der "&#64;NodeID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
                     isClean());
@@ -1829,15 +1829,15 @@ public final class ImGetThumbnailForNodeAd {
           return binaryCodeIdBuilder_;
         }
 
-        private io.dstore.Values.bytesValue thumbnailCode_ = null;
+        private io.dstore.values.BytesValue thumbnailCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> thumbnailCodeBuilder_;
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> thumbnailCodeBuilder_;
         /**
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
          */
         public boolean hasThumbnailCode() {
           return thumbnailCodeBuilder_ != null || thumbnailCode_ != null;
@@ -1847,11 +1847,11 @@ public final class ImGetThumbnailForNodeAd {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
          */
-        public io.dstore.Values.bytesValue getThumbnailCode() {
+        public io.dstore.values.BytesValue getThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
-            return thumbnailCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
+            return thumbnailCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : thumbnailCode_;
           } else {
             return thumbnailCodeBuilder_.getMessage();
           }
@@ -1861,9 +1861,9 @@ public final class ImGetThumbnailForNodeAd {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
          */
-        public Builder setThumbnailCode(io.dstore.Values.bytesValue value) {
+        public Builder setThumbnailCode(io.dstore.values.BytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1881,10 +1881,10 @@ public final class ImGetThumbnailForNodeAd {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
          */
         public Builder setThumbnailCode(
-            io.dstore.Values.bytesValue.Builder builderForValue) {
+            io.dstore.values.BytesValue.Builder builderForValue) {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCode_ = builderForValue.build();
             onChanged();
@@ -1899,13 +1899,13 @@ public final class ImGetThumbnailForNodeAd {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
          */
-        public Builder mergeThumbnailCode(io.dstore.Values.bytesValue value) {
+        public Builder mergeThumbnailCode(io.dstore.values.BytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (thumbnailCode_ != null) {
               thumbnailCode_ =
-                io.dstore.Values.bytesValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.BytesValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
             } else {
               thumbnailCode_ = value;
             }
@@ -1921,7 +1921,7 @@ public final class ImGetThumbnailForNodeAd {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
          */
         public Builder clearThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
@@ -1939,9 +1939,9 @@ public final class ImGetThumbnailForNodeAd {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
          */
-        public io.dstore.Values.bytesValue.Builder getThumbnailCodeBuilder() {
+        public io.dstore.values.BytesValue.Builder getThumbnailCodeBuilder() {
           
           onChanged();
           return getThumbnailCodeFieldBuilder().getBuilder();
@@ -1951,14 +1951,14 @@ public final class ImGetThumbnailForNodeAd {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
          */
-        public io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
+        public io.dstore.values.BytesValueOrBuilder getThumbnailCodeOrBuilder() {
           if (thumbnailCodeBuilder_ != null) {
             return thumbnailCodeBuilder_.getMessageOrBuilder();
           } else {
             return thumbnailCode_ == null ?
-                io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
+                io.dstore.values.BytesValue.getDefaultInstance() : thumbnailCode_;
           }
         }
         /**
@@ -1966,14 +1966,14 @@ public final class ImGetThumbnailForNodeAd {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll)
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10002;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
             getThumbnailCodeFieldBuilder() {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
+                io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder>(
                     getThumbnailCode(),
                     getParentForChildren(),
                     isClean());
@@ -3442,18 +3442,18 @@ public final class ImGetThumbnailForNodeAd {
       "ilForNode_Ad.proto\022\'dstore.engine.im_Get" +
       "ThumbnailForNode_Ad\032\023dstore/values.proto" +
       "\032\032dstore/engine/engine.proto\"\224\001\n\nParamet" +
-      "ers\022,\n\007node_id\030\001 \001(\0132\033.dstore.values.int" +
+      "ers\022,\n\007node_id\030\001 \001(\0132\033.dstore.values.Int" +
       "egerValue\022\025\n\014node_id_null\030\351\007 \001(\010\022+\n\006bin_" +
-      "no\030\002 \001(\0132\033.dstore.values.integerValue\022\024\n" +
+      "no\030\002 \001(\0132\033.dstore.values.IntegerValue\022\024\n" +
       "\013bin_no_null\030\352\007 \001(\010\"\264\002\n\010Response\0228\n\020meta" +
       "_information\030\002 \003(\0132\036.dstore.engine.MetaI" +
       "nformation\022\'\n\007message\030\003 \003(\0132\026.dstore.eng",
       "ine.Message\022B\n\003row\030\004 \003(\01325.dstore.engine" +
       ".im_GetThumbnailForNode_Ad.Response.Row\032" +
       "\200\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\016binary_code_" +
-      "id\030\221N \001(\0132\033.dstore.values.integerValue\0222" +
+      "id\030\221N \001(\0132\033.dstore.values.IntegerValue\0222" +
       "\n\016thumbnail_code\030\222N \001(\0132\031.dstore.values." +
-      "bytesValueBZ\n\033io.dstore.engine.procedure" +
+      "BytesValueBZ\n\033io.dstore.engine.procedure" +
       "sZ;gosdk.dstore.de/engine/procedures/im_" +
       "GetThumbnailForNode_Adb\006proto3"
     };
@@ -3468,7 +3468,7 @@ public final class ImGetThumbnailForNodeAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetThumbnailForNode_Ad_Parameters_descriptor =
@@ -3489,7 +3489,7 @@ public final class ImGetThumbnailForNodeAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetThumbnailForNode_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BinaryCodeId", "ThumbnailCode", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

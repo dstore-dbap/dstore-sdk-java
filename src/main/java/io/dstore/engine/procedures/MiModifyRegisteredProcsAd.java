@@ -19,17 +19,17 @@ public final class MiModifyRegisteredProcsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
     boolean hasProcedureId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    io.dstore.Values.integerValue getProcedureId();
+    io.dstore.values.IntegerValue getProcedureId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder();
 
     /**
      * <code>optional bool procedure_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiModifyRegisteredProcsAd {
     boolean getProcedureIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
      */
     boolean hasProcedureName();
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
      */
-    io.dstore.Values.stringValue getProcedureName();
+    io.dstore.values.StringValue getProcedureName();
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
     /**
      * <code>optional bool procedure_name_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiModifyRegisteredProcsAd {
     boolean getProcedureNameNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
      */
     boolean hasDeleteProcedure();
     /**
-     * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
      */
-    io.dstore.Values.booleanValue getDeleteProcedure();
+    io.dstore.values.BooleanValue getDeleteProcedure();
     /**
-     * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getDeleteProcedureOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getDeleteProcedureOrBuilder();
 
     /**
      * <code>optional bool delete_procedure_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class MiModifyRegisteredProcsAd {
     boolean getDeleteProcedureNull();
 
     /**
-     * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+     * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
      */
     boolean hasCheckForExecutionRestrictions();
     /**
-     * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+     * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
      */
-    io.dstore.Values.integerValue getCheckForExecutionRestrictions();
+    io.dstore.values.IntegerValue getCheckForExecutionRestrictions();
     /**
-     * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+     * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCheckForExecutionRestrictionsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCheckForExecutionRestrictionsOrBuilder();
 
     /**
      * <code>optional bool check_for_execution_restrictions_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class MiModifyRegisteredProcsAd {
     boolean getCheckForExecutionRestrictionsNull();
 
     /**
-     * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+     * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
      */
     boolean hasLogExecutions();
     /**
-     * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+     * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
      */
-    io.dstore.Values.integerValue getLogExecutions();
+    io.dstore.values.IntegerValue getLogExecutions();
     /**
-     * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+     * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLogExecutionsOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLogExecutionsOrBuilder();
 
     /**
      * <code>optional bool log_executions_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class MiModifyRegisteredProcsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (procedureId_ != null) {
                 subBuilder = procedureId_.toBuilder();
               }
-              procedureId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              procedureId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureId_);
                 procedureId_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class MiModifyRegisteredProcsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (procedureName_ != null) {
                 subBuilder = procedureName_.toBuilder();
               }
-              procedureName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              procedureName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureName_);
                 procedureName_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class MiModifyRegisteredProcsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (deleteProcedure_ != null) {
                 subBuilder = deleteProcedure_.toBuilder();
               }
-              deleteProcedure_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              deleteProcedure_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteProcedure_);
                 deleteProcedure_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class MiModifyRegisteredProcsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (checkForExecutionRestrictions_ != null) {
                 subBuilder = checkForExecutionRestrictions_.toBuilder();
               }
-              checkForExecutionRestrictions_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              checkForExecutionRestrictions_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkForExecutionRestrictions_);
                 checkForExecutionRestrictions_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class MiModifyRegisteredProcsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (logExecutions_ != null) {
                 subBuilder = logExecutions_.toBuilder();
               }
-              logExecutions_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              logExecutions_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(logExecutions_);
                 logExecutions_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class MiModifyRegisteredProcsAd {
     }
 
     public static final int PROCEDURE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue procedureId_;
+    private io.dstore.values.IntegerValue procedureId_;
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
     public boolean hasProcedureId() {
       return procedureId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getProcedureId() {
-      return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+    public io.dstore.values.IntegerValue getProcedureId() {
+      return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
       return getProcedureId();
     }
 
@@ -296,23 +296,23 @@ public final class MiModifyRegisteredProcsAd {
     }
 
     public static final int PROCEDURE_NAME_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue procedureName_;
+    private io.dstore.values.StringValue procedureName_;
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
      */
     public boolean hasProcedureName() {
       return procedureName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
      */
-    public io.dstore.Values.stringValue getProcedureName() {
-      return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+    public io.dstore.values.StringValue getProcedureName() {
+      return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+     * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
       return getProcedureName();
     }
 
@@ -326,23 +326,23 @@ public final class MiModifyRegisteredProcsAd {
     }
 
     public static final int DELETE_PROCEDURE_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue deleteProcedure_;
+    private io.dstore.values.BooleanValue deleteProcedure_;
     /**
-     * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
      */
     public boolean hasDeleteProcedure() {
       return deleteProcedure_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
      */
-    public io.dstore.Values.booleanValue getDeleteProcedure() {
-      return deleteProcedure_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteProcedure_;
+    public io.dstore.values.BooleanValue getDeleteProcedure() {
+      return deleteProcedure_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteProcedure_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+     * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getDeleteProcedureOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getDeleteProcedureOrBuilder() {
       return getDeleteProcedure();
     }
 
@@ -356,23 +356,23 @@ public final class MiModifyRegisteredProcsAd {
     }
 
     public static final int CHECK_FOR_EXECUTION_RESTRICTIONS_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue checkForExecutionRestrictions_;
+    private io.dstore.values.IntegerValue checkForExecutionRestrictions_;
     /**
-     * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+     * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
      */
     public boolean hasCheckForExecutionRestrictions() {
       return checkForExecutionRestrictions_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+     * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
      */
-    public io.dstore.Values.integerValue getCheckForExecutionRestrictions() {
-      return checkForExecutionRestrictions_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : checkForExecutionRestrictions_;
+    public io.dstore.values.IntegerValue getCheckForExecutionRestrictions() {
+      return checkForExecutionRestrictions_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : checkForExecutionRestrictions_;
     }
     /**
-     * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+     * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCheckForExecutionRestrictionsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCheckForExecutionRestrictionsOrBuilder() {
       return getCheckForExecutionRestrictions();
     }
 
@@ -386,23 +386,23 @@ public final class MiModifyRegisteredProcsAd {
     }
 
     public static final int LOG_EXECUTIONS_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue logExecutions_;
+    private io.dstore.values.IntegerValue logExecutions_;
     /**
-     * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+     * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
      */
     public boolean hasLogExecutions() {
       return logExecutions_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+     * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
      */
-    public io.dstore.Values.integerValue getLogExecutions() {
-      return logExecutions_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : logExecutions_;
+    public io.dstore.values.IntegerValue getLogExecutions() {
+      return logExecutions_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : logExecutions_;
     }
     /**
-     * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+     * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLogExecutionsOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLogExecutionsOrBuilder() {
       return getLogExecutions();
     }
 
@@ -907,29 +907,29 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue procedureId_ = null;
+      private io.dstore.values.IntegerValue procedureId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public boolean hasProcedureId() {
         return procedureIdBuilder_ != null || procedureId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getProcedureId() {
+      public io.dstore.values.IntegerValue getProcedureId() {
         if (procedureIdBuilder_ == null) {
-          return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+          return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
         } else {
           return procedureIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public Builder setProcedureId(io.dstore.Values.integerValue value) {
+      public Builder setProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder setProcedureId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (procedureIdBuilder_ == null) {
           procedureId_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public Builder mergeProcedureId(io.dstore.Values.integerValue value) {
+      public Builder mergeProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
           if (procedureId_ != null) {
             procedureId_ =
-              io.dstore.Values.integerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
           } else {
             procedureId_ = value;
           }
@@ -975,7 +975,7 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       public Builder clearProcedureId() {
         if (procedureIdBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getProcedureIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getProcedureIdBuilder() {
         
         onChanged();
         return getProcedureIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
         if (procedureIdBuilder_ != null) {
           return procedureIdBuilder_.getMessageOrBuilder();
         } else {
           return procedureId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getProcedureIdFieldBuilder() {
         if (procedureIdBuilder_ == null) {
           procedureIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getProcedureId(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue procedureName_ = null;
+      private io.dstore.values.StringValue procedureName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
        */
       public boolean hasProcedureName() {
         return procedureNameBuilder_ != null || procedureName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
        */
-      public io.dstore.Values.stringValue getProcedureName() {
+      public io.dstore.values.StringValue getProcedureName() {
         if (procedureNameBuilder_ == null) {
-          return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+          return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
         } else {
           return procedureNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
        */
-      public Builder setProcedureName(io.dstore.Values.stringValue value) {
+      public Builder setProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
        */
       public Builder setProcedureName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (procedureNameBuilder_ == null) {
           procedureName_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
        */
-      public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
+      public Builder mergeProcedureName(io.dstore.values.StringValue value) {
         if (procedureNameBuilder_ == null) {
           if (procedureName_ != null) {
             procedureName_ =
-              io.dstore.Values.stringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
           } else {
             procedureName_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
        */
       public Builder clearProcedureName() {
         if (procedureNameBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
+      public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
         
         onChanged();
         return getProcedureNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         if (procedureNameBuilder_ != null) {
           return procedureNameBuilder_.getMessageOrBuilder();
         } else {
           return procedureName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+              io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue procedure_name = 2;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getProcedureNameFieldBuilder() {
         if (procedureNameBuilder_ == null) {
           procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getProcedureName(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue deleteProcedure_ = null;
+      private io.dstore.values.BooleanValue deleteProcedure_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> deleteProcedureBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> deleteProcedureBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
        */
       public boolean hasDeleteProcedure() {
         return deleteProcedureBuilder_ != null || deleteProcedure_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
        */
-      public io.dstore.Values.booleanValue getDeleteProcedure() {
+      public io.dstore.values.BooleanValue getDeleteProcedure() {
         if (deleteProcedureBuilder_ == null) {
-          return deleteProcedure_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : deleteProcedure_;
+          return deleteProcedure_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : deleteProcedure_;
         } else {
           return deleteProcedureBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
        */
-      public Builder setDeleteProcedure(io.dstore.Values.booleanValue value) {
+      public Builder setDeleteProcedure(io.dstore.values.BooleanValue value) {
         if (deleteProcedureBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
        */
       public Builder setDeleteProcedure(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (deleteProcedureBuilder_ == null) {
           deleteProcedure_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
        */
-      public Builder mergeDeleteProcedure(io.dstore.Values.booleanValue value) {
+      public Builder mergeDeleteProcedure(io.dstore.values.BooleanValue value) {
         if (deleteProcedureBuilder_ == null) {
           if (deleteProcedure_ != null) {
             deleteProcedure_ =
-              io.dstore.Values.booleanValue.newBuilder(deleteProcedure_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(deleteProcedure_).mergeFrom(value).buildPartial();
           } else {
             deleteProcedure_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
        */
       public Builder clearDeleteProcedure() {
         if (deleteProcedureBuilder_ == null) {
@@ -1275,33 +1275,33 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getDeleteProcedureBuilder() {
+      public io.dstore.values.BooleanValue.Builder getDeleteProcedureBuilder() {
         
         onChanged();
         return getDeleteProcedureFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getDeleteProcedureOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getDeleteProcedureOrBuilder() {
         if (deleteProcedureBuilder_ != null) {
           return deleteProcedureBuilder_.getMessageOrBuilder();
         } else {
           return deleteProcedure_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : deleteProcedure_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : deleteProcedure_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue delete_procedure = 3;</code>
+       * <code>optional .dstore.values.BooleanValue delete_procedure = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getDeleteProcedureFieldBuilder() {
         if (deleteProcedureBuilder_ == null) {
           deleteProcedureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getDeleteProcedure(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue checkForExecutionRestrictions_ = null;
+      private io.dstore.values.IntegerValue checkForExecutionRestrictions_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> checkForExecutionRestrictionsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> checkForExecutionRestrictionsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+       * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
        */
       public boolean hasCheckForExecutionRestrictions() {
         return checkForExecutionRestrictionsBuilder_ != null || checkForExecutionRestrictions_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+       * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
        */
-      public io.dstore.Values.integerValue getCheckForExecutionRestrictions() {
+      public io.dstore.values.IntegerValue getCheckForExecutionRestrictions() {
         if (checkForExecutionRestrictionsBuilder_ == null) {
-          return checkForExecutionRestrictions_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : checkForExecutionRestrictions_;
+          return checkForExecutionRestrictions_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : checkForExecutionRestrictions_;
         } else {
           return checkForExecutionRestrictionsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+       * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
        */
-      public Builder setCheckForExecutionRestrictions(io.dstore.Values.integerValue value) {
+      public Builder setCheckForExecutionRestrictions(io.dstore.values.IntegerValue value) {
         if (checkForExecutionRestrictionsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+       * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
        */
       public Builder setCheckForExecutionRestrictions(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (checkForExecutionRestrictionsBuilder_ == null) {
           checkForExecutionRestrictions_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+       * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
        */
-      public Builder mergeCheckForExecutionRestrictions(io.dstore.Values.integerValue value) {
+      public Builder mergeCheckForExecutionRestrictions(io.dstore.values.IntegerValue value) {
         if (checkForExecutionRestrictionsBuilder_ == null) {
           if (checkForExecutionRestrictions_ != null) {
             checkForExecutionRestrictions_ =
-              io.dstore.Values.integerValue.newBuilder(checkForExecutionRestrictions_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(checkForExecutionRestrictions_).mergeFrom(value).buildPartial();
           } else {
             checkForExecutionRestrictions_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+       * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
        */
       public Builder clearCheckForExecutionRestrictions() {
         if (checkForExecutionRestrictionsBuilder_ == null) {
@@ -1418,33 +1418,33 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+       * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCheckForExecutionRestrictionsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCheckForExecutionRestrictionsBuilder() {
         
         onChanged();
         return getCheckForExecutionRestrictionsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+       * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCheckForExecutionRestrictionsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCheckForExecutionRestrictionsOrBuilder() {
         if (checkForExecutionRestrictionsBuilder_ != null) {
           return checkForExecutionRestrictionsBuilder_.getMessageOrBuilder();
         } else {
           return checkForExecutionRestrictions_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : checkForExecutionRestrictions_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : checkForExecutionRestrictions_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue check_for_execution_restrictions = 4;</code>
+       * <code>optional .dstore.values.IntegerValue check_for_execution_restrictions = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCheckForExecutionRestrictionsFieldBuilder() {
         if (checkForExecutionRestrictionsBuilder_ == null) {
           checkForExecutionRestrictionsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCheckForExecutionRestrictions(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue logExecutions_ = null;
+      private io.dstore.values.IntegerValue logExecutions_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> logExecutionsBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> logExecutionsBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+       * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
        */
       public boolean hasLogExecutions() {
         return logExecutionsBuilder_ != null || logExecutions_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+       * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
        */
-      public io.dstore.Values.integerValue getLogExecutions() {
+      public io.dstore.values.IntegerValue getLogExecutions() {
         if (logExecutionsBuilder_ == null) {
-          return logExecutions_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : logExecutions_;
+          return logExecutions_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : logExecutions_;
         } else {
           return logExecutionsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+       * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
        */
-      public Builder setLogExecutions(io.dstore.Values.integerValue value) {
+      public Builder setLogExecutions(io.dstore.values.IntegerValue value) {
         if (logExecutionsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+       * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
        */
       public Builder setLogExecutions(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (logExecutionsBuilder_ == null) {
           logExecutions_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+       * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
        */
-      public Builder mergeLogExecutions(io.dstore.Values.integerValue value) {
+      public Builder mergeLogExecutions(io.dstore.values.IntegerValue value) {
         if (logExecutionsBuilder_ == null) {
           if (logExecutions_ != null) {
             logExecutions_ =
-              io.dstore.Values.integerValue.newBuilder(logExecutions_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(logExecutions_).mergeFrom(value).buildPartial();
           } else {
             logExecutions_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+       * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
        */
       public Builder clearLogExecutions() {
         if (logExecutionsBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class MiModifyRegisteredProcsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+       * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLogExecutionsBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLogExecutionsBuilder() {
         
         onChanged();
         return getLogExecutionsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+       * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLogExecutionsOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLogExecutionsOrBuilder() {
         if (logExecutionsBuilder_ != null) {
           return logExecutionsBuilder_.getMessageOrBuilder();
         } else {
           return logExecutions_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : logExecutions_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : logExecutions_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue log_executions = 5;</code>
+       * <code>optional .dstore.values.IntegerValue log_executions = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLogExecutionsFieldBuilder() {
         if (logExecutionsBuilder_ == null) {
           logExecutionsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLogExecutions(),
                   getParentForChildren(),
                   isClean());
@@ -3709,16 +3709,16 @@ public final class MiModifyRegisteredProcsAd {
       "odifyRegisteredProcs_Ad\032\023dstore/values.p" +
       "roto\032\032dstore/engine/engine.proto\"\316\003\n\nPar" +
       "ameters\0221\n\014procedure_id\030\001 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\032\n\021procedure_id_null\030" +
+      "alues.IntegerValue\022\032\n\021procedure_id_null\030" +
       "\351\007 \001(\010\0222\n\016procedure_name\030\002 \001(\0132\032.dstore." +
-      "values.stringValue\022\034\n\023procedure_name_nul" +
+      "values.StringValue\022\034\n\023procedure_name_nul" +
       "l\030\352\007 \001(\010\0225\n\020delete_procedure\030\003 \001(\0132\033.dst" +
-      "ore.values.booleanValue\022\036\n\025delete_proced",
+      "ore.values.BooleanValue\022\036\n\025delete_proced",
       "ure_null\030\353\007 \001(\010\022E\n check_for_execution_r" +
-      "estrictions\030\004 \001(\0132\033.dstore.values.intege" +
+      "estrictions\030\004 \001(\0132\033.dstore.values.Intege" +
       "rValue\022.\n%check_for_execution_restrictio" +
       "ns_null\030\354\007 \001(\010\0223\n\016log_executions\030\005 \001(\0132\033" +
-      ".dstore.values.integerValue\022\034\n\023log_execu" +
+      ".dstore.values.IntegerValue\022\034\n\023log_execu" +
       "tions_null\030\355\007 \001(\010\"\313\001\n\010Response\0228\n\020meta_i" +
       "nformation\030\002 \003(\0132\036.dstore.engine.MetaInf" +
       "ormation\022\'\n\007message\030\003 \003(\0132\026.dstore.engin" +
@@ -3740,7 +3740,7 @@ public final class MiModifyRegisteredProcsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_ModifyRegisteredProcs_Ad_Parameters_descriptor =
@@ -3761,7 +3761,7 @@ public final class MiModifyRegisteredProcsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_ModifyRegisteredProcs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

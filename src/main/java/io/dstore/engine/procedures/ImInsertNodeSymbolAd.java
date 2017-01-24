@@ -19,17 +19,17 @@ public final class ImInsertNodeSymbolAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
      */
     boolean hasSymbolId();
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
      */
-    io.dstore.Values.integerValue getSymbolId();
+    io.dstore.values.IntegerValue getSymbolId();
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder();
 
     /**
      * <code>optional bool symbol_id_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class ImInsertNodeSymbolAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (symbolId_ != null) {
                 subBuilder = symbolId_.toBuilder();
               }
-              symbolId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              symbolId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(symbolId_);
                 symbolId_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class ImInsertNodeSymbolAd {
     }
 
     public static final int SYMBOL_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue symbolId_;
+    private io.dstore.values.IntegerValue symbolId_;
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
      */
     public boolean hasSymbolId() {
       return symbolId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getSymbolId() {
-      return symbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
+    public io.dstore.values.IntegerValue getSymbolId() {
+      return symbolId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : symbolId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder() {
       return getSymbolId();
     }
 
@@ -447,29 +447,29 @@ public final class ImInsertNodeSymbolAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue symbolId_ = null;
+      private io.dstore.values.IntegerValue symbolId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> symbolIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> symbolIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
        */
       public boolean hasSymbolId() {
         return symbolIdBuilder_ != null || symbolId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getSymbolId() {
+      public io.dstore.values.IntegerValue getSymbolId() {
         if (symbolIdBuilder_ == null) {
-          return symbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
+          return symbolId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : symbolId_;
         } else {
           return symbolIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
        */
-      public Builder setSymbolId(io.dstore.Values.integerValue value) {
+      public Builder setSymbolId(io.dstore.values.IntegerValue value) {
         if (symbolIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class ImInsertNodeSymbolAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
        */
       public Builder setSymbolId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (symbolIdBuilder_ == null) {
           symbolId_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class ImInsertNodeSymbolAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
        */
-      public Builder mergeSymbolId(io.dstore.Values.integerValue value) {
+      public Builder mergeSymbolId(io.dstore.values.IntegerValue value) {
         if (symbolIdBuilder_ == null) {
           if (symbolId_ != null) {
             symbolId_ =
-              io.dstore.Values.integerValue.newBuilder(symbolId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(symbolId_).mergeFrom(value).buildPartial();
           } else {
             symbolId_ = value;
           }
@@ -515,7 +515,7 @@ public final class ImInsertNodeSymbolAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
        */
       public Builder clearSymbolId() {
         if (symbolIdBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class ImInsertNodeSymbolAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSymbolIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSymbolIdBuilder() {
         
         onChanged();
         return getSymbolIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder() {
         if (symbolIdBuilder_ != null) {
           return symbolIdBuilder_.getMessageOrBuilder();
         } else {
           return symbolId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : symbolId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSymbolIdFieldBuilder() {
         if (symbolIdBuilder_ == null) {
           symbolIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSymbolId(),
                   getParentForChildren(),
                   isClean());
@@ -715,17 +715,17 @@ public final class ImInsertNodeSymbolAd {
         int index);
 
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
      */
     boolean hasSymbolId();
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
      */
-    io.dstore.Values.integerValue getSymbolId();
+    io.dstore.values.IntegerValue getSymbolId();
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.im_InsertNodeSymbol_Ad.Response}
@@ -797,11 +797,11 @@ public final class ImInsertNodeSymbolAd {
               break;
             }
             case 810: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (symbolId_ != null) {
                 subBuilder = symbolId_.toBuilder();
               }
-              symbolId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              symbolId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(symbolId_);
                 symbolId_ = subBuilder.buildPartial();
@@ -1377,23 +1377,23 @@ public final class ImInsertNodeSymbolAd {
     }
 
     public static final int SYMBOL_ID_FIELD_NUMBER = 101;
-    private io.dstore.Values.integerValue symbolId_;
+    private io.dstore.values.IntegerValue symbolId_;
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
      */
     public boolean hasSymbolId() {
       return symbolId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
      */
-    public io.dstore.Values.integerValue getSymbolId() {
-      return symbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
+    public io.dstore.values.IntegerValue getSymbolId() {
+      return symbolId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : symbolId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+     * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder() {
       return getSymbolId();
     }
 
@@ -2568,29 +2568,29 @@ public final class ImInsertNodeSymbolAd {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.integerValue symbolId_ = null;
+      private io.dstore.values.IntegerValue symbolId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> symbolIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> symbolIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
        */
       public boolean hasSymbolId() {
         return symbolIdBuilder_ != null || symbolId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
        */
-      public io.dstore.Values.integerValue getSymbolId() {
+      public io.dstore.values.IntegerValue getSymbolId() {
         if (symbolIdBuilder_ == null) {
-          return symbolId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
+          return symbolId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : symbolId_;
         } else {
           return symbolIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
        */
-      public Builder setSymbolId(io.dstore.Values.integerValue value) {
+      public Builder setSymbolId(io.dstore.values.IntegerValue value) {
         if (symbolIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2604,10 +2604,10 @@ public final class ImInsertNodeSymbolAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
        */
       public Builder setSymbolId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (symbolIdBuilder_ == null) {
           symbolId_ = builderForValue.build();
           onChanged();
@@ -2618,13 +2618,13 @@ public final class ImInsertNodeSymbolAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
        */
-      public Builder mergeSymbolId(io.dstore.Values.integerValue value) {
+      public Builder mergeSymbolId(io.dstore.values.IntegerValue value) {
         if (symbolIdBuilder_ == null) {
           if (symbolId_ != null) {
             symbolId_ =
-              io.dstore.Values.integerValue.newBuilder(symbolId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(symbolId_).mergeFrom(value).buildPartial();
           } else {
             symbolId_ = value;
           }
@@ -2636,7 +2636,7 @@ public final class ImInsertNodeSymbolAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
        */
       public Builder clearSymbolId() {
         if (symbolIdBuilder_ == null) {
@@ -2650,33 +2650,33 @@ public final class ImInsertNodeSymbolAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSymbolIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSymbolIdBuilder() {
         
         onChanged();
         return getSymbolIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSymbolIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSymbolIdOrBuilder() {
         if (symbolIdBuilder_ != null) {
           return symbolIdBuilder_.getMessageOrBuilder();
         } else {
           return symbolId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : symbolId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : symbolId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue symbol_id = 101;</code>
+       * <code>optional .dstore.values.IntegerValue symbol_id = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSymbolIdFieldBuilder() {
         if (symbolIdBuilder_ == null) {
           symbolIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSymbolId(),
                   getParentForChildren(),
                   isClean());
@@ -2761,14 +2761,14 @@ public final class ImInsertNodeSymbolAd {
       "Symbol_Ad.proto\022$dstore.engine.im_Insert" +
       "NodeSymbol_Ad\032\023dstore/values.proto\032\032dsto" +
       "re/engine/engine.proto\"U\n\nParameters\022.\n\t" +
-      "symbol_id\030\001 \001(\0132\033.dstore.values.integerV" +
+      "symbol_id\030\001 \001(\0132\033.dstore.values.IntegerV" +
       "alue\022\027\n\016symbol_id_null\030\351\007 \001(\010\"\366\001\n\010Respon" +
       "se\0228\n\020meta_information\030\002 \003(\0132\036.dstore.en" +
       "gine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026." +
       "dstore.engine.Message\022?\n\003row\030\004 \003(\01322.dst" +
       "ore.engine.im_InsertNodeSymbol_Ad.Respon",
       "se.Row\022.\n\tsymbol_id\030e \001(\0132\033.dstore.value" +
-      "s.integerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005BW" +
+      "s.IntegerValue\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005BW" +
       "\n\033io.dstore.engine.proceduresZ8gosdk.dst" +
       "ore.de/engine/procedures/im_InsertNodeSy" +
       "mbol_Adb\006proto3"
@@ -2784,7 +2784,7 @@ public final class ImInsertNodeSymbolAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_InsertNodeSymbol_Ad_Parameters_descriptor =
@@ -2805,7 +2805,7 @@ public final class ImInsertNodeSymbolAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_InsertNodeSymbol_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

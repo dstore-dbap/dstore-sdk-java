@@ -19,17 +19,17 @@ public final class OmGetPaymentTypeDescrAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
      */
     boolean hasPaymentTypeId();
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPaymentTypeId();
+    io.dstore.values.IntegerValue getPaymentTypeId();
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder();
 
     /**
      * <code>optional bool payment_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetPaymentTypeDescrAd {
     boolean getPaymentTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     boolean hasLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValue getLanguageId();
+    io.dstore.values.IntegerValue getLanguageId();
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
 
     /**
      * <code>optional bool language_id_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class OmGetPaymentTypeDescrAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (paymentTypeId_ != null) {
                 subBuilder = paymentTypeId_.toBuilder();
               }
-              paymentTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              paymentTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentTypeId_);
                 paymentTypeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class OmGetPaymentTypeDescrAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class OmGetPaymentTypeDescrAd {
     }
 
     public static final int PAYMENT_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue paymentTypeId_;
+    private io.dstore.values.IntegerValue paymentTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
      */
     public boolean hasPaymentTypeId() {
       return paymentTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPaymentTypeId() {
-      return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+    public io.dstore.values.IntegerValue getPaymentTypeId() {
+      return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
       return getPaymentTypeId();
     }
 
@@ -185,23 +185,23 @@ public final class OmGetPaymentTypeDescrAd {
     }
 
     public static final int LANGUAGE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue languageId_;
+    private io.dstore.values.IntegerValue languageId_;
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
     public boolean hasLanguageId() {
       return languageId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getLanguageId() {
-      return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+    public io.dstore.values.IntegerValue getLanguageId() {
+      return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue language_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
       return getLanguageId();
     }
 
@@ -562,29 +562,29 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue paymentTypeId_ = null;
+      private io.dstore.values.IntegerValue paymentTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> paymentTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> paymentTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public boolean hasPaymentTypeId() {
         return paymentTypeIdBuilder_ != null || paymentTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPaymentTypeId() {
+      public io.dstore.values.IntegerValue getPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
-          return paymentTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+          return paymentTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
         } else {
           return paymentTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
        */
-      public Builder setPaymentTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public Builder setPaymentTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (paymentTypeIdBuilder_ == null) {
           paymentTypeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
        */
-      public Builder mergePaymentTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePaymentTypeId(io.dstore.values.IntegerValue value) {
         if (paymentTypeIdBuilder_ == null) {
           if (paymentTypeId_ != null) {
             paymentTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(paymentTypeId_).mergeFrom(value).buildPartial();
           } else {
             paymentTypeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       public Builder clearPaymentTypeId() {
         if (paymentTypeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPaymentTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPaymentTypeIdBuilder() {
         
         onChanged();
         return getPaymentTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPaymentTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPaymentTypeIdOrBuilder() {
         if (paymentTypeIdBuilder_ != null) {
           return paymentTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return paymentTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : paymentTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : paymentTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue payment_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue payment_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPaymentTypeIdFieldBuilder() {
         if (paymentTypeIdBuilder_ == null) {
           paymentTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPaymentTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue languageId_ = null;
+      private io.dstore.values.IntegerValue languageId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public boolean hasLanguageId() {
         return languageIdBuilder_ != null || languageId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
+      public io.dstore.values.IntegerValue getLanguageId() {
         if (languageIdBuilder_ == null) {
-          return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+          return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         } else {
           return languageIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder setLanguageId(io.dstore.Values.integerValue value) {
+      public Builder setLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder setLanguageId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (languageIdBuilder_ == null) {
           languageId_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+      public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
         if (languageIdBuilder_ == null) {
           if (languageId_ != null) {
             languageId_ =
-              io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
           } else {
             languageId_ = value;
           }
@@ -773,7 +773,7 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       public Builder clearLanguageId() {
         if (languageIdBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class OmGetPaymentTypeDescrAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
         
         onChanged();
         return getLanguageIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         if (languageIdBuilder_ != null) {
           return languageIdBuilder_.getMessageOrBuilder();
         } else {
           return languageId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue language_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getLanguageIdFieldBuilder() {
         if (languageIdBuilder_ == null) {
           languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getLanguageId(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class OmGetPaymentTypeDescrAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
       boolean hasLanguage();
       /**
@@ -1115,24 +1115,24 @@ public final class OmGetPaymentTypeDescrAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
-      io.dstore.Values.stringValue getLanguage();
+      io.dstore.values.StringValue getLanguage();
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder();
+      io.dstore.values.StringValueOrBuilder getLanguageOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
        */
       boolean hasPaymentTypeDescription();
       /**
@@ -1140,24 +1140,24 @@ public final class OmGetPaymentTypeDescrAd {
        * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
        */
-      io.dstore.Values.stringValue getPaymentTypeDescription();
+      io.dstore.values.StringValue getPaymentTypeDescription();
       /**
        * <pre>
        * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPaymentTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
        */
       boolean hasLanguageId();
       /**
@@ -1165,17 +1165,17 @@ public final class OmGetPaymentTypeDescrAd {
        * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getLanguageId();
+      io.dstore.values.IntegerValue getLanguageId();
       /**
        * <pre>
        * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPaymentTypeDescr_Ad.Response.Row}
@@ -1223,11 +1223,11 @@ public final class OmGetPaymentTypeDescrAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (language_ != null) {
                   subBuilder = language_.toBuilder();
                 }
-                language_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                language_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(language_);
                   language_ = subBuilder.buildPartial();
@@ -1236,11 +1236,11 @@ public final class OmGetPaymentTypeDescrAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (paymentTypeDescription_ != null) {
                   subBuilder = paymentTypeDescription_.toBuilder();
                 }
-                paymentTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                paymentTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentTypeDescription_);
                   paymentTypeDescription_ = subBuilder.buildPartial();
@@ -1249,11 +1249,11 @@ public final class OmGetPaymentTypeDescrAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (languageId_ != null) {
                   subBuilder = languageId_.toBuilder();
                 }
-                languageId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                languageId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageId_);
                   languageId_ = subBuilder.buildPartial();
@@ -1294,13 +1294,13 @@ public final class OmGetPaymentTypeDescrAd {
       }
 
       public static final int LANGUAGE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue language_;
+      private io.dstore.values.StringValue language_;
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
       public boolean hasLanguage() {
         return language_ != null;
@@ -1310,30 +1310,30 @@ public final class OmGetPaymentTypeDescrAd {
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
-      public io.dstore.Values.stringValue getLanguage() {
-        return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
+      public io.dstore.values.StringValue getLanguage() {
+        return language_ == null ? io.dstore.values.StringValue.getDefaultInstance() : language_;
       }
       /**
        * <pre>
        * Bezeichnung der Sprache "LanguageID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue language = 10001;</code>
+       * <code>optional .dstore.values.StringValue language = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getLanguageOrBuilder() {
         return getLanguage();
       }
 
       public static final int PAYMENT_TYPE_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue paymentTypeDescription_;
+      private io.dstore.values.StringValue paymentTypeDescription_;
       /**
        * <pre>
        * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
        */
       public boolean hasPaymentTypeDescription() {
         return paymentTypeDescription_ != null;
@@ -1343,30 +1343,30 @@ public final class OmGetPaymentTypeDescrAd {
        * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getPaymentTypeDescription() {
-        return paymentTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+      public io.dstore.values.StringValue getPaymentTypeDescription() {
+        return paymentTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
         return getPaymentTypeDescription();
       }
 
       public static final int LANGUAGE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue languageId_;
+      private io.dstore.values.IntegerValue languageId_;
       /**
        * <pre>
        * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
        */
       public boolean hasLanguageId() {
         return languageId_ != null;
@@ -1376,19 +1376,19 @@ public final class OmGetPaymentTypeDescrAd {
        * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getLanguageId() {
-        return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+      public io.dstore.values.IntegerValue getLanguageId() {
+        return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
       }
       /**
        * <pre>
        * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
         return getLanguageId();
       }
 
@@ -1777,15 +1777,15 @@ public final class OmGetPaymentTypeDescrAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue language_ = null;
+        private io.dstore.values.StringValue language_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> languageBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> languageBuilder_;
         /**
          * <pre>
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
         public boolean hasLanguage() {
           return languageBuilder_ != null || language_ != null;
@@ -1795,11 +1795,11 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public io.dstore.Values.stringValue getLanguage() {
+        public io.dstore.values.StringValue getLanguage() {
           if (languageBuilder_ == null) {
-            return language_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : language_;
+            return language_ == null ? io.dstore.values.StringValue.getDefaultInstance() : language_;
           } else {
             return languageBuilder_.getMessage();
           }
@@ -1809,9 +1809,9 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public Builder setLanguage(io.dstore.Values.stringValue value) {
+        public Builder setLanguage(io.dstore.values.StringValue value) {
           if (languageBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1829,10 +1829,10 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
         public Builder setLanguage(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (languageBuilder_ == null) {
             language_ = builderForValue.build();
             onChanged();
@@ -1847,13 +1847,13 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public Builder mergeLanguage(io.dstore.Values.stringValue value) {
+        public Builder mergeLanguage(io.dstore.values.StringValue value) {
           if (languageBuilder_ == null) {
             if (language_ != null) {
               language_ =
-                io.dstore.Values.stringValue.newBuilder(language_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(language_).mergeFrom(value).buildPartial();
             } else {
               language_ = value;
             }
@@ -1869,7 +1869,7 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
         public Builder clearLanguage() {
           if (languageBuilder_ == null) {
@@ -1887,9 +1887,9 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getLanguageBuilder() {
+        public io.dstore.values.StringValue.Builder getLanguageBuilder() {
           
           onChanged();
           return getLanguageFieldBuilder().getBuilder();
@@ -1899,14 +1899,14 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getLanguageOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getLanguageOrBuilder() {
           if (languageBuilder_ != null) {
             return languageBuilder_.getMessageOrBuilder();
           } else {
             return language_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : language_;
+                io.dstore.values.StringValue.getDefaultInstance() : language_;
           }
         }
         /**
@@ -1914,14 +1914,14 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Sprache "LanguageID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue language = 10001;</code>
+         * <code>optional .dstore.values.StringValue language = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getLanguageFieldBuilder() {
           if (languageBuilder_ == null) {
             languageBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getLanguage(),
                     getParentForChildren(),
                     isClean());
@@ -1930,15 +1930,15 @@ public final class OmGetPaymentTypeDescrAd {
           return languageBuilder_;
         }
 
-        private io.dstore.Values.stringValue paymentTypeDescription_ = null;
+        private io.dstore.values.StringValue paymentTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> paymentTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> paymentTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
          */
         public boolean hasPaymentTypeDescription() {
           return paymentTypeDescriptionBuilder_ != null || paymentTypeDescription_ != null;
@@ -1948,11 +1948,11 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getPaymentTypeDescription() {
+        public io.dstore.values.StringValue getPaymentTypeDescription() {
           if (paymentTypeDescriptionBuilder_ == null) {
-            return paymentTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+            return paymentTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : paymentTypeDescription_;
           } else {
             return paymentTypeDescriptionBuilder_.getMessage();
           }
@@ -1962,9 +1962,9 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
          */
-        public Builder setPaymentTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setPaymentTypeDescription(io.dstore.values.StringValue value) {
           if (paymentTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1982,10 +1982,10 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
          */
         public Builder setPaymentTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (paymentTypeDescriptionBuilder_ == null) {
             paymentTypeDescription_ = builderForValue.build();
             onChanged();
@@ -2000,13 +2000,13 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
          */
-        public Builder mergePaymentTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergePaymentTypeDescription(io.dstore.values.StringValue value) {
           if (paymentTypeDescriptionBuilder_ == null) {
             if (paymentTypeDescription_ != null) {
               paymentTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(paymentTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(paymentTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               paymentTypeDescription_ = value;
             }
@@ -2022,7 +2022,7 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
          */
         public Builder clearPaymentTypeDescription() {
           if (paymentTypeDescriptionBuilder_ == null) {
@@ -2040,9 +2040,9 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPaymentTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getPaymentTypeDescriptionBuilder() {
           
           onChanged();
           return getPaymentTypeDescriptionFieldBuilder().getBuilder();
@@ -2052,14 +2052,14 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPaymentTypeDescriptionOrBuilder() {
           if (paymentTypeDescriptionBuilder_ != null) {
             return paymentTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return paymentTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : paymentTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : paymentTypeDescription_;
           }
         }
         /**
@@ -2067,14 +2067,14 @@ public final class OmGetPaymentTypeDescrAd {
          * Bezeichnung der Zahlungsart "&#64;PaymentTypeID" in der durch "LanguageID" angegebenen Sprache
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue payment_type_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue payment_type_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPaymentTypeDescriptionFieldBuilder() {
           if (paymentTypeDescriptionBuilder_ == null) {
             paymentTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPaymentTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -2083,15 +2083,15 @@ public final class OmGetPaymentTypeDescrAd {
           return paymentTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue languageId_ = null;
+        private io.dstore.values.IntegerValue languageId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> languageIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> languageIdBuilder_;
         /**
          * <pre>
          * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
          */
         public boolean hasLanguageId() {
           return languageIdBuilder_ != null || languageId_ != null;
@@ -2101,11 +2101,11 @@ public final class OmGetPaymentTypeDescrAd {
          * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getLanguageId() {
+        public io.dstore.values.IntegerValue getLanguageId() {
           if (languageIdBuilder_ == null) {
-            return languageId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+            return languageId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
           } else {
             return languageIdBuilder_.getMessage();
           }
@@ -2115,9 +2115,9 @@ public final class OmGetPaymentTypeDescrAd {
          * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
          */
-        public Builder setLanguageId(io.dstore.Values.integerValue value) {
+        public Builder setLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2135,10 +2135,10 @@ public final class OmGetPaymentTypeDescrAd {
          * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
          */
         public Builder setLanguageId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (languageIdBuilder_ == null) {
             languageId_ = builderForValue.build();
             onChanged();
@@ -2153,13 +2153,13 @@ public final class OmGetPaymentTypeDescrAd {
          * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
          */
-        public Builder mergeLanguageId(io.dstore.Values.integerValue value) {
+        public Builder mergeLanguageId(io.dstore.values.IntegerValue value) {
           if (languageIdBuilder_ == null) {
             if (languageId_ != null) {
               languageId_ =
-                io.dstore.Values.integerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(languageId_).mergeFrom(value).buildPartial();
             } else {
               languageId_ = value;
             }
@@ -2175,7 +2175,7 @@ public final class OmGetPaymentTypeDescrAd {
          * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
          */
         public Builder clearLanguageId() {
           if (languageIdBuilder_ == null) {
@@ -2193,9 +2193,9 @@ public final class OmGetPaymentTypeDescrAd {
          * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getLanguageIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getLanguageIdBuilder() {
           
           onChanged();
           return getLanguageIdFieldBuilder().getBuilder();
@@ -2205,14 +2205,14 @@ public final class OmGetPaymentTypeDescrAd {
          * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getLanguageIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getLanguageIdOrBuilder() {
           if (languageIdBuilder_ != null) {
             return languageIdBuilder_.getMessageOrBuilder();
           } else {
             return languageId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : languageId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : languageId_;
           }
         }
         /**
@@ -2220,14 +2220,14 @@ public final class OmGetPaymentTypeDescrAd {
          * ID einer Sprache, in der die Bezeichnung "PaymentTypeDescription" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue language_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue language_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getLanguageIdFieldBuilder() {
           if (languageIdBuilder_ == null) {
             languageIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getLanguageId(),
                     getParentForChildren(),
                     isClean());
@@ -3697,18 +3697,18 @@ public final class OmGetPaymentTypeDescrAd {
       "PaymentTypeDescr_Ad\032\023dstore/values.proto" +
       "\032\032dstore/engine/engine.proto\"\256\001\n\nParamet" +
       "ers\0224\n\017payment_type_id\030\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\035\n\024payment_type_id_nul" +
+      "lues.IntegerValue\022\035\n\024payment_type_id_nul" +
       "l\030\351\007 \001(\010\0220\n\013language_id\030\002 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022\031\n\020language_id_null\030\352" +
+      "alues.IntegerValue\022\031\n\020language_id_null\030\352" +
       "\007 \001(\010\"\353\002\n\010Response\0228\n\020meta_information\030\002" +
       " \003(\0132\036.dstore.engine.MetaInformation\022\'\n\007",
       "message\030\003 \003(\0132\026.dstore.engine.Message\022B\n" +
       "\003row\030\004 \003(\01325.dstore.engine.om_GetPayment" +
       "TypeDescr_Ad.Response.Row\032\267\001\n\003Row\022\017\n\006row" +
       "_id\030\220N \001(\005\022-\n\010language\030\221N \001(\0132\032.dstore.v" +
-      "alues.stringValue\022=\n\030payment_type_descri" +
-      "ption\030\222N \001(\0132\032.dstore.values.stringValue" +
-      "\0221\n\013language_id\030\223N \001(\0132\033.dstore.values.i" +
+      "alues.StringValue\022=\n\030payment_type_descri" +
+      "ption\030\222N \001(\0132\032.dstore.values.StringValue" +
+      "\0221\n\013language_id\030\223N \001(\0132\033.dstore.values.I" +
       "ntegerValueBZ\n\033io.dstore.engine.procedur" +
       "esZ;gosdk.dstore.de/engine/procedures/om" +
       "_GetPaymentTypeDescr_Adb\006proto3"
@@ -3724,7 +3724,7 @@ public final class OmGetPaymentTypeDescrAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetPaymentTypeDescr_Ad_Parameters_descriptor =
@@ -3745,7 +3745,7 @@ public final class OmGetPaymentTypeDescrAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPaymentTypeDescr_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Language", "PaymentTypeDescription", "LanguageId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

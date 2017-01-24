@@ -19,17 +19,17 @@ public final class FoModifyForumAccessAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    io.dstore.Values.integerValue getForumId();
+    io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class FoModifyForumAccessAd {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
      */
     boolean hasPersonOrGroupId();
     /**
-     * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonOrGroupId();
+    io.dstore.values.IntegerValue getPersonOrGroupId();
     /**
-     * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonOrGroupIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonOrGroupIdOrBuilder();
 
     /**
      * <code>optional bool person_or_group_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class FoModifyForumAccessAd {
     boolean getPersonOrGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
      */
     boolean hasIsGroupId();
     /**
-     * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
      */
-    io.dstore.Values.booleanValue getIsGroupId();
+    io.dstore.values.BooleanValue getIsGroupId();
     /**
-     * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIsGroupIdOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIsGroupIdOrBuilder();
 
     /**
      * <code>optional bool is_group_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class FoModifyForumAccessAd {
     boolean getIsGroupIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue access_level = 4;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
      */
     boolean hasAccessLevel();
     /**
-     * <code>optional .dstore.values.integerValue access_level = 4;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
      */
-    io.dstore.Values.integerValue getAccessLevel();
+    io.dstore.values.IntegerValue getAccessLevel();
     /**
-     * <code>optional .dstore.values.integerValue access_level = 4;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder();
 
     /**
      * <code>optional bool access_level_null = 1004;</code>
@@ -134,11 +134,11 @@ public final class FoModifyForumAccessAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -147,11 +147,11 @@ public final class FoModifyForumAccessAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personOrGroupId_ != null) {
                 subBuilder = personOrGroupId_.toBuilder();
               }
-              personOrGroupId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personOrGroupId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personOrGroupId_);
                 personOrGroupId_ = subBuilder.buildPartial();
@@ -160,11 +160,11 @@ public final class FoModifyForumAccessAd {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (isGroupId_ != null) {
                 subBuilder = isGroupId_.toBuilder();
               }
-              isGroupId_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              isGroupId_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isGroupId_);
                 isGroupId_ = subBuilder.buildPartial();
@@ -173,11 +173,11 @@ public final class FoModifyForumAccessAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (accessLevel_ != null) {
                 subBuilder = accessLevel_.toBuilder();
               }
-              accessLevel_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              accessLevel_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(accessLevel_);
                 accessLevel_ = subBuilder.buildPartial();
@@ -229,23 +229,23 @@ public final class FoModifyForumAccessAd {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue forumId_;
+    private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.values.IntegerValue getForumId() {
+      return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -259,23 +259,23 @@ public final class FoModifyForumAccessAd {
     }
 
     public static final int PERSON_OR_GROUP_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personOrGroupId_;
+    private io.dstore.values.IntegerValue personOrGroupId_;
     /**
-     * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
      */
     public boolean hasPersonOrGroupId() {
       return personOrGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonOrGroupId() {
-      return personOrGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personOrGroupId_;
+    public io.dstore.values.IntegerValue getPersonOrGroupId() {
+      return personOrGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personOrGroupId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonOrGroupIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonOrGroupIdOrBuilder() {
       return getPersonOrGroupId();
     }
 
@@ -289,23 +289,23 @@ public final class FoModifyForumAccessAd {
     }
 
     public static final int IS_GROUP_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue isGroupId_;
+    private io.dstore.values.BooleanValue isGroupId_;
     /**
-     * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
      */
     public boolean hasIsGroupId() {
       return isGroupId_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
      */
-    public io.dstore.Values.booleanValue getIsGroupId() {
-      return isGroupId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isGroupId_;
+    public io.dstore.values.BooleanValue getIsGroupId() {
+      return isGroupId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isGroupId_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+     * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIsGroupIdOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIsGroupIdOrBuilder() {
       return getIsGroupId();
     }
 
@@ -319,23 +319,23 @@ public final class FoModifyForumAccessAd {
     }
 
     public static final int ACCESS_LEVEL_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue accessLevel_;
+    private io.dstore.values.IntegerValue accessLevel_;
     /**
-     * <code>optional .dstore.values.integerValue access_level = 4;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
      */
     public boolean hasAccessLevel() {
       return accessLevel_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue access_level = 4;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
      */
-    public io.dstore.Values.integerValue getAccessLevel() {
-      return accessLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
+    public io.dstore.values.IntegerValue getAccessLevel() {
+      return accessLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
     }
     /**
-     * <code>optional .dstore.values.integerValue access_level = 4;</code>
+     * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
       return getAccessLevel();
     }
 
@@ -792,29 +792,29 @@ public final class FoModifyForumAccessAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue forumId_ = null;
+      private io.dstore.values.IntegerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getForumId() {
+      public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public Builder setForumId(io.dstore.Values.integerValue value) {
+      public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,10 +828,10 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder setForumId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -842,13 +842,13 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public Builder mergeForumId(io.dstore.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -860,7 +860,7 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -874,33 +874,33 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -935,29 +935,29 @@ public final class FoModifyForumAccessAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personOrGroupId_ = null;
+      private io.dstore.values.IntegerValue personOrGroupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personOrGroupIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personOrGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
        */
       public boolean hasPersonOrGroupId() {
         return personOrGroupIdBuilder_ != null || personOrGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonOrGroupId() {
+      public io.dstore.values.IntegerValue getPersonOrGroupId() {
         if (personOrGroupIdBuilder_ == null) {
-          return personOrGroupId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personOrGroupId_;
+          return personOrGroupId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personOrGroupId_;
         } else {
           return personOrGroupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
        */
-      public Builder setPersonOrGroupId(io.dstore.Values.integerValue value) {
+      public Builder setPersonOrGroupId(io.dstore.values.IntegerValue value) {
         if (personOrGroupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -971,10 +971,10 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
        */
       public Builder setPersonOrGroupId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personOrGroupIdBuilder_ == null) {
           personOrGroupId_ = builderForValue.build();
           onChanged();
@@ -985,13 +985,13 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
        */
-      public Builder mergePersonOrGroupId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonOrGroupId(io.dstore.values.IntegerValue value) {
         if (personOrGroupIdBuilder_ == null) {
           if (personOrGroupId_ != null) {
             personOrGroupId_ =
-              io.dstore.Values.integerValue.newBuilder(personOrGroupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personOrGroupId_).mergeFrom(value).buildPartial();
           } else {
             personOrGroupId_ = value;
           }
@@ -1003,7 +1003,7 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
        */
       public Builder clearPersonOrGroupId() {
         if (personOrGroupIdBuilder_ == null) {
@@ -1017,33 +1017,33 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonOrGroupIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonOrGroupIdBuilder() {
         
         onChanged();
         return getPersonOrGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonOrGroupIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonOrGroupIdOrBuilder() {
         if (personOrGroupIdBuilder_ != null) {
           return personOrGroupIdBuilder_.getMessageOrBuilder();
         } else {
           return personOrGroupId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personOrGroupId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personOrGroupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_or_group_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_or_group_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonOrGroupIdFieldBuilder() {
         if (personOrGroupIdBuilder_ == null) {
           personOrGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonOrGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -1078,29 +1078,29 @@ public final class FoModifyForumAccessAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue isGroupId_ = null;
+      private io.dstore.values.BooleanValue isGroupId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> isGroupIdBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> isGroupIdBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
        */
       public boolean hasIsGroupId() {
         return isGroupIdBuilder_ != null || isGroupId_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
        */
-      public io.dstore.Values.booleanValue getIsGroupId() {
+      public io.dstore.values.BooleanValue getIsGroupId() {
         if (isGroupIdBuilder_ == null) {
-          return isGroupId_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : isGroupId_;
+          return isGroupId_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : isGroupId_;
         } else {
           return isGroupIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
        */
-      public Builder setIsGroupId(io.dstore.Values.booleanValue value) {
+      public Builder setIsGroupId(io.dstore.values.BooleanValue value) {
         if (isGroupIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1114,10 +1114,10 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
        */
       public Builder setIsGroupId(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (isGroupIdBuilder_ == null) {
           isGroupId_ = builderForValue.build();
           onChanged();
@@ -1128,13 +1128,13 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
        */
-      public Builder mergeIsGroupId(io.dstore.Values.booleanValue value) {
+      public Builder mergeIsGroupId(io.dstore.values.BooleanValue value) {
         if (isGroupIdBuilder_ == null) {
           if (isGroupId_ != null) {
             isGroupId_ =
-              io.dstore.Values.booleanValue.newBuilder(isGroupId_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(isGroupId_).mergeFrom(value).buildPartial();
           } else {
             isGroupId_ = value;
           }
@@ -1146,7 +1146,7 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
        */
       public Builder clearIsGroupId() {
         if (isGroupIdBuilder_ == null) {
@@ -1160,33 +1160,33 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIsGroupIdBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIsGroupIdBuilder() {
         
         onChanged();
         return getIsGroupIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIsGroupIdOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIsGroupIdOrBuilder() {
         if (isGroupIdBuilder_ != null) {
           return isGroupIdBuilder_.getMessageOrBuilder();
         } else {
           return isGroupId_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : isGroupId_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : isGroupId_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue is_group_id = 3;</code>
+       * <code>optional .dstore.values.BooleanValue is_group_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIsGroupIdFieldBuilder() {
         if (isGroupIdBuilder_ == null) {
           isGroupIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIsGroupId(),
                   getParentForChildren(),
                   isClean());
@@ -1221,29 +1221,29 @@ public final class FoModifyForumAccessAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue accessLevel_ = null;
+      private io.dstore.values.IntegerValue accessLevel_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> accessLevelBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> accessLevelBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue access_level = 4;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
        */
       public boolean hasAccessLevel() {
         return accessLevelBuilder_ != null || accessLevel_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 4;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
        */
-      public io.dstore.Values.integerValue getAccessLevel() {
+      public io.dstore.values.IntegerValue getAccessLevel() {
         if (accessLevelBuilder_ == null) {
-          return accessLevel_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
+          return accessLevel_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
         } else {
           return accessLevelBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 4;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
        */
-      public Builder setAccessLevel(io.dstore.Values.integerValue value) {
+      public Builder setAccessLevel(io.dstore.values.IntegerValue value) {
         if (accessLevelBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1257,10 +1257,10 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 4;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
        */
       public Builder setAccessLevel(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (accessLevelBuilder_ == null) {
           accessLevel_ = builderForValue.build();
           onChanged();
@@ -1271,13 +1271,13 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 4;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
        */
-      public Builder mergeAccessLevel(io.dstore.Values.integerValue value) {
+      public Builder mergeAccessLevel(io.dstore.values.IntegerValue value) {
         if (accessLevelBuilder_ == null) {
           if (accessLevel_ != null) {
             accessLevel_ =
-              io.dstore.Values.integerValue.newBuilder(accessLevel_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(accessLevel_).mergeFrom(value).buildPartial();
           } else {
             accessLevel_ = value;
           }
@@ -1289,7 +1289,7 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 4;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
        */
       public Builder clearAccessLevel() {
         if (accessLevelBuilder_ == null) {
@@ -1303,33 +1303,33 @@ public final class FoModifyForumAccessAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 4;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getAccessLevelBuilder() {
+      public io.dstore.values.IntegerValue.Builder getAccessLevelBuilder() {
         
         onChanged();
         return getAccessLevelFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 4;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getAccessLevelOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getAccessLevelOrBuilder() {
         if (accessLevelBuilder_ != null) {
           return accessLevelBuilder_.getMessageOrBuilder();
         } else {
           return accessLevel_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : accessLevel_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : accessLevel_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue access_level = 4;</code>
+       * <code>optional .dstore.values.IntegerValue access_level = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getAccessLevelFieldBuilder() {
         if (accessLevelBuilder_ == null) {
           accessLevelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getAccessLevel(),
                   getParentForChildren(),
                   isClean());
@@ -3450,13 +3450,13 @@ public final class FoModifyForumAccessAd {
       "mAccess_Ad.proto\022%dstore.engine.fo_Modif" +
       "yForumAccess_Ad\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\312\002\n\nParameters\022" +
-      "-\n\010forum_id\030\001 \001(\0132\033.dstore.values.intege" +
+      "-\n\010forum_id\030\001 \001(\0132\033.dstore.values.Intege" +
       "rValue\022\026\n\rforum_id_null\030\351\007 \001(\010\0227\n\022person" +
-      "_or_group_id\030\002 \001(\0132\033.dstore.values.integ" +
+      "_or_group_id\030\002 \001(\0132\033.dstore.values.Integ" +
       "erValue\022 \n\027person_or_group_id_null\030\352\007 \001(" +
-      "\010\0220\n\013is_group_id\030\003 \001(\0132\033.dstore.values.b" +
+      "\010\0220\n\013is_group_id\030\003 \001(\0132\033.dstore.values.B" +
       "ooleanValue\022\031\n\020is_group_id_null\030\353\007 \001(\010\0221",
-      "\n\014access_level\030\004 \001(\0132\033.dstore.values.int" +
+      "\n\014access_level\030\004 \001(\0132\033.dstore.values.Int" +
       "egerValue\022\032\n\021access_level_null\030\354\007 \001(\010\"\307\001" +
       "\n\010Response\0228\n\020meta_information\030\002 \003(\0132\036.d" +
       "store.engine.MetaInformation\022\'\n\007message\030" +
@@ -3478,7 +3478,7 @@ public final class FoModifyForumAccessAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_fo_ModifyForumAccess_Ad_Parameters_descriptor =
@@ -3499,7 +3499,7 @@ public final class FoModifyForumAccessAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_ModifyForumAccess_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class ImGetNodeMetaInformationAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
     boolean hasNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    io.dstore.Values.integerValue getNodeId();
+    io.dstore.values.IntegerValue getNodeId();
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
     /**
      * <code>optional bool node_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class ImGetNodeMetaInformationAd {
     boolean getNodeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
      */
     boolean hasMetaInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
      */
-    io.dstore.Values.stringValue getMetaInformationTypeIdList();
+    io.dstore.values.StringValue getMetaInformationTypeIdList();
     /**
-     * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getMetaInformationTypeIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getMetaInformationTypeIdListOrBuilder();
 
     /**
      * <code>optional bool meta_information_type_id_list_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class ImGetNodeMetaInformationAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (nodeId_ != null) {
                 subBuilder = nodeId_.toBuilder();
               }
-              nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeId_);
                 nodeId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class ImGetNodeMetaInformationAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (metaInformationTypeIdList_ != null) {
                 subBuilder = metaInformationTypeIdList_.toBuilder();
               }
-              metaInformationTypeIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              metaInformationTypeIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(metaInformationTypeIdList_);
                 metaInformationTypeIdList_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class ImGetNodeMetaInformationAd {
     }
 
     public static final int NODE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue nodeId_;
+    private io.dstore.values.IntegerValue nodeId_;
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
     public boolean hasNodeId() {
       return nodeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getNodeId() {
-      return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+    public io.dstore.values.IntegerValue getNodeId() {
+      return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue node_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
       return getNodeId();
     }
 
@@ -185,23 +185,23 @@ public final class ImGetNodeMetaInformationAd {
     }
 
     public static final int META_INFORMATION_TYPE_ID_LIST_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue metaInformationTypeIdList_;
+    private io.dstore.values.StringValue metaInformationTypeIdList_;
     /**
-     * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
      */
     public boolean hasMetaInformationTypeIdList() {
       return metaInformationTypeIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
      */
-    public io.dstore.Values.stringValue getMetaInformationTypeIdList() {
-      return metaInformationTypeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInformationTypeIdList_;
+    public io.dstore.values.StringValue getMetaInformationTypeIdList() {
+      return metaInformationTypeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInformationTypeIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getMetaInformationTypeIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getMetaInformationTypeIdListOrBuilder() {
       return getMetaInformationTypeIdList();
     }
 
@@ -562,29 +562,29 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue nodeId_ = null;
+      private io.dstore.values.IntegerValue nodeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public boolean hasNodeId() {
         return nodeIdBuilder_ != null || nodeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
+      public io.dstore.values.IntegerValue getNodeId() {
         if (nodeIdBuilder_ == null) {
-          return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+          return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         } else {
           return nodeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public Builder setNodeId(io.dstore.Values.integerValue value) {
+      public Builder setNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder setNodeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (nodeIdBuilder_ == null) {
           nodeId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+      public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
         if (nodeIdBuilder_ == null) {
           if (nodeId_ != null) {
             nodeId_ =
-              io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
           } else {
             nodeId_ = value;
           }
@@ -630,7 +630,7 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       public Builder clearNodeId() {
         if (nodeIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
         
         onChanged();
         return getNodeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         if (nodeIdBuilder_ != null) {
           return nodeIdBuilder_.getMessageOrBuilder();
         } else {
           return nodeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue node_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getNodeIdFieldBuilder() {
         if (nodeIdBuilder_ == null) {
           nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getNodeId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue metaInformationTypeIdList_ = null;
+      private io.dstore.values.StringValue metaInformationTypeIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> metaInformationTypeIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> metaInformationTypeIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
        */
       public boolean hasMetaInformationTypeIdList() {
         return metaInformationTypeIdListBuilder_ != null || metaInformationTypeIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValue getMetaInformationTypeIdList() {
+      public io.dstore.values.StringValue getMetaInformationTypeIdList() {
         if (metaInformationTypeIdListBuilder_ == null) {
-          return metaInformationTypeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInformationTypeIdList_;
+          return metaInformationTypeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInformationTypeIdList_;
         } else {
           return metaInformationTypeIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
        */
-      public Builder setMetaInformationTypeIdList(io.dstore.Values.stringValue value) {
+      public Builder setMetaInformationTypeIdList(io.dstore.values.StringValue value) {
         if (metaInformationTypeIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
        */
       public Builder setMetaInformationTypeIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (metaInformationTypeIdListBuilder_ == null) {
           metaInformationTypeIdList_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
        */
-      public Builder mergeMetaInformationTypeIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeMetaInformationTypeIdList(io.dstore.values.StringValue value) {
         if (metaInformationTypeIdListBuilder_ == null) {
           if (metaInformationTypeIdList_ != null) {
             metaInformationTypeIdList_ =
-              io.dstore.Values.stringValue.newBuilder(metaInformationTypeIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(metaInformationTypeIdList_).mergeFrom(value).buildPartial();
           } else {
             metaInformationTypeIdList_ = value;
           }
@@ -773,7 +773,7 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
        */
       public Builder clearMetaInformationTypeIdList() {
         if (metaInformationTypeIdListBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class ImGetNodeMetaInformationAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getMetaInformationTypeIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getMetaInformationTypeIdListBuilder() {
         
         onChanged();
         return getMetaInformationTypeIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getMetaInformationTypeIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getMetaInformationTypeIdListOrBuilder() {
         if (metaInformationTypeIdListBuilder_ != null) {
           return metaInformationTypeIdListBuilder_.getMessageOrBuilder();
         } else {
           return metaInformationTypeIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : metaInformationTypeIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : metaInformationTypeIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_information_type_id_list = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type_id_list = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getMetaInformationTypeIdListFieldBuilder() {
         if (metaInformationTypeIdListBuilder_ == null) {
           metaInformationTypeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getMetaInformationTypeIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class ImGetNodeMetaInformationAd {
        * ID der Informations-Art "MetaInformationType"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
        */
       boolean hasMetaInformationTypeId();
       /**
@@ -1115,24 +1115,24 @@ public final class ImGetNodeMetaInformationAd {
        * ID der Informations-Art "MetaInformationType"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getMetaInformationTypeId();
+      io.dstore.values.IntegerValue getMetaInformationTypeId();
       /**
        * <pre>
        * ID der Informations-Art "MetaInformationType"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getMetaInformationTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getMetaInformationTypeIdOrBuilder();
 
       /**
        * <pre>
        * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
        */
       boolean hasMetaInformationType();
       /**
@@ -1140,24 +1140,24 @@ public final class ImGetNodeMetaInformationAd {
        * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
        */
-      io.dstore.Values.stringValue getMetaInformationType();
+      io.dstore.values.StringValue getMetaInformationType();
       /**
        * <pre>
        * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getMetaInformationTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getMetaInformationTypeOrBuilder();
 
       /**
        * <pre>
        * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
       boolean hasNodeId();
       /**
@@ -1165,24 +1165,24 @@ public final class ImGetNodeMetaInformationAd {
        * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getNodeId();
+      io.dstore.values.IntegerValue getNodeId();
       /**
        * <pre>
        * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder();
 
       /**
        * <pre>
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
        */
       boolean hasMetaInformation();
       /**
@@ -1190,24 +1190,24 @@ public final class ImGetNodeMetaInformationAd {
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
        */
-      io.dstore.Values.decimalValue getMetaInformation();
+      io.dstore.values.DecimalValue getMetaInformation();
       /**
        * <pre>
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getMetaInformationOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getMetaInformationOrBuilder();
 
       /**
        * <pre>
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+       * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
        */
       boolean hasTranslatedMetaInformation();
       /**
@@ -1215,17 +1215,17 @@ public final class ImGetNodeMetaInformationAd {
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+       * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
        */
-      io.dstore.Values.stringValue getTranslatedMetaInformation();
+      io.dstore.values.StringValue getTranslatedMetaInformation();
       /**
        * <pre>
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+       * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getTranslatedMetaInformationOrBuilder();
+      io.dstore.values.StringValueOrBuilder getTranslatedMetaInformationOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetNodeMetaInformation_Ad.Response.Row}
@@ -1273,11 +1273,11 @@ public final class ImGetNodeMetaInformationAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (metaInformationTypeId_ != null) {
                   subBuilder = metaInformationTypeId_.toBuilder();
                 }
-                metaInformationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                metaInformationTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(metaInformationTypeId_);
                   metaInformationTypeId_ = subBuilder.buildPartial();
@@ -1286,11 +1286,11 @@ public final class ImGetNodeMetaInformationAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (metaInformationType_ != null) {
                   subBuilder = metaInformationType_.toBuilder();
                 }
-                metaInformationType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                metaInformationType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(metaInformationType_);
                   metaInformationType_ = subBuilder.buildPartial();
@@ -1299,11 +1299,11 @@ public final class ImGetNodeMetaInformationAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -1312,11 +1312,11 @@ public final class ImGetNodeMetaInformationAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (metaInformation_ != null) {
                   subBuilder = metaInformation_.toBuilder();
                 }
-                metaInformation_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                metaInformation_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(metaInformation_);
                   metaInformation_ = subBuilder.buildPartial();
@@ -1325,11 +1325,11 @@ public final class ImGetNodeMetaInformationAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (translatedMetaInformation_ != null) {
                   subBuilder = translatedMetaInformation_.toBuilder();
                 }
-                translatedMetaInformation_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                translatedMetaInformation_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(translatedMetaInformation_);
                   translatedMetaInformation_ = subBuilder.buildPartial();
@@ -1370,13 +1370,13 @@ public final class ImGetNodeMetaInformationAd {
       }
 
       public static final int META_INFORMATION_TYPE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue metaInformationTypeId_;
+      private io.dstore.values.IntegerValue metaInformationTypeId_;
       /**
        * <pre>
        * ID der Informations-Art "MetaInformationType"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
        */
       public boolean hasMetaInformationTypeId() {
         return metaInformationTypeId_ != null;
@@ -1386,30 +1386,30 @@ public final class ImGetNodeMetaInformationAd {
        * ID der Informations-Art "MetaInformationType"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getMetaInformationTypeId() {
-        return metaInformationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : metaInformationTypeId_;
+      public io.dstore.values.IntegerValue getMetaInformationTypeId() {
+        return metaInformationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : metaInformationTypeId_;
       }
       /**
        * <pre>
        * ID der Informations-Art "MetaInformationType"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getMetaInformationTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getMetaInformationTypeIdOrBuilder() {
         return getMetaInformationTypeId();
       }
 
       public static final int META_INFORMATION_TYPE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue metaInformationType_;
+      private io.dstore.values.StringValue metaInformationType_;
       /**
        * <pre>
        * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
        */
       public boolean hasMetaInformationType() {
         return metaInformationType_ != null;
@@ -1419,30 +1419,30 @@ public final class ImGetNodeMetaInformationAd {
        * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
        */
-      public io.dstore.Values.stringValue getMetaInformationType() {
-        return metaInformationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInformationType_;
+      public io.dstore.values.StringValue getMetaInformationType() {
+        return metaInformationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInformationType_;
       }
       /**
        * <pre>
        * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getMetaInformationTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getMetaInformationTypeOrBuilder() {
         return getMetaInformationType();
       }
 
       public static final int NODE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue nodeId_;
+      private io.dstore.values.IntegerValue nodeId_;
       /**
        * <pre>
        * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
       public boolean hasNodeId() {
         return nodeId_ != null;
@@ -1452,30 +1452,30 @@ public final class ImGetNodeMetaInformationAd {
        * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getNodeId() {
-        return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+      public io.dstore.values.IntegerValue getNodeId() {
+        return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
       }
       /**
        * <pre>
        * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
         return getNodeId();
       }
 
       public static final int META_INFORMATION_FIELD_NUMBER = 10004;
-      private io.dstore.Values.decimalValue metaInformation_;
+      private io.dstore.values.DecimalValue metaInformation_;
       /**
        * <pre>
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
        */
       public boolean hasMetaInformation() {
         return metaInformation_ != null;
@@ -1485,30 +1485,30 @@ public final class ImGetNodeMetaInformationAd {
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
        */
-      public io.dstore.Values.decimalValue getMetaInformation() {
-        return metaInformation_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : metaInformation_;
+      public io.dstore.values.DecimalValue getMetaInformation() {
+        return metaInformation_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : metaInformation_;
       }
       /**
        * <pre>
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+       * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getMetaInformationOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getMetaInformationOrBuilder() {
         return getMetaInformation();
       }
 
       public static final int TRANSLATED_META_INFORMATION_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue translatedMetaInformation_;
+      private io.dstore.values.StringValue translatedMetaInformation_;
       /**
        * <pre>
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+       * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
        */
       public boolean hasTranslatedMetaInformation() {
         return translatedMetaInformation_ != null;
@@ -1518,19 +1518,19 @@ public final class ImGetNodeMetaInformationAd {
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+       * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
        */
-      public io.dstore.Values.stringValue getTranslatedMetaInformation() {
-        return translatedMetaInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : translatedMetaInformation_;
+      public io.dstore.values.StringValue getTranslatedMetaInformation() {
+        return translatedMetaInformation_ == null ? io.dstore.values.StringValue.getDefaultInstance() : translatedMetaInformation_;
       }
       /**
        * <pre>
        * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+       * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTranslatedMetaInformationOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTranslatedMetaInformationOrBuilder() {
         return getTranslatedMetaInformation();
       }
 
@@ -1979,15 +1979,15 @@ public final class ImGetNodeMetaInformationAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue metaInformationTypeId_ = null;
+        private io.dstore.values.IntegerValue metaInformationTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> metaInformationTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> metaInformationTypeIdBuilder_;
         /**
          * <pre>
          * ID der Informations-Art "MetaInformationType"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
          */
         public boolean hasMetaInformationTypeId() {
           return metaInformationTypeIdBuilder_ != null || metaInformationTypeId_ != null;
@@ -1997,11 +1997,11 @@ public final class ImGetNodeMetaInformationAd {
          * ID der Informations-Art "MetaInformationType"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getMetaInformationTypeId() {
+        public io.dstore.values.IntegerValue getMetaInformationTypeId() {
           if (metaInformationTypeIdBuilder_ == null) {
-            return metaInformationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : metaInformationTypeId_;
+            return metaInformationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : metaInformationTypeId_;
           } else {
             return metaInformationTypeIdBuilder_.getMessage();
           }
@@ -2011,9 +2011,9 @@ public final class ImGetNodeMetaInformationAd {
          * ID der Informations-Art "MetaInformationType"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
          */
-        public Builder setMetaInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder setMetaInformationTypeId(io.dstore.values.IntegerValue value) {
           if (metaInformationTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class ImGetNodeMetaInformationAd {
          * ID der Informations-Art "MetaInformationType"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
          */
         public Builder setMetaInformationTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (metaInformationTypeIdBuilder_ == null) {
             metaInformationTypeId_ = builderForValue.build();
             onChanged();
@@ -2049,13 +2049,13 @@ public final class ImGetNodeMetaInformationAd {
          * ID der Informations-Art "MetaInformationType"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
          */
-        public Builder mergeMetaInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeMetaInformationTypeId(io.dstore.values.IntegerValue value) {
           if (metaInformationTypeIdBuilder_ == null) {
             if (metaInformationTypeId_ != null) {
               metaInformationTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(metaInformationTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(metaInformationTypeId_).mergeFrom(value).buildPartial();
             } else {
               metaInformationTypeId_ = value;
             }
@@ -2071,7 +2071,7 @@ public final class ImGetNodeMetaInformationAd {
          * ID der Informations-Art "MetaInformationType"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
          */
         public Builder clearMetaInformationTypeId() {
           if (metaInformationTypeIdBuilder_ == null) {
@@ -2089,9 +2089,9 @@ public final class ImGetNodeMetaInformationAd {
          * ID der Informations-Art "MetaInformationType"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getMetaInformationTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getMetaInformationTypeIdBuilder() {
           
           onChanged();
           return getMetaInformationTypeIdFieldBuilder().getBuilder();
@@ -2101,14 +2101,14 @@ public final class ImGetNodeMetaInformationAd {
          * ID der Informations-Art "MetaInformationType"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getMetaInformationTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getMetaInformationTypeIdOrBuilder() {
           if (metaInformationTypeIdBuilder_ != null) {
             return metaInformationTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return metaInformationTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : metaInformationTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : metaInformationTypeId_;
           }
         }
         /**
@@ -2116,14 +2116,14 @@ public final class ImGetNodeMetaInformationAd {
          * ID der Informations-Art "MetaInformationType"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue meta_information_type_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue meta_information_type_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getMetaInformationTypeIdFieldBuilder() {
           if (metaInformationTypeIdBuilder_ == null) {
             metaInformationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getMetaInformationTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2132,15 +2132,15 @@ public final class ImGetNodeMetaInformationAd {
           return metaInformationTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue metaInformationType_ = null;
+        private io.dstore.values.StringValue metaInformationType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> metaInformationTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> metaInformationTypeBuilder_;
         /**
          * <pre>
          * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
          */
         public boolean hasMetaInformationType() {
           return metaInformationTypeBuilder_ != null || metaInformationType_ != null;
@@ -2150,11 +2150,11 @@ public final class ImGetNodeMetaInformationAd {
          * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
          */
-        public io.dstore.Values.stringValue getMetaInformationType() {
+        public io.dstore.values.StringValue getMetaInformationType() {
           if (metaInformationTypeBuilder_ == null) {
-            return metaInformationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInformationType_;
+            return metaInformationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInformationType_;
           } else {
             return metaInformationTypeBuilder_.getMessage();
           }
@@ -2164,9 +2164,9 @@ public final class ImGetNodeMetaInformationAd {
          * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
          */
-        public Builder setMetaInformationType(io.dstore.Values.stringValue value) {
+        public Builder setMetaInformationType(io.dstore.values.StringValue value) {
           if (metaInformationTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2184,10 +2184,10 @@ public final class ImGetNodeMetaInformationAd {
          * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
          */
         public Builder setMetaInformationType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (metaInformationTypeBuilder_ == null) {
             metaInformationType_ = builderForValue.build();
             onChanged();
@@ -2202,13 +2202,13 @@ public final class ImGetNodeMetaInformationAd {
          * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
          */
-        public Builder mergeMetaInformationType(io.dstore.Values.stringValue value) {
+        public Builder mergeMetaInformationType(io.dstore.values.StringValue value) {
           if (metaInformationTypeBuilder_ == null) {
             if (metaInformationType_ != null) {
               metaInformationType_ =
-                io.dstore.Values.stringValue.newBuilder(metaInformationType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(metaInformationType_).mergeFrom(value).buildPartial();
             } else {
               metaInformationType_ = value;
             }
@@ -2224,7 +2224,7 @@ public final class ImGetNodeMetaInformationAd {
          * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
          */
         public Builder clearMetaInformationType() {
           if (metaInformationTypeBuilder_ == null) {
@@ -2242,9 +2242,9 @@ public final class ImGetNodeMetaInformationAd {
          * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getMetaInformationTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getMetaInformationTypeBuilder() {
           
           onChanged();
           return getMetaInformationTypeFieldBuilder().getBuilder();
@@ -2254,14 +2254,14 @@ public final class ImGetNodeMetaInformationAd {
          * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getMetaInformationTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getMetaInformationTypeOrBuilder() {
           if (metaInformationTypeBuilder_ != null) {
             return metaInformationTypeBuilder_.getMessageOrBuilder();
           } else {
             return metaInformationType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : metaInformationType_;
+                io.dstore.values.StringValue.getDefaultInstance() : metaInformationType_;
           }
         }
         /**
@@ -2269,14 +2269,14 @@ public final class ImGetNodeMetaInformationAd {
          * Art der "Meta-Information" (z.B. "LastPropertyEdited", also wann die letzte Änderung an Eigenschaften stattfand)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_information_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_information_type = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getMetaInformationTypeFieldBuilder() {
           if (metaInformationTypeBuilder_ == null) {
             metaInformationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getMetaInformationType(),
                     getParentForChildren(),
                     isClean());
@@ -2285,15 +2285,15 @@ public final class ImGetNodeMetaInformationAd {
           return metaInformationTypeBuilder_;
         }
 
-        private io.dstore.Values.integerValue nodeId_ = null;
+        private io.dstore.values.IntegerValue nodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> nodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> nodeIdBuilder_;
         /**
          * <pre>
          * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
         public boolean hasNodeId() {
           return nodeIdBuilder_ != null || nodeId_ != null;
@@ -2303,11 +2303,11 @@ public final class ImGetNodeMetaInformationAd {
          * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getNodeId() {
+        public io.dstore.values.IntegerValue getNodeId() {
           if (nodeIdBuilder_ == null) {
-            return nodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+            return nodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           } else {
             return nodeIdBuilder_.getMessage();
           }
@@ -2317,9 +2317,9 @@ public final class ImGetNodeMetaInformationAd {
          * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public Builder setNodeId(io.dstore.Values.integerValue value) {
+        public Builder setNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2337,10 +2337,10 @@ public final class ImGetNodeMetaInformationAd {
          * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
         public Builder setNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (nodeIdBuilder_ == null) {
             nodeId_ = builderForValue.build();
             onChanged();
@@ -2355,13 +2355,13 @@ public final class ImGetNodeMetaInformationAd {
          * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public Builder mergeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeNodeId(io.dstore.values.IntegerValue value) {
           if (nodeIdBuilder_ == null) {
             if (nodeId_ != null) {
               nodeId_ =
-                io.dstore.Values.integerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(nodeId_).mergeFrom(value).buildPartial();
             } else {
               nodeId_ = value;
             }
@@ -2377,7 +2377,7 @@ public final class ImGetNodeMetaInformationAd {
          * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
         public Builder clearNodeId() {
           if (nodeIdBuilder_ == null) {
@@ -2395,9 +2395,9 @@ public final class ImGetNodeMetaInformationAd {
          * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getNodeIdBuilder() {
           
           onChanged();
           return getNodeIdFieldBuilder().getBuilder();
@@ -2407,14 +2407,14 @@ public final class ImGetNodeMetaInformationAd {
          * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getNodeIdOrBuilder() {
           if (nodeIdBuilder_ != null) {
             return nodeIdBuilder_.getMessageOrBuilder();
           } else {
             return nodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : nodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : nodeId_;
           }
         }
         /**
@@ -2422,14 +2422,14 @@ public final class ImGetNodeMetaInformationAd {
          * ID eines Artikel-Elementes, das in "&#64;NodeID" bzw. "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue node_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue node_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getNodeIdFieldBuilder() {
           if (nodeIdBuilder_ == null) {
             nodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -2438,15 +2438,15 @@ public final class ImGetNodeMetaInformationAd {
           return nodeIdBuilder_;
         }
 
-        private io.dstore.Values.decimalValue metaInformation_ = null;
+        private io.dstore.values.DecimalValue metaInformation_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> metaInformationBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> metaInformationBuilder_;
         /**
          * <pre>
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
          */
         public boolean hasMetaInformation() {
           return metaInformationBuilder_ != null || metaInformation_ != null;
@@ -2456,11 +2456,11 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
          */
-        public io.dstore.Values.decimalValue getMetaInformation() {
+        public io.dstore.values.DecimalValue getMetaInformation() {
           if (metaInformationBuilder_ == null) {
-            return metaInformation_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : metaInformation_;
+            return metaInformation_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : metaInformation_;
           } else {
             return metaInformationBuilder_.getMessage();
           }
@@ -2470,9 +2470,9 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
          */
-        public Builder setMetaInformation(io.dstore.Values.decimalValue value) {
+        public Builder setMetaInformation(io.dstore.values.DecimalValue value) {
           if (metaInformationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2490,10 +2490,10 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
          */
         public Builder setMetaInformation(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (metaInformationBuilder_ == null) {
             metaInformation_ = builderForValue.build();
             onChanged();
@@ -2508,13 +2508,13 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
          */
-        public Builder mergeMetaInformation(io.dstore.Values.decimalValue value) {
+        public Builder mergeMetaInformation(io.dstore.values.DecimalValue value) {
           if (metaInformationBuilder_ == null) {
             if (metaInformation_ != null) {
               metaInformation_ =
-                io.dstore.Values.decimalValue.newBuilder(metaInformation_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(metaInformation_).mergeFrom(value).buildPartial();
             } else {
               metaInformation_ = value;
             }
@@ -2530,7 +2530,7 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
          */
         public Builder clearMetaInformation() {
           if (metaInformationBuilder_ == null) {
@@ -2548,9 +2548,9 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getMetaInformationBuilder() {
+        public io.dstore.values.DecimalValue.Builder getMetaInformationBuilder() {
           
           onChanged();
           return getMetaInformationFieldBuilder().getBuilder();
@@ -2560,14 +2560,14 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getMetaInformationOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getMetaInformationOrBuilder() {
           if (metaInformationBuilder_ != null) {
             return metaInformationBuilder_.getMessageOrBuilder();
           } else {
             return metaInformation_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : metaInformation_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : metaInformation_;
           }
         }
         /**
@@ -2575,14 +2575,14 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" wie sie intern gespeichert ist (als Zahl nämlich)
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue meta_information = 10004;</code>
+         * <code>optional .dstore.values.DecimalValue meta_information = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getMetaInformationFieldBuilder() {
           if (metaInformationBuilder_ == null) {
             metaInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getMetaInformation(),
                     getParentForChildren(),
                     isClean());
@@ -2591,15 +2591,15 @@ public final class ImGetNodeMetaInformationAd {
           return metaInformationBuilder_;
         }
 
-        private io.dstore.Values.stringValue translatedMetaInformation_ = null;
+        private io.dstore.values.StringValue translatedMetaInformation_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> translatedMetaInformationBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> translatedMetaInformationBuilder_;
         /**
          * <pre>
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+         * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
          */
         public boolean hasTranslatedMetaInformation() {
           return translatedMetaInformationBuilder_ != null || translatedMetaInformation_ != null;
@@ -2609,11 +2609,11 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+         * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
          */
-        public io.dstore.Values.stringValue getTranslatedMetaInformation() {
+        public io.dstore.values.StringValue getTranslatedMetaInformation() {
           if (translatedMetaInformationBuilder_ == null) {
-            return translatedMetaInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : translatedMetaInformation_;
+            return translatedMetaInformation_ == null ? io.dstore.values.StringValue.getDefaultInstance() : translatedMetaInformation_;
           } else {
             return translatedMetaInformationBuilder_.getMessage();
           }
@@ -2623,9 +2623,9 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+         * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
          */
-        public Builder setTranslatedMetaInformation(io.dstore.Values.stringValue value) {
+        public Builder setTranslatedMetaInformation(io.dstore.values.StringValue value) {
           if (translatedMetaInformationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2643,10 +2643,10 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+         * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
          */
         public Builder setTranslatedMetaInformation(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (translatedMetaInformationBuilder_ == null) {
             translatedMetaInformation_ = builderForValue.build();
             onChanged();
@@ -2661,13 +2661,13 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+         * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
          */
-        public Builder mergeTranslatedMetaInformation(io.dstore.Values.stringValue value) {
+        public Builder mergeTranslatedMetaInformation(io.dstore.values.StringValue value) {
           if (translatedMetaInformationBuilder_ == null) {
             if (translatedMetaInformation_ != null) {
               translatedMetaInformation_ =
-                io.dstore.Values.stringValue.newBuilder(translatedMetaInformation_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(translatedMetaInformation_).mergeFrom(value).buildPartial();
             } else {
               translatedMetaInformation_ = value;
             }
@@ -2683,7 +2683,7 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+         * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
          */
         public Builder clearTranslatedMetaInformation() {
           if (translatedMetaInformationBuilder_ == null) {
@@ -2701,9 +2701,9 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+         * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getTranslatedMetaInformationBuilder() {
+        public io.dstore.values.StringValue.Builder getTranslatedMetaInformationBuilder() {
           
           onChanged();
           return getTranslatedMetaInformationFieldBuilder().getBuilder();
@@ -2713,14 +2713,14 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+         * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getTranslatedMetaInformationOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getTranslatedMetaInformationOrBuilder() {
           if (translatedMetaInformationBuilder_ != null) {
             return translatedMetaInformationBuilder_.getMessageOrBuilder();
           } else {
             return translatedMetaInformation_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : translatedMetaInformation_;
+                io.dstore.values.StringValue.getDefaultInstance() : translatedMetaInformation_;
           }
         }
         /**
@@ -2728,14 +2728,14 @@ public final class ImGetNodeMetaInformationAd {
          * Die gespeicherte Information (zu "NodeID") zur Art "MetaInformationType" im "Klartext". Je nach Art der Information steht hier ein Datum im Format "Apr 15 2001 17:55:23:283PM" oder ein "UserName" (aus "UserInfo")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue translated_meta_information = 10005;</code>
+         * <code>optional .dstore.values.StringValue translated_meta_information = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getTranslatedMetaInformationFieldBuilder() {
           if (translatedMetaInformationBuilder_ == null) {
             translatedMetaInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getTranslatedMetaInformation(),
                     getParentForChildren(),
                     isClean());
@@ -4205,9 +4205,9 @@ public final class ImGetNodeMetaInformationAd {
       "GetNodeMetaInformation_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\301\001\n\nP" +
       "arameters\022,\n\007node_id\030\001 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\025\n\014node_id_null\030\351\007 \001(\010\022A" +
+      "es.IntegerValue\022\025\n\014node_id_null\030\351\007 \001(\010\022A" +
       "\n\035meta_information_type_id_list\030\002 \001(\0132\032." +
-      "dstore.values.stringValue\022+\n\"meta_inform" +
+      "dstore.values.StringValue\022+\n\"meta_inform" +
       "ation_type_id_list_null\030\352\007 \001(\010\"\362\003\n\010Respo" +
       "nse\0228\n\020meta_information\030\002 \003(\0132\036.dstore.e",
       "ngine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026" +
@@ -4215,13 +4215,13 @@ public final class ImGetNodeMetaInformationAd {
       "tore.engine.im_GetNodeMetaInformation_Ad" +
       ".Response.Row\032\273\002\n\003Row\022\017\n\006row_id\030\220N \001(\005\022>" +
       "\n\030meta_information_type_id\030\221N \001(\0132\033.dsto" +
-      "re.values.integerValue\022:\n\025meta_informati" +
-      "on_type\030\222N \001(\0132\032.dstore.values.stringVal" +
-      "ue\022-\n\007node_id\030\223N \001(\0132\033.dstore.values.int" +
+      "re.values.IntegerValue\022:\n\025meta_informati" +
+      "on_type\030\222N \001(\0132\032.dstore.values.StringVal" +
+      "ue\022-\n\007node_id\030\223N \001(\0132\033.dstore.values.Int" +
       "egerValue\0226\n\020meta_information\030\224N \001(\0132\033.d" +
-      "store.values.decimalValue\022@\n\033translated_",
+      "store.values.DecimalValue\022@\n\033translated_",
       "meta_information\030\225N \001(\0132\032.dstore.values." +
-      "stringValueB]\n\033io.dstore.engine.procedur" +
+      "StringValueB]\n\033io.dstore.engine.procedur" +
       "esZ>gosdk.dstore.de/engine/procedures/im" +
       "_GetNodeMetaInformation_Adb\006proto3"
     };
@@ -4236,7 +4236,7 @@ public final class ImGetNodeMetaInformationAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_im_GetNodeMetaInformation_Ad_Parameters_descriptor =
@@ -4257,7 +4257,7 @@ public final class ImGetNodeMetaInformationAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_im_GetNodeMetaInformation_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "MetaInformationTypeId", "MetaInformationType", "NodeId", "MetaInformation", "TranslatedMetaInformation", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

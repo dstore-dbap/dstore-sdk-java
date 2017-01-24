@@ -19,17 +19,17 @@ public final class MiGetSQLFunctMetaPropsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     boolean hasSQLFunctionName();
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    io.dstore.Values.stringValue getSQLFunctionName();
+    io.dstore.values.StringValue getSQLFunctionName();
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSQLFunctionNameOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder();
 
     /**
      * <code>optional bool s_q_l_function_name_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetSQLFunctMetaPropsAd {
     boolean getSQLFunctionNameNull();
 
     /**
-     * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
      */
     boolean hasMetaInfoType();
     /**
-     * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
      */
-    io.dstore.Values.stringValue getMetaInfoType();
+    io.dstore.values.StringValue getMetaInfoType();
     /**
-     * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getMetaInfoTypeOrBuilder();
+    io.dstore.values.StringValueOrBuilder getMetaInfoTypeOrBuilder();
 
     /**
      * <code>optional bool meta_info_type_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class MiGetSQLFunctMetaPropsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (sQLFunctionName_ != null) {
                 subBuilder = sQLFunctionName_.toBuilder();
               }
-              sQLFunctionName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              sQLFunctionName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sQLFunctionName_);
                 sQLFunctionName_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class MiGetSQLFunctMetaPropsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (metaInfoType_ != null) {
                 subBuilder = metaInfoType_.toBuilder();
               }
-              metaInfoType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              metaInfoType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(metaInfoType_);
                 metaInfoType_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class MiGetSQLFunctMetaPropsAd {
     }
 
     public static final int S_Q_L_FUNCTION_NAME_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue sQLFunctionName_;
+    private io.dstore.values.StringValue sQLFunctionName_;
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
     public boolean hasSQLFunctionName() {
       return sQLFunctionName_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    public io.dstore.Values.stringValue getSQLFunctionName() {
-      return sQLFunctionName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sQLFunctionName_;
+    public io.dstore.values.StringValue getSQLFunctionName() {
+      return sQLFunctionName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
     }
     /**
-     * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+     * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSQLFunctionNameOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder() {
       return getSQLFunctionName();
     }
 
@@ -185,23 +185,23 @@ public final class MiGetSQLFunctMetaPropsAd {
     }
 
     public static final int META_INFO_TYPE_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue metaInfoType_;
+    private io.dstore.values.StringValue metaInfoType_;
     /**
-     * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
      */
     public boolean hasMetaInfoType() {
       return metaInfoType_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
      */
-    public io.dstore.Values.stringValue getMetaInfoType() {
-      return metaInfoType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInfoType_;
+    public io.dstore.values.StringValue getMetaInfoType() {
+      return metaInfoType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInfoType_;
     }
     /**
-     * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+     * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getMetaInfoTypeOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getMetaInfoTypeOrBuilder() {
       return getMetaInfoType();
     }
 
@@ -562,29 +562,29 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue sQLFunctionName_ = null;
+      private io.dstore.values.StringValue sQLFunctionName_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> sQLFunctionNameBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> sQLFunctionNameBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public boolean hasSQLFunctionName() {
         return sQLFunctionNameBuilder_ != null || sQLFunctionName_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public io.dstore.Values.stringValue getSQLFunctionName() {
+      public io.dstore.values.StringValue getSQLFunctionName() {
         if (sQLFunctionNameBuilder_ == null) {
-          return sQLFunctionName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : sQLFunctionName_;
+          return sQLFunctionName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
         } else {
           return sQLFunctionNameBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public Builder setSQLFunctionName(io.dstore.Values.stringValue value) {
+      public Builder setSQLFunctionName(io.dstore.values.StringValue value) {
         if (sQLFunctionNameBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder setSQLFunctionName(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (sQLFunctionNameBuilder_ == null) {
           sQLFunctionName_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public Builder mergeSQLFunctionName(io.dstore.Values.stringValue value) {
+      public Builder mergeSQLFunctionName(io.dstore.values.StringValue value) {
         if (sQLFunctionNameBuilder_ == null) {
           if (sQLFunctionName_ != null) {
             sQLFunctionName_ =
-              io.dstore.Values.stringValue.newBuilder(sQLFunctionName_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(sQLFunctionName_).mergeFrom(value).buildPartial();
           } else {
             sQLFunctionName_ = value;
           }
@@ -630,7 +630,7 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       public Builder clearSQLFunctionName() {
         if (sQLFunctionNameBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSQLFunctionNameBuilder() {
+      public io.dstore.values.StringValue.Builder getSQLFunctionNameBuilder() {
         
         onChanged();
         return getSQLFunctionNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSQLFunctionNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSQLFunctionNameOrBuilder() {
         if (sQLFunctionNameBuilder_ != null) {
           return sQLFunctionNameBuilder_.getMessageOrBuilder();
         } else {
           return sQLFunctionName_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : sQLFunctionName_;
+              io.dstore.values.StringValue.getDefaultInstance() : sQLFunctionName_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue s_q_l_function_name = 1;</code>
+       * <code>optional .dstore.values.StringValue s_q_l_function_name = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSQLFunctionNameFieldBuilder() {
         if (sQLFunctionNameBuilder_ == null) {
           sQLFunctionNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSQLFunctionName(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue metaInfoType_ = null;
+      private io.dstore.values.StringValue metaInfoType_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> metaInfoTypeBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> metaInfoTypeBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
        */
       public boolean hasMetaInfoType() {
         return metaInfoTypeBuilder_ != null || metaInfoType_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
        */
-      public io.dstore.Values.stringValue getMetaInfoType() {
+      public io.dstore.values.StringValue getMetaInfoType() {
         if (metaInfoTypeBuilder_ == null) {
-          return metaInfoType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInfoType_;
+          return metaInfoType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInfoType_;
         } else {
           return metaInfoTypeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
        */
-      public Builder setMetaInfoType(io.dstore.Values.stringValue value) {
+      public Builder setMetaInfoType(io.dstore.values.StringValue value) {
         if (metaInfoTypeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
        */
       public Builder setMetaInfoType(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (metaInfoTypeBuilder_ == null) {
           metaInfoType_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
        */
-      public Builder mergeMetaInfoType(io.dstore.Values.stringValue value) {
+      public Builder mergeMetaInfoType(io.dstore.values.StringValue value) {
         if (metaInfoTypeBuilder_ == null) {
           if (metaInfoType_ != null) {
             metaInfoType_ =
-              io.dstore.Values.stringValue.newBuilder(metaInfoType_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(metaInfoType_).mergeFrom(value).buildPartial();
           } else {
             metaInfoType_ = value;
           }
@@ -773,7 +773,7 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
        */
       public Builder clearMetaInfoType() {
         if (metaInfoTypeBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class MiGetSQLFunctMetaPropsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getMetaInfoTypeBuilder() {
+      public io.dstore.values.StringValue.Builder getMetaInfoTypeBuilder() {
         
         onChanged();
         return getMetaInfoTypeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getMetaInfoTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getMetaInfoTypeOrBuilder() {
         if (metaInfoTypeBuilder_ != null) {
           return metaInfoTypeBuilder_.getMessageOrBuilder();
         } else {
           return metaInfoType_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : metaInfoType_;
+              io.dstore.values.StringValue.getDefaultInstance() : metaInfoType_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue meta_info_type = 2;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getMetaInfoTypeFieldBuilder() {
         if (metaInfoTypeBuilder_ == null) {
           metaInfoTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getMetaInfoType(),
                   getParentForChildren(),
                   isClean());
@@ -1107,7 +1107,7 @@ public final class MiGetSQLFunctMetaPropsAd {
        * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
       boolean hasCodeLineNumber();
       /**
@@ -1115,24 +1115,24 @@ public final class MiGetSQLFunctMetaPropsAd {
        * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
-      io.dstore.Values.integerValue getCodeLineNumber();
+      io.dstore.values.IntegerValue getCodeLineNumber();
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder();
 
       /**
        * <pre>
        * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
        */
       boolean hasMetaInfoType();
       /**
@@ -1140,24 +1140,24 @@ public final class MiGetSQLFunctMetaPropsAd {
        * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
        */
-      io.dstore.Values.stringValue getMetaInfoType();
+      io.dstore.values.StringValue getMetaInfoType();
       /**
        * <pre>
        * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getMetaInfoTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getMetaInfoTypeOrBuilder();
 
       /**
        * <pre>
        * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.StringValue information = 10003;</code>
        */
       boolean hasInformation();
       /**
@@ -1165,17 +1165,17 @@ public final class MiGetSQLFunctMetaPropsAd {
        * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.StringValue information = 10003;</code>
        */
-      io.dstore.Values.stringValue getInformation();
+      io.dstore.values.StringValue getInformation();
       /**
        * <pre>
        * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.StringValue information = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getInformationOrBuilder();
+      io.dstore.values.StringValueOrBuilder getInformationOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetSQLFunctMetaProps_Ad.Response.Row}
@@ -1223,11 +1223,11 @@ public final class MiGetSQLFunctMetaPropsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (codeLineNumber_ != null) {
                   subBuilder = codeLineNumber_.toBuilder();
                 }
-                codeLineNumber_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                codeLineNumber_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLineNumber_);
                   codeLineNumber_ = subBuilder.buildPartial();
@@ -1236,11 +1236,11 @@ public final class MiGetSQLFunctMetaPropsAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (metaInfoType_ != null) {
                   subBuilder = metaInfoType_.toBuilder();
                 }
-                metaInfoType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                metaInfoType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(metaInfoType_);
                   metaInfoType_ = subBuilder.buildPartial();
@@ -1249,11 +1249,11 @@ public final class MiGetSQLFunctMetaPropsAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (information_ != null) {
                   subBuilder = information_.toBuilder();
                 }
-                information_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                information_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(information_);
                   information_ = subBuilder.buildPartial();
@@ -1294,13 +1294,13 @@ public final class MiGetSQLFunctMetaPropsAd {
       }
 
       public static final int CODE_LINE_NUMBER_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue codeLineNumber_;
+      private io.dstore.values.IntegerValue codeLineNumber_;
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
       public boolean hasCodeLineNumber() {
         return codeLineNumber_ != null;
@@ -1310,30 +1310,30 @@ public final class MiGetSQLFunctMetaPropsAd {
        * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
-      public io.dstore.Values.integerValue getCodeLineNumber() {
-        return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+      public io.dstore.values.IntegerValue getCodeLineNumber() {
+        return codeLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
       }
       /**
        * <pre>
        * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder() {
         return getCodeLineNumber();
       }
 
       public static final int META_INFO_TYPE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue metaInfoType_;
+      private io.dstore.values.StringValue metaInfoType_;
       /**
        * <pre>
        * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
        */
       public boolean hasMetaInfoType() {
         return metaInfoType_ != null;
@@ -1343,30 +1343,30 @@ public final class MiGetSQLFunctMetaPropsAd {
        * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
        */
-      public io.dstore.Values.stringValue getMetaInfoType() {
-        return metaInfoType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInfoType_;
+      public io.dstore.values.StringValue getMetaInfoType() {
+        return metaInfoType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInfoType_;
       }
       /**
        * <pre>
        * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+       * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getMetaInfoTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getMetaInfoTypeOrBuilder() {
         return getMetaInfoType();
       }
 
       public static final int INFORMATION_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue information_;
+      private io.dstore.values.StringValue information_;
       /**
        * <pre>
        * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.StringValue information = 10003;</code>
        */
       public boolean hasInformation() {
         return information_ != null;
@@ -1376,19 +1376,19 @@ public final class MiGetSQLFunctMetaPropsAd {
        * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.StringValue information = 10003;</code>
        */
-      public io.dstore.Values.stringValue getInformation() {
-        return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+      public io.dstore.values.StringValue getInformation() {
+        return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
       }
       /**
        * <pre>
        * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information = 10003;</code>
+       * <code>optional .dstore.values.StringValue information = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
         return getInformation();
       }
 
@@ -1777,15 +1777,15 @@ public final class MiGetSQLFunctMetaPropsAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue codeLineNumber_ = null;
+        private io.dstore.values.IntegerValue codeLineNumber_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> codeLineNumberBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> codeLineNumberBuilder_;
         /**
          * <pre>
          * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
         public boolean hasCodeLineNumber() {
           return codeLineNumberBuilder_ != null || codeLineNumber_ != null;
@@ -1795,11 +1795,11 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public io.dstore.Values.integerValue getCodeLineNumber() {
+        public io.dstore.values.IntegerValue getCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
-            return codeLineNumber_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+            return codeLineNumber_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
           } else {
             return codeLineNumberBuilder_.getMessage();
           }
@@ -1809,9 +1809,9 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public Builder setCodeLineNumber(io.dstore.Values.integerValue value) {
+        public Builder setCodeLineNumber(io.dstore.values.IntegerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1829,10 +1829,10 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
         public Builder setCodeLineNumber(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumber_ = builderForValue.build();
             onChanged();
@@ -1847,13 +1847,13 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public Builder mergeCodeLineNumber(io.dstore.Values.integerValue value) {
+        public Builder mergeCodeLineNumber(io.dstore.values.IntegerValue value) {
           if (codeLineNumberBuilder_ == null) {
             if (codeLineNumber_ != null) {
               codeLineNumber_ =
-                io.dstore.Values.integerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(codeLineNumber_).mergeFrom(value).buildPartial();
             } else {
               codeLineNumber_ = value;
             }
@@ -1869,7 +1869,7 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
         public Builder clearCodeLineNumber() {
           if (codeLineNumberBuilder_ == null) {
@@ -1887,9 +1887,9 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCodeLineNumberBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCodeLineNumberBuilder() {
           
           onChanged();
           return getCodeLineNumberFieldBuilder().getBuilder();
@@ -1899,14 +1899,14 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCodeLineNumberOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCodeLineNumberOrBuilder() {
           if (codeLineNumberBuilder_ != null) {
             return codeLineNumberBuilder_.getMessageOrBuilder();
           } else {
             return codeLineNumber_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : codeLineNumber_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : codeLineNumber_;
           }
         }
         /**
@@ -1914,14 +1914,14 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Eindeutige Nummer der Zeile im Quellcode, in der die Meta-Eigenschaft "Information" gefunden wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue code_line_number = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue code_line_number = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCodeLineNumberFieldBuilder() {
           if (codeLineNumberBuilder_ == null) {
             codeLineNumberBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCodeLineNumber(),
                     getParentForChildren(),
                     isClean());
@@ -1930,15 +1930,15 @@ public final class MiGetSQLFunctMetaPropsAd {
           return codeLineNumberBuilder_;
         }
 
-        private io.dstore.Values.stringValue metaInfoType_ = null;
+        private io.dstore.values.StringValue metaInfoType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> metaInfoTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> metaInfoTypeBuilder_;
         /**
          * <pre>
          * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
          */
         public boolean hasMetaInfoType() {
           return metaInfoTypeBuilder_ != null || metaInfoType_ != null;
@@ -1948,11 +1948,11 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
          */
-        public io.dstore.Values.stringValue getMetaInfoType() {
+        public io.dstore.values.StringValue getMetaInfoType() {
           if (metaInfoTypeBuilder_ == null) {
-            return metaInfoType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : metaInfoType_;
+            return metaInfoType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : metaInfoType_;
           } else {
             return metaInfoTypeBuilder_.getMessage();
           }
@@ -1962,9 +1962,9 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
          */
-        public Builder setMetaInfoType(io.dstore.Values.stringValue value) {
+        public Builder setMetaInfoType(io.dstore.values.StringValue value) {
           if (metaInfoTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1982,10 +1982,10 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
          */
         public Builder setMetaInfoType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (metaInfoTypeBuilder_ == null) {
             metaInfoType_ = builderForValue.build();
             onChanged();
@@ -2000,13 +2000,13 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
          */
-        public Builder mergeMetaInfoType(io.dstore.Values.stringValue value) {
+        public Builder mergeMetaInfoType(io.dstore.values.StringValue value) {
           if (metaInfoTypeBuilder_ == null) {
             if (metaInfoType_ != null) {
               metaInfoType_ =
-                io.dstore.Values.stringValue.newBuilder(metaInfoType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(metaInfoType_).mergeFrom(value).buildPartial();
             } else {
               metaInfoType_ = value;
             }
@@ -2022,7 +2022,7 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
          */
         public Builder clearMetaInfoType() {
           if (metaInfoTypeBuilder_ == null) {
@@ -2040,9 +2040,9 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getMetaInfoTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getMetaInfoTypeBuilder() {
           
           onChanged();
           return getMetaInfoTypeFieldBuilder().getBuilder();
@@ -2052,14 +2052,14 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getMetaInfoTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getMetaInfoTypeOrBuilder() {
           if (metaInfoTypeBuilder_ != null) {
             return metaInfoTypeBuilder_.getMessageOrBuilder();
           } else {
             return metaInfoType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : metaInfoType_;
+                io.dstore.values.StringValue.getDefaultInstance() : metaInfoType_;
           }
         }
         /**
@@ -2067,14 +2067,14 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Art der Meta-Eigenschaft. Mögliche Werte : s. Beschreibung zum Parameter "&#64;MetaInfoType".Hinweis : Zu ein und demselben "MetaInfoType"-Wert können mehrere Datensätze zurückkommen (dann aber mit unterschiedlicher "CodeLineNumber")
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue meta_info_type = 10002;</code>
+         * <code>optional .dstore.values.StringValue meta_info_type = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getMetaInfoTypeFieldBuilder() {
           if (metaInfoTypeBuilder_ == null) {
             metaInfoTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getMetaInfoType(),
                     getParentForChildren(),
                     isClean());
@@ -2083,15 +2083,15 @@ public final class MiGetSQLFunctMetaPropsAd {
           return metaInfoTypeBuilder_;
         }
 
-        private io.dstore.Values.stringValue information_ = null;
+        private io.dstore.values.StringValue information_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationBuilder_;
         /**
          * <pre>
          * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.StringValue information = 10003;</code>
          */
         public boolean hasInformation() {
           return informationBuilder_ != null || information_ != null;
@@ -2101,11 +2101,11 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.StringValue information = 10003;</code>
          */
-        public io.dstore.Values.stringValue getInformation() {
+        public io.dstore.values.StringValue getInformation() {
           if (informationBuilder_ == null) {
-            return information_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : information_;
+            return information_ == null ? io.dstore.values.StringValue.getDefaultInstance() : information_;
           } else {
             return informationBuilder_.getMessage();
           }
@@ -2115,9 +2115,9 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.StringValue information = 10003;</code>
          */
-        public Builder setInformation(io.dstore.Values.stringValue value) {
+        public Builder setInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2135,10 +2135,10 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.StringValue information = 10003;</code>
          */
         public Builder setInformation(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (informationBuilder_ == null) {
             information_ = builderForValue.build();
             onChanged();
@@ -2153,13 +2153,13 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.StringValue information = 10003;</code>
          */
-        public Builder mergeInformation(io.dstore.Values.stringValue value) {
+        public Builder mergeInformation(io.dstore.values.StringValue value) {
           if (informationBuilder_ == null) {
             if (information_ != null) {
               information_ =
-                io.dstore.Values.stringValue.newBuilder(information_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(information_).mergeFrom(value).buildPartial();
             } else {
               information_ = value;
             }
@@ -2175,7 +2175,7 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.StringValue information = 10003;</code>
          */
         public Builder clearInformation() {
           if (informationBuilder_ == null) {
@@ -2193,9 +2193,9 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.StringValue information = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getInformationBuilder() {
+        public io.dstore.values.StringValue.Builder getInformationBuilder() {
           
           onChanged();
           return getInformationFieldBuilder().getBuilder();
@@ -2205,14 +2205,14 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.StringValue information = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getInformationOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getInformationOrBuilder() {
           if (informationBuilder_ != null) {
             return informationBuilder_.getMessageOrBuilder();
           } else {
             return information_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : information_;
+                io.dstore.values.StringValue.getDefaultInstance() : information_;
           }
         }
         /**
@@ -2220,14 +2220,14 @@ public final class MiGetSQLFunctMetaPropsAd {
          * Die in der Zeile "CodeLineNumber" gefundene Meta-Eigenschaft
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information = 10003;</code>
+         * <code>optional .dstore.values.StringValue information = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getInformationFieldBuilder() {
           if (informationBuilder_ == null) {
             informationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getInformation(),
                     getParentForChildren(),
                     isClean());
@@ -3697,19 +3697,19 @@ public final class MiGetSQLFunctMetaPropsAd {
       "tSQLFunctMetaProps_Ad\032\023dstore/values.pro" +
       "to\032\032dstore/engine/engine.proto\"\272\001\n\nParam" +
       "eters\0227\n\023s_q_l_function_name\030\001 \001(\0132\032.dst" +
-      "ore.values.stringValue\022!\n\030s_q_l_function" +
+      "ore.values.StringValue\022!\n\030s_q_l_function" +
       "_name_null\030\351\007 \001(\010\0222\n\016meta_info_type\030\002 \001(" +
-      "\0132\032.dstore.values.stringValue\022\034\n\023meta_in" +
+      "\0132\032.dstore.values.StringValue\022\034\n\023meta_in" +
       "fo_type_null\030\352\007 \001(\010\"\352\002\n\010Response\0228\n\020meta" +
       "_information\030\002 \003(\0132\036.dstore.engine.MetaI",
       "nformation\022\'\n\007message\030\003 \003(\0132\026.dstore.eng" +
       "ine.Message\022C\n\003row\030\004 \003(\01326.dstore.engine" +
       ".mi_GetSQLFunctMetaProps_Ad.Response.Row" +
       "\032\265\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0226\n\020code_line_n" +
-      "umber\030\221N \001(\0132\033.dstore.values.integerValu" +
+      "umber\030\221N \001(\0132\033.dstore.values.IntegerValu" +
       "e\0223\n\016meta_info_type\030\222N \001(\0132\032.dstore.valu" +
-      "es.stringValue\0220\n\013information\030\223N \001(\0132\032.d" +
-      "store.values.stringValueB[\n\033io.dstore.en" +
+      "es.StringValue\0220\n\013information\030\223N \001(\0132\032.d" +
+      "store.values.StringValueB[\n\033io.dstore.en" +
       "gine.proceduresZ<gosdk.dstore.de/engine/" +
       "procedures/mi_GetSQLFunctMetaProps_Adb\006p",
       "roto3"
@@ -3725,7 +3725,7 @@ public final class MiGetSQLFunctMetaPropsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetSQLFunctMetaProps_Ad_Parameters_descriptor =
@@ -3746,7 +3746,7 @@ public final class MiGetSQLFunctMetaPropsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetSQLFunctMetaProps_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CodeLineNumber", "MetaInfoType", "Information", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -19,17 +19,17 @@ public final class FoGetForumStatisticsPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class FoGetForumStatisticsPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class FoGetForumStatisticsPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class FoGetForumStatisticsPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
     boolean hasForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    io.dstore.Values.integerValue getForumId();
+    io.dstore.values.IntegerValue getForumId();
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
     /**
      * <code>optional bool forum_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class FoGetForumStatisticsPu {
     boolean getForumIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+     * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
      */
     boolean hasListOfStatisticInformationIds();
     /**
-     * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+     * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
      */
-    io.dstore.Values.stringValue getListOfStatisticInformationIds();
+    io.dstore.values.StringValue getListOfStatisticInformationIds();
     /**
-     * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+     * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getListOfStatisticInformationIdsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getListOfStatisticInformationIdsOrBuilder();
 
     /**
      * <code>optional bool list_of_statistic_information_ids_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class FoGetForumStatisticsPu {
     boolean getListOfStatisticInformationIdsNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
      */
     boolean hasFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
      */
-    io.dstore.Values.timestampValue getFromDate();
+    io.dstore.values.TimestampValue getFromDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder();
 
     /**
      * <code>optional bool from_date_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class FoGetForumStatisticsPu {
     boolean getFromDateNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
      */
     boolean hasToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
      */
-    io.dstore.Values.timestampValue getToDate();
+    io.dstore.values.TimestampValue getToDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder();
 
     /**
      * <code>optional bool to_date_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class FoGetForumStatisticsPu {
     boolean getToDateNull();
 
     /**
-     * <code>optional .dstore.values.stringValue date_format = 8;</code>
+     * <code>optional .dstore.values.StringValue date_format = 8;</code>
      */
     boolean hasDateFormat();
     /**
-     * <code>optional .dstore.values.stringValue date_format = 8;</code>
+     * <code>optional .dstore.values.StringValue date_format = 8;</code>
      */
-    io.dstore.Values.stringValue getDateFormat();
+    io.dstore.values.StringValue getDateFormat();
     /**
-     * <code>optional .dstore.values.stringValue date_format = 8;</code>
+     * <code>optional .dstore.values.StringValue date_format = 8;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getDateFormatOrBuilder();
+    io.dstore.values.StringValueOrBuilder getDateFormatOrBuilder();
 
     /**
      * <code>optional bool date_format_null = 1008;</code>
@@ -163,17 +163,17 @@ public final class FoGetForumStatisticsPu {
     boolean getDateFormatNull();
 
     /**
-     * <code>optional .dstore.values.integerValue visibility = 9;</code>
+     * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
      */
     boolean hasVisibility();
     /**
-     * <code>optional .dstore.values.integerValue visibility = 9;</code>
+     * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
      */
-    io.dstore.Values.integerValue getVisibility();
+    io.dstore.values.IntegerValue getVisibility();
     /**
-     * <code>optional .dstore.values.integerValue visibility = 9;</code>
+     * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getVisibilityOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getVisibilityOrBuilder();
 
     /**
      * <code>optional bool visibility_null = 1009;</code>
@@ -181,17 +181,17 @@ public final class FoGetForumStatisticsPu {
     boolean getVisibilityNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1010;</code>
@@ -248,11 +248,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -261,11 +261,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -274,11 +274,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -287,11 +287,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -300,11 +300,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (listOfStatisticInformationIds_ != null) {
                 subBuilder = listOfStatisticInformationIds_.toBuilder();
               }
-              listOfStatisticInformationIds_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              listOfStatisticInformationIds_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(listOfStatisticInformationIds_);
                 listOfStatisticInformationIds_ = subBuilder.buildPartial();
@@ -313,11 +313,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 50: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -326,11 +326,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 58: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -339,11 +339,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 66: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (dateFormat_ != null) {
                 subBuilder = dateFormat_.toBuilder();
               }
-              dateFormat_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              dateFormat_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateFormat_);
                 dateFormat_ = subBuilder.buildPartial();
@@ -352,11 +352,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 74: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (visibility_ != null) {
                 subBuilder = visibility_.toBuilder();
               }
-              visibility_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              visibility_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visibility_);
                 visibility_ = subBuilder.buildPartial();
@@ -365,11 +365,11 @@ public final class FoGetForumStatisticsPu {
               break;
             }
             case 82: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -451,23 +451,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -481,23 +481,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -511,23 +511,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -541,23 +541,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int FORUM_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue forumId_;
+    private io.dstore.values.IntegerValue forumId_;
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
     public boolean hasForumId() {
       return forumId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getForumId() {
-      return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+    public io.dstore.values.IntegerValue getForumId() {
+      return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
       return getForumId();
     }
 
@@ -571,23 +571,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int LIST_OF_STATISTIC_INFORMATION_IDS_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue listOfStatisticInformationIds_;
+    private io.dstore.values.StringValue listOfStatisticInformationIds_;
     /**
-     * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+     * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
      */
     public boolean hasListOfStatisticInformationIds() {
       return listOfStatisticInformationIds_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+     * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
      */
-    public io.dstore.Values.stringValue getListOfStatisticInformationIds() {
-      return listOfStatisticInformationIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : listOfStatisticInformationIds_;
+    public io.dstore.values.StringValue getListOfStatisticInformationIds() {
+      return listOfStatisticInformationIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : listOfStatisticInformationIds_;
     }
     /**
-     * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+     * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getListOfStatisticInformationIdsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getListOfStatisticInformationIdsOrBuilder() {
       return getListOfStatisticInformationIds();
     }
 
@@ -601,23 +601,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int FROM_DATE_FIELD_NUMBER = 6;
-    private io.dstore.Values.timestampValue fromDate_;
+    private io.dstore.values.TimestampValue fromDate_;
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
      */
     public boolean hasFromDate() {
       return fromDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
      */
-    public io.dstore.Values.timestampValue getFromDate() {
-      return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+    public io.dstore.values.TimestampValue getFromDate() {
+      return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+     * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
       return getFromDate();
     }
 
@@ -631,23 +631,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int TO_DATE_FIELD_NUMBER = 7;
-    private io.dstore.Values.timestampValue toDate_;
+    private io.dstore.values.TimestampValue toDate_;
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
      */
     public boolean hasToDate() {
       return toDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
      */
-    public io.dstore.Values.timestampValue getToDate() {
-      return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+    public io.dstore.values.TimestampValue getToDate() {
+      return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+     * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
       return getToDate();
     }
 
@@ -661,23 +661,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int DATE_FORMAT_FIELD_NUMBER = 8;
-    private io.dstore.Values.stringValue dateFormat_;
+    private io.dstore.values.StringValue dateFormat_;
     /**
-     * <code>optional .dstore.values.stringValue date_format = 8;</code>
+     * <code>optional .dstore.values.StringValue date_format = 8;</code>
      */
     public boolean hasDateFormat() {
       return dateFormat_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue date_format = 8;</code>
+     * <code>optional .dstore.values.StringValue date_format = 8;</code>
      */
-    public io.dstore.Values.stringValue getDateFormat() {
-      return dateFormat_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dateFormat_;
+    public io.dstore.values.StringValue getDateFormat() {
+      return dateFormat_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dateFormat_;
     }
     /**
-     * <code>optional .dstore.values.stringValue date_format = 8;</code>
+     * <code>optional .dstore.values.StringValue date_format = 8;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getDateFormatOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getDateFormatOrBuilder() {
       return getDateFormat();
     }
 
@@ -691,23 +691,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int VISIBILITY_FIELD_NUMBER = 9;
-    private io.dstore.Values.integerValue visibility_;
+    private io.dstore.values.IntegerValue visibility_;
     /**
-     * <code>optional .dstore.values.integerValue visibility = 9;</code>
+     * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
      */
     public boolean hasVisibility() {
       return visibility_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue visibility = 9;</code>
+     * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
      */
-    public io.dstore.Values.integerValue getVisibility() {
-      return visibility_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visibility_;
+    public io.dstore.values.IntegerValue getVisibility() {
+      return visibility_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visibility_;
     }
     /**
-     * <code>optional .dstore.values.integerValue visibility = 9;</code>
+     * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getVisibilityOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getVisibilityOrBuilder() {
       return getVisibility();
     }
 
@@ -721,23 +721,23 @@ public final class FoGetForumStatisticsPu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 10;
-    private io.dstore.Values.stringValue separatorInIdentVals_;
+    private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.values.StringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1482,29 +1482,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1518,10 +1518,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1532,13 +1532,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1550,7 +1550,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1564,33 +1564,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1625,29 +1625,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1661,10 +1661,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1675,13 +1675,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1693,7 +1693,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1707,33 +1707,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1768,29 +1768,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1804,10 +1804,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1818,13 +1818,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1836,7 +1836,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1850,33 +1850,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 3;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1911,29 +1911,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue forumId_ = null;
+      private io.dstore.values.IntegerValue forumId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       public boolean hasForumId() {
         return forumIdBuilder_ != null || forumId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getForumId() {
+      public io.dstore.values.IntegerValue getForumId() {
         if (forumIdBuilder_ == null) {
-          return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+          return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         } else {
           return forumIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public Builder setForumId(io.dstore.Values.integerValue value) {
+      public Builder setForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1947,10 +1947,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       public Builder setForumId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (forumIdBuilder_ == null) {
           forumId_ = builderForValue.build();
           onChanged();
@@ -1961,13 +1961,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public Builder mergeForumId(io.dstore.Values.integerValue value) {
+      public Builder mergeForumId(io.dstore.values.IntegerValue value) {
         if (forumIdBuilder_ == null) {
           if (forumId_ != null) {
             forumId_ =
-              io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
           } else {
             forumId_ = value;
           }
@@ -1979,7 +1979,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       public Builder clearForumId() {
         if (forumIdBuilder_ == null) {
@@ -1993,33 +1993,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
         
         onChanged();
         return getForumIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         if (forumIdBuilder_ != null) {
           return forumIdBuilder_.getMessageOrBuilder();
         } else {
           return forumId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue forum_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getForumIdFieldBuilder() {
         if (forumIdBuilder_ == null) {
           forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getForumId(),
                   getParentForChildren(),
                   isClean());
@@ -2054,29 +2054,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue listOfStatisticInformationIds_ = null;
+      private io.dstore.values.StringValue listOfStatisticInformationIds_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> listOfStatisticInformationIdsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> listOfStatisticInformationIdsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+       * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
        */
       public boolean hasListOfStatisticInformationIds() {
         return listOfStatisticInformationIdsBuilder_ != null || listOfStatisticInformationIds_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+       * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
        */
-      public io.dstore.Values.stringValue getListOfStatisticInformationIds() {
+      public io.dstore.values.StringValue getListOfStatisticInformationIds() {
         if (listOfStatisticInformationIdsBuilder_ == null) {
-          return listOfStatisticInformationIds_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : listOfStatisticInformationIds_;
+          return listOfStatisticInformationIds_ == null ? io.dstore.values.StringValue.getDefaultInstance() : listOfStatisticInformationIds_;
         } else {
           return listOfStatisticInformationIdsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+       * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
        */
-      public Builder setListOfStatisticInformationIds(io.dstore.Values.stringValue value) {
+      public Builder setListOfStatisticInformationIds(io.dstore.values.StringValue value) {
         if (listOfStatisticInformationIdsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2090,10 +2090,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+       * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
        */
       public Builder setListOfStatisticInformationIds(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (listOfStatisticInformationIdsBuilder_ == null) {
           listOfStatisticInformationIds_ = builderForValue.build();
           onChanged();
@@ -2104,13 +2104,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+       * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
        */
-      public Builder mergeListOfStatisticInformationIds(io.dstore.Values.stringValue value) {
+      public Builder mergeListOfStatisticInformationIds(io.dstore.values.StringValue value) {
         if (listOfStatisticInformationIdsBuilder_ == null) {
           if (listOfStatisticInformationIds_ != null) {
             listOfStatisticInformationIds_ =
-              io.dstore.Values.stringValue.newBuilder(listOfStatisticInformationIds_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(listOfStatisticInformationIds_).mergeFrom(value).buildPartial();
           } else {
             listOfStatisticInformationIds_ = value;
           }
@@ -2122,7 +2122,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+       * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
        */
       public Builder clearListOfStatisticInformationIds() {
         if (listOfStatisticInformationIdsBuilder_ == null) {
@@ -2136,33 +2136,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+       * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getListOfStatisticInformationIdsBuilder() {
+      public io.dstore.values.StringValue.Builder getListOfStatisticInformationIdsBuilder() {
         
         onChanged();
         return getListOfStatisticInformationIdsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+       * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getListOfStatisticInformationIdsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getListOfStatisticInformationIdsOrBuilder() {
         if (listOfStatisticInformationIdsBuilder_ != null) {
           return listOfStatisticInformationIdsBuilder_.getMessageOrBuilder();
         } else {
           return listOfStatisticInformationIds_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : listOfStatisticInformationIds_;
+              io.dstore.values.StringValue.getDefaultInstance() : listOfStatisticInformationIds_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue list_of_statistic_information_ids = 5;</code>
+       * <code>optional .dstore.values.StringValue list_of_statistic_information_ids = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getListOfStatisticInformationIdsFieldBuilder() {
         if (listOfStatisticInformationIdsBuilder_ == null) {
           listOfStatisticInformationIdsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getListOfStatisticInformationIds(),
                   getParentForChildren(),
                   isClean());
@@ -2197,29 +2197,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromDate_ = null;
+      private io.dstore.values.TimestampValue fromDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
        */
       public boolean hasFromDate() {
         return fromDateBuilder_ != null || fromDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
        */
-      public io.dstore.Values.timestampValue getFromDate() {
+      public io.dstore.values.TimestampValue getFromDate() {
         if (fromDateBuilder_ == null) {
-          return fromDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+          return fromDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         } else {
           return fromDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
        */
-      public Builder setFromDate(io.dstore.Values.timestampValue value) {
+      public Builder setFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2233,10 +2233,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
        */
       public Builder setFromDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromDateBuilder_ == null) {
           fromDate_ = builderForValue.build();
           onChanged();
@@ -2247,13 +2247,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
        */
-      public Builder mergeFromDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromDate(io.dstore.values.TimestampValue value) {
         if (fromDateBuilder_ == null) {
           if (fromDate_ != null) {
             fromDate_ =
-              io.dstore.Values.timestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromDate_).mergeFrom(value).buildPartial();
           } else {
             fromDate_ = value;
           }
@@ -2265,7 +2265,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
        */
       public Builder clearFromDate() {
         if (fromDateBuilder_ == null) {
@@ -2279,33 +2279,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromDateBuilder() {
         
         onChanged();
         return getFromDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromDateOrBuilder() {
         if (fromDateBuilder_ != null) {
           return fromDateBuilder_.getMessageOrBuilder();
         } else {
           return fromDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_date = 6;</code>
+       * <code>optional .dstore.values.TimestampValue from_date = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromDateFieldBuilder() {
         if (fromDateBuilder_ == null) {
           fromDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromDate(),
                   getParentForChildren(),
                   isClean());
@@ -2340,29 +2340,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toDate_ = null;
+      private io.dstore.values.TimestampValue toDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
        */
       public boolean hasToDate() {
         return toDateBuilder_ != null || toDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
        */
-      public io.dstore.Values.timestampValue getToDate() {
+      public io.dstore.values.TimestampValue getToDate() {
         if (toDateBuilder_ == null) {
-          return toDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+          return toDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         } else {
           return toDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
        */
-      public Builder setToDate(io.dstore.Values.timestampValue value) {
+      public Builder setToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2376,10 +2376,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
        */
       public Builder setToDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toDateBuilder_ == null) {
           toDate_ = builderForValue.build();
           onChanged();
@@ -2390,13 +2390,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
        */
-      public Builder mergeToDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeToDate(io.dstore.values.TimestampValue value) {
         if (toDateBuilder_ == null) {
           if (toDate_ != null) {
             toDate_ =
-              io.dstore.Values.timestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toDate_).mergeFrom(value).buildPartial();
           } else {
             toDate_ = value;
           }
@@ -2408,7 +2408,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
        */
       public Builder clearToDate() {
         if (toDateBuilder_ == null) {
@@ -2422,33 +2422,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToDateBuilder() {
         
         onChanged();
         return getToDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToDateOrBuilder() {
         if (toDateBuilder_ != null) {
           return toDateBuilder_.getMessageOrBuilder();
         } else {
           return toDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_date = 7;</code>
+       * <code>optional .dstore.values.TimestampValue to_date = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToDateFieldBuilder() {
         if (toDateBuilder_ == null) {
           toDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToDate(),
                   getParentForChildren(),
                   isClean());
@@ -2483,29 +2483,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue dateFormat_ = null;
+      private io.dstore.values.StringValue dateFormat_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> dateFormatBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> dateFormatBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue date_format = 8;</code>
+       * <code>optional .dstore.values.StringValue date_format = 8;</code>
        */
       public boolean hasDateFormat() {
         return dateFormatBuilder_ != null || dateFormat_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue date_format = 8;</code>
+       * <code>optional .dstore.values.StringValue date_format = 8;</code>
        */
-      public io.dstore.Values.stringValue getDateFormat() {
+      public io.dstore.values.StringValue getDateFormat() {
         if (dateFormatBuilder_ == null) {
-          return dateFormat_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : dateFormat_;
+          return dateFormat_ == null ? io.dstore.values.StringValue.getDefaultInstance() : dateFormat_;
         } else {
           return dateFormatBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue date_format = 8;</code>
+       * <code>optional .dstore.values.StringValue date_format = 8;</code>
        */
-      public Builder setDateFormat(io.dstore.Values.stringValue value) {
+      public Builder setDateFormat(io.dstore.values.StringValue value) {
         if (dateFormatBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2519,10 +2519,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue date_format = 8;</code>
+       * <code>optional .dstore.values.StringValue date_format = 8;</code>
        */
       public Builder setDateFormat(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (dateFormatBuilder_ == null) {
           dateFormat_ = builderForValue.build();
           onChanged();
@@ -2533,13 +2533,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue date_format = 8;</code>
+       * <code>optional .dstore.values.StringValue date_format = 8;</code>
        */
-      public Builder mergeDateFormat(io.dstore.Values.stringValue value) {
+      public Builder mergeDateFormat(io.dstore.values.StringValue value) {
         if (dateFormatBuilder_ == null) {
           if (dateFormat_ != null) {
             dateFormat_ =
-              io.dstore.Values.stringValue.newBuilder(dateFormat_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(dateFormat_).mergeFrom(value).buildPartial();
           } else {
             dateFormat_ = value;
           }
@@ -2551,7 +2551,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue date_format = 8;</code>
+       * <code>optional .dstore.values.StringValue date_format = 8;</code>
        */
       public Builder clearDateFormat() {
         if (dateFormatBuilder_ == null) {
@@ -2565,33 +2565,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue date_format = 8;</code>
+       * <code>optional .dstore.values.StringValue date_format = 8;</code>
        */
-      public io.dstore.Values.stringValue.Builder getDateFormatBuilder() {
+      public io.dstore.values.StringValue.Builder getDateFormatBuilder() {
         
         onChanged();
         return getDateFormatFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue date_format = 8;</code>
+       * <code>optional .dstore.values.StringValue date_format = 8;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getDateFormatOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getDateFormatOrBuilder() {
         if (dateFormatBuilder_ != null) {
           return dateFormatBuilder_.getMessageOrBuilder();
         } else {
           return dateFormat_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : dateFormat_;
+              io.dstore.values.StringValue.getDefaultInstance() : dateFormat_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue date_format = 8;</code>
+       * <code>optional .dstore.values.StringValue date_format = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getDateFormatFieldBuilder() {
         if (dateFormatBuilder_ == null) {
           dateFormatBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getDateFormat(),
                   getParentForChildren(),
                   isClean());
@@ -2626,29 +2626,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue visibility_ = null;
+      private io.dstore.values.IntegerValue visibility_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> visibilityBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> visibilityBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue visibility = 9;</code>
+       * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
        */
       public boolean hasVisibility() {
         return visibilityBuilder_ != null || visibility_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue visibility = 9;</code>
+       * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
        */
-      public io.dstore.Values.integerValue getVisibility() {
+      public io.dstore.values.IntegerValue getVisibility() {
         if (visibilityBuilder_ == null) {
-          return visibility_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : visibility_;
+          return visibility_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : visibility_;
         } else {
           return visibilityBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue visibility = 9;</code>
+       * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
        */
-      public Builder setVisibility(io.dstore.Values.integerValue value) {
+      public Builder setVisibility(io.dstore.values.IntegerValue value) {
         if (visibilityBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2662,10 +2662,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visibility = 9;</code>
+       * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
        */
       public Builder setVisibility(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (visibilityBuilder_ == null) {
           visibility_ = builderForValue.build();
           onChanged();
@@ -2676,13 +2676,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visibility = 9;</code>
+       * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
        */
-      public Builder mergeVisibility(io.dstore.Values.integerValue value) {
+      public Builder mergeVisibility(io.dstore.values.IntegerValue value) {
         if (visibilityBuilder_ == null) {
           if (visibility_ != null) {
             visibility_ =
-              io.dstore.Values.integerValue.newBuilder(visibility_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(visibility_).mergeFrom(value).buildPartial();
           } else {
             visibility_ = value;
           }
@@ -2694,7 +2694,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visibility = 9;</code>
+       * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
        */
       public Builder clearVisibility() {
         if (visibilityBuilder_ == null) {
@@ -2708,33 +2708,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue visibility = 9;</code>
+       * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
        */
-      public io.dstore.Values.integerValue.Builder getVisibilityBuilder() {
+      public io.dstore.values.IntegerValue.Builder getVisibilityBuilder() {
         
         onChanged();
         return getVisibilityFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue visibility = 9;</code>
+       * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVisibilityOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVisibilityOrBuilder() {
         if (visibilityBuilder_ != null) {
           return visibilityBuilder_.getMessageOrBuilder();
         } else {
           return visibility_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : visibility_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : visibility_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue visibility = 9;</code>
+       * <code>optional .dstore.values.IntegerValue visibility = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getVisibilityFieldBuilder() {
         if (visibilityBuilder_ == null) {
           visibilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getVisibility(),
                   getParentForChildren(),
                   isClean());
@@ -2769,29 +2769,29 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.values.StringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2805,10 +2805,10 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -2819,13 +2819,13 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -2837,7 +2837,7 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -2851,33 +2851,33 @@ public final class FoGetForumStatisticsPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 10;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -3171,7 +3171,7 @@ public final class FoGetForumStatisticsPu {
        * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
        */
       boolean hasForumId();
       /**
@@ -3179,24 +3179,24 @@ public final class FoGetForumStatisticsPu {
        * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getForumId();
+      io.dstore.values.IntegerValue getForumId();
       /**
        * <pre>
        * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder();
 
       /**
        * <pre>
        * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       boolean hasValue();
       /**
@@ -3204,24 +3204,24 @@ public final class FoGetForumStatisticsPu {
        * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
       /**
        * <pre>
        * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
        */
       boolean hasStatisticInformationId();
       /**
@@ -3229,24 +3229,24 @@ public final class FoGetForumStatisticsPu {
        * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getStatisticInformationId();
+      io.dstore.values.IntegerValue getStatisticInformationId();
       /**
        * <pre>
        * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getStatisticInformationIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getStatisticInformationIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+       * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
        */
       boolean hasStatisticInformation();
       /**
@@ -3254,17 +3254,17 @@ public final class FoGetForumStatisticsPu {
        * Bezeichnung der Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+       * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
        */
-      io.dstore.Values.stringValue getStatisticInformation();
+      io.dstore.values.StringValue getStatisticInformation();
       /**
        * <pre>
        * Bezeichnung der Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+       * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder();
+      io.dstore.values.StringValueOrBuilder getStatisticInformationOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetForumStatistics_Pu.Response.Row}
@@ -3312,11 +3312,11 @@ public final class FoGetForumStatisticsPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (forumId_ != null) {
                   subBuilder = forumId_.toBuilder();
                 }
-                forumId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                forumId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumId_);
                   forumId_ = subBuilder.buildPartial();
@@ -3325,11 +3325,11 @@ public final class FoGetForumStatisticsPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -3338,11 +3338,11 @@ public final class FoGetForumStatisticsPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (statisticInformationId_ != null) {
                   subBuilder = statisticInformationId_.toBuilder();
                 }
-                statisticInformationId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                statisticInformationId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(statisticInformationId_);
                   statisticInformationId_ = subBuilder.buildPartial();
@@ -3351,11 +3351,11 @@ public final class FoGetForumStatisticsPu {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (statisticInformation_ != null) {
                   subBuilder = statisticInformation_.toBuilder();
                 }
-                statisticInformation_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                statisticInformation_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(statisticInformation_);
                   statisticInformation_ = subBuilder.buildPartial();
@@ -3396,13 +3396,13 @@ public final class FoGetForumStatisticsPu {
       }
 
       public static final int FORUM_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue forumId_;
+      private io.dstore.values.IntegerValue forumId_;
       /**
        * <pre>
        * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
        */
       public boolean hasForumId() {
         return forumId_ != null;
@@ -3412,30 +3412,30 @@ public final class FoGetForumStatisticsPu {
        * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getForumId() {
-        return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+      public io.dstore.values.IntegerValue getForumId() {
+        return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
       }
       /**
        * <pre>
        * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
         return getForumId();
       }
 
       public static final int VALUE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -3445,30 +3445,30 @@ public final class FoGetForumStatisticsPu {
        * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10002;</code>
+       * <code>optional .dstore.values.StringValue value = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
       public static final int STATISTIC_INFORMATION_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue statisticInformationId_;
+      private io.dstore.values.IntegerValue statisticInformationId_;
       /**
        * <pre>
        * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
        */
       public boolean hasStatisticInformationId() {
         return statisticInformationId_ != null;
@@ -3478,30 +3478,30 @@ public final class FoGetForumStatisticsPu {
        * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getStatisticInformationId() {
-        return statisticInformationId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : statisticInformationId_;
+      public io.dstore.values.IntegerValue getStatisticInformationId() {
+        return statisticInformationId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : statisticInformationId_;
       }
       /**
        * <pre>
        * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getStatisticInformationIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getStatisticInformationIdOrBuilder() {
         return getStatisticInformationId();
       }
 
       public static final int STATISTIC_INFORMATION_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue statisticInformation_;
+      private io.dstore.values.StringValue statisticInformation_;
       /**
        * <pre>
        * Bezeichnung der Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+       * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
        */
       public boolean hasStatisticInformation() {
         return statisticInformation_ != null;
@@ -3511,19 +3511,19 @@ public final class FoGetForumStatisticsPu {
        * Bezeichnung der Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+       * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
        */
-      public io.dstore.Values.stringValue getStatisticInformation() {
-        return statisticInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : statisticInformation_;
+      public io.dstore.values.StringValue getStatisticInformation() {
+        return statisticInformation_ == null ? io.dstore.values.StringValue.getDefaultInstance() : statisticInformation_;
       }
       /**
        * <pre>
        * Bezeichnung der Information "StatisticInformationID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+       * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getStatisticInformationOrBuilder() {
         return getStatisticInformation();
       }
 
@@ -3942,15 +3942,15 @@ public final class FoGetForumStatisticsPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue forumId_ = null;
+        private io.dstore.values.IntegerValue forumId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> forumIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> forumIdBuilder_;
         /**
          * <pre>
          * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
          */
         public boolean hasForumId() {
           return forumIdBuilder_ != null || forumId_ != null;
@@ -3960,11 +3960,11 @@ public final class FoGetForumStatisticsPu {
          * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getForumId() {
+        public io.dstore.values.IntegerValue getForumId() {
           if (forumIdBuilder_ == null) {
-            return forumId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+            return forumId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
           } else {
             return forumIdBuilder_.getMessage();
           }
@@ -3974,9 +3974,9 @@ public final class FoGetForumStatisticsPu {
          * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
          */
-        public Builder setForumId(io.dstore.Values.integerValue value) {
+        public Builder setForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3994,10 +3994,10 @@ public final class FoGetForumStatisticsPu {
          * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
          */
         public Builder setForumId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (forumIdBuilder_ == null) {
             forumId_ = builderForValue.build();
             onChanged();
@@ -4012,13 +4012,13 @@ public final class FoGetForumStatisticsPu {
          * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
          */
-        public Builder mergeForumId(io.dstore.Values.integerValue value) {
+        public Builder mergeForumId(io.dstore.values.IntegerValue value) {
           if (forumIdBuilder_ == null) {
             if (forumId_ != null) {
               forumId_ =
-                io.dstore.Values.integerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(forumId_).mergeFrom(value).buildPartial();
             } else {
               forumId_ = value;
             }
@@ -4034,7 +4034,7 @@ public final class FoGetForumStatisticsPu {
          * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
          */
         public Builder clearForumId() {
           if (forumIdBuilder_ == null) {
@@ -4052,9 +4052,9 @@ public final class FoGetForumStatisticsPu {
          * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getForumIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getForumIdBuilder() {
           
           onChanged();
           return getForumIdFieldBuilder().getBuilder();
@@ -4064,14 +4064,14 @@ public final class FoGetForumStatisticsPu {
          * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getForumIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getForumIdOrBuilder() {
           if (forumIdBuilder_ != null) {
             return forumIdBuilder_.getMessageOrBuilder();
           } else {
             return forumId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : forumId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : forumId_;
           }
         }
         /**
@@ -4079,14 +4079,14 @@ public final class FoGetForumStatisticsPu {
          * ID des Forums, auf das sich "Value" bezieht - also entweder "&#64;ForumID" oder die ID eines Forums, das durch "tempdb.dbo.OneID" übergeben wurde
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue forum_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue forum_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getForumIdFieldBuilder() {
           if (forumIdBuilder_ == null) {
             forumIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getForumId(),
                     getParentForChildren(),
                     isClean());
@@ -4095,15 +4095,15 @@ public final class FoGetForumStatisticsPu {
           return forumIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -4113,11 +4113,11 @@ public final class FoGetForumStatisticsPu {
          * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -4127,9 +4127,9 @@ public final class FoGetForumStatisticsPu {
          * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4147,10 +4147,10 @@ public final class FoGetForumStatisticsPu {
          * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -4165,13 +4165,13 @@ public final class FoGetForumStatisticsPu {
          * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -4187,7 +4187,7 @@ public final class FoGetForumStatisticsPu {
          * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -4205,9 +4205,9 @@ public final class FoGetForumStatisticsPu {
          * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -4217,14 +4217,14 @@ public final class FoGetForumStatisticsPu {
          * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -4232,14 +4232,14 @@ public final class FoGetForumStatisticsPu {
          * Der statistische Wert des Forums "ForumID" zur Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10002;</code>
+         * <code>optional .dstore.values.StringValue value = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -4248,15 +4248,15 @@ public final class FoGetForumStatisticsPu {
           return valueBuilder_;
         }
 
-        private io.dstore.Values.integerValue statisticInformationId_ = null;
+        private io.dstore.values.IntegerValue statisticInformationId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> statisticInformationIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> statisticInformationIdBuilder_;
         /**
          * <pre>
          * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
          */
         public boolean hasStatisticInformationId() {
           return statisticInformationIdBuilder_ != null || statisticInformationId_ != null;
@@ -4266,11 +4266,11 @@ public final class FoGetForumStatisticsPu {
          * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getStatisticInformationId() {
+        public io.dstore.values.IntegerValue getStatisticInformationId() {
           if (statisticInformationIdBuilder_ == null) {
-            return statisticInformationId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : statisticInformationId_;
+            return statisticInformationId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : statisticInformationId_;
           } else {
             return statisticInformationIdBuilder_.getMessage();
           }
@@ -4280,9 +4280,9 @@ public final class FoGetForumStatisticsPu {
          * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
          */
-        public Builder setStatisticInformationId(io.dstore.Values.integerValue value) {
+        public Builder setStatisticInformationId(io.dstore.values.IntegerValue value) {
           if (statisticInformationIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4300,10 +4300,10 @@ public final class FoGetForumStatisticsPu {
          * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
          */
         public Builder setStatisticInformationId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (statisticInformationIdBuilder_ == null) {
             statisticInformationId_ = builderForValue.build();
             onChanged();
@@ -4318,13 +4318,13 @@ public final class FoGetForumStatisticsPu {
          * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
          */
-        public Builder mergeStatisticInformationId(io.dstore.Values.integerValue value) {
+        public Builder mergeStatisticInformationId(io.dstore.values.IntegerValue value) {
           if (statisticInformationIdBuilder_ == null) {
             if (statisticInformationId_ != null) {
               statisticInformationId_ =
-                io.dstore.Values.integerValue.newBuilder(statisticInformationId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(statisticInformationId_).mergeFrom(value).buildPartial();
             } else {
               statisticInformationId_ = value;
             }
@@ -4340,7 +4340,7 @@ public final class FoGetForumStatisticsPu {
          * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
          */
         public Builder clearStatisticInformationId() {
           if (statisticInformationIdBuilder_ == null) {
@@ -4358,9 +4358,9 @@ public final class FoGetForumStatisticsPu {
          * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getStatisticInformationIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getStatisticInformationIdBuilder() {
           
           onChanged();
           return getStatisticInformationIdFieldBuilder().getBuilder();
@@ -4370,14 +4370,14 @@ public final class FoGetForumStatisticsPu {
          * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getStatisticInformationIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getStatisticInformationIdOrBuilder() {
           if (statisticInformationIdBuilder_ != null) {
             return statisticInformationIdBuilder_.getMessageOrBuilder();
           } else {
             return statisticInformationId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : statisticInformationId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : statisticInformationId_;
           }
         }
         /**
@@ -4385,14 +4385,14 @@ public final class FoGetForumStatisticsPu {
          * Eine ID, die in "&#64;ListOfStatisticInformationIDs" übergeben wurde und angibt, welche Information man haben möchte (siehe Beschreibung)
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue statistic_information_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue statistic_information_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getStatisticInformationIdFieldBuilder() {
           if (statisticInformationIdBuilder_ == null) {
             statisticInformationIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getStatisticInformationId(),
                     getParentForChildren(),
                     isClean());
@@ -4401,15 +4401,15 @@ public final class FoGetForumStatisticsPu {
           return statisticInformationIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue statisticInformation_ = null;
+        private io.dstore.values.StringValue statisticInformation_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> statisticInformationBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> statisticInformationBuilder_;
         /**
          * <pre>
          * Bezeichnung der Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+         * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
          */
         public boolean hasStatisticInformation() {
           return statisticInformationBuilder_ != null || statisticInformation_ != null;
@@ -4419,11 +4419,11 @@ public final class FoGetForumStatisticsPu {
          * Bezeichnung der Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+         * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
          */
-        public io.dstore.Values.stringValue getStatisticInformation() {
+        public io.dstore.values.StringValue getStatisticInformation() {
           if (statisticInformationBuilder_ == null) {
-            return statisticInformation_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : statisticInformation_;
+            return statisticInformation_ == null ? io.dstore.values.StringValue.getDefaultInstance() : statisticInformation_;
           } else {
             return statisticInformationBuilder_.getMessage();
           }
@@ -4433,9 +4433,9 @@ public final class FoGetForumStatisticsPu {
          * Bezeichnung der Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+         * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
          */
-        public Builder setStatisticInformation(io.dstore.Values.stringValue value) {
+        public Builder setStatisticInformation(io.dstore.values.StringValue value) {
           if (statisticInformationBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4453,10 +4453,10 @@ public final class FoGetForumStatisticsPu {
          * Bezeichnung der Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+         * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
          */
         public Builder setStatisticInformation(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (statisticInformationBuilder_ == null) {
             statisticInformation_ = builderForValue.build();
             onChanged();
@@ -4471,13 +4471,13 @@ public final class FoGetForumStatisticsPu {
          * Bezeichnung der Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+         * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
          */
-        public Builder mergeStatisticInformation(io.dstore.Values.stringValue value) {
+        public Builder mergeStatisticInformation(io.dstore.values.StringValue value) {
           if (statisticInformationBuilder_ == null) {
             if (statisticInformation_ != null) {
               statisticInformation_ =
-                io.dstore.Values.stringValue.newBuilder(statisticInformation_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(statisticInformation_).mergeFrom(value).buildPartial();
             } else {
               statisticInformation_ = value;
             }
@@ -4493,7 +4493,7 @@ public final class FoGetForumStatisticsPu {
          * Bezeichnung der Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+         * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
          */
         public Builder clearStatisticInformation() {
           if (statisticInformationBuilder_ == null) {
@@ -4511,9 +4511,9 @@ public final class FoGetForumStatisticsPu {
          * Bezeichnung der Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+         * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getStatisticInformationBuilder() {
+        public io.dstore.values.StringValue.Builder getStatisticInformationBuilder() {
           
           onChanged();
           return getStatisticInformationFieldBuilder().getBuilder();
@@ -4523,14 +4523,14 @@ public final class FoGetForumStatisticsPu {
          * Bezeichnung der Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+         * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getStatisticInformationOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getStatisticInformationOrBuilder() {
           if (statisticInformationBuilder_ != null) {
             return statisticInformationBuilder_.getMessageOrBuilder();
           } else {
             return statisticInformation_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : statisticInformation_;
+                io.dstore.values.StringValue.getDefaultInstance() : statisticInformation_;
           }
         }
         /**
@@ -4538,14 +4538,14 @@ public final class FoGetForumStatisticsPu {
          * Bezeichnung der Information "StatisticInformationID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue statistic_information = 10004;</code>
+         * <code>optional .dstore.values.StringValue statistic_information = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getStatisticInformationFieldBuilder() {
           if (statisticInformationBuilder_ == null) {
             statisticInformationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getStatisticInformation(),
                     getParentForChildren(),
                     isClean());
@@ -6015,37 +6015,37 @@ public final class FoGetForumStatisticsPu {
       "orumStatistics_Pu\032\023dstore/values.proto\032\032" +
       "dstore/engine/engine.proto\"\341\006\n\nParameter" +
       "s\022@\n\034person_identification_values\030\001 \001(\0132" +
-      "\032.dstore.values.stringValue\022*\n!person_id" +
+      "\032.dstore.values.StringValue\022*\n!person_id" +
       "entification_values_null\030\351\007 \001(\010\0223\n\016perso" +
-      "n_type_id\030\002 \001(\0132\033.dstore.values.integerV" +
+      "n_type_id\030\002 \001(\0132\033.dstore.values.IntegerV" +
       "alue\022\034\n\023person_type_id_null\030\352\007 \001(\010\022-\n\tun" +
-      "ique_id\030\003 \001(\0132\032.dstore.values.stringValu",
+      "ique_id\030\003 \001(\0132\032.dstore.values.StringValu",
       "e\022\027\n\016unique_id_null\030\353\007 \001(\010\022-\n\010forum_id\030\004" +
-      " \001(\0132\033.dstore.values.integerValue\022\026\n\rfor" +
+      " \001(\0132\033.dstore.values.IntegerValue\022\026\n\rfor" +
       "um_id_null\030\354\007 \001(\010\022E\n!list_of_statistic_i" +
-      "nformation_ids\030\005 \001(\0132\032.dstore.values.str" +
+      "nformation_ids\030\005 \001(\0132\032.dstore.values.Str" +
       "ingValue\022/\n&list_of_statistic_informatio" +
       "n_ids_null\030\355\007 \001(\010\0220\n\tfrom_date\030\006 \001(\0132\035.d" +
-      "store.values.timestampValue\022\027\n\016from_date" +
+      "store.values.TimestampValue\022\027\n\016from_date" +
       "_null\030\356\007 \001(\010\022.\n\007to_date\030\007 \001(\0132\035.dstore.v" +
-      "alues.timestampValue\022\025\n\014to_date_null\030\357\007 " +
+      "alues.TimestampValue\022\025\n\014to_date_null\030\357\007 " +
       "\001(\010\022/\n\013date_format\030\010 \001(\0132\032.dstore.values",
-      ".stringValue\022\031\n\020date_format_null\030\360\007 \001(\010\022" +
-      "/\n\nvisibility\030\t \001(\0132\033.dstore.values.inte" +
+      ".StringValue\022\031\n\020date_format_null\030\360\007 \001(\010\022" +
+      "/\n\nvisibility\030\t \001(\0132\033.dstore.values.Inte" +
       "gerValue\022\030\n\017visibility_null\030\361\007 \001(\010\022;\n\027se" +
       "parator_in_ident_vals\030\n \001(\0132\032.dstore.val" +
-      "ues.stringValue\022%\n\034separator_in_ident_va" +
+      "ues.StringValue\022%\n\034separator_in_ident_va" +
       "ls_null\030\362\007 \001(\010\"\241\003\n\010Response\0228\n\020meta_info" +
       "rmation\030\002 \003(\0132\036.dstore.engine.MetaInform" +
       "ation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.M" +
       "essage\022A\n\003row\030\004 \003(\01324.dstore.engine.fo_G" +
       "etForumStatistics_Pu.Response.Row\032\356\001\n\003Ro",
       "w\022\017\n\006row_id\030\220N \001(\005\022.\n\010forum_id\030\221N \001(\0132\033." +
-      "dstore.values.integerValue\022*\n\005value\030\222N \001" +
-      "(\0132\032.dstore.values.stringValue\022>\n\030statis" +
+      "dstore.values.IntegerValue\022*\n\005value\030\222N \001" +
+      "(\0132\032.dstore.values.StringValue\022>\n\030statis" +
       "tic_information_id\030\223N \001(\0132\033.dstore.value" +
-      "s.integerValue\022:\n\025statistic_information\030" +
-      "\224N \001(\0132\032.dstore.values.stringValueBY\n\033io" +
+      "s.IntegerValue\022:\n\025statistic_information\030" +
+      "\224N \001(\0132\032.dstore.values.StringValueBY\n\033io" +
       ".dstore.engine.proceduresZ:gosdk.dstore." +
       "de/engine/procedures/fo_GetForumStatisti" +
       "cs_Pub\006proto3"
@@ -6061,7 +6061,7 @@ public final class FoGetForumStatisticsPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_fo_GetForumStatistics_Pu_Parameters_descriptor =
@@ -6082,7 +6082,7 @@ public final class FoGetForumStatisticsPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_fo_GetForumStatistics_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ForumId", "Value", "StatisticInformationId", "StatisticInformation", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

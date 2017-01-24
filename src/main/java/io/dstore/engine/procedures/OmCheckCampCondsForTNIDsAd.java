@@ -19,17 +19,17 @@ public final class OmCheckCampCondsForTNIDsAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
     boolean hasTreeNodeIdList();
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
-    io.dstore.Values.stringValue getTreeNodeIdList();
+    io.dstore.values.StringValue getTreeNodeIdList();
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTreeNodeIdListOrBuilder();
 
     /**
      * <code>optional bool tree_node_id_list_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmCheckCampCondsForTNIDsAd {
     boolean getTreeNodeIdListNull();
 
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
      */
     boolean hasCampaignId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
      */
-    io.dstore.Values.integerValue getCampaignId();
+    io.dstore.values.IntegerValue getCampaignId();
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder();
 
     /**
      * <code>optional bool campaign_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmCheckCampCondsForTNIDsAd {
     boolean getCampaignIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+     * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
      */
     boolean hasQuantityList();
     /**
-     * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+     * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
      */
-    io.dstore.Values.stringValue getQuantityList();
+    io.dstore.values.StringValue getQuantityList();
     /**
-     * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+     * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getQuantityListOrBuilder();
+    io.dstore.values.StringValueOrBuilder getQuantityListOrBuilder();
 
     /**
      * <code>optional bool quantity_list_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmCheckCampCondsForTNIDsAd {
     boolean getQuantityListNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmCheckCampCondsForTNIDsAd {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
      */
     boolean hasCurrencyId();
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
      */
-    io.dstore.Values.integerValue getCurrencyId();
+    io.dstore.values.IntegerValue getCurrencyId();
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
 
     /**
      * <code>optional bool currency_id_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmCheckCampCondsForTNIDsAd {
     boolean getCurrencyIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
     boolean hasPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValue getPriceNodeCharacteristicId();
+    io.dstore.values.IntegerValue getPriceNodeCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool price_node_characteristic_id_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class OmCheckCampCondsForTNIDsAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (treeNodeIdList_ != null) {
                 subBuilder = treeNodeIdList_.toBuilder();
               }
-              treeNodeIdList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              treeNodeIdList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeIdList_);
                 treeNodeIdList_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class OmCheckCampCondsForTNIDsAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class OmCheckCampCondsForTNIDsAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (quantityList_ != null) {
                 subBuilder = quantityList_.toBuilder();
               }
-              quantityList_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              quantityList_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(quantityList_);
                 quantityList_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class OmCheckCampCondsForTNIDsAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class OmCheckCampCondsForTNIDsAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (currencyId_ != null) {
                 subBuilder = currencyId_.toBuilder();
               }
-              currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              currencyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(currencyId_);
                 currencyId_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class OmCheckCampCondsForTNIDsAd {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (priceNodeCharacteristicId_ != null) {
                 subBuilder = priceNodeCharacteristicId_.toBuilder();
               }
-              priceNodeCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              priceNodeCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(priceNodeCharacteristicId_);
                 priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
 
     public static final int TREE_NODE_ID_LIST_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue treeNodeIdList_;
+    private io.dstore.values.StringValue treeNodeIdList_;
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
     public boolean hasTreeNodeIdList() {
       return treeNodeIdList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
-    public io.dstore.Values.stringValue getTreeNodeIdList() {
-      return treeNodeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+    public io.dstore.values.StringValue getTreeNodeIdList() {
+      return treeNodeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : treeNodeIdList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+     * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTreeNodeIdListOrBuilder() {
       return getTreeNodeIdList();
     }
 
@@ -333,23 +333,23 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
 
     public static final int CAMPAIGN_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue campaignId_;
+    private io.dstore.values.IntegerValue campaignId_;
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
      */
     public boolean hasCampaignId() {
       return campaignId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getCampaignId() {
-      return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+    public io.dstore.values.IntegerValue getCampaignId() {
+      return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
       return getCampaignId();
     }
 
@@ -363,23 +363,23 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
 
     public static final int QUANTITY_LIST_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue quantityList_;
+    private io.dstore.values.StringValue quantityList_;
     /**
-     * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+     * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
      */
     public boolean hasQuantityList() {
       return quantityList_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+     * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
      */
-    public io.dstore.Values.stringValue getQuantityList() {
-      return quantityList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : quantityList_;
+    public io.dstore.values.StringValue getQuantityList() {
+      return quantityList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : quantityList_;
     }
     /**
-     * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+     * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getQuantityListOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getQuantityListOrBuilder() {
       return getQuantityList();
     }
 
@@ -393,23 +393,23 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -423,23 +423,23 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
 
     public static final int CURRENCY_ID_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue currencyId_;
+    private io.dstore.values.IntegerValue currencyId_;
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
      */
     public boolean hasCurrencyId() {
       return currencyId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
      */
-    public io.dstore.Values.integerValue getCurrencyId() {
-      return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+    public io.dstore.values.IntegerValue getCurrencyId() {
+      return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+     * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
       return getCurrencyId();
     }
 
@@ -453,23 +453,23 @@ public final class OmCheckCampCondsForTNIDsAd {
     }
 
     public static final int PRICE_NODE_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue priceNodeCharacteristicId_;
+    private io.dstore.values.IntegerValue priceNodeCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
     public boolean hasPriceNodeCharacteristicId() {
       return priceNodeCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
-      return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+    public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
+      return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
       return getPriceNodeCharacteristicId();
     }
 
@@ -1022,29 +1022,29 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue treeNodeIdList_ = null;
+      private io.dstore.values.StringValue treeNodeIdList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> treeNodeIdListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> treeNodeIdListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
       public boolean hasTreeNodeIdList() {
         return treeNodeIdListBuilder_ != null || treeNodeIdList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public io.dstore.Values.stringValue getTreeNodeIdList() {
+      public io.dstore.values.StringValue getTreeNodeIdList() {
         if (treeNodeIdListBuilder_ == null) {
-          return treeNodeIdList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+          return treeNodeIdList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : treeNodeIdList_;
         } else {
           return treeNodeIdListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public Builder setTreeNodeIdList(io.dstore.Values.stringValue value) {
+      public Builder setTreeNodeIdList(io.dstore.values.StringValue value) {
         if (treeNodeIdListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
       public Builder setTreeNodeIdList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (treeNodeIdListBuilder_ == null) {
           treeNodeIdList_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public Builder mergeTreeNodeIdList(io.dstore.Values.stringValue value) {
+      public Builder mergeTreeNodeIdList(io.dstore.values.StringValue value) {
         if (treeNodeIdListBuilder_ == null) {
           if (treeNodeIdList_ != null) {
             treeNodeIdList_ =
-              io.dstore.Values.stringValue.newBuilder(treeNodeIdList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(treeNodeIdList_).mergeFrom(value).buildPartial();
           } else {
             treeNodeIdList_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
       public Builder clearTreeNodeIdList() {
         if (treeNodeIdListBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTreeNodeIdListBuilder() {
+      public io.dstore.values.StringValue.Builder getTreeNodeIdListBuilder() {
         
         onChanged();
         return getTreeNodeIdListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTreeNodeIdListOrBuilder() {
         if (treeNodeIdListBuilder_ != null) {
           return treeNodeIdListBuilder_.getMessageOrBuilder();
         } else {
           return treeNodeIdList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+              io.dstore.values.StringValue.getDefaultInstance() : treeNodeIdList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue tree_node_id_list = 1;</code>
+       * <code>optional .dstore.values.StringValue tree_node_id_list = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTreeNodeIdListFieldBuilder() {
         if (treeNodeIdListBuilder_ == null) {
           treeNodeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTreeNodeIdList(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue campaignId_ = null;
+      private io.dstore.values.IntegerValue campaignId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> campaignIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> campaignIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
        */
       public boolean hasCampaignId() {
         return campaignIdBuilder_ != null || campaignId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getCampaignId() {
+      public io.dstore.values.IntegerValue getCampaignId() {
         if (campaignIdBuilder_ == null) {
-          return campaignId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+          return campaignId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
         } else {
           return campaignIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
        */
-      public Builder setCampaignId(io.dstore.Values.integerValue value) {
+      public Builder setCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
        */
       public Builder setCampaignId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (campaignIdBuilder_ == null) {
           campaignId_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
        */
-      public Builder mergeCampaignId(io.dstore.Values.integerValue value) {
+      public Builder mergeCampaignId(io.dstore.values.IntegerValue value) {
         if (campaignIdBuilder_ == null) {
           if (campaignId_ != null) {
             campaignId_ =
-              io.dstore.Values.integerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(campaignId_).mergeFrom(value).buildPartial();
           } else {
             campaignId_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
        */
       public Builder clearCampaignId() {
         if (campaignIdBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCampaignIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCampaignIdBuilder() {
         
         onChanged();
         return getCampaignIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCampaignIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCampaignIdOrBuilder() {
         if (campaignIdBuilder_ != null) {
           return campaignIdBuilder_.getMessageOrBuilder();
         } else {
           return campaignId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : campaignId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : campaignId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue campaign_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue campaign_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCampaignIdFieldBuilder() {
         if (campaignIdBuilder_ == null) {
           campaignIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCampaignId(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue quantityList_ = null;
+      private io.dstore.values.StringValue quantityList_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> quantityListBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> quantityListBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+       * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
        */
       public boolean hasQuantityList() {
         return quantityListBuilder_ != null || quantityList_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+       * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
        */
-      public io.dstore.Values.stringValue getQuantityList() {
+      public io.dstore.values.StringValue getQuantityList() {
         if (quantityListBuilder_ == null) {
-          return quantityList_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : quantityList_;
+          return quantityList_ == null ? io.dstore.values.StringValue.getDefaultInstance() : quantityList_;
         } else {
           return quantityListBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+       * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
        */
-      public Builder setQuantityList(io.dstore.Values.stringValue value) {
+      public Builder setQuantityList(io.dstore.values.StringValue value) {
         if (quantityListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+       * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
        */
       public Builder setQuantityList(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (quantityListBuilder_ == null) {
           quantityList_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+       * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
        */
-      public Builder mergeQuantityList(io.dstore.Values.stringValue value) {
+      public Builder mergeQuantityList(io.dstore.values.StringValue value) {
         if (quantityListBuilder_ == null) {
           if (quantityList_ != null) {
             quantityList_ =
-              io.dstore.Values.stringValue.newBuilder(quantityList_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(quantityList_).mergeFrom(value).buildPartial();
           } else {
             quantityList_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+       * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
        */
       public Builder clearQuantityList() {
         if (quantityListBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+       * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getQuantityListBuilder() {
+      public io.dstore.values.StringValue.Builder getQuantityListBuilder() {
         
         onChanged();
         return getQuantityListFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+       * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getQuantityListOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getQuantityListOrBuilder() {
         if (quantityListBuilder_ != null) {
           return quantityListBuilder_.getMessageOrBuilder();
         } else {
           return quantityList_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : quantityList_;
+              io.dstore.values.StringValue.getDefaultInstance() : quantityList_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue quantity_list = 3;</code>
+       * <code>optional .dstore.values.StringValue quantity_list = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getQuantityListFieldBuilder() {
         if (quantityListBuilder_ == null) {
           quantityListBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getQuantityList(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue currencyId_ = null;
+      private io.dstore.values.IntegerValue currencyId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
        */
       public boolean hasCurrencyId() {
         return currencyIdBuilder_ != null || currencyId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
        */
-      public io.dstore.Values.integerValue getCurrencyId() {
+      public io.dstore.values.IntegerValue getCurrencyId() {
         if (currencyIdBuilder_ == null) {
-          return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+          return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
         } else {
           return currencyIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
        */
-      public Builder setCurrencyId(io.dstore.Values.integerValue value) {
+      public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
        */
       public Builder setCurrencyId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (currencyIdBuilder_ == null) {
           currencyId_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
        */
-      public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
+      public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
         if (currencyIdBuilder_ == null) {
           if (currencyId_ != null) {
             currencyId_ =
-              io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
           } else {
             currencyId_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
        */
       public Builder clearCurrencyId() {
         if (currencyIdBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
         
         onChanged();
         return getCurrencyIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         if (currencyIdBuilder_ != null) {
           return currencyIdBuilder_.getMessageOrBuilder();
         } else {
           return currencyId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue currency_id = 5;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getCurrencyIdFieldBuilder() {
         if (currencyIdBuilder_ == null) {
           currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getCurrencyId(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue priceNodeCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue priceNodeCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> priceNodeCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public boolean hasPriceNodeCharacteristicId() {
         return priceNodeCharacteristicIdBuilder_ != null || priceNodeCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getPriceNodeCharacteristicId() {
+      public io.dstore.values.IntegerValue getPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
-          return priceNodeCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+          return priceNodeCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
         } else {
           return priceNodeCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
-      public Builder setPriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setPriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public Builder setPriceNodeCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           priceNodeCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
-      public Builder mergePriceNodeCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergePriceNodeCharacteristicId(io.dstore.values.IntegerValue value) {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           if (priceNodeCharacteristicId_ != null) {
             priceNodeCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(priceNodeCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             priceNodeCharacteristicId_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       public Builder clearPriceNodeCharacteristicId() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class OmCheckCampCondsForTNIDsAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPriceNodeCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPriceNodeCharacteristicIdBuilder() {
         
         onChanged();
         return getPriceNodeCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPriceNodeCharacteristicIdOrBuilder() {
         if (priceNodeCharacteristicIdBuilder_ != null) {
           return priceNodeCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return priceNodeCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : priceNodeCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : priceNodeCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue price_node_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue price_node_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPriceNodeCharacteristicIdFieldBuilder() {
         if (priceNodeCharacteristicIdBuilder_ == null) {
           priceNodeCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPriceNodeCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2139,7 +2139,7 @@ public final class OmCheckCampCondsForTNIDsAd {
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
        */
       boolean hasTreeNodeId();
       /**
@@ -2147,17 +2147,17 @@ public final class OmCheckCampCondsForTNIDsAd {
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getTreeNodeId();
+      io.dstore.values.IntegerValue getTreeNodeId();
       /**
        * <pre>
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_CheckCampCondsForTNIDs_Ad.Response.Row}
@@ -2205,11 +2205,11 @@ public final class OmCheckCampCondsForTNIDsAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -2250,13 +2250,13 @@ public final class OmCheckCampCondsForTNIDsAd {
       }
 
       public static final int TREE_NODE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue treeNodeId_;
+      private io.dstore.values.IntegerValue treeNodeId_;
       /**
        * <pre>
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
        */
       public boolean hasTreeNodeId() {
         return treeNodeId_ != null;
@@ -2266,19 +2266,19 @@ public final class OmCheckCampCondsForTNIDsAd {
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getTreeNodeId() {
-        return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+      public io.dstore.values.IntegerValue getTreeNodeId() {
+        return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
       }
       /**
        * <pre>
        * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
         return getTreeNodeId();
       }
 
@@ -2607,15 +2607,15 @@ public final class OmCheckCampCondsForTNIDsAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue treeNodeId_ = null;
+        private io.dstore.values.IntegerValue treeNodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> treeNodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> treeNodeIdBuilder_;
         /**
          * <pre>
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
          */
         public boolean hasTreeNodeId() {
           return treeNodeIdBuilder_ != null || treeNodeId_ != null;
@@ -2625,11 +2625,11 @@ public final class OmCheckCampCondsForTNIDsAd {
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getTreeNodeId() {
+        public io.dstore.values.IntegerValue getTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
-            return treeNodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+            return treeNodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           } else {
             return treeNodeIdBuilder_.getMessage();
           }
@@ -2639,9 +2639,9 @@ public final class OmCheckCampCondsForTNIDsAd {
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
          */
-        public Builder setTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder setTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2659,10 +2659,10 @@ public final class OmCheckCampCondsForTNIDsAd {
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
          */
         public Builder setTreeNodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (treeNodeIdBuilder_ == null) {
             treeNodeId_ = builderForValue.build();
             onChanged();
@@ -2677,13 +2677,13 @@ public final class OmCheckCampCondsForTNIDsAd {
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
          */
-        public Builder mergeTreeNodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeTreeNodeId(io.dstore.values.IntegerValue value) {
           if (treeNodeIdBuilder_ == null) {
             if (treeNodeId_ != null) {
               treeNodeId_ =
-                io.dstore.Values.integerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(treeNodeId_).mergeFrom(value).buildPartial();
             } else {
               treeNodeId_ = value;
             }
@@ -2699,7 +2699,7 @@ public final class OmCheckCampCondsForTNIDsAd {
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
          */
         public Builder clearTreeNodeId() {
           if (treeNodeIdBuilder_ == null) {
@@ -2717,9 +2717,9 @@ public final class OmCheckCampCondsForTNIDsAd {
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getTreeNodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getTreeNodeIdBuilder() {
           
           onChanged();
           return getTreeNodeIdFieldBuilder().getBuilder();
@@ -2729,14 +2729,14 @@ public final class OmCheckCampCondsForTNIDsAd {
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getTreeNodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getTreeNodeIdOrBuilder() {
           if (treeNodeIdBuilder_ != null) {
             return treeNodeIdBuilder_.getMessageOrBuilder();
           } else {
             return treeNodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : treeNodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : treeNodeId_;
           }
         }
         /**
@@ -2744,14 +2744,14 @@ public final class OmCheckCampCondsForTNIDsAd {
          * ID eines in "&#64;TreeNodeIDList" angegebenen Elementes im Artikelbaum, das die Bedingungen der "&#64;CampaignID" erfüllt
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue tree_node_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue tree_node_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getTreeNodeIdFieldBuilder() {
           if (treeNodeIdBuilder_ == null) {
             treeNodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getTreeNodeId(),
                     getParentForChildren(),
                     isClean());
@@ -4221,17 +4221,17 @@ public final class OmCheckCampCondsForTNIDsAd {
       "CheckCampCondsForTNIDs_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\206\004\n\nP" +
       "arameters\0225\n\021tree_node_id_list\030\001 \001(\0132\032.d" +
-      "store.values.stringValue\022\037\n\026tree_node_id" +
+      "store.values.StringValue\022\037\n\026tree_node_id" +
       "_list_null\030\351\007 \001(\010\0220\n\013campaign_id\030\002 \001(\0132\033" +
-      ".dstore.values.integerValue\022\031\n\020campaign_" +
+      ".dstore.values.IntegerValue\022\031\n\020campaign_" +
       "id_null\030\352\007 \001(\010\0221\n\rquantity_list\030\003 \001(\0132\032." +
-      "dstore.values.stringValue\022\033\n\022quantity_li",
+      "dstore.values.StringValue\022\033\n\022quantity_li",
       "st_null\030\353\007 \001(\010\022.\n\tperson_id\030\004 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\027\n\016person_id_null" +
+      "re.values.IntegerValue\022\027\n\016person_id_null" +
       "\030\354\007 \001(\010\0220\n\013currency_id\030\005 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\031\n\020currency_id_null\030\355\007" +
+      "lues.IntegerValue\022\031\n\020currency_id_null\030\355\007" +
       " \001(\010\022A\n\034price_node_characteristic_id\030\006 \001" +
-      "(\0132\033.dstore.values.integerValue\022*\n!price" +
+      "(\0132\033.dstore.values.IntegerValue\022*\n!price" +
       "_node_characteristic_id_null\030\356\007 \001(\010\"\200\002\n\010" +
       "Response\0228\n\020meta_information\030\002 \003(\0132\036.dst" +
       "ore.engine.MetaInformation\022\'\n\007message\030\003 " +
@@ -4239,7 +4239,7 @@ public final class OmCheckCampCondsForTNIDsAd {
       "28.dstore.engine.om_CheckCampCondsForTNI" +
       "Ds_Ad.Response.Row\032J\n\003Row\022\017\n\006row_id\030\220N \001" +
       "(\005\0222\n\014tree_node_id\030\221N \001(\0132\033.dstore.value" +
-      "s.integerValueB]\n\033io.dstore.engine.proce" +
+      "s.IntegerValueB]\n\033io.dstore.engine.proce" +
       "duresZ>gosdk.dstore.de/engine/procedures" +
       "/om_CheckCampCondsForTNIDs_Adb\006proto3"
     };
@@ -4254,7 +4254,7 @@ public final class OmCheckCampCondsForTNIDsAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_CheckCampCondsForTNIDs_Ad_Parameters_descriptor =
@@ -4275,7 +4275,7 @@ public final class OmCheckCampCondsForTNIDsAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_CheckCampCondsForTNIDs_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "TreeNodeId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

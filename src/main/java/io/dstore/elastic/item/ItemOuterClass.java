@@ -44,7 +44,7 @@ public final class ItemOuterClass {
       "\n\004node\030\001 \001(\0132#.dstore.elastic.item.item." +
       "Item.Node\0229\n\014variant_node\030\002 \003(\0132#.dstore" +
       ".elastic.item.item.Item.Node\0223\n\014last_upd" +
-      "ated\030\003 \001(\0132\035.dstore.values.timestampValu" +
+      "ated\030\003 \001(\0132\035.dstore.values.TimestampValu" +
       "e\022\r\n\005score\030\n \001(\001\022\022\n\nindex_name\030\013 \001(\t\022\023\n\013" +
       "document_id\030\014 \001(\t\032\215\002\n\004Node\022\023\n\013descriptio" +
       "n\030\001 \001(\t\022\024\n\014tree_node_id\030\002 \001(\005\022\016\n\006active\030",
@@ -69,7 +69,7 @@ public final class ItemOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.elastic.ElasticOuterClass.getDescriptor(),
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_item_item_Item_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -90,7 +90,7 @@ public final class ItemOuterClass {
         internal_static_dstore_elastic_item_item_Item_Node_FieldsEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
     io.dstore.elastic.ElasticOuterClass.getDescriptor();
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

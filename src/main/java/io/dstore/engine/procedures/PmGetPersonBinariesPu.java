@@ -19,17 +19,17 @@ public final class PmGetPersonBinariesPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetPersonBinariesPu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmGetPersonBinariesPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
     boolean hasCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
-    io.dstore.Values.booleanValue getCaseSensitive();
+    io.dstore.values.BooleanValue getCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder();
 
     /**
      * <code>optional bool case_sensitive_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class PmGetPersonBinariesPu {
     boolean getCaseSensitiveNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
     boolean hasPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
-    io.dstore.Values.integerValue getPersonId();
+    io.dstore.values.IntegerValue getPersonId();
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
     /**
      * <code>optional bool person_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class PmGetPersonBinariesPu {
     boolean getPersonIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+     * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
      */
     boolean hasIncludeBinaryCode();
     /**
-     * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+     * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
      */
-    io.dstore.Values.integerValue getIncludeBinaryCode();
+    io.dstore.values.IntegerValue getIncludeBinaryCode();
     /**
-     * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+     * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getIncludeBinaryCodeOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getIncludeBinaryCodeOrBuilder();
 
     /**
      * <code>optional bool include_binary_code_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class PmGetPersonBinariesPu {
     boolean getIncludeBinaryCodeNull();
 
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
      */
     boolean hasBinaryCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValue getBinaryCharacteristicId();
+    io.dstore.values.IntegerValue getBinaryCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool binary_characteristic_id_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class PmGetPersonBinariesPu {
     boolean getBinaryCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue value = 7;</code>
+     * <code>optional .dstore.values.StringValue value = 7;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 7;</code>
+     * <code>optional .dstore.values.StringValue value = 7;</code>
      */
-    io.dstore.Values.stringValue getValue();
+    io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 7;</code>
+     * <code>optional .dstore.values.StringValue value = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
      * <code>optional bool value_null = 1007;</code>
@@ -191,11 +191,11 @@ public final class PmGetPersonBinariesPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -204,11 +204,11 @@ public final class PmGetPersonBinariesPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -217,11 +217,11 @@ public final class PmGetPersonBinariesPu {
               break;
             }
             case 26: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (caseSensitive_ != null) {
                 subBuilder = caseSensitive_.toBuilder();
               }
-              caseSensitive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              caseSensitive_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(caseSensitive_);
                 caseSensitive_ = subBuilder.buildPartial();
@@ -230,11 +230,11 @@ public final class PmGetPersonBinariesPu {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -243,11 +243,11 @@ public final class PmGetPersonBinariesPu {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (includeBinaryCode_ != null) {
                 subBuilder = includeBinaryCode_.toBuilder();
               }
-              includeBinaryCode_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              includeBinaryCode_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeBinaryCode_);
                 includeBinaryCode_ = subBuilder.buildPartial();
@@ -256,11 +256,11 @@ public final class PmGetPersonBinariesPu {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (binaryCharacteristicId_ != null) {
                 subBuilder = binaryCharacteristicId_.toBuilder();
               }
-              binaryCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              binaryCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCharacteristicId_);
                 binaryCharacteristicId_ = subBuilder.buildPartial();
@@ -269,11 +269,11 @@ public final class PmGetPersonBinariesPu {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -340,23 +340,23 @@ public final class PmGetPersonBinariesPu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -370,23 +370,23 @@ public final class PmGetPersonBinariesPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -400,23 +400,23 @@ public final class PmGetPersonBinariesPu {
     }
 
     public static final int CASE_SENSITIVE_FIELD_NUMBER = 3;
-    private io.dstore.Values.booleanValue caseSensitive_;
+    private io.dstore.values.BooleanValue caseSensitive_;
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
     public boolean hasCaseSensitive() {
       return caseSensitive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
-    public io.dstore.Values.booleanValue getCaseSensitive() {
-      return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+    public io.dstore.values.BooleanValue getCaseSensitive() {
+      return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
       return getCaseSensitive();
     }
 
@@ -430,23 +430,23 @@ public final class PmGetPersonBinariesPu {
     }
 
     public static final int PERSON_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue personId_;
+    private io.dstore.values.IntegerValue personId_;
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
     public boolean hasPersonId() {
       return personId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getPersonId() {
-      return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+    public io.dstore.values.IntegerValue getPersonId() {
+      return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
       return getPersonId();
     }
 
@@ -460,23 +460,23 @@ public final class PmGetPersonBinariesPu {
     }
 
     public static final int INCLUDE_BINARY_CODE_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue includeBinaryCode_;
+    private io.dstore.values.IntegerValue includeBinaryCode_;
     /**
-     * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+     * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
      */
     public boolean hasIncludeBinaryCode() {
       return includeBinaryCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+     * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
      */
-    public io.dstore.Values.integerValue getIncludeBinaryCode() {
-      return includeBinaryCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : includeBinaryCode_;
+    public io.dstore.values.IntegerValue getIncludeBinaryCode() {
+      return includeBinaryCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : includeBinaryCode_;
     }
     /**
-     * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+     * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getIncludeBinaryCodeOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getIncludeBinaryCodeOrBuilder() {
       return getIncludeBinaryCode();
     }
 
@@ -490,23 +490,23 @@ public final class PmGetPersonBinariesPu {
     }
 
     public static final int BINARY_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue binaryCharacteristicId_;
+    private io.dstore.values.IntegerValue binaryCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
      */
     public boolean hasBinaryCharacteristicId() {
       return binaryCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getBinaryCharacteristicId() {
-      return binaryCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicId_;
+    public io.dstore.values.IntegerValue getBinaryCharacteristicId() {
+      return binaryCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
       return getBinaryCharacteristicId();
     }
 
@@ -520,23 +520,23 @@ public final class PmGetPersonBinariesPu {
     }
 
     public static final int VALUE_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue value_;
+    private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.stringValue value = 7;</code>
+     * <code>optional .dstore.values.StringValue value = 7;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 7;</code>
+     * <code>optional .dstore.values.StringValue value = 7;</code>
      */
-    public io.dstore.Values.stringValue getValue() {
-      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    public io.dstore.values.StringValue getValue() {
+      return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 7;</code>
+     * <code>optional .dstore.values.StringValue value = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -1137,29 +1137,29 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1173,10 +1173,10 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1187,13 +1187,13 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1205,7 +1205,7 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1219,33 +1219,33 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 1;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1280,29 +1280,29 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1316,10 +1316,10 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1330,13 +1330,13 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1348,7 +1348,7 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1362,33 +1362,33 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1423,29 +1423,29 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue caseSensitive_ = null;
+      private io.dstore.values.BooleanValue caseSensitive_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> caseSensitiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
       public boolean hasCaseSensitive() {
         return caseSensitiveBuilder_ != null || caseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public io.dstore.Values.booleanValue getCaseSensitive() {
+      public io.dstore.values.BooleanValue getCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
-          return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+          return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         } else {
           return caseSensitiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public Builder setCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder setCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1459,10 +1459,10 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
       public Builder setCaseSensitive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (caseSensitiveBuilder_ == null) {
           caseSensitive_ = builderForValue.build();
           onChanged();
@@ -1473,13 +1473,13 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public Builder mergeCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder mergeCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (caseSensitive_ != null) {
             caseSensitive_ =
-              io.dstore.Values.booleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
           } else {
             caseSensitive_ = value;
           }
@@ -1491,7 +1491,7 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
       public Builder clearCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
@@ -1505,33 +1505,33 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCaseSensitiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCaseSensitiveBuilder() {
         
         onChanged();
         return getCaseSensitiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
         if (caseSensitiveBuilder_ != null) {
           return caseSensitiveBuilder_.getMessageOrBuilder();
         } else {
           return caseSensitive_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 3;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
           caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
                   isClean());
@@ -1566,29 +1566,29 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personId_ = null;
+      private io.dstore.values.IntegerValue personId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
       public boolean hasPersonId() {
         return personIdBuilder_ != null || personId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
+      public io.dstore.values.IntegerValue getPersonId() {
         if (personIdBuilder_ == null) {
-          return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+          return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         } else {
           return personIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public Builder setPersonId(io.dstore.Values.integerValue value) {
+      public Builder setPersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1602,10 +1602,10 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
       public Builder setPersonId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personIdBuilder_ == null) {
           personId_ = builderForValue.build();
           onChanged();
@@ -1616,13 +1616,13 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public Builder mergePersonId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonId(io.dstore.values.IntegerValue value) {
         if (personIdBuilder_ == null) {
           if (personId_ != null) {
             personId_ =
-              io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
           } else {
             personId_ = value;
           }
@@ -1634,7 +1634,7 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
       public Builder clearPersonId() {
         if (personIdBuilder_ == null) {
@@ -1648,33 +1648,33 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
         
         onChanged();
         return getPersonIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         if (personIdBuilder_ != null) {
           return personIdBuilder_.getMessageOrBuilder();
         } else {
           return personId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonIdFieldBuilder() {
         if (personIdBuilder_ == null) {
           personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonId(),
                   getParentForChildren(),
                   isClean());
@@ -1709,29 +1709,29 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue includeBinaryCode_ = null;
+      private io.dstore.values.IntegerValue includeBinaryCode_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> includeBinaryCodeBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> includeBinaryCodeBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+       * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
        */
       public boolean hasIncludeBinaryCode() {
         return includeBinaryCodeBuilder_ != null || includeBinaryCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+       * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
        */
-      public io.dstore.Values.integerValue getIncludeBinaryCode() {
+      public io.dstore.values.IntegerValue getIncludeBinaryCode() {
         if (includeBinaryCodeBuilder_ == null) {
-          return includeBinaryCode_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : includeBinaryCode_;
+          return includeBinaryCode_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : includeBinaryCode_;
         } else {
           return includeBinaryCodeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+       * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
        */
-      public Builder setIncludeBinaryCode(io.dstore.Values.integerValue value) {
+      public Builder setIncludeBinaryCode(io.dstore.values.IntegerValue value) {
         if (includeBinaryCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1745,10 +1745,10 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+       * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
        */
       public Builder setIncludeBinaryCode(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (includeBinaryCodeBuilder_ == null) {
           includeBinaryCode_ = builderForValue.build();
           onChanged();
@@ -1759,13 +1759,13 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+       * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
        */
-      public Builder mergeIncludeBinaryCode(io.dstore.Values.integerValue value) {
+      public Builder mergeIncludeBinaryCode(io.dstore.values.IntegerValue value) {
         if (includeBinaryCodeBuilder_ == null) {
           if (includeBinaryCode_ != null) {
             includeBinaryCode_ =
-              io.dstore.Values.integerValue.newBuilder(includeBinaryCode_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(includeBinaryCode_).mergeFrom(value).buildPartial();
           } else {
             includeBinaryCode_ = value;
           }
@@ -1777,7 +1777,7 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+       * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
        */
       public Builder clearIncludeBinaryCode() {
         if (includeBinaryCodeBuilder_ == null) {
@@ -1791,33 +1791,33 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+       * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getIncludeBinaryCodeBuilder() {
+      public io.dstore.values.IntegerValue.Builder getIncludeBinaryCodeBuilder() {
         
         onChanged();
         return getIncludeBinaryCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+       * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getIncludeBinaryCodeOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getIncludeBinaryCodeOrBuilder() {
         if (includeBinaryCodeBuilder_ != null) {
           return includeBinaryCodeBuilder_.getMessageOrBuilder();
         } else {
           return includeBinaryCode_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : includeBinaryCode_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : includeBinaryCode_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue include_binary_code = 5;</code>
+       * <code>optional .dstore.values.IntegerValue include_binary_code = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getIncludeBinaryCodeFieldBuilder() {
         if (includeBinaryCodeBuilder_ == null) {
           includeBinaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getIncludeBinaryCode(),
                   getParentForChildren(),
                   isClean());
@@ -1852,29 +1852,29 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue binaryCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue binaryCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
        */
       public boolean hasBinaryCharacteristicId() {
         return binaryCharacteristicIdBuilder_ != null || binaryCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCharacteristicId() {
+      public io.dstore.values.IntegerValue getBinaryCharacteristicId() {
         if (binaryCharacteristicIdBuilder_ == null) {
-          return binaryCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicId_;
+          return binaryCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicId_;
         } else {
           return binaryCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
        */
-      public Builder setBinaryCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setBinaryCharacteristicId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1888,10 +1888,10 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
        */
       public Builder setBinaryCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (binaryCharacteristicIdBuilder_ == null) {
           binaryCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1902,13 +1902,13 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
        */
-      public Builder mergeBinaryCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeBinaryCharacteristicId(io.dstore.values.IntegerValue value) {
         if (binaryCharacteristicIdBuilder_ == null) {
           if (binaryCharacteristicId_ != null) {
             binaryCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(binaryCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(binaryCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             binaryCharacteristicId_ = value;
           }
@@ -1920,7 +1920,7 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
        */
       public Builder clearBinaryCharacteristicId() {
         if (binaryCharacteristicIdBuilder_ == null) {
@@ -1934,33 +1934,33 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBinaryCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBinaryCharacteristicIdBuilder() {
         
         onChanged();
         return getBinaryCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCharacteristicIdOrBuilder() {
         if (binaryCharacteristicIdBuilder_ != null) {
           return binaryCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return binaryCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : binaryCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : binaryCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue binary_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue binary_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBinaryCharacteristicIdFieldBuilder() {
         if (binaryCharacteristicIdBuilder_ == null) {
           binaryCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBinaryCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1995,29 +1995,29 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue value_ = null;
+      private io.dstore.values.StringValue value_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue value = 7;</code>
+       * <code>optional .dstore.values.StringValue value = 7;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 7;</code>
+       * <code>optional .dstore.values.StringValue value = 7;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
+      public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 7;</code>
+       * <code>optional .dstore.values.StringValue value = 7;</code>
        */
-      public Builder setValue(io.dstore.Values.stringValue value) {
+      public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2031,10 +2031,10 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 7;</code>
+       * <code>optional .dstore.values.StringValue value = 7;</code>
        */
       public Builder setValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -2045,13 +2045,13 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 7;</code>
+       * <code>optional .dstore.values.StringValue value = 7;</code>
        */
-      public Builder mergeValue(io.dstore.Values.stringValue value) {
+      public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -2063,7 +2063,7 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 7;</code>
+       * <code>optional .dstore.values.StringValue value = 7;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -2077,33 +2077,33 @@ public final class PmGetPersonBinariesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 7;</code>
+       * <code>optional .dstore.values.StringValue value = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+      public io.dstore.values.StringValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 7;</code>
+       * <code>optional .dstore.values.StringValue value = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+              io.dstore.values.StringValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 7;</code>
+       * <code>optional .dstore.values.StringValue value = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -2397,7 +2397,7 @@ public final class PmGetPersonBinariesPu {
        * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
       boolean hasPersonId();
       /**
@@ -2405,24 +2405,24 @@ public final class PmGetPersonBinariesPu {
        * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getPersonId();
+      io.dstore.values.IntegerValue getPersonId();
       /**
        * <pre>
        * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung/Beschreibung der "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
        */
       boolean hasBinaryDescription();
       /**
@@ -2430,24 +2430,24 @@ public final class PmGetPersonBinariesPu {
        * Bezeichnung/Beschreibung der "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
        */
-      io.dstore.Values.stringValue getBinaryDescription();
+      io.dstore.values.StringValue getBinaryDescription();
       /**
        * <pre>
        * Bezeichnung/Beschreibung der "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder();
 
       /**
        * <pre>
        * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
       boolean hasBinaryCodeId();
       /**
@@ -2455,24 +2455,24 @@ public final class PmGetPersonBinariesPu {
        * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getBinaryCodeId();
+      io.dstore.values.IntegerValue getBinaryCodeId();
       /**
        * <pre>
        * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder();
 
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
        */
       boolean hasThumbnailCode();
       /**
@@ -2480,24 +2480,24 @@ public final class PmGetPersonBinariesPu {
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
        */
-      io.dstore.Values.bytesValue getThumbnailCode();
+      io.dstore.values.BytesValue getThumbnailCode();
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
        */
-      io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder();
+      io.dstore.values.BytesValueOrBuilder getThumbnailCodeOrBuilder();
 
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
        */
       boolean hasBinaryCode();
       /**
@@ -2505,17 +2505,17 @@ public final class PmGetPersonBinariesPu {
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
        */
-      io.dstore.Values.bytesValue getBinaryCode();
+      io.dstore.values.BytesValue getBinaryCode();
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
        */
-      io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder();
+      io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetPersonBinaries_Pu.Response.Row}
@@ -2563,11 +2563,11 @@ public final class PmGetPersonBinariesPu {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                personId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -2576,11 +2576,11 @@ public final class PmGetPersonBinariesPu {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (binaryDescription_ != null) {
                   subBuilder = binaryDescription_.toBuilder();
                 }
-                binaryDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                binaryDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryDescription_);
                   binaryDescription_ = subBuilder.buildPartial();
@@ -2589,11 +2589,11 @@ public final class PmGetPersonBinariesPu {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (binaryCodeId_ != null) {
                   subBuilder = binaryCodeId_.toBuilder();
                 }
-                binaryCodeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                binaryCodeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCodeId_);
                   binaryCodeId_ = subBuilder.buildPartial();
@@ -2602,11 +2602,11 @@ public final class PmGetPersonBinariesPu {
                 break;
               }
               case 80034: {
-                io.dstore.Values.bytesValue.Builder subBuilder = null;
+                io.dstore.values.BytesValue.Builder subBuilder = null;
                 if (thumbnailCode_ != null) {
                   subBuilder = thumbnailCode_.toBuilder();
                 }
-                thumbnailCode_ = input.readMessage(io.dstore.Values.bytesValue.parser(), extensionRegistry);
+                thumbnailCode_ = input.readMessage(io.dstore.values.BytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(thumbnailCode_);
                   thumbnailCode_ = subBuilder.buildPartial();
@@ -2615,11 +2615,11 @@ public final class PmGetPersonBinariesPu {
                 break;
               }
               case 80042: {
-                io.dstore.Values.bytesValue.Builder subBuilder = null;
+                io.dstore.values.BytesValue.Builder subBuilder = null;
                 if (binaryCode_ != null) {
                   subBuilder = binaryCode_.toBuilder();
                 }
-                binaryCode_ = input.readMessage(io.dstore.Values.bytesValue.parser(), extensionRegistry);
+                binaryCode_ = input.readMessage(io.dstore.values.BytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCode_);
                   binaryCode_ = subBuilder.buildPartial();
@@ -2660,13 +2660,13 @@ public final class PmGetPersonBinariesPu {
       }
 
       public static final int PERSON_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue personId_;
+      private io.dstore.values.IntegerValue personId_;
       /**
        * <pre>
        * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
       public boolean hasPersonId() {
         return personId_ != null;
@@ -2676,30 +2676,30 @@ public final class PmGetPersonBinariesPu {
        * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getPersonId() {
-        return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+      public io.dstore.values.IntegerValue getPersonId() {
+        return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
       }
       /**
        * <pre>
        * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
         return getPersonId();
       }
 
       public static final int BINARY_DESCRIPTION_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue binaryDescription_;
+      private io.dstore.values.StringValue binaryDescription_;
       /**
        * <pre>
        * Bezeichnung/Beschreibung der "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
        */
       public boolean hasBinaryDescription() {
         return binaryDescription_ != null;
@@ -2709,30 +2709,30 @@ public final class PmGetPersonBinariesPu {
        * Bezeichnung/Beschreibung der "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
        */
-      public io.dstore.Values.stringValue getBinaryDescription() {
-        return binaryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryDescription_;
+      public io.dstore.values.StringValue getBinaryDescription() {
+        return binaryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryDescription_;
       }
       /**
        * <pre>
        * Bezeichnung/Beschreibung der "BinaryCodeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+       * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
         return getBinaryDescription();
       }
 
       public static final int BINARY_CODE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue binaryCodeId_;
+      private io.dstore.values.IntegerValue binaryCodeId_;
       /**
        * <pre>
        * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
       public boolean hasBinaryCodeId() {
         return binaryCodeId_ != null;
@@ -2742,30 +2742,30 @@ public final class PmGetPersonBinariesPu {
        * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getBinaryCodeId() {
-        return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+      public io.dstore.values.IntegerValue getBinaryCodeId() {
+        return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
       }
       /**
        * <pre>
        * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
         return getBinaryCodeId();
       }
 
       public static final int THUMBNAIL_CODE_FIELD_NUMBER = 10004;
-      private io.dstore.Values.bytesValue thumbnailCode_;
+      private io.dstore.values.BytesValue thumbnailCode_;
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
        */
       public boolean hasThumbnailCode() {
         return thumbnailCode_ != null;
@@ -2775,30 +2775,30 @@ public final class PmGetPersonBinariesPu {
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
        */
-      public io.dstore.Values.bytesValue getThumbnailCode() {
-        return thumbnailCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
+      public io.dstore.values.BytesValue getThumbnailCode() {
+        return thumbnailCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : thumbnailCode_;
       }
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
        */
-      public io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
+      public io.dstore.values.BytesValueOrBuilder getThumbnailCodeOrBuilder() {
         return getThumbnailCode();
       }
 
       public static final int BINARY_CODE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.bytesValue binaryCode_;
+      private io.dstore.values.BytesValue binaryCode_;
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
        */
       public boolean hasBinaryCode() {
         return binaryCode_ != null;
@@ -2808,19 +2808,19 @@ public final class PmGetPersonBinariesPu {
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
        */
-      public io.dstore.Values.bytesValue getBinaryCode() {
-        return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+      public io.dstore.values.BytesValue getBinaryCode() {
+        return binaryCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
       }
       /**
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
        * </pre>
        *
-       * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+       * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
        */
-      public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
+      public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
       }
 
@@ -3269,15 +3269,15 @@ public final class PmGetPersonBinariesPu {
           return this;
         }
 
-        private io.dstore.Values.integerValue personId_ = null;
+        private io.dstore.values.IntegerValue personId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personIdBuilder_;
         /**
          * <pre>
          * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
         public boolean hasPersonId() {
           return personIdBuilder_ != null || personId_ != null;
@@ -3287,11 +3287,11 @@ public final class PmGetPersonBinariesPu {
          * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getPersonId() {
+        public io.dstore.values.IntegerValue getPersonId() {
           if (personIdBuilder_ == null) {
-            return personId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+            return personId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           } else {
             return personIdBuilder_.getMessage();
           }
@@ -3301,9 +3301,9 @@ public final class PmGetPersonBinariesPu {
          * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public Builder setPersonId(io.dstore.Values.integerValue value) {
+        public Builder setPersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3321,10 +3321,10 @@ public final class PmGetPersonBinariesPu {
          * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
         public Builder setPersonId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (personIdBuilder_ == null) {
             personId_ = builderForValue.build();
             onChanged();
@@ -3339,13 +3339,13 @@ public final class PmGetPersonBinariesPu {
          * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public Builder mergePersonId(io.dstore.Values.integerValue value) {
+        public Builder mergePersonId(io.dstore.values.IntegerValue value) {
           if (personIdBuilder_ == null) {
             if (personId_ != null) {
               personId_ =
-                io.dstore.Values.integerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(personId_).mergeFrom(value).buildPartial();
             } else {
               personId_ = value;
             }
@@ -3361,7 +3361,7 @@ public final class PmGetPersonBinariesPu {
          * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
         public Builder clearPersonId() {
           if (personIdBuilder_ == null) {
@@ -3379,9 +3379,9 @@ public final class PmGetPersonBinariesPu {
          * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getPersonIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getPersonIdBuilder() {
           
           onChanged();
           return getPersonIdFieldBuilder().getBuilder();
@@ -3391,14 +3391,14 @@ public final class PmGetPersonBinariesPu {
          * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getPersonIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getPersonIdOrBuilder() {
           if (personIdBuilder_ != null) {
             return personIdBuilder_.getMessageOrBuilder();
           } else {
             return personId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : personId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : personId_;
           }
         }
         /**
@@ -3406,14 +3406,14 @@ public final class PmGetPersonBinariesPu {
          * ID der identifizierten Person, falls "&#64;PersonID" nicht angegeben wurde, sonst "&#64;PersonID"
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue person_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue person_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getPersonIdFieldBuilder() {
           if (personIdBuilder_ == null) {
             personIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getPersonId(),
                     getParentForChildren(),
                     isClean());
@@ -3422,15 +3422,15 @@ public final class PmGetPersonBinariesPu {
           return personIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue binaryDescription_ = null;
+        private io.dstore.values.StringValue binaryDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> binaryDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> binaryDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung/Beschreibung der "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
          */
         public boolean hasBinaryDescription() {
           return binaryDescriptionBuilder_ != null || binaryDescription_ != null;
@@ -3440,11 +3440,11 @@ public final class PmGetPersonBinariesPu {
          * Bezeichnung/Beschreibung der "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue getBinaryDescription() {
+        public io.dstore.values.StringValue getBinaryDescription() {
           if (binaryDescriptionBuilder_ == null) {
-            return binaryDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : binaryDescription_;
+            return binaryDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : binaryDescription_;
           } else {
             return binaryDescriptionBuilder_.getMessage();
           }
@@ -3454,9 +3454,9 @@ public final class PmGetPersonBinariesPu {
          * Bezeichnung/Beschreibung der "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
          */
-        public Builder setBinaryDescription(io.dstore.Values.stringValue value) {
+        public Builder setBinaryDescription(io.dstore.values.StringValue value) {
           if (binaryDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3474,10 +3474,10 @@ public final class PmGetPersonBinariesPu {
          * Bezeichnung/Beschreibung der "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
          */
         public Builder setBinaryDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (binaryDescriptionBuilder_ == null) {
             binaryDescription_ = builderForValue.build();
             onChanged();
@@ -3492,13 +3492,13 @@ public final class PmGetPersonBinariesPu {
          * Bezeichnung/Beschreibung der "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
          */
-        public Builder mergeBinaryDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeBinaryDescription(io.dstore.values.StringValue value) {
           if (binaryDescriptionBuilder_ == null) {
             if (binaryDescription_ != null) {
               binaryDescription_ =
-                io.dstore.Values.stringValue.newBuilder(binaryDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(binaryDescription_).mergeFrom(value).buildPartial();
             } else {
               binaryDescription_ = value;
             }
@@ -3514,7 +3514,7 @@ public final class PmGetPersonBinariesPu {
          * Bezeichnung/Beschreibung der "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
          */
         public Builder clearBinaryDescription() {
           if (binaryDescriptionBuilder_ == null) {
@@ -3532,9 +3532,9 @@ public final class PmGetPersonBinariesPu {
          * Bezeichnung/Beschreibung der "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBinaryDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getBinaryDescriptionBuilder() {
           
           onChanged();
           return getBinaryDescriptionFieldBuilder().getBuilder();
@@ -3544,14 +3544,14 @@ public final class PmGetPersonBinariesPu {
          * Bezeichnung/Beschreibung der "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBinaryDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBinaryDescriptionOrBuilder() {
           if (binaryDescriptionBuilder_ != null) {
             return binaryDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return binaryDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : binaryDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : binaryDescription_;
           }
         }
         /**
@@ -3559,14 +3559,14 @@ public final class PmGetPersonBinariesPu {
          * Bezeichnung/Beschreibung der "BinaryCodeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue binary_description = 10002;</code>
+         * <code>optional .dstore.values.StringValue binary_description = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBinaryDescriptionFieldBuilder() {
           if (binaryDescriptionBuilder_ == null) {
             binaryDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBinaryDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3575,15 +3575,15 @@ public final class PmGetPersonBinariesPu {
           return binaryDescriptionBuilder_;
         }
 
-        private io.dstore.Values.integerValue binaryCodeId_ = null;
+        private io.dstore.values.IntegerValue binaryCodeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> binaryCodeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> binaryCodeIdBuilder_;
         /**
          * <pre>
          * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
         public boolean hasBinaryCodeId() {
           return binaryCodeIdBuilder_ != null || binaryCodeId_ != null;
@@ -3593,11 +3593,11 @@ public final class PmGetPersonBinariesPu {
          * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getBinaryCodeId() {
+        public io.dstore.values.IntegerValue getBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
-            return binaryCodeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+            return binaryCodeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           } else {
             return binaryCodeIdBuilder_.getMessage();
           }
@@ -3607,9 +3607,9 @@ public final class PmGetPersonBinariesPu {
          * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public Builder setBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder setBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3627,10 +3627,10 @@ public final class PmGetPersonBinariesPu {
          * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
         public Builder setBinaryCodeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeId_ = builderForValue.build();
             onChanged();
@@ -3645,13 +3645,13 @@ public final class PmGetPersonBinariesPu {
          * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public Builder mergeBinaryCodeId(io.dstore.Values.integerValue value) {
+        public Builder mergeBinaryCodeId(io.dstore.values.IntegerValue value) {
           if (binaryCodeIdBuilder_ == null) {
             if (binaryCodeId_ != null) {
               binaryCodeId_ =
-                io.dstore.Values.integerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(binaryCodeId_).mergeFrom(value).buildPartial();
             } else {
               binaryCodeId_ = value;
             }
@@ -3667,7 +3667,7 @@ public final class PmGetPersonBinariesPu {
          * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
         public Builder clearBinaryCodeId() {
           if (binaryCodeIdBuilder_ == null) {
@@ -3685,9 +3685,9 @@ public final class PmGetPersonBinariesPu {
          * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBinaryCodeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBinaryCodeIdBuilder() {
           
           onChanged();
           return getBinaryCodeIdFieldBuilder().getBuilder();
@@ -3697,14 +3697,14 @@ public final class PmGetPersonBinariesPu {
          * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBinaryCodeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBinaryCodeIdOrBuilder() {
           if (binaryCodeIdBuilder_ != null) {
             return binaryCodeIdBuilder_.getMessageOrBuilder();
           } else {
             return binaryCodeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : binaryCodeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : binaryCodeId_;
           }
         }
         /**
@@ -3712,14 +3712,14 @@ public final class PmGetPersonBinariesPu {
          * ID eines "Binaries", das der Person "PersonID" zugeordnet ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue binary_code_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue binary_code_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBinaryCodeIdFieldBuilder() {
           if (binaryCodeIdBuilder_ == null) {
             binaryCodeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBinaryCodeId(),
                     getParentForChildren(),
                     isClean());
@@ -3728,15 +3728,15 @@ public final class PmGetPersonBinariesPu {
           return binaryCodeIdBuilder_;
         }
 
-        private io.dstore.Values.bytesValue thumbnailCode_ = null;
+        private io.dstore.values.BytesValue thumbnailCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> thumbnailCodeBuilder_;
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> thumbnailCodeBuilder_;
         /**
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
          */
         public boolean hasThumbnailCode() {
           return thumbnailCodeBuilder_ != null || thumbnailCode_ != null;
@@ -3746,11 +3746,11 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
          */
-        public io.dstore.Values.bytesValue getThumbnailCode() {
+        public io.dstore.values.BytesValue getThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
-            return thumbnailCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
+            return thumbnailCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : thumbnailCode_;
           } else {
             return thumbnailCodeBuilder_.getMessage();
           }
@@ -3760,9 +3760,9 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
          */
-        public Builder setThumbnailCode(io.dstore.Values.bytesValue value) {
+        public Builder setThumbnailCode(io.dstore.values.BytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3780,10 +3780,10 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
          */
         public Builder setThumbnailCode(
-            io.dstore.Values.bytesValue.Builder builderForValue) {
+            io.dstore.values.BytesValue.Builder builderForValue) {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCode_ = builderForValue.build();
             onChanged();
@@ -3798,13 +3798,13 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
          */
-        public Builder mergeThumbnailCode(io.dstore.Values.bytesValue value) {
+        public Builder mergeThumbnailCode(io.dstore.values.BytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (thumbnailCode_ != null) {
               thumbnailCode_ =
-                io.dstore.Values.bytesValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.BytesValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
             } else {
               thumbnailCode_ = value;
             }
@@ -3820,7 +3820,7 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
          */
         public Builder clearThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
@@ -3838,9 +3838,9 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
          */
-        public io.dstore.Values.bytesValue.Builder getThumbnailCodeBuilder() {
+        public io.dstore.values.BytesValue.Builder getThumbnailCodeBuilder() {
           
           onChanged();
           return getThumbnailCodeFieldBuilder().getBuilder();
@@ -3850,14 +3850,14 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
          */
-        public io.dstore.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
+        public io.dstore.values.BytesValueOrBuilder getThumbnailCodeOrBuilder() {
           if (thumbnailCodeBuilder_ != null) {
             return thumbnailCodeBuilder_.getMessageOrBuilder();
           } else {
             return thumbnailCode_ == null ?
-                io.dstore.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
+                io.dstore.values.BytesValue.getDefaultInstance() : thumbnailCode_;
           }
         }
         /**
@@ -3865,14 +3865,14 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.values.BytesValue thumbnail_code = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
             getThumbnailCodeFieldBuilder() {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
+                io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder>(
                     getThumbnailCode(),
                     getParentForChildren(),
                     isClean());
@@ -3881,15 +3881,15 @@ public final class PmGetPersonBinariesPu {
           return thumbnailCodeBuilder_;
         }
 
-        private io.dstore.Values.bytesValue binaryCode_ = null;
+        private io.dstore.values.BytesValue binaryCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> binaryCodeBuilder_;
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> binaryCodeBuilder_;
         /**
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
          */
         public boolean hasBinaryCode() {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
@@ -3899,11 +3899,11 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
          */
-        public io.dstore.Values.bytesValue getBinaryCode() {
+        public io.dstore.values.BytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
-            return binaryCode_ == null ? io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+            return binaryCode_ == null ? io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
           } else {
             return binaryCodeBuilder_.getMessage();
           }
@@ -3913,9 +3913,9 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
          */
-        public Builder setBinaryCode(io.dstore.Values.bytesValue value) {
+        public Builder setBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3933,10 +3933,10 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
          */
         public Builder setBinaryCode(
-            io.dstore.Values.bytesValue.Builder builderForValue) {
+            io.dstore.values.BytesValue.Builder builderForValue) {
           if (binaryCodeBuilder_ == null) {
             binaryCode_ = builderForValue.build();
             onChanged();
@@ -3951,13 +3951,13 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
          */
-        public Builder mergeBinaryCode(io.dstore.Values.bytesValue value) {
+        public Builder mergeBinaryCode(io.dstore.values.BytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (binaryCode_ != null) {
               binaryCode_ =
-                io.dstore.Values.bytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.BytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
             } else {
               binaryCode_ = value;
             }
@@ -3973,7 +3973,7 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
          */
         public Builder clearBinaryCode() {
           if (binaryCodeBuilder_ == null) {
@@ -3991,9 +3991,9 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
          */
-        public io.dstore.Values.bytesValue.Builder getBinaryCodeBuilder() {
+        public io.dstore.values.BytesValue.Builder getBinaryCodeBuilder() {
           
           onChanged();
           return getBinaryCodeFieldBuilder().getBuilder();
@@ -4003,14 +4003,14 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
          */
-        public io.dstore.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
+        public io.dstore.values.BytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
             return binaryCodeBuilder_.getMessageOrBuilder();
           } else {
             return binaryCode_ == null ?
-                io.dstore.Values.bytesValue.getDefaultInstance() : binaryCode_;
+                io.dstore.values.BytesValue.getDefaultInstance() : binaryCode_;
           }
         }
         /**
@@ -4018,14 +4018,14 @@ public final class PmGetPersonBinariesPu {
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Kann je nach "&#64;IncludeBinaryCode" "NULL" sein.
          * </pre>
          *
-         * <code>optional .dstore.values.bytesValue binary_code = 10005;</code>
+         * <code>optional .dstore.values.BytesValue binary_code = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder> 
+            io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder> 
             getBinaryCodeFieldBuilder() {
           if (binaryCodeBuilder_ == null) {
             binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.bytesValue, io.dstore.Values.bytesValue.Builder, io.dstore.Values.bytesValueOrBuilder>(
+                io.dstore.values.BytesValue, io.dstore.values.BytesValue.Builder, io.dstore.values.BytesValueOrBuilder>(
                     getBinaryCode(),
                     getParentForChildren(),
                     isClean());
@@ -5495,32 +5495,32 @@ public final class PmGetPersonBinariesPu {
       "rsonBinaries_Pu\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\355\004\n\nParameters\022" +
       "@\n\034person_identification_values\030\001 \001(\0132\032." +
-      "dstore.values.stringValue\022*\n!person_iden" +
+      "dstore.values.StringValue\022*\n!person_iden" +
       "tification_values_null\030\351\007 \001(\010\0223\n\016person_" +
-      "type_id\030\002 \001(\0132\033.dstore.values.integerVal" +
+      "type_id\030\002 \001(\0132\033.dstore.values.IntegerVal" +
       "ue\022\034\n\023person_type_id_null\030\352\007 \001(\010\0223\n\016case" +
-      "_sensitive\030\003 \001(\0132\033.dstore.values.boolean",
+      "_sensitive\030\003 \001(\0132\033.dstore.values.Boolean",
       "Value\022\034\n\023case_sensitive_null\030\353\007 \001(\010\022.\n\tp" +
-      "erson_id\030\004 \001(\0132\033.dstore.values.integerVa" +
+      "erson_id\030\004 \001(\0132\033.dstore.values.IntegerVa" +
       "lue\022\027\n\016person_id_null\030\354\007 \001(\010\0228\n\023include_" +
-      "binary_code\030\005 \001(\0132\033.dstore.values.intege" +
+      "binary_code\030\005 \001(\0132\033.dstore.values.Intege" +
       "rValue\022!\n\030include_binary_code_null\030\355\007 \001(" +
       "\010\022=\n\030binary_characteristic_id\030\006 \001(\0132\033.ds" +
-      "tore.values.integerValue\022&\n\035binary_chara" +
+      "tore.values.IntegerValue\022&\n\035binary_chara" +
       "cteristic_id_null\030\356\007 \001(\010\022)\n\005value\030\007 \001(\0132" +
-      "\032.dstore.values.stringValue\022\023\n\nvalue_nul" +
+      "\032.dstore.values.StringValue\022\023\n\nvalue_nul" +
       "l\030\357\007 \001(\010\"\315\003\n\010Response\0228\n\020meta_informatio",
       "n\030\002 \003(\0132\036.dstore.engine.MetaInformation\022" +
       "\'\n\007message\030\003 \003(\0132\026.dstore.engine.Message" +
       "\022@\n\003row\030\004 \003(\01323.dstore.engine.pm_GetPers" +
       "onBinaries_Pu.Response.Row\032\233\002\n\003Row\022\017\n\006ro" +
       "w_id\030\220N \001(\005\022/\n\tperson_id\030\221N \001(\0132\033.dstore" +
-      ".values.integerValue\0227\n\022binary_descripti" +
-      "on\030\222N \001(\0132\032.dstore.values.stringValue\0224\n" +
-      "\016binary_code_id\030\223N \001(\0132\033.dstore.values.i" +
+      ".values.IntegerValue\0227\n\022binary_descripti" +
+      "on\030\222N \001(\0132\032.dstore.values.StringValue\0224\n" +
+      "\016binary_code_id\030\223N \001(\0132\033.dstore.values.I" +
       "ntegerValue\0222\n\016thumbnail_code\030\224N \001(\0132\031.d" +
-      "store.values.bytesValue\022/\n\013binary_code\030\225",
-      "N \001(\0132\031.dstore.values.bytesValueBX\n\033io.d" +
+      "store.values.BytesValue\022/\n\013binary_code\030\225",
+      "N \001(\0132\031.dstore.values.BytesValueBX\n\033io.d" +
       "store.engine.proceduresZ9gosdk.dstore.de" +
       "/engine/procedures/pm_GetPersonBinaries_" +
       "Pub\006proto3"
@@ -5536,7 +5536,7 @@ public final class PmGetPersonBinariesPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetPersonBinaries_Pu_Parameters_descriptor =
@@ -5557,7 +5557,7 @@ public final class PmGetPersonBinariesPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonBinaries_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "PersonId", "BinaryDescription", "BinaryCodeId", "ThumbnailCode", "BinaryCode", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

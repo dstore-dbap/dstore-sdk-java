@@ -19,17 +19,17 @@ public final class OmRedeemPrepaidCodePu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
     boolean hasPrepaidCode();
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
-    io.dstore.Values.stringValue getPrepaidCode();
+    io.dstore.values.StringValue getPrepaidCode();
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPrepaidCodeOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPrepaidCodeOrBuilder();
 
     /**
      * <code>optional bool prepaid_code_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmRedeemPrepaidCodePu {
     boolean getPrepaidCodeNull();
 
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     boolean hasPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValue getPersonIdentificationValues();
+    io.dstore.values.StringValue getPersonIdentificationValues();
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder();
 
     /**
      * <code>optional bool person_identification_values_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmRedeemPrepaidCodePu {
     boolean getPersonIdentificationValuesNull();
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmRedeemPrepaidCodePu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmRedeemPrepaidCodePu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
      */
     boolean hasTransactionComment();
     /**
-     * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
      */
-    io.dstore.Values.stringValue getTransactionComment();
+    io.dstore.values.StringValue getTransactionComment();
     /**
-     * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getTransactionCommentOrBuilder();
+    io.dstore.values.StringValueOrBuilder getTransactionCommentOrBuilder();
 
     /**
      * <code>optional bool transaction_comment_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class OmRedeemPrepaidCodePu {
     boolean getTransactionCommentNull();
 
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     boolean hasSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
-    io.dstore.Values.stringValue getSeparatorInIdentVals();
+    io.dstore.values.StringValue getSeparatorInIdentVals();
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder();
 
     /**
      * <code>optional bool separator_in_ident_vals_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class OmRedeemPrepaidCodePu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (prepaidCode_ != null) {
                 subBuilder = prepaidCode_.toBuilder();
               }
-              prepaidCode_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              prepaidCode_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(prepaidCode_);
                 prepaidCode_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class OmRedeemPrepaidCodePu {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class OmRedeemPrepaidCodePu {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class OmRedeemPrepaidCodePu {
               break;
             }
             case 34: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class OmRedeemPrepaidCodePu {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (transactionComment_ != null) {
                 subBuilder = transactionComment_.toBuilder();
               }
-              transactionComment_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              transactionComment_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(transactionComment_);
                 transactionComment_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class OmRedeemPrepaidCodePu {
               break;
             }
             case 50: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class OmRedeemPrepaidCodePu {
     }
 
     public static final int PREPAID_CODE_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue prepaidCode_;
+    private io.dstore.values.StringValue prepaidCode_;
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
     public boolean hasPrepaidCode() {
       return prepaidCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
-    public io.dstore.Values.stringValue getPrepaidCode() {
-      return prepaidCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : prepaidCode_;
+    public io.dstore.values.StringValue getPrepaidCode() {
+      return prepaidCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : prepaidCode_;
     }
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPrepaidCodeOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPrepaidCodeOrBuilder() {
       return getPrepaidCode();
     }
 
@@ -333,23 +333,23 @@ public final class OmRedeemPrepaidCodePu {
     }
 
     public static final int PERSON_IDENTIFICATION_VALUES_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue personIdentificationValues_;
+    private io.dstore.values.StringValue personIdentificationValues_;
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
     public boolean hasPersonIdentificationValues() {
       return personIdentificationValues_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValue getPersonIdentificationValues() {
-      return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+    public io.dstore.values.StringValue getPersonIdentificationValues() {
+      return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
     }
     /**
-     * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+     * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
       return getPersonIdentificationValues();
     }
 
@@ -363,23 +363,23 @@ public final class OmRedeemPrepaidCodePu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -393,23 +393,23 @@ public final class OmRedeemPrepaidCodePu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 4;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -423,23 +423,23 @@ public final class OmRedeemPrepaidCodePu {
     }
 
     public static final int TRANSACTION_COMMENT_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue transactionComment_;
+    private io.dstore.values.StringValue transactionComment_;
     /**
-     * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
      */
     public boolean hasTransactionComment() {
       return transactionComment_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
      */
-    public io.dstore.Values.stringValue getTransactionComment() {
-      return transactionComment_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : transactionComment_;
+    public io.dstore.values.StringValue getTransactionComment() {
+      return transactionComment_ == null ? io.dstore.values.StringValue.getDefaultInstance() : transactionComment_;
     }
     /**
-     * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+     * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getTransactionCommentOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getTransactionCommentOrBuilder() {
       return getTransactionComment();
     }
 
@@ -453,23 +453,23 @@ public final class OmRedeemPrepaidCodePu {
     }
 
     public static final int SEPARATOR_IN_IDENT_VALS_FIELD_NUMBER = 6;
-    private io.dstore.Values.stringValue separatorInIdentVals_;
+    private io.dstore.values.StringValue separatorInIdentVals_;
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
     public boolean hasSeparatorInIdentVals() {
       return separatorInIdentVals_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
-    public io.dstore.Values.stringValue getSeparatorInIdentVals() {
-      return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+    public io.dstore.values.StringValue getSeparatorInIdentVals() {
+      return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
     }
     /**
-     * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+     * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
       return getSeparatorInIdentVals();
     }
 
@@ -1022,29 +1022,29 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
 
-      private io.dstore.Values.stringValue prepaidCode_ = null;
+      private io.dstore.values.StringValue prepaidCode_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> prepaidCodeBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> prepaidCodeBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
       public boolean hasPrepaidCode() {
         return prepaidCodeBuilder_ != null || prepaidCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public io.dstore.Values.stringValue getPrepaidCode() {
+      public io.dstore.values.StringValue getPrepaidCode() {
         if (prepaidCodeBuilder_ == null) {
-          return prepaidCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : prepaidCode_;
+          return prepaidCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : prepaidCode_;
         } else {
           return prepaidCodeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public Builder setPrepaidCode(io.dstore.Values.stringValue value) {
+      public Builder setPrepaidCode(io.dstore.values.StringValue value) {
         if (prepaidCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
       public Builder setPrepaidCode(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (prepaidCodeBuilder_ == null) {
           prepaidCode_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public Builder mergePrepaidCode(io.dstore.Values.stringValue value) {
+      public Builder mergePrepaidCode(io.dstore.values.StringValue value) {
         if (prepaidCodeBuilder_ == null) {
           if (prepaidCode_ != null) {
             prepaidCode_ =
-              io.dstore.Values.stringValue.newBuilder(prepaidCode_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(prepaidCode_).mergeFrom(value).buildPartial();
           } else {
             prepaidCode_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
       public Builder clearPrepaidCode() {
         if (prepaidCodeBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPrepaidCodeBuilder() {
+      public io.dstore.values.StringValue.Builder getPrepaidCodeBuilder() {
         
         onChanged();
         return getPrepaidCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPrepaidCodeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPrepaidCodeOrBuilder() {
         if (prepaidCodeBuilder_ != null) {
           return prepaidCodeBuilder_.getMessageOrBuilder();
         } else {
           return prepaidCode_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : prepaidCode_;
+              io.dstore.values.StringValue.getDefaultInstance() : prepaidCode_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPrepaidCodeFieldBuilder() {
         if (prepaidCodeBuilder_ == null) {
           prepaidCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPrepaidCode(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
 
-      private io.dstore.Values.stringValue personIdentificationValues_ = null;
+      private io.dstore.values.StringValue personIdentificationValues_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> personIdentificationValuesBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> personIdentificationValuesBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public boolean hasPersonIdentificationValues() {
         return personIdentificationValuesBuilder_ != null || personIdentificationValues_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue getPersonIdentificationValues() {
+      public io.dstore.values.StringValue getPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
-          return personIdentificationValues_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+          return personIdentificationValues_ == null ? io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         } else {
           return personIdentificationValuesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder setPersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder setPersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder setPersonIdentificationValues(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValues_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public Builder mergePersonIdentificationValues(io.dstore.Values.stringValue value) {
+      public Builder mergePersonIdentificationValues(io.dstore.values.StringValue value) {
         if (personIdentificationValuesBuilder_ == null) {
           if (personIdentificationValues_ != null) {
             personIdentificationValues_ =
-              io.dstore.Values.stringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(personIdentificationValues_).mergeFrom(value).buildPartial();
           } else {
             personIdentificationValues_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       public Builder clearPersonIdentificationValues() {
         if (personIdentificationValuesBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPersonIdentificationValuesBuilder() {
+      public io.dstore.values.StringValue.Builder getPersonIdentificationValuesBuilder() {
         
         onChanged();
         return getPersonIdentificationValuesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPersonIdentificationValuesOrBuilder() {
         if (personIdentificationValuesBuilder_ != null) {
           return personIdentificationValuesBuilder_.getMessageOrBuilder();
         } else {
           return personIdentificationValues_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : personIdentificationValues_;
+              io.dstore.values.StringValue.getDefaultInstance() : personIdentificationValues_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue person_identification_values = 2;</code>
+       * <code>optional .dstore.values.StringValue person_identification_values = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPersonIdentificationValuesFieldBuilder() {
         if (personIdentificationValuesBuilder_ == null) {
           personIdentificationValuesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPersonIdentificationValues(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 4;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
 
-      private io.dstore.Values.stringValue transactionComment_ = null;
+      private io.dstore.values.StringValue transactionComment_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> transactionCommentBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> transactionCommentBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
        */
       public boolean hasTransactionComment() {
         return transactionCommentBuilder_ != null || transactionComment_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
        */
-      public io.dstore.Values.stringValue getTransactionComment() {
+      public io.dstore.values.StringValue getTransactionComment() {
         if (transactionCommentBuilder_ == null) {
-          return transactionComment_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : transactionComment_;
+          return transactionComment_ == null ? io.dstore.values.StringValue.getDefaultInstance() : transactionComment_;
         } else {
           return transactionCommentBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
        */
-      public Builder setTransactionComment(io.dstore.Values.stringValue value) {
+      public Builder setTransactionComment(io.dstore.values.StringValue value) {
         if (transactionCommentBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
        */
       public Builder setTransactionComment(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (transactionCommentBuilder_ == null) {
           transactionComment_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
        */
-      public Builder mergeTransactionComment(io.dstore.Values.stringValue value) {
+      public Builder mergeTransactionComment(io.dstore.values.StringValue value) {
         if (transactionCommentBuilder_ == null) {
           if (transactionComment_ != null) {
             transactionComment_ =
-              io.dstore.Values.stringValue.newBuilder(transactionComment_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(transactionComment_).mergeFrom(value).buildPartial();
           } else {
             transactionComment_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
        */
       public Builder clearTransactionComment() {
         if (transactionCommentBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getTransactionCommentBuilder() {
+      public io.dstore.values.StringValue.Builder getTransactionCommentBuilder() {
         
         onChanged();
         return getTransactionCommentFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getTransactionCommentOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getTransactionCommentOrBuilder() {
         if (transactionCommentBuilder_ != null) {
           return transactionCommentBuilder_.getMessageOrBuilder();
         } else {
           return transactionComment_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : transactionComment_;
+              io.dstore.values.StringValue.getDefaultInstance() : transactionComment_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue transaction_comment = 5;</code>
+       * <code>optional .dstore.values.StringValue transaction_comment = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getTransactionCommentFieldBuilder() {
         if (transactionCommentBuilder_ == null) {
           transactionCommentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getTransactionComment(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
 
-      private io.dstore.Values.stringValue separatorInIdentVals_ = null;
+      private io.dstore.values.StringValue separatorInIdentVals_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> separatorInIdentValsBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> separatorInIdentValsBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public boolean hasSeparatorInIdentVals() {
         return separatorInIdentValsBuilder_ != null || separatorInIdentVals_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public io.dstore.Values.stringValue getSeparatorInIdentVals() {
+      public io.dstore.values.StringValue getSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
-          return separatorInIdentVals_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+          return separatorInIdentVals_ == null ? io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         } else {
           return separatorInIdentValsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public Builder setSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder setSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public Builder setSeparatorInIdentVals(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentVals_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public Builder mergeSeparatorInIdentVals(io.dstore.Values.stringValue value) {
+      public Builder mergeSeparatorInIdentVals(io.dstore.values.StringValue value) {
         if (separatorInIdentValsBuilder_ == null) {
           if (separatorInIdentVals_ != null) {
             separatorInIdentVals_ =
-              io.dstore.Values.stringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(separatorInIdentVals_).mergeFrom(value).buildPartial();
           } else {
             separatorInIdentVals_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       public Builder clearSeparatorInIdentVals() {
         if (separatorInIdentValsBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class OmRedeemPrepaidCodePu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSeparatorInIdentValsBuilder() {
+      public io.dstore.values.StringValue.Builder getSeparatorInIdentValsBuilder() {
         
         onChanged();
         return getSeparatorInIdentValsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSeparatorInIdentValsOrBuilder() {
         if (separatorInIdentValsBuilder_ != null) {
           return separatorInIdentValsBuilder_.getMessageOrBuilder();
         } else {
           return separatorInIdentVals_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : separatorInIdentVals_;
+              io.dstore.values.StringValue.getDefaultInstance() : separatorInIdentVals_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue separator_in_ident_vals = 6;</code>
+       * <code>optional .dstore.values.StringValue separator_in_ident_vals = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSeparatorInIdentValsFieldBuilder() {
         if (separatorInIdentValsBuilder_ == null) {
           separatorInIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSeparatorInIdentVals(),
                   getParentForChildren(),
                   isClean());
@@ -3966,19 +3966,19 @@ public final class OmRedeemPrepaidCodePu {
       "aidCode_Pu.proto\022%dstore.engine.om_Redee" +
       "mPrepaidCode_Pu\032\023dstore/values.proto\032\032ds" +
       "tore/engine/engine.proto\"\243\004\n\nParameters\022" +
-      "0\n\014prepaid_code\030\001 \001(\0132\032.dstore.values.st" +
+      "0\n\014prepaid_code\030\001 \001(\0132\032.dstore.values.St" +
       "ringValue\022\032\n\021prepaid_code_null\030\351\007 \001(\010\022@\n" +
       "\034person_identification_values\030\002 \001(\0132\032.ds" +
-      "tore.values.stringValue\022*\n!person_identi" +
+      "tore.values.StringValue\022*\n!person_identi" +
       "fication_values_null\030\352\007 \001(\010\0223\n\016person_ty" +
-      "pe_id\030\003 \001(\0132\033.dstore.values.integerValue",
+      "pe_id\030\003 \001(\0132\033.dstore.values.IntegerValue",
       "\022\034\n\023person_type_id_null\030\353\007 \001(\010\022-\n\tunique" +
-      "_id\030\004 \001(\0132\032.dstore.values.stringValue\022\027\n" +
+      "_id\030\004 \001(\0132\032.dstore.values.StringValue\022\027\n" +
       "\016unique_id_null\030\354\007 \001(\010\0227\n\023transaction_co" +
-      "mment\030\005 \001(\0132\032.dstore.values.stringValue\022" +
+      "mment\030\005 \001(\0132\032.dstore.values.StringValue\022" +
       "!\n\030transaction_comment_null\030\355\007 \001(\010\022;\n\027se" +
       "parator_in_ident_vals\030\006 \001(\0132\032.dstore.val" +
-      "ues.stringValue\022%\n\034separator_in_ident_va" +
+      "ues.StringValue\022%\n\034separator_in_ident_va" +
       "ls_null\030\356\007 \001(\010\"\307\001\n\010Response\0228\n\020meta_info" +
       "rmation\030\002 \003(\0132\036.dstore.engine.MetaInform" +
       "ation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.M",
@@ -3999,7 +3999,7 @@ public final class OmRedeemPrepaidCodePu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_RedeemPrepaidCode_Pu_Parameters_descriptor =
@@ -4020,7 +4020,7 @@ public final class OmRedeemPrepaidCodePu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_RedeemPrepaidCode_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

@@ -25,12 +25,12 @@ public interface FieldOrBuilder extends
   /**
    * <code>repeated .dstore.values.Value value = 3;</code>
    */
-  java.util.List<io.dstore.Values.Value> 
+  java.util.List<io.dstore.values.Value> 
       getValueList();
   /**
    * <code>repeated .dstore.values.Value value = 3;</code>
    */
-  io.dstore.Values.Value getValue(int index);
+  io.dstore.values.Value getValue(int index);
   /**
    * <code>repeated .dstore.values.Value value = 3;</code>
    */
@@ -38,11 +38,11 @@ public interface FieldOrBuilder extends
   /**
    * <code>repeated .dstore.values.Value value = 3;</code>
    */
-  java.util.List<? extends io.dstore.Values.ValueOrBuilder> 
+  java.util.List<? extends io.dstore.values.ValueOrBuilder> 
       getValueOrBuilderList();
   /**
    * <code>repeated .dstore.values.Value value = 3;</code>
    */
-  io.dstore.Values.ValueOrBuilder getValueOrBuilder(
+  io.dstore.values.ValueOrBuilder getValueOrBuilder(
       int index);
 }

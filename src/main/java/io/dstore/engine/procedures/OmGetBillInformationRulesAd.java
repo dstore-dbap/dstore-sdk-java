@@ -19,17 +19,17 @@ public final class OmGetBillInformationRulesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUserId();
+    io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetBillInformationRulesAd {
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
      */
     boolean hasInformationTypeId();
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
      */
-    io.dstore.Values.integerValue getInformationTypeId();
+    io.dstore.values.IntegerValue getInformationTypeId();
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
     /**
      * <code>optional bool information_type_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetBillInformationRulesAd {
     boolean getInformationTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
      */
     boolean hasBillStateId();
     /**
-     * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
      */
-    io.dstore.Values.integerValue getBillStateId();
+    io.dstore.values.IntegerValue getBillStateId();
     /**
-     * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getBillStateIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getBillStateIdOrBuilder();
 
     /**
      * <code>optional bool bill_state_id_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class OmGetBillInformationRulesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class OmGetBillInformationRulesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class OmGetBillInformationRulesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (billStateId_ != null) {
                 subBuilder = billStateId_.toBuilder();
               }
-              billStateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              billStateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(billStateId_);
                 billStateId_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class OmGetBillInformationRulesAd {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue userId_;
+    private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.values.IntegerValue getUserId() {
+      return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -222,23 +222,23 @@ public final class OmGetBillInformationRulesAd {
     }
 
     public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue informationTypeId_;
+    private io.dstore.values.IntegerValue informationTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
      */
     public boolean hasInformationTypeId() {
       return informationTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getInformationTypeId() {
-      return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+    public io.dstore.values.IntegerValue getInformationTypeId() {
+      return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
       return getInformationTypeId();
     }
 
@@ -252,23 +252,23 @@ public final class OmGetBillInformationRulesAd {
     }
 
     public static final int BILL_STATE_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue billStateId_;
+    private io.dstore.values.IntegerValue billStateId_;
     /**
-     * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
      */
     public boolean hasBillStateId() {
       return billStateId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getBillStateId() {
-      return billStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : billStateId_;
+    public io.dstore.values.IntegerValue getBillStateId() {
+      return billStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billStateId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getBillStateIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getBillStateIdOrBuilder() {
       return getBillStateId();
     }
 
@@ -677,29 +677,29 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userId_ = null;
+      private io.dstore.values.IntegerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
+      public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder setUserId(io.dstore.Values.integerValue value) {
+      public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder mergeUserId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -745,7 +745,7 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue informationTypeId_ = null;
+      private io.dstore.values.IntegerValue informationTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeIdBuilder_ != null || informationTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getInformationTypeId() {
+      public io.dstore.values.IntegerValue getInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
-          return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+          return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
         } else {
           return informationTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
        */
-      public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
+      public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public Builder setInformationTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (informationTypeIdBuilder_ == null) {
           informationTypeId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
        */
-      public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
         if (informationTypeIdBuilder_ == null) {
           if (informationTypeId_ != null) {
             informationTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
           } else {
             informationTypeId_ = value;
           }
@@ -888,7 +888,7 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
        */
       public Builder clearInformationTypeId() {
         if (informationTypeIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
         
         onChanged();
         return getInformationTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         if (informationTypeIdBuilder_ != null) {
           return informationTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return informationTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue information_type_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getInformationTypeIdFieldBuilder() {
         if (informationTypeIdBuilder_ == null) {
           informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getInformationTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue billStateId_ = null;
+      private io.dstore.values.IntegerValue billStateId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> billStateIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> billStateIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
        */
       public boolean hasBillStateId() {
         return billStateIdBuilder_ != null || billStateId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getBillStateId() {
+      public io.dstore.values.IntegerValue getBillStateId() {
         if (billStateIdBuilder_ == null) {
-          return billStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : billStateId_;
+          return billStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billStateId_;
         } else {
           return billStateIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
        */
-      public Builder setBillStateId(io.dstore.Values.integerValue value) {
+      public Builder setBillStateId(io.dstore.values.IntegerValue value) {
         if (billStateIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
        */
       public Builder setBillStateId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (billStateIdBuilder_ == null) {
           billStateId_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
        */
-      public Builder mergeBillStateId(io.dstore.Values.integerValue value) {
+      public Builder mergeBillStateId(io.dstore.values.IntegerValue value) {
         if (billStateIdBuilder_ == null) {
           if (billStateId_ != null) {
             billStateId_ =
-              io.dstore.Values.integerValue.newBuilder(billStateId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(billStateId_).mergeFrom(value).buildPartial();
           } else {
             billStateId_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
        */
       public Builder clearBillStateId() {
         if (billStateIdBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class OmGetBillInformationRulesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getBillStateIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getBillStateIdBuilder() {
         
         onChanged();
         return getBillStateIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBillStateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBillStateIdOrBuilder() {
         if (billStateIdBuilder_ != null) {
           return billStateIdBuilder_.getMessageOrBuilder();
         } else {
           return billStateId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : billStateId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : billStateId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue bill_state_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getBillStateIdFieldBuilder() {
         if (billStateIdBuilder_ == null) {
           billStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getBillStateId(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class OmGetBillInformationRulesAd {
        * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
        */
       boolean hasBillStateId();
       /**
@@ -1373,24 +1373,24 @@ public final class OmGetBillInformationRulesAd {
        * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getBillStateId();
+      io.dstore.values.IntegerValue getBillStateId();
       /**
        * <pre>
        * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getBillStateIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getBillStateIdOrBuilder();
 
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10002;</code>
        */
       boolean hasUserName();
       /**
@@ -1398,24 +1398,24 @@ public final class OmGetBillInformationRulesAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10002;</code>
        */
-      io.dstore.Values.stringValue getUserName();
+      io.dstore.values.StringValue getUserName();
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
       /**
        * <pre>
        * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
        */
       boolean hasInformationTypeId();
       /**
@@ -1423,24 +1423,24 @@ public final class OmGetBillInformationRulesAd {
        * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getInformationTypeId();
+      io.dstore.values.IntegerValue getInformationTypeId();
       /**
        * <pre>
        * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder();
 
       /**
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
        */
       boolean hasUserId();
       /**
@@ -1448,24 +1448,24 @@ public final class OmGetBillInformationRulesAd {
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
        */
-      io.dstore.Values.integerValue getUserId();
+      io.dstore.values.IntegerValue getUserId();
       /**
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
        */
       boolean hasInformationType();
       /**
@@ -1473,24 +1473,24 @@ public final class OmGetBillInformationRulesAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
        */
-      io.dstore.Values.stringValue getInformationType();
+      io.dstore.values.StringValue getInformationType();
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung des Status "BillStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+       * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
        */
       boolean hasBillState();
       /**
@@ -1498,24 +1498,24 @@ public final class OmGetBillInformationRulesAd {
        * Bezeichnung des Status "BillStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+       * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
        */
-      io.dstore.Values.stringValue getBillState();
+      io.dstore.values.StringValue getBillState();
       /**
        * <pre>
        * Bezeichnung des Status "BillStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+       * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getBillStateOrBuilder();
+      io.dstore.values.StringValueOrBuilder getBillStateOrBuilder();
 
       /**
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
        */
       boolean hasModificationAllowed();
       /**
@@ -1523,17 +1523,17 @@ public final class OmGetBillInformationRulesAd {
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
        */
-      io.dstore.Values.integerValue getModificationAllowed();
+      io.dstore.values.IntegerValue getModificationAllowed();
       /**
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getModificationAllowedOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getModificationAllowedOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetBillInformationRules_Ad.Response.Row}
@@ -1581,11 +1581,11 @@ public final class OmGetBillInformationRulesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (billStateId_ != null) {
                   subBuilder = billStateId_.toBuilder();
                 }
-                billStateId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                billStateId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(billStateId_);
                   billStateId_ = subBuilder.buildPartial();
@@ -1594,11 +1594,11 @@ public final class OmGetBillInformationRulesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (userName_ != null) {
                   subBuilder = userName_.toBuilder();
                 }
-                userName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                userName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userName_);
                   userName_ = subBuilder.buildPartial();
@@ -1607,11 +1607,11 @@ public final class OmGetBillInformationRulesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -1620,11 +1620,11 @@ public final class OmGetBillInformationRulesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (userId_ != null) {
                   subBuilder = userId_.toBuilder();
                 }
-                userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userId_);
                   userId_ = subBuilder.buildPartial();
@@ -1633,11 +1633,11 @@ public final class OmGetBillInformationRulesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (informationType_ != null) {
                   subBuilder = informationType_.toBuilder();
                 }
-                informationType_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                informationType_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationType_);
                   informationType_ = subBuilder.buildPartial();
@@ -1646,11 +1646,11 @@ public final class OmGetBillInformationRulesAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (billState_ != null) {
                   subBuilder = billState_.toBuilder();
                 }
-                billState_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                billState_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(billState_);
                   billState_ = subBuilder.buildPartial();
@@ -1659,11 +1659,11 @@ public final class OmGetBillInformationRulesAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (modificationAllowed_ != null) {
                   subBuilder = modificationAllowed_.toBuilder();
                 }
-                modificationAllowed_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                modificationAllowed_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(modificationAllowed_);
                   modificationAllowed_ = subBuilder.buildPartial();
@@ -1704,13 +1704,13 @@ public final class OmGetBillInformationRulesAd {
       }
 
       public static final int BILL_STATE_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue billStateId_;
+      private io.dstore.values.IntegerValue billStateId_;
       /**
        * <pre>
        * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
        */
       public boolean hasBillStateId() {
         return billStateId_ != null;
@@ -1720,30 +1720,30 @@ public final class OmGetBillInformationRulesAd {
        * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getBillStateId() {
-        return billStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : billStateId_;
+      public io.dstore.values.IntegerValue getBillStateId() {
+        return billStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billStateId_;
       }
       /**
        * <pre>
        * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getBillStateIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getBillStateIdOrBuilder() {
         return getBillStateId();
       }
 
       public static final int USER_NAME_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue userName_;
+      private io.dstore.values.StringValue userName_;
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10002;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
@@ -1753,30 +1753,30 @@ public final class OmGetBillInformationRulesAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10002;</code>
        */
-      public io.dstore.Values.stringValue getUserName() {
-        return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+      public io.dstore.values.StringValue getUserName() {
+        return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
       }
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
       }
 
       public static final int INFORMATION_TYPE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue informationTypeId_;
+      private io.dstore.values.IntegerValue informationTypeId_;
       /**
        * <pre>
        * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
        */
       public boolean hasInformationTypeId() {
         return informationTypeId_ != null;
@@ -1786,30 +1786,30 @@ public final class OmGetBillInformationRulesAd {
        * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getInformationTypeId() {
-        return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+      public io.dstore.values.IntegerValue getInformationTypeId() {
+        return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
       }
       /**
        * <pre>
        * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
         return getInformationTypeId();
       }
 
       public static final int USER_ID_FIELD_NUMBER = 10004;
-      private io.dstore.Values.integerValue userId_;
+      private io.dstore.values.IntegerValue userId_;
       /**
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
@@ -1819,30 +1819,30 @@ public final class OmGetBillInformationRulesAd {
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
-        return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+      public io.dstore.values.IntegerValue getUserId() {
+        return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
       }
       /**
        * <pre>
        * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
       }
 
       public static final int INFORMATION_TYPE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue informationType_;
+      private io.dstore.values.StringValue informationType_;
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
        */
       public boolean hasInformationType() {
         return informationType_ != null;
@@ -1852,30 +1852,30 @@ public final class OmGetBillInformationRulesAd {
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
        */
-      public io.dstore.Values.stringValue getInformationType() {
-        return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
+      public io.dstore.values.StringValue getInformationType() {
+        return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
       }
       /**
        * <pre>
        * Bezeichnung der "InformationTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+       * <code>optional .dstore.values.StringValue information_type = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
         return getInformationType();
       }
 
       public static final int BILL_STATE_FIELD_NUMBER = 10006;
-      private io.dstore.Values.stringValue billState_;
+      private io.dstore.values.StringValue billState_;
       /**
        * <pre>
        * Bezeichnung des Status "BillStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+       * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
        */
       public boolean hasBillState() {
         return billState_ != null;
@@ -1885,30 +1885,30 @@ public final class OmGetBillInformationRulesAd {
        * Bezeichnung des Status "BillStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+       * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
        */
-      public io.dstore.Values.stringValue getBillState() {
-        return billState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : billState_;
+      public io.dstore.values.StringValue getBillState() {
+        return billState_ == null ? io.dstore.values.StringValue.getDefaultInstance() : billState_;
       }
       /**
        * <pre>
        * Bezeichnung des Status "BillStateID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+       * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getBillStateOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getBillStateOrBuilder() {
         return getBillState();
       }
 
       public static final int MODIFICATION_ALLOWED_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue modificationAllowed_;
+      private io.dstore.values.IntegerValue modificationAllowed_;
       /**
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
        */
       public boolean hasModificationAllowed() {
         return modificationAllowed_ != null;
@@ -1918,19 +1918,19 @@ public final class OmGetBillInformationRulesAd {
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
        */
-      public io.dstore.Values.integerValue getModificationAllowed() {
-        return modificationAllowed_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : modificationAllowed_;
+      public io.dstore.values.IntegerValue getModificationAllowed() {
+        return modificationAllowed_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : modificationAllowed_;
       }
       /**
        * <pre>
        * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getModificationAllowedOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getModificationAllowedOrBuilder() {
         return getModificationAllowed();
       }
 
@@ -2439,15 +2439,15 @@ public final class OmGetBillInformationRulesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue billStateId_ = null;
+        private io.dstore.values.IntegerValue billStateId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> billStateIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> billStateIdBuilder_;
         /**
          * <pre>
          * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
          */
         public boolean hasBillStateId() {
           return billStateIdBuilder_ != null || billStateId_ != null;
@@ -2457,11 +2457,11 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getBillStateId() {
+        public io.dstore.values.IntegerValue getBillStateId() {
           if (billStateIdBuilder_ == null) {
-            return billStateId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : billStateId_;
+            return billStateId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : billStateId_;
           } else {
             return billStateIdBuilder_.getMessage();
           }
@@ -2471,9 +2471,9 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
          */
-        public Builder setBillStateId(io.dstore.Values.integerValue value) {
+        public Builder setBillStateId(io.dstore.values.IntegerValue value) {
           if (billStateIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2491,10 +2491,10 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
          */
         public Builder setBillStateId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (billStateIdBuilder_ == null) {
             billStateId_ = builderForValue.build();
             onChanged();
@@ -2509,13 +2509,13 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
          */
-        public Builder mergeBillStateId(io.dstore.Values.integerValue value) {
+        public Builder mergeBillStateId(io.dstore.values.IntegerValue value) {
           if (billStateIdBuilder_ == null) {
             if (billStateId_ != null) {
               billStateId_ =
-                io.dstore.Values.integerValue.newBuilder(billStateId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(billStateId_).mergeFrom(value).buildPartial();
             } else {
               billStateId_ = value;
             }
@@ -2531,7 +2531,7 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
          */
         public Builder clearBillStateId() {
           if (billStateIdBuilder_ == null) {
@@ -2549,9 +2549,9 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getBillStateIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getBillStateIdBuilder() {
           
           onChanged();
           return getBillStateIdFieldBuilder().getBuilder();
@@ -2561,14 +2561,14 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getBillStateIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getBillStateIdOrBuilder() {
           if (billStateIdBuilder_ != null) {
             return billStateIdBuilder_.getMessageOrBuilder();
           } else {
             return billStateId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : billStateId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : billStateId_;
           }
         }
         /**
@@ -2576,14 +2576,14 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Rechnungs-Status. Der Benutzer "UserID" darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, sofern sich die Rechnung in diesem Status befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue bill_state_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue bill_state_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getBillStateIdFieldBuilder() {
           if (billStateIdBuilder_ == null) {
             billStateIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getBillStateId(),
                     getParentForChildren(),
                     isClean());
@@ -2592,15 +2592,15 @@ public final class OmGetBillInformationRulesAd {
           return billStateIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue userName_ = null;
+        private io.dstore.values.StringValue userName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> userNameBuilder_;
         /**
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10002;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
@@ -2610,11 +2610,11 @@ public final class OmGetBillInformationRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10002;</code>
          */
-        public io.dstore.Values.stringValue getUserName() {
+        public io.dstore.values.StringValue getUserName() {
           if (userNameBuilder_ == null) {
-            return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+            return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
           } else {
             return userNameBuilder_.getMessage();
           }
@@ -2624,9 +2624,9 @@ public final class OmGetBillInformationRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10002;</code>
          */
-        public Builder setUserName(io.dstore.Values.stringValue value) {
+        public Builder setUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2644,10 +2644,10 @@ public final class OmGetBillInformationRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10002;</code>
          */
         public Builder setUserName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (userNameBuilder_ == null) {
             userName_ = builderForValue.build();
             onChanged();
@@ -2662,13 +2662,13 @@ public final class OmGetBillInformationRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10002;</code>
          */
-        public Builder mergeUserName(io.dstore.Values.stringValue value) {
+        public Builder mergeUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
             if (userName_ != null) {
               userName_ =
-                io.dstore.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
             } else {
               userName_ = value;
             }
@@ -2684,7 +2684,7 @@ public final class OmGetBillInformationRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10002;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -2702,9 +2702,9 @@ public final class OmGetBillInformationRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
+        public io.dstore.values.StringValue.Builder getUserNameBuilder() {
           
           onChanged();
           return getUserNameFieldBuilder().getBuilder();
@@ -2714,14 +2714,14 @@ public final class OmGetBillInformationRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
             return userNameBuilder_.getMessageOrBuilder();
           } else {
             return userName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+                io.dstore.values.StringValue.getDefaultInstance() : userName_;
           }
         }
         /**
@@ -2729,14 +2729,14 @@ public final class OmGetBillInformationRulesAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10002;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUserNameFieldBuilder() {
           if (userNameBuilder_ == null) {
             userNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUserName(),
                     getParentForChildren(),
                     isClean());
@@ -2745,15 +2745,15 @@ public final class OmGetBillInformationRulesAd {
           return userNameBuilder_;
         }
 
-        private io.dstore.Values.integerValue informationTypeId_ = null;
+        private io.dstore.values.IntegerValue informationTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> informationTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> informationTypeIdBuilder_;
         /**
          * <pre>
          * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public boolean hasInformationTypeId() {
           return informationTypeIdBuilder_ != null || informationTypeId_ != null;
@@ -2763,11 +2763,11 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getInformationTypeId() {
+        public io.dstore.values.IntegerValue getInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
-            return informationTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+            return informationTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
           } else {
             return informationTypeIdBuilder_.getMessage();
           }
@@ -2777,9 +2777,9 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
          */
-        public Builder setInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder setInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2797,10 +2797,10 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public Builder setInformationTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (informationTypeIdBuilder_ == null) {
             informationTypeId_ = builderForValue.build();
             onChanged();
@@ -2815,13 +2815,13 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
          */
-        public Builder mergeInformationTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeInformationTypeId(io.dstore.values.IntegerValue value) {
           if (informationTypeIdBuilder_ == null) {
             if (informationTypeId_ != null) {
               informationTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(informationTypeId_).mergeFrom(value).buildPartial();
             } else {
               informationTypeId_ = value;
             }
@@ -2837,7 +2837,7 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         public Builder clearInformationTypeId() {
           if (informationTypeIdBuilder_ == null) {
@@ -2855,9 +2855,9 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getInformationTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getInformationTypeIdBuilder() {
           
           onChanged();
           return getInformationTypeIdFieldBuilder().getBuilder();
@@ -2867,14 +2867,14 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getInformationTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getInformationTypeIdOrBuilder() {
           if (informationTypeIdBuilder_ != null) {
             return informationTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return informationTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : informationTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : informationTypeId_;
           }
         }
         /**
@@ -2882,14 +2882,14 @@ public final class OmGetBillInformationRulesAd {
          * ID eines Typs von Informationen, die zu Rechnungen hinterlegt werden können (mögliche Werte : s. "om_GetBillInformationTypes_Ad"). "-32768"  bedeutet, daß die Regel unabhängig der Informations-Art gilt.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue information_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue information_type_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getInformationTypeIdFieldBuilder() {
           if (informationTypeIdBuilder_ == null) {
             informationTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getInformationTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -2898,15 +2898,15 @@ public final class OmGetBillInformationRulesAd {
           return informationTypeIdBuilder_;
         }
 
-        private io.dstore.Values.integerValue userId_ = null;
+        private io.dstore.values.IntegerValue userId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
         /**
          * <pre>
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
@@ -2916,11 +2916,11 @@ public final class OmGetBillInformationRulesAd {
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue getUserId() {
+        public io.dstore.values.IntegerValue getUserId() {
           if (userIdBuilder_ == null) {
-            return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+            return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           } else {
             return userIdBuilder_.getMessage();
           }
@@ -2930,9 +2930,9 @@ public final class OmGetBillInformationRulesAd {
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
          */
-        public Builder setUserId(io.dstore.Values.integerValue value) {
+        public Builder setUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2950,10 +2950,10 @@ public final class OmGetBillInformationRulesAd {
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
          */
         public Builder setUserId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (userIdBuilder_ == null) {
             userId_ = builderForValue.build();
             onChanged();
@@ -2968,13 +2968,13 @@ public final class OmGetBillInformationRulesAd {
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
          */
-        public Builder mergeUserId(io.dstore.Values.integerValue value) {
+        public Builder mergeUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (userId_ != null) {
               userId_ =
-                io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
             } else {
               userId_ = value;
             }
@@ -2990,7 +2990,7 @@ public final class OmGetBillInformationRulesAd {
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -3008,9 +3008,9 @@ public final class OmGetBillInformationRulesAd {
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
           
           onChanged();
           return getUserIdFieldBuilder().getBuilder();
@@ -3020,14 +3020,14 @@ public final class OmGetBillInformationRulesAd {
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
             return userIdBuilder_.getMessageOrBuilder();
           } else {
             return userId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           }
         }
         /**
@@ -3035,14 +3035,14 @@ public final class OmGetBillInformationRulesAd {
          * ID eines "dStore"-Benutzers. Dieser darf die durch "ModificationAllowed" angegebenen Arten von Änderungen an Informationen des Typs "InformationTypeID" durchführen, wenn sich die Rechnung im Status "BillStateID" befindet.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10004;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUserIdFieldBuilder() {
           if (userIdBuilder_ == null) {
             userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUserId(),
                     getParentForChildren(),
                     isClean());
@@ -3051,15 +3051,15 @@ public final class OmGetBillInformationRulesAd {
           return userIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue informationType_ = null;
+        private io.dstore.values.StringValue informationType_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> informationTypeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> informationTypeBuilder_;
         /**
          * <pre>
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
          */
         public boolean hasInformationType() {
           return informationTypeBuilder_ != null || informationType_ != null;
@@ -3069,11 +3069,11 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
          */
-        public io.dstore.Values.stringValue getInformationType() {
+        public io.dstore.values.StringValue getInformationType() {
           if (informationTypeBuilder_ == null) {
-            return informationType_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
+            return informationType_ == null ? io.dstore.values.StringValue.getDefaultInstance() : informationType_;
           } else {
             return informationTypeBuilder_.getMessage();
           }
@@ -3083,9 +3083,9 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
          */
-        public Builder setInformationType(io.dstore.Values.stringValue value) {
+        public Builder setInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3103,10 +3103,10 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
          */
         public Builder setInformationType(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (informationTypeBuilder_ == null) {
             informationType_ = builderForValue.build();
             onChanged();
@@ -3121,13 +3121,13 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
          */
-        public Builder mergeInformationType(io.dstore.Values.stringValue value) {
+        public Builder mergeInformationType(io.dstore.values.StringValue value) {
           if (informationTypeBuilder_ == null) {
             if (informationType_ != null) {
               informationType_ =
-                io.dstore.Values.stringValue.newBuilder(informationType_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(informationType_).mergeFrom(value).buildPartial();
             } else {
               informationType_ = value;
             }
@@ -3143,7 +3143,7 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
          */
         public Builder clearInformationType() {
           if (informationTypeBuilder_ == null) {
@@ -3161,9 +3161,9 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getInformationTypeBuilder() {
+        public io.dstore.values.StringValue.Builder getInformationTypeBuilder() {
           
           onChanged();
           return getInformationTypeFieldBuilder().getBuilder();
@@ -3173,14 +3173,14 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getInformationTypeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getInformationTypeOrBuilder() {
           if (informationTypeBuilder_ != null) {
             return informationTypeBuilder_.getMessageOrBuilder();
           } else {
             return informationType_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : informationType_;
+                io.dstore.values.StringValue.getDefaultInstance() : informationType_;
           }
         }
         /**
@@ -3188,14 +3188,14 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung der "InformationTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue information_type = 10005;</code>
+         * <code>optional .dstore.values.StringValue information_type = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getInformationTypeFieldBuilder() {
           if (informationTypeBuilder_ == null) {
             informationTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getInformationType(),
                     getParentForChildren(),
                     isClean());
@@ -3204,15 +3204,15 @@ public final class OmGetBillInformationRulesAd {
           return informationTypeBuilder_;
         }
 
-        private io.dstore.Values.stringValue billState_ = null;
+        private io.dstore.values.StringValue billState_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> billStateBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> billStateBuilder_;
         /**
          * <pre>
          * Bezeichnung des Status "BillStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+         * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
          */
         public boolean hasBillState() {
           return billStateBuilder_ != null || billState_ != null;
@@ -3222,11 +3222,11 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung des Status "BillStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+         * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
          */
-        public io.dstore.Values.stringValue getBillState() {
+        public io.dstore.values.StringValue getBillState() {
           if (billStateBuilder_ == null) {
-            return billState_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : billState_;
+            return billState_ == null ? io.dstore.values.StringValue.getDefaultInstance() : billState_;
           } else {
             return billStateBuilder_.getMessage();
           }
@@ -3236,9 +3236,9 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung des Status "BillStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+         * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
          */
-        public Builder setBillState(io.dstore.Values.stringValue value) {
+        public Builder setBillState(io.dstore.values.StringValue value) {
           if (billStateBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3256,10 +3256,10 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung des Status "BillStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+         * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
          */
         public Builder setBillState(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (billStateBuilder_ == null) {
             billState_ = builderForValue.build();
             onChanged();
@@ -3274,13 +3274,13 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung des Status "BillStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+         * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
          */
-        public Builder mergeBillState(io.dstore.Values.stringValue value) {
+        public Builder mergeBillState(io.dstore.values.StringValue value) {
           if (billStateBuilder_ == null) {
             if (billState_ != null) {
               billState_ =
-                io.dstore.Values.stringValue.newBuilder(billState_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(billState_).mergeFrom(value).buildPartial();
             } else {
               billState_ = value;
             }
@@ -3296,7 +3296,7 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung des Status "BillStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+         * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
          */
         public Builder clearBillState() {
           if (billStateBuilder_ == null) {
@@ -3314,9 +3314,9 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung des Status "BillStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+         * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
          */
-        public io.dstore.Values.stringValue.Builder getBillStateBuilder() {
+        public io.dstore.values.StringValue.Builder getBillStateBuilder() {
           
           onChanged();
           return getBillStateFieldBuilder().getBuilder();
@@ -3326,14 +3326,14 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung des Status "BillStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+         * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getBillStateOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getBillStateOrBuilder() {
           if (billStateBuilder_ != null) {
             return billStateBuilder_.getMessageOrBuilder();
           } else {
             return billState_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : billState_;
+                io.dstore.values.StringValue.getDefaultInstance() : billState_;
           }
         }
         /**
@@ -3341,14 +3341,14 @@ public final class OmGetBillInformationRulesAd {
          * Bezeichnung des Status "BillStateID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue bill_state = 10006;</code>
+         * <code>optional .dstore.values.StringValue bill_state = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getBillStateFieldBuilder() {
           if (billStateBuilder_ == null) {
             billStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getBillState(),
                     getParentForChildren(),
                     isClean());
@@ -3357,15 +3357,15 @@ public final class OmGetBillInformationRulesAd {
           return billStateBuilder_;
         }
 
-        private io.dstore.Values.integerValue modificationAllowed_ = null;
+        private io.dstore.values.IntegerValue modificationAllowed_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> modificationAllowedBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> modificationAllowedBuilder_;
         /**
          * <pre>
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
          */
         public boolean hasModificationAllowed() {
           return modificationAllowedBuilder_ != null || modificationAllowed_ != null;
@@ -3375,11 +3375,11 @@ public final class OmGetBillInformationRulesAd {
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
          */
-        public io.dstore.Values.integerValue getModificationAllowed() {
+        public io.dstore.values.IntegerValue getModificationAllowed() {
           if (modificationAllowedBuilder_ == null) {
-            return modificationAllowed_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : modificationAllowed_;
+            return modificationAllowed_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : modificationAllowed_;
           } else {
             return modificationAllowedBuilder_.getMessage();
           }
@@ -3389,9 +3389,9 @@ public final class OmGetBillInformationRulesAd {
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
          */
-        public Builder setModificationAllowed(io.dstore.Values.integerValue value) {
+        public Builder setModificationAllowed(io.dstore.values.IntegerValue value) {
           if (modificationAllowedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3409,10 +3409,10 @@ public final class OmGetBillInformationRulesAd {
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
          */
         public Builder setModificationAllowed(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (modificationAllowedBuilder_ == null) {
             modificationAllowed_ = builderForValue.build();
             onChanged();
@@ -3427,13 +3427,13 @@ public final class OmGetBillInformationRulesAd {
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
          */
-        public Builder mergeModificationAllowed(io.dstore.Values.integerValue value) {
+        public Builder mergeModificationAllowed(io.dstore.values.IntegerValue value) {
           if (modificationAllowedBuilder_ == null) {
             if (modificationAllowed_ != null) {
               modificationAllowed_ =
-                io.dstore.Values.integerValue.newBuilder(modificationAllowed_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(modificationAllowed_).mergeFrom(value).buildPartial();
             } else {
               modificationAllowed_ = value;
             }
@@ -3449,7 +3449,7 @@ public final class OmGetBillInformationRulesAd {
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
          */
         public Builder clearModificationAllowed() {
           if (modificationAllowedBuilder_ == null) {
@@ -3467,9 +3467,9 @@ public final class OmGetBillInformationRulesAd {
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getModificationAllowedBuilder() {
+        public io.dstore.values.IntegerValue.Builder getModificationAllowedBuilder() {
           
           onChanged();
           return getModificationAllowedFieldBuilder().getBuilder();
@@ -3479,14 +3479,14 @@ public final class OmGetBillInformationRulesAd {
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getModificationAllowedOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getModificationAllowedOrBuilder() {
           if (modificationAllowedBuilder_ != null) {
             return modificationAllowedBuilder_.getMessageOrBuilder();
           } else {
             return modificationAllowed_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : modificationAllowed_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : modificationAllowed_;
           }
         }
         /**
@@ -3494,14 +3494,14 @@ public final class OmGetBillInformationRulesAd {
          * "Summe" der Arten von Änderungen, die durchgeführt werden dürfen :- "1" : NEU hinzufügen- "2" : ÄNDERN- "4" : LÖSCHEN=&gt; "0" bedeutet : KEINERLEI Änderungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue modification_allowed = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue modification_allowed = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getModificationAllowedFieldBuilder() {
           if (modificationAllowedBuilder_ == null) {
             modificationAllowedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getModificationAllowed(),
                     getParentForChildren(),
                     isClean());
@@ -4971,26 +4971,26 @@ public final class OmGetBillInformationRulesAd {
       "_GetBillInformationRules_Ad\032\023dstore/valu" +
       "es.proto\032\032dstore/engine/engine.proto\"\377\001\n" +
       "\nParameters\022,\n\007user_id\030\001 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022\025\n\014user_id_null\030\351\007 \001(\010" +
+      "lues.IntegerValue\022\025\n\014user_id_null\030\351\007 \001(\010" +
       "\0228\n\023information_type_id\030\002 \001(\0132\033.dstore.v" +
-      "alues.integerValue\022!\n\030information_type_i" +
+      "alues.IntegerValue\022!\n\030information_type_i" +
       "d_null\030\352\007 \001(\010\0222\n\rbill_state_id\030\003 \001(\0132\033.d" +
-      "store.values.integerValue\022\033\n\022bill_state_",
+      "store.values.IntegerValue\022\033\n\022bill_state_",
       "id_null\030\353\007 \001(\010\"\301\004\n\010Response\0228\n\020meta_info" +
       "rmation\030\002 \003(\0132\036.dstore.engine.MetaInform" +
       "ation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.M" +
       "essage\022F\n\003row\030\004 \003(\01329.dstore.engine.om_G" +
       "etBillInformationRules_Ad.Response.Row\032\211" +
       "\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0223\n\rbill_state_id" +
-      "\030\221N \001(\0132\033.dstore.values.integerValue\022.\n\t" +
-      "user_name\030\222N \001(\0132\032.dstore.values.stringV" +
+      "\030\221N \001(\0132\033.dstore.values.IntegerValue\022.\n\t" +
+      "user_name\030\222N \001(\0132\032.dstore.values.StringV" +
       "alue\0229\n\023information_type_id\030\223N \001(\0132\033.dst" +
-      "ore.values.integerValue\022-\n\007user_id\030\224N \001(",
-      "\0132\033.dstore.values.integerValue\0225\n\020inform" +
-      "ation_type\030\225N \001(\0132\032.dstore.values.string" +
+      "ore.values.IntegerValue\022-\n\007user_id\030\224N \001(",
+      "\0132\033.dstore.values.IntegerValue\0225\n\020inform" +
+      "ation_type\030\225N \001(\0132\032.dstore.values.String" +
       "Value\022/\n\nbill_state\030\226N \001(\0132\032.dstore.valu" +
-      "es.stringValue\022:\n\024modification_allowed\030\227" +
-      "N \001(\0132\033.dstore.values.integerValueB^\n\033io" +
+      "es.StringValue\022:\n\024modification_allowed\030\227" +
+      "N \001(\0132\033.dstore.values.IntegerValueB^\n\033io" +
       ".dstore.engine.proceduresZ?gosdk.dstore." +
       "de/engine/procedures/om_GetBillInformati" +
       "onRules_Adb\006proto3"
@@ -5006,7 +5006,7 @@ public final class OmGetBillInformationRulesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetBillInformationRules_Ad_Parameters_descriptor =
@@ -5027,7 +5027,7 @@ public final class OmGetBillInformationRulesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetBillInformationRules_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "BillStateId", "UserName", "InformationTypeId", "UserId", "InformationType", "BillState", "ModificationAllowed", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

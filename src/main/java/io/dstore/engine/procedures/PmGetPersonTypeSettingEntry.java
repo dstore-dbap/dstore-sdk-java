@@ -19,17 +19,17 @@ public final class PmGetPersonTypeSettingEntry {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmGetPersonTypeSettingEntry {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
     boolean hasKeyVariable();
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    io.dstore.Values.stringValue getKeyVariable();
+    io.dstore.values.StringValue getKeyVariable();
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder();
+    io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder();
 
     /**
      * <code>optional bool key_variable_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmGetPersonTypeSettingEntry {
     boolean getKeyVariableNull();
 
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
-    io.dstore.Values.stringValue getValue();
+    io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueOrBuilder();
 
     /**
      * <code>optional bool value_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class PmGetPersonTypeSettingEntry {
     boolean getValueNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
      */
     boolean hasSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
      */
-    io.dstore.Values.booleanValue getSelectResult();
+    io.dstore.values.BooleanValue getSelectResult();
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder();
 
     /**
      * <code>optional bool select_result_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class PmGetPersonTypeSettingEntry {
     boolean getSelectResultNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+     * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     boolean hasPrintErrorMsgIfEntryIsMissing();
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+     * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
-    io.dstore.Values.booleanValue getPrintErrorMsgIfEntryIsMissing();
+    io.dstore.values.BooleanValue getPrintErrorMsgIfEntryIsMissing();
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+     * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder();
 
     /**
      * <code>optional bool print_error_msg_if_entry_is_missing_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class PmGetPersonTypeSettingEntry {
     boolean getPrintErrorMsgIfEntryIsMissingNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+     * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
      */
     boolean hasTryGlobalSettingForMissingKey();
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+     * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
      */
-    io.dstore.Values.booleanValue getTryGlobalSettingForMissingKey();
+    io.dstore.values.BooleanValue getTryGlobalSettingForMissingKey();
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+     * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getTryGlobalSettingForMissingKeyOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getTryGlobalSettingForMissingKeyOrBuilder();
 
     /**
      * <code>optional bool try_global_setting_for_missing_key_null = 1006;</code>
@@ -172,11 +172,11 @@ public final class PmGetPersonTypeSettingEntry {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -185,11 +185,11 @@ public final class PmGetPersonTypeSettingEntry {
               break;
             }
             case 18: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -198,11 +198,11 @@ public final class PmGetPersonTypeSettingEntry {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -211,11 +211,11 @@ public final class PmGetPersonTypeSettingEntry {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
               }
-              selectResult_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              selectResult_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectResult_);
                 selectResult_ = subBuilder.buildPartial();
@@ -224,11 +224,11 @@ public final class PmGetPersonTypeSettingEntry {
               break;
             }
             case 42: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (printErrorMsgIfEntryIsMissing_ != null) {
                 subBuilder = printErrorMsgIfEntryIsMissing_.toBuilder();
               }
-              printErrorMsgIfEntryIsMissing_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              printErrorMsgIfEntryIsMissing_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(printErrorMsgIfEntryIsMissing_);
                 printErrorMsgIfEntryIsMissing_ = subBuilder.buildPartial();
@@ -237,11 +237,11 @@ public final class PmGetPersonTypeSettingEntry {
               break;
             }
             case 50: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (tryGlobalSettingForMissingKey_ != null) {
                 subBuilder = tryGlobalSettingForMissingKey_.toBuilder();
               }
-              tryGlobalSettingForMissingKey_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              tryGlobalSettingForMissingKey_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tryGlobalSettingForMissingKey_);
                 tryGlobalSettingForMissingKey_ = subBuilder.buildPartial();
@@ -303,23 +303,23 @@ public final class PmGetPersonTypeSettingEntry {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -333,23 +333,23 @@ public final class PmGetPersonTypeSettingEntry {
     }
 
     public static final int KEY_VARIABLE_FIELD_NUMBER = 2;
-    private io.dstore.Values.stringValue keyVariable_;
+    private io.dstore.values.StringValue keyVariable_;
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
     public boolean hasKeyVariable() {
       return keyVariable_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    public io.dstore.Values.stringValue getKeyVariable() {
-      return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+    public io.dstore.values.StringValue getKeyVariable() {
+      return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
     }
     /**
-     * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+     * <code>optional .dstore.values.StringValue key_variable = 2;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
       return getKeyVariable();
     }
 
@@ -363,23 +363,23 @@ public final class PmGetPersonTypeSettingEntry {
     }
 
     public static final int VALUE_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue value_;
+    private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
-    public io.dstore.Values.stringValue getValue() {
-      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    public io.dstore.values.StringValue getValue() {
+      return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 3;</code>
+     * <code>optional .dstore.values.StringValue value = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -393,23 +393,23 @@ public final class PmGetPersonTypeSettingEntry {
     }
 
     public static final int SELECT_RESULT_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue selectResult_;
+    private io.dstore.values.BooleanValue selectResult_;
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
      */
     public boolean hasSelectResult() {
       return selectResult_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
      */
-    public io.dstore.Values.booleanValue getSelectResult() {
-      return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+    public io.dstore.values.BooleanValue getSelectResult() {
+      return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+     * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
       return getSelectResult();
     }
 
@@ -423,23 +423,23 @@ public final class PmGetPersonTypeSettingEntry {
     }
 
     public static final int PRINT_ERROR_MSG_IF_ENTRY_IS_MISSING_FIELD_NUMBER = 5;
-    private io.dstore.Values.booleanValue printErrorMsgIfEntryIsMissing_;
+    private io.dstore.values.BooleanValue printErrorMsgIfEntryIsMissing_;
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+     * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
     public boolean hasPrintErrorMsgIfEntryIsMissing() {
       return printErrorMsgIfEntryIsMissing_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+     * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
-    public io.dstore.Values.booleanValue getPrintErrorMsgIfEntryIsMissing() {
-      return printErrorMsgIfEntryIsMissing_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : printErrorMsgIfEntryIsMissing_;
+    public io.dstore.values.BooleanValue getPrintErrorMsgIfEntryIsMissing() {
+      return printErrorMsgIfEntryIsMissing_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : printErrorMsgIfEntryIsMissing_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+     * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder() {
       return getPrintErrorMsgIfEntryIsMissing();
     }
 
@@ -453,23 +453,23 @@ public final class PmGetPersonTypeSettingEntry {
     }
 
     public static final int TRY_GLOBAL_SETTING_FOR_MISSING_KEY_FIELD_NUMBER = 6;
-    private io.dstore.Values.booleanValue tryGlobalSettingForMissingKey_;
+    private io.dstore.values.BooleanValue tryGlobalSettingForMissingKey_;
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+     * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
      */
     public boolean hasTryGlobalSettingForMissingKey() {
       return tryGlobalSettingForMissingKey_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+     * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
      */
-    public io.dstore.Values.booleanValue getTryGlobalSettingForMissingKey() {
-      return tryGlobalSettingForMissingKey_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : tryGlobalSettingForMissingKey_;
+    public io.dstore.values.BooleanValue getTryGlobalSettingForMissingKey() {
+      return tryGlobalSettingForMissingKey_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : tryGlobalSettingForMissingKey_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+     * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getTryGlobalSettingForMissingKeyOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getTryGlobalSettingForMissingKeyOrBuilder() {
       return getTryGlobalSettingForMissingKey();
     }
 
@@ -1022,29 +1022,29 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1058,10 +1058,10 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1072,13 +1072,13 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1090,7 +1090,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1104,33 +1104,33 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1165,29 +1165,29 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
 
-      private io.dstore.Values.stringValue keyVariable_ = null;
+      private io.dstore.values.StringValue keyVariable_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> keyVariableBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> keyVariableBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public boolean hasKeyVariable() {
         return keyVariableBuilder_ != null || keyVariable_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValue getKeyVariable() {
+      public io.dstore.values.StringValue getKeyVariable() {
         if (keyVariableBuilder_ == null) {
-          return keyVariable_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+          return keyVariable_ == null ? io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
         } else {
           return keyVariableBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public Builder setKeyVariable(io.dstore.Values.stringValue value) {
+      public Builder setKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1201,10 +1201,10 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder setKeyVariable(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (keyVariableBuilder_ == null) {
           keyVariable_ = builderForValue.build();
           onChanged();
@@ -1215,13 +1215,13 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public Builder mergeKeyVariable(io.dstore.Values.stringValue value) {
+      public Builder mergeKeyVariable(io.dstore.values.StringValue value) {
         if (keyVariableBuilder_ == null) {
           if (keyVariable_ != null) {
             keyVariable_ =
-              io.dstore.Values.stringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(keyVariable_).mergeFrom(value).buildPartial();
           } else {
             keyVariable_ = value;
           }
@@ -1233,7 +1233,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       public Builder clearKeyVariable() {
         if (keyVariableBuilder_ == null) {
@@ -1247,33 +1247,33 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValue.Builder getKeyVariableBuilder() {
+      public io.dstore.values.StringValue.Builder getKeyVariableBuilder() {
         
         onChanged();
         return getKeyVariableFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getKeyVariableOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getKeyVariableOrBuilder() {
         if (keyVariableBuilder_ != null) {
           return keyVariableBuilder_.getMessageOrBuilder();
         } else {
           return keyVariable_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : keyVariable_;
+              io.dstore.values.StringValue.getDefaultInstance() : keyVariable_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue key_variable = 2;</code>
+       * <code>optional .dstore.values.StringValue key_variable = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getKeyVariableFieldBuilder() {
         if (keyVariableBuilder_ == null) {
           keyVariableBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getKeyVariable(),
                   getParentForChildren(),
                   isClean());
@@ -1308,29 +1308,29 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
 
-      private io.dstore.Values.stringValue value_ = null;
+      private io.dstore.values.StringValue value_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
+      public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public Builder setValue(io.dstore.Values.stringValue value) {
+      public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1344,10 +1344,10 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
       public Builder setValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -1358,13 +1358,13 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public Builder mergeValue(io.dstore.Values.stringValue value) {
+      public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -1376,7 +1376,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -1390,33 +1390,33 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+      public io.dstore.values.StringValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+              io.dstore.values.StringValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 3;</code>
+       * <code>optional .dstore.values.StringValue value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -1451,29 +1451,29 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
 
-      private io.dstore.Values.booleanValue selectResult_ = null;
+      private io.dstore.values.BooleanValue selectResult_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> selectResultBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> selectResultBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
        */
       public boolean hasSelectResult() {
         return selectResultBuilder_ != null || selectResult_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
        */
-      public io.dstore.Values.booleanValue getSelectResult() {
+      public io.dstore.values.BooleanValue getSelectResult() {
         if (selectResultBuilder_ == null) {
-          return selectResult_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+          return selectResult_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
         } else {
           return selectResultBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
        */
-      public Builder setSelectResult(io.dstore.Values.booleanValue value) {
+      public Builder setSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1487,10 +1487,10 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
        */
       public Builder setSelectResult(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (selectResultBuilder_ == null) {
           selectResult_ = builderForValue.build();
           onChanged();
@@ -1501,13 +1501,13 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
        */
-      public Builder mergeSelectResult(io.dstore.Values.booleanValue value) {
+      public Builder mergeSelectResult(io.dstore.values.BooleanValue value) {
         if (selectResultBuilder_ == null) {
           if (selectResult_ != null) {
             selectResult_ =
-              io.dstore.Values.booleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(selectResult_).mergeFrom(value).buildPartial();
           } else {
             selectResult_ = value;
           }
@@ -1519,7 +1519,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
        */
       public Builder clearSelectResult() {
         if (selectResultBuilder_ == null) {
@@ -1533,33 +1533,33 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getSelectResultBuilder() {
+      public io.dstore.values.BooleanValue.Builder getSelectResultBuilder() {
         
         onChanged();
         return getSelectResultFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getSelectResultOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getSelectResultOrBuilder() {
         if (selectResultBuilder_ != null) {
           return selectResultBuilder_.getMessageOrBuilder();
         } else {
           return selectResult_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : selectResult_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : selectResult_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue select_result = 4;</code>
+       * <code>optional .dstore.values.BooleanValue select_result = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getSelectResultFieldBuilder() {
         if (selectResultBuilder_ == null) {
           selectResultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getSelectResult(),
                   getParentForChildren(),
                   isClean());
@@ -1594,29 +1594,29 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
 
-      private io.dstore.Values.booleanValue printErrorMsgIfEntryIsMissing_ = null;
+      private io.dstore.values.BooleanValue printErrorMsgIfEntryIsMissing_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> printErrorMsgIfEntryIsMissingBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> printErrorMsgIfEntryIsMissingBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+       * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public boolean hasPrintErrorMsgIfEntryIsMissing() {
         return printErrorMsgIfEntryIsMissingBuilder_ != null || printErrorMsgIfEntryIsMissing_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+       * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
-      public io.dstore.Values.booleanValue getPrintErrorMsgIfEntryIsMissing() {
+      public io.dstore.values.BooleanValue getPrintErrorMsgIfEntryIsMissing() {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
-          return printErrorMsgIfEntryIsMissing_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : printErrorMsgIfEntryIsMissing_;
+          return printErrorMsgIfEntryIsMissing_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : printErrorMsgIfEntryIsMissing_;
         } else {
           return printErrorMsgIfEntryIsMissingBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+       * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
-      public Builder setPrintErrorMsgIfEntryIsMissing(io.dstore.Values.booleanValue value) {
+      public Builder setPrintErrorMsgIfEntryIsMissing(io.dstore.values.BooleanValue value) {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1630,10 +1630,10 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+       * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder setPrintErrorMsgIfEntryIsMissing(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
           printErrorMsgIfEntryIsMissing_ = builderForValue.build();
           onChanged();
@@ -1644,13 +1644,13 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+       * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
-      public Builder mergePrintErrorMsgIfEntryIsMissing(io.dstore.Values.booleanValue value) {
+      public Builder mergePrintErrorMsgIfEntryIsMissing(io.dstore.values.BooleanValue value) {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
           if (printErrorMsgIfEntryIsMissing_ != null) {
             printErrorMsgIfEntryIsMissing_ =
-              io.dstore.Values.booleanValue.newBuilder(printErrorMsgIfEntryIsMissing_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(printErrorMsgIfEntryIsMissing_).mergeFrom(value).buildPartial();
           } else {
             printErrorMsgIfEntryIsMissing_ = value;
           }
@@ -1662,7 +1662,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+       * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       public Builder clearPrintErrorMsgIfEntryIsMissing() {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
@@ -1676,33 +1676,33 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+       * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getPrintErrorMsgIfEntryIsMissingBuilder() {
+      public io.dstore.values.BooleanValue.Builder getPrintErrorMsgIfEntryIsMissingBuilder() {
         
         onChanged();
         return getPrintErrorMsgIfEntryIsMissingFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+       * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getPrintErrorMsgIfEntryIsMissingOrBuilder() {
         if (printErrorMsgIfEntryIsMissingBuilder_ != null) {
           return printErrorMsgIfEntryIsMissingBuilder_.getMessageOrBuilder();
         } else {
           return printErrorMsgIfEntryIsMissing_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : printErrorMsgIfEntryIsMissing_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : printErrorMsgIfEntryIsMissing_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue print_error_msg_if_entry_is_missing = 5;</code>
+       * <code>optional .dstore.values.BooleanValue print_error_msg_if_entry_is_missing = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getPrintErrorMsgIfEntryIsMissingFieldBuilder() {
         if (printErrorMsgIfEntryIsMissingBuilder_ == null) {
           printErrorMsgIfEntryIsMissingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getPrintErrorMsgIfEntryIsMissing(),
                   getParentForChildren(),
                   isClean());
@@ -1737,29 +1737,29 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
 
-      private io.dstore.Values.booleanValue tryGlobalSettingForMissingKey_ = null;
+      private io.dstore.values.BooleanValue tryGlobalSettingForMissingKey_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> tryGlobalSettingForMissingKeyBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> tryGlobalSettingForMissingKeyBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+       * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public boolean hasTryGlobalSettingForMissingKey() {
         return tryGlobalSettingForMissingKeyBuilder_ != null || tryGlobalSettingForMissingKey_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+       * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
        */
-      public io.dstore.Values.booleanValue getTryGlobalSettingForMissingKey() {
+      public io.dstore.values.BooleanValue getTryGlobalSettingForMissingKey() {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
-          return tryGlobalSettingForMissingKey_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : tryGlobalSettingForMissingKey_;
+          return tryGlobalSettingForMissingKey_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : tryGlobalSettingForMissingKey_;
         } else {
           return tryGlobalSettingForMissingKeyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+       * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
        */
-      public Builder setTryGlobalSettingForMissingKey(io.dstore.Values.booleanValue value) {
+      public Builder setTryGlobalSettingForMissingKey(io.dstore.values.BooleanValue value) {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1773,10 +1773,10 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+       * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public Builder setTryGlobalSettingForMissingKey(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
           tryGlobalSettingForMissingKey_ = builderForValue.build();
           onChanged();
@@ -1787,13 +1787,13 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+       * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
        */
-      public Builder mergeTryGlobalSettingForMissingKey(io.dstore.Values.booleanValue value) {
+      public Builder mergeTryGlobalSettingForMissingKey(io.dstore.values.BooleanValue value) {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
           if (tryGlobalSettingForMissingKey_ != null) {
             tryGlobalSettingForMissingKey_ =
-              io.dstore.Values.booleanValue.newBuilder(tryGlobalSettingForMissingKey_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(tryGlobalSettingForMissingKey_).mergeFrom(value).buildPartial();
           } else {
             tryGlobalSettingForMissingKey_ = value;
           }
@@ -1805,7 +1805,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+       * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
        */
       public Builder clearTryGlobalSettingForMissingKey() {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
@@ -1819,33 +1819,33 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+       * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getTryGlobalSettingForMissingKeyBuilder() {
+      public io.dstore.values.BooleanValue.Builder getTryGlobalSettingForMissingKeyBuilder() {
         
         onChanged();
         return getTryGlobalSettingForMissingKeyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+       * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getTryGlobalSettingForMissingKeyOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getTryGlobalSettingForMissingKeyOrBuilder() {
         if (tryGlobalSettingForMissingKeyBuilder_ != null) {
           return tryGlobalSettingForMissingKeyBuilder_.getMessageOrBuilder();
         } else {
           return tryGlobalSettingForMissingKey_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : tryGlobalSettingForMissingKey_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : tryGlobalSettingForMissingKey_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue try_global_setting_for_missing_key = 6;</code>
+       * <code>optional .dstore.values.BooleanValue try_global_setting_for_missing_key = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getTryGlobalSettingForMissingKeyFieldBuilder() {
         if (tryGlobalSettingForMissingKeyBuilder_ == null) {
           tryGlobalSettingForMissingKeyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getTryGlobalSettingForMissingKey(),
                   getParentForChildren(),
                   isClean());
@@ -2005,17 +2005,17 @@ public final class PmGetPersonTypeSettingEntry {
         int index);
 
     /**
-     * <code>optional .dstore.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.StringValue value = 101;</code>
      */
     boolean hasValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.StringValue value = 101;</code>
      */
-    io.dstore.Values.stringValue getValue();
+    io.dstore.values.StringValue getValue();
     /**
-     * <code>optional .dstore.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.StringValue value = 101;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getValueOrBuilder();
   }
   /**
    * Protobuf type {@code dstore.engine.pm_GetPersonTypeSettingEntry.Response}
@@ -2087,11 +2087,11 @@ public final class PmGetPersonTypeSettingEntry {
               break;
             }
             case 810: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -2145,7 +2145,7 @@ public final class PmGetPersonTypeSettingEntry {
        * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
       boolean hasValue();
       /**
@@ -2153,17 +2153,17 @@ public final class PmGetPersonTypeSettingEntry {
        * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      io.dstore.Values.stringValue getValue();
+      io.dstore.values.StringValue getValue();
       /**
        * <pre>
        * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getValueOrBuilder();
+      io.dstore.values.StringValueOrBuilder getValueOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.pm_GetPersonTypeSettingEntry.Response.Row}
@@ -2211,11 +2211,11 @@ public final class PmGetPersonTypeSettingEntry {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                value_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -2256,13 +2256,13 @@ public final class PmGetPersonTypeSettingEntry {
       }
 
       public static final int VALUE_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue value_;
+      private io.dstore.values.StringValue value_;
       /**
        * <pre>
        * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
       public boolean hasValue() {
         return value_ != null;
@@ -2272,19 +2272,19 @@ public final class PmGetPersonTypeSettingEntry {
        * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
-        return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+      public io.dstore.values.StringValue getValue() {
+        return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
       }
       /**
        * <pre>
        * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue value = 10001;</code>
+       * <code>optional .dstore.values.StringValue value = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         return getValue();
       }
 
@@ -2613,15 +2613,15 @@ public final class PmGetPersonTypeSettingEntry {
           return this;
         }
 
-        private io.dstore.Values.stringValue value_ = null;
+        private io.dstore.values.StringValue value_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
         /**
          * <pre>
          * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         public boolean hasValue() {
           return valueBuilder_ != null || value_ != null;
@@ -2631,11 +2631,11 @@ public final class PmGetPersonTypeSettingEntry {
          * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public io.dstore.Values.stringValue getValue() {
+        public io.dstore.values.StringValue getValue() {
           if (valueBuilder_ == null) {
-            return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+            return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
           } else {
             return valueBuilder_.getMessage();
           }
@@ -2645,9 +2645,9 @@ public final class PmGetPersonTypeSettingEntry {
          * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public Builder setValue(io.dstore.Values.stringValue value) {
+        public Builder setValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2665,10 +2665,10 @@ public final class PmGetPersonTypeSettingEntry {
          * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         public Builder setValue(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (valueBuilder_ == null) {
             value_ = builderForValue.build();
             onChanged();
@@ -2683,13 +2683,13 @@ public final class PmGetPersonTypeSettingEntry {
          * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public Builder mergeValue(io.dstore.Values.stringValue value) {
+        public Builder mergeValue(io.dstore.values.StringValue value) {
           if (valueBuilder_ == null) {
             if (value_ != null) {
               value_ =
-                io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
             } else {
               value_ = value;
             }
@@ -2705,7 +2705,7 @@ public final class PmGetPersonTypeSettingEntry {
          * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         public Builder clearValue() {
           if (valueBuilder_ == null) {
@@ -2723,9 +2723,9 @@ public final class PmGetPersonTypeSettingEntry {
          * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getValueBuilder() {
+        public io.dstore.values.StringValue.Builder getValueBuilder() {
           
           onChanged();
           return getValueFieldBuilder().getBuilder();
@@ -2735,14 +2735,14 @@ public final class PmGetPersonTypeSettingEntry {
          * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
           if (valueBuilder_ != null) {
             return valueBuilder_.getMessageOrBuilder();
           } else {
             return value_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : value_;
+                io.dstore.values.StringValue.getDefaultInstance() : value_;
           }
         }
         /**
@@ -2750,14 +2750,14 @@ public final class PmGetPersonTypeSettingEntry {
          * Der für den Personen-Typ "&#64;PersonTypeID" zum Schlüssel "&#64;KeyVariable" hinterlegte Wert
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue value = 10001;</code>
+         * <code>optional .dstore.values.StringValue value = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getValueFieldBuilder() {
           if (valueBuilder_ == null) {
             valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getValue(),
                     getParentForChildren(),
                     isClean());
@@ -2921,23 +2921,23 @@ public final class PmGetPersonTypeSettingEntry {
     }
 
     public static final int VALUE_FIELD_NUMBER = 101;
-    private io.dstore.Values.stringValue value_;
+    private io.dstore.values.StringValue value_;
     /**
-     * <code>optional .dstore.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.StringValue value = 101;</code>
      */
     public boolean hasValue() {
       return value_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.StringValue value = 101;</code>
      */
-    public io.dstore.Values.stringValue getValue() {
-      return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+    public io.dstore.values.StringValue getValue() {
+      return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
     }
     /**
-     * <code>optional .dstore.values.stringValue value = 101;</code>
+     * <code>optional .dstore.values.StringValue value = 101;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
       return getValue();
     }
 
@@ -4112,29 +4112,29 @@ public final class PmGetPersonTypeSettingEntry {
         return rowBuilder_;
       }
 
-      private io.dstore.Values.stringValue value_ = null;
+      private io.dstore.values.StringValue value_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> valueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> valueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.StringValue value = 101;</code>
        */
       public boolean hasValue() {
         return valueBuilder_ != null || value_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.StringValue value = 101;</code>
        */
-      public io.dstore.Values.stringValue getValue() {
+      public io.dstore.values.StringValue getValue() {
         if (valueBuilder_ == null) {
-          return value_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : value_;
+          return value_ == null ? io.dstore.values.StringValue.getDefaultInstance() : value_;
         } else {
           return valueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.StringValue value = 101;</code>
        */
-      public Builder setValue(io.dstore.Values.stringValue value) {
+      public Builder setValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4148,10 +4148,10 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.StringValue value = 101;</code>
        */
       public Builder setValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (valueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -4162,13 +4162,13 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.StringValue value = 101;</code>
        */
-      public Builder mergeValue(io.dstore.Values.stringValue value) {
+      public Builder mergeValue(io.dstore.values.StringValue value) {
         if (valueBuilder_ == null) {
           if (value_ != null) {
             value_ =
-              io.dstore.Values.stringValue.newBuilder(value_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(value_).mergeFrom(value).buildPartial();
           } else {
             value_ = value;
           }
@@ -4180,7 +4180,7 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.StringValue value = 101;</code>
        */
       public Builder clearValue() {
         if (valueBuilder_ == null) {
@@ -4194,33 +4194,33 @@ public final class PmGetPersonTypeSettingEntry {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.StringValue value = 101;</code>
        */
-      public io.dstore.Values.stringValue.Builder getValueBuilder() {
+      public io.dstore.values.StringValue.Builder getValueBuilder() {
         
         onChanged();
         return getValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.StringValue value = 101;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getValueOrBuilder() {
         if (valueBuilder_ != null) {
           return valueBuilder_.getMessageOrBuilder();
         } else {
           return value_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : value_;
+              io.dstore.values.StringValue.getDefaultInstance() : value_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue value = 101;</code>
+       * <code>optional .dstore.values.StringValue value = 101;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getValue(),
                   getParentForChildren(),
                   isClean());
@@ -4306,27 +4306,27 @@ public final class PmGetPersonTypeSettingEntry {
       "GetPersonTypeSettingEntry\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\266\004\n\nP" +
       "arameters\0223\n\016person_type_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\034\n\023person_type_id" +
+      "re.values.IntegerValue\022\034\n\023person_type_id" +
       "_null\030\351\007 \001(\010\0220\n\014key_variable\030\002 \001(\0132\032.dst" +
-      "ore.values.stringValue\022\032\n\021key_variable_n" +
+      "ore.values.StringValue\022\032\n\021key_variable_n" +
       "ull\030\352\007 \001(\010\022)\n\005value\030\003 \001(\0132\032.dstore.value" +
-      "s.stringValue\022\023\n\nvalue_null\030\353\007 \001(\010\0222\n\rse",
-      "lect_result\030\004 \001(\0132\033.dstore.values.boolea" +
+      "s.StringValue\022\023\n\nvalue_null\030\353\007 \001(\010\0222\n\rse",
+      "lect_result\030\004 \001(\0132\033.dstore.values.Boolea" +
       "nValue\022\033\n\022select_result_null\030\354\007 \001(\010\022H\n#p" +
       "rint_error_msg_if_entry_is_missing\030\005 \001(\013" +
-      "2\033.dstore.values.booleanValue\0221\n(print_e" +
+      "2\033.dstore.values.BooleanValue\0221\n(print_e" +
       "rror_msg_if_entry_is_missing_null\030\355\007 \001(\010" +
       "\022G\n\"try_global_setting_for_missing_key\030\006" +
-      " \001(\0132\033.dstore.values.booleanValue\0220\n\'try" +
+      " \001(\0132\033.dstore.values.BooleanValue\0220\n\'try" +
       "_global_setting_for_missing_key_null\030\356\007 " +
       "\001(\010\"\243\002\n\010Response\0228\n\020meta_information\030\002 \003" +
       "(\0132\036.dstore.engine.MetaInformation\022\'\n\007me",
       "ssage\030\003 \003(\0132\026.dstore.engine.Message\022E\n\003r" +
       "ow\030\004 \003(\01328.dstore.engine.pm_GetPersonTyp" +
       "eSettingEntry.Response.Row\022)\n\005value\030e \001(" +
-      "\0132\032.dstore.values.stringValue\032B\n\003Row\022\017\n\006" +
+      "\0132\032.dstore.values.StringValue\032B\n\003Row\022\017\n\006" +
       "row_id\030\220N \001(\005\022*\n\005value\030\221N \001(\0132\032.dstore.v" +
-      "alues.stringValueB]\n\033io.dstore.engine.pr" +
+      "alues.StringValueB]\n\033io.dstore.engine.pr" +
       "oceduresZ>gosdk.dstore.de/engine/procedu" +
       "res/pm_GetPersonTypeSettingEntryb\006proto3"
     };
@@ -4341,7 +4341,7 @@ public final class PmGetPersonTypeSettingEntry {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_GetPersonTypeSettingEntry_Parameters_descriptor =
@@ -4362,7 +4362,7 @@ public final class PmGetPersonTypeSettingEntry {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonTypeSettingEntry_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Value", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

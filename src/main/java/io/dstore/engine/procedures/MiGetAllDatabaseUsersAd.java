@@ -19,17 +19,17 @@ public final class MiGetAllDatabaseUsersAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
      */
     boolean hasIncludeSpecialUser();
     /**
-     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
      */
-    io.dstore.Values.booleanValue getIncludeSpecialUser();
+    io.dstore.values.BooleanValue getIncludeSpecialUser();
     /**
-     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getIncludeSpecialUserOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getIncludeSpecialUserOrBuilder();
 
     /**
      * <code>optional bool include_special_user_null = 1001;</code>
@@ -77,11 +77,11 @@ public final class MiGetAllDatabaseUsersAd {
               break;
             }
             case 10: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (includeSpecialUser_ != null) {
                 subBuilder = includeSpecialUser_.toBuilder();
               }
-              includeSpecialUser_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              includeSpecialUser_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeSpecialUser_);
                 includeSpecialUser_ = subBuilder.buildPartial();
@@ -118,23 +118,23 @@ public final class MiGetAllDatabaseUsersAd {
     }
 
     public static final int INCLUDE_SPECIAL_USER_FIELD_NUMBER = 1;
-    private io.dstore.Values.booleanValue includeSpecialUser_;
+    private io.dstore.values.BooleanValue includeSpecialUser_;
     /**
-     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
      */
     public boolean hasIncludeSpecialUser() {
       return includeSpecialUser_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
      */
-    public io.dstore.Values.booleanValue getIncludeSpecialUser() {
-      return includeSpecialUser_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeSpecialUser_;
+    public io.dstore.values.BooleanValue getIncludeSpecialUser() {
+      return includeSpecialUser_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeSpecialUser_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+     * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
       return getIncludeSpecialUser();
     }
 
@@ -447,29 +447,29 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
 
-      private io.dstore.Values.booleanValue includeSpecialUser_ = null;
+      private io.dstore.values.BooleanValue includeSpecialUser_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> includeSpecialUserBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> includeSpecialUserBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public boolean hasIncludeSpecialUser() {
         return includeSpecialUserBuilder_ != null || includeSpecialUser_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
        */
-      public io.dstore.Values.booleanValue getIncludeSpecialUser() {
+      public io.dstore.values.BooleanValue getIncludeSpecialUser() {
         if (includeSpecialUserBuilder_ == null) {
-          return includeSpecialUser_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : includeSpecialUser_;
+          return includeSpecialUser_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : includeSpecialUser_;
         } else {
           return includeSpecialUserBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
        */
-      public Builder setIncludeSpecialUser(io.dstore.Values.booleanValue value) {
+      public Builder setIncludeSpecialUser(io.dstore.values.BooleanValue value) {
         if (includeSpecialUserBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -483,10 +483,10 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public Builder setIncludeSpecialUser(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (includeSpecialUserBuilder_ == null) {
           includeSpecialUser_ = builderForValue.build();
           onChanged();
@@ -497,13 +497,13 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
        */
-      public Builder mergeIncludeSpecialUser(io.dstore.Values.booleanValue value) {
+      public Builder mergeIncludeSpecialUser(io.dstore.values.BooleanValue value) {
         if (includeSpecialUserBuilder_ == null) {
           if (includeSpecialUser_ != null) {
             includeSpecialUser_ =
-              io.dstore.Values.booleanValue.newBuilder(includeSpecialUser_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(includeSpecialUser_).mergeFrom(value).buildPartial();
           } else {
             includeSpecialUser_ = value;
           }
@@ -515,7 +515,7 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
        */
       public Builder clearIncludeSpecialUser() {
         if (includeSpecialUserBuilder_ == null) {
@@ -529,33 +529,33 @@ public final class MiGetAllDatabaseUsersAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getIncludeSpecialUserBuilder() {
+      public io.dstore.values.BooleanValue.Builder getIncludeSpecialUserBuilder() {
         
         onChanged();
         return getIncludeSpecialUserFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getIncludeSpecialUserOrBuilder() {
         if (includeSpecialUserBuilder_ != null) {
           return includeSpecialUserBuilder_.getMessageOrBuilder();
         } else {
           return includeSpecialUser_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : includeSpecialUser_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : includeSpecialUser_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue include_special_user = 1;</code>
+       * <code>optional .dstore.values.BooleanValue include_special_user = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getIncludeSpecialUserFieldBuilder() {
         if (includeSpecialUserBuilder_ == null) {
           includeSpecialUserBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getIncludeSpecialUser(),
                   getParentForChildren(),
                   isClean());
@@ -849,7 +849,7 @@ public final class MiGetAllDatabaseUsersAd {
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue name = 10001;</code>
+       * <code>optional .dstore.values.StringValue name = 10001;</code>
        */
       boolean hasName();
       /**
@@ -857,17 +857,17 @@ public final class MiGetAllDatabaseUsersAd {
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue name = 10001;</code>
+       * <code>optional .dstore.values.StringValue name = 10001;</code>
        */
-      io.dstore.Values.stringValue getName();
+      io.dstore.values.StringValue getName();
       /**
        * <pre>
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue name = 10001;</code>
+       * <code>optional .dstore.values.StringValue name = 10001;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getNameOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetAllDatabaseUsers_Ad.Response.Row}
@@ -915,11 +915,11 @@ public final class MiGetAllDatabaseUsersAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (name_ != null) {
                   subBuilder = name_.toBuilder();
                 }
-                name_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                name_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(name_);
                   name_ = subBuilder.buildPartial();
@@ -960,13 +960,13 @@ public final class MiGetAllDatabaseUsersAd {
       }
 
       public static final int NAME_FIELD_NUMBER = 10001;
-      private io.dstore.Values.stringValue name_;
+      private io.dstore.values.StringValue name_;
       /**
        * <pre>
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue name = 10001;</code>
+       * <code>optional .dstore.values.StringValue name = 10001;</code>
        */
       public boolean hasName() {
         return name_ != null;
@@ -976,19 +976,19 @@ public final class MiGetAllDatabaseUsersAd {
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue name = 10001;</code>
+       * <code>optional .dstore.values.StringValue name = 10001;</code>
        */
-      public io.dstore.Values.stringValue getName() {
-        return name_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : name_;
+      public io.dstore.values.StringValue getName() {
+        return name_ == null ? io.dstore.values.StringValue.getDefaultInstance() : name_;
       }
       /**
        * <pre>
        * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue name = 10001;</code>
+       * <code>optional .dstore.values.StringValue name = 10001;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNameOrBuilder() {
         return getName();
       }
 
@@ -1317,15 +1317,15 @@ public final class MiGetAllDatabaseUsersAd {
           return this;
         }
 
-        private io.dstore.Values.stringValue name_ = null;
+        private io.dstore.values.StringValue name_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> nameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> nameBuilder_;
         /**
          * <pre>
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue name = 10001;</code>
+         * <code>optional .dstore.values.StringValue name = 10001;</code>
          */
         public boolean hasName() {
           return nameBuilder_ != null || name_ != null;
@@ -1335,11 +1335,11 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue name = 10001;</code>
+         * <code>optional .dstore.values.StringValue name = 10001;</code>
          */
-        public io.dstore.Values.stringValue getName() {
+        public io.dstore.values.StringValue getName() {
           if (nameBuilder_ == null) {
-            return name_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : name_;
+            return name_ == null ? io.dstore.values.StringValue.getDefaultInstance() : name_;
           } else {
             return nameBuilder_.getMessage();
           }
@@ -1349,9 +1349,9 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue name = 10001;</code>
+         * <code>optional .dstore.values.StringValue name = 10001;</code>
          */
-        public Builder setName(io.dstore.Values.stringValue value) {
+        public Builder setName(io.dstore.values.StringValue value) {
           if (nameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1369,10 +1369,10 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue name = 10001;</code>
+         * <code>optional .dstore.values.StringValue name = 10001;</code>
          */
         public Builder setName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (nameBuilder_ == null) {
             name_ = builderForValue.build();
             onChanged();
@@ -1387,13 +1387,13 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue name = 10001;</code>
+         * <code>optional .dstore.values.StringValue name = 10001;</code>
          */
-        public Builder mergeName(io.dstore.Values.stringValue value) {
+        public Builder mergeName(io.dstore.values.StringValue value) {
           if (nameBuilder_ == null) {
             if (name_ != null) {
               name_ =
-                io.dstore.Values.stringValue.newBuilder(name_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(name_).mergeFrom(value).buildPartial();
             } else {
               name_ = value;
             }
@@ -1409,7 +1409,7 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue name = 10001;</code>
+         * <code>optional .dstore.values.StringValue name = 10001;</code>
          */
         public Builder clearName() {
           if (nameBuilder_ == null) {
@@ -1427,9 +1427,9 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue name = 10001;</code>
+         * <code>optional .dstore.values.StringValue name = 10001;</code>
          */
-        public io.dstore.Values.stringValue.Builder getNameBuilder() {
+        public io.dstore.values.StringValue.Builder getNameBuilder() {
           
           onChanged();
           return getNameFieldBuilder().getBuilder();
@@ -1439,14 +1439,14 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue name = 10001;</code>
+         * <code>optional .dstore.values.StringValue name = 10001;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getNameOrBuilder() {
           if (nameBuilder_ != null) {
             return nameBuilder_.getMessageOrBuilder();
           } else {
             return name_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : name_;
+                io.dstore.values.StringValue.getDefaultInstance() : name_;
           }
         }
         /**
@@ -1454,14 +1454,14 @@ public final class MiGetAllDatabaseUsersAd {
          * Name eines Benutzers der Datenbank (in der die Prozedur installiert ist und ausgeführt wird)
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue name = 10001;</code>
+         * <code>optional .dstore.values.StringValue name = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getNameFieldBuilder() {
           if (nameBuilder_ == null) {
             nameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getName(),
                     getParentForChildren(),
                     isClean());
@@ -2931,14 +2931,14 @@ public final class MiGetAllDatabaseUsersAd {
       "AllDatabaseUsers_Ad\032\023dstore/values.proto" +
       "\032\032dstore/engine/engine.proto\"k\n\nParamete" +
       "rs\0229\n\024include_special_user\030\001 \001(\0132\033.dstor" +
-      "e.values.booleanValue\022\"\n\031include_special" +
+      "e.values.BooleanValue\022\"\n\031include_special" +
       "_user_null\030\351\007 \001(\010\"\364\001\n\010Response\0228\n\020meta_i" +
       "nformation\030\002 \003(\0132\036.dstore.engine.MetaInf" +
       "ormation\022\'\n\007message\030\003 \003(\0132\026.dstore.engin" +
       "e.Message\022B\n\003row\030\004 \003(\01325.dstore.engine.m",
       "i_GetAllDatabaseUsers_Ad.Response.Row\032A\n" +
       "\003Row\022\017\n\006row_id\030\220N \001(\005\022)\n\004name\030\221N \001(\0132\032.d" +
-      "store.values.stringValueBZ\n\033io.dstore.en" +
+      "store.values.StringValueBZ\n\033io.dstore.en" +
       "gine.proceduresZ;gosdk.dstore.de/engine/" +
       "procedures/mi_GetAllDatabaseUsers_Adb\006pr" +
       "oto3"
@@ -2954,7 +2954,7 @@ public final class MiGetAllDatabaseUsersAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetAllDatabaseUsers_Ad_Parameters_descriptor =
@@ -2975,7 +2975,7 @@ public final class MiGetAllDatabaseUsersAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetAllDatabaseUsers_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Name", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

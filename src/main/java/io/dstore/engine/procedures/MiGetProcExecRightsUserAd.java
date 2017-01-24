@@ -19,17 +19,17 @@ public final class MiGetProcExecRightsUserAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     boolean hasUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValue getUserId();
+    io.dstore.values.IntegerValue getUserId();
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
 
     /**
      * <code>optional bool user_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class MiGetProcExecRightsUserAd {
     boolean getUserIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
      */
     boolean hasProcedureId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
      */
-    io.dstore.Values.integerValue getProcedureId();
+    io.dstore.values.IntegerValue getProcedureId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder();
 
     /**
      * <code>optional bool procedure_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class MiGetProcExecRightsUserAd {
     boolean getProcedureIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
      */
     boolean hasProcedureCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
      */
-    io.dstore.Values.integerValue getProcedureCategoryId();
+    io.dstore.values.IntegerValue getProcedureCategoryId();
     /**
-     * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getProcedureCategoryIdOrBuilder();
 
     /**
      * <code>optional bool procedure_category_id_null = 1003;</code>
@@ -115,11 +115,11 @@ public final class MiGetProcExecRightsUserAd {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -128,11 +128,11 @@ public final class MiGetProcExecRightsUserAd {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (procedureId_ != null) {
                 subBuilder = procedureId_.toBuilder();
               }
-              procedureId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              procedureId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureId_);
                 procedureId_ = subBuilder.buildPartial();
@@ -141,11 +141,11 @@ public final class MiGetProcExecRightsUserAd {
               break;
             }
             case 26: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (procedureCategoryId_ != null) {
                 subBuilder = procedureCategoryId_.toBuilder();
               }
-              procedureCategoryId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              procedureCategoryId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureCategoryId_);
                 procedureCategoryId_ = subBuilder.buildPartial();
@@ -192,23 +192,23 @@ public final class MiGetProcExecRightsUserAd {
     }
 
     public static final int USER_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue userId_;
+    private io.dstore.values.IntegerValue userId_;
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
     public boolean hasUserId() {
       return userId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getUserId() {
-      return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+    public io.dstore.values.IntegerValue getUserId() {
+      return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue user_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
       return getUserId();
     }
 
@@ -222,23 +222,23 @@ public final class MiGetProcExecRightsUserAd {
     }
 
     public static final int PROCEDURE_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue procedureId_;
+    private io.dstore.values.IntegerValue procedureId_;
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
      */
     public boolean hasProcedureId() {
       return procedureId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getProcedureId() {
-      return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+    public io.dstore.values.IntegerValue getProcedureId() {
+      return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
       return getProcedureId();
     }
 
@@ -252,23 +252,23 @@ public final class MiGetProcExecRightsUserAd {
     }
 
     public static final int PROCEDURE_CATEGORY_ID_FIELD_NUMBER = 3;
-    private io.dstore.Values.integerValue procedureCategoryId_;
+    private io.dstore.values.IntegerValue procedureCategoryId_;
     /**
-     * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
      */
     public boolean hasProcedureCategoryId() {
       return procedureCategoryId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
      */
-    public io.dstore.Values.integerValue getProcedureCategoryId() {
-      return procedureCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
+    public io.dstore.values.IntegerValue getProcedureCategoryId() {
+      return procedureCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureCategoryId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+     * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getProcedureCategoryIdOrBuilder() {
       return getProcedureCategoryId();
     }
 
@@ -677,29 +677,29 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue userId_ = null;
+      private io.dstore.values.IntegerValue userId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public boolean hasUserId() {
         return userIdBuilder_ != null || userId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
+      public io.dstore.values.IntegerValue getUserId() {
         if (userIdBuilder_ == null) {
-          return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+          return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         } else {
           return userIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder setUserId(io.dstore.Values.integerValue value) {
+      public Builder setUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -713,10 +713,10 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder setUserId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (userIdBuilder_ == null) {
           userId_ = builderForValue.build();
           onChanged();
@@ -727,13 +727,13 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public Builder mergeUserId(io.dstore.Values.integerValue value) {
+      public Builder mergeUserId(io.dstore.values.IntegerValue value) {
         if (userIdBuilder_ == null) {
           if (userId_ != null) {
             userId_ =
-              io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
           } else {
             userId_ = value;
           }
@@ -745,7 +745,7 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       public Builder clearUserId() {
         if (userIdBuilder_ == null) {
@@ -759,33 +759,33 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
         
         onChanged();
         return getUserIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         if (userIdBuilder_ != null) {
           return userIdBuilder_.getMessageOrBuilder();
         } else {
           return userId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue user_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getUserIdFieldBuilder() {
         if (userIdBuilder_ == null) {
           userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getUserId(),
                   getParentForChildren(),
                   isClean());
@@ -820,29 +820,29 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue procedureId_ = null;
+      private io.dstore.values.IntegerValue procedureId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
        */
       public boolean hasProcedureId() {
         return procedureIdBuilder_ != null || procedureId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getProcedureId() {
+      public io.dstore.values.IntegerValue getProcedureId() {
         if (procedureIdBuilder_ == null) {
-          return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+          return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
         } else {
           return procedureIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
        */
-      public Builder setProcedureId(io.dstore.Values.integerValue value) {
+      public Builder setProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -856,10 +856,10 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
        */
       public Builder setProcedureId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (procedureIdBuilder_ == null) {
           procedureId_ = builderForValue.build();
           onChanged();
@@ -870,13 +870,13 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
        */
-      public Builder mergeProcedureId(io.dstore.Values.integerValue value) {
+      public Builder mergeProcedureId(io.dstore.values.IntegerValue value) {
         if (procedureIdBuilder_ == null) {
           if (procedureId_ != null) {
             procedureId_ =
-              io.dstore.Values.integerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
           } else {
             procedureId_ = value;
           }
@@ -888,7 +888,7 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
        */
       public Builder clearProcedureId() {
         if (procedureIdBuilder_ == null) {
@@ -902,33 +902,33 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getProcedureIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getProcedureIdBuilder() {
         
         onChanged();
         return getProcedureIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
         if (procedureIdBuilder_ != null) {
           return procedureIdBuilder_.getMessageOrBuilder();
         } else {
           return procedureId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getProcedureIdFieldBuilder() {
         if (procedureIdBuilder_ == null) {
           procedureIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getProcedureId(),
                   getParentForChildren(),
                   isClean());
@@ -963,29 +963,29 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue procedureCategoryId_ = null;
+      private io.dstore.values.IntegerValue procedureCategoryId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureCategoryIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureCategoryIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
        */
       public boolean hasProcedureCategoryId() {
         return procedureCategoryIdBuilder_ != null || procedureCategoryId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
        */
-      public io.dstore.Values.integerValue getProcedureCategoryId() {
+      public io.dstore.values.IntegerValue getProcedureCategoryId() {
         if (procedureCategoryIdBuilder_ == null) {
-          return procedureCategoryId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
+          return procedureCategoryId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureCategoryId_;
         } else {
           return procedureCategoryIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
        */
-      public Builder setProcedureCategoryId(io.dstore.Values.integerValue value) {
+      public Builder setProcedureCategoryId(io.dstore.values.IntegerValue value) {
         if (procedureCategoryIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -999,10 +999,10 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
        */
       public Builder setProcedureCategoryId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (procedureCategoryIdBuilder_ == null) {
           procedureCategoryId_ = builderForValue.build();
           onChanged();
@@ -1013,13 +1013,13 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
        */
-      public Builder mergeProcedureCategoryId(io.dstore.Values.integerValue value) {
+      public Builder mergeProcedureCategoryId(io.dstore.values.IntegerValue value) {
         if (procedureCategoryIdBuilder_ == null) {
           if (procedureCategoryId_ != null) {
             procedureCategoryId_ =
-              io.dstore.Values.integerValue.newBuilder(procedureCategoryId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(procedureCategoryId_).mergeFrom(value).buildPartial();
           } else {
             procedureCategoryId_ = value;
           }
@@ -1031,7 +1031,7 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
        */
       public Builder clearProcedureCategoryId() {
         if (procedureCategoryIdBuilder_ == null) {
@@ -1045,33 +1045,33 @@ public final class MiGetProcExecRightsUserAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
        */
-      public io.dstore.Values.integerValue.Builder getProcedureCategoryIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getProcedureCategoryIdBuilder() {
         
         onChanged();
         return getProcedureCategoryIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getProcedureCategoryIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getProcedureCategoryIdOrBuilder() {
         if (procedureCategoryIdBuilder_ != null) {
           return procedureCategoryIdBuilder_.getMessageOrBuilder();
         } else {
           return procedureCategoryId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : procedureCategoryId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : procedureCategoryId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue procedure_category_id = 3;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_category_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getProcedureCategoryIdFieldBuilder() {
         if (procedureCategoryIdBuilder_ == null) {
           procedureCategoryIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getProcedureCategoryId(),
                   getParentForChildren(),
                   isClean());
@@ -1365,7 +1365,7 @@ public final class MiGetProcExecRightsUserAd {
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
        */
       boolean hasExecutionRight();
       /**
@@ -1373,24 +1373,24 @@ public final class MiGetProcExecRightsUserAd {
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
        */
-      io.dstore.Values.integerValue getExecutionRight();
+      io.dstore.values.IntegerValue getExecutionRight();
       /**
        * <pre>
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getExecutionRightOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getExecutionRightOrBuilder();
 
       /**
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
        */
       boolean hasProcedureId();
       /**
@@ -1398,24 +1398,24 @@ public final class MiGetProcExecRightsUserAd {
        * ID einer registrierten Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
        */
-      io.dstore.Values.integerValue getProcedureId();
+      io.dstore.values.IntegerValue getProcedureId();
       /**
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder();
 
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10003;</code>
        */
       boolean hasUserName();
       /**
@@ -1423,24 +1423,24 @@ public final class MiGetProcExecRightsUserAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10003;</code>
        */
-      io.dstore.Values.stringValue getUserName();
+      io.dstore.values.StringValue getUserName();
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10003;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getUserNameOrBuilder();
 
       /**
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
       boolean hasProcedureName();
       /**
@@ -1448,24 +1448,24 @@ public final class MiGetProcExecRightsUserAd {
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
-      io.dstore.Values.stringValue getProcedureName();
+      io.dstore.values.StringValue getProcedureName();
       /**
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder();
+      io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder();
 
       /**
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
        */
       boolean hasUserId();
       /**
@@ -1473,17 +1473,17 @@ public final class MiGetProcExecRightsUserAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
        */
-      io.dstore.Values.integerValue getUserId();
+      io.dstore.values.IntegerValue getUserId();
       /**
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_GetProcExecRights_User_Ad.Response.Row}
@@ -1531,11 +1531,11 @@ public final class MiGetProcExecRightsUserAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (executionRight_ != null) {
                   subBuilder = executionRight_.toBuilder();
                 }
-                executionRight_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                executionRight_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(executionRight_);
                   executionRight_ = subBuilder.buildPartial();
@@ -1544,11 +1544,11 @@ public final class MiGetProcExecRightsUserAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (procedureId_ != null) {
                   subBuilder = procedureId_.toBuilder();
                 }
-                procedureId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                procedureId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureId_);
                   procedureId_ = subBuilder.buildPartial();
@@ -1557,11 +1557,11 @@ public final class MiGetProcExecRightsUserAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (userName_ != null) {
                   subBuilder = userName_.toBuilder();
                 }
-                userName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                userName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userName_);
                   userName_ = subBuilder.buildPartial();
@@ -1570,11 +1570,11 @@ public final class MiGetProcExecRightsUserAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (procedureName_ != null) {
                   subBuilder = procedureName_.toBuilder();
                 }
-                procedureName_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                procedureName_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureName_);
                   procedureName_ = subBuilder.buildPartial();
@@ -1583,11 +1583,11 @@ public final class MiGetProcExecRightsUserAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (userId_ != null) {
                   subBuilder = userId_.toBuilder();
                 }
-                userId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                userId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userId_);
                   userId_ = subBuilder.buildPartial();
@@ -1628,13 +1628,13 @@ public final class MiGetProcExecRightsUserAd {
       }
 
       public static final int EXECUTION_RIGHT_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue executionRight_;
+      private io.dstore.values.IntegerValue executionRight_;
       /**
        * <pre>
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
        */
       public boolean hasExecutionRight() {
         return executionRight_ != null;
@@ -1644,30 +1644,30 @@ public final class MiGetProcExecRightsUserAd {
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
        */
-      public io.dstore.Values.integerValue getExecutionRight() {
-        return executionRight_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : executionRight_;
+      public io.dstore.values.IntegerValue getExecutionRight() {
+        return executionRight_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : executionRight_;
       }
       /**
        * <pre>
        * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getExecutionRightOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getExecutionRightOrBuilder() {
         return getExecutionRight();
       }
 
       public static final int PROCEDURE_ID_FIELD_NUMBER = 10002;
-      private io.dstore.Values.integerValue procedureId_;
+      private io.dstore.values.IntegerValue procedureId_;
       /**
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
        */
       public boolean hasProcedureId() {
         return procedureId_ != null;
@@ -1677,30 +1677,30 @@ public final class MiGetProcExecRightsUserAd {
        * ID einer registrierten Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
        */
-      public io.dstore.Values.integerValue getProcedureId() {
-        return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+      public io.dstore.values.IntegerValue getProcedureId() {
+        return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
       }
       /**
        * <pre>
        * ID einer registrierten Prozedur
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+       * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
         return getProcedureId();
       }
 
       public static final int USER_NAME_FIELD_NUMBER = 10003;
-      private io.dstore.Values.stringValue userName_;
+      private io.dstore.values.StringValue userName_;
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10003;</code>
        */
       public boolean hasUserName() {
         return userName_ != null;
@@ -1710,30 +1710,30 @@ public final class MiGetProcExecRightsUserAd {
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10003;</code>
        */
-      public io.dstore.Values.stringValue getUserName() {
-        return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+      public io.dstore.values.StringValue getUserName() {
+        return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
       }
       /**
        * <pre>
        * Name des Benutzers "UserID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+       * <code>optional .dstore.values.StringValue user_name = 10003;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
         return getUserName();
       }
 
       public static final int PROCEDURE_NAME_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue procedureName_;
+      private io.dstore.values.StringValue procedureName_;
       /**
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
       public boolean hasProcedureName() {
         return procedureName_ != null;
@@ -1743,30 +1743,30 @@ public final class MiGetProcExecRightsUserAd {
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
-      public io.dstore.Values.stringValue getProcedureName() {
-        return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+      public io.dstore.values.StringValue getProcedureName() {
+        return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
       }
       /**
        * <pre>
        * Name der Prozedur "ProcedureID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+       * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
         return getProcedureName();
       }
 
       public static final int USER_ID_FIELD_NUMBER = 10005;
-      private io.dstore.Values.integerValue userId_;
+      private io.dstore.values.IntegerValue userId_;
       /**
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
        */
       public boolean hasUserId() {
         return userId_ != null;
@@ -1776,19 +1776,19 @@ public final class MiGetProcExecRightsUserAd {
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
        */
-      public io.dstore.Values.integerValue getUserId() {
-        return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+      public io.dstore.values.IntegerValue getUserId() {
+        return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
       }
       /**
        * <pre>
        * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+       * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
         return getUserId();
       }
 
@@ -2237,15 +2237,15 @@ public final class MiGetProcExecRightsUserAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue executionRight_ = null;
+        private io.dstore.values.IntegerValue executionRight_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> executionRightBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> executionRightBuilder_;
         /**
          * <pre>
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
          */
         public boolean hasExecutionRight() {
           return executionRightBuilder_ != null || executionRight_ != null;
@@ -2255,11 +2255,11 @@ public final class MiGetProcExecRightsUserAd {
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
          */
-        public io.dstore.Values.integerValue getExecutionRight() {
+        public io.dstore.values.IntegerValue getExecutionRight() {
           if (executionRightBuilder_ == null) {
-            return executionRight_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : executionRight_;
+            return executionRight_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : executionRight_;
           } else {
             return executionRightBuilder_.getMessage();
           }
@@ -2269,9 +2269,9 @@ public final class MiGetProcExecRightsUserAd {
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
          */
-        public Builder setExecutionRight(io.dstore.Values.integerValue value) {
+        public Builder setExecutionRight(io.dstore.values.IntegerValue value) {
           if (executionRightBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2289,10 +2289,10 @@ public final class MiGetProcExecRightsUserAd {
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
          */
         public Builder setExecutionRight(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (executionRightBuilder_ == null) {
             executionRight_ = builderForValue.build();
             onChanged();
@@ -2307,13 +2307,13 @@ public final class MiGetProcExecRightsUserAd {
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
          */
-        public Builder mergeExecutionRight(io.dstore.Values.integerValue value) {
+        public Builder mergeExecutionRight(io.dstore.values.IntegerValue value) {
           if (executionRightBuilder_ == null) {
             if (executionRight_ != null) {
               executionRight_ =
-                io.dstore.Values.integerValue.newBuilder(executionRight_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(executionRight_).mergeFrom(value).buildPartial();
             } else {
               executionRight_ = value;
             }
@@ -2329,7 +2329,7 @@ public final class MiGetProcExecRightsUserAd {
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
          */
         public Builder clearExecutionRight() {
           if (executionRightBuilder_ == null) {
@@ -2347,9 +2347,9 @@ public final class MiGetProcExecRightsUserAd {
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getExecutionRightBuilder() {
+        public io.dstore.values.IntegerValue.Builder getExecutionRightBuilder() {
           
           onChanged();
           return getExecutionRightFieldBuilder().getBuilder();
@@ -2359,14 +2359,14 @@ public final class MiGetProcExecRightsUserAd {
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getExecutionRightOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getExecutionRightOrBuilder() {
           if (executionRightBuilder_ != null) {
             return executionRightBuilder_.getMessageOrBuilder();
           } else {
             return executionRight_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : executionRight_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : executionRight_;
           }
         }
         /**
@@ -2374,14 +2374,14 @@ public final class MiGetProcExecRightsUserAd {
          * "0" : Ausführungsverbot"1" : Generelles Ausführungsrecht"2" : Prozedur darf nur in einer anderen Prozedur ausgeführt werden"3" : Prozedur darf nur in einer Prozedur ausgeführt werden, die wiederum in einer Prozedur ausgeführt wirdusw.
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue execution_right = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue execution_right = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getExecutionRightFieldBuilder() {
           if (executionRightBuilder_ == null) {
             executionRightBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getExecutionRight(),
                     getParentForChildren(),
                     isClean());
@@ -2390,15 +2390,15 @@ public final class MiGetProcExecRightsUserAd {
           return executionRightBuilder_;
         }
 
-        private io.dstore.Values.integerValue procedureId_ = null;
+        private io.dstore.values.IntegerValue procedureId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> procedureIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> procedureIdBuilder_;
         /**
          * <pre>
          * ID einer registrierten Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public boolean hasProcedureId() {
           return procedureIdBuilder_ != null || procedureId_ != null;
@@ -2408,11 +2408,11 @@ public final class MiGetProcExecRightsUserAd {
          * ID einer registrierten Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue getProcedureId() {
+        public io.dstore.values.IntegerValue getProcedureId() {
           if (procedureIdBuilder_ == null) {
-            return procedureId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+            return procedureId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
           } else {
             return procedureIdBuilder_.getMessage();
           }
@@ -2422,9 +2422,9 @@ public final class MiGetProcExecRightsUserAd {
          * ID einer registrierten Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
          */
-        public Builder setProcedureId(io.dstore.Values.integerValue value) {
+        public Builder setProcedureId(io.dstore.values.IntegerValue value) {
           if (procedureIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2442,10 +2442,10 @@ public final class MiGetProcExecRightsUserAd {
          * ID einer registrierten Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public Builder setProcedureId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (procedureIdBuilder_ == null) {
             procedureId_ = builderForValue.build();
             onChanged();
@@ -2460,13 +2460,13 @@ public final class MiGetProcExecRightsUserAd {
          * ID einer registrierten Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
          */
-        public Builder mergeProcedureId(io.dstore.Values.integerValue value) {
+        public Builder mergeProcedureId(io.dstore.values.IntegerValue value) {
           if (procedureIdBuilder_ == null) {
             if (procedureId_ != null) {
               procedureId_ =
-                io.dstore.Values.integerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(procedureId_).mergeFrom(value).buildPartial();
             } else {
               procedureId_ = value;
             }
@@ -2482,7 +2482,7 @@ public final class MiGetProcExecRightsUserAd {
          * ID einer registrierten Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         public Builder clearProcedureId() {
           if (procedureIdBuilder_ == null) {
@@ -2500,9 +2500,9 @@ public final class MiGetProcExecRightsUserAd {
          * ID einer registrierten Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
          */
-        public io.dstore.Values.integerValue.Builder getProcedureIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getProcedureIdBuilder() {
           
           onChanged();
           return getProcedureIdFieldBuilder().getBuilder();
@@ -2512,14 +2512,14 @@ public final class MiGetProcExecRightsUserAd {
          * ID einer registrierten Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getProcedureIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getProcedureIdOrBuilder() {
           if (procedureIdBuilder_ != null) {
             return procedureIdBuilder_.getMessageOrBuilder();
           } else {
             return procedureId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : procedureId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : procedureId_;
           }
         }
         /**
@@ -2527,14 +2527,14 @@ public final class MiGetProcExecRightsUserAd {
          * ID einer registrierten Prozedur
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue procedure_id = 10002;</code>
+         * <code>optional .dstore.values.IntegerValue procedure_id = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getProcedureIdFieldBuilder() {
           if (procedureIdBuilder_ == null) {
             procedureIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getProcedureId(),
                     getParentForChildren(),
                     isClean());
@@ -2543,15 +2543,15 @@ public final class MiGetProcExecRightsUserAd {
           return procedureIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue userName_ = null;
+        private io.dstore.values.StringValue userName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> userNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> userNameBuilder_;
         /**
          * <pre>
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10003;</code>
          */
         public boolean hasUserName() {
           return userNameBuilder_ != null || userName_ != null;
@@ -2561,11 +2561,11 @@ public final class MiGetProcExecRightsUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10003;</code>
          */
-        public io.dstore.Values.stringValue getUserName() {
+        public io.dstore.values.StringValue getUserName() {
           if (userNameBuilder_ == null) {
-            return userName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+            return userName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : userName_;
           } else {
             return userNameBuilder_.getMessage();
           }
@@ -2575,9 +2575,9 @@ public final class MiGetProcExecRightsUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10003;</code>
          */
-        public Builder setUserName(io.dstore.Values.stringValue value) {
+        public Builder setUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2595,10 +2595,10 @@ public final class MiGetProcExecRightsUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10003;</code>
          */
         public Builder setUserName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (userNameBuilder_ == null) {
             userName_ = builderForValue.build();
             onChanged();
@@ -2613,13 +2613,13 @@ public final class MiGetProcExecRightsUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10003;</code>
          */
-        public Builder mergeUserName(io.dstore.Values.stringValue value) {
+        public Builder mergeUserName(io.dstore.values.StringValue value) {
           if (userNameBuilder_ == null) {
             if (userName_ != null) {
               userName_ =
-                io.dstore.Values.stringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(userName_).mergeFrom(value).buildPartial();
             } else {
               userName_ = value;
             }
@@ -2635,7 +2635,7 @@ public final class MiGetProcExecRightsUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10003;</code>
          */
         public Builder clearUserName() {
           if (userNameBuilder_ == null) {
@@ -2653,9 +2653,9 @@ public final class MiGetProcExecRightsUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10003;</code>
          */
-        public io.dstore.Values.stringValue.Builder getUserNameBuilder() {
+        public io.dstore.values.StringValue.Builder getUserNameBuilder() {
           
           onChanged();
           return getUserNameFieldBuilder().getBuilder();
@@ -2665,14 +2665,14 @@ public final class MiGetProcExecRightsUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10003;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getUserNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getUserNameOrBuilder() {
           if (userNameBuilder_ != null) {
             return userNameBuilder_.getMessageOrBuilder();
           } else {
             return userName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : userName_;
+                io.dstore.values.StringValue.getDefaultInstance() : userName_;
           }
         }
         /**
@@ -2680,14 +2680,14 @@ public final class MiGetProcExecRightsUserAd {
          * Name des Benutzers "UserID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue user_name = 10003;</code>
+         * <code>optional .dstore.values.StringValue user_name = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getUserNameFieldBuilder() {
           if (userNameBuilder_ == null) {
             userNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getUserName(),
                     getParentForChildren(),
                     isClean());
@@ -2696,15 +2696,15 @@ public final class MiGetProcExecRightsUserAd {
           return userNameBuilder_;
         }
 
-        private io.dstore.Values.stringValue procedureName_ = null;
+        private io.dstore.values.StringValue procedureName_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> procedureNameBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> procedureNameBuilder_;
         /**
          * <pre>
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
         public boolean hasProcedureName() {
           return procedureNameBuilder_ != null || procedureName_ != null;
@@ -2714,11 +2714,11 @@ public final class MiGetProcExecRightsUserAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public io.dstore.Values.stringValue getProcedureName() {
+        public io.dstore.values.StringValue getProcedureName() {
           if (procedureNameBuilder_ == null) {
-            return procedureName_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+            return procedureName_ == null ? io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
           } else {
             return procedureNameBuilder_.getMessage();
           }
@@ -2728,9 +2728,9 @@ public final class MiGetProcExecRightsUserAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public Builder setProcedureName(io.dstore.Values.stringValue value) {
+        public Builder setProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2748,10 +2748,10 @@ public final class MiGetProcExecRightsUserAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder setProcedureName(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (procedureNameBuilder_ == null) {
             procedureName_ = builderForValue.build();
             onChanged();
@@ -2766,13 +2766,13 @@ public final class MiGetProcExecRightsUserAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public Builder mergeProcedureName(io.dstore.Values.stringValue value) {
+        public Builder mergeProcedureName(io.dstore.values.StringValue value) {
           if (procedureNameBuilder_ == null) {
             if (procedureName_ != null) {
               procedureName_ =
-                io.dstore.Values.stringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(procedureName_).mergeFrom(value).buildPartial();
             } else {
               procedureName_ = value;
             }
@@ -2788,7 +2788,7 @@ public final class MiGetProcExecRightsUserAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
         public Builder clearProcedureName() {
           if (procedureNameBuilder_ == null) {
@@ -2806,9 +2806,9 @@ public final class MiGetProcExecRightsUserAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getProcedureNameBuilder() {
+        public io.dstore.values.StringValue.Builder getProcedureNameBuilder() {
           
           onChanged();
           return getProcedureNameFieldBuilder().getBuilder();
@@ -2818,14 +2818,14 @@ public final class MiGetProcExecRightsUserAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getProcedureNameOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getProcedureNameOrBuilder() {
           if (procedureNameBuilder_ != null) {
             return procedureNameBuilder_.getMessageOrBuilder();
           } else {
             return procedureName_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : procedureName_;
+                io.dstore.values.StringValue.getDefaultInstance() : procedureName_;
           }
         }
         /**
@@ -2833,14 +2833,14 @@ public final class MiGetProcExecRightsUserAd {
          * Name der Prozedur "ProcedureID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue procedure_name = 10004;</code>
+         * <code>optional .dstore.values.StringValue procedure_name = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getProcedureNameFieldBuilder() {
           if (procedureNameBuilder_ == null) {
             procedureNameBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getProcedureName(),
                     getParentForChildren(),
                     isClean());
@@ -2849,15 +2849,15 @@ public final class MiGetProcExecRightsUserAd {
           return procedureNameBuilder_;
         }
 
-        private io.dstore.Values.integerValue userId_ = null;
+        private io.dstore.values.IntegerValue userId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> userIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> userIdBuilder_;
         /**
          * <pre>
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
          */
         public boolean hasUserId() {
           return userIdBuilder_ != null || userId_ != null;
@@ -2867,11 +2867,11 @@ public final class MiGetProcExecRightsUserAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue getUserId() {
+        public io.dstore.values.IntegerValue getUserId() {
           if (userIdBuilder_ == null) {
-            return userId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+            return userId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           } else {
             return userIdBuilder_.getMessage();
           }
@@ -2881,9 +2881,9 @@ public final class MiGetProcExecRightsUserAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
          */
-        public Builder setUserId(io.dstore.Values.integerValue value) {
+        public Builder setUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -2901,10 +2901,10 @@ public final class MiGetProcExecRightsUserAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
          */
         public Builder setUserId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (userIdBuilder_ == null) {
             userId_ = builderForValue.build();
             onChanged();
@@ -2919,13 +2919,13 @@ public final class MiGetProcExecRightsUserAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
          */
-        public Builder mergeUserId(io.dstore.Values.integerValue value) {
+        public Builder mergeUserId(io.dstore.values.IntegerValue value) {
           if (userIdBuilder_ == null) {
             if (userId_ != null) {
               userId_ =
-                io.dstore.Values.integerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(userId_).mergeFrom(value).buildPartial();
             } else {
               userId_ = value;
             }
@@ -2941,7 +2941,7 @@ public final class MiGetProcExecRightsUserAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
          */
         public Builder clearUserId() {
           if (userIdBuilder_ == null) {
@@ -2959,9 +2959,9 @@ public final class MiGetProcExecRightsUserAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUserIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUserIdBuilder() {
           
           onChanged();
           return getUserIdFieldBuilder().getBuilder();
@@ -2971,14 +2971,14 @@ public final class MiGetProcExecRightsUserAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUserIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUserIdOrBuilder() {
           if (userIdBuilder_ != null) {
             return userIdBuilder_.getMessageOrBuilder();
           } else {
             return userId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : userId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : userId_;
           }
         }
         /**
@@ -2986,14 +2986,14 @@ public final class MiGetProcExecRightsUserAd {
          * ID eines "dStore"-Benutzers, der in "UserInfo" registriert ist, für den das Recht "ExecutionRight" für die Prozedur "ProcedureID" konfiguriert ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue user_id = 10005;</code>
+         * <code>optional .dstore.values.IntegerValue user_id = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUserIdFieldBuilder() {
           if (userIdBuilder_ == null) {
             userIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUserId(),
                     getParentForChildren(),
                     isClean());
@@ -4463,23 +4463,23 @@ public final class MiGetProcExecRightsUserAd {
       "GetProcExecRights_User_Ad\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\201\002\n\nP" +
       "arameters\022,\n\007user_id\030\001 \001(\0132\033.dstore.valu" +
-      "es.integerValue\022\025\n\014user_id_null\030\351\007 \001(\010\0221" +
-      "\n\014procedure_id\030\002 \001(\0132\033.dstore.values.int" +
+      "es.IntegerValue\022\025\n\014user_id_null\030\351\007 \001(\010\0221" +
+      "\n\014procedure_id\030\002 \001(\0132\033.dstore.values.Int" +
       "egerValue\022\032\n\021procedure_id_null\030\352\007 \001(\010\022:\n" +
       "\025procedure_category_id\030\003 \001(\0132\033.dstore.va" +
-      "lues.integerValue\022#\n\032procedure_category_",
+      "lues.IntegerValue\022#\n\032procedure_category_",
       "id_null\030\353\007 \001(\010\"\314\003\n\010Response\0228\n\020meta_info" +
       "rmation\030\002 \003(\0132\036.dstore.engine.MetaInform" +
       "ation\022\'\n\007message\030\003 \003(\0132\026.dstore.engine.M" +
       "essage\022E\n\003row\030\004 \003(\01328.dstore.engine.mi_G" +
       "etProcExecRights_User_Ad.Response.Row\032\225\002" +
       "\n\003Row\022\017\n\006row_id\030\220N \001(\005\0225\n\017execution_righ" +
-      "t\030\221N \001(\0132\033.dstore.values.integerValue\0222\n" +
-      "\014procedure_id\030\222N \001(\0132\033.dstore.values.int" +
+      "t\030\221N \001(\0132\033.dstore.values.IntegerValue\0222\n" +
+      "\014procedure_id\030\222N \001(\0132\033.dstore.values.Int" +
       "egerValue\022.\n\tuser_name\030\223N \001(\0132\032.dstore.v" +
-      "alues.stringValue\0223\n\016procedure_name\030\224N \001",
-      "(\0132\032.dstore.values.stringValue\022-\n\007user_i" +
-      "d\030\225N \001(\0132\033.dstore.values.integerValueB]\n" +
+      "alues.StringValue\0223\n\016procedure_name\030\224N \001",
+      "(\0132\032.dstore.values.StringValue\022-\n\007user_i" +
+      "d\030\225N \001(\0132\033.dstore.values.IntegerValueB]\n" +
       "\033io.dstore.engine.proceduresZ>gosdk.dsto" +
       "re.de/engine/procedures/mi_GetProcExecRi" +
       "ghts_User_Adb\006proto3"
@@ -4495,7 +4495,7 @@ public final class MiGetProcExecRightsUserAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_mi_GetProcExecRights_User_Ad_Parameters_descriptor =
@@ -4516,7 +4516,7 @@ public final class MiGetProcExecRightsUserAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_mi_GetProcExecRights_User_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "ExecutionRight", "ProcedureId", "UserName", "ProcedureName", "UserId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

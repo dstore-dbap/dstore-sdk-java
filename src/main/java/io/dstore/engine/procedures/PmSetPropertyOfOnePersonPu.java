@@ -19,17 +19,17 @@ public final class PmSetPropertyOfOnePersonPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     boolean hasPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValue getPersonTypeId();
+    io.dstore.values.IntegerValue getPersonTypeId();
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder();
 
     /**
      * <code>optional bool person_type_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class PmSetPropertyOfOnePersonPu {
     boolean getPersonTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
     boolean hasIdentifyingCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValue getIdentifyingCharacteristicId();
+    io.dstore.values.IntegerValue getIdentifyingCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool identifying_characteristic_id_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class PmSetPropertyOfOnePersonPu {
     boolean getIdentifyingCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
     boolean hasIdentifyingValue();
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
-    io.dstore.Values.stringValue getIdentifyingValue();
+    io.dstore.values.StringValue getIdentifyingValue();
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder();
 
     /**
      * <code>optional bool identifying_value_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class PmSetPropertyOfOnePersonPu {
     boolean getIdentifyingValueNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
     boolean hasCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    io.dstore.Values.booleanValue getCaseSensitive();
+    io.dstore.values.BooleanValue getCaseSensitive();
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder();
 
     /**
      * <code>optional bool case_sensitive_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class PmSetPropertyOfOnePersonPu {
     boolean getCaseSensitiveNull();
 
     /**
-     * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+     * <code>optional .dstore.values.StringValue secret_key = 5;</code>
      */
     boolean hasSecretKey();
     /**
-     * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+     * <code>optional .dstore.values.StringValue secret_key = 5;</code>
      */
-    io.dstore.Values.stringValue getSecretKey();
+    io.dstore.values.StringValue getSecretKey();
     /**
-     * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+     * <code>optional .dstore.values.StringValue secret_key = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getSecretKeyOrBuilder();
+    io.dstore.values.StringValueOrBuilder getSecretKeyOrBuilder();
 
     /**
      * <code>optional bool secret_key_null = 1005;</code>
@@ -109,17 +109,17 @@ public final class PmSetPropertyOfOnePersonPu {
     boolean getSecretKeyNull();
 
     /**
-     * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
      */
     boolean hasSetValueForCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValue getSetValueForCharacteristicId();
+    io.dstore.values.IntegerValue getSetValueForCharacteristicId();
     /**
-     * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getSetValueForCharacteristicIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getSetValueForCharacteristicIdOrBuilder();
 
     /**
      * <code>optional bool set_value_for_characteristic_id_null = 1006;</code>
@@ -127,17 +127,17 @@ public final class PmSetPropertyOfOnePersonPu {
     boolean getSetValueForCharacteristicIdNull();
 
     /**
-     * <code>optional .dstore.values.stringValue new_value = 7;</code>
+     * <code>optional .dstore.values.StringValue new_value = 7;</code>
      */
     boolean hasNewValue();
     /**
-     * <code>optional .dstore.values.stringValue new_value = 7;</code>
+     * <code>optional .dstore.values.StringValue new_value = 7;</code>
      */
-    io.dstore.Values.stringValue getNewValue();
+    io.dstore.values.StringValue getNewValue();
     /**
-     * <code>optional .dstore.values.stringValue new_value = 7;</code>
+     * <code>optional .dstore.values.StringValue new_value = 7;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getNewValueOrBuilder();
+    io.dstore.values.StringValueOrBuilder getNewValueOrBuilder();
 
     /**
      * <code>optional bool new_value_null = 1007;</code>
@@ -145,17 +145,17 @@ public final class PmSetPropertyOfOnePersonPu {
     boolean getNewValueNull();
 
     /**
-     * <code>optional .dstore.values.stringValue country = 8;</code>
+     * <code>optional .dstore.values.StringValue country = 8;</code>
      */
     boolean hasCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 8;</code>
+     * <code>optional .dstore.values.StringValue country = 8;</code>
      */
-    io.dstore.Values.stringValue getCountry();
+    io.dstore.values.StringValue getCountry();
     /**
-     * <code>optional .dstore.values.stringValue country = 8;</code>
+     * <code>optional .dstore.values.StringValue country = 8;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getCountryOrBuilder();
+    io.dstore.values.StringValueOrBuilder getCountryOrBuilder();
 
     /**
      * <code>optional bool country_null = 1008;</code>
@@ -210,11 +210,11 @@ public final class PmSetPropertyOfOnePersonPu {
               break;
             }
             case 10: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -223,11 +223,11 @@ public final class PmSetPropertyOfOnePersonPu {
               break;
             }
             case 18: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (identifyingCharacteristicId_ != null) {
                 subBuilder = identifyingCharacteristicId_.toBuilder();
               }
-              identifyingCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              identifyingCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(identifyingCharacteristicId_);
                 identifyingCharacteristicId_ = subBuilder.buildPartial();
@@ -236,11 +236,11 @@ public final class PmSetPropertyOfOnePersonPu {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (identifyingValue_ != null) {
                 subBuilder = identifyingValue_.toBuilder();
               }
-              identifyingValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              identifyingValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(identifyingValue_);
                 identifyingValue_ = subBuilder.buildPartial();
@@ -249,11 +249,11 @@ public final class PmSetPropertyOfOnePersonPu {
               break;
             }
             case 34: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (caseSensitive_ != null) {
                 subBuilder = caseSensitive_.toBuilder();
               }
-              caseSensitive_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              caseSensitive_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(caseSensitive_);
                 caseSensitive_ = subBuilder.buildPartial();
@@ -262,11 +262,11 @@ public final class PmSetPropertyOfOnePersonPu {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (secretKey_ != null) {
                 subBuilder = secretKey_.toBuilder();
               }
-              secretKey_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              secretKey_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(secretKey_);
                 secretKey_ = subBuilder.buildPartial();
@@ -275,11 +275,11 @@ public final class PmSetPropertyOfOnePersonPu {
               break;
             }
             case 50: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (setValueForCharacteristicId_ != null) {
                 subBuilder = setValueForCharacteristicId_.toBuilder();
               }
-              setValueForCharacteristicId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              setValueForCharacteristicId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(setValueForCharacteristicId_);
                 setValueForCharacteristicId_ = subBuilder.buildPartial();
@@ -288,11 +288,11 @@ public final class PmSetPropertyOfOnePersonPu {
               break;
             }
             case 58: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (newValue_ != null) {
                 subBuilder = newValue_.toBuilder();
               }
-              newValue_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              newValue_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newValue_);
                 newValue_ = subBuilder.buildPartial();
@@ -301,11 +301,11 @@ public final class PmSetPropertyOfOnePersonPu {
               break;
             }
             case 66: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              country_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -377,23 +377,23 @@ public final class PmSetPropertyOfOnePersonPu {
     }
 
     public static final int PERSON_TYPE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.integerValue personTypeId_;
+    private io.dstore.values.IntegerValue personTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
     public boolean hasPersonTypeId() {
       return personTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValue getPersonTypeId() {
-      return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+    public io.dstore.values.IntegerValue getPersonTypeId() {
+      return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+     * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
       return getPersonTypeId();
     }
 
@@ -407,23 +407,23 @@ public final class PmSetPropertyOfOnePersonPu {
     }
 
     public static final int IDENTIFYING_CHARACTERISTIC_ID_FIELD_NUMBER = 2;
-    private io.dstore.Values.integerValue identifyingCharacteristicId_;
+    private io.dstore.values.IntegerValue identifyingCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
     public boolean hasIdentifyingCharacteristicId() {
       return identifyingCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValue getIdentifyingCharacteristicId() {
-      return identifyingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : identifyingCharacteristicId_;
+    public io.dstore.values.IntegerValue getIdentifyingCharacteristicId() {
+      return identifyingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : identifyingCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+     * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
       return getIdentifyingCharacteristicId();
     }
 
@@ -437,23 +437,23 @@ public final class PmSetPropertyOfOnePersonPu {
     }
 
     public static final int IDENTIFYING_VALUE_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue identifyingValue_;
+    private io.dstore.values.StringValue identifyingValue_;
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
     public boolean hasIdentifyingValue() {
       return identifyingValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
-    public io.dstore.Values.stringValue getIdentifyingValue() {
-      return identifyingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+    public io.dstore.values.StringValue getIdentifyingValue() {
+      return identifyingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+     * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder() {
       return getIdentifyingValue();
     }
 
@@ -467,23 +467,23 @@ public final class PmSetPropertyOfOnePersonPu {
     }
 
     public static final int CASE_SENSITIVE_FIELD_NUMBER = 4;
-    private io.dstore.Values.booleanValue caseSensitive_;
+    private io.dstore.values.BooleanValue caseSensitive_;
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
     public boolean hasCaseSensitive() {
       return caseSensitive_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    public io.dstore.Values.booleanValue getCaseSensitive() {
-      return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+    public io.dstore.values.BooleanValue getCaseSensitive() {
+      return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+     * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
       return getCaseSensitive();
     }
 
@@ -497,23 +497,23 @@ public final class PmSetPropertyOfOnePersonPu {
     }
 
     public static final int SECRET_KEY_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue secretKey_;
+    private io.dstore.values.StringValue secretKey_;
     /**
-     * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+     * <code>optional .dstore.values.StringValue secret_key = 5;</code>
      */
     public boolean hasSecretKey() {
       return secretKey_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+     * <code>optional .dstore.values.StringValue secret_key = 5;</code>
      */
-    public io.dstore.Values.stringValue getSecretKey() {
-      return secretKey_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : secretKey_;
+    public io.dstore.values.StringValue getSecretKey() {
+      return secretKey_ == null ? io.dstore.values.StringValue.getDefaultInstance() : secretKey_;
     }
     /**
-     * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+     * <code>optional .dstore.values.StringValue secret_key = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getSecretKeyOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getSecretKeyOrBuilder() {
       return getSecretKey();
     }
 
@@ -527,23 +527,23 @@ public final class PmSetPropertyOfOnePersonPu {
     }
 
     public static final int SET_VALUE_FOR_CHARACTERISTIC_ID_FIELD_NUMBER = 6;
-    private io.dstore.Values.integerValue setValueForCharacteristicId_;
+    private io.dstore.values.IntegerValue setValueForCharacteristicId_;
     /**
-     * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
      */
     public boolean hasSetValueForCharacteristicId() {
       return setValueForCharacteristicId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValue getSetValueForCharacteristicId() {
-      return setValueForCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : setValueForCharacteristicId_;
+    public io.dstore.values.IntegerValue getSetValueForCharacteristicId() {
+      return setValueForCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : setValueForCharacteristicId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+     * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getSetValueForCharacteristicIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getSetValueForCharacteristicIdOrBuilder() {
       return getSetValueForCharacteristicId();
     }
 
@@ -557,23 +557,23 @@ public final class PmSetPropertyOfOnePersonPu {
     }
 
     public static final int NEW_VALUE_FIELD_NUMBER = 7;
-    private io.dstore.Values.stringValue newValue_;
+    private io.dstore.values.StringValue newValue_;
     /**
-     * <code>optional .dstore.values.stringValue new_value = 7;</code>
+     * <code>optional .dstore.values.StringValue new_value = 7;</code>
      */
     public boolean hasNewValue() {
       return newValue_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue new_value = 7;</code>
+     * <code>optional .dstore.values.StringValue new_value = 7;</code>
      */
-    public io.dstore.Values.stringValue getNewValue() {
-      return newValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newValue_;
+    public io.dstore.values.StringValue getNewValue() {
+      return newValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newValue_;
     }
     /**
-     * <code>optional .dstore.values.stringValue new_value = 7;</code>
+     * <code>optional .dstore.values.StringValue new_value = 7;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getNewValueOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getNewValueOrBuilder() {
       return getNewValue();
     }
 
@@ -587,23 +587,23 @@ public final class PmSetPropertyOfOnePersonPu {
     }
 
     public static final int COUNTRY_FIELD_NUMBER = 8;
-    private io.dstore.Values.stringValue country_;
+    private io.dstore.values.StringValue country_;
     /**
-     * <code>optional .dstore.values.stringValue country = 8;</code>
+     * <code>optional .dstore.values.StringValue country = 8;</code>
      */
     public boolean hasCountry() {
       return country_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 8;</code>
+     * <code>optional .dstore.values.StringValue country = 8;</code>
      */
-    public io.dstore.Values.stringValue getCountry() {
-      return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+    public io.dstore.values.StringValue getCountry() {
+      return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
     }
     /**
-     * <code>optional .dstore.values.stringValue country = 8;</code>
+     * <code>optional .dstore.values.StringValue country = 8;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
       return getCountry();
     }
 
@@ -1252,29 +1252,29 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue personTypeId_ = null;
+      private io.dstore.values.IntegerValue personTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> personTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> personTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public boolean hasPersonTypeId() {
         return personTypeIdBuilder_ != null || personTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue getPersonTypeId() {
+      public io.dstore.values.IntegerValue getPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
-          return personTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+          return personTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         } else {
           return personTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder setPersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder setPersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1288,10 +1288,10 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder setPersonTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (personTypeIdBuilder_ == null) {
           personTypeId_ = builderForValue.build();
           onChanged();
@@ -1302,13 +1302,13 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public Builder mergePersonTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergePersonTypeId(io.dstore.values.IntegerValue value) {
         if (personTypeIdBuilder_ == null) {
           if (personTypeId_ != null) {
             personTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(personTypeId_).mergeFrom(value).buildPartial();
           } else {
             personTypeId_ = value;
           }
@@ -1320,7 +1320,7 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       public Builder clearPersonTypeId() {
         if (personTypeIdBuilder_ == null) {
@@ -1334,33 +1334,33 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValue.Builder getPersonTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getPersonTypeIdBuilder() {
         
         onChanged();
         return getPersonTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getPersonTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getPersonTypeIdOrBuilder() {
         if (personTypeIdBuilder_ != null) {
           return personTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return personTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : personTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : personTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue person_type_id = 1;</code>
+       * <code>optional .dstore.values.IntegerValue person_type_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getPersonTypeIdFieldBuilder() {
         if (personTypeIdBuilder_ == null) {
           personTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getPersonTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1395,29 +1395,29 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue identifyingCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue identifyingCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> identifyingCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> identifyingCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
       public boolean hasIdentifyingCharacteristicId() {
         return identifyingCharacteristicIdBuilder_ != null || identifyingCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue getIdentifyingCharacteristicId() {
+      public io.dstore.values.IntegerValue getIdentifyingCharacteristicId() {
         if (identifyingCharacteristicIdBuilder_ == null) {
-          return identifyingCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : identifyingCharacteristicId_;
+          return identifyingCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : identifyingCharacteristicId_;
         } else {
           return identifyingCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public Builder setIdentifyingCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setIdentifyingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (identifyingCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1431,10 +1431,10 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
       public Builder setIdentifyingCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (identifyingCharacteristicIdBuilder_ == null) {
           identifyingCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -1445,13 +1445,13 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public Builder mergeIdentifyingCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeIdentifyingCharacteristicId(io.dstore.values.IntegerValue value) {
         if (identifyingCharacteristicIdBuilder_ == null) {
           if (identifyingCharacteristicId_ != null) {
             identifyingCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(identifyingCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(identifyingCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             identifyingCharacteristicId_ = value;
           }
@@ -1463,7 +1463,7 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
       public Builder clearIdentifyingCharacteristicId() {
         if (identifyingCharacteristicIdBuilder_ == null) {
@@ -1477,33 +1477,33 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValue.Builder getIdentifyingCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getIdentifyingCharacteristicIdBuilder() {
         
         onChanged();
         return getIdentifyingCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getIdentifyingCharacteristicIdOrBuilder() {
         if (identifyingCharacteristicIdBuilder_ != null) {
           return identifyingCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return identifyingCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : identifyingCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : identifyingCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue identifying_characteristic_id = 2;</code>
+       * <code>optional .dstore.values.IntegerValue identifying_characteristic_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getIdentifyingCharacteristicIdFieldBuilder() {
         if (identifyingCharacteristicIdBuilder_ == null) {
           identifyingCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getIdentifyingCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -1538,29 +1538,29 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue identifyingValue_ = null;
+      private io.dstore.values.StringValue identifyingValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> identifyingValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> identifyingValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
       public boolean hasIdentifyingValue() {
         return identifyingValueBuilder_ != null || identifyingValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public io.dstore.Values.stringValue getIdentifyingValue() {
+      public io.dstore.values.StringValue getIdentifyingValue() {
         if (identifyingValueBuilder_ == null) {
-          return identifyingValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+          return identifyingValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
         } else {
           return identifyingValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public Builder setIdentifyingValue(io.dstore.Values.stringValue value) {
+      public Builder setIdentifyingValue(io.dstore.values.StringValue value) {
         if (identifyingValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1574,10 +1574,10 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
       public Builder setIdentifyingValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (identifyingValueBuilder_ == null) {
           identifyingValue_ = builderForValue.build();
           onChanged();
@@ -1588,13 +1588,13 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public Builder mergeIdentifyingValue(io.dstore.Values.stringValue value) {
+      public Builder mergeIdentifyingValue(io.dstore.values.StringValue value) {
         if (identifyingValueBuilder_ == null) {
           if (identifyingValue_ != null) {
             identifyingValue_ =
-              io.dstore.Values.stringValue.newBuilder(identifyingValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(identifyingValue_).mergeFrom(value).buildPartial();
           } else {
             identifyingValue_ = value;
           }
@@ -1606,7 +1606,7 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
       public Builder clearIdentifyingValue() {
         if (identifyingValueBuilder_ == null) {
@@ -1620,33 +1620,33 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getIdentifyingValueBuilder() {
+      public io.dstore.values.StringValue.Builder getIdentifyingValueBuilder() {
         
         onChanged();
         return getIdentifyingValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getIdentifyingValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getIdentifyingValueOrBuilder() {
         if (identifyingValueBuilder_ != null) {
           return identifyingValueBuilder_.getMessageOrBuilder();
         } else {
           return identifyingValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : identifyingValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : identifyingValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue identifying_value = 3;</code>
+       * <code>optional .dstore.values.StringValue identifying_value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getIdentifyingValueFieldBuilder() {
         if (identifyingValueBuilder_ == null) {
           identifyingValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getIdentifyingValue(),
                   getParentForChildren(),
                   isClean());
@@ -1681,29 +1681,29 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue caseSensitive_ = null;
+      private io.dstore.values.BooleanValue caseSensitive_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> caseSensitiveBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> caseSensitiveBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       public boolean hasCaseSensitive() {
         return caseSensitiveBuilder_ != null || caseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public io.dstore.Values.booleanValue getCaseSensitive() {
+      public io.dstore.values.BooleanValue getCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
-          return caseSensitive_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+          return caseSensitive_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         } else {
           return caseSensitiveBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public Builder setCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder setCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1717,10 +1717,10 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       public Builder setCaseSensitive(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (caseSensitiveBuilder_ == null) {
           caseSensitive_ = builderForValue.build();
           onChanged();
@@ -1731,13 +1731,13 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public Builder mergeCaseSensitive(io.dstore.Values.booleanValue value) {
+      public Builder mergeCaseSensitive(io.dstore.values.BooleanValue value) {
         if (caseSensitiveBuilder_ == null) {
           if (caseSensitive_ != null) {
             caseSensitive_ =
-              io.dstore.Values.booleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(caseSensitive_).mergeFrom(value).buildPartial();
           } else {
             caseSensitive_ = value;
           }
@@ -1749,7 +1749,7 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       public Builder clearCaseSensitive() {
         if (caseSensitiveBuilder_ == null) {
@@ -1763,33 +1763,33 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getCaseSensitiveBuilder() {
+      public io.dstore.values.BooleanValue.Builder getCaseSensitiveBuilder() {
         
         onChanged();
         return getCaseSensitiveFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCaseSensitiveOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCaseSensitiveOrBuilder() {
         if (caseSensitiveBuilder_ != null) {
           return caseSensitiveBuilder_.getMessageOrBuilder();
         } else {
           return caseSensitive_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : caseSensitive_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : caseSensitive_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue case_sensitive = 4;</code>
+       * <code>optional .dstore.values.BooleanValue case_sensitive = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getCaseSensitiveFieldBuilder() {
         if (caseSensitiveBuilder_ == null) {
           caseSensitiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getCaseSensitive(),
                   getParentForChildren(),
                   isClean());
@@ -1824,29 +1824,29 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue secretKey_ = null;
+      private io.dstore.values.StringValue secretKey_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> secretKeyBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> secretKeyBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+       * <code>optional .dstore.values.StringValue secret_key = 5;</code>
        */
       public boolean hasSecretKey() {
         return secretKeyBuilder_ != null || secretKey_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+       * <code>optional .dstore.values.StringValue secret_key = 5;</code>
        */
-      public io.dstore.Values.stringValue getSecretKey() {
+      public io.dstore.values.StringValue getSecretKey() {
         if (secretKeyBuilder_ == null) {
-          return secretKey_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : secretKey_;
+          return secretKey_ == null ? io.dstore.values.StringValue.getDefaultInstance() : secretKey_;
         } else {
           return secretKeyBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+       * <code>optional .dstore.values.StringValue secret_key = 5;</code>
        */
-      public Builder setSecretKey(io.dstore.Values.stringValue value) {
+      public Builder setSecretKey(io.dstore.values.StringValue value) {
         if (secretKeyBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1860,10 +1860,10 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+       * <code>optional .dstore.values.StringValue secret_key = 5;</code>
        */
       public Builder setSecretKey(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (secretKeyBuilder_ == null) {
           secretKey_ = builderForValue.build();
           onChanged();
@@ -1874,13 +1874,13 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+       * <code>optional .dstore.values.StringValue secret_key = 5;</code>
        */
-      public Builder mergeSecretKey(io.dstore.Values.stringValue value) {
+      public Builder mergeSecretKey(io.dstore.values.StringValue value) {
         if (secretKeyBuilder_ == null) {
           if (secretKey_ != null) {
             secretKey_ =
-              io.dstore.Values.stringValue.newBuilder(secretKey_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(secretKey_).mergeFrom(value).buildPartial();
           } else {
             secretKey_ = value;
           }
@@ -1892,7 +1892,7 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+       * <code>optional .dstore.values.StringValue secret_key = 5;</code>
        */
       public Builder clearSecretKey() {
         if (secretKeyBuilder_ == null) {
@@ -1906,33 +1906,33 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+       * <code>optional .dstore.values.StringValue secret_key = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getSecretKeyBuilder() {
+      public io.dstore.values.StringValue.Builder getSecretKeyBuilder() {
         
         onChanged();
         return getSecretKeyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+       * <code>optional .dstore.values.StringValue secret_key = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getSecretKeyOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getSecretKeyOrBuilder() {
         if (secretKeyBuilder_ != null) {
           return secretKeyBuilder_.getMessageOrBuilder();
         } else {
           return secretKey_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : secretKey_;
+              io.dstore.values.StringValue.getDefaultInstance() : secretKey_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue secret_key = 5;</code>
+       * <code>optional .dstore.values.StringValue secret_key = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getSecretKeyFieldBuilder() {
         if (secretKeyBuilder_ == null) {
           secretKeyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getSecretKey(),
                   getParentForChildren(),
                   isClean());
@@ -1967,29 +1967,29 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.Values.integerValue setValueForCharacteristicId_ = null;
+      private io.dstore.values.IntegerValue setValueForCharacteristicId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> setValueForCharacteristicIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> setValueForCharacteristicIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
        */
       public boolean hasSetValueForCharacteristicId() {
         return setValueForCharacteristicIdBuilder_ != null || setValueForCharacteristicId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue getSetValueForCharacteristicId() {
+      public io.dstore.values.IntegerValue getSetValueForCharacteristicId() {
         if (setValueForCharacteristicIdBuilder_ == null) {
-          return setValueForCharacteristicId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : setValueForCharacteristicId_;
+          return setValueForCharacteristicId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : setValueForCharacteristicId_;
         } else {
           return setValueForCharacteristicIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
        */
-      public Builder setSetValueForCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder setSetValueForCharacteristicId(io.dstore.values.IntegerValue value) {
         if (setValueForCharacteristicIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2003,10 +2003,10 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
        */
       public Builder setSetValueForCharacteristicId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (setValueForCharacteristicIdBuilder_ == null) {
           setValueForCharacteristicId_ = builderForValue.build();
           onChanged();
@@ -2017,13 +2017,13 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
        */
-      public Builder mergeSetValueForCharacteristicId(io.dstore.Values.integerValue value) {
+      public Builder mergeSetValueForCharacteristicId(io.dstore.values.IntegerValue value) {
         if (setValueForCharacteristicIdBuilder_ == null) {
           if (setValueForCharacteristicId_ != null) {
             setValueForCharacteristicId_ =
-              io.dstore.Values.integerValue.newBuilder(setValueForCharacteristicId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(setValueForCharacteristicId_).mergeFrom(value).buildPartial();
           } else {
             setValueForCharacteristicId_ = value;
           }
@@ -2035,7 +2035,7 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
        */
       public Builder clearSetValueForCharacteristicId() {
         if (setValueForCharacteristicIdBuilder_ == null) {
@@ -2049,33 +2049,33 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValue.Builder getSetValueForCharacteristicIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getSetValueForCharacteristicIdBuilder() {
         
         onChanged();
         return getSetValueForCharacteristicIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getSetValueForCharacteristicIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getSetValueForCharacteristicIdOrBuilder() {
         if (setValueForCharacteristicIdBuilder_ != null) {
           return setValueForCharacteristicIdBuilder_.getMessageOrBuilder();
         } else {
           return setValueForCharacteristicId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : setValueForCharacteristicId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : setValueForCharacteristicId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue set_value_for_characteristic_id = 6;</code>
+       * <code>optional .dstore.values.IntegerValue set_value_for_characteristic_id = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getSetValueForCharacteristicIdFieldBuilder() {
         if (setValueForCharacteristicIdBuilder_ == null) {
           setValueForCharacteristicIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getSetValueForCharacteristicId(),
                   getParentForChildren(),
                   isClean());
@@ -2110,29 +2110,29 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue newValue_ = null;
+      private io.dstore.values.StringValue newValue_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> newValueBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> newValueBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue new_value = 7;</code>
+       * <code>optional .dstore.values.StringValue new_value = 7;</code>
        */
       public boolean hasNewValue() {
         return newValueBuilder_ != null || newValue_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 7;</code>
+       * <code>optional .dstore.values.StringValue new_value = 7;</code>
        */
-      public io.dstore.Values.stringValue getNewValue() {
+      public io.dstore.values.StringValue getNewValue() {
         if (newValueBuilder_ == null) {
-          return newValue_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : newValue_;
+          return newValue_ == null ? io.dstore.values.StringValue.getDefaultInstance() : newValue_;
         } else {
           return newValueBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 7;</code>
+       * <code>optional .dstore.values.StringValue new_value = 7;</code>
        */
-      public Builder setNewValue(io.dstore.Values.stringValue value) {
+      public Builder setNewValue(io.dstore.values.StringValue value) {
         if (newValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2146,10 +2146,10 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 7;</code>
+       * <code>optional .dstore.values.StringValue new_value = 7;</code>
        */
       public Builder setNewValue(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (newValueBuilder_ == null) {
           newValue_ = builderForValue.build();
           onChanged();
@@ -2160,13 +2160,13 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 7;</code>
+       * <code>optional .dstore.values.StringValue new_value = 7;</code>
        */
-      public Builder mergeNewValue(io.dstore.Values.stringValue value) {
+      public Builder mergeNewValue(io.dstore.values.StringValue value) {
         if (newValueBuilder_ == null) {
           if (newValue_ != null) {
             newValue_ =
-              io.dstore.Values.stringValue.newBuilder(newValue_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(newValue_).mergeFrom(value).buildPartial();
           } else {
             newValue_ = value;
           }
@@ -2178,7 +2178,7 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 7;</code>
+       * <code>optional .dstore.values.StringValue new_value = 7;</code>
        */
       public Builder clearNewValue() {
         if (newValueBuilder_ == null) {
@@ -2192,33 +2192,33 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 7;</code>
+       * <code>optional .dstore.values.StringValue new_value = 7;</code>
        */
-      public io.dstore.Values.stringValue.Builder getNewValueBuilder() {
+      public io.dstore.values.StringValue.Builder getNewValueBuilder() {
         
         onChanged();
         return getNewValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 7;</code>
+       * <code>optional .dstore.values.StringValue new_value = 7;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getNewValueOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getNewValueOrBuilder() {
         if (newValueBuilder_ != null) {
           return newValueBuilder_.getMessageOrBuilder();
         } else {
           return newValue_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : newValue_;
+              io.dstore.values.StringValue.getDefaultInstance() : newValue_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue new_value = 7;</code>
+       * <code>optional .dstore.values.StringValue new_value = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getNewValueFieldBuilder() {
         if (newValueBuilder_ == null) {
           newValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getNewValue(),
                   getParentForChildren(),
                   isClean());
@@ -2253,29 +2253,29 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue country_ = null;
+      private io.dstore.values.StringValue country_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> countryBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> countryBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue country = 8;</code>
+       * <code>optional .dstore.values.StringValue country = 8;</code>
        */
       public boolean hasCountry() {
         return countryBuilder_ != null || country_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 8;</code>
+       * <code>optional .dstore.values.StringValue country = 8;</code>
        */
-      public io.dstore.Values.stringValue getCountry() {
+      public io.dstore.values.StringValue getCountry() {
         if (countryBuilder_ == null) {
-          return country_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : country_;
+          return country_ == null ? io.dstore.values.StringValue.getDefaultInstance() : country_;
         } else {
           return countryBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 8;</code>
+       * <code>optional .dstore.values.StringValue country = 8;</code>
        */
-      public Builder setCountry(io.dstore.Values.stringValue value) {
+      public Builder setCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2289,10 +2289,10 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 8;</code>
+       * <code>optional .dstore.values.StringValue country = 8;</code>
        */
       public Builder setCountry(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (countryBuilder_ == null) {
           country_ = builderForValue.build();
           onChanged();
@@ -2303,13 +2303,13 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 8;</code>
+       * <code>optional .dstore.values.StringValue country = 8;</code>
        */
-      public Builder mergeCountry(io.dstore.Values.stringValue value) {
+      public Builder mergeCountry(io.dstore.values.StringValue value) {
         if (countryBuilder_ == null) {
           if (country_ != null) {
             country_ =
-              io.dstore.Values.stringValue.newBuilder(country_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(country_).mergeFrom(value).buildPartial();
           } else {
             country_ = value;
           }
@@ -2321,7 +2321,7 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 8;</code>
+       * <code>optional .dstore.values.StringValue country = 8;</code>
        */
       public Builder clearCountry() {
         if (countryBuilder_ == null) {
@@ -2335,33 +2335,33 @@ public final class PmSetPropertyOfOnePersonPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 8;</code>
+       * <code>optional .dstore.values.StringValue country = 8;</code>
        */
-      public io.dstore.Values.stringValue.Builder getCountryBuilder() {
+      public io.dstore.values.StringValue.Builder getCountryBuilder() {
         
         onChanged();
         return getCountryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 8;</code>
+       * <code>optional .dstore.values.StringValue country = 8;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getCountryOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getCountryOrBuilder() {
         if (countryBuilder_ != null) {
           return countryBuilder_.getMessageOrBuilder();
         } else {
           return country_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : country_;
+              io.dstore.values.StringValue.getDefaultInstance() : country_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue country = 8;</code>
+       * <code>optional .dstore.values.StringValue country = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getCountryFieldBuilder() {
         if (countryBuilder_ == null) {
           countryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getCountry(),
                   getParentForChildren(),
                   isClean());
@@ -4483,22 +4483,22 @@ public final class PmSetPropertyOfOnePersonPu {
       "SetPropertyOfOnePerson_Pu\032\023dstore/values" +
       ".proto\032\032dstore/engine/engine.proto\"\306\005\n\nP" +
       "arameters\0223\n\016person_type_id\030\001 \001(\0132\033.dsto" +
-      "re.values.integerValue\022\034\n\023person_type_id" +
+      "re.values.IntegerValue\022\034\n\023person_type_id" +
       "_null\030\351\007 \001(\010\022B\n\035identifying_characterist" +
-      "ic_id\030\002 \001(\0132\033.dstore.values.integerValue" +
+      "ic_id\030\002 \001(\0132\033.dstore.values.IntegerValue" +
       "\022+\n\"identifying_characteristic_id_null\030\352" +
       "\007 \001(\010\0225\n\021identifying_value\030\003 \001(\0132\032.dstor",
-      "e.values.stringValue\022\037\n\026identifying_valu" +
+      "e.values.StringValue\022\037\n\026identifying_valu" +
       "e_null\030\353\007 \001(\010\0223\n\016case_sensitive\030\004 \001(\0132\033." +
-      "dstore.values.booleanValue\022\034\n\023case_sensi" +
+      "dstore.values.BooleanValue\022\034\n\023case_sensi" +
       "tive_null\030\354\007 \001(\010\022.\n\nsecret_key\030\005 \001(\0132\032.d" +
-      "store.values.stringValue\022\030\n\017secret_key_n" +
+      "store.values.StringValue\022\030\n\017secret_key_n" +
       "ull\030\355\007 \001(\010\022D\n\037set_value_for_characterist" +
-      "ic_id\030\006 \001(\0132\033.dstore.values.integerValue" +
+      "ic_id\030\006 \001(\0132\033.dstore.values.IntegerValue" +
       "\022-\n$set_value_for_characteristic_id_null" +
       "\030\356\007 \001(\010\022-\n\tnew_value\030\007 \001(\0132\032.dstore.valu" +
-      "es.stringValue\022\027\n\016new_value_null\030\357\007 \001(\010\022",
-      "+\n\007country\030\010 \001(\0132\032.dstore.values.stringV" +
+      "es.StringValue\022\027\n\016new_value_null\030\357\007 \001(\010\022",
+      "+\n\007country\030\010 \001(\0132\032.dstore.values.StringV" +
       "alue\022\025\n\014country_null\030\360\007 \001(\010\"\314\001\n\010Response" +
       "\0228\n\020meta_information\030\002 \003(\0132\036.dstore.engi" +
       "ne.MetaInformation\022\'\n\007message\030\003 \003(\0132\026.ds" +
@@ -4520,7 +4520,7 @@ public final class PmSetPropertyOfOnePersonPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_SetPropertyOfOnePerson_Pu_Parameters_descriptor =
@@ -4541,7 +4541,7 @@ public final class PmSetPropertyOfOnePersonPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_pm_SetPropertyOfOnePerson_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

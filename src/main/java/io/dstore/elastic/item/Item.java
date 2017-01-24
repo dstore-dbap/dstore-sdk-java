@@ -69,11 +69,11 @@ public  final class Item extends
             break;
           }
           case 26: {
-            io.dstore.Values.timestampValue.Builder subBuilder = null;
+            io.dstore.values.TimestampValue.Builder subBuilder = null;
             if (lastUpdated_ != null) {
               subBuilder = lastUpdated_.toBuilder();
             }
-            lastUpdated_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+            lastUpdated_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
             if (subBuilder != null) {
               subBuilder.mergeFrom(lastUpdated_);
               lastUpdated_ = subBuilder.buildPartial();
@@ -1419,23 +1419,23 @@ public  final class Item extends
   }
 
   public static final int LAST_UPDATED_FIELD_NUMBER = 3;
-  private io.dstore.Values.timestampValue lastUpdated_;
+  private io.dstore.values.TimestampValue lastUpdated_;
   /**
-   * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
    */
   public boolean hasLastUpdated() {
     return lastUpdated_ != null;
   }
   /**
-   * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
    */
-  public io.dstore.Values.timestampValue getLastUpdated() {
-    return lastUpdated_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastUpdated_;
+  public io.dstore.values.TimestampValue getLastUpdated() {
+    return lastUpdated_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : lastUpdated_;
   }
   /**
-   * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+   * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
    */
-  public io.dstore.Values.timestampValueOrBuilder getLastUpdatedOrBuilder() {
+  public io.dstore.values.TimestampValueOrBuilder getLastUpdatedOrBuilder() {
     return getLastUpdated();
   }
 
@@ -2298,29 +2298,29 @@ public  final class Item extends
       return variantNodeBuilder_;
     }
 
-    private io.dstore.Values.timestampValue lastUpdated_ = null;
+    private io.dstore.values.TimestampValue lastUpdated_ = null;
     private com.google.protobuf.SingleFieldBuilderV3<
-        io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastUpdatedBuilder_;
+        io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> lastUpdatedBuilder_;
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
      */
     public boolean hasLastUpdated() {
       return lastUpdatedBuilder_ != null || lastUpdated_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
      */
-    public io.dstore.Values.timestampValue getLastUpdated() {
+    public io.dstore.values.TimestampValue getLastUpdated() {
       if (lastUpdatedBuilder_ == null) {
-        return lastUpdated_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastUpdated_;
+        return lastUpdated_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : lastUpdated_;
       } else {
         return lastUpdatedBuilder_.getMessage();
       }
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
      */
-    public Builder setLastUpdated(io.dstore.Values.timestampValue value) {
+    public Builder setLastUpdated(io.dstore.values.TimestampValue value) {
       if (lastUpdatedBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -2334,10 +2334,10 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
      */
     public Builder setLastUpdated(
-        io.dstore.Values.timestampValue.Builder builderForValue) {
+        io.dstore.values.TimestampValue.Builder builderForValue) {
       if (lastUpdatedBuilder_ == null) {
         lastUpdated_ = builderForValue.build();
         onChanged();
@@ -2348,13 +2348,13 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
      */
-    public Builder mergeLastUpdated(io.dstore.Values.timestampValue value) {
+    public Builder mergeLastUpdated(io.dstore.values.TimestampValue value) {
       if (lastUpdatedBuilder_ == null) {
         if (lastUpdated_ != null) {
           lastUpdated_ =
-            io.dstore.Values.timestampValue.newBuilder(lastUpdated_).mergeFrom(value).buildPartial();
+            io.dstore.values.TimestampValue.newBuilder(lastUpdated_).mergeFrom(value).buildPartial();
         } else {
           lastUpdated_ = value;
         }
@@ -2366,7 +2366,7 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
      */
     public Builder clearLastUpdated() {
       if (lastUpdatedBuilder_ == null) {
@@ -2380,33 +2380,33 @@ public  final class Item extends
       return this;
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
      */
-    public io.dstore.Values.timestampValue.Builder getLastUpdatedBuilder() {
+    public io.dstore.values.TimestampValue.Builder getLastUpdatedBuilder() {
       
       onChanged();
       return getLastUpdatedFieldBuilder().getBuilder();
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getLastUpdatedOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getLastUpdatedOrBuilder() {
       if (lastUpdatedBuilder_ != null) {
         return lastUpdatedBuilder_.getMessageOrBuilder();
       } else {
         return lastUpdated_ == null ?
-            io.dstore.Values.timestampValue.getDefaultInstance() : lastUpdated_;
+            io.dstore.values.TimestampValue.getDefaultInstance() : lastUpdated_;
       }
     }
     /**
-     * <code>optional .dstore.values.timestampValue last_updated = 3;</code>
+     * <code>optional .dstore.values.TimestampValue last_updated = 3;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
-        io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+        io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
         getLastUpdatedFieldBuilder() {
       if (lastUpdatedBuilder_ == null) {
         lastUpdatedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                 getLastUpdated(),
                 getParentForChildren(),
                 isClean());

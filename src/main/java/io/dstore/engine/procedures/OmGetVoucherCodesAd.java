@@ -19,17 +19,17 @@ public final class OmGetVoucherCodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
      */
     boolean hasFromCreationDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
      */
-    io.dstore.Values.timestampValue getFromCreationDate();
+    io.dstore.values.TimestampValue getFromCreationDate();
     /**
-     * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromCreationDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromCreationDateOrBuilder();
 
     /**
      * <code>optional bool from_creation_date_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetVoucherCodesAd {
     boolean getFromCreationDateNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
      */
     boolean hasToCreationDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
      */
-    io.dstore.Values.timestampValue getToCreationDate();
+    io.dstore.values.TimestampValue getToCreationDate();
     /**
-     * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToCreationDateOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToCreationDateOrBuilder();
 
     /**
      * <code>optional bool to_creation_date_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetVoucherCodesAd {
     boolean getToCreationDateNull();
 
     /**
-     * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+     * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
      */
     boolean hasVoucherCode();
     /**
-     * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+     * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
      */
-    io.dstore.Values.stringValue getVoucherCode();
+    io.dstore.values.StringValue getVoucherCode();
     /**
-     * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+     * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder();
+    io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder();
 
     /**
      * <code>optional bool voucher_code_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmGetVoucherCodesAd {
     boolean getVoucherCodeNull();
 
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
      */
     boolean hasVoucherTypeId();
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
      */
-    io.dstore.Values.integerValue getVoucherTypeId();
+    io.dstore.values.IntegerValue getVoucherTypeId();
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder();
 
     /**
      * <code>optional bool voucher_type_id_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmGetVoucherCodesAd {
     boolean getVoucherTypeIdNull();
 
     /**
-     * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
      */
     boolean hasGetUsedCodes();
     /**
-     * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
      */
-    io.dstore.Values.integerValue getGetUsedCodes();
+    io.dstore.values.IntegerValue getGetUsedCodes();
     /**
-     * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getGetUsedCodesOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getGetUsedCodesOrBuilder();
 
     /**
      * <code>optional bool get_used_codes_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class OmGetVoucherCodesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromCreationDate_ != null) {
                 subBuilder = fromCreationDate_.toBuilder();
               }
-              fromCreationDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromCreationDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromCreationDate_);
                 fromCreationDate_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class OmGetVoucherCodesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toCreationDate_ != null) {
                 subBuilder = toCreationDate_.toBuilder();
               }
-              toCreationDate_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toCreationDate_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toCreationDate_);
                 toCreationDate_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class OmGetVoucherCodesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (voucherCode_ != null) {
                 subBuilder = voucherCode_.toBuilder();
               }
-              voucherCode_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              voucherCode_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(voucherCode_);
                 voucherCode_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class OmGetVoucherCodesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (voucherTypeId_ != null) {
                 subBuilder = voucherTypeId_.toBuilder();
               }
-              voucherTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              voucherTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(voucherTypeId_);
                 voucherTypeId_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class OmGetVoucherCodesAd {
               break;
             }
             case 42: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (getUsedCodes_ != null) {
                 subBuilder = getUsedCodes_.toBuilder();
               }
-              getUsedCodes_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              getUsedCodes_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getUsedCodes_);
                 getUsedCodes_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class OmGetVoucherCodesAd {
     }
 
     public static final int FROM_CREATION_DATE_FIELD_NUMBER = 1;
-    private io.dstore.Values.timestampValue fromCreationDate_;
+    private io.dstore.values.TimestampValue fromCreationDate_;
     /**
-     * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
      */
     public boolean hasFromCreationDate() {
       return fromCreationDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
      */
-    public io.dstore.Values.timestampValue getFromCreationDate() {
-      return fromCreationDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromCreationDate_;
+    public io.dstore.values.TimestampValue getFromCreationDate() {
+      return fromCreationDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromCreationDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+     * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromCreationDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromCreationDateOrBuilder() {
       return getFromCreationDate();
     }
 
@@ -296,23 +296,23 @@ public final class OmGetVoucherCodesAd {
     }
 
     public static final int TO_CREATION_DATE_FIELD_NUMBER = 2;
-    private io.dstore.Values.timestampValue toCreationDate_;
+    private io.dstore.values.TimestampValue toCreationDate_;
     /**
-     * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
      */
     public boolean hasToCreationDate() {
       return toCreationDate_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
      */
-    public io.dstore.Values.timestampValue getToCreationDate() {
-      return toCreationDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toCreationDate_;
+    public io.dstore.values.TimestampValue getToCreationDate() {
+      return toCreationDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toCreationDate_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+     * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToCreationDateOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToCreationDateOrBuilder() {
       return getToCreationDate();
     }
 
@@ -326,23 +326,23 @@ public final class OmGetVoucherCodesAd {
     }
 
     public static final int VOUCHER_CODE_FIELD_NUMBER = 3;
-    private io.dstore.Values.stringValue voucherCode_;
+    private io.dstore.values.StringValue voucherCode_;
     /**
-     * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+     * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
      */
     public boolean hasVoucherCode() {
       return voucherCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+     * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
      */
-    public io.dstore.Values.stringValue getVoucherCode() {
-      return voucherCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
+    public io.dstore.values.StringValue getVoucherCode() {
+      return voucherCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherCode_;
     }
     /**
-     * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+     * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder() {
       return getVoucherCode();
     }
 
@@ -356,23 +356,23 @@ public final class OmGetVoucherCodesAd {
     }
 
     public static final int VOUCHER_TYPE_ID_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue voucherTypeId_;
+    private io.dstore.values.IntegerValue voucherTypeId_;
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
      */
     public boolean hasVoucherTypeId() {
       return voucherTypeId_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
      */
-    public io.dstore.Values.integerValue getVoucherTypeId() {
-      return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+    public io.dstore.values.IntegerValue getVoucherTypeId() {
+      return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
     }
     /**
-     * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+     * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
       return getVoucherTypeId();
     }
 
@@ -386,23 +386,23 @@ public final class OmGetVoucherCodesAd {
     }
 
     public static final int GET_USED_CODES_FIELD_NUMBER = 5;
-    private io.dstore.Values.integerValue getUsedCodes_;
+    private io.dstore.values.IntegerValue getUsedCodes_;
     /**
-     * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
      */
     public boolean hasGetUsedCodes() {
       return getUsedCodes_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
      */
-    public io.dstore.Values.integerValue getGetUsedCodes() {
-      return getUsedCodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getUsedCodes_;
+    public io.dstore.values.IntegerValue getGetUsedCodes() {
+      return getUsedCodes_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : getUsedCodes_;
     }
     /**
-     * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+     * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getGetUsedCodesOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getGetUsedCodesOrBuilder() {
       return getGetUsedCodes();
     }
 
@@ -907,29 +907,29 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromCreationDate_ = null;
+      private io.dstore.values.TimestampValue fromCreationDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromCreationDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromCreationDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
        */
       public boolean hasFromCreationDate() {
         return fromCreationDateBuilder_ != null || fromCreationDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
        */
-      public io.dstore.Values.timestampValue getFromCreationDate() {
+      public io.dstore.values.TimestampValue getFromCreationDate() {
         if (fromCreationDateBuilder_ == null) {
-          return fromCreationDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromCreationDate_;
+          return fromCreationDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromCreationDate_;
         } else {
           return fromCreationDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
        */
-      public Builder setFromCreationDate(io.dstore.Values.timestampValue value) {
+      public Builder setFromCreationDate(io.dstore.values.TimestampValue value) {
         if (fromCreationDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
        */
       public Builder setFromCreationDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromCreationDateBuilder_ == null) {
           fromCreationDate_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
        */
-      public Builder mergeFromCreationDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromCreationDate(io.dstore.values.TimestampValue value) {
         if (fromCreationDateBuilder_ == null) {
           if (fromCreationDate_ != null) {
             fromCreationDate_ =
-              io.dstore.Values.timestampValue.newBuilder(fromCreationDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromCreationDate_).mergeFrom(value).buildPartial();
           } else {
             fromCreationDate_ = value;
           }
@@ -975,7 +975,7 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
        */
       public Builder clearFromCreationDate() {
         if (fromCreationDateBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromCreationDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromCreationDateBuilder() {
         
         onChanged();
         return getFromCreationDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromCreationDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromCreationDateOrBuilder() {
         if (fromCreationDateBuilder_ != null) {
           return fromCreationDateBuilder_.getMessageOrBuilder();
         } else {
           return fromCreationDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromCreationDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromCreationDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_creation_date = 1;</code>
+       * <code>optional .dstore.values.TimestampValue from_creation_date = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromCreationDateFieldBuilder() {
         if (fromCreationDateBuilder_ == null) {
           fromCreationDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromCreationDate(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toCreationDate_ = null;
+      private io.dstore.values.TimestampValue toCreationDate_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toCreationDateBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toCreationDateBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
        */
       public boolean hasToCreationDate() {
         return toCreationDateBuilder_ != null || toCreationDate_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue getToCreationDate() {
+      public io.dstore.values.TimestampValue getToCreationDate() {
         if (toCreationDateBuilder_ == null) {
-          return toCreationDate_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toCreationDate_;
+          return toCreationDate_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toCreationDate_;
         } else {
           return toCreationDateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
        */
-      public Builder setToCreationDate(io.dstore.Values.timestampValue value) {
+      public Builder setToCreationDate(io.dstore.values.TimestampValue value) {
         if (toCreationDateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
        */
       public Builder setToCreationDate(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toCreationDateBuilder_ == null) {
           toCreationDate_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
        */
-      public Builder mergeToCreationDate(io.dstore.Values.timestampValue value) {
+      public Builder mergeToCreationDate(io.dstore.values.TimestampValue value) {
         if (toCreationDateBuilder_ == null) {
           if (toCreationDate_ != null) {
             toCreationDate_ =
-              io.dstore.Values.timestampValue.newBuilder(toCreationDate_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toCreationDate_).mergeFrom(value).buildPartial();
           } else {
             toCreationDate_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
        */
       public Builder clearToCreationDate() {
         if (toCreationDateBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToCreationDateBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToCreationDateBuilder() {
         
         onChanged();
         return getToCreationDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToCreationDateOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToCreationDateOrBuilder() {
         if (toCreationDateBuilder_ != null) {
           return toCreationDateBuilder_.getMessageOrBuilder();
         } else {
           return toCreationDate_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toCreationDate_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toCreationDate_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_creation_date = 2;</code>
+       * <code>optional .dstore.values.TimestampValue to_creation_date = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToCreationDateFieldBuilder() {
         if (toCreationDateBuilder_ == null) {
           toCreationDateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToCreationDate(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue voucherCode_ = null;
+      private io.dstore.values.StringValue voucherCode_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> voucherCodeBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> voucherCodeBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
        */
       public boolean hasVoucherCode() {
         return voucherCodeBuilder_ != null || voucherCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
        */
-      public io.dstore.Values.stringValue getVoucherCode() {
+      public io.dstore.values.StringValue getVoucherCode() {
         if (voucherCodeBuilder_ == null) {
-          return voucherCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
+          return voucherCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherCode_;
         } else {
           return voucherCodeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
        */
-      public Builder setVoucherCode(io.dstore.Values.stringValue value) {
+      public Builder setVoucherCode(io.dstore.values.StringValue value) {
         if (voucherCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
        */
       public Builder setVoucherCode(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (voucherCodeBuilder_ == null) {
           voucherCode_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
        */
-      public Builder mergeVoucherCode(io.dstore.Values.stringValue value) {
+      public Builder mergeVoucherCode(io.dstore.values.StringValue value) {
         if (voucherCodeBuilder_ == null) {
           if (voucherCode_ != null) {
             voucherCode_ =
-              io.dstore.Values.stringValue.newBuilder(voucherCode_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(voucherCode_).mergeFrom(value).buildPartial();
           } else {
             voucherCode_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
        */
       public Builder clearVoucherCode() {
         if (voucherCodeBuilder_ == null) {
@@ -1275,33 +1275,33 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
        */
-      public io.dstore.Values.stringValue.Builder getVoucherCodeBuilder() {
+      public io.dstore.values.StringValue.Builder getVoucherCodeBuilder() {
         
         onChanged();
         return getVoucherCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder() {
         if (voucherCodeBuilder_ != null) {
           return voucherCodeBuilder_.getMessageOrBuilder();
         } else {
           return voucherCode_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
+              io.dstore.values.StringValue.getDefaultInstance() : voucherCode_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue voucher_code = 3;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getVoucherCodeFieldBuilder() {
         if (voucherCodeBuilder_ == null) {
           voucherCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getVoucherCode(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue voucherTypeId_ = null;
+      private io.dstore.values.IntegerValue voucherTypeId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> voucherTypeIdBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> voucherTypeIdBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
        */
       public boolean hasVoucherTypeId() {
         return voucherTypeIdBuilder_ != null || voucherTypeId_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
        */
-      public io.dstore.Values.integerValue getVoucherTypeId() {
+      public io.dstore.values.IntegerValue getVoucherTypeId() {
         if (voucherTypeIdBuilder_ == null) {
-          return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+          return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
         } else {
           return voucherTypeIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
        */
-      public Builder setVoucherTypeId(io.dstore.Values.integerValue value) {
+      public Builder setVoucherTypeId(io.dstore.values.IntegerValue value) {
         if (voucherTypeIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
        */
       public Builder setVoucherTypeId(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (voucherTypeIdBuilder_ == null) {
           voucherTypeId_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
        */
-      public Builder mergeVoucherTypeId(io.dstore.Values.integerValue value) {
+      public Builder mergeVoucherTypeId(io.dstore.values.IntegerValue value) {
         if (voucherTypeIdBuilder_ == null) {
           if (voucherTypeId_ != null) {
             voucherTypeId_ =
-              io.dstore.Values.integerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
           } else {
             voucherTypeId_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
        */
       public Builder clearVoucherTypeId() {
         if (voucherTypeIdBuilder_ == null) {
@@ -1418,33 +1418,33 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getVoucherTypeIdBuilder() {
+      public io.dstore.values.IntegerValue.Builder getVoucherTypeIdBuilder() {
         
         onChanged();
         return getVoucherTypeIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
         if (voucherTypeIdBuilder_ != null) {
           return voucherTypeIdBuilder_.getMessageOrBuilder();
         } else {
           return voucherTypeId_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue voucher_type_id = 4;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getVoucherTypeIdFieldBuilder() {
         if (voucherTypeIdBuilder_ == null) {
           voucherTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getVoucherTypeId(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue getUsedCodes_ = null;
+      private io.dstore.values.IntegerValue getUsedCodes_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> getUsedCodesBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> getUsedCodesBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
        */
       public boolean hasGetUsedCodes() {
         return getUsedCodesBuilder_ != null || getUsedCodes_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
        */
-      public io.dstore.Values.integerValue getGetUsedCodes() {
+      public io.dstore.values.IntegerValue getGetUsedCodes() {
         if (getUsedCodesBuilder_ == null) {
-          return getUsedCodes_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : getUsedCodes_;
+          return getUsedCodes_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : getUsedCodes_;
         } else {
           return getUsedCodesBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
        */
-      public Builder setGetUsedCodes(io.dstore.Values.integerValue value) {
+      public Builder setGetUsedCodes(io.dstore.values.IntegerValue value) {
         if (getUsedCodesBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
        */
       public Builder setGetUsedCodes(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (getUsedCodesBuilder_ == null) {
           getUsedCodes_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
        */
-      public Builder mergeGetUsedCodes(io.dstore.Values.integerValue value) {
+      public Builder mergeGetUsedCodes(io.dstore.values.IntegerValue value) {
         if (getUsedCodesBuilder_ == null) {
           if (getUsedCodes_ != null) {
             getUsedCodes_ =
-              io.dstore.Values.integerValue.newBuilder(getUsedCodes_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(getUsedCodes_).mergeFrom(value).buildPartial();
           } else {
             getUsedCodes_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
        */
       public Builder clearGetUsedCodes() {
         if (getUsedCodesBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class OmGetVoucherCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
        */
-      public io.dstore.Values.integerValue.Builder getGetUsedCodesBuilder() {
+      public io.dstore.values.IntegerValue.Builder getGetUsedCodesBuilder() {
         
         onChanged();
         return getGetUsedCodesFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getGetUsedCodesOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getGetUsedCodesOrBuilder() {
         if (getUsedCodesBuilder_ != null) {
           return getUsedCodesBuilder_.getMessageOrBuilder();
         } else {
           return getUsedCodes_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : getUsedCodes_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : getUsedCodes_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue get_used_codes = 5;</code>
+       * <code>optional .dstore.values.IntegerValue get_used_codes = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getGetUsedCodesFieldBuilder() {
         if (getUsedCodesBuilder_ == null) {
           getUsedCodesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getGetUsedCodes(),
                   getParentForChildren(),
                   isClean());
@@ -1881,7 +1881,7 @@ public final class OmGetVoucherCodesAd {
        * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       boolean hasCreatedByUserId();
       /**
@@ -1889,24 +1889,24 @@ public final class OmGetVoucherCodesAd {
        * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getCreatedByUserId();
+      io.dstore.values.IntegerValue getCreatedByUserId();
       /**
        * <pre>
        * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCreatedByUserIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder();
 
       /**
        * <pre>
        * Ein Gutschein-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
        */
       boolean hasVoucherCode();
       /**
@@ -1914,24 +1914,24 @@ public final class OmGetVoucherCodesAd {
        * Ein Gutschein-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
        */
-      io.dstore.Values.stringValue getVoucherCode();
+      io.dstore.values.StringValue getVoucherCode();
       /**
        * <pre>
        * Ein Gutschein-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder();
 
       /**
        * <pre>
        * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
        */
       boolean hasVoucherTypeId();
       /**
@@ -1939,24 +1939,24 @@ public final class OmGetVoucherCodesAd {
        * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getVoucherTypeId();
+      io.dstore.values.IntegerValue getVoucherTypeId();
       /**
        * <pre>
        * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder();
 
       /**
        * <pre>
        * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
        */
       boolean hasVoucherTypeDescription();
       /**
@@ -1964,24 +1964,24 @@ public final class OmGetVoucherCodesAd {
        * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
        */
-      io.dstore.Values.stringValue getVoucherTypeDescription();
+      io.dstore.values.StringValue getVoucherTypeDescription();
       /**
        * <pre>
        * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getVoucherTypeDescriptionOrBuilder();
+      io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder();
 
       /**
        * <pre>
        * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
        */
       boolean hasCodeValidUntil();
       /**
@@ -1989,24 +1989,24 @@ public final class OmGetVoucherCodesAd {
        * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
        */
-      io.dstore.Values.timestampValue getCodeValidUntil();
+      io.dstore.values.TimestampValue getCodeValidUntil();
       /**
        * <pre>
        * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getCodeValidUntilOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getCodeValidUntilOrBuilder();
 
       /**
        * <pre>
        * Datum an dem der Code das letzte mal eingelöst wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
        */
       boolean hasLastUsageAtDateAndTime();
       /**
@@ -2014,24 +2014,24 @@ public final class OmGetVoucherCodesAd {
        * Datum an dem der Code das letzte mal eingelöst wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
        */
-      io.dstore.Values.timestampValue getLastUsageAtDateAndTime();
+      io.dstore.values.TimestampValue getLastUsageAtDateAndTime();
       /**
        * <pre>
        * Datum an dem der Code das letzte mal eingelöst wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getLastUsageAtDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getLastUsageAtDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Anzahl der bisher erfolgten Einlösungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
        */
       boolean hasUsageCount();
       /**
@@ -2039,24 +2039,24 @@ public final class OmGetVoucherCodesAd {
        * Anzahl der bisher erfolgten Einlösungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
        */
-      io.dstore.Values.integerValue getUsageCount();
+      io.dstore.values.IntegerValue getUsageCount();
       /**
        * <pre>
        * Anzahl der bisher erfolgten Einlösungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUsageCountOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUsageCountOrBuilder();
 
       /**
        * <pre>
        * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
        */
       boolean hasCreatedAtDateAndTime();
       /**
@@ -2064,17 +2064,17 @@ public final class OmGetVoucherCodesAd {
        * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
        */
-      io.dstore.Values.timestampValue getCreatedAtDateAndTime();
+      io.dstore.values.TimestampValue getCreatedAtDateAndTime();
       /**
        * <pre>
        * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetVoucherCodes_Ad.Response.Row}
@@ -2122,11 +2122,11 @@ public final class OmGetVoucherCodesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (createdByUserId_ != null) {
                   subBuilder = createdByUserId_.toBuilder();
                 }
-                createdByUserId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                createdByUserId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdByUserId_);
                   createdByUserId_ = subBuilder.buildPartial();
@@ -2135,11 +2135,11 @@ public final class OmGetVoucherCodesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (voucherCode_ != null) {
                   subBuilder = voucherCode_.toBuilder();
                 }
-                voucherCode_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                voucherCode_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(voucherCode_);
                   voucherCode_ = subBuilder.buildPartial();
@@ -2148,11 +2148,11 @@ public final class OmGetVoucherCodesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (voucherTypeId_ != null) {
                   subBuilder = voucherTypeId_.toBuilder();
                 }
-                voucherTypeId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                voucherTypeId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(voucherTypeId_);
                   voucherTypeId_ = subBuilder.buildPartial();
@@ -2161,11 +2161,11 @@ public final class OmGetVoucherCodesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (voucherTypeDescription_ != null) {
                   subBuilder = voucherTypeDescription_.toBuilder();
                 }
-                voucherTypeDescription_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                voucherTypeDescription_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(voucherTypeDescription_);
                   voucherTypeDescription_ = subBuilder.buildPartial();
@@ -2174,11 +2174,11 @@ public final class OmGetVoucherCodesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (codeValidUntil_ != null) {
                   subBuilder = codeValidUntil_.toBuilder();
                 }
-                codeValidUntil_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                codeValidUntil_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeValidUntil_);
                   codeValidUntil_ = subBuilder.buildPartial();
@@ -2187,11 +2187,11 @@ public final class OmGetVoucherCodesAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (lastUsageAtDateAndTime_ != null) {
                   subBuilder = lastUsageAtDateAndTime_.toBuilder();
                 }
-                lastUsageAtDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                lastUsageAtDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastUsageAtDateAndTime_);
                   lastUsageAtDateAndTime_ = subBuilder.buildPartial();
@@ -2200,11 +2200,11 @@ public final class OmGetVoucherCodesAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (usageCount_ != null) {
                   subBuilder = usageCount_.toBuilder();
                 }
-                usageCount_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                usageCount_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usageCount_);
                   usageCount_ = subBuilder.buildPartial();
@@ -2213,11 +2213,11 @@ public final class OmGetVoucherCodesAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (createdAtDateAndTime_ != null) {
                   subBuilder = createdAtDateAndTime_.toBuilder();
                 }
-                createdAtDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                createdAtDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdAtDateAndTime_);
                   createdAtDateAndTime_ = subBuilder.buildPartial();
@@ -2258,13 +2258,13 @@ public final class OmGetVoucherCodesAd {
       }
 
       public static final int CREATED_BY_USER_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue createdByUserId_;
+      private io.dstore.values.IntegerValue createdByUserId_;
       /**
        * <pre>
        * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
       public boolean hasCreatedByUserId() {
         return createdByUserId_ != null;
@@ -2274,30 +2274,30 @@ public final class OmGetVoucherCodesAd {
        * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getCreatedByUserId() {
-        return createdByUserId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : createdByUserId_;
+      public io.dstore.values.IntegerValue getCreatedByUserId() {
+        return createdByUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : createdByUserId_;
       }
       /**
        * <pre>
        * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCreatedByUserIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder() {
         return getCreatedByUserId();
       }
 
       public static final int VOUCHER_CODE_FIELD_NUMBER = 10002;
-      private io.dstore.Values.stringValue voucherCode_;
+      private io.dstore.values.StringValue voucherCode_;
       /**
        * <pre>
        * Ein Gutschein-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
        */
       public boolean hasVoucherCode() {
         return voucherCode_ != null;
@@ -2307,30 +2307,30 @@ public final class OmGetVoucherCodesAd {
        * Ein Gutschein-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
        */
-      public io.dstore.Values.stringValue getVoucherCode() {
-        return voucherCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
+      public io.dstore.values.StringValue getVoucherCode() {
+        return voucherCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherCode_;
       }
       /**
        * <pre>
        * Ein Gutschein-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+       * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder() {
         return getVoucherCode();
       }
 
       public static final int VOUCHER_TYPE_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue voucherTypeId_;
+      private io.dstore.values.IntegerValue voucherTypeId_;
       /**
        * <pre>
        * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
        */
       public boolean hasVoucherTypeId() {
         return voucherTypeId_ != null;
@@ -2340,30 +2340,30 @@ public final class OmGetVoucherCodesAd {
        * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getVoucherTypeId() {
-        return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+      public io.dstore.values.IntegerValue getVoucherTypeId() {
+        return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
       }
       /**
        * <pre>
        * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
         return getVoucherTypeId();
       }
 
       public static final int VOUCHER_TYPE_DESCRIPTION_FIELD_NUMBER = 10004;
-      private io.dstore.Values.stringValue voucherTypeDescription_;
+      private io.dstore.values.StringValue voucherTypeDescription_;
       /**
        * <pre>
        * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
        */
       public boolean hasVoucherTypeDescription() {
         return voucherTypeDescription_ != null;
@@ -2373,30 +2373,30 @@ public final class OmGetVoucherCodesAd {
        * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
        */
-      public io.dstore.Values.stringValue getVoucherTypeDescription() {
-        return voucherTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherTypeDescription_;
+      public io.dstore.values.StringValue getVoucherTypeDescription() {
+        return voucherTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherTypeDescription_;
       }
       /**
        * <pre>
        * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+       * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
         return getVoucherTypeDescription();
       }
 
       public static final int CODE_VALID_UNTIL_FIELD_NUMBER = 10005;
-      private io.dstore.Values.timestampValue codeValidUntil_;
+      private io.dstore.values.TimestampValue codeValidUntil_;
       /**
        * <pre>
        * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
        */
       public boolean hasCodeValidUntil() {
         return codeValidUntil_ != null;
@@ -2406,30 +2406,30 @@ public final class OmGetVoucherCodesAd {
        * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
        */
-      public io.dstore.Values.timestampValue getCodeValidUntil() {
-        return codeValidUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : codeValidUntil_;
+      public io.dstore.values.TimestampValue getCodeValidUntil() {
+        return codeValidUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : codeValidUntil_;
       }
       /**
        * <pre>
        * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getCodeValidUntilOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getCodeValidUntilOrBuilder() {
         return getCodeValidUntil();
       }
 
       public static final int LAST_USAGE_AT_DATE_AND_TIME_FIELD_NUMBER = 10006;
-      private io.dstore.Values.timestampValue lastUsageAtDateAndTime_;
+      private io.dstore.values.TimestampValue lastUsageAtDateAndTime_;
       /**
        * <pre>
        * Datum an dem der Code das letzte mal eingelöst wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
        */
       public boolean hasLastUsageAtDateAndTime() {
         return lastUsageAtDateAndTime_ != null;
@@ -2439,30 +2439,30 @@ public final class OmGetVoucherCodesAd {
        * Datum an dem der Code das letzte mal eingelöst wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
        */
-      public io.dstore.Values.timestampValue getLastUsageAtDateAndTime() {
-        return lastUsageAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastUsageAtDateAndTime_;
+      public io.dstore.values.TimestampValue getLastUsageAtDateAndTime() {
+        return lastUsageAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : lastUsageAtDateAndTime_;
       }
       /**
        * <pre>
        * Datum an dem der Code das letzte mal eingelöst wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+       * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getLastUsageAtDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getLastUsageAtDateAndTimeOrBuilder() {
         return getLastUsageAtDateAndTime();
       }
 
       public static final int USAGE_COUNT_FIELD_NUMBER = 10007;
-      private io.dstore.Values.integerValue usageCount_;
+      private io.dstore.values.IntegerValue usageCount_;
       /**
        * <pre>
        * Anzahl der bisher erfolgten Einlösungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
        */
       public boolean hasUsageCount() {
         return usageCount_ != null;
@@ -2472,30 +2472,30 @@ public final class OmGetVoucherCodesAd {
        * Anzahl der bisher erfolgten Einlösungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
        */
-      public io.dstore.Values.integerValue getUsageCount() {
-        return usageCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usageCount_;
+      public io.dstore.values.IntegerValue getUsageCount() {
+        return usageCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usageCount_;
       }
       /**
        * <pre>
        * Anzahl der bisher erfolgten Einlösungen
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+       * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsageCountOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsageCountOrBuilder() {
         return getUsageCount();
       }
 
       public static final int CREATED_AT_DATE_AND_TIME_FIELD_NUMBER = 10008;
-      private io.dstore.Values.timestampValue createdAtDateAndTime_;
+      private io.dstore.values.TimestampValue createdAtDateAndTime_;
       /**
        * <pre>
        * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
        */
       public boolean hasCreatedAtDateAndTime() {
         return createdAtDateAndTime_ != null;
@@ -2505,19 +2505,19 @@ public final class OmGetVoucherCodesAd {
        * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
        */
-      public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
-        return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+      public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
+        return createdAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
       }
       /**
        * <pre>
        * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+       * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
         return getCreatedAtDateAndTime();
       }
 
@@ -3056,15 +3056,15 @@ public final class OmGetVoucherCodesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue createdByUserId_ = null;
+        private io.dstore.values.IntegerValue createdByUserId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> createdByUserIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> createdByUserIdBuilder_;
         /**
          * <pre>
          * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public boolean hasCreatedByUserId() {
           return createdByUserIdBuilder_ != null || createdByUserId_ != null;
@@ -3074,11 +3074,11 @@ public final class OmGetVoucherCodesAd {
          * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getCreatedByUserId() {
+        public io.dstore.values.IntegerValue getCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
-            return createdByUserId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : createdByUserId_;
+            return createdByUserId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : createdByUserId_;
           } else {
             return createdByUserIdBuilder_.getMessage();
           }
@@ -3088,9 +3088,9 @@ public final class OmGetVoucherCodesAd {
          * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public Builder setCreatedByUserId(io.dstore.Values.integerValue value) {
+        public Builder setCreatedByUserId(io.dstore.values.IntegerValue value) {
           if (createdByUserIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3108,10 +3108,10 @@ public final class OmGetVoucherCodesAd {
          * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder setCreatedByUserId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (createdByUserIdBuilder_ == null) {
             createdByUserId_ = builderForValue.build();
             onChanged();
@@ -3126,13 +3126,13 @@ public final class OmGetVoucherCodesAd {
          * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public Builder mergeCreatedByUserId(io.dstore.Values.integerValue value) {
+        public Builder mergeCreatedByUserId(io.dstore.values.IntegerValue value) {
           if (createdByUserIdBuilder_ == null) {
             if (createdByUserId_ != null) {
               createdByUserId_ =
-                io.dstore.Values.integerValue.newBuilder(createdByUserId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(createdByUserId_).mergeFrom(value).buildPartial();
             } else {
               createdByUserId_ = value;
             }
@@ -3148,7 +3148,7 @@ public final class OmGetVoucherCodesAd {
          * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         public Builder clearCreatedByUserId() {
           if (createdByUserIdBuilder_ == null) {
@@ -3166,9 +3166,9 @@ public final class OmGetVoucherCodesAd {
          * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCreatedByUserIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCreatedByUserIdBuilder() {
           
           onChanged();
           return getCreatedByUserIdFieldBuilder().getBuilder();
@@ -3178,14 +3178,14 @@ public final class OmGetVoucherCodesAd {
          * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCreatedByUserIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCreatedByUserIdOrBuilder() {
           if (createdByUserIdBuilder_ != null) {
             return createdByUserIdBuilder_.getMessageOrBuilder();
           } else {
             return createdByUserId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : createdByUserId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : createdByUserId_;
           }
         }
         /**
@@ -3193,14 +3193,14 @@ public final class OmGetVoucherCodesAd {
          * Die ID eines Benutzers (der in "UserInfo" registriert ist) der "VoucherCode" erzeugt hat
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue created_by_user_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue created_by_user_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCreatedByUserIdFieldBuilder() {
           if (createdByUserIdBuilder_ == null) {
             createdByUserIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCreatedByUserId(),
                     getParentForChildren(),
                     isClean());
@@ -3209,15 +3209,15 @@ public final class OmGetVoucherCodesAd {
           return createdByUserIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue voucherCode_ = null;
+        private io.dstore.values.StringValue voucherCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> voucherCodeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> voucherCodeBuilder_;
         /**
          * <pre>
          * Ein Gutschein-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
          */
         public boolean hasVoucherCode() {
           return voucherCodeBuilder_ != null || voucherCode_ != null;
@@ -3227,11 +3227,11 @@ public final class OmGetVoucherCodesAd {
          * Ein Gutschein-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
          */
-        public io.dstore.Values.stringValue getVoucherCode() {
+        public io.dstore.values.StringValue getVoucherCode() {
           if (voucherCodeBuilder_ == null) {
-            return voucherCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
+            return voucherCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherCode_;
           } else {
             return voucherCodeBuilder_.getMessage();
           }
@@ -3241,9 +3241,9 @@ public final class OmGetVoucherCodesAd {
          * Ein Gutschein-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
          */
-        public Builder setVoucherCode(io.dstore.Values.stringValue value) {
+        public Builder setVoucherCode(io.dstore.values.StringValue value) {
           if (voucherCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3261,10 +3261,10 @@ public final class OmGetVoucherCodesAd {
          * Ein Gutschein-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
          */
         public Builder setVoucherCode(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (voucherCodeBuilder_ == null) {
             voucherCode_ = builderForValue.build();
             onChanged();
@@ -3279,13 +3279,13 @@ public final class OmGetVoucherCodesAd {
          * Ein Gutschein-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
          */
-        public Builder mergeVoucherCode(io.dstore.Values.stringValue value) {
+        public Builder mergeVoucherCode(io.dstore.values.StringValue value) {
           if (voucherCodeBuilder_ == null) {
             if (voucherCode_ != null) {
               voucherCode_ =
-                io.dstore.Values.stringValue.newBuilder(voucherCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(voucherCode_).mergeFrom(value).buildPartial();
             } else {
               voucherCode_ = value;
             }
@@ -3301,7 +3301,7 @@ public final class OmGetVoucherCodesAd {
          * Ein Gutschein-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
          */
         public Builder clearVoucherCode() {
           if (voucherCodeBuilder_ == null) {
@@ -3319,9 +3319,9 @@ public final class OmGetVoucherCodesAd {
          * Ein Gutschein-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
          */
-        public io.dstore.Values.stringValue.Builder getVoucherCodeBuilder() {
+        public io.dstore.values.StringValue.Builder getVoucherCodeBuilder() {
           
           onChanged();
           return getVoucherCodeFieldBuilder().getBuilder();
@@ -3331,14 +3331,14 @@ public final class OmGetVoucherCodesAd {
          * Ein Gutschein-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getVoucherCodeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getVoucherCodeOrBuilder() {
           if (voucherCodeBuilder_ != null) {
             return voucherCodeBuilder_.getMessageOrBuilder();
           } else {
             return voucherCode_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : voucherCode_;
+                io.dstore.values.StringValue.getDefaultInstance() : voucherCode_;
           }
         }
         /**
@@ -3346,14 +3346,14 @@ public final class OmGetVoucherCodesAd {
          * Ein Gutschein-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_code = 10002;</code>
+         * <code>optional .dstore.values.StringValue voucher_code = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getVoucherCodeFieldBuilder() {
           if (voucherCodeBuilder_ == null) {
             voucherCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getVoucherCode(),
                     getParentForChildren(),
                     isClean());
@@ -3362,15 +3362,15 @@ public final class OmGetVoucherCodesAd {
           return voucherCodeBuilder_;
         }
 
-        private io.dstore.Values.integerValue voucherTypeId_ = null;
+        private io.dstore.values.IntegerValue voucherTypeId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> voucherTypeIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> voucherTypeIdBuilder_;
         /**
          * <pre>
          * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
          */
         public boolean hasVoucherTypeId() {
           return voucherTypeIdBuilder_ != null || voucherTypeId_ != null;
@@ -3380,11 +3380,11 @@ public final class OmGetVoucherCodesAd {
          * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getVoucherTypeId() {
+        public io.dstore.values.IntegerValue getVoucherTypeId() {
           if (voucherTypeIdBuilder_ == null) {
-            return voucherTypeId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+            return voucherTypeId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
           } else {
             return voucherTypeIdBuilder_.getMessage();
           }
@@ -3394,9 +3394,9 @@ public final class OmGetVoucherCodesAd {
          * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
          */
-        public Builder setVoucherTypeId(io.dstore.Values.integerValue value) {
+        public Builder setVoucherTypeId(io.dstore.values.IntegerValue value) {
           if (voucherTypeIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3414,10 +3414,10 @@ public final class OmGetVoucherCodesAd {
          * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
          */
         public Builder setVoucherTypeId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (voucherTypeIdBuilder_ == null) {
             voucherTypeId_ = builderForValue.build();
             onChanged();
@@ -3432,13 +3432,13 @@ public final class OmGetVoucherCodesAd {
          * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
          */
-        public Builder mergeVoucherTypeId(io.dstore.Values.integerValue value) {
+        public Builder mergeVoucherTypeId(io.dstore.values.IntegerValue value) {
           if (voucherTypeIdBuilder_ == null) {
             if (voucherTypeId_ != null) {
               voucherTypeId_ =
-                io.dstore.Values.integerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(voucherTypeId_).mergeFrom(value).buildPartial();
             } else {
               voucherTypeId_ = value;
             }
@@ -3454,7 +3454,7 @@ public final class OmGetVoucherCodesAd {
          * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
          */
         public Builder clearVoucherTypeId() {
           if (voucherTypeIdBuilder_ == null) {
@@ -3472,9 +3472,9 @@ public final class OmGetVoucherCodesAd {
          * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getVoucherTypeIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getVoucherTypeIdBuilder() {
           
           onChanged();
           return getVoucherTypeIdFieldBuilder().getBuilder();
@@ -3484,14 +3484,14 @@ public final class OmGetVoucherCodesAd {
          * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getVoucherTypeIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getVoucherTypeIdOrBuilder() {
           if (voucherTypeIdBuilder_ != null) {
             return voucherTypeIdBuilder_.getMessageOrBuilder();
           } else {
             return voucherTypeId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : voucherTypeId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : voucherTypeId_;
           }
         }
         /**
@@ -3499,14 +3499,14 @@ public final class OmGetVoucherCodesAd {
          * Die ID der Gutschein-Aktion, zu der "VoucherCode" gehört
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue voucher_type_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue voucher_type_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getVoucherTypeIdFieldBuilder() {
           if (voucherTypeIdBuilder_ == null) {
             voucherTypeIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getVoucherTypeId(),
                     getParentForChildren(),
                     isClean());
@@ -3515,15 +3515,15 @@ public final class OmGetVoucherCodesAd {
           return voucherTypeIdBuilder_;
         }
 
-        private io.dstore.Values.stringValue voucherTypeDescription_ = null;
+        private io.dstore.values.StringValue voucherTypeDescription_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> voucherTypeDescriptionBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> voucherTypeDescriptionBuilder_;
         /**
          * <pre>
          * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
          */
         public boolean hasVoucherTypeDescription() {
           return voucherTypeDescriptionBuilder_ != null || voucherTypeDescription_ != null;
@@ -3533,11 +3533,11 @@ public final class OmGetVoucherCodesAd {
          * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue getVoucherTypeDescription() {
+        public io.dstore.values.StringValue getVoucherTypeDescription() {
           if (voucherTypeDescriptionBuilder_ == null) {
-            return voucherTypeDescription_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : voucherTypeDescription_;
+            return voucherTypeDescription_ == null ? io.dstore.values.StringValue.getDefaultInstance() : voucherTypeDescription_;
           } else {
             return voucherTypeDescriptionBuilder_.getMessage();
           }
@@ -3547,9 +3547,9 @@ public final class OmGetVoucherCodesAd {
          * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
          */
-        public Builder setVoucherTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder setVoucherTypeDescription(io.dstore.values.StringValue value) {
           if (voucherTypeDescriptionBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3567,10 +3567,10 @@ public final class OmGetVoucherCodesAd {
          * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
          */
         public Builder setVoucherTypeDescription(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (voucherTypeDescriptionBuilder_ == null) {
             voucherTypeDescription_ = builderForValue.build();
             onChanged();
@@ -3585,13 +3585,13 @@ public final class OmGetVoucherCodesAd {
          * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
          */
-        public Builder mergeVoucherTypeDescription(io.dstore.Values.stringValue value) {
+        public Builder mergeVoucherTypeDescription(io.dstore.values.StringValue value) {
           if (voucherTypeDescriptionBuilder_ == null) {
             if (voucherTypeDescription_ != null) {
               voucherTypeDescription_ =
-                io.dstore.Values.stringValue.newBuilder(voucherTypeDescription_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(voucherTypeDescription_).mergeFrom(value).buildPartial();
             } else {
               voucherTypeDescription_ = value;
             }
@@ -3607,7 +3607,7 @@ public final class OmGetVoucherCodesAd {
          * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
          */
         public Builder clearVoucherTypeDescription() {
           if (voucherTypeDescriptionBuilder_ == null) {
@@ -3625,9 +3625,9 @@ public final class OmGetVoucherCodesAd {
          * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
          */
-        public io.dstore.Values.stringValue.Builder getVoucherTypeDescriptionBuilder() {
+        public io.dstore.values.StringValue.Builder getVoucherTypeDescriptionBuilder() {
           
           onChanged();
           return getVoucherTypeDescriptionFieldBuilder().getBuilder();
@@ -3637,14 +3637,14 @@ public final class OmGetVoucherCodesAd {
          * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getVoucherTypeDescriptionOrBuilder() {
           if (voucherTypeDescriptionBuilder_ != null) {
             return voucherTypeDescriptionBuilder_.getMessageOrBuilder();
           } else {
             return voucherTypeDescription_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : voucherTypeDescription_;
+                io.dstore.values.StringValue.getDefaultInstance() : voucherTypeDescription_;
           }
         }
         /**
@@ -3652,14 +3652,14 @@ public final class OmGetVoucherCodesAd {
          * Bezeichnung der Gutschein-Aktion "VoucherTypeID"
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue voucher_type_description = 10004;</code>
+         * <code>optional .dstore.values.StringValue voucher_type_description = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getVoucherTypeDescriptionFieldBuilder() {
           if (voucherTypeDescriptionBuilder_ == null) {
             voucherTypeDescriptionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getVoucherTypeDescription(),
                     getParentForChildren(),
                     isClean());
@@ -3668,15 +3668,15 @@ public final class OmGetVoucherCodesAd {
           return voucherTypeDescriptionBuilder_;
         }
 
-        private io.dstore.Values.timestampValue codeValidUntil_ = null;
+        private io.dstore.values.TimestampValue codeValidUntil_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> codeValidUntilBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> codeValidUntilBuilder_;
         /**
          * <pre>
          * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
          */
         public boolean hasCodeValidUntil() {
           return codeValidUntilBuilder_ != null || codeValidUntil_ != null;
@@ -3686,11 +3686,11 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
          */
-        public io.dstore.Values.timestampValue getCodeValidUntil() {
+        public io.dstore.values.TimestampValue getCodeValidUntil() {
           if (codeValidUntilBuilder_ == null) {
-            return codeValidUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : codeValidUntil_;
+            return codeValidUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : codeValidUntil_;
           } else {
             return codeValidUntilBuilder_.getMessage();
           }
@@ -3700,9 +3700,9 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
          */
-        public Builder setCodeValidUntil(io.dstore.Values.timestampValue value) {
+        public Builder setCodeValidUntil(io.dstore.values.TimestampValue value) {
           if (codeValidUntilBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3720,10 +3720,10 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
          */
         public Builder setCodeValidUntil(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (codeValidUntilBuilder_ == null) {
             codeValidUntil_ = builderForValue.build();
             onChanged();
@@ -3738,13 +3738,13 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
          */
-        public Builder mergeCodeValidUntil(io.dstore.Values.timestampValue value) {
+        public Builder mergeCodeValidUntil(io.dstore.values.TimestampValue value) {
           if (codeValidUntilBuilder_ == null) {
             if (codeValidUntil_ != null) {
               codeValidUntil_ =
-                io.dstore.Values.timestampValue.newBuilder(codeValidUntil_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(codeValidUntil_).mergeFrom(value).buildPartial();
             } else {
               codeValidUntil_ = value;
             }
@@ -3760,7 +3760,7 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
          */
         public Builder clearCodeValidUntil() {
           if (codeValidUntilBuilder_ == null) {
@@ -3778,9 +3778,9 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getCodeValidUntilBuilder() {
+        public io.dstore.values.TimestampValue.Builder getCodeValidUntilBuilder() {
           
           onChanged();
           return getCodeValidUntilFieldBuilder().getBuilder();
@@ -3790,14 +3790,14 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getCodeValidUntilOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getCodeValidUntilOrBuilder() {
           if (codeValidUntilBuilder_ != null) {
             return codeValidUntilBuilder_.getMessageOrBuilder();
           } else {
             return codeValidUntil_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : codeValidUntil_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : codeValidUntil_;
           }
         }
         /**
@@ -3805,14 +3805,14 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt bis zu dem "VoucherCode" gültig ist (danach kann er nicht mehr eingelöst werden)
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10005;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getCodeValidUntilFieldBuilder() {
           if (codeValidUntilBuilder_ == null) {
             codeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getCodeValidUntil(),
                     getParentForChildren(),
                     isClean());
@@ -3821,15 +3821,15 @@ public final class OmGetVoucherCodesAd {
           return codeValidUntilBuilder_;
         }
 
-        private io.dstore.Values.timestampValue lastUsageAtDateAndTime_ = null;
+        private io.dstore.values.TimestampValue lastUsageAtDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> lastUsageAtDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> lastUsageAtDateAndTimeBuilder_;
         /**
          * <pre>
          * Datum an dem der Code das letzte mal eingelöst wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
          */
         public boolean hasLastUsageAtDateAndTime() {
           return lastUsageAtDateAndTimeBuilder_ != null || lastUsageAtDateAndTime_ != null;
@@ -3839,11 +3839,11 @@ public final class OmGetVoucherCodesAd {
          * Datum an dem der Code das letzte mal eingelöst wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.timestampValue getLastUsageAtDateAndTime() {
+        public io.dstore.values.TimestampValue getLastUsageAtDateAndTime() {
           if (lastUsageAtDateAndTimeBuilder_ == null) {
-            return lastUsageAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : lastUsageAtDateAndTime_;
+            return lastUsageAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : lastUsageAtDateAndTime_;
           } else {
             return lastUsageAtDateAndTimeBuilder_.getMessage();
           }
@@ -3853,9 +3853,9 @@ public final class OmGetVoucherCodesAd {
          * Datum an dem der Code das letzte mal eingelöst wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
          */
-        public Builder setLastUsageAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setLastUsageAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (lastUsageAtDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3873,10 +3873,10 @@ public final class OmGetVoucherCodesAd {
          * Datum an dem der Code das letzte mal eingelöst wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
          */
         public Builder setLastUsageAtDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (lastUsageAtDateAndTimeBuilder_ == null) {
             lastUsageAtDateAndTime_ = builderForValue.build();
             onChanged();
@@ -3891,13 +3891,13 @@ public final class OmGetVoucherCodesAd {
          * Datum an dem der Code das letzte mal eingelöst wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
          */
-        public Builder mergeLastUsageAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeLastUsageAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (lastUsageAtDateAndTimeBuilder_ == null) {
             if (lastUsageAtDateAndTime_ != null) {
               lastUsageAtDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(lastUsageAtDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(lastUsageAtDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               lastUsageAtDateAndTime_ = value;
             }
@@ -3913,7 +3913,7 @@ public final class OmGetVoucherCodesAd {
          * Datum an dem der Code das letzte mal eingelöst wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
          */
         public Builder clearLastUsageAtDateAndTime() {
           if (lastUsageAtDateAndTimeBuilder_ == null) {
@@ -3931,9 +3931,9 @@ public final class OmGetVoucherCodesAd {
          * Datum an dem der Code das letzte mal eingelöst wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getLastUsageAtDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getLastUsageAtDateAndTimeBuilder() {
           
           onChanged();
           return getLastUsageAtDateAndTimeFieldBuilder().getBuilder();
@@ -3943,14 +3943,14 @@ public final class OmGetVoucherCodesAd {
          * Datum an dem der Code das letzte mal eingelöst wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getLastUsageAtDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getLastUsageAtDateAndTimeOrBuilder() {
           if (lastUsageAtDateAndTimeBuilder_ != null) {
             return lastUsageAtDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return lastUsageAtDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : lastUsageAtDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : lastUsageAtDateAndTime_;
           }
         }
         /**
@@ -3958,14 +3958,14 @@ public final class OmGetVoucherCodesAd {
          * Datum an dem der Code das letzte mal eingelöst wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue last_usage_at_date_and_time = 10006;</code>
+         * <code>optional .dstore.values.TimestampValue last_usage_at_date_and_time = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getLastUsageAtDateAndTimeFieldBuilder() {
           if (lastUsageAtDateAndTimeBuilder_ == null) {
             lastUsageAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getLastUsageAtDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -3974,15 +3974,15 @@ public final class OmGetVoucherCodesAd {
           return lastUsageAtDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue usageCount_ = null;
+        private io.dstore.values.IntegerValue usageCount_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usageCountBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usageCountBuilder_;
         /**
          * <pre>
          * Anzahl der bisher erfolgten Einlösungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
          */
         public boolean hasUsageCount() {
           return usageCountBuilder_ != null || usageCount_ != null;
@@ -3992,11 +3992,11 @@ public final class OmGetVoucherCodesAd {
          * Anzahl der bisher erfolgten Einlösungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
          */
-        public io.dstore.Values.integerValue getUsageCount() {
+        public io.dstore.values.IntegerValue getUsageCount() {
           if (usageCountBuilder_ == null) {
-            return usageCount_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usageCount_;
+            return usageCount_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usageCount_;
           } else {
             return usageCountBuilder_.getMessage();
           }
@@ -4006,9 +4006,9 @@ public final class OmGetVoucherCodesAd {
          * Anzahl der bisher erfolgten Einlösungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
          */
-        public Builder setUsageCount(io.dstore.Values.integerValue value) {
+        public Builder setUsageCount(io.dstore.values.IntegerValue value) {
           if (usageCountBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4026,10 +4026,10 @@ public final class OmGetVoucherCodesAd {
          * Anzahl der bisher erfolgten Einlösungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
          */
         public Builder setUsageCount(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (usageCountBuilder_ == null) {
             usageCount_ = builderForValue.build();
             onChanged();
@@ -4044,13 +4044,13 @@ public final class OmGetVoucherCodesAd {
          * Anzahl der bisher erfolgten Einlösungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
          */
-        public Builder mergeUsageCount(io.dstore.Values.integerValue value) {
+        public Builder mergeUsageCount(io.dstore.values.IntegerValue value) {
           if (usageCountBuilder_ == null) {
             if (usageCount_ != null) {
               usageCount_ =
-                io.dstore.Values.integerValue.newBuilder(usageCount_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(usageCount_).mergeFrom(value).buildPartial();
             } else {
               usageCount_ = value;
             }
@@ -4066,7 +4066,7 @@ public final class OmGetVoucherCodesAd {
          * Anzahl der bisher erfolgten Einlösungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
          */
         public Builder clearUsageCount() {
           if (usageCountBuilder_ == null) {
@@ -4084,9 +4084,9 @@ public final class OmGetVoucherCodesAd {
          * Anzahl der bisher erfolgten Einlösungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUsageCountBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUsageCountBuilder() {
           
           onChanged();
           return getUsageCountFieldBuilder().getBuilder();
@@ -4096,14 +4096,14 @@ public final class OmGetVoucherCodesAd {
          * Anzahl der bisher erfolgten Einlösungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUsageCountOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUsageCountOrBuilder() {
           if (usageCountBuilder_ != null) {
             return usageCountBuilder_.getMessageOrBuilder();
           } else {
             return usageCount_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : usageCount_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : usageCount_;
           }
         }
         /**
@@ -4111,14 +4111,14 @@ public final class OmGetVoucherCodesAd {
          * Anzahl der bisher erfolgten Einlösungen
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue usage_count = 10007;</code>
+         * <code>optional .dstore.values.IntegerValue usage_count = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUsageCountFieldBuilder() {
           if (usageCountBuilder_ == null) {
             usageCountBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUsageCount(),
                     getParentForChildren(),
                     isClean());
@@ -4127,15 +4127,15 @@ public final class OmGetVoucherCodesAd {
           return usageCountBuilder_;
         }
 
-        private io.dstore.Values.timestampValue createdAtDateAndTime_ = null;
+        private io.dstore.values.TimestampValue createdAtDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> createdAtDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> createdAtDateAndTimeBuilder_;
         /**
          * <pre>
          * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
          */
         public boolean hasCreatedAtDateAndTime() {
           return createdAtDateAndTimeBuilder_ != null || createdAtDateAndTime_ != null;
@@ -4145,11 +4145,11 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
          */
-        public io.dstore.Values.timestampValue getCreatedAtDateAndTime() {
+        public io.dstore.values.TimestampValue getCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
-            return createdAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+            return createdAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
           } else {
             return createdAtDateAndTimeBuilder_.getMessage();
           }
@@ -4159,9 +4159,9 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
          */
-        public Builder setCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4179,10 +4179,10 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
          */
         public Builder setCreatedAtDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (createdAtDateAndTimeBuilder_ == null) {
             createdAtDateAndTime_ = builderForValue.build();
             onChanged();
@@ -4197,13 +4197,13 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
          */
-        public Builder mergeCreatedAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeCreatedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (createdAtDateAndTimeBuilder_ == null) {
             if (createdAtDateAndTime_ != null) {
               createdAtDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(createdAtDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(createdAtDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               createdAtDateAndTime_ = value;
             }
@@ -4219,7 +4219,7 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
          */
         public Builder clearCreatedAtDateAndTime() {
           if (createdAtDateAndTimeBuilder_ == null) {
@@ -4237,9 +4237,9 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getCreatedAtDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getCreatedAtDateAndTimeBuilder() {
           
           onChanged();
           return getCreatedAtDateAndTimeFieldBuilder().getBuilder();
@@ -4249,14 +4249,14 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getCreatedAtDateAndTimeOrBuilder() {
           if (createdAtDateAndTimeBuilder_ != null) {
             return createdAtDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return createdAtDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : createdAtDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : createdAtDateAndTime_;
           }
         }
         /**
@@ -4264,14 +4264,14 @@ public final class OmGetVoucherCodesAd {
          * Der Zeitpunkt, an dem "VoucherCode" erzeugt wurde
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue created_at_date_and_time = 10008;</code>
+         * <code>optional .dstore.values.TimestampValue created_at_date_and_time = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getCreatedAtDateAndTimeFieldBuilder() {
           if (createdAtDateAndTimeBuilder_ == null) {
             createdAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getCreatedAtDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -5741,33 +5741,33 @@ public final class OmGetVoucherCodesAd {
       "herCodes_Ad\032\023dstore/values.proto\032\032dstore" +
       "/engine/engine.proto\"\270\003\n\nParameters\0229\n\022f" +
       "rom_creation_date\030\001 \001(\0132\035.dstore.values." +
-      "timestampValue\022 \n\027from_creation_date_nul" +
+      "TimestampValue\022 \n\027from_creation_date_nul" +
       "l\030\351\007 \001(\010\0227\n\020to_creation_date\030\002 \001(\0132\035.dst" +
-      "ore.values.timestampValue\022\036\n\025to_creation" +
+      "ore.values.TimestampValue\022\036\n\025to_creation" +
       "_date_null\030\352\007 \001(\010\0220\n\014voucher_code\030\003 \001(\0132" +
-      "\032.dstore.values.stringValue\022\032\n\021voucher_c",
+      "\032.dstore.values.StringValue\022\032\n\021voucher_c",
       "ode_null\030\353\007 \001(\010\0224\n\017voucher_type_id\030\004 \001(\013" +
-      "2\033.dstore.values.integerValue\022\035\n\024voucher" +
+      "2\033.dstore.values.IntegerValue\022\035\n\024voucher" +
       "_type_id_null\030\354\007 \001(\010\0223\n\016get_used_codes\030\005" +
-      " \001(\0132\033.dstore.values.integerValue\022\034\n\023get" +
+      " \001(\0132\033.dstore.values.IntegerValue\022\034\n\023get" +
       "_used_codes_null\030\355\007 \001(\010\"\235\005\n\010Response\0228\n\020" +
       "meta_information\030\002 \003(\0132\036.dstore.engine.M" +
       "etaInformation\022\'\n\007message\030\003 \003(\0132\026.dstore" +
       ".engine.Message\022>\n\003row\030\004 \003(\01321.dstore.en" +
       "gine.om_GetVoucherCodes_Ad.Response.Row\032" +
       "\355\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\0228\n\022created_by_u",
-      "ser_id\030\221N \001(\0132\033.dstore.values.integerVal" +
+      "ser_id\030\221N \001(\0132\033.dstore.values.IntegerVal" +
       "ue\0221\n\014voucher_code\030\222N \001(\0132\032.dstore.value" +
-      "s.stringValue\0225\n\017voucher_type_id\030\223N \001(\0132" +
-      "\033.dstore.values.integerValue\022=\n\030voucher_" +
+      "s.StringValue\0225\n\017voucher_type_id\030\223N \001(\0132" +
+      "\033.dstore.values.IntegerValue\022=\n\030voucher_" +
       "type_description\030\224N \001(\0132\032.dstore.values." +
-      "stringValue\0228\n\020code_valid_until\030\225N \001(\0132\035" +
-      ".dstore.values.timestampValue\022C\n\033last_us" +
+      "StringValue\0228\n\020code_valid_until\030\225N \001(\0132\035" +
+      ".dstore.values.TimestampValue\022C\n\033last_us" +
       "age_at_date_and_time\030\226N \001(\0132\035.dstore.val" +
-      "ues.timestampValue\0221\n\013usage_count\030\227N \001(\013" +
-      "2\033.dstore.values.integerValue\022@\n\030created",
+      "ues.TimestampValue\0221\n\013usage_count\030\227N \001(\013" +
+      "2\033.dstore.values.IntegerValue\022@\n\030created",
       "_at_date_and_time\030\230N \001(\0132\035.dstore.values" +
-      ".timestampValueBV\n\033io.dstore.engine.proc" +
+      ".TimestampValueBV\n\033io.dstore.engine.proc" +
       "eduresZ7gosdk.dstore.de/engine/procedure" +
       "s/om_GetVoucherCodes_Adb\006proto3"
     };
@@ -5782,7 +5782,7 @@ public final class OmGetVoucherCodesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetVoucherCodes_Ad_Parameters_descriptor =
@@ -5803,7 +5803,7 @@ public final class OmGetVoucherCodesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetVoucherCodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "CreatedByUserId", "VoucherCode", "VoucherTypeId", "VoucherTypeDescription", "CodeValidUntil", "LastUsageAtDateAndTime", "UsageCount", "CreatedAtDateAndTime", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

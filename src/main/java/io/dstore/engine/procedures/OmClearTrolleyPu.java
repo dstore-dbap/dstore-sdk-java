@@ -19,17 +19,17 @@ public final class OmClearTrolleyPu {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     boolean hasUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValue getUniqueId();
+    io.dstore.values.StringValue getUniqueId();
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder();
+    io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder();
 
     /**
      * <code>optional bool unique_id_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmClearTrolleyPu {
     boolean getUniqueIdNull();
 
     /**
-     * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+     * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
      */
     boolean hasInsertIntoStatistics();
     /**
-     * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+     * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
      */
-    io.dstore.Values.booleanValue getInsertIntoStatistics();
+    io.dstore.values.BooleanValue getInsertIntoStatistics();
     /**
-     * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+     * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
      */
-    io.dstore.Values.booleanValueOrBuilder getInsertIntoStatisticsOrBuilder();
+    io.dstore.values.BooleanValueOrBuilder getInsertIntoStatisticsOrBuilder();
 
     /**
      * <code>optional bool insert_into_statistics_null = 1002;</code>
@@ -96,11 +96,11 @@ public final class OmClearTrolleyPu {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -109,11 +109,11 @@ public final class OmClearTrolleyPu {
               break;
             }
             case 18: {
-              io.dstore.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.values.BooleanValue.Builder subBuilder = null;
               if (insertIntoStatistics_ != null) {
                 subBuilder = insertIntoStatistics_.toBuilder();
               }
-              insertIntoStatistics_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+              insertIntoStatistics_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(insertIntoStatistics_);
                 insertIntoStatistics_ = subBuilder.buildPartial();
@@ -155,23 +155,23 @@ public final class OmClearTrolleyPu {
     }
 
     public static final int UNIQUE_ID_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue uniqueId_;
+    private io.dstore.values.StringValue uniqueId_;
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
     public boolean hasUniqueId() {
       return uniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValue getUniqueId() {
-      return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+    public io.dstore.values.StringValue getUniqueId() {
+      return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
     }
     /**
-     * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+     * <code>optional .dstore.values.StringValue unique_id = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
       return getUniqueId();
     }
 
@@ -185,23 +185,23 @@ public final class OmClearTrolleyPu {
     }
 
     public static final int INSERT_INTO_STATISTICS_FIELD_NUMBER = 2;
-    private io.dstore.Values.booleanValue insertIntoStatistics_;
+    private io.dstore.values.BooleanValue insertIntoStatistics_;
     /**
-     * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+     * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
      */
     public boolean hasInsertIntoStatistics() {
       return insertIntoStatistics_ != null;
     }
     /**
-     * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+     * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
      */
-    public io.dstore.Values.booleanValue getInsertIntoStatistics() {
-      return insertIntoStatistics_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : insertIntoStatistics_;
+    public io.dstore.values.BooleanValue getInsertIntoStatistics() {
+      return insertIntoStatistics_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : insertIntoStatistics_;
     }
     /**
-     * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+     * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
      */
-    public io.dstore.Values.booleanValueOrBuilder getInsertIntoStatisticsOrBuilder() {
+    public io.dstore.values.BooleanValueOrBuilder getInsertIntoStatisticsOrBuilder() {
       return getInsertIntoStatistics();
     }
 
@@ -562,29 +562,29 @@ public final class OmClearTrolleyPu {
         return this;
       }
 
-      private io.dstore.Values.stringValue uniqueId_ = null;
+      private io.dstore.values.StringValue uniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> uniqueIdBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> uniqueIdBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public boolean hasUniqueId() {
         return uniqueIdBuilder_ != null || uniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue getUniqueId() {
+      public io.dstore.values.StringValue getUniqueId() {
         if (uniqueIdBuilder_ == null) {
-          return uniqueId_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+          return uniqueId_ == null ? io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         } else {
           return uniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder setUniqueId(io.dstore.Values.stringValue value) {
+      public Builder setUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -598,10 +598,10 @@ public final class OmClearTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder setUniqueId(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (uniqueIdBuilder_ == null) {
           uniqueId_ = builderForValue.build();
           onChanged();
@@ -612,13 +612,13 @@ public final class OmClearTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public Builder mergeUniqueId(io.dstore.Values.stringValue value) {
+      public Builder mergeUniqueId(io.dstore.values.StringValue value) {
         if (uniqueIdBuilder_ == null) {
           if (uniqueId_ != null) {
             uniqueId_ =
-              io.dstore.Values.stringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(uniqueId_).mergeFrom(value).buildPartial();
           } else {
             uniqueId_ = value;
           }
@@ -630,7 +630,7 @@ public final class OmClearTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       public Builder clearUniqueId() {
         if (uniqueIdBuilder_ == null) {
@@ -644,33 +644,33 @@ public final class OmClearTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getUniqueIdBuilder() {
+      public io.dstore.values.StringValue.Builder getUniqueIdBuilder() {
         
         onChanged();
         return getUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getUniqueIdOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getUniqueIdOrBuilder() {
         if (uniqueIdBuilder_ != null) {
           return uniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return uniqueId_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : uniqueId_;
+              io.dstore.values.StringValue.getDefaultInstance() : uniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue unique_id = 1;</code>
+       * <code>optional .dstore.values.StringValue unique_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getUniqueIdFieldBuilder() {
         if (uniqueIdBuilder_ == null) {
           uniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -705,29 +705,29 @@ public final class OmClearTrolleyPu {
         return this;
       }
 
-      private io.dstore.Values.booleanValue insertIntoStatistics_ = null;
+      private io.dstore.values.BooleanValue insertIntoStatistics_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> insertIntoStatisticsBuilder_;
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> insertIntoStatisticsBuilder_;
       /**
-       * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+       * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
        */
       public boolean hasInsertIntoStatistics() {
         return insertIntoStatisticsBuilder_ != null || insertIntoStatistics_ != null;
       }
       /**
-       * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+       * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
        */
-      public io.dstore.Values.booleanValue getInsertIntoStatistics() {
+      public io.dstore.values.BooleanValue getInsertIntoStatistics() {
         if (insertIntoStatisticsBuilder_ == null) {
-          return insertIntoStatistics_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : insertIntoStatistics_;
+          return insertIntoStatistics_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : insertIntoStatistics_;
         } else {
           return insertIntoStatisticsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+       * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
        */
-      public Builder setInsertIntoStatistics(io.dstore.Values.booleanValue value) {
+      public Builder setInsertIntoStatistics(io.dstore.values.BooleanValue value) {
         if (insertIntoStatisticsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -741,10 +741,10 @@ public final class OmClearTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+       * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
        */
       public Builder setInsertIntoStatistics(
-          io.dstore.Values.booleanValue.Builder builderForValue) {
+          io.dstore.values.BooleanValue.Builder builderForValue) {
         if (insertIntoStatisticsBuilder_ == null) {
           insertIntoStatistics_ = builderForValue.build();
           onChanged();
@@ -755,13 +755,13 @@ public final class OmClearTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+       * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
        */
-      public Builder mergeInsertIntoStatistics(io.dstore.Values.booleanValue value) {
+      public Builder mergeInsertIntoStatistics(io.dstore.values.BooleanValue value) {
         if (insertIntoStatisticsBuilder_ == null) {
           if (insertIntoStatistics_ != null) {
             insertIntoStatistics_ =
-              io.dstore.Values.booleanValue.newBuilder(insertIntoStatistics_).mergeFrom(value).buildPartial();
+              io.dstore.values.BooleanValue.newBuilder(insertIntoStatistics_).mergeFrom(value).buildPartial();
           } else {
             insertIntoStatistics_ = value;
           }
@@ -773,7 +773,7 @@ public final class OmClearTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+       * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
        */
       public Builder clearInsertIntoStatistics() {
         if (insertIntoStatisticsBuilder_ == null) {
@@ -787,33 +787,33 @@ public final class OmClearTrolleyPu {
         return this;
       }
       /**
-       * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+       * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
        */
-      public io.dstore.Values.booleanValue.Builder getInsertIntoStatisticsBuilder() {
+      public io.dstore.values.BooleanValue.Builder getInsertIntoStatisticsBuilder() {
         
         onChanged();
         return getInsertIntoStatisticsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+       * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getInsertIntoStatisticsOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getInsertIntoStatisticsOrBuilder() {
         if (insertIntoStatisticsBuilder_ != null) {
           return insertIntoStatisticsBuilder_.getMessageOrBuilder();
         } else {
           return insertIntoStatistics_ == null ?
-              io.dstore.Values.booleanValue.getDefaultInstance() : insertIntoStatistics_;
+              io.dstore.values.BooleanValue.getDefaultInstance() : insertIntoStatistics_;
         }
       }
       /**
-       * <code>optional .dstore.values.booleanValue insert_into_statistics = 2;</code>
+       * <code>optional .dstore.values.BooleanValue insert_into_statistics = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+          io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
           getInsertIntoStatisticsFieldBuilder() {
         if (insertIntoStatisticsBuilder_ == null) {
           insertIntoStatisticsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+              io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                   getInsertIntoStatistics(),
                   getParentForChildren(),
                   isClean());
@@ -2934,9 +2934,9 @@ public final class OmClearTrolleyPu {
       "ey_Pu.proto\022 dstore.engine.om_ClearTroll" +
       "ey_Pu\032\023dstore/values.proto\032\032dstore/engin" +
       "e/engine.proto\"\267\001\n\nParameters\022-\n\tunique_" +
-      "id\030\001 \001(\0132\032.dstore.values.stringValue\022\027\n\016" +
+      "id\030\001 \001(\0132\032.dstore.values.StringValue\022\027\n\016" +
       "unique_id_null\030\351\007 \001(\010\022;\n\026insert_into_sta" +
-      "tistics\030\002 \001(\0132\033.dstore.values.booleanVal" +
+      "tistics\030\002 \001(\0132\033.dstore.values.BooleanVal" +
       "ue\022$\n\033insert_into_statistics_null\030\352\007 \001(\010" +
       "\"\302\001\n\010Response\0228\n\020meta_information\030\002 \003(\0132" +
       "\036.dstore.engine.MetaInformation\022\'\n\007messa",
@@ -2958,7 +2958,7 @@ public final class OmClearTrolleyPu {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_ClearTrolley_Pu_Parameters_descriptor =
@@ -2979,7 +2979,7 @@ public final class OmClearTrolleyPu {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_ClearTrolley_Pu_Response_Row_descriptor,
         new java.lang.String[] { "RowId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 

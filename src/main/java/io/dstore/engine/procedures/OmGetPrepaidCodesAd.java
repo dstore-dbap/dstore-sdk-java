@@ -19,17 +19,17 @@ public final class OmGetPrepaidCodesAd {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
     boolean hasPrepaidCode();
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
-    io.dstore.Values.stringValue getPrepaidCode();
+    io.dstore.values.StringValue getPrepaidCode();
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getPrepaidCodeOrBuilder();
+    io.dstore.values.StringValueOrBuilder getPrepaidCodeOrBuilder();
 
     /**
      * <code>optional bool prepaid_code_null = 1001;</code>
@@ -37,17 +37,17 @@ public final class OmGetPrepaidCodesAd {
     boolean getPrepaidCodeNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
      */
     boolean hasFromCodeValidUntil();
     /**
-     * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
      */
-    io.dstore.Values.timestampValue getFromCodeValidUntil();
+    io.dstore.values.TimestampValue getFromCodeValidUntil();
     /**
-     * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getFromCodeValidUntilOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getFromCodeValidUntilOrBuilder();
 
     /**
      * <code>optional bool from_code_valid_until_null = 1002;</code>
@@ -55,17 +55,17 @@ public final class OmGetPrepaidCodesAd {
     boolean getFromCodeValidUntilNull();
 
     /**
-     * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
      */
     boolean hasToCodeValidUntil();
     /**
-     * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
      */
-    io.dstore.Values.timestampValue getToCodeValidUntil();
+    io.dstore.values.TimestampValue getToCodeValidUntil();
     /**
-     * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
      */
-    io.dstore.Values.timestampValueOrBuilder getToCodeValidUntilOrBuilder();
+    io.dstore.values.TimestampValueOrBuilder getToCodeValidUntilOrBuilder();
 
     /**
      * <code>optional bool to_code_valid_until_null = 1003;</code>
@@ -73,17 +73,17 @@ public final class OmGetPrepaidCodesAd {
     boolean getToCodeValidUntilNull();
 
     /**
-     * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
      */
     boolean hasFilterByUseState();
     /**
-     * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
      */
-    io.dstore.Values.integerValue getFilterByUseState();
+    io.dstore.values.IntegerValue getFilterByUseState();
     /**
-     * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
      */
-    io.dstore.Values.integerValueOrBuilder getFilterByUseStateOrBuilder();
+    io.dstore.values.IntegerValueOrBuilder getFilterByUseStateOrBuilder();
 
     /**
      * <code>optional bool filter_by_use_state_null = 1004;</code>
@@ -91,17 +91,17 @@ public final class OmGetPrepaidCodesAd {
     boolean getFilterByUseStateNull();
 
     /**
-     * <code>optional .dstore.values.stringValue order_by = 5;</code>
+     * <code>optional .dstore.values.StringValue order_by = 5;</code>
      */
     boolean hasOrderBy();
     /**
-     * <code>optional .dstore.values.stringValue order_by = 5;</code>
+     * <code>optional .dstore.values.StringValue order_by = 5;</code>
      */
-    io.dstore.Values.stringValue getOrderBy();
+    io.dstore.values.StringValue getOrderBy();
     /**
-     * <code>optional .dstore.values.stringValue order_by = 5;</code>
+     * <code>optional .dstore.values.StringValue order_by = 5;</code>
      */
-    io.dstore.Values.stringValueOrBuilder getOrderByOrBuilder();
+    io.dstore.values.StringValueOrBuilder getOrderByOrBuilder();
 
     /**
      * <code>optional bool order_by_null = 1005;</code>
@@ -153,11 +153,11 @@ public final class OmGetPrepaidCodesAd {
               break;
             }
             case 10: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (prepaidCode_ != null) {
                 subBuilder = prepaidCode_.toBuilder();
               }
-              prepaidCode_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              prepaidCode_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(prepaidCode_);
                 prepaidCode_ = subBuilder.buildPartial();
@@ -166,11 +166,11 @@ public final class OmGetPrepaidCodesAd {
               break;
             }
             case 18: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (fromCodeValidUntil_ != null) {
                 subBuilder = fromCodeValidUntil_.toBuilder();
               }
-              fromCodeValidUntil_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              fromCodeValidUntil_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromCodeValidUntil_);
                 fromCodeValidUntil_ = subBuilder.buildPartial();
@@ -179,11 +179,11 @@ public final class OmGetPrepaidCodesAd {
               break;
             }
             case 26: {
-              io.dstore.Values.timestampValue.Builder subBuilder = null;
+              io.dstore.values.TimestampValue.Builder subBuilder = null;
               if (toCodeValidUntil_ != null) {
                 subBuilder = toCodeValidUntil_.toBuilder();
               }
-              toCodeValidUntil_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+              toCodeValidUntil_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toCodeValidUntil_);
                 toCodeValidUntil_ = subBuilder.buildPartial();
@@ -192,11 +192,11 @@ public final class OmGetPrepaidCodesAd {
               break;
             }
             case 34: {
-              io.dstore.Values.integerValue.Builder subBuilder = null;
+              io.dstore.values.IntegerValue.Builder subBuilder = null;
               if (filterByUseState_ != null) {
                 subBuilder = filterByUseState_.toBuilder();
               }
-              filterByUseState_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+              filterByUseState_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByUseState_);
                 filterByUseState_ = subBuilder.buildPartial();
@@ -205,11 +205,11 @@ public final class OmGetPrepaidCodesAd {
               break;
             }
             case 42: {
-              io.dstore.Values.stringValue.Builder subBuilder = null;
+              io.dstore.values.StringValue.Builder subBuilder = null;
               if (orderBy_ != null) {
                 subBuilder = orderBy_.toBuilder();
               }
-              orderBy_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+              orderBy_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderBy_);
                 orderBy_ = subBuilder.buildPartial();
@@ -266,23 +266,23 @@ public final class OmGetPrepaidCodesAd {
     }
 
     public static final int PREPAID_CODE_FIELD_NUMBER = 1;
-    private io.dstore.Values.stringValue prepaidCode_;
+    private io.dstore.values.StringValue prepaidCode_;
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
     public boolean hasPrepaidCode() {
       return prepaidCode_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
-    public io.dstore.Values.stringValue getPrepaidCode() {
-      return prepaidCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : prepaidCode_;
+    public io.dstore.values.StringValue getPrepaidCode() {
+      return prepaidCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : prepaidCode_;
     }
     /**
-     * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+     * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getPrepaidCodeOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getPrepaidCodeOrBuilder() {
       return getPrepaidCode();
     }
 
@@ -296,23 +296,23 @@ public final class OmGetPrepaidCodesAd {
     }
 
     public static final int FROM_CODE_VALID_UNTIL_FIELD_NUMBER = 2;
-    private io.dstore.Values.timestampValue fromCodeValidUntil_;
+    private io.dstore.values.TimestampValue fromCodeValidUntil_;
     /**
-     * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
      */
     public boolean hasFromCodeValidUntil() {
       return fromCodeValidUntil_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
      */
-    public io.dstore.Values.timestampValue getFromCodeValidUntil() {
-      return fromCodeValidUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromCodeValidUntil_;
+    public io.dstore.values.TimestampValue getFromCodeValidUntil() {
+      return fromCodeValidUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromCodeValidUntil_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+     * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getFromCodeValidUntilOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getFromCodeValidUntilOrBuilder() {
       return getFromCodeValidUntil();
     }
 
@@ -326,23 +326,23 @@ public final class OmGetPrepaidCodesAd {
     }
 
     public static final int TO_CODE_VALID_UNTIL_FIELD_NUMBER = 3;
-    private io.dstore.Values.timestampValue toCodeValidUntil_;
+    private io.dstore.values.TimestampValue toCodeValidUntil_;
     /**
-     * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
      */
     public boolean hasToCodeValidUntil() {
       return toCodeValidUntil_ != null;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
      */
-    public io.dstore.Values.timestampValue getToCodeValidUntil() {
-      return toCodeValidUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toCodeValidUntil_;
+    public io.dstore.values.TimestampValue getToCodeValidUntil() {
+      return toCodeValidUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toCodeValidUntil_;
     }
     /**
-     * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+     * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
      */
-    public io.dstore.Values.timestampValueOrBuilder getToCodeValidUntilOrBuilder() {
+    public io.dstore.values.TimestampValueOrBuilder getToCodeValidUntilOrBuilder() {
       return getToCodeValidUntil();
     }
 
@@ -356,23 +356,23 @@ public final class OmGetPrepaidCodesAd {
     }
 
     public static final int FILTER_BY_USE_STATE_FIELD_NUMBER = 4;
-    private io.dstore.Values.integerValue filterByUseState_;
+    private io.dstore.values.IntegerValue filterByUseState_;
     /**
-     * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
      */
     public boolean hasFilterByUseState() {
       return filterByUseState_ != null;
     }
     /**
-     * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
      */
-    public io.dstore.Values.integerValue getFilterByUseState() {
-      return filterByUseState_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByUseState_;
+    public io.dstore.values.IntegerValue getFilterByUseState() {
+      return filterByUseState_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : filterByUseState_;
     }
     /**
-     * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+     * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
      */
-    public io.dstore.Values.integerValueOrBuilder getFilterByUseStateOrBuilder() {
+    public io.dstore.values.IntegerValueOrBuilder getFilterByUseStateOrBuilder() {
       return getFilterByUseState();
     }
 
@@ -386,23 +386,23 @@ public final class OmGetPrepaidCodesAd {
     }
 
     public static final int ORDER_BY_FIELD_NUMBER = 5;
-    private io.dstore.Values.stringValue orderBy_;
+    private io.dstore.values.StringValue orderBy_;
     /**
-     * <code>optional .dstore.values.stringValue order_by = 5;</code>
+     * <code>optional .dstore.values.StringValue order_by = 5;</code>
      */
     public boolean hasOrderBy() {
       return orderBy_ != null;
     }
     /**
-     * <code>optional .dstore.values.stringValue order_by = 5;</code>
+     * <code>optional .dstore.values.StringValue order_by = 5;</code>
      */
-    public io.dstore.Values.stringValue getOrderBy() {
-      return orderBy_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderBy_;
+    public io.dstore.values.StringValue getOrderBy() {
+      return orderBy_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderBy_;
     }
     /**
-     * <code>optional .dstore.values.stringValue order_by = 5;</code>
+     * <code>optional .dstore.values.StringValue order_by = 5;</code>
      */
-    public io.dstore.Values.stringValueOrBuilder getOrderByOrBuilder() {
+    public io.dstore.values.StringValueOrBuilder getOrderByOrBuilder() {
       return getOrderBy();
     }
 
@@ -907,29 +907,29 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue prepaidCode_ = null;
+      private io.dstore.values.StringValue prepaidCode_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> prepaidCodeBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> prepaidCodeBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
       public boolean hasPrepaidCode() {
         return prepaidCodeBuilder_ != null || prepaidCode_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public io.dstore.Values.stringValue getPrepaidCode() {
+      public io.dstore.values.StringValue getPrepaidCode() {
         if (prepaidCodeBuilder_ == null) {
-          return prepaidCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : prepaidCode_;
+          return prepaidCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : prepaidCode_;
         } else {
           return prepaidCodeBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public Builder setPrepaidCode(io.dstore.Values.stringValue value) {
+      public Builder setPrepaidCode(io.dstore.values.StringValue value) {
         if (prepaidCodeBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -943,10 +943,10 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
       public Builder setPrepaidCode(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (prepaidCodeBuilder_ == null) {
           prepaidCode_ = builderForValue.build();
           onChanged();
@@ -957,13 +957,13 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public Builder mergePrepaidCode(io.dstore.Values.stringValue value) {
+      public Builder mergePrepaidCode(io.dstore.values.StringValue value) {
         if (prepaidCodeBuilder_ == null) {
           if (prepaidCode_ != null) {
             prepaidCode_ =
-              io.dstore.Values.stringValue.newBuilder(prepaidCode_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(prepaidCode_).mergeFrom(value).buildPartial();
           } else {
             prepaidCode_ = value;
           }
@@ -975,7 +975,7 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
       public Builder clearPrepaidCode() {
         if (prepaidCodeBuilder_ == null) {
@@ -989,33 +989,33 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public io.dstore.Values.stringValue.Builder getPrepaidCodeBuilder() {
+      public io.dstore.values.StringValue.Builder getPrepaidCodeBuilder() {
         
         onChanged();
         return getPrepaidCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPrepaidCodeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPrepaidCodeOrBuilder() {
         if (prepaidCodeBuilder_ != null) {
           return prepaidCodeBuilder_.getMessageOrBuilder();
         } else {
           return prepaidCode_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : prepaidCode_;
+              io.dstore.values.StringValue.getDefaultInstance() : prepaidCode_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue prepaid_code = 1;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getPrepaidCodeFieldBuilder() {
         if (prepaidCodeBuilder_ == null) {
           prepaidCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getPrepaidCode(),
                   getParentForChildren(),
                   isClean());
@@ -1050,29 +1050,29 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue fromCodeValidUntil_ = null;
+      private io.dstore.values.TimestampValue fromCodeValidUntil_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> fromCodeValidUntilBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> fromCodeValidUntilBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
        */
       public boolean hasFromCodeValidUntil() {
         return fromCodeValidUntilBuilder_ != null || fromCodeValidUntil_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
        */
-      public io.dstore.Values.timestampValue getFromCodeValidUntil() {
+      public io.dstore.values.TimestampValue getFromCodeValidUntil() {
         if (fromCodeValidUntilBuilder_ == null) {
-          return fromCodeValidUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : fromCodeValidUntil_;
+          return fromCodeValidUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : fromCodeValidUntil_;
         } else {
           return fromCodeValidUntilBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
        */
-      public Builder setFromCodeValidUntil(io.dstore.Values.timestampValue value) {
+      public Builder setFromCodeValidUntil(io.dstore.values.TimestampValue value) {
         if (fromCodeValidUntilBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1086,10 +1086,10 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
        */
       public Builder setFromCodeValidUntil(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (fromCodeValidUntilBuilder_ == null) {
           fromCodeValidUntil_ = builderForValue.build();
           onChanged();
@@ -1100,13 +1100,13 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
        */
-      public Builder mergeFromCodeValidUntil(io.dstore.Values.timestampValue value) {
+      public Builder mergeFromCodeValidUntil(io.dstore.values.TimestampValue value) {
         if (fromCodeValidUntilBuilder_ == null) {
           if (fromCodeValidUntil_ != null) {
             fromCodeValidUntil_ =
-              io.dstore.Values.timestampValue.newBuilder(fromCodeValidUntil_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(fromCodeValidUntil_).mergeFrom(value).buildPartial();
           } else {
             fromCodeValidUntil_ = value;
           }
@@ -1118,7 +1118,7 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
        */
       public Builder clearFromCodeValidUntil() {
         if (fromCodeValidUntilBuilder_ == null) {
@@ -1132,33 +1132,33 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getFromCodeValidUntilBuilder() {
+      public io.dstore.values.TimestampValue.Builder getFromCodeValidUntilBuilder() {
         
         onChanged();
         return getFromCodeValidUntilFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getFromCodeValidUntilOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getFromCodeValidUntilOrBuilder() {
         if (fromCodeValidUntilBuilder_ != null) {
           return fromCodeValidUntilBuilder_.getMessageOrBuilder();
         } else {
           return fromCodeValidUntil_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : fromCodeValidUntil_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : fromCodeValidUntil_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue from_code_valid_until = 2;</code>
+       * <code>optional .dstore.values.TimestampValue from_code_valid_until = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getFromCodeValidUntilFieldBuilder() {
         if (fromCodeValidUntilBuilder_ == null) {
           fromCodeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getFromCodeValidUntil(),
                   getParentForChildren(),
                   isClean());
@@ -1193,29 +1193,29 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
 
-      private io.dstore.Values.timestampValue toCodeValidUntil_ = null;
+      private io.dstore.values.TimestampValue toCodeValidUntil_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> toCodeValidUntilBuilder_;
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> toCodeValidUntilBuilder_;
       /**
-       * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
        */
       public boolean hasToCodeValidUntil() {
         return toCodeValidUntilBuilder_ != null || toCodeValidUntil_ != null;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
        */
-      public io.dstore.Values.timestampValue getToCodeValidUntil() {
+      public io.dstore.values.TimestampValue getToCodeValidUntil() {
         if (toCodeValidUntilBuilder_ == null) {
-          return toCodeValidUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : toCodeValidUntil_;
+          return toCodeValidUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : toCodeValidUntil_;
         } else {
           return toCodeValidUntilBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
        */
-      public Builder setToCodeValidUntil(io.dstore.Values.timestampValue value) {
+      public Builder setToCodeValidUntil(io.dstore.values.TimestampValue value) {
         if (toCodeValidUntilBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1229,10 +1229,10 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
        */
       public Builder setToCodeValidUntil(
-          io.dstore.Values.timestampValue.Builder builderForValue) {
+          io.dstore.values.TimestampValue.Builder builderForValue) {
         if (toCodeValidUntilBuilder_ == null) {
           toCodeValidUntil_ = builderForValue.build();
           onChanged();
@@ -1243,13 +1243,13 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
        */
-      public Builder mergeToCodeValidUntil(io.dstore.Values.timestampValue value) {
+      public Builder mergeToCodeValidUntil(io.dstore.values.TimestampValue value) {
         if (toCodeValidUntilBuilder_ == null) {
           if (toCodeValidUntil_ != null) {
             toCodeValidUntil_ =
-              io.dstore.Values.timestampValue.newBuilder(toCodeValidUntil_).mergeFrom(value).buildPartial();
+              io.dstore.values.TimestampValue.newBuilder(toCodeValidUntil_).mergeFrom(value).buildPartial();
           } else {
             toCodeValidUntil_ = value;
           }
@@ -1261,7 +1261,7 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
        */
       public Builder clearToCodeValidUntil() {
         if (toCodeValidUntilBuilder_ == null) {
@@ -1275,33 +1275,33 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
        */
-      public io.dstore.Values.timestampValue.Builder getToCodeValidUntilBuilder() {
+      public io.dstore.values.TimestampValue.Builder getToCodeValidUntilBuilder() {
         
         onChanged();
         return getToCodeValidUntilFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getToCodeValidUntilOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getToCodeValidUntilOrBuilder() {
         if (toCodeValidUntilBuilder_ != null) {
           return toCodeValidUntilBuilder_.getMessageOrBuilder();
         } else {
           return toCodeValidUntil_ == null ?
-              io.dstore.Values.timestampValue.getDefaultInstance() : toCodeValidUntil_;
+              io.dstore.values.TimestampValue.getDefaultInstance() : toCodeValidUntil_;
         }
       }
       /**
-       * <code>optional .dstore.values.timestampValue to_code_valid_until = 3;</code>
+       * <code>optional .dstore.values.TimestampValue to_code_valid_until = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+          io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
           getToCodeValidUntilFieldBuilder() {
         if (toCodeValidUntilBuilder_ == null) {
           toCodeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+              io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                   getToCodeValidUntil(),
                   getParentForChildren(),
                   isClean());
@@ -1336,29 +1336,29 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
 
-      private io.dstore.Values.integerValue filterByUseState_ = null;
+      private io.dstore.values.IntegerValue filterByUseState_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> filterByUseStateBuilder_;
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> filterByUseStateBuilder_;
       /**
-       * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
        */
       public boolean hasFilterByUseState() {
         return filterByUseStateBuilder_ != null || filterByUseState_ != null;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
        */
-      public io.dstore.Values.integerValue getFilterByUseState() {
+      public io.dstore.values.IntegerValue getFilterByUseState() {
         if (filterByUseStateBuilder_ == null) {
-          return filterByUseState_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : filterByUseState_;
+          return filterByUseState_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : filterByUseState_;
         } else {
           return filterByUseStateBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
        */
-      public Builder setFilterByUseState(io.dstore.Values.integerValue value) {
+      public Builder setFilterByUseState(io.dstore.values.IntegerValue value) {
         if (filterByUseStateBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1372,10 +1372,10 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
        */
       public Builder setFilterByUseState(
-          io.dstore.Values.integerValue.Builder builderForValue) {
+          io.dstore.values.IntegerValue.Builder builderForValue) {
         if (filterByUseStateBuilder_ == null) {
           filterByUseState_ = builderForValue.build();
           onChanged();
@@ -1386,13 +1386,13 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
        */
-      public Builder mergeFilterByUseState(io.dstore.Values.integerValue value) {
+      public Builder mergeFilterByUseState(io.dstore.values.IntegerValue value) {
         if (filterByUseStateBuilder_ == null) {
           if (filterByUseState_ != null) {
             filterByUseState_ =
-              io.dstore.Values.integerValue.newBuilder(filterByUseState_).mergeFrom(value).buildPartial();
+              io.dstore.values.IntegerValue.newBuilder(filterByUseState_).mergeFrom(value).buildPartial();
           } else {
             filterByUseState_ = value;
           }
@@ -1404,7 +1404,7 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
        */
       public Builder clearFilterByUseState() {
         if (filterByUseStateBuilder_ == null) {
@@ -1418,33 +1418,33 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
        */
-      public io.dstore.Values.integerValue.Builder getFilterByUseStateBuilder() {
+      public io.dstore.values.IntegerValue.Builder getFilterByUseStateBuilder() {
         
         onChanged();
         return getFilterByUseStateFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getFilterByUseStateOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getFilterByUseStateOrBuilder() {
         if (filterByUseStateBuilder_ != null) {
           return filterByUseStateBuilder_.getMessageOrBuilder();
         } else {
           return filterByUseState_ == null ?
-              io.dstore.Values.integerValue.getDefaultInstance() : filterByUseState_;
+              io.dstore.values.IntegerValue.getDefaultInstance() : filterByUseState_;
         }
       }
       /**
-       * <code>optional .dstore.values.integerValue filter_by_use_state = 4;</code>
+       * <code>optional .dstore.values.IntegerValue filter_by_use_state = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+          io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
           getFilterByUseStateFieldBuilder() {
         if (filterByUseStateBuilder_ == null) {
           filterByUseStateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+              io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                   getFilterByUseState(),
                   getParentForChildren(),
                   isClean());
@@ -1479,29 +1479,29 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
 
-      private io.dstore.Values.stringValue orderBy_ = null;
+      private io.dstore.values.StringValue orderBy_ = null;
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> orderByBuilder_;
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> orderByBuilder_;
       /**
-       * <code>optional .dstore.values.stringValue order_by = 5;</code>
+       * <code>optional .dstore.values.StringValue order_by = 5;</code>
        */
       public boolean hasOrderBy() {
         return orderByBuilder_ != null || orderBy_ != null;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_by = 5;</code>
+       * <code>optional .dstore.values.StringValue order_by = 5;</code>
        */
-      public io.dstore.Values.stringValue getOrderBy() {
+      public io.dstore.values.StringValue getOrderBy() {
         if (orderByBuilder_ == null) {
-          return orderBy_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : orderBy_;
+          return orderBy_ == null ? io.dstore.values.StringValue.getDefaultInstance() : orderBy_;
         } else {
           return orderByBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue order_by = 5;</code>
+       * <code>optional .dstore.values.StringValue order_by = 5;</code>
        */
-      public Builder setOrderBy(io.dstore.Values.stringValue value) {
+      public Builder setOrderBy(io.dstore.values.StringValue value) {
         if (orderByBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1515,10 +1515,10 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_by = 5;</code>
+       * <code>optional .dstore.values.StringValue order_by = 5;</code>
        */
       public Builder setOrderBy(
-          io.dstore.Values.stringValue.Builder builderForValue) {
+          io.dstore.values.StringValue.Builder builderForValue) {
         if (orderByBuilder_ == null) {
           orderBy_ = builderForValue.build();
           onChanged();
@@ -1529,13 +1529,13 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_by = 5;</code>
+       * <code>optional .dstore.values.StringValue order_by = 5;</code>
        */
-      public Builder mergeOrderBy(io.dstore.Values.stringValue value) {
+      public Builder mergeOrderBy(io.dstore.values.StringValue value) {
         if (orderByBuilder_ == null) {
           if (orderBy_ != null) {
             orderBy_ =
-              io.dstore.Values.stringValue.newBuilder(orderBy_).mergeFrom(value).buildPartial();
+              io.dstore.values.StringValue.newBuilder(orderBy_).mergeFrom(value).buildPartial();
           } else {
             orderBy_ = value;
           }
@@ -1547,7 +1547,7 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_by = 5;</code>
+       * <code>optional .dstore.values.StringValue order_by = 5;</code>
        */
       public Builder clearOrderBy() {
         if (orderByBuilder_ == null) {
@@ -1561,33 +1561,33 @@ public final class OmGetPrepaidCodesAd {
         return this;
       }
       /**
-       * <code>optional .dstore.values.stringValue order_by = 5;</code>
+       * <code>optional .dstore.values.StringValue order_by = 5;</code>
        */
-      public io.dstore.Values.stringValue.Builder getOrderByBuilder() {
+      public io.dstore.values.StringValue.Builder getOrderByBuilder() {
         
         onChanged();
         return getOrderByFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.values.stringValue order_by = 5;</code>
+       * <code>optional .dstore.values.StringValue order_by = 5;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getOrderByOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getOrderByOrBuilder() {
         if (orderByBuilder_ != null) {
           return orderByBuilder_.getMessageOrBuilder();
         } else {
           return orderBy_ == null ?
-              io.dstore.Values.stringValue.getDefaultInstance() : orderBy_;
+              io.dstore.values.StringValue.getDefaultInstance() : orderBy_;
         }
       }
       /**
-       * <code>optional .dstore.values.stringValue order_by = 5;</code>
+       * <code>optional .dstore.values.StringValue order_by = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+          io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
           getOrderByFieldBuilder() {
         if (orderByBuilder_ == null) {
           orderByBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+              io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                   getOrderBy(),
                   getParentForChildren(),
                   isClean());
@@ -1881,7 +1881,7 @@ public final class OmGetPrepaidCodesAd {
        * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
        */
       boolean hasGeneratedByOrderId();
       /**
@@ -1889,24 +1889,24 @@ public final class OmGetPrepaidCodesAd {
        * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
        */
-      io.dstore.Values.integerValue getGeneratedByOrderId();
+      io.dstore.values.IntegerValue getGeneratedByOrderId();
       /**
        * <pre>
        * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getGeneratedByOrderIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getGeneratedByOrderIdOrBuilder();
 
       /**
        * <pre>
        * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
        */
       boolean hasGeneratedAtDateAndTime();
       /**
@@ -1914,24 +1914,24 @@ public final class OmGetPrepaidCodesAd {
        * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
        */
-      io.dstore.Values.timestampValue getGeneratedAtDateAndTime();
+      io.dstore.values.TimestampValue getGeneratedAtDateAndTime();
       /**
        * <pre>
        * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getGeneratedAtDateAndTimeOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getGeneratedAtDateAndTimeOrBuilder();
 
       /**
        * <pre>
        * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
        */
       boolean hasUsedForTransactionId();
       /**
@@ -1939,24 +1939,24 @@ public final class OmGetPrepaidCodesAd {
        * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
        */
-      io.dstore.Values.integerValue getUsedForTransactionId();
+      io.dstore.values.IntegerValue getUsedForTransactionId();
       /**
        * <pre>
        * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getUsedForTransactionIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getUsedForTransactionIdOrBuilder();
 
       /**
        * <pre>
        * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
        */
       boolean hasCodeAlreadyUsed();
       /**
@@ -1964,24 +1964,24 @@ public final class OmGetPrepaidCodesAd {
        * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
        */
-      io.dstore.Values.booleanValue getCodeAlreadyUsed();
+      io.dstore.values.BooleanValue getCodeAlreadyUsed();
       /**
        * <pre>
        * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
        */
-      io.dstore.Values.booleanValueOrBuilder getCodeAlreadyUsedOrBuilder();
+      io.dstore.values.BooleanValueOrBuilder getCodeAlreadyUsedOrBuilder();
 
       /**
        * <pre>
        * Ein Prepaid-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
        */
       boolean hasPrepaidCode();
       /**
@@ -1989,24 +1989,24 @@ public final class OmGetPrepaidCodesAd {
        * Ein Prepaid-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
        */
-      io.dstore.Values.stringValue getPrepaidCode();
+      io.dstore.values.StringValue getPrepaidCode();
       /**
        * <pre>
        * Ein Prepaid-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
        */
-      io.dstore.Values.stringValueOrBuilder getPrepaidCodeOrBuilder();
+      io.dstore.values.StringValueOrBuilder getPrepaidCodeOrBuilder();
 
       /**
        * <pre>
        * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
        */
       boolean hasPrepaidValue();
       /**
@@ -2014,24 +2014,24 @@ public final class OmGetPrepaidCodesAd {
        * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
        */
-      io.dstore.Values.decimalValue getPrepaidValue();
+      io.dstore.values.DecimalValue getPrepaidValue();
       /**
        * <pre>
        * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
        */
-      io.dstore.Values.decimalValueOrBuilder getPrepaidValueOrBuilder();
+      io.dstore.values.DecimalValueOrBuilder getPrepaidValueOrBuilder();
 
       /**
        * <pre>
        * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
        */
       boolean hasCodeValidUntil();
       /**
@@ -2039,24 +2039,24 @@ public final class OmGetPrepaidCodesAd {
        * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
        */
-      io.dstore.Values.timestampValue getCodeValidUntil();
+      io.dstore.values.TimestampValue getCodeValidUntil();
       /**
        * <pre>
        * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
        */
-      io.dstore.Values.timestampValueOrBuilder getCodeValidUntilOrBuilder();
+      io.dstore.values.TimestampValueOrBuilder getCodeValidUntilOrBuilder();
 
       /**
        * <pre>
        * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
        */
       boolean hasCurrencyId();
       /**
@@ -2064,17 +2064,17 @@ public final class OmGetPrepaidCodesAd {
        * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
        */
-      io.dstore.Values.integerValue getCurrencyId();
+      io.dstore.values.IntegerValue getCurrencyId();
       /**
        * <pre>
        * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
        */
-      io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder();
+      io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.om_GetPrepaidCodes_Ad.Response.Row}
@@ -2122,11 +2122,11 @@ public final class OmGetPrepaidCodesAd {
                 break;
               }
               case 80010: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (generatedByOrderId_ != null) {
                   subBuilder = generatedByOrderId_.toBuilder();
                 }
-                generatedByOrderId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                generatedByOrderId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(generatedByOrderId_);
                   generatedByOrderId_ = subBuilder.buildPartial();
@@ -2135,11 +2135,11 @@ public final class OmGetPrepaidCodesAd {
                 break;
               }
               case 80018: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (generatedAtDateAndTime_ != null) {
                   subBuilder = generatedAtDateAndTime_.toBuilder();
                 }
-                generatedAtDateAndTime_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                generatedAtDateAndTime_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(generatedAtDateAndTime_);
                   generatedAtDateAndTime_ = subBuilder.buildPartial();
@@ -2148,11 +2148,11 @@ public final class OmGetPrepaidCodesAd {
                 break;
               }
               case 80026: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (usedForTransactionId_ != null) {
                   subBuilder = usedForTransactionId_.toBuilder();
                 }
-                usedForTransactionId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                usedForTransactionId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedForTransactionId_);
                   usedForTransactionId_ = subBuilder.buildPartial();
@@ -2161,11 +2161,11 @@ public final class OmGetPrepaidCodesAd {
                 break;
               }
               case 80034: {
-                io.dstore.Values.booleanValue.Builder subBuilder = null;
+                io.dstore.values.BooleanValue.Builder subBuilder = null;
                 if (codeAlreadyUsed_ != null) {
                   subBuilder = codeAlreadyUsed_.toBuilder();
                 }
-                codeAlreadyUsed_ = input.readMessage(io.dstore.Values.booleanValue.parser(), extensionRegistry);
+                codeAlreadyUsed_ = input.readMessage(io.dstore.values.BooleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeAlreadyUsed_);
                   codeAlreadyUsed_ = subBuilder.buildPartial();
@@ -2174,11 +2174,11 @@ public final class OmGetPrepaidCodesAd {
                 break;
               }
               case 80042: {
-                io.dstore.Values.stringValue.Builder subBuilder = null;
+                io.dstore.values.StringValue.Builder subBuilder = null;
                 if (prepaidCode_ != null) {
                   subBuilder = prepaidCode_.toBuilder();
                 }
-                prepaidCode_ = input.readMessage(io.dstore.Values.stringValue.parser(), extensionRegistry);
+                prepaidCode_ = input.readMessage(io.dstore.values.StringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prepaidCode_);
                   prepaidCode_ = subBuilder.buildPartial();
@@ -2187,11 +2187,11 @@ public final class OmGetPrepaidCodesAd {
                 break;
               }
               case 80050: {
-                io.dstore.Values.decimalValue.Builder subBuilder = null;
+                io.dstore.values.DecimalValue.Builder subBuilder = null;
                 if (prepaidValue_ != null) {
                   subBuilder = prepaidValue_.toBuilder();
                 }
-                prepaidValue_ = input.readMessage(io.dstore.Values.decimalValue.parser(), extensionRegistry);
+                prepaidValue_ = input.readMessage(io.dstore.values.DecimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prepaidValue_);
                   prepaidValue_ = subBuilder.buildPartial();
@@ -2200,11 +2200,11 @@ public final class OmGetPrepaidCodesAd {
                 break;
               }
               case 80058: {
-                io.dstore.Values.timestampValue.Builder subBuilder = null;
+                io.dstore.values.TimestampValue.Builder subBuilder = null;
                 if (codeValidUntil_ != null) {
                   subBuilder = codeValidUntil_.toBuilder();
                 }
-                codeValidUntil_ = input.readMessage(io.dstore.Values.timestampValue.parser(), extensionRegistry);
+                codeValidUntil_ = input.readMessage(io.dstore.values.TimestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeValidUntil_);
                   codeValidUntil_ = subBuilder.buildPartial();
@@ -2213,11 +2213,11 @@ public final class OmGetPrepaidCodesAd {
                 break;
               }
               case 80066: {
-                io.dstore.Values.integerValue.Builder subBuilder = null;
+                io.dstore.values.IntegerValue.Builder subBuilder = null;
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.Values.integerValue.parser(), extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.values.IntegerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -2258,13 +2258,13 @@ public final class OmGetPrepaidCodesAd {
       }
 
       public static final int GENERATED_BY_ORDER_ID_FIELD_NUMBER = 10001;
-      private io.dstore.Values.integerValue generatedByOrderId_;
+      private io.dstore.values.IntegerValue generatedByOrderId_;
       /**
        * <pre>
        * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
        */
       public boolean hasGeneratedByOrderId() {
         return generatedByOrderId_ != null;
@@ -2274,30 +2274,30 @@ public final class OmGetPrepaidCodesAd {
        * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
        */
-      public io.dstore.Values.integerValue getGeneratedByOrderId() {
-        return generatedByOrderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : generatedByOrderId_;
+      public io.dstore.values.IntegerValue getGeneratedByOrderId() {
+        return generatedByOrderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : generatedByOrderId_;
       }
       /**
        * <pre>
        * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+       * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getGeneratedByOrderIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getGeneratedByOrderIdOrBuilder() {
         return getGeneratedByOrderId();
       }
 
       public static final int GENERATED_AT_DATE_AND_TIME_FIELD_NUMBER = 10002;
-      private io.dstore.Values.timestampValue generatedAtDateAndTime_;
+      private io.dstore.values.TimestampValue generatedAtDateAndTime_;
       /**
        * <pre>
        * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
        */
       public boolean hasGeneratedAtDateAndTime() {
         return generatedAtDateAndTime_ != null;
@@ -2307,30 +2307,30 @@ public final class OmGetPrepaidCodesAd {
        * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
        */
-      public io.dstore.Values.timestampValue getGeneratedAtDateAndTime() {
-        return generatedAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : generatedAtDateAndTime_;
+      public io.dstore.values.TimestampValue getGeneratedAtDateAndTime() {
+        return generatedAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : generatedAtDateAndTime_;
       }
       /**
        * <pre>
        * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+       * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getGeneratedAtDateAndTimeOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getGeneratedAtDateAndTimeOrBuilder() {
         return getGeneratedAtDateAndTime();
       }
 
       public static final int USED_FOR_TRANSACTION_ID_FIELD_NUMBER = 10003;
-      private io.dstore.Values.integerValue usedForTransactionId_;
+      private io.dstore.values.IntegerValue usedForTransactionId_;
       /**
        * <pre>
        * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
        */
       public boolean hasUsedForTransactionId() {
         return usedForTransactionId_ != null;
@@ -2340,30 +2340,30 @@ public final class OmGetPrepaidCodesAd {
        * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
        */
-      public io.dstore.Values.integerValue getUsedForTransactionId() {
-        return usedForTransactionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedForTransactionId_;
+      public io.dstore.values.IntegerValue getUsedForTransactionId() {
+        return usedForTransactionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedForTransactionId_;
       }
       /**
        * <pre>
        * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+       * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getUsedForTransactionIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getUsedForTransactionIdOrBuilder() {
         return getUsedForTransactionId();
       }
 
       public static final int CODE_ALREADY_USED_FIELD_NUMBER = 10004;
-      private io.dstore.Values.booleanValue codeAlreadyUsed_;
+      private io.dstore.values.BooleanValue codeAlreadyUsed_;
       /**
        * <pre>
        * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
        */
       public boolean hasCodeAlreadyUsed() {
         return codeAlreadyUsed_ != null;
@@ -2373,30 +2373,30 @@ public final class OmGetPrepaidCodesAd {
        * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
        */
-      public io.dstore.Values.booleanValue getCodeAlreadyUsed() {
-        return codeAlreadyUsed_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : codeAlreadyUsed_;
+      public io.dstore.values.BooleanValue getCodeAlreadyUsed() {
+        return codeAlreadyUsed_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : codeAlreadyUsed_;
       }
       /**
        * <pre>
        * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
        * </pre>
        *
-       * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+       * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
        */
-      public io.dstore.Values.booleanValueOrBuilder getCodeAlreadyUsedOrBuilder() {
+      public io.dstore.values.BooleanValueOrBuilder getCodeAlreadyUsedOrBuilder() {
         return getCodeAlreadyUsed();
       }
 
       public static final int PREPAID_CODE_FIELD_NUMBER = 10005;
-      private io.dstore.Values.stringValue prepaidCode_;
+      private io.dstore.values.StringValue prepaidCode_;
       /**
        * <pre>
        * Ein Prepaid-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
        */
       public boolean hasPrepaidCode() {
         return prepaidCode_ != null;
@@ -2406,30 +2406,30 @@ public final class OmGetPrepaidCodesAd {
        * Ein Prepaid-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
        */
-      public io.dstore.Values.stringValue getPrepaidCode() {
-        return prepaidCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : prepaidCode_;
+      public io.dstore.values.StringValue getPrepaidCode() {
+        return prepaidCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : prepaidCode_;
       }
       /**
        * <pre>
        * Ein Prepaid-Code
        * </pre>
        *
-       * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+       * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
        */
-      public io.dstore.Values.stringValueOrBuilder getPrepaidCodeOrBuilder() {
+      public io.dstore.values.StringValueOrBuilder getPrepaidCodeOrBuilder() {
         return getPrepaidCode();
       }
 
       public static final int PREPAID_VALUE_FIELD_NUMBER = 10006;
-      private io.dstore.Values.decimalValue prepaidValue_;
+      private io.dstore.values.DecimalValue prepaidValue_;
       /**
        * <pre>
        * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
        */
       public boolean hasPrepaidValue() {
         return prepaidValue_ != null;
@@ -2439,30 +2439,30 @@ public final class OmGetPrepaidCodesAd {
        * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
        */
-      public io.dstore.Values.decimalValue getPrepaidValue() {
-        return prepaidValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : prepaidValue_;
+      public io.dstore.values.DecimalValue getPrepaidValue() {
+        return prepaidValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : prepaidValue_;
       }
       /**
        * <pre>
        * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
        * </pre>
        *
-       * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+       * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
        */
-      public io.dstore.Values.decimalValueOrBuilder getPrepaidValueOrBuilder() {
+      public io.dstore.values.DecimalValueOrBuilder getPrepaidValueOrBuilder() {
         return getPrepaidValue();
       }
 
       public static final int CODE_VALID_UNTIL_FIELD_NUMBER = 10007;
-      private io.dstore.Values.timestampValue codeValidUntil_;
+      private io.dstore.values.TimestampValue codeValidUntil_;
       /**
        * <pre>
        * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
        */
       public boolean hasCodeValidUntil() {
         return codeValidUntil_ != null;
@@ -2472,30 +2472,30 @@ public final class OmGetPrepaidCodesAd {
        * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
        */
-      public io.dstore.Values.timestampValue getCodeValidUntil() {
-        return codeValidUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : codeValidUntil_;
+      public io.dstore.values.TimestampValue getCodeValidUntil() {
+        return codeValidUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : codeValidUntil_;
       }
       /**
        * <pre>
        * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
        * </pre>
        *
-       * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+       * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
        */
-      public io.dstore.Values.timestampValueOrBuilder getCodeValidUntilOrBuilder() {
+      public io.dstore.values.TimestampValueOrBuilder getCodeValidUntilOrBuilder() {
         return getCodeValidUntil();
       }
 
       public static final int CURRENCY_ID_FIELD_NUMBER = 10008;
-      private io.dstore.Values.integerValue currencyId_;
+      private io.dstore.values.IntegerValue currencyId_;
       /**
        * <pre>
        * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
        */
       public boolean hasCurrencyId() {
         return currencyId_ != null;
@@ -2505,19 +2505,19 @@ public final class OmGetPrepaidCodesAd {
        * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
        */
-      public io.dstore.Values.integerValue getCurrencyId() {
-        return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+      public io.dstore.values.IntegerValue getCurrencyId() {
+        return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
       }
       /**
        * <pre>
        * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
        * </pre>
        *
-       * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+       * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
        */
-      public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+      public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
         return getCurrencyId();
       }
 
@@ -3056,15 +3056,15 @@ public final class OmGetPrepaidCodesAd {
           return this;
         }
 
-        private io.dstore.Values.integerValue generatedByOrderId_ = null;
+        private io.dstore.values.IntegerValue generatedByOrderId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> generatedByOrderIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> generatedByOrderIdBuilder_;
         /**
          * <pre>
          * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
          */
         public boolean hasGeneratedByOrderId() {
           return generatedByOrderIdBuilder_ != null || generatedByOrderId_ != null;
@@ -3074,11 +3074,11 @@ public final class OmGetPrepaidCodesAd {
          * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue getGeneratedByOrderId() {
+        public io.dstore.values.IntegerValue getGeneratedByOrderId() {
           if (generatedByOrderIdBuilder_ == null) {
-            return generatedByOrderId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : generatedByOrderId_;
+            return generatedByOrderId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : generatedByOrderId_;
           } else {
             return generatedByOrderIdBuilder_.getMessage();
           }
@@ -3088,9 +3088,9 @@ public final class OmGetPrepaidCodesAd {
          * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
          */
-        public Builder setGeneratedByOrderId(io.dstore.Values.integerValue value) {
+        public Builder setGeneratedByOrderId(io.dstore.values.IntegerValue value) {
           if (generatedByOrderIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3108,10 +3108,10 @@ public final class OmGetPrepaidCodesAd {
          * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
          */
         public Builder setGeneratedByOrderId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (generatedByOrderIdBuilder_ == null) {
             generatedByOrderId_ = builderForValue.build();
             onChanged();
@@ -3126,13 +3126,13 @@ public final class OmGetPrepaidCodesAd {
          * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
          */
-        public Builder mergeGeneratedByOrderId(io.dstore.Values.integerValue value) {
+        public Builder mergeGeneratedByOrderId(io.dstore.values.IntegerValue value) {
           if (generatedByOrderIdBuilder_ == null) {
             if (generatedByOrderId_ != null) {
               generatedByOrderId_ =
-                io.dstore.Values.integerValue.newBuilder(generatedByOrderId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(generatedByOrderId_).mergeFrom(value).buildPartial();
             } else {
               generatedByOrderId_ = value;
             }
@@ -3148,7 +3148,7 @@ public final class OmGetPrepaidCodesAd {
          * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
          */
         public Builder clearGeneratedByOrderId() {
           if (generatedByOrderIdBuilder_ == null) {
@@ -3166,9 +3166,9 @@ public final class OmGetPrepaidCodesAd {
          * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
          */
-        public io.dstore.Values.integerValue.Builder getGeneratedByOrderIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getGeneratedByOrderIdBuilder() {
           
           onChanged();
           return getGeneratedByOrderIdFieldBuilder().getBuilder();
@@ -3178,14 +3178,14 @@ public final class OmGetPrepaidCodesAd {
          * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getGeneratedByOrderIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getGeneratedByOrderIdOrBuilder() {
           if (generatedByOrderIdBuilder_ != null) {
             return generatedByOrderIdBuilder_.getMessageOrBuilder();
           } else {
             return generatedByOrderId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : generatedByOrderId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : generatedByOrderId_;
           }
         }
         /**
@@ -3193,14 +3193,14 @@ public final class OmGetPrepaidCodesAd {
          * ID des Auftrags, durch den der Code erzeugt wurde Anmerkung : Hier kann und wird für sehr alte Codes "NULL" stehen, da die Aufträge (Tabelle "Orders") nur begrenzt im dStore gespeichert werden (s. "Settings"-Eintrag "MaxMonthsInBillsAndOrders") !
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue generated_by_order_id = 10001;</code>
+         * <code>optional .dstore.values.IntegerValue generated_by_order_id = 10001;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getGeneratedByOrderIdFieldBuilder() {
           if (generatedByOrderIdBuilder_ == null) {
             generatedByOrderIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getGeneratedByOrderId(),
                     getParentForChildren(),
                     isClean());
@@ -3209,15 +3209,15 @@ public final class OmGetPrepaidCodesAd {
           return generatedByOrderIdBuilder_;
         }
 
-        private io.dstore.Values.timestampValue generatedAtDateAndTime_ = null;
+        private io.dstore.values.TimestampValue generatedAtDateAndTime_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> generatedAtDateAndTimeBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> generatedAtDateAndTimeBuilder_;
         /**
          * <pre>
          * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
          */
         public boolean hasGeneratedAtDateAndTime() {
           return generatedAtDateAndTimeBuilder_ != null || generatedAtDateAndTime_ != null;
@@ -3227,11 +3227,11 @@ public final class OmGetPrepaidCodesAd {
          * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
          */
-        public io.dstore.Values.timestampValue getGeneratedAtDateAndTime() {
+        public io.dstore.values.TimestampValue getGeneratedAtDateAndTime() {
           if (generatedAtDateAndTimeBuilder_ == null) {
-            return generatedAtDateAndTime_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : generatedAtDateAndTime_;
+            return generatedAtDateAndTime_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : generatedAtDateAndTime_;
           } else {
             return generatedAtDateAndTimeBuilder_.getMessage();
           }
@@ -3241,9 +3241,9 @@ public final class OmGetPrepaidCodesAd {
          * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
          */
-        public Builder setGeneratedAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder setGeneratedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (generatedAtDateAndTimeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3261,10 +3261,10 @@ public final class OmGetPrepaidCodesAd {
          * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
          */
         public Builder setGeneratedAtDateAndTime(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (generatedAtDateAndTimeBuilder_ == null) {
             generatedAtDateAndTime_ = builderForValue.build();
             onChanged();
@@ -3279,13 +3279,13 @@ public final class OmGetPrepaidCodesAd {
          * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
          */
-        public Builder mergeGeneratedAtDateAndTime(io.dstore.Values.timestampValue value) {
+        public Builder mergeGeneratedAtDateAndTime(io.dstore.values.TimestampValue value) {
           if (generatedAtDateAndTimeBuilder_ == null) {
             if (generatedAtDateAndTime_ != null) {
               generatedAtDateAndTime_ =
-                io.dstore.Values.timestampValue.newBuilder(generatedAtDateAndTime_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(generatedAtDateAndTime_).mergeFrom(value).buildPartial();
             } else {
               generatedAtDateAndTime_ = value;
             }
@@ -3301,7 +3301,7 @@ public final class OmGetPrepaidCodesAd {
          * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
          */
         public Builder clearGeneratedAtDateAndTime() {
           if (generatedAtDateAndTimeBuilder_ == null) {
@@ -3319,9 +3319,9 @@ public final class OmGetPrepaidCodesAd {
          * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getGeneratedAtDateAndTimeBuilder() {
+        public io.dstore.values.TimestampValue.Builder getGeneratedAtDateAndTimeBuilder() {
           
           onChanged();
           return getGeneratedAtDateAndTimeFieldBuilder().getBuilder();
@@ -3331,14 +3331,14 @@ public final class OmGetPrepaidCodesAd {
          * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getGeneratedAtDateAndTimeOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getGeneratedAtDateAndTimeOrBuilder() {
           if (generatedAtDateAndTimeBuilder_ != null) {
             return generatedAtDateAndTimeBuilder_.getMessageOrBuilder();
           } else {
             return generatedAtDateAndTime_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : generatedAtDateAndTime_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : generatedAtDateAndTime_;
           }
         }
         /**
@@ -3346,14 +3346,14 @@ public final class OmGetPrepaidCodesAd {
          * Wann der Code generiert wurde. S. Anmerkung zu "GeneratedByOrderID".
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue generated_at_date_and_time = 10002;</code>
+         * <code>optional .dstore.values.TimestampValue generated_at_date_and_time = 10002;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getGeneratedAtDateAndTimeFieldBuilder() {
           if (generatedAtDateAndTimeBuilder_ == null) {
             generatedAtDateAndTimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getGeneratedAtDateAndTime(),
                     getParentForChildren(),
                     isClean());
@@ -3362,15 +3362,15 @@ public final class OmGetPrepaidCodesAd {
           return generatedAtDateAndTimeBuilder_;
         }
 
-        private io.dstore.Values.integerValue usedForTransactionId_ = null;
+        private io.dstore.values.IntegerValue usedForTransactionId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> usedForTransactionIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> usedForTransactionIdBuilder_;
         /**
          * <pre>
          * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
          */
         public boolean hasUsedForTransactionId() {
           return usedForTransactionIdBuilder_ != null || usedForTransactionId_ != null;
@@ -3380,11 +3380,11 @@ public final class OmGetPrepaidCodesAd {
          * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue getUsedForTransactionId() {
+        public io.dstore.values.IntegerValue getUsedForTransactionId() {
           if (usedForTransactionIdBuilder_ == null) {
-            return usedForTransactionId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : usedForTransactionId_;
+            return usedForTransactionId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : usedForTransactionId_;
           } else {
             return usedForTransactionIdBuilder_.getMessage();
           }
@@ -3394,9 +3394,9 @@ public final class OmGetPrepaidCodesAd {
          * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
          */
-        public Builder setUsedForTransactionId(io.dstore.Values.integerValue value) {
+        public Builder setUsedForTransactionId(io.dstore.values.IntegerValue value) {
           if (usedForTransactionIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3414,10 +3414,10 @@ public final class OmGetPrepaidCodesAd {
          * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
          */
         public Builder setUsedForTransactionId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (usedForTransactionIdBuilder_ == null) {
             usedForTransactionId_ = builderForValue.build();
             onChanged();
@@ -3432,13 +3432,13 @@ public final class OmGetPrepaidCodesAd {
          * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
          */
-        public Builder mergeUsedForTransactionId(io.dstore.Values.integerValue value) {
+        public Builder mergeUsedForTransactionId(io.dstore.values.IntegerValue value) {
           if (usedForTransactionIdBuilder_ == null) {
             if (usedForTransactionId_ != null) {
               usedForTransactionId_ =
-                io.dstore.Values.integerValue.newBuilder(usedForTransactionId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(usedForTransactionId_).mergeFrom(value).buildPartial();
             } else {
               usedForTransactionId_ = value;
             }
@@ -3454,7 +3454,7 @@ public final class OmGetPrepaidCodesAd {
          * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
          */
         public Builder clearUsedForTransactionId() {
           if (usedForTransactionIdBuilder_ == null) {
@@ -3472,9 +3472,9 @@ public final class OmGetPrepaidCodesAd {
          * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
          */
-        public io.dstore.Values.integerValue.Builder getUsedForTransactionIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getUsedForTransactionIdBuilder() {
           
           onChanged();
           return getUsedForTransactionIdFieldBuilder().getBuilder();
@@ -3484,14 +3484,14 @@ public final class OmGetPrepaidCodesAd {
          * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getUsedForTransactionIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getUsedForTransactionIdOrBuilder() {
           if (usedForTransactionIdBuilder_ != null) {
             return usedForTransactionIdBuilder_.getMessageOrBuilder();
           } else {
             return usedForTransactionId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : usedForTransactionId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : usedForTransactionId_;
           }
         }
         /**
@@ -3499,14 +3499,14 @@ public final class OmGetPrepaidCodesAd {
          * Die ID einer Transaction, die für die Einlösung des Codes verwendet wurde (s. "om_GetCashAccTransactions_Ad"). Nicht eingelöste Codes ("CodeAlreadyUsed = 0") haben hier natürlich den Wert "NULL".
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue used_for_transaction_id = 10003;</code>
+         * <code>optional .dstore.values.IntegerValue used_for_transaction_id = 10003;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getUsedForTransactionIdFieldBuilder() {
           if (usedForTransactionIdBuilder_ == null) {
             usedForTransactionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getUsedForTransactionId(),
                     getParentForChildren(),
                     isClean());
@@ -3515,15 +3515,15 @@ public final class OmGetPrepaidCodesAd {
           return usedForTransactionIdBuilder_;
         }
 
-        private io.dstore.Values.booleanValue codeAlreadyUsed_ = null;
+        private io.dstore.values.BooleanValue codeAlreadyUsed_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> codeAlreadyUsedBuilder_;
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> codeAlreadyUsedBuilder_;
         /**
          * <pre>
          * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
          */
         public boolean hasCodeAlreadyUsed() {
           return codeAlreadyUsedBuilder_ != null || codeAlreadyUsed_ != null;
@@ -3533,11 +3533,11 @@ public final class OmGetPrepaidCodesAd {
          * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
          */
-        public io.dstore.Values.booleanValue getCodeAlreadyUsed() {
+        public io.dstore.values.BooleanValue getCodeAlreadyUsed() {
           if (codeAlreadyUsedBuilder_ == null) {
-            return codeAlreadyUsed_ == null ? io.dstore.Values.booleanValue.getDefaultInstance() : codeAlreadyUsed_;
+            return codeAlreadyUsed_ == null ? io.dstore.values.BooleanValue.getDefaultInstance() : codeAlreadyUsed_;
           } else {
             return codeAlreadyUsedBuilder_.getMessage();
           }
@@ -3547,9 +3547,9 @@ public final class OmGetPrepaidCodesAd {
          * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
          */
-        public Builder setCodeAlreadyUsed(io.dstore.Values.booleanValue value) {
+        public Builder setCodeAlreadyUsed(io.dstore.values.BooleanValue value) {
           if (codeAlreadyUsedBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3567,10 +3567,10 @@ public final class OmGetPrepaidCodesAd {
          * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
          */
         public Builder setCodeAlreadyUsed(
-            io.dstore.Values.booleanValue.Builder builderForValue) {
+            io.dstore.values.BooleanValue.Builder builderForValue) {
           if (codeAlreadyUsedBuilder_ == null) {
             codeAlreadyUsed_ = builderForValue.build();
             onChanged();
@@ -3585,13 +3585,13 @@ public final class OmGetPrepaidCodesAd {
          * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
          */
-        public Builder mergeCodeAlreadyUsed(io.dstore.Values.booleanValue value) {
+        public Builder mergeCodeAlreadyUsed(io.dstore.values.BooleanValue value) {
           if (codeAlreadyUsedBuilder_ == null) {
             if (codeAlreadyUsed_ != null) {
               codeAlreadyUsed_ =
-                io.dstore.Values.booleanValue.newBuilder(codeAlreadyUsed_).mergeFrom(value).buildPartial();
+                io.dstore.values.BooleanValue.newBuilder(codeAlreadyUsed_).mergeFrom(value).buildPartial();
             } else {
               codeAlreadyUsed_ = value;
             }
@@ -3607,7 +3607,7 @@ public final class OmGetPrepaidCodesAd {
          * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
          */
         public Builder clearCodeAlreadyUsed() {
           if (codeAlreadyUsedBuilder_ == null) {
@@ -3625,9 +3625,9 @@ public final class OmGetPrepaidCodesAd {
          * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
          */
-        public io.dstore.Values.booleanValue.Builder getCodeAlreadyUsedBuilder() {
+        public io.dstore.values.BooleanValue.Builder getCodeAlreadyUsedBuilder() {
           
           onChanged();
           return getCodeAlreadyUsedFieldBuilder().getBuilder();
@@ -3637,14 +3637,14 @@ public final class OmGetPrepaidCodesAd {
          * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
          */
-        public io.dstore.Values.booleanValueOrBuilder getCodeAlreadyUsedOrBuilder() {
+        public io.dstore.values.BooleanValueOrBuilder getCodeAlreadyUsedOrBuilder() {
           if (codeAlreadyUsedBuilder_ != null) {
             return codeAlreadyUsedBuilder_.getMessageOrBuilder();
           } else {
             return codeAlreadyUsed_ == null ?
-                io.dstore.Values.booleanValue.getDefaultInstance() : codeAlreadyUsed_;
+                io.dstore.values.BooleanValue.getDefaultInstance() : codeAlreadyUsed_;
           }
         }
         /**
@@ -3652,14 +3652,14 @@ public final class OmGetPrepaidCodesAd {
          * Gibt an, ob "PrepaidCode" schon eingelöst wurde ("1") oder nicht ("0")
          * </pre>
          *
-         * <code>optional .dstore.values.booleanValue code_already_used = 10004;</code>
+         * <code>optional .dstore.values.BooleanValue code_already_used = 10004;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder> 
+            io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder> 
             getCodeAlreadyUsedFieldBuilder() {
           if (codeAlreadyUsedBuilder_ == null) {
             codeAlreadyUsedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.booleanValue, io.dstore.Values.booleanValue.Builder, io.dstore.Values.booleanValueOrBuilder>(
+                io.dstore.values.BooleanValue, io.dstore.values.BooleanValue.Builder, io.dstore.values.BooleanValueOrBuilder>(
                     getCodeAlreadyUsed(),
                     getParentForChildren(),
                     isClean());
@@ -3668,15 +3668,15 @@ public final class OmGetPrepaidCodesAd {
           return codeAlreadyUsedBuilder_;
         }
 
-        private io.dstore.Values.stringValue prepaidCode_ = null;
+        private io.dstore.values.StringValue prepaidCode_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> prepaidCodeBuilder_;
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> prepaidCodeBuilder_;
         /**
          * <pre>
          * Ein Prepaid-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
          */
         public boolean hasPrepaidCode() {
           return prepaidCodeBuilder_ != null || prepaidCode_ != null;
@@ -3686,11 +3686,11 @@ public final class OmGetPrepaidCodesAd {
          * Ein Prepaid-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
          */
-        public io.dstore.Values.stringValue getPrepaidCode() {
+        public io.dstore.values.StringValue getPrepaidCode() {
           if (prepaidCodeBuilder_ == null) {
-            return prepaidCode_ == null ? io.dstore.Values.stringValue.getDefaultInstance() : prepaidCode_;
+            return prepaidCode_ == null ? io.dstore.values.StringValue.getDefaultInstance() : prepaidCode_;
           } else {
             return prepaidCodeBuilder_.getMessage();
           }
@@ -3700,9 +3700,9 @@ public final class OmGetPrepaidCodesAd {
          * Ein Prepaid-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
          */
-        public Builder setPrepaidCode(io.dstore.Values.stringValue value) {
+        public Builder setPrepaidCode(io.dstore.values.StringValue value) {
           if (prepaidCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3720,10 +3720,10 @@ public final class OmGetPrepaidCodesAd {
          * Ein Prepaid-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
          */
         public Builder setPrepaidCode(
-            io.dstore.Values.stringValue.Builder builderForValue) {
+            io.dstore.values.StringValue.Builder builderForValue) {
           if (prepaidCodeBuilder_ == null) {
             prepaidCode_ = builderForValue.build();
             onChanged();
@@ -3738,13 +3738,13 @@ public final class OmGetPrepaidCodesAd {
          * Ein Prepaid-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
          */
-        public Builder mergePrepaidCode(io.dstore.Values.stringValue value) {
+        public Builder mergePrepaidCode(io.dstore.values.StringValue value) {
           if (prepaidCodeBuilder_ == null) {
             if (prepaidCode_ != null) {
               prepaidCode_ =
-                io.dstore.Values.stringValue.newBuilder(prepaidCode_).mergeFrom(value).buildPartial();
+                io.dstore.values.StringValue.newBuilder(prepaidCode_).mergeFrom(value).buildPartial();
             } else {
               prepaidCode_ = value;
             }
@@ -3760,7 +3760,7 @@ public final class OmGetPrepaidCodesAd {
          * Ein Prepaid-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
          */
         public Builder clearPrepaidCode() {
           if (prepaidCodeBuilder_ == null) {
@@ -3778,9 +3778,9 @@ public final class OmGetPrepaidCodesAd {
          * Ein Prepaid-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
          */
-        public io.dstore.Values.stringValue.Builder getPrepaidCodeBuilder() {
+        public io.dstore.values.StringValue.Builder getPrepaidCodeBuilder() {
           
           onChanged();
           return getPrepaidCodeFieldBuilder().getBuilder();
@@ -3790,14 +3790,14 @@ public final class OmGetPrepaidCodesAd {
          * Ein Prepaid-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
          */
-        public io.dstore.Values.stringValueOrBuilder getPrepaidCodeOrBuilder() {
+        public io.dstore.values.StringValueOrBuilder getPrepaidCodeOrBuilder() {
           if (prepaidCodeBuilder_ != null) {
             return prepaidCodeBuilder_.getMessageOrBuilder();
           } else {
             return prepaidCode_ == null ?
-                io.dstore.Values.stringValue.getDefaultInstance() : prepaidCode_;
+                io.dstore.values.StringValue.getDefaultInstance() : prepaidCode_;
           }
         }
         /**
@@ -3805,14 +3805,14 @@ public final class OmGetPrepaidCodesAd {
          * Ein Prepaid-Code
          * </pre>
          *
-         * <code>optional .dstore.values.stringValue prepaid_code = 10005;</code>
+         * <code>optional .dstore.values.StringValue prepaid_code = 10005;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder> 
+            io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder> 
             getPrepaidCodeFieldBuilder() {
           if (prepaidCodeBuilder_ == null) {
             prepaidCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.stringValue, io.dstore.Values.stringValue.Builder, io.dstore.Values.stringValueOrBuilder>(
+                io.dstore.values.StringValue, io.dstore.values.StringValue.Builder, io.dstore.values.StringValueOrBuilder>(
                     getPrepaidCode(),
                     getParentForChildren(),
                     isClean());
@@ -3821,15 +3821,15 @@ public final class OmGetPrepaidCodesAd {
           return prepaidCodeBuilder_;
         }
 
-        private io.dstore.Values.decimalValue prepaidValue_ = null;
+        private io.dstore.values.DecimalValue prepaidValue_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> prepaidValueBuilder_;
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> prepaidValueBuilder_;
         /**
          * <pre>
          * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
          */
         public boolean hasPrepaidValue() {
           return prepaidValueBuilder_ != null || prepaidValue_ != null;
@@ -3839,11 +3839,11 @@ public final class OmGetPrepaidCodesAd {
          * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
          */
-        public io.dstore.Values.decimalValue getPrepaidValue() {
+        public io.dstore.values.DecimalValue getPrepaidValue() {
           if (prepaidValueBuilder_ == null) {
-            return prepaidValue_ == null ? io.dstore.Values.decimalValue.getDefaultInstance() : prepaidValue_;
+            return prepaidValue_ == null ? io.dstore.values.DecimalValue.getDefaultInstance() : prepaidValue_;
           } else {
             return prepaidValueBuilder_.getMessage();
           }
@@ -3853,9 +3853,9 @@ public final class OmGetPrepaidCodesAd {
          * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
          */
-        public Builder setPrepaidValue(io.dstore.Values.decimalValue value) {
+        public Builder setPrepaidValue(io.dstore.values.DecimalValue value) {
           if (prepaidValueBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -3873,10 +3873,10 @@ public final class OmGetPrepaidCodesAd {
          * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
          */
         public Builder setPrepaidValue(
-            io.dstore.Values.decimalValue.Builder builderForValue) {
+            io.dstore.values.DecimalValue.Builder builderForValue) {
           if (prepaidValueBuilder_ == null) {
             prepaidValue_ = builderForValue.build();
             onChanged();
@@ -3891,13 +3891,13 @@ public final class OmGetPrepaidCodesAd {
          * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
          */
-        public Builder mergePrepaidValue(io.dstore.Values.decimalValue value) {
+        public Builder mergePrepaidValue(io.dstore.values.DecimalValue value) {
           if (prepaidValueBuilder_ == null) {
             if (prepaidValue_ != null) {
               prepaidValue_ =
-                io.dstore.Values.decimalValue.newBuilder(prepaidValue_).mergeFrom(value).buildPartial();
+                io.dstore.values.DecimalValue.newBuilder(prepaidValue_).mergeFrom(value).buildPartial();
             } else {
               prepaidValue_ = value;
             }
@@ -3913,7 +3913,7 @@ public final class OmGetPrepaidCodesAd {
          * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
          */
         public Builder clearPrepaidValue() {
           if (prepaidValueBuilder_ == null) {
@@ -3931,9 +3931,9 @@ public final class OmGetPrepaidCodesAd {
          * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
          */
-        public io.dstore.Values.decimalValue.Builder getPrepaidValueBuilder() {
+        public io.dstore.values.DecimalValue.Builder getPrepaidValueBuilder() {
           
           onChanged();
           return getPrepaidValueFieldBuilder().getBuilder();
@@ -3943,14 +3943,14 @@ public final class OmGetPrepaidCodesAd {
          * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
          */
-        public io.dstore.Values.decimalValueOrBuilder getPrepaidValueOrBuilder() {
+        public io.dstore.values.DecimalValueOrBuilder getPrepaidValueOrBuilder() {
           if (prepaidValueBuilder_ != null) {
             return prepaidValueBuilder_.getMessageOrBuilder();
           } else {
             return prepaidValue_ == null ?
-                io.dstore.Values.decimalValue.getDefaultInstance() : prepaidValue_;
+                io.dstore.values.DecimalValue.getDefaultInstance() : prepaidValue_;
           }
         }
         /**
@@ -3958,14 +3958,14 @@ public final class OmGetPrepaidCodesAd {
          * Der "Geldwert" des Codes in der durch "CurrencyID" angegebenen Währung
          * </pre>
          *
-         * <code>optional .dstore.values.decimalValue prepaid_value = 10006;</code>
+         * <code>optional .dstore.values.DecimalValue prepaid_value = 10006;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder> 
+            io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder> 
             getPrepaidValueFieldBuilder() {
           if (prepaidValueBuilder_ == null) {
             prepaidValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.decimalValue, io.dstore.Values.decimalValue.Builder, io.dstore.Values.decimalValueOrBuilder>(
+                io.dstore.values.DecimalValue, io.dstore.values.DecimalValue.Builder, io.dstore.values.DecimalValueOrBuilder>(
                     getPrepaidValue(),
                     getParentForChildren(),
                     isClean());
@@ -3974,15 +3974,15 @@ public final class OmGetPrepaidCodesAd {
           return prepaidValueBuilder_;
         }
 
-        private io.dstore.Values.timestampValue codeValidUntil_ = null;
+        private io.dstore.values.TimestampValue codeValidUntil_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> codeValidUntilBuilder_;
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> codeValidUntilBuilder_;
         /**
          * <pre>
          * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
          */
         public boolean hasCodeValidUntil() {
           return codeValidUntilBuilder_ != null || codeValidUntil_ != null;
@@ -3992,11 +3992,11 @@ public final class OmGetPrepaidCodesAd {
          * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
          */
-        public io.dstore.Values.timestampValue getCodeValidUntil() {
+        public io.dstore.values.TimestampValue getCodeValidUntil() {
           if (codeValidUntilBuilder_ == null) {
-            return codeValidUntil_ == null ? io.dstore.Values.timestampValue.getDefaultInstance() : codeValidUntil_;
+            return codeValidUntil_ == null ? io.dstore.values.TimestampValue.getDefaultInstance() : codeValidUntil_;
           } else {
             return codeValidUntilBuilder_.getMessage();
           }
@@ -4006,9 +4006,9 @@ public final class OmGetPrepaidCodesAd {
          * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
          */
-        public Builder setCodeValidUntil(io.dstore.Values.timestampValue value) {
+        public Builder setCodeValidUntil(io.dstore.values.TimestampValue value) {
           if (codeValidUntilBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4026,10 +4026,10 @@ public final class OmGetPrepaidCodesAd {
          * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
          */
         public Builder setCodeValidUntil(
-            io.dstore.Values.timestampValue.Builder builderForValue) {
+            io.dstore.values.TimestampValue.Builder builderForValue) {
           if (codeValidUntilBuilder_ == null) {
             codeValidUntil_ = builderForValue.build();
             onChanged();
@@ -4044,13 +4044,13 @@ public final class OmGetPrepaidCodesAd {
          * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
          */
-        public Builder mergeCodeValidUntil(io.dstore.Values.timestampValue value) {
+        public Builder mergeCodeValidUntil(io.dstore.values.TimestampValue value) {
           if (codeValidUntilBuilder_ == null) {
             if (codeValidUntil_ != null) {
               codeValidUntil_ =
-                io.dstore.Values.timestampValue.newBuilder(codeValidUntil_).mergeFrom(value).buildPartial();
+                io.dstore.values.TimestampValue.newBuilder(codeValidUntil_).mergeFrom(value).buildPartial();
             } else {
               codeValidUntil_ = value;
             }
@@ -4066,7 +4066,7 @@ public final class OmGetPrepaidCodesAd {
          * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
          */
         public Builder clearCodeValidUntil() {
           if (codeValidUntilBuilder_ == null) {
@@ -4084,9 +4084,9 @@ public final class OmGetPrepaidCodesAd {
          * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
          */
-        public io.dstore.Values.timestampValue.Builder getCodeValidUntilBuilder() {
+        public io.dstore.values.TimestampValue.Builder getCodeValidUntilBuilder() {
           
           onChanged();
           return getCodeValidUntilFieldBuilder().getBuilder();
@@ -4096,14 +4096,14 @@ public final class OmGetPrepaidCodesAd {
          * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
          */
-        public io.dstore.Values.timestampValueOrBuilder getCodeValidUntilOrBuilder() {
+        public io.dstore.values.TimestampValueOrBuilder getCodeValidUntilOrBuilder() {
           if (codeValidUntilBuilder_ != null) {
             return codeValidUntilBuilder_.getMessageOrBuilder();
           } else {
             return codeValidUntil_ == null ?
-                io.dstore.Values.timestampValue.getDefaultInstance() : codeValidUntil_;
+                io.dstore.values.TimestampValue.getDefaultInstance() : codeValidUntil_;
           }
         }
         /**
@@ -4111,14 +4111,14 @@ public final class OmGetPrepaidCodesAd {
          * Der Zeitpunkt bis zu dem der Code gültig ist, also eingelöst werden kann
          * </pre>
          *
-         * <code>optional .dstore.values.timestampValue code_valid_until = 10007;</code>
+         * <code>optional .dstore.values.TimestampValue code_valid_until = 10007;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder> 
+            io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder> 
             getCodeValidUntilFieldBuilder() {
           if (codeValidUntilBuilder_ == null) {
             codeValidUntilBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.timestampValue, io.dstore.Values.timestampValue.Builder, io.dstore.Values.timestampValueOrBuilder>(
+                io.dstore.values.TimestampValue, io.dstore.values.TimestampValue.Builder, io.dstore.values.TimestampValueOrBuilder>(
                     getCodeValidUntil(),
                     getParentForChildren(),
                     isClean());
@@ -4127,15 +4127,15 @@ public final class OmGetPrepaidCodesAd {
           return codeValidUntilBuilder_;
         }
 
-        private io.dstore.Values.integerValue currencyId_ = null;
+        private io.dstore.values.IntegerValue currencyId_ = null;
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> currencyIdBuilder_;
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> currencyIdBuilder_;
         /**
          * <pre>
          * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
          */
         public boolean hasCurrencyId() {
           return currencyIdBuilder_ != null || currencyId_ != null;
@@ -4145,11 +4145,11 @@ public final class OmGetPrepaidCodesAd {
          * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
          */
-        public io.dstore.Values.integerValue getCurrencyId() {
+        public io.dstore.values.IntegerValue getCurrencyId() {
           if (currencyIdBuilder_ == null) {
-            return currencyId_ == null ? io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+            return currencyId_ == null ? io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
           } else {
             return currencyIdBuilder_.getMessage();
           }
@@ -4159,9 +4159,9 @@ public final class OmGetPrepaidCodesAd {
          * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
          */
-        public Builder setCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder setCurrencyId(io.dstore.values.IntegerValue value) {
           if (currencyIdBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4179,10 +4179,10 @@ public final class OmGetPrepaidCodesAd {
          * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
          */
         public Builder setCurrencyId(
-            io.dstore.Values.integerValue.Builder builderForValue) {
+            io.dstore.values.IntegerValue.Builder builderForValue) {
           if (currencyIdBuilder_ == null) {
             currencyId_ = builderForValue.build();
             onChanged();
@@ -4197,13 +4197,13 @@ public final class OmGetPrepaidCodesAd {
          * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
          */
-        public Builder mergeCurrencyId(io.dstore.Values.integerValue value) {
+        public Builder mergeCurrencyId(io.dstore.values.IntegerValue value) {
           if (currencyIdBuilder_ == null) {
             if (currencyId_ != null) {
               currencyId_ =
-                io.dstore.Values.integerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
+                io.dstore.values.IntegerValue.newBuilder(currencyId_).mergeFrom(value).buildPartial();
             } else {
               currencyId_ = value;
             }
@@ -4219,7 +4219,7 @@ public final class OmGetPrepaidCodesAd {
          * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
          */
         public Builder clearCurrencyId() {
           if (currencyIdBuilder_ == null) {
@@ -4237,9 +4237,9 @@ public final class OmGetPrepaidCodesAd {
          * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
          */
-        public io.dstore.Values.integerValue.Builder getCurrencyIdBuilder() {
+        public io.dstore.values.IntegerValue.Builder getCurrencyIdBuilder() {
           
           onChanged();
           return getCurrencyIdFieldBuilder().getBuilder();
@@ -4249,14 +4249,14 @@ public final class OmGetPrepaidCodesAd {
          * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
          */
-        public io.dstore.Values.integerValueOrBuilder getCurrencyIdOrBuilder() {
+        public io.dstore.values.IntegerValueOrBuilder getCurrencyIdOrBuilder() {
           if (currencyIdBuilder_ != null) {
             return currencyIdBuilder_.getMessageOrBuilder();
           } else {
             return currencyId_ == null ?
-                io.dstore.Values.integerValue.getDefaultInstance() : currencyId_;
+                io.dstore.values.IntegerValue.getDefaultInstance() : currencyId_;
           }
         }
         /**
@@ -4264,14 +4264,14 @@ public final class OmGetPrepaidCodesAd {
          * Die ID der Währung  ("UnitID" aus der Kategorie "Währung", mögliche Werte s. "mi_GetUnits"), in der "PrepaidValue" angegeben ist
          * </pre>
          *
-         * <code>optional .dstore.values.integerValue currency_id = 10008;</code>
+         * <code>optional .dstore.values.IntegerValue currency_id = 10008;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder> 
+            io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder> 
             getCurrencyIdFieldBuilder() {
           if (currencyIdBuilder_ == null) {
             currencyIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-                io.dstore.Values.integerValue, io.dstore.Values.integerValue.Builder, io.dstore.Values.integerValueOrBuilder>(
+                io.dstore.values.IntegerValue, io.dstore.values.IntegerValue.Builder, io.dstore.values.IntegerValueOrBuilder>(
                     getCurrencyId(),
                     getParentForChildren(),
                     isClean());
@@ -5740,16 +5740,16 @@ public final class OmGetPrepaidCodesAd {
       "Codes_Ad.proto\022#dstore.engine.om_GetPrep" +
       "aidCodes_Ad\032\023dstore/values.proto\032\032dstore" +
       "/engine/engine.proto\"\277\003\n\nParameters\0220\n\014p" +
-      "repaid_code\030\001 \001(\0132\032.dstore.values.string" +
+      "repaid_code\030\001 \001(\0132\032.dstore.values.String" +
       "Value\022\032\n\021prepaid_code_null\030\351\007 \001(\010\022<\n\025fro" +
       "m_code_valid_until\030\002 \001(\0132\035.dstore.values" +
-      ".timestampValue\022#\n\032from_code_valid_until" +
+      ".TimestampValue\022#\n\032from_code_valid_until" +
       "_null\030\352\007 \001(\010\022:\n\023to_code_valid_until\030\003 \001(" +
-      "\0132\035.dstore.values.timestampValue\022!\n\030to_c",
+      "\0132\035.dstore.values.TimestampValue\022!\n\030to_c",
       "ode_valid_until_null\030\353\007 \001(\010\0228\n\023filter_by" +
-      "_use_state\030\004 \001(\0132\033.dstore.values.integer" +
+      "_use_state\030\004 \001(\0132\033.dstore.values.Integer" +
       "Value\022!\n\030filter_by_use_state_null\030\354\007 \001(\010" +
-      "\022,\n\010order_by\030\005 \001(\0132\032.dstore.values.strin" +
+      "\022,\n\010order_by\030\005 \001(\0132\032.dstore.values.Strin" +
       "gValue\022\026\n\rorder_by_null\030\355\007 \001(\010\"\224\005\n\010Respo" +
       "nse\0228\n\020meta_information\030\002 \003(\0132\036.dstore.e" +
       "ngine.MetaInformation\022\'\n\007message\030\003 \003(\0132\026" +
@@ -5757,17 +5757,17 @@ public final class OmGetPrepaidCodesAd {
       "tore.engine.om_GetPrepaidCodes_Ad.Respon" +
       "se.Row\032\344\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022;\n\025gener",
       "ated_by_order_id\030\221N \001(\0132\033.dstore.values." +
-      "integerValue\022B\n\032generated_at_date_and_ti" +
-      "me\030\222N \001(\0132\035.dstore.values.timestampValue" +
+      "IntegerValue\022B\n\032generated_at_date_and_ti" +
+      "me\030\222N \001(\0132\035.dstore.values.TimestampValue" +
       "\022=\n\027used_for_transaction_id\030\223N \001(\0132\033.dst" +
-      "ore.values.integerValue\0227\n\021code_already_" +
-      "used\030\224N \001(\0132\033.dstore.values.booleanValue" +
+      "ore.values.IntegerValue\0227\n\021code_already_" +
+      "used\030\224N \001(\0132\033.dstore.values.BooleanValue" +
       "\0221\n\014prepaid_code\030\225N \001(\0132\032.dstore.values." +
-      "stringValue\0223\n\rprepaid_value\030\226N \001(\0132\033.ds" +
-      "tore.values.decimalValue\0228\n\020code_valid_u" +
-      "ntil\030\227N \001(\0132\035.dstore.values.timestampVal",
+      "StringValue\0223\n\rprepaid_value\030\226N \001(\0132\033.ds" +
+      "tore.values.DecimalValue\0228\n\020code_valid_u" +
+      "ntil\030\227N \001(\0132\035.dstore.values.TimestampVal",
       "ue\0221\n\013currency_id\030\230N \001(\0132\033.dstore.values" +
-      ".integerValueBV\n\033io.dstore.engine.proced" +
+      ".IntegerValueBV\n\033io.dstore.engine.proced" +
       "uresZ7gosdk.dstore.de/engine/procedures/" +
       "om_GetPrepaidCodes_Adb\006proto3"
     };
@@ -5782,7 +5782,7 @@ public final class OmGetPrepaidCodesAd {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.Values.getDescriptor(),
+          io.dstore.values.ValuesOuterClass.getDescriptor(),
           io.dstore.engine.EngineOuterClass.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Parameters_descriptor =
@@ -5803,7 +5803,7 @@ public final class OmGetPrepaidCodesAd {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPrepaidCodes_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "GeneratedByOrderId", "GeneratedAtDateAndTime", "UsedForTransactionId", "CodeAlreadyUsed", "PrepaidCode", "PrepaidValue", "CodeValidUntil", "CurrencyId", });
-    io.dstore.Values.getDescriptor();
+    io.dstore.values.ValuesOuterClass.getDescriptor();
     io.dstore.engine.EngineOuterClass.getDescriptor();
   }
 
